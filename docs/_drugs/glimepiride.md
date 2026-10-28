@@ -2,19 +2,19 @@
 layout: default
 title: Glimepiride
 parent: Low Evidence (L5)
-nav_order: 481
+nav_order: 480
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Glimepiride: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
+indication_count: 9
 monitor_inn: "Glimepiride"
-predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+last_modified_at: 2026-10-23
+description: "Glimepiride: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
 # Glimepiride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Glimepiride: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+## Glimepiride: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Glimepiride is a sulfonylurea originally used to treat type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on the model's graph-based score alone.
+The TxGNN model predicts it may be effective for **classic stiff person syndrome**,
+but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (taken from the drug's knowledge-graph indications, because the Singapore registrations do not state an approved indication) |
-| Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.75% |
+| Original Indication | Type 2 diabetes mellitus (relation recorded in the knowledge graph; the local licence records contain no indication text) |
+| Predicted New Indication | Classic stiff person syndrome |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, glimepiride is a sulfonylurea that closes ATP-sensitive potassium (K-ATP) channels on pancreatic beta cells to stimulate insulin release. Its efficacy in type 2 diabetes is well established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Glimepiride is generally known as a sulfonylurea that closes pancreatic KATP channels to stimulate insulin release, but this is background knowledge and not drawn from the compiled data.
 
-A mechanistic link to focal stiff limb syndrome has not been established. This condition belongs to the stiff-limb/stiff-person spectrum, which is often linked to anti-GAD65 autoimmunity and GABAergic dysfunction. A likely reason for the prediction is that this spectrum frequently co-occurs with diabetes, so the two sit close together in the knowledge graph. That is an indirect association and not evidence that glimepiride treats the condition. The related prediction, classic stiff person syndrome, scored identically and has the same weakness.
+Stiff person syndrome is an autoimmune disorder involving GAD65 and GABAergic neurotransmission, and it often coexists with type 1 diabetes. The score comes from the TxGNN model (deep learning) and may therefore reflect similarities the model learned between related diseases, not biological evidence. No mechanistic pathway from KATP channel blockade to stiff person syndrome is supported by the available data, so the link should be regarded as speculative.
+
+The other top predictions (focal stiff limb syndrome, opsismodysplasia, thiamine-responsive dysfunction syndrome, several localized lipodystrophies, and pancreatic agenesis) also have no supporting trials or relevant publications. Pancreatic agenesis is mechanistically contradictory, because glimepiride needs functional beta cells to work.
 
 ## Clinical Trial Evidence
 
@@ -65,43 +68,39 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for classic stiff person syndrome. The only publication found across the top predictions (PMID [12720536](https://pubmed.ncbi.nlm.nih.gov/12720536/), 2003, European Journal of Endocrinology) concerns endosonographic imaging pitfalls in suspected insulinomas. It was linked to pancreatic agenesis and is not relevant to treating this or any predicted condition.
 
 ## Singapore Market Information
 
-All 5 registrations are valid single-ingredient oral tablets.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN10459P | AMARYL 2.0 TABLETS 2 mg | Tablet | SANOFI SRL |
-| SIN10460P | AMARYL 1.0 TABLETS 1 mg | Tablet | SANOFI SPA |
-| SIN10462P | AMARYL 3.0 TABLETS 3 mg | Tablet | SANOFI SPA |
-| SIN13674P | DIALOSA TABLET 3MG | Tablet | PharmaPath SA |
-| SIN13675P | DIALOSA TABLET 2MG | Tablet | PharmaPath SA |
+| SIN13674P | DIALOSA TABLET 3MG | Tablet | Not stated in the available records |
+| SIN10459P | AMARYL 2.0 TABLETS 2 mg | Tablet | Not stated in the available records |
+| SIN10460P | AMARYL 1.0 TABLETS 1 mg | Tablet | Not stated in the available records |
+| SIN10462P | AMARYL 3.0 TABLETS 3 mg | Tablet | Not stated in the available records |
+| SIN13675P | DIALOSA TABLET 2MG | Tablet | Not stated in the available records |
+
+All five registrations are valid, single-ingredient oral tablets.
 
 ## Safety Considerations
 
-The package insert warnings and contraindications were not available for this report. Please refer to the package insert for authoritative safety information.
+- **Contraindication-type relations recorded in the knowledge graph** (not label text): kidney disease, liver disease, gallbladder disease, congestive heart failure, hypopituitarism and other pituitary hormone deficiencies, hypogonadotropic hypogonadism (including Kallmann syndrome), thymus gland disease, osteoporosis (including postmenopausal), and infectious disease.
+- **Drug Interactions**: The interaction query returned 100 records; 20 are shown here, mostly of Moderate severity. Examples include phenylephrine, acebutolol, acetazolamide, famotidine, ranitidine, acitretin, formoterol, pseudoephedrine, ketorolac, epinephrine, ibuprofen, ethinylestradiol, hydrocortisone, albiglutide, salbutamol, ethanol, nitazoxanide and hydrochlorothiazide. Topical hydrocortisone and topical alclometasone are Minor.
 
-- **Conditions flagged in the knowledge graph (not label text):** kidney disease, liver disease, gallbladder disease, congestive heart failure, pituitary hormone deficiency (including hypopituitarism and Sheehan syndrome), hypogonadotropic hypogonadism (including Kallmann syndrome), thymus gland disease, osteoporosis (including postmenopausal), and infectious disease.
-- **Drug interactions:** 100 interactions were identified, mostly Moderate and some Minor. Examples at Moderate level include:
-  - Beta-agonists and sympathomimetics: phenylephrine, pseudoephedrine, epinephrine, salbutamol, formoterol.
-  - Other drugs: acebutolol, famotidine, ranitidine, acetazolamide, ibuprofen, ketorolac, hydrochlorothiazide, ethinylestradiol, hydrocortisone, albiglutide, acitretin, nitazoxanide, ethanol.
-- **Minor-level examples:** topical hydrocortisone and topical alclometasone.
+For label warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but no trials or publications support it, and no plausible mechanism links a glucose-lowering sulfonylurea to focal stiff limb syndrome. The evidence is model prediction only (L5).
+The prediction is supported only by a model score. No clinical trials or relevant publications address stiff person syndrome, and no mechanism links glimepiride to the condition. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- A literature and mechanism review to test whether any biological link exists, such as GABAergic or autoimmune pathways.
-- Mechanism of action data for glimepiride.
-- The package insert warnings and contraindications.
-- A safety plan covering hypoglycaemia risk in non-diabetic patients and the interactions listed above.
-- Consideration of other predicted indications, such as type 1 diabetes mellitus (L2 on current data). The listed trials there mostly enrolled type 2 diabetes patients, so their relevance still needs confirmation.
+- A literature and trial search that directly addresses glimepiride (or sulfonylureas) in stiff person syndrome
+- Mechanism of action data and a plausible biological rationale
+- Package insert warnings and contraindications from HSA for safety screening
+- Review of whether the score reflects disease co-occurrence (stiff person syndrome with type 1 diabetes) rather than a therapeutic effect
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

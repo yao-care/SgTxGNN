@@ -4,17 +4,17 @@ title: Pazopanib
 parent: Low Evidence (L5)
 nav_order: 767
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pazopanib: predicted new indication Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene… (evidence level L5). Approved use: Renal cell carcinoma and soft tissue sarcoma"
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+description: "Pazopanib: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Renal Cell Carcinoma (Xp11.2/TFE3 Translocation Subtype)
+## Pazopanib: Liposarcoma
 {: .text-alpha }
 
 The prompt says to use predicted_indications[0] as the primary prediction. That entry (Xp11.2/TFE3 RCC) has no trials or literature. The data compiled for this report also contain better-supported candidates, namely liposarcoma, fibroblastic neoplasm, dermatofibrosarcoma protuberans (DFSP) and unclassified RCC. These are summarised after the main sections so the primary entry is not misrepresented.
@@ -41,19 +41,18 @@ The prompt says to use predicted_indications[0] as the primary prediction. That 
 ## One-Sentence Summary
 
 Pazopanib is an oral multi-target tyrosine kinase inhibitor, originally used for renal cell carcinoma and soft tissue sarcoma.
-The TxGNN model predicts it may be effective for **renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions**, but **no clinical trials and no publications** currently support this specific prediction (model prediction only).
 Other predicted indications have more support, particularly liposarcoma (6 trials, 20 publications), fibroblastic neoplasm (2 trials, 20 publications) and DFSP (4 trials, 12 publications).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and soft tissue sarcoma (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions |
-| TxGNN Prediction Score | 99.63% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Liposarcoma |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -107,10 +106,9 @@ Please also refer to the package insert for full warnings and contraindications.
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Key Support | Recommendation |
 |---|---|---|---|---|---|
-| 2 | Unclassified renal cell carcinoma | 99.63% | L3 | Single-arm Phase 2 in non-clear-cell RCC ([PMID 28546525](https://pubmed.ncbi.nlm.nih.gov/28546525/)); retrospective series including PANORAMA ([28108284](https://pubmed.ncbi.nlm.nih.gov/28108284/)) | Research Question |
-| 4 | Liposarcoma | 99.59% | L2 | Phase 2 trials [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) (n=42) and [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) (n=52); [PMID 31010343](https://pubmed.ncbi.nlm.nih.gov/31010343/) | Research Question |
-| 8 | Fibroblastic neoplasm | 99.35% | L2 | [NCT02066285](https://clinicaltrials.gov/study/NCT02066285) (n=96, solitary fibrous tumour/extraskeletal myxoid chondrosarcoma); [PMID 25269954](https://pubmed.ncbi.nlm.nih.gov/25269954/) | Research Question |
-| 10 | Dermatofibrosarcoma protuberans | 99.29% | L2 | Phase 2 in unresectable DFSP ([PMID 32956651](https://pubmed.ncbi.nlm.nih.gov/32956651/)); terminated [NCT01059656](https://clinicaltrials.gov/study/NCT01059656) (n=23) | Research Question |
+| 4 | Liposarcoma | 0.9959 | L2 | Phase 2 trials [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) (n=42) and [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) (n=52); [PMID 31010343](https://pubmed.ncbi.nlm.nih.gov/31010343/) | Research Question |
+| 8 | Fibroblastic neoplasm | 0.9935 | L5 | [NCT02066285](https://clinicaltrials.gov/study/NCT02066285) (n=96, solitary fibrous tumour/extraskeletal myxoid chondrosarcoma); [PMID 25269954](https://pubmed.ncbi.nlm.nih.gov/25269954/) | Research Question |
+| 10 | Dermatofibrosarcoma protuberans | 0.9929 | L2 | Phase 2 in unresectable DFSP ([PMID 32956651](https://pubmed.ncbi.nlm.nih.gov/32956651/)); terminated [NCT01059656](https://clinicaltrials.gov/study/NCT01059656) (n=23) | Research Question |
 
 Ranks 3, 5, 6, 7 and 9 (RCC with neuroblastoma, childhood kidney cell carcinoma, ovarian myxoid liposarcoma, heart fibrosarcoma and kidney fibrosarcoma) are L5 with no supporting studies, and are all on Hold.
 

@@ -6,9 +6,9 @@ nav_order: 882
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ropeginterferon Alfa-2B: predicted new indication Laubry-Pezzi syndrome (evidence level L5). Approved use: Polycythaemia vera (acquired)"
 monitor_inn: "Ropeginterferon alfa-2b"
 predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneurysm", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "partial deletion of the long arm of chromosome 22", "orofacial clefting syndrome", "pulmonary valve disease"]
+description: "Ropeginterferon Alfa-2B: predicted new indication Laubry-Pezzi syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ropeginterferon Alfa-2B
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ropeginterferon alfa-2b: From Polycythaemia Vera to Laubry-Pezzi Syndrome
+## Ropeginterferon Alfa-2B: Laubry-Pezzi syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **Laubry-Pezzi syndrome** (a ve
 
 | Item | Content |
 |------|------|
-| Original Indication | Polycythaemia vera (acquired); the Singapore licence record contains no indication text, so this comes from the knowledge-graph indication data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Laubry-Pezzi syndrome |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, ropeginterferon alfa-2b is an immunomodulatory and antiproliferative interferon used in myeloproliferative neoplasms. Its efficacy in polycythaemia vera is established, and it is thought to act by suppressing the abnormal JAK2-mutated blood-cell clone.
 
-Laubry-Pezzi syndrome is a structural heart defect (ventricular septal defect with aortic regurgitation). It is not a blood cancer and has no known interferon-responsive pathway. The review found **no plausible mechanistic link** between the drug and this condition. The high TxGNN score most likely reflects a knowledge-graph artifact, such as proximity among related nodes, rather than a real biological rationale.
+Laubry-Pezzi syndrome is a structural heart defect (ventricular septal defect with aortic regurgitation). It is not a blood cancer and has no known interferon-responsive pathway. The review found **no plausible mechanistic link** between the drug and this condition. The high TxGNN score most likely reflects a TxGNN model (deep learning) artifact, such as proximity among related nodes, rather than a real biological rationale.
 
 The other nine top-ranked predictions are also structural or congenital conditions, such as septal aneurysm, Pierre Robin syndrome, chromosomal deletions, orofacial clefting and pulmonary valve disease. Each has a similar lack of mechanistic support. This pattern suggests a systematic model artifact rather than a true repurposing signal.
 

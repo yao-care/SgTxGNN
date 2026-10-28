@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Ganciclovir
-parent: High Evidence (L1-L2)
-nav_order: 468
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ganciclovir: predicted new indication Cytomegalovirus pneumonia (evidence level L2). Approved use: Cytomegalovirus retinitis"
-monitor_inn: "Ganciclovir"
-predicted_indications: ["cytomegalovirus pneumonia", "epidemic keratoconjunctivitis", "commissural lip fistula", "idiopathic disseminated cytomegalovirus infection", "burning mouth syndrome", "oral leukoedema", "osteoradionecrosis of the mandible", "punctate epithelial keratoconjunctivitis", "oral candidiasis", "pneumonia"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 467
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Ganciclovir: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Ganciclovir
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +32,48 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Ganciclovir: From Cytomegalovirus Retinitis to Cytomegalovirus Pneumonia
+<!-- known-uses-page -->
+<!-- description: Ganciclovir: known uses and market status in Singapore; currently no new candidate indication -->
+## Ganciclovir: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model produced no candidate indication with a score of 0.99 or higher for Ganciclovir, so there is currently no new predicted indication. The drug's own recorded uses are listed below. They are not model candidates.
 
-Ganciclovir is an antiviral drug originally used for cytomegalovirus (CMV) retinitis and herpes simplex virus keratitis.
-The TxGNN model predicts it may be effective for **Cytomegalovirus Pneumonia**,
-with **1 clinical trial** (Phase 4, completed) and **20 publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Cytomegalovirus retinitis; herpes simplex virus keratitis (no approved indication text is available from the Singapore licences) |
-| Predicted New Indication | Cytomegalovirus pneumonia |
-| TxGNN Prediction Score | 97.56% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Proceed with Guardrails |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 3 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Ganciclovir is a guanosine analogue. It is phosphorylated by the viral UL97 kinase and then inhibits CMV DNA polymerase, which stops the virus from replicating. Detailed mechanism of action data was not available in the structured drug record, but this mechanism is well established in the published literature and in the analysis compiled for this report.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The original indication (CMV retinitis) and the predicted indication (CMV pneumonia) are caused by the same pathogen. The prediction is therefore an extension to another organ site, not a new mechanism. Ganciclovir is already regarded as first-line therapy for life- or sight-threatening CMV disease in immunocompromised patients. Older studies in bone marrow transplant recipients also describe its use, often with intravenous immunoglobulin, for CMV pneumonia.
-
-The high score is consistent with this biological logic. The main caveat is that the available trial tests preemptive treatment in ICU patients, not treatment of established CMV pneumonia.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02152358](https://clinicaltrials.gov/study/NCT02152358) | Phase 4 | Completed | 317 | Randomised, double-blind trial of preemptive ganciclovir (CMV viraemia) or aciclovir (HSV) in ventilated ICU patients; the primary aim is to increase ventilator-free days at Day 60. Results are not summarised in the data compiled. |
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39774866](https://pubmed.ncbi.nlm.nih.gov/39774866/) | 2025 | Review | Intensive Care Medicine | Presentation, risk factors and management of CMV infection in immunocompromised ICU patients |
-| [32134483](https://pubmed.ncbi.nlm.nih.gov/32134483/) | 2020 | Review | J Infect Dis | Ganciclovir and valganciclovir used for prevention and treatment of CMV in transplant patients; new therapies in development |
-| [8668848](https://pubmed.ncbi.nlm.nih.gov/8668848/) | 1995 | Review | Semin Respir Infect | CMV pneumonia is severe in allogeneic bone marrow transplant recipients (almost 100% mortality if untreated); faster diagnosis allows earlier therapy |
-| [8274605](https://pubmed.ncbi.nlm.nih.gov/8274605/) | 1993 | Review | Clin Infect Dis | Prevention and treatment of CMV pneumonia in transplant recipients; ganciclovir increasingly important for early prevention |
-| [2161731](https://pubmed.ncbi.nlm.nih.gov/2161731/) | 1990 | Review | Drugs | Ganciclovir should be considered first-line for life- or sight-threatening CMV infection in immunocompromised patients |
-| [2847610](https://pubmed.ncbi.nlm.nih.gov/2847610/) | 1988 | Cohort | Ann Intern Med | Ganciclovir plus intravenous CMV immunoglobulin for CMV pneumonia after bone marrow transplant |
-| [2847609](https://pubmed.ncbi.nlm.nih.gov/2847609/) | 1988 | Case report | Ann Intern Med | CMV interstitial pneumonitis after allogeneic transplant treated with ganciclovir plus high-dose immune globulin |
-| [2847292](https://pubmed.ncbi.nlm.nih.gov/2847292/) | 1988 | Clinical series | Rev Infect Dis | 28 of 39 (72%) life- or sight-threatening CMV infections improved on ganciclovir |
-| [3035246](https://pubmed.ncbi.nlm.nih.gov/3035246/) | 1987 | Clinical series | JAMA | 31 immunocompromised patients with severe CMV disease treated with intravenous ganciclovir |
-| [11477447](https://pubmed.ncbi.nlm.nih.gov/11477447/) | 2001 | Retrospective review | Bone Marrow Transplant | CMV pneumonia in 16 of 795 autologous transplant recipients (2%), more frequent in seropositive patients |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| cytomegalovirus retinitis |
+| herpes simplex virus keratitis |
+| ventricular tachycardia |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05051P | CYMEVENE FOR INJECTION 500 mg | Powder for solution for injection | Not stated in the data compiled |
-| SIN11778P | VIRGAN EYE GEL 1.5 mg/g | Ointment (eye gel) | Not stated in the data compiled |
-
-Note: The injectable form is the one relevant to CMV pneumonia. The eye gel is a topical ocular product and would not be suitable for lung disease.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05051P | CYMEVENE FOR INJECTION 500 mg | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN11778P | VIRGAN EYE GEL 1.5 mg/g | OINTMENT | Valid |
 
 ## Cytotoxicity
 
@@ -138,19 +109,6 @@ Package insert warnings and contraindications could not be retrieved. Please ref
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-CMV pneumonia is caused by the same virus as ganciclovir's established indication, and a completed randomised Phase 4 trial and decades of clinical reports support its use. Nevertheless, the trial tested a preemptive strategy in ICU patients, not treatment of established CMV pneumonia, and no pivotal Phase 3 trial exists for this indication. The safety data are also incomplete.
-
-**To proceed, the following is needed:**
-- The package insert (warnings and contraindications) from the Singapore Health Sciences Authority (HSA) to complete the safety screening
-- Results of NCT02152358, and evidence specific to treatment of established CMV pneumonia
-- Confirmation of the approved indication text for the Singapore injectable product (CYMEVENE)
-- A haematological and renal monitoring plan, especially for transplant and other immunocompromised patients
-- A DrugBank mechanism of action record to formally document the mechanistic link
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 |------|------|
 | Original Indication | Not stated in the Singapore registration records; indacaterol is a long-acting beta2-agonist bronchodilator used for obstructive airway disease |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -114,7 +114,7 @@ The NSIAD prediction has only a model score. There are no trials or publications
 - Detailed mechanism of action data and the indications and safety warnings from the Singapore package inserts
 
 **Note on other predictions from the same analysis:**
-- **Bronchial disease (rank 7, score 99.18%):** This prediction has the strongest evidence in this analysis (Evidence Level L1, "Proceed with Guardrails"). It is supported by several completed Phase 3 trials in asthma, including NCT02554786 (n=2,216), NCT00529529 (n=805) and NCT01079130 (n=511), and by the IRIDIUM RCT (PMID 32653074, *Lancet Respir Med*, 2020).
+- **Bronchial disease (rank 7, score 0.9918):** This prediction has the strongest evidence in this analysis (Evidence Level L1, "Proceed with Guardrails"). It is supported by several completed Phase 3 trials in asthma, including NCT02554786 (n=2,216), NCT00529529 (n=805) and NCT01079130 (n=511), and by the IRIDIUM RCT (PMID 32653074, *Lancet Respir Med*, 2020).
 - **Caveat:** This is largely an existing drug class use rather than true repurposing. Stand-alone LABA use in asthma carries a safety concern, so use should be restricted to combinations with an inhaled corticosteroid.
 - **Other predictions (ranks 2–6 and 8–10):** headache disorder, trigeminal autonomic cephalalgia, paratenonitis, calcific tendinitis, hypertrichosis, myositis, anaphylaxis and Ambras-type hypertrichosis. All have no supporting evidence and are rated "Hold".
 ## Disclaimer

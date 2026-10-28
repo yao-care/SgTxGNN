@@ -4,17 +4,17 @@ title: Triamterene
 parent: Low Evidence (L5)
 nav_order: 1021
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and congestive heart failure"
 monitor_inn: "Triamterene"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "potassium deficiency disease", "acute pulmonary heart disease", "pregnancy associated osteoporosis", "postmenopausal osteoporosis"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Triamterene
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Triamterene: From Hypertension to Malignant Hypertensive Renal Disease
+## Triamterene: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but **no clinical trials and no publications** currently support this specific p
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and congestive heart failure (the Singapore licence has no indication text recorded) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,17 +64,17 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Malignant hypertensive renal disease is kidney damage caused by severe, uncontrolled hypertension. Blood pressure and volume control could plausibly help, which is the link behind the model's prediction. However, this is largely a restatement of the original hypertension indication rather than a genuinely new use. The prediction is not backed by any trial or publication in the data compiled for this report.
 
-Other predictions with the same type of reasoning (malignant renovascular hypertension) share the same limits. Some other high-scoring predictions, such as pulmonary hypertension, Braddock syndrome, and acute pulmonary heart disease, have no clear mechanistic basis and likely reflect network proximity in the knowledge graph.
+Some other high-scoring predictions, such as pulmonary hypertension and Braddock syndrome, have no clear mechanistic basis. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Among the other predictions, the better-supported ones are:
-- **Potassium deficiency disease** (evidence level L4): this fits triamterene's established role in preventing diuretic-induced hypokalaemia. The literature consists of reviews and case reports, including Liddle's syndrome cases treated with triamterene. It is an established adjunctive use rather than a novel repurposing.
+- The literature consists of reviews and case reports, including Liddle's syndrome cases treated with triamterene. It is an established adjunctive use rather than a novel repurposing.
 - **Chronic pulmonary heart disease** (evidence level L4): only indirect evidence from general chronic heart failure studies using diuretic combinations.
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: The knowledge graph links triamterene to the following conditions, which should be treated as cautions:
+- **Contraindications (TxGNN model (deep learning) associations, not label text)**: The TxGNN model (deep learning) links triamterene to the following conditions, which should be treated as cautions. These links may reflect similarities the model learned between related diseases, not biological evidence:
   - Kidney and urinary: kidney disease, anuria, nephrolithiasis, nephrocalcinosis, acute urate nephropathy, pyoureter
   - Liver and biliary: liver failure, liver disease, hepatic coma, hepatic encephalopathy, gallbladder disease, pancreatitis
   - Metabolic: diabetes mellitus (type 1 and type 2), diabetic ketoacidosis, gout, hyperuricaemia, hypercalcaemia, hyperparathyroidism, phosphorus metabolism disease, acidosis, lactic acidosis
@@ -109,7 +109,6 @@ The prediction for malignant hypertensive renal disease has no supporting trials
 - Detailed mechanism of action data (for example, from DrugBank)
 - Clinical or observational evidence of benefit in hypertensive renal disease, beyond blood pressure control
 - A renal and potassium monitoring plan for patients with impaired kidney function
-- If a more evidence-based direction is preferred, a focused review of **potassium deficiency disease** (L4), which is the best-supported alternative among the predictions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

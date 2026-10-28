@@ -4,17 +4,17 @@ title: Perindopril
 parent: Low Evidence (L5)
 nav_order: 780
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Perindopril: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Perindopril"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "polydipsia", "congenital temporomandibular joint ankylosis"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Perindopril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Perindopril: From Hypertension to Malignant Renovascular Hypertension
+## Perindopril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Perindopril is an ACE inhibitor originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
 The evidence rests on model prediction alone (Level L5).
 
 ---
@@ -48,11 +47,11 @@ The evidence rests on model prediction alone (Level L5).
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.77% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -64,21 +63,16 @@ The evidence rests on model prediction alone (Level L5).
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, perindopril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and it may mechanistically apply to renovascular hypertension, which is strongly dependent on the renin-angiotensin system (RAS).
 
-There is an important safety caveat. ACE inhibitors can cause acute renal failure in patients with bilateral renal artery stenosis. The knowledge graph also lists renal artery obstruction as a contraindication-related condition for this drug. The high TxGNN score (0.998) is a model prediction, probably driven by similarity to the original hypertension indication, and is not clinical proof.
+There is an important safety caveat. ACE inhibitors can cause acute renal failure in patients with bilateral renal artery stenosis. The knowledge graph also lists renal artery obstruction as a contraindication-related condition for this drug.
 
 ### Other Predicted Indications (for context)
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |---|---|---|---|---|
-| 2 | Malignant hypertensive renal disease | 99.77% | L5 | The only retrieved paper (post-nephrectomy kidney function) is not relevant |
-| 3 | Pulmonary hypertension, unclear multifactorial mechanism | 99.75% | L5 | No evidence; systemic vasodilators may be harmful |
-| 4 | Pulmonary hypertension owing to lung disease/hypoxia | 99.75% | L4 | Rat studies only (e.g., PMID 11282121, 10602319) |
-| 5 | Braddock syndrome | 99.66% | L5 | No evidence |
-| 6 | Chronic pulmonary heart disease | 97.60% | L3 | Small human studies, many non-English; the most evidence-supported prediction |
-| 7 | Familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 67.49% | L5 | No evidence |
-| 8 | Brain small vessel disease 1 | 65.65% | L4 | One indirect study in lacunar infarction |
-| 9 | Polydipsia | 62.48% | L5 | Retrieved paper not relevant |
-| 10 | Congenital temporomandibular joint ankylosis | 60.31% | L5 | Likely a spurious association |
+| 2 | Malignant hypertensive renal disease | 0.9977 | L5 | The only retrieved paper (post-nephrectomy kidney function) is not relevant |
+| 3 | Pulmonary hypertension, unclear multifactorial mechanism | 0.9975 | L5 | No evidence; systemic vasodilators may be harmful |
+| 4 | Pulmonary hypertension owing to lung disease/hypoxia | 0.9975 | L5 | Rat studies only (e.g., PMID 11282121, 10602319) |
+| 5 | Braddock syndrome | 0.9966 | L5 | No evidence |
 
 ---
 
@@ -90,9 +84,7 @@ Currently no related clinical trials registered for malignant renovascular hyper
 
 ## Literature Evidence
 
-For the top prediction (malignant renovascular hypertension), currently no related literature is available.
 
-The most relevant literature across the predicted indications relates to chronic pulmonary heart disease and pulmonary hypertension:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -142,13 +134,11 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, malignant renovascular hypertension, has plausible RAS-related biology but no trials or literature, and carries a real renal safety concern. Among the other predictions, chronic pulmonary heart disease has the most human data (L3), but those studies are small, of unclear design and often non-English, so it is best treated as a research question rather than a development candidate.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
 - Mechanism-of-action data from DrugBank
 - A targeted literature review of ACE inhibitors in renovascular hypertension, including renal safety in renal artery stenosis
-- For chronic pulmonary heart disease, a systematic review and critical appraisal of the existing small studies, followed by a prospective controlled study if warranted
 - Confirmation of the approved indications for the Singapore-registered products
 ## Disclaimer
 

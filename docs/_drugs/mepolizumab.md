@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mepolizumab
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 650
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L4). Approved use: Eosinophilic pneumonia"
 monitor_inn: "Mepolizumab"
-predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia", "Evans syndrome", "neonatal thrombocytopenia", "autosomal thrombocytopenia with normal platelets", "filariasis", "mixed-type autoimmune hemolytic anemia"]
+predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
+description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mepolizumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Mepolizumab: From Eosinophilic Pneumonia to Thrombocytopenia Due to Immune Destruction
+## Mepolizumab: Thrombocytopenia due to immune destruction
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but the supporting evidence is thin: **0 clinical trials** and **1 publication**
 
 | Item | Content |
 |------|------|
-| Original Indication | Eosinophilic pneumonia; pulmonary eosinophilia (from the knowledge graph; no approved-indication text in the Singapore licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| TxGNN Prediction Score | 0.9966 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,6 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The link to immune thrombocytopenia is indirect. A single case report describes a patient with a steroid-resistant hypereosinophilic immune disorder and a mixed thrombotic microangiopathy who improved on mepolizumab. The benefit is plausibly due to controlling eosinophil-driven immune dysregulation, not to a direct effect on platelet autoimmunity (anti-platelet autoantibodies and Fc-gamma receptor-mediated platelet clearance). The high TxGNN score is a computational prediction and does not replace clinical evidence.
 
-Most other top-ranked predictions (inherited platelet disorders such as Glanzmann thrombasthenia and pseudo-von Willebrand disease) have no plausible IL-5-related mechanism and likely reflect proximity in the knowledge graph. Filariasis has a loose eosinophil link, but depleting eosinophils could impair parasite defence.
 
 ## Clinical Trial Evidence
 
@@ -89,8 +88,6 @@ All three licences are valid single-ingredient products from Glaxo Operations UK
 Please refer to the package insert for safety information. No drug interactions were found in the data compiled for this report, and no knowledge-graph contraindications were recorded.
 
 Specific concerns for the predicted uses:
-- **Filariasis:** eosinophil depletion could impair host defence against parasites.
-- **Neonatal thrombocytopenia:** no safety or pharmacokinetic data exist for mepolizumab in neonates.
 
 ## Conclusion and Next Steps
 

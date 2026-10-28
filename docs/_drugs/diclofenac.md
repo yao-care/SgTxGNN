@@ -6,9 +6,9 @@ nav_order: 327
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Diclofenac: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the Singapore licence records. The drug knowledge graph…"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
+description: "Diclofenac: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Diclofenac
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Diclofenac: From Osteoarthritis and Rheumatoid Arthritis to Juvenile Idiopathic Arthritis
+## Diclofenac: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,12 +49,12 @@ The highest-ranked prediction by the TxGNN model, **hypotrichosis simplex of the
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records. The drug knowledge graph lists rheumatoid arthritis, osteoarthritis, ankylosing spondylitis and actinic keratosis, among others. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication (rank 1) | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score (rank 1) | 99.69% |
+| TxGNN Prediction Score (rank 1) | 0.9969 |
 | Evidence Level (rank 1) | L5 |
-| Best-Supported Candidate | Juvenile idiopathic arthritis (score 99.25%, Evidence Level L3) |
-| Singapore Market Status | ✓ Marketed |
+| Best-Supported Candidate | hypotrichosis simplex of the scalp |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Rank 1: Hold. Juvenile idiopathic arthritis: Proceed with Guardrails |
 
@@ -66,9 +66,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 **Juvenile idiopathic arthritis (JIA)** is mechanistically a close relative of the original arthritis indications. The supplied literature includes small clinical studies of diclofenac in juvenile arthritis and reviews of NSAID use in paediatric rheumatic disease. These support **symptomatic** use (pain, stiffness, inflammation), not disease modification.
 
-**The rank 1 prediction (hypotrichosis simplex of the scalp)** has no clear link. It is a genetic hair-follicle disorder. Prostaglandin modulation could theoretically affect the hair cycle, but the direction of effect is uncertain: PGD2 inhibits hair growth, while PGE2 and PGF2α promote it. The high score appears to be a graph-based prediction only.
+**The rank 1 prediction (hypotrichosis simplex of the scalp)** has no clear link. It is a genetic hair-follicle disorder. Prostaglandin modulation could theoretically affect the hair cycle, but the direction of effect is uncertain: PGD2 inhibits hair growth, while PGE2 and PGF2α promote it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Most other top-10 predictions are rare skeletal, hair or immune disorders (e.g., acromesomelic dysplasia, pseudoachondroplasia, brachyolmia, WHIM syndrome, diffuse alopecia areata). They have no supporting evidence and no plausible mechanistic link beyond possible symptomatic pain relief. They are likely driven by graph proximity to musculoskeletal disease nodes.
+Most other top-10 predictions are rare skeletal, hair or immune disorders (e.g., acromesomelic dysplasia, pseudoachondroplasia, brachyolmia, WHIM syndrome, diffuse alopecia areata). They have no supporting evidence and no plausible mechanistic link beyond possible symptomatic pain relief. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -131,7 +131,7 @@ Please also refer to the package insert for safety information, as label-based w
 **Decision: Hold for the rank 1 prediction (hypotrichosis simplex of the scalp); Proceed with Guardrails for juvenile idiopathic arthritis**
 
 **Rationale:**
-- The rank 1 prediction and the other top-10 predictions, apart from JIA, rest only on graph-based scores. They have no trials, no literature and no clear mechanism, so they stay at Evidence Level L5.
+- The rank 1 prediction and the other top-10 predictions, apart from JIA, rest only on TxGNN model (deep learning) scores, which may reflect similarities the model learned between related diseases, not biological evidence. They have no trials, no literature and no clear mechanism, so they stay at Evidence Level L5.
 - For JIA, diclofenac is mechanistically well matched and supported by small, older clinical studies and reviews (Evidence Level L3). It is a symptomatic option rather than a disease-modifying one, and no registered trials were found.
 
 **To proceed, the following is needed:**

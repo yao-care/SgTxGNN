@@ -4,17 +4,17 @@ title: Fentanyl
 parent: Low Evidence (L5)
 nav_order: 425
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the available registration data (fentanyl is a mu-opioi…"
 monitor_inn: "Fentanyl"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "trichotillomania", "myofascial pain syndrome", "manic bipolar affective disorder", "migraine with brainstem aura", "methemoglobinemia", "myositis fibrosa", "idiopathic granulomatous myositis", "tendinitis"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
+description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fentanyl
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fentanyl: From Opioid Analgesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Fentanyl: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Fentanyl is a potent mu-opioid analgesic marketed in Singapore as transdermal patches, sublingual tablets and injections.
 The TxGNN model's top-ranked prediction is **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but this rests on computation alone, with **0 clinical trials** and **0 publications** supporting it.
-Among the other predictions, only myofascial pain syndrome (1 Phase 3 trial, 1 review) and tendinitis (perioperative pain literature) have any meaningful supporting data, and even these support symptom relief rather than treatment of the underlying disease.
 
 ---
 
@@ -48,12 +47,12 @@ Among the other predictions, only myofascial pain syndrome (1 Phase 3 trial, 1 r
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available registration data (fentanyl is a mu-opioid analgesic used for moderate-to-severe pain, anaesthesia and breakthrough pain) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 18 |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,16 +64,15 @@ Detailed mechanism of action data is not available in the data compiled for this
 For the top prediction, NSIAD, the mechanistic link is weak. NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2). Opioids can influence vasopressin release, but this does not address a receptor-level defect. There is no plausible therapeutic rationale, and the high score should be read as a computational artefact.
 
 Predictions with some mechanistic plausibility are those tied to pain:
-- **Myofascial pain syndrome (rank 4, score 98.09%)**: Fentanyl's analgesic activity in chronic pain makes this plausible. However, long-term opioid use in musculoskeletal pain carries significant risks.
-- **Tendinitis (rank 10, score 97.04%)**: Evidence supports perioperative analgesia (e.g., after rotator cuff surgery), not treatment of tendon pathology.
+- However, long-term opioid use in musculoskeletal pain carries significant risks.
 
-Other predictions (Tourette syndrome, trichotillomania, manic bipolar disorder, migraine with brainstem aura, methemoglobinemia, myositis fibrosa, idiopathic granulomatous myositis) lack a credible therapeutic rationale. For trichotillomania, opioid antagonists such as naltrexone, not agonists, are the logical direction.
+Other predictions (Tourette syndrome, trichotillomania, manic bipolar disorder, migraine with brainstem aura, methemoglobinemia, myositis fibrosa, idiopathic granulomatous myositis) lack a credible therapeutic rationale.
 
 ---
 
 ## Clinical Trial Evidence
 
-Trials are shown for the predicted indication where any exist. For the top prediction (NSIAD), none are registered. The only trial found across the predictions is for myofascial pain syndrome.
+Trials are shown for the predicted indication where any exist. For the top prediction (NSIAD), none are registered.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -96,7 +94,6 @@ For NSIAD, currently no related literature is available. The most relevant publi
 | [12369265](https://pubmed.ncbi.nlm.nih.gov/12369265/) | 2002 | Small experimental study | Prog Neuropsychopharmacol Biol Psychiatry | Fentanyl-induced prolactin response used as an opiate sensitivity test in stereotypic movement disorder and trichotillomania; a diagnostic probe, not a therapeutic trial |
 | [15102255](https://pubmed.ncbi.nlm.nih.gov/15102255/) | 2001 | Case report | Pain Medicine | Limited transdermal fentanyl absorption in two patients with systemic sclerosis, one treated for deltoid tendinitis |
 
-Much of the remaining retrieved literature consists of keyword matches (e.g., methemoglobinemia caused by other agents, unrelated nerve block studies, a veterinary study) and does not support any therapeutic use.
 
 ---
 
@@ -127,7 +124,7 @@ Fentanyl holds 18 valid single-ingredient registrations in Singapore. The approv
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (NSIAD) is purely computational, with no trials, no literature and no plausible mechanism. The two predictions with some support (myofascial pain syndrome and tendinitis) reflect fentanyl's known analgesic effect rather than a new disease-modifying indication, and carry substantial opioid-related risks. These two could be considered further as research questions only.
+The top prediction (NSIAD) is purely computational, with no trials, no literature and no plausible mechanism. These two could be considered further as research questions only.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA, and the approved indication text for the Singapore registrations

@@ -4,17 +4,17 @@ title: Mecobalamin
 parent: Low Evidence (L5)
 nav_order: 639
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Mecobalamin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not available"
 monitor_inn: "Mecobalamin"
-predicted_indications: ["sclerosing cholangitis", "multiple endocrine neoplasia", "bone Paget disease", "gastroparesis (disease)", "juvenile Paget disease", "acne (disease)", "osteomesopyknosis", "obsolete vitamin D deficiency", "choledocholithiasis", "colorectal cancer"]
+predicted_indications: ["sclerosing cholangitis", "multiple endocrine neoplasia", "bone Paget disease"]
 ---
 
 # Mecobalamin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The only publication found for any of the top 10 predictions concerns colorectal
 |------|------|
 | Original Indication | Not available (approved indication text is blank in all registrations) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.50% |
+| TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ The only publication found for any of the top 10 predictions concerns colorectal
 
 Currently, detailed mechanism of action data is not available. Based on known information, mecobalamin is the active coenzyme form of vitamin B12. It is widely used in peripheral neuropathy and B12-related conditions, but the data compiled for this report do not specify its registered indication.
 
-No plausible mechanistic link between methylcobalamin and sclerosing cholangitis (a cholestatic, autoimmune-associated biliary disease) can be established from the available data. The high TxGNN score (0.995) reflects a graph-based computational association and should not be read as evidence of efficacy.
+No plausible mechanistic link between methylcobalamin and sclerosing cholangitis (a cholestatic, autoimmune-associated biliary disease) can be established from the available data. The high TxGNN score (0.9950) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of efficacy.
 
-Other top-ranked predictions show the same pattern. Multiple endocrine neoplasia, juvenile Paget disease, osteomesopyknosis and choledocholithiasis have no supporting data and no evident mechanism. "Obsolete vitamin D deficiency" is an outdated ontology term and is probably a graph artifact. For acne, vitamin B12 has been anecdotally linked to acneiform eruptions rather than benefit, so the prediction direction is questionable.
+Other top-ranked predictions show the same pattern. Multiple endocrine neoplasia has no supporting data and no evident mechanism.
 
 ---
 
@@ -78,7 +78,6 @@ Currently no related clinical trials registered.
 
 For sclerosing cholangitis, currently no related literature is available.
 
-The only publication found across the top 10 predictions relates to the rank 10 prediction, colorectal cancer. It is shown here for reference only:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

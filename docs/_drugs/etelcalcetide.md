@@ -4,17 +4,17 @@ title: Etelcalcetide
 parent: Medium Evidence (L3-L4)
 nav_order: 405
 evidence_level: L3
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Etelcalcetide: predicted new indication Hyperphosphatemia (evidence level L3). Approved use: Hyperparathyroidism"
 monitor_inn: "Etelcalcetide"
-predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease", "glaucoma", "pancreatitis", "primary hyperoxaluria", "primary immunodeficiency syndrome due to p14 deficiency", "severe congenital neutropenia", "Barth syndrome"]
+predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 ---
 
 # Etelcalcetide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **no registered clinical trials** and only **6 publicati
 |------|------|
 | Original Indication | Hyperparathyroidism (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Hyperphosphatemia |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

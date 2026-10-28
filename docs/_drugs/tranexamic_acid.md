@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tranexamic Acid
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 1011
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Tranexamic Acid: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis"
 monitor_inn: "Tranexamic acid"
-predicted_indications: ["amenorrhea (disease)", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "triphalangeal thumb, Nonopposable", "sella turcica, bridged", "hypospadias 3, autosomal", "hypercarotenemia and vitamin A deficiency, autosomal recessive", "hyperparathyroidism, primary, caused by water clear cell hyperplasia", "glaucoma with elevated episcleral venous pressure"]
+predicted_indications: ["amenorrhea (disease)"]
+description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tranexamic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tranexamic Acid: From Endometriosis to Amenorrhea
+## Tranexamic Acid: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is best treated as a research question rather than an actionable 
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (per the knowledge graph; no approved indication text is available for the Singapore licences) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.19% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9919 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The high TxGNN score for amenorrhea probably reflects the drug's close association with menstrual disorders. However, amenorrhea means the absence of menses, so a drug that reduces bleeding does not treat it. The biological link is indirect. At most, tranexamic acid might play a role in menstrual suppression or prophylaxis, for example in women with haematological cancers, but that is not treatment of amenorrhea as a condition.
 
-The other predicted indications weaken confidence in the model's output further. Several high-scoring predictions are thrombophilic conditions (heparin cofactor 2 deficiency, factor 5 excess with spontaneous thrombosis, antithrombin deficiency type 2). In these, an antifibrinolytic would be expected to increase thrombotic risk. This suggests the scores reflect pathway associations rather than therapeutic benefit.
 
 ---
 
@@ -105,7 +104,7 @@ A sixth licence, Cyklokapron Tablet 500 mg (SIN02487P, film-coated tablet), is a
 - **Drug Interactions**: 35 interactions were identified; 20 are listed in the data compiled for this report.
   - **Major**: oestrogens and hormonal contraceptives (ethinylestradiol, estradiol, conjugated estrogens, esterified estrogens, estrone, diethylstilbestrol, estramustine), progestogens (norethisterone, drospirenone, etonogestrel), carfilzomib, anti-inhibitor coagulant complex, and Factor IX complex (human).
   - **Moderate**: thrombolytics (alteplase, anistreplase).
-- **Thrombosis concern**: In principle, an antifibrinolytic could raise thrombotic risk in thrombophilic patients. The only retrieved article for heparin cofactor 2 deficiency (1991) describes drugs, particularly oral contraceptives, triggering thrombosis in congenital coagulation-inhibitor defects. That is a safety signal, not evidence of efficacy.
+- **Thrombosis concern**: In principle, an antifibrinolytic could raise thrombotic risk in thrombophilic patients. That is a safety signal, not evidence of efficacy.
 
 Package insert warnings and contraindications were not available, so please refer to the package insert for authoritative safety information.
 

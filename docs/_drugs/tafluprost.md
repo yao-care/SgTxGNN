@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Tafluprost
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 950
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tafluprost: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
+description: "Tafluprost: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Tafluprost"
-predicted_indications: ["visceral calciphylaxis", "tinea nigra", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "angiodysplasia of stomach", "idiopathic spontaneous coronary artery dissection", "neurogenic thoracic outlet syndrome", "vascular disease", "lymphangiectasis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Tafluprost
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,41 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tafluprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Tafluprost
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Tafluprost is a prostaglandin F2α (FP receptor) agonist eye drop, originally used to treat open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be useful for **primary hereditary glaucoma**, but this is a model prediction only, with **0 clinical trials** and **0 publications** currently supporting this specific indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma; ocular hypertension |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 98.62% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available from the compiled sources. Based on the drug class, tafluprost is a prostaglandin F2α analogue. It acts on the FP receptor (its active metabolite, tafluprost acid, has an EC50 of 0.53 nM at the human FP receptor) and lowers intraocular pressure (IOP) by increasing uveoscleral outflow.
-
-Primary hereditary glaucoma (for example, primary congenital glaucoma) is also an IOP-driven disease, so the mechanism is plausible and the high score is consistent with the approved glaucoma indication.
-
-There are important caveats. No trials or literature were found for the hereditary or congenital forms. Developmental angle-anomaly forms may respond poorly to outflow-based therapy. Paediatric safety and efficacy have not been established.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for primary hereditary glaucoma.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Singapore Market Information
 
@@ -84,20 +61,6 @@ Currently no related literature available for primary hereditary glaucoma.
 
 Please refer to the package insert for key warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by the model score and a plausible class mechanism (IOP lowering). No trials or publications address hereditary or congenital glaucoma, and paediatric safety and efficacy are unestablished. Developmental forms may also respond poorly to outflow-based therapy.
-
-**To proceed, the following is needed:**
-- Clinical and literature evidence in primary hereditary/congenital glaucoma, including paediatric data
-- Package insert warnings and contraindications from HSA
-- Confirmed mechanism of action data (DrugBank)
-- Review of the approved indication wording for the three Singapore registrations
-
-**Other predicted indications (ranks 2–10):** None is recommended to proceed. The remaining predictions (visceral calciphylaxis, tinea nigra, the three thoracic outlet syndromes, angiodysplasia of stomach, spontaneous coronary artery dissection, lymphangiectasis) have no supporting trials or literature and no plausible mechanism, and topical ocular dosing gives minimal systemic exposure. They look like graph artefacts. "Vascular disease" (rank 9) has nine publications, but these cover ocular vascular and tolerability effects, not treatment, and one reports a blood pressure safety signal. All are **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

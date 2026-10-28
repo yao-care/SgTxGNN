@@ -4,17 +4,17 @@ title: Valbenazine
 parent: Low Evidence (L5)
 nav_order: 1050
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Valbenazine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Tardive dyskinesia"
 monitor_inn: "Valbenazine"
-predicted_indications: ["psychogenic movement disorders", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "chronic tic disorder", "benign shuddering attacks", "extrapyramidal and movement disease", "acute intermittent porphyria", "miscellaneous movement disorder due to neurodegenerative disease", "drug-induced dyskinesia"]
+predicted_indications: ["psychogenic movement disorders", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "chronic tic disorder", "extrapyramidal and movement disease", "benign shuddering attacks"]
+description: "Valbenazine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Valbenazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Valbenazine: From Tardive Dyskinesia to Psychogenic Movement Disorders
+## Valbenazine: Psychogenic movement disorders
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,17 +45,17 @@ The TxGNN model predicts it may be effective for **psychogenic movement disorder
 
 | Item | Content |
 |------|------|
-| Original Indication | Tardive dyskinesia; lingual-facial-buccal dyskinesia |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Psychogenic movement disorders |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-The Singapore registration record does not state an approved indication. The original indications above come from the TxGNN knowledge graph. Detailed mechanism-of-action data were not available in the data compiled for this report. Valbenazine is known as a selective VMAT2 inhibitor. By blocking VMAT2, it reduces presynaptic dopamine release, which counteracts the dopamine receptor hypersensitivity that develops after chronic exposure to dopamine blockers.
+The Singapore registration record does not state an approved indication. The original indications above come from the source data compiled for this report, not from a prediction. Detailed mechanism-of-action data were not available in the data compiled for this report. Valbenazine is known as a selective VMAT2 inhibitor. By blocking VMAT2, it reduces presynaptic dopamine release, which counteracts the dopamine receptor hypersensitivity that develops after chronic exposure to dopamine blockers.
 
 In theory, lowering dopamine release could dampen hyperkinetic movements in general, which is probably why the model links tardive dyskinesia to this new condition. However, psychogenic (functional) movement disorders are not mainly dopaminergic in origin. No trials or publications support valbenazine in this setting, so the mechanistic link is weak and speculative.
 
@@ -89,7 +89,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.82%), but it is the only support: no trials, no publications, and a weak mechanistic fit with a condition that is not mainly dopaminergic. This is a model-only (L5) signal and does not justify moving forward.
+The prediction score is very high (0.9982), but it is the only support: no trials, no publications, and a weak mechanistic fit with a condition that is not mainly dopaminergic. This is a model-only (L5) signal and does not justify moving forward.
 
 **To proceed, the following is needed:**
 - Any clinical or case-level evidence of valbenazine in functional or psychogenic movement disorders
@@ -98,7 +98,6 @@ The prediction score is very high (99.82%), but it is the only support: no trial
 
 **Other candidates in the same prediction list:**
 - **Chronic tic disorder** has more support: indirect literature, including a clinical development review in Tourette syndrome, a 2025 case report, and a 2026 systematic review and meta-analysis. It is rated L4 and classed as a research question, so it is a better candidate to pursue first.
-- **Drug-induced dyskinesia** corresponds to the existing tardive dyskinesia indication, backed by Phase 3 and Phase 4 evidence, so it is not true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

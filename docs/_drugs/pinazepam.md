@@ -4,17 +4,17 @@ title: Pinazepam
 parent: Low Evidence (L5)
 nav_order: 794
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Pinazepam: predicted new indication Insomnia (evidence level L5). Approved use: Not recorded in the Singapore licence data (literature suggests anxie…"
 monitor_inn: "Pinazepam"
-predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "anxiety", "sleep disorder, initiating and maintaining sleep", "anxiety disorder", "alcohol withdrawal", "dysthymic disorder"]
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "anxiety", "sleep disorder, initiating and maintaining sleep"]
+description: "Pinazepam: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pinazepam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pinazepam: From Anxiety (Benzodiazepine Anxiolytic) to Insomnia
+## Pinazepam: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,26 +46,25 @@ The evidence is a computational prediction only (Level L5).
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore licence data (literature suggests anxiety) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, pinazepam is a 1,4-benzodiazepine prodrug. It is converted mainly by N-dealkylation into N-desmethyldiazepam (nordazepam), a long-acting positive allosteric modulator of the GABA-A receptor. This class produces sedative, hypnotic and anxiolytic effects.
 
-Because GABA-A potentiation underlies the sedative-hypnotic action of benzodiazepines, the link to insomnia is mechanistically plausible. A 1984 review, however, describes pinazepam as having a comparatively low hypnotic effect and limited motor impairment in animals. This weakens the case for insomnia specifically. The high TxGNN score is a graph-based association, not clinical evidence.
+Because GABA-A potentiation underlies the sedative-hypnotic action of benzodiazepines, the link to insomnia is mechanistically plausible. A 1984 review, however, describes pinazepam as having a comparatively low hypnotic effect and limited motor impairment in animals. This weakens the case for insomnia specifically. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions for context:**
 - **Sleep disorder (initiating and maintaining sleep):** essentially the same entity as insomnia, with no supporting studies.
 - **Anxiety and anxiety disorder:** the only predictions with literature (L3), but these likely overlap with the drug's original use, so they are closer to on-label use than true repurposing.
 - **Alcohol withdrawal and alcohol withdrawal delirium:** benzodiazepines are standard of care, but no pinazepam-specific evidence exists and established agents are available.
-- **Antidepressant, barbiturate and hallucinogen abuse:** identical scores across these terms suggest a generic graph artifact with weak or no rationale.
-- **Dysthymic disorder:** no strong mechanistic rationale, and no evidence.
+- **Antidepressant, barbiturate and hallucinogen abuse:** identical scores across these terms (0.9946) come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; the rationale is weak or absent.
 
 ## Clinical Trial Evidence
 

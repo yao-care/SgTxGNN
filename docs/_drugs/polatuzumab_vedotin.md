@@ -4,17 +4,17 @@ title: Polatuzumab Vedotin
 parent: Low Evidence (L5)
 nav_order: 804
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Polatuzumab Vedotin: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Not stated in the Singapore licence records. Literature indicates dif…"
 monitor_inn: "Polatuzumab vedotin"
-predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "drug-induced osteoporosis", "acne (disease)", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis"]
+predicted_indications: ["HER2 positive breast carcinoma"]
 ---
 
 # Polatuzumab Vedotin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Polatuzumab vedotin: From B-Cell Lymphoma to HER2-Positive Breast Carcinoma
+## Polatuzumab vedotin: From B-Cell Lymphoma to HER2 positive breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,10 +46,10 @@ Polatuzumab vedotin is an anti-CD79b antibody-drug conjugate carrying the microt
 |------|------|
 | Original Indication | Not stated in the Singapore licence records. Literature indicates diffuse large B-cell lymphoma (DLBCL) |
 | Predicted New Indication | HER2 positive breast carcinoma |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,6 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 CD79b is a B-cell marker and is not a recognised target in HER2-positive breast carcinoma. The only plausible link is the general cytotoxic activity of MMAE, which is already used in other breast cancer antibody-drug conjugates. That activity does not depend on CD79b. The high TxGNN score is therefore a computational prediction without a demonstrated mechanistic basis.
 
-The other top predictions are other breast cancer subtypes, drug-induced osteoporosis, acne, and several hereditary coagulation disorders. For these, no mechanistic rationale exists, and the scores are likely knowledge-graph artefacts.
 
 ## Clinical Trial Evidence
 

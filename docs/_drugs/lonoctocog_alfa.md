@@ -4,17 +4,17 @@ title: Lonoctocog Alfa
 parent: Low Evidence (L5)
 nav_order: 611
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Lonoctocog Alfa: predicted new indication Pseudo-von Willebrand disease (evidence level L5). Approved use: Hemophilia"
 monitor_inn: "Lonoctocog alfa"
-predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "esophageal varices without bleeding", "esophageal varices with bleeding", "thrombotic thrombocytopenic purpura"]
+predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
+description: "Lonoctocog Alfa: predicted new indication Pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lonoctocog Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lonoctocog alfa: From Hemophilia to Pseudo-von Willebrand Disease
+## Lonoctocog Alfa: Pseudo-von Willebrand disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but **no clinical trials and no publications** currently support this direction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Hemophilia; symptomatic form of hemophilia in female carriers (the Singapore licences do not list indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pseudo-von Willebrand disease |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lonoctocog alfa is a recombinant single-chain factor VIII (rVIII-SingleChain) that replaces the missing clotting factor in hemophilia. Its efficacy there is the basis for its use, and it may mechanistically touch other bleeding disorders only indirectly.
 
-Pseudo-von Willebrand disease (platelet-type von Willebrand disease) is caused by a gain-of-function defect in platelet GPIbα, which leads to loss of high-molecular-weight VWF multimers. Factor VIII is not the primary deficit, although secondary reductions can occur. The link is therefore weak and indirect. The very high TxGNN score (99.85%) is most likely driven by the disease's proximity to other bleeding disorders in the knowledge graph, not by a demonstrated mechanism.
+Pseudo-von Willebrand disease (platelet-type von Willebrand disease) is caused by a gain-of-function defect in platelet GPIbα, which leads to loss of high-molecular-weight VWF multimers. Factor VIII is not the primary deficit, although secondary reductions can occur. The link is therefore weak and indirect. The very high score (0.9985) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other top-ranked predictions show the same pattern. Most are platelet function disorders (primary release disorder of platelets, Glanzmann thrombasthenia, Scott syndrome, collagen receptor defect, constitutional thrombocytopenia). In these the defect lies in the platelet, and factor VIII replacement does not address it. Acquired coagulation factor deficiency is the closest to the original indication, but inhibitors in acquired hemophilia neutralise infused factor VIII, so bypassing agents are the standard.
+Other top-ranked predictions show the same pattern. Most are platelet function disorders (primary release disorder of platelets, Glanzmann thrombasthenia, Scott syndrome, collagen receptor defect, constitutional thrombocytopenia). In these the defect lies in the platelet, and factor VIII replacement does not address it.
 
 ## Clinical Trial Evidence
 
@@ -86,7 +86,7 @@ All five licences are valid single-ingredient products from CSL Behring GmbH (br
 
 Please refer to the package insert for safety information.
 
-One theoretical concern comes from the mechanistic review. In thrombotic thrombocytopenic purpura, and in liver disease with varices, factor VIII is prothrombotic and could plausibly worsen thrombosis. This is a reason for caution in those conditions, not an established finding. No drug-interaction records were found.
+One theoretical concern comes from the mechanistic review. This is a reason for caution in those conditions, not an established finding. No drug-interaction records were found.
 
 ## Conclusion and Next Steps
 

@@ -48,10 +48,10 @@ Among the other predictions, **ventricular tachycardia** (18 clinical trials, 20
 |------|------|
 | Original Indication | Ventricular fibrillation (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia (CPVT) |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -105,7 +105,7 @@ There are no clinical trials for CPVT, and the literature consists of disease de
 **Other predictions in the data:**
 - **Ventricular tachycardia (L1, Proceed with Guardrails)**: This is largely an on-label or near-label use rather than true repurposing. The data include completed Phase 3 trials (ALPS, n=3,024; AVID) and a randomized comparison with procainamide (PROCAMIO). Guardrails are monitoring for pulmonary, thyroid and hepatic toxicity and QT prolongation, and managing the many drug interactions.
 - **Incessant infant ventricular tachycardia (L2, Proceed with Guardrails)**: Supported by a randomized double-blind pediatric trial of IV amiodarone (Circulation 2005) and infant cohorts, but this evidence mostly covers incessant tachyarrhythmias in general, including supraventricular, rather than infant VT specifically. Guardrails are infant-specific dosing, thyroid effects from the iodine load, QT and proarrhythmia monitoring, and pediatric cardiology oversight.
-- **Obsolete bundle branch block, rheumatoid arthritis, brachydactyly-syndactyly syndrome, heparin cofactor 2 deficiency, trichotillomania, colobomatous microphthalmia-rhizomelic dysplasia syndrome, gout (all L5, Hold)**: No credible mechanistic link or supporting studies. The high scores likely reflect knowledge-graph artifacts. For rheumatoid arthritis, the literature points to amiodarone pulmonary toxicity as a safety concern.
+- **Obsolete bundle branch block, rheumatoid arthritis, brachydactyly-syndactyly syndrome, heparin cofactor 2 deficiency, trichotillomania, colobomatous microphthalmia-rhizomelic dysplasia syndrome, gout (all L5, Hold)**: No credible mechanistic link or supporting studies. The high scores likely reflect TxGNN model (deep learning) artifacts. For rheumatoid arthritis, the literature points to amiodarone pulmonary toxicity as a safety concern.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA)

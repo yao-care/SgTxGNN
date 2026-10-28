@@ -4,17 +4,17 @@ title: Nitroglycerin
 parent: Medium Evidence (L3-L4)
 nav_order: 718
 evidence_level: L3
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not available"
 monitor_inn: "Nitroglycerin"
-predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "headache disorder", "open-angle glaucoma", "transient ischemic attack (disease)"]
+predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
 ---
 
 # Nitroglycerin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The evidence is mainly small studies, hemodynamic studies and reviews, and no co
 |------|------|
 | Original Indication | Not available (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -4,17 +4,17 @@ title: Domperidone
 parent: Low Evidence (L5)
 nav_order: 344
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Domperidone: predicted new indication Headache disorder (evidence level L5). Approved use: Not stated in the Singapore licence records. Pharmacology data descri…"
 monitor_inn: "Domperidone"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Plasmodium falciparum malaria", "common cold", "headache disorder", "allergic urticaria", "trigeminal autonomic cephalalgia", "collagenopathy", "renin-angiotensin-aldosterone system-blocker-induced angioedema", "lymphocytic hypereosinophilic syndrome", "hypertrichosis (disease)"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Domperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,15 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Domperidone: From Upper Gastrointestinal Symptoms to Headache Disorder
+## Domperidone: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Domperidone is a peripheral dopamine D2/D3 receptor antagonist, used as an antiemetic and prokinetic agent for dyspepsia, nausea and vomiting.
-The TxGNN model's top-ranked prediction is nephrogenic syndrome of inappropriate antidiuresis, but it has no supporting evidence. The best-supported prediction is **headache disorder** (mainly migraine), with **0 clinical trials** and **20 publications**, most of them reviews supporting adjunctive use for migraine-associated nausea.
+The TxGNN model's top-ranked prediction is nephrogenic syndrome of inappropriate antidiuresis, but it has no supporting evidence.
 
-> Note: Only 10 of the 20 publications for headache disorder were available in the data compiled for this report. The assessment below is based on those 10.
+The assessment below is based on those 10.
 
 ---
 
@@ -49,12 +49,12 @@ The TxGNN model's top-ranked prediction is nephrogenic syndrome of inappropriate
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records. Pharmacology data describe use for dyspepsia, heartburn, epigastric pain, nausea and vomiting |
-| Predicted New Indication | Headache disorder (rank 4 of the top 10; the rank 1 prediction, nephrogenic syndrome of inappropriate antidiuresis, has no supporting evidence) |
-| TxGNN Prediction Score | 96.72% (headache disorder); rank 1 prediction: 99.08% |
-| Evidence Level | L4 (headache disorder); L5 for rank 1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 9 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
+| TxGNN Prediction Score | 0.9908 |
+| Evidence Level | L5 (headache disorder); L5 for rank 1 |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold (overall); headache disorder is a research question |
 
 ---
@@ -63,9 +63,9 @@ The TxGNN model's top-ranked prediction is nephrogenic syndrome of inappropriate
 
 Detailed mechanism of action data are not available in the compiled data. From the pharmacology information, domperidone blocks dopamine D2 and D3 receptors. It does not readily cross the blood-brain barrier, so its effects are mainly peripheral. It is used as an antiemetic and an upper gastrointestinal prokinetic.
 
-The rank 1 prediction (nephrogenic syndrome of inappropriate antidiuresis) is caused by a gain-of-function change in the vasopressin V2 receptor. No plausible link to dopamine antagonism can be established from the available data. The same applies to most other top-10 predictions (Plasmodium falciparum malaria, collagenopathy, RAAS-blocker-induced angioedema, lymphocytic hypereosinophilic syndrome, hypertrichosis). These remain computational predictions only.
+The rank 1 prediction (nephrogenic syndrome of inappropriate antidiuresis) is caused by a gain-of-function change in the vasopressin V2 receptor. No plausible link to dopamine antagonism can be established from the available data. These remain computational predictions only.
 
-Headache disorder is the one prediction with a plausible rationale. Migraine attacks are often accompanied by nausea, vomiting and delayed gastric emptying (gastric stasis). The literature describes domperidone, like metoclopramide, as an adjunct that relieves nausea and may improve the absorption of oral analgesics and triptans. The evidence supports **symptomatic or adjunctive use** rather than a direct effect on the headache itself.
+Migraine attacks are often accompanied by nausea, vomiting and delayed gastric emptying (gastric stasis). The literature describes domperidone, like metoclopramide, as an adjunct that relieves nausea and may improve the absorption of oral analgesics and triptans. The evidence supports **symptomatic or adjunctive use** rather than a direct effect on the headache itself.
 
 ---
 
@@ -77,7 +77,6 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Selected from the 10 publications available for headache disorder, with priority given to the more directly relevant ones (the remaining studies were not individually classified):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -92,7 +91,7 @@ Selected from the 10 publications available for headache disorder, with priority
 | [9876882](https://pubmed.ncbi.nlm.nih.gov/9876882/) | 1998 | Review | Cephalalgia | Role of antiemetics and prokinetic agents in migraine treatment strategies |
 | [38822165](https://pubmed.ncbi.nlm.nih.gov/38822165/) | 2024 | Review | CNS Drugs | Pharmacotherapy options in the premonitory phase of migraine |
 
-For the other predictions, the only literature was for common cold (one case report of anaphylaxis to levodropropizine, which does not concern domperidone and is likely an artifact of co-mentioned terms) and allergic urticaria (a pregnancy medication appropriateness study and a Kounis syndrome case report with prolonged QT, neither showing benefit). Other predictions have no literature.
+Other predictions have no literature.
 
 ---
 
@@ -113,7 +112,7 @@ There are 9 valid single-ingredient registrations in total. Available forms incl
 ## Safety Considerations
 
 - **Contraindications suggested by the knowledge graph** (derived from drug-disease relationships, not from label text): long QT syndrome, familial long QT syndrome, torsades de pointes, liver disease, gallbladder disease.
-- **QT prolongation** is a key concern. It would need particular attention for co-use with other QT-prolonging drugs (for example, some antimalarials), and the case report in the allergic urticaria literature also flags a QT signal.
+- **QT prolongation** is a key concern.
 - **Drug interactions:** The interaction data contain only pharmacological targets (dopamine D2 and D3 receptors), not specific interacting drugs.
 
 Please refer to the package insert for further safety information.
@@ -125,7 +124,7 @@ Please refer to the package insert for further safety information.
 **Decision: Hold**
 
 **Rationale:**
-Nine of the ten top predictions, including the top-ranked one, have no clinical or literature support and no plausible mechanism, so they remain computational predictions at L5. Headache disorder (migraine) is the only one with a plausible role and is best treated as a research question at L4. The evidence supports adjunctive relief of nausea and possible absorption benefits, not direct headache treatment, and no registered trials exist. QT-related safety must also be weighed.
+Nine of the ten top predictions, including the top-ranked one, have no clinical or literature support and no plausible mechanism, so they remain computational predictions at L5. The evidence supports adjunctive relief of nausea and possible absorption benefits, not direct headache treatment, and no registered trials exist. QT-related safety must also be weighed.
 
 **To proceed, the following is needed:**
 - Singapore package insert warnings and contraindications (a blocking gap for safety screening)

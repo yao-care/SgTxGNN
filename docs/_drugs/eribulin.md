@@ -4,17 +4,17 @@ title: Eribulin
 parent: Low Evidence (L5)
 nav_order: 395
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Eribulin: predicted new indication Autosomal recessive familial Mediterranean fever (evidence level L5). Approved use: Liposarcoma"
 monitor_inn: "Eribulin"
-predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "ovarian myxoid liposarcoma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
+predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
 ---
 
 # Eribulin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ However, **no clinical trials and no publications** currently support this predi
 |------|------|
 | Original Indication | Liposarcoma |
 | Predicted New Indication | Autosomal recessive familial Mediterranean fever |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ However, **no clinical trials and no publications** currently support this predi
 
 Eribulin inhibits microtubule dynamics, which blocks cell division. This makes it useful against rapidly proliferating tumours such as soft tissue sarcoma. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description is based on the drug's known pharmacology.
 
-FMF is a hereditary autoinflammatory disease. It is driven by dysregulation of the MEFV/pyrin inflammasome, not by uncontrolled cell growth. The only loose conceptual link is that colchicine, the standard FMF therapy, also acts on microtubules. That is a weak parallel. A cytotoxic chemotherapy is not a plausible treatment for a chronic, non-malignant inflammatory condition. The high TxGNN score (0.998) is most likely an artifact of the knowledge graph structure and not a real biological signal.
+FMF is a hereditary autoinflammatory disease. It is driven by dysregulation of the MEFV/pyrin inflammasome, not by uncontrolled cell growth. The only loose conceptual link is that colchicine, the standard FMF therapy, also acts on microtubules. That is a weak parallel. A cytotoxic chemotherapy is not a plausible treatment for a chronic, non-malignant inflammatory condition. The high TxGNN score (0.9982) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

@@ -4,17 +4,17 @@ title: Formoterol
 parent: Low Evidence (L5)
 nav_order: 452
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Formoterol: predicted new indication Bronchitis (evidence level L5). Approved use: Pulmonary emphysema, intrinsic asthma, allergic asthma"
 monitor_inn: "Formoterol"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome", "atopic eczema", "hyperlucent lung"]
+predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Formoterol: From Pulmonary Emphysema and Asthma to Bronchitis
+## Formoterol: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ Most of this evidence comes from COPD studies of formoterol-containing combinati
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma (the Singapore licence records contain no approved-indication text) |
-| Predicted New Indication | Bronchitis (top-ranked prediction by TxGNN: respiratory malformation; see the note below) |
-| TxGNN Prediction Score | 99.92% (bronchitis); the top-ranked respiratory malformation scores 99.92% |
-| Evidence Level | L1 (bronchitis) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 18 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 (bronchitis) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Proceed with Guardrails |
 
-**Note on prediction ranking:** The top-ranked prediction is *respiratory malformation* (score 99.92%). It has no clinical trials, and the literature concerns asthma and COPD rather than malformations. No plausible mechanism links formoterol to it, so the high score likely reflects graph proximity to respiratory disease. The first prediction with meaningful supporting evidence is *bronchitis* (rank 2), which this report focuses on.
+**Note on prediction ranking:** The top-ranked prediction is *respiratory malformation* (score 0.9992). It has no clinical trials, and the literature concerns asthma and COPD rather than malformations. No plausible mechanism links formoterol to it. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The first prediction with meaningful supporting evidence is *bronchitis* (rank 2), which this report focuses on.
 
 ---
 
@@ -67,7 +67,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 Chronic bronchitis is a major COPD phenotype and shares airflow limitation with emphysema. The large COPD trials supporting this prediction, including Phase 3 studies of arformoterol and aclidinium/formoterol, show bronchodilator benefit. The evidence applies to chronic bronchitis within COPD, not to acute bronchitis or other subtypes. Much of it also comes from combination products or PK/safety designs, so the contribution of formoterol alone is not isolated.
 
 Other predictions fall into two groups:
-- **Obstructive lung disease** (score 99.90%, L1) and **asthma** (score 99.74%, L1) have strong Phase 3 and RCT support, but largely match the original indications, so they confirm existing use rather than represent true repurposing.
 - **Rienhoff syndrome, asthma-related traits (susceptibility), atopic eczema, compensatory emphysema, interstitial emphysema and hyperlucent lung** have no clinical trial support and no credible mechanism. They are not recommended for further pursuit at this stage (Hold).
 
 ---
@@ -106,7 +105,7 @@ Top trials for bronchitis (COPD / chronic bronchitis population):
 | [12236842](https://pubmed.ncbi.nlm.nih.gov/12236842/) | 2002 | Review | Br J Clin Pharmacol | Antagonism of long-acting beta2-agonism and effects on inhaled corticosteroid action |
 | [25878387](https://pubmed.ncbi.nlm.nih.gov/25878387/) | 2015 | Case report | Indian J Pharmacol | Acebrophylline-induced angioedema in a patient taking budesonide/formoterol |
 
-For the obstructive lung disease prediction, key RCTs include ETHOS (PMID 33252985 and 32579807, NEJM 2020) and KRONOS (PMID 30232048, Lancet Respir Med 2018), which support triple therapy containing formoterol in COPD.
+Key RCTs include ETHOS (PMID 33252985 and 32579807, NEJM 2020) and KRONOS (PMID 30232048, Lancet Respir Med 2018), which support triple therapy containing formoterol in COPD.
 
 ---
 

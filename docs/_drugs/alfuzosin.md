@@ -6,9 +6,9 @@ nav_order: 61
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Alfuzosin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Alfuzosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+## Alfuzosin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but **no clinical trials and no publications** currently support this direction.
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ but **no clinical trials and no publications** currently support this direction.
 
 Currently, detailed mechanism of action data is not available. Alfuzosin is known as an alpha-1A-selective adrenergic antagonist, and its efficacy in BPH is established. This relaxes smooth muscle in the prostate and bladder neck and eases urinary symptoms.
 
-The predicted indication is a different kind of disease. Ambras syndrome is a rare congenital hypertrichosis linked to chromosome 8q22 rearrangements that affect TRPS1 regulation. No plausible pathway connects alpha-1 blockade to this genetic hair-growth disorder. The very high score (99.99%) reflects knowledge-graph inference only, and it is probably driven by shared neighbours among hair-related nodes.
+The predicted indication is a different kind of disease. Ambras syndrome is a rare congenital hypertrichosis linked to chromosome 8q22 rearrangements that affect TRPS1 regulation. No plausible pathway connects alpha-1 blockade to this genetic hair-growth disorder. The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top predictions show the same pattern. Most are rare hair disorders or congenital malformation syndromes (hypertrichosis, trichomegaly, hypotrichosis, hair shaft abnormalities, Dandy-Walker and dental/periodontal malformation syndromes). Allergic urticaria and persistent fetal circulation syndrome are also predicted. None has trial or literature support, and none has a credible mechanistic link. Persistent fetal circulation syndrome is conceptually related to vasodilation, but alfuzosin has no neonatal safety data and carries a risk of hypotension.
 
@@ -112,7 +112,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no clinical trials or publications, and no plausible mechanism links alpha-1A blockade to Ambras syndrome or to the other predicted conditions. The evidence level is L5.
+The prediction rests only on a TxGNN model (deep learning) score. There are no clinical trials or publications, and no plausible mechanism links alpha-1A blockade to Ambras syndrome or to the other predicted conditions. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) for alfuzosin

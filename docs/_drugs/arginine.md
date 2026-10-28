@@ -4,17 +4,17 @@ title: Arginine
 parent: Medium Evidence (L3-L4)
 nav_order: 107
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not stated in the licence data compiled for this report (products are…"
 monitor_inn: "Arginine"
-predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "vitamin deficiency disorder", "sclerosing cholangitis", "obsolete vitamin D deficiency", "biotin metabolic disease", "hypophosphatemic rickets", "postgastrectomy syndrome", "non-syndromic esophageal malformation"]
+predicted_indications: ["gastroparesis (disease)"]
 ---
 
 # Arginine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **no registered clinical trials** and only **9 publicati
 |------|------|
 | Original Indication | Not stated in the licence data compiled for this report (products are parenteral nutrition and amino acid infusions) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 20 |
+| Singapore Market Status | Marketed (valid licences: 20 of 20) |
+| Number of Registrations | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -107,7 +107,7 @@ No drug interaction records were found.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.42%), but the supporting evidence is limited to animal and mechanistic studies (L4). There are no clinical trials, and the key data on approved indications, mechanism of action and label safety are missing. The knowledge-graph contraindications, especially renal and cardiovascular, call for caution.
+The TxGNN score is high (0.9942), but the supporting evidence is limited to animal and mechanistic studies (L4). There are no clinical trials, and the key data on approved indications, mechanism of action and label safety are missing. The knowledge-graph contraindications, especially renal and cardiovascular, call for caution.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA, to allow safety screening
@@ -121,15 +121,6 @@ The TxGNN score is high (99.42%), but the supporting evidence is limited to anim
 
 | Rank | Predicted Indication | Score | Evidence Level | Suggested Action |
 |------|------|------|------|------|
-| 2 | Congenital prothrombin deficiency | 98.92% | L5 | Hold; no plausible mechanism, likely a graph artefact |
-| 3 | Dyspepsia | 97.43% | L4 | Research question; only indirect metabolomic and NO-pathway evidence |
-| 4 | Vitamin deficiency disorder | 96.92% | L5 | Hold; category too broad, no supporting evidence |
-| 5 | Sclerosing cholangitis | 96.83% | L5 | Hold; no direct link |
-| 6 | Obsolete vitamin D deficiency | 96.64% | L5 | Hold; obsolete term, no evidence |
-| 7 | Biotin metabolic disease | 96.19% | L5 | Hold; no direct link |
-| 8 | Hypophosphatemic rickets | 95.26% | L5 | Hold; the only arginine-related paper involves a different compound (hexa-D-arginine) |
-| 9 | Postgastrectomy syndrome | 93.74% | L4 | Hold; only a 1964 historical report |
-| 10 | Non-syndromic esophageal malformation | 93.41% | L5 | Hold; no evidence, structural defect unlikely to respond |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

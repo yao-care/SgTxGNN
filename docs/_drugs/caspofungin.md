@@ -4,17 +4,17 @@ title: Caspofungin
 parent: Low Evidence (L5)
 nav_order: 217
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Caspofungin: predicted new indication Gastrin secretion abnormality (evidence level L5). Approved use: Esophageal candidiasis, candidemia"
+indication_count: 1
 monitor_inn: "Caspofungin"
-predicted_indications: ["gastrin secretion abnormality", "punctate epithelial keratoconjunctivitis", "abnormality of glucagon secretion", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "exposure keratitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata"]
+predicted_indications: ["gastrin secretion abnormality"]
+last_modified_at: 2026-10-27
+description: "Caspofungin: predicted new indication gastrin secretion abnormality (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Caspofungin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,95 +33,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Caspofungin: From Esophageal Candidiasis and Candidemia to Gastrin Secretion Abnormality
+## Caspofungin: Echinocandin antifungal (1,3-beta-D-glucan synthase inhibitor) → gastrin secretion abnormality
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-> Caspofungin is an echinocandin antifungal, originally used to treat esophageal candidiasis and candidemia.
-> The TxGNN model's top-ranked prediction is **gastrin secretion abnormality**, with a very high score (99.4%).
-> However, there are **0 clinical trials** and **0 publications** supporting it, so this looks like a knowledge-graph artifact rather than a genuine repurposing opportunity.
-
----
+Caspofungin is an echinocandin antifungal given by injection. The TxGNN model predicts it may be relevant to **gastrin secretion abnormality**, but **no clinical trials and no publications** currently support this direction, so this is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Esophageal candidiasis, candidemia (taken from knowledge-graph indication links, because the Singapore licence records contain no indication text) |
-| Predicted New Indication | Gastrin secretion abnormality |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | gastrin secretion abnormality |
+| TxGNN Prediction Score | 0.9944 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Caspofungin inhibits 1,3-beta-D-glucan synthase, an enzyme that fungal cells need to build their cell wall. Detailed mechanism data was not available in the compiled data, but this is the established mechanism of the echinocandin class. It explains why the drug works against *Candida* infections.
+Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, caspofungin inhibits 1,3-beta-D-glucan synthase, an enzyme in the fungal cell wall that mammalian cells do not have.
 
-This mechanism gives no plausible link to gastrin secretion abnormality. Mammalian cells do not have this target, and nothing known connects fungal cell-wall synthesis to gastrin regulation. The high score most likely reflects the structure of the knowledge graph rather than biology. In practice, the prediction is unsupported.
-
----
+No mechanistic link to gastrin secretion could be identified. Gastrin regulation involves gastric G cells, acid secretion and related hormonal pathways, none of which relate to the fungal target. The high score therefore appears to be a model artifact without biological support, and it should not be read as evidence of efficacy. Similarity to the original use has not yet been assessed.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Eight valid single-ingredient registrations are in the compiled data (no cancelled or combination licences). The records contain no approved-indication text, so that column is omitted. The five main authorizations are listed below.
-
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN11762P | Cancidas Powder for Injection 50 mg/vial | Injection, powder, for solution |
-| SIN15857P | Pergilas Powder for Concentrate for Solution for Infusion 50 mg/vial | Injection, powder, lyophilized, for solution |
-| SIN15856P | Pergilas Powder for Concentrate for Solution for Infusion 70 mg/vial | Injection, powder, lyophilized, for solution |
-| SIN15686P | Fupascin Powder for Concentrate for Solution for Infusion 70 mg/vial | Injection, powder, lyophilized, for solution |
-| SIN15687P | Fupascin Powder for Concentrate for Solution for Infusion 50 mg/vial | Injection, powder, lyophilized, for solution |
-
-All products are injectable. The other three registrations are Caspocan 50 mg and Dalvocans 50 mg and 70 mg.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11762P | CANCIDAS Powder for Injection 50 mg/vial | Injection, powder, for solution | Not recorded |
+| SIN15857P | PERGILAS Powder for Concentrate for Solution for Infusion 50 mg/vial | Injection, powder, lyophilized, for solution | Not recorded |
+| SIN15856P | PERGILAS Powder for Concentrate for Solution for Infusion 70 mg/vial | Injection, powder, lyophilized, for solution | Not recorded |
+| SIN15686P | FUPASCIN Powder for Concentrate for Solution for Infusion 70 mg/vial | Injection, powder, lyophilized, for solution | Not recorded |
+| SIN15687P | FUPASCIN Powder for Concentrate for Solution for Infusion 50 mg/vial | Injection, powder, lyophilized, for solution | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph** (not taken from label text): liver disease, gallbladder disease, potassium deficiency disease.
-- **Drug Interactions**: 81 known interactions were found.
-  - Major: dexamethasone.
-  - Moderate: naltrexone.
-  - Many others have an unclassified severity, including pantoprazole, omeprazole, lansoprazole, vancomycin, amphotericin B, prednisone, hydrocortisone, simvastatin and potassium chloride.
+- **Drug Interactions**: 81 potential interactions were recorded. The only one rated Major is **dexamethasone**. **Naltrexone** is rated Moderate. Many others are of unknown severity, including calcitriol, pantoprazole, omeprazole, lansoprazole, doxycycline, morphine, vancomycin, amphotericin B, simvastatin, prednisone and prednisolone.
 
-Please refer to the package insert for label warnings and contraindications.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The prediction has no clinical or literature support. The drug's mechanism has no identifiable connection to gastrin secretion, so it should not be pursued.
-- Among the other TxGNN predictions, **neonatal candidiasis** is the one with the most evidence (L2, Proceed with Guardrails). Two Phase 2 trials support it:
-  - NCT00330395: open-label safety and pharmacokinetics study, 16 patients, completed.
-  - NCT01945281: randomized trial against amphotericin B, 51 patients, terminated early.
-- Neonatal candidiasis is an extension of the existing antifungal indication, not a new mechanism. Other predictions (HIV-related fungal infections, congenital candidiasis, *Candida glabrata*) rest mostly on case reports, reviews and resistance studies.
+The prediction rests only on a model score. No trials or publications address this condition, and the known antifungal mechanism offers no plausible link to gastrin secretion.
 
 **To proceed, the following is needed:**
-- For gastrin secretion abnormality: a plausible mechanistic hypothesis and preclinical data before any further evaluation.
-- If the neonatal candidiasis direction is pursued: the reason NCT01945281 was terminated, neonatal dosing guidance, hepatic monitoring, and a drug-interaction review.
-- Singapore package insert warnings and contraindications, which are still missing from the compiled data.
-- Mechanism of action data from DrugBank.
+- A mechanistic rationale linking caspofungin to gastrin regulation, or preclinical data supporting one
+- Package insert warnings and contraindications from the HSA
+- Detailed mechanism of action data
+- A literature and trial search that directly addresses gastrin secretion abnormality
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

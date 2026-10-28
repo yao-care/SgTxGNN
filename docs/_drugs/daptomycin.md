@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Daptomycin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 302
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Daptomycin: predicted new indication Osteoarthritis (evidence level L4). Approved use: Not stated in the Singapore licence records . The drug is generally k…"
 monitor_inn: "Daptomycin"
-predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Daptomycin is a cyclic lipopeptide antibiotic registered in Singapore as an inje
 |------|------|
 | Original Indication | Not stated in the Singapore licence records (the approved-indication text is empty for all 7 licences). The drug is generally known as an antibacterial for Gram-positive infections. |
 | Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Daptomycin is a cyclic lipopeptide antibiotic registered in Singapore as an inje
 
 Detailed mechanism of action data is not available in the data compiled for this report. Daptomycin is a cyclic lipopeptide antibiotic with activity against Gram-positive bacteria. Published work cited here describes its use in osteoarticular and prosthetic joint infections caused by organisms such as *Staphylococcus*.
 
-For osteoarthritis, **no mechanistic link has been established**. The publications retrieved concern infection of bones and joints, which is a different disease from degenerative osteoarthritis. The high TxGNN score probably reflects closeness in the knowledge graph between the drug's bone/joint infection use and the joint-disease term, not evidence of benefit in osteoarthritis.
+For osteoarthritis, **no mechanistic link has been established**. The publications retrieved concern infection of bones and joints, which is a different disease from degenerative osteoarthritis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of benefit in osteoarthritis.
 
 Of the other predictions, **rheumatoid arthritis** has the only plausible mechanistic signal. A 2025 animal study (PMID 39571268) reported that daptomycin reduced collagen-induced arthritis by suppressing inflammatory cytokines and the NF-κB pathway. This is preclinical only and is a research question, not a basis for clinical use. The predictions ranked 5 to 10 are rare genetic skeletal or developmental syndromes with no data and no plausible mechanism.
 
@@ -124,7 +124,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The osteoarthritis prediction has no clinical trials, and all retrieved literature concerns bone and joint infections, not degenerative osteoarthritis. The high TxGNN score appears to be a knowledge-graph artefact. Daptomycin also carries a known risk of muscle toxicity, and long-term use for a chronic, non-infectious joint disease would be hard to justify. Rheumatoid arthritis is the only prediction with a preclinical mechanistic signal, and it should be treated as a research question.
+The osteoarthritis prediction has no clinical trials, and all retrieved literature concerns bone and joint infections, not degenerative osteoarthritis. The high TxGNN score appears to be a TxGNN model (deep learning) artefact. Daptomycin also carries a known risk of muscle toxicity, and long-term use for a chronic, non-infectious joint disease would be hard to justify. Rheumatoid arthritis is the only prediction with a preclinical mechanistic signal, and it should be treated as a research question.
 
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank

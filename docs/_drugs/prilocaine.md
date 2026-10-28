@@ -6,9 +6,9 @@ nav_order: 825
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Premature ejaculation"
 monitor_inn: "Prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
+description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prilocaine
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prilocaine: From Premature Ejaculation to Papillary Conjunctivitis
+## Prilocaine: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Prilocaine is an amide-type local anaesthetic. The knowledge-graph records link it to premature ejaculation and psychologic dyspareunia, and it is marketed in Singapore in injectable, cream and spray forms.
-The TxGNN model predicts it may be effective for **papillary conjunctivitis**, with a very high score (99.78%).
+Prilocaine is an amide-type local anaesthetic. It is marketed in Singapore in injectable, cream and spray forms.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, with a very high score (0.9978).
 Currently **0 clinical trials** and **0 publications** support this specific prediction, so it is a model prediction only.
 
 ---
@@ -48,19 +48,19 @@ Currently **0 clinical trials** and **0 publications** support this specific pre
 
 | Item | Content |
 |------|------|
-| Original Indication | Premature ejaculation; psychologic dyspareunia (from knowledge-graph indication records; the Singapore licence entries do not state an indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Prilocaine is known as a sodium channel-blocking amide local anaesthetic. By blocking nerve conduction, it produces surface or local anaesthesia. Its established uses are in dermal, dental and procedural anaesthesia, and its knowledge-graph indications relate to genital sensitivity and pain.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Prilocaine is known as a sodium channel-blocking amide local anaesthetic. By blocking nerve conduction, it produces surface or local anaesthesia. Its established uses are in dermal, dental and procedural anaesthesia.
 
 A surface anaesthetic effect on ocular discomfort is conceivable. However, papillary conjunctivitis is mainly an allergic or mechanical inflammatory condition, for example from contact lens wear or allergy. Anaesthesia would at most relieve symptoms and would not treat the underlying inflammation. The link to the original indications is therefore weak. No trial or publication supports prilocaine in this condition, and the high model score should not be read as clinical evidence.
 

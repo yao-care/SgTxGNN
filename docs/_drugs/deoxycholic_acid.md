@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Deoxycholic Acid
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 312
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Deoxycholic Acid: predicted new indication Diabetic nephropathy (evidence level L4). Approved use: Not stated in the registration data compiled for this report (the app…"
 monitor_inn: "Deoxycholic acid"
-predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "Prinzmetal angina", "hemoglobinopathy", "rheumatoid arthritis", "partial deletion of the short arm of chromosome 16", "conjunctivitis", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency"]
+predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy"]
+description: "Deoxycholic Acid: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Deoxycholic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +32,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Deoxycholic Acid: From Submental Fat Reduction to Diabetic Nephropathy
+## Deoxycholic Acid: Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +45,12 @@ Note: the top-ranked TxGNN predictions (a COL4A1-related syndrome and brain smal
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data compiled for this report (the approved indication text is blank) |
-| Predicted New Indication | Diabetic nephropathy (rank 3; ranks 1 and 2 have no supporting data) |
-| TxGNN Prediction Score | 99.32% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
+| TxGNN Prediction Score | 0.9949 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
@@ -94,7 +93,7 @@ Please refer to the package insert for warnings and contraindications, which wer
 **Decision: Hold**
 
 **Rationale:**
-The 99.32% score is a graph-based prediction only. The supporting literature shows that bile acid metabolism changes in diabetic kidney disease, not that deoxycholic acid is beneficial. There are no clinical trials. The product is a locally injected cytolytic agent, so systemic or renal use is not supported by any route-compatibility data. The other nine predictions have no supporting evidence; the exception is rheumatoid arthritis (L4), where deoxycholic acid served only as a drug-delivery carrier in preclinical work.
+The supporting literature shows that bile acid metabolism changes in diabetic kidney disease, not that deoxycholic acid is beneficial. There are no clinical trials. The product is a locally injected cytolytic agent, so systemic or renal use is not supported by any route-compatibility data.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, which block any safety screening

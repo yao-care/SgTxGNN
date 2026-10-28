@@ -4,17 +4,17 @@ title: Doxorubicin
 parent: High Evidence (L1-L2)
 nav_order: 352
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Doxorubicin"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
+description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Doxorubicin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Doxorubicin: From Lymphoma and Leukaemia to Ewing Sarcoma
+## Doxorubicin: Ewing sarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Doxorubicin is already a backbone drug in standard Ewing sarcoma regimens, so th
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma, Langerhans cell histiocytosis (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

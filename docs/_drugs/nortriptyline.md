@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nortriptyline
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 725
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Nortriptyline"
-predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "trichotillomania", "Tourette syndrome", "major affective disorder"]
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
+description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Nortriptyline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nortriptyline: From Anxiety Disorder to Attention Deficit-Hyperactivity Disorder
+## Nortriptyline: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **no registered clinical trials** but **15 publications** (including one co
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (from the knowledge graph; no approved indication text is available in Singapore licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L2 (see note below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* No completed Phase 2/3 trials are registered. The L2 rating rests on a published randomized controlled study in children and adolescents with ADHD (PMID 11052409). By the strict trial-based rules this would be closer to L3, so the rating should be read as conservative-to-moderate.
@@ -64,7 +64,7 @@ The original indications (anxiety, neurotic and dysthymic disorders) and ADHD ar
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials registered for ADHD. (Trials listed for the lower-ranked prediction "major affective disorder" concern depression, which is an established use of nortriptyline rather than a new indication, and are not counted here.)
+Currently no clinical trials registered for ADHD.
 
 ## Literature Evidence
 
@@ -116,15 +116,7 @@ Nortriptyline has a plausible noradrenergic mechanism for ADHD, a published cont
 
 | Predicted Indication | Score | Evidence Level | Suggested Stance |
 |------|------|------|------|
-| ADHD, inattentive type | 99.33% | L4 | Research question; indirect support from parent ADHD evidence only |
-| Faciodigitogenital syndrome | 98.82% | L5 | Hold; no mechanistic link |
-| Chondromyxoid fibroma | 98.82% | L5 | Hold; no mechanistic link |
-| Specific developmental disorder | 98.78% | L5 | Hold; retrieved literature concerns depression, not this condition |
-| Benign paroxysmal torticollis of infancy | 98.25% | L5 | Hold; no evidence, and infant safety concerns |
-| Agoraphobia | 97.61% | L3 | Research question; a small 1988 study in panic disorder with agoraphobia (PMID 3379145), with SSRIs now preferred |
-| Trichotillomania | 96.77% | L5 | Hold; prediction only |
-| Tourette syndrome | 96.05% | L3 | Research question; evidence is limited to ADHD with comorbid tics |
-| Major affective disorder | 95.51% | L3 | Research question; this is essentially an established antidepressant use rather than true repurposing, and trial-level attribution to nortriptyline is uncertain |
+| ADHD, inattentive type | 0.9933 | L5 | Research question; indirect support from parent ADHD evidence only |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

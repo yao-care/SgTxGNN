@@ -4,17 +4,17 @@ title: Heparin
 parent: Low Evidence (L5)
 nav_order: 496
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Heparin"
-predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful", "retinal telangiectasia", "retinal microaneurysm", "arteriosclerotic retinopathy", "vertebral artery occlusion", "breast fibrocystic disease"]
+predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
 ---
 
 # Heparin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Heparin: From Pulmonary Embolism and Disseminated Intravascular Coagulation to Thrombophilia due to Protein C Deficiency
+## Heparin: Thrombophilia due to Protein C Deficiency, Autosomal Recessive
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ but **no clinical trials and no publications** were found for this indication, s
 |------|------|
 | Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -108,15 +108,7 @@ The prediction is biologically plausible, because protein C deficiency is a hype
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 2 | Primary release disorder of platelets | 99.06% | L4 | No mechanistic rationale for heparin; the literature is only thematically adjacent; bleeding risk could increase |
-| 3 | Pseudo-von Willebrand disease | 98.65% | L5 | No clear rationale, likely a graph artifact, possible bleeding risk |
-| 4 | Atypical hemolytic-uremic syndrome with thrombomodulin anomaly | 96.74% | L5 | Plausible but unvalidated; standard of care is complement inhibition |
-| 5 | Painful neuropathy | 96.13% | L4 | Only preclinical HMGB1 papers; the one trial (NCT00445328) compares dalteparin with heparin for VTE prevention and is not relevant |
-| 6 | Retinal telangiectasia | 94.88% | L5 | No mechanistic link |
-| 7 | Retinal microaneurysm | 94.52% | L5 | Speculative; risk of retinal hemorrhage |
-| 8 | Arteriosclerotic retinopathy | 94.52% | L5 | Speculative; shares its score with retinal microaneurysm |
-| 9 | Vertebral artery occlusion | 94.22% | L4 | Indirect evidence only; flagged as a research question (S1). Trial [NCT01980316](https://clinicaltrials.gov/study/NCT01980316) is a completed Phase 4 study (n=114) of argatroban, not heparin. The [CADISS RCT (PMID 30801621)](https://pubmed.ncbi.nlm.nih.gov/30801621/) found no clear difference between antiplatelet and anticoagulant therapy in cervical artery dissection |
-| 10 | Breast fibrocystic disease | 93.20% | L5 | No credible mechanistic link |
+| 2 | Primary release disorder of platelets | 0.9906 | L5 | No mechanistic rationale for heparin; the literature is only thematically adjacent; bleeding risk could increase |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

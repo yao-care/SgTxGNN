@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but there 
 |------|------|
 | Original Indication | Bacterial infections (e.g. typhoid fever, urinary tract infection, bronchitis, bacterial pneumonia). No approved indication text is available from the Singapore licences. |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, ofloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV, and its efficacy in bacterial infections is well established.
 
-That mechanism does not clearly connect to hyperamylasemia. Hyperamylasemia is a laboratory finding, often linked to pancreatic or salivary gland disorders, and it has no clear antibacterial target. The high TxGNN score is a graph-based prediction only. No trials or literature support it, so the prediction should be treated as a hypothesis with no demonstrated mechanistic basis.
+That mechanism does not clearly connect to hyperamylasemia. Hyperamylasemia is a laboratory finding, often linked to pancreatic or salivary gland disorders, and it has no clear antibacterial target. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature support it, so the prediction should be treated as a hypothesis with no demonstrated mechanistic basis.
 
 **Other predictions worth noting:** Among the other top-ranked predictions, **septicemic plague** is the only biologically plausible one. Ofloxacin is active in vitro against *Yersinia pestis* (PMIDs 8540736, 8913481), and mouse and other animal studies report efficacy in prophylaxis and treatment (e.g. PMIDs 9517950, 8203841, 16127904). The evidence there is limited to in vitro and animal data (L4), with no human trials. This is an extension within infectious disease rather than a distant repurposing. If the team wants a lead worth pursuing, this is a better candidate than hyperamylasemia.
 

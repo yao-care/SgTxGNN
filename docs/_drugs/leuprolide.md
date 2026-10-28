@@ -4,17 +4,17 @@ title: Leuprolide
 parent: Low Evidence (L5)
 nav_order: 592
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Leuprolide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Endometriosis, precocious puberty"
 monitor_inn: "Leuprolide"
-predicted_indications: ["osteoarthritis", "pseudoachondroplasia", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "myosclerosis", "osteoarthritis susceptibility", "arthropathy", "Behr syndrome", "pulmonic stenosis (disease)"]
+predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
+description: "Leuprolide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Leuprolide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Leuprolide: From Endometriosis and Precocious Puberty to Osteoarthritis
+## Leuprolide: Osteoarthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **osteoarthritis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis, precocious puberty (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, leuprolide is a GnRH agonist that ultimately suppresses gonadal sex steroids. This effect explains its use in endometriosis and precocious puberty.
 
-For osteoarthritis, however, no credible mechanistic link has been identified. Sex hormone depletion is generally associated with bone loss and joint pain (arthralgia), not cartilage protection. The high TxGNN score therefore looks like a knowledge-graph artifact rather than a true therapeutic signal.
+For osteoarthritis, however, no credible mechanistic link has been identified. Sex hormone depletion is generally associated with bone loss and joint pain (arthralgia), not cartilage protection. The high TxGNN score therefore looks like a TxGNN model (deep learning) artifact rather than a true therapeutic signal.
 
 The other top predictions (pseudoachondroplasia, brachyolmia, acromesomelic dysplasia, myosclerosis, arthropathy, Behr syndrome, pulmonic stenosis) share the same problem. They are mostly rare genetic or structural disorders with no plausible GnRH-related mechanism and no supporting studies.
 

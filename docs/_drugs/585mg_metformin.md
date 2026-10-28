@@ -8,6 +8,7 @@ nav_order: 12
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # 585Mg Metformin
@@ -49,7 +50,7 @@ This candidate drug record contains an anomalous INN field "585MG METFORMIN)" wh
 | Predicted New Indication | None |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model record only; no linked research) |
-| Singapore Market Status | Not marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

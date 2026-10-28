@@ -8,6 +8,7 @@ nav_order: 53
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Albuterol Sulfate 3 01Mg 2 5Ml Eqv To Albuterol
@@ -51,8 +52,8 @@ making a complete repurposing evaluation impossible at this stage — a **Hold**
 | Predicted New Indication | No TxGNN predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — no actual studies linked; model predictions not yet available |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ---

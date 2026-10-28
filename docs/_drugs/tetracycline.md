@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tetracycline
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 977
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections (urinary tract infection, bronchitis, acne…"
 monitor_inn: "Tetracycline"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)", "exposure keratitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 ---
 
 # Tetracycline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and only **1 publication** (a 1992
 |------|------|
 | Original Indication | Bacterial infections (urinary tract infection, bronchitis, acne, gonorrhoea, pharyngitis, conjunctivitis, pneumonia, etc.). Singapore licence texts have no indication wording recorded. |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| TxGNN Prediction Score | 0.9958 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

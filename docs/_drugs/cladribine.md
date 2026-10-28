@@ -4,17 +4,17 @@ title: Cladribine
 parent: Low Evidence (L5)
 nav_order: 258
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cladribine: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Hairy cell leukemia, hairy cell leukemia variant…"
+indication_count: 7
 monitor_inn: "Cladribine"
-predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma", "skeletal muscle neoplasm", "gestational trophoblastic neoplasm", "pleural adenomatoid tumor"]
+predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
+last_modified_at: 2026-10-27
+description: "Cladribine: predicted new indication parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cladribine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Cladribine: From Hairy Cell Leukemia to Parameningeal Embryonal Rhabdomyosarcoma
+## Cladribine: purine nucleoside analogue → parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cladribine is a purine nucleoside analog originally used for hairy cell leukemia and relapsing-remitting multiple sclerosis.
-The TxGNN model predicts it may be effective for **parameningeal embryonal rhabdomyosarcoma**,
-but currently there are **0 clinical trials** and **0 publications** directly supporting this prediction. It is a model prediction only.
+Cladribine is a purine nucleoside analogue that is marketed in Singapore as an oral tablet.
+The TxGNN model predicts it may be effective for **parameningeal embryonal rhabdomyosarcoma**, but **no clinical trials and no publications** directly support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hairy cell leukemia, hairy cell leukemia variant, relapsing-remitting multiple sclerosis (the Singapore licence has no indication text on record) |
-| Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.77% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | parameningeal embryonal rhabdomyosarcoma |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Cladribine is generally known as a purine nucleoside analog that resists breakdown by adenosine deaminase. It causes DNA strand breaks and apoptosis, mainly in lymphocytes and monocytes, which have high deoxycytidine kinase activity. This explains its use in lymphoid malignancies such as hairy cell leukemia and its immune-modulating effect in multiple sclerosis.
+Detailed mechanism of action data is not available in the data compiled for this report. Cladribine is generally described as a purine nucleoside analogue that resists breakdown by adenosine deaminase. It causes DNA strand breaks and apoptosis, mainly in lymphocytes and monocytes that have high deoxycytidine kinase activity.
 
-Rhabdomyosarcoma, however, is a solid mesenchymal (soft-tissue) tumour, mostly seen in children. No drug-specific mechanistic rationale or supporting data were found for cladribine in this disease. The high score (about 99.8%) most likely reflects the way rhabdomyosarcoma subtypes cluster together in the knowledge graph, not specific evidence about cladribine. The same pattern applies to the other top-ranked predictions, which are mostly rhabdomyosarcoma subtypes (vaginal, bile duct, prostate and others), plus skeletal muscle neoplasm, gestational trophoblastic neoplasm and pleural adenomatoid tumor.
-
-This prediction should be treated as a hypothesis for further investigation, not as evidence of efficacy.
+Parameningeal embryonal rhabdomyosarcoma is a solid mesenchymal tumour. No specific mechanistic rationale or supporting data link cladribine's activity in lymphoid cells to this tumour type. The high score (0.9977) most likely reflects the way related rhabdomyosarcoma subtypes cluster together in the model, not drug-specific evidence. The same pattern applies to the other rhabdomyosarcoma-family predictions, which also have no trials or literature behind them.
 
 ## Clinical Trial Evidence
 
@@ -68,52 +65,49 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for the top predicted indication.
-
-For context, the only publication retrieved across the predictions concerns a different indication (liver sarcoma, rank 7):
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [15241520](https://pubmed.ncbi.nlm.nih.gov/15241520/) | 2004 | Case report | Der Hautarzt | Successful cladribine therapy in smoldering systemic mastocytosis. This is not a sarcoma study, so it offers only indirect relevance. |
+Currently no related literature available for the main prediction.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15691P | MAVENCLAD TABLET 10MG | Tablet (oral) | Not recorded in the data compiled for this report |
+| SIN15691P | MAVENCLAD TABLET 10MG | Tablet | Not recorded in the local data |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (purine nucleoside analog / antimetabolite) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions. The knowledge graph links cladribine to neutropenia, thrombocytopenia, anemia and agranulocytosis. |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count (with differential), liver and renal function |
-| Handling Protection | Follow cytotoxic drug handling regulations |
+| Cytotoxicity Classification | Conventional cytotoxic (purine nucleoside analogue) |
+| Myelosuppression Risk | High. Lymphopenia, neutropenia and other cytopenias are expected with this drug class |
+| Emetogenicity Classification | Low |
+| Monitoring Items | CBC with differential (especially lymphocyte count), liver and renal function |
+| Handling Protection | Follow local cytotoxic drug handling regulations |
+
+Please refer to the package insert warnings and precautions for product-specific requirements.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not package insert text)**: kidney disease, pyoureter, thrombocytopenia, hyperuricemia, neutropenia, agranulocytosis, peripheral nervous system disease, peripheral neuropathy, anemia, macrocytic anemia.
-- **Drug Interactions**: 100 interactions were found. The main ones are listed below.
-  - **Major**: corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone), deferiprone, and radiopharmaceuticals or radioimmunotherapy agents (ibritumomab tiuxetan, iobenguane I-131, tositumomab, samarium-153 lexidronam, strontium-89 chloride).
-  - **Moderate**: palifermin, dipyridamole, cilostazol, eltrombopag.
+- **Drug Interactions**: Interaction screening returned 100 records. Those listed include many **Major**-level interactions:
+  - Corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone
+  - Other drugs: deferiprone
+  - Radiopharmaceuticals and radioimmunotherapies: ibritumomab tiuxetan, iobenguane (I-131), tositumomab (I-131), tositumomab, samarium (153Sm) lexidronam, strontium chloride Sr-89
+  - Moderate-level interactions include palifermin, dipyridamole, cilostazol and eltrombopag.
+- **Conditions of concern**: Kidney disease, thrombocytopenia, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), peripheral neuropathy and peripheral nervous system disease are flagged as conditions of concern. These come from drug–disease relationship data, not from label text.
 
-Please refer to the package insert for warnings, as label text was not available.
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on model scoring (Evidence Level L5), with no clinical trials or literature for rhabdomyosarcoma and no specific mechanistic rationale. Cladribine is a cytotoxic drug with significant myelosuppression-related safety concerns, and its established activity is in lymphoid disease, not solid tumours.
+The prediction rests only on a model score. No trials or publications address parameningeal embryonal rhabdomyosarcoma, and no mechanistic rationale is available for extending cladribine from lymphoid cells to a solid paediatric sarcoma. Cladribine's marked myelosuppression and immunosuppression add to the case for caution.
 
 **To proceed, the following is needed:**
-- Obtain and review the HSA package insert for warnings and contraindications (safety screening cannot proceed without it)
-- Detailed mechanism of action data (MOA)
-- Preclinical data (e.g., cell-line or xenograft studies) showing cladribine activity in rhabdomyosarcoma
-- A systematic literature and trial registry search specific to cladribine and rhabdomyosarcoma
-- Assessment of route compatibility (the Singapore product is an oral tablet) and of whether the indication fits the approved dose regimen
+- Preclinical data (for example, cell line or xenograft activity in embryonal rhabdomyosarcoma)
+- Detailed mechanism of action data and a rationale specific to this tumour type
+- Package insert warnings and contraindications from the Singapore regulator
+- A safety and monitoring plan covering myelosuppression, infection risk and the listed interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

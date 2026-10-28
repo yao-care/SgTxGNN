@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pregabalin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 824
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pregabalin: predicted new indication Tendinitis (evidence level L4). Approved use: Anxiety disorder, fibromyalgia, myofascial pain syndrome…"
 monitor_inn: "Pregabalin"
-predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura", "osteoarthritis susceptibility", "osteoarthritis", "headache disorder", "atrophoderma vermiculata"]
+predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
+description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Pregabalin: From Anxiety Disorder, Fibromyalgia and Postherpetic Neuralgia to Tendinitis
+## Pregabalin: Tendinitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ The literature found is only indirectly related, so this prediction rests mainly
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, fibromyalgia, myofascial pain syndrome, postherpetic neuralgia (from the TxGNN knowledge graph; Singapore licence records list no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Tendinitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -120,7 +120,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The 99.71% TxGNN score is a computational prediction only. No clinical trials exist for tendinitis, and the few publications found are indirect (post-surgical pain, case reports, an editorial, and a rat study). The mechanistic link through pain modulation is plausible but unproven.
+The 0.9971 TxGNN score is a computational prediction only. No clinical trials exist for tendinitis, and the few publications found are indirect (post-surgical pain, case reports, an editorial, and a rat study). The mechanistic link through pain modulation is plausible but unproven.
 
 **To proceed, the following is needed:**
 - Clinical studies of pregabalin in tendinitis or tendinopathy, preferably randomized and placebo-controlled
@@ -128,7 +128,7 @@ The 99.71% TxGNN score is a computational prediction only. No clinical trials ex
 - Package insert warnings and contraindications for Singapore-registered products
 - A defined patient population (for example, tendon pain with neuropathic or centrally sensitized features) and a safety plan covering sedation, dizziness, falls, renal dosing and opioid co-use
 
-**Note:** Two other TxGNN predictions for pregabalin have much stronger supporting evidence than tendinitis. Osteoarthritis (L1, including a 2026 meta-analysis and several Phase 3/4 trials) and headache disorder (L1, including a completed Phase 3 trial in postdural puncture headache) are both rated "Proceed with Guardrails". They may be better candidates to evaluate first.
+**Note:** Two other TxGNN predictions for pregabalin have much stronger supporting evidence than tendinitis. They may be better candidates to evaluate first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Acitretin
 parent: Medium Evidence (L3-L4)
 nav_order: 35
 evidence_level: L3
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not stated in the Singapore licence data compiled for this report"
 monitor_inn: "Acitretin"
-predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome", "complement component 4a deficiency", "subacute bacterial endocarditis", "familial acanthosis nigricans", "prolapse of lacrimal gland", "urticaria, familial localized heat", "Sjogren syndrome"]
+predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
 ---
 
 # Acitretin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Most of this evidence concerns hidradenitis suppurativa (also called "acne inver
 |------|------|
 | Original Indication | Not stated in the Singapore licence data compiled for this report |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -4,17 +4,17 @@ title: Orlistat
 parent: Low Evidence (L5)
 nav_order: 743
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Orlistat: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity (including monogenic obesity)"
 monitor_inn: "Orlistat"
-predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny", "hypoalphalipoproteinemia", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "fatty liver disease", "homozygous familial hypercholesterolemia", "amenorrhea (disease)"]
+predicted_indications: ["hypervitaminosis"]
+description: "Orlistat: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Orlistat
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Orlistat: From Obesity to Hypervitaminosis
+## Orlistat: Hypervitaminosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but there
 
 | Item | Content |
 |------|------|
-| Original Indication | Obesity (including monogenic obesity); the Singapore registry entries contain no indication text, so this comes from the knowledge graph |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -96,7 +96,6 @@ The prediction has no clinical trials or literature behind it (L5). Its only mec
 - Mechanism of action data from DrugBank
 - Any preclinical or clinical signal that orlistat can lower vitamin levels in a therapeutic setting, together with a plan for managing vitamin depletion
 
-**Note on other predictions:** Among the other predicted indications, **fatty liver disease** (TxGNN score 85.3%, rank 8) has the strongest support. It has two small completed Phase 4 trials (NCT00160407, n=50; NCT00207311, n=30), a 2023 randomized trial of diet versus orlistat in obesity with MAFLD (PMID 36781126), and a 2024 meta-analysis of randomized trials (PMID 38910819). This is graded L3 and flagged as a research question. Any follow-up effort would be better directed there. The benefit appears to be largely weight-mediated, so larger trials with histology endpoints are needed.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Venetoclax
 parent: Low Evidence (L5)
 nav_order: 1061
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Venetoclax: predicted new indication CLL/SLL with immunoglobulin heavy chain variable-region gene somatic… (evidence level L5). Approved use: Acute lymphoblastic/lymphocytic leukemia"
 monitor_inn: "Venetoclax"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
+description: "Venetoclax: predicted new indication Hodgkins lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Venetoclax: From Acute Lymphoblastic Leukemia and Richter Syndrome to CLL/SLL with IGHV Somatic Hypermutation
+## Venetoclax: Hodgkins lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Venetoclax is an oral BCL-2 inhibitor. The knowledge graph used for prediction lists acute lymphoblastic leukemia and Richter syndrome as its original indications.
+Venetoclax is an oral BCL-2 inhibitor.
 The TxGNN model predicts it may be effective for **chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL) with immunoglobulin heavy chain variable-region gene somatic hypermutation**.
 For this specific subtype there are currently **0 clinical trials** and **0 publications** supporting the prediction, so it rests on model output alone.
 
@@ -48,12 +48,12 @@ For this specific subtype there are currently **0 clinical trials** and **0 publ
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic/lymphocytic leukemia; Richter syndrome (from the prediction knowledge graph; no indication text is recorded on the Singapore licences) |
-| Predicted New Indication | CLL/SLL with immunoglobulin heavy chain variable-region gene somatic hypermutation (IGHV-mutated CLL/SLL) |
-| TxGNN Prediction Score | 99.55% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hodgkins lymphoma |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -121,7 +121,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible but has no trials or publications specific to IGHV-mutated CLL/SLL. It is also a subtype of an already established CLL use rather than a new repurposing opportunity. Within the same prediction list, acute myeloid leukemia has far stronger evidence (L1) and is the more productive direction to evaluate.
+The prediction is mechanistically plausible but has no trials or publications specific to IGHV-mutated CLL/SLL. It is also a subtype of an already established CLL use rather than a new repurposing opportunity.
 
 **To proceed, the following is needed:**
 - Subtype-specific clinical data (trials or publications) for IGHV-mutated CLL/SLL

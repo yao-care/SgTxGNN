@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Oxytocin
-parent: Low Evidence (L5)
-nav_order: 753
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Oxytocin: predicted new indication Allergic urticaria (evidence level L5). Approved use: Pregnancy disorder with abortive outcome"
-monitor_inn: "Oxytocin"
-predicted_indications: ["allergic urticaria", "nasopharyngitis", "papillary conjunctivitis", "recalcitrant atopic dermatitis", "atopic conjunctivitis", "IgE responsiveness, atopic", "cold urticaria", "esotropia", "rosacea conjunctivitis", "urticaria, aquagenic"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 752
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Oxytocin: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Oxytocin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,72 +32,47 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Oxytocin: From Pregnancy Disorder with Abortive Outcome to Allergic Urticaria
+<!-- known-uses-page -->
+<!-- description: Oxytocin: known uses and market status in Singapore; currently no new candidate indication -->
+## Oxytocin: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Oxytocin, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Oxytocin was originally used for pregnancy disorders with abortive outcome.
-The TxGNN model predicts it may be effective for **allergic urticaria**,
-but **no clinical trials and no publications** currently support this direction, so it is a computational prediction only.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Pregnancy disorder with abortive outcome (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 95.97% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available. Based on known information, oxytocin is a peptide hormone used in obstetric care, and its efficacy in pregnancy-related conditions is established. Whether this carries over to allergic urticaria cannot be judged from the data compiled for this report.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Oxytocin receptor signalling has been proposed to influence inflammation and mast cell activity, which could in theory relate to urticaria. This idea is speculative and is not supported by any trial or publication in the data compiled for this report. The high TxGNN score reflects a knowledge-graph pattern, not demonstrated clinical benefit.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-**Other predicted indications (all L5, all Hold):**
-
-| Rank | Predicted Indication | TxGNN Score | Notes |
-|------|------|------|------|
-| 2 | Nasopharyngitis | 94.70% | No trials or literature |
-| 3 | Papillary conjunctivitis | 93.17% | No trials or literature |
-| 4 | Recalcitrant atopic dermatitis | 82.88% | No trials or literature |
-| 5 | Atopic conjunctivitis | 79.19% | No trials or literature |
-| 6 | IgE responsiveness, atopic | 77.43% | A trait rather than a treatable indication |
-| 7 | Cold urticaria | 77.20% | No trials or literature |
-| 8 | Esotropia | 77.10% | One retrieved paper, likely a keyword mismatch (see below) |
-| 9 | Rosacea conjunctivitis | 75.20% | No trials or literature |
-| 10 | Aquagenic urticaria | 63.88% | No trials or literature |
-
-Most of the predictions fall within allergic or atopic conditions, which suggests a shared pattern in the model. None has been validated.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-For the top prediction (allergic urticaria), currently no related literature is available.
-
-For the rank 8 prediction (esotropia), one publication was retrieved. It is not direct evidence:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [37597111](https://pubmed.ncbi.nlm.nih.gov/37597111/) | 2024 | Cohort | Graefe's Archive for Clinical and Experimental Ophthalmology | Retrospective case series and review on work-up of infants with isolated congenital sixth nerve palsy. It does not appear to evaluate oxytocin, so it is likely a spurious keyword match. |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| pregnancy disorder with abortive outcome |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17068P | Oxytocin Grindeks Solution for Injection and Infusion 10 IU/mL | Injection, solution | Not stated in the available records |
-| SIN02496P | Syntocinon Injection 10 IU/mL | Injection | Not stated in the available records |
-| SIN03588P | Syntometrine Injection | Injection | Not stated in the available records |
-
-All three are valid single-ingredient licences, and all are injectable. No cancelled licences were found.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17068P | OXYTOCIN GRINDEKS SOLUTION FOR INJECTION AND INFUSION 10 IU/ | INJECTION, SOLUTION | Valid |
+| SIN02496P | SYNTOCINON INJECTION 10 iu/ml | INJECTION | Valid |
+| SIN03588P | SYNTOMETRINE INJECTION | INJECTION | Valid |
 
 ## Safety Considerations
 
@@ -110,19 +84,6 @@ All three are valid single-ingredient licences, and all are injectable. No cance
 
 Package insert warnings and contraindications were not available. Please refer to the package insert for the full safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction for allergic urticaria rests only on a computational score. There are no clinical trials, no supporting literature and no established mechanistic link. All ten predicted indications are at evidence level L5.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, which block safety screening
-- Mechanism of action data for oxytocin
-- A literature and trial search aimed at oxytocin in urticaria or allergic disease, including preclinical mast cell studies
-- Assessment of route and formulation fit, since all Singapore products are injectables and the predicted indications may need other routes
-- Approved indication text for the Singapore licences, to confirm the original indication locally
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

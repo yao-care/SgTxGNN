@@ -4,17 +4,17 @@ title: Norelgestromin
 parent: Low Evidence (L5)
 nav_order: 720
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Norelgestromin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the Singapore registration data (the approved indicatio…"
 monitor_inn: "Norelgestromin"
-predicted_indications: ["amenorrhea (disease)", "acne (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "fat necrosis of breast", "breast abscess", "lactation disease", "primary ovarian failure"]
+predicted_indications: ["amenorrhea (disease)"]
+description: "Norelgestromin: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Norelgestromin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Norelgestromin: From Hormonal Contraception to Amenorrhea
+## Norelgestromin: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,25 +46,22 @@ The prediction is based on computation alone.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data (the approved indication text is blank) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.51% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on known information, norelgestromin is a progestin used in a combined hormonal contraceptive patch with ethinyl estradiol. It supplies exogenous hormonal support to the endometrium, so it may plausibly be applicable to functional amenorrhea or cycle regulation.
 
-There are important caveats. Amenorrhea is also a recognised side effect of hormonal contraceptives, so the direction of effect (treating versus causing it) needs clarification. No studies of norelgestromin itself were retrieved, and the high score (0.995) is a computational prediction only.
+There are important caveats. Amenorrhea is also a recognised side effect of hormonal contraceptives, so the direction of effect (treating versus causing it) needs clarification. No studies of norelgestromin itself were retrieved, and the high score (0.9951) is a computational prediction only.
 
 Other predicted indications follow the same pattern of weak support:
 - **Acne (98.5%)**: combined hormonal contraceptives lower androgen output and sebum production. Norgestimate-containing products have acne data, but this is class-level, indirect support only.
-- **Benign breast conditions** (fibrocystic disease, apocrine adenosis, blunt duct adenosis, benign mammary dysplasia): the link is speculative and likely reflects knowledge-graph proximity.
-- **Primary ovarian failure (95.1%)**: hormone replacement is the standard of care, but contraceptive patch doses are not designed for replacement therapy.
-- **Fat necrosis of breast, breast abscess, lactation disease**: no plausible therapeutic link. These are likely graph artefacts, and the lactation link suggests an adverse effect rather than a benefit.
 
 ## Clinical Trial Evidence
 

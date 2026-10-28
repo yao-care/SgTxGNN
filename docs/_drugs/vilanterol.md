@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vilanterol
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 1066
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Vilanterol: predicted new indication Obstructive lung disease (evidence level L1). Approved use: COPD, asthma, bronchitis, pulmonary emphysema"
 monitor_inn: "Vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Vilanterol: From COPD and Asthma to Obstructive Lung Disease
+## Vilanterol: Hyperlucent lung
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Vilanterol is a long-acting beta2-agonist bronchodilator, originally used for chronic obstructive pulmonary disease (COPD) and asthma.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, but this is an umbrella category that already covers its approved uses, so it is a confirmation of existing indications rather than a true new repurposing signal.
 The data compiled for this report include **29 clinical trials** and **19 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | COPD, asthma, bronchitis, pulmonary emphysema (the regulatory indication text is blank in the Singapore records, so these come from the knowledge graph) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hyperlucent lung |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -117,7 +116,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 RCTs and large pivotal trials (IMPACT, FULFIL, CAPTAIN) support vilanterol-containing regimens in COPD and asthma. The "obstructive lung disease" prediction essentially confirms existing indications rather than identifying a new use. The other predicted indications have no clinical evidence and should stay on Hold, and bronchial neoplasm is at most a research question.
+Multiple completed Phase 3 RCTs and large pivotal trials (IMPACT, FULFIL, CAPTAIN) support vilanterol-containing regimens in COPD and asthma. The other predicted indications have no clinical evidence and should stay on Hold, and bronchial neoplasm is at most a research question.
 
 **To proceed, the following is needed:**
 - Singapore package insert text, including approved indications, warnings and contraindications

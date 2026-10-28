@@ -4,17 +4,17 @@ title: Camphor
 parent: Low Evidence (L5)
 nav_order: 199
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Camphor: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "Camphor"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "migraine with or without aura, susceptibility to", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
 ---
 
 # Camphor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Evidence Level: **L5** | Predicted Indications: **10**
 |------|------|
 | Original Indication | Not available (the approved indication text of the Singapore licence is empty) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 (preclinical and mechanistic evidence only; no clinical trials) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 (preclinical and mechanistic evidence only; no clinical trials) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,7 +82,6 @@ Currently no related clinical trials registered.
 | [34373243](https://pubmed.ncbi.nlm.nih.gov/34373243/) | 2021 | Case report | BMJ Case Reports | Two cases of cluster headache temporally related to toothpastes containing camphor and eucalyptus oils |
 | [27058833](https://pubmed.ncbi.nlm.nih.gov/27058833/) | 2016 | Review | Z Kinder Jugendpsychiatr Psychother | History of paediatric neuropsychopharmacotherapy in the 1940s and 50s; does not test camphor in migraine |
 
-Related evidence found for the closely related prediction "migraine with or without aura, susceptibility to":
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -113,13 +112,12 @@ Beyond migraine, the other top-ranked predictions have no meaningful support:
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Migraine with brainstem aura | 99.79% | L5 | Prediction only; no trials or literature |
-| Erectile dysfunction | 99.79% | L5 | Only a rat oral toxicity study; no therapeutic evidence |
-| Pulmonary hypertension | 99.77% | L5 | The 20 literature hits are a false positive: "CAMPHOR" is a quality-of-life questionnaire (Cambridge Pulmonary Hypertension Outcome Review), unrelated to the drug |
-| Migraine with or without aura, susceptibility to | 99.73% | L4 | Indirect preclinical support only (see above) |
-| Raynaud disease | 99.56% | L5 | The only paper is an outcome-measure review matched by name; no evidence for camphor |
-| Tourette syndrome | 99.46% | L5 | Prediction only; neurotoxicity is a concern for any CNS use |
-| Kyphoscoliotic heart disease, ulerythema ophryogenesis, atrophoderma vermiculata | 99.70% to 99.54% | L5 | Prediction only; no trials, literature or mechanistic link |
+| Migraine with brainstem aura | 0.9979 | L5 | Prediction only; no trials or literature |
+| Erectile dysfunction | 0.9979 | L5 | Only a rat oral toxicity study; no therapeutic evidence |
+| Pulmonary hypertension | 0.9977 | L5 | The 20 literature hits are a false positive: "CAMPHOR" is a quality-of-life questionnaire (Cambridge Pulmonary Hypertension Outcome Review), unrelated to the drug |
+| Raynaud disease | 0.9956 | L5 | The only paper is an outcome-measure review matched by name; no evidence for camphor |
+| Tourette syndrome | 0.9946 | L5 | Prediction only; neurotoxicity is a concern for any CNS use |
+| Kyphoscoliotic heart disease, ulerythema ophryogenesis, atrophoderma vermiculata | 0.9970 to 0.9954 | L5 | Prediction only; no trials, literature or mechanistic link |
 
 ---
 

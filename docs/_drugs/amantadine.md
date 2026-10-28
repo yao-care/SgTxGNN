@@ -4,17 +4,17 @@ title: Amantadine
 parent: Low Evidence (L5)
 nav_order: 76
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian disorders"
+indication_count: 4
 monitor_inn: "Amantadine"
-predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration", "fructose-1,6-bisphosphatase deficiency", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "progressive supranuclear palsy-corticobasal syndrome", "X-linked intellectual disability-cerebellar hypoplasia syndrome"]
+predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
+last_modified_at: 2026-10-27
+description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Amantadine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,129 +33,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Amantadine: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Amantadine: NMDA receptor antagonist and dopaminergic modulator → Rasmussen subacute encephalitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Amantadine is an oral medicine originally used for Parkinson disease and related parkinsonian and movement disorders.
-The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**,
-but **no clinical trials and no publications** currently support this specific prediction (it is prediction-only evidence).
-Among the other top-ranked predictions, **myelitis** (post-polio fatigue) and **Lewy body dementia** have the most supporting literature.
-
----
+Amantadine is an oral capsule medicine marketed in Singapore, acting on the central nervous system.
+The TxGNN model predicts it may be relevant to **Rasmussen subacute encephalitis**, with a score of **0.9948**.
+However, **no clinical trials and no publications** currently support this specific prediction, so it remains a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related parkinsonian disorders (the Singapore licence record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.48% |
+| TxGNN Prediction Score | 0.9948 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, amantadine is an oral agent used in Parkinson disease and related movement disorders. Its effects are generally attributed to dopaminergic modulation and NMDA (glutamate) receptor antagonism.
+Detailed mechanism of action data is not available in the data compiled for this report. Amantadine is generally understood to act through NMDA receptor antagonism and modulation of dopaminergic transmission, but this is background knowledge rather than a finding from the supplied data.
 
-Rasmussen encephalitis is a rare inflammatory brain disease in which glutamate receptor-mediated excitotoxicity and autoimmunity have been discussed. A theoretical link through NMDA antagonism therefore exists. However, the data compiled for this report contain no trials or publications to support it, so this remains a model-derived hypothesis.
-
-**Other high-ranking predictions (for context)**
-
-| Predicted Indication | Score | Evidence Level | Comment |
-|------|------|------|------|
-| Myelitis | 99.24% | L3 | Literature is mostly on post-polio syndrome fatigue; indirect for myelitis in general |
-| PLA2G6-associated neurodegeneration | 99.23% | L4 | Only a case report in a related disorder (PKAN) |
-| Lewy body dementia | 97.83% | L3 | Shares parkinsonism with the approved use; direct amantadine evidence is limited |
-| Progressive supranuclear palsy-corticobasal syndrome | 97.77% | L4 | One review and one peripheral gait-analysis study |
-| Juvenile parkinsonism (Hunt type) | 97.86% | L5 | Overlaps with existing parkinsonian indications, so likely label extension rather than true repurposing |
-| Transaldolase deficiency, fructose-1,6-bisphosphatase deficiency, two X-linked intellectual disability syndromes | 97.0–99.3% | L5 | Prediction-only; no plausible mechanistic link, likely knowledge-graph artefacts |
-
----
+A theoretical link may exist because glutamate receptor-mediated excitotoxicity and autoimmune mechanisms are discussed in Rasmussen encephalitis, and NMDA antagonism could in principle touch on the former. This remains a hypothesis. No data compiled for this report supports it, and no similarity analysis between the original and predicted indications has been completed.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Rasmussen subacute encephalitis.
-
-For reference, the only registered study found among the top 10 predictions relates to progressive supranuclear palsy-corticobasal syndrome:
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02994719](https://clinicaltrials.gov/study/NCT02994719) | N/A | Active, not recruiting | 120 | Observational gait-pattern analysis in neurological disease, particularly parkinsonian disorders; does not test amantadine efficacy |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Rasmussen subacute encephalitis.
-
-For reference, the most relevant publications for the next-ranked predictions:
-
-**Myelitis (post-polio syndrome)**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [7611638](https://pubmed.ncbi.nlm.nih.gov/7611638/) | 1995 | RCT | Ann N Y Acad Sci | Double-blind, placebo-controlled trial of amantadine for fatigue in post-polio syndrome; 23 patients completed 6 weeks |
-| [25984923](https://pubmed.ncbi.nlm.nih.gov/25984923/) | 2015 | Systematic review | Cochrane Database Syst Rev | Treatment for post-polio syndrome; effectiveness of drug treatment not yet established |
-| [16879288](https://pubmed.ncbi.nlm.nih.gov/16879288/) | 2006 | Guideline | Eur J Neurol | EFNS guideline on diagnosis and management of post-polio syndrome |
-| [2039376](https://pubmed.ncbi.nlm.nih.gov/2039376/) | 1991 | Case series | Arch Neurol | Post-polio fatigue treated with amantadine |
-
-**Lewy body dementia**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26085043](https://pubmed.ncbi.nlm.nih.gov/26085043/) | 2015 | Systematic review/meta-analysis | Am J Psychiatry | Pharmacological management of Lewy body dementia; amantadine-specific findings not available |
-| [18644910](https://pubmed.ncbi.nlm.nih.gov/18644910/) | 2008 | Review | Pract Neurol | Hallucinations in Parkinson disease; amantadine and anticholinergics can trigger hallucinosis |
-| [26689073](https://pubmed.ncbi.nlm.nih.gov/26689073/) | 2015 | Case report | Masui | Neuroleptic malignant syndrome in undiagnosed Lewy body dementia in a patient on amantadine |
-
-**PLA2G6-associated neurodegeneration and atypical parkinsonism**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31366412](https://pubmed.ncbi.nlm.nih.gov/31366412/) | 2019 | Case report/small series | Can J Neurol Sci | Amantadine for gait dysfunction in PKAN (a related, but different, disorder) |
-| [30051337](https://pubmed.ncbi.nlm.nih.gov/30051337/) | 2018 | Review | CNS Drugs | Therapeutic management of overlapping atypical parkinsonism syndromes |
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN01481P | SYMMETREL 100 CAPSULE 100 mg (Catalent Germany Eberbach GmbH) | Capsule (oral) | Not stated in the available record |
-
----
+| SIN01481P | SYMMETREL 100 CAPSULE 100 mg | Capsule | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph (not label text):** multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, epilepsy, kidney disease, pyoureter, congestive heart failure, psychotic and related disorders (schizophreniform, schizoaffective, mental disorder), melanoma, angle-closure glaucoma, substance-related disorders, and atopic eczema/dermatitis. These should be verified against the official package insert.
-- **Drug Interactions:** 93 interactions were identified. Main ones listed:
-  - **Major:** Bupropion
-  - **Moderate:** anticholinergic agents (atropine, clidinium, dicyclomine, glycopyrronium, hyoscyamine, mepenzolate, methscopolamine, propantheline, scopolamine, trospium), metoclopramide, polyethylene glycol (3350 with electrolytes), picosulfuric acid, sodium sulfate
-  - **Unknown severity:** calcitriol, pantoprazole, glimepiride, doxycycline, metformin
-- **Population caution (from the literature):** amantadine can worsen hallucinations and confusion in susceptible older patients, which is particularly relevant for Lewy body dementia.
+- **Drug Interactions**: 93 potential interactions were identified in the interaction screening. Major-level: **bupropion**. Moderate-level interactions are mainly with anticholinergic agents (atropine, clidinium, dicyclomine, glycopyrronium, hyoscyamine, mepenzolate, methscopolamine, propantheline, scopolamine, trospium), plus metoclopramide, polyethylene glycol (3350 with electrolytes), picosulfuric acid and sodium sulfate.
 
-Please refer to the package insert for the official warnings, as these were not available in the data compiled for this report.
-
----
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, Rasmussen subacute encephalitis, has a very high model score but no trials or literature, so it is evidence level L5. Several lower-ranked predictions (myelitis/post-polio fatigue, Lewy body dementia) have more evidence (L3) and may be better research questions. Even so, that evidence is indirect, mostly reviews or small studies.
+The prediction score is very high (0.9948), but there are no clinical trials or publications for Rasmussen subacute encephalitis, and no mechanistic data in the compiled record. The evidence is model prediction only (L5).
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (a blocking gap for safety screening)
-- Mechanism of action data (e.g. from DrugBank)
-- A targeted literature search on amantadine in Rasmussen encephalitis
-- For Lewy body dementia and post-polio fatigue: extraction of amantadine-specific findings from the existing reviews and the 1995 RCT
-- A review of safety risks (hallucinations, confusion) for older or cognitively impaired populations
+- Literature review of NMDA/glutamate-related mechanisms and any case reports in Rasmussen encephalitis
+- Mechanism of action data for amantadine
+- Package insert warnings and contraindications from HSA, which is a blocking gap for safety screening
+- Assessment of route and formulation suitability for the target condition
+- Review of drug interactions relevant to likely co-medications, such as antiepileptic and immunotherapy regimens
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

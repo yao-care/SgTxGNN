@@ -4,17 +4,17 @@ title: Desvenlafaxine
 parent: Medium Evidence (L3-L4)
 nav_order: 318
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Desvenlafaxine"
-predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "melancholia"]
+predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Desvenlafaxine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Desvenlafaxine: From Depression to Obsessive-Compulsive Disorder
+## Desvenlafaxine: Obsessive-compulsive disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **obsessive-compulsive disorder
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the Singapore licence record has no indication text, so these come from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obsessive-compulsive disorder |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -126,7 +126,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.91%), and the serotonergic mechanism is plausible. However, there are no clinical trials and no desvenlafaxine-specific literature in OCD. Desvenlafaxine's serotonergic action is weaker than that of SSRIs, which are already established for OCD, so the case for it is currently weak.
+The prediction score is high (0.9991), and the serotonergic mechanism is plausible. However, there are no clinical trials and no desvenlafaxine-specific literature in OCD. Desvenlafaxine's serotonergic action is weaker than that of SSRIs, which are already established for OCD, so the case for it is currently weak.
 
 **To proceed, the following is needed:**
 - Desvenlafaxine-specific efficacy data in OCD, such as case series or controlled trials
@@ -134,7 +134,6 @@ The prediction score is high (99.91%), and the serotonergic mechanism is plausib
 - Package insert warnings and contraindications, to complete safety screening
 - Review of the knowledge-graph contraindications against the label text, particularly the cardiovascular and bleeding-related items
 
-**Note on other predictions:** In the same candidate list, **dysthymic disorder** has stronger support. It has two desvenlafaxine trials (a placebo-controlled Phase 4 trial with 59 participants and an open-label study with 30), plus a meta-analysis of antidepressants in dysthymia. It is rated L2 with a recommendation of Proceed with Guardrails, and may be a better first candidate for further evaluation than OCD.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

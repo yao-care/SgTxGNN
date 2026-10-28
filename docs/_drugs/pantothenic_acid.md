@@ -4,17 +4,17 @@ title: Pantothenic Acid
 parent: Low Evidence (L5)
 nav_order: 762
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "Pantothenic acid"
-predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis", "Keshan disease"]
+predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis"]
+description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pantothenic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pantothenic Acid: From Ascorbic Acid Deficiency / Scurvy to Congenital Prothrombin Deficiency
+## Pantothenic Acid: Congenital prothrombin deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Pantothenic acid (vitamin B5) is a vitamin used for nutritional deficiency states, and in the knowledge graph it is linked to ascorbic acid deficiency and scurvy.
+Pantothenic acid (vitamin B5) is a vitamin used for nutritional deficiency states.
 The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, with a very high score. However, there are **0 clinical trials** and **0 publications** supporting this prediction, and no plausible mechanistic link has been identified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ascorbic acid deficiency, scurvy (from the knowledge graph; no approved indication text is available in the Singapore licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,8 +61,8 @@ For the top-ranked prediction, the connection is weak. Congenital prothrombin de
 
 Among the other predictions in the list, some have a more plausible, though still limited, rationale:
 
-- **Folic acid deficiency anemia (score 99.60%, L4):** B-vitamin deficiencies often co-occur, and historical animal work links pantothenic acid and folic acid deficiencies to anemia and granulocytopenia. Folate repletion remains the standard treatment, and no human trial supports pantothenic acid for this condition.
-- **Uterine inflammatory disease (score 99.14%, L4):** A 2026 mouse study reports that pantothenic acid alleviates vagotomy-induced endometrial injury. This is a single preclinical model and is hypothesis-generating only.
+- **Folic acid deficiency anemia (score 0.9960, L4):** B-vitamin deficiencies often co-occur, and historical animal work links pantothenic acid and folic acid deficiencies to anemia and granulocytopenia. Folate repletion remains the standard treatment, and no human trial supports pantothenic acid for this condition.
+- **Uterine inflammatory disease (score 0.9914, L4):** A 2026 mouse study reports that pantothenic acid alleviates vagotomy-induced endometrial injury. This is a single preclinical model and is hypothesis-generating only.
 
 The remaining predictions (ochronosis, glycerol metabolism disease, xanthogranulomatous pyelonephritis, urinary tract infection, gonococcal urethritis, Ureaplasma urethritis, Keshan disease) have no supportive evidence.
 

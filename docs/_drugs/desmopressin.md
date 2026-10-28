@@ -4,17 +4,17 @@ title: Desmopressin
 parent: Low Evidence (L5)
 nav_order: 315
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Desmopressin: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Hereditary von Willebrand disease, haemophilia, nocturnal enuresis"
 monitor_inn: "Desmopressin"
-predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency", "thrombocytopenic purpura", "bleeding diathesis due to a collagen receptor defect", "hereditary thrombocytosis with transverse limb defect"]
+predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 ---
 
 # Desmopressin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Among the top 10 predictions, only **primary release disorder of platelets** has
 |------|------|
 | Original Indication | Hereditary von Willebrand disease, haemophilia, nocturnal enuresis (the approved indication text for Singapore licences was not available) |
 | Predicted New Indication | Congenital prothrombin deficiency (rank 1) |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---

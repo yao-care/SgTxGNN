@@ -4,17 +4,17 @@ title: Dabigatran Etexilate
 parent: Low Evidence (L5)
 nav_order: 293
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not available in the data compiled for this report (the registered in…"
 monitor_inn: "Dabigatran etexilate"
-predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets", "Glanzmann thrombasthenia", "gout", "pseudo-von Willebrand disease", "rheumatoid arthritis", "HIV infectious disease"]
+predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
 ---
 
 # Dabigatran Etexilate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Dabigatran etexilate is an oral direct thrombin inhibitor (marketed in Singapore
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the registered indication text is empty) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detailed mechanism of action data is not available in the compiled data. From ge
 
 The link to sclerosing cholangitis is speculative. Thrombin and PAR signalling may contribute to liver fibrosis and inflammation, but this has not been established for bile duct diseases such as sclerosing cholangitis. The only linked paper concerns drug-drug interaction testing of a different compound, not dabigatran efficacy.
 
-The high TxGNN score (0.998) reflects a pattern found by the knowledge graph model. It is not evidence of clinical benefit. Other top-ranked predictions (for example gout, familial hypercholesterolaemia, and bleeding disorders such as Glanzmann thrombasthenia) also lack plausible mechanisms, which suggests caution about interpreting the scores.
+The high TxGNN score (0.9982) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not evidence of clinical benefit. Other top-ranked predictions (for example familial hypercholesterolaemia) also lack plausible mechanisms, which suggests caution about interpreting the scores.
 
 ---
 

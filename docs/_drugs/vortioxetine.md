@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vortioxetine
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 1077
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Vortioxetine: predicted new indication Melancholia (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Vortioxetine"
-predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "Ohdo syndrome and variants", "Keppen-Lubinsky syndrome", "blepharophimosis - intellectual disability syndrome, Ohdo type", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
+predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
+description: "Vortioxetine: predicted new indication Neurotic disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Vortioxetine: From Depression to Melancholia
+## Vortioxetine: Neurotic disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Vortioxetine is a multimodal serotonergic antidepressant, originally used for major depressive disorder and anxiety disorders.
-The TxGNN model predicts it may be effective for **melancholia** (a severe subtype of depression), supported by **6 clinical trials** and **20 publications**.
+The TxGNN model predicts it may be effective for **neurotic disorder**, supported by **6 clinical trials** and **20 publications**.
 However, this evidence comes mainly from the general major depressive disorder (MDD) population, so this is closer to an on-label or near-label use than a true repurposing opportunity.
 
 ---
@@ -48,12 +48,12 @@ However, this evidence comes mainly from the general major depressive disorder (
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; the Singapore licences carry no indication text) |
-| Predicted New Indication | Melancholia (the top-ranked prediction by TxGNN score is neurotic disorder, which is a legacy category; see the note below) |
-| TxGNN Prediction Score | 99.08% (melancholia); the top-ranked prediction, neurotic disorder, scores 99.24% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Neurotic disorder |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L1 (melancholia) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Proceed with Guardrails |
 
 > **Note on candidate selection:** The highest-scoring prediction (neurotic disorder) is a broad, outdated category with only one narrative article and no vortioxetine-specific data (L4, Hold). This report focuses on melancholia, the prediction with the strongest supporting evidence. The other predictions are summarised in the final section.
@@ -64,7 +64,6 @@ However, this evidence comes mainly from the general major depressive disorder (
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. From the published literature, vortioxetine inhibits the serotonin transporter (SERT), agonises 5-HT1A receptors, partially agonises 5-HT1B receptors, and antagonises 5-HT3, 5-HT7 and 5-HT1D receptors. This increases serotonergic, noradrenergic, dopaminergic, cholinergic, histaminergic and glutamatergic neurotransmission in brain regions linked to mood and cognition.
 
-Melancholia is a severe subtype of major depressive disorder, the condition for which vortioxetine is already established. The prediction is therefore mechanistically sensible. Note, however, that the supporting trials were run in general MDD populations, not specifically in patients with melancholic features. Subtype-specific efficacy has not been shown in the data compiled here.
 
 ---
 
@@ -147,12 +146,8 @@ Several completed Phase 3 placebo-controlled RCTs and multiple meta-analyses sup
 
 | Predicted Indication | Score | Evidence Level | Recommendation | Comment |
 |------|------|------|------|------|
-| Neurotic disorder | 99.24% | L4 | Hold | Legacy broad category; one narrative article, no vortioxetine-specific data |
-| Neurotic depression | 99.09% | L4 | Research Question | Maps to depressive disorders already covered by MDD evidence; no trials under this term |
-| Dysthymic disorder | 99.02% | L3 | Research Question | Only an MDD open-label extension is linked; dedicated controlled trials are needed |
-| Agoraphobia | 98.98% | L3 | Research Question | One open-label study in anxiety-spectrum subjects (panic disorder); controlled evidence needed |
-| Benign paroxysmal torticollis of infancy | 99.07% | L5 | Hold | No mechanistic rationale; paediatric safety concerns |
-| Ohdo syndrome and variants, Keppen-Lubinsky syndrome, congenital isolated ACTH deficiency | 97.9–98.7% | L5 | Hold | Rare genetic or endocrine disorders; computational prediction only, no supporting data |
+| Neurotic disorder | 0.9924 | L4 | Hold | Legacy broad category; one narrative article, no vortioxetine-specific data |
+| Benign paroxysmal torticollis of infancy | 0.9907 | L5 | Hold | No mechanistic rationale; paediatric safety concerns |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Rilpivirine
 parent: Medium Evidence (L3-L4)
 nav_order: 868
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Rilpivirine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Rilpivirine"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection", "fibroma of prostate", "benign reproductive system neoplasm", "Brenner tumor"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,10 +51,10 @@ This prediction mostly restates the drug's existing HIV use in an animal model, 
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

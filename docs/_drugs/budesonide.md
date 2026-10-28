@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Budesonide
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 181
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L4). Approved use: Crohn's disease, inflammatory bowel disease, asthma…"
@@ -14,7 +14,7 @@ predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "po
 # Budesonide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Of all the predictions, **bronchitis** has the strongest supporting evidence (10
 |------|------|
 | Original Indication | Crohn's disease, inflammatory bowel disease, asthma, allergic rhinitis and related conditions (the Singapore licence records contain no approved-indication text) |
 | Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 15 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---
@@ -72,7 +72,7 @@ However, the evidence for budesonide itself in atopic eczema is weak. The only d
 
 Currently no related clinical trials registered for atopic eczema.
 
-For comparison, the second-ranked prediction, **bronchitis** (score 99.81%, evidence level L2), has the following trials. The most relevant ones are listed. All are small or only indirectly matched, and none is a Phase 3 RCT in bronchitis proper.
+For comparison, the second-ranked prediction, **bronchitis** (score 0.9981, evidence level L2), has the following trials. The most relevant ones are listed. All are small or only indirectly matched, and none is a Phase 3 RCT in bronchitis proper.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -136,7 +136,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score for atopic eczema is very high (99.96%), and the glucocorticoid mechanism is plausible. However, there are no registered trials, no budesonide-specific human efficacy data, and no registered topical skin product in Singapore. Evidence is at the preclinical level (L4). By contrast, bronchitis (L2) has more supporting data and is a better candidate for follow-up. The remaining predictions (polyps of the vocal cord, middle ear, external auditory canal and uterus, fibroepithelial polyp, epulis) have prediction-only evidence (L5). The frontal sinus polyp prediction has indirect supportive literature (L4).
+The TxGNN score for atopic eczema is very high (0.9996), and the glucocorticoid mechanism is plausible. However, there are no registered trials, no budesonide-specific human efficacy data, and no registered topical skin product in Singapore. Evidence is at the preclinical level (L4). By contrast, bronchitis (L2) has more supporting data and is a better candidate for follow-up. The remaining predictions (polyps of the vocal cord, middle ear, external auditory canal and uterus, fibroepithelial polyp, epulis) have prediction-only evidence (L5). The frontal sinus polyp prediction has indirect supportive literature (L4).
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Health Sciences Authority (HSA).

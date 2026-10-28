@@ -4,17 +4,17 @@ title: Dupilumab
 parent: Medium Evidence (L3-L4)
 nav_order: 359
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). Approved use: Atopic dermatitis (atopic eczema)"
 monitor_inn: "Dupilumab"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
+description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Dupilumab: From Atopic Dermatitis to Bronchitis
+## Dupilumab: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,15 +46,15 @@ The evidence is indirect and should be treated as a research question rather tha
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic dermatitis (atopic eczema) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
-Note: The Singapore registration records compiled for this report do not include approved-indication text. The original indication above comes from the knowledge-graph indication data.
+Note: The Singapore registration records compiled for this report do not include approved-indication text.
 
 ## Why is This Prediction Reasonable?
 
@@ -121,10 +121,9 @@ No trial tests dupilumab directly in bronchitis, and the only listed trial is a 
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Notes |
 |------|------|------|------|------|------|
-| 2 | Dermatitis | 99.71% | L1 | Proceed with Guardrails | Multiple completed Phase 3 RCTs (for example NCT02755649, NCT02395133, NCT04417894, NCT03912259) and landmark publications (SOLO 1/2, CHRONOS). This is largely the already-approved atopic dermatitis indication, not a true repurposing. Monitor head and neck dermatitis, immunogenicity and inadequate response. |
-| 3 | Acne keloid | 99.61% | L4 | Hold | One case-level publication on keloid stabilization; no trials; no acne-specific evidence. |
-| 4 | Exanthem | 99.57% | L3 | Research Question | One small Phase 4 study (n=10) and a systematic review in cutaneous immune-related adverse events. Evidence is mixed because dupilumab can also induce rashes. |
-| 5–10 | Neonatal dermatomyositis; acrodermatitis chronica atrophicans; amyopathic dermatomyositis; childhood connective-tissue-disease-associated ILD; familial hydroa vacciniforme; severe nonproliferative diabetic retinopathy | 99.09–99.56% | L5 | Hold | Model prediction only, with no valid trials or literature and no plausible mechanistic link. |
+| 3 | Acne keloid | 0.9961 | L5 | Hold | One case-level publication on keloid stabilization; no trials; no acne-specific evidence. |
+| 4 | Exanthem | 0.9957 | L5 | Research Question | One small Phase 4 study (n=10) and a systematic review in cutaneous immune-related adverse events. Evidence is mixed because dupilumab can also induce rashes. |
+| 5–10 | Neonatal dermatomyositis; acrodermatitis chronica atrophicans; amyopathic dermatomyositis; childhood connective-tissue-disease-associated ILD; familial hydroa vacciniforme; severe nonproliferative diabetic retinopathy | 99.09–0.9956 | L5 | Hold | Model prediction only, with no valid trials or literature and no plausible mechanistic link. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

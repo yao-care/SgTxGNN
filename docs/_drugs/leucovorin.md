@@ -4,17 +4,17 @@ title: Leucovorin
 parent: Low Evidence (L5)
 nav_order: 591
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Leucovorin: predicted new indication Primary hyperoxaluria (evidence level L5). Approved use: Megaloblastic anemia"
 monitor_inn: "Leucovorin"
-predicted_indications: ["primary hyperoxaluria", "congenital intrinsic factor deficiency", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "hereditary hemochromatosis", "inflammatory myopathy with abundant macrophages", "idiopathic eosinophilic myositis", "focal myositis", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
+predicted_indications: ["primary hyperoxaluria", "congenital intrinsic factor deficiency"]
+description: "Leucovorin: predicted new indication Primary hyperoxaluria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Leucovorin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Leucovorin: From Megaloblastic Anemia to Primary Hyperoxaluria
+## Leucovorin: Primary hyperoxaluria
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **primary hyperoxaluria**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Megaloblastic anemia |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary hyperoxaluria |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,15 +60,14 @@ Currently, detailed mechanism of action data is not available. Based on known in
 The link to primary hyperoxaluria is weak. A plausible but unverified connection is that folate and one-carbon metabolism intersect with glyoxylate and oxalate pathways. However, primary hyperoxaluria is driven by enzyme defects (AGXT, GRHPR, HOGA1), and leucovorin has no established role in correcting them. The high score should be treated as a hypothesis, not as evidence of benefit.
 
 Other predictions in the list vary in plausibility:
-- **Congenital intrinsic factor deficiency** (score 99.34%) is the most biologically coherent. It causes B12 malabsorption and a folate-trap megaloblastic anemia, close to the original indication. Leucovorin could bypass the folate block, but it does not correct the B12 deficiency, and parenteral B12 remains standard treatment.
-- **Inflammatory myopathies** (immune-mediated necrotizing myopathy, antisynthetase syndrome, focal myositis and others) likely score highly because leucovorin is used to rescue methotrexate toxicity in these patients. It is supportive care, not disease treatment.
-- **Hereditary hemochromatosis, primary amyloidosis and acquired amyloid peripheral neuropathy** have no clear mechanistic link. These predictions may reflect shared annotations in the knowledge graph.
+- **Congenital intrinsic factor deficiency** (score 0.9934) is the most biologically coherent. It causes B12 malabsorption and a folate-trap megaloblastic anemia, close to the original indication. Leucovorin could bypass the folate block, but it does not correct the B12 deficiency, and parenteral B12 remains standard treatment.
+- It is supportive care, not disease treatment.
 
 ## Clinical Trial Evidence
 
 Currently no clinical trials are registered for primary hyperoxaluria.
 
-For reference, one trial was found for a lower-ranked prediction (primary amyloidosis). It is only indirectly related:
+It is only indirectly related:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -78,7 +77,7 @@ For reference, one trial was found for a lower-ranked prediction (primary amyloi
 
 Currently no related literature is available for primary hyperoxaluria.
 
-For reference, the following publications were retrieved for focal myositis (rank 8). All are indirect, since leucovorin appears only as rescue or supportive therapy:
+All are indirect, since leucovorin appears only as rescue or supportive therapy:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

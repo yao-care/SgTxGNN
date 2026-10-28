@@ -4,17 +4,17 @@ title: Chlorambucil
 parent: Low Evidence (L5)
 nav_order: 235
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Chlorambucil: predicted new indication CLL/SLL with immunoglobulin heavy chain variable-region gene somatic… (evidence level L5). Approved use: Hodgkin lymphoma, follicular lymphoma, mature B-cell ne…"
 monitor_inn: "Chlorambucil"
-predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma", "lymphoid neoplasm", "upper aerodigestive tract neoplasm"]
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+description: "Chlorambucil: predicted new indication Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hy… (evidence level L5). Approved use: Not …"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Chlorambucil: From Hodgkin Lymphoma and Other Lymphoid Malignancies to CLL/SLL with Somatic Hypermutation of the IGHV Gene
+## Chlorambucil: Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Currently there are **no clinical trials and no publications** specific to this 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hodgkin lymphoma, follicular lymphoma, mature B-cell neoplasms, acute lymphoblastic leukaemia, Richter syndrome (from the knowledge graph; the Singapore licence record contains no indication text) |
-| Predicted New Indication | CLL/SLL with immunoglobulin heavy chain variable-region gene somatic hypermutation (IGHV-mutated) |
-| TxGNN Prediction Score | 99.72% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation |
+| TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,9 +82,6 @@ Currently no related literature available for this specific subtype.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11696P | LEUKERAN TABLET 2 mg (Revised Formula) (Excella GmbH & Co. KG) | Film-coated tablet (oral) | Not stated in the licence record |
 
 ---
 
@@ -93,7 +90,6 @@ Currently no related literature available for this specific subtype.
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (alkylating agent) |
-| Myelosuppression Risk | High (neutropenia, thrombocytopenia, leukopenia and anaemia are all flagged in the knowledge graph) |
 | Emetogenicity Classification | Low |
 | Monitoring Items | CBC with differential, liver and renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
@@ -127,7 +123,7 @@ Please refer to the package insert for the full warnings and contraindications.
 The prediction is plausible because chlorambucil is already used in CLL, but no trial or publication specific to the IGHV-mutated subtype was found, and the high score is largely ontology proximity. The practical clinical value is also limited, as targeted agents are now preferred in CLL.
 
 Other predicted indications in the same analysis have stronger support and may be better candidates for review:
-- Lymphoid neoplasm (L1): many completed Phase 3 trials, plus the IELSG-19 trial in MALT lymphoma. It is largely confirmatory of existing uses.
+- It is largely confirmatory of existing uses.
 - Primary pulmonary lymphoma (L3): mainly case series and retrospective cohorts, with one older Phase II study in mixed haematological malignancies.
 
 **To proceed, the following is needed:**

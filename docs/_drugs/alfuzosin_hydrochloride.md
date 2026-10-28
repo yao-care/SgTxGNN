@@ -8,6 +8,7 @@ nav_order: 63
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alfuzosin Hydrochloride
@@ -51,8 +52,8 @@ This report documents existing data gaps and outlines the actions required befor
 | Predicted New Indication | None — TxGNN returned no predictions in this Evidence Pack |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | **Hold** |
 
 ---

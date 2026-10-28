@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Mometasone Furoate
-parent: Medium Evidence (L3-L4)
-nav_order: 686
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Mometasone Furoate: predicted new indication Polyp of middle ear (evidence level L4). Approved use: Atopic dermatitis, contact dermatitis, seborrheic dermatitis, asthma…"
-monitor_inn: "Mometasone furoate"
-predicted_indications: ["2-hydroxyethyl methacrylate sensitization", "polyp of vocal cord", "polyp of middle ear", "polyp of frontal sinus", "polyp of external auditory canal", "fibroepithelial polyp", "polyp of vulva", "polyp of ureter", "epulis", "neoplastic polyp"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 685
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Mometasone Furoate: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Mometasone Furoate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +32,67 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Mometasone Furoate: From Inflammatory Skin and Airway Diseases to Polyp of Middle Ear
+<!-- known-uses-page -->
+<!-- description: Mometasone Furoate: known uses and market status in Singapore; currently no new candidate indication -->
+## Mometasone Furoate: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+All candidates produced by the TxGNN model for Mometasone Furoate (score ≥ 0.99) that can be traced to a source are already known uses. There is therefore currently no new predicted indication for this drug. The two known uses listed below are recorded as relations in the knowledge graph.
 
-Mometasone furoate is a corticosteroid originally used for inflammatory skin conditions (such as atopic dermatitis and contact dermatitis) and airway diseases (such as asthma and allergic rhinitis).
-The TxGNN model predicts it may be useful for **polyp of middle ear**, the highest-ranked prediction that has supporting literature, with **0 registered clinical trials** and **8 publications** currently supporting this direction. Most of these publications concern nasal and sinus polyps rather than the middle ear.
-
-> Note: The top-ranked prediction by score is 2-hydroxyethyl methacrylate sensitization (98.62%), but it has no trials or literature. This report therefore focuses on the highest-scoring prediction with literature support, and summarises the other predictions at the end.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Atopic dermatitis, contact dermatitis, seborrheic dermatitis, asthma, allergic rhinitis and related conditions (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Polyp of middle ear |
-| TxGNN Prediction Score | 97.65% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 20 |
-| Recommended Decision | Hold (research question only) |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 2 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences on record: at least 20) |
+| Number of Registrations | at least 20 |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mometasone furoate is a topical and inhaled glucocorticoid. Its efficacy in inflammatory skin and airway diseases has been established, and mechanistically its local anti-inflammatory action may be applicable to polypoid inflammatory tissue.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-The supporting literature concerns **nasal and sinus polyps** (chronic rhinosinusitis with nasal polyps), where mometasone nasal sprays and mometasone-eluting sinus implants reduce mucosal inflammation, polyp size and recurrence. No middle-ear-specific data are available. The "middle ear" label appears to be an ontology proxy for the nasal polyp literature, and extrapolation to the middle ear rests on shared upper-airway mucosal inflammation. This link is therefore indirect.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29350840](https://pubmed.ncbi.nlm.nih.gov/29350840/) | 2018 | Phase 3 RCT | Int Forum Allergy Rhinol | Mometasone sinus implant (1350 μg) for chronic sinusitis with recurrent nasal polyps, designed to overcome the compliance and access limits of sprays |
-| [31117809](https://pubmed.ncbi.nlm.nih.gov/31117809/) | 2019 | Pooled analysis of RCTs | Am J Rhinol Allergy | Pooled analysis of 2 RCTs (400 adults) of mometasone implants for recurrent nasal polyps across patient subgroups |
-| [27141307](https://pubmed.ncbi.nlm.nih.gov/27141307/) | 2016 | Systematic review | Multidiscip Respir Med | Review of mometasone nasal spray in upper-airway inflammatory diseases, including rhinosinusitis with or without polyps and adenoidal hypertrophy with middle ear involvement |
-| [19289710](https://pubmed.ncbi.nlm.nih.gov/19289710/) | 2009 | Clinical study | Arch Otolaryngol Head Neck Surg | Mometasone to prevent or reduce nasal polyp relapse after endoscopic sinus surgery |
-| [27302143](https://pubmed.ncbi.nlm.nih.gov/27302143/) | 2016 | Clinical trial | Am J Rhinol Allergy | Sodium hyaluronate added to topical corticosteroids in chronic rhinosinusitis with nasal polyposis |
-| [30645028](https://pubmed.ncbi.nlm.nih.gov/30645028/) | 2019 | Phase 1 safety study | Int Forum Allergy Rhinol | Safety of LYR-210, a mometasone drug delivery system giving 24 weeks of topical steroid therapy for chronic rhinosinusitis |
-| [25256638](https://pubmed.ncbi.nlm.nih.gov/25256638/) | 2014 | Pharmacokinetic study | Int Forum Allergy Rhinol | Systemic safety and performance of a sinus implant releasing 1350 μg mometasone, with the aim of avoiding systemic steroid effects |
-| [33465455](https://pubmed.ncbi.nlm.nih.gov/33465455/) | 2021 | Post hoc RCT analysis | Ann Allergy Asthma Immunol | Dupilumab (not mometasone) in chronic rhinosinusitis with nasal polyps and asthma; indirect context only |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| atopic eczema |
+| dermatitis, atopic |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10763P | Nasonex Aqueous Nasal Spray 0.05% | Spray | Not stated in the licence record |
-| SIN11277P | Asmanex Twisthaler 200 mcg/inhalation | Metered powder | Not stated in the licence record |
-| SIN07564P | Elomet Cream 0.1% | Cream | Not stated in the licence record |
-| SIN07566P | Elomet Ointment 0.1% | Ointment | Not stated in the licence record |
-| SIN16148P | Atectura Breezhaler 150 mcg/160 mcg | Metered powder | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15932P | MONASAL NASAL SPRAY 50 mcg/SPRAY | SPRAY, SUSPENSION | Valid |
+| SIN11277P | ASMANEX TWISTHALER 200 mcg/inhalation | POWDER, METERED | Valid |
+| SIN14869P | VIZOMET CREAM 0.1% W/W | CREAM | Valid |
+| SIN14122P | Elosone Ointment 0.1% w/w | OINTMENT | Valid |
+| SIN15619P | VIZOMET OINTMENT 0.1% W/W | OINTMENT | Valid |
+| SIN14090P | ELOSONE CREAM 0.1% | CREAM | Valid |
+| SIN13630P | Asmanex Twisthaler 100mcg/inhalation | POWDER, METERED | Valid |
+| SIN07566P | ELOMET OINTMENT 0.1% | OINTMENT | Valid |
+| SIN11278P | ASMANEX TWISTHALER 400 mcg/inhalation | POWDER, METERED | Valid |
+| SIN15434P | MOMETASONE NTC NASAL SPRAY SUSPENSION 50 MCG/ACTUATION | SPRAY, SUSPENSION | Valid |
+| SIN16311P | Exnise Nasal Spray 0.05% w/v | SPRAY, SUSPENSION | Valid |
+| SIN14245P | MELOMET CREAM 1MG/G | CREAM | Valid |
+| SIN07564P | ELOMET CREAM 0.1% | CREAM | Valid |
+| SIN07565P | ELOMET LOTION 0.1% | LOTION | Valid |
+| SIN10763P | NASONEX AQUEOUS NASAL SPRAY 0.05% | SPRAY | Valid |
+| SIN15323P | APO-MOMETASONE AQUEOUS NASAL SPRAY 50MCG/METERED SPRAY | SPRAY, METERED | Valid |
+| SIN15453P | MOMENSA NASAL SPRAY SUSPENSION 50 MCG/ACTUATION | SPRAY | Valid |
+| SIN16148P | ATECTURA BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG  | POWDER, METERED | Valid |
+| SIN16147P | ATECTURA BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG  | POWDER, METERED | Valid |
+| SIN16149P | ATECTURA BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG  | POWDER, METERED | Valid |
 
-Twenty valid single-ingredient licences are registered in total (nasal sprays, inhalation powders, creams, ointments and a lotion). Only five are listed here.
+Only part of the licence list is held in the data; the list may be incomplete.
 
 ## Cytotoxicity
 
@@ -109,30 +113,6 @@ The knowledge graph flags the following conditions as potential contraindication
 
 No drug interaction data were found.
 
-## Other Predictions Reviewed
-
-| Rank | Predicted Indication | Score | Evidence Level | Note |
-|---|---|---|---|---|
-| 1 | 2-hydroxyethyl methacrylate sensitization | 98.62% | L5 | Plausible link to contact dermatitis; no trials or literature |
-| 2 | Polyp of vocal cord | 97.67% | L5 | Usually managed by voice therapy or surgery; no evidence |
-| 4 | Polyp of frontal sinus | 97.56% | L3 | Pooled RCT analyses and device studies of mometasone sinus implants directly address the frontal sinus. Evidence is device-based, and no standalone Phase 3 RCT was provided |
-| 5-10 | External auditory canal polyp, fibroepithelial polyp, vulvar polyp, ureteral polyp, epulis, neoplastic polyp | 97.51-97.55% | L5 | Prediction only; likely reflects a shared "polyp" ontology node |
-
-The frontal sinus polyp prediction has the strongest and most direct evidence of the group, and could be a more productive research question than the middle ear.
-
-## Conclusion and Next Steps
-
-**Decision: Hold (research question only)**
-
-**Rationale:**
-The middle ear polyp prediction has a high model score, but there are no registered trials and no middle-ear-specific data. The literature supports mometasone in nasal and sinus polyps, and the link to the middle ear is indirect. Safety label data are also missing.
-
-**To proceed, the following is needed:**
-- Middle-ear-specific clinical or preclinical evidence, or a decision to pursue the better-supported frontal sinus polyp indication instead
-- Detailed mechanism of action data (MOA)
-- HSA package insert warnings, contraindications and approved indication text
-- Assessment of route and formulation compatibility (nasal spray, sinus implant or otic delivery)
-- Safety review of the knowledge-graph contraindication signals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

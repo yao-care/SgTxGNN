@@ -4,17 +4,17 @@ title: Siltuximab
 parent: Low Evidence (L5)
 nav_order: 913
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Castleman disease, Kimura disease"
 monitor_inn: "Siltuximab"
-predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever", "syndrome with combined immunodeficiency", "TAFRO syndrome"]
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
+description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Siltuximab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Siltuximab: From Castleman Disease to Extracutaneous Mastocytoma
+## Siltuximab: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Castleman disease, Kimura disease (from the TxGNN knowledge graph; the Singapore registration records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Extracutaneous mastocytoma |
-| TxGNN Prediction Score | 99.64% |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,9 +105,8 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.64%), but there are no clinical trials or publications for siltuximab in extracutaneous mastocytoma, and the mechanistic link is only a general suggestion of IL-6 involvement. The evidence level is L5.
+The prediction score is high (0.9964), but there are no clinical trials or publications for siltuximab in extracutaneous mastocytoma, and the mechanistic link is only a general suggestion of IL-6 involvement. The evidence level is L5.
 
-Among the other predictions generated for this drug, **TAFRO syndrome** has much stronger support (L4). It has a plausible IL-6-related mechanism, case reports of siltuximab use, and reviews and guidance publications. It would be a better candidate to prioritise for further evaluation.
 
 **To proceed, the following is needed:**
 - Evidence that IL-6 contributes to the disease biology of extracutaneous mastocytoma (preclinical or mechanistic studies)

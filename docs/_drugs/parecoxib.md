@@ -4,17 +4,17 @@ title: Parecoxib
 parent: Medium Evidence (L3-L4)
 nav_order: 764
 evidence_level: L3
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Parecoxib: predicted new indication Migraine disorder (evidence level L3). Approved use: Not stated in the Singapore licence records compiled for this report…"
 monitor_inn: "Parecoxib"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "headache disorder", "kyphoscoliotic heart disease", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "rheumatoid arthritis", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
+description: "Parecoxib: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Parecoxib
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Parecoxib: From Perioperative Pain Management to Migraine Disorder
+## Parecoxib: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Support is limited: **no registered clinical trials** and **1 small pilot clinic
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records compiled for this report (parecoxib is generally known as a short-term injectable analgesic in the perioperative setting) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.55% |
+| TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -126,7 +126,7 @@ The model score is high and the COX-2/CGRP mechanism is biologically plausible, 
 
 ---
 
-**Other predicted indications (for reference):** Headache disorder and rheumatoid arthritis have only indirect or class-level literature and remain research questions. Migraine with brainstem aura, trigeminal autonomic cephalalgia, kyphoscoliotic heart disease, atrophoderma vermiculata and ulerythema ophryogenesis have no supporting evidence. Pulmonary hypertension is supported only by a piglet sepsis study in which parecoxib did not suppress thromboxane synthesis. These are not recommended for advancement at this time.
+Migraine with brainstem aura, trigeminal autonomic cephalalgia, kyphoscoliotic heart disease, atrophoderma vermiculata and ulerythema ophryogenesis have no supporting evidence. Pulmonary hypertension is supported only by a piglet sepsis study in which parecoxib did not suppress thromboxane synthesis. These are not recommended for advancement at this time.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

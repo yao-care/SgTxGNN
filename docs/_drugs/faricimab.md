@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Faricimab
-parent: Low Evidence (L5)
-nav_order: 417
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Faricimab: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not stated in the Singapore registration record. Faricimab is an intr…"
-monitor_inn: "Faricimab"
-predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "drug-induced osteoporosis", "esotropia", "severe nonproliferative diabetic retinopathy", "HER2 positive breast carcinoma", "diabetic retinopathy", "respiratory syncytial virus infectious disease", "fetal and neonatal alloimmune thrombocytopenia"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 416
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Faricimab: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Faricimab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,67 +32,52 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Faricimab: From Retinal Vascular Disease to Primary Release Disorder of Platelets
+<!-- known-uses-page -->
+<!-- description: Faricimab: known uses and market status in Singapore; currently no new candidate indication -->
+## Faricimab: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Faricimab, so there is currently no new predicted indication. The uses recorded for this drug are listed below.
 
-Faricimab is an intravitreal bispecific antibody registered in Singapore and used for retinal vascular disease. The TxGNN model predicts it may be effective for **primary release disorder of platelets**, a rare inherited bleeding disorder. Currently **0 clinical trials** and **0 publications** support this prediction, so it rests on the model score alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record. Faricimab is an intravitreal agent for retinal vascular diseases. |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 98.89% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 3 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Faricimab is a bispecific antibody that neutralises two targets, VEGF-A and angiopoietin-2 (Ang-2). Together they drive vascular leakage, inflammation, and abnormal blood vessel growth in the eye. It is given by injection into the eye and has minimal systemic exposure. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description comes from the mechanistic assessment of the predicted indication.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| diabetes complications | licence in another country |
+| macular edema | licence in another country |
+| wet macular degeneration | licence in another country |
 
-On the available information, this prediction is **not mechanistically plausible**:
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-- A platelet granule release defect is not driven by VEGF-A or Ang-2 signalling, so faricimab has no pathway overlap with the disease.
-- The high TxGNN score reflects a pattern in a knowledge graph, not clinical or laboratory evidence.
-- No clinical trial or publication links faricimab to this condition.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16514P | VABYSMO SOLUTION FOR INJECTION 6MG/0.05ML | Injection, solution | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16514P | VABYSMO SOLUTION FOR INJECTION 6MG/0.05ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no clinical, literature, or mechanistic support (L5). Faricimab's targets are unrelated to platelet granule release, and the drug is formulated and dosed for intravitreal use, not for a systemic bleeding disorder.
-
-**To proceed, the following is needed:**
-- A credible biological rationale linking VEGF-A or Ang-2 blockade to platelet release function
-- Preclinical or laboratory data in relevant platelet models
-- The Singapore package insert warnings and contraindications, which were not available for this review
-- Detailed mechanism-of-action data from DrugBank
-
-**Note on other predictions:** In the same prediction list, **diabetic retinopathy** (rank 8, TxGNN score 96.75%) has much stronger support. It has L1 evidence, including Phase 3 trials in diabetic macular edema (YOSEMITE/RHINE), a completed Phase 2 trial in non-proliferative disease (MAGIC, NCT05681884), and a recruiting Phase 3 trial in proliferative disease (NCT06790784). If you are looking for a repurposing direction for faricimab, that indication is the better candidate for a separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

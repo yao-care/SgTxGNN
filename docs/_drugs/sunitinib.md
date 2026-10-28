@@ -4,17 +4,17 @@ title: Sunitinib
 parent: High Evidence (L1-L2)
 nav_order: 946
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma (including clear cell type) and gastrointestinal…"
 monitor_inn: "Sunitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
+description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sunitinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Sunitinib: From Renal Cell Carcinoma to Liposarcoma
+## Sunitinib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **2 compl
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma (including clear cell type) and gastrointestinal stromal tumour (from the knowledge graph; Singapore licence indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold (research question only; see Conclusion) |
 
 ## Why is This Prediction Reasonable?
@@ -116,7 +116,7 @@ Package insert warnings were not available, so please refer to the package inser
 **Decision: Hold**
 
 **Rationale:**
-Only two small, single-arm, mixed-histology Phase 2 trials support the prediction, and activity in liposarcoma specifically appears limited. Established alternatives such as trabectedin have stronger histology-specific data. The safety profile also includes cardiac, hepatic and haematological concerns. The knowledge-graph evidence flags this as a research question rather than a candidate ready for adoption.
+Only two small, single-arm, mixed-histology Phase 2 trials support the prediction, and activity in liposarcoma specifically appears limited. Established alternatives such as trabectedin have stronger histology-specific data. The safety profile also includes cardiac, hepatic and haematological concerns. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so this is a research question rather than a candidate ready for adoption.
 
 **To proceed, the following is needed:**
 - Liposarcoma-specific response data (subtype breakdown) from the existing Phase 2 trials

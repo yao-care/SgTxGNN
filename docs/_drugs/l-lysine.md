@@ -4,17 +4,17 @@ title: L-Lysine
 parent: Low Evidence (L5)
 nav_order: 570
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "L-Lysine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the licence records compiled for this report. The produ…"
 monitor_inn: "L-Lysine"
-predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency", "dyspepsia", "familial visceral myopathy", "vitamin deficiency disorder", "hypophosphatemic rickets", "renal tubular acidosis", "biotin metabolic disease", "postgastrectomy syndrome"]
+predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
+description: "L-Lysine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # L-Lysine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## L-Lysine: From Parenteral Nutrition (Amino Acid Supply) to Gastroparesis
+## L-Lysine: Gastroparesis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This prediction rests on the model score alone and should be treated as a hypoth
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence records compiled for this report. The products are amino acid infusion and nutrition solutions. |
-| Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.77% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroparesis (disease) |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,11 +64,10 @@ Currently, detailed mechanism of action data is not available. L-lysine is an es
 
 The only retrieved paper concerns delivery of mesenchymal stem cells from gelatin-alginate hydrogels into the stomach lumen. It does not test L-lysine. The high TxGNN score is a computational prediction only, and no direct link between L-lysine and gastric emptying, interstitial cells of Cajal, or enteric neurons has been identified.
 
-The other nine predicted indications were also reviewed. None has clinical trial support. Gastroparesis, vitamin deficiency disorder, renal tubular acidosis and biotin metabolic disease have some retrieved literature, but all of it is preclinical, case-report or indirect:
+The other nine predicted indications were also reviewed. None has clinical trial support.
 
-- **Vitamin deficiency disorder** (score 98.2%): the papers are basic biochemistry and animal studies on carnitine synthesis and biotinidase. They do not show that lysine treats deficiency. This is the only other candidate at evidence level L4.
-- **Renal tubular acidosis** (score 97.8%): a case report describes a transient proximal tubulopathy after lysine-containing amino acid infusion. This is a safety signal, not support for repurposing.
-- **Biotin metabolic disease** (score 97.8%): lysine is a product of the biotinidase reaction, but standard care is biotin, and the other papers are unrelated metabolomics studies.
+- They do not show that lysine treats deficiency. This is the only other candidate at evidence level L4.
+- This is a safety signal, not support for repurposing.
 
 ---
 

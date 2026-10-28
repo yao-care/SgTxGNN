@@ -4,17 +4,17 @@ title: Distigmine
 parent: Low Evidence (L5)
 nav_order: 340
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Distigmine: predicted new indication Myasthenia gravis with thymus hyperplasia (evidence level L5). Approved use: Myasthenia gravis"
 monitor_inn: "Distigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "fetal akinesia deformation sequence", "congenital myasthenic syndrome with tubular aggregates", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
+description: "Distigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Distigmine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Distigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+## Distigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Distigmine is a long-acting cholinesterase inhibitor, originally used to treat myasthenia gravis and related neuromuscular junction disorders.
-The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**,
 but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Myasthenia gravis (the approved indication text for the Singapore licence is not available; the original indications come from the knowledge graph: myasthenia gravis, adult-onset myasthenia gravis, neuromuscular junction disease, acute cystitis) |
-| Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
-| TxGNN Prediction Score | 99.998% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune disease of peripheral nervous system |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,21 +59,19 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Myasthenia gravis with thymus hyperplasia is a variant of the already approved indication. The underlying problem, reduced functional acetylcholine receptors at the neuromuscular junction, is the same, so symptomatic cholinesterase inhibition is plausible.
 
-The very high TxGNN score most likely reflects how close this disease is to the original indication in the knowledge graph. It is not independent clinical evidence for this subtype.
+It is not independent clinical evidence for this subtype.
 
 ### Other Predictions Reviewed
 
 | Rank | Predicted Indication | Score | Assessment |
 |------|------|------|------|
-| 2 | Myasthenia, limb-girdle, autoimmune | 99.998% | Shares the pathophysiology of myasthenia; plausible but no evidence |
-| 3 | Neonatal myasthenia gravis | 99.998% | Similar mechanism; neonatal safety and dosing for distigmine are undocumented |
-| 4 | Autoimmune disease of peripheral nervous system | 99.998% | Broad category; only the myasthenia-like portion has a mechanistic link |
-| 5 | Disease of receptor activity | 99.998% | Non-specific term; one preclinical paper points to detrusor underactivity (bladder) as a research question |
-| 6 | Hypersplenism | 99.964% | No clear mechanistic link; likely a knowledge-graph artifact |
-| 7 | Atypical haemolytic-uraemic syndrome with B factor anomaly | 99.957% | Complement-mediated; no plausible link, likely spurious |
-| 8 | Fetal akinesia deformation sequence | 99.941% | Tenuous link via neuromuscular dysfunction; fetal exposure raises safety concerns |
-| 9 | Congenital myasthenic syndrome with tubular aggregates | 99.674% | Response to cholinesterase inhibitors is variable by subtype |
-| 10 | Congenital myasthenia refractory to acetylcholinesterase inhibitors | 99.671% | By definition refractory, and some subtypes may worsen; the score is not credible |
+| 4 | Autoimmune disease of peripheral nervous system | 1.0000 | Broad category; only the myasthenia-like portion has a mechanistic link |
+| 5 | Disease of receptor activity | 1.0000 | Non-specific term; one preclinical paper points to detrusor underactivity (bladder) as a research question |
+| 6 | Hypersplenism | 0.9996 | No clear mechanistic link; likely a TxGNN model (deep learning) artifact |
+| 7 | Atypical haemolytic-uraemic syndrome with B factor anomaly | 0.9996 | Complement-mediated; no plausible link, likely spurious |
+| 8 | Fetal akinesia deformation sequence | 0.9994 | Tenuous link via neuromuscular dysfunction; fetal exposure raises safety concerns |
+| 9 | Congenital myasthenic syndrome with tubular aggregates | 0.9967 | Response to cholinesterase inhibitors is variable by subtype |
+| 10 | Congenital myasthenia refractory to acetylcholinesterase inhibitors | 0.9967 | By definition refractory, and some subtypes may worsen; the score is not credible |
 
 ## Clinical Trial Evidence
 
@@ -82,7 +79,6 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-For the top prediction (myasthenia gravis with thymus hyperplasia), currently no related literature is available.
 
 One paper was found for a lower-ranked prediction (rank 5, "disease of receptor activity"):
 
@@ -109,7 +105,7 @@ No drug interaction records were found in the data compiled for this report. Two
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is a subtype of an indication distigmine already treats, so it is mechanistically plausible. However, there are no trials or literature for this subtype, and the score mainly reflects closeness in the knowledge graph. Several lower-ranked predictions (hypersplenism, atypical haemolytic-uraemic syndrome) have no plausible mechanism.
+The top prediction is a subtype of an indication distigmine already treats, so it is mechanistically plausible. Several lower-ranked predictions (hypersplenism, atypical haemolytic-uraemic syndrome) have no plausible mechanism.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA (a blocking gap for safety screening)

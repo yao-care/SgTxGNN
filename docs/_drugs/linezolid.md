@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Linezolid
-parent: Low Evidence (L5)
-nav_order: 603
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Linezolid: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Streptococcal infection, staphylococcus aureus infection…"
-monitor_inn: "Linezolid"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "septicemic plague", "pyelonephritis"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 602
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Linezolid: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Linezolid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,58 +32,55 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Linezolid: From Gram-Positive Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+<!-- known-uses-page -->
+<!-- description: Linezolid: known uses and market status in Singapore; currently no new candidate indication -->
+## Linezolid: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Linezolid, so there is currently no new predicted indication. The drug's recorded uses are listed below; they are existing records, not model candidates.
 
-Linezolid is an oxazolidinone antibiotic, originally used for streptococcal and staphylococcal infections, including pneumonia caused by these organisms.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but **0 clinical trials** and **0 publications** currently support this prediction.
-The prediction rests on the model score alone, and no mechanistic link has been identified.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Streptococcal infection, staphylococcus aureus infection, staphylococcal infection, streptococcal pneumonia, staphylococcal pneumonia (the Singapore licence records contain no approved-indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 92.45% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 5 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available in the compiled data. Linezolid is known to be a bacterial protein synthesis inhibitor (an oxazolidinone). Its efficacy in Gram-positive infections is well established.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-For polyclonal hyperviscosity syndrome, however, no mechanistic link has been identified. Linezolid has no known action on serum viscosity or immunoglobulin dynamics. The high score (92.45%) is a graph-based prediction only and has no clinical or literature support. It should be treated as a hypothesis, not as evidence of efficacy.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The other top-ranked predictions show the same pattern. Several are laboratory findings or genetic and immunological conditions that an antibiotic cannot plausibly treat (hyperamylasemia, congenital analbuminemia, blood group incompatibility). Two are more relevant to infection:
-- **Pyelonephritis** has a partial rationale for resistant Gram-positive pathogens (VRE, MRSA). Most cases are Gram-negative, which linezolid does not reliably cover. The literature is mainly case reports and reviews, and the closest controlled evidence (PMID 14520141) is a non-specific linezolid vs vancomycin comparison in neonates.
-- **Septicemic plague** has only indirect support, because *Yersinia pestis* is Gram-negative and linezolid has limited activity against such organisms. The only retrieved paper is a tuberculosis review.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for polyclonal hyperviscosity syndrome.
-
-(The literature that was retrieved relates to other lower-ranked predictions, such as monoclonal gammopathy, congenital hematological disorder, septicemic plague and pyelonephritis. It consists mainly of case reports, reviews and in vitro studies of infections in patients with underlying conditions, not of treatment of those conditions themselves.)
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| staphylococcal infection |
+| staphylococcal pneumonia |
+| staphylococcus aureus infection |
+| streptococcal infection |
+| streptococcal pneumonia |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16950P | LINEZAN SOLUTION FOR INFUSION 2MG/ML | Infusion, solution | Not stated in the available records |
-| SIN11405P | ZYVOX TABLET 600 mg | Tablet, film coated | Not stated in the available records |
-| SIN15849P | LINEZOLID KABI SOLUTION FOR INFUSION 2MG/ML | Infusion, solution | Not stated in the available records |
-| SIN11408P | ZYVOX GRANULES FOR ORAL SUSPENSION 20 mg/ml | Granule, for suspension | Not stated in the available records |
-| SIN14946P | LINEZOLID SANDOZ FILM COATED TABLET 600MG | Tablet, film coated | Not stated in the available records |
-
-All 7 licences are valid single-ingredient products (injectable, oral tablet and oral suspension forms).
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16950P | LINEZAN SOLUTION FOR INFUSION 2MG/ML | INFUSION, SOLUTION | Valid |
+| SIN11405P | ZYVOX TABLET 600 mg | TABLET, FILM COATED | Valid |
+| SIN15849P | LINEZOLID KABI SOLUTION FOR INFUSION 2MG/ML | INFUSION, SOLUTION | Valid |
+| SIN11408P | ZYVOX GRANULES FOR ORAL SUSPENSION 20 mg/ml | GRANULE, FOR SUSPENSION | Valid |
+| SIN14946P | LINEZOLID SANDOZ FILM COATED TABLET 600MG | TABLET, FILM COATED | Valid |
+| SIN15762P | HETERO-LINEZOLID FILM COATED TABLETS 600 MG | TABLET, FILM COATED | Valid |
+| SIN11407P | ZYVOX SOLUTION FOR INFUSION 2 mg/ml | INJECTION | Valid |
 
 ## Safety Considerations
 
@@ -103,18 +99,6 @@ Package insert warnings and contraindications were not available for this report
 
 The haematological signals matter for the predicted haematology-related indications. Linezolid can cause myelosuppression and neuropathy, so it is a safety concern, not a benefit, in patients with underlying blood disorders.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The top prediction, polyclonal hyperviscosity syndrome, is supported only by a graph-model score. There are no clinical trials or publications and no plausible mechanism, and linezolid's haematological toxicity argues against use in blood disorders. The evidence level is L5.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA (currently a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A biological rationale linking linezolid to serum viscosity or immunoglobulin dynamics, with in vitro or animal data
-- Consideration of lower-ranked, infection-related predictions (resistant Gram-positive urinary tract infection, plague) as research questions. These would need culture-proven pathogen restriction, preclinical data and, where appropriate, controlled trials.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

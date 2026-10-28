@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amorolfine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Fungal nail infection (onychomycosis)"
 monitor_inn: "Amorolfine"
-predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]
+predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]
 ---
 
 # Amorolfine
@@ -50,10 +50,10 @@ Evidence Level: **L5** | Predicted Indications: **10**
 |------|------|
 | Original Indication | Fungal nail infection (onychomycosis) (the Singapore licence records contain no indication text; this is based on the drug's known clinical use) |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, amorolfine is a morpholine antifungal that inhibits fungal sterol delta-14 reductase and delta-7,8 isomerase, which disrupts ergosterol synthesis in the fungal cell membrane.
 
-No established mechanism links this action to bone metabolism. Amorolfine is applied topically to the nail, so systemic exposure is minimal, which further weakens the biological plausibility of an effect on osteoporosis. The high TxGNN score reflects connectivity in the knowledge graph and is not backed by any trial or publication.
+No established mechanism links this action to bone metabolism. Amorolfine is applied topically to the nail, so systemic exposure is minimal, which further weakens the biological plausibility of an effect on osteoporosis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not backed by any trial or publication.
 
-The other top-ranked predictions (for example disease of retroperitoneum, lumbar spinal stenosis, sacrum chordoma and urethral disease) show the same pattern. Several are broad anatomical categories or conditions with no pharmacological connection to an antifungal. Their scores are all very close (99.996% to 99.998%), and none has supporting clinical or literature evidence.
+The other top-ranked predictions (for example disease of retroperitoneum, lumbar spinal stenosis, sacrum chordoma and urethral disease) show the same pattern. Several are broad anatomical categories or conditions with no pharmacological connection to an antifungal. Their scores are all very close (1.0000 to 1.0000), and none has supporting clinical or literature evidence.
 
 ---
 
@@ -104,7 +104,7 @@ For warnings and contraindications, please refer to the package insert for safet
 **Decision: Hold**
 
 **Rationale:**
-The prediction of drug-induced osteoporosis is supported only by a graph-based model score. There are no clinical trials or publications, no plausible mechanism, and minimal systemic exposure after topical nail application. Evidence is at the lowest level (L5).
+The prediction of drug-induced osteoporosis is supported only by a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, no plausible mechanism, and minimal systemic exposure after topical nail application. Evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)

@@ -4,17 +4,17 @@ title: Ponatinib
 parent: Low Evidence (L5)
 nav_order: 808
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Ponatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive"
 monitor_inn: "Ponatinib"
-predicted_indications: ["fibromatosis, gingival", "liposarcoma", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "ovarian myxoid liposarcoma", "hamartoma of lung", "fibroma of lung", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung benign neoplasm", "lung hilum carcinoma"]
+predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
+description: "Ponatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ponatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ponatinib: From BCR-ABL1-Positive Chronic Myelogenous Leukaemia to Gingival Fibromatosis
+## Ponatinib: Fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **gingival fibromatosis** (fibr
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.04% |
+| TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

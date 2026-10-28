@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Procaine: predicted new indication Methemoglobinemia (evidence level L4). Approved use: Not stated in the Singapore licence record (a local anaesthetic by dr…"
 monitor_inn: "Procaine"
-predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa"]
+predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
 ---
 
 # Procaine
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **methemoglobinemia**, but the publis
 |------|------|
 | Original Indication | Not stated in the Singapore licence record (a local anaesthetic by drug class) |
 | Predicted New Indication | Methemoglobinemia |
-| TxGNN Prediction Score | 99.50% |
+| TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **methemoglobinemia**, but the publis
 
 Detailed mechanism of action data is not available. Procaine is an ester-type local anaesthetic. Its anaesthetic effect is generally attributed to sodium channel blockade, although the data compiled for this report did not confirm a primary molecular target. Pharmacology records list ryanodine receptors (RyR1 and RyR2) as related targets, without supporting bioactivity data.
 
-The prediction is **not mechanistically reasonable as a therapy**. The literature links procaine, like lignocaine, to *inducing* methemoglobinemia, including a case of methemoglobinemia after intravenous procaine and a clinical observation of methemoglobin levels under intravenous procaine anaesthesia. Aromatic amine metabolites of local anaesthetics can oxidise haemoglobin iron. The high TxGNN score most likely reflects a drug-disease association in the knowledge graph, such as drug-induced methemoglobinemia, and not therapeutic potential. This should be treated as a **safety signal**, not a repurposing opportunity.
+The prediction is **not mechanistically reasonable as a therapy**. The literature links procaine, like lignocaine, to *inducing* methemoglobinemia, including a case of methemoglobinemia after intravenous procaine and a clinical observation of methemoglobin levels under intravenous procaine anaesthesia. Aromatic amine metabolites of local anaesthetics can oxidise haemoglobin iron. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as drug-induced methemoglobinemia, not biological evidence of therapeutic potential. This should be treated as a **safety signal**, not a repurposing opportunity.
 
 The same applies to the related predictions "methemoglobinemia, alpha type" and "methemoglobin reductase deficiency", which have no supporting evidence. In the latter, procaine could be harmful.
 
@@ -69,11 +69,11 @@ The same applies to the related predictions "methemoglobinemia, alpha type" and 
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Fibromyalgia | 99.23% | L4 | Only uncontrolled 1950s-60s reports of procaine infiltration for fibrositic or myofascial pain. Plausible mechanism (nociceptive blockade at trigger points). A reasonable research question. |
-| Tendinitis | 99.20% | L3 | The most relevant signal is a 2022 clinical study of 1% procaine neural therapy in supraspinatus tendinopathy. Other items are indirect or involve non-procaine agents. A reasonable research question. |
-| Anaphylaxis | 99.29% | L4 | Literature documents procaine, including procaine penicillin, as a cause of allergic and pseudo-allergic reactions (e.g. Hoigné's syndrome). Adverse, not therapeutic. |
-| Hyperthyroidism | 99.25% | L4 | Old, low-quality reports (1945-1976) on procaine block or injection therapy. No modern evidence. |
-| Tourette syndrome, idiopathic granulomatous myositis, myositis fibrosa | 99.34%, 99.18%, 99.18% | L5 | Model prediction only. No trials or literature. |
+| Fibromyalgia | 0.9923 | L5 | Only uncontrolled 1950s-60s reports of procaine infiltration for fibrositic or myofascial pain. Plausible mechanism (nociceptive blockade at trigger points). A reasonable research question. |
+| Tendinitis | 0.9920 | L5 | The most relevant signal is a 2022 clinical study of 1% procaine neural therapy in supraspinatus tendinopathy. Other items are indirect or involve non-procaine agents. A reasonable research question. |
+| Anaphylaxis | 0.9929 | L4 | Literature documents procaine, including procaine penicillin, as a cause of allergic and pseudo-allergic reactions (e.g. Hoigné's syndrome). Adverse, not therapeutic. |
+| Hyperthyroidism | 0.9925 | L4 | Old, low-quality reports (1945-1976) on procaine block or injection therapy. No modern evidence. |
+| Tourette syndrome, idiopathic granulomatous myositis, myositis fibrosa | 0.9934, 0.9918, 0.9918 | L5 | Model prediction only. No trials or literature. |
 
 ---
 

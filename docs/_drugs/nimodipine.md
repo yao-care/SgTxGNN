@@ -4,17 +4,17 @@ title: Nimodipine
 parent: Low Evidence (L5)
 nav_order: 714
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Nimodipine: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Subarachnoid hemorrhage (acquired aneurysmal subarachnoid hemorrhage)…"
 monitor_inn: "Nimodipine"
-predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis", "congestive heart failure", "acute pulmonary heart disease", "benign prostatic hyperplasia (disease)", "hyperlipoproteinemia", "hypertrichosis (disease)", "IRVAN syndrome", "Moyomoya angiopathy", "idiopathic macular telangiectasia"]
+predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Nimodipine: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nimodipine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nimodipine: From Subarachnoid Hemorrhage to Homozygous Familial Hypercholesterolemia
+## Nimodipine: Homozygous familial hypercholesterolemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Subarachnoid hemorrhage (acquired aneurysmal subarachnoid hemorrhage), based on the knowledge graph; the Singapore licence records contain no indication text |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 For homozygous familial hypercholesterolemia, the data compiled for this report identify **no plausible mechanistic link**. The condition is caused by defects in LDL receptor pathways, and calcium channel blockade has no established role in lipid metabolism. The high TxGNN score is therefore best treated as a model output that needs independent validation rather than as supporting evidence.
 
-Other top-ranked predictions show a similar pattern. Most also have no trials or literature. Two are somewhat more plausible mechanistically, congestive heart failure (indirect cardiovascular literature, but calcium channel blockers are generally not beneficial in heart failure with reduced ejection fraction) and Moyamoya angiopathy (cerebrovascular rationale, with a caution that lowering blood pressure could reduce cerebral perfusion). Neither has direct clinical evidence.
+Other top-ranked predictions show a similar pattern. Most also have no trials or literature.
 
 ## Clinical Trial Evidence
 

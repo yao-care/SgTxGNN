@@ -48,10 +48,10 @@ The prediction rests on the model alone and has no biological or clinical backin
 |------|------|
 | Original Indication | Not stated in the Singapore registration record |
 | Predicted New Indication | Atypical coarctation of aorta |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,16 +64,16 @@ The other top-ranked predictions are also weak. Of the 10 predictions reviewed, 
 
 | Rank | Predicted Disease | TxGNN Score | Assessment |
 |------|------|------|------|
-| 1 | Atypical coarctation of aorta | 99.99% | Structural defect; no pharmacological rationale |
-| 2 | Aortic malformation | 99.98% | Surgical or interventional condition; no rationale |
-| 3 | Migraine with brainstem aura | 99.97% | FP agonism likely neutral or pro-nociceptive; nausea and vomiting unfavourable |
-| 4 | Migraine disorder | 99.96% | Same as above |
-| 5 | Pulmonary hypertension | 99.93% | Carboprost raises pulmonary vascular resistance, so it may worsen the disease |
-| 6 | Non-syndromic esophageal malformation | 99.92% | Needs surgical correction; no rationale |
-| 7 | Kyphoscoliotic heart disease | 99.92% | Pulmonary vasoconstriction could be harmful |
-| 8 | Amenorrhea | 99.89% | Loose link to reproductive physiology; speculative |
-| 9 | Esophageal disease | 99.83% | Gastrointestinal smooth muscle stimulation may aggravate symptoms |
-| 10 | Primary hereditary glaucoma | 99.69% | Class-level rationale (FP agonists lower eye pressure), but no ocular formulation or data, and established agents already fill this niche |
+| 1 | Atypical coarctation of aorta | 0.9999 | Structural defect; no pharmacological rationale |
+| 2 | Aortic malformation | 0.9998 | Surgical or interventional condition; no rationale |
+| 3 | Migraine with brainstem aura | 0.9997 | FP agonism likely neutral or pro-nociceptive; nausea and vomiting unfavourable |
+| 4 | Migraine disorder | 0.9996 | Same as above |
+| 5 | Pulmonary hypertension | 0.9993 | Carboprost raises pulmonary vascular resistance, so it may worsen the disease |
+| 6 | Non-syndromic esophageal malformation | 0.9992 | Needs surgical correction; no rationale |
+| 7 | Kyphoscoliotic heart disease | 0.9992 | Pulmonary vasoconstriction could be harmful |
+| 8 | Amenorrhea | 0.9989 | Loose link to reproductive physiology; speculative |
+| 9 | Esophageal disease | 0.9983 | Gastrointestinal smooth muscle stimulation may aggravate symptoms |
+| 10 | Primary hereditary glaucoma | 0.9969 | Class-level rationale (FP agonists lower eye pressure), but no ocular formulation or data, and established agents already fill this niche |
 
 Primary hereditary glaucoma is the most biologically plausible of the group, but only through other drugs in the same class, not carboprost itself.
 

@@ -4,17 +4,17 @@ title: Butylscopolamine
 parent: Medium Evidence (L3-L4)
 nav_order: 187
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Butylscopolamine: predicted new indication Irritable bowel syndrome (evidence level L3). Approved use: Not stated in the registration data compiled for this report (general…"
 monitor_inn: "Butylscopolamine"
-predicted_indications: ["irritable bowel syndrome", "cauda equina syndrome", "neurocirculatory asthenia", "obsolete neurogenic bladder (disease)", "autonomic nervous system disease", "open-angle glaucoma", "primary hereditary glaucoma", "dysautonomia", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["irritable bowel syndrome"]
 ---
 
 # Butylscopolamine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Butylscopolamine (hyoscine butylbromide) is a peripherally acting antimuscarinic
 |------|------|
 | Original Indication | Not stated in the registration data compiled for this report (general pharmacology: gastrointestinal spasm) |
 | Predicted New Indication | Irritable bowel syndrome |
-| TxGNN Prediction Score | 99.56% |
+| TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -107,15 +107,6 @@ The other nine predicted indications have no clinical trials and no supporting e
 
 | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|
-| Cauda equina syndrome | 98.75% | No direct mechanistic rationale. It is a compressive neurosurgical emergency. |
-| Neurocirculatory asthenia | 98.28% | Speculative. Anticholinergic effects such as tachycardia could worsen symptoms. |
-| Obsolete neurogenic bladder (disease) | 97.92% | Antimuscarinics are an established class for this use, but no butylscopolamine-specific evidence was supplied. The disease term is obsolete and needs mapping to a current ontology term. Urinary retention is a risk. |
-| Autonomic nervous system disease | 96.93% | Term is broad. The two supplied papers (a colitis animal model and an observational peptic ulcer study) do not support a therapeutic link. |
-| Open-angle glaucoma | 96.71% | Not supported mechanistically. Antimuscarinics raise an intraocular pressure safety concern. |
-| Primary hereditary glaucoma | 96.48% | No plausible rationale, with the same intraocular pressure concern. |
-| Dysautonomia | 96.30% | The only paper is observational and does not test butylscopolamine. Anticholinergic effects could worsen some presentations. |
-| Migraine disorder | 95.97% | No clear mechanism, and poor CNS penetration weakens the rationale. |
-| Migraine with brainstem aura | 95.68% | No supporting mechanism. A peripherally restricted antimuscarinic is unlikely to act on brainstem aura. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Lorazepam
 parent: Low Evidence (L5)
 nav_order: 615
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Anxiety disorder, status epilepticus, absence epilepsy…"
 monitor_inn: "Lorazepam"
 predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lorazepam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lorazepam: From Anxiety and Seizure Disorders to Trigeminal Nerve Neoplasm
+## Lorazepam: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Lorazepam is a benzodiazepine originally used for anxiety disorders and seizure conditions, including status epilepticus. The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but **no clinical trials and no publications** currently support this prediction. The score comes from the graph model alone, and the other predicted indications show stronger evidence only where they overlap with lorazepam's existing seizure use.
+Lorazepam is a benzodiazepine originally used for anxiety disorders and seizure conditions, including status epilepticus. The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but **no clinical trials and no publications** currently support this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -46,12 +46,12 @@ Lorazepam is a benzodiazepine originally used for anxiety disorders and seizure 
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, status epilepticus, absence epilepsy, Lennox-Gastaut syndrome (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,9 +60,8 @@ Lorazepam is a benzodiazepine originally used for anxiety disorders and seizure 
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, lorazepam is a positive allosteric modulator of the GABA-A receptor. It enhances inhibitory signalling, which produces anxiolytic, sedative and anticonvulsant effects.
 
-For the top-ranked prediction, trigeminal nerve neoplasm, **no mechanistic rationale is evident**. Enhanced GABAergic inhibition has no known antitumour activity. At most, lorazepam could play a supportive role, such as managing anxiety or procedural sedation in patients with this tumour. That would not be a new disease-modifying indication. The high TxGNN score reflects graph-based association only.
+For the top-ranked prediction, trigeminal nerve neoplasm, **no mechanistic rationale is evident**. Enhanced GABAergic inhibition has no known antitumour activity. At most, lorazepam could play a supportive role, such as managing anxiety or procedural sedation in patients with this tumour. That would not be a new disease-modifying indication. The high TxGNN score (0.9987) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other predictions in the list show a different pattern. Several are reflex or unusual seizure types (reading, eating, startle, thinking, micturition-induced, orgasm-induced and audiogenic seizures) and one is an acute encephalopathy with seizures. These fall within lorazepam's existing anticonvulsant use, so they are extensions of a known indication rather than distinct repurposing opportunities. Insomnia is biologically plausible because of the sedative-hypnotic effect, but its repurposing value is low, since it overlaps with the existing anxiolytic and sedative profile and guidelines discourage long-term benzodiazepine use for it.
 
 ---
 
@@ -119,7 +118,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, trigeminal nerve neoplasm, rests on a graph score alone. There is no mechanistic basis, no trial and no literature, so the evidence level is L5. Among the other top-10 predictions, the better-supported ones are either extensions of existing seizure use or low-value overlaps (insomnia, L3), so none presents a distinct repurposing case.
+The top prediction, trigeminal nerve neoplasm, has a score of 0.9987 from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There is no mechanistic basis, no trial and no literature, so the evidence level is L5.
 
 **To proceed, the following is needed:**
 - A mechanistic or clinical rationale for any antitumour or disease-modifying role in trigeminal nerve neoplasm, if that direction is to be pursued

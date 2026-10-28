@@ -8,6 +8,7 @@ nav_order: 38
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Acyclovir Sodium 274 4Mg Eqv Acyclovir
@@ -49,7 +50,7 @@ Acyclovir sodium is a nucleoside analogue antiviral classically used to treat he
 | Predicted New Indication | None — TxGNN predictions not generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | Cannot be determined |
-| Singapore Market Status | Not marketed (0 registrations found) |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

@@ -4,17 +4,17 @@ title: Pamidronic Acid
 parent: Low Evidence (L5)
 nav_order: 759
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Pamidronic Acid: predicted new indication HIV infectious disease (evidence level L5). Approved use: Humoral hypercalcemia of malignancy"
 monitor_inn: "Pamidronic acid"
-predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "obsolete familial combined hyperlipidemia", "osteomesopyknosis", "cholelithiasis", "GNE myopathy"]
+predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 ---
 
 # Pamidronic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, wit
 |------|------|
 | Original Indication | Humoral hypercalcemia of malignancy; Paget disease of bone; juvenile Paget disease (the Singapore licence record contains no indication text) |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,9 +62,9 @@ A possible but unverified link is that nitrogen-containing bisphosphonates inhib
 The high TxGNN score is a model prediction only. Related predictions (feline AIDS and simian immunodeficiency virus infection) most likely mirror the HIV prediction through shared disease-ontology neighbours. They are not independent support.
 
 **Other predicted indications in the data:**
-- **Paget disease of bone** (score 96.64%): this is already an original indication, so it is not a true repurposing candidate. Five publications were supplied, all reviews, a drug news note or a case report, with no Phase 3 RCT. The evidence is graded L4 and the stage is "Research Question".
-- **Paget disease of bone 2, early-onset** (score 92.96%): a genetic subtype with the same high-turnover bone pathology, so antiresorptive therapy is mechanistically plausible. No subtype-specific evidence was supplied (L5, Research Question).
-- **Other predictions** (neurodevelopmental disorder, obsolete familial combined hyperlipidemia, osteomesopyknosis, cholelithiasis, GNE myopathy): no mechanistic support and no evidence. Antiresorptive therapy would be expected to worsen osteomesopyknosis, a high-bone-density disorder.
+- **Paget disease of bone**: this is already an original indication, so it is not a true repurposing candidate. Five publications were supplied, all reviews, a drug news note or a case report, with no Phase 3 RCT. The evidence is graded L4 and the stage is "Research Question".
+- **Paget disease of bone 2, early-onset**: a genetic subtype with the same high-turnover bone pathology, so antiresorptive therapy is mechanistically plausible. No subtype-specific evidence was supplied (L5, Research Question).
+- **Other predictions** (neurodevelopmental disorder): no mechanistic support and no evidence.
 
 ## Clinical Trial Evidence
 

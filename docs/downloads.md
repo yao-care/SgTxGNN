@@ -65,8 +65,8 @@ SgTxGNN provides a FHIR R4-compliant API for programmatic access:
 
 | Resource | Endpoint | Count |
 |----------|----------|-------|
-| MedicationKnowledge | `/fhir/MedicationKnowledge/{id}` | 745 |
-| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/{id}` | 31,543 |
+| MedicationKnowledge | `/fhir/MedicationKnowledge/{id}` | {{ site.static_files | where_exp: 'f', 'f.path contains "/fhir/MedicationKnowledge/"' | size }} |
+| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/{id}` | {{ site.static_files | where_exp: 'f', 'f.path contains "/fhir/ClinicalUseDefinition/"' | size }} |
 
 #### Example Request
 

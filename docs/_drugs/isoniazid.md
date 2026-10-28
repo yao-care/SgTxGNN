@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Isoniazid
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 555
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Isoniazid"
-predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "shigellosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "leprosy", "brachydactyly-syndactyly syndrome", "vestibular neuronitis", "motor nerve neuritis", "infectious otitis media", "brachial plexus neuritis"]
+predicted_indications: ["conjunctivitis"]
+description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Isoniazid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Isoniazid: From Pulmonary Tuberculosis to Conjunctivitis
+## Isoniazid: Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary tuberculosis |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| TxGNN Prediction Score | 0.9936 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -117,10 +117,8 @@ No clinical trials exist, and the literature shows only an indirect link through
 
 None of the other nine predictions (ranks 2–10) is supported by direct efficacy evidence. They are listed here in brief for context.
 
-- **Rheumatoid arthritis**: the literature reflects tuberculosis prophylaxis in patients on biologics, plus adverse events. The score likely reflects co-prescription.
-- **Leprosy**: biologically plausible, since *M. leprae* is a mycobacterium. However, its *katG* gene is a pseudogene, so isoniazid is unlikely to be effective. This is the only other indication flagged as a research question.
-- **Motor nerve neuritis**: this reflects isoniazid-induced neuropathy, an adverse effect rather than a therapeutic signal.
-- **Shigellosis, colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachydactyly-syndactyly syndrome, vestibular neuronitis, infectious otitis media, brachial plexus neuritis**: model prediction only, with no supporting literature and no plausible mechanism.
+- The score likely reflects co-prescription.
+- However, its *katG* gene is a pseudogene, so isoniazid is unlikely to be effective. This is the only other indication flagged as a research question.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

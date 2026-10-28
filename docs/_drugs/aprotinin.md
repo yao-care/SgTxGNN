@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Aprotinin
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 106
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Aprotinin: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not stated in the Singapore licence records (the DrugBank-based clini…"
+description: "Aprotinin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Aprotinin"
-predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "migraine with brainstem aura", "pseudo-von Willebrand disease", "migraine disorder", "non-syndromic esophageal malformation", "congenital prothrombin deficiency", "filariasis", "severe nonproliferative diabetic retinopathy", "esotropia"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Aprotinin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Aprotinin: From Antifibrinolytic Use in Surgical Bleeding to Primary Release Disorder of Platelets
+## Aprotinin
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Aprotinin is a serine protease inhibitor used as an antifibrinolytic to reduce bleeding and transfusion needs during cardiac surgery, and it is also a component of fibrin sealants.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but the data compiled for this report contain **0 clinical trials** and **0 publications** supporting this direction.
-The evidence is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records (the DrugBank-based clinical use is reduction of bleeding and transfusion requirements in cardiac surgery) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 92.71% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, aprotinin is a serine protease inhibitor that acts on enzymes such as plasmin and kallikrein. It is used as an antifibrinolytic to reduce perioperative bleeding, and its target is listed as plasminogen.
-
-Aprotinin's effect on bleeding, together with reported effects on preserving platelet function, offers a plausible link to platelet secretion disorders. However, this link is only a model prediction. No trials or literature in the compiled data support it, so it remains hypothetical.
-
-Other predicted indications are weaker still. For example, Glanzmann thrombasthenia (score 92.49%) involves a receptor defect that an antifibrinolytic would not correct. Several others, such as non-syndromic esophageal malformation, filariasis and esotropia, have no evident mechanism and are likely spurious associations.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Singapore Market Information
 
@@ -81,19 +65,6 @@ Other predicted indications are weaker still. For example, Glanzmann thrombasthe
 
 Please refer to the package insert for warnings and contraindications. Note that aprotinin's systemic use carries renal and thrombotic safety concerns that would need to be considered for any new indication.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by the model score, with no registered clinical trials and no relevant literature for the top-ranked indication. The Singapore licence records contain no approved indication text, and mechanism and safety label data are incomplete.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, which are a blocking gap for safety screening
-- Detailed mechanism-of-action data (for example from DrugBank)
-- A systematic literature search on aprotinin in platelet function disorders
-- A safety assessment covering renal and thrombotic risk for the proposed population
-- Clarification of the approved indications for the three Singapore licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

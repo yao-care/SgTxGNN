@@ -4,17 +4,17 @@ title: Articaine
 parent: Low Evidence (L5)
 nav_order: 111
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Articaine: predicted new indication Gout (evidence level L5). Approved use: Not available"
 monitor_inn: "Articaine"
-predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma", "exostoses, multiple,", "hypotrichosis simplex of the scalp", "alopecia", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "congenital hypotrichosis milia"]
+predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
 ---
 
 # Articaine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Articaine is an amide-type local anaesthetic, marketed in Singapore as an injectable (the product names point to dental use, but no approved indication text is on file).
 The TxGNN model predicts it may be effective for **gout**, but **no clinical trials and no supporting publications** exist for this prediction.
-The high score appears to be a graph-based artefact rather than a biologically grounded signal.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -48,17 +48,17 @@ The high score appears to be a graph-based artefact rather than a biologically g
 |------|------|
 | Original Indication | Not available (no approved indication text in the registrations; drug class is local anaesthetic) |
 | Predicted New Indication | Gout |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Articaine is known to be an amide local anaesthetic that blocks voltage-gated sodium channels, producing reversible loss of nerve conduction.
 
-Gout, in contrast, is driven by monosodium urate crystal deposition and NLRP3 inflammasome-mediated inflammation. No clear mechanistic link between sodium channel blockade and urate-driven inflammation was identified. The high TxGNN score is best read as a pattern from the knowledge graph, not as evidence of therapeutic benefit.
+Gout, in contrast, is driven by monosodium urate crystal deposition and NLRP3 inflammasome-mediated inflammation. No clear mechanistic link between sodium channel blockade and urate-driven inflammation was identified. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of therapeutic benefit.
 
 Other top-ranked predictions (exostosis, asthma subtypes, alopecia and rare COL4A1-related disorders) likewise lack plausible mechanisms or supporting data. The only publications found for any of them concern local anaesthetic allergy (under allergic asthma), which describes an adverse-reaction context rather than a treatment.
 

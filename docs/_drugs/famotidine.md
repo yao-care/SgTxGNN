@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Famotidine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 416
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Famotidine: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Gastric ulcer, gastroesophageal reflux disease, duodenal ulcer…"
 monitor_inn: "Famotidine"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "multiple endocrine neoplasia", "acne (disease)"]
+predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
+description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Famotidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Famotidine: From Gastric Ulcer and Reflux Disease to Duodenogastric Reflux
+## Famotidine: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Famotidine is an H2-receptor blocker, originally used to reduce stomach acid in gastric and duodenal ulcers, gastroesophageal reflux disease and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux** (reflux of duodenal contents back into the stomach).
 Support is thin: **0 registered clinical trials** and **2 publications**, both indirect.
 
 ---
@@ -48,12 +47,12 @@ Support is thin: **0 registered clinical trials** and **2 publications**, both i
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, gastroesophageal reflux disease, duodenal ulcer, Zollinger-Ellison syndrome (the Singapore licences in the data compiled for this report carry no indication text, so this list comes from the knowledge-graph indication records) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +63,6 @@ Detailed mechanism-of-action data are not available in the compiled data. Famoti
 
 Reducing acid load may ease symptoms and mucosal injury in mixed gastroduodenal reflux. This is the main reason the prediction is plausible, and it is only a partial fit. Famotidine does not address bile reflux directly, which is a central feature of duodenogastric reflux. It would act on the acid component only.
 
-The high TxGNN score (rank 448 among predictions for this drug) likely reflects closeness to the approved acid-related indications in the knowledge graph, not independent proof of benefit.
 
 ---
 
@@ -115,7 +113,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible only for the acid component of duodenogastric reflux. Evidence is limited to two indirect publications and no registered trials. Famotidine has no clear effect on bile reflux, which is central to this condition.
+Evidence is limited to two indirect publications and no registered trials. Famotidine has no clear effect on bile reflux, which is central to this condition.
 
 **To proceed, the following is needed:**
 - A controlled clinical study of famotidine in duodenogastric reflux, with endoscopic or symptom endpoints and a comparison against a proton pump inhibitor.

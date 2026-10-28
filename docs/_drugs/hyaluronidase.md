@@ -50,10 +50,10 @@ That publication describes strabismus as a *complication* after eye anaesthesia,
 |------|------|
 | Original Indication | Not stated in the Singapore registration record |
 | Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 (in practice, close to model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 (in practice, close to model prediction only) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

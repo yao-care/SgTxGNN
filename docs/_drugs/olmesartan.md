@@ -50,10 +50,10 @@ The most evidence-supported alternative candidate in this analysis is **migraine
 |------|------|
 | Original Indication | Not available in the Singapore license data (the drug class is ARB, generally used for hypertension) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,13 +62,13 @@ The most evidence-supported alternative candidate in this analysis is **migraine
 
 Detailed mechanism of action data is not available. Based on known information, olmesartan is an angiotensin II type 1 (AT1) receptor antagonist. Blocking this receptor reduces vascular tone and endothelial dysfunction, which may in theory be relevant to vascular spasm.
 
-However, Prinzmetal (vasospastic) angina is mainly managed with calcium channel blockers and nitrates. The high TxGNN score (99.84%) is not supported by any clinical data retrieved, so this prediction should be treated as a hypothesis only.
+However, Prinzmetal (vasospastic) angina is mainly managed with calcium channel blockers and nitrates. The high TxGNN score (0.9984) is not supported by any clinical data retrieved, so this prediction should be treated as a hypothesis only.
 
 **Other candidates reviewed:**
-- **Migraine disorder (score 99.64%, L3):** Modulating the renin-angiotensin system may reduce migraine frequency through effects on vascular tone, sympathetic activity and neuroinflammation. Olmesartan-specific reports from 2006 in hypertensive or prehypertensive patients suggest a possible benefit, and a 2019 systematic review covers ACE inhibitors and ARBs for prevention. The evidence is small, comes from hypertensive populations or is class-level, and study designs are inferred from titles and need verification. This is the best-supported candidate and is framed as a research question.
-- **Pulmonary hypertension (score 99.61%, L4):** Angiotensin II drives pulmonary vascular remodelling. Rat models show olmesartan effects, supporting biological plausibility, but there is no human efficacy evidence.
-- **Open-angle glaucoma (score 99.40%, L4):** The renin-angiotensin system exists in ocular tissue, but the only item retrieved is a general glaucoma review that is not specific to olmesartan.
-- **Hair disorders (hypotrichosis simplex of the scalp, alopecia, congenital hypotrichosis milia, diffuse alopecia areata), migraine with brainstem aura, and kyphoscoliotic heart disease:** Prediction only, with no known mechanistic link or retrieved evidence. These likely reflect knowledge-graph proximity rather than biology.
+- **Migraine disorder (score 0.9964, L3):** Modulating the renin-angiotensin system may reduce migraine frequency through effects on vascular tone, sympathetic activity and neuroinflammation. Olmesartan-specific reports from 2006 in hypertensive or prehypertensive patients suggest a possible benefit, and a 2019 systematic review covers ACE inhibitors and ARBs for prevention. The evidence is small, comes from hypertensive populations or is class-level, and study designs are inferred from titles and need verification. This is the best-supported candidate and is framed as a research question.
+- **Pulmonary hypertension (score 0.9961, L4):** Angiotensin II drives pulmonary vascular remodelling. Rat models show olmesartan effects, supporting biological plausibility, but there is no human efficacy evidence.
+- **Open-angle glaucoma (score 0.9940, L4):** The renin-angiotensin system exists in ocular tissue, but the only item retrieved is a general glaucoma review that is not specific to olmesartan.
+- **Hair disorders (hypotrichosis simplex of the scalp, alopecia, congenital hypotrichosis milia, diffuse alopecia areata), migraine with brainstem aura, and kyphoscoliotic heart disease:** Prediction only, with no known mechanistic link or retrieved evidence. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

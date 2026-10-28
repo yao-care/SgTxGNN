@@ -4,17 +4,17 @@ title: Sodium Carbonate
 parent: Low Evidence (L5)
 nav_order: 919
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Sodium Carbonate: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated"
 monitor_inn: "Sodium carbonate"
-predicted_indications: ["cauda equina syndrome", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "obsolete neurogenic bladder (disease)", "dry eye syndrome", "ventricular tachycardia", "obsolete bundle branch block", "panuveitis (disease)", "Sjogren syndrome", "catecholaminergic polymorphic ventricular tachycardia"]
+predicted_indications: ["cauda equina syndrome", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "obsolete neurogenic bladder (disease)", "dry eye syndrome", "ventricular tachycardia"]
 ---
 
 # Sodium Carbonate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The only direction with any indirect literature is **Sjögren syndrome / dry eye
 |------|------|
 | Original Indication | Not stated (the single Singapore license lists no approved indication text) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The only direction with any indirect literature is **Sjögren syndrome / dry eye
 
 Currently, detailed mechanism of action data is not available. Based on known information, sodium carbonate is an alkalinizing agent and buffer. Its pharmacological role is pH adjustment, not a disease-specific therapeutic action.
 
-For cauda equina syndrome, no plausible mechanistic link could be identified. The condition is a compressive neurological emergency that is treated surgically, and a buffering agent has no clear role in it. The high TxGNN score (99.80%) is a model prediction only, with no trials or literature behind it.
+For cauda equina syndrome, no plausible mechanistic link could be identified. The condition is a compressive neurological emergency that is treated surgically, and a buffering agent has no clear role in it. The high TxGNN score (0.9980) is a model prediction only, with no trials or literature behind it.
 
 Other predicted indications were also reviewed:
 

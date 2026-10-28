@@ -4,17 +4,17 @@ title: Probenecid
 parent: Medium Evidence (L3-L4)
 nav_order: 826
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Probenecid: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Gout"
 monitor_inn: "Probenecid"
-predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "cholelithiasis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "disorder of phenylalanine metabolism"]
+predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 ---
 
 # Probenecid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Probenecid: From Gout to Renal Hypouricemia
+## Probenecid: From Gout to hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Probenecid is a uricosuric drug originally used to treat gout and hyperuricemia.
 The TxGNN model predicts it may be effective for **renal hypouricemia**, but there are **no registered clinical trials** and the **20 publications** retrieved describe the disease itself rather than probenecid treatment.
-The prediction is more likely a knowledge-graph artifact than a real therapeutic signal, and it may even point to a pharmacological contraindication.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and it may even point to a pharmacological contraindication.
 
 ---
 
@@ -50,10 +50,10 @@ The prediction is more likely a knowledge-graph artifact than a real therapeutic
 |------|------|
 | Original Indication | Gout; hyperuricemia (the Singapore licence has no approved indication text on file) |
 | Predicted New Indication | Hypouricemia, renal |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism-of-action data for probenecid are not available in the data c
 
 The predicted new indication does not fit this mechanism. Hereditary renal hypouricemia is mainly caused by loss-of-function variants in URAT1 (SLC22A12) or GLUT9. Patients already lose too much urate in urine, so a drug that further blocks reabsorption would be expected to **worsen** the condition rather than treat it. The literature also shows that probenecid has been used as a **diagnostic probe**. Patients with renal hypouricemia show little or no uricosuric response to probenecid, which helps classify the type of tubular defect.
 
-The high TxGNN score most likely reflects network proximity through urate transport, not a therapeutic rationale. Other ranked predictions are also weak: Lesch-Nyhan syndrome and partial HPRT deficiency (uricosurics raise stone risk in these uric acid overproducers, and xanthine oxidase inhibitors are preferred), and a group of rare liver diseases with identical scores that look like graph artifacts.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Other ranked predictions are also weak: Lesch-Nyhan syndrome and partial HPRT deficiency (uricosurics raise stone risk in these uric acid overproducers, and xanthine oxidase inhibitors are preferred).
 
 ---
 

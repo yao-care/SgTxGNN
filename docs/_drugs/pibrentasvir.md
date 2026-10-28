@@ -48,17 +48,17 @@ but **no clinical trials** and only **20 publications** (almost all about hepati
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection (the Singapore licence record contains no indication text; this comes from the original indication data) |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pibrentasvir is an NS5A inhibitor. It is used with glecaprevir (an NS3/4A protease inhibitor) in the fixed-dose combination marketed as Maviret/Mavyret. Its efficacy in hepatitis C is well established.
 
-The mechanistic case for hepatitis B is weak. HBV has no NS5A protein. It is a DNA virus that replicates through reverse transcription and a cccDNA intermediate, which is very different from HCV replication. The high TxGNN score most likely reflects the closeness of "viral hepatitis" terms in the knowledge graph rather than a true drug-target link. No direct antiviral mechanism against HBV is supported.
+The mechanistic case for hepatitis B is weak. HBV has no NS5A protein. It is a DNA virus that replicates through reverse transcription and a cccDNA intermediate, which is very different from HCV replication. The high TxGNN score (0.9984) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No direct antiviral mechanism against HBV is supported.
 
 The other top predictions show the same pattern (hepatitis A and E, HIV, tick-borne flaviviruses, and animal viral diseases). Each is either a family-level analogy or network proximity, and none has evidence of pibrentasvir activity.
 
@@ -100,7 +100,7 @@ Please refer to the package insert for safety information. No warning or contrai
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score for hepatitis B is not backed by any clinical trial, hepatitis B-specific publication, or plausible mechanism. HBV lacks the NS5A target. Pibrentasvir's evidence is limited to its approved use in hepatitis C, so the prediction is best viewed as a knowledge-graph artefact.
+The high TxGNN score for hepatitis B is not backed by any clinical trial, hepatitis B-specific publication, or plausible mechanism. HBV lacks the NS5A target. Pibrentasvir's evidence is limited to its approved use in hepatitis C, so the prediction is best viewed as a TxGNN model (deep learning) artefact.
 
 **To proceed, the following is needed:**
 - In vitro antiviral activity data for pibrentasvir against HBV (replication and cccDNA assays), which is the minimum to justify any further work

@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Tucatinib
-parent: Low Evidence (L5)
-nav_order: 1035
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Tucatinib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
-monitor_inn: "Tucatinib"
-predicted_indications: ["migraine disorder", "multiple endocrine neoplasia", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "pulmonary hypertension", "homozygous familial hypercholesterolemia", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to", "Prinzmetal angina", "rheumatoid arthritis"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 1034
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Tucatinib: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Tucatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,51 +32,47 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tucatinib: From an Unspecified Original Indication to Migraine Disorder
+<!-- known-uses-page -->
+<!-- description: Tucatinib: known uses and market status in Singapore; currently no new candidate indication -->
+## Tucatinib: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Tucatinib, so there is currently no new predicted indication. The drug's recorded uses are listed below. They are the drug's own known uses, not model candidates.
 
-Tucatinib is an oral HER2-selective tyrosine kinase inhibitor marketed in Singapore as TUKYSA, but the approved indication text is not available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **migraine disorder**, yet there are **0 clinical trials** and **0 publications** supporting this prediction.
-This is a model-only prediction with no supporting evidence, and no mechanistic link has been established.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the approved indication text is blank in the Singapore licence records) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 98.62% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available in the compiled data. Tucatinib is known to be a selective HER2 tyrosine kinase inhibitor with minimal EGFR activity, and it is used in HER2-driven cancers. Its original approved indication could not be confirmed from the Singapore licence text.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| breast neoplasms | licence in another country |
+| neoplasm metastasis | licence in another country |
 
-No mechanistic link to migraine has been established. Migraine pathophysiology involves CGRP, serotonergic pathways and cortical spreading depression, and none of these is connected to HER2 inhibition. The high TxGNN score is a model output only. It likely reflects patterns in the knowledge graph rather than independent biological evidence.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The same applies to the other top predictions, which include multiple endocrine neoplasia, nephrogenic syndrome of inappropriate antidiuresis, migraine with brainstem aura, pulmonary hypertension, homozygous familial hypercholesterolemia, kyphoscoliotic heart disease, migraine susceptibility, Prinzmetal angina and rheumatoid arthritis. All are L5, have no clinical trials, and have no or only weak mechanistic rationale. Among them, only pulmonary hypertension and rheumatoid arthritis have even an indirect class-level rationale based on other kinase inhibitors.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for migraine disorder.
-
-(For reference, the two publications retrieved for the rank-10 prediction, rheumatoid arthritis, are general reviews of FDA-approved kinase inhibitors, [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/) (2021) and [38096958](https://pubmed.ncbi.nlm.nih.gov/38096958/) (2024). They contain no tucatinib-specific efficacy or safety data and do not support the migraine prediction.)
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15942P | TUKYSA (Tucatinib) film-coated tablets 150 mg | Film-coated tablet | Not stated in the licence record |
-| SIN15943P | TUKYSA (Tucatinib) film-coated tablets 50 mg | Film-coated tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15942P | TUKYSA (TUCATINIB) FILM-COATED TABLETS 150 mg | TABLET, FILM COATED | Valid |
+| SIN15943P | TUKYSA (TUCATINIB) FILM-COATED TABLETS 50 mg | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 
@@ -101,19 +96,6 @@ Examples of **Moderate** interactions include hydrocortisone, dexamethasone, bet
 
 For warnings and contraindications, please refer to the package insert for safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The migraine prediction rests only on a model score, with no clinical trials, no relevant literature and no plausible HER2-related mechanism. Evidence is at the lowest level (L5), and the safety data are incomplete.
-
-**To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications and approved indication) to allow safety screening
-- Mechanism of action data from DrugBank
-- A biological rationale linking HER2 inhibition to migraine, or preclinical evidence supporting one
-- Any clinical or observational data in migraine
-- Route and formulation compatibility assessment (oral tablets are the only available forms)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

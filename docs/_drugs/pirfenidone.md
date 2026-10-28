@@ -6,9 +6,9 @@ nav_order: 799
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Idiopathic pulmonary fibrosis"
 monitor_inn: "Pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
+description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pirfenidone
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pirfenidone: From Idiopathic Pulmonary Fibrosis to Extracutaneous Mastocytoma
+## Pirfenidone: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pirfenidone is an oral anti-fibrotic drug, originally used to treat idiopathic pulmonary fibrosis and related interstitial pneumonias.
-The TxGNN model predicts it may be effective for **extracutaneous mastocytoma** (score 99.7%), but **no clinical trials and no publications** currently support this specific prediction.
+The TxGNN model (deep learning) predicts it may be effective for **extracutaneous mastocytoma** (score 0.9971), but **no clinical trials and no publications** currently support this specific prediction.
 This is a computational prediction only (Evidence Level L5).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Idiopathic pulmonary fibrosis (also acute interstitial pneumonia and idiopathic interstitial pneumonia, per the knowledge graph; the Singapore licences carry no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Extracutaneous mastocytoma |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -102,7 +102,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score (99.7%) is a computational prediction only. There are no trials or publications for extracutaneous mastocytoma, and the plausible mechanism (anti-fibrotic effect) does not address the disease's actual drivers. Neighbouring predictions also show no supporting evidence, and the literature on related fibroblastic tumours includes possible safety signals.
+The high TxGNN score (0.9971) is a computational prediction only. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or publications for extracutaneous mastocytoma, and the plausible mechanism (anti-fibrotic effect) does not address the disease's actual drivers. Neighbouring predictions also show no supporting evidence, and the literature on related fibroblastic tumours includes possible safety signals.
 
 **To proceed, the following is needed:**
 - Singapore package insert warnings and contraindications (currently blocking safety screening)

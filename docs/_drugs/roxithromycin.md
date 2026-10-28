@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Roxithromycin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 886
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Roxithromycin: predicted new indication Leprosy (evidence level L3). Approved use: Not stated in the Singapore licence record (pharmacology sources desc…"
 monitor_inn: "Roxithromycin"
-predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "migraine disorder", "female breast carcinoma"]
+predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
 ---
 
 # Roxithromycin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **no registered clinical trials** and only **5 publicati
 |------|------|
 | Original Indication | Not stated in the Singapore licence record (pharmacology sources describe respiratory tract, urinary and soft tissue infections) |
 | Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.70% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9970 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

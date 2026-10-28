@@ -4,17 +4,17 @@ title: Dimenhydrinate
 parent: Low Evidence (L5)
 nav_order: 332
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Dimenhydrinate: predicted new indication Allergic urticaria (evidence level L5). Approved use: Motion sickness"
 monitor_inn: "Dimenhydrinate"
-predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "common cold", "pharyngitis", "acute laryngopharyngitis", "urticaria (disease)", "recalcitrant atopic dermatitis", "angioedema", "IgE responsiveness, atopic"]
+predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Dimenhydrinate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but currently there are **0 clinical trials** and only **1 publication** (a phar
 |------|------|
 | Original Indication | Motion sickness; vertigo of central nervous system origin (from the knowledge graph, as no approved indication text is recorded in the Singapore licences) |
 | Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 (indirect, pharmacokinetic data only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| TxGNN Prediction Score | 0.9974 |
+| Evidence Level | L5 (indirect, pharmacokinetic data only) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -4,17 +4,17 @@ title: Iron
 parent: Low Evidence (L5)
 nav_order: 549
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Iron: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anem… (evidence level L5). Approved use: Iron deficiency anemia (also folic acid deficiency anemia…"
 monitor_inn: "Iron"
-predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease", "injury", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease"]
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
+description: "Iron: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Iron
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Iron: From Iron Deficiency Anemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+## Iron: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but **0 clinical trials** and **0 publications** currently support this directio
 
 | Item | Content |
 |------|------|
-| Original Indication | Iron deficiency anemia (also folic acid deficiency anemia, anemia of prematurity, hypochromic anemia, microcytic anemia, deficiency anemia) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ but **0 clinical trials** and **0 publications** currently support this directio
 
 Currently, detailed mechanism of action data is not available. Based on known information, iron is an essential mineral that supports haemoglobin synthesis. Its efficacy in iron deficiency anemia is well established. The original indications are all anemias, and the predicted indication is also an anemia, which likely explains the model's output.
 
-The data compiled for this report argues against a true mechanistic link. Megaloblastic anemia is driven by impaired DNA synthesis. This particular form is defined as independent of vitamin B12 and folate, and it is not caused by iron deficiency. The high score most likely reflects the closeness of the anemia nodes in the knowledge graph rather than a real pharmacological relationship. No trials or publications were found to test the prediction.
+The data compiled for this report argues against a true mechanistic link. Megaloblastic anemia is driven by impaired DNA synthesis. This particular form is defined as independent of vitamin B12 and folate, and it is not caused by iron deficiency. The high score (0.9989) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or publications were found to test the prediction.
 
 ---
 
@@ -88,7 +88,7 @@ Currently no related literature available.
 | SIN05699P | Maltofer Drops 50 mg/ml | Solution |
 | SIN14727P | Velphoro® Chewable Tablets 500mg | Tablet, chewable |
 
-A sixth authorization, SIN14341P (Nutritrace Concentrate for solution for infusion), is also valid. All 6 are valid single-ingredient registrations, and none is cancelled. Approved indication text was not available for these products. The list covers oral and injectable routes, and some products (for example Velphoro and Nutritrace) are likely to serve purposes other than treating iron deficiency anemia.
+A sixth authorization, SIN14341P (Nutritrace Concentrate for solution for infusion), is also valid. The drug is marketed in this country, and all 6 of 6 licences are valid single-ingredient registrations; none is cancelled. Approved indication text was not available for these products. The list covers oral and injectable routes, and some products (for example Velphoro and Nutritrace) are likely to serve purposes other than treating iron deficiency anemia.
 
 ---
 
@@ -119,7 +119,7 @@ The prediction has no supporting trials or literature (L5). Megaloblastic anemia
 
 **Other predicted indications in the same analysis:**
 - **Plummer-Vinson syndrome** (L4) has substantial literature, mostly reviews and case reports. It is essentially an on-label use of iron for iron deficiency anemia, so it is not a true repurposing candidate.
-- **Injury** and **perinatal disease** reached L1 through Phase 3 and Phase 4 trials. These trials largely address anemia in trauma, hip fracture or pregnancy, or test multi-nutrient supplements, so they overlap with the original anemia indication. They would be better framed as extensions of anemia treatment than as new disease indications.
+- These trials largely address anemia in trauma, hip fracture or pregnancy, or test multi-nutrient supplements, so they overlap with the original anemia indication. They would be better framed as extensions of anemia treatment than as new disease indications.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

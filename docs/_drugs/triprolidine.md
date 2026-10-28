@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Triprolidine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 1030
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Triprolidine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis (other listed indications: vasomotor rhinitis…"
 monitor_inn: "Triprolidine"
-predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Triprolidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Triprolidine: From Allergic Rhinitis to Allergic Urticaria
+## Triprolidine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Triprolidine is a first-generation H1-receptor antihistamine, originally used for allergic and vasomotor rhinitis, the common cold, allergic conjunctivitis and urticaria.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but there are **0 clinical trials** and only **2 indirect publications** supporting this direction.
 Allergic urticaria largely overlaps with an indication triprolidine already has, so this is arguably not a true repurposing.
 
 ---
@@ -48,12 +47,12 @@ Allergic urticaria largely overlaps with an indication triprolidine already has,
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (other listed indications: vasomotor rhinitis, common cold, atopic/papillary/vernal conjunctivitis, urticaria, angioedema) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,7 @@ Allergic urticaria largely overlaps with an indication triprolidine already has,
 
 Detailed mechanism of action data is not available. Based on known information, triprolidine is a first-generation H1-receptor antagonist. Its efficacy in allergic rhinitis and other histamine-driven conditions is established, and mechanistically it may be applicable to allergic urticaria.
 
-Histamine release from activated mast cells is the core driver of wheal and itch in allergic urticaria. Blocking H1 receptors is therefore a rational approach. Triprolidine's existing indications already include urticaria, so the high prediction score (99.99%) probably reflects this close overlap rather than a new therapeutic discovery.
+Histamine release from activated mast cells is the core driver of wheal and itch in allergic urticaria. Blocking H1 receptors is therefore a rational approach.
 
 Other top predictions follow a similar pattern. Cold urticaria, autoimmune urticaria and aquagenic urticaria are urticaria subtypes where H1 antagonism is plausible. Nasal cavity disease, pharyngitis and acute laryngopharyngitis overlap with existing upper-airway indications. Predictions such as rosacea conjunctivitis, recalcitrant atopic dermatitis and atopic IgE responsiveness have weak mechanistic fit, because histamine is not the main driver of these conditions.
 
@@ -120,7 +119,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is biologically plausible, but allergic urticaria substantially overlaps with an existing indication, so it adds little new. No clinical trials exist, and the available literature is indirect (a class review and an unrelated skin study), giving an evidence level of L4. The package insert safety review is incomplete.
+No clinical trials exist, and the available literature is indirect (a class review and an unrelated skin study), giving an evidence level of L4. The package insert safety review is incomplete.
 
 **To proceed, the following is needed:**
 - HSA package insert warnings and contraindications (a blocking gap for safety screening)

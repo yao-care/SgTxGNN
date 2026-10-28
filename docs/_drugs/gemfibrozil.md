@@ -4,17 +4,17 @@ title: Gemfibrozil
 parent: Medium Evidence (L3-L4)
 nav_order: 474
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Gemfibrozil: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Hypertriglyceridemia"
 monitor_inn: "Gemfibrozil"
-predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "obsolete familial combined hyperlipidemia", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
+predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
 ---
 
 # Gemfibrozil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but s
 |------|------|
 | Original Indication | Hypertriglyceridemia |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

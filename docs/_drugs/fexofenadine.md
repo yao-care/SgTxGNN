@@ -4,17 +4,17 @@ title: Fexofenadine
 parent: Low Evidence (L5)
 nav_order: 427
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis…"
 monitor_inn: "Fexofenadine"
-predicted_indications: ["rosacea conjunctivitis", "punctate epithelial keratoconjunctivitis", "blepharoconjunctivitis", "viral conjunctivitis", "parasitic eyelid infestation", "ulcerative blepharitis", "infective urethral stricture", "postinfectious vasculitis", "post-bacterial disorder", "noninfectious dermatoses of eyelid"]
+predicted_indications: ["rosacea conjunctivitis"]
+description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fexofenadine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fexofenadine: From Allergic Rhinitis to Rosacea Conjunctivitis
+## Fexofenadine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this direction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis, idiopathic urticaria (from the knowledge-graph indication edges; no approved indication text is available in the Singapore licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 A histamine-driven component could plausibly contribute to ocular surface inflammation in rosacea, which is the basis for the prediction. However, rosacea conjunctivitis is mainly driven by meibomian gland dysfunction, microbial and Demodex factors, and innate immune and neurovascular dysregulation. H1 blockade does not address these causes.
 
-The high score most likely reflects the closeness of rosacea conjunctivitis to other conjunctivitis indications in the knowledge graph. It is not supported by clinical data. At most, a symptomatic benefit (itch and redness) is conceivable.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between rosacea conjunctivitis and other related conjunctivitis indications, not biological evidence. It is not supported by clinical data. At most, a symptomatic benefit (itch and redness) is conceivable.
 
 ### Other Predicted Indications (all L5, Hold)
 
@@ -68,15 +68,6 @@ None of the following has trial or literature support.
 
 | Rank | Predicted Indication | TxGNN Score | Assessment |
 |------|------|------|------|
-| 2 | Punctate epithelial keratoconjunctivitis | 98.63% | Usually infectious or dry-eye related; oral antihistamines may worsen dryness |
-| 3 | Blepharoconjunctivitis | 98.40% | Plausible only for the allergic subtype |
-| 4 | Viral conjunctivitis | 98.17% | No antiviral activity; symptom relief at most |
-| 5 | Parasitic eyelid infestation | 96.67% | No antiparasitic action |
-| 6 | Ulcerative blepharitis | 96.59% | Usually bacterial; adjunctive anti-itch effect only |
-| 7 | Infective urethral stricture | 96.33% | No credible mechanistic link |
-| 8 | Postinfectious vasculitis | 96.13% | Weak link; symptom control in urticarial vasculitis only |
-| 9 | Post-bacterial disorder | 96.11% | Non-specific category; no defined hypothesis |
-| 10 | Noninfectious dermatoses of eyelid | 95.84% | Most biologically plausible (histamine-mediated itch), but antihistamines have limited efficacy in eczema |
 
 ## Clinical Trial Evidence
 
@@ -96,7 +87,7 @@ Currently no related literature available.
 | SIN15714P | FEXODIN FILM COATED TABLET 120MG | Film-coated tablet | Not stated in the records |
 | SIN16296P | FEXOFEN FILM-COATED TABLET 180MG | Film-coated tablet | Not stated in the records |
 
-Two further valid single-ingredient registrations exist: Telfast Oral Suspension 6 mg/ml (SIN14199P) and Telfast D Tablet (SIN12071P). All 7 registrations are valid and none are cancelled. Available forms are oral film-coated tablets and an oral suspension; no topical or ophthalmic formulation is registered.
+Two further single-ingredient registrations exist: Telfast Oral Suspension 6 mg/ml (SIN14199P) and Telfast D Tablet (SIN12071P). The drug is marketed, with 7 valid licences of 7 and none cancelled. Available forms are oral film-coated tablets and an oral suspension; no topical or ophthalmic formulation is registered.
 
 ## Safety Considerations
 

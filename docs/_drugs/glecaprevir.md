@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Glecaprevir
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 479
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "Glecaprevir"
-predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Glecaprevir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Glecaprevir: From Chronic Hepatitis C to HIV Infectious Disease
+## Glecaprevir: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is therefore best read as a research question rather than support
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection (the registered indication text is blank in the Singapore record, so this comes from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L1 on the trial count alone, but the trials test HCV, not HIV. Direct evidence for HIV treatment is effectively L5 (model prediction only). |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction is therefore best read as a research question rather than support
 
 Detailed mechanism of action data is not available in the data compiled for this report. Glecaprevir is known to be an HCV NS3/4A protease inhibitor, and it is used together with pibrentasvir (an NS5A inhibitor) as a fixed-dose combination for HCV.
 
-Mechanistically, the prediction is hard to justify. Glecaprevir has no established direct antiretroviral activity. HIV is a retrovirus and does not have an NS3/4A-like protease target. The high TxGNN score most likely reflects network proximity between viral protease inhibitors and HIV-related targets in the knowledge graph.
+Mechanistically, the prediction is hard to justify. Glecaprevir has no established direct antiretroviral activity. HIV is a retrovirus and does not have an NS3/4A-like protease target. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The clinical link that does exist is about coinfection. Many people with HIV also have HCV, and the trials show glecaprevir/pibrentasvir can cure HCV in that group. That is a benefit for the HCV infection, not an HIV treatment effect.
 

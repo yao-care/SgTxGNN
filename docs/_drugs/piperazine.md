@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Piperazine
-parent: Low Evidence (L5)
-nav_order: 797
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Piperazine: predicted new indication Echinococcus granulosus infectious disease (evidence level L5). Approved use: Enterobiasis, ascariasis"
-monitor_inn: "Piperazine"
-predicted_indications: ["echinococcus granulosus infectious disease", "alveolar echinococcosis", "acute neonatal citrullinemia type I", "adult-onset citrullinemia type I", "malaria", "Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "urea cycle disorder", "systemic mastocytosis", "cystic echinococcosis"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 796
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Piperazine: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Piperazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,67 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Piperazine: From Enterobiasis and Ascariasis to Echinococcus granulosus Infection
+<!-- known-uses-page -->
+<!-- description: Piperazine: known uses and market status in Singapore; currently no new candidate indication -->
+## Piperazine: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model produced no candidate for Piperazine with a score of 0.99 or higher, so there is currently no new predicted indication for this drug. The uses recorded for Piperazine are listed below. They are the drug's own recorded uses, not model candidates.
 
-Piperazine is an anthelmintic originally used to treat pinworm (enterobiasis) and roundworm (ascariasis) infections.
-The TxGNN model predicts it may be effective for **Echinococcus granulosus infectious disease**,
-but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Enterobiasis, ascariasis (the approved indication text on the Singapore licence is blank) |
-| Predicted New Indication | Echinococcus granulosus infectious disease |
-| TxGNN Prediction Score | 97.74% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, piperazine acts as a GABA-receptor agonist that causes flaccid paralysis in nematodes such as Ascaris and Enterobius, allowing the worms to be expelled from the gut.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-*Echinococcus granulosus* is a cestode (tapeworm), not a nematode. No piperazine activity against cestodes is documented in the data compiled for this report. The high score (0.977) is therefore a model prediction only. The relationship to the original indication is that both are parasitic infections, but the mechanistic link is weak.
-
-Other predictions in the list share the same limitation. Alveolar echinococcosis (96.3%) and cystic echinococcosis (89.3%) are also cestode diseases without supporting evidence. Several unrelated predictions, such as citrullinemia, urea cycle disorder and mastocytosis, have no apparent mechanistic connection to piperazine and probably reflect shared graph neighbourhoods rather than independent signals.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for *Echinococcus granulosus* infection.
-
-For the related predicted indication of cystic echinococcosis, two papers were retrieved, but neither shows piperazine efficacy:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [15269042](https://pubmed.ncbi.nlm.nih.gov/15269042/) | 2004 | In vitro/Ex vivo | AJR Am J Roentgenol | Effect of various scolicidal, sclerosing and pharmacologic agents on hydatid cyst membrane integrity |
-| [877439](https://pubmed.ncbi.nlm.nih.gov/877439/) | 1977 | Veterinary/Animal | Res Vet Sci | Niclosamide and its piperazine salt in dogs: virtually inactive against 28-day-old *E. granulosus*, with possible low activity against older worms |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| ascaridiasis |
+| enterobiasis |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02935P | MEI-MEI WORM SYRUP 750 mg/5 ml (Sunward Pharmaceutical Private Limited) | Syrup | Not stated in the licence data |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02935P | MEI-MEI WORM SYRUP 750 mg/5 ml | SYRUP | Valid |
 
 ## Safety Considerations
 
@@ -107,19 +85,6 @@ Please refer to the package insert for label warnings and contraindications.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by the model score. Piperazine acts on nematodes, while *E. granulosus* is a cestode, and there are no trials or literature showing activity. The licence also lacks approved indication text and label safety data.
-
-**To proceed, the following is needed:**
-- Preclinical data (in vitro scolicidal or in vivo activity) showing piperazine acts against *Echinococcus*
-- Confirmation of the mechanism of action (MOA) and its relevance to cestodes
-- Package insert warnings and contraindications from the Health Sciences Authority (HSA)
-- A comparison against established echinococcosis therapy (e.g., benzimidazoles)
-- A safety plan for patients with epilepsy, renal or hepatic impairment, and for the major drug interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

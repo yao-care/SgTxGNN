@@ -4,17 +4,17 @@ title: Levodopa
 parent: Low Evidence (L5)
 nav_order: 596
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian disorders"
 monitor_inn: "Levodopa"
-predicted_indications: ["Rasmussen subacute encephalitis", "PLA2G6-associated neurodegeneration", "myelitis", "transaldolase deficiency", "paralysis agitans, juvenile, of Hunt", "fructose-1,6-bisphosphatase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome"]
+predicted_indications: ["Rasmussen subacute encephalitis"]
+description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levodopa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Levodopa: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+## Levodopa: Rasmussen subacute encephalitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Levodopa is a dopamine precursor, originally used to treat Parkinson disease and related parkinsonian disorders.
-The TxGNN model's top-ranked prediction is Rasmussen subacute encephalitis, but that prediction has no supporting studies. The best-supported candidate is **PLA2G6-associated neurodegeneration**, with **no clinical trials** and **20 publications** (mostly case series and reviews) currently supporting this direction.
+The TxGNN model's top-ranked prediction is Rasmussen subacute encephalitis, but that prediction has no supporting studies.
 
 ---
 
@@ -47,15 +47,14 @@ The TxGNN model's top-ranked prediction is Rasmussen subacute encephalitis, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related parkinsonian disorders (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Rasmussen subacute encephalitis (rank 1, no evidence); PLA2G6-associated neurodegeneration (rank 2) is the best-supported candidate |
-| TxGNN Prediction Score | 99.06% (Rasmussen subacute encephalitis); 98.75% (PLA2G6-associated neurodegeneration) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Rasmussen subacute encephalitis |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 (rank 1); L3 (PLA2G6-associated neurodegeneration) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 13 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold (rank 1); Research Question for PLA2G6-associated neurodegeneration |
 
-The rank-1 prediction has no trials or literature, so the sections below cover the top-ranked prediction and the best-supported alternative, PLA2G6-associated neurodegeneration.
 
 ---
 
@@ -63,26 +62,23 @@ The rank-1 prediction has no trials or literature, so the sections below cover t
 
 Detailed mechanism of action data is not available in the data compiled for this report. Levodopa is widely known as the metabolic precursor of dopamine. It is converted to dopamine in the brain and replaces the dopamine lost when nigrostriatal neurons degenerate. It is the most established symptomatic therapy for parkinsonian disorders.
 
-**Rank 1, Rasmussen subacute encephalitis:** This is a chronic, likely T-cell-mediated inflammatory epileptic encephalopathy affecting one hemisphere. No mechanistic link to dopamine replacement can be supported from the available data. The high score may reflect network proximity to parkinsonian or basal ganglia phenotypes in the knowledge graph. No trials or literature were retrieved.
+**Rank 1, Rasmussen subacute encephalitis:** This is a chronic, likely T-cell-mediated inflammatory epileptic encephalopathy affecting one hemisphere. No mechanistic link to dopamine replacement can be supported from the available data. No trials or literature were retrieved.
 
-**Rank 2, PLA2G6-associated neurodegeneration (PLAN):** This is a more plausible candidate. PLA2G6-related disease, including dystonia-parkinsonism and adult-onset parkinsonism, involves nigrostriatal dopaminergic dysfunction and Lewy body pathology. Case series and genotype-phenotype studies describe parkinsonism with a variable levodopa response. The response is often initially good but transient, and motor complications and dyskinesias are reported. Levodopa is therefore a reasonable symptomatic option for the parkinsonian phenotype, not a disease-modifying therapy.
+PLA2G6-related disease, including dystonia-parkinsonism and adult-onset parkinsonism, involves nigrostriatal dopaminergic dysfunction and Lewy body pathology. Case series and genotype-phenotype studies describe parkinsonism with a variable levodopa response. The response is often initially good but transient, and motor complications and dyskinesias are reported. Levodopa is therefore a reasonable symptomatic option for the parkinsonian phenotype, not a disease-modifying therapy.
 
 **Other candidates with a plausible dopaminergic basis:**
 - Multiple system atrophy, parkinsonian type, is treated with levodopa as first-line symptomatic therapy. The response is present in a subset of patients and often wanes.
-- Lewy body dementia shares alpha-synuclein pathology and nigrostriatal loss with Parkinson disease. Levodopa gives modest motor benefit but may worsen psychosis or hallucinations.
-- Progressive supranuclear palsy-corticobasal syndrome is usually trialled with levodopa, but responses are limited and short-lived.
-- X-linked intellectual disability-ataxia-apraxia syndrome: reports in MCT8 deficiency (Allan-Herndon-Dudley syndrome) describe parkinsonism-like features and a levodopa/carbidopa response. The mapping to the listed disease name is imprecise.
+- Levodopa gives modest motor benefit but may worsen psychosis or hallucinations.
+- The mapping to the listed disease name is imprecise.
 
 **Weak or unsupported predictions:**
-- Myelitis: the literature consists of case reports of parkinsonism occurring with or after myelitis or infection. These support levodopa for secondary parkinsonian symptoms, not for myelitis itself.
-- Transaldolase deficiency and fructose-1,6-bisphosphatase deficiency: metabolic disorders with no evident dopaminergic mechanism and no supporting data.
-- Paralysis agitans, juvenile, of Hunt: a historical term for juvenile parkinsonism that overlaps with the existing indications. It is probably not a true repurposing candidate.
+- It is probably not a true repurposing candidate.
 
 ---
 
 ## Clinical Trial Evidence
 
-For the best-supported candidate, PLA2G6-associated neurodegeneration, and for the rank-1 prediction, no clinical trials are currently registered. Trials were found only for two lower-ranked candidates:
+Trials were found only for two lower-ranked candidates:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -93,7 +89,6 @@ For the best-supported candidate, PLA2G6-associated neurodegeneration, and for t
 
 ## Literature Evidence
 
-**PLA2G6-associated neurodegeneration (rank 2)**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -157,13 +152,11 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, Rasmussen subacute encephalitis, has a high model score (99.06%) but no trials, no literature and no supportable mechanism (Evidence Level L5). The strongest alternative, PLA2G6-associated neurodegeneration, has only retrospective and case-level evidence (L3) with no trials. The data support levodopa as symptomatic treatment of the parkinsonian phenotype, not as disease-modifying therapy. It is best treated as a research question rather than a repurposing candidate ready to proceed. Lewy body dementia and MSA-P are also research questions. Myelitis, transaldolase deficiency and fructose-1,6-bisphosphatase deficiency are not supported by the data.
+The top-ranked prediction, Rasmussen subacute encephalitis, has a high model score (0.9906) but no trials, no literature and no supportable mechanism (Evidence Level L5). The data support levodopa as symptomatic treatment of the parkinsonian phenotype, not as disease-modifying therapy. It is best treated as a research question rather than a repurposing candidate ready to proceed.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Singapore regulator (HSA), which are currently missing and are a blocking gap for safety screening
 - Mechanism of action data for levodopa
-- Prospective or registry data on levodopa response in PLA2G6-associated neurodegeneration, including the duration of benefit and the rate of dyskinesia
-- Confirmation of the tested intervention in NCT06831500 and evidence on levodopa in MSA-P and Lewy body dementia
 - Review of the knowledge graph contraindications (psychosis, cardiovascular disease, glaucoma) for the target populations
 ## Disclaimer
 

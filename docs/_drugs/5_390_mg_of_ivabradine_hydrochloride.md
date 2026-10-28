@@ -8,6 +8,7 @@ nav_order: 13
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # 5 390 Mg Of Ivabradine Hydrochloride
@@ -55,8 +56,8 @@ A full repurposing evaluation **cannot be completed** until the input data is co
 | Predicted New Indication | None — TxGNN prediction not generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — no predictions available |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

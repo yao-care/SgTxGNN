@@ -4,7 +4,7 @@ title: Betamethasone
 parent: High Evidence (L1-L2)
 nav_order: 153
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Betamethasone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, Crohn disease, adrenocortical insufficiency…"
 monitor_inn: "Betamethasone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Betamethasone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ with **6 clinical trials** (1 completed Phase 2 trial testing betamethasone dire
 |------|------|
 | Original Indication | Autoimmune disease, Crohn disease, adrenocortical insufficiency, eosinophilic pneumonia, acute lymphoblastic leukaemia and others (the approved indication text for the Singapore licences is not available) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -102,7 +102,7 @@ All 20 licences are valid single-ingredient products. The approved indication te
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not label text)**: hypertension, congestive heart failure, epilepsy, hyperglycaemia, herpes simplex virus keratitis, measles, hypopituitarism and growth hormone deficiency conditions, and urea cycle disorders (e.g. citrullinemia, hyperargininemia).
+- **Contraindications (from TxGNN model (deep learning) associations, not label text; they may reflect similarities the model learned between related diseases, not biological evidence)**: hypertension, congestive heart failure, epilepsy, hyperglycaemia, herpes simplex virus keratitis, measles, hypopituitarism and growth hormone deficiency conditions, and urea cycle disorders (e.g. citrullinemia, hyperargininemia).
 - **Drug Interactions**: 100 interactions were identified. Notable examples are **adalimumab (Major)** and several Moderate interactions, including isotretinoin, ketorolac, ibuprofen, nifedipine, acarbose, zidovudine, fluvoxamine, fosamprenavir, ethinylestradiol, aldesleukin, alemtuzumab and tetanus toxoid vaccine. Formoterol and salbutamol interactions are Minor.
 
 Please refer to the package insert for label warnings and contraindications.

@@ -4,17 +4,17 @@ title: Prednisolone
 parent: High Evidence (L1-L2)
 nav_order: 821
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease"
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
+description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Prednisolone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Prednisolone: From Autoimmune Disease to Alopecia Areata
+## Prednisolone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **0 r
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease (the Singapore licence records list no approved indication text; this is taken from the knowledge-graph indication list, which also includes Crohn disease, adrenocortical insufficiency and acute lymphoblastic leukaemia) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 10 |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

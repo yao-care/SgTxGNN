@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Cisatracurium is a non-depolarising neuromuscular blocker, marketed in Singapore as an injectable (Nimbex), and used as a muscle relaxant during anaesthesia.
 The TxGNN model predicts it may be effective for **cauda equina syndrome** with a very high score, but **no clinical trials and no publications** support this prediction.
-The prediction rests on knowledge-graph proximity only and has no plausible mechanistic basis.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -48,17 +48,17 @@ The prediction rests on knowledge-graph proximity only and has no plausible mech
 |------|------|
 | Original Indication | Not stated in the Singapore registration data compiled for this report (the drug is known as a neuromuscular blocker used in anaesthesia) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, cisatracurium is a non-depolarising neuromuscular blocker. It antagonises nicotinic acetylcholine receptors at the neuromuscular junction, producing skeletal muscle relaxation during surgery and mechanical ventilation.
 
-Cauda equina syndrome is a compressive neurological emergency that requires surgical decompression. No plausible mechanistic link between neuromuscular blockade and treating this condition is evident. The high TxGNN score is a graph-based prediction only, so this prediction should be regarded as **weak and unsupported**.
+The cauda equina syndrome prediction (score 0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should be regarded as **weak and unsupported**.
 
 Other top-ranked predictions are similarly unsupported:
 

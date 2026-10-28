@@ -6,9 +6,9 @@ nav_order: 1072
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder / vitamin A deficiency"
 monitor_inn: "Vitamin A"
-predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
+predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
+description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vitamin A
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Vitamin A: From Vitamin Deficiency Disorder to Congenital Prothrombin Deficiency
+## Vitamin A: Congenital prothrombin deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin deficiency disorder / vitamin A deficiency (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 
 Currently, detailed mechanism of action data is not available. Vitamin A is a fat-soluble vitamin, and its efficacy in correcting vitamin A deficiency is well established. Its active metabolites, the retinoids, act mainly through nuclear receptors that regulate epithelial differentiation, vision, and immunity.
 
-Congenital prothrombin (factor II) deficiency is a genetic coagulation disorder. Vitamin A has no established role in prothrombin synthesis. That role belongs to vitamin K, which is needed for the production of several clotting factors. The review of the prediction found no clear mechanistic link. The very high model score most likely reflects generic "vitamin or nutrient" associations in the knowledge graph rather than a real therapeutic relationship.
+Congenital prothrombin (factor II) deficiency is a genetic coagulation disorder. Vitamin A has no established role in prothrombin synthesis. That role belongs to vitamin K, which is needed for the production of several clotting factors. The review of the prediction found no clear mechanistic link. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -91,7 +91,7 @@ All three licences are currently valid and for injectable products. No cancelled
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: The drug is linked to contraindication or caution signals in the following conditions:
+- **Contraindications (model-derived associations, not label text)**: The TxGNN model (deep learning) links the drug to contraindication or caution signals in the following conditions. These may reflect similarities the model learned between related diseases, not biological evidence:
   - Kidney and urinary: kidney disease, nephrolithiasis, nephrocalcinosis, acute urate nephropathy
   - Liver and digestive: liver disease, gallbladder disease, peptic ulcer disease, ulcerative colitis, inflammatory bowel disease, gastroenteritis
   - Mineral and iron metabolism: hypercalcemia, phosphorus metabolism disease, hyperphosphatemia, hereditary hemochromatosis, hemosiderosis, iron metabolism disease, Wilson disease
@@ -111,7 +111,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no supporting trials or literature, and no plausible mechanism. Vitamin A plays no known role in prothrombin synthesis, so this is a graph-based artefact rather than a credible repurposing signal.
+The prediction has a very high score from the TxGNN model (deep learning) but no supporting trials or literature, and no plausible mechanism. Vitamin A plays no known role in prothrombin synthesis, so the score may reflect similarities the model learned between related diseases, not biological evidence, and is not a credible repurposing signal.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for vitamin A

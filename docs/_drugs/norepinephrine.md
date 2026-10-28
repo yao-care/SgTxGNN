@@ -4,17 +4,17 @@ title: Norepinephrine
 parent: Medium Evidence (L3-L4)
 nav_order: 721
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Asthma, bronchitis, hypotensive disorder, pulmonary emphysema…"
 monitor_inn: "Norepinephrine"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "transient ischemic attack (disease)", "food-dependent exercise-induced anaphylaxis", "anaphylaxis", "tracheal stenosis"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Norepinephrine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Norepinephrine: From Asthma and Hypotensive Disorders to Obstructive Lung Disease
+## Norepinephrine: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Norepinephrine is an adrenergic vasopressor, listed in the knowledge graph for asthma, bronchitis, emphysema, bronchiectasis and hypotensive disorder.
+Norepinephrine is an adrenergic vasopressor.
 The TxGNN model predicts it may be effective for **obstructive lung disease**, but there is **1 clinical trial** (only tangentially related) and **no direct therapeutic literature** supporting this direction, so the prediction rests on model output alone.
 
 ---
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **obstructive lung disease**, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, bronchitis, hypotensive disorder, pulmonary emphysema, bronchiectasis (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The model likely links the drug to obstructive lung disease because its listed indications (asthma, bronchitis, emphysema, bronchiectasis) are all airway or lung conditions. The retrieved literature describes airway innervation, adrenergic signalling in asthma and COPD, and norepinephrine as a stress or prognostic marker. None of it shows norepinephrine working as a treatment.
 
-The rationale is weak. Norepinephrine is a non-selective vasoconstrictor given by infusion, and selective beta-2 agonists are safer and better targeted for airway disease. The prediction therefore looks like a knowledge-graph association rather than a credible new therapeutic use.
+The rationale is weak. Norepinephrine is a non-selective vasoconstrictor given by infusion, and selective beta-2 agonists are safer and better targeted for airway disease. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it is not a credible new therapeutic use.
 
 ---
 
@@ -121,7 +121,7 @@ Please refer to the package insert for warnings and contraindications. The label
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.84%), but the evidence is only indirect: reviews and observational studies on adrenergic physiology in COPD and asthma, and one unrelated Phase 1 trial. Norepinephrine is a non-selective vasoconstrictor with cardiovascular risks, and safer selective airway drugs already exist. No data show a therapeutic benefit in obstructive lung disease.
+The prediction score is very high (0.9984), but the evidence is only indirect: reviews and observational studies on adrenergic physiology in COPD and asthma, and one unrelated Phase 1 trial. Norepinephrine is a non-selective vasoconstrictor with cardiovascular risks, and safer selective airway drugs already exist. No data show a therapeutic benefit in obstructive lung disease.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA, to complete safety screening (currently a blocking gap)
@@ -129,8 +129,8 @@ The prediction score is very high (99.84%), but the evidence is only indirect: r
 - Any direct preclinical or clinical evidence of benefit in obstructive lung disease, and a justification for an injectable route in a chronic airway condition
 
 **Other predicted indications, for reference:**
-- **Anaphylaxis** (score 98.30%, evidence level L4): reviews and case reports describe norepinephrine as a second-line option in epinephrine-refractory anaphylactic shock. This is already accepted critical-care practice rather than new repurposing, though the role could be studied as a research question.
-- **COPD** (score 98.50%, L4): the evidence is indirect and observational, with no therapeutic support.
+- This is already accepted critical-care practice rather than new repurposing, though the role could be studied as a research question.
+- **Obstructive lung disease** (score 0.9984, L4): the evidence is indirect and observational, with no therapeutic support.
 - **Respiratory malformation, Rienhoff syndrome, asthma-related traits, food-dependent exercise-induced anaphylaxis, tracheal stenosis, interstitial emphysema** (L5): no credible mechanistic or clinical support.
 - **Transient ischaemic attack** (L5): only animal and pathophysiology studies, and induced vasoconstriction or hypertension could be harmful in cerebrovascular disease.
 ## Disclaimer

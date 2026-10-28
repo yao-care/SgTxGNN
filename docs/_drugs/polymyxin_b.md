@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Polymyxin B
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 806
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Polymyxin B: predicted new indication Bronchitis (evidence level L5). Approved use: Not stated in the registration data compiled for this report"
 monitor_inn: "Polymyxin B"
-predicted_indications: ["bronchitis", "laryngotracheitis", "respiratory tract infectious disease", "tracheal disease", "laryngitis", "epiglottitis", "obstructive lung disease", "bronchial neoplasm (disease)", "acute contagious conjunctivitis"]
+predicted_indications: ["bronchitis", "laryngotracheitis"]
+description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Polymyxin B
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Polymyxin B: From Topical and Local Antibacterial Use to Bronchitis
+## Polymyxin B: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The more credible related directions are **respiratory tract infection** (5 clin
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data compiled for this report |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 (bronchitis); L2 for respiratory tract infection and conjunctivitis |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold (bronchitis) |
 
 ---
@@ -70,7 +70,7 @@ There is an important caution. Much of the bronchitis-related literature is not 
 
 ## Clinical Trial Evidence
 
-No clinical trials are registered for bronchitis itself. The table below shows trials for the related prediction **respiratory tract infectious disease** (rank 4), which is the closest clinically studied area.
+No clinical trials are registered for bronchitis itself.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|

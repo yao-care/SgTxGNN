@@ -4,17 +4,17 @@ title: Phentermine
 parent: Low Evidence (L5)
 nav_order: 786
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Phentermine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity"
 monitor_inn: "Phentermine"
-predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny", "postural orthostatic tachycardia syndrome", "lethal polymalformative syndrome, Boissel type", "fatty liver disease", "pentosuria", "migraine with brainstem aura", "migraine disorder"]
+predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
+description: "Phentermine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phentermine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phentermine: From Obesity to Hypervitaminosis
+## Phentermine: Hypervitaminosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model ranks **hypervitaminosis** as its top predicted new indication, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Obesity (also hypotensive disorder and monogenic obesity in the knowledge graph; the Singapore licences list no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Phentermine is known as a sympathomimetic anorectic that releases norepinephrine, which suppresses appetite. This explains its use in obesity, and it could in theory raise blood pressure.
 
-Obesity and hypervitaminosis have no clear pharmacological connection. Hypervitaminosis results from excess vitamin intake, and nothing in phentermine's mechanism would treat or prevent it. The high score (99.57%) most likely reflects a pattern in the knowledge graph rather than a real biological relationship, so this prediction should be treated as a model artifact.
+Obesity and hypervitaminosis have no clear pharmacological connection. Hypervitaminosis results from excess vitamin intake, and nothing in phentermine's mechanism would treat or prevent it. The high score (0.9957) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so this prediction should be treated as a model artifact.
 
 ## Clinical Trial Evidence
 
@@ -92,12 +92,10 @@ Label warnings were not available for this report. Please refer to the package i
 **Rationale:**
 The top-ranked prediction has only model-based support (L5), with no trials, no literature and no plausible mechanism. It is not clinically actionable.
 
-For context, the best-supported candidate among the other predictions is **fatty liver disease** (rank 7, score 77.7%, evidence L3). It has one completed Phase 4 trial, [NCT03849729](https://clinicaltrials.gov/study/NCT03849729) (n=92, intrahepatic fat as an endpoint, results not available), and several reviews of anti-obesity drugs in MASLD. Any benefit would likely be indirect, through weight loss. It is worth considering as a research question rather than hypervitaminosis.
 
 **To proceed, the following is needed:**
 - Mechanism of action data
 - Package insert warnings and contraindications from the Singapore regulator (HSA)
-- Published results of NCT03849729, if fatty liver disease is pursued instead
 - A cardiovascular and psychiatric safety plan, given the contraindications and the major drug interactions
 ## Disclaimer
 

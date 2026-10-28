@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Regorafenib
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 858
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Regorafenib: predicted new indication Liposarcoma (evidence level L5). Approved use: Metastatic colorectal cancer, hepatocellular carcinoma, GIST"
 monitor_inn: "Regorafenib"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma", "spindle cell liposarcoma", "renal cell carcinoma (disease)"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "childhood kidney cell carcinoma", "vulva sarcoma"]
+description: "Regorafenib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Regorafenib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Regorafenib: From Metastatic Colorectal Cancer, Hepatocellular Carcinoma and GIST to Liposarcoma
+## Regorafenib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **liposarcoma**, but only **1 c
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic colorectal cancer, hepatocellular carcinoma, GIST (from the knowledge-graph indication list; the Singapore licence record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L2 (the data compiled for this report label it L1, but no Phase 3 RCT exists; by the strict definitions it is L2) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (see the caveats in the conclusion) |
 
 ## Why is This Prediction Reasonable?

@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 |------|------|
 | Original Indication | Parkinson disease and related parkinsonian and dystonic disorders (the Singapore licence has no indication text recorded) |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, trihexyphenidyl is a central muscarinic antagonist with a preference for the M1 receptor. It modulates the balance between cholinergic and dopaminergic signalling in the striatum, which is the basis for its use in Parkinson disease and dystonia.
 
-ADHD involves dopaminergic and noradrenergic dysregulation, so an indirect link through striatal neurotransmitter balance is conceivable. However, anticholinergic drugs typically impair attention and cognition, which argues against benefit and may even worsen inattention. The only retrieved paper concerns tic disorder with dystonia, a related movement phenotype, and does not test trihexyphenidyl in ADHD. The very high TxGNN score therefore reflects a knowledge-graph association rather than clinical support.
+ADHD involves dopaminergic and noradrenergic dysregulation, so an indirect link through striatal neurotransmitter balance is conceivable. However, anticholinergic drugs typically impair attention and cognition, which argues against benefit and may even worsen inattention. The only retrieved paper concerns tic disorder with dystonia, a related movement phenotype, and does not test trihexyphenidyl in ADHD. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or clinical support.
 
 ## Clinical Trial Evidence
 
@@ -77,7 +77,7 @@ Currently no related clinical trials registered.
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not package insert text)**: The drug is linked to contraindication with angle-closure and open-angle glaucoma, benign prostatic hyperplasia, myasthenia gravis, paralytic ileus, achalasia, ulcerative colitis and inflammatory bowel disease, hiatus hernia, and several cardiovascular conditions (hypertension, hypotension, coronary artery disease, heart conduction disease, sudden cardiac arrest). It is also linked to chronic obstructive pulmonary disease, kidney disease, liver disease, gallbladder disease, gastric ulcer and Clostridium difficile colitis.
+- **Contraindications (not package insert text)**: The drug is linked to contraindication with angle-closure and open-angle glaucoma, benign prostatic hyperplasia, myasthenia gravis, paralytic ileus, achalasia, ulcerative colitis and inflammatory bowel disease, hiatus hernia, and several cardiovascular conditions (hypertension, hypotension, coronary artery disease, heart conduction disease, sudden cardiac arrest). It is also linked to chronic obstructive pulmonary disease, kidney disease, liver disease, gallbladder disease, gastric ulcer and Clostridium difficile colitis.
 - **Drug Interactions** (100 interactions were found; the main ones are listed):
   - **Major**: potassium chloride and potassium citrate.
   - **Moderate**: other anticholinergic or antimuscarinic agents (atropine, hyoscyamine, scopolamine, glycopyrronium, dicyclomine, trospium, propantheline, methscopolamine, mepenzolate), opioids and gut-motility agents (morphine, loperamide, eluxadoline), prokinetics (metoclopramide, prucalopride), pramlintide, cannabinoids (dronabinol, nabilone) and magnesium hydroxide.

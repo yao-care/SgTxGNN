@@ -4,17 +4,17 @@ title: Alprazolam
 parent: Medium Evidence (L3-L4)
 nav_order: 70
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Alprazolam: predicted new indication Insomnia (evidence level L4). Approved use: Anxiety disorder"
+description: "Alprazolam: predicted new indication insomnia (disease) (evidence level L4). Approved use: Anxiety disorder"
 monitor_inn: "Alprazolam"
-predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "obsessive-compulsive disorder", "chondromyxoid fibroma", "specific developmental disorder", "faciodigitogenital syndrome", "phobic disorder"]
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Alprazolam: From Anxiety Disorder to Insomnia
+## Alprazolam: From Anxiety Disorder to insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **insomnia** (top-ranked predic
 |------|------|
 | Original Indication | Anxiety disorder; mixed anxiety and depressive disorder (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +63,6 @@ Anxiety and insomnia frequently occur together, and sedation is already a recogn
 
 Currently no related clinical trials registered for insomnia.
 
-For context, one trial exists for another predicted indication, phobic disorder (rank 10), where alprazolam served only as a comparator:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|

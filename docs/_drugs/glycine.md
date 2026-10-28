@@ -4,17 +4,17 @@ title: Glycine
 parent: Low Evidence (L5)
 nav_order: 487
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Glycine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "dyspepsia", "non-syndromic esophageal malformation", "papillary conjunctivitis", "gastroparesis (disease)", "Ureaplasma urethritis", "gonococcal urethritis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Glycine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Glycine: From Allergic Rhinitis and Related Upper Airway Conditions to Nasal Cavity Disease
+## Glycine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Glycine is an amino acid that is widely marketed in Singapore, mainly in parenteral nutrition products. In the knowledge graph used for this report, its original indications are allergic rhinitis, vasomotor rhinitis, pharyngitis, the common cold, rhinitis and nasopharyngitis.
+Glycine is an amino acid that is widely marketed in Singapore, mainly in parenteral nutrition products. Its original indications are allergic rhinitis, vasomotor rhinitis, pharyngitis, the common cold, rhinitis and nasopharyngitis.
 The TxGNN model predicts it may be effective for **nasal cavity disease**, but only **1 clinical trial** (an unrelated imaging study) and **2 publications** (basic research) are linked, so there is effectively no supporting evidence beyond the model prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, glycine is an amino acid used as a nutritional component and as an inhibitory neurotransmitter. Its listed original indications are all upper airway and nasal conditions, and nasal cavity disease is a closely related category.
 
-The very high score (99.85%) most likely reflects overlap with those original indications, since rhinitis is itself a nasal cavity disease. It is not evidence of a new mechanism. No mechanistic rationale can be confirmed, and the linked trial and papers do not show that glycine is effective in nasal disease.
+The very high score (0.9985) most likely reflects overlap with those original indications, since rhinitis is itself a nasal cavity disease. It is not evidence of a new mechanism. No mechanistic rationale can be confirmed, and the linked trial and papers do not show that glycine is effective in nasal disease.
 
-Other predictions for this drug are also computational only. The closest is acute laryngopharyngitis (99.84%), which is similar to the original indications. Dyspepsia (96.4%) has only indirect animal-study evidence.
 
 ## Clinical Trial Evidence
 

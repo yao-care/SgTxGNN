@@ -4,17 +4,17 @@ title: Rocuronium
 parent: Low Evidence (L5)
 nav_order: 880
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Rocuronium: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence records (the approved indication…"
 monitor_inn: "Rocuronium"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
 ---
 
 # Rocuronium
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The evidence is essentially model prediction only, and the prediction is not sup
 |------|------|
 | Original Indication | Not stated in the Singapore licence records (the approved indication text is empty) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ The evidence is essentially model prediction only, and the prediction is not sup
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rocuronium is a non-depolarising neuromuscular blocker. It competitively antagonises nicotinic acetylcholine receptors at the neuromuscular junction, producing temporary skeletal muscle paralysis.
 
-The review of this prediction found **no credible mechanistic link** to migraine. Migraine involves CGRP signalling, trigeminovascular activation and cortical spreading depression, which are central and neurovascular processes. Peripheral muscle relaxation does not address them. The very high TxGNN score most likely reflects proximity in the knowledge graph rather than a pharmacological rationale.
+The review of this prediction found **no credible mechanistic link** to migraine. Migraine involves CGRP signalling, trigeminovascular activation and cortical spreading depression, which are central and neurovascular processes. Peripheral muscle relaxation does not address them. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-The other top predictions point the same way: related migraine subtypes, cauda equina syndrome, rare follicular skin disorders, irritable bowel syndrome and sciatic neuropathy. These are either inherited from the parent migraine node or have no plausible mechanism. This prediction should be treated as a probable knowledge-graph artefact.
+The other top predictions point the same way: related migraine subtypes, cauda equina syndrome, rare follicular skin disorders, irritable bowel syndrome and sciatic neuropathy. These are either inherited from the parent migraine node or have no plausible mechanism. This prediction should be treated as a probable TxGNN model (deep learning) artefact.
 
 ---
 

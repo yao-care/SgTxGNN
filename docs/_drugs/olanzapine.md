@@ -4,17 +4,17 @@ title: Olanzapine
 parent: Low Evidence (L5)
 nav_order: 734
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Schizophrenia, bipolar disorder, major depressive disorder…"
 monitor_inn: "Olanzapine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "distal 17p13.3 microdeletion syndrome", "neurotic disorder", "melancholia", "retinal dystrophy with or without extraocular anomalies", "Ohdo syndrome and variants", "childhood apraxia of speech"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **benign paroxysmal torticollis of in
 |------|------|
 | Original Indication | Schizophrenia, bipolar disorder, major depressive disorder, anxiety disorder (the registration records in Singapore list no indication text) |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 The table reflects the top-ranked prediction. Other predictions in the top 10 have stronger evidence and are summarised below.
@@ -61,15 +61,7 @@ The table reflects the top-ranked prediction. Other predictions in the top 10 ha
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |---|------|------|------|------|
-| 2 | Agoraphobia | 99.47% | L3 | Research Question |
-| 3 | Dysthymic disorder | 99.28% | L4 | Research Question |
-| 4 | Distal 17p13.3 microdeletion syndrome | 98.97% | L5 | Hold |
-| 5 | Neurotic disorder | 98.93% | L4 | Hold |
-| 6 | Neurotic depression | 98.77% | L2 | Research Question |
-| 7 | Melancholia | 98.77% | L2 | Research Question |
-| 8 | Retinal dystrophy with or without extraocular anomalies | 98.74% | L4 | Hold |
-| 9 | Ohdo syndrome and variants | 98.63% | L5 | Hold |
-| 10 | Childhood apraxia of speech | 98.63% | L5 | Hold |
+| 2 | Agoraphobia | 0.9947 | L5 | Research Question |
 
 ---
 
@@ -81,7 +73,6 @@ Detailed mechanism of action data is not currently available. Olanzapine is know
 
 **Mood and anxiety predictions.** Neurotic depression, melancholia and dysthymic disorder overlap with major depression, where olanzapine (especially with fluoxetine) is used as augmentation in treatment-resistant cases. The evidence concerns major depression in general, not these specific labels, and much of the value is already covered by existing indications. For agoraphobia, olanzapine's serotonergic and dopaminergic antagonism may plausibly reduce panic and phobic anxiety, but the data come from panic disorder studies and are indirect.
 
-**Genetic and developmental predictions.** For distal 17p13.3 microdeletion syndrome, Ohdo syndrome, and childhood apraxia of speech, no credible mechanistic rationale was found. For retinal dystrophy, the only retrieved item is a case report on managing mania in a patient with Usher syndrome. It does not show any effect on the retinal disease.
 
 ---
 

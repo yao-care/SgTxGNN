@@ -48,17 +48,17 @@ This is a computational prediction only, with a weak mechanistic rationale.
 |------|------|
 | Original Indication | Constitutional neutropenia; severe congenital neutropenia; cyclic hematopoiesis; chronic familial neutropenia |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, filgrastim is a G-CSF that binds the G-CSF receptor and stimulates the proliferation and differentiation of neutrophil progenitors. This explains its efficacy in neutropenic conditions.
 
-Primary platelet release disorders are qualitative platelet function defects (impaired granule secretion). No established mechanistic link exists between G-CSF signaling and platelet granule release. The high TxGNN score likely reflects network proximity in the knowledge graph rather than a validated biological mechanism, so the prediction should be treated with caution.
+Primary platelet release disorders are qualitative platelet function defects (impaired granule secretion). No established mechanistic link exists between G-CSF signaling and platelet granule release. The high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should be treated with caution.
 
 Other top-ranked predictions are also platelet or coagulation-related conditions (pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, and others). All are L5 with no supporting studies and no plausible mechanistic link to G-CSF. The only prediction with any linked trials is platelet-type bleeding disorder (rank 10), where the connection is indirect, via stem cell mobilization and transplant support.
 

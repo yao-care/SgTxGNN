@@ -2,19 +2,19 @@
 layout: default
 title: Sertaconazole
 parent: Low Evidence (L5)
-nav_order: 909
+nav_order: 908
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Sertaconazole: predicted new indication Dermatophytosis of groin and perianal area (evidence level L5). Approved use: Tinea pedis"
+indication_count: 3
 monitor_inn: "Sertaconazole"
-predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
+last_modified_at: 2026-10-23
+description: "Sertaconazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis"
 ---
 
 # Sertaconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,96 +33,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sertaconazole: From Tinea Pedis to Dermatophytosis of the Groin and Perianal Area
+## Sertaconazole: From Tinea Pedis to Ectothrix Infectious Disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Sertaconazole is a topical imidazole antifungal, originally used to treat tinea pedis (athlete's foot).
-The TxGNN model predicts it may be effective for **dermatophytosis of the groin and perianal area** (tinea cruris), but **no clinical trials or publications** specific to this indication were found.
-Its neighbouring predictions, particularly **tinea corporis**, are better supported, with **19 publications** including several randomized comparative studies.
-
----
+Sertaconazole is a topical imidazole antifungal. Its original use is tinea pedis (athlete's foot).
+The TxGNN model predicts it may be useful for **ectothrix infectious disease** (a dermatophyte infection of the outside of the hair shaft), but there are **0 clinical trials** and **0 publications** on this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis |
-| Predicted New Indication | Dermatophytosis of groin and perianal area |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Tinea pedis (relation recorded in the knowledge graph; the local licence records contain no indication text) |
+| Predicted New Indication | Ectothrix infectious disease |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Licences | 2 (valid: 2) |
 | Recommended Decision | Hold |
-
-> Note: The top-ranked prediction has no supporting studies. The second-ranked prediction, **tinea corporis** (score 99.94%, Evidence Level L2), is the best-supported candidate, with a recommendation of Proceed with Guardrails. It is discussed below for context.
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sertaconazole is an imidazole antifungal. Imidazoles inhibit ergosterol synthesis, an essential component of the fungal cell membrane. Sertaconazole also has a benzothiophene ring that may add direct membrane-damaging effects.
+Detailed mechanism-of-action data for sertaconazole is not available in the data compiled for this report. As an imidazole antifungal, it is generally understood to block fungal ergosterol synthesis by inhibiting lanosterol 14-alpha-demethylase. Its benzothiophene group may also disrupt the fungal membrane directly.
 
-Tinea pedis and tinea cruris are both superficial infections caused by dermatophytes, often the same species. A drug that works against the fungi causing tinea pedis would plausibly work against those causing tinea cruris, so the prediction is mechanistically sensible.
+Tinea pedis and ectothrix infections are both caused by dermatophytes, for example *Microsporum* and *Trichophyton* species. Activity against these fungi on the skin makes it biologically plausible that the drug could act on dermatophytes growing on the hair shaft.
 
-However, the data compiled for this report contain no trials or literature specific to tinea cruris. Support comes only from the high model score and the approved tinea pedis use. Separate publications that cover tinea corporis and tinea cruris together (for example, PMID 24249898) were found under the tinea corporis prediction. They may be relevant to the groin indication as well.
+There are two caveats. First, the prediction is not backed by any trial or publication. Second, delivery is a real limit. Topical products penetrate poorly into the hair follicle and shaft, and scalp hair infections such as tinea capitis generally need systemic antifungals.
 
----
+Two other predictions for this drug are worth noting. Endothrix infectious disease (score 0.9956) has the same limitations and no supporting studies. Pityriasis versicolor (score 0.9945) has a 1992 clinical study and two reviews, so it is better supported than this indication. It could be a more practical research question.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-No literature was found for the top-ranked indication (groin and perianal dermatophytosis). The table below shows the most relevant publications for the closely related **tinea corporis** prediction, some of which also cover tinea cruris.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [24249898](https://pubmed.ncbi.nlm.nih.gov/24249898/) | 2013 | RCT | Indian J Dermatol | Terbinafine 1% cream vs sertaconazole 2% cream in tinea corporis and tinea cruris |
-| [35068526](https://pubmed.ncbi.nlm.nih.gov/35068526/) | 2021 | RCT | Indian J Dermatol | Eberconazole vs sertaconazole in localised tinea infection |
-| [18039020](https://pubmed.ncbi.nlm.nih.gov/18039020/) | 2007 | RCT | Am J Clin Dermatol | Sertaconazole 2% solution vs cream in tinea corporis, tinea pedis interdigitalis, or corresponding candidosis |
-| [25386455](https://pubmed.ncbi.nlm.nih.gov/25386455/) | 2014 | RCT | J Clin Diagn Res | Sertaconazole vs clotrimazole in tinea corporis |
-| [24249897](https://pubmed.ncbi.nlm.nih.gov/24249897/) | 2013 | RCT | Indian J Dermatol | Sertaconazole 2% vs butenafine 1% in tinea infections of skin; efficacy, safety and cost |
-| [17121064](https://pubmed.ncbi.nlm.nih.gov/17121064/) | 2006 | RCT | Cutis | Two vehicle-controlled studies of sertaconazole 2% cream in tinea pedis (588 enrolled) |
-| [19275277](https://pubmed.ncbi.nlm.nih.gov/19275277/) | 2009 | Review | Drugs | Review of sertaconazole in superficial mycoses; EU indications include tinea corporis, tinea cruris and tinea pedis |
-| [15954850](https://pubmed.ncbi.nlm.nih.gov/15954850/) | 2005 | Review | Expert Rev Anti Infect Ther | Updated review of sertaconazole as a topical antifungal |
-| [27502503](https://pubmed.ncbi.nlm.nih.gov/27502503/) | 2017 | Review | Mycopathologia | New antifungal agents and formulations against dermatophytes |
-| [28066103](https://pubmed.ncbi.nlm.nih.gov/28066103/) | 2016 | Randomized study | Indian J Pharmacol | Sertaconazole vs terbinafine in localized dermatophytosis (tinea corporis or cruris) |
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11905P | ZALAIN VAGINAL SUPPOSITORY 300 mg | Suppository | Not available |
-| SIN10933P | ZALAIN CREAM 2% | Cream | Not available |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN10933P | ZALAIN CREAM 2% | Cream |
+| SIN11905P | ZALAIN VAGINAL SUPPOSITORY 300 mg | Suppository |
 
----
+Both licences are valid single-ingredient products. The data compiled for this report contains no approved indication text for either one. Only the cream is a topical skin formulation.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked indication, groin and perianal dermatophytosis, has a very high model score but no trials or publications, so it stays at Evidence Level L5. Mechanistically it is plausible, since it is a dermatophyte infection closely related to the approved tinea pedis use. The related indication **tinea corporis** has several randomized comparative studies and could move forward as Proceed with Guardrails. Those studies are mostly small, open-label comparisons, and no Phase 3 evidence was confirmed.
+The only support for this indication is the model prediction, with no trials or publications on ectothrix infection. Delivery of a topical cream into the hair shaft is a major practical limit. The cream is marketed in Singapore, but its approved indication text is not available.
 
 **To proceed, the following is needed:**
-- Targeted literature search or trials for tinea cruris. The combined tinea corporis/cruris studies (PMID 24249898, 28066103) should be reviewed in full.
-- Package insert warnings and contraindications from the HSA, so safety screening can be completed
-- Mechanism of action data for sertaconazole
-- Confirmation of the approved indication text for the two Singapore registrations
-- Review of whether the existing topical cream registration covers tinea cruris
+- Any clinical or laboratory evidence of sertaconazole activity against ectothrix dermatophytes, such as in vitro susceptibility data or case series
+- Evidence on whether the cream can reach infected hair shafts, or whether a systemic route would be required
+- The package insert, to confirm the approved indications, warnings and contraindications
+- Detailed mechanism-of-action data from DrugBank
+- A comparison with the better-supported pityriasis versicolor prediction, to decide which to pursue first
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

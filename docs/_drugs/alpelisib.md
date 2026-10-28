@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alpelisib
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 67
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Alpelisib: predicted new indication Pulmonary hypertension (evidence level L4). Approved use: Not recorded in the Singapore licence data (the trials compiled point…"
 monitor_inn: "Alpelisib"
-predicted_indications: ["pulmonary hypertension", "migraine with or without aura, susceptibility to", "migraine disorder", "kyphoscoliotic heart disease", "rheumatoid arthritis", "leprosy", "migraine with brainstem aura", "thrombotic disease", "amyotrophic lateral sclerosis", "multiple endocrine neoplasia"]
+predicted_indications: ["pulmonary hypertension"]
 ---
 
 # Alpelisib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 |------|------|
 | Original Indication | Not recorded in the Singapore licence data (the trials compiled point to HR+/HER2- PIK3CA-mutated advanced breast cancer) |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| TxGNN Prediction Score | 0.9903 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -103,7 +103,7 @@ Please refer to the package insert for key warnings and contraindications, which
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.03%), but there are no clinical trials in pulmonary hypertension. The only linked publication is a case report of drug-induced lung disease, which is a safety concern. The mechanistic link through PI3K/AKT is plausible but unproven.
+The TxGNN score is high (0.9903), but there are no clinical trials in pulmonary hypertension. The only linked publication is a case report of drug-induced lung disease, which is a safety concern. The mechanistic link through PI3K/AKT is plausible but unproven.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, which block safety screening
@@ -114,7 +114,6 @@ The TxGNN score is high (99.03%), but there are no clinical trials in pulmonary 
 
 ---
 
-*Other predictions, all on hold: migraine variants, kyphoscoliotic heart disease, leprosy, amyotrophic lateral sclerosis, rheumatoid arthritis, thrombotic disease and multiple endocrine neoplasia. Their evidence is either absent or indirect: reviews on PI3K-driven vascular anomalies for thrombotic disease, and breast and ovarian cancer trials that do not enrol patients with multiple endocrine neoplasia.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

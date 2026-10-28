@@ -6,9 +6,9 @@ nav_order: 999
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial and inflammatory eye infections, e.g. conjunctivitis…"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
+description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Tobramycin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tobramycin: From Bacterial Eye Infections to Exposure Keratitis
+## Tobramycin: Exposure keratitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **no registered clinical trials** and only **8 publications** (mos
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial and inflammatory eye infections, e.g. conjunctivitis, staphylococcal infection, uveitis (the approved indication text for the Singapore licences is not available, so this is taken from the knowledge-graph indications) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Exposure keratitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

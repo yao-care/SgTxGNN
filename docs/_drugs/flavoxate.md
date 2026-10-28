@@ -4,17 +4,17 @@ title: Flavoxate
 parent: Low Evidence (L5)
 nav_order: 433
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Flavoxate: predicted new indication Attention deficit hyperactivity disorder, inattentive type (evidence level L5). Approved use: Not stated in the Singapore licence records"
 monitor_inn: "Flavoxate"
-predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease", "pharyngitis", "chondromyxoid fibroma"]
+predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
 ---
 
 # Flavoxate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Flavoxate: From Urinary Tract Antispasmodic Use to Attention Deficit Hyperactivity Disorder (Inattentive Type)
+## Flavoxate: From Urinary Tract Antispasmodic Use to Attention Deficit Hyperactivity Disorder, Inattentive Type
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Flavoxate is a urinary tract antispasmodic marketed in Singapore as single-ingredient oral tablets.
 The TxGNN model predicts it may be effective for **attention deficit hyperactivity disorder, inattentive type**, but **no clinical trials and no publications** were found to support this prediction.
-The top-ranked prediction appears to be a knowledge-graph artifact, and the most mechanistically credible candidate in the list is **irritable bowel syndrome**.
+The top-ranked prediction appears to be a TxGNN model (deep learning) artifact, and the most mechanistically credible candidate in the list is **irritable bowel syndrome**.
 
 ---
 
@@ -50,10 +50,10 @@ The top-ranked prediction appears to be a knowledge-graph artifact, and the most
 |------|------|
 | Original Indication | Not stated in the Singapore licence records (all four licences have an empty indication field); flavoxate is generally known as a urinary tract antispasmodic |
 | Predicted New Indication | Attention deficit hyperactivity disorder, inattentive type |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,12 +62,12 @@ The top-ranked prediction appears to be a knowledge-graph artifact, and the most
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, flavoxate is a urinary tract antispasmodic with antimuscarinic, phosphodiesterase-inhibiting and local anaesthetic properties.
 
-For the top-ranked prediction, **there is no clear mechanistic link**. ADHD pathophysiology centres on dopaminergic and noradrenergic dysregulation, which flavoxate does not target. Antimuscarinic effects on the central nervous system could even worsen attention. The high score is most likely a knowledge-graph artifact. The same applies to the related predictions "attention deficit-hyperactivity disorder" (a duplicate or parent concept) and "specific developmental disorder" (likely driven by graph proximity to ADHD-related nodes).
+For the top-ranked prediction, **there is no clear mechanistic link**. ADHD pathophysiology centres on dopaminergic and noradrenergic dysregulation, which flavoxate does not target. Antimuscarinic effects on the central nervous system could even worsen attention. The high score is most likely an artifact of the TxGNN model (deep learning). The same applies to the related predictions "attention deficit-hyperactivity disorder" (a duplicate or parent concept) and "specific developmental disorder". Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Among the ten predictions, the more plausible ones are:
 
-- **Irritable bowel syndrome (score 99.74%)**: Smooth muscle relaxation through antimuscarinic activity and PDE inhibition parallels other antispasmodics used in IBS, such as hyoscine and dicyclomine. This is the most mechanistically credible candidate, but it is a prediction only.
-- **Neurogenic bladder (obsolete ontology term, score 99.13%)**: The bladder smooth muscle relaxant and antimuscarinic actions overlap with management of detrusor overactivity and urgency. The obsolete term needs to be mapped to a current disease concept, and better-evidenced agents such as oxybutynin exist.
+- **Irritable bowel syndrome (score 0.9974)**: Smooth muscle relaxation through antimuscarinic activity and PDE inhibition parallels other antispasmodics used in IBS, such as hyoscine and dicyclomine. This is the most mechanistically credible candidate, but it is a prediction only.
+- **Neurogenic bladder (obsolete ontology term, score 0.9913)**: The bladder smooth muscle relaxant and antimuscarinic actions overlap with management of detrusor overactivity and urgency. The obsolete term needs to be mapped to a current disease concept, and better-evidenced agents such as oxybutynin exist.
 
 The remaining predictions (cauda equina syndrome, gastroduodenitis, peptic ulcer disease, pharyngitis, chondromyxoid fibroma) have weak, indirect, or no mechanistic rationale.
 
@@ -100,7 +100,7 @@ Please refer to the package insert for warnings and label contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no supporting clinical trials or literature and no plausible mechanism, and its high score is likely a graph artifact. The evidence level is L5 (model prediction only). The known antimuscarinic profile could also worsen attention, and the knowledge graph lists several contraindicated conditions.
+The top prediction has no supporting clinical trials or literature and no plausible mechanism. Its high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The evidence level is L5 (model prediction only). The known antimuscarinic profile could also worsen attention, and the knowledge graph lists several contraindicated conditions.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for flavoxate

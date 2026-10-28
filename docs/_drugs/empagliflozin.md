@@ -4,17 +4,17 @@ title: Empagliflozin
 parent: Low Evidence (L5)
 nav_order: 371
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Empagliflozin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
+indication_count: 3
 monitor_inn: "Empagliflozin"
-predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis", "autoimmune oophoritis"]
+predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
+last_modified_at: 2026-10-23
+description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
 # Empagliflozin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,38 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Empagliflozin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+## Empagliflozin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Empagliflozin is an SGLT2 inhibitor originally used to treat type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **Focal Stiff Limb Syndrome**, but this is a model prediction only,
-with **0 clinical trials** and **0 publications** currently supporting this direction.
+Empagliflozin was originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **classic stiff person syndrome**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus |
-| Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.06% |
+| Original Indication | Type 2 diabetes mellitus (relation recorded in the knowledge graph; no approved indication text is available in the local licence records) |
+| Predicted New Indication | Classic stiff person syndrome |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Empagliflozin is known as an SGLT2 inhibitor that lowers blood glucose by reducing glucose reabsorption in the kidney. Its efficacy in type 2 diabetes is established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Empagliflozin is generally known as an SGLT2 inhibitor used in type 2 diabetes, but this was not supplied, so no mechanistic link can be drawn from the available data.
 
-No plausible mechanistic link to the predicted indication has been identified. Focal stiff limb syndrome is related to the stiff person spectrum, a neurological/autoimmune disorder involving GAD65 and impaired GABAergic/glycinergic signalling. SGLT2 inhibition has no known action on this pathway. The high score (0.99) most likely reflects associations within the knowledge graph (for example, anti-GAD autoimmunity overlapping with diabetes) rather than a therapeutic rationale.
+Stiff person syndrome is an autoimmune disorder of GABA- and glycine-mediated inhibitory neurotransmission, usually associated with anti-GAD65 antibodies. No plausible pathway connecting SGLT2 inhibition to this process is evident. The high score is a computational prediction and is not corroborated by any trial or publication.
 
-The other top predictions share the same weakness. Classic stiff person syndrome (99.06%), opsismodysplasia (99.03%), thiamine-responsive dysfunction syndrome (98.99%), and several localized lipodystrophies (98.0–98.5%) appear to be driven by diabetes-related graph associations. Pancreatic agenesis (98.07%) is the only one with any retrieved literature, and those papers concern type 2 diabetes and diabetic retinopathy, not pancreatic agenesis. Empagliflozin is also not appropriate in insulin-deficient states because of ketoacidosis risk.
+Two other predictions are similar in nature:
+- **Focal stiff limb syndrome** (score 0.9906): it has the same score as classic stiff person syndrome. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+- **Opsismodysplasia** (score 0.9903): a rare skeletal dysplasia caused by INPPL1 (SHIP2) loss of function. A theoretical link via insulin/PI3K signalling exists, but it is speculative, and the paediatric skeletal setting raises additional safety questions.
+
+All three are at evidence level L5 with no supporting studies.
 
 ## Clinical Trial Evidence
 
@@ -68,47 +72,47 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature directly supports the lead prediction (focal stiff limb syndrome). The only literature retrieved for any of the top 10 predictions relates to pancreatic agenesis (rank 9) and is indirect:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26583910](https://pubmed.ncbi.nlm.nih.gov/26583910/) | 2015 | Review | Expert Opin Pharmacother | Empagliflozin plus linagliptin combination therapy in type 2 diabetes; does not address pancreatic agenesis |
-| [35234250](https://pubmed.ncbi.nlm.nih.gov/35234250/) | 2022 | Preclinical/Mechanistic | Biosci Rep | Role of SGLT2 inhibition with empagliflozin in diabetic retinopathy; does not address pancreatic agenesis |
+Currently no related literature available.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14687P | JARDIANCE Film-Coated Tablet 25mg | Film-coated tablet | Not specified |
-| SIN14686P | JARDIANCE Film-Coated Tablets 10mg | Film-coated tablet | Not specified |
-| SIN15061P | JARDIANCE DUO Film-Coated Tablet 12.5mg/1000mg | Film-coated tablet | Not specified |
-| SIN15273P | GLYXAMBI Film-Coated Tablets 10mg/5mg | Film-coated tablet | Not specified |
-| SIN15272P | GLYXAMBI Film-Coated Tablets 25mg/5mg | Film-coated tablet | Not specified |
+| SIN14687P | JARDIANCE FILM-COATED TABLET 25MG | Film-coated tablet | Not stated in the records |
+| SIN14686P | JARDIANCE FILM-COATED TABLETS 10MG | Film-coated tablet | Not stated in the records |
+| SIN15061P | JARDIANCE DUO FILM COATED TABLET 12.5MG/1000MG | Film-coated tablet | Not stated in the records |
+| SIN15273P | GLYXAMBI FILM-COATED TABLETS 10 MG/5 MG | Film-coated tablet | Not stated in the records |
+| SIN15272P | GLYXAMBI FILM-COATED TABLETS 25 MG/5 MG | Film-coated tablet | Not stated in the records |
 
-Eight valid registrations in total; the five above are shown.
+Eight valid registrations are on record in total; the table shows the first five. All are oral film-coated tablets. Some of these products are combination products (names such as Jardiance Duo and Glyxambi indicate combinations), so their licences do not describe the single-ingredient drug's approval on their own.
 
 ## Safety Considerations
 
-- **Drug Interactions**: An interaction screen returned 100 potential interactions. Most of those reviewed are of Moderate severity, and a few are Minor. Examples of Moderate interactions include:
-  - Sympathomimetics and bronchodilators: phenylephrine, pseudoephedrine, epinephrine, salbutamol, formoterol
-  - Cardiovascular and diuretic agents: acebutolol, nifedipine, fosinopril, furosemide, acetazolamide
-  - Others: ethinylestradiol, hydrocortisone, ethanol, fosphenytoin, gemifloxacin
-  - Minor: topical hydrocortisone and topical alclometasone
+### Drug Interactions
+The interaction query returned 100 records; the most notable moderate-level examples include:
+- Phenylephrine, pseudoephedrine, epinephrine
+- Acebutolol, nifedipine, fosinopril
+- Furosemide, acetazolamide
+- Formoterol, salbutamol
+- Hydrocortisone, ethinylestradiol
+- Ethanol
 
-For warnings and contraindications, please refer to the package insert.
+Topical hydrocortisone and topical alclometasone are listed as minor.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials or supporting literature, and no plausible mechanistic link between SGLT2 inhibition and focal stiff limb syndrome. The same applies to the other top nine predictions.
+The prediction rests only on a model score. There are no clinical trials or publications for classic stiff person syndrome, no mechanism data, and no plausible biological link. This is evidence level L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for empagliflozin
-- Package insert warnings and contraindications from the HSA, which are needed before any safety screening
-- A documented biological rationale linking SGLT2 inhibition to GABAergic or autoimmune neurological pathways, supported by preclinical data
-- Any clinical or observational evidence in stiff person spectrum disorders
+- Mechanism of action data for empagliflozin, and a plausible rationale linking it to stiff person syndrome
+- Preclinical or case-level evidence in stiff person syndrome or related autoimmune neurological conditions
+- Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
+- Review of the interaction profile in the context of the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Febuxostat
 parent: Medium Evidence (L3-L4)
 nav_order: 418
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Hyperuricemia"
 monitor_inn: "Febuxostat"
-predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatic porphyria", "disorder of phenylalanine metabolism"]
+predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
+description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Febuxostat
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Febuxostat: From Hyperuricemia to Renal Hypouricemia
+## Febuxostat: Hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Mechanistically, lowering uric acid further in a condition already defined by lo
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperuricemia (the approved indication text is not available in the Singapore licence records; the original indication is taken from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypouricemia, renal |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Mechanistically, lowering uric acid further in a condition already defined by lo
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, febuxostat is a non-purine, selective xanthine oxidase inhibitor that reduces uric acid production. Its efficacy in hyperuricemia is established.
 
-Renal hypouricemia is a condition where serum urate is already low, typically due to loss-of-function of urate transporters such as URAT1 or GLUT9. Further urate lowering is therefore mechanistically counterintuitive and could worsen the condition. The high TxGNN score likely reflects proximity to urate metabolism in the knowledge graph rather than true therapeutic benefit.
+Renal hypouricemia is a condition where serum urate is already low, typically due to loss-of-function of urate transporters such as URAT1 or GLUT9. Further urate lowering is therefore mechanistically counterintuitive and could worsen the condition. The high score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence of therapeutic benefit.
 
 The only plausible link is a case-level report on using non-purine xanthine oxidoreductase inhibitors to prevent exercise-induced acute kidney injury in patients with renal hypouricemia. This is a preventive, hypothesis-level rationale and not treatment of hypouricemia itself.
 
@@ -121,7 +121,7 @@ The prediction rests on model scoring and hypothesis-level literature only. The 
 
 ---
 
-*Other predictions in the data (lower priority):* Partial HPRT deficiency and Lesch-Nyhan syndrome are plausible as symptomatic urate control only, supported by case reports (evidence level L4, "Research Question"). The remaining predictions, including copper-associated cirrhosis, hepatoportal sclerosis, portal vein thrombosis, hepatopulmonary syndrome, hepatic porphyria, and phenylalanine metabolism disorder, have no clinical or literature support and no clear mechanism (evidence level L5, "Hold").
+*Other predictions in the data (lower priority):* Partial HPRT deficiency and Lesch-Nyhan syndrome are plausible as symptomatic urate control only, supported by case reports (evidence level L4, "Research Question").
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

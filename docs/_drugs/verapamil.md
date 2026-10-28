@@ -4,17 +4,17 @@ title: Verapamil
 parent: Low Evidence (L5)
 nav_order: 1063
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Hypertension, atrial fibrillation, acute coronary syndrome…"
 monitor_inn: "Verapamil"
-predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome", "obsolete susceptibility to ischemic stroke", "arrhythmogenic right ventricular cardiomyopathy", "brain stem infarction"]
+predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
+description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Verapamil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Verapamil: From Hypertension and Arrhythmia to Malignant Hypertensive Renal Disease
+## Verapamil: Obsolete bundle branch block
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,36 +48,33 @@ Evidence is weak: **no clinical trials** are registered for any of these predict
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, atrial fibrillation, acute coronary syndrome, Prinzmetal angina, ventricular tachycardia (the Singapore license text gives no approved indication) |
-| Predicted New Indication | Obsolete bundle branch block (rank 1) |
-| TxGNN Prediction Score | 99.62% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Obsolete bundle branch block |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 Other leading predictions:
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level |
 |---|------|------|------|
-| 2 | Malignant hypertensive renal disease | 99.27% | L5 |
-| 3 | Malignant renovascular hypertension | 99.27% | L5 |
-| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 99.26% | L5 |
-| 5 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.26% | L4 |
-| 9 | Arrhythmogenic right ventricular cardiomyopathy | 98.40% | L4 |
-| 10 | Brain stem infarction | 97.73% | L5 |
+| 2 | Malignant hypertensive renal disease | 0.9927 | L5 |
+| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 0.9926 | L5 |
+| 5 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9926 | L5 |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, verapamil is an L-type calcium channel blocker. It slows atrioventricular nodal conduction and relaxes vascular smooth muscle, which explains its use in hypertension, angina and supraventricular and ventricular arrhythmias.
 
-**Rank 1, obsolete bundle branch block:** This prediction is not mechanistically convincing. Slowing conduction is not a plausible way to treat a conduction block and could be harmful. The term is also flagged as obsolete in the ontology, so the score likely reflects a graph artefact rather than a real therapeutic signal.
+**Rank 1, obsolete bundle branch block:** This prediction is not mechanistically convincing. Slowing conduction is not a plausible way to treat a conduction block and could be harmful.
 
 **Rank 2, malignant hypertensive renal disease:** This is the most plausible of the predictions. Verapamil is already used for hypertension, and vasodilation through calcium channel blockade is a reasonable mechanism. The prediction probably reflects similarity to the existing antihypertensive indication rather than new evidence. Malignant hypertension with renal involvement is an emergency usually managed with established agents.
 
 **Pulmonary hypertension (ranks 4-5):** Pulmonary vasodilation through L-type calcium channels is biologically plausible. However, calcium channel blockers are recommended only for the small vasoreactive subset of pulmonary arterial hypertension, and verapamil is generally not favoured because of its negative inotropic effect. In hypoxic lung disease, vasodilators can also worsen ventilation-perfusion matching.
 
-**Arrhythmogenic right ventricular cardiomyopathy (rank 9):** Verapamil works in verapamil-sensitive fascicular ventricular tachycardia, but that mechanism differs from the scar-related reentry seen in this cardiomyopathy. Its negative inotropy is also a concern in cardiomyopathy.
+Its negative inotropy is also a concern in cardiomyopathy.
 
 ## Clinical Trial Evidence
 

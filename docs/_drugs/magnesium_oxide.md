@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Magnesium Oxide
-parent: Medium Evidence (L3-L4)
-nav_order: 630
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Magnesium Oxide: predicted new indication Calcium-alkali syndrome (evidence level L4). Approved use: Osteoporosis, postmenopausal osteoporosis, constipation, dyspepsia…"
-monitor_inn: "Magnesium oxide"
-predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "gastroduodenitis", "potassium deficiency disease", "digitalis poisoning", "stomach disease", "hypophosphatemia (disease)", "autosomal dominant neovascular inflammatory vitreoretinopathy", "duodenogastric reflux"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 629
+last_modified_at: 2026-10-23
+description: "Magnesium Oxide: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Magnesium Oxide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,71 +32,56 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Magnesium Oxide: From Osteoporosis and Dyspepsia to Calcium-Alkali Syndrome
+<!-- known-uses-page -->
+<!-- description: Magnesium Oxide: known uses and market status in Singapore; currently no new candidate indication -->
+## Magnesium Oxide
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Magnesium Oxide, so there is currently no new predicted indication. The drug's recorded uses are listed below. They are its own known uses, not model candidates.
 
-Magnesium oxide is an oral magnesium and antacid agent, originally used for conditions such as osteoporosis, constipation and dyspepsia.
-The TxGNN model predicts it for **calcium-alkali syndrome**, with **0 clinical trials** and **1 publication** (a case report) currently available.
-That single report describes calcium-alkali syndrome as an **adverse effect** of magnesium oxide, so the prediction most likely reflects a causal link rather than a treatment opportunity.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Osteoporosis, postmenopausal osteoporosis, constipation, dyspepsia, hypercalcemia disease, nephrocalcinosis, phosphorus metabolism disease (from the knowledge graph; the Singapore licence has no indication text) |
-| Predicted New Indication | Calcium-alkali syndrome |
-| TxGNN Prediction Score | 97.998% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| Known uses recorded for this drug | 15 |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available. Based on known information, magnesium oxide is an alkaline antacid that neutralises gastric acid and supplies magnesium, and it is often taken together with calcium and vitamin D.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| back pain | licence in another country |
+| constipation | licence in another country |
+| dermatitis | licence in another country |
+| duodenal ulcer | licence in another country |
+| eczema | licence in another country |
+| fatigue | licence in another country |
+| gastritis | licence in another country |
+| hyperacidity | licence in another country |
+| muscle cramp | licence in another country |
+| myalgia | licence in another country |
+| neuralgia | licence in another country |
 
-This is the key problem with the prediction. The only retrieved publication (PMID 19185403) reports calcium-alkali syndrome **caused by** vitamin D plus magnesium oxide. The high score likely reflects a strong drug-disease association in the knowledge graph, not a therapeutic one. Using magnesium oxide to treat this condition would be clinically inappropriate and potentially harmful.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Other lower-ranked predictions have more plausible rationales:
-- **Stomach disease, gastroduodenitis, duodenal ulcer, duodenogastric reflux**: acid neutralisation is mechanistically relevant and fits the existing dyspepsia use. Human evidence in the compiled data is limited, however.
-- **Primary bone dysplasia with defective mineralisation**: linked to the original bone and mineral indications through magnesium's role in bone homeostasis, but computational only.
-- **Potassium deficiency disease**: magnesium depletion accompanies hypokalaemia (for example in Gitelman syndrome), but magnesium corrects a coexisting deficit rather than the potassium deficiency itself.
-- **Hypophosphatemia**: magnesium antacids bind dietary phosphate and could worsen it.
-- **Digitalis poisoning**: any theoretical role applies to intravenous magnesium, not poorly absorbed oral magnesium oxide.
-- **Autosomal dominant neovascular inflammatory vitreoretinopathy**: no plausible mechanistic link, likely a knowledge-graph artefact.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-For the top-ranked prediction (calcium-alkali syndrome):
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [19185403](https://pubmed.ncbi.nlm.nih.gov/19185403/) | 2009 | Case report | Am J Kidney Dis | Calcium-alkali syndrome caused by vitamin D and magnesium oxide administration (a safety signal, not efficacy) |
-
-For context, the most relevant material for the gastric-related predictions (stomach disease, rank 6) includes:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [11344624](https://pubmed.ncbi.nlm.nih.gov/11344624/) | 2000 | Open clinical study | Vnitrni lekarstvi | Low-dose aluminium/magnesium oxide antacid (Maalox) healed 65% (20/31) of NSAID-induced gastric erosions over 4 weeks |
-| [6986240](https://pubmed.ncbi.nlm.nih.gov/6986240/) | 1980 | RCT | Dig Dis Sci | 167 patients; aluminium hydroxide/magnesium oxide was the control arm against sucralfate for preventing gastric ulcer recurrence |
-| [906777](https://pubmed.ncbi.nlm.nih.gov/906777/) | 1977 | Mechanistic study | Acta Hepato-Gastroenterol | In 805 duodenal ulcer patients, magnesium did not significantly change gastric acid secretion |
-| [38031523](https://pubmed.ncbi.nlm.nih.gov/38031523/) | 2023 | Veterinary clinical study | J Vet Sci | A magnesium oxide blend and equine squamous gastric disease in trotter horses (a blend, not magnesium oxide alone) |
-| [31384293](https://pubmed.ncbi.nlm.nih.gov/31384293/) | 2019 | Case report | BioPsychoSocial Med | Iron deficiency anaemia associated with magnesium overuse (a safety signal) |
-| [24904849](https://pubmed.ncbi.nlm.nih.gov/24904849/) | 2013 | Case report | Ann Pediatr Endocrinol Metab | Gitelman syndrome with growth hormone deficiency (indirect support for the potassium deficiency prediction) |
-
-Many of the other retrieved articles are indirect, historical, veterinary, or unrelated (for example hamster carcinogenesis carrier dust and a stomach cancer epidemiology review).
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| constipation disorder |
+| dyspepsia |
+| osteoporosis |
+| postmenopausal osteoporosis |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07893P | GERSKIN TABLET | Tablet (oral) | Not specified in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07893P | GERSKIN TABLET | TABLET | Valid |
 
 ## Safety Considerations
 
@@ -106,23 +90,9 @@ Many of the other retrieved articles are indirect, historical, veterinary, or un
   - **Major**: Dolutegravir
   - **Moderate**: Acalabrutinib, Doxycycline, Alendronic acid, Risedronic acid, Cholecalciferol, Atazanavir, Baloxavir marboxil, Acetylsalicylic acid, Dextroamphetamine, Amphetamine
   - **Minor**: Famotidine, Ranitidine, Hydrocortisone, Dexamethasone, Triamcinolone, Atenolol, Acebutolol, Alprazolam, Axitinib
-- **Case-report safety signals**: Calcium-alkali syndrome with vitamin D co-administration, and iron deficiency anaemia with magnesium overuse.
 
 Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for label safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The top-ranked prediction, calcium-alkali syndrome, is an adverse effect of magnesium oxide, not a treatable indication, and there are no clinical trials. The remaining predictions rest on weak or indirect evidence. Gastric acid-related conditions are the most plausible, but they largely overlap with the existing dyspepsia use and are supported mainly by veterinary and historical studies.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Removal or reclassification of calcium-alkali syndrome as a safety signal
-- Human clinical evidence for gastric acid-related conditions (stomach disease, gastroduodenitis, duodenal ulcer, duodenogastric reflux) if pursuing this as a research question
-- Review of renal function, calcium and vitamin D co-administration risks, and the interaction profile for any target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

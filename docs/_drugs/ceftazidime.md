@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Ceftazidime
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 224
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ceftazidime: predicted new indication Urinary tract infection (evidence level L2). Approved use: Bacterial infections"
+description: "Ceftazidime: predicted new indication hyperamylasemia (evidence level L2). Approved use: Bacterial infections"
 monitor_inn: "Ceftazidime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 # Ceftazidime
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Ceftazidime: From Bacterial Infections to Urinary Tract Infection
+## Ceftazidime: From Bacterial Infections to Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ Note that this is an antibacterial use largely consistent with its existing infe
 |------|------|
 | Original Indication | Bacterial infections (streptococcal infection, bacterial pneumonia, bacterial meningitis, peritonitis, etc.; the licence indication text is not available) |
 | Predicted New Indication | Urinary tract infection (the top two model predictions, hyperamylasemia and polyclonal hyperviscosity syndrome, have no supporting evidence and are not biologically plausible, so the first evidence-supported prediction is evaluated here) |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| TxGNN Prediction Score | 0.9941 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -66,7 +66,7 @@ Urinary tract infection is a bacterial disease, so it fits the antibacterial cla
 
 One caution: most of the available evidence concerns **ceftazidime-avibactam** (a combination with a β-lactamase inhibitor) rather than ceftazidime alone, so applying the findings to the single agent requires care.
 
-Other model predictions were reviewed too. Several are not biologically plausible (hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility) and appear to be graph-based artefacts. *Ureaplasma* urethritis conflicts with the known mechanism, as *Ureaplasma* has no cell wall. Chronic suppurative otitis media (listed under "infectious otitis media") has some clinical literature and is a reasonable research question.
+Other model predictions were reviewed too. Several are not biologically plausible (hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility); their TxGNN model (deep learning) scores may reflect similarities the model learned between related diseases, not biological evidence. *Ureaplasma* urethritis conflicts with the known mechanism, as *Ureaplasma* has no cell wall. Chronic suppurative otitis media (listed under "infectious otitis media") has some clinical literature and is a reasonable research question.
 
 ---
 

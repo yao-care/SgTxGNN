@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Basiliximab
-parent: High Evidence (L1-L2)
+parent: Known Uses Only (No New Predictions)
 nav_order: 137
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Basiliximab: predicted new indication Plasma cell myeloma (evidence level L2). Approved use: Not stated in the Singapore licence data compiled for this report"
-monitor_inn: "Basiliximab"
-predicted_indications: ["plasma cell myeloma", "bronchitis", "indolent plasma cell myeloma", "hemoglobinopathy", "gastric carcinoma", "diffuse gastric adenocarcinoma", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "Jeune syndrome situs inversus"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Basiliximab: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Basiliximab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,67 +32,46 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Basiliximab: From Transplant Immunosuppression to Plasma Cell Myeloma
+<!-- known-uses-page -->
+<!-- description: Basiliximab: known uses and market status in Singapore; currently no new candidate indication -->
+## Basiliximab: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Basiliximab, so there is currently no new predicted indication. The drug's own recorded uses are listed below. They are not model candidates.
 
-Basiliximab is an anti-CD25 (IL-2 receptor alpha chain) monoclonal antibody, marketed in Singapore as Simulect. The TxGNN model predicts it may be useful for **plasma cell myeloma**, but only as immunomodulatory support around stem cell transplantation, not as a direct anti-myeloma drug. Currently **3 clinical trials** (all small) and **4 publications** support this direction.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence data compiled for this report |
-| Predicted New Indication | Plasma cell myeloma |
-| TxGNN Prediction Score | 95.61% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| graft rejection | licence in another country |
+| kidney transplantation | licence in another country |
 
-Basiliximab blocks the IL-2 receptor alpha chain (CD25) on activated T cells. In myeloma transplant settings, it is used to deplete activated T cells and regulatory T cells (Tregs). The goals are either to prevent graft-versus-host disease (GVHD) after non-myeloablative allogeneic transplantation, or to enhance anti-tumour immunity after autologous transplantation, where rapidly recovering Tregs may suppress immune responses against myeloma cells.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The link is therefore **supportive and immunomodulatory, not a direct anti-myeloma effect**. Basiliximab's established use is in preventing transplant rejection, and the prediction reflects its use around myeloma transplants rather than treatment of the cancer itself. Detailed mechanism-of-action data are not available in the data compiled for this report, so this explanation relies on the described mechanistic rationale.
-
-Other predictions are much weaker. Bronchitis appears to reflect a mapping to bronchiolitis obliterans after lung transplantation. Indolent myeloma, gastric carcinoma, diffuse gastric adenocarcinoma and several rare genetic conditions have no supporting trials or literature. Hemoglobinopathy (thalassemia major) has trial evidence, but only for GVHD prevention in transplantation.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00975975](https://clinicaltrials.gov/study/NCT00975975) | Phase 2 | Completed | 17 | Basiliximab plus cyclosporine to prevent GVHD after non-myeloablative allotransplant in blood cancers including myeloma; small single-arm study |
-| [NCT01526096](https://clinicaltrials.gov/study/NCT01526096) | Phase 1 | Completed | 30 | Pilot of regulatory T-cell depletion in autologous stem cell transplantation for myeloma; focused on feasibility, safety and immune effects |
-| [NCT00594308](https://clinicaltrials.gov/study/NCT00594308) | Phase NA | Terminated | 10 | Basiliximab plus cyclosporine vs cyclosporine alone for GVHD prevention; early termination limits interpretation |
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12476283](https://pubmed.ncbi.nlm.nih.gov/12476283/) | 2002 | Cohort | Bone Marrow Transplant | Basiliximab was well tolerated and effective in 17 patients with steroid-refractory acute GVHD after allogeneic transplantation (one patient with myeloma) |
-| [31940591](https://pubmed.ncbi.nlm.nih.gov/31940591/) | 2020 | Cohort (pilot) | J Immunother Cancer | Regulatory T-cell depletion around autologous transplantation for myeloma, based on the idea that rapidly reconstituting Tregs inhibit anti-myeloma immunity |
-| [28320553](https://pubmed.ncbi.nlm.nih.gov/28320553/) | 2017 | Case report | Am J Kidney Dis | Four patients with kidney failure from myeloma underwent kidney transplantation after treatment response |
-| [42379467](https://pubmed.ncbi.nlm.nih.gov/42379467/) | 2026 | Case report/Review | Am J Kidney Dis | Kidney transplantation after CAR T-cell therapy in myeloma; context for transplant in selected patients |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10441P | SIMULECT FOR INJECTION 20 mg/vial | Injection, powder, for solution | Not stated in the data compiled |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10441P | SIMULECT FOR INJECTION 20 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 
@@ -106,19 +84,6 @@ Package insert warnings and contraindications were not available. Please refer t
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The evidence is limited to small early-phase or single-arm studies of basiliximab as transplant-supportive immunomodulation, not as treatment of myeloma. The TxGNN score is high, but the clinical support is exploratory, and no Phase 3 data exist. Enrolled populations are mixed, and the best-matched trial is a Phase 1 pilot.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, and the approved indications for Simulect in Singapore
-- Mechanism-of-action data from DrugBank
-- Results and outcomes from NCT00975975 and NCT01526096, and any comparative data in myeloma transplant populations
-- A clear research question defining whether the aim is GVHD prevention or Treg depletion for anti-myeloma immunity
-- An infection-risk and immunosuppression review given the many major interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

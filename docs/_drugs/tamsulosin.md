@@ -48,17 +48,17 @@ but **no clinical trials and no supporting publications** currently back this pr
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, tamsulosin is an alpha-1A/1D adrenergic receptor antagonist. Its efficacy in BPH is established, where it relaxes smooth muscle in the prostate and bladder neck. No mechanistic link to the new indication has been established.
 
-Ambras syndrome is a rare congenital condition involving excessive hair growth, with a genetic basis. The data compiled for this report show no established connection between alpha-1 adrenergic blockade and that genetic basis. The high TxGNN score (99.996%, rank 168) likely reflects proximity in the knowledge graph rather than a demonstrated biological mechanism.
+Ambras syndrome is a rare congenital condition involving excessive hair growth, with a genetic basis. The data compiled for this report show no established connection between alpha-1 adrenergic blockade and that genetic basis. The high TxGNN score (1.0000, rank 168) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top predictions are also in hair and congenital disorders, including hypertrichosis, hair shaft abnormalities, hypotrichosis, and alopecia. None has clinical trial or supportive literature evidence. This prediction should be treated as a hypothesis only.
 

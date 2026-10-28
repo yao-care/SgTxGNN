@@ -4,17 +4,17 @@ title: Minocycline
 parent: Low Evidence (L5)
 nav_order: 677
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection, bronchitis, acne, anthrax infection…"
 monitor_inn: "Minocycline"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "neurotrophic keratopathy", "postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Minocycline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Minocycline: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
+## Minocycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials or publications** currently support this specific predi
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, bronchitis, acne, anthrax infection, periodontitis, gonorrhea, pharyngitis and other bacterial infections (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available for this report. Based on kno
 
 A plausible link is the anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting activity of tetracyclines on the ocular surface. This class is used in meibomian gland dysfunction and blepharitis. This reasoning is inferred and is not supported by any trial or publication compiled for this report.
 
-Other predictions in the top 10 (for example exposure keratitis, neurotrophic keratopathy, chronic rhinosinusitis) follow similar speculative reasoning. Otitis externa is the only one with indirect literature, and none of it is controlled clinical evidence.
+Other predictions in the top 10 (for example exposure keratitis, neurotrophic keratopathy, chronic rhinosinusitis) follow similar speculative reasoning.
 
 ## Clinical Trial Evidence
 
@@ -89,7 +89,7 @@ All five registrations are valid single-ingredient products. Four are oral capsu
   - **Major**: isotretinoin and acitretin (retinoids; the risk of raised intracranial pressure is a known concern with tetracyclines).
   - **Moderate**: ethinylestradiol, amoxicillin, ampicillin, aminolevulinic acid (topical), calcium phosphate, calcium acetate, sodium citrate, bismuth subcitrate potassium, balsalazide, cannabidiol, brentuximab vedotin, and asparaginase products.
   - **Minor**: acetazolamide, hydrochlorothiazide, amiloride, bumetanide.
-- **Other signals from the prediction review**: Minocycline has been associated with drug-induced vasculitis, so the predicted "postinfectious vasculitis" indication raises a safety concern rather than supporting use. A 2023 in vitro study also suggests a cytotoxicity signal for tetracyclines in tympanic membrane fibroblasts, relevant to any topical otic use.
+- A 2023 in vitro study also suggests a cytotoxicity signal for tetracyclines in tympanic membrane fibroblasts, relevant to any topical otic use.
 
 Package insert warnings and contraindications were not available for this report. Please refer to the package insert for full safety information.
 
@@ -98,14 +98,13 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a high model score (99.63%) and a plausible but unverified anti-inflammatory mechanism. No trials or publications address punctate epithelial keratoconjunctivitis, and no ophthalmic minocycline product is registered in Singapore. The evidence level is L5, so there is not enough basis to advance.
+The prediction is supported only by a high model score (0.9963) and a plausible but unverified anti-inflammatory mechanism. No trials or publications address punctate epithelial keratoconjunctivitis, and no ophthalmic minocycline product is registered in Singapore. The evidence level is L5, so there is not enough basis to advance.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Health Sciences Authority (HSA), which are required for safety screening
 - Detailed mechanism of action data (for example from DrugBank)
 - Literature search for tetracycline or minocycline in ocular surface inflammation, and any preclinical data in keratoconjunctivitis models
 - Assessment of route compatibility, since an ophthalmic or topical ocular formulation would be needed and none is currently registered
-- Review of the alternative predictions (for example chronic rhinosinusitis, otitis externa) if the ocular prediction is not pursued, noting that all currently remain at L4–L5 evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

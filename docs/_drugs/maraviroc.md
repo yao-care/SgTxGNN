@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia*
 |------|------|
 | Original Indication | Not available in the registration data |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. What is known is that maraviroc is a CCR5 antagonist, a drug that blocks a chemokine receptor involved in immune-cell trafficking.
 
-No CCR5-related mechanism linking maraviroc to multiple endocrine neoplasia syndromes (such as MEN1 or RET-driven endocrine tumours) is evident. The high score most likely reflects proximity in the knowledge graph rather than a demonstrated biological connection. The prediction should be treated as a hypothesis only.
+No CCR5-related mechanism linking maraviroc to multiple endocrine neoplasia syndromes (such as MEN1 or RET-driven endocrine tumours) is evident. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis only.
 
 **Other predicted indications (for context):** All of the following are also at Hold, except the last, which is classed as a research question:
 - Acne, pediatric systemic lupus erythematosus, primary cutaneous B-cell lymphoma and complement component 4a deficiency: model predictions with no trials or literature.

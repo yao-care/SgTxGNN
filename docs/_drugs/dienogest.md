@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Dienogest
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 329
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dienogest: predicted new indication Amenorrhea (evidence level L4). Approved use: Not stated in the licence data (the literature describes dienogest as…"
+description: "Dienogest: predicted new indication amenorrhea (disease) (evidence level L4). Approved use: Not stated in the licence data (the literature describes dienogest as…"
 monitor_inn: "Dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "brea
 # Dienogest
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Dienogest: From Endometriosis-Type Progestin Therapy to Amenorrhea
+## Dienogest: From Endometriosis-Type Progestin Therapy to amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Dienogest is an oral progestin that is marketed in Singapore as 2 mg tablets (it
 |------|------|
 | Original Indication | Not stated in the licence data (the literature describes dienogest as used for endometriosis) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

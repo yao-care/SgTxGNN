@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Dichlorobenzyl Alcohol
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 326
-evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Dichlorobenzyl Alcohol: predicted new indication Bronchitis (evidence level L5). Approved use: Not stated in the registration data (the approved indication text is…"
-monitor_inn: "dichlorobenzyl alcohol"
-predicted_indications: ["bronchitis", "migraine disorder"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Dichlorobenzyl Alcohol: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Dichlorobenzyl Alcohol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Dichlorobenzyl Alcohol: From Sore Throat Lozenge Use to Bronchitis
+<!-- known-uses-page -->
+<!-- description: Dichlorobenzyl Alcohol: known uses and market status in Singapore; currently no new candidate indication -->
+## Dichlorobenzyl Alcohol: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Dichlorobenzyl Alcohol, so there is currently no new predicted indication. No recorded uses are on file for this drug either, so the lists below are empty.
 
-Dichlorobenzyl alcohol is a mild topical antiseptic used in throat lozenges, and it is registered in Singapore in two lozenge products.
-The TxGNN model predicts it may be effective for **bronchitis**, but there are **0 clinical trials** and only **1 publication** (which does not study this drug), so the prediction is **a computational result only**.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (the approved indication text is blank; the products are sore throat lozenges) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.21% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 0 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available. Based on known information, dichlorobenzyl alcohol is a mild topical antiseptic used in throat lozenges. It has antibacterial, antiviral and local anaesthetic-like effects, and it is sold in Singapore in lozenges that also carry an anaesthetic label.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-These effects could plausibly relieve upper respiratory tract symptoms such as sore throat. Bronchitis, however, involves the lower airways. There is no evidence that this drug acts on bronchial inflammation or lower respiratory infection, and a lozenge is not designed to deliver the drug to the bronchi. The high TxGNN score (0.992) reflects a pattern in the knowledge graph, not clinical data, so the link to bronchitis remains hypothetical.
-
-The second predicted indication, migraine disorder (score 99.02%), has no identified mechanistic link and no supporting studies, so it is not evaluated further here.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [1036939](https://pubmed.ncbi.nlm.nih.gov/1036939/) | 1976 | Case report / Clinical observation (unverified) | Arzneimittel-Forschung | In 25 chronic bronchitis patients, clenbuterol (a different compound that contains a dichlorobenzyl alcohol structure) raised serum creatine kinase without other signs or symptoms. This paper does not study dichlorobenzyl alcohol as a treatment, so it offers no support for the prediction. |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15584P | Difflam plus ANAESTHETIC Sore Throat Lozenges (Sugar Free) Menthol and Eucalyptus Flavour | Lozenge | Not stated |
-| SIN15585P | Difflam plus ANAESTHETIC Sore Throat Lozenges (Sugar Free) Honey Lemon Flavour | Lozenge | Not stated |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15584P | Difflam plus ANAESTHETIC Sore Throat Lozenges (Sugar Free) M | LOZENGE | Valid |
+| SIN15585P | Difflam plus ANAESTHETIC Sore Throat Lozenges (Sugar Free) H | LOZENGE | Valid |
 
 ## Safety Considerations
 
@@ -96,19 +79,6 @@ Please refer to the package insert for safety information.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score alone (L5). No clinical trials exist, and the one retrieved paper concerns a different drug. The lozenge form and the drug's known local effects do not plausibly reach bronchial disease.
-
-**To proceed, the following is needed:**
-- Mechanism of action data (for example from DrugBank) to test whether any link to bronchial disease exists
-- Package insert warnings and contraindications from the HSA website, which are required before any safety screening
-- Approved indication text for the two registered products
-- Evidence that a suitable route or formulation could deliver the drug to the lower airways
-- Preclinical or clinical studies of dichlorobenzyl alcohol in bronchitis or lower respiratory infection
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

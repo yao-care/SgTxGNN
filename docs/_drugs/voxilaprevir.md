@@ -50,10 +50,10 @@ The prediction should be treated as a computational hypothesis only.
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection (the Singapore licence text carries no approved-indication wording) |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -114,7 +114,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.84%), but no clinical trials or publications test voxilaprevir against HBV. HBV has no NS3/4A-like protease target, so the prediction is not mechanistically supported. The other predicted indications are weaker still, with no usable evidence.
+The TxGNN score is high (0.9984), but no clinical trials or publications test voxilaprevir against HBV. HBV has no NS3/4A-like protease target, so the prediction is not mechanistically supported. The other predicted indications are weaker still, with no usable evidence.
 
 **To proceed, the following is needed:**
 - Mechanism-of-action data for voxilaprevir

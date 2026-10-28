@@ -4,7 +4,7 @@ title: Ceritinib
 parent: Low Evidence (L5)
 nav_order: 230
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ceritinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer"
 monitor_inn: "Ceritinib"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Ceritinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ceritinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Ceritinib: From ALK-Positive Non-Small Cell Lung Cancer to fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,19 +48,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 |------|------|
 | Original Indication | Non-small cell lung cancer; lung cancer (the Singapore registration record contains no indication text) |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, ceritinib is an anaplastic lymphoma kinase (ALK) inhibitor, its efficacy in ALK-rearranged NSCLC has been established, and the published literature describes it as a potent ALK inhibitor.
 
-For gingival fibromatosis, however, no mechanistic link to ALK inhibition has been identified. The high score appears to be a knowledge-graph artifact rather than a biological rationale. Gingival fibromatosis is a benign overgrowth of gum tissue, and no trial or publication in the data compiled for this report connects it to ceritinib or ALK signalling.
+For gingival fibromatosis, however, no mechanistic link to ALK inhibition has been identified. The high score appears to be a TxGNN model (deep learning) artifact rather than a biological rationale. Gingival fibromatosis is a benign overgrowth of gum tissue, and no trial or publication in the data compiled for this report connects it to ceritinib or ALK signalling.
 
-Other top-ranked predictions show the same pattern. Several are lung-related (fibroma of lung, hamartoma of lung, lung hilum carcinoma, pulmonary sulcus neoplasm), likely reflecting proximity to lung cancer nodes in the graph. Others (e.g. junctional epidermolysis bullosa, a VCP-related myopathy syndrome) have no identified biological link. Of these, only lung hilum carcinoma and pulmonary sulcus neoplasm are plausibly ALK-relevant, and only if ALK-rearranged.
+Other top-ranked predictions show the same pattern. Several are lung-related (fibroma of lung, hamartoma of lung, pulmonary sulcus neoplasm). Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Others (e.g. junctional epidermolysis bullosa, a VCP-related myopathy syndrome) have no identified biological link. Of these, only pulmonary sulcus neoplasm is plausibly ALK-relevant, and only if ALK-rearranged.
 
 ## Clinical Trial Evidence
 
@@ -98,7 +98,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for gingival fibromatosis is based only on a graph model score, with no clinical trials, no supporting literature, and no identified mechanistic link to ALK inhibition. The evidence level is L5. In addition, the safety profile of ceritinib, including a large number of drug interactions, makes use in a benign condition hard to justify without supporting data.
+The prediction for gingival fibromatosis is based only on a TxGNN model (deep learning) score, with no clinical trials, no supporting literature, and no identified mechanistic link to ALK inhibition. The score may reflect similarities the model learned between related diseases, not biological evidence. The evidence level is L5. In addition, the safety profile of ceritinib, including a large number of drug interactions, makes use in a benign condition hard to justify without supporting data.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a biological rationale connecting ALK (or ceritinib's other targets) to gingival fibromatosis

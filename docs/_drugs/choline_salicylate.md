@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Choline Salicylate: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Singapore licence records"
 monitor_inn: "Choline salicylate"
-predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "hypertensive disorder", "migraine disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Raynaud disease", "pulmonary hypertension"]
+predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "hypertensive disorder", "migraine disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Raynaud disease", "pulmonary hypertension"]
 ---
 
 # Choline Salicylate
@@ -46,17 +46,17 @@ Choline salicylate is a non-acetylated salicylate marketed in Singapore as topic
 |------|------|
 | Original Indication | Not stated in the Singapore licence records (all three licences list no approved indication text; products are oral/topical pain-relieving gels) |
 | Predicted New Indication | Prinzmetal angina (top-ranked prediction); rheumatoid arthritis is the only prediction with literature support |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, choline salicylate is a non-acetylated salicylate with cyclooxygenase (COX)-inhibitory, anti-inflammatory and analgesic activity.
 
-For Prinzmetal angina, a plausible but unproven link is the effect of salicylates on prostanoid pathways involved in vasospasm. However, high-dose aspirin has been reported to potentially worsen vasospastic angina, so the rationale is uncertain. Non-acetylated salicylates also have minimal antiplatelet activity, which weakens the link further. The score of 99.84% reflects a graph-based inference, not clinical evidence.
+For Prinzmetal angina, a plausible but unproven link is the effect of salicylates on prostanoid pathways involved in vasospasm. However, high-dose aspirin has been reported to potentially worsen vasospastic angina, so the rationale is uncertain. Non-acetylated salicylates also have minimal antiplatelet activity, which weakens the link further. The score of 0.9984 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Among the other top-10 predictions, rheumatoid arthritis is the best fit mechanistically, because anti-inflammatory and analgesic activity is consistent with symptomatic control of inflammatory joint disease. The hypertension-related predictions (hypertensive disorder, malignant hypertensive renal disease, malignant renovascular hypertension) run against known salicylate and NSAID effects, which can raise blood pressure and reduce renal perfusion. Several pulmonary hypertension predictions share identical scores, suggesting one shared inference rather than independent signals.
 

@@ -4,17 +4,17 @@ title: Rosuvastatin
 parent: Low Evidence (L5)
 nav_order: 885
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, hyperlipoproteinaemia…"
 monitor_inn: "Rosuvastatin"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
+description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rosuvastatin: From Hyperlipidaemia and Atherosclerotic Disease to Cholesterol-Ester Transfer Protein Deficiency
+## Rosuvastatin: Cholesterol-ester transfer protein deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ The better-supported predictions are **familial hypercholesterolaemia** (13 tria
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridaemia, hyperlipoproteinaemia, homozygous familial hypercholesterolaemia, atherosclerosis, stroke and cerebral infarction (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (for the top-ranked prediction) |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold (for the top-ranked prediction); Proceed with Guardrails for familial hypercholesterolaemia, hyperlipidaemia and HIV |
 
@@ -140,7 +140,7 @@ Please refer to the package insert for formal warnings and contraindications.
 **Decision: Hold** (for the top-ranked prediction, CETP deficiency)
 
 **Rationale:**
-- The CETP deficiency prediction scores highly (99.54%), but there are no trials or publications. It rests on a plausible lipid-pathway link alone (L5).
+- The CETP deficiency prediction scores highly (0.9954), but there are no trials or publications. It rests on a plausible lipid-pathway link alone (L5).
 - Familial hypercholesterolaemia and hyperlipidaemia (both L1, Proceed with Guardrails) are supported by multiple Phase 3 trials. They largely confirm existing use rather than a new indication.
 - HIV (L2, Proceed with Guardrails) is a cardiovascular risk-modification use, supported by a placebo-controlled Phase 2 trial and systematic reviews.
 

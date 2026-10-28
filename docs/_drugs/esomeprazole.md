@@ -4,17 +4,17 @@ title: Esomeprazole
 parent: Low Evidence (L5)
 nav_order: 401
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Esomeprazole: predicted new indication Duodenogastric reflux (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
+indication_count: 1
+last_modified_at: 2026-10-28
 monitor_inn: "Esomeprazole"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "Smouldering systemic mastocytosis", "multiple endocrine neoplasia", "acne (disease)"]
+predicted_indications: ["duodenal obstruction"]
+description: "Esomeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Esomeprazole: From Peptic Ulcer Disease to Duodenogastric Reflux
+## Esomeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Esomeprazole is a proton pump inhibitor originally used for acid-related conditions such as peptic ulcer disease, gastroesophageal reflux disease, and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux**, but this top-ranked prediction is supported by **0 clinical trials** and only **1 general review**.
 The strongest evidence in this candidate set is for the closely related, already-established indication of **duodenal ulcer**, which has **more than 30 registered trials** and **19 publications**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, Zollinger-Ellison syndrome (the Singapore licence records contain no approved-indication text) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L4 (preclinical or mechanism-level only; no trials) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 16 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9945 |
+| Evidence Level | L5 (preclinical or mechanism-level only; no trials) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,9 +63,7 @@ By contrast, the prediction for **duodenal ulcer** is effectively an established
 
 ## Clinical Trial Evidence
 
-**Top prediction (duodenogastric reflux):** Currently no related clinical trials registered.
 
-**Best-supported related prediction (duodenal ulcer, 99.40%):** the table lists the most relevant of the 31 registered trials.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -85,7 +82,6 @@ Several of these trials address reflux esophagitis or NSAID-associated ulcers ra
 
 ## Literature Evidence
 
-**Top prediction (duodenogastric reflux):**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -131,7 +127,6 @@ Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for the top-ranked prediction, duodenogastric reflux)
 
 **Rationale:**
 - Duodenogastric reflux has no trials and only one general PPI review, and the mechanism is only partly plausible because bile reflux is largely acid-independent.

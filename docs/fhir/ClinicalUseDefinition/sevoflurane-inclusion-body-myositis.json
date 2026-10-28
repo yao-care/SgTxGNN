@@ -1,0 +1,45 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "sevoflurane-inclusion-body-myositis",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ]
+  },
+  "type": "indication",
+  "status": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/publication-status",
+        "code": "draft",
+        "display": "Draft"
+      }
+    ]
+  },
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/sevoflurane"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "inclusion body myositis"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-status",
+      "valueCode": "predicted"
+    },
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L4"
+    },
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9909
+    }
+  ]
+}

@@ -4,17 +4,17 @@ title: Donepezil
 parent: Low Evidence (L5)
 nav_order: 345
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Alzheimer disease"
 monitor_inn: "Donepezil"
-predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia", "acute intermittent porphyria", "glaucoma"]
+predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
+description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Donepezil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Donepezil: From Alzheimer Disease to Psychogenic Movement Disorders
+## Donepezil: Psychogenic movement disorders
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The next-ranked prediction, chronic tic disorder, has more support (5 publicatio
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer disease (the approved-indication text is blank on the local licences; this is taken from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Psychogenic movement disorders |
-| TxGNN Prediction Score | 99.23% |
+| TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 13 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,11 +68,9 @@ A cholinergic mechanism is plausible for movement disorders in general. However,
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Chronic tic disorder | 99.19% | L3 (provisional) | Research Question. Small clinical reports and mouse work support a cholinergic role in tics. |
-| 4 | Extrapyramidal and movement disease | 99.16% | L4 | Research Question. A 2025 systematic review also flags a safety signal, as cholinesterase inhibitors can worsen parkinsonism or tremor. |
-| 8 | Lingual-facial-buccal dyskinesia (tardive dyskinesia) | 99.02% | L3 | Research Question. Cochrane reviews of cholinergic drugs exist, but they do not establish clear efficacy for donepezil. |
-| 10 | Glaucoma | 98.28% | L4 | Hold. Evidence is mixed, and there are safety signals. |
-| 3, 5, 6, 7, 9 | Primary orthostatic tremor, benign shuddering attacks, tremor-nystagmus-duodenal ulcer syndrome, benign paroxysmal tonic upgaze of childhood with ataxia, acute intermittent porphyria | 98.7%–99.2% | L5 | Hold. Prediction only, with no supporting evidence. |
+| 2 | Chronic tic disorder | 0.9919 | L5 (provisional) | Research Question. Small clinical reports and mouse work support a cholinergic role in tics. |
+| 4 | Extrapyramidal and movement disease | 0.9916 | L5 | Research Question. A 2025 systematic review also flags a safety signal, as cholinesterase inhibitors can worsen parkinsonism or tremor. |
+| 8 | Lingual-facial-buccal dyskinesia (tardive dyskinesia) | 0.9902 | L5 | Research Question. Cochrane reviews of cholinergic drugs exist, but they do not establish clear efficacy for donepezil. |
 
 ---
 
@@ -124,7 +122,6 @@ There are 13 valid single-ingredient registrations in total, all oral, with no c
 **Indication-specific signals from the literature:**
 - A 2025 systematic review reports that cholinesterase inhibitors can be associated with movement disorders (including worsened parkinsonism or tremor), which is directly relevant to any movement-disorder use.
 - Case reports describe donepezil-associated Pisa syndrome and jaw tremor.
-- A case report describes angle-closure glaucoma after donepezil was stopped.
 
 Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 

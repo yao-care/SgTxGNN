@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L5). Approved use: Not available"
 monitor_inn: "Desogestrel"
-predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
+predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
 ---
 
 # Desogestrel
@@ -48,10 +48,10 @@ with **1 clinical trial** and **11 publications** currently linked to this direc
 |------|------|
 | Original Indication | Not available (the Singapore license record contains no approved indication text; the drug is known as a hormonal contraceptive) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L2 (capped, because the Phase 3 trial's intervention arms do not clearly include desogestrel) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 (capped, because the Phase 3 trial's intervention arms do not clearly include desogestrel) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rasburicase: predicted new indication Hypouricemia, renal (evidence level L5). Approved use: Hyperuricemia"
 monitor_inn: "Rasburicase"
-predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
+predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "primitive portal vein thrombosis", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
 ---
 
 # Rasburicase
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rasburicase: From Hyperuricemia to Renal Hypouricemia
+## Rasburicase: hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,19 +48,19 @@ The mechanism also points the wrong way: the condition already involves low uric
 |------|------|
 | Original Indication | Hyperuricemia (approved indication text is not listed in the Singapore registration) |
 | Predicted New Indication | Hypouricemia, renal |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, rasburicase is a recombinant urate oxidase. It converts uric acid to allantoin and lowers serum urate, which is why it is used for hyperuricemia.
 
-Renal hypouricemia is a condition in which serum urate is already low, for example from loss-of-function variants in URAT1 (SLC22A12) or GLUT9 (SLC2A9). Lowering urate further would be mechanistically counterproductive and could raise risk, for example exercise-induced acute kidney injury. The high TxGNN score appears to reflect proximity in the uric acid pathway of the knowledge graph rather than a plausible therapeutic link.
+Renal hypouricemia is a condition in which serum urate is already low, for example from loss-of-function variants in URAT1 (SLC22A12) or GLUT9 (SLC2A9). Lowering urate further would be mechanistically counterproductive and could raise risk, for example exercise-induced acute kidney injury. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other top-ranked predictions are also weak. Several hepatic and portal conditions share an identical score, which suggests a non-specific graph artifact. The one biologically plausible candidate is partial HPRT deficiency, where purine overproduction causes hyperuricemia. Even there, rasburicase is an injectable biologic with a short course and immunogenicity that limits repeat use, so it is unsuitable for chronic management. Allopurinol and febuxostat are already standard care.
+Other top-ranked predictions are also weak. Several hepatic and portal conditions share an identical score (0.9997), which may reflect similarities the model learned between related diseases, not biological evidence. The one biologically plausible candidate is partial HPRT deficiency, where purine overproduction causes hyperuricemia. Even there, rasburicase is an injectable biologic with a short course and immunogenicity that limits repeat use, so it is unsuitable for chronic management. Allopurinol and febuxostat are already standard care.
 
 ## Clinical Trial Evidence
 

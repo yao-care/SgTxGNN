@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Larotrectinib
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 580
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Larotrectinib: predicted new indication Multiple endocrine neoplasia (evidence level L3). Approved use: Not listed in the Singapore registration records (the drug is known a…"
 monitor_inn: "Larotrectinib"
-predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma", "cytomegalovirus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "progesterone-receptor negative breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "thrombocytopenia"]
+predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
 ---
 
 # Larotrectinib
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia*
 |------|------|
 | Original Indication | Not listed in the Singapore registration records (the drug is known as a tumour-agnostic TRK inhibitor for NTRK fusion-positive solid tumours) |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| TxGNN Prediction Score | 0.9924 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

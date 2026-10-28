@@ -4,7 +4,7 @@ title: Gimeracil
 parent: High Evidence (L1-L2)
 nav_order: 478
 evidence_level: L1
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Gimeracil: predicted new indication Colonic neoplasm (evidence level L1). Approved use: Gastric cancer"
 monitor_inn: "Gimeracil"
@@ -14,7 +14,7 @@ predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of 
 # Gimeracil
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Note that this evidence applies to the S-1 combination, not gimeracil alone.
 |------|------|
 | Original Indication | Gastric cancer (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Colonic neoplasm |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

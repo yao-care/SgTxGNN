@@ -4,17 +4,17 @@ title: Methoxy Polyethylene Glycol-Epoetin Beta
 parent: Low Evidence (L5)
 nav_order: 658
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Methoxy Polyethylene Glycol-Epoetin Beta: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not stated in the Singapore licence data compiled for this …"
 monitor_inn: "Methoxy polyethylene glycol-epoetin beta"
-predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "diabetic retinopathy", "HER2 positive breast carcinoma"]
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Methoxy Polyethylene Glycol-Epoetin Beta: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methoxy Polyethylene Glycol-Epoetin Beta
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methoxy polyethylene glycol-epoetin beta: From an Erythropoiesis-Stimulating Agent to Primary Release Disorder of Platelets
+## Methoxy Polyethylene Glycol-Epoetin Beta: Primary release disorder of platelets
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,12 +44,12 @@ Methoxy polyethylene glycol-epoetin beta is a long-acting erythropoiesis-stimula
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence data compiled for this report |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.36% |
+| TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,7 @@ The predicted condition is a platelet secretion defect, which arises from intrin
 The other predicted indications show the same pattern:
 
 - **Platelet function and coagulation disorders** (Glanzmann thrombasthenia, pseudo-von Willebrand disease, heparin cofactor 2 deficiency, antithrombin deficiency type 2, factor 5 excess, thrombophilia): there is no plausible direct mechanism. ESAs carry thrombotic risk, so for the prothrombotic conditions the association more likely signals a safety concern than a benefit.
-- **Diabetic retinopathy (including severe nonproliferative):** erythropoietin has been discussed in the literature with conflicting directions, either neuroprotective or pro-angiogenic. This is background knowledge, not evidence in the data, and the neovascularisation risk would need to be resolved first.
+- This is background knowledge, not evidence in the data, and the neovascularisation risk would need to be resolved first.
 - **HER2-positive breast carcinoma:** ESAs have raised concerns about tumour progression in some settings, so a therapeutic benefit is not supported.
 
 ## Clinical Trial Evidence
@@ -100,7 +100,7 @@ The prediction rests on a model score alone (L5), with no clinical trials or lit
 - Package insert warnings and contraindications from the Singapore regulator (HSA), which are required for safety screening
 - Approved indication text for the Singapore licences
 - Any preclinical or clinical evidence for the predicted indication, found through a targeted literature and trial search
-- A thrombotic and neovascularisation risk assessment before any further consideration, especially for the thrombophilia, retinopathy and breast carcinoma predictions
+- A thrombotic and neovascularisation risk assessment before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

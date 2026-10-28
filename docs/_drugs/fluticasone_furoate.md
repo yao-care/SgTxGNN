@@ -4,17 +4,17 @@ title: Fluticasone Furoate
 parent: Low Evidence (L5)
 nav_order: 446
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). Approved use: Asthma, allergic asthma, allergic rhinitis, vasomotor rhinitis"
 monitor_inn: "Fluticasone furoate"
-predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis", "polyp of vocal cord"]
+predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but there ar
 |------|------|
 | Original Indication | Asthma, allergic asthma, allergic rhinitis, vasomotor rhinitis (the Singapore licence records do not state an approved indication text) |
 | Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

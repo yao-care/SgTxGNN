@@ -4,17 +4,17 @@ title: Soybean Oil
 parent: Low Evidence (L5)
 nav_order: 934
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Soybean Oil: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the registration data (the product is an injectable lip…"
 monitor_inn: "Soybean oil"
-predicted_indications: ["amenorrhea (disease)", "non-syndromic esophageal malformation", "bone Paget disease", "esophageal disease", "juvenile Paget disease", "dentinogenesis imperfecta", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma", "acantholytic variant squamous cell breast carcinoma", "adenosquamous breast carcinoma"]
+predicted_indications: ["amenorrhea (disease)"]
+description: "Soybean Oil: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Soybean Oil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,30 +33,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Soybean Oil: From Parenteral Nutrition (Lipid Source) to Amenorrhea
+## Soybean Oil: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Soybean oil is a lipid source used in injectable lipid emulsions for nutrition, and it is currently marketed in Singapore as part of SMOFlipid 20%. The TxGNN model predicts it may be effective for **amenorrhea** (score 99.6%), but **no clinical trials and no publications** currently support this specific prediction. The evidence is model prediction only.
+Soybean oil is a lipid source used in injectable lipid emulsions for nutrition, and it is currently marketed in Singapore as part of SMOFlipid 20%. The evidence is model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (the product is an injectable lipid emulsion) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.61% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, soybean oil is a lipid source (an omega-6 rich vegetable oil) used in injectable lipid emulsions. Its established role is as a source of calories and essential fatty acids, not as a treatment for a gynaecological condition.
 
-Some soybean preparations contain phytoestrogen-related constituents, which could in theory touch on hormonal pathways. However, the data compiled for this report do not support a mechanism linking soybean oil to the treatment of amenorrhea. The high TxGNN score reflects a graph-based statistical association, not demonstrated biology. This prediction should be treated as a hypothesis only.
+Some soybean preparations contain phytoestrogen-related constituents, which could in theory touch on hormonal pathways. However, the data compiled for this report do not support a mechanism linking soybean oil to the treatment of amenorrhea. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -66,7 +66,7 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for amenorrhea.
 
-For context, the other predicted indications also lack direct support. The only one with any publications is **esophageal disease** (rank 4, score 98.3%, evidence level L4). Its seven publications are indirect:
+For context, the other predicted indications also lack direct support. Its seven publications are indirect:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -78,7 +78,7 @@ For context, the other predicted indications also lack direct support. The only 
 | [31795982](https://pubmed.ncbi.nlm.nih.gov/31795982/) | 2019 | Case report | BMC Pulmonary Medicine | Lipoid pneumonia linked to avocado/soybean unsaponifiables (off-topic, a harm report) |
 | [105637](https://pubmed.ncbi.nlm.nih.gov/105637/) | 1979 | Case report | Am J Hosp Pharm | Essential fatty acid deficiency in fat-free parenteral nutrition (off-topic) |
 
-None of these shows that soybean oil treats esophageal disease. They concern perioperative nutrition or animal models, and the n-6-rich oil may be pro-inflammatory rather than beneficial.
+They concern perioperative nutrition or animal models, and the n-6-rich oil may be pro-inflammatory rather than beneficial.
 
 ## Singapore Market Information
 
@@ -97,7 +97,7 @@ No drug-interaction records were found for this drug, and no disease contraindic
 **Decision: Hold**
 
 **Rationale:**
-The amenorrhea prediction rests only on a model score, with no trials, no publications and no plausible mechanism in the available data. Other predicted indications, such as bone Paget disease, congenital malformations and several carcinomas, are also prediction-only (L5) and lack a credible biological link.
+The amenorrhea prediction rests only on a model score, with no trials, no publications and no plausible mechanism in the available data.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, which is a blocking gap for safety screening

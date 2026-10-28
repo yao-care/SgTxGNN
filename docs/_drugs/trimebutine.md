@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trimebutine
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 1027
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Trimebutine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence data compiled for this report"
 monitor_inn: "Trimebutine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "ulerythema ophryogenesis", "pulmonary hypertension", "open-angle glaucoma", "Raynaud disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Trimebutine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Trimebutine is an oral opioid-receptor-active gut motility modulator that is mar
 |------|------|
 | Original Indication | Not stated in the Singapore licence data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.64% |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L2 (one randomized, double-blind, cross-over, placebo-controlled study; no registered trials) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -101,7 +101,7 @@ Please refer to the package insert for safety information. No drug-interaction r
 **Decision: Hold**
 
 **Rationale:**
-The only controlled evidence is a single small trial of trimebutine combined with rizatriptan. It supports at most an adjunctive role in acute migraine and does not show a stand-alone effect. There are no registered trials, the mechanism is indirect, and safety documentation is incomplete. Other predicted indications (for example atrophoderma vermiculata, pulmonary hypertension, open-angle glaucoma and Raynaud disease) have no supporting evidence and appear to be knowledge-graph artifacts.
+The only controlled evidence is a single small trial of trimebutine combined with rizatriptan. It supports at most an adjunctive role in acute migraine and does not show a stand-alone effect. There are no registered trials, the mechanism is indirect, and safety documentation is incomplete.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Singapore regulator (HSA), plus the approved indication for the licence

@@ -8,6 +8,7 @@ nav_order: 16
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # 84 Anhydrous Anidulafungin 122Mg Eqv Anidulafungin
@@ -49,8 +50,8 @@ Anidulafungin is an echinocandin antifungal agent known for treating invasive ca
 | Predicted New Indication | None — `predicted_indications` array is empty |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction only; no actual study evidence retrieved) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 ---

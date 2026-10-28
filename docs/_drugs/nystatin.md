@@ -48,10 +48,10 @@ Support comes from **0 clinical trials** and **20 publications** (mostly reviews
 |------|------|
 | Original Indication | Cutaneous candidiasis, oral candidiasis, candidiasis, vulvovaginal candidiasis (licence indication text is not available) |
 | Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -107,7 +107,7 @@ Vulvovaginitis of candidal origin is already within nystatin's established use, 
 - Detailed mechanism of action data from DrugBank
 - A clear restriction to confirmed or suspected candidal vulvovaginitis, with exclusion of bacterial and trichomonal causes
 - Comparative efficacy data against azoles, particularly for azole-resistant or non-albicans *Candida*
-- Review of the knowledge-graph disease flags and the interaction list against the label
+- Review of the TxGNN model (deep learning) predictions and the interaction list against the label
 
 *Other predictions (disease of orbital region, cystic teratoma, spinal cord dermoid cyst, biotin metabolic disease, and others) rest on model scores alone with no plausible antifungal rationale and should be held. Vulvitis has similar candidal-only support to vulvovaginitis.*
 ## Disclaimer

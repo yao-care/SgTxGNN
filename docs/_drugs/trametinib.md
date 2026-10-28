@@ -4,7 +4,7 @@ title: Trametinib
 parent: Low Evidence (L5)
 nav_order: 1010
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "Trametinib"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Trametinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,10 +51,10 @@ The TxGNN model's top-ranked prediction is **Choroideremia**, but **no clinical 
 |------|------|
 | Original Indication | Metastatic melanoma (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Choroideremia |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ The TxGNN model's top-ranked prediction is **Choroideremia**, but **no clinical 
 
 Trametinib is a MEK1/2 inhibitor. It blocks MAP2K1 and MAP2K2, which act downstream of BRAF in the MAPK signalling pathway. Detailed mechanism-of-action text is not available beyond this target information. It is used with dabrafenib for BRAF V600-mutant melanoma and other BRAF V600E tumours.
 
-For **choroideremia**, a mechanistic link is hard to establish. It is an X-linked retinal degeneration caused by loss of the CHM (REP1) gene. No connection to MEK/MAPK inhibition is evident in the data compiled for this report. The very high score (99.31%) is therefore best read as a model artefact rather than a biologically supported hypothesis.
+For **choroideremia**, a mechanistic link is hard to establish. It is an X-linked retinal degeneration caused by loss of the CHM (REP1) gene. No connection to MEK/MAPK inhibition is evident in the data compiled for this report. The very high score (0.9931) is therefore best read as a model artefact rather than a biologically supported hypothesis.
 
 By contrast, the lower-ranked melanoma-related predictions are mechanistically coherent. Non-cutaneous melanomas (uveal, mucosal) can carry MAPK-activating alterations. Mucosal melanoma also has preclinical evidence of sensitivity to MEK inhibitor combinations. BRAF frequency differs from cutaneous melanoma, though.
 

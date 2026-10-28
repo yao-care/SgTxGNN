@@ -6,7 +6,7 @@ nav_order: 232
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Cetrorelix: predicted new indication Hypertrichosis (evidence level L5). Approved use: Inhibition of premature LH surges in women undergoing controlled ovar…"
+description: "Cetrorelix: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Inhibition of premature LH surges in women undergoing controlled ovar…"
 monitor_inn: "Cetrorelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Cetrorelix: From Inhibition of Premature LH Surges in Fertility Treatment to Hypertrichosis
+## Cetrorelix: From Inhibition of Premature LH Surges in Fertility Treatment to hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ The prediction rests on the model score alone (evidence level L5).
 |------|------|
 | Original Indication | Inhibition of premature LH surges in women undergoing controlled ovarian stimulation (from pharmacology data; the approved indication text on the Singapore licence is blank) |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,7 @@ Cetrorelix is a peptide antagonist of the GnRH1 receptor (gene GNRHR). By blocki
 In theory, lowering androgen signalling could affect androgen-dependent hair growth. However, most forms of hypertrichosis (congenital, drug-induced, syndromic) are not mainly driven by gonadal androgens, so the link is speculative. The high TxGNN score is not backed by any trial or publication.
 
 The other top predictions are also weakly supported:
-- **Ambras type hypertrichosis universalis congenita, malformation syndromes, Dandy-Walker–related syndrome, isolated hair shaft abnormality, familial trichomegaly, persistent fetal circulation syndrome:** these are genetic or developmental conditions with no plausible GnRH-pathway mechanism. They are likely graph-based artefacts.
+- **Ambras type hypertrichosis universalis congenita, malformation syndromes, Dandy-Walker–related syndrome, isolated hair shaft abnormality, familial trichomegaly, persistent fetal circulation syndrome:** these are genetic or developmental conditions with no plausible GnRH-pathway mechanism. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Aromatase excess syndrome:** the primary defect is peripheral aromatisation, so aromatase inhibitors are the logical therapy.
 - **Familial male-limited precocious puberty:** this is the most biologically coherent hypothesis, flagged as a research question. The defect (activating LHCGR mutation) lies downstream of GnRH, so monotherapy is not expected to work. No direct evidence exists.
 - **Central precocious puberty:** this is mechanistically well aligned, but cetrorelix is short-acting and not formulated for chronic depot use, and GnRH agonists already serve this indication. It is also flagged as a research question.

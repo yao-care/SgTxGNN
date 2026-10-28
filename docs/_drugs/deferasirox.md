@@ -4,17 +4,17 @@ title: Deferasirox
 parent: Medium Evidence (L3-L4)
 nav_order: 308
 evidence_level: L4
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L4). Approved use: Beta-thalassemia and related hemoglobinopathies"
 monitor_inn: "Deferasirox"
-predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
+description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Deferasirox
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Deferasirox: From Transfusional Iron Overload in Beta-Thalassemia to HIV Infectious Disease
+## Deferasirox: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **0 clinical trials** and only **2 publications** (one g
 
 | Item | Content |
 |------|------|
-| Original Indication | Beta-thalassemia and related hemoglobinopathies (from knowledge-graph indication data; the Singapore license records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -72,15 +72,10 @@ Nine further predictions were generated. All are graded L4 or L5, and none has a
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Chronic hepatitis C virus infection | 99.39% | L4 | Iron accumulation is common in chronic HCV, but the only linked paper is a ferritin measurement method study |
-| Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | 99.23% | L5 | No mechanistic link or evidence |
-| Obsolete familial combined hyperlipidemia | 99.20% | L5 | Obsolete disease term, likely an ontology artifact |
-| Dermatofibrosarcoma protuberans | 99.11% | L5 | No documented link to iron chelation |
-| Simian immunodeficiency virus infection | 98.96% | L5 | Likely propagated from the HIV association |
-| Feline acquired immunodeficiency syndrome | 98.96% | L5 | Veterinary disease, likely propagated from the HIV association |
-| Beta-thalassemia with other manifestations | 98.59% | L5 | Likely a variant of an existing indication, not true repurposing |
-| Hereditary pyropoikilocytosis | 98.55% | L5 | Plausible indirect rationale via iron overload from chronic hemolysis |
-| Pyruvate kinase deficiency of red cells | 98.50% | L5 | Iron overload is a recognized concern, and a targeted literature search would be a reasonable next step |
+| Chronic hepatitis C virus infection | 0.9939 | L5 | Iron accumulation is common in chronic HCV, but the only linked paper is a ferritin measurement method study |
+| Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | 0.9923 | L5 | No mechanistic link or evidence |
+| Obsolete familial combined hyperlipidemia | 0.9920 | L5 | Obsolete disease term, likely an ontology artifact |
+| Dermatofibrosarcoma protuberans | 0.9911 | L5 | No documented link to iron chelation |
 
 ---
 

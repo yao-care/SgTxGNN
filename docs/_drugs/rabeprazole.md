@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Rabeprazole
-parent: Low Evidence (L5)
-nav_order: 846
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Rabeprazole: predicted new indication Smouldering systemic mastocytosis (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, duodenal ulcer…"
-monitor_inn: "Rabeprazole"
-predicted_indications: ["lymphoadenopathic mastocytosis with eosinophilia", "gastroduodenitis", "duodenal obstruction", "abnormality of glucagon secretion"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 845
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Rabeprazole: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Rabeprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,54 +32,49 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rabeprazole: From Peptic Ulcer Disease and Reflux Disease to Smouldering Systemic Mastocytosis
+<!-- known-uses-page -->
+<!-- description: Rabeprazole: known uses and market status in Singapore; currently no new candidate indication -->
+## Rabeprazole: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazole, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The two known uses are relations recorded in the knowledge graph, and no approval was found for them.
 
-Rabeprazole is a proton pump inhibitor, originally used for peptic ulcer disease, gastroesophageal reflux disease and acid hypersecretory conditions such as Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be useful for **Smouldering systemic mastocytosis**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, duodenal ulcer, Zollinger-Ellison syndrome (the Singapore licence records contain no indication text, so these come from the knowledge-graph indication list) |
-| Predicted New Indication | Smouldering systemic mastocytosis |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 2 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available in the data compiled for this report. Rabeprazole belongs to the proton pump inhibitor class. These drugs block the gastric H+/K+-ATPase (the proton pump) and so reduce stomach acid. Their efficacy in acid-related disease is well established.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Systemic mastocytosis is already linked to rabeprazole through its acid hypersecretory uses. In this disease, mast cells release large amounts of histamine, which can drive excess stomach acid. The high TxGNN score most likely reflects this symptomatic link.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Rabeprazole does not act on the underlying clonal mast-cell disease, such as KIT-driven proliferation. The data do not support any disease-modifying mechanism. At best, the drug would manage acid-related symptoms, not treat smouldering systemic mastocytosis itself.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| Smouldering systemic mastocytosis |
+| lymphoadenopathic mastocytosis with eosinophilia |
 
 ## Singapore Market Information
 
-All four licences are valid single-ingredient products, and none has been cancelled. The records contain no approved indication text.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN14910P | Acilesol Gastro-Resistant Tablet 20mg | Tablet, enteric coated | Balkanpharma Dupnitsa AD |
-| SIN15259P | Bepraz Gastro Resistant Tablets 20mg | Tablet, delayed release | Sun Pharmaceutical Industries Limited |
-| SIN15260P | Bepraz Gastro Resistant Tablets 10mg | Tablet, delayed release | Sun Pharmaceutical Industries Limited |
-| SIN14319P | Rabeprazole Sandoz Gastro Resistant Tablet 20mg | Tablet, enteric coated | Novartis Pharmaceutical Manufacturing LLC |
-
-All products are oral formulations.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14910P | ACILESOL GASTRO- RESISTANT TABLET 20MG | TABLET, ENTERIC COATED | Valid |
+| SIN15259P | BEPRAZ GASTRO RESISTANT TABLETS 20MG | TABLET, DELAYED RELEASE | Valid |
+| SIN15260P | BEPRAZ GASTRO RESISTANT TABLETS 10MG | TABLET, DELAYED RELEASE | Valid |
+| SIN14319P | Rabeprazole Sandoz Gastro Resistant Tablet 20mg | TABLET, ENTERIC COATED | Valid |
 
 ## Safety Considerations
 
@@ -92,21 +86,6 @@ All products are oral formulations.
 
 Please refer to the package insert for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on the model score and a symptomatic acid-suppression link alone. No trials or publications exist for smouldering systemic mastocytosis, and rabeprazole has no proposed effect on the mast-cell disease itself. The indication also largely overlaps with existing acid-hypersecretion uses, so it is not a true new indication.
-
-For context, other predicted terms for this drug have more evidence. Gastric ulcer has 17 registered trials and was rated L1, but it overlaps the existing labeled ulcer use.
-
-**To proceed, the following is needed:**
-- Mechanism of action data, to assess any link beyond acid suppression
-- Evidence of a clinical benefit from rabeprazole in smouldering systemic mastocytosis, such as registered trials or published studies
-- A clear definition of the intended use, either symptom control of mediator-related acid hypersecretion or disease modification
-- Local package insert warnings and contraindications for the Singapore products
-- Review of the major interactions (acalabrutinib, atazanavir) and of the liver, gallbladder and bone-related flags, especially for long-term use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

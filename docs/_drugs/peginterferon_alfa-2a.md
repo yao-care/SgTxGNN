@@ -4,17 +4,17 @@ title: Peginterferon Alfa-2A
 parent: High Evidence (L1-L2)
 nav_order: 770
 evidence_level: L1
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Peginterferon Alfa-2A: predicted new indication Hepatitis B virus infection (evidence level L1). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "Peginterferon alfa-2a"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
+description: "Peginterferon Alfa-2A: predicted new indication Hepatitis E virus infection (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Peginterferon Alfa-2A
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Peginterferon alfa-2a: From Chronic Hepatitis C and B to Hepatitis B Virus Infection
+## Peginterferon Alfa-2A: Hepatitis E virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Peginterferon alfa-2a is a long-acting interferon originally used to treat chronic hepatitis C and chronic hepatitis B.
-The TxGNN model predicts it may be effective for **hepatitis B virus infection**, with **20 clinical trials** and **20 publications** currently supporting this direction.
 Note that hepatitis B is already listed among the drug's original indications, so this result confirms an existing use rather than a true repurposing discovery.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection; chronic hepatitis B virus infection (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.94% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hepatitis E virus infection |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +59,7 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 The literature describes induction of interferon-stimulated genes and enhanced HBV-specific T-cell responses as the basis for its activity against HBV. Because hepatitis B is already among the drug's original indications, the high prediction score (rank 1323 of the model's ranking) is consistent with an established use. The prediction therefore mostly validates the model rather than pointing to a new therapeutic area.
 
-Other predictions (hepatitis E, hepatitis A, tick-borne flavivirus diseases, and cardiac conditions) have weak or no supporting evidence and are not the focus of this report. Hepatitis E has only a plausible rationale based on off-label use, and the trials linked to it are actually hepatitis B studies. The cardiac and congenital predictions have no plausible mechanism and are probably artifacts of the knowledge graph.
+Other predictions (hepatitis E, hepatitis A, tick-borne flavivirus diseases, and cardiac conditions) have weak or no supporting evidence and are not the focus of this report. Hepatitis E has only a plausible rationale based on off-label use, and the trials linked to it are actually hepatitis B studies.
 
 ## Clinical Trial Evidence
 

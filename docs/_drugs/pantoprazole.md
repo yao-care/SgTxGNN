@@ -4,17 +4,17 @@ title: Pantoprazole
 parent: Low Evidence (L5)
 nav_order: 761
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Pantoprazole: predicted new indication Active peptic ulcer disease (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "Pantoprazole"
-predicted_indications: ["duodenal obstruction", "acne (disease)", "Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia"]
+predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pantoprazole: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pantoprazole is a proton pump inhibitor originally used for peptic ulcer disease, gastroesophageal reflux disease, esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it for **active peptic ulcer disease**, which is essentially an on-label indication rather than true repurposing.
 Support comes from **1 completed Phase 3 trial specific to this indication** (plus several related ulcer trials) and **18 publications** in the data compiled for this report.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, Zollinger-Ellison syndrome (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L2 (see note below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 14 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9921 |
+| Evidence Level | L5 (see note below) |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note: the compiled data labels this prediction L1. Within the evidence listed for the top prediction, only one completed Phase 3 randomized trial (NCT02084420) appears, which by the rules in this report fits L2. The closely related duodenal ulcer prediction (rank 6) does reach L1, with several Phase 3 trials and double-blind randomized comparisons.*

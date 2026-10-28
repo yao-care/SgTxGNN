@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lomefloxacin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 610
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lomefloxacin: predicted new indication Laryngotracheitis (evidence level L4). Approved use: Urinary tract infection, bronchitis"
 monitor_inn: "Lomefloxacin"
-predicted_indications: ["laryngotracheitis", "heart valve disease", "heart conduction disease", "congenital anomaly of ventricular septum", "heart neoplasm", "pericardium disease", "carcinoid heart disease", "cardiac anomalies-heterotaxy syndrome", "myocardial rupture", "heart aneurysm"]
+predicted_indications: ["laryngotracheitis", "heart valve disease", "heart conduction disease", "congenital anomaly of ventricular septum", "heart neoplasm", "pericardium disease", "myocardial rupture", "cardiac anomalies-heterotaxy syndrome", "carcinoid heart disease", "heart aneurysm"]
 ---
 
 # Lomefloxacin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Urinary tract infection, bronchitis (from the knowledge graph; the Singapore licence has no indication text recorded) |
 | Predicted New Indication | Laryngotracheitis |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9961 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ Laryngotracheitis is an infection of the upper and central airway. It lies close
 
 There are important limits, however. Laryngotracheitis (croup) is predominantly viral, and an antibacterial would not be expected to help in those cases. The high TxGNN score is a computational result and has not been checked against any trial or publication.
 
-Other predicted indications are mostly cardiac conditions, such as heart valve disease, heart conduction disease and heart aneurysm. These are rated L5 and Hold, because they show no plausible therapeutic mechanism and may be artifacts of knowledge-graph connectivity. Fluoroquinolones carry known cardiac and vascular safety signals, including QT prolongation and aortic aneurysm or dissection risk. These signals point toward potential harm rather than benefit.
+Other predicted indications are mostly cardiac conditions, such as heart valve disease, heart conduction disease and heart aneurysm. These are rated L5 and Hold, because they show no plausible therapeutic mechanism and their scores come from the TxGNN model (deep learning), so they may reflect similarities the model learned between related diseases, not biological evidence. Fluoroquinolones carry known cardiac and vascular safety signals, including QT prolongation and aortic aneurysm or dissection risk. These signals point toward potential harm rather than benefit.
 
 ## Clinical Trial Evidence
 

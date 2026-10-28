@@ -6,9 +6,9 @@ nav_order: 723
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Norfloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Typhoid fever, salmonellosis, paratyphoid fever…"
 monitor_inn: "Norfloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+description: "Norfloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Norfloxacin
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Norfloxacin: From Bacterial Infections to Hyperamylasemia
+## Norfloxacin: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Norfloxacin is a fluoroquinolone antibiotic originally used for urinary tract infections, gastrointestinal infections (dysentery, diarrhoeal disease, typhoid and paratyphoid fever, salmonellosis) and respiratory and other bacterial infections.
 The TxGNN model predicts it may be effective for **hyperamylasemia**, with a very high score but **0 clinical trials** and **0 publications** supporting this direction.
-The prediction rests on knowledge-graph proximity alone and should be treated as a computational hypothesis.
+The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a computational hypothesis.
 
 ---
 
@@ -48,12 +48,12 @@ The prediction rests on knowledge-graph proximity alone and should be treated as
 
 | Item | Content |
 |------|------|
-| Original Indication | Typhoid fever, salmonellosis, paratyphoid fever, urinary tract infection, bronchitis, bacterial pneumonia, dysentery and other bacterial infections (the Singapore licence text lists no approved indication, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction rests on knowledge-graph proximity alone and should be treated as
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, norfloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. This explains its efficacy against bacterial infections of the urinary and gastrointestinal tracts.
 
-No identifiable mechanistic link connects this action to hyperamylasemia. Hyperamylasemia is a laboratory finding with varied causes (pancreatic, salivary, renal), not an infection. The high TxGNN score comes from graph-based prediction only, and no trials or literature support it.
+No identifiable mechanistic link connects this action to hyperamylasemia. Hyperamylasemia is a laboratory finding with varied causes (pancreatic, salivary, renal), not an infection. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and no trials or literature support it.
 
 **Other predictions reviewed** (all with no clinical trials):
 - **Septicemic plague (rank 10, L4, "Research Question")**: the only biologically plausible candidate. *Yersinia pestis* is within the fluoroquinolone antibacterial spectrum, and other fluoroquinolones are used for plague. The retrieved papers are preclinical and do not show norfloxacin-specific efficacy. Norfloxacin's limited serum and tissue levels also make it unsuitable for septicaemia.

@@ -48,10 +48,10 @@ with **no registered clinical trials** but **8 publications** in the compiled da
 |------|------|
 | Original Indication | Restless legs syndrome, Parkinson disease (the Singapore licence records contain no approved-indication text) |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

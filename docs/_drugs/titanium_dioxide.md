@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Titanium Dioxide: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the Singapore license data"
 monitor_inn: "Titanium dioxide"
-predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "mature cataract", "immature cataract", "nuclear senile cataract"]
+predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "immature cataract", "mature cataract", "nuclear senile cataract"]
 ---
 
 # Titanium Dioxide
@@ -48,17 +48,17 @@ The evidence is a model prediction only, so this is a low-confidence signal.
 |------|------|
 | Original Indication | Not recorded in the Singapore license data |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.9998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Titanium dioxide is known as an inert pigment and sunscreen/UV-blocking agent. It is not used as a drug that acts on bone metabolism.
 
-No pharmacological link between titanium dioxide and drug-induced osteoporosis has been identified. Titanium is used in bone implants, but that is a biomaterial and device application, not a drug effect on osteoporosis. The high TxGNN score most likely reflects graph-based similarity rather than a biological mechanism. It should not be read as evidence of efficacy.
+No pharmacological link between titanium dioxide and drug-induced osteoporosis has been identified. Titanium is used in bone implants, but that is a biomaterial and device application, not a drug effect on osteoporosis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of efficacy.
 
 The other predictions (ranks 2 to 10) are mostly diabetic retinopathy and various cataract types. They share the same weakness. The retrieved literature for diabetic retinopathy covers analytical and imaging uses of TiO2, such as extracellular vesicle purification, a retinal oximetry phantom and fluorescein conjugates for angiography. None of it shows a treatment effect. TiO2 is also photoreactive and can generate reactive oxygen species under UV light, which argues against a protective role in the lens. Nanoparticle toxicity is an additional concern for any ocular use.
 

@@ -4,17 +4,17 @@ title: Belimumab
 parent: Low Evidence (L5)
 nav_order: 139
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Belimumab: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Systemic lupus erythematosus"
+indication_count: 6
 monitor_inn: "Belimumab"
-predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia", "granulomatous disease, chronic, autosomal recessive, 5", "anus disease", "inflammatory bowel disease", "granulomatous disease with defect in neutrophil chemotaxis"]
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
+last_modified_at: 2026-10-27
+description: "Belimumab: predicted new indication primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Belimumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,59 +33,51 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Belimumab: From Systemic Lupus Erythematosus to Primary Release Disorder of Platelets
+## Belimumab: BLyS/BAFF inhibitor (anti-B-cell monoclonal antibody) → primary release disorder of platelets
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Belimumab is a biologic originally used to treat systemic lupus erythematosus (SLE), including the paediatric form.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but the prediction has **0 clinical trials** and **0 publications** behind it.
-It rests on a model prediction only, and no mechanistic rationale supports it.
+Belimumab is a monoclonal antibody that inhibits soluble BLyS/BAFF and reduces B-cell survival.
+The TxGNN model predicts it may be relevant to **primary release disorder of platelets**,
+but **no clinical trials and no publications** currently support this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Systemic lupus erythematosus; paediatric systemic lupus erythematosus |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.96% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | primary release disorder of platelets |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, belimumab inhibits soluble B-lymphocyte stimulator (BLyS/BAFF) and reduces B-cell survival. This mechanism has been proven useful in SLE, an autoantibody-driven disease.
+Detailed mechanism-of-action data for belimumab are not available in the data compiled for this report. From general knowledge of the drug, it neutralises soluble BLyS/BAFF and so reduces the survival of B cells, including autoreactive B cells.
 
-Primary platelet release disorders are inherited functional platelet defects. They are not driven by B-cell activity. No mechanistic link between BAFF inhibition and this condition could be established, so the high TxGNN score is a graph-based prediction without clinical or literature support.
-
-Other predicted indications were reviewed as well. None has clinical evidence of efficacy:
-- **Inflammatory bowel disease** (rank 9, score 97.76%) is the only candidate with some supporting material. BAFF is reported to be elevated in IBD mucosa and serum, which suggests B-cell involvement. However, the literature is mostly reviews, and no IBD-specific belimumab efficacy trial was identified. It is best treated as a research question.
-- **Fetal and neonatal alloimmune thrombocytopenia** (rank 4) is mediated by maternal alloantibodies, so B-cell targeting is conceptually relevant. There is no supporting evidence, and safety in pregnancy is a major concern.
-- The remaining candidates (e.g., pseudo-von Willebrand disease, Glanzmann thrombasthenia, chronic granulomatous disease) have no plausible link to BAFF inhibition. For chronic granulomatous disease, further immunosuppression could increase infection risk.
+Primary release disorders of platelets are inherited functional platelet defects. They are not driven by B-cell activity, and no mechanistic link to BAFF inhibition has been established. The high TxGNN score is a pattern-based model output and is not backed by any clinical or literature data. At this stage the prediction should be treated as a hypothesis with low biological plausibility.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for the predicted indication, primary release disorder of platelets.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature is available for the predicted indication, primary release disorder of platelets.
+Currently no related literature available.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14211P | Benlysta Powder for Solution for Infusion 120mg | Injection, powder, lyophilised, for solution | Not stated in the data |
-| SIN14212P | Benlysta Powder for Solution for Infusion 400mg | Injection, powder, lyophilised, for solution | Not stated in the data |
+| SIN14211P | Benlysta Powder for Solution for Infusion 120mg | Injection, powder, lyophilised, for solution | Not recorded in the local data |
+| SIN14212P | Benlysta Powder for Solution for Infusion 400mg | Injection, powder, lyophilised, for solution | Not recorded in the local data |
 
 ## Safety Considerations
 
-**Drug Interactions**: 69 interactions were recorded. Examples from the compiled list:
-- **Major**: adalimumab, baricitinib, certolizumab pegol, and live BCG vaccine (Tice strain). These mainly involve additive immunosuppression or infection risk.
-- **Moderate**: azathioprine, alemtuzumab, anakinra, canakinumab, roflumilast, and several vaccines (e.g., tetanus toxoid, anthrax, cholera, adenovirus).
-- **Minor**: zinc salts (acetate, gluconate, sulfate, chloride).
+- **Drug Interactions**: 69 interactions are recorded. Major-level interactions include adalimumab, baricitinib, certolizumab pegol and live BCG vaccine (Tice strain). Moderate-level interactions include azathioprine, anakinra, alemtuzumab, canakinumab, roflumilast and several vaccines, such as tetanus toxoid and anthrax. Minor-level interactions include zinc salts. In general, combining it with other immunosuppressants or biologics raises infection risk, and live vaccines should be avoided.
 
 Please refer to the package insert for warnings and contraindications.
 
@@ -94,14 +86,13 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for primary release disorder of platelets is supported only by a model score. There are no trials or publications, and no plausible mechanistic link between BAFF inhibition and an inherited platelet function defect. Evidence level is L5.
+The prediction is supported only by the model score. There are no trials or publications, and there is no plausible mechanistic link between B-cell/BAFF inhibition and an inherited platelet function defect.
 
 **To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking BAFF/BLyS inhibition to platelet release disorders
-- Detailed mechanism of action data
-- Package insert warnings and contraindications, which are currently missing and block safety screening
-- Approved indication text for the Singapore licences
-- If the research focus shifts, a closer look at inflammatory bowel disease (rank 9), where BAFF involvement has been reported but no belimumab-specific trial exists
+- Mechanistic evidence that B-cell or BAFF-related pathways contribute to this disorder
+- Preclinical or case-level data on belimumab in platelet function disorders
+- The package insert warnings and contraindications from HSA, for the safety screening
+- Detailed mechanism-of-action data for belimumab
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

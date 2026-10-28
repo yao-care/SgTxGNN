@@ -6,9 +6,9 @@ nav_order: 536
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 2 diabetes mellitus, type 1 diabetes mellitus…"
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
+description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Glargine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Glargine: From Diabetes Mellitus to Autoimmune Oophoritis
+## Insulin Glargine: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (from the knowledge graph; no approved indication text is available in the Singapore licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on known information, insulin glargine is a long-acting basal insulin analog that acts on the insulin receptor to lower blood glucose. Its efficacy in diabetes is well established.
 
-For autoimmune oophoritis, no direct mechanistic link has been established. The high score is a graph-based prediction only. The most plausible connection is indirect: autoimmune ovarian disease often appears alongside other autoimmune endocrine conditions, including type 1 diabetes. This is a shared-comorbidity association, not evidence that insulin glargine would treat the ovarian condition. Any therapeutic rationale would be speculative.
+For autoimmune oophoritis, no direct mechanistic link has been established. The score of 0.9988 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any therapeutic rationale would be speculative.
 
 Other top-ranked predictions show similar patterns. Several (stiff person syndrome, thiamine-responsive dysfunction syndrome) reflect comorbid diabetes. Others (localized lipodystrophies) likely reflect a known adverse effect of insulin injections, which is a harm signal rather than a benefit. Pancreatic agenesis, rank 6, is the only one where insulin replacement is mechanistically rational, but that is hormone replacement for the resulting diabetes, not true repurposing.
 

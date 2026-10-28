@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cabergoline
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 189
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cabergoline: predicted new indication Pituitary adenocarcinoma (evidence level L4). Approved use: Hyperprolactinemia, including prolactin-producing pituitary tumours"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "Cabergoline"
-predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma", "progeroid syndrome, Petty type", "psychogenic movement disorders", "kleptomania", "primary orthostatic tremor", "multiple fibroadenoma of the breast"]
+predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
+last_modified_at: 2026-10-27
+description: "Cabergoline: predicted new indication progeria-short stature-pigmented nevi syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cabergoline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,82 +33,72 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Cabergoline: From Hyperprolactinemia to Pituitary Adenocarcinoma
+## Cabergoline: Dopamine D2 receptor agonist → progeria-short stature-pigmented nevi syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cabergoline is a dopamine agonist originally used to treat hyperprolactinemia and prolactin-producing pituitary tumours.
-The TxGNN model predicts it may be effective for **pituitary adenocarcinoma**, but this specific prediction is supported by **0 clinical trials** and only **3 case reports or loosely related papers**.
-Stronger evidence exists for a closely related prediction, "pituitary cancer", but that evidence concerns mostly benign adenomas (see the conclusion).
+Cabergoline is an oral dopamine D2 receptor agonist marketed in Singapore.
+The TxGNN model predicts it may be relevant to **progeria-short stature-pigmented nevi syndrome**, but the data compiled for this report contain **no clinical trials and no publications** on this disease. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperprolactinemia, including prolactin-producing pituitary tumours (the Singapore licence text is blank, so this comes from the knowledge-graph indication list) |
-| Predicted New Indication | Pituitary adenocarcinoma |
-| TxGNN Prediction Score | 99.06% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | progeria-short stature-pigmented nevi syndrome |
+| TxGNN Prediction Score | 0.9906 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Cabergoline is, however, a well-known D2 dopamine receptor agonist. D2 stimulation suppresses prolactin and, in some tumours, ACTH secretion. It can also shrink tumours that express D2 receptors.
+Currently, detailed mechanism of action data is not available. Cabergoline is known to act as a dopamine D2 receptor agonist.
 
-Hyperprolactinemia and prolactin-secreting pituitary tumours are the original indications. A pituitary carcinoma arises from the same tissue, so a graph-based model links the two. The mechanistic argument is that D2 receptors are expressed on some pituitary tumour cells.
-
-The direct evidence is thin, however. The only clearly relevant paper is a case report of long-term octreotide or cabergoline use in ectopic ACTH hypersecretion. The other two retrieved papers do not study cabergoline treatment of pituitary carcinoma. The prediction is therefore mostly a model signal with limited supporting data.
+No mechanistic link between this action and progeria-short stature-pigmented nevi syndrome can be identified. The compiled data show no biological pathway, preclinical study or case report connecting the drug to this rare syndrome. The recommendation therefore rests only on a high TxGNN score (0.9906), which is a model output and not evidence of efficacy. Any biological rationale would need to be built from scratch.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this exact predicted indication.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [20497940](https://pubmed.ncbi.nlm.nih.gov/20497940/) | 2010 | Case report | Endocrine Practice | Describes the corticotropin response to long-term octreotide or cabergoline in a patient with ectopic ACTH secretion after adrenalectomy. This is the only directly relevant report. |
-| [33569966](https://pubmed.ncbi.nlm.nih.gov/33569966/) | 2021 | Case report | Revista Española de Enfermedades Digestivas | A patient with a pituitary adenoma on cabergoline was found to have duodenal lymphangiectasia as the first sign of pancreatic adenocarcinoma. It does not address cabergoline efficacy. |
-| [41760078](https://pubmed.ncbi.nlm.nih.gov/41760078/) | 2026 | Case report | Medicine | Multiple endocrine neoplasia (MEN1) with an atypical course and a variant of uncertain significance. It does not address cabergoline treatment of pituitary carcinoma. |
+Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
+One valid single-ingredient licence is recorded, and no licences are cancelled.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
 |---------|------|------|-----------|
-| SIN09545P | DOSTINEX TABLET 0.5 mg (Pfizer Italia S.r.l.) | Tablet | — (not stated in the data compiled) |
+| SIN09545P | DOSTINEX TABLET 0.5 mg | Tablet | Pfizer Italia S.r.l. |
+
+The approved indication text is not recorded in the local data. The only registered route is oral.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: liver disease, gallbladder disease, heart valve disease, pulmonary fibrosis (including postinflammatory pulmonary fibrosis), IgG4-related retroperitoneal fibrosis, and pre-eclampsia (including severe pre-eclampsia).
-- **Drug Interactions**: 60 interactions were identified.
-  - **Major**: lorcaserin and clarithromycin.
-  - **Moderate**: metoclopramide.
-  - The remaining entries are of unclassified severity (examples: pantoprazole, omeprazole, metformin, simvastatin, prednisone).
-- **Safety signals in the retrieved literature (from other predicted indications)**:
-  - Impulse control disorders (pathological gambling, compulsive shopping, hypersexuality) have been reported repeatedly in patients on cabergoline.
-  - Cardiac valve disease is a debated risk, mainly at high doses.
-  - A case of bilateral angle-closure glaucoma has been reported.
+- **Drug Interactions**: 60 interacting drugs were identified in the interaction screening. The main ones by severity:
+  - **Major**: lorcaserin and clarithromycin
+  - **Moderate**: metoclopramide
+  - Many other entries (for example pantoprazole, omeprazole, metformin, glimepiride, simvastatin and prednisone) have an unclassified severity level.
 
-Please refer to the package insert for the official warnings, as these were not available for this report.
+Please refer to the package insert for warnings and contraindications, which are not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-For pituitary adenocarcinoma specifically, there are no registered clinical trials and the literature consists of three case reports, only one of which is relevant. The prediction currently rests mainly on the model score and a plausible D2-receptor mechanism.
-
-A closely related prediction in the same data, "pituitary cancer", has a stronger evidence base. It includes completed Phase 3 trials of cabergoline in corticotroph pituitary tumours (NCT00889525) and in residual non-functioning pituitary adenoma (NCT03271918, n=140). That evidence, however, concerns benign adenomas rather than true metastatic pituitary carcinoma. It should be assessed as a separate question and not treated as support for the carcinoma prediction.
+The prediction has no supporting clinical trials, no publications and no identifiable mechanistic rationale, so the evidence level is L5. A high model score alone does not justify moving forward.
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action data (MOA), especially D2 receptor expression in pituitary carcinoma.
-- Clinical data in confirmed pituitary carcinoma or aggressive tumours, such as case series or prospective studies.
-- The package insert warnings and contraindications from HSA, which are currently missing.
-- A safety monitoring plan covering echocardiographic valve surveillance, impulse control disorder screening, and the major drug interactions.
-- A clear decision on whether to pursue the benign-adenoma indications (corticotroph tumours, non-functioning adenoma) separately, since those have more mature evidence.
+- A plausible mechanistic hypothesis linking dopamine D2 agonism to the biology of this syndrome
+- Preclinical or case-level evidence in this disease
+- Detailed mechanism of action data for cabergoline
+- Package insert warnings and contraindications from the Singapore regulator
+- A review of whether any treatment is practical for such a rare condition, including patient numbers and suitable outcome measures
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

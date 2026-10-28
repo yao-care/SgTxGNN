@@ -48,19 +48,19 @@ It is a model prediction only, with no supporting studies.
 |------|------|
 | Original Indication | Not stated in the Singapore registration record (the product is a throat lozenge) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Amylmetacresol is known as a locally acting antiseptic in throat lozenges, with antibacterial and antiviral activity in the oropharynx. Some related lozenge compounds show weak local anaesthetic-like activity, possibly through sodium channel blockade.
 
-No mechanistic link to cauda equina syndrome has been established. The drug is not used systemically, and cauda equina syndrome is a compressive neurological condition that is managed surgically. The high TxGNN score appears to reflect graph-based association rather than biological or clinical rationale.
+No mechanistic link to cauda equina syndrome has been established. The drug is not used systemically, and cauda equina syndrome is a compressive neurological condition that is managed surgically. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other top-ranked predictions are similarly unsupported: obsolete neurogenic bladder (likely a graph-proximity effect with cauda equina syndrome), irritable bowel syndrome, and several eye conditions (ciliary body disease, panuveitis, iris disease, infectious anterior uveitis, uveitis, ciliary body cancer and benign ciliary body neoplasm). All are L5, with no trials or publications. Infectious anterior uveitis has only a theoretical antimicrobial rationale, with no data on eye delivery or tolerability.
+Other top-ranked predictions are similarly unsupported: obsolete neurogenic bladder (the TxGNN model (deep learning) score may reflect similarities the model learned with cauda equina syndrome, not biological evidence), irritable bowel syndrome, and several eye conditions (ciliary body disease, panuveitis, iris disease, infectious anterior uveitis, uveitis, ciliary body cancer and benign ciliary body neoplasm). All are L5, with no trials or publications. Infectious anterior uveitis has only a theoretical antimicrobial rationale, with no data on eye delivery or tolerability.
 
 ## Clinical Trial Evidence
 

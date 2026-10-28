@@ -8,6 +8,7 @@ nav_order: 68
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Alpha-Tocopherol
@@ -50,8 +51,8 @@ In this Evidence Pack, **the TxGNN model generated no novel indication predictio
 | Predicted New Indication | None (TxGNN produced no predictions) |
 | TxGNN Prediction Score | None |
 | Evidence Level | Cannot be determined (no prediction data) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

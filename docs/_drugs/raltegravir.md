@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Raltegravir
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 849
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Raltegravir"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "breast fibrocystic disease", "benign reproductive system neoplasm", "Brenner tumor"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Raltegravir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ This is a model organism analogue of the approved indication, not a distinct new
 |------|------|
 | Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Simian immunodeficiency virus infection (the top-ranked prediction, feline acquired immunodeficiency syndrome, has no supporting evidence) |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9978 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

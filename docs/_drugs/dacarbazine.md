@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dacarbazine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 295
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L4). Approved use: Hodgkin lymphoma and metastatic melanoma"
 monitor_inn: "Dacarbazine"
-predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "breast papillomatosis", "head and neck cancer", "salivary gland type cancer of the breast", "adult astrocytic tumour", "breast lipoma"]
+predicted_indications: ["upper aerodigestive tract neoplasm"]
+description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dacarbazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Dacarbazine: From Hodgkin Lymphoma and Metastatic Melanoma to Upper Aerodigestive Tract Neoplasm
+## Dacarbazine: Upper aerodigestive tract neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **upper aerodigestive tract neo
 
 | Item | Content |
 |------|------|
-| Original Indication | Hodgkin lymphoma and metastatic melanoma (the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| TxGNN Prediction Score | 0.9926 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +63,6 @@ The retrieved literature touches the head and neck region only indirectly. It co
 
 Currently no related clinical trials registered for this predicted indication.
 
-(For reference, two early-phase dacarbazine combination trials were linked to the broader "head and neck cancer" prediction, but both enrolled melanoma, sarcoma or medullary thyroid carcinoma patients, not upper aerodigestive tract cancer.)
 
 ## Literature Evidence
 
@@ -92,7 +91,6 @@ Currently no related clinical trials registered for this predicted indication.
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (DNA-alkylating agent) |
-| Myelosuppression Risk | High (the knowledge graph links dacarbazine to leukopenia, thrombocytopenia and anaemia as risk conditions) |
 | Emetogenicity Classification | High |
 | Monitoring Items | Complete blood count with differential, liver function, renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |

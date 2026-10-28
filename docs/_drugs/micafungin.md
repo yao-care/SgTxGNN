@@ -4,17 +4,17 @@ title: Micafungin
 parent: Medium Evidence (L3-L4)
 nav_order: 670
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Esophageal candidiasis, candidemia, disseminated candidiasis"
 monitor_inn: "Micafungin"
-predicted_indications: ["urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "malignant visceral pleura tumor", "sarcomatoid mesothelioma", "urogenital tuberculosis"]
+predicted_indications: ["urinary tract infection (disease)"]
 ---
 
 # Micafungin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Micafungin: From Candidemia and Invasive Candidiasis to Urinary Tract Infection (Candida)
+## Micafungin: urinary tract infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **urinary tract infection**, an
 |------|------|
 | Original Indication | Esophageal candidiasis, candidemia, disseminated candidiasis (the Singapore licence record contains no approved indication text) |
 | Predicted New Indication | Urinary tract infection (disease) |
-| TxGNN Prediction Score | 99.03% |
+| TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -65,7 +65,6 @@ Candida is a common cause of fungal urinary tract infection and candiduria. The 
 
 There is one pharmacokinetic caveat. Only a small fraction of micafungin is excreted in urine, and echinocandins are not routinely recommended for candiduria. However, a pharmacokinetic report (PMID 27424599) found urinary micafungin levels sufficient to treat Candida UTI in six patients, including four with fluconazole-resistant organisms. This partly addresses the concern, but the data are small-scale.
 
-Other predicted indications (Ureaplasma urethritis, gonococcal urethritis, uterine inflammatory disease, xanthogranulomatous pyelonephritis, urogenital tuberculosis, and several mesothelioma types) have no mechanistic basis. Most are bacterial or oncologic conditions, and the predictions appear to be knowledge-graph artifacts. They are rated Hold.
 
 ---
 
@@ -101,7 +100,7 @@ Currently no related clinical trials registered.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph association, not label text)**: Kidney disease and pyoureter are linked to micafungin in the knowledge graph. This matters for a urinary indication, so renal function and the urinary tract should be assessed before use.
+- **Contraindications (association, not label text)**: Kidney disease and pyoureter are linked to micafungin. This matters for a urinary indication, so renal function and the urinary tract should be assessed before use.
 - **Drug Interactions (5 moderate-level interactions)**: Amphotericin B, nitisinone, everolimus, ribociclib and sirolimus.
 
 For other warnings and contraindications, please refer to the package insert.

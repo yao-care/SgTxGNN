@@ -4,17 +4,17 @@ title: Itraconazole
 parent: Low Evidence (L5)
 nav_order: 559
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Fungal infections (esophageal candidiasis, candidemia, histoplasmosis…"
 monitor_inn: "Itraconazole"
-predicted_indications: ["pneumocystosis", "Cryptococcal meningitis", "trichosporonosis", "hyalohyphomycosis", "penicilliosis", "geotrichosis", "maple bark strippers' lung", "leprosy", "congenital candidiasis", "candida glabrata"]
+predicted_indications: ["pneumocystosis"]
+description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Itraconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Itraconazole: From Fungal Infections to Pneumocystosis
+## Itraconazole: Pneumocystosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Itraconazole is a triazole antifungal originally used for fungal infections such as candidiasis, histoplasmosis, aspergillosis, blastomycosis and sporotrichosis.
 The TxGNN model predicts it may be effective for **pneumocystosis**, but there are **no registered clinical trials** and the **20 retrieved publications** are mostly general reviews and case reports with no direct evidence of itraconazole activity against Pneumocystis.
-Several lower-ranked predictions, such as cryptococcal meningitis and penicilliosis, have more credible supporting evidence and are discussed below.
 
 ---
 
@@ -48,12 +47,12 @@ Several lower-ranked predictions, such as cryptococcal meningitis and penicillio
 
 | Item | Content |
 |------|------|
-| Original Indication | Fungal infections (esophageal candidiasis, candidemia, histoplasmosis, aspergillosis, blastomycosis, and others) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,15 +67,6 @@ The high TxGNN score for pneumocystosis is probably driven by network proximity 
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Cryptococcal meningitis | 93.74% | L2 | Mechanism applies and clinical use is reported, but CNS penetration is limited and fluconazole is preferred in guidelines. Itraconazole serves mainly as an alternative or step-down agent. |
-| Trichosporonosis | 89.01% | L4 | Mostly in vitro, animal and case-report evidence. Voriconazole is preferred. |
-| Hyalohyphomycosis | 89.01% | L4 | Fusarium, Scedosporium and Lomentospora are often intrinsically resistant. Evidence is limited to case reports and reviews. |
-| Penicilliosis | 89.01% | L3 | Itraconazole is already established step-down and maintenance therapy after amphotericin B, so this is an existing guideline-supported use rather than a new opportunity. No RCT was retrieved. |
-| Geotrichosis | 89.01% | L4 | Case reports and a case series, usually in combination regimens, so the contribution of itraconazole alone cannot be isolated. |
-| Maple bark strippers' lung | 88.83% | L5 | An immune-mediated condition. No trials or literature, and no clear role for an antifungal. |
-| Leprosy | 87.50% | L5 | Caused by a bacterium without ergosterol. The retrieved papers are unrelated, so the prediction is not supported. |
-| Congenital candidiasis | 85.04% | L4 | Mechanism is well established, but neonatal evidence is limited to a 1992 report and safety data are limited. |
-| Candida glabrata | 85.04% | L4 | Frequent reduced azole susceptibility. Literature is mostly resistance surveillance, and echinocandins are preferred. |
 
 ---
 
@@ -84,7 +74,7 @@ The high TxGNN score for pneumocystosis is probably driven by network proximity 
 
 Currently no related clinical trials are registered for pneumocystosis.
 
-For the second-ranked prediction, cryptococcal meningitis, two trials were retrieved. Neither clearly tests itraconazole as the study agent:
+Neither clearly tests itraconazole as the study agent:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -144,7 +134,6 @@ The pneumocystosis prediction has model-only support (L5). The mechanism does no
 - Mechanism of action data, to be added from DrugBank.
 - Package insert warnings and contraindications from the HSA, which are needed before safety screening.
 - Approved indication text for the Singapore registrations, which is missing from the data.
-- Consider redirecting effort to better-supported candidates, such as cryptococcal meningitis (alternative or step-down role) or penicilliosis (an existing guideline-supported use), after confirming their status in local guidelines.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

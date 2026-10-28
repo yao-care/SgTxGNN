@@ -4,17 +4,17 @@ title: Memantine
 parent: Low Evidence (L5)
 nav_order: 647
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not stated in the HSA licence data (generally used for Alzheimer's de…"
 monitor_inn: "Memantine"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "rheumatoid arthritis", "nephrogenic syndrome of inappropriate antidiuresis", "atrophoderma vermiculata", "migraine with or without aura, susceptibility to", "ulerythema ophryogenesis", "brachydactyly-syndactyly syndrome"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 ---
 
 # Memantine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Memantine is an NMDA receptor antagonist. The Singapore registration data compil
 |------|------|
 | Original Indication | Not stated in the HSA licence data (generally used for Alzheimer's dementia) |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -112,7 +112,7 @@ The pulmonary hypertension prediction ranks first by score but has the weakest e
 | Predicted Indication | Evidence Level | Support |
 |------|------|------|
 | Migraine disorder | L1 (assigned cautiously) | One completed Phase 3 trial, [NCT04698525](https://clinicaltrials.gov/study/NCT04698525) (memantine vs sodium valproate for episodic migraine prophylaxis, n=33). Also several meta-analyses and systematic reviews, including [33961371](https://pubmed.ncbi.nlm.nih.gov/33961371/) and [34352118](https://pubmed.ncbi.nlm.nih.gov/34352118/). Reviews describe the evidence as limited ("big promise but little evidence"). |
-| Migraine with brainstem aura | L2 | Indirect: a placebo-controlled RCT in migraine without aura ([26638119](https://pubmed.ncbi.nlm.nih.gov/26638119/)). |
+| Migraine with brainstem aura | L5 | Indirect: a placebo-controlled RCT in migraine without aura ([26638119](https://pubmed.ncbi.nlm.nih.gov/26638119/)). |
 | Rheumatoid arthritis | L4 | Preclinical only, including an animal arthritis model ([22134197](https://pubmed.ncbi.nlm.nih.gov/22134197/)). |
 
 The remaining predictions (kyphoscoliotic heart disease, nephrogenic syndrome of inappropriate antidiuresis, atrophoderma vermiculata, ulerythema ophryogenesis and brachydactyly-syndactyly syndrome) have no supporting trials or literature.
@@ -124,7 +124,7 @@ The remaining predictions (kyphoscoliotic heart disease, nephrogenic syndrome of
 **Decision: Hold**
 
 **Rationale:**
-The pulmonary hypertension prediction scores very high (99.54%), but there are no clinical trials and no published studies testing memantine itself in this disease. The only clinical-stage link is a Phase 1 study of a different compound, the memantine derivative MN-08, in healthy volunteers. This is a model-generated hypothesis at evidence level L5.
+The pulmonary hypertension prediction scores very high (0.9954), but there are no clinical trials and no published studies testing memantine itself in this disease. The only clinical-stage link is a Phase 1 study of a different compound, the memantine derivative MN-08, in healthy volunteers. This is a model-generated hypothesis at evidence level L5.
 
 **To proceed, the following is needed:**
 - Preclinical studies of memantine in pulmonary hypertension models, since the NMDA receptor link in the pulmonary vasculature is still indirect

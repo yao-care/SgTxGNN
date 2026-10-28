@@ -4,17 +4,17 @@ title: Paroxetine
 parent: Low Evidence (L5)
 nav_order: 765
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not stated in the Singapore licence record. Per the knowledge graph:…"
 monitor_inn: "Paroxetine"
-predicted_indications: ["Ohdo syndrome and variants", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "agoraphobia", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder"]
+predicted_indications: ["Ohdo syndrome and variants"]
+description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paroxetine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Paroxetine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
+## Paroxetine: Ohdo syndrome and variants
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This prediction currently has **0 clinical trials** and **0 publications** behin
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record. Per the knowledge graph: anxiety disorder, major depressive disorder, obsessive-compulsive disorder, post-traumatic stress disorder, social phobia and related conditions |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.11% |
+| TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This prediction currently has **0 clinical trials** and **0 publications** behin
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, paroxetine is a potent and selective serotonin reuptake inhibitor. Its efficacy in depression and anxiety disorders is well established.
 
-For Ohdo syndrome, **no mechanistic link has been established**. Ohdo syndrome is a rare genetic disorder, typically associated with KAT6B, and has no known serotonergic pathway that would justify using paroxetine. The high score (0.991) is a graph-based prediction only. It likely reflects the structure of the knowledge graph rather than biological or clinical evidence.
+For Ohdo syndrome, **no mechanistic link has been established**. Ohdo syndrome is a rare genetic disorder, typically associated with KAT6B, and has no known serotonergic pathway that would justify using paroxetine. The high score (0.9911) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -106,7 +106,6 @@ The prediction has no clinical trials, no literature and no plausible mechanisti
 - A biological rationale connecting serotonin reuptake inhibition to KAT6B-related or Ohdo-type pathology
 - Preclinical or case-level evidence of any benefit
 - Mechanism of action data and the package insert warnings and contraindications for the Singapore-registered product
-- Note that the closely related TxGNN predictions for the same drug, **melancholia** (L1) and **agoraphobia** (L1), are supported by clinical trials and literature. They are better candidates for further evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

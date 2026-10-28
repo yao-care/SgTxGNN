@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 384
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma, anaphylaxis, bronchitis, pulmonary emphysema…"
 monitor_inn: "Epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation", "dry eye syndrome", "pseudoallergy", "laryngotracheitis", "headache disorder", "anorectal stricture", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
+description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Epinephrine: From Asthma and Anaphylaxis to Obstructive Lung Disease
+## Epinephrine: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Much of this prediction rediscovers an existing use, and the strongest evidence 
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, anaphylaxis, bronchitis, pulmonary emphysema, hypotensive disorder, open-angle glaucoma (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 15 |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism-of-action data were not available in the data compiled for th
 
 Obstructive lung disease covers asthma and chronic obstructive pulmonary disease (COPD). Asthma, emphysema and bronchitis are already among epinephrine's original indications, so this prediction is largely a rediscovery of an existing use rather than a wholly new one. The inhaled HFA metered-dose formulation (E004 / Primatene Mist) has Phase 3 efficacy and safety data in asthma. Evidence in bronchiolitis is mixed and is best treated as a separate sub-question.
 
-Among the other predictions, **laryngotracheitis (croup)** has the next strongest support (L2). Nebulised epinephrine reduces subglottic oedema, and this is established clinical practice. Food-dependent exercise-induced anaphylaxis (L4) is a subtype of anaphylaxis, an existing indication. Predictions such as Rienhoff syndrome, anorectal stricture, dry eye syndrome, headache disorder and trigeminal autonomic cephalalgia have no clinical trials or no therapeutic rationale and should be held.
+Nebulised epinephrine reduces subglottic oedema, and this is established clinical practice. Food-dependent exercise-induced anaphylaxis (L4) is a subtype of anaphylaxis, an existing indication. Predictions such as Rienhoff syndrome, anorectal stricture, dry eye syndrome, headache disorder and trigeminal autonomic cephalalgia have no clinical trials or no therapeutic rationale and should be held.
 
 ## Clinical Trial Evidence
 

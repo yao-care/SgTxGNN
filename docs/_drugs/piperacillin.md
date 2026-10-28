@@ -4,17 +4,17 @@ title: Piperacillin
 parent: Low Evidence (L5)
 nav_order: 796
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the approved licence data compiled for this report"
 monitor_inn: "Piperacillin"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "osteoarthritis susceptibility", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome", "osteoarthritis"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
 ---
 
 # Piperacillin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ This prediction is best viewed as a computational signal and not as supported ev
 |------|------|
 | Original Indication | Not stated in the approved licence data compiled for this report |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Piperacillin is known to be a beta-lactam antibiotic that inhibits bacterial cell wall synthesis. It has no established anti-inflammatory or immunomodulatory action relevant to rheumatoid arthritis.
 
-The original indication (bacterial infection) and the predicted indication (an autoimmune joint disease) do not share a clear pathway. The high TxGNN score is most likely a graph-based artifact. The retrieved literature describes patients with rheumatoid arthritis who were treated for infections, or who had adverse events from other drugs such as methotrexate. This shows co-occurrence, not benefit.
+The original indication (bacterial infection) and the predicted indication (an autoimmune joint disease) do not share a clear pathway. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The retrieved literature describes patients with rheumatoid arthritis who were treated for infections, or who had adverse events from other drugs such as methotrexate. This shows co-occurrence, not benefit.
 
 Other predictions (ranks 2–10) were also reviewed, and none has a plausible mechanistic link supported by trials. Sclerosing cholangitis is the only one with a loosely related rationale (antibiotics for bacterial cholangitis complications), but no direct evidence was supplied.
 

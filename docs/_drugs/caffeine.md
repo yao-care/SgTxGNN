@@ -4,17 +4,17 @@ title: Caffeine
 parent: Low Evidence (L5)
 nav_order: 192
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Caffeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, migraine, pharyngitis…"
 monitor_inn: "Caffeine"
-predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute laryngopharyngitis", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
+predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
 ---
 
 # Caffeine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ The evidence is essentially a computational prediction.
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, migraine, pharyngitis, common cold, headache disorders (cluster headache, paroxysmal hemicrania, hemicrania continua) |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 20 |
+| Singapore Market Status | Marketed (valid licences: 20 of 20) |
+| Number of Registrations | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
-*Note: The approved indication text is not recorded in the Singapore licence data compiled for this report. The original indications above come from the TxGNN knowledge graph.*
+*Note: The approved indication text is not recorded in the Singapore licence data compiled for this report.*
 
 ---
 
@@ -130,15 +130,13 @@ The prediction is supported only by model similarity to existing rhinitis indica
 
 | Rank | Disease | Score | Evidence Level | Recommendation | Note |
 |---|---|---|---|---|---|
-| 2 | Thrombotic disease | 99.90% | L4 | Hold | Reviews on hemostasis show inconsistent effects, possibly harmful |
-| 3 | Acute laryngopharyngitis | 99.89% | L5 | Hold | Restates existing pharyngitis/cold indications; no evidence retrieved |
-| 4 | Papillary conjunctivitis | 99.79% | L5 | Hold | Speculative link to allergic inflammation |
-| 5 | Neuralgia | 99.34% | L4 | Research Question | Rat studies support analgesic adjuvant role; no human trials |
-| 6 | Glossodynia | 99.26% | L5 | Hold | No evidence retrieved |
-| 7 | Coccygodynia | 99.22% | L5 | Hold | No evidence retrieved |
-| 8 | Trigeminal autonomic cephalalgia | 99.21% | L4 | Research Question | Largely overlaps existing headache indications |
-| 9 | Hypnic headache | 99.17% | L3 | Research Question | Case series and reviews describe caffeine as first-line therapy; no controlled trials |
-| 10 | Vein disease | 99.06% | L4 | Hold | Only indirect, mostly off-target evidence |
+| 2 | Thrombotic disease | 0.9990 | L5 | Hold | Reviews on hemostasis show inconsistent effects, possibly harmful |
+| 4 | Papillary conjunctivitis | 0.9979 | L5 | Hold | Speculative link to allergic inflammation |
+| 5 | Neuralgia | 0.9934 | L4 | Research Question | Rat studies support analgesic adjuvant role; no human trials |
+| 6 | Glossodynia | 0.9926 | L5 | Hold | No evidence retrieved |
+| 7 | Coccygodynia | 0.9922 | L5 | Hold | No evidence retrieved |
+| 8 | Trigeminal autonomic cephalalgia | 0.9921 | L4 | Research Question | Largely overlaps existing headache indications |
+| 10 | Vein disease | 0.9906 | L4 | Hold | Only indirect, mostly off-target evidence |
 
 Among these, **hypnic headache** has the strongest supporting evidence (case series and narrative reviews recommending caffeine, with no randomised trials) and may be the more promising candidate for further evaluation.
 ## Disclaimer

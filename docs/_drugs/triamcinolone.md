@@ -4,17 +4,17 @@ title: Triamcinolone
 parent: Medium Evidence (L3-L4)
 nav_order: 1020
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Autoimmune disease, Crohn disease…"
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Triamcinolone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Triamcinolone: From Autoimmune and Inflammatory Disease to Alopecia Mucinosa
+## Triamcinolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa** (follicul
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease, Crohn disease, adrenocortical insufficiency and others (from the knowledge graph; the Singapore licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia mucinosa |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 13 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,7 +64,6 @@ Intralesional or topical corticosteroids are commonly used in follicular mucinos
 - **Idiopathic steroid-sensitive nephrotic syndrome** (L4): the support reflects the glucocorticoid class (prednisone/prednisolone are standard first-line), not triamcinolone specifically.
 - **Alopecia universalis with onychodystrophy and vitiligo** (L5): the autoimmune features make corticosteroid use plausible, but there is no direct evidence, and alopecia universalis responds poorly to intralesional therapy.
 - **Telogen effluvium** (L5): a typically non-inflammatory, self-limiting condition with no clear mechanistic rationale for a corticosteroid.
-- **Sporadic idiopathic steroid-resistant nephrotic syndrome** (L5): by definition unresponsive to glucocorticoids, so the prediction is mechanistically counterintuitive.
 - **Alopecia antibody deficiency, hereditary hypotrichosis with recurrent skin vesicles, alopecia–intellectual disability–hypergonadotropic hypogonadism syndrome, and atrichia with papular lesions** (all L5): prediction only, with no clinical evidence and no plausible mechanistic link.
 
 ## Literature Evidence

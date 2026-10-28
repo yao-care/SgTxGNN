@@ -6,9 +6,9 @@ nav_order: 495
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Psychotic disorder, schizophrenia…"
 monitor_inn: "Haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Haloperidol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Haloperidol: From Schizophrenia to Congenital Disorder of Glycosylation with Defective Fucosylation
+## Haloperidol: Congenital disorder of glycosylation with defective fucosylation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Psychotic disorder, schizophrenia, schizophreniform and schizoaffective disorder, Tourette syndrome (taken from the knowledge graph, because the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Detailed mechanism of action data is not available in the compiled data. Haloperidol is generally known as a dopamine D2 receptor antagonist, and its efficacy in psychosis and schizophrenia is well established.
 
-The compiled data shows **no mechanistic link** between D2 antagonism and fucosylation or glycosylation pathways. The very high TxGNN score reflects a pattern in the knowledge graph, not biological or clinical evidence. This prediction should be treated as a hypothesis only, and it is not recommended for further investment without supporting data.
+The compiled data shows **no mechanistic link** between D2 antagonism and fucosylation or glycosylation pathways. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should be treated as a hypothesis only, and it is not recommended for further investment without supporting data.
 
 ---
 
@@ -109,7 +109,7 @@ All four registrations are valid single-ingredient products, available as oral t
 **Decision: Hold**
 
 **Rationale:**
-- The prediction rests only on a graph-based score. There are no trials, no publications and no plausible mechanistic link to glycosylation biology. Haloperidol also carries a substantial safety and interaction burden.
+- The prediction rests only on a score from the TxGNN model (deep learning). There are no trials, no publications and no plausible mechanistic link to glycosylation biology. Haloperidol also carries a substantial safety and interaction burden.
 
 **To proceed, the following is needed:**
 - A mechanistic hypothesis linking haloperidol pharmacology to fucosylation pathways, with preclinical support

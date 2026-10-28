@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Dosulepin
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 350
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Dosulepin: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
-monitor_inn: "Dosulepin"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "melancholia", "Ohdo syndrome and variants", "neurotic disorder", "Keppen-Lubinsky syndrome", "blepharophimosis - intellectual disability syndrome, Ohdo type", "ligneous conjunctivitis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Dosulepin: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Dosulepin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,65 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dosulepin: From Depression to Benign Paroxysmal Torticollis of Infancy
+<!-- known-uses-page -->
+<!-- description: Dosulepin: known uses and market status in Singapore; currently no new candidate indication -->
+## Dosulepin: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Dosulepin, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The two known uses below are relations recorded in the knowledge graph, and no approval was found for them.
 
-Dosulepin is a tricyclic antidepressant originally used for depression and anxiety disorders.
-The TxGNN model predicts it may be effective for **benign paroxysmal torticollis of infancy**,
-but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so the signal is model-only.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the Singapore licence lists no indication text) |
-| Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 98.97% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 2 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Dosulepin is a tricyclic antidepressant. Pharmacology records show it acts on the noradrenaline transporter (NET) and serotonin transporter (SERT), and also on muscarinic M1–M5 receptors and the histamine H1 receptor. Its established effect is in depression and anxiety.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Benign paroxysmal torticollis of infancy is an episodic movement disorder of early childhood, often linked to CACNA1A channel gene variants. It has no clear mechanistic connection to monoamine reuptake inhibition. The high TxGNN score is therefore best viewed as an unverified graph-based signal. Use in infants would also raise major safety concerns, including anticholinergic effects and cardiac toxicity.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Among the other top predictions, several are better supported:
-
-- **Dysthymic disorder, melancholia, neurotic depression:** these sit within the depression spectrum, so they are better seen as extensions of the existing label than as true repurposing.
-- **Agoraphobia and neurotic disorder:** there is moderate plausibility, given the labelled anxiety indication.
-- **Ohdo syndrome, Keppen-Lubinsky syndrome, ligneous conjunctivitis:** no plausible mechanistic link.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for the top-ranked prediction. For the depression-spectrum predictions (melancholia and neurotic depression), the compiled literature is general antidepressant evidence and is not specific to those conditions:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [386873](https://pubmed.ncbi.nlm.nih.gov/386873/) | 1978 | RCT | Annales medico-psychologiques | Clinical comparison of dosulepin and amitriptyline (no abstract available) |
-| [24353997](https://pubmed.ncbi.nlm.nih.gov/24353997/) | 2013 | Review | Cochrane Database Syst Rev | Fluoxetine versus other pharmacotherapy for depression |
-| [11719915](https://pubmed.ncbi.nlm.nih.gov/11719915/) | 2001 | Review | Br Med Bull | Meta-analyses of newer antidepressants; little efficacy difference between most new and old agents |
-| [38379028](https://pubmed.ncbi.nlm.nih.gov/38379028/) | 2024 | Population-based study | Acta Psychiatr Scand | Comparison of response to 17 antidepressants in MDD over 2 years |
-| [41522586](https://pubmed.ncbi.nlm.nih.gov/41522586/) | 2025 | Observational study | J Pharm Bioallied Sci | Efficacy and safety of SSRIs versus TCAs in MDD |
-| [19347769](https://pubmed.ncbi.nlm.nih.gov/19347769/) | 2009 | Cohort | Nord J Psychiatry | Naturalistic comparison of dosulepin and venlafaxine in depressive episodes |
-| [15311996](https://pubmed.ncbi.nlm.nih.gov/15311996/) | 2004 | Cohort | Physiol Res | QT dispersion changes in 28 patients on dosulepin (cardiotoxicity) |
-| [15354946](https://pubmed.ncbi.nlm.nih.gov/15354946/) | 2004 | Cohort | Prague Med Rep | QT dispersion in 27 patients on dosulepin (cardiotoxicity) |
-| [20139216](https://pubmed.ncbi.nlm.nih.gov/20139216/) | 2010 | Case-control | BMJ | Sudden cardiac death risk with venlafaxine versus other antidepressants |
-| [2651248](https://pubmed.ncbi.nlm.nih.gov/2651248/) | 1989 | Randomised placebo-controlled study | Fortschr Med | Traffic safety in 48 healthy volunteers on dosulepin 75 mg versus placebo |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| anxiety disorder |
+| endogenous depression |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10607P | ESPIN CAPSULE 25 mg | Capsule | Indication text not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10607P | ESPIN CAPSULE 25 mg | CAPSULE | Valid |
 
 ## Safety Considerations
 
@@ -101,18 +81,6 @@ Currently no related literature available for the top-ranked prediction. For the
 
 Please refer to the package insert for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The top prediction is supported only by the model score (L5). It has no trials or literature, no plausible mechanistic link to dosulepin's tricyclic pharmacology, and a poor expected safety profile in infants.
-
-**To proceed, the following is needed:**
-- Mechanism of action data (MOA) from DrugBank
-- The Singapore package insert, to confirm approved indications, warnings and contraindications
-- A targeted literature search for the more plausible depression-spectrum predictions (dysthymic disorder, melancholia), which may be better treated as label extensions than as repurposing
-- A cardiac safety assessment (QT/ECG) for any future use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

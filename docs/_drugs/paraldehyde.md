@@ -4,17 +4,17 @@ title: Paraldehyde
 parent: Low Evidence (L5)
 nav_order: 763
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Paraldehyde: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not stated in the registration data (approved indication text is blan…"
 monitor_inn: "Paraldehyde"
-predicted_indications: ["irritable bowel syndrome", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "neurocirculatory asthenia", "rhinitis", "insomnia (disease)", "dysautonomia", "autonomic nervous system disease", "ancylostomiasis", "mitral valve prolapse (disease)"]
+predicted_indications: ["irritable bowel syndrome", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "neurocirculatory asthenia", "rhinitis", "insomnia (disease)"]
 ---
 
 # Paraldehyde
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Paraldehyde is a legacy sedative-hypnotic and anticonvulsant, registered in Sing
 |------|------|
 | Original Indication | Not stated in the registration data (approved indication text is blank) |
 | Predicted New Indication | Irritable bowel syndrome |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,21 +58,17 @@ Currently, detailed mechanism of action data is not available. Paraldehyde is kn
 
 A possible link to irritable bowel syndrome (IBS) would run through central modulation of the gut-brain axis or reduced visceral hypersensitivity. This is speculative and has no supporting studies. Paraldehyde's poor tolerability (strong odor, tissue irritation, and a problematic toxic metabolite profile) also works against it.
 
-The high score (99.97%) is a computational prediction only and should not be read as evidence of efficacy.
+The high score (0.9997) is a computational prediction only and should not be read as evidence of efficacy.
 
 **Other predicted indications (all prediction-only, Hold unless noted):**
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Cauda equina syndrome | 99.97% | L5 | A surgical emergency; a sedative has no disease-modifying role |
-| 3 | Obsolete neurogenic bladder (disease) | 99.88% | L5 | Obsolete ontology term; needs remapping to a current concept |
-| 4 | Neurocirculatory asthenia | 99.75% | L5 | Anxiolytic effect conceptually plausible, but unsupported |
-| 5 | Rhinitis | 99.60% | L5 | No plausible mechanism |
-| 6 | Insomnia (disease) | 99.30% | L4 | Biologically coherent with its historical hypnotic use; only one indirect 1992 review. Research Question |
-| 7 | Dysautonomia | 98.91% | L5 | Indirect link only |
-| 8 | Autonomic nervous system disease | 98.46% | L5 | Broad parent category, likely ontology proximity |
-| 9 | Ancylostomiasis | 98.42% | L5 | No anthelmintic activity; likely a model artifact |
-| 10 | Mitral valve prolapse (disease) | 97.96% | L5 | No plausible mechanism |
+| 2 | Cauda equina syndrome | 0.9997 | L5 | A surgical emergency; a sedative has no disease-modifying role |
+| 3 | Obsolete neurogenic bladder (disease) | 0.9988 | L5 | Obsolete ontology term; needs remapping to a current concept |
+| 4 | Neurocirculatory asthenia | 0.9975 | L5 | Anxiolytic effect conceptually plausible, but unsupported |
+| 5 | Rhinitis | 0.9960 | L5 | No plausible mechanism |
+| 6 | Insomnia (disease) | 0.9930 | L5 | Biologically coherent with its historical hypnotic use; only one indirect 1992 review. Research Question |
 
 Insomnia is the only prediction with a coherent mechanism, but it largely reflects paraldehyde's historical use. Modern alternatives exist, so it is better treated as a confirmatory finding than a new repurposing opportunity.
 

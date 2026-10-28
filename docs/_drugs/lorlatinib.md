@@ -4,17 +4,17 @@ title: Lorlatinib
 parent: Low Evidence (L5)
 nav_order: 616
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Lorlatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer / lung cancer"
 monitor_inn: "Lorlatinib"
-predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+description: "Lorlatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lorlatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lorlatinib: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Lorlatinib: Fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ The evidence is at the model-prediction level only, and the recommendation is to
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung cancer / lung cancer (from the knowledge graph; the Singapore licence text is blank) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From the literature, lorlatinib is a brain-penetrant, third-generation inhibitor of ALK and ROS1 tyrosine kinases. Its efficacy in ALK-positive NSCLC is well established, including in the Phase 3 CROWN study.
 
-For gingival fibromatosis, **no mechanistic link has been identified**. No ALK/ROS1 involvement in this condition is established in the data, and the score of 0.998 is a computational output only. The other top predictions follow a similar pattern:
+For gingival fibromatosis, **no mechanistic link has been identified**. No ALK/ROS1 involvement in this condition is established in the data, and the score of 0.9981 is a computational output only. The other top predictions follow a similar pattern:
 
 - **Lung-related benign or rare tumours** (fibroma of lung, hamartoma of lung, pulmonary sulcus neoplasm, lung benign neoplasm): these probably reflect the drug's association with lung disease rather than a disease-specific mechanism. Pancoast tumours are usually NSCLC, so ALK-positive cases might respond, but the data do not support this.
 - **Lung hilum carcinoma**: this is essentially a variant of the approved ALK-positive lung cancer setting. It is supported by a single 2023 case report of pathological complete response after neoadjuvant lorlatinib.

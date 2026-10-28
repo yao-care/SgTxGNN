@@ -4,17 +4,17 @@ title: Ursodeoxycholic Acid
 parent: Low Evidence (L5)
 nav_order: 1046
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis…"
 monitor_inn: "Ursodeoxycholic acid"
-predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "pseudo-von Willebrand disease", "primary release disorder of platelets", "primary hyperoxaluria", "diabetic nephropathy", "Glanzmann thrombasthenia", "obsolete familial combined hyperlipidemia", "hypolipoproteinemia (disease)"]
+predicted_indications: ["homozygous familial hypercholesterolemia"]
+description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ursodeoxycholic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,48 +33,38 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ursodeoxycholic Acid: From Gallstone Disease and Primary Biliary Cholangitis to Homozygous Familial Hypercholesterolemia
+## Ursodeoxycholic Acid: Homozygous familial hypercholesterolemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ursodeoxycholic acid (UDCA) was originally used to treat gallstone disease (cholelithiasis, cholecystolithiasis, choledocholithiasis) and primary biliary cholangitis.
 The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia**, but **no clinical trials and no publications** currently support this prediction, so it is a computational prediction only.
-The best-supported alternative among the top 10 predictions is **diabetic nephropathy**, which has 7 publications (mostly preclinical) and one possible early human study.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, UDCA is a bile acid used in cholestatic and gallstone disorders. It reduces intestinal cholesterol absorption and hepatic cholesterol secretion, so a link to lipid handling is plausible.
 
-However, homozygous familial hypercholesterolemia is driven by LDL receptor dysfunction. Bile acid modulation is unlikely to replace LDL-lowering therapy, so this link is speculative and not evidence-based. The high score (99.86%) reflects a network-based computational association only.
+However, homozygous familial hypercholesterolemia is driven by LDL receptor dysfunction. Bile acid modulation is unlikely to replace LDL-lowering therapy, so this link is speculative and not evidence-based. The high score (0.9986) reflects a network-based computational association only.
 
 **Other predicted indications (ranks 2-10)**
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Brain small vessel disease 1 (COL4A1) | 98.31% | L5 | Hypothesis only: chemical-chaperone / ER-stress relief; no data |
-| 3 | Familial hematuria-retinal arteriolar tortuosity-contractures syndrome (COL4A1-related) | 98.30% | L5 | Same speculative rationale; no data |
-| 4 | Pseudo-von Willebrand disease | 97.21% | L5 | No clear mechanistic link |
-| 5 | Primary release disorder of platelets | 97.07% | L5 | No plausible link |
-| 6 | Primary hyperoxaluria | 96.89% | L5 | No known effect on oxalate synthesis |
-| 7 | **Diabetic nephropathy** | 96.69% | **L3** | Coherent preclinical rationale; one possible human study |
-| 8 | Glanzmann thrombasthenia | 96.10% | L5 | No credible link |
-| 9 | Familial combined hyperlipidaemia (obsolete term) | 96.05% | L5 | Tenuous rationale |
-| 10 | Hypolipoproteinaemia | 96.04% | L5 | Only literature item is an unrelated case report |
 
-**Diabetic nephropathy** is the only one of these with a coherent mechanistic story. Preclinical studies suggest UDCA/TUDCA relieves ER stress and oxidative stress in kidney cells, prevents podocyte apoptosis, reduces SGLT2 expression, and limits ER-stress-driven inflammasome activation.
+Preclinical studies suggest UDCA/TUDCA relieves ER stress and oxidative stress in kidney cells, prevents podocyte apoptosis, reduces SGLT2 expression, and limits ER-stress-driven inflammasome activation.
 
 ## Clinical Trial Evidence
 
@@ -82,7 +72,7 @@ Currently no related clinical trials registered for the top-ranked prediction (h
 
 ## Literature Evidence
 
-No literature is available for homozygous familial hypercholesterolemia. The table below covers the best-supported alternative, diabetic nephropathy (rank 7).
+No literature is available for homozygous familial hypercholesterolemia.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -123,10 +113,10 @@ The remaining entries were not reviewed here. A full interaction review is neede
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (homozygous familial hypercholesterolemia) rests on a score alone, with no trials or publications, and a speculative mechanism. Nine of the ten predictions are at L5. Only diabetic nephropathy reaches L3, and that rests mainly on preclinical work plus one unverified human study. That is a research question rather than a basis for a go decision.
+The top prediction (homozygous familial hypercholesterolemia) rests on a score alone, with no trials or publications, and a speculative mechanism. Nine of the ten predictions are at L5. That is a research question rather than a basis for a go decision.
 
 **To proceed, the following is needed:**
-- Confirm the design, population, and results of the 2026 proof-of-concept study (PMID 42857346) in type 1 diabetes with kidney disease. If it holds up, consider re-evaluating diabetic nephropathy as the lead indication.
+- Confirm the design, population, and results of the 2026 proof-of-concept study (PMID 42857346) in type 1 diabetes with kidney disease.
 - Mechanism of action data for UDCA, which was not available for this report.
 - Package insert warnings and contraindications from the Singapore regulator, which are required before safety screening.
 - A search for registered trials in diabetic kidney disease.

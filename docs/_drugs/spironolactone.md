@@ -4,17 +4,17 @@ title: Spironolactone
 parent: Low Evidence (L5)
 nav_order: 935
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension, congestive heart failure, primary aldosteronism"
 monitor_inn: "Spironolactone"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Spironolactone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Spironolactone: From Hypertension and Heart Failure to Hypotrichosis Simplex of the Scalp
+## Spironolactone: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ There are currently **0 clinical trials** and **0 publications** for this specif
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, congestive heart failure, primary aldosteronism (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ There are currently **0 clinical trials** and **0 publications** for this specif
 
 Detailed mechanism of action data is not available in the data compiled for this report. Spironolactone is known to block the mineralocorticoid (aldosterone) receptor, which explains its use in hypertension and heart failure. It also has anti-androgenic activity, meaning it blocks the androgen receptor and reduces androgen synthesis. This is the most plausible link to hair loss, because it is the basis for using spironolactone in androgen-driven hair loss such as female pattern hair loss.
 
-The mechanistic fit for this particular prediction is **weak**. Hypotrichosis simplex is a hereditary disorder linked to gene variants (for example CDSN, APCDD1 and RPL21), not to androgen activity. The high score probably reflects the drug's network proximity to other hair-loss conditions in the knowledge graph, not a direct biological rationale. It should be treated as a hypothesis, not a finding.
+The mechanistic fit for this particular prediction is **weak**. Hypotrichosis simplex is a hereditary disorder linked to gene variants (for example CDSN, APCDD1 and RPL21), not to androgen activity. It should be treated as a hypothesis, not a finding.
 
-A different hair-loss entity in the same prediction list, general **alopecia** (TxGNN score 97.8%), has stronger support. It has a completed Phase 2 trial (NCT00175617, n=40) comparing spironolactone with topical minoxidil in female pattern hair loss, although no results were provided. That is a better-grounded direction than the top-ranked prediction.
+It has a completed Phase 2 trial (NCT00175617, n=40) comparing spironolactone with topical minoxidil in female pattern hair loss, although no results were provided. That is a better-grounded direction than the top-ranked prediction.
 
 ---
 
@@ -114,11 +114,9 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature, and the mechanism is a poor fit for a hereditary, non-androgen-driven hair disorder. The anti-androgen rationale applies better to androgenetic alopecia, which is a separate indication.
+The prediction has no supporting trials or literature, and the mechanism is a poor fit for a hereditary, non-androgen-driven hair disorder.
 
 **To proceed, the following is needed:**
-- Any clinical or genetic evidence linking spironolactone to hypotrichosis simplex, or a decision to evaluate the better-supported alopecia indication instead
-- Results or publication of NCT00175617 (spironolactone vs topical minoxidil in female pattern hair loss) if the alopecia direction is pursued
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for Singapore-registered products
 - A safety plan covering potassium and kidney function monitoring and key drug interactions, especially in women of childbearing potential given the anti-androgenic effects

@@ -48,10 +48,10 @@ Most of this evidence concerns fludarabine as a supporting agent (transplant con
 |------|------|
 | Original Indication | Not available (approved indication text is empty in both Singapore licences) |
 | Predicted New Indication | Plasma cell myeloma |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

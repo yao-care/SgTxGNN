@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chloroquine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 240
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Chloroquine: predicted new indication Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L4). Approved use: Rheumatoid arthritis, systemic lupus erythematosus, mal…"
 monitor_inn: "Chloroquine"
-predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis", "osteoarthritis", "pseudoachondroplasia", "Quinquaud's folliculitis decalvans", "Smouldering systemic mastocytosis", "telogen effluvium", "alopecia antibody deficiency"]
+predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
 ---
 
 # Chloroquine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials** and only **1 publication** (about a different drug, l
 |------|------|
 | Original Indication | Rheumatoid arthritis, systemic lupus erythematosus, malaria (the Singapore licence has no indication text recorded; indications come from the knowledge graph) |
 | Predicted New Indication | Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9941 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,13 +62,11 @@ Rheumatoid factor-positive polyarticular JIA resembles adult rheumatoid arthriti
 
 There is an important caveat. The only paper retrieved for this exact prediction concerns leflunomide, not chloroquine, so it does not test the hypothesis. Modern JIA care has also moved to conventional synthetic DMARDs and biologics.
 
-Among the other predictions, only osteoarthritis has a registered trial involving chloroquine. This is a completed Phase 4 add-on study (NCT00805519, n=230). It is not a chloroquine-alone design, and no results were available.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered for the top prediction.
 
-For reference, the closest trial found for a lower-ranked prediction (osteoarthritis, rank 5):
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -101,7 +99,7 @@ Most of this literature is old (1962–1991), narrative or descriptive, and does
 
 ## Safety Considerations
 
-**Contraindications (from knowledge graph associations, not label text):** epilepsy; porphyria and porphyrin metabolism disorders; liver disease; gallbladder disease; eye, retinal and vision disorders (including retinitis, scotoma and blindness); hearing disorders; psoriasis and parapsoriasis; neutropenia, agranulocytosis and leukopenia; anaemia (including macrocytic anaemia); G6PD deficiency; glycogen storage disease; cystinuria; galactosemia; substance abuse/dependence.
+**Contraindications (not label text):** epilepsy; porphyria and porphyrin metabolism disorders; liver disease; gallbladder disease; eye, retinal and vision disorders (including retinitis, scotoma and blindness); hearing disorders; psoriasis and parapsoriasis; neutropenia, agranulocytosis and leukopenia; anaemia (including macrocytic anaemia); G6PD deficiency; glycogen storage disease; cystinuria; galactosemia; substance abuse/dependence.
 
 **Drug Interactions:** 100 interactions were found in the interaction database. Major-level examples include:
 - Agalsidase beta
@@ -122,7 +120,7 @@ Please refer to the package insert for the full warnings, as label warnings were
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.41%), and the mechanism is plausible given chloroquine's use in adult RA. However, there are no clinical trials, the only supporting paper concerns another drug, and the evidence level is L4. Cardiac, retinal and other safety concerns are significant in children. JIA also already has established, better-evidenced treatments.
+The prediction score is high (0.9941), and the mechanism is plausible given chloroquine's use in adult RA. However, there are no clinical trials, the only supporting paper concerns another drug, and the evidence level is L4. Cardiac, retinal and other safety concerns are significant in children. JIA also already has established, better-evidenced treatments.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for chloroquine from a drug database

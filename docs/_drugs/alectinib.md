@@ -4,17 +4,17 @@ title: Alectinib
 parent: Low Evidence (L5)
 nav_order: 55
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Alectinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung carcinoma / lung cancer"
 monitor_inn: "Alectinib"
-predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
+predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
 ---
 
 # Alectinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Alectinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Alectinib: From ALK-Positive Non-Small Cell Lung Cancer to fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,17 +48,17 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Non-small cell lung carcinoma / lung cancer (the Singapore licence text does not state an approved indication) |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, alectinib is a selective inhibitor of anaplastic lymphoma kinase (ALK), and its efficacy in ALK-positive NSCLC is well established. The published literature also describes activity against RET.
 
-For gingival fibromatosis, the plausibility is weak. No known ALK-driven mechanism links alectinib to hereditary gingival fibromatosis, and no ALK alteration has been described in this condition. The very high score (99.97%) is therefore best read as a pattern from the knowledge-graph network, not as evidence of a biological link. Many other diseases received almost identical scores (>99.95%), including conditions with no plausible ALK link, which suggests that these scores do not discriminate well between candidates.
+For gingival fibromatosis, the plausibility is weak. No known ALK-driven mechanism links alectinib to hereditary gingival fibromatosis, and no ALK alteration has been described in this condition. The very high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Many other diseases received almost identical scores (>0.9995), including conditions with no plausible ALK link, which suggests that these scores do not discriminate well between candidates.
 
 ## Clinical Trial Evidence
 

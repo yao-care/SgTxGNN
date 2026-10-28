@@ -4,17 +4,17 @@ title: Valproic Acid
 parent: Low Evidence (L5)
 nav_order: 1053
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy, manic bipolar affective disorder, absence epilepsy"
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Valproic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Valproic Acid: From Epilepsy to Trigeminal Nerve Neoplasm
+## Valproic Acid: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Valproic acid is an established antiseizure and mood-stabilising drug, originally used for epilepsy and manic episodes of bipolar disorder.
-The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but there are currently **0 clinical trials** and only **1 publication**, and that publication is not about this tumour type, so the prediction rests almost entirely on the model's graph-based score.
+The TxGNN model (deep learning) predicts it may be effective for **trigeminal nerve neoplasm**, but there are currently **0 clinical trials** and only **1 publication**, and that publication is not about this tumour type, so the prediction rests almost entirely on the TxGNN model's score, which may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy, manic bipolar affective disorder, absence epilepsy (from the TxGNN knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 Detailed mechanism of action data is not currently available for this drug. Based on known information, valproic acid is a broad-spectrum antiseizure agent whose efficacy in epilepsy is well established. A speculative rationale is that it acts as a histone deacetylase (HDAC) inhibitor, which could give it antineoplastic activity. This has not been tested for this tumour type.
 
-The relationship between the original and predicted indications is weak. Epilepsy is a functional neurological disorder, whereas trigeminal nerve neoplasm is a tumour of a cranial nerve. The high TxGNN score most likely reflects the drug's many neurological associations in the knowledge graph rather than tumour-specific biology. The only publication found concerns Sturge-Weber syndrome, a neurocutaneous disorder with seizures, and does not support valproic acid for this tumour.
+The relationship between the original and predicted indications is weak. Epilepsy is a functional neurological disorder, whereas trigeminal nerve neoplasm is a tumour of a cranial nerve. The high TxGNN score (deep learning model) most likely reflects similarities the model learned between related diseases, not tumour-specific biology. The only publication found concerns Sturge-Weber syndrome, a neurocutaneous disorder with seizures, and does not support valproic acid for this tumour.
 
 ---
 
@@ -116,7 +116,6 @@ The prediction has no supporting clinical trials and no relevant literature, so 
 - Tumour-specific preclinical evidence, such as HDAC-inhibition studies in relevant cranial nerve tumour models
 - Mechanism of action data
 - Package insert warnings and contraindications from the Singapore regulator
-- A review of whether other predicted indications for this drug, such as visual epilepsy (L3), have a stronger evidence base and should be prioritised instead
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

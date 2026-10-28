@@ -4,17 +4,17 @@ title: Fluconazole
 parent: Low Evidence (L5)
 nav_order: 435
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Oral candidiasis, candidiasis, vulvovaginal candidiasis…"
 monitor_inn: "Fluconazole"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "Plasmodium falciparum malaria", "allergic urticaria", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "pneumocystosis", "blood group incompatibility", "premalignant hematological system disease", "papular urticaria"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluconazole: From Candidiasis to Punctate Epithelial Keratoconjunctivitis
+## Fluconazole: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 | Item | Content |
 |------|------|
-| Original Indication | Oral candidiasis, candidiasis, vulvovaginal candidiasis, oesophageal candidiasis, cryptococcal meningitis, candidaemia, disseminated candidiasis (the Singapore licence records contain no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 9 |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 Currently, detailed mechanism of action data is not available. Based on known information, fluconazole is an azole antifungal that is generally understood to inhibit fungal ergosterol synthesis. Its efficacy in superficial and invasive fungal infections is established, but this general knowledge is not supported by mechanism data compiled for this report.
 
-The link to the predicted indication is weak. Punctate epithelial keratoconjunctivitis is often viral or inflammatory in origin, so an antifungal rationale is not apparent. The high score (99.24%, rank 8,703) most likely reflects patterns in the knowledge graph rather than a demonstrated biological connection. This should be treated as a model prediction only.
+The link to the predicted indication is weak. Punctate epithelial keratoconjunctivitis is often viral or inflammatory in origin, so an antifungal rationale is not apparent. The high score (0.9924, rank 8,703) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This should be treated as a model prediction only.
 
-For context, the other top-ranked predictions are also weakly supported. Plasmodium falciparum malaria has only in vitro evidence. Pneumocystosis has no fluconazole-specific trial, and Pneumocystis is not reliably susceptible to azoles. The remaining predictions have no supporting evidence.
 
 ---
 

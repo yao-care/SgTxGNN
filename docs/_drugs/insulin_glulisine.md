@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Glulisine
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 537
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Insulin Glulisine: predicted new indication Type 1 diabetes mellitus (evidence level L2). Approved use: Diabetes mellitus"
 monitor_inn: "Insulin glulisine"
-predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Glulisine: predicted new indication Thiamine-responsive dysfunction syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Glulisine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Glulisine: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Glulisine: Thiamine-responsive dysfunction syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin glulisine is a rapid-acting human insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**,
 with **30 clinical trials** and **20 publications** currently supporting this direction.
 Note that type 1 diabetes is already a core marketed use of this drug, so this is a label-concordant indication rather than true repurposing.
 
@@ -47,12 +46,12 @@ Note that type 1 diabetes is already a core marketed use of this drug, so this i
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (the Singapore licence text is blank, so these come from the knowledge-graph indication data) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Thiamine-responsive dysfunction syndrome |
+| TxGNN Prediction Score | 0.9947 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

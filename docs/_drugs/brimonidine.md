@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Brimonidine
-parent: Medium Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 174
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Brimonidine: predicted new indication Papillary conjunctivitis (evidence level L4). Approved use: Open-angle glaucoma, ocular hypertension, rosacea"
-monitor_inn: "Brimonidine"
-predicted_indications: ["papillary conjunctivitis", "lichen disease", "congenital hypotrichosis milia", "rosacea conjunctivitis", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "hypertrophic lichen planus", "lichen planus pigmentosus", "annular atrophic lichen planus"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brimonidine: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Brimonidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,70 +32,56 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Brimonidine: From Open-Angle Glaucoma to Papillary Conjunctivitis
+<!-- known-uses-page -->
+<!-- description: Brimonidine: known uses and market status in Singapore; currently no new candidate indication -->
+## Brimonidine: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate with a score of 0.99 or higher for Brimonidine, so there is currently no new predicted indication. The drug's recorded uses are listed below. Four are supported by a licence in another country, and one is a relation recorded in the knowledge graph.
 
-Brimonidine is an alpha-2 adrenergic agonist originally used to treat open-angle glaucoma and ocular hypertension, and in topical form for facial redness in rosacea.
-The TxGNN model predicts it may be associated with **papillary conjunctivitis**, but the **3 publications** found describe brimonidine as a *cause* of conjunctivitis, not a treatment, and there are **no registered clinical trials**.
-This prediction most likely reflects an adverse-effect signal in the knowledge graph rather than therapeutic potential.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma, ocular hypertension, rosacea (from the knowledge graph; approved indication text is not available in the Singapore licence records) |
-| Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 98.49% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 9 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 5 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| glaucoma | licence in another country |
+| ocular hypertension | licence in another country |
+| open-angle glaucoma | licence in another country |
+| skin diseases | licence in another country |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, brimonidine is an alpha-2 adrenergic agonist. In the eye it lowers intraocular pressure by reducing aqueous humour production and increasing uveoscleral outflow. On the skin, it constricts small blood vessels, which reduces rosacea-related redness.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The link between the original indications and papillary conjunctivitis is weak. The literature describes brimonidine as a known cause of allergic, follicular or papillary conjunctivitis, as well as anterior uveitis and conjunctival lesions with long-term use. The high TxGNN score therefore most likely reflects a drug-disease association in the knowledge graph, such as an adverse-effect or shared-pathway signal. It does not indicate therapeutic benefit. Nothing in the data supports therapeutic use for this condition, and there is a clear signal of potential harm.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18303383](https://pubmed.ncbi.nlm.nih.gov/18303383/) | 2008 | Case series (adverse event) | Journal of Glaucoma | Bilateral anterior uveitis and granulomatous papillary conjunctivitis in a 78-year-old man after 2 years of brimonidine therapy |
-| [38992579](https://pubmed.ncbi.nlm.nih.gov/38992579/) | 2024 | Retrospective cohort | BMC Ophthalmology | Compared ocular allergy prevalence in glaucoma patients using brinzolamide/brimonidine fixed combination with and without a β-blocker |
-| [37352771](https://pubmed.ncbi.nlm.nih.gov/37352771/) | 2023 | Case report (adverse event) | International Journal of Surgery Case Reports | Atypical salmon patch-like conjunctival lesion after long-term topical brimonidine; allergic follicular or papillary conjunctivitis is noted as a well-known side effect |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| rosacea |
 
 ## Singapore Market Information
 
-The approved indication text is not available in the Singapore licence records for any of these products.
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17198P | ALPHAGAN P Ophthalmic Solution 0.1% w/v | Sterile solution | Not available |
-| SIN12336P | ALPHAGAN P Ophthalmic Solution 0.15% w/v | Solution | Not available |
-| SIN09788P | ALPHAGAN Ophthalmic Solution 0.2% | Solution | Not available |
-| SIN14828P | MIRVASO Gel 3 mg/g | Gel (topical) | Not available |
-| SIN15085P | SIMBRINZA Eye Drops, Suspension 10 mg/ml + 2 mg/ml | Sterile suspension | Not available |
-
-Four further licences are valid but not listed here: SIN17034P (Rimonal), SIN15099P (Brimochek), SIN13406P (Combigan) and SIN15191P (Brimochek-T).
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17198P | ALPHAGAN P OPHTHALMIC SOLUTION 0.1% w/v | SOLUTION, STERILE | Valid |
+| SIN12336P | ALPHAGAN P OPHTHALMIC SOLUTION 0.15% w/v | SOLUTION | Valid |
+| SIN17034P | RIMONAL EYE DROPS 0.15% w/v | SOLUTION, STERILE | Valid |
+| SIN09788P | ALPHAGAN OPHTHALMIC SOLUTION 0.2% | SOLUTION | Valid |
+| SIN15099P | BRIMOCHEK EYE DROPS 0.2% | SOLUTION, STERILE | Valid |
+| SIN14828P | MIRVASO GEL 3MG/G | GEL | Valid |
+| SIN15085P | SIMBRINZA EYE DROPS, SUSPENSION 10 MG/ML + 2 MG/ML | SUSPENSION, STERILE | Valid |
+| SIN13406P | COMBIGAN® | SOLUTION, STERILE | Valid |
+| SIN15191P | BRIMOCHEK -T EYE DROPS SOLUTION | SOLUTION, STERILE | Valid |
 
 ## Safety Considerations
 
@@ -114,25 +99,6 @@ Package insert warnings and contraindications were not available for this report
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The only evidence for papillary conjunctivitis shows brimonidine causing the condition, not treating it, and there are no clinical trials. The high TxGNN score appears to reflect an adverse-effect association, so there is no basis for therapeutic development.
-
-**Other predictions in the top 10:**
-- **Rosacea conjunctivitis** (98.49% is for rank 1; this one scores 94.65%) is the only one flagged as a research question. Topical brimonidine is already used for facial redness in rosacea, so there is some biological plausibility for the ocular form. However, no trials or literature were supplied, and brimonidine's conjunctival side effects could worsen ocular surface inflammation.
-- **Primary hereditary glaucoma** is mechanistically plausible but essentially an extension of the existing glaucoma indication. Alpha-2 agonists carry paediatric safety concerns (CNS depression, apnoea, bradycardia in infants), which matter because hereditary glaucoma often presents in childhood.
-- **Lichen-related conditions** (lichen disease, hypertrophic lichen planus, lichen planus pigmentosus, annular atrophic lichen planus): case reports show brimonidine inducing lichenoid reactions, which argues against therapeutic use.
-- **Hair disorders** (congenital hypotrichosis milia, hypotrichosis simplex of the scalp, diffuse alopecia areata): computational predictions only, with no plausible mechanism.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, since safety screening cannot proceed without them
-- Mechanism of action data from DrugBank
-- Approved indication text for the Singapore licences
-- Controlled clinical evidence for any ocular surface indication, such as ocular rosacea, before further consideration
-- A paediatric safety assessment if hereditary glaucoma is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

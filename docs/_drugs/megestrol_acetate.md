@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Megestrol Acetate
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 642
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Megestrol Acetate: predicted new indication Uterine corpus endometrial carcinoma (evidence level L2). Approved use: Endometrial carcinoma"
 monitor_inn: "Megestrol acetate"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
+description: "Megestrol Acetate: predicted new indication Hereditary breast ovarian cancer syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Megestrol Acetate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Megestrol Acetate: From Endometrial Carcinoma to Uterine Corpus Endometrial Carcinoma
+## Megestrol Acetate: Hereditary breast ovarian cancer syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Megestrol acetate is a synthetic progestin, originally used as hormonal therapy for endometrial carcinoma.
-The TxGNN model predicts it may be effective for **uterine corpus endometrial carcinoma**, with a very high score.
 This is essentially the same disease as the original indication, so the prediction is not a true repurposing finding. Support consists of **1 clinical trial** (a randomized Phase 2) and **no indexed publications** for this specific prediction.
 
 ---
@@ -48,12 +47,12 @@ This is essentially the same disease as the original indication, so the predicti
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometrial carcinoma (the Singapore licence records contain no indication text, so this comes from the drug's known indications) |
-| Predicted New Indication | Uterine corpus endometrial carcinoma |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hereditary breast ovarian cancer syndrome |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,7 @@ This is essentially the same disease as the original indication, so the predicti
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Megestrol acetate is a synthetic progestin. Progesterone-receptor signalling is known to induce differentiation and growth inhibition in hormone-receptor-positive endometrioid tumours, which is why progestins are an established hormonal therapy for endometrial cancer.
 
-The predicted disease, uterine corpus endometrial carcinoma, is the same disease as the original indication under a different name. The model's high score is therefore expected, and it largely reflects the drug's existing use. It does not point to a new therapeutic opportunity.
+The model's high score is therefore expected, and it largely reflects the drug's existing use. It does not point to a new therapeutic opportunity.
 
 ---
 
@@ -107,7 +106,6 @@ Megestrol acetate is used in cancer treatment, but it is a hormonal agent rather
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signals, not label text):** The TxGNN knowledge graph links megestrol acetate to the following conditions:
   - Hypertension
   - Kidney disease
   - Liver disease

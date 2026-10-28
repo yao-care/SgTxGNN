@@ -4,17 +4,17 @@ title: Carbetocin
 parent: Low Evidence (L5)
 nav_order: 206
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Carbetocin: predicted new indication Isotretinoin-like syndrome (evidence level L5). Approved use: Prader-Willi syndrome, Noonan syndrome"
 monitor_inn: "Carbetocin"
-predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome", "Brachymorphism-onychodysplasia-dysphalangism syndrome", "Mietens syndrome", "hydrocephalus-costovertebral dysplasia-Sprengel anomaly syndrome", "lethal faciocardiomelic dysplasia", "symptomatic form of Coffin-Lowry syndrome in female carriers", "hypoglossia-hypodactyly syndrome", "partial deletion of the long arm of chromosome 15"]
+predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
 ---
 
 # Carbetocin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Carbetocin is an oxytocin receptor agonist. It is registered in Singapore as an injectable and is used to prevent postpartum haemorrhage due to uterine atony. Its knowledge-graph indications are Prader-Willi syndrome and Noonan syndrome.
+Carbetocin is an oxytocin receptor agonist. It is registered in Singapore as an injectable and is used to prevent postpartum haemorrhage due to uterine atony.
 The TxGNN model predicts it may be effective for **isotretinoin-like syndrome**, but **no clinical trials and no relevant publications** currently support this prediction.
 This is a model-only prediction (Evidence Level L5).
 
@@ -48,21 +48,20 @@ This is a model-only prediction (Evidence Level L5).
 |------|------|
 | Original Indication | Prader-Willi syndrome, Noonan syndrome (knowledge-graph indications; the Singapore licence has no approved indication text recorded) |
 | Predicted New Indication | Isotretinoin-like syndrome |
-| TxGNN Prediction Score | 99.15% |
+| TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data identifies carbetocin as a peptide agonist of the oxytocin receptor (OXTR). It is used to prevent postpartum haemorrhage due to uterine atony. An intranasal formulation (LV-101) has been in development for hyperphagia in Prader-Willi syndrome.
 
-No plausible link between oxytocin receptor agonism and isotretinoin-like syndrome, a congenital malformation syndrome, could be verified from the available data. The high score (0.991) most likely reflects graph-based similarity to other congenital syndromes rather than a validated biological mechanism. The model ranked this prediction 9,415th overall, so the score should be interpreted cautiously.
+No plausible link between oxytocin receptor agonism and isotretinoin-like syndrome, a congenital malformation syndrome, could be verified from the available data. The high score (0.9915) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The model ranked this prediction 9,415th overall, so the score should be interpreted cautiously.
 
 Among the other top-ranked predictions, two have a more coherent rationale and are flagged as research questions:
-- **Prader-Willi syndrome due to paternal deletion of 15q11q13** (score 99.0%): a molecular subtype of an existing indication. The oxytocin system is plausibly involved, since oxytocin-producing neurons in the hypothalamus are reduced in this condition.
-- **Partial deletion of the long arm of chromosome 15** (score 98.9%): this may overlap the 15q11-q13 region, but the phenotype depends on the exact deleted region.
+- **Prader-Willi syndrome due to paternal deletion of 15q11q13**: a molecular subtype of an existing indication. The oxytocin system is plausibly involved, since oxytocin-producing neurons in the hypothalamus are reduced in this condition.
 
 The remaining top-10 predictions (Goodman syndrome, brachymorphism-onychodysplasia-dysphalangism syndrome, Mietens syndrome, hydrocephalus-costovertebral dysplasia-Sprengel anomaly syndrome, lethal faciocardiomelic dysplasia, symptomatic Coffin-Lowry syndrome in female carriers, and hypoglossia-hypodactyly syndrome) have no clinical or literature support and no verifiable mechanism.
 
@@ -92,7 +91,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction for isotretinoin-like syndrome rests only on a graph-based score. There are no trials, no relevant publications, and no verifiable mechanism linking oxytocin receptor agonism to this condition. The three publications retrieved for the sixth-ranked prediction are keyword-matched noise (a bioinformatics study, an obstetric case report, a veterinary study). They do not support any new indication.
+The prediction for isotretinoin-like syndrome rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials, no relevant publications, and no verifiable mechanism linking oxytocin receptor agonism to this condition. The three publications retrieved for the sixth-ranked prediction are keyword-matched noise (a bioinformatics study, an obstetric case report, a veterinary study). They do not support any new indication.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website, which block safety screening

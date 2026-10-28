@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Crotamiton
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 282
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Crotamiton: predicted new indication Trombiculiasis (evidence level L5). Approved use: Scabies (including Norwegian scabies) and mite infestation"
+description: "Crotamiton: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Crotamiton"
-predicted_indications: ["trombiculiasis", "lymph node palisaded myofibroblastoma", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "disease of uterine broad ligament", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "hordeolum"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Crotamiton
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,51 +35,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Crotamiton: From Scabies to Trombiculiasis
+## Crotamiton
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Crotamiton is a topical scabicide and antipruritic (anti-itch) agent, originally used to treat scabies and relieve itching.
-The TxGNN model predicts it may be effective for **trombiculiasis** (chigger mite dermatitis), but **no clinical trials or publications** currently support this direction, so the prediction rests on model output and indication similarity alone.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Scabies (including Norwegian scabies) and mite infestation; itch relief (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Trombiculiasis |
-| TxGNN Prediction Score | 96.24% |
-| Evidence Level | L5 (model prediction only, no actual studies) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
-| Recommended Decision | Hold |
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 *Note: The data compiled for this report labels this candidate L4 with a "Research Question" recommendation, based on indirect pharmacological reasoning. Under the standard evidence rules (no clinical trials, no literature), it falls at L5. The Hold decision reflects that gap, while the biological plausibility justifies keeping it as a research question.*
-
----
-
-## Why is This Prediction Reasonable?
-
-Crotamiton is a scabicidal agent whose exact mechanism of action against mites is unknown. Its general antipruritic effect has been linked to inhibition of the TRPV4 (transient receptor potential vanilloid 4) channel, which is expressed in the skin and in primary sensory neurons. Detailed mechanism of action data are otherwise not available.
-
-Trombiculiasis is a mite-induced itchy skin condition caused by chigger larvae. It shares two features with crotamiton's established uses: a mite-related cause (as in scabies, caused by *Sarcoptes scabiei*) and intense itching. Crotamiton is also already used for itching from insect bites and stings, which are clinically similar to chigger bites. This makes the extension biologically plausible, and it likely explains the high TxGNN score.
-
-However, this reasoning is indirect. It is based on similarity of indication and pharmacological class, not on clinical data in trombiculiasis. Antipruritic benefit may be achievable even where mite-killing activity is not relevant, since chigger larvae do not burrow and live in the skin as scabies mites do.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
 
 ---
 
@@ -102,19 +71,6 @@ For other safety information, please refer to the package insert.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-Trombiculiasis is the only one of the ten predictions with a plausible mechanistic link, but there are no trials or publications to support it. The other nine predictions (for example, sacrum chordoma, abdominal ectopic pregnancy, and hordeolum) have no mechanistic rationale and look like graph-based artifacts. They should not be pursued.
-
-**To proceed, the following is needed:**
-- A literature and trial search specific to crotamiton in trombiculiasis (chigger bites)
-- Package insert warnings and contraindications from the HSA website, to enable safety screening
-- Detailed mechanism of action data, especially whether crotamiton has any activity against chigger larvae or acts only as an antipruritic
-- Clarification of the approved indication wording for the three Singapore licences
-- Confirmation that the existing topical cream and lotion are suitable for the intended use (route compatibility is still pending)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

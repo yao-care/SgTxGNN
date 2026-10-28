@@ -4,17 +4,17 @@ title: Luliconazole
 parent: Medium Evidence (L3-L4)
 nav_order: 620
 evidence_level: L3
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Luliconazole: predicted new indication Pityriasis versicolor (evidence level L3). Approved use: Tinea pedis, tinea corporis, tinea infection…"
 monitor_inn: "Luliconazole"
-predicted_indications: ["pityriasis versicolor", "endothrix infectious disease", "ectothrix infectious disease", "Majocchi granuloma", "echinococcus granulosus infectious disease", "ophthalmic herpes zoster"]
+predicted_indications: ["pityriasis versicolor", "endothrix infectious disease", "ectothrix infectious disease"]
+description: "Luliconazole: predicted new indication Pityriasis versicolor (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Luliconazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Luliconazole: From Tinea Infections to Pityriasis Versicolor
+## Luliconazole: Pityriasis versicolor
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **1 registered clinical trial** (not yet recruiting) and **2 publications**
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, tinea corporis, tinea infection, dermatophytosis of groin and perianal area (the Singapore licence has no indication text on file) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pityriasis versicolor |
-| TxGNN Prediction Score | 99.13% |
+| TxGNN Prediction Score | 0.9913 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -107,7 +107,7 @@ The mechanism is consistent with *Malassezia* susceptibility to azoles, and a he
 - **Cutaneous candidiasis** (L4) has only preclinical support (in vitro and rat model data). No human trials were found.
 - **Majocchi granuloma, tinea profunda, and dermatophytosis of scalp or beard** (L4) have only case-level or indirect evidence. Topical penetration into hair follicles and deep tissue is a limiting factor.
 - **Endothrix and ectothrix infectious disease** (L5) are supported by model prediction only.
-- **Echinococcus granulosus infection and ophthalmic herpes zoster** (L5) are likely network artifacts. Luliconazole has no known antiparasitic or antiviral mechanism.
+- Luliconazole has no known antiparasitic or antiviral mechanism.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

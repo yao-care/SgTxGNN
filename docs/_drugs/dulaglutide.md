@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Dulaglutide
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 357
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dulaglutide: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
+description: "Dulaglutide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Dulaglutide"
-predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "autoimmune oophoritis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Dulaglutide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dulaglutide: From Type 2 Diabetes Mellitus to Opsismodysplasia
+## Dulaglutide
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Dulaglutide is a GLP-1 receptor agonist injection, originally used to treat type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus |
-| Predicted New Indication | Opsismodysplasia |
-| TxGNN Prediction Score | 97.05% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, dulaglutide is a GLP-1 receptor agonist. It acts on incretin signalling and its efficacy in type 2 diabetes mellitus is established.
-
-Opsismodysplasia is a rare skeletal dysplasia caused by INPPL1 (SHIP2) mutations, which affect PI3K/AKT signalling and endochondral ossification. No plausible mechanistic link to GLP-1 receptor agonism has been documented. The high TxGNN score (0.971) most likely reflects graph-topology artefacts, such as shared insulin/PI3K pathway neighbours in the knowledge graph, rather than a biological rationale.
-
-The other top predictions show a similar pattern. Several (stiff person syndrome, focal stiff limb syndrome, thiamine-responsive dysfunction syndrome, pancreatic agenesis) appear to be driven by a shared diabetes phenotype. The lipodystrophy conditions appear to be driven by proximity to the metabolic disease cluster. Pancreatic agenesis is biologically implausible for dulaglutide, because the drug depends on functional beta cells. Autoimmune oophoritis scored much lower (69.6%), with weak support.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
 ---
 
@@ -106,18 +74,6 @@ For key warnings and contraindications, please refer to the package insert.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no supporting clinical trials or literature (Evidence Level L5). No credible mechanism links GLP-1 receptor agonism to opsismodysplasia, and the high score likely reflects knowledge-graph artefacts. None of the other nine predicted indications has supporting evidence either.
-
-**To proceed, the following is needed:**
-- Mechanism of action data for dulaglutide
-- Package insert warnings and contraindications from the HSA, for safety screening
-- Preclinical or mechanistic evidence connecting GLP-1 receptor signalling to INPPL1/SHIP2-related skeletal pathology
-- A literature and trial search for the predicted indication, and re-evaluation if any evidence emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

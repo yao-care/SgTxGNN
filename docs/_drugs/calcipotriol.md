@@ -46,10 +46,10 @@ Calcipotriol is a topical vitamin D3 analogue, marketed in Singapore as ointment
 |------|------|
 | Original Indication | Not stated in the Singapore licence records compiled for this report (the approved indication text is empty). Calcipotriol is generally known as a topical psoriasis treatment. |
 | Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?

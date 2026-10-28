@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Trifluridine
-parent: Low Evidence (L5)
-nav_order: 1025
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Trifluridine: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Herpes simplex virus keratitis"
-monitor_inn: "Trifluridine"
-predicted_indications: ["cecum villous adenoma", "lipoma of colon", "colonic lymphangioma", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colon leiomyoma", "cecal disease", "benign neoplasm of cecum", "cavernous hemangioma of colon", "photosensitivity disease"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 1024
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Trifluridine: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Trifluridine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,73 +32,50 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trifluridine: From Herpes Simplex Keratitis and Colorectal Cancer to Cecum Villous Adenoma
+<!-- known-uses-page -->
+<!-- description: Trifluridine: known uses and market status in Singapore; currently no new candidate indication -->
+## Trifluridine: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Trifluridine, so there is currently no new predicted indication. The uses already recorded for this drug are listed below. They are the drug's own recorded uses, not model candidates.
 
-Trifluridine was originally used to treat herpes simplex virus keratitis and, in combination with tipiracil, colorectal cancer.
-The TxGNN model predicts it may be effective for **cecum villous adenoma**, but **no clinical trials and no publications** currently support this prediction.
-The prediction rests on model inference alone, so the evidence is weak.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Herpes simplex virus keratitis; colorectal cancer (including malignant colon neoplasm). The Singapore licence records contain no indication text. |
-| Predicted New Indication | Cecum villous adenoma |
-| TxGNN Prediction Score | 98.60% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 6 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, trifluridine is a thymidine-based nucleoside analogue that is incorporated into DNA. With tipiracil, it is approved for refractory metastatic colorectal cancer.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| colorectal neoplasms | licence in another country |
 
-A villous adenoma is a benign precursor lesion of the same tissue as colorectal cancer, so the link is biologically plausible. The high score most likely reflects the lesion's proximity to the approved colorectal cancer indications in the knowledge graph, not direct evidence.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Cytotoxic therapy for a benign lesion that can usually be removed endoscopically is unlikely to have a favourable risk-benefit profile. This argues against pursuing the prediction.
-
-## Other Predicted Indications (for Reference)
-
-| Rank | Predicted Indication | Score | Evidence Level | Comment |
-|---|---|---|---|---|
-| 2 | Lipoma of colon | 98.59% | L5 | Benign, low proliferative activity; no clear rationale |
-| 3 | Colonic lymphangioma | 98.57% | L5 | Benign vascular malformation; likely an anatomical-site association |
-| 4 | Cecum neuroendocrine tumor G1 | 98.56% | L5 | Slow-growing; limited activity expected from antimetabolites |
-| 5 | Rectosigmoid junction neoplasm | 98.56% | L5 | Largely covered by the existing colorectal cancer indication |
-| 6 | Colon leiomyoma | 98.56% | L5 | Benign, usually resected; no rationale |
-| 7 | Cecal disease | 98.54% | L4 | Only indirect case reports, which concern the existing colorectal use |
-| 8 | Benign neoplasm of cecum | 98.52% | L5 | The one publication retrieved is not relevant |
-| 9 | Cavernous hemangioma of colon | 98.46% | L5 | Benign vascular lesion; no plausible mechanism |
-| 10 | Photosensitivity disease | 97.33% | L5 | Likely a graph artifact; more plausibly an adverse-effect concern |
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-No literature is available for the top-ranked prediction (cecum villous adenoma). The publications below were retrieved for lower-ranked predictions and are only indirectly relevant.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [32655959](https://pubmed.ncbi.nlm.nih.gov/32655959/) | 2020 | Case report | Case Reports in Oncological Medicine | Re-administration of cancer drugs in a patient with chemorefractory metastatic colorectal cancer arising from a perforated cecal cancer |
-| [30677817](https://pubmed.ncbi.nlm.nih.gov/30677817/) | 2018 | Case report | Dermatology Online Journal | Leukocytoclastic vasculitis with late-onset Henoch-Schönlein purpura after trifluridine/tipiracil in a patient with metastatic appendiceal cancer (an adverse event report) |
-| [30692384](https://pubmed.ncbi.nlm.nih.gov/30692384/) | 2018 | Case report | Gan to Kagaku Ryoho | Pain control with CT-guided celiac plexus neurolysis after postoperative recurrence of colon cancer (supportive care) |
-
-These reports concern the already-approved colorectal cancer use, an adverse event, or supportive care. They do not show efficacy for a distinct new indication.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| colonic neoplasm |
+| colorectal cancer |
+| herpes simplex virus keratitis |
+| malignant colon neoplasm |
+| squamous cell carcinoma of colon |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15491P | LONSURF FILM-COATED TABLET 15MG/6.14MG | Film-coated tablet | Not recorded |
-| SIN15494P | LONSURF FILM-COATED TABLET 20MG/8.19MG | Film-coated tablet | Not recorded |
-
-Both products are single-ingredient registrations, currently valid, with Taiho Pharmaceutical Co., Ltd. as manufacturer. The route is oral.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15491P | LONSURF FILM-COATED TABLET 15MG/6.14MG | TABLET, FILM COATED | Valid |
+| SIN15494P | LONSURF FILM-COATED TABLET 20MG/8.19MG | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 
@@ -126,19 +102,6 @@ Both products are single-ingredient registrations, currently valid, with Taiho P
 
 Please refer to the package insert for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no clinical trials or directly relevant publications and is graded L5. Cytotoxic therapy for a benign, endoscopically resectable lesion is also unlikely to be favourable. None of the other top-ranked predictions has meaningful supporting evidence either.
-
-**To proceed, the following is needed:**
-- Safety information from the HSA package insert, including warnings and contraindications (currently missing)
-- Detailed mechanism of action data
-- Direct clinical or preclinical evidence for cecum villous adenoma
-- A comparison with endoscopic resection, the standard approach, to establish whether any clinical need exists
-- A review of the rectosigmoid junction neoplasm prediction against the existing colorectal cancer label, since it may not be a distinct opportunity
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

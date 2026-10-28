@@ -4,17 +4,17 @@ title: Sorafenib
 parent: High Evidence (L1-L2)
 nav_order: 930
 evidence_level: L2
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Sorafenib: predicted new indication Liposarcoma (evidence level L2). Approved use: Hepatocellular carcinoma, renal cell carcinoma, thyroid carcinoma"
 monitor_inn: "Sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
+description: "Sorafenib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Sorafenib: From Hepatocellular Carcinoma to Liposarcoma
+## Sorafenib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but the supporting evidence is indirect: **1 Phase 2 clinical trial** in advance
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatocellular carcinoma, renal cell carcinoma, thyroid carcinoma (the Singapore licence records do not contain indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,7 +105,6 @@ The original indications (liver, kidney and thyroid cancers) are all solid tumou
 | Cytotoxicity Classification | Targeted therapy (multikinase inhibitor), not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions. The knowledge graph lists thrombocytopenia, neutropenia and agranulocytosis among its contraindication-linked conditions. |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count, liver function, blood pressure, and cardiac status (based on the knowledge-graph flags below) |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---

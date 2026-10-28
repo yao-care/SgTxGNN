@@ -4,17 +4,17 @@ title: Ranitidine
 parent: Medium Evidence (L3-L4)
 nav_order: 853
 evidence_level: L4
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Ranitidine: predicted new indication Active peptic ulcer disease (evidence level L4). Approved use: Gastric ulcer, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Ranitidine: From Gastric Ulcer and Reflux Disease to Active Peptic Ulcer Disease
+## Ranitidine: Peptic ulcer perforation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ranitidine is a histamine H2-receptor blocker, originally used to treat gastric and duodenal ulcers, gastroesophageal reflux disease and related acid-driven conditions.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is essentially one of its original indications rather than a true new use.
-No clinical trials are directly linked to this prediction, and **20 publications** were compiled, mostly drug reviews and comparisons with other acid suppressants. The related prediction "peptic ulcer disease" has **5 linked trials** (none of which tests ranitidine as the main drug) and **20 publications**.
+No clinical trials are directly linked to this prediction, and **20 publications** were compiled, mostly drug reviews and comparisons with other acid suppressants.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, gastroesophageal reflux disease, esophagitis, dyspepsia, duodenal ulcer, Zollinger-Ellison syndrome (from the TxGNN knowledge graph; Singapore licence indication text is blank) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Peptic ulcer perforation |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,7 +63,6 @@ Other predictions in the list are weaker. Peptic ulcer perforation, gastrojejuna
 
 ## Clinical Trial Evidence
 
-No clinical trials are linked to "active peptic ulcer disease". The table below shows trials linked to the closely related prediction "peptic ulcer disease".
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -89,7 +87,6 @@ Publications linked to "active peptic ulcer disease":
 | [3909374](https://pubmed.ncbi.nlm.nih.gov/3909374/) | 1985 | Clinical study | Scand J Gastroenterol | Ranitidine 300 mg/day: 4-week healing 91% in duodenal ulcer, 81% gastric corporeal ulcer, 68% prepyloric ulcer; maintenance therapy studied |
 | [6317740](https://pubmed.ncbi.nlm.nih.gov/6317740/) | 1983 | Comparative study | J Clin Gastroenterol | Ranitidine is 6-8 times more potent than cimetidine in inhibiting gastric secretion |
 
-Literature for the related prediction "peptic ulcer disease" also includes a randomized trial of ranitidine for NSAID-related dyspepsia in arthritis patients ([8894357](https://pubmed.ncbi.nlm.nih.gov/8894357/), 1996, Clin Rheumatol) and reviews of ranitidine in peptic ulcer disease ([6128216](https://pubmed.ncbi.nlm.nih.gov/6128216/), 1982; [2667937](https://pubmed.ncbi.nlm.nih.gov/2667937/), 1989, both Drugs).
 
 ## Singapore Market Information
 

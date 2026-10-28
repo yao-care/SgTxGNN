@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Niraparib is an oral PARP inhibitor, originally used for ovarian and primary peritoneal cancers.
-The TxGNN model predicts it may be effective for **Epiglottis Neoplasm**, but **no clinical trials and no publications** currently support this specific prediction. It rests on the model's graph-based prediction alone.
+The TxGNN model (deep learning) predicts it may be effective for **Epiglottis Neoplasm**, but **no clinical trials and no publications** currently support this specific prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **Epiglottis Neoplasm**, but **
 |------|------|
 | Original Indication | Malignant epithelial tumour of ovary; peritoneal cancer, including primary peritoneal carcinoma and serous/papillary carcinoma; desmoplastic small round cell tumour |
 | Predicted New Indication | Epiglottis neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, niraparib inhibits the DNA-repair enzymes PARP1 and PARP2. It works mainly through synthetic lethality in tumours with homologous recombination deficiency (HRD), such as BRCA-mutated tumours. Its efficacy in ovarian and peritoneal serous cancers is established, and mechanistically it could apply to other tumours that share this DNA-repair weakness.
 
-For epiglottis neoplasm, however, no direct link has been established. The high TxGNN score is a graph-based prediction only. The data contain no HRD or BRCA information for epiglottic tumours, and no studies or case reports connect PARP inhibition to this disease. The prediction should therefore be treated as a hypothesis, not as supported evidence.
+For epiglottis neoplasm, however, no direct link has been established. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The data contain no HRD or BRCA information for epiglottic tumours, and no studies or case reports connect PARP inhibition to this disease. The prediction should therefore be treated as a hypothesis, not as supported evidence.
 
 ## Clinical Trial Evidence
 

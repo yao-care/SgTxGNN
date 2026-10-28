@@ -4,17 +4,17 @@ title: Threonine
 parent: Low Evidence (L5)
 nav_order: 983
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Threonine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the registration data (marketed as a component of amino…"
 monitor_inn: "Threonine"
-predicted_indications: ["gastroparesis (disease)", "dyspepsia", "obsolete vitamin D deficiency", "renal tubular acidosis", "postgastrectomy syndrome", "hypophosphatemic rickets", "hereditary hypophosphatemic rickets", "congenital prothrombin deficiency", "albinism-deafness syndrome", "postmenopausal osteoporosis"]
+predicted_indications: ["gastroparesis (disease)"]
+description: "Threonine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Threonine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Threonine: From Parenteral Nutrition (Amino Acid Supplementation) to Gastroparesis
+## Threonine: Gastroparesis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,21 +44,21 @@ Threonine is an essential amino acid used as a component of parenteral nutrition
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (marketed as a component of amino acid and parenteral nutrition infusions) |
-| Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.32% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroparesis (disease) |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, threonine is an essential amino acid supplied in intravenous nutrition products, and its role is nutritional rather than pharmacological.
 
-The data compiled for this report found no established prokinetic or gastric-motility mechanism for threonine, so no mechanistic link to gastroparesis can be supported. The high score reflects a pattern in the knowledge graph, not biological or clinical evidence.
+The data compiled for this report found no established prokinetic or gastric-motility mechanism for threonine, so no mechanistic link to gastroparesis can be supported.
 
-Other predicted indications were also reviewed. The only weak, indirect signal is for **dyspepsia** (score 98.79%, L4): a 2016 rat study showed that certain amino acids influence gastric adaptive relaxation. The other papers retrieved for dyspepsia concern herbal formulas, network pharmacology or GWAS, and appear to be keyword matches. The remaining predictions (obsolete vitamin D deficiency, renal tubular acidosis, postgastrectomy syndrome, hypophosphatemic rickets, congenital prothrombin deficiency, albinism-deafness syndrome, postmenopausal osteoporosis) have no plausible threonine-specific rationale.
+Other predicted indications were also reviewed.
 
 ## Clinical Trial Evidence
 
@@ -68,7 +68,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for gastroparesis.
 
-For the second-ranked prediction, dyspepsia, the one potentially relevant item is:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -98,7 +97,7 @@ Please refer to the package insert for full warnings and contraindications, as t
 **Decision: Hold**
 
 **Rationale:**
-The gastroparesis prediction is based only on a TxGNN graph score (L5). There are no clinical trials or literature, and no plausible mechanism. The same is true of the other predicted indications. Dyspepsia has only an indirect preclinical signal.
+There are no clinical trials or literature, and no plausible mechanism. The same is true of the other predicted indications.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for threonine, and any evidence of an effect on gastric motility

@@ -8,6 +8,7 @@ nav_order: 625
 last_modified_date: 2026-03-11
 evidence_level: L5
 last_modified_at: 2026-03-12
+predicted_indications: []
 ---
 
 # CHROMIC CHLORIDE HEXAHYDRATE
@@ -27,7 +28,7 @@ last_modified_at: 2026-03-12
 
 ## Predicted Indications
 
-The following indications are predicted based on TxGNN knowledge graph analysis:
+The following indications are predicted by the TxGNN model (deep learning):
 
 | Indication | Source | Evidence |
 |------------|--------|----------|

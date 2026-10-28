@@ -4,17 +4,17 @@ title: Sotalol
 parent: Low Evidence (L5)
 nav_order: 932
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Atrial fibrillation"
 monitor_inn: "Sotalol"
-predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation", "obsolete susceptibility to ischemic stroke", "nephrogenic syndrome of inappropriate antidiuresis", "ABri amyloidosis", "periodic paralysis with transient compartment-like syndrome"]
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
+description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sotalol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sotalol: From Atrial Fibrillation to Sick Sinus Syndrome 2, Autosomal Dominant
+## Sotalol: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model's top-ranked prediction is **sick sinus syndrome 2, autosomal do
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation (the licence entries list no approved indication text; this is taken from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

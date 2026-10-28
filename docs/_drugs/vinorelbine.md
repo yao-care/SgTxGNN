@@ -4,17 +4,17 @@ title: Vinorelbine
 parent: High Evidence (L1-L2)
 nav_order: 1070
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Non-small cell lung carcinoma, lung cancer"
 monitor_inn: "Vinorelbine"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "lung germ cell tumor", "pulmonary sulcus neoplasm", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
+description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Vinorelbine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Vinorelbine: From Non-Small Cell Lung Cancer to Ewing Sarcoma
+## Vinorelbine: Ewing sarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **3 related clinical trials** (two Phase 2 studies in relapsed or refractor
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung carcinoma, lung cancer (from the TxGNN knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

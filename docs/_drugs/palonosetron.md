@@ -4,17 +4,17 @@ title: Palonosetron
 parent: Medium Evidence (L3-L4)
 nav_order: 758
 evidence_level: L4
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Palonosetron: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the registration records compiled for this report (the…"
 monitor_inn: "Palonosetron"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "headache disorder", "trigeminal autonomic cephalalgia", "open-angle glaucoma", "sciatic neuropathy", "primary hereditary glaucoma"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,19 @@ The prediction is therefore not supported by clinical evidence at present.
 |------|------|
 | Original Indication | Not stated in the registration records compiled for this report (the registered products are antiemetics; CINV prevention is the known approved use) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, palonosetron is a 5-HT3 receptor antagonist. Its efficacy in preventing nausea and vomiting from chemotherapy is established, and mechanistically it may be relevant to migraine, because serotonin signalling is implicated in migraine pathophysiology and 5-HT3 antagonists have been explored in this area.
 
-However, the evidence points the other way. The only retrieved publication for this indication (PMID 21132477) is a case report of palonosetron-**induced** migraine-type headache, which is an adverse-event signal rather than a therapeutic one. The high TxGNN score is a computational prediction, likely reflecting knowledge-graph proximity, and is not backed by clinical data.
+However, the evidence points the other way. The only retrieved publication for this indication (PMID 21132477) is a case report of palonosetron-**induced** migraine-type headache, which is an adverse-event signal rather than a therapeutic one. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not backed by clinical data.
 
-Other top predictions (migraine with brainstem aura, trigeminal autonomic cephalalgia, headache disorder) appear to be extensions of the same graph proximity. Predictions such as atrophoderma vermiculata, ulerythema ophryogenesis, open-angle glaucoma and primary hereditary glaucoma have no identifiable mechanistic link and are likely graph artifacts.
+The other top prediction (migraine with brainstem aura) appears to be an extension of the same pattern learned by the TxGNN model (deep learning) between related diseases. Predictions such as atrophoderma vermiculata and ulerythema ophryogenesis have no identifiable mechanistic link, and their scores may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

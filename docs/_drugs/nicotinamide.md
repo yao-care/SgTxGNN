@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Nicotinamide
-parent: Low Evidence (L5)
-nav_order: 710
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Nicotinamide: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne, pellagra, beriberi"
-monitor_inn: "Nicotinamide"
-predicted_indications: ["zinc, elevated plasma", "isolated congenital adermatoglyphia", "Beare-Stevenson cutis gyrata syndrome", "Werner syndrome", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome", "demodicidosis of sebaceous gland", "dyspepsia", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "inherited cutis laxa", "syndromic oculocutaneous albinism"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 709
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Nicotinamide: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Nicotinamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,68 +32,50 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nicotinamide: From Acne to Elevated Plasma Zinc
+<!-- known-uses-page -->
+<!-- description: Nicotinamide: known uses and market status in Singapore; currently no new candidate indication -->
+## Nicotinamide: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model's candidates for Nicotinamide (score ≥ 0.99) are all known uses that can be traced to a source. There is therefore currently no new predicted indication for this drug. The one known use found is recorded only as a knowledge graph relation, not as an approved indication.
 
-Nicotinamide (vitamin B3) is used for deficiency conditions such as pellagra and beriberi, and for acne.
-The TxGNN model predicts it may be effective for **elevated plasma zinc**, but there are **0 clinical trials** and only **2 loosely related publications**, neither of which addresses this question.
-This prediction is best treated as a model artifact, not an actionable lead.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Acne, pellagra, beriberi (the Singapore licences list no indication text) |
-| Predicted New Indication | Zinc, elevated plasma |
-| TxGNN Prediction Score | 97.83% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available. Nicotinamide is a vitamin B3 form and a precursor of NAD+, a coenzyme central to cellular energy metabolism and redox balance. Its efficacy in niacin-deficiency states (pellagra) and in acne is established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-For elevated plasma zinc, no mechanistic link is evident. The two papers retrieved cover COVID-19 risk factors (hyperinsulinaemia, magnesium, vitamin D) and antioxidant enzymes in the kidneys of hypertensive rats. Neither addresses plasma zinc or nicotinamide as a treatment for it. Despite the high score, this looks like a graph-based prediction artifact.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [32938758](https://pubmed.ncbi.nlm.nih.gov/32938758/) | 2020 | Review | Open Heart | Rationale for managing COVID-19 through hyperinsulinaemia, magnesium, vitamin D and thrombosis. Does not address plasma zinc or nicotinamide therapy. |
-| [15361776](https://pubmed.ncbi.nlm.nih.gov/15361776/) | 2004 | Preclinical (animal) | J Hypertens | Antioxidant enzymes (SOD, catalase, glutathione peroxidase) in the kidneys of hypertensive rats on an antioxidant-rich diet. Not relevant to the predicted indication. |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| acne (disease) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05209P | SOLUVIT N FOR INFUSION | Powder for injection solution | Not specified |
-| SIN11975P | CERNEVIT FOR INJECTION | Powder for injection solution | Not specified |
-
-Both are valid single-ingredient registrations and are injectable only.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signals, not package-insert text):** The graph links nicotinamide to many conditions, including kidney disease, liver disease, gallbladder disease, peptic ulcer disease, diabetes mellitus, diabetic ketoacidosis, gout, blood coagulation disease, hemophilia, acute coronary syndrome, sickle cell anemia, thyroid gland disease, rhabdomyolysis, primary hyperoxaluria, and iron-metabolism disorders (hereditary hemochromatosis, hemosiderosis, Wilson disease). These need clinical verification against the label.
+- **Contraindications (signals only, not package-insert text):** Nicotinamide is associated with many conditions, including kidney disease, liver disease, gallbladder disease, peptic ulcer disease, diabetes mellitus, diabetic ketoacidosis, gout, blood coagulation disease, hemophilia, acute coronary syndrome, sickle cell anemia, thyroid gland disease, rhabdomyolysis, primary hyperoxaluria, and iron-metabolism disorders (hereditary hemochromatosis, hemosiderosis, Wilson disease). These need clinical verification against the label.
 - **Drug Interactions:** 64 interactions were identified, mostly Moderate. The 20 listed in the data compiled for this report include:
   - Glucose-lowering drugs: metformin, chlorpropamide, acarbose, pioglitazone, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), DPP-4 inhibitors (alogliptin, linagliptin), and GLP-1 agonists (albiglutide, dulaglutide).
   - Oncology drugs: methotrexate, clofarabine, brentuximab vedotin, and asparaginase products.
@@ -104,20 +85,6 @@ Package-insert warnings were not available, so please refer to the package inser
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The high TxGNN score is not supported by any clinical trial, mechanistic data, or relevant publication. The only retrieved papers are off-target, so this is a model prediction only (L5).
-
-**To proceed, the following is needed:**
-- Evidence that nicotinamide affects plasma zinc, or a plausible mechanism for it
-- Detailed mechanism of action data
-- Package-insert warnings and contraindications from the Singapore authority
-- Review of the diabetes and oncology drug interactions if any use is considered
-
-**Alternative lead:** Among the other predictions, **Werner syndrome** (score 88.6%) has far stronger support. A 2025 double-blind randomized crossover trial of nicotinamide riboside, a related NAD+ precursor, was reported in Werner syndrome patients (PMID [40459998](https://pubmed.ncbi.nlm.nih.gov/40459998/)), alongside preclinical work on NAD+ depletion and mitophagy (PMIDs [31754102](https://pubmed.ncbi.nlm.nih.gov/31754102/), [40179319](https://pubmed.ncbi.nlm.nih.gov/40179319/)). The evidence concerns nicotinamide riboside, not nicotinamide itself, and the trial's design and outcomes need verification. It is a better candidate for further evaluation than elevated plasma zinc.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Gilteritinib
 parent: Low Evidence (L5)
 nav_order: 477
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Gilteritinib: predicted new indication Bulbar polio (evidence level L5). Approved use: Acute myeloid leukemia"
 monitor_inn: "Gilteritinib"
-predicted_indications: ["bulbar polio", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "myelodysplastic/myeloproliferative disease"]
+predicted_indications: ["bulbar polio"]
+description: "Gilteritinib: predicted new indication Bulbar polio (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Gilteritinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Gilteritinib: From Acute Myeloid Leukemia to Bulbar Polio
+## Gilteritinib: Bulbar polio
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Gilteritinib is an oral kinase inhibitor (FLT3/AXL) originally used to treat **acute myeloid leukemia (AML)**.
-The TxGNN model predicts it may be effective for **bulbar polio**, with a very high score of 99.10%.
+The TxGNN model predicts it may be effective for **bulbar polio**, with a very high score of 0.9910.
 However, there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute myeloid leukemia (from the knowledge-graph indication records; the Singapore registration record gives no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bulbar polio |
-| TxGNN Prediction Score | 99.10% |
+| TxGNN Prediction Score | 0.9910 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, gilteritinib is a FLT3/AXL kinase inhibitor. Its efficacy in FLT3-mutated AML is the basis of its use, but there is no evident mechanistic link to bulbar polio.
 
-Bulbar polio is a viral infection in which poliovirus attacks motor neurons in the brainstem. Nothing in the available data connects inhibition of FLT3 or AXL to poliovirus infection or to protection of motor neurons. The high score therefore looks like an artifact of the knowledge graph rather than a real biological signal. A high score with no supporting studies should not be read as evidence of efficacy.
+Bulbar polio is a viral infection in which poliovirus attacks motor neurons in the brainstem. Nothing in the available data connects inhibition of FLT3 or AXL to poliovirus infection or to protection of motor neurons. The high score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A high score with no supporting studies should not be read as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
@@ -98,13 +98,13 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. There are no trials or publications for bulbar polio, and no plausible mechanistic link to gilteritinib's targets. It is most likely a knowledge-graph artifact.
+The prediction rests on the model score alone. There are no trials or publications for bulbar polio, and no plausible mechanistic link to gilteritinib's targets. It is most likely a TxGNN model (deep learning) artifact.
 
 **To proceed, the following is needed:**
 - A plausible biological rationale linking FLT3/AXL inhibition to poliovirus pathology, supported by preclinical data
 - Mechanism of action data and package insert safety information (warnings, contraindications)
 - Redirecting attention to better-supported candidates from the same prediction list:
-  - **Myelodysplastic/myeloproliferative disease** has early-phase evidence (L3). This includes a Phase 1/2 trial of azacitidine, venetoclax and gilteritinib in FLT3-mutated AML or high-risk MDS ([NCT04140487](https://clinicaltrials.gov/study/NCT04140487)), plus a case report of an FLT3-fusion neoplasm ([PMID 33792628](https://pubmed.ncbi.nlm.nih.gov/33792628/)).
+  - This includes a Phase 1/2 trial of azacitidine, venetoclax and gilteritinib in FLT3-mutated AML or high-risk MDS ([NCT04140487](https://clinicaltrials.gov/study/NCT04140487)), plus a case report of an FLT3-fusion neoplasm ([PMID 33792628](https://pubmed.ncbi.nlm.nih.gov/33792628/)).
   - **Therapy-related AML/MDS** (alkylating agent- or radiation-related) is biologically plausible but overlaps closely with the approved AML indications, so it is not a true repurposing candidate.
 ## Disclaimer
 

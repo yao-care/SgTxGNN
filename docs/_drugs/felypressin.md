@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Felypressin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the registration data"
 monitor_inn: "Felypressin"
-predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "esotropia", "diabetic retinopathy", "non-seminomatous lesion", "ductal or ductular proliferation", "chondroid hamartoma", "bronchial adenomas/carcinoids childhood", "tumor of testis and paratestis", "pre-malignant neoplasm"]
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "esotropia", "diabetic retinopathy", "chondroid hamartoma", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "tumor of testis and paratestis", "pre-malignant neoplasm"]
 ---
 
 # Felypressin
@@ -50,10 +50,10 @@ This is a model-only prediction with no mechanistic or clinical support.
 |------|------|
 | Original Indication | Not recorded in the registration data |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a model-only prediction with no mechanistic or clinical support.
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, felypressin is a synthetic vasopressin analogue that acts mainly as a V1a receptor agonist, producing vasoconstriction. It is used alongside local dental anaesthetics, where it prolongs the anaesthetic effect and reduces bleeding at the injection site.
 
-No established pathway links felypressin to bone remodelling or to glucocorticoid-induced bone loss. The high TxGNN score (0.998) is a graph-based prediction and likely reflects proximity within the knowledge graph rather than a real pharmacological effect. In practice, this prediction should be treated as a hypothesis only.
+No established pathway links felypressin to bone remodelling or to glucocorticoid-induced bone loss. The high TxGNN score (0.9980) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. In practice, this prediction should be treated as a hypothesis only.
 
 Other top-ranked predictions show the same pattern: none has clinical evidence, and several have tied scores (for example, 0.9919 for four unrelated terms), which suggests non-specific, ontology-level predictions. Two diabetic retinopathy predictions also raise a theoretical safety concern, because vasoconstriction could worsen retinal ischaemia.
 
@@ -103,7 +103,7 @@ As a vasoconstrictor, felypressin carries a theoretical concern for retinal perf
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. There are no clinical trials or publications, no identified mechanistic link, and the package insert safety data have not been reviewed. The evidence level is L5.
+The prediction rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, no identified mechanistic link, and the package insert safety data have not been reviewed. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lisdexamfetamine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 606
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Lisdexamfetamine: predicted new indication Specific developmental disorder (evidence level L4). Approved use: Attention deficit hyperactivity disorder"
 monitor_inn: "Lisdexamfetamine"
-predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy", "narcolepsy, susceptibility to"]
+predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
 ---
 
 # Lisdexamfetamine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The high prediction score most likely reflects the clinical closeness of this co
 |------|------|
 | Original Indication | Attention deficit hyperactivity disorder; binge eating disorder (Singapore licence text is not available) |
 | Predicted New Indication | Specific developmental disorder |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

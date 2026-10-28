@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Atezolizumab
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 117
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Atezolizumab: predicted new indication Prostatic urethra urothelial carcinoma (evidence level L3). Approved use: Transitional cell carcinoma"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "Atezolizumab"
-predicted_indications: ["prostatic urethra urothelial carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+last_modified_at: 2026-10-27
+description: "Atezolizumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Atezolizumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,88 +33,79 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Atezolizumab: From Transitional Cell Carcinoma to Prostatic Urethra Urothelial Carcinoma
+## Atezolizumab: PD-L1 inhibitor (monoclonal antibody) → uterine ligament adenocarcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Atezolizumab is a PD-L1 inhibitor originally used to treat transitional cell (urothelial) carcinoma.
-The TxGNN model predicts it may be effective for **prostatic urethra urothelial carcinoma**,
-but direct support is thin: **1 clinical trial** (a multi-tumour Phase 1b study) and **no publications** currently address this specific disease.
+Atezolizumab is a PD-L1–blocking monoclonal antibody used in cancer treatment.
+The TxGNN model predicts it may be effective for **uterine ligament adenocarcinoma**, but **no clinical trials or publications** currently support this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Transitional cell carcinoma |
-| Predicted New Indication | Prostatic urethra urothelial carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Uterine ligament adenocarcinoma |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, atezolizumab is a PD-L1 inhibitor, its efficacy in urothelial carcinoma has been established, and mechanistically it may be applicable to prostatic urethra urothelial carcinoma.
+Detailed mechanism of action data are not available in the data compiled for this report. Atezolizumab is generally known as an antibody that blocks PD-L1, which may restore immune attack on tumour cells.
 
-Prostatic urethra urothelial carcinoma is histologically the same tumour type as the approved indication (transitional cell carcinoma), arising from the same urothelial lining but at a different anatomical site. The PD-1/PD-L1 axis rationale therefore carries over directly.
-
-The one supporting trial is a multi-tumour Phase 1b study that includes urothelial carcinoma cohorts, so the prostatic urethra subsite is not isolated. The prediction is mechanistically sound, but site-specific evidence is lacking.
+A plausible indirect link is PD-L1 blockade in gynaecologic adenocarcinomas. However, nothing in the compiled data supports this for uterine ligament adenocarcinoma specifically. The very high TxGNN score is a computational prediction only, and the mechanism cannot be verified from the available information.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1 | Active, not recruiting | 914 | Cabozantinib alone or with atezolizumab in locally advanced or metastatic solid tumours, including urothelial carcinoma (bladder, renal pelvis, ureter, urethra). Assesses safety, tolerability, preliminary efficacy and PK. Not specific to the prostatic urethra. |
+Currently no related clinical trials registered for this disease.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for this disease.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15964P | TECENTRIQ Concentrate for Solution for Infusion 840 mg/14 mL | Infusion, solution concentrate | Not listed in the compiled data |
-| SIN15425P | TECENTRIQ Concentrate for Solution for Infusion 1200 mg/20 mL | Infusion, solution concentrate | Not listed in the compiled data |
-| SIN17033P | TECENTRIQ Solution for Injection 1875 mg/15 mL | Injection, solution | Not listed in the compiled data |
+| SIN15964P | TECENTRIQ Concentrate for Solution for Infusion 840 mg/14 mL | Infusion, solution concentrate | Not recorded |
+| SIN15425P | TECENTRIQ Concentrate for Solution for Infusion 1200 mg/20 mL | Infusion, solution concentrate | Not recorded |
+| SIN17033P | TECENTRIQ Solution for Injection 1875 mg/15 mL | Injection, solution | Not recorded |
+
+All three licences are single-ingredient products and currently valid.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-L1 monoclonal antibody), not a conventional cytotoxic |
-| Myelosuppression Risk | Low; please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Please refer to the package insert; typically includes CBC, liver, renal and thyroid function, and monitoring for immune-related adverse events |
+| Cytotoxicity Classification | Immunotherapy (immune checkpoint inhibitor), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-**Drug Interactions:** 75 interactions were identified in the compiled data. Examples include:
-- **Major:** adalimumab, baricitinib, BCG live vaccine (Tice substrain)
-- **Moderate:** systemic corticosteroids (hydrocortisone, prednisone, prednisolone, dexamethasone, methylprednisolone, among others), other immunosuppressants (azathioprine, alemtuzumab, anakinra, alefacept), roflumilast, and certain vaccines (tetanus toxoid, anthrax, adenovirus)
+- **Drug Interactions**: 75 interactions were recorded. Those listed include:
+  - **Major**: adalimumab, baricitinib, BCG live vaccine (Tice strain).
+  - **Moderate**: corticosteroids (hydrocortisone, triamcinolone, betamethasone, budesonide, dexamethasone, prednisolone, prednisone, methylprednisolone, deflazacort), roflumilast, azathioprine, alemtuzumab, anakinra, alefacept, and certain inactivated or live vaccines.
 
-Immunosuppressants and corticosteroids may blunt the immune activation that PD-L1 blockade relies on. For other safety information, please refer to the package insert.
+Label warnings and contraindications were not available; please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Prostatic urethra urothelial carcinoma shares its histology with the approved indication, and atezolizumab is already marketed in Singapore. However, the only trial is an early-phase, multi-tumour study with no site-specific results and no supporting publications, so this should be treated as a research question rather than a ready-to-adopt indication.
+The prediction for uterine ligament adenocarcinoma has a very high model score but no supporting clinical trials or publications, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Package insert warnings, contraindications and approved indication text from HSA (currently missing, which blocks safety screening)
-- Mechanism of action data from DrugBank
-- Subgroup or site-specific efficacy data for prostatic urethra involvement from urothelial carcinoma studies
-- A review of immunosuppressant and corticosteroid co-medication in the target population
-
-### Other Predicted Indications (Brief Note)
-
-- **Endocervical carcinoma** has the most developed evidence among the other predictions (one completed Phase 2 trial of atezolizumab plus bevacizumab, NCT02921269, n=11; one completed Phase 1 trial, NCT03738228, n=40), but both are small early-phase studies. Its literature is a review of a different histology.
-- The remaining predictions (sarcomatoid and papillary urothelial variants, uterine ligament and rare cervical adenocarcinomas) rest on model scores alone, with no trials or publications. They are on **Hold**.
+- Disease-specific preclinical or clinical evidence (for example PD-L1 expression data in this tumour type)
+- Mechanism of action data and package insert warnings and contraindications
+- Review of immunosuppressant and live-vaccine interactions before any use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

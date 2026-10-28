@@ -50,10 +50,10 @@ The data compiled for this report show stronger evidence for neighbouring predic
 |------|------|
 | Original Indication | Asthma, intrinsic asthma, allergic asthma, idiopathic urticaria (approved indication text is not available in the Singapore licence records) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -67,7 +67,7 @@ The link to bronchitis is indirect. The supporting papers come from asthma and a
 For context, other predictions in the same data are better supported:
 - **Obstructive lung disease** (evidence level L1) rests largely on allergic asthma trials and does not carry over to non-allergic COPD. A COPD-specific Phase 2 trial (NCT07059091, n=334) is recruiting, while an earlier COPD study (NCT00851370) was withdrawn with no participants.
 - **Atopic eczema / dermatitis** (L2) has completed small trials, but results are inconsistent and guidelines place omalizumab behind IL-4/IL-13 agents.
-- **Bronchial neoplasm, acne keloid, acrodermatitis chronica atrophicans, hydroa vacciniforme, neonatal dermatomyositis and childhood connective-tissue-disease interstitial lung disease** have no trials or literature and no plausible mechanism (L5). They are likely graph-proximity artifacts.
+- **Bronchial neoplasm, acne keloid, acrodermatitis chronica atrophicans, hydroa vacciniforme, neonatal dermatomyositis and childhood connective-tissue-disease interstitial lung disease** have no trials or literature and no plausible mechanism (L5). Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

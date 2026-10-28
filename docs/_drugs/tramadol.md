@@ -4,17 +4,17 @@ title: Tramadol
 parent: Low Evidence (L5)
 nav_order: 1009
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Osteoarthritis, arthropathy"
 monitor_inn: "Tramadol"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tramadol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tramadol: From Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Tramadol: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Osteoarthritis, arthropathy (the licence records contain no approved indication text; these indications come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 13 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on general pharmacology, tramadol is a mu-opioid receptor agonist that also inhibits serotonin and norepinephrine reuptake. It provides symptomatic pain relief and has been used for osteoarthritis and related joint pain.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia caused by loss of function of the CDMP1/GDF5 gene, which affects skeletal growth. Tramadol does not address this underlying genetic defect. The high TxGNN score most likely reflects closeness in the knowledge graph to the original musculoskeletal indications, not a pharmacological rationale. **No credible mechanistic link was identified.**
+Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia caused by loss of function of the CDMP1/GDF5 gene, which affects skeletal growth. Tramadol does not address this underlying genetic defect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. **No credible mechanistic link was identified.**
 
-Other top-ranked predictions show the same pattern. Brachyolmia, brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, pseudoachondroplasia, spondyloarthropathy and several juvenile arthritis subtypes all have scores above 99.9%. None has supporting trials, and the only literature record found (for juvenile idiopathic arthritis) concerns ketoprofen, not tramadol. At best, tramadol could offer symptomatic pain relief in some of these conditions, such as pseudoachondroplasia, which causes early joint pain.
+Other top-ranked predictions show the same pattern. Brachyolmia, brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, pseudoachondroplasia, spondyloarthropathy and several juvenile arthritis subtypes all have scores above 0.9990. None has supporting trials, and the only literature record found (for juvenile idiopathic arthritis) concerns ketoprofen, not tramadol. At best, tramadol could offer symptomatic pain relief in some of these conditions, such as pseudoachondroplasia, which causes early joint pain.
 
 ## Clinical Trial Evidence
 
@@ -97,7 +97,7 @@ Package insert warnings were not available. Please refer to the package insert f
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical or literature support (Evidence Level L5) and no credible mechanistic link. Tramadol is only a symptomatic analgesic and cannot modify the underlying genetic skeletal defect. The high model score appears to reflect graph proximity to osteoarthritis and arthropathy.
+The prediction has no clinical or literature support (Evidence Level L5) and no credible mechanistic link. Tramadol is only a symptomatic analgesic and cannot modify the underlying genetic skeletal defect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases such as osteoarthritis and arthropathy, not biological evidence.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening

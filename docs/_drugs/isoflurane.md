@@ -4,17 +4,17 @@ title: Isoflurane
 parent: Low Evidence (L5)
 nav_order: 553
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Isoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Singapore licence records (product names indicate i…"
 monitor_inn: "Isoflurane"
-predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "myofascial pain syndrome", "migraine with brainstem aura", "myositis fibrosa"]
+predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
 ---
 
 # Isoflurane
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no
 |------|------|
 | Original Indication | Not stated in the Singapore licence records (product names indicate inhalation anaesthesia) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

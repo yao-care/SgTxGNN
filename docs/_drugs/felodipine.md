@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Felodipine
-parent: Medium Evidence (L3-L4)
-nav_order: 420
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
+parent: Low Evidence (L5)
+nav_order: 419
+evidence_level: L5
+indication_count: 5
 monitor_inn: "Felodipine"
-predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder", "spinal cord ischemia", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
+last_modified_at: 2026-10-28
+description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Felodipine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,38 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Felodipine: From Hypertension to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
+## Felodipine: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Felodipine is an L-type calcium channel blocker originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia** with a very high score, but **no clinical trials** are registered and the 9 publications retrieved are all preclinical or ex vivo studies.
-This top-ranked prediction rests on model output alone, so the evidence is weak. Other predicted indications, notably cerebrovascular disorder and Prinzmetal angina, have much stronger supporting evidence (see the end of this report).
+Felodipine is a dihydropyridine calcium channel blocker, recorded in the knowledge graph for hypertensive disorder and hypertension.
+The TxGNN model predicts it may be effective for **pulmonary hypertension with unclear multifactorial mechanism**,
+but there are currently **0 clinical trials** and **0 publications** that directly study this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder); the Singapore licence records list no indication text |
-| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, felodipine is a dihydropyridine L-type calcium channel blocker with vasodilatory activity. Its efficacy in hypertension is established, and mechanistically it may be applicable to pulmonary vascular disease.
+Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, felodipine is a dihydropyridine L-type calcium channel blocker that relaxes vascular smooth muscle and causes vasodilation. This is how it lowers blood pressure in hypertension.
 
-Hypoxic pulmonary vasoconstriction is partly calcium-dependent, so a calcium channel blocker could plausibly lower pulmonary vascular tone. However, the retrieved literature does not address pulmonary hypertension directly. It consists of hypoxia or anoxia experiments in rat kidney tubules, human atrial muscle, cerebral arteries and rodent behaviour models.
+In theory, the same vasodilation could lower pulmonary vascular resistance. However, calcium channel blockers are useful only in the small subset of vasoreactive pulmonary arterial hypertension patients. That rationale does not extend to a heterogeneous, multifactorial group. The only support for this prediction is the model score; no trial or publication studies this disease directly.
 
-There is also a safety concern. In patients with lung disease, dihydropyridine calcium channel blockers may blunt hypoxic pulmonary vasoconstriction and worsen gas exchange. The very high TxGNN score is therefore not backed by direct clinical evidence.
+For context, the other predictions in the data are:
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 0.9991): the 9 retrieved articles (1986–1999) are all preclinical studies of hypoxia or anoxia in cerebral vessels, atrial muscle, kidney tubules and rodent behaviour. None studies pulmonary hypertension. Evidence level L5. Vasodilators may also worsen ventilation–perfusion matching in lung disease.
+- **Malignant hypertensive renal disease** (0.9990): overlaps closely with the existing hypertension use, with no trials or literature. Malignant hypertension is usually managed with parenteral agents.
+- **Braddock syndrome** (0.9988): a very rare condition, with no trials, literature or specific mechanistic rationale.
+- **Chronic pulmonary heart disease** (0.9919): three older, indirect studies, including a 1988 haemodynamic study of felodipine infusion in severe COPD. Its findings are not direct evidence in this disease.
 
 ## Clinical Trial Evidence
 
@@ -68,61 +72,39 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-All retrieved publications for this indication are preclinical or ex vivo studies. None is a clinical study in pulmonary hypertension.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [8584414](https://pubmed.ncbi.nlm.nih.gov/8584414/) | 1995 | Preclinical (rat tubules) | Pflugers Arch | Felodipine protected isolated rat proximal tubules from hypoxic injury through a calcium-independent mechanism |
-| [9431863](https://pubmed.ncbi.nlm.nih.gov/9431863/) | 1997 | Ex vivo (human atrial muscle) | Int J Cardiol | Felodipine pretreatment protected human atrial muscle from hypoxia-reoxygenation dysfunction in an in vitro stunning model |
-| [8394565](https://pubmed.ncbi.nlm.nih.gov/8394565/) | 1993 | Preclinical | Pflugers Arch | Effect of felodipine and a verapamil analogue on anoxia-induced rises in intracellular calcium in rabbit proximal tubule cells |
-| [3961832](https://pubmed.ncbi.nlm.nih.gov/3961832/) | 1986 | Animal study | Stroke | Felodipine and nifedipine depressed the anoxia-induced increase in cerebral blood flow in rats |
-| [3343292](https://pubmed.ncbi.nlm.nih.gov/3343292/) | 1988 | Animal study | J Cereb Blood Flow Metab | Both drugs suppressed hypoxia-evoked adenosine and inosine release from rat cerebral cortex |
-| [8110031](https://pubmed.ncbi.nlm.nih.gov/8110031/) | 1993 | Animal behavioural study | Arch Int Pharmacodyn Ther | Effects of three calcium channel blockers on passive avoidance behaviour in intact and hypoxia-exposed rats |
-| [8160846](https://pubmed.ncbi.nlm.nih.gov/8160846/) | 1994 | Preclinical (vascular) | Am J Physiol | A prior anoxic episode attenuated vasorelaxation to a later anoxic episode in rat aortic rings |
-| [3142891](https://pubmed.ncbi.nlm.nih.gov/3142891/) | 1988 | Preclinical (cerebral arteries) | J Cereb Blood Flow Metab | Reoxygenation and calcium-induced contractions in dog cerebral arteries as affected by vasodilators |
-| [9864178](https://pubmed.ncbi.nlm.nih.gov/9864178/) | 1999 | Preclinical | Blood | Nitric oxide augmented free radical generation by rat white cells after hypoxia-reoxygenation |
+Currently no related literature available for the lead predicted indication (pulmonary hypertension with unclear multifactorial mechanism).
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08768P | PLENDIL TABLET 10 mg | Tablet, extended release | Not stated in the licence record |
-| SIN07738P | PLENDIL TABLET 2.5 mg | Tablet, extended release | Not stated in the licence record |
-| SIN08781P | PLENDIL TABLET 5 mg | Tablet, extended release | Not stated in the licence record |
+| SIN08768P | PLENDIL TABLET 10 mg | Tablet, extended release | Not stated in the records |
+| SIN07738P | PLENDIL TABLET 2.5 mg | Tablet, extended release | Not stated in the records |
+| SIN08781P | PLENDIL TABLET 5 mg | Tablet, extended release | Not stated in the records |
 
-All three licences are valid single-ingredient oral products from AstraZeneca Pharmaceutical Co. Ltd and Saneca Pharmaceuticals a.s.
+All three are oral products from AstraZeneca Pharmaceutical Co. Ltd / Saneca Pharmaceuticals a.s.
 
 ## Safety Considerations
 
-- **Contraindication signals from the knowledge graph** (not package insert text): kidney disease, liver disease, gallbladder disease, angioedema (several forms), neutropenia and agranulocytosis, aortic stenosis, hypotensive disorder, hypertrophic cardiomyopathy, renal artery obstruction, myocardial infarction, coronary artery disease and atherosclerosis. These need verification against the label.
-- **Drug interactions** (100 recorded; examples from the first 20 shown):
-  - **Major:** dolasetron.
-  - **Moderate:** corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), cimetidine, clarithromycin, aprepitant, bupropion, morphine, acetylsalicylic acid, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), calcium salts, magnesium sulfate, dronabinol and nabilone.
-- **Disease-specific concern:** possible worsening of gas exchange in lung disease, plus fluid retention and reflex tachycardia.
+- **Contraindications recorded in the knowledge graph (not label text):** kidney disease, liver disease, gallbladder disease, angioedema (including hereditary and acquired forms), neutropenia, agranulocytosis, aortic stenosis and aortic valve disease, hypotensive disorder, hypertrophic cardiomyopathy, renal artery obstruction, myocardial infarction, coronary artery disease, atherosclerosis, connective tissue disease, bone and cartilage disease, and hemoglobinopathy.
+- **Drug Interactions:** 100 interactions were found. One is rated Major: **dolasetron**. Many are rated Moderate, including cimetidine, clarithromycin, aprepitant, bupropion, morphine, acetylsalicylic acid, several corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), magnesium sulfate, dronabinol and nabilone.
+- **Disease-specific cautions:** vasodilation may worsen ventilation–perfusion matching in lung disease, and negative inotropy is a concern in heart failure.
 
-Package insert warnings and contraindications could not be obtained for this report. Please refer to the package insert for authoritative safety information.
+Please refer to the package insert for label warnings, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, pulmonary hypertension owing to lung disease and/or hypoxia, has no clinical trials and only preclinical or ex vivo literature (L4). Dihydropyridine calcium channel blockers may also worsen oxygenation in patients with lung disease. The 99.91% TxGNN score is not supported by direct clinical data.
-
-**Other predicted indications worth noting:**
-
-| Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Comment |
-|------|------|------|------|------|
-| Cerebrovascular disorder | 98.47% | L1 | Proceed with Guardrails | The FEVER trial (9,711 Chinese hypertensive patients, randomized, double-blind, placebo-controlled) and the HOT study support stroke prevention. The benefit is largely from blood pressure lowering, so it overlaps with the approved indication. No registry trial data were provided. |
-| Prinzmetal angina | 99.07% | L2 | Proceed with Guardrails | Small comparative and provocation studies, including once-daily felodipine versus four-times-daily nifedipine, with surrogate endpoints and no Phase 3 outcome RCT. |
-| Chronic pulmonary heart disease | 99.19% | L3 | Research question | Small haemodynamic studies in severe COPD showed reductions in pulmonary and systemic vascular resistance. These are physiological studies, not outcome trials. |
-| Other predictions | — | L5 | Hold | Pulmonary hypertension of unclear mechanism, malignant renovascular hypertension, malignant hypertensive renal disease, Braddock syndrome, spinal cord ischemia and obsolete susceptibility to ischemic stroke are prediction only. Several largely restate the existing hypertension indication. |
+The prediction for pulmonary hypertension with unclear multifactorial mechanism is supported only by the model score. There are no clinical trials, and no publications directly study this disease, so the evidence level is L5. The mechanism is plausible only for a small vasoreactive subset, not a heterogeneous group.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, which block safety screening
-- Mechanism of action data
-- For pulmonary hypertension: controlled haemodynamic or outcome studies in the target population, with attention to oxygenation
-- For cerebrovascular disorder and Prinzmetal angina: a review of the full trial data and a clear definition of how the new use differs from the approved hypertension indication
+- Package insert warnings and contraindications from the Singapore HSA records
+- Detailed mechanism of action data
+- Clinical or well-designed preclinical studies in pulmonary hypertension, ideally with a defined, vasoreactive subgroup
+- A safety assessment covering gas exchange in lung disease and use in heart failure
+- Consideration of chronic pulmonary heart disease as a research question, since indirect haemodynamic data exist (e.g. the COPD study), but these are not sufficient to support a decision
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

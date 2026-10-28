@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Triclosan
-parent: Medium Evidence (L3-L4)
-nav_order: 1022
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Triclosan: predicted new indication Acne (disease) (evidence level L4). Approved use: Not stated in the registration data"
-monitor_inn: "Triclosan"
-predicted_indications: ["acne (disease)", "familial adrenal hypoplasia with absent pituitary luteinizing hormone", "scalp dermatosis", "PAGOD syndrome", "zinc, elevated plasma", "primary release disorder of platelets", "pseudo-von Willebrand disease", "multiple endocrine neoplasia", "familial pityriasis rubra pilaris", "thyroid gland disease"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 1021
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Triclosan: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Triclosan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +32,45 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Triclosan: From an Unspecified Topical Antimicrobial Use to Acne
+<!-- known-uses-page -->
+<!-- description: Triclosan: known uses and market status in Singapore; currently no new candidate indication -->
+## Triclosan: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate indication with a score of 0.99 or higher for Triclosan, so there is currently no new predicted indication. No recorded uses are on file for this drug. The groups below are kept for reference and show "none".
 
-Triclosan is a broad-spectrum antibacterial agent that is currently registered in Singapore as a single-ingredient lotion product (a bath oil), although no approved indication text is on record.
-The TxGNN model predicts it may be effective for **acne**, but there are **0 clinical trials** and only **1 indirectly related publication** (a review about a different disease, hidradenitis suppurativa) supporting this direction.
-The evidence is weak, and the high model score is not backed by direct clinical data.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data |
-| Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 97.38% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 0 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, triclosan is a broad-spectrum antibacterial that inhibits bacterial enoyl-acyl carrier protein reductase (FabI). It has activity against *Cutibacterium acnes* and *Staphylococcus* species.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Because bacterial colonisation contributes to acne, this gives a plausible but indirect link between the drug and the predicted indication. This is only a mechanistic hypothesis, however. The single publication retrieved concerns treatment frameworks for hidradenitis suppurativa (acne inversa), a different disease, and does not evaluate triclosan.
-
-The high TxGNN score (97.38%) should therefore be read as a model signal, not as confirmation of clinical benefit.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for acne.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30176066](https://pubmed.ncbi.nlm.nih.gov/30176066/) | 2019 | Systematic review | J Eur Acad Dermatol Venereol | Systematic review and consensus recommendations for hidradenitis suppurativa/acne inversa management. It does not evaluate triclosan and concerns a different disease, so it offers only indirect context. |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11468P | QV FLARE UP BATH OIL | Lotion | Not stated |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11468P | QV FLARE UP BATH OIL | LOTION | Valid |
 
 ## Safety Considerations
 
@@ -100,29 +82,6 @@ Please refer to the package insert for further safety information.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The acne prediction rests on a plausible antibacterial mechanism but has no direct clinical trial or literature support. The only retrieved publication addresses a different disease. In addition, the local registration lacks indication and label safety data, and triclosan carries endocrine/thyroid safety signals in the literature.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
-- Mechanism of action data confirmed from DrugBank
-- Direct evidence of triclosan efficacy in acne (clinical trials or relevant studies)
-- A formal safety assessment addressing the thyroid and endocrine-disruption signals
-- Confirmation of the approved indication and route of use for the registered Singapore product
-
----
-
-## Other Predicted Indications (Brief Notes)
-
-Other predictions were also reviewed, and none currently supports advancing:
-
-- **Scalp dermatosis (score 94.15%, L4, Hold)**: One retrospective safety study (NCT05105139, n=90) of Sebryl/Sebryl Plus products in seborrheic dermatitis and scalp psoriasis. It does not confirm triclosan as the active ingredient and did not assess efficacy.
-- **Thyroid gland disease (score 88.04%, L4, Hold)**: The literature treats triclosan as a potential thyroid disruptor, not a treatment. This is a safety concern and argues against repurposing.
-- **Familial adrenal hypoplasia with absent pituitary LH, PAGOD syndrome, elevated plasma zinc, primary release disorder of platelets, pseudo-von Willebrand disease, multiple endocrine neoplasia, familial pityriasis rubra pilaris (all L5, Hold)**: Prediction-only signals with no plausible mechanism or supporting evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

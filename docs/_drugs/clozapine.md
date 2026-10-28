@@ -46,10 +46,10 @@ Clozapine is an atypical antipsychotic marketed in Singapore as tablets, and it 
 |------|------|
 | Original Indication | Not stated in the Singapore licence records (approved indication text is blank for all 4 registrations). Clozapine is known clinically as a treatment for treatment-resistant schizophrenia |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L2 (one completed Phase 2 RCT for mania; the broader bipolar disorder group reaches L1) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 (one completed Phase 2 RCT for mania; the broader bipolar disorder group reaches L1) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -106,15 +106,15 @@ Please also refer to the package insert, as label warnings and contraindications
 
 | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|
-| Tourette syndrome | 99.91% | L4 | Hold (case-level reports only; weak mechanistic fit) |
-| Trichotillomania | 99.90% | L5 | Hold (no studies retrieved) |
-| Schizophreniform disorder | 99.69% | L2 | Proceed with Guardrails (trials mostly broader schizophrenia studies) |
-| Bipolar disorder | 99.62% | L1 | Proceed with Guardrails |
-| Major affective disorder | 99.48% | L2 | Research Question (indirect support only) |
-| ADHD | 99.31% | L4 | Hold (indirect and preclinical data only) |
-| ADHD, inattentive type | 99.21% | L5 | Hold (no studies retrieved) |
-| Psychotic disorder | 99.12% | L1 | Proceed with Guardrails |
-| Malan overgrowth syndrome | 99.02% | L5 | Hold (no studies retrieved) |
+| Tourette syndrome | 0.9991 | L4 | Hold (case-level reports only; weak mechanistic fit) |
+| Trichotillomania | 0.9990 | L5 | Hold (no studies retrieved) |
+| Schizophreniform disorder | 0.9969 | L2 | Proceed with Guardrails (trials mostly broader schizophrenia studies) |
+| Bipolar disorder | 0.9962 | L1 | Proceed with Guardrails |
+| Major affective disorder | 0.9948 | L2 | Research Question (indirect support only) |
+| ADHD | 0.9931 | L4 | Hold (indirect and preclinical data only) |
+| ADHD, inattentive type | 0.9921 | L5 | Hold (no studies retrieved) |
+| Psychotic disorder | 0.9912 | L1 | Proceed with Guardrails |
+| Malan overgrowth syndrome | 0.9902 | L5 | Hold (no studies retrieved) |
 
 ## Conclusion and Next Steps
 

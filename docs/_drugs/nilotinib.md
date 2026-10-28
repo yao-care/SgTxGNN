@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nilotinib
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 713
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive"
 monitor_inn: "Nilotinib"
-predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma", "Ewing sarcoma", "ganglioneuroblastoma (disease)", "heart fibrosarcoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "kidney fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma"]
+predicted_indications: ["dermatofibrosarcoma protuberans"]
+description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Nilotinib: From Chronic Myelogenous Leukaemia (BCR-ABL1 positive) to Dermatofibrosarcoma Protuberans
+## Nilotinib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nilotinib is a kinase inhibitor originally used to treat BCR-ABL1-positive chronic myelogenous leukaemia.
 The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**, but this top-ranked prediction currently has **no registered clinical trials** and only **1 review article** supporting it.
-Among the other predictions, liposarcoma has the most supporting evidence (1 Phase I/II trial and 1 Phase I publication).
 
 ---
 
@@ -48,12 +47,12 @@ Among the other predictions, liposarcoma has the most supporting evidence (1 Pha
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive (the Singapore licence records contain no indication text, so this comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| TxGNN Prediction Score | 0.9931 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,17 +67,12 @@ DFSP is driven by the COL1A1-PDGFB fusion, which causes constitutive activation 
 
 | Rank | Predicted Indication | Score | Evidence Level | Support |
 |------|------|------|------|------|
-| 2 | Liposarcoma | 98.85% | L3 | 1 Phase I/II trial, 1 Phase I publication (nilotinib + doxorubicin) |
-| 3 | Ovarian myxoid liposarcoma | 98.74% | L5 | Prediction only |
-| 4 | Ewing sarcoma | 98.45% | L5 | Only a bioinformatic prognostic study that does not evaluate nilotinib |
-| 9 | Fibroblastic neoplasm | 96.90% | L4 | Class-level PDGFR/KIT rationale (mostly imatinib and preclinical studies) |
-| 5–8, 10 | Ganglioneuroblastoma, heart fibrosarcoma, a rare vertebral/endocrine/T-cell syndrome, kidney fibrosarcoma, conventional fibrosarcoma | 96.8–97.0% | L5 | Prediction only |
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials are registered for dermatofibrosarcoma protuberans. The closest related trial, found under the rank 2 prediction (liposarcoma), is shown below for reference.
+No clinical trials are registered for dermatofibrosarcoma protuberans.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -125,7 +119,6 @@ Both licences are valid single-ingredient oral products (manufacturers: Novartis
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signals, not label text):** long QT syndrome (including familial) and torsades de pointes, hypertension, liver disease, hyperbilirubinaemia (including Gilbert syndrome), gallbladder disease, pancreatitis, diabetes mellitus and diabetic ketoacidosis, hyperglycaemia, potassium deficiency, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease and hypophosphataemia, thrombocytopenia, neutropenia, agranulocytosis, and anaemia (including macrocytic).
 - **Drug Interactions:** 100 interactions were identified. Major-level examples include **dexamethasone**, **clarithromycin**, **picosulfuric acid** and **polyethylene glycol (3350 with electrolytes)**. Moderate-level examples include acid-suppressing agents (famotidine, ranitidine, cimetidine, omeprazole, rabeprazole), other corticosteroids (hydrocortisone, betamethasone, budesonide, triamcinolone), pioglitazone, loperamide, bupropion, aprepitant, bisacodyl and saxagliptin.
 - **Other signal:** one case report describes pancreatic carcinoma after nilotinib therapy. It is a single case and does not establish causality.
 
@@ -138,13 +131,12 @@ Package insert warnings were not available in the data compiled for this report,
 **Decision: Hold**
 
 **Rationale:**
-The DFSP prediction has a plausible PDGFR-based mechanism, but its only support is a single review, with no nilotinib-specific clinical data, and imatinib is already the established option. Among the other predictions, liposarcoma has the most evidence (L3), but its Phase I/II trial has unknown status and no efficacy results. The safety profile, including QT prolongation signals and many drug interactions, calls for caution.
+The DFSP prediction has a plausible PDGFR-based mechanism, but its only support is a single review, with no nilotinib-specific clinical data, and imatinib is already the established option. The safety profile, including QT prolongation signals and many drug interactions, calls for caution.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Case series or trial data for nilotinib in DFSP, including head-to-head or post-imatinib comparisons
-- Efficacy results from NCT02587169 and the Phase II portion of the liposarcoma programme
 - A QT, hepatic and drug-interaction monitoring plan for any sarcoma population
 ## Disclaimer
 

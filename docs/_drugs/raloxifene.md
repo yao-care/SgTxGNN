@@ -4,17 +4,17 @@ title: Raloxifene
 parent: Low Evidence (L5)
 nav_order: 848
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Raloxifene: predicted new indication Duodenal ulcer (evidence level L5). Approved use: Postmenopausal osteoporosis"
+description: "Raloxifene: predicted new indication duodenal ulcer (disease) (evidence level L5). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Raloxifene"
-predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux", "Worth syndrome", "homozygous familial hypercholesterolemia", "autosomal dominant neovascular inflammatory vitreoretinopathy", "brain stem infarction", "obsolete familial combined hyperlipidemia"]
+predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
 ---
 
 # Raloxifene
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Raloxifene: From Postmenopausal Osteoporosis to Duodenal Ulcer
+## Raloxifene: From Postmenopausal Osteoporosis to duodenal ulcer (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **duodenal ulcer**, but this is
 |------|------|
 | Original Indication | Postmenopausal osteoporosis (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Duodenal ulcer |
-| TxGNN Prediction Score | 99.72% |
+| TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, raloxifene is a selective estrogen receptor modulator. Its efficacy in postmenopausal osteoporosis is established, mainly through reducing bone resorption.
 
-The data compiled for this report do not establish a plausible mechanistic link between estrogen receptor modulation and duodenal ulcer. The high score (99.72%) is a computational output only. Several of the other top predictions are also duodenal or gastrointestinal terms (duodenal obstruction, duodenogastric reflux), which suggests the prediction may reflect a knowledge-graph neighbourhood effect rather than true biological relevance. This prediction should be treated as a hypothesis only.
+The data compiled for this report do not establish a plausible mechanistic link between estrogen receptor modulation and duodenal ulcer. The high score (0.9972) is a computational output only. Several of the other top predictions are also duodenal or gastrointestinal terms (duodenal obstruction, duodenogastric reflux), which suggests the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -76,7 +76,7 @@ Currently no related literature available.
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not label text)**: The knowledge graph links raloxifene with the following conditions: hypertension, liver disease, gallbladder disease, atrial fibrillation, hypertriglyceridemia, thrombophlebitis, coronary artery disease, stroke and cerebrovascular disorders (including cerebral infarction and transient ischaemic attack), pulmonary embolism, retinal artery occlusion, thrombophilia, impaired renal function, vertebrobasilar insufficiency and antiphospholipid syndrome. These should be verified against the official package insert.
+- **Contraindications (not from label text)**: The following conditions are listed as associated with raloxifene: hypertension, liver disease, gallbladder disease, atrial fibrillation, hypertriglyceridemia, thrombophlebitis, coronary artery disease, stroke and cerebrovascular disorders (including cerebral infarction and transient ischaemic attack), pulmonary embolism, retinal artery occlusion, thrombophilia, impaired renal function, vertebrobasilar insufficiency and antiphospholipid syndrome. These should be verified against the official package insert.
 - **Drug Interactions**: The interaction query returned 100 records, but all those listed have an unclassified severity level. Examples include calcitriol, pantoprazole, glimepiride, mesalazine, doxycycline, metformin, omeprazole, simvastatin and tetracycline. Clinical significance cannot be judged from the available data.
 
 Please refer to the package insert for the official warnings and contraindications.

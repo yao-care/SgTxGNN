@@ -6,9 +6,9 @@ nav_order: 845
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia, bipolar disorder, major affective disorder…"
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
+description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Quetiapine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Quetiapine: From Schizophrenia and Bipolar Disorder to Retinal Dystrophy
+## Quetiapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ The best-supported candidate in the data compiled for this report is **trichotil
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, bipolar disorder, major affective disorder, manic bipolar affective disorder (the Singapore licence records contain no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies (rank 1) |
-| TxGNN Prediction Score | 99.57% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 For the top-ranked prediction, retinal dystrophy, no mechanistic link is established in the data compiled for this report. The high score is a computational prediction only. The same applies to the other top-ranked candidates (congenital disorder of glycosylation, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria, X-linked myopia, Charcot-Marie-Tooth type 1G). These are genetic or structural conditions with no apparent connection to quetiapine's receptor pharmacology.
 
-The one exception is **trichotillomania** (rank 8, score 99.38%). It is an obsessive-compulsive spectrum disorder, and atypical antipsychotics are used as augmentation in such conditions. Dopamine D2 and serotonin 5-HT2A antagonism offers a plausible link. The available evidence is limited to case reports and reviews. Study designs were inferred from titles and abstracts and not confirmed.
+The one exception is **trichotillomania** (rank 8, score 0.9938). It is an obsessive-compulsive spectrum disorder, and atypical antipsychotics are used as augmentation in such conditions. Dopamine D2 and serotonin 5-HT2A antagonism offers a plausible link. The available evidence is limited to case reports and reviews. Study designs were inferred from titles and abstracts and not confirmed.
 
 ## Clinical Trial Evidence
 
@@ -107,7 +107,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, retinal dystrophy, has no clinical trials, no literature and no identified mechanistic link, so the evidence level is L5. Trichotillomania (L4) is the only candidate with any supporting literature. That literature consists of case reports and reviews, with no controlled trials. Quetiapine also carries a notable metabolic and cardiac risk profile in the knowledge graph.
+The top-ranked prediction, retinal dystrophy, has no clinical trials, no literature and no identified mechanistic link, so the evidence level is L5. Trichotillomania (L4) is the only candidate with any supporting literature. That literature consists of case reports and reviews, with no controlled trials.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)

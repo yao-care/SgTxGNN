@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Acetaminophen
-parent: Medium Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 29
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Acetaminophen: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder, headache disorder, common cold, allergic rhinitis"
-monitor_inn: "Acetaminophen"
-predicted_indications: ["trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "ulerythema ophryogenesis", "fibromyalgia", "inclusion body myositis", "sciatic neuropathy"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Acetaminophen: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Acetaminophen
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,81 +32,66 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Acetaminophen: From Headache and Migraine to Migraine with Brainstem Aura
+<!-- known-uses-page -->
+<!-- description: Acetaminophen: known uses and market status in Singapore; currently no new candidate indication -->
+## Acetaminophen: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetaminophen. Every candidate that can be traced to a source is already a known use, so there is currently no new predicted indication. This page lists those known uses and the drug's market status in Singapore.
 
-Acetaminophen (paracetamol) is a widely used analgesic and antipyretic, listed here for migraine, headache disorders, common cold and allergic or vasomotor rhinitis.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**, a subtype of migraine with aura.
-No clinical trials are registered for this subtype, and the **20 publications** compiled are mostly general migraine reviews rather than subtype-specific studies, so the evidence is indirect.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder, headache disorder, common cold, allergic rhinitis (the Singapore licences carry no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 20 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 0 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences on record: at least 20) |
+| Number of Registrations | at least 20 |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Detailed mechanism of action data are not available in the data compiled for this report. Acetaminophen is generally understood to act as an analgesic through central pathways, including central COX inhibition and engagement of descending serotonergic pain pathways.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Acetaminophen is already an established acute treatment for migraine, and migraine with brainstem aura is a subtype of migraine with aura. The shared migraine pathophysiology and the analgesic action make the prediction plausible.
-
-The link is nonetheless indirect. The supporting literature, such as the American Headache Society evidence assessment and the reviews on status migrainosus, pregnancy and paediatric migraine, addresses migraine in general. None of it provides efficacy data specific to the brainstem aura subtype.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-The 20 publications compiled are summarised below. The 10 most relevant are listed, with reviews prioritised because no RCT addresses this subtype.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies |
-| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Review | Handbook of Clinical Neurology | Status migrainosus, a complication of migraine with or without aura, and its burden |
-| [16018227](https://pubmed.ncbi.nlm.nih.gov/16018227/) | 2005 | Review | Pediatric Annals | Acute and preventive treatment of paediatric migraine |
-| [30470274](https://pubmed.ncbi.nlm.nih.gov/30470274/) | 2019 | Review | Neurologic Clinics | Headache in pregnancy; acetaminophen is first-line symptomatic treatment |
-| [37123778](https://pubmed.ncbi.nlm.nih.gov/37123778/) | 2023 | Review | Cureus | Migraine treatment in pregnancy and breastfeeding |
-| [39493026](https://pubmed.ncbi.nlm.nih.gov/39493026/) | 2024 | Review | Cureus | Abortive and prophylactic migraine therapies in pregnancy |
-| [10321417](https://pubmed.ncbi.nlm.nih.gov/10321417/) | 1999 | Randomised trials (pooled retrospective analysis) | Clinical Therapeutics | Acetaminophen/aspirin/caffeine combination in menstruation-associated migraine, from three placebo-controlled trials |
-| [11318886](https://pubmed.ncbi.nlm.nih.gov/11318886/) | 2001 | Comparative study | Headache | Isometheptene/dichloralphenazone/acetaminophen combination compared with sumatriptan in migraine |
-| [23203776](https://pubmed.ncbi.nlm.nih.gov/23203776/) | 2013 | Review | Current Treatment Options in Neurology | Diagnosis and treatment of familial and sporadic hemiplegic migraine |
-| [10534294](https://pubmed.ncbi.nlm.nih.gov/10534294/) | 1999 | Review | Journal of Women's Health & Gender-Based Medicine | Menstrual migraine |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-Acetaminophen has 20 valid single-ingredient licences in Singapore and no combination or cancelled licences. The data compiled for this report contain no approved indication text for any of them. The five main authorisations are listed below.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16479P | PANADOL MINI CAPS CAPSULE 500MG | CAPSULE | Valid |
+| SIN11299P | PARACIL TABLETS 500 mg | TABLET | Valid |
+| SIN14871P | PARASUSTAIN SUSTAINED RELEASE TABLETS 665MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN14699P | PANADOL WITH OPTIZORB CAPLET 500MG | TABLET, FILM COATED | Valid |
+| SIN11120P | PRITAMOL SUPPOSITORIES 125 mg | SUPPOSITORY | Valid |
+| SIN05565P | PARMOL 250 SUSPENSION 250 mg/5 ml | SUSPENSION | Valid |
+| SIN06670P | DOUBLE PARROT BRAND ADULT FEVER TABLETS 500 mg | TABLET | Valid |
+| SIN06174P | SUNNY PARACETAMOL TABLET 500 mg | TABLET | Valid |
+| SIN10854P | AXCEL PARACETAMOL-250 SUSPENSION (ORANGE) 250 mg/5 ml | SUSPENSION | Valid |
+| SIN11122P | PRITAMOL SUPPOSITORIES 250 mg | SUPPOSITORY | Valid |
+| SIN09869P | PORO TABLET 500 mg | TABLET | Valid |
+| SIN05328P | PANAMOL TABLETS 500 mg | TABLET | Valid |
+| SIN06353P | AI KAN SHAN FEVER POWDER 500 mg/sachet | POWDER | Valid |
+| SIN15123P | DUMIN CAPLET 500MG | TABLET | Valid |
+| SIN07404P | PANADOL SOLUBLE TABLET 500 mg | TABLET | Valid |
+| SIN15949P | TYLENOL FILM COATED TABLETS 500MG | TABLET, FILM COATED | Valid |
+| SIN14143P | Avadol Tablet 500mg | TABLET | Valid |
+| SIN15443P | PARACETAMOL KABI SOLUTION FOR INFUSION 10MG/ML | INFUSION, SOLUTION | Valid |
+| SIN10641P | ACET 325 SUPPOSITORIES 325 mg | SUPPOSITORY | Valid |
+| SIN06364P | DHAMOL SUSPENSION 250 mg/5 ml | SUSPENSION | Valid |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16479P | Panadol Mini Caps Capsule 500 mg | Capsule | Not stated |
-| SIN14699P | Panadol with Optizorb Caplet 500 mg | Film-coated tablet | Not stated |
-| SIN14871P | Parasustain Sustained Release Tablets 665 mg | Film-coated extended-release tablet | Not stated |
-| SIN15443P | Paracetamol Kabi Solution for Infusion 10 mg/ml | Solution for infusion | Not stated |
-| SIN15949P | Tylenol Film Coated Tablets 500 mg | Film-coated tablet | Not stated |
-
-Other available forms include suppositories, suspensions, powder and soluble tablets.
-
----
+Only part of the licence list is held in the data; the list may be incomplete.
 
 ## Safety Considerations
 
@@ -118,30 +102,6 @@ For other warnings and precautions, please refer to the package insert.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The TxGNN score is high, but the evidence is model prediction plus general migraine literature (L4). Nothing is specific to migraine with brainstem aura, and no clinical trials are registered. The route to a repurposing claim is indirect, through the existing migraine use.
-
-**To proceed, the following is needed:**
-- Subtype-specific efficacy data, or a clinical review showing that the existing acute migraine evidence for acetaminophen applies to brainstem aura
-- Detailed mechanism of action data
-- Package insert warnings and contraindications for the Singapore products, including liver-related precautions
-- Confirmation of the approved indication text for the Singapore licences
-
----
-
-## Other Predicted Indications (for Reference)
-
-| Rank | Predicted Indication | Score | Evidence Level | Recommendation | Comment |
-|---|---|---|---|---|---|
-| 2 | Trigeminal autonomic cephalalgia | 98.58% | L4 | Hold | These headaches generally respond poorly to simple analgesics; evidence is reviews and case reports only |
-| 4 | Tendinitis | 94.58% | L4 | Research Question | Analgesic effect is plausible but there is no tendinitis-specific RCT, and acetaminophen has little anti-inflammatory action |
-| 8 | Fibromyalgia | 90.84% | L3 | Research Question | The main RCT (PMID 12753877) and NCT00766675 test a tramadol/acetaminophen combination, so acetaminophen's own effect cannot be isolated |
-| 10 | Sciatic neuropathy | 86.63% | L3 | Research Question | One RCT (PMID 26938140) compared IV paracetamol with morphine in sciatica; evidence is limited to short-term symptom relief |
-| 3, 5, 6, 7, 9 | Atrophoderma vermiculata, myositis fibrosa, idiopathic granulomatous myositis, ulerythema ophryogenesis, inclusion body myositis | 89.17%–94.71% | L5 | Hold | Supported only by the TxGNN score, with no trials, no literature and no plausible mechanism |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

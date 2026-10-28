@@ -6,9 +6,9 @@ nav_order: 828
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Prochlorperazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "Prochlorperazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Prochlorperazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prochlorperazine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prochlorperazine: From Schizophrenia to Retinal Dystrophy (with or without Extraocular Anomalies)
+## Prochlorperazine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ The best-supported lead among the predicted indications is **manic bipolar affec
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this drug. Based on known information, prochlorperazine is a phenothiazine that blocks dopamine D2 receptors, and it also acts on histamine and muscarinic receptors. Its efficacy in schizophrenia and psychosis is established.
 
-For the top-ranked prediction, retinal dystrophy, no mechanistic link has been identified. The very high score (0.99998) reflects graph-based prediction only. Retinal dystrophies are inherited disorders, and a D2 antagonist has no known disease-modifying role. The other top-ranked predictions are similar: hydranencephaly, congenital glycosylation disorders, X-linked myopia subtypes, Charcot-Marie-Tooth disease type 1G, polymicrogyria and atypical glycine encephalopathy. All are rare congenital or monogenic conditions with no plausible pharmacological rationale. These predictions are probably driven by graph topology rather than biology.
+For the top-ranked prediction, retinal dystrophy with or without extraocular anomalies, no mechanistic link has been identified. The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Retinal dystrophies are inherited disorders, and a D2 antagonist has no known disease-modifying role. The other top-ranked predictions are similar: hydranencephaly, congenital glycosylation disorders, X-linked myopia subtypes, Charcot-Marie-Tooth disease type 1G, polymicrogyria and atypical glycine encephalopathy. All are rare congenital or monogenic conditions with no plausible pharmacological rationale. These scores probably reflect similarities the model learned between related diseases rather than biology.
 
-The exception is **manic bipolar affective disorder** (score 99.98%, rank 10). It is biologically plausible, because phenothiazine D2 antagonists are used in acute mania and agitation, and the condition is close to the original psychiatric indication. However, newer antipsychotics have much stronger evidence in mania.
+The exception is **manic bipolar affective disorder** (score 0.9998, rank 10). It is biologically plausible, because phenothiazine D2 antagonists are used in acute mania and agitation, and the condition is close to the original psychiatric indication. However, newer antipsychotics have much stronger evidence in mania.
 
 ## Clinical Trial Evidence
 
@@ -113,7 +113,7 @@ Not applicable. Prochlorperazine is not an antineoplastic drug, so this section 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (retinal dystrophy) rests solely on a graph-based score. It has no trials, no literature and no plausible mechanism, which gives an evidence level of L5. The only credible lead, manic bipolar affective disorder (L4), is supported only by indirect or historical reports and should be treated as a research question rather than a candidate for action.
+The top-ranked prediction (retinal dystrophy with or without extraocular anomalies) rests solely on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. It has no trials, no literature and no plausible mechanism, which gives an evidence level of L5. The only credible lead, manic bipolar affective disorder (L4), is supported only by indirect or historical reports and should be treated as a research question rather than a candidate for action.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to allow proper mechanistic-link analysis.

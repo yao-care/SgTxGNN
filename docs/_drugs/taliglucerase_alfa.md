@@ -4,17 +4,17 @@ title: Taliglucerase Alfa
 parent: Low Evidence (L5)
 nav_order: 953
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). Approved use: Gaucher disease"
 monitor_inn: "Taliglucerase alfa"
-predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "lysosomal storage disease with skeletal involvement", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Wolman disease", "proximal myopathy with extrapyramidal signs", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"]
+predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
+description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Taliglucerase Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Taliglucerase alfa: From Gaucher Disease to Hurler Syndrome
+## Taliglucerase Alfa: Hurler syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **Hurler syndrome**, but there 
 
 | Item | Content |
 |------|------|
-| Original Indication | Gaucher disease |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hurler syndrome |
-| TxGNN Prediction Score | 99.52% |
+| TxGNN Prediction Score | 0.9952 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Hurler syndrome (MPS I) is also a lysosomal storage disease, but it is caused by a deficiency of alpha-L-iduronidase, leading to accumulation of glycosaminoglycans. The missing enzyme and the accumulated substrate both differ from those in Gaucher disease, so glucocerebrosidase replacement would not be expected to address the underlying defect.
 
-The high TxGNN score (0.995) most likely reflects shared lysosomal storage disease associations in the knowledge graph rather than a validated therapeutic link. The same is true for the other top-ranked predictions: Scheie syndrome (an attenuated form of MPS I), cholesteryl ester storage disease and Wolman disease (both lysosomal acid lipase deficiencies, for which sebelipase alfa is the specific therapy). Several other predictions, such as benign neoplasm of adrenal gland, proximal myopathy with extrapyramidal signs, and a STAT5B-related growth hormone insensitivity syndrome, have no plausible mechanistic connection and appear to be knowledge-graph artifacts.
+The high TxGNN score (0.9952) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same is true for the other top-ranked predictions: Scheie syndrome (an attenuated form of MPS I) and cholesteryl ester storage disease (a lysosomal acid lipase deficiency, for which sebelipase alfa is the specific therapy). Other predictions, such as benign neoplasm of adrenal gland, have no plausible mechanistic connection and appear to be TxGNN model (deep learning) artifacts.
 
 ---
 
@@ -75,7 +75,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature directly evaluates taliglucerase alfa in Hurler syndrome. The only publications retrieved relate to a broader category ("lysosomal storage disease with skeletal involvement", rank 6) and concern the approved Gaucher indication:
+No literature directly evaluates taliglucerase alfa in Hurler syndrome.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -111,7 +111,6 @@ The prediction is supported only by the model score. The enzyme and the substrat
 - Detailed mechanism of action data (MOA)
 - Package insert warnings and contraindications from the HSA website
 - Preclinical or mechanistic evidence that glucocerebrosidase replacement can affect glycosaminoglycan accumulation in MPS I
-- Clear definition of the target disease entity for any broader categories (e.g., "lysosomal storage disease with skeletal involvement")
 - Evaluation of whether other predicted indications have any plausible biological rationale
 ## Disclaimer
 

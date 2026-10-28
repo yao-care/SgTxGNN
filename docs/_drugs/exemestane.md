@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Exemestane
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 414
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Exemestane: predicted new indication Amenorrhea (disease) (evidence level L4). Approved use: Not available in the registration data (the drug is an aromatase inhi…"
+evidence_level: L5
+indication_count: 7
+last_modified_at: 2026-10-28
 monitor_inn: "Exemestane"
-predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura", "acne (disease)", "migraine with or without aura, susceptibility to", "breast fibrocystic disease"]
+predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
+description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Exemestane
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Exemestane: From Breast Cancer to Amenorrhea
+## Exemestane: Antithrombin deficiency type 2
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ Evidence is limited to **0 clinical trials** and **5 indirect publications**, so
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the registration data (the drug is an aromatase inhibitor) |
-| Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Antithrombin deficiency type 2 |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
-The top-ranked prediction was antithrombin deficiency type 2 (99.83%). It has no supporting evidence and no plausible mechanism, so this report focuses on the second-ranked prediction, amenorrhea, which is the first with any literature. The other predictions are summarised at the end.
+The top-ranked prediction was antithrombin deficiency type 2 (0.9983). It has no supporting evidence and no plausible mechanism, so this report focuses on the second-ranked prediction, amenorrhea, which is the first with any literature. The other predictions are summarised at the end.
 
 ---
 
@@ -130,7 +130,7 @@ For warnings and contraindications, please refer to the package insert, since th
 The amenorrhea prediction has a high model score but no clinical trials, and the literature is indirect. Amenorrhea is an expected effect of estrogen suppression, not a treatable condition, so it is not a meaningful repurposing target. The other nine predictions have no evidence (L5). Several are thrombophilia-related genetic disorders with no plausible mechanistic link, such as antithrombin deficiency type 2, factor 5 excess and heparin cofactor 2 deficiency. Estrogen lowering could plausibly worsen migraine, and acne is a recognised side effect of the drug class.
 
 **Other predictions in brief:**
-- **Breast fibrocystic disease** (rank 10, 95.7%) is the most biologically plausible candidate because it is estrogen-responsive, but menopausal-range estrogen suppression is a poor fit for a benign condition. It is worth a literature review as a research question.
+- It is worth a literature review as a research question.
 - **Thrombophilia** has only a theoretical link through estrogen and thrombotic risk.
 
 **To proceed, the following is needed:**

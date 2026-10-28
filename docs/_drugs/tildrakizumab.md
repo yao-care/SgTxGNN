@@ -4,17 +4,17 @@ title: Tildrakizumab
 parent: Low Evidence (L5)
 nav_order: 991
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Tildrakizumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not listed in the Singapore registration data"
 monitor_inn: "Tildrakizumab"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis", "cortical cataract", "nuclear senile cataract", "senile cataract", "mature cataract", "immature cataract", "diabetes mellitus type 2 associated cataract"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
 ---
 
 # Tildrakizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 |------|------|
 | Original Indication | Not listed in the Singapore registration data |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 Chronic low-grade inflammation contributes to diabetic retinopathy, and IL-23/Th17 signalling is a hypothetical contributor. The link is speculative. There is no direct or indirect clinical evidence for tildrakizumab in this setting. Standard therapies (anti-VEGF, laser, corticosteroids) act on different pathways.
 
-The high TxGNN score (99.63%, rank 5263) is a computational prediction only. It should not be read as evidence of efficacy.
+The high TxGNN score (0.9963, rank 5263) is a computational prediction only. It should not be read as evidence of efficacy.
 
 ### Other Predicted Indications
 
@@ -68,17 +68,11 @@ The other top-ranked predictions also have no clinical trials or literature, and
 
 | Rank | Predicted Indication | TxGNN Score | Mechanistic Plausibility |
 |------|------|------|------|
-| 2 | Diabetic retinopathy | 99.53% | Hypothetical; inflammation and IL-23/Th17 signalling |
-| 3 | Diabetic cataract | 99.21% | Low; likely a knowledge-graph artefact |
-| 4 | Drug-induced osteoporosis | 99.20% | Tenuous; IL-23/IL-17 influences bone remodelling in inflammatory arthritis |
-| 5 | Cortical cataract | 98.91% | Low |
-| 6 | Nuclear senile cataract | 98.91% | Low |
-| 7 | Senile cataract | 98.89% | Low |
-| 8 | Mature cataract | 98.86% | Very low; managed surgically |
-| 9 | Immature cataract | 98.86% | Low |
-| 10 | Type 2 diabetes-associated cataract | 98.86% | Low |
+| 2 | Diabetic retinopathy | 0.9953 | Hypothetical; inflammation and IL-23/Th17 signalling |
+| 3 | Diabetic cataract | 0.9921 | Low; likely a TxGNN model (deep learning) artefact |
+| 4 | Drug-induced osteoporosis | 0.9920 | Tenuous; IL-23/IL-17 influences bone remodelling in inflammatory arthritis |
 
-The cataract predictions share near-identical scores. This suggests a graph-proximity artefact rather than a disease-specific signal.
+The cataract predictions share near-identical scores. This may reflect similarities the TxGNN model (deep learning) learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -94,7 +88,7 @@ Currently no related literature available.
 |---------|------|------|-----------|
 | SIN17076P | ILUMYA Solution for Injection in Pre-filled Syringe 100 mg/mL | Injection, solution | Not listed in the registration data |
 
-The manufacturer is Vetter Pharma-Fertigung GmbH & Co. KG. The product is an injectable only, and the licence is valid.
+The manufacturer is Vetter Pharma-Fertigung GmbH & Co. Kommanditgesellschaft. The product is an injectable only, and the licence is valid.
 
 ## Safety Considerations
 

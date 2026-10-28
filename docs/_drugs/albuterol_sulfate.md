@@ -8,6 +8,7 @@ nav_order: 51
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Albuterol Sulfate
@@ -49,8 +50,8 @@ Albuterol Sulfate is a well-known short-acting beta-2 adrenergic agonist (SABA) 
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — prediction pipeline did not produce output |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | **Hold** |
 
 ---

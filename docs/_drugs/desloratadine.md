@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Desloratadine
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 314
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Desloratadine: predicted new indication Cold urticaria (evidence level L2). Approved use: Allergic rhinitis, vasomotor rhinitis…"
 monitor_inn: "Desloratadine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "punctate epithelial keratoconjunctivitis", "Angelucci syndrome"]
+predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
+description: "Desloratadine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Desloratadine: From Allergic Rhinitis to Cold Urticaria
+## Desloratadine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Desloratadine is a second-generation oral antihistamine, originally used for allergic rhinitis, allergic conjunctivitis and urticaria.
-The TxGNN model predicts it may be effective for **cold urticaria**,
 with **2 clinical trials** and **6 publications** (2 of them RCTs) currently supporting this direction.
 
 ---
@@ -48,12 +47,12 @@ with **2 clinical trials** and **6 publications** (2 of them RCTs) currently sup
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, allergic and other conjunctivitis, idiopathic and allergic urticaria (per the knowledge graph; the Singapore licences carry no indication text) |
-| Predicted New Indication | Cold urticaria |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9987 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

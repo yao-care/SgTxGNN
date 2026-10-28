@@ -4,17 +4,17 @@ title: Thyrotropin Alfa
 parent: Low Evidence (L5)
 nav_order: 985
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Thyrotropin Alfa: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence record"
 monitor_inn: "Thyrotropin alfa"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
 ---
 
 # Thyrotropin Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 |------|------|
 | Original Indication | Not stated in the Singapore licence record |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, thyrotropin alfa is a recombinant TSH that acts on the TSH receptor on thyroid follicular cells. Its established use is in thyroid cancer management, as a diagnostic and adjunctive agent, rather than in neurological disease.
 
-No biological pathway connecting TSH receptor agonism to migraine is supported by the available data. The high score (0.9998, rank 514) most likely reflects proximity within the knowledge graph rather than a drug-specific mechanism. Related migraine-cluster predictions (migraine with brainstem aura, migraine susceptibility) appear to come from the same graph neighbourhood and add no independent support.
+No biological pathway connecting TSH receptor agonism to migraine is supported by the available data. The high score (0.9998, rank 514) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The related prediction migraine with brainstem aura (0.9998) comes from the same model and adds no independent support.
 
 Other top-ranked predictions are similarly unsupported. Raynaud disease, pulmonary hypertension and postural orthostatic tachycardia syndrome have only indirect links through thyroid status. For hyperthyroidism, the direction is mechanistically contradictory, since stimulating the TSH receptor would increase thyroid hormone output. That prediction is better treated as a safety flag than a repurposing opportunity.
 
@@ -92,7 +92,7 @@ Please refer to the package insert for further safety information.
 **Decision: Hold**
 
 **Rationale:**
-The migraine prediction is supported only by a knowledge-graph score. There are no clinical trials, no publications, and no plausible mechanistic link between TSH receptor agonism and migraine pathophysiology. The evidence level is L5.
+The migraine prediction is supported only by a TxGNN model (deep learning) score. There are no clinical trials, no publications, and no plausible mechanistic link between TSH receptor agonism and migraine pathophysiology. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (e.g. from DrugBank) and a credible biological rationale linking TSH receptor signalling to migraine

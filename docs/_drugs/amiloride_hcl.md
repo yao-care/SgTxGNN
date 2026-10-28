@@ -8,6 +8,7 @@ nav_order: 84
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amiloride Hcl
@@ -51,8 +52,8 @@ Due to critical data gaps across regulatory, mechanistic, and predictive domains
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — Model prediction absent; no supporting studies retrievable |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

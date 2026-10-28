@@ -4,17 +4,17 @@ title: Serine
 parent: Low Evidence (L5)
 nav_order: 908
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Serine"
-predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
+predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
+description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Serine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Serine: From Open-Angle Glaucoma and Pulmonary Tuberculosis to Familial Visceral Myopathy
+## Serine: Familial visceral myopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Serine is a proteinogenic amino acid, and in the knowledge graph it is linked to open-angle glaucoma and pulmonary tuberculosis. In Singapore it is marketed only as a component of parenteral nutrition products.
+Serine is a proteinogenic amino acid. In Singapore it is marketed only as a component of parenteral nutrition products.
 The TxGNN model predicts it may be effective for **familial visceral myopathy**, but there are **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma; pulmonary tuberculosis (from the knowledge graph; Singapore label indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Familial visceral myopathy |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Serine is a proteinogenic amino acid and is a component of amino acid infusion and parenteral nutrition products. Its original indications come from knowledge graph links rather than from approved label text.
+Currently, detailed mechanism of action data is not available. Serine is a proteinogenic amino acid and is a component of amino acid infusion and parenteral nutrition products.
 
-The data compiled for this report establish no mechanistic link between serine and familial visceral myopathy, a rare smooth muscle disorder (for example, ACTG2-related). The very high TxGNN score (99.99%, overall rank 292) is a model output only, and no trials or publications support it. Because the prediction rests on the score alone, it should be treated as a hypothesis.
+The data compiled for this report establish no mechanistic link between serine and familial visceral myopathy, a rare smooth muscle disorder (for example, ACTG2-related). The very high TxGNN score (0.9999, overall rank 292) is a model output only, and no trials or publications support it. Because the prediction rests on the score alone, it should be treated as a hypothesis.
 
 Other predictions show the same pattern. Examples are intestinal obstruction, intestinal pseudo-obstruction and several glaucoma types. The literature found for them was matched on the word "serine" or on unrelated conditions, such as the PRSS56 serine protease gene in angle-closure glaucoma or kinase mutations in Peutz-Jeghers syndrome. None of it evaluates serine as a treatment.
 

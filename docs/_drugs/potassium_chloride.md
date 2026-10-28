@@ -4,17 +4,17 @@ title: Potassium Chloride
 parent: Medium Evidence (L3-L4)
 nav_order: 812
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Potassium deficiency disease"
 monitor_inn: "Potassium chloride"
-predicted_indications: ["renal tubular acidosis", "HELIX syndrome", "Alstrom syndrome", "Pendred syndrome", "dyspepsia", "Senior-Loken syndrome", "congenital prothrombin deficiency", "gastroduodenitis", "NAD(P)HX dehydratase deficiency", "stomach disease"]
+predicted_indications: ["renal tubular acidosis"]
+description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Potassium Chloride
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Potassium Chloride: From Potassium Deficiency to Renal Tubular Acidosis
+## Potassium Chloride: Renal tubular acidosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ The prediction mainly reflects supportive correction of low potassium rather tha
 
 | Item | Content |
 |------|------|
-| Original Indication | Potassium deficiency disease; constipation disorder (the Singapore licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -126,8 +126,7 @@ The only supporting evidence is case reports, small cohorts and old reviews, and
 
 All other predictions have evidence level L5 and a **Hold** recommendation.
 
-- **HELIX syndrome, Alstrom syndrome, Pendred syndrome, Senior-Loken syndrome, congenital prothrombin deficiency, NAD(P)HX dehydratase deficiency:** no trials or literature were found. A plausible mechanism exists only for HELIX syndrome (electrolyte disturbance), and even that is speculative.
-- **Dyspepsia, gastroduodenitis, stomach disease:** the retrieved literature shows potassium chloride as a cause of gastric and gastrointestinal injury. This is a safety signal against these uses, not supporting evidence.
+- This is a safety signal against these uses, not supporting evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

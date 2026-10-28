@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 879
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rivastigmine: predicted new indication Glaucoma (evidence level L3). Approved use: Alzheimer's disease"
 monitor_inn: "Rivastigmine"
-predicted_indications: ["glaucoma", "acute intermittent porphyria", "psychogenic movement disorders", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign shuddering attacks", "extrapyramidal and movement disease", "benign paroxysmal tonic upgaze of childhood with ataxia", "chronic tic disorder", "primary hereditary glaucoma"]
+predicted_indications: ["glaucoma"]
+description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rivastigmine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Rivastigmine: From Alzheimer's Disease to Glaucoma
+## Rivastigmine: Glaucoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but the support is limited to **0 clinical trials** and **3 publications** (one 
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer's disease (the approved indication text is not available in the Singapore licence records; this is taken from the drug's known indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Glaucoma |
-| TxGNN Prediction Score | 99.27% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| TxGNN Prediction Score | 0.9927 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -96,7 +96,7 @@ Please refer to the package insert for full warnings and contraindications.
 
 ## Other Predicted Indications (Context)
 
-Of the other nine predictions, only extrapyramidal and movement disease has any literature. That literature is indirect and mainly records safety concerns. The rest (acute intermittent porphyria, psychogenic movement disorders, primary orthostatic tremor, tremor-nystagmus-duodenal ulcer syndrome, benign shuddering attacks, benign paroxysmal tonic upgaze of childhood with ataxia, chronic tic disorder and primary hereditary glaucoma) have no trials or literature and rest on computation alone. Primary hereditary glaucoma should be considered under the general glaucoma indication.
+That literature is indirect and mainly records safety concerns. The rest (acute intermittent porphyria, psychogenic movement disorders, primary orthostatic tremor, tremor-nystagmus-duodenal ulcer syndrome, benign shuddering attacks, benign paroxysmal tonic upgaze of childhood with ataxia, chronic tic disorder and primary hereditary glaucoma) have no trials or literature and rest on computation alone. Primary hereditary glaucoma should be considered under the general glaucoma indication.
 
 ## Conclusion and Next Steps
 

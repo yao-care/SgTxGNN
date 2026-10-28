@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tacrolimus
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 947
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Tacrolimus"
-predicted_indications: ["seborrheic dermatitis", "parapsoriasis", "acute lichenoid pityriasis", "acrodermatitis chronica atrophicans", "acne keloid", "psoriasis", "neonatal dermatomyositis", "exanthem (disease)"]
+predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ with **2 clinical trials** (one Phase 3, one Phase 4, both completed) and **20 p
 |------|------|
 | Original Indication | Atopic eczema / atopic dermatitis (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 (see note below) |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -127,15 +127,7 @@ A completed Phase 3 trial and a completed Phase 4 trial directly address tacroli
 
 | Indication | Score | Evidence Level | Recommendation | Comment |
 |------|------|------|------|------|
-| Dermatitis | 99.17% | L1 | Proceed with Guardrails | Largely overlaps the original atopic dermatitis indication, so it adds little as a new signal |
-| Rheumatoid arthritis | 98.71% | L1 | Proceed with Guardrails | Many Phase 3/4 trials and meta-analyses of systemic tacrolimus. It is a systemic use, so monitor nephrotoxicity, interactions, infection and malignancy |
-| Psoriasis | 98.66% | L1 | Proceed with Guardrails | Phase 3 tacrolimus cream trials exist. Best suited to facial and intertriginous disease; thick plaques respond poorly |
-| Parapsoriasis | 99.24% | L4 | Research Question | Case reports only |
-| Acute lichenoid pityriasis | 98.90% | L4 | Research Question | Case reports only |
-| Exanthem | 98.59% | L2 | Research Question | Nonspecific label; the trials are mostly in oral lichen planus |
-| Acrodermatitis chronica atrophicans | 98.73% | L5 | Hold | No evidence; immunosuppression could be counterproductive in this Borrelia-related condition |
-| Acne keloid | 98.68% | L4 | Hold | The literature suggests an adverse association rather than a benefit |
-| Neonatal dermatomyositis | 98.60% | L5 | Hold | No direct evidence |
+| Parapsoriasis | 0.9924 | L5 | Research Question | Case reports only |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

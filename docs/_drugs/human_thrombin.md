@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Human Thrombin
-parent: Low Evidence (L5)
-nav_order: 500
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-monitor_inn: "Human thrombin"
-predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "non-syndromic esophageal malformation", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "Scott syndrome", "esophageal disease", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
-description: "Human Thrombin: predicted new indication Primary release disorder of platelets (evidence level L5)."
+parent: Known Uses Only (No New Predictions)
+nav_order: 499
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Human Thrombin: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Human Thrombin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +32,52 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Human Thrombin: From Topical Hemostatic Sealant to Primary Release Disorder of Platelets
+<!-- known-uses-page -->
+<!-- description: Human Thrombin: known uses and market status in Singapore; currently no new candidate indication -->
+## Human Thrombin: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model produced no candidate with a score of 0.99 or higher for Human Thrombin, so there is currently no new predicted indication. The uses recorded for this drug are listed below. They are the drug's own recorded uses, not model candidates.
 
-Human thrombin is marketed in Singapore in fibrin sealant and medicated sponge products, which are used to help control bleeding locally.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but this is a computational prediction only.
-Currently **0 clinical trials** and **0 publications** support this specific indication.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 96.95% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Detailed mechanism of action data is not available for this report. Thrombin is the enzyme that converts fibrinogen to fibrin and is a potent platelet activator. Its registered Singapore products (sealants and a medicated sponge) are applied locally to support clot formation. The approved indication text for these licences was not available.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| surgical hemostasis | licence in another country |
 
-Primary release disorder of platelets is a defect in platelet secretion. Thrombin activates platelets and drives fibrin formation, so a link is plausible in principle. However, thrombin is a topical or local hemostatic, not a systemic therapy for intrinsic platelet release defects. The model's score therefore reflects network proximity rather than demonstrated benefit, and no trials or publications support this use.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16143P | VERASEAL Solutions for Sealant, 80 mg/ml, 500 IU/ml | Solution |
-| SIN14441P | TACHOSIL, Medicated Sponge | Sponge |
-| SIN14719P | ARTISS Solutions for Sealant, Deep Frozen | Solution |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16143P | VERASEAL SOLUTIONS FOR SEALANT, 80 mg/ml, 500 IU/ml | SOLUTION | Valid |
+| SIN14441P | TACHOSIL, MEDICATED SPONGE | SPONGE | Valid |
+| SIN14719P | ARTISS SOLUTIONS FOR SEALANT, DEEP FROZEN | SOLUTION | Valid |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information. No drug interaction records were found for this drug in the data compiled for this report.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction for primary release disorder of platelets is supported only by the model score (L5). There are no trials or publications, and the drug is a local hemostatic rather than a systemic treatment for an intrinsic platelet defect. Safety data from the package insert are also missing.
-
-**Other candidates among the top predictions:** The best-supported candidate is **esophageal disease** (score 86.5%, evidence level L3). It rests on observational studies of endoscopic human thrombin injection for bleeding gastric and esophageal varices (e.g., PMIDs 24892515, 23139607, 30196518, 12094854) and a 2024 comparative study of glue versus thrombin injection (PMID 37983812). The evidence concerns variceal bleeding, which is narrower than the label "esophageal disease". It is also off-label use and mostly observational, so it is best treated as a research question rather than a recommendation. Glanzmann thrombasthenia has only one basic-science paper (L4), and the remaining candidates have no supporting evidence.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, and the approved indication text for each licence
-- Mechanism of action data (MOA)
-- For variceal bleeding: a prospective comparative trial, and clarification of the route (endoscopic injection versus the registered topical products)
-- For platelet disorders: a justification of local versus systemic use and a thrombosis-risk assessment before any further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

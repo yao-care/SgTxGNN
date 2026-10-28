@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 964
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Tenofovir disoproxil"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 ---
 
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This direction currently has **0 clinical trials** and **20 publications**, near
 |------|------|
 | Original Indication | Chronic hepatitis B virus infection; HIV infection / AIDS (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 (preclinical studies only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---

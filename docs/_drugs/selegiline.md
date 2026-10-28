@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Selegiline
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 899
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Selegiline: predicted new indication Schizophrenia (evidence level L3). Approved use: Parkinson's disease"
 monitor_inn: "Selegiline"
-predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy", "myopia X-linked", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
+predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
+description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Selegiline
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,11 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Selegiline: From Parkinson's Disease to Schizophrenia
+## Selegiline: Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Selegiline is an MAO-B inhibitor originally used for Parkinson's disease and also associated with depression and anxiety disorders in the knowledge graph.
 The TxGNN model predicts it may be effective for **schizophrenia** (the highest-ranked prediction with actual supporting studies; the top-scored prediction, a rare brain malformation, has no supporting evidence), with **1 clinical trial** and **20 publications** currently supporting this direction.
 
 ---
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be effective for **schizophrenia** (the highest-
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (the Singapore licence has no indication text recorded; original indications come from the knowledge graph) |
-| Predicted New Indication | Schizophrenia (selected over the rank-1 prediction, polymicrogyria with cerebellar hypoplasia and arthrogryposis, which has no trials or literature) |
-| TxGNN Prediction Score | 99.14% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
+| TxGNN Prediction Score | 0.9915 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; see Conclusion) |
 
 ---

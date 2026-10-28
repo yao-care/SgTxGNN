@@ -4,17 +4,17 @@ title: Finasteride
 parent: Low Evidence (L5)
 nav_order: 431
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Finasteride"
-predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "prostate calculus", "persistent fetal circulation syndrome", "chronic thromboembolic pulmonary hypertension", "migraine with brainstem aura"]
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 ---
 
 # Finasteride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 10 |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The mechanistic link to the predicted indication is weak. Ambras syndrome is a congenital generalised hypertrichosis caused by genomic rearrangements affecting regulation of the TRPS1 gene. It is not primarily androgen-driven, so DHT suppression is not expected to address its underlying cause. The very high TxGNN score reflects a model output, not supporting experimental or clinical data.
 
-For context, the second-ranked prediction, hypertrichosis (score 99.99%), is also only indirectly plausible. Hypertrichosis is by definition non-androgen-dependent excess hair growth, while finasteride acts on androgen-dependent hair growth. The lower-ranked predictions (for example prostate calculus, a possible BPH-mediated indirect link) have similarly limited direct evidence.
+For context, the second-ranked prediction, hypertrichosis (score 0.9999), is also only indirectly plausible. Hypertrichosis is by definition non-androgen-dependent excess hair growth, while finasteride acts on androgen-dependent hair growth. The lower-ranked predictions have similarly limited direct evidence.
 
 ## Clinical Trial Evidence
 
@@ -112,7 +112,7 @@ The prediction rests on model output alone (L5). There are no clinical trials or
 - Preclinical or mechanistic evidence linking DHT suppression to TRPS1-related hypertrichosis
 - Any case reports or early-phase studies of finasteride in congenital hypertrichosis
 - Review of the pregnancy and teratogenicity risk for the intended patient population
-- Consideration of other predictions with more plausible links, such as prostate calculus (BPH-mediated)
+- Consideration of other predictions with more plausible links
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulbactam
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 939
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sulbactam: predicted new indication Bacterial arthritis (evidence level L3). Approved use: Cholangitis, staphylococcal infection, E. coli infection"
 monitor_inn: "Sulbactam"
-predicted_indications: ["bacterial arthritis", "epiglottitis", "paratyphoid fever", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "diffuse scleroderma", "infectious otitis media", "chronic otitis media"]
+predicted_indications: ["bacterial arthritis"]
+description: "Sulbactam: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sulbactam
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Sulbactam: From Bacterial Infections (Cholangitis, Staphylococcal and E. coli Infections) to Bacterial Arthritis
+## Sulbactam: Bacterial arthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,15 +45,15 @@ The TxGNN model predicts it may be effective for **bacterial arthritis**, but th
 
 | Item | Content |
 |------|------|
-| Original Indication | Cholangitis, staphylococcal infection, *E. coli* infection (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bacterial arthritis |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| TxGNN Prediction Score | 0.9979 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold (research question only; see note below) |
 
-*Note: The top-ranked indication is bacterial arthritis, so the overview follows it. Other predicted indications, particularly epiglottitis, sinusitis and infectious otitis media, have stronger supporting evidence and are summarised in the Conclusion.*
+*Note: The top-ranked indication is bacterial arthritis, so the overview follows it.
 
 ## Why is This Prediction Reasonable?
 
@@ -103,12 +103,6 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The mechanistic link is plausible, but the evidence for bacterial arthritis is limited to small, older, mostly open-label studies and case reports, with no registered trials. Evidence is also graded L3 and the programme stage is S1. In addition, the safety review cannot proceed because the Singapore package insert warnings and contraindications have not been obtained.
 
-**Other predicted indications worth noting:**
-- **Infectious otitis media** (L2, Proceed with Guardrails): comparative clinical studies against amoxicillin and amoxicillin-clavulanate.
-- **Epiglottitis** (L3, Proceed with Guardrails): reviews and a paediatric clinical study; airway management remains the priority.
-- **Sinusitis** (L3, Proceed with Guardrails): clinical reviews and older studies; established first-line alternatives exist.
-- **Chronic otitis media** (L3, research question), **chronic rhinosinusitis** and **paratyphoid fever** (L4, Hold): weak or indirect evidence.
-- **Chronic ethmoidal sinusitis, paranasal sinus neoplasm and diffuse scleroderma** (L5, Hold): model prediction only, and no plausible mechanism for the neoplasm and scleroderma predictions.
 
 **To proceed, the following is needed:**
 - Singapore package insert warnings and contraindications (a blocking gap for safety screening)

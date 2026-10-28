@@ -4,17 +4,17 @@ title: Propofol
 parent: High Evidence (L1-L2)
 nav_order: 835
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Propofol: predicted new indication Migraine disorder (evidence level L2). Approved use: Not stated in the registration data compiled for this report (propofo…"
 monitor_inn: "Propofol"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "fibromyalgia", "atrophoderma vermiculata"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 ---
 
 # Propofol
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Currently **3 clinical trials** (1 completed Phase 2/3) and **20 publications**,
 |------|------|
 | Original Indication | Not stated in the registration data compiled for this report (propofol is generally known as an intravenous anaesthetic and sedative) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.69% |
+| TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -126,7 +126,7 @@ One completed Phase 2/3 trial in paediatric migraine, several randomised trials 
 - Confirmation of the original approved indications for the Singapore registrations
 - A confirmatory, adequately powered Phase 3 trial, with dose and setting defined
 - A guardrail protocol limited to monitored hospital or emergency settings, with trained staff, airway and haemodynamic monitoring, and dose limited to sub-anaesthetic levels
-- A review of the knowledge-graph disease associations (epilepsy, hypotension, respiratory failure and lipid disorders) and of concurrent QT-prolonging drugs before use
+- A review of the disease associations from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence (epilepsy, hypotension, respiratory failure and lipid disorders), and of concurrent QT-prolonging drugs before use
 - Confirmation of whether the sub-anaesthetic migraine dose falls outside the approved labelling, and whether a new indication application would be required in Singapore
 ## Disclaimer
 

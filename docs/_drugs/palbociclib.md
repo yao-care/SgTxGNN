@@ -4,17 +4,17 @@ title: Palbociclib
 parent: Low Evidence (L5)
 nav_order: 755
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Palbociclib"
-predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brachydactyly-syndactyly syndrome", "myeloid leukemia", "multiple endocrine neoplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "hyperthyroxinemia", "Prinzmetal angina"]
+predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
+description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +33,41 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Palbociclib: From Its Licensed Use to Hyperthyroidism (Top TxGNN Prediction), with Myeloid Leukemia as the Best-Supported Candidate
+## Palbociclib: Hyperthyroidism (rank 1); the best-supported alternative is myeloid leukemia (hyperthyroidism)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Palbociclib is a CDK4/6 inhibitor (Ibrance) that is marketed in Singapore as an oral film-coated tablet. The TxGNN model's top-ranked prediction is **hyperthyroidism**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications**. Among the ten predictions, **myeloid leukemia** has the most support (**4 clinical trials**, early-phase, and **20 publications**, mostly preclinical), followed by **rheumatoid arthritis** (preclinical data and one case report).
+Palbociclib is a CDK4/6 inhibitor (Ibrance) that is marketed in Singapore as an oral film-coated tablet. Among the ten predictions, **myeloid leukemia** has the most support (**4 clinical trials**, early-phase, and **20 publications**, mostly preclinical), followed by **rheumatoid arthritis** (preclinical data and one case report).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Hyperthyroidism (rank 1); the best-supported alternative is myeloid leukemia (rank 6) |
-| TxGNN Prediction Score | 99.44% (hyperthyroidism); 98.94% (myeloid leukemia) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hyperthyroidism (rank 1); the best-supported alternative is myeloid leukemia (hyperthyroidism) |
+| TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 for hyperthyroidism (model prediction only); L3 for myeloid leukemia |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold (hyperthyroidism); myeloid leukemia and rheumatoid arthritis are best treated as research questions |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Palbociclib is known as a CDK4/6 inhibitor used in hormone receptor-positive, HER2-negative breast cancer. It blocks cell-cycle progression by inhibiting CDK4/6.
 
-**Hyperthyroidism (rank 1):** There is no clear mechanistic link. CDK4/6 inhibition has no established role in thyroid hormone excess. The high score is a graph-based artifact, and the other thyroid-related predictions (thyroid hormone resistance, hyperthyroxinemia) appear to cluster for the same reason. The same applies to the congenital syndromes and Prinzmetal angina in the list.
+**Hyperthyroidism (rank 1):** There is no clear mechanistic link. CDK4/6 inhibition has no established role in thyroid hormone excess.
 
-**Myeloid leukemia (rank 6):** This is the most biologically plausible oncology extension. Leukemic cells, particularly MLL-rearranged, NUP98-rearranged and FLT3-driven subtypes, depend on CDK6. Preclinical studies show palbociclib enhances venetoclax plus azacitidine and helps overcome venetoclax resistance. Co-targeting CDK6 with LSD1 or menin inhibitors is synergistic. A 2026 review-style abstract notes that CDK4/6 inhibitor monotherapy was disappointing in clinical trials, so combinations are the likely route.
+Leukemic cells, particularly MLL-rearranged, NUP98-rearranged and FLT3-driven subtypes, depend on CDK6. Preclinical studies show palbociclib enhances venetoclax plus azacitidine and helps overcome venetoclax resistance. Co-targeting CDK6 with LSD1 or menin inhibitors is synergistic. A 2026 review-style abstract notes that CDK4/6 inhibitor monotherapy was disappointing in clinical trials, so combinations are the likely route.
 
 **Rheumatoid arthritis (rank 2):** CDK6 drives synovial fibroblast proliferation. Mouse models show CDK6-dependent synovial hyperplasia, and cell-cycle inhibition combined with cytokine blockade improved arthritis. One case report describes RA improvement in a breast cancer patient on palbociclib. There are no clinical trials.
 
 **Thrombotic disease (rank 3):** The literature points the opposite way. Pharmacovigilance studies report thromboembolism as an adverse event of CDK4/6 inhibitors. This is a safety concern, not therapeutic support.
 
-**Multiple endocrine neoplasia (rank 7):** Cell-cycle dysregulation in MEN1 and MEN4 makes CDK4/6 inhibition plausible in principle, but the linked trials are in breast cancer or tumor-agnostic platforms. There is no MEN-specific evidence.
+There is no MEN-specific evidence.
 
 ## Clinical Trial Evidence
 
-Trials linked to **myeloid leukemia** (the best-supported prediction):
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -77,13 +76,12 @@ Trials linked to **myeloid leukemia** (the best-supported prediction):
 | [NCT05627232](https://clinicaltrials.gov/study/NCT05627232) | Phase 1 | Recruiting | 24 | Palbociclib pre-treatment followed by CPX-351 (and a tazemetostat arm) in relapsed/refractory AML |
 | [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | Terminated | 2 | Precision-oncology platform trial; negligible evidence |
 
-Trials linked to **multiple endocrine neoplasia** have low relevance. NCT03355157 (Phase 4) and NCT02894398 (Phase 2) are breast cancer studies, and NCT02465060 (NCI-MATCH, Phase 2, 6,452 patients) is a tumor-agnostic basket trial. None enrolled MEN patients specifically as far as the data show.
+NCT03355157 (Phase 4) and NCT02894398 (Phase 2) are breast cancer studies, and NCT02465060 (NCI-MATCH, Phase 2, 6,452 patients) is a tumor-agnostic basket trial. None enrolled MEN patients specifically as far as the data show.
 
 No clinical trials are registered for hyperthyroidism, rheumatoid arthritis or thrombotic disease.
 
 ## Literature Evidence
 
-**Myeloid leukemia** (selected; mostly preclinical):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -147,8 +145,8 @@ Please refer to the package insert for warnings and contraindications, as label-
 **Decision: Hold** for the top-ranked prediction (hyperthyroidism). Myeloid leukemia and rheumatoid arthritis are best classed as research questions.
 
 **Rationale:**
-- Hyperthyroidism has no mechanistic link and no trials or literature, so the 99.44% score reflects graph structure only. Thrombotic disease carries a safety signal that argues against repurposing.
-- Myeloid leukemia has plausible biology and four early-phase trials, but no efficacy results, and CDK4/6 monotherapy has been disappointing. Any benefit appears to lie in combinations such as venetoclax plus azacitidine.
+- Thrombotic disease carries a safety signal that argues against repurposing.
+- Any benefit appears to lie in combinations such as venetoclax plus azacitidine.
 - Rheumatoid arthritis rests on preclinical data and one case report.
 
 **To proceed, the following is needed:**

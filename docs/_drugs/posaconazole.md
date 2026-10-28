@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Posaconazole
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 809
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Invasive and superficial fungal infections (e.g., aspergillosis…"
 monitor_inn: "Posaconazole"
-predicted_indications: ["pneumocystosis", "vulvovaginal candidiasis", "leprosy", "multibacillary leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "syndrome with a Dandy-Walker malformation as major feature", "hypertrichosis (disease)", "paucibacillary leprosy"]
+predicted_indications: ["pneumocystosis"]
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The mechanistic review in the data compiled for this report points to a likely m
 |------|------|
 | Original Indication | Invasive and superficial fungal infections (e.g., aspergillosis, candidiasis, histoplasmosis, sporotrichosis, fusariosis, mycetoma). The Singapore licence records contain no approved indication text. |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -120,7 +120,7 @@ The prediction rests on a class-level association. *Pneumocystis* lacks ergoster
 - Preclinical or clinical data showing posaconazole activity against *Pneumocystis*
 - Comparative evidence against trimethoprim-sulfamethoxazole
 
-**Other predictions reviewed:** The remaining nine predictions were also rated Hold. Vulvovaginal candidiasis has a plausible mechanism but is effectively an existing candidiasis indication, with only in vitro and epidemiology literature and cheaper alternatives available. The leprosy variants (the bacterial pathogen has no ergosterol pathway) and the genetic or congenital conditions (hypertrichosis, hair shaft abnormalities, Dandy-Walker and dental malformation syndromes) have no mechanistic link and no supporting evidence.
+**Other predictions reviewed:** Vulvovaginal candidiasis was also rated Hold. It has a plausible mechanism but is effectively an existing candidiasis indication, with only in vitro and epidemiology literature and cheaper alternatives available.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

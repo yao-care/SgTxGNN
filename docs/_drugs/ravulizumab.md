@@ -6,7 +6,7 @@ nav_order: 857
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ravulizumab: predicted new indication Autosomal recessive severe congenital neutropenia due to G6PC3 defici… (evidence level L5). Approved use: Paroxysmal nocturnal hemoglobinuria"
+description: "Ravulizumab: predicted new indication autosomal recessive severe congenital neutropenia due to G6PC3 deficiency (evidence level L5). Approved use: Paroxysmal nocturnal hemoglobinuria"
 monitor_inn: "Ravulizumab"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
 ---
@@ -48,17 +48,17 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Paroxysmal nocturnal hemoglobinuria |
 | Predicted New Indication | Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ravulizumab is a long-acting inhibitor of complement component C5. It blocks terminal complement activity, and its efficacy in PNH, a complement-mediated hemolytic disease, is established.
 
-For the predicted indication, the link is weak. G6PC3 deficiency is a disorder of neutrophil glucose metabolism and survival, and no complement-mediated mechanism is established. The TxGNN score is a graph-based prediction only, with no supporting clinical or literature evidence.
+For the predicted indication, the link is weak. G6PC3 deficiency is a disorder of neutrophil glucose metabolism and survival, and no complement-mediated mechanism is established. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There is no supporting clinical or literature evidence.
 
 Other top-ranked predictions show the same pattern. These include cyclic hematopoiesis, primary hyperoxaluria, severe congenital neutropenia (and its CXCR2-deficiency and X-linked forms), primary immunodeficiency due to p14 deficiency, pseudo-von Willebrand disease, primary release disorder of platelets, and megaloblastic anemia. None has a recognised C5-inhibition rationale or any trial or publication in the data compiled for this report. For primary hyperoxaluria, complement may play a secondary role in oxalate-induced kidney injury, but this is speculative.
 

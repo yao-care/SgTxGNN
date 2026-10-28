@@ -6,9 +6,9 @@ nav_order: 873
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Risankizumab: predicted new indication Dermatitis (evidence level L2). Approved use: Psoriasis, parapsoriasis"
 monitor_inn: "Risankizumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+description: "Risankizumab: predicted new indication Dermatitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Risankizumab
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Risankizumab: From Psoriasis to Dermatitis
+## Risankizumab: Dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The evidence is early-stage: the mechanistic fit is weaker than for psoriasis, a
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriasis, parapsoriasis (from the TxGNN knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatitis |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -4,17 +4,17 @@ title: Isotretinoin
 parent: Low Evidence (L5)
 nav_order: 558
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Isotretinoin: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertensive disorder / hypertension"
 monitor_inn: "Isotretinoin"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "cholangiocarcinoma, susceptibility to", "obsolete functional visual loss", "mitral valve prolapse, myxomatous", "ocular tuberculosis"]
+predicted_indications: ["malignant hypertensive renal disease"]
+description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Isotretinoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,36 +33,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Isotretinoin: From Hypertensive Disorder to Malignant Renovascular Hypertension
+## Isotretinoin: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Isotretinoin is listed in the source knowledge graph with an original indication of hypertensive disorder. This listing is questionable, because isotretinoin is a retinoid marketed in Singapore as an oral capsule, and a hypertension indication should be verified. The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model prediction alone.
+This listing is questionable, because isotretinoin is a retinoid marketed in Singapore as an oral capsule, and a hypertension indication should be verified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder / hypertension (from the knowledge graph; the Singapore licence records contain no indication text, and this listing needs verification) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.01% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Isotretinoin is a retinoid (a vitamin A–related compound). Nothing in the data compiled for this report establishes a link between retinoid activity and blood pressure control, and isotretinoin is not a recognised antihypertensive.
 
-The high score (0.990) is a graph-based prediction. The next-ranked prediction, malignant hypertensive renal disease, has an identical score. This suggests the two share a neighbourhood in the ontology rather than representing independent signals. Retinoid effects on the renin-angiotensin system or on renal fibrosis are hypothetical and unsupported by the data compiled here.
+The next-ranked prediction, malignant hypertensive renal disease, has an identical score. This suggests the two share a neighbourhood in the ontology rather than representing independent signals. Retinoid effects on the renin-angiotensin system or on renal fibrosis are hypothetical and unsupported by the data compiled here.
 
 Other predicted indications are similarly unsupported:
-- **Pulmonary hypertension (two entries, score 0.989):** retinoid signalling has been discussed in pulmonary vascular remodelling, but no supporting evidence was found. Isotretinoin's teratogenicity and possible effects on the pulmonary vasculature argue for caution.
-- **Braddock syndrome (0.987) and chronic pulmonary heart disease (0.887):** no evidence, and any link is indirect or unsupported.
+- Isotretinoin's teratogenicity and possible effects on the pulmonary vasculature argue for caution.
 - **Cholangiocarcinoma susceptibility (0.619):** retinoids have antiproliferative effects in some cancers, but this entry describes genetic susceptibility rather than a treatable disease.
-- **Obsolete functional visual loss (0.592), myxomatous mitral valve prolapse (0.591) and ocular tuberculosis (0.587):** low scores with no supporting rationale. Isotretinoin is associated with visual adverse effects, which runs opposite to a therapeutic rationale.
+- Isotretinoin is associated with visual adverse effects, which runs opposite to a therapeutic rationale.
 
 ## Clinical Trial Evidence
 
@@ -70,7 +69,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature was found for the top-ranked prediction. The only publications retrieved were for the fourth-ranked prediction (pulmonary hypertension owing to lung disease and/or hypoxia), and they do not address that condition. They appear to be keyword matches on hypoxia or oxygenation.
+No literature was found for the top-ranked prediction. They appear to be keyword matches on hypoxia or oxygenation.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -109,7 +108,7 @@ The package insert warnings and contraindications were not available for this re
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based score alone, with no clinical trials or relevant publications (Evidence Level L5). The stated original indication of hypertension is doubtful, no mechanism of action is available, and safety data are incomplete. The knowledge graph also flags a hypotensive disorder contraindication.
+The stated original indication of hypertension is doubtful, no mechanism of action is available, and safety data are incomplete. The knowledge graph also flags a hypotensive disorder contraindication.
 
 **To proceed, the following is needed:**
 - Verification of the original indication, since the Singapore licence records contain no indication text

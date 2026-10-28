@@ -4,17 +4,17 @@ title: Riluzole
 parent: Low Evidence (L5)
 nav_order: 869
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Riluzole: predicted new indication Bilateral parasagittal parieto-occipital polymicrogyria (evidence level L5). Approved use: Amyotrophic lateral sclerosis"
 monitor_inn: "Riluzole"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
+description: "Riluzole: predicted new indication Bilateral parasagittal parieto-occipital polymicrogyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Riluzole: From Amyotrophic Lateral Sclerosis to Bilateral Parasagittal Parieto-Occipital Polymicrogyria
+## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ The top prediction rests on a model score alone.
 
 | Item | Content |
 |------|------|
-| Original Indication | Amyotrophic lateral sclerosis (the Singapore licence record contains no indication text; this comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bilateral parasagittal parieto-occipital polymicrogyria |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this report. Based on known information, riluzole is understood to dampen glutamate signalling and limit excitotoxic injury to motor neurons. That is the likely basis of its benefit in ALS.
 
-Polymicrogyria is a malformation of cortical development, often accompanied by epilepsy. Altered glutamate signalling could plausibly play a role, but this link is speculative. The data compiled for this report contain no study connecting riluzole to this condition. The high score may partly reflect patterns in the knowledge graph rather than a real biological relationship.
+Polymicrogyria is a malformation of cortical development, often accompanied by epilepsy. Altered glutamate signalling could plausibly play a role, but this link is speculative. The data compiled for this report contain no study connecting riluzole to this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions in the top 10 (all prediction-only unless noted):**
 - **Motor neuron disorders** are mechanistically close to ALS, so they are the most plausible by analogy. These are lower motor neuron syndrome with late-adult onset, monomelic amyotrophy, Mills syndrome, and ALS type 22. All are rated "Research Question".
@@ -119,7 +119,7 @@ Published data also show raised liver enzymes (ALT) in about half of ALS patient
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has only a model score (99.99%), with no trials, no literature and no clear mechanistic rationale. The evidence level is L5. The data-quality issues, including missing package insert safety data, also prevent safety screening.
+The top prediction has only a model score (0.9999), with no trials, no literature and no clear mechanistic rationale. The evidence level is L5. The data-quality issues, including missing package insert safety data, also prevent safety screening.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications for the Singapore product

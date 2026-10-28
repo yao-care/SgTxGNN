@@ -4,17 +4,17 @@ title: Cyanocobalamin
 parent: Low Evidence (L5)
 nav_order: 283
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin B12 deficiency, pernicious anaemia…"
+indication_count: 1
 monitor_inn: "Cyanocobalamin"
-predicted_indications: ["biotin metabolic disease", "inborn error of biotin metabolism", "non-syndromic esophageal malformation", "inflammatory myopathy with abundant macrophages", "idiopathic eosinophilic myositis", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "proteinuria", "focal myositis", "primary CD59 deficiency"]
+predicted_indications: ["biotin metabolic disease"]
+last_modified_at: 2026-10-27
+description: "Cyanocobalamin: predicted new indication biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cyanocobalamin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,90 +33,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Cyanocobalamin: From Vitamin B12 Deficiency to Biotin Metabolic Disease
+## Cyanocobalamin: water-soluble vitamin B12 → biotin metabolic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cyanocobalamin (vitamin B12) was originally used to treat vitamin B12 deficiency and related anaemias, including pernicious anaemia.
-The TxGNN model predicts it may be effective for **biotin metabolic disease**, but there are **0 clinical trials** and only **1 publication** (an industrial vitamin-production review with no clinical relevance), so the prediction rests almost entirely on the model.
-
----
+Cyanocobalamin is a synthetic form of vitamin B12 that is widely marketed in Singapore as single-ingredient injections and tablets.
+The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but **no clinical trials** and only **1 publication** (a non-clinical review of industrial vitamin production) support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin B12 deficiency, pernicious anaemia, folic acid deficiency anaemia, iron deficiency anaemia and other deficiency anaemias (the Singapore licence records contain no approved-indication text, so these come from the drug's knowledge-graph indications) |
-| Predicted New Indication | Biotin metabolic disease |
-| TxGNN Prediction Score | 99.60% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | biotin metabolic disease |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 14 |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, cyanocobalamin is a water-soluble B vitamin. Its efficacy in B12 deficiency and pernicious anaemia is well established, and mechanistically it may overlap with biotin-related pathways.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, cyanocobalamin is a water-soluble B vitamin that serves as a cofactor for cobalamin-dependent enzymes, including methylmalonyl-CoA mutase.
 
-Both cyanocobalamin and biotin act as cofactors in enzyme reactions linked to propionyl-CoA and methylmalonyl-CoA metabolism. This pathway-level overlap makes the prediction plausible on paper.
+Biotin is also a water-soluble B vitamin and a cofactor for carboxylases, including propionyl-CoA carboxylase. The two vitamins therefore touch neighbouring steps of propionyl-CoA and methylmalonyl-CoA metabolism. This is a plausible overlap at pathway level.
 
-However, the link is weak in practice. Biotin metabolic disorders (for example biotinidase or holocarboxylase synthetase deficiency) are treated with biotin itself, and no data show that cobalamin corrects the underlying defect. The high score most likely reflects network proximity among vitamin-related nodes in the knowledge graph rather than a true therapeutic signal.
-
-Other top-ranked predictions (inborn error of biotin metabolism, esophageal malformation, several inflammatory myopathies, CD59 deficiency) have no clinical evidence and mostly no plausible mechanism. They appear to be graph artifacts.
-
----
+The link is weak, however. Biotin metabolic disorders, such as biotinidase deficiency or holocarboxylase synthetase deficiency, are treated with biotin itself. No data show that cobalamin corrects the underlying defect. The high TxGNN score most likely reflects network proximity among vitamin-related nodes rather than a demonstrated therapeutic effect.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1368195](https://pubmed.ncbi.nlm.nih.gov/1368195/) | 1992 | Review | J Chem Technol Biotechnol | Biotechnological production of vitamins and coenzymes; not clinical and not about treating biotin disorders |
-
----
+| [1368195](https://pubmed.ncbi.nlm.nih.gov/1368195/) | 1992 | Review (non-clinical) | Journal of Chemical Technology and Biotechnology | Overview of the biotechnological production of vitamins, coenzymes and related biochemicals; it contains no clinical data on biotin metabolic disease |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN07876P | Vitamin B12 Injection 1000 mcg/ml | Injection | Not stated in the data |
-| SIN06258P | Neurobion Tablet | Tablet, sugar coated | Not stated in the data |
-| SIN12077P | Daneuron Tablet | Tablet, film coated | Not stated in the data |
-| SIN15098P | Neurobion Tablet (OTC) | Tablet, sugar coated | Not stated in the data |
-| SIN10891P | Neuro-B Tablet | Tablet, film coated | Not stated in the data |
+| SIN07876P | VITAMIN B12 INJECTION 1000 mcg/ml | Injection | Not recorded |
+| SIN06258P | NEUROBION TABLET | Tablet, sugar coated | Not recorded |
+| SIN12077P | DANEURON TABLET | Tablet, film coated | Not recorded |
+| SIN15098P | NEUROBION TABLET (OTC) | Tablet, sugar coated | Not recorded |
+| SIN10891P | NEURO-B TABLET | Tablet, film coated | Not recorded |
 
-There are 14 valid single-ingredient registrations in total, covering injectable and oral tablet forms. Only the first five are listed here.
-
----
+All 14 licences are valid. The five listed above are examples, not the full list.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction screen found 100 interacting drugs. The entries reviewed were mostly minor, including acid-suppressing drugs (famotidine, ranitidine, cimetidine, omeprazole, pantoprazole, esomeprazole, lansoprazole, rabeprazole, dexlansoprazole, nizatidine) and potassium chloride. Several other entries have an unknown severity level, including metformin, doxycycline, mesalazine, acarbose, glimepiride, rosiglitazone, sucralfate and morphine.
+Please refer to the package insert for safety information.
 
-Please refer to the package insert for other safety information.
-
----
+Interaction screening found 100 recorded interacting drugs. Most of those shown are of Minor severity or unknown severity. They include acid-suppressing drugs (famotidine, ranitidine, cimetidine, omeprazole, pantoprazole and other proton pump inhibitors) and potassium chloride, which may reduce vitamin B12 absorption. Metformin, glimepiride, acarbose, rosiglitazone, doxycycline, mesalazine, morphine and sucralfate are listed with unknown severity.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by model scoring (L5). There are no clinical trials, the single publication is unrelated to treatment, and biotin disorders are already treated with biotin itself, so there is no clear rationale for using cyanocobalamin.
+The prediction rests on a high model score (0.9960) alone. No clinical trial or publication studies cyanocobalamin in biotin metabolic disease, and the standard treatment for this condition is biotin itself. The evidence level is therefore L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for cyanocobalamin
+- Mechanistic or preclinical data showing that cobalamin affects the defect in biotin metabolic disorders
+- Detailed mechanism of action data (MOA)
 - Package insert warnings and contraindications from the HSA
-- Any biochemical or clinical evidence that cobalamin affects biotin-dependent enzyme function
-- Review of the other predicted indications; only the proteinuria prediction has indirect evidence (as a feature of hereditary B12 malabsorption), and cyanocobalamin there treats the deficiency, not the proteinuria
+- A review of whether any added benefit over standard biotin therapy is plausible
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

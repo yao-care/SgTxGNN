@@ -8,6 +8,7 @@ nav_order: 18
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # 9 12Mg Donepezil Free Base
@@ -51,8 +52,8 @@ Resolving the naming issue and re-running the pipeline is required before any cl
 | Predicted New Indication | None — no TxGNN predictions returned |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (no predictions, no supporting studies available) |
-| Singapore Market Status | ✗ Not marketed (under this entry name) |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | **Hold** |
 
 ---

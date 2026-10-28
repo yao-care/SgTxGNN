@@ -4,17 +4,17 @@ title: Progesterone
 parent: High Evidence (L1-L2)
 nav_order: 829
 evidence_level: L2
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Progesterone: predicted new indication Amenorrhea (evidence level L2). Approved use: Endometriosis"
 monitor_inn: "Progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "cervix endometriosis", "renal hypoplasia (disease)", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Progesterone: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Progesterone: From Endometriosis to Amenorrhea
+## Progesterone: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **4 clinical trials** and **19 publications** compiled for this direction. 
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (the Singapore licence records contain no approved indication text; this is taken from the knowledge-graph indication list) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

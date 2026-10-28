@@ -4,17 +4,17 @@ title: Naproxen
 parent: Low Evidence (L5)
 nav_order: 699
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Bursitis, rheumatoid arthritis, ankylosing spondylitis, tendinitis…"
 monitor_inn: "Naproxen"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
+description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Naproxen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Naproxen: From Inflammatory and Musculoskeletal Pain Conditions to Brachydactyly-Syndactyly Syndrome
+## Naproxen: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,26 +46,24 @@ Among the other predictions, **inflammatory spondylopathy** (4 clinical trials, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Bursitis, rheumatoid arthritis, ankylosing spondylitis, tendinitis, gout, migraine, osteoarthritis and related conditions (the Singapore licence records contain no indication text, so this list comes from the knowledge-graph indication data) |
-| Predicted New Indication | Brachydactyly-syndactyly syndrome (rank 1) |
-| TxGNN Prediction Score | 99.35% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
+| TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 16 |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 Other predictions with evidence worth noting:
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|
-| Inflammatory spondylopathy (rank 8) | 98.58% | L1 | Proceed with Guardrails |
-| Polyarticular juvenile rheumatoid arthritis (rank 10) | 98.56% | L2 | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, naproxen is a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin production and so lowers inflammation, pain and fever.
 
-**Top-ranked prediction (brachydactyly-syndactyly syndrome):** This is a rare congenital skeletal malformation. There is no plausible link between COX inhibition and its underlying pathology. The high score likely reflects proximity to skeletal and joint disease nodes in the knowledge graph rather than a pharmacological rationale. The other top-ranked predictions (ranks 2–7, such as acromesomelic dysplasia, brachyolmia and myosclerosis) follow the same pattern: rare genetic skeletal or muscle disorders with no mechanistic support and no studies. At most, naproxen might give symptomatic pain relief in some of them (for example hypermobility of coccyx, myosclerosis, Kummell disease).
+**Top-ranked prediction (brachydactyly-syndactyly syndrome):** This is a rare congenital skeletal malformation. There is no plausible link between COX inhibition and its underlying pathology. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top-ranked predictions (ranks 2–4, such as acromesomelic dysplasia) follow the same pattern: rare genetic skeletal disorders with no mechanistic support and no studies. At most, naproxen might give symptomatic pain relief in some of them.
 
 **Predictions with real evidence:**
 - **Inflammatory spondylopathy (axial spondyloarthritis):** NSAIDs are first-line therapy. Ankylosing spondylitis and spondyloarthropathy are already among naproxen's listed original indications, so this is an established use rather than true repurposing.
@@ -130,7 +128,7 @@ There are 16 valid single-ingredient registrations in Singapore; none are cancel
 **Decision: Hold** (for the top-ranked prediction, brachydactyly-syndactyly syndrome)
 
 **Rationale:**
-- The prediction has no clinical trials, no literature and no mechanistic link to COX inhibition. The score likely reflects graph proximity rather than pharmacology.
+- The prediction has no clinical trials, no literature and no mechanistic link to COX inhibition. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - The two predictions with evidence, inflammatory spondylopathy (L1) and polyarticular juvenile rheumatoid arthritis (L2), merit **Proceed with Guardrails**. They are largely established uses rather than true repurposing. Guardrails are cardiovascular, gastrointestinal, renal and bleeding risk with long-term use, paediatric dosing, and the heavy interaction burden.
 
 **To proceed, the following is needed:**

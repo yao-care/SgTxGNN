@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Velpatasvir: predicted new indication Hepatitis B virus infection (evidence level L4). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "Velpatasvir"
-predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Velpatasvir
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, velpatasvir is an HCV NS5A inhibitor, used in fixed-dose combinations with sofosbuvir (Epclusa) and with sofosbuvir plus voxilaprevir (Vosevi). Its efficacy in hepatitis C is well established.
 
-Mechanistically, the link to hepatitis B is weak. HBV has no NS5A homolog, so velpatasvir has no known direct target in this virus. The very high TxGNN score most likely reflects proximity between viral hepatitis nodes in the knowledge graph rather than a shared target.
+Mechanistically, the link to hepatitis B is weak. HBV has no NS5A homolog, so velpatasvir has no known direct target in this virus. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The one clinically relevant HBV signal is a safety issue: HBV reactivation has been reported in patients with HBV/HCV co-infection treated with direct-acting antivirals. This is a risk to manage, not a therapeutic effect.
 

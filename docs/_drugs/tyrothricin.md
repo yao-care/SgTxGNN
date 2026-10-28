@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Tyrothricin
-parent: Low Evidence (L5)
-nav_order: 1038
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Tyrothricin: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the Singapore licence data (the lozenge is a throat pro…"
-monitor_inn: "Tyrothricin"
-predicted_indications: ["insomnia (disease)", "enterocolitis (disease)", "neuromuscular junction disease", "gastroenteritis", "congenital myasthenic syndrome with tubular aggregates", "irritable bowel syndrome", "osteoarthritis", "myasthenic syndrome, congenital, 24, presynaptic", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors", "small intestine disease"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 1037
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Tyrothricin: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Tyrothricin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,71 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tyrothricin: From a Topical Throat Antibacterial to Insomnia (Top-Ranked Prediction)
+<!-- known-uses-page -->
+<!-- description: Tyrothricin: known uses and market status in Singapore; currently no new candidate indication -->
+## Tyrothricin: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Tyrothricin, so there is currently no new predicted indication. The drug's recorded uses are listed below; no known uses are recorded for this drug.
 
-Tyrothricin is a topical antibiotic mixture (gramicidin and tyrocidine) that is marketed in Singapore as a throat lozenge.
-The TxGNN model ranks **insomnia** as its top predicted new indication, but **no clinical trials and no publications** support this prediction.
-The evidence is model prediction only, and no plausible mechanistic link has been identified.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence data (the lozenge is a throat product) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 91.52% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 0 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Detailed mechanism of action data is not available from the data compiled for this report. Based on known information, tyrothricin is a mixture of gramicidin and tyrocidine that disrupts bacterial cell membranes. Because of haemolytic and systemic toxicity, its use is limited to local or topical application, such as in lozenges for the mouth and throat.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-For insomnia, **no plausible mechanistic link was identified**. An antibacterial peptide mixture has no recognised action on sleep regulation, and the high score most likely reflects a computational association in the knowledge graph rather than a biological rationale.
-
-The other top-ranked predictions are also weak:
-- **Enterocolitis and gastroenteritis:** Antibacterial activity against Gram-positive gut flora is conceptually plausible, but tyrothricin is not used orally or systemically because of toxicity. The only retrieved record is a 1946 preliminary report on oral tyrothricin in chronic ulcerative colitis, which is a different disease and is of low methodological quality.
-- **Congenital myasthenic syndromes and neuromuscular junction disease:** There is no credible mechanism. The signal is likely a knowledge-graph artefact.
-- **Irritable bowel syndrome, osteoarthritis and small intestine disease:** No established mechanism and no clinical evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for insomnia or for any of the other nine predicted indications.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for insomnia.
-
-For the fourth-ranked prediction (gastroenteritis), one historical record was retrieved:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [20248574](https://pubmed.ncbi.nlm.nih.gov/20248574/) | 1946 | Preliminary clinical report (likely uncontrolled) | Proceedings of the Central Society for Clinical Research | Clinical and bacteriologic evaluation of oral tyrothricin in chronic ulcerative colitis. No abstract is available, and the disease differs from infectious gastroenteritis, so this gives only indirect support. |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04392P | DORITHRICIN THROAT LOZENGES | Lozenge | Not stated in the licence data |
-
-Manufacturer: Medice Arzneimittel Pütter GmbH & Co. KG.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04392P | DORITHRICIN THROAT LOZENGES | LOZENGE | Valid |
 
 ## Safety Considerations
 
@@ -107,19 +80,6 @@ Tyrothricin is limited to topical or local use because of haemolytic and systemi
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The predictions rest on model scores alone (Evidence Level L5 for insomnia). There is no clinical or literature support and no plausible mechanism. Tyrothricin's systemic toxicity also makes use outside topical or local application unlikely to be viable.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA)
-- Mechanism of action data from DrugBank
-- The approved indication text for the Singapore licence
-- A credible mechanistic hypothesis for insomnia, or a switch to a topical or local-use indication that fits the drug's known profile
-- Preclinical or other supporting evidence before any clinical consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

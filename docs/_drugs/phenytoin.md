@@ -4,17 +4,17 @@ title: Phenytoin
 parent: Low Evidence (L5)
 nav_order: 790
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenytoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenytoin: From Epilepsy to Trigeminal Nerve Neoplasm
+## Phenytoin: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Phenytoin is a long-established antiseizure drug, originally used for epilepsy, including generalized tonic-clonic seizures, partial seizures, status epilepticus and Lennox-Gastaut syndrome.
-The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm** (score 99.99%), but there are **no registered clinical trials** and only **2 loosely related publications**, neither of which addresses a neoplasm.
-The prediction is most likely an artifact of the knowledge graph's link to trigeminal neuralgia, so the evidence is essentially model prediction only.
+The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm** (score 0.9999), but there are **no registered clinical trials** and only **2 loosely related publications**, neither of which addresses a neoplasm.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as trigeminal neuralgia, not biological evidence. The evidence is essentially model prediction only.
 
 ---
 
@@ -48,12 +48,12 @@ The prediction is most likely an artifact of the knowledge graph's link to trige
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (the approved indication text in the Singapore licences is blank; the original indications come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -123,7 +123,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The score is very high, but there are no clinical trials, no neoplasm-specific literature, and no mechanistic basis for an anti-tumour effect. The prediction looks like a knowledge-graph artifact. Evidence level is L5.
+The score is very high, but there are no clinical trials, no neoplasm-specific literature, and no mechanistic basis for an anti-tumour effect. The prediction looks like a TxGNN model (deep learning) artifact. Evidence level is L5.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA)
@@ -138,11 +138,8 @@ The other predictions offer a more credible path than the top-ranked one:
 
 | Rank | Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 9 | Trigeminal neuralgia | 99.97% | L4 | Most clinically credible. Phenytoin acts on the same sodium channel mechanism as carbamazepine (first-line). Evidence includes IV phenytoin retrospective cohorts (PMID 32981076, PMID 35469475) and a Cochrane review on neuropathic pain (PMID 22592741). Guidelines favour carbamazepine/oxcarbazepine, so it is at best second-line or rescue. Suggested as a research question. |
-| 2 | Micturition-induced seizures | 99.98% | L4 | Mechanistically compatible; only indirect case-report support, no specific trials. Research question. |
-| 3, 8 | Startle epilepsy, reading seizures | 99.98%, 99.97% | L4 | Case reports only; the drug-specific clinical report for startle epilepsy favours lamotrigine. Hold. |
-| 4–7 | Audiogenic, eating, orgasm-induced, thinking seizures | 99.98% | L5 | Mostly animal or unrelated literature. Hold. |
-| 10 | Beta-ketothiolase deficiency | 99.95% | L5 | No mechanistic rationale or literature. Hold. |
+| 9 | Trigeminal neuralgia | 0.9997 | L4 | Most clinically credible. Phenytoin acts on the same sodium channel mechanism as carbamazepine (first-line). Evidence includes IV phenytoin retrospective cohorts (PMID 32981076, PMID 35469475) and a Cochrane review on neuropathic pain (PMID 22592741). Guidelines favour carbamazepine/oxcarbazepine, so it is at best second-line or rescue. Suggested as a research question. |
+| 10 | Beta-ketothiolase deficiency | 0.9995 | L5 | No mechanistic rationale or literature. Hold. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

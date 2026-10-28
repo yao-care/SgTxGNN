@@ -4,17 +4,17 @@ title: Cholecalciferol
 parent: Low Evidence (L5)
 nav_order: 244
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cholecalciferol: predicted new indication Familial isolated hypoparathyroidism due to impaired PTH secretion (evidence level L5). Approved use: Osteoporosis, vitamin D deficiency, rickets, osteomalac…"
+indication_count: 4
 monitor_inn: "Cholecalciferol"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemic rickets", "renal osteodystrophy", "renal tubular acidosis", "hereditary hypophosphatemic rickets", "hypophosphatemia (disease)", "impaired renal function disease"]
+predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
+last_modified_at: 2026-10-23
+description: "Cholecalciferol: predicted new indication Acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Vitamin D deficiency, rickets, osteomalacia, osteoporosis…"
 ---
 
 # Cholecalciferol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Cholecalciferol: From Osteoporosis and Vitamin D Deficiency to Familial Isolated Hypoparathyroidism
+## Cholecalciferol: From Vitamin D and Bone-Mineral Disorders to Acromesomelic Dysplasia, Campailla Martinelli Type
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cholecalciferol (vitamin D3) is a long-established treatment for vitamin D deficiency, rickets, osteomalacia, osteoporosis and hypoparathyroidism.
-The TxGNN model predicts it may be effective for **familial isolated hypoparathyroidism due to impaired PTH secretion**.
-There are currently **0 clinical trials** and **0 publications** supporting this specific prediction, and hypoparathyroidism is already an existing indication, so this is not a true repurposing candidate.
-
----
+Cholecalciferol (vitamin D3) is recorded in the knowledge graph as being used for vitamin D deficiency and bone-mineral disorders such as rickets, osteomalacia and osteoporosis.
+The TxGNN model predicts it may be useful for **acromesomelic dysplasia, Campailla Martinelli type**, a rare skeletal dysplasia, with a very high score (0.9978).
+However, there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Osteoporosis, vitamin D deficiency, rickets, osteomalacia, hypoparathyroidism, and related calcium and phosphate disorders (from the knowledge graph; the Singapore licence records carry no indication text) |
-| Predicted New Indication | Familial isolated hypoparathyroidism due to impaired PTH secretion |
-| TxGNN Prediction Score | 99.79% |
+| Original Indication | Vitamin D deficiency, rickets, osteomalacia, osteoporosis, hypoparathyroidism and related bone-mineral conditions (relations recorded in the knowledge graph; the Singapore licence records contain no indication text) |
+| Predicted New Indication | Acromesomelic dysplasia, Campailla Martinelli type |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Licences | 3 (valid: 3) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cholecalciferol is a vitamin D pro-hormone. It is converted in the liver and kidney to the active form, calcitriol, which raises calcium and phosphate absorption and supports bone mineralisation. Its efficacy in correcting vitamin D deficiency and rickets is well established.
+Detailed mechanism of action data is not currently available. Based on general knowledge, cholecalciferol is a vitamin D precursor that the body converts into active forms. These regulate calcium and phosphate handling and bone mineralisation. This is why it is used for deficiency-related bone diseases such as rickets and osteomalacia.
 
-Hypoparathyroidism is already listed among cholecalciferol's original indications. In this condition, low parathyroid hormone (PTH) leads to low calcium, and vitamin D metabolites are used to help restore calcium balance. The familial isolated form is a genetic subtype of the same problem, so the model's high score likely reflects this overlap rather than a new therapeutic discovery. Native cholecalciferol also depends on PTH-driven kidney activation, so active analogues such as calcitriol or alfacalcidol are usually preferred when PTH is deficient. This point has not been verified in the data compiled here.
-
----
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not a validated biological mechanism. Acromesomelic dysplasia, Campailla Martinelli type, is a rare inherited disorder of skeletal development. It is not caused by vitamin D deficiency, and cholecalciferol is not expected to correct a primary genetic skeletal defect. The strength of the score should therefore not be read as clinical support.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15254P | D-CURE ORAL SOLUTION 25000IU | Solution |
-| SIN17171P | GP CHOLECALCIFEROL SOFTGEL CAPSULE 25,000 IU | Capsule, liquid filled |
-| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15254P | D-CURE ORAL SOLUTION 25000IU | Solution | Not listed in the licence record |
+| SIN17171P | GP CHOLECALCIFEROL SOFTGEL CAPSULE 25,000 IU | Capsule, liquid filled | Not listed in the licence record |
+| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution | Not listed in the licence record |
 
-All three licences are valid single-ingredient registrations with no cancellations. Approved indication text is not available in the registration records.
-
----
+All three licences are valid and recorded as single-ingredient products. The product name of SIN11975P suggests a multivitamin injection, so its details should be checked before it is treated as representative of cholecalciferol alone. Because no indication text is recorded, no approved use can be stated from the data compiled for this report.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** Conditions linked to cholecalciferol include:
-  - hypercalcaemia, nephrocalcinosis and phosphorus metabolism disorders;
-  - hyperparathyroidism and osteitis fibrosa;
-  - kidney, liver and gallbladder disease;
-  - sarcoidosis;
-  - hypertension and atrial fibrillation;
-  - diabetes and diabetic ketoacidosis;
-  - several iron-overload and other metabolic disorders (e.g. hemochromatosis, Wilson disease);
-  - hyperlipidaemia;
-  - breast and prostate cancers.
-- **Drug Interactions:** 56 interactions were identified. Among those shown:
-  - **Major:** other vitamin D agents (calcifediol, calcitriol, dihydrotachysterol, doxercalciferol), with a risk of additive hypercalcaemia.
-  - **Moderate:** thiazide diuretics, barbiturates, carbamazepine, bile-acid sequestrants (cholestyramine, colestipol, colesevelam), and digoxin and digitoxin.
-  - **Minor:** cimetidine.
+No package insert warnings or contraindications were available for this report. Please refer to the package insert for label safety information. The following come from other sources.
 
-Please refer to the package insert for key warnings and formal contraindications.
-
----
+- **Knowledge-graph contraindication relations** (not label text): hypercalcemia, nephrocalcinosis, hyperparathyroidism, sarcoidosis, kidney disease, liver disease, phosphorus metabolism disease, primary hyperoxaluria, hypertension, atrial fibrillation, diabetes mellitus, and several others. These suggest caution in conditions involving high calcium or phosphate, or impaired kidney function.
+- **Drug interactions**: 56 interactions were found. Those listed as Major are other vitamin D-active compounds (calcifediol, calcitriol, dihydrotachysterol, doxercalciferol), because of the risk of additive effects. Moderate interactions include thiazide diuretics (e.g. bendroflumethiazide, chlorothiazide, chlorthalidone), barbiturates (amobarbital, butabarbital, butalbital), carbamazepine, bile acid sequestrants (cholestyramine, colesevelam, colestipol), and digoxin/digitoxin. Cimetidine is a Minor interaction.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. No trials or literature were found for this form of hypoparathyroidism. The indication already overlaps with cholecalciferol's existing labelled use, so it adds no real new indication.
-
-Two other predicted indications in the same analysis have much stronger support:
-- **Renal osteodystrophy** has a Phase 3 trial (NCT00752401, status unknown) and was graded L1 with "Proceed with Guardrails".
-- **Impaired renal function (chronic kidney disease)** has 15 trials, including a completed Phase 3 trial (NCT00968877). It was also graded L1 with "Proceed with Guardrails".
-
-In both, benefit for biochemical correction (25(OH)D, PTH) is plausible, but clinical outcome benefit is not shown in the data compiled here. These two are better candidates for further evaluation.
+The prediction has a high model score but no clinical trials or publications, and no plausible mechanism has been identified. Cholecalciferol is not expected to correct a primary genetic skeletal defect. The evidence level is therefore L5. For comparison, other predictions for this drug, such as renal osteodystrophy, have clinical trials and literature behind them and may be a better focus for further evaluation.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and the Singapore package insert warnings and contraindications.
-- Evidence specific to familial isolated hypoparathyroidism, or confirmation that it falls under the existing hypoparathyroidism indication.
-- For the kidney-related candidates, verified trial outcomes and a monitoring plan for calcium, phosphate and PTH, with hypercalcaemia avoidance.
+- Mechanism of action data and a documented biological link to this skeletal disorder
+- Any case series, preclinical or clinical evidence in this specific disease
+- Package insert warnings and contraindications from the Singapore regulator
+- Confirmation of approved indications for each Singapore licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

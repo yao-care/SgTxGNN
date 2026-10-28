@@ -6,9 +6,9 @@ nav_order: 583
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ledipasvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "Ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
+description: "Ledipasvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Ledipasvir
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Ledipasvir: From Chronic Hepatitis C to Hepatitis B Virus Infection
+## Ledipasvir: Hepatitis B virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but the supporting evidence is thin: **5 related clinical trials** (only 1 direc
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection (approved indication text not available in the local registration record; taken from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

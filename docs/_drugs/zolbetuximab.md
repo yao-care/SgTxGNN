@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Zolbetuximab
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 1087
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Zolbetuximab: predicted new indication Diabetic cataract (evidence level L5). Approved use: HER2-negative…"
+description: "Zolbetuximab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Zolbetuximab"
-predicted_indications: ["diabetic cataract", "mature cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic retinopathy"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Zolbetuximab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Zolbetuximab: From Gastric Cancer to Diabetic Cataract
+## Zolbetuximab
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Zolbetuximab is a monoclonal antibody that targets Claudin 18.2 (CLDN18.2). It is used for CLDN18.2-positive gastric and gastroesophageal junction cancer.
-The TxGNN model predicts it may be effective for **diabetic cataract**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-negative, CLDN18.2-positive unresectable advanced/recurrent gastric or gastroesophageal junction cancer (from pharmacology data; the Singapore licence text is blank) |
-| Predicted New Indication | Diabetic cataract |
-| TxGNN Prediction Score | 98.49% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the compiled data. From the pharmacology information, zolbetuximab is an antibody against CLDN18.2. It is thought to kill CLDN18.2-expressing tumour cells through antibody-dependent and complement-dependent cytotoxicity.
-
-**The prediction is hard to justify biologically.** CLDN18.2 is not known to be expressed or to have a functional role in lens tissue. Diabetic cataract is driven mainly by the polyol pathway and oxidative stress. The high score (98.49%) is a graph-based computational result and likely reflects network artefacts rather than real pharmacology. The other top predictions are also eye conditions, including other cataract subtypes (mature, immature, senile, nuclear, cortical, tetanic, craniostenosis-associated and type 2 diabetes-associated) and diabetic retinopathy. They share the same weakness: no mechanistic link, no trials and no literature.
-
-Clinical practice also argues against this use. Cataract is treated effectively by surgery. A systemically administered cytotoxic-effector antibody with known gastrointestinal toxicity (nausea, vomiting) would be a poor risk-benefit fit.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ## Singapore Market Information
 
@@ -85,18 +70,6 @@ The manufacturer is Baxter Oncology GmbH. The licence is valid and covers a sing
 
 Please refer to the package insert for other safety information, including warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by a graph-based model score. There are no clinical trials or publications, and no plausible mechanistic link between CLDN18.2 targeting and lens or retinal disease. The risk-benefit profile of a systemic cytotoxic-effector antibody in a surgically treatable condition is also unfavourable.
-
-**To proceed, the following is needed:**
-- Evidence that CLDN18.2 is expressed or functionally relevant in lens tissue (preclinical or mechanistic studies)
-- Detailed mechanism of action data
-- The Singapore package insert warnings and contraindications, to allow safety screening
-- Any clinical or literature evidence for the predicted indication, which is currently absent
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

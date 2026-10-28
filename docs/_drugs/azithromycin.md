@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Azithromycin is a macrolide antibiotic originally used for bacterial infections such as streptococcal infection, bacterial pneumonia, conjunctivitis and several sexually transmitted infections.
-The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no clinical trials and no publications** support this prediction, so it rests on a graph-based score alone.
+The TxGNN model (deep learning) predicts it may be effective for **hyperamylasemia**, but **no clinical trials and no publications** support this prediction. The score comes from the TxGNN model and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no c
 |------|------|
 | Original Indication | Streptococcal infection, bacterial pneumonia, staphylococcal infection and other bacterial infections (no approved indication text is available in the Singapore licence records) |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 16 |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial infections is well established, and no mechanistic link to hyperamylasemia can be established from the data compiled for this report.
 
-Hyperamylasemia is a laboratory finding (raised blood amylase) rather than an infection. The data provides no antibacterial or immunomodulatory rationale for treating it. The very high score most likely reflects the structure of the knowledge graph rather than biology, so this prediction should be treated as a hypothesis only.
+Hyperamylasemia is a laboratory finding (raised blood amylase) rather than an infection. The data provides no antibacterial or immunomodulatory rationale for treating it. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so this prediction should be treated as a hypothesis only.
 
 Other predicted indications have somewhat more support and may be better candidates to pursue:
 - **Congenital hematological disorder (sickle cell disease):** Two trials of macrolide or azithromycin therapy for lung complications (NCT02960503 and NCT02630394) were both withdrawn with zero enrollment, so no efficacy data exist. This is the highest evidence level among the predictions (L3).

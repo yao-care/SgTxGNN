@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma, ocular hypertension"
 monitor_inn: "Travoprost"
-predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
+predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
 ---
 
 # Travoprost
@@ -48,17 +48,17 @@ This is a model-only prediction with no real-world evidence behind it.
 |------|------|
 | Original Indication | Open-angle glaucoma, ocular hypertension |
 | Predicted New Indication | Visceral calciphylaxis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, travoprost is an FP receptor agonist (a prostaglandin F2-alpha analog). It lowers eye pressure by increasing uveoscleral outflow of fluid from the eye.
 
-The link between glaucoma and visceral calciphylaxis (a vascular calcification condition affecting internal organs) is weak. Travoprost is applied to the eye in tiny doses with minimal systemic exposure. No plausible mechanism connecting it to vascular calcification in visceral tissue has been established. The very high score (close to 100%) reflects the model's graph-based pattern matching, not biological or clinical support.
+The link between glaucoma and visceral calciphylaxis (a vascular calcification condition affecting internal organs) is weak. Travoprost is applied to the eye in tiny doses with minimal systemic exposure. No plausible mechanism connecting it to vascular calcification in visceral tissue has been established. The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical support.
 
 Other top-ranked predictions show the same pattern. They include thoracic outlet syndromes (venous, arterial, neurogenic), vascular disease, angiodysplasia of the stomach, blue toe syndrome, spontaneous coronary artery dissection, lymphangiectasis and hemangioendothelioma. All of them lack trials or literature, and none has a clear mechanistic link to topical travoprost.
 

@@ -4,17 +4,17 @@ title: Potassium Iodide
 parent: Medium Evidence (L3-L4)
 nav_order: 814
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Potassium Iodide"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "allergic urticaria", "papillary conjunctivitis", "trigeminal autonomic cephalalgia", "headache disorder", "tracheal disease", "laryngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Potassium Iodide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Potassium Iodide: From Allergic Rhinitis and Upper Respiratory Inflammation to Nasal Cavity Disease
+## Potassium Iodide: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction therefore rests mainly on the model score and indirect antifungal
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, nasopharyngitis (from the knowledge graph; Singapore licence indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,6 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The retrieved papers describe nasal or rhinofacial mycotic infections in sheep and horses, plus a single human case of nasofacial zygomycosis that responded rapidly to potassium iodide. This offers plausible, indirect support. However, it does not come from controlled human studies of nasal cavity disease in general. The very high TxGNN score is a model prediction only and is not proof of benefit.
 
-Other predicted indications (for example acute laryngopharyngitis, laryngitis and tracheal disease) are closer to the original upper respiratory uses, but they have even less supporting evidence. Several lower-ranked predictions, such as faucial diphtheria, cervical disc degenerative disorder and headache disorder, have no identifiable mechanistic basis and are likely model artefacts.
 
 ---
 

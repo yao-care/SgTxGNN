@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Danazol
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 299
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Danazol: predicted new indication Amenorrhea (disease) (evidence level L3). Approved use: Endometriosis"
 monitor_inn: "Danazol"
-predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
+predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
 ---
 
 # Danazol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **no registered clinical trials** but **20 publications** (mostly reviews a
 |------|------|
 | Original Indication | Endometriosis; endometriosis of uterus; breast fibrocystic disease (the Singapore licence text does not list an approved indication) |
 | Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 99.9995% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -114,15 +114,15 @@ The mechanism for inducing amenorrhea is well established and a 2024 cohort supp
 
 | Predicted Indication | TxGNN Score | Evidence Level | Suggested Decision | Note |
 |------|------|------|------|------|
-| Benign mammary dysplasia | 99.9990% | L3 | Proceed with Guardrails | Closely related to the existing fibrocystic breast disease use; several 1980s clinical studies, including a double-blind randomised trial in 80 women (PMID 3074777) and a double-blind crossover study against placebo (PMID 6373293). Reserve for severe, refractory symptoms. |
-| Breast adenosis | 99.9960% | L3 | Research Question | Evidence concerns fibrocystic change in general; low-dose danazol reports exist. |
-| Apocrine adenosis of breast | 99.9987% | L4 | Hold | Indirect evidence through the parent condition only. |
-| Breast abscess | 99.9966% | L4 | Hold | Two 1986 letters on periareolar abscess; anecdotal. |
-| Lactation disease | 99.9964% | L4 | Hold | Evidence indirect; danazol is generally avoided during lactation. |
-| Blunt duct adenosis of breast | 99.9987% | L5 | Hold | Model prediction only. |
-| Fat necrosis of breast | 99.9966% | L5 | Hold | Weak mechanistic rationale; no evidence. |
-| Vulvovaginitis | 99.9568% | L5 | Hold | Only an in vitro murine study (progesterone); not tested with danazol. |
-| Vulvitis | 99.9519% | L5 | Hold | Same preclinical study; no danazol-specific evidence. |
+| Benign mammary dysplasia | 1.0000 | L5 | Proceed with Guardrails | Closely related to the existing fibrocystic breast disease use; several 1980s clinical studies, including a double-blind randomised trial in 80 women (PMID 3074777) and a double-blind crossover study against placebo (PMID 6373293). Reserve for severe, refractory symptoms. |
+| Breast adenosis | 1.0000 | L5 | Research Question | Evidence concerns fibrocystic change in general; low-dose danazol reports exist. |
+| Apocrine adenosis of breast | 1.0000 | L5 | Hold | Indirect evidence through the parent condition only. |
+| Breast abscess | 1.0000 | L5 | Hold | Two 1986 letters on periareolar abscess; anecdotal. |
+| Lactation disease | 1.0000 | L5 | Hold | Evidence indirect; danazol is generally avoided during lactation. |
+| Blunt duct adenosis of breast | 1.0000 | L5 | Hold | Model prediction only. |
+| Fat necrosis of breast | 1.0000 | L5 | Hold | Weak mechanistic rationale; no evidence. |
+| Vulvovaginitis | 0.9996 | L5 | Hold | Only an in vitro murine study (progesterone); not tested with danazol. |
+| Vulvitis | 0.9996 | L5 | Hold | Same preclinical study; no danazol-specific evidence. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

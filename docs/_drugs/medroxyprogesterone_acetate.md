@@ -4,17 +4,17 @@ title: Medroxyprogesterone Acetate
 parent: Medium Evidence (L3-L4)
 nav_order: 640
 evidence_level: L4
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis, endometrial cancer, postmenopausal osteoporosis…"
 monitor_inn: "Medroxyprogesterone acetate"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "cervix endometriosis", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials** are registered and the **20 publications** retrieved 
 |------|------|
 | Original Indication | Endometriosis, endometrial cancer, postmenopausal osteoporosis, postmenopausal atrophic vaginitis (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -118,11 +118,11 @@ The prediction score is very high, but there are no registered trials and no dir
 | Rank | Predicted Indication | Evidence Level | Note |
 |------|------|------|------|
 | 2 | Breast fibrocystic disease | L3 | Small, dated clinical reports (1983, 1988); HRT studies suggest progestin combinations may increase breast density, so benefit-risk is uncertain |
-| 3 | Benign mammary dysplasia | L4 | Same disease spectrum as above; no direct evidence |
+| 3 | Benign mammary dysplasia | L5 | Same disease spectrum as above; no direct evidence |
 | 4 | Cervix endometriosis | L4 | Plausible extension of the endometriosis indication; retrieved literature is off-target |
 | 5 | Endometriosis of rectovaginal septum and vagina | L5 | Model inference only; often needs surgery |
 | 6 | Endometriosis in cutaneous scar | L5 | Model inference only; typically managed surgically |
-| 7-8 | Renal hypoplasia (bilateral / unspecified) | L5 | No plausible mechanism; likely a knowledge-graph artifact |
+| 7-8 | Renal hypoplasia (bilateral / unspecified) | L5 | No plausible mechanism; likely a TxGNN model (deep learning) artifact |
 | 9-10 | Blunt duct adenosis / apocrine adenosis of breast | L5 | Fibrocystic-spectrum lesions; no direct evidence |
 ## Disclaimer
 

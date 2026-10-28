@@ -6,9 +6,9 @@ nav_order: 757
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Palivizumab: predicted new indication Benign neoplasm of tongue (evidence level L5). Approved use: Respiratory syncytial virus infection"
 monitor_inn: "Palivizumab"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
+description: "Palivizumab: predicted new indication Benign neoplasm of tongue (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Palivizumab
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Palivizumab: From Respiratory Syncytial Virus Infection to Benign Neoplasm of Tongue
+## Palivizumab: Benign neoplasm of tongue
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **benign neoplasm of tongue**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Respiratory syncytial virus infection (the Singapore licence text carries no indication wording; this is taken from the knowledge-graph indication record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Benign neoplasm of tongue |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, palivizumab is a humanized monoclonal antibody directed against the RSV F protein, and its established use is in preventing RSV disease.
 
-No plausible mechanistic link to benign tongue neoplasms has been identified. These tumours have no known RSV-related target, so the high score (99.94%) reflects a graph-based computational prediction only. Other highly ranked predictions for this drug (for example epiglottis neoplasm, cervical neuroblastoma, benign neoplasm of the hypopharynx, benign neoplasm of the floor of mouth, testicular and paratesticular tumours, schwannoma of the jugular foramen, and thyroglossal duct cyst) show the same pattern: all are L5, with no trials, no literature and no mechanistic rationale. This suggests the scores may reflect a general model pattern rather than drug-specific biology.
+No plausible mechanistic link to benign tongue neoplasms has been identified. These tumours have no known RSV-related target, so the high score (0.9994) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Other highly ranked predictions for this drug (for example epiglottis neoplasm, cervical neuroblastoma, benign neoplasm of the hypopharynx, benign neoplasm of the floor of mouth, testicular and paratesticular tumours, schwannoma of the jugular foramen, and thyroglossal duct cyst) show the same pattern: all are L5, with no trials, no literature and no mechanistic rationale. This suggests the scores may reflect a general model pattern rather than drug-specific biology.
 
 ## Clinical Trial Evidence
 
@@ -69,9 +69,6 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15112P | SYNAGIS SOLUTION FOR INJECTION 100MG/ML (Boehringer Ingelheim Pharma GmbH & Co. KG) | Injection, solution | Not stated in the licence data |
 
 ## Safety Considerations
 

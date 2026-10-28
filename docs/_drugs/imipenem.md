@@ -6,9 +6,9 @@ nav_order: 524
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Bacterial pneumonia, peritonitis…"
 monitor_inn: "Imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
+description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imipenem
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Imipenem: From Bacterial Infections to Diffuse Scleroderma
+## Imipenem: Diffuse scleroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial pneumonia, peritonitis, endocarditis and other bacterial infections (the Singapore licence records contain no indication text, so this comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.99% (ranked 260th overall) |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 Detailed mechanism of action data is not available in the data compiled for this report. Imipenem is a carbapenem beta-lactam antibiotic. Its efficacy in bacterial infections is well established, and it acts by binding penicillin-binding proteins to disrupt bacterial cell-wall synthesis.
 
-Diffuse scleroderma is an autoimmune, fibrotic connective-tissue disease, not an infection. No plausible antibacterial mechanism links imipenem to it, and no immunomodulatory or antifibrotic mechanism for imipenem is documented in the data compiled for this report. The high TxGNN score is a computational association from the knowledge graph. It is not supported by any trial or publication, and it should not be read as a therapeutic signal.
+Diffuse scleroderma is the main prediction for this drug (TxGNN score 0.9999). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -80,7 +80,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Imipenem is marketed in Singapore as an injectable imipenem/cilastatin combination. All 4 registrations are valid single-entry licences, and none has been cancelled. Indication text is not recorded for any of them.
+This drug is marketed in this country: 4 of 4 licences are valid.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

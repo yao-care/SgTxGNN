@@ -4,17 +4,17 @@ title: Enoxaparin
 parent: Low Evidence (L5)
 nav_order: 377
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Enoxaparin"
-predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "pseudo-von Willebrand disease", "neuropathy, painful", "thrombotic thrombocytopenic purpura", "retinal telangiectasia", "arteriosclerotic retinopathy", "retinal microaneurysm", "vertebral artery occlusion"]
+predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
+description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Enoxaparin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Enoxaparin: From Pulmonary Embolism to Thrombophilia due to Protein C Deficiency
+## Enoxaparin: Thrombophilia due to protein C deficiency, autosomal recessive
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but currently there are **0 clinical trials** and **0 publications** directly su
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans (from the knowledge graph; no approved indication text is available in the Singapore licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 12 |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Protein C deficiency is a prothrombotic state in which the body's natural anticoagulant pathway is impaired. Anticoagulation is therefore plausible for preventing and treating thrombosis in this setting. This also resembles purpura fulminans, an existing enoxaparin-related indication that is a known complication of severe protein C deficiency.
 
-However, no trials or literature were retrieved for this prediction. The high TxGNN score (0.996) is a model prediction only and has not been verified by clinical evidence.
+However, no trials or literature were retrieved for this prediction. The high TxGNN score (0.9958) is a model prediction only and has not been verified by clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -102,7 +102,7 @@ Please also refer to the package insert for full safety information, as label wa
 **Rationale:**
 The prediction is mechanistically plausible, because anticoagulation is used in protein C deficiency. However, there are no trials or literature for it, so the evidence level is L5 (model prediction only). The label safety data were also unavailable.
 
-Other predicted indications were reviewed and also remain at Hold. Several are mechanistically doubtful or potentially harmful, such as primary platelet release disorder, pseudo-von Willebrand disease and the retinal conditions, where bleeding risk is a concern. Thrombotic thrombocytopenic purpura and vertebral artery occlusion have only indirect case-level literature (L4).
+Other predicted indications were reviewed and also remain at Hold.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, to complete safety screening

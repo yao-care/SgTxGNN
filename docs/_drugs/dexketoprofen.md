@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dexketoprofen: predicted new indication Tendinitis (evidence level L5). Approved use: Not stated in the Singapore registration record"
 monitor_inn: "Dexketoprofen"
-predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
+predicted_indications: ["tendinitis", "fibromyalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
 ---
 
 # Dexketoprofen
@@ -48,10 +48,10 @@ Note that the same model output shows much stronger evidence for **migraine** (s
 |------|------|
 | Original Indication | Not stated in the Singapore registration record; generally used for acute mild to moderate pain |
 | Predicted New Indication | Tendinitis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 (no tendinitis-specific study; one indirect study in related musculoskeletal pain) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

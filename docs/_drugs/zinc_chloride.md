@@ -4,17 +4,17 @@ title: Zinc Chloride
 parent: Low Evidence (L5)
 nav_order: 1085
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not stated in the registration records (the products are infusion con…"
 monitor_inn: "Zinc chloride"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome", "diabetic retinopathy", "prolapse of lacrimal gland", "acne (disease)", "brain aneurysm", "diabetic cataract", "granulomatous disease, chronic, autosomal recessive", "cortical cataract"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
+description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zinc Chloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Zinc Chloride: From Trace Element Supplementation to Severe Nonproliferative Diabetic Retinopathy
+## Zinc Chloride: Severe nonproliferative diabetic retinopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,21 +45,20 @@ The TxGNN model predicts it may be effective for **severe nonproliferative diabe
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records (the products are infusion concentrates containing zinc) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on known information, zinc chloride is a source of zinc, an essential trace element, and it is used in infusion concentrates. Zinc is a cofactor of antioxidant enzymes such as Cu/Zn-superoxide dismutase, so it may plausibly protect the retina against oxidative stress.
 
-Oxidative stress is a recognised driver of diabetic retinopathy. This gives a plausible but unproven link between zinc and the predicted disease. No clinical evidence was compiled for this specific stage (severe nonproliferative disease), so the link remains speculative.
+This gives a plausible but unproven link between zinc and the predicted disease. No clinical evidence was compiled for this specific stage (severe nonproliferative disease), so the link remains speculative.
 
-The next-ranked prediction, **diabetic retinopathy** (score 98.89%), has one supporting animal study, described below.
 
 ## Clinical Trial Evidence
 
@@ -67,7 +66,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature was compiled for the top-ranked prediction. For the closely related prediction of general diabetic retinopathy, one preclinical study was found:
+No literature was compiled for the top-ranked prediction.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -97,14 +96,13 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no clinical trials and no human literature for severe nonproliferative diabetic retinopathy. The only related evidence is a single rat study for general diabetic retinopathy. The package insert warnings and indications are also unavailable, so safety screening cannot proceed.
+The prediction score is high, but there are no clinical trials and no human literature for severe nonproliferative diabetic retinopathy. The package insert warnings and indications are also unavailable, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website (blocking gap)
 - Mechanism of action data from DrugBank
-- A systematic literature search for zinc and diabetic retinopathy in humans
 - A route compatibility assessment: the registered products are intravenous infusions, while the predicted eye conditions might need other routes, such as oral or topical delivery
-- A review of the other predictions with a more plausible rationale, such as diabetic retinopathy (preclinical evidence), dry eye syndrome and acne. Several others, such as prolapse of lacrimal gland and brain aneurysm, have no clear mechanistic rationale and appear to be model artifacts.
+- A review of the other predictions with a more plausible rationale, such as diabetic retinopathy (preclinical evidence), dry eye syndrome and acne.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

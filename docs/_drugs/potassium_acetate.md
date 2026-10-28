@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Potassium Acetate
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 810
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Potassium deficiency disease"
 monitor_inn: "Potassium acetate"
-predicted_indications: ["renal tubular acidosis", "Alstrom syndrome", "pseudo-von Willebrand disease", "HELIX syndrome", "gastroduodenitis", "primary release disorder of platelets", "esophageal varices without bleeding", "esophageal varices with bleeding", "peptic ulcer disease", "immune-mediated necrotizing myopathy"]
+predicted_indications: ["renal tubular acidosis"]
 ---
 
 # Potassium Acetate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials and no publications** were found for this drug in this 
 |------|------|
 | Original Indication | Potassium deficiency disease |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

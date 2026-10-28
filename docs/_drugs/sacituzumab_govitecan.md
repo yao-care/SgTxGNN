@@ -4,17 +4,17 @@ title: Sacituzumab Govitecan
 parent: Low Evidence (L5)
 nav_order: 890
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Sacituzumab Govitecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available in the registration data compiled for this report"
 monitor_inn: "Sacituzumab govitecan"
-predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "immature cataract"]
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
 ---
 
 # Sacituzumab Govitecan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,17 +46,17 @@ Sacituzumab govitecan is a Trop-2-directed antibody-drug conjugate carrying a to
 |------|------|
 | Original Indication | Not available in the registration data compiled for this report |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug class, sacituzumab govitecan is an antibody-drug conjugate. The antibody part targets Trop-2 on tumour cells and delivers SN-38, a topoisomerase I inhibitor, which is a cytotoxic mechanism.
 
-This prediction is hard to justify mechanistically. No plausible link connects a cytotoxic, tumour-targeted agent to bone-protective effects. Cytotoxic chemotherapy and its supportive care, such as myelosuppression, gastrointestinal toxicity and steroid co-medication, are more likely to harm bone health than to treat bone loss. The high TxGNN score most likely reflects knowledge-graph artefacts rather than real biology.
+This prediction is hard to justify mechanistically. No plausible link connects a cytotoxic, tumour-targeted agent to bone-protective effects. Cytotoxic chemotherapy and its supportive care, such as myelosuppression, gastrointestinal toxicity and steroid co-medication, are more likely to harm bone health than to treat bone loss. The high TxGNN score most likely reflects TxGNN model (deep learning) artefacts rather than real biology.
 
 The other top-ranked predictions are diabetic retinopathy (including severe non-proliferative disease) and several cataract types. They show the same pattern: all are Evidence Level L5, with no trials or literature, and no recognised mechanistic rationale.
 

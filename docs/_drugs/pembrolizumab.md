@@ -4,17 +4,17 @@ title: Pembrolizumab
 parent: Low Evidence (L5)
 nav_order: 771
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Pembrolizumab: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer, lung cancer, metastatic melanoma"
 monitor_inn: "Pembrolizumab"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+description: "Pembrolizumab: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pembrolizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pembrolizumab: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Pembrolizumab: Fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **gingival fibromatosis** with 
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung cancer, lung cancer, metastatic melanoma (from the TxGNN knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +65,6 @@ The link between the original indications and gingival fibromatosis is weak. Gin
 
 Other predictions in the list are noted below for context. None has strong supporting evidence:
 
-- **Lung hilum carcinoma (rank 4):** it lies within the lung cancer spectrum where pembrolizumab is already approved. Evidence is limited to three case reports, so it is largely an extension of the existing indication.
 - **Lung benign neoplasm (rank 6):** the retrieved literature is almost entirely about malignant lung cancer, including several phase 3 RCTs. This is likely a term-mapping artifact and should not be credited to benign neoplasms.
 - **Lung germ cell tumour (rank 9):** the trials found were broad thoracic and solid tumour studies, not germ cell tumour studies. A trial-level eligibility check is needed.
 
@@ -123,7 +122,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, gingival fibromatosis, has no clinical trials, no literature and no plausible mechanism. The score of 99.40% is a model output only (L5). Pembrolizumab's strong evidence lies in its existing cancer indications, not in this prediction.
+The top-ranked prediction, gingival fibromatosis, has no clinical trials, no literature and no plausible mechanism. The score of 0.9940 is a model output only (L5). Pembrolizumab's strong evidence lies in its existing cancer indications, not in this prediction.
 
 **To proceed, the following is needed:**
 - Mechanistic data (MOA) and a biological rationale for PD-1 blockade in gingival fibromatosis

@@ -6,9 +6,9 @@ nav_order: 325
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Diazepam: predicted new indication Insomnia (evidence level L4). Approved use: Epilepsy, status epilepticus, alcohol withdrawal (including delirium)…"
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
+description: "Diazepam: predicted new indication Insomnia (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Diazepam
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Diazepam: From Epilepsy and Anxiety to Insomnia
+## Diazepam: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Evidence is limited, so this is best treated as a research question rather than 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy, status epilepticus, alcohol withdrawal (including delirium), Wernicke-Korsakoff syndrome, anxiety, tetanus (from the knowledge graph; approved indication text is not available for the Singapore licences) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,15 +95,15 @@ Related evidence from the broader "sleep disorder, initiating and maintaining sl
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 2 | Cauda equina syndrome | 99.99% | L5 | Model prediction only; a surgical emergency not plausibly modified by diazepam |
-| 3 | Sleep disorder, initiating and maintaining sleep | 99.97% | L4 | Class use is established, but literature concerns tapering and chronic-use harms |
-| 4 | ADHD, inattentive type | 99.97% | L5 | No evidence; sedation may worsen inattention |
-| 5 | Barbiturate abuse | 99.95% | L4 | Indirect support via cross-tolerance in withdrawal management; no specific trials |
-| 6 | Hallucinogen abuse | 99.95% | L4 | Symptomatic use in intoxication only; no efficacy evidence for the disorder |
-| 7 | Antidepressant type abuse | 99.95% | L4 | Likely a disease-class artifact; diazepam is the dependence-causing agent in the literature |
-| 8 | Specific developmental disorder | 99.95% | L5 | Preclinical papers only |
-| 9 | ADHD | 99.93% | L5 | Paradoxical reactions reported in children; no supporting trial |
-| 10 | Neurogenic bladder (obsolete entry) | 99.91% | L5 | Model prediction only; the disease entry is obsolete |
+| 2 | Cauda equina syndrome | 0.9999 | L5 | Model prediction only; a surgical emergency not plausibly modified by diazepam |
+| 3 | Sleep disorder, initiating and maintaining sleep | 0.9997 | L5 | Class use is established, but literature concerns tapering and chronic-use harms |
+| 4 | ADHD, inattentive type | 0.9997 | L5 | No evidence; sedation may worsen inattention |
+| 5 | Barbiturate abuse | 0.9995 | L4 | Indirect support via cross-tolerance in withdrawal management; no specific trials |
+| 6 | Hallucinogen abuse | 0.9995 | L5 | Symptomatic use in intoxication only; no efficacy evidence for the disorder |
+| 7 | Antidepressant type abuse | 0.9995 | L5 | Likely a disease-class artifact; diazepam is the dependence-causing agent in the literature |
+| 8 | Specific developmental disorder | 0.9995 | L5 | Preclinical papers only |
+| 9 | ADHD | 0.9993 | L5 | Paradoxical reactions reported in children; no supporting trial |
+| 10 | Neurogenic bladder (obsolete entry) | 0.9991 | L5 | Model prediction only; the disease entry is obsolete |
 
 ---
 

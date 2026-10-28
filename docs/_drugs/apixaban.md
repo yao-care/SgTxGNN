@@ -4,17 +4,17 @@ title: Apixaban
 parent: Medium Evidence (L3-L4)
 nav_order: 103
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Apixaban: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the Singapore licence data compiled for this report (th…"
 monitor_inn: "Apixaban"
-predicted_indications: ["migraine disorder", "migraine with or without aura, susceptibility to", "leprosy", "rheumatoid arthritis", "migraine with brainstem aura", "Prinzmetal angina", "brachydactyly-syndactyly syndrome", "pulmonary hypertension", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder"]
 ---
 
 # Apixaban
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Apixaban is an oral direct factor Xa inhibitor (anticoagulant) marketed in Singa
 |------|------|
 | Original Indication | Not stated in the Singapore licence data compiled for this report (the approved indication text is blank) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.02% |
+| TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

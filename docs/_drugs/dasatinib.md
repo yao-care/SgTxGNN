@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dasatinib
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 306
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L5). Approved use: Chronic myelogenous leukemia…"
 monitor_inn: "Dasatinib"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
+description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dasatinib: From Chronic Myeloid Leukemia to Ewing Sarcoma
+## Dasatinib: Ewing sarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The supporting evidence is mostly laboratory-based, and the one clinical review 
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic myelogenous leukemia, BCR-ABL1 positive (including blast phase). The Singapore licence records contain no indication text, so this comes from the knowledge-graph indication data. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 (see the note below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 *Evidence level note: the only completed Phase 2 trial is a single-arm study in mixed sarcomas, not an RCT, so it does not meet the L2 criterion. The Ewing-specific support is preclinical, with one review and one small case series, so L4 is the more accurate grading.*
@@ -140,7 +140,7 @@ Label-based warnings and contraindications were not available in the data compil
 **Rationale:**
 The mechanistic link through SRC signaling is plausible and consistent across laboratory studies. However, the only clinical evidence is a mixed-sarcoma Phase 2 study that reportedly failed in Ewing sarcoma, plus a terminated 7-patient trial and a small case series. This does not justify advancing dasatinib as a single agent in Ewing sarcoma.
 
-For context, the model's second-ranked prediction, myeloid leukemia, is largely an on-label use of dasatinib. It has Phase 3 support, including the DASISION 5-year results and a Phase 3 trial in core-binding factor AML, so it is not true repurposing.
+For context, myeloid leukemia is largely an on-label use of dasatinib. It has Phase 3 support, including the DASISION 5-year results and a Phase 3 trial in core-binding factor AML, so it is not true repurposing.
 
 **To proceed, the following is needed:**
 - Subtype-specific results from the advanced sarcoma Phase 2 trial, including the Ewing sarcoma cohort.

@@ -6,9 +6,9 @@ nav_order: 801
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
 monitor_inn: "Piroxicam"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
+description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Piroxicam
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Piroxicam: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+## Piroxicam: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Piroxicam is a no
 
 The predicted disease is a rare developmental malformation syndrome affecting the eyes and skeleton. COX inhibition is not expected to act on the developmental pathways behind it. No plausible mechanistic link could be identified.
 
-The very high score (99.996%) most likely reflects the structure of the knowledge graph, such as shared skeletal or musculoskeletal annotations, rather than real biology. Other top-ranked predictions show the same pattern: brachydactyly-syndactyly syndrome, Hunter-Thompson acromesomelic dysplasia, brachyolmia and similar conditions. None has any clinical support.
+The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as shared skeletal or musculoskeletal annotations, not biological evidence. Other top-ranked predictions show the same pattern: brachydactyly-syndactyly syndrome, Hunter-Thompson acromesomelic dysplasia, brachyolmia and similar conditions. None has any clinical support.
 
 ---
 
@@ -117,12 +117,12 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials, no literature and no plausible mechanism. It is most likely a knowledge-graph artefact. Piroxicam is well established and widely marketed in Singapore, but that does not support this new indication.
+The prediction has no trials, no literature and no plausible mechanism. It is most likely a TxGNN model (deep learning) artefact. Piroxicam is well established and widely marketed in Singapore, but that does not support this new indication.
 
 **To proceed, the following is needed:**
 - Any supporting biological or clinical evidence linking COX inhibition to this syndrome; without it, further work is not justified.
 - Detailed mechanism of action data and the full package insert warnings and contraindications.
-- Further review of the rank 10 prediction, **juvenile idiopathic arthritis**, which has far better support (Evidence Level L3, score 99.93%). It rests on older piroxicam studies in children (a 1986 multicentre piroxicam vs naproxen study, a 1987 randomised comparison and a 1991 paediatric pharmacokinetic study) plus recent NSAID network meta-analyses. Study designs were not verified from full text, and no trials are registered. This indication is a more sensible research question than the top-ranked one.
+- Further review of the rank 10 prediction, **juvenile idiopathic arthritis**, which has far better support (Evidence Level L3, score 0.9993). It rests on older piroxicam studies in children (a 1986 multicentre piroxicam vs naproxen study, a 1987 randomised comparison and a 1991 paediatric pharmacokinetic study) plus recent NSAID network meta-analyses. Study designs were not verified from full text, and no trials are registered. This indication is a more sensible research question than the top-ranked one.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

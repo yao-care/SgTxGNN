@@ -4,17 +4,17 @@ title: Digoxin
 parent: Low Evidence (L5)
 nav_order: 330
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Atrial fibrillation"
 monitor_inn: "Digoxin"
-predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "obsolete susceptibility to ischemic stroke", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis", "thrombotic disease", "stroke disorder"]
+predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
+description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Digoxin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Digoxin: From Atrial Fibrillation to Prinzmetal Angina
+## Digoxin: Prinzmetal angina
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation; digitalis poisoning (the Singapore licence records list no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,11 +61,11 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Digoxin is generally known as a Na+/K+-ATPase inhibitor. This raises intracellular calcium and produces a vagotonic effect, which is the basis of its use for rate control in atrial fibrillation.
 
-The link to Prinzmetal (vasospastic) angina is weak. Standard therapy for vasospastic angina relies on calcium channel blockers and nitrates. Digoxin raises intracellular calcium, which could in theory promote vasospasm rather than relieve it. The high TxGNN score therefore appears to reflect knowledge-graph proximity between cardiovascular conditions, not a pharmacological rationale.
+The link to Prinzmetal (vasospastic) angina is weak. Standard therapy for vasospastic angina relies on calcium channel blockers and nitrates. Digoxin raises intracellular calcium, which could in theory promote vasospasm rather than relieve it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The only retrieved publication is a 1999 review on chronopharmacology of antihypertensive treatment. It does not show that digoxin is useful in vasospastic angina.
 
-Other top-ranked predictions are also unsupported. These include duodenal obstruction, duodenal ulcer, duodenogastric reflux, hypoalphalipoproteinemia, homozygous familial hypercholesterolemia and nephrogenic syndrome of inappropriate antidiuresis. Thrombotic disease and stroke disorder have only indirect literature, mostly reviews of atrial fibrillation and heart failure in which digoxin is a rate-control agent. None provides a plausible repurposing signal.
+Other top-ranked predictions are also unsupported. These include duodenal obstruction, duodenal ulcer, duodenogastric reflux, hypoalphalipoproteinemia, homozygous familial hypercholesterolemia and nephrogenic syndrome of inappropriate antidiuresis. None provides a plausible repurposing signal.
 
 ---
 

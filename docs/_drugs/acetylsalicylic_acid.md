@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Acetylsalicylic Acid
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 34
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Acetylsalicylic Acid: predicted new indication Migraine with brainstem aura (evidence level L3). Approved use: Rheumatoid arthritis, migraine…"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "Acetylsalicylic acid"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombotic disease", "thrombophilia", "Raynaud disease"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombotic disease", "thrombophilia"]
+last_modified_at: 2026-10-27
+description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,61 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Acetylsalicylic Acid: From Pain, Inflammation and Cardiovascular Prevention to Migraine with Brainstem Aura
+## Acetylsalicylic acid: cyclooxygenase-inhibiting antiplatelet NSAID → atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Acetylsalicylic acid (aspirin) is an established drug for pain and inflammatory conditions (including rheumatoid arthritis, osteoarthritis and headache disorders) and for cardiovascular events such as myocardial infarction.
-The TxGNN model predicts it may be useful for **migraine with brainstem aura**.
-Support is limited: **no registered clinical trials** and **20 publications**, mostly from general migraine and migraine-with-aura populations rather than this specific subtype.
-
----
+Acetylsalicylic acid (aspirin) is a widely used non-steroidal anti-inflammatory drug that inhibits prostaglandin synthesis and platelet aggregation. The TxGNN model predicts it may be effective for **atrophoderma vermiculata**, a rare follicular atrophic skin disorder. **No clinical trials or publications** were found for this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, migraine, myocardial infarction / coronary thrombosis, osteoarthritis, common cold, headache disorders (from the TxGNN knowledge graph, because the Singapore licence records contain no indication text) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9959 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, aspirin inhibits cyclooxygenase (COX), which reduces prostaglandin-mediated pain and neurogenic inflammation. Its antiplatelet effect may also matter in aura subtypes linked to microembolism, for example through a patent foramen ovale.
+Detailed mechanism-of-action data for aspirin were not available in the data compiled for this report. The literature describes its main action as inhibiting cyclooxygenase (COX-1 and COX-2), which reduces prostanoid synthesis. This explains its anti-inflammatory, analgesic and antiplatelet effects.
 
-Aspirin is already used in acute migraine treatment and has been studied for migraine prevention. Migraine with brainstem aura is a subtype of migraine with aura, so the prediction is a natural extension of the existing migraine use. The literature includes a retrospective study of low-dose aspirin for preventing migraine with aura and a systematic review of antithrombotic drugs in migraine prevention.
-
-No studies target the brainstem aura subtype specifically. The evidence is extrapolated from general migraine and migraine-with-aura populations, which is why the evidence level stays at L3.
-
----
+No identifiable mechanistic link was found between these actions and atrophoderma vermiculata. This is a rare disorder in which small atrophic pits form on the cheeks, in a follicular pattern. The high score is a model output without biological or clinical support. It should be treated as a hypothesis-generating signal, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | Randomized double-blind trial | Cephalalgia | 278 patients with acute migraine received IV aspirin lysinate, subcutaneous sumatriptan or placebo (efficacy and safety comparison) |
-| [1589237](https://pubmed.ncbi.nlm.nih.gov/1589237/) | 1992 | Randomized crossover study | Pain | In migraine, tension-type headache and healthy subjects, tested whether aspirin modulates an antinociceptive brainstem reflex |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic review | Headache | Reviews the available evidence on antithrombotic drugs as migraine preventive medication |
-| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospective cohort | Curr Health Sci J | Compared low-dose aspirin (95 patients) with other prophylactic therapies (108 patients) for migraine with aura prevention, assessing efficacy and tolerability |
-| [19708964](https://pubmed.ncbi.nlm.nih.gov/19708964/) | 2009 | Guideline | Eur J Neurol | Revised EFNS expert guideline on migraine drug treatment |
-| [16796580](https://pubmed.ncbi.nlm.nih.gov/16796580/) | 2006 | Guideline | Eur J Neurol | Original EFNS guideline on migraine drug treatment, covering migraine with and without aura |
-| [9606899](https://pubmed.ncbi.nlm.nih.gov/9606899/) | 1998 | Clinical study | Zh Nevrol Psikhiatr | Preventive aspirin (1000, 500 and 100 mg) in 105 patients with migraine without aura; discusses predictors and contraindications |
-| [15265054](https://pubmed.ncbi.nlm.nih.gov/15265054/) | 2004 | Experimental study | Cephalalgia | IV aspirin vs oral zolmitriptan: effects on trigeminal pain processing in 28 migraine patients and healthy subjects |
-| [15891416](https://pubmed.ncbi.nlm.nih.gov/15891416/) | 2005 | Review | Curr Opin Neurol | Relationship between patent foramen ovale, cryptogenic stroke and migraine |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | Eur Heart J | PFO closure in medically refractory migraine with aura (PRIMA trial); it tests a procedure rather than aspirin |
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN08891P | ASPIRIN CARDIO 100 TABLETS 100 mg | Enteric coated tablet | Bayer AG |
-| SIN05373P | ASPIRIN (E.C.) TABLETS 100 mg | Enteric coated tablet | Beacons Pharmaceuticals Pte. Ltd. |
-| SIN05362P | BAYER ASPIRIN TABLET 500 mg | Tablet | PT Bayer Indonesia / Bayer S.A. |
-| SIN15647P | TRINOMIA HARD CAPSULES 100mg/20mg/2.5mg | Capsule | Ferrer Internacional S.A. |
-| SIN15648P | TRINOMIA HARD CAPSULES 100mg/20mg/5mg | Capsule | Ferrer Internacional S.A. |
-
-One further Trinomia strength (SIN15646P, 100mg/20mg/10mg) is also registered, for 6 valid licences in total. All 6 are oral products. The licence records contain no approved indication text.
-
----
+Aspirin is marketed in Singapore, and all local licences in the data compiled for this report are valid. Products are oral forms (enteric-coated tablets, plain tablets and capsules), several as single-ingredient aspirin.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The data compiled for this report list 100 known interactions. Major-level examples include acalabrutinib, acetazolamide, ketorolac, ibuprofen, fondaparinux and trastuzumab emtansine. Moderate examples include abciximab, nifedipine, hydrocortisone, ethanol and alendronic acid. Many of the major interactions involve bleeding risk or other NSAIDs.
+- **Drug Interactions**: 100 interactions were recorded. Examples classed as **Major** include acalabrutinib, acetazolamide, ketorolac, ibuprofen, fondaparinux and trastuzumab emtansine. Examples classed as **Moderate** include abciximab, nifedipine, hydrocortisone, ethanol, alendronic acid and fluvoxamine. Many of these concern added bleeding risk or reduced efficacy of co-administered drugs. Any new use would need a full interaction review.
 
-Please refer to the package insert for warnings and contraindications.
-
----
+Package-insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Aspirin has a plausible mechanism and an established role in migraine, but the evidence for the brainstem aura subtype is indirect. It is extrapolated from general migraine and migraine-with-aura studies, and no clinical trials are registered. This is best treated as a research question rather than a candidate ready for action.
+The prediction has a high model score (0.9959) but no supporting trials or publications. No plausible mechanistic link was identified, so evidence is at the model-prediction-only level (L5).
 
 **To proceed, the following is needed:**
-- Subtype-specific clinical evidence, such as a prospective or randomized study in migraine with aura that includes brainstem aura patients
-- Detailed mechanism of action data
-- Package insert warnings and contraindications from the HSA, to support safety screening
-- A bleeding-risk and drug-interaction review for the likely migraine patient population
+- Mechanistic or preclinical evidence linking COX inhibition to the pathology of atrophoderma vermiculata
+- A systematic literature search, including case reports, for any aspirin use in this disorder
+- Package-insert warnings and contraindications from the HSA, and a bleeding-risk and interaction assessment for the target population
+- Detailed mechanism-of-action data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

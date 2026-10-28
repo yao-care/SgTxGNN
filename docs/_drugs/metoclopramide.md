@@ -4,17 +4,17 @@ title: Metoclopramide
 parent: Low Evidence (L5)
 nav_order: 667
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Metoclopramide: predicted new indication Gastric ulcer (evidence level L5). Approved use: Gastroesophageal reflux disease"
+indication_count: 2
+last_modified_at: 2026-10-28
 monitor_inn: "Metoclopramide"
-predicted_indications: ["gastroduodenitis", "peptic ulcer perforation", "duodenal obstruction", "achlorhydria", "hiatus hernia (disease)", "cascade stomach", "gastric dilatation"]
+predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Metoclopramide: From Gastroesophageal Reflux Disease to Gastric Ulcer
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but the supporting evidence is thin: **1 clinical trial** (a procedural, endosco
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastroesophageal reflux disease; esophagitis; peptic esophagitis (from the knowledge graph, as the Singapore licence records contain no indication text) |
-| Predicted New Indication | Gastric ulcer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 (observational/review-level evidence only; no completed Phase 3 or Phase 2/3 RCT for ulcer treatment) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 (observational/review-level evidence only; no completed Phase 3 or Phase 2/3 RCT for ulcer treatment) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Gastric ulcer is a neighbouring upper-GI condition. Delayed gastric emptying and duodenogastric (bile) reflux often accompany it, so a motility-based benefit is plausible. However, metoclopramide does not suppress acid or promote mucosal healing. At best it offers symptomatic support alongside standard ulcer therapy, not direct ulcer treatment. The high TxGNN score likely reflects network proximity between reflux and ulcer diseases rather than demonstrated efficacy.
 
-Other predictions follow the same pattern. Gastroduodenitis (99.90%), peptic ulcer disease (99.85%) and gastrojejunal ulcer (99.78%) are supported mainly by indirect motility literature. Peptic ulcer perforation and duodenal obstruction raise safety concerns, since prokinetics are contraindicated in perforation and mechanical obstruction. Achlorhydria and cascade stomach have no meaningful mechanistic link.
+Other predictions follow the same pattern. Peptic ulcer perforation and duodenal obstruction raise safety concerns, since prokinetics are contraindicated in perforation and mechanical obstruction.
 
 ## Clinical Trial Evidence
 

@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 |------|------|
 | Original Indication | Not available (no approved indication text in the Singapore licence records) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 NSIAD is caused by a gain-of-function change in the vasopressin V2 receptor, which leads to water retention and low blood sodium. No established link connects NK1 antagonism to this V2 receptor mechanism. The only argument is speculative: substance P might modulate water balance through the vasopressin axis, and no data supports it.
 
-The high TxGNN score therefore most likely reflects similarity in the knowledge-graph network, not a demonstrated pharmacological rationale. The prediction should be treated as a hypothesis only.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis only.
 
 Other high-ranking predictions have the same limitation. Hypertrichosis, leprosy, pulmonary hypertension, subarachnoid haemorrhage and several rare congenital disorders were also predicted, and none has supporting trials or relevant literature. Subarachnoid haemorrhage and pulmonary hypertension have only weak, indirect preclinical hypotheses involving substance P/NK1 signalling.
 
@@ -83,7 +83,7 @@ All three licences are valid single-ingredient products, and none is cancelled. 
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signal, not label text)**: The TxGNN knowledge graph records a contraindication link with **liver failure**. This should be verified against the official package insert.
+- **Contraindications (model signal, not label text)**: The TxGNN model (deep learning) indicates a contraindication association with **liver failure**. This may reflect similarities the model learned between related diseases, not biological evidence. This should be verified against the official package insert.
 - **Drug Interactions**: The interaction query returned 100 records, and the first 20 are in the data compiled for this report. Several are rated **Major**:
   - Fentanyl
   - Alfentanil

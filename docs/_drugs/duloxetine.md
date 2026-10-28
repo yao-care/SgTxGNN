@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Duloxetine
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 358
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Duloxetine: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Major depressive disorder"
 monitor_inn: "Duloxetine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+description: "Duloxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Duloxetine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Duloxetine: From Major Depressive Disorder to Obsessive-Compulsive Disorder
+## Duloxetine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 *Note on scope: the top-ranked TxGNN prediction (benign paroxysmal torticollis of infancy) has no trials or literature behind it. This report therefore centres on the best-supported prediction, obsessive-compulsive disorder (OCD, rank 3). The other predictions are summarised briefly in the conclusion.*
@@ -48,12 +48,12 @@ The evidence is mostly small studies, with no Phase 3 trial.
 
 | Item | Content |
 |------|------|
-| Original Indication | Major depressive disorder (also anxiety disorder, fibromyalgia, myofascial pain syndrome, female stress incontinence; from knowledge-graph indication links, as the registration records give no indication text) |
-| Predicted New Indication | Obsessive-compulsive disorder |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

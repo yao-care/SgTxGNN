@@ -4,17 +4,17 @@ title: Safinamide
 parent: Low Evidence (L5)
 nav_order: 892
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Safinamide: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease"
 monitor_inn: "Safinamide"
-predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "lethal infantile mitochondrial myopathy", "X-linked intellectual disability-cerebellar hypoplasia syndrome"]
+predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
+description: "Safinamide: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Safinamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Safinamide: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Safinamide: Rasmussen subacute encephalitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease (the Singapore licence record does not list an approved indication text; the indication comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,23 +62,15 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 Detailed mechanism of action data is not available in the data compiled for this report. Safinamide is generally known as a reversible MAO-B inhibitor that also blocks voltage-gated sodium channels and reduces glutamate release. Its efficacy in Parkinson disease is established, and these properties could plausibly relate to the seizure component of Rasmussen encephalitis.
 
-However, Rasmussen encephalitis is mainly driven by T-cell-mediated autoimmune inflammation of one brain hemisphere. Safinamide has no known immunomodulatory action, so the mechanistic link is weak and speculative. The high score (rank 5,369 in the model's ranking) is a graph-based prediction and should not be read as clinical support.
+However, Rasmussen encephalitis is mainly driven by T-cell-mediated autoimmune inflammation of one brain hemisphere. Safinamide has no known immunomodulatory action, so the mechanistic link is weak and speculative.
 
 **Other predicted indications (for context):**
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Myelitis | 99.46% | L5 | No established role for MAO-B inhibition; speculative |
-| 3 | PLA2G6-associated neurodegeneration | 99.22% | L5 | Overlapping parkinsonian features; symptomatic benefit only, if any |
-| 4 | Transaldolase deficiency | 98.94% | L5 | No plausible mechanism; likely a network artifact |
-| 5 | Fructose-1,6-bisphosphatase deficiency | 98.79% | L5 | No known relevance |
-| 6 | Paralysis agitans, juvenile, of Hunt | 98.76% | L4 | Historical name for juvenile parkinsonism; likely overlaps with existing indications |
-| 7 | Lewy body dementia | 98.43% | L4 | Plausible dopaminergic rationale; only indirect evidence |
-| 8 | X-linked intellectual disability-ataxia-apraxia syndrome | 97.93% | L5 | No plausible mechanism |
-| 9 | Lethal infantile mitochondrial myopathy | 97.88% | L5 | Highly speculative; no infant safety data |
-| 10 | X-linked intellectual disability-cerebellar hypoplasia syndrome | 97.68% | L5 | No plausible mechanism |
+| 2 | Myelitis | 0.9946 | L5 | No established role for MAO-B inhibition; speculative |
+| 3 | PLA2G6-associated neurodegeneration | 0.9922 | L5 | Overlapping parkinsonian features; symptomatic benefit only, if any |
 
-Among these, Lewy body dementia and the juvenile parkinsonism entry are the most biologically coherent candidates, while the others look largely like knowledge-graph artifacts.
 
 ---
 
@@ -86,7 +78,6 @@ Among these, Lewy body dementia and the juvenile parkinsonism entry are the most
 
 For the top-ranked prediction (Rasmussen subacute encephalitis), no related literature is currently available.
 
-The only publication in the data is linked to the rank 7 prediction, Lewy body dementia:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -119,14 +110,13 @@ Please refer to the package insert for warnings and contraindications, as this i
 **Decision: Hold**
 
 **Rationale:**
-The prediction for Rasmussen subacute encephalitis rests only on a graph-based score. There are no clinical trials or publications, and the proposed mechanism is weak given the autoimmune nature of the disease. The evidence level is L5.
+There are no clinical trials or publications, and the proposed mechanism is weak given the autoimmune nature of the disease. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for safinamide, to allow a proper mechanistic-link analysis
 - Package insert warnings and contraindications from the Singapore HSA, which are required before any safety screening
 - The approved indication text for the Singapore licence
 - Preclinical or clinical evidence specific to Rasmussen encephalitis
-- Consider prioritising Lewy body dementia, which has a more coherent dopaminergic rationale, and confirm whether the cited systematic review includes safinamide data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

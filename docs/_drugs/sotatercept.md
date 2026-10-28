@@ -5,10 +5,10 @@ parent: Low Evidence (L5)
 nav_order: 933
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Sotatercept: predicted new indication Acute lymphoblastic leukemia (evidence level L5). Approved use: Not available"
+last_modified_at: 2026-10-28
 monitor_inn: "Sotatercept"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
+description: "Sotatercept: predicted new indication Acute lymphoblastic leukemia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sotatercept
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sotatercept: From Pulmonary Arterial Hypertension (Not Stated in Local Licence Data) to Acute Lymphoblastic Leukemia
+## Sotatercept: Acute lymphoblastic leukemia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,24 +45,24 @@ The TxGNN model predicts it may be effective for **acute lymphoblastic leukemia*
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the approved indication text in the Singapore licences is empty) |
-| Predicted New Indication | Acute lymphoblastic leukemia |
-| TxGNN Prediction Score | 99.78% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acute lymphoblastic leukemia (disease) |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Sotatercept is an activin receptor type IIA-Fc fusion protein. It acts as a ligand trap for activin and growth differentiation factors (GDFs), which helps rebalance BMP/activin signaling. Detailed mechanism of action data is not available in the compiled data, so this description comes from the mechanistic notes prepared for this assessment.
 
-No direct mechanistic link between this pathway and the biology of acute lymphoblastic leukemia was identified. The high TxGNN score (0.998) is a graph-based prediction only. A role for activin signaling in blood cell development is a speculative connection at best.
+No direct mechanistic link between this pathway and the biology of acute lymphoblastic leukemia was identified. The high TxGNN score (0.9978) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A role for activin signaling in blood cell development is a speculative connection at best.
 
 Other predicted indications are also unsupported by clinical evidence. They include:
-- **Drug-induced osteoporosis** (score 99.65%): the most biologically coherent hypothesis, because activin A inhibition is relevant to bone metabolism. It remains a prediction.
-- **Diabetic retinopathy**, including severe nonproliferative disease (99.77% and 99.72%): a plausible but unvalidated link through retinal vascular remodeling. The two entries overlap and are not independent confirmation.
-- **Urothelial carcinoma subtypes** (ranks 7-10): a cluster of near-identical, graph-propagated predictions that should be treated as one correlated signal.
+- **Drug-induced osteoporosis** (score 0.9965): the most biologically coherent hypothesis, because activin A inhibition is relevant to bone metabolism. It remains a prediction.
+- **Diabetic retinopathy**, including severe nonproliferative disease (0.9977 and 0.9972): a plausible but unvalidated link through retinal vascular remodeling. The two entries overlap and are not independent confirmation.
+- **Urothelial carcinoma subtypes** (ranks 7-10): a cluster of near-identical predictions from the TxGNN model (deep learning) that may reflect similarities the model learned between related diseases, not biological evidence, and should be treated as one correlated signal.
 - **Diabetic cataract** and **HER2 positive breast carcinoma**: no clear mechanistic rationale. In breast cancer, activin/TGF-beta signaling can be either tumour-suppressive or pro-metastatic depending on context.
 
 ## Clinical Trial Evidence
@@ -91,7 +91,7 @@ For this class of drug, the mechanistic notes flag possible vascular effects suc
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN graph score. There are no clinical trials or publications, and no mechanistic link to acute lymphoblastic leukemia was identified. The evidence level is L5.
+The prediction is supported only by the TxGNN model (deep learning) score (0.9978), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, and no mechanistic link to acute lymphoblastic leukemia was identified. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - The Singapore package insert, to establish the approved indication, warnings and contraindications

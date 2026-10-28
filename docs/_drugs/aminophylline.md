@@ -4,17 +4,17 @@ title: Aminophylline
 parent: Medium Evidence (L3-L4)
 nav_order: 88
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded in the Singapore license data"
 monitor_inn: "Aminophylline"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
 ---
 
 # Aminophylline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The evidence is early-stage and should be treated as a research question, not as
 |------|------|
 | Original Indication | Not recorded in the Singapore license data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -106,7 +106,7 @@ The migraine prediction has a high model score and a plausible adenosine-antagon
 
 ### Other Predicted Indications (Brief Note)
 
-- **Pulmonary hypertension (score 99.23%, L3):** One completed Phase 1 safety and interaction study with ambrisentan (NCT01530464, n=18) and several small, mostly old, haemodynamic studies. No Phase 2/3 RCT. It is the next most-supported prediction after migraine.
+- **Pulmonary hypertension (score 0.9923, L3):** One completed Phase 1 safety and interaction study with ambrisentan (NCT01530464, n=18) and several small, mostly old, haemodynamic studies. No Phase 2/3 RCT. It is the next most-supported prediction after migraine.
 - **Migraine with brainstem aura, migraine susceptibility, atrophoderma vermiculata, ulerythema ophryogenesis, sciatic neuropathy, kyphoscoliotic heart disease:** Prediction only, or irrelevant or preclinical literature. Hold.
 - **Prinzmetal angina and hyperthyroidism:** The literature suggests possible harm rather than benefit. Hold.
 ## Disclaimer

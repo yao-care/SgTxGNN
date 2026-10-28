@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Simvastatin
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 914
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Simvastatin: predicted new indication Familial hypercholesterolemia (evidence level L1). Approved use: Hypertriglyceridemia, atherosclerosis…"
 monitor_inn: "Simvastatin"
-predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "feline acquired immunodeficiency syndrome"]
+predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Simvastatin: From Hyperlipidaemia and Atherosclerosis to Familial Hypercholesterolemia
+## Simvastatin: Brain stem infarction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Simvastatin is a statin originally used to treat hyperlipidaemia, atherosclerosis, stroke-related disorders and homozygous familial hypercholesterolemia.
-The TxGNN model predicts it may be effective for **familial hypercholesterolemia**, supported by **8 clinical trials** and **20 publications** in the data compiled for this report.
 This indication largely overlaps with simvastatin's existing lipid-lowering uses, so it is better viewed as confirmation of an established use than as a new repurposing opportunity.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridemia, atherosclerosis, stroke and cerebrovascular disorders, homozygous familial hypercholesterolemia and related lipid disorders (from the knowledge graph; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brain stem infarction |
+| TxGNN Prediction Score | 0.9941 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 

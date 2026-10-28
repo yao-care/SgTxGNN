@@ -4,17 +4,17 @@ title: Salicylic Acid
 parent: Low Evidence (L5)
 nav_order: 895
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not stated in the Singapore licence records. The knowledge graph list…"
 monitor_inn: "Salicylic acid"
-predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to"]
+predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
+description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Salicylic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Salicylic Acid: From Topical Skin and Inflammatory Conditions to Papillary Conjunctivitis
+## Salicylic Acid: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,11 +47,11 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records. The knowledge graph lists tinea pedis, acne, seborrheic dermatitis, rheumatoid arthritis, allergic rhinitis and others |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 Papillary conjunctivitis is an inflammatory, often allergic, condition of the eye surface. Salicylic acid's anti-inflammatory activity, and its use in related conditions such as allergic rhinitis, offer a theoretical link. However, this link is speculative. The drug is marketed in Singapore only as skin-applied products (lotions, ointments, solutions, creams, a shampoo), and application near the eye raises concerns about irritation and corneal toxicity.
 
-Other top-ranked predictions (for example rosacea conjunctivitis and spondyloarthropathy) have similarly weak or indirect support. Several others are rare genetic skeletal disorders with no plausible mechanistic link, which suggests the high scores partly reflect knowledge-graph artefacts rather than true therapeutic potential.
+Other top-ranked predictions (for example rosacea conjunctivitis and spondyloarthropathy) have similarly weak or indirect support. Several others are rare genetic skeletal disorders with no plausible mechanistic link, which suggests the high scores partly reflect TxGNN model (deep learning) artefacts rather than true therapeutic potential.
 
 ---
 

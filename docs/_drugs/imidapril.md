@@ -4,17 +4,17 @@ title: Imidapril
 parent: Low Evidence (L5)
 nav_order: 522
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Imidapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Imidapril"
-predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder", "spinal cord ischemia", "intracerebral hemorrhage", "brain stem infarction"]
+predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Imidapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imidapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Imidapril: From Hypertension to Pulmonary Hypertension (Multifactorial)
+## Imidapril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The closest supporting evidence in the data compiled for this report is preclini
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The closest supporting evidence in the data compiled for this report is preclini
 
 Detailed mechanism of action data is not available in the data compiled for this report. Imidapril is known to be an angiotensin-converting enzyme (ACE) inhibitor; the pharmacology record lists ACE (gene *ACE*, human) as its target. ACE inhibition reduces angiotensin II production, which lowers vasoconstriction and may limit vascular remodelling.
 
-Because hypertension is driven partly by this pathway, and angiotensin II signalling also plays a role in pulmonary vascular tone and remodelling, a theoretical link to pulmonary hypertension exists. The high TxGNN score likely reflects shared vascular and hypertension biology in the knowledge graph.
+Because hypertension is driven partly by this pathway, and angiotensin II signalling also plays a role in pulmonary vascular tone and remodelling, a theoretical link to pulmonary hypertension exists.
 
 However, this is a plausibility argument only. No trials or publications were found for imidapril in this indication, and ACE inhibitors have not shown established benefit in pulmonary hypertension.
 
@@ -70,17 +70,11 @@ However, this is a plausibility argument only. No trials or publications were fo
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision |
 |---|---|---|---|---|
-| 2 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.78% | L5 | Hold |
-| 3 | Malignant renovascular hypertension | 99.76% | L5 | Hold |
-| 4 | Malignant hypertensive renal disease | 99.76% | L5 | Hold |
-| 5 | Braddock syndrome | 99.70% | L5 | Hold |
-| 6 | Chronic pulmonary heart disease | 98.33% | L5 | Hold |
-| 7 | Cerebrovascular disorder | 95.79% | L4 | Research Question |
-| 8 | Spinal cord ischemia | 80.70% | L5 | Hold |
-| 9 | Intracerebral haemorrhage | 77.49% | L4 | Hold |
-| 10 | Brain stem infarction | 76.38% | L5 | Hold |
+| 2 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9978 | L5 | Hold |
+| 4 | Malignant hypertensive renal disease | 0.9976 | L5 | Hold |
+| 5 | Braddock syndrome | 0.9970 | L5 | Hold |
 
-Cerebrovascular disorder is the only prediction with a meaningful body of imidapril-specific evidence, all of it preclinical. Malignant renovascular hypertension and malignant hypertensive renal disease have the strongest mechanistic rationale (RAAS-driven, close to the original indication), but no direct evidence.
+Malignant renovascular hypertension and malignant hypertensive renal disease have the strongest mechanistic rationale (RAAS-driven, close to the original indication), but no direct evidence.
 
 ---
 
@@ -94,7 +88,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for the primary predicted indication (pulmonary hypertension).
 
-For reference, the literature found for the best-supported alternative prediction, **cerebrovascular disorder**, is summarised below (all but one are animal studies):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -136,13 +129,12 @@ Points drawn from the predicted-indication assessments:
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score for pulmonary hypertension is very high (99.78%), but it is a model prediction with no supporting trials or literature, and ACE inhibitors have not shown established benefit in this condition. Imidapril is already marketed in Singapore, which would ease any future work, but evidence does not yet justify moving forward.
+The TxGNN score for pulmonary hypertension is very high (0.9978), but it is a model prediction with no supporting trials or literature, and ACE inhibitors have not shown established benefit in this condition. Imidapril is already marketed in Singapore, which would ease any future work, but evidence does not yet justify moving forward.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications for the Singapore products (currently a blocking gap for safety screening)
 - Detailed mechanism of action data
 - Systematic literature search for imidapril or ACE inhibitors in pulmonary hypertension
-- Consideration of better-supported directions: cerebrovascular disorder (L4, preclinical evidence only; needs human studies) and RAAS-driven malignant hypertension-related conditions (strong mechanistic rationale but no direct evidence)
 - A safety evaluation covering hypotension in hypoxic patients and renal risk in renovascular disease
 ## Disclaimer
 

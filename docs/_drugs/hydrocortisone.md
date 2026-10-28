@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 504
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L5). Approved use: Autoimmune disease, adrenocortical insufficiency…"
 monitor_inn: "Hydrocortisone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Hydrocortisone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ with **1 clinical trial** and **20 publications** linked to this direction. Howe
 |------|------|
 | Original Indication | Autoimmune disease, adrenocortical insufficiency, Crohn disease and other inflammatory conditions, among others (the Singapore licence records contain no approved-indication text) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 by the data compiled for this report. Because the only Phase 3 trial used hydrocortisone as a comparator, the real strength is closer to L2–L3 (see below). |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 16 |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---

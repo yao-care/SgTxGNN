@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 534
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Insulin Degludec: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
 monitor_inn: "Insulin degludec"
-predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
+description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Degludec: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Degludec: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin degludec is a long-acting basal insulin analogue, originally used for diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, with **40 clinical trials** and **19 publications** currently supporting this direction.
 This is essentially an on-label use that overlaps with the original indication, so it is not a true repurposing case.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune oophoritis |
+| TxGNN Prediction Score | 0.9923 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Type 1 diabetes is defined by absolute insulin deficiency, so basal insulin replacement is the standard of care. The predicted indication falls directly within the original indication of diabetes mellitus. The high TxGNN score is therefore consistent with known pharmacology rather than being a novel discovery.
 
-Other diseases in the prediction list (for example autoimmune oophoritis, stiff person syndrome and localized lipodystrophy) have no supporting trials or literature. Their associations most likely reflect graph links through type 1 diabetes comorbidity, and they are not assessed further here.
+Other diseases in the prediction list (for example autoimmune oophoritis, stiff person syndrome and localized lipodystrophy) have no supporting trials or literature.
 
 ## Clinical Trial Evidence
 

@@ -4,17 +4,17 @@ title: Ibuprofen
 parent: Low Evidence (L5)
 nav_order: 514
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, headache disorder, osteoarthritis…"
 monitor_inn: "Ibuprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "hypotrichosis simplex of the scalp", "WHIM syndrome", "congenital hypotrichosis milia"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ibuprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ibuprofen: From Rheumatoid Arthritis and Pain Conditions to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Ibuprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ This prediction has **no clinical trials and no publications** behind it, so it 
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, headache disorder, osteoarthritis, juvenile idiopathic arthritis, spondyloarthropathy, patent ductus arteriosus (from the knowledge graph; no approved indication text is available in the Singapore licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -58,11 +58,11 @@ This prediction has **no clinical trials and no publications** behind it, so it 
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Ibuprofen is generally known as a non-selective COX inhibitor that reduces prostaglandin production, which explains its anti-inflammatory, analgesic and antipyretic effects in arthritis and headache.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia linked to the CDMP1/GDF5 pathway. It is a developmental bone disorder, not an inflammatory one. No plausible link between COX inhibition and this pathology is evident. The high score (0.997) is probably driven by network proximity to skeletal and arthropathy-related terms in the knowledge graph, not by a biological mechanism.
+Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia linked to the CDMP1/GDF5 pathway. It is a developmental bone disorder, not an inflammatory one. No plausible link between COX inhibition and this pathology is evident. The high score (0.9974) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 At most, ibuprofen might relieve joint pain as symptomatic management. That is not a repurposing rationale, because it does not modify the disease.
 
-The other nine top-ranked predictions show the same pattern. They include brachyolmia, pseudoachondroplasia, myosclerosis, WHIM syndrome and hereditary hair disorders. All have scores between 0.983 and 0.997, all are Level L5, and none has trial or literature support or an established mechanistic link.
+The other top-ranked predictions show the same pattern. They include brachyolmia, pseudoachondroplasia and myosclerosis. All have scores between 0.9960 and 0.9971, all are Level L5, and none has trial or literature support or an established mechanistic link.
 
 ## Clinical Trial Evidence
 
@@ -103,7 +103,6 @@ Package insert warnings and contraindications were not available in the data com
     - Sulfonylurea antidiabetics: acetohexamide, chlorpropamide, glimepiride, glipizide, glyburide.
     - Others: aprepitant, balsalazide, dexfenfluramine, fenfluramine, exenatide, kanamycin, levofloxacin.
   - **Minor:** famotidine, ranitidine, cimetidine.
-- **Condition-specific caution:** For WHIM syndrome (rank 9), NSAIDs could theoretically worsen cytopenia-related risks, so caution would be required.
 
 ## Conclusion and Next Steps
 

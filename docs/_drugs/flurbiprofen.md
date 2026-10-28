@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Low Evidence (L5)
 nav_order: 445
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Flurbiprofen: predicted new indication Ankylosing spondylitis (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
 monitor_inn: "Flurbiprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ There are **no registered clinical trials**, but the data compiled for this repo
 |------|------|
 | Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Ankylosing spondylitis (the report focuses on this candidate; the model's top-ranked prediction, acromesomelic dysplasia, Hunter-Thompson type, has no supporting evidence) |
-| TxGNN Prediction Score | 99.97% (ankylosing spondylitis); 99.99% (top-ranked prediction) |
-| Evidence Level | L3 (older comparative studies and reviews, no registered trials) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| TxGNN Prediction Score | 0.9997 (ankylosing spondylitis); 0.9999 (top-ranked prediction) |
+| Evidence Level | L5 (older comparative studies and reviews, no registered trials) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

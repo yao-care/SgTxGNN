@@ -4,17 +4,17 @@ title: Oxaliplatin
 parent: High Evidence (L1-L2)
 nav_order: 748
 evidence_level: L2
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Metastasis from malignant tumour of colon"
 monitor_inn: "Oxaliplatin"
-predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor", "female breast carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
+predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 ---
 
 # Oxaliplatin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ with **2 directly relevant Phase 2 clinical trials** and **about 20 publications
 |------|------|
 | Original Indication | Metastasis from malignant tumour of colon (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Malignant pleural mesothelioma |
-| TxGNN Prediction Score | 99.68% |
+| TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 12 |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ---
@@ -135,14 +135,14 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The evidence for mesothelioma consists of small Phase II studies, one of which found no responses, and no Phase 3 trial compares oxaliplatin with standard cisplatin/pemetrexed. Package-insert safety data are also missing, so a safety screen cannot yet be completed. The other predicted indications are weaker still. Epithelioid mesothelioma and female breast carcinoma have limited or indirect evidence, and the sarcomatoid, visceral pleura and rhabdomyosarcoma predictions rest almost entirely on the model.
+The evidence for mesothelioma consists of small Phase II studies, one of which found no responses, and no Phase 3 trial compares oxaliplatin with standard cisplatin/pemetrexed. Package-insert safety data are also missing, so a safety screen cannot yet be completed. The other predicted indications are weaker still. Epithelioid mesothelioma has limited or indirect evidence, and the sarcomatoid and visceral pleura predictions rest almost entirely on the model.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Singapore regulator (HSA)
 - Detailed mechanism of action data
 - Head-to-head or randomised evidence against the standard cisplatin/pemetrexed regimen
 - Results from the completed and unknown-status Phase II trials (NCT00859469, NCT00996385)
-- A review of the knowledge-graph disease associations (renal, hepatic, neuropathy, lung) against the label
+- A review of the disease associations (renal, hepatic, neuropathy, lung) against the label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

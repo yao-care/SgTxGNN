@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bictegravir
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 158
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Bictegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Bictegravir"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "chronic hepatitis C virus infection", "hepatitis C virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "Omsk hemorrhagic fever"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Bictegravir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the Singapore licence record contains no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9982 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism-of-action data are not available in the data compiled for thi
 
 Laboratory work shows that bictegravir is active against SIVmac239, including some INSTI-resistant variants. Structural studies of HIV and SIV integrase complexes support a shared inhibitor binding mode. This explains the very high prediction score.
 
-However, SIV infection is a primate model of the approved HIV indication, not a distinct human disease. Its value lies in preclinical testing of antiviral strategies, not in expanding the human label. Other high-scoring predictions (feline AIDS, hepatitis A/C/E, Omsk hemorrhagic fever and a rare neurodevelopmental disorder) lack a plausible integrase-based rationale and are likely knowledge-graph artifacts.
+However, SIV infection is a primate model of the approved HIV indication, not a distinct human disease. Its value lies in preclinical testing of antiviral strategies, not in expanding the human label. Other high-scoring predictions (feline AIDS and a rare neurodevelopmental disorder) lack a plausible integrase-based rationale and are likely TxGNN model (deep learning) artifacts.
 
 ## Clinical Trial Evidence
 

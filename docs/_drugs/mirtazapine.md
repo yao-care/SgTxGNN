@@ -4,17 +4,17 @@ title: Mirtazapine
 parent: Low Evidence (L5)
 nav_order: 680
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Unipolar depression / major depressive disorder"
 monitor_inn: "Mirtazapine"
-predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "ligneous conjunctivitis", "childhood apraxia of speech", "dysthymic disorder", "agoraphobia", "phobic disorder", "melancholia"]
+predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
+description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mirtazapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mirtazapine: From Depression to Ohdo Syndrome and Variants
+## Mirtazapine: Ohdo syndrome and variants
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression / major depressive disorder (the Singapore licence records contain no approved-indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 
 Currently, detailed mechanism of action data is not available in the compiled data. Mirtazapine is a monoaminergic antidepressant. It is generally understood to act through alpha-2 adrenergic antagonism and 5-HT2/5-HT3/H1 receptor blockade, which enhances noradrenergic and serotonergic transmission.
 
-Ohdo syndrome is a rare genetic neurodevelopmental disorder (KAT6B-related). Its biology has no plausible connection to this mechanism, and no mechanistic link has been established. The high TxGNN score reflects patterns in a knowledge graph, not biological or clinical reasoning. The prediction should be treated as a hypothesis without support.
+Ohdo syndrome is a rare genetic neurodevelopmental disorder (KAT6B-related). Its biology has no plausible connection to this mechanism, and no mechanistic link has been established. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis without support.
 
 ---
 
@@ -116,7 +116,7 @@ Package insert warnings and contraindications were not available in the compiled
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no trials or publications, and no biological rationale links a monoaminergic antidepressant to a KAT6B-related genetic disorder. The same applies to the closely related entries in the model's list, such as the Ohdo-type blepharophimosis syndrome.
+The prediction rests only on a TxGNN model (deep learning) score. There are no trials or publications, and no biological rationale links a monoaminergic antidepressant to a KAT6B-related genetic disorder. The same applies to the closely related entries in the model's list, such as the Ohdo-type blepharophimosis syndrome.
 
 **To proceed, the following is needed:**
 - Mechanism-of-action data and a credible biological hypothesis connecting mirtazapine to Ohdo syndrome
@@ -125,7 +125,6 @@ The prediction rests only on a knowledge-graph score. There are no trials or pub
 - A paediatric safety assessment
 
 **Note on other candidates:** Other predictions for this drug have stronger evidence and may be better directions to pursue:
-- **Social phobia and phobic disorder**: two randomized, placebo-controlled trials (small, with mixed results)
 - **Dysthymic disorder**: one completed Phase 2/3 trial and class-level meta-analysis support
 - **Melancholia and neurotic depression**: largely overlap with the existing depression indication
 ## Disclaimer

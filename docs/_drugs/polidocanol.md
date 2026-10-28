@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Polidocanol
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 805
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Polidocanol: predicted new indication Esophageal varices with bleeding (evidence level L5). Approved use: Varicose disease"
@@ -14,7 +14,7 @@ predicted_indications: ["esophageal varices with bleeding", "esophageal varices 
 # Polidocanol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **no registered clinical trials** but **20 publications** currently support
 |------|------|
 | Original Indication | Varicose disease (the Singapore licence record contains no approved indication text) |
 | Predicted New Indication | Esophageal varices with bleeding |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L1 (provisional; see note below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note: The L1 grade is inferred from publication titles and abstracts. The trial phase is not stated, and the full texts should be checked before it is relied on.*
@@ -113,7 +113,7 @@ Several randomized and comparative studies support polidocanol sclerotherapy for
 - A patient-selection and safety-monitoring plan, covering strictures, ulceration and rebleeding
 
 **Other predicted indications:**
-- *Esophageal varices without bleeding* (score 99.95%): Proceed with Guardrails. A meta-analysis of prophylactic sclerotherapy exists (PMID 7942715), but it is dated and not specific to polidocanol. Beta-blockers and band ligation have largely superseded this use, so it should be limited to patients who cannot use the standard options.
+- *Esophageal varices without bleeding* (score 0.9995): Proceed with Guardrails. A meta-analysis of prophylactic sclerotherapy exists (PMID 7942715), but it is dated and not specific to polidocanol. Beta-blockers and band ligation have largely superseded this use, so it should be limited to patients who cannot use the standard options.
 - *Eight other predictions* (for example immunoerythromyeloid hypoplasia, retinal and cone disorders, and monosomy X): Hold. They rest on model prediction alone, with no trials, no literature and no plausible mechanistic link to a local sclerosant.
 ## Disclaimer
 

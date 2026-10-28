@@ -8,6 +8,7 @@ nav_order: 52
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Albuterol Sulfate 120Mcg Equivalent Albuterol
@@ -51,8 +52,8 @@ As a result, this report documents the data gaps and recommends remediation befo
 | Predicted New Indication | None — TxGNN returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A (no prediction output) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | **Hold** |
 
 ---

@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Racecadotril
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 847
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Racecadotril: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Acute diarrhea"
+description: "Racecadotril: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Racecadotril"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "septicemic plague", "acute cystitis (disease)"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Racecadotril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,41 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Racecadotril: From Acute Diarrhea to Polyclonal Hyperviscosity Syndrome
+## Racecadotril
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Racecadotril is an antisecretory drug originally used to treat **acute diarrhea**.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but this prediction rests on computation alone, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute diarrhea |
-| Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 97.72% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, racecadotril is a prodrug. Its active metabolite, thiorphan, inhibits enkephalinase (neprilysin) and reduces intestinal hypersecretion. This explains its efficacy in acute diarrhea.
-
-The link to the predicted indication is weak. Polyclonal hyperviscosity syndrome is caused by elevated polyclonal immunoglobulins raising blood viscosity. No credible mechanism connects enkephalinase inhibition in the gut to this process. The high TxGNN score most likely reflects a graph-based artifact, such as shared network neighbours in the knowledge graph, rather than real biology.
-
-The other top-ranked predictions show the same pattern. They include hyperamylasemia, congenital analbuminemia, blood group incompatibility, monoclonal gammopathy, septicemic plague and acute cystitis. None has a plausible mechanistic link, and none has supporting trials or literature.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
 ## Singapore Market Information
 
@@ -80,19 +57,6 @@ Currently no related literature available.
 
 Please refer to the package insert for safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is computational only, with no clinical trials or literature (Evidence Level L5). No plausible mechanism links racecadotril's antisecretory action to polyclonal hyperviscosity syndrome, and the high score appears to be a knowledge-graph artifact.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (currently missing, which blocks safety screening)
-- Confirmed mechanism of action data from DrugBank
-- A credible biological rationale linking the drug to the predicted indication
-- Any preclinical or clinical evidence for the predicted indication
-- Review of route compatibility, since only an oral granule form is registered in Singapore
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

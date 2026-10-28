@@ -4,17 +4,17 @@ title: Dactinomycin
 parent: Low Evidence (L5)
 nav_order: 297
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Dactinomycin: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Ewing sarcoma, testicular germ cell tumours…"
 monitor_inn: "Dactinomycin"
-predicted_indications: ["relapsing-remitting multiple sclerosis", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "extrahepatic bile duct rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer", "T-cell leukemia"]
+predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
 ---
 
 # Dactinomycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The better-supported predictions are rhabdomyosarcoma subtypes and sites, which 
 |------|------|
 | Original Indication | Ewing sarcoma, testicular germ cell tumours, gestational trophoblastic neoplasm, rhabdomyosarcoma, Wilms tumour (the Singapore licence has no indication text recorded) |
 | Predicted New Indication | Relapsing-remitting multiple sclerosis (rank 1) |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The better-supported predictions are rhabdomyosarcoma subtypes and sites, which 
 
 Detailed mechanism of action data is not available in the data compiled for this report. Dactinomycin is generally known as a DNA-intercalating agent that inhibits transcription. This produces strong cytotoxic effects in rapidly dividing cells, and it also has immunosuppressive potential.
 
-For **relapsing-remitting multiple sclerosis**, the mechanistic link is weak. Dactinomycin has no established role in MS, and its toxicity profile (myelosuppression, hepatic toxicity) is unfavourable for a chronic autoimmune disease that needs long-term treatment. The very high score (0.996) is best read as a computational artefact, not a clinical lead.
+For **relapsing-remitting multiple sclerosis**, the mechanistic link is weak. Dactinomycin has no established role in MS, and its toxicity profile (myelosuppression, hepatic toxicity) is unfavourable for a chronic autoimmune disease that needs long-term treatment. The very high score (0.9958) is best read as a computational artefact, not a clinical lead.
 
 The next nine predictions are more credible but need careful reading:
 - **Rhabdomyosarcoma subtypes and sites** (vaginal botryoid, extrahepatic bile duct, parameningeal, prostate): dactinomycin is a core component of the VA/VAC regimens used for rhabdomyosarcoma. These are mostly site- or subtype-specific extensions of an existing use.

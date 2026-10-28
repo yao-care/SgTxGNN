@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Magnesium Trisilicate
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 632
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Magnesium Trisilicate: predicted new indication Active peptic ulcer disease (evidence level L3). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "Magnesium trisilicate"
-predicted_indications: ["gastroduodenitis", "stomach disease", "duodenal obstruction", "gastroparesis (disease)", "hiatus hernia (disease)"]
+predicted_indications: ["gastroduodenitis"]
+description: "Magnesium Trisilicate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Magnesium Trisilicate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +33,38 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Magnesium Trisilicate: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Magnesium Trisilicate: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Magnesium trisilicate is a non-systemic antacid, originally used for peptic ulcer disease, reflux disease, esophagitis and dyspepsia.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is essentially a restatement of an existing use rather than a new one.
 Evidence is limited to **0 clinical trials** and **2 publications** for this exact indication, and the publications are old or only loosely relevant.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, dyspepsia (the registration records compiled for this report contain no approved indication text) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 9 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on known information, magnesium trisilicate is a non-systemic antacid. It neutralizes gastric acid and can adsorb pepsin, so it may relieve symptoms of acid-related disease.
 
-The predicted indication, active peptic ulcer disease, is very close to the drug's original indications (peptic ulcer disease, reflux disease, dyspepsia). It is effectively an on-label use, not true repurposing. The high TxGNN score probably reflects this closeness in the knowledge graph.
+It is effectively an on-label use, not true repurposing.
 
-Other predictions from the model are less convincing. Peptic ulcer perforation and duodenal obstruction are surgical or mechanical problems that an antacid would not treat. Gastroparesis is a delayed-emptying disorder that antacids do not address. For these, the score appears to reflect only graph proximity to ulcer disease.
+Other predictions from the model are less convincing. Gastroparesis is a delayed-emptying disorder that antacids do not address.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for active peptic ulcer disease.
 
-For the broader category "stomach disease", two completed trials tested a combination product that contains magnesium trisilicate. They are listed here as context only, because the effect of magnesium trisilicate cannot be isolated:
+They are listed here as context only, because the effect of magnesium trisilicate cannot be isolated:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|

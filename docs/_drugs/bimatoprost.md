@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is a **malformation syndrome with odonta
 |------|------|
 | Original Indication | Open-angle glaucoma, ocular hypertension (also eyelash hypertrichosis) |
 | Predicted New Indication | Malformation syndrome with odontal and/or periodontal component |
-| TxGNN Prediction Score | 99.997% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,9 @@ The TxGNN model's top-ranked prediction is a **malformation syndrome with odonta
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, bimatoprost is a prostamide/prostaglandin F2-alpha analog. It lowers intraocular pressure in glaucoma, and it also prolongs the hair growth (anagen) phase, which explains its use for eyelash hypotrichosis.
 
-For this top-ranked prediction, **no identifiable mechanistic link** was found. The score is very high, but a developmental malformation syndrome with a dental or periodontal component has no known connection to prostaglandin analog activity. The prediction most likely reflects patterns in the knowledge graph rather than biology. Without supporting trials or literature, it should not be treated as a credible repurposing lead.
+For this top-ranked prediction, **no identifiable mechanistic link** was found. The score is very high, but a developmental malformation syndrome with a dental or periodontal component has no known connection to prostaglandin analog activity. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Without supporting trials or literature, it should not be treated as a credible repurposing lead.
 
-**Better-supported candidate among the top 10 predictions: alopecia (rank 8, score 99.993%).**
+**Better-supported candidate among the top 10 predictions: alopecia (rank 8, score 1.0000).**
 Here the hair-follicle mechanism is plausible, and there are 11 registered trials and 20 publications, including several Phase 2 studies (details in the Conclusion).
 
 ---

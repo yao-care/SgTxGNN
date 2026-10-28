@@ -4,17 +4,17 @@ title: Sucralfate
 parent: Low Evidence (L5)
 nav_order: 937
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L5). Approved use: Duodenal ulcer"
 monitor_inn: "Sucralfate"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "esophagitis (disease)", "peptic esophagitis", "duodenitis", "gastroduodenitis", "C1 inhibitor deficiency"]
+predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
+description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sucralfate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sucralfate: From Duodenal Ulcer to Duodenogastric Reflux
+## Sucralfate: Duodenogastric reflux
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Sucralfate is a non-systemic mucosal protectant, originally used to treat duodenal ulcer.
-The TxGNN model predicts it may be effective for **duodenogastric reflux** (score 99.4%), but **no clinical trials or publications** were retrieved for this specific indication, so the prediction rests on model output and mechanistic plausibility alone.
-The closest evidence-backed directions are **esophagitis / peptic esophagitis** (1 small early-phase trial, about 20 publications) and related upper gastrointestinal conditions.
 
 ---
 
@@ -48,12 +46,12 @@ The closest evidence-backed directions are **esophagitis / peptic esophagitis** 
 
 | Item | Content |
 |------|------|
-| Original Indication | Duodenal ulcer |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.37% |
+| TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,15 +66,7 @@ Several other predictions have stronger support, and the main ones are summarise
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Esophagitis | 97.5% | L3 | One completed early Phase 1 study (n=3) of sucralfate slurry |
-| Peptic esophagitis | 95.9% | L3 | Older randomised comparisons (for example versus alginate/antacid or ranitidine) and reviews; acid suppression is now standard of care |
-| Duodenitis | 95.4% | L4 | Indirect evidence from general sucralfate and ulcer reviews |
-| Active peptic ulcer disease | 95.3% | L4 | Mechanistic and older reviews; no trials supplied |
-| Gastroduodenitis | 94.3% | L4 | Mechanism reviews and veterinary or NSAID papers |
-| Gastrojejunal ulcer | 94.0% | L4 | Indirect evidence only |
-| Peptic ulcer perforation | 94.0% | L4 | Mucosal protectant is not a treatment for an acute surgical emergency; value would lie in prevention only |
-| Duodenal obstruction | 99.3% | L5 | Likely a knowledge-graph artefact; obstruction is mechanical |
-| C1 inhibitor deficiency | 94.2% | L5 | No plausible mechanism; likely a graph artefact |
+| Duodenal obstruction | 0.9930 | L5 | Likely a TxGNN model (deep learning) artefact; obstruction is mechanical |
 
 ---
 
@@ -97,7 +87,6 @@ For reference, the trials found for the nearest predicted indication (esophagiti
 
 Currently no related literature available for duodenogastric reflux.
 
-For reference, selected publications for the nearest indication (peptic esophagitis) are:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -141,11 +130,10 @@ Please refer to the package insert for warnings and contraindications from the l
 **Decision: Hold**
 
 **Rationale:**
-The duodenogastric reflux prediction is supported only by the model score (L5), with no trials or publications. The mechanism is plausible, but that is not evidence. Esophagitis and peptic esophagitis have more support, but it is old, small or indirect, and acid suppression is now standard of care.
+The duodenogastric reflux prediction is supported only by the model score (L5), with no trials or publications. The mechanism is plausible, but that is not evidence.
 
 **To proceed, the following is needed:**
 - A targeted search for sucralfate in bile or alkaline reflux (gastritis or esophagitis), including post-gastrectomy settings
-- A decision on whether to pursue peptic esophagitis, which has the strongest supporting literature, as the lead direction and to assess its design quality
 - The Singapore package insert, to obtain approved indications, warnings and contraindications
 - Mechanism of action data from DrugBank
 - A renal safety and aluminium exposure assessment, and a dose-separation plan for the interacting drugs, particularly dolutegravir and bictegravir

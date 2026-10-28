@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imatinib
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 521
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L4). Approved use: Not stated in the Singapore licence records. The knowledge graph list…"
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
+description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imatinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Imatinib: From Chronic Myelogenous Leukaemia and GIST to Heart Fibrosarcoma
+## Imatinib: Heart fibrosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Among the other top-ranked predictions, only liposarcoma has relevant Phase 2 tr
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records. The knowledge graph lists chronic myelogenous leukaemia (BCR-ABL1 positive), GIST, dermatofibrosarcoma protuberans, systemic mastocytosis, and hypereosinophilic syndromes |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Heart fibrosarcoma |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 13 |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---

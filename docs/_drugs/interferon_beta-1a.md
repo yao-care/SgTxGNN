@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Interferon Beta-1A
-parent: Low Evidence (L5)
-nav_order: 540
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Interferon Beta-1A: predicted new indication Jeune syndrome situs inversus (evidence level L5). Approved use: Relapsing-remitting multiple sclerosis"
-monitor_inn: "Interferon beta-1a"
-predicted_indications: ["Jeune syndrome situs inversus", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 22", "disorder of fucoglycosan synthesis", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "genetic syndromic Pierre Robin syndrome", "rete ovarii cystadenoma", "borderline ovarian serous tumor"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 539
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Interferon Beta-1A: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Interferon Beta-1A
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Interferon beta-1a: From Relapsing-Remitting Multiple Sclerosis to Jeune Syndrome Situs Inversus
+<!-- known-uses-page -->
+<!-- description: Interferon Beta-1A: known uses and market status in Singapore; currently no new candidate indication -->
+## Interferon Beta-1A: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model's candidates for Interferon Beta-1A are all known uses. Every candidate that can be traced to a source is already recognised, so there is currently no new predicted indication for this drug.
 
-Interferon beta-1a is an immunomodulatory biologic originally used to treat relapsing-remitting multiple sclerosis.
-The TxGNN model predicts it may be effective for **Jeune syndrome situs inversus**, but this is a computational prediction only, with **0 clinical trials** and **0 relevant publications** supporting it.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Relapsing-remitting multiple sclerosis |
-| Predicted New Indication | Jeune syndrome situs inversus |
-| TxGNN Prediction Score | 97.47% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available. Based on known information, interferon beta-1a is an immunomodulatory biologic. Its efficacy in relapsing-remitting multiple sclerosis is established, but no mechanistic link to Jeune syndrome situs inversus has been identified.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| relapsing-remitting multiple sclerosis | licence in another country (approved indication: multiple sclerosis) |
 
-Jeune syndrome (asphyxiating thoracic dystrophy) is a ciliopathy with skeletal and renal involvement. Interferon beta-1a's immunomodulatory activity has no evident relevance to this pathophysiology. The high TxGNN score (97.47%) reflects a knowledge-graph association only and is not supported by biological or clinical evidence. The other nine top-ranked predictions are likewise computational only and have no clinical trial or literature support. They include congenital craniofacial and cardiac malformations, chromosomal deletion syndromes, and rare ovarian neoplasms.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for the predicted indication, Jeune syndrome situs inversus.
-
-Literature retrieved for the fourth-ranked prediction (disorder of fucoglycosan synthesis) was reviewed. All of it concerns multiple sclerosis therapies (such as teriflunomide, alemtuzumab, and fingolimod) or unrelated topics (a COVID-19 guideline, Alzheimer's disease). These are false-positive matches and do not support any predicted new indication. They do give context on the original indication, including network meta-analyses of relapsing-remitting MS treatments.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13975P | Rebif Solution for Injection in Cartridge 44mcg/0.5ml | Injection, solution | Not available |
-| SIN13974P | Rebif Solution for Injection in Cartridge 22mcg/0.5ml | Injection, solution | Not available |
-
-Both registrations are valid single-ingredient products from Merck Serono S.p.A (Bari), in injectable form.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13975P | Rebif Solution for Injection in Cartridge 44mcg/0.5ml | INJECTION, SOLUTION | Valid |
+| SIN13974P | Rebif Solution for Injection in Cartridge 22mcg/0.5ml | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 
@@ -86,19 +81,6 @@ Both registrations are valid single-ingredient products from Merck Serono S.p.A 
 
 Please refer to the package insert for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a knowledge-graph score. There are no clinical trials or relevant publications, and no plausible mechanistic link between interferon beta-1a and Jeune syndrome situs inversus. Safety label information is also missing.
-
-**To proceed, the following is needed:**
-- Mechanism of action data for interferon beta-1a
-- Package insert warnings and contraindications from the HSA
-- A credible biological rationale linking interferon beta-1a to the predicted indication
-- Preclinical or mechanistic studies, if the indication is to be pursued
-- Review of lower-ranked predictions for any with stronger evidence, since none of the top 10 currently has supporting trials
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

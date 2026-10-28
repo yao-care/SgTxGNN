@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlordiazepoxide
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 237
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Chlordiazepoxide: predicted new indication Insomnia (evidence level L4). Approved use: Anxiety, alcohol withdrawal, mixed anxiety and depressive disorder"
 monitor_inn: "Chlordiazepoxide"
-predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "myofascial pain syndrome"]
+predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "myofascial pain syndrome"]
+last_modified_at: 2026-10-27
+description: "Chlordiazepoxide: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chlordiazepoxide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,111 +33,78 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Chlordiazepoxide: From Anxiety and Alcohol Withdrawal to Insomnia
+## Chlordiazepoxide: benzodiazepine, GABA-A positive modulator → insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Chlordiazepoxide is a benzodiazepine originally used for anxiety, alcohol withdrawal, and related conditions (including irritable bowel syndrome and peptic ulcer disease as listed in the knowledge graph).
-The TxGNN model predicts it may be effective for **insomnia**, but there are **0 registered clinical trials** and only **indirect literature** (mostly reviews and older studies of other benzodiazepines or combination products) supporting this direction.
-
----
+Chlordiazepoxide is a benzodiazepine that enhances GABA-A receptor signalling and produces sedative effects.
+The TxGNN model predicts it may be useful for **insomnia (disease)**.
+There are currently **0 registered clinical trials** and **5 retrieved publications**, all indirect, so this remains an early model-based hypothesis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety, alcohol withdrawal, mixed anxiety and depressive disorder (the approved indication text in the Singapore licences is blank; these come from the knowledge graph) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.998% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | insomnia (disease) |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, chlordiazepoxide is a benzodiazepine that positively modulates GABA-A receptors. This produces anxiolytic and sedative-hypnotic effects, and it is the same mechanism that underlies other benzodiazepines used for sleep problems.
+Detailed mechanism of action data is not available in the data compiled for this report. Chlordiazepoxide is a member of the benzodiazepine class. These drugs positively modulate GABA-A receptors, which dampens neuronal excitability and produces anxiolytic and sedative-hypnotic effects.
 
-Anxiety and insomnia often occur together, and anxiolytic sedation is a plausible bridge between the original indication and the predicted one. However, the literature retrieved is mostly indirect. It includes pharmacokinetic reviews of anxiolytics, reviews of benzodiazepine hypnotics in the elderly, a sleep-architecture comparison of a chlordiazepoxide/amitriptyline combination (Limbitrol) against amitriptyline, and a clobazam vs chlordiazepoxide comparison in alcohol withdrawal. No chlordiazepoxide-specific insomnia trial is present.
+Sedation and sleep promotion are plausible consequences of this mechanism, and other benzodiazepines are used as hypnotics. This is why the model links the drug to insomnia.
 
-Safety concerns (dependence, falls, cognitive impairment in older adults) weigh against use, and shorter-acting agents are generally preferred for sleep.
-
-Other predictions in the list are weaker. Barbiturate abuse (rank 7) has a credible rationale through GABA-A cross-tolerance and established use in withdrawal management, and it is the only one advanced to a research question. Cauda equina syndrome, obsolete neurogenic bladder, ADHD (inattentive type), antidepressant-type abuse, hallucinogen abuse, and myofascial pain syndrome have no or only speculative support. The single paper for specific developmental disorder is a preclinical study suggesting harm (learning deficits).
-
----
+However, the retrieved literature is indirect. It covers the pharmacokinetics of anxiolytics, benzodiazepine hypnotics in older adults (other agents), a prevalence study of potentially inappropriate medications, and older anxiety studies. No chlordiazepoxide-specific insomnia study was found. Concerns about dependence, falls and cognitive impairment, especially in older adults, weigh against use.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
-
-Publications retrieved for insomnia and the closely related sleep-initiation/maintenance disorder:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7595266](https://pubmed.ncbi.nlm.nih.gov/7595266/) | 1995 | Review | J Fam Pract | Review of benzodiazepines for insomnia in community-dwelling elders; no long-term effectiveness studies, and injury risk was examined |
-| [3536890](https://pubmed.ncbi.nlm.nih.gov/3536890/) | 1986 | Double-blind randomized study | J Clin Psychiatry | Chlordiazepoxide-amitriptyline (Limbitrol) vs amitriptyline: faster symptom improvement with Limbitrol, no differences in sleep laboratory parameters |
-| [22521806](https://pubmed.ncbi.nlm.nih.gov/22521806/) | 2013 | Review | Eur Psychiatry | Critical reappraisal of the role of benzodiazepines in psychiatric disorders |
-| [4365779](https://pubmed.ncbi.nlm.nih.gov/4365779/) | 1974 | Comparative study | Br J Psychiatry | Compares the hypnotic effects of chlordiazepoxide and amylobarbitone sodium (no abstract available) |
-| [2883822](https://pubmed.ncbi.nlm.nih.gov/2883822/) | 1986 | Review | Acta Psychiatr Scand Suppl | Elderly people show a 2-3 fold greater response to benzodiazepines, not explained by plasma concentrations |
-| [6137426](https://pubmed.ncbi.nlm.nih.gov/6137426/) | 1983 | Randomized double-blind trial | J Int Med Res | Clobazam vs chlordiazepoxide in acute alcohol withdrawal (40 patients); both effective, clobazam better on anxiety scale (alcohol withdrawal, not insomnia) |
-| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Pharmacokinetics of anxiolytic drugs |
-| [30680986](https://pubmed.ncbi.nlm.nih.gov/30680986/) | 2019 | Cross-sectional | Med Glas (Zenica) | Prevalence of potentially inappropriate medications among Iranian older adults (Beers criteria) |
-| [4628683](https://pubmed.ncbi.nlm.nih.gov/4628683/) | 1972 | Clinical trial | Curr Ther Res | Molindone vs chlordiazepoxide in anxious outpatients |
-
----
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Overview of the pharmacokinetics of anxiolytic drugs; general context, not insomnia-specific |
+| [2883822](https://pubmed.ncbi.nlm.nih.gov/2883822/) | 1986 | Review | Acta Psychiatr Scand Suppl | Elderly people show a 2–3 fold increased response to benzodiazepine hypnotics (diazepam, temazepam, nitrazepam, flunitrazepam); chlordiazepoxide not studied |
+| [30680986](https://pubmed.ncbi.nlm.nih.gov/30680986/) | 2019 | Cross-sectional | Med Glas (Zenica) | Prevalence of potentially inappropriate medications among older adults in Tehran, based on Beers criteria; indirect safety context |
+| [4628683](https://pubmed.ncbi.nlm.nih.gov/4628683/) | 1972 | Clinical trial (anxiety, comparator study) | Curr Ther Res | Molindone vs chlordiazepoxide in anxious outpatients; not an insomnia study |
+| [14085195](https://pubmed.ncbi.nlm.nih.gov/14085195/) | 1963 | Clinical study (anxiety) | Acta Psychiatr Scand | Anxiety neuroses treated with a chlordiazepoxide metabolite; not an insomnia study |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN01907P | BENPINE TABLET 5 mg | Tablet, sugar coated | Not stated in the licence data |
-| SIN08651P | CHLOBAX TABLET | Tablet, sugar coated | Not stated in the licence data |
-| SIN03049P | AA PHARMA CHLORAX CAPSULE | Capsule | Not stated in the licence data |
-
-All three are valid single-ingredient oral products.
-
----
+| SIN01907P | BENPINE TABLET 5 mg | Tablet, sugar coated | Not recorded in the local data |
+| SIN08651P | CHLOBAX TABLET | Tablet, sugar coated | Not recorded in the local data |
+| SIN03049P | AA PHARMA CHLORAX CAPSULE | Capsule | Not recorded in the local data |
 
 ## Safety Considerations
 
-Package insert warnings and contraindications were not available in the data compiled for this report; please refer to the package insert for these.
+- **Drug Interactions**:
+  - Major: morphine, liposomal morphine.
+  - Moderate: bupropion, omeprazole, cimetidine, clarithromycin, dronabinol, metoclopramide, nabilone, opium, sibutramine, teduglutide.
+  - Minor: aluminium hydroxide, calcium carbonate, magaldrate, magnesium carbonate, magnesium hydroxide, magnesium oxide.
+- Combined use with opioids and other CNS depressants warrants particular caution because of additive sedation.
 
-- **Knowledge-graph contraindications** (not label text): the graph links chlordiazepoxide to contraindications in several areas:
-  - Cardiovascular: hypertension, orthostatic hypotension, long QT syndrome, torsades de pointes
-  - Neurological and psychiatric: epilepsy, psychotic disorder, manic bipolar affective disorder
-  - Organ function: kidney disease, liver disease, gallbladder disease
-  - Metabolic and endocrine: porphyria, hypothyroidism
-  - Others: open-angle glaucoma, systemic lupus erythematosus
-
-  These should be verified against the official label.
-- **Drug Interactions**: 100 interactions were found. The main ones shown are:
-  - **Major**: morphine (including liposomal morphine), consistent with additive CNS and respiratory depression.
-  - **Moderate**: bupropion, omeprazole, cimetidine, clarithromycin, dronabinol, metoclopramide, nabilone, opium, sibutramine, teduglutide.
-  - **Minor**: antacids such as aluminium hydroxide, calcium carbonate, magaldrate, and magnesium salts.
-- **Literature-based concerns**: dependence and abuse liability, withdrawal syndrome, and falls/cognitive impairment in older adults.
-
----
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The insomnia prediction has a plausible GABA-A mechanism, but there are no registered trials and the literature is indirect, dated, or based on combination products. The benefit-risk profile (dependence, sedation, risks in older adults) is unfavourable compared with shorter-acting alternatives. The remaining predictions have no or only speculative support.
+The model score is very high, but no clinical trial or publication directly studies chlordiazepoxide in insomnia, so the evidence level is L5. Shorter-acting hypnotics are generally preferred, and benefit–risk in older adults is unfavourable because of dependence, falls and cognitive effects.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA (currently a blocking data gap)
-- Detailed mechanism of action data from DrugBank
-- Controlled trial data specific to chlordiazepoxide in insomnia, with comparison against shorter-acting hypnotics
-- A dependence and older-adult risk mitigation plan
-- Optionally, a separate research question on barbiturate or sedative-hypnotic withdrawal, the only other prediction with a credible mechanistic rationale
+- Direct clinical evidence (controlled trials) of chlordiazepoxide in insomnia
+- Mechanism of action data and package insert warnings and contraindications
+- A comparison against established hypnotics, with a dependence and elderly-safety risk assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

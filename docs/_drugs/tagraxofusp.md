@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tagraxofusp: predicted new indication Esotropia (evidence level L5). Approved use: CD4+/CD56+ hematodermic neoplasm"
 monitor_inn: "Tagraxofusp"
-predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "chondroid hamartoma", "bronchial adenomas/carcinoids childhood", "ductal or ductular proliferation", "non-seminomatous lesion", "cystic neoplasm", "thyroglossal duct cyst"]
+predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "chondroid hamartoma", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "cystic neoplasm", "thyroglossal duct cyst"]
 ---
 
 # Tagraxofusp
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Tagraxofusp was originally used to treat CD4+/CD56+ hematodermic neoplasm (blastic plasmacytoid dendritic cell neoplasm, BPDCN).
-The TxGNN model predicts it may be effective for **esotropia**, but **no clinical trials and no publications** currently support this prediction. It rests on a graph-based score alone.
+The TxGNN model (deep learning) predicts it may be effective for **esotropia**, but **no clinical trials and no publications** currently support this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **esotropia**, but **no clinica
 |------|------|
 | Original Indication | CD4+/CD56+ hematodermic neoplasm (the Singapore licence record contains no approved-indication text) |
 | Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug, tagraxofusp is a CD123-directed cytotoxin (interleukin-3 fused to a truncated diphtheria toxin). It kills cells that express CD123, which is why it is effective in BPDCN, a CD123-positive neoplasm.
 
-Esotropia is an eye-muscle misalignment disorder. No CD123-expressing pathogenic cell population is known in this condition, so **no credible mechanistic link** was identified between the original indication and the predicted one. The very high TxGNN score (0.997, rank 4210) reflects graph-based inference only and is not supported by any trial or literature.
+Esotropia is an eye-muscle misalignment disorder. No CD123-expressing pathogenic cell population is known in this condition, so **no credible mechanistic link** was identified between the original indication and the predicted one. The very high TxGNN score (0.9973, rank 4210) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not supported by any trial or literature.
 
 Other top-ranked predictions are also weak or unsupported: pre-malignant neoplasm (a non-specific category, with only an indirect hematologic hypothesis), inner ear neoplasm, benign tongue neoplasm, chondroid hamartoma, childhood bronchial adenomas/carcinoids, ductal or ductular proliferation, non-seminomatous lesion, cystic neoplasm and thyroglossal duct cyst. Most of these are benign or surgically managed conditions, for which a systemic cytotoxic biologic is hard to justify.
 

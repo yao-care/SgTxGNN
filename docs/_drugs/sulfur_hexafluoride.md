@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Sulfur Hexafluoride
-parent: Low Evidence (L5)
-nav_order: 942
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Sulfur Hexafluoride: predicted new indication Benign prostatic hyperplasia (evidence level L5). Approved use: Not stated in the Singapore licence record"
-monitor_inn: "Sulfur hexafluoride"
-predicted_indications: ["benign prostatic hyperplasia (disease)", "vaginitis (disease)", "vulvitis", "vulvovaginitis", "peripheral arterial disease", "iritis (disease)", "bacterial vaginosis", "vaginal discharge", "leukoplakia of vagina", "folliculitis"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 941
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Sulfur Hexafluoride: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Sulfur Hexafluoride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,74 +32,50 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sulfur Hexafluoride: From Ultrasound Contrast Imaging to Benign Prostatic Hyperplasia
+<!-- known-uses-page -->
+<!-- description: Sulfur Hexafluoride: known uses and market status in Singapore; currently no new candidate indication -->
+## Sulfur Hexafluoride: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate with a score of 0.99 or higher for Sulfur Hexafluoride, so there is currently no new predicted indication. The drug's recorded uses are listed below; no uses are recorded for this drug.
 
-Sulfur hexafluoride is an inert gas formulated as microbubbles (SonoVue) and used as an ultrasound contrast agent.
-The TxGNN model predicts it may be effective for **benign prostatic hyperplasia**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-The score appears to be a model artifact rather than a true therapeutic signal.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record (the compiled data lists the product as an ultrasound contrast agent, microbubble dispersion for injection) |
-| Predicted New Indication | Benign prostatic hyperplasia |
-| TxGNN Prediction Score | 90.75% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 0 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available. Based on known information, sulfur hexafluoride is a physiologically inert gas that is stabilised as microbubbles for contrast-enhanced ultrasound. It works by reflecting ultrasound waves, not by acting on a biological target.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-No plausible mechanistic link to benign prostatic hyperplasia was identified. The agent has no known pharmacological action on prostate tissue. The high score of 0.91 is a model output only, and the drug's rank (34,010) is also far down the overall list. The same pattern appears in the other top predictions (vaginitis, vulvitis, vulvovaginitis, bacterial vaginosis, iritis, folliculitis), which most likely reflect knowledge-graph neighbourhood effects rather than real therapeutic potential.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The only prediction with any related literature is **peripheral arterial disease** (rank 5, L4). That literature describes sulfur hexafluoride microbubbles as a diagnostic tool for measuring muscle microperfusion, not as a treatment, so it is not a therapeutic repurposing.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for benign prostatic hyperplasia.
-
-## Literature Evidence
-
-Currently no related literature available for benign prostatic hyperplasia.
-
-For reference, literature exists for the rank 5 prediction (peripheral arterial disease), all diagnostic or preclinical:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [21487300](https://pubmed.ncbi.nlm.nih.gov/21487300/) | 2011 | Clinical diagnostic study | Investigative Radiology | Feasibility of dynamic contrast-enhanced ultrasound to detect changes in muscle microcirculation and perfusion reserve in PAD patients versus healthy volunteers |
-| [24418637](https://pubmed.ncbi.nlm.nih.gov/24418637/) | 2015 | Preclinical (porcine) | Journal of Vascular Surgery | Steady-state contrast-enhanced ultrasound to assess muscle microperfusion in a model of arterial stenosis |
-| [26190189](https://pubmed.ncbi.nlm.nih.gov/26190189/) | 2015 | Preclinical (animal) | J Vasc Interv Radiol | Effect of catheter-based sympathetic denervation on muscle microperfusion, measured by contrast ultrasound |
-| [1288090](https://pubmed.ncbi.nlm.nih.gov/1288090/) | 1992 | Preclinical (dog) | Adv Exp Med Biol | Hypoxic pulmonary vasoconstriction in acute lung injury; tangential to this drug |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12349P | SonoVue Powder for Dispersion for Injection 8 microlitres/ml | Injection, powder, for solution | Not stated in the record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12349P | SONOVUE POWDER FOR DISPERSION FOR INJECTION 8 microlitres/ml | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information. No drug interactions were found in the data compiled for this report.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on model output alone (L5), with no clinical trials, no literature, and no plausible mechanism for an inert imaging gas acting on prostate tissue. The other top predictions show the same weakness, and the only literature found concerns diagnostic imaging rather than treatment.
-
-**To proceed, the following is needed:**
-- Singapore package insert (warnings, contraindications, approved indication), which is currently missing and blocks safety screening
-- Mechanism of action data from DrugBank
-- A credible pharmacological hypothesis linking the agent to prostate disease before any further evaluation
-- If any direction is pursued, consider the diagnostic imaging use (for example, perfusion assessment in peripheral arterial disease) as a research question rather than a therapeutic repurposing
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

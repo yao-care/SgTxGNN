@@ -4,17 +4,17 @@ title: Calcitriol
 parent: Low Evidence (L5)
 nav_order: 194
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Calcitriol: predicted new indication Vitamin D deficiency (obsolete ontology term) (evidence level L5). Approved use: Hypoparathyroidism, renal osteodystrophy…"
+indication_count: 5
 monitor_inn: "Calcitriol"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hereditary hypophosphatemic rickets", "hypophosphatemic rickets", "osteomalacia (disease)", "vitamin D-dependent rickets"]
+predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
+last_modified_at: 2026-10-27
+description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Calcitriol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Calcitriol: From Hypoparathyroidism and Renal Osteodystrophy to Vitamin D Deficiency
+## Calcitriol: active vitamin D hormone → obsolete vitamin D deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Calcitriol is the active hormonal form of vitamin D. It is used for calcium and phosphate disorders such as hypoparathyroidism and renal osteodystrophy.
-The TxGNN model's top-ranked prediction is **vitamin D deficiency**, but the disease term is flagged as obsolete and likely duplicates existing indications.
-**No clinical trials and no publications** were retrieved for it, so this prediction rests on the model score alone.
+Calcitriol is the active form of vitamin D, a hormone that regulates calcium and phosphate balance.
+The TxGNN model predicts it may be effective for **obsolete vitamin D deficiency**, but **no clinical trials and no publications** were found for this prediction. The ontology flags the disease term as obsolete, so the evidence rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypoparathyroidism, renal osteodystrophy, hypercalcemia-related and phosphorus metabolism disorders (from the knowledge graph, as the registration records list no indication text) |
-| Predicted New Indication | Vitamin D deficiency (obsolete ontology term) |
-| TxGNN Prediction Score | 99.96% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | obsolete vitamin D deficiency |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Calcitriol is the active form of vitamin D (1,25-dihydroxyvitamin D3). It acts through the vitamin D receptor to regulate calcium and phosphate balance, so a link to vitamin D deficiency is biologically plausible.
+Detailed mechanism of action data is not currently available. Calcitriol is the hormonally active metabolite of vitamin D (1,25-dihydroxyvitamin D3). It acts directly on the vitamin D receptor, without needing the kidney's activation step. A mechanistic link to vitamin D deficiency is therefore plausible.
 
-However, the predicted disease term is marked obsolete in the disease ontology and overlaps with conditions calcitriol already treats. The high score therefore mostly reflects the model's network proximity rather than a new therapeutic opportunity. In practice, replacing vitamin D deficiency with an already-activated metabolite is usually not the main use. Calcitriol is generally reserved for situations where activation is impaired, such as kidney disease or hypoparathyroidism.
-
-The data compiled for this report also include stronger-supported candidates, which are summarised in the conclusion below.
+The disease term, however, is flagged as obsolete in the ontology. It is likely a duplicate of existing disease entries, so the high score may not point to a distinct new use. Calcitriol is also not a typical way to correct simple nutritional deficiency, which is normally treated with cholecalciferol or ergocalciferol. The score is a computational prediction only, not clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -72,47 +69,31 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13449P | MEDITROL | Capsule, liquid filled | Mega Lifesciences Public Company Limited |
-| SIN12258P | RASPUTIN SOFT CAPSULE 0.25 mcg | Capsule, liquid filled | Young Il Pharm Co Ltd / Hanmi Pharmaceuticals |
-| SIN03865P | ROCALTROL CAPSULE 0.25 mcg | Capsule, liquid filled | Catalent Germany Eberbach GmbH / allphamed PHARBIL Arzneimittel GmbH (primary packager) |
-| SIN12160P | SILKIS OINTMENT 3 mcg/g | Ointment | Laboratoires Galderma |
-
-All four registrations are valid single-ingredient products (three oral capsules and one topical ointment). No approved indication text is recorded for them.
+| SIN13449P | MEDITROL | Capsule, liquid filled | Not recorded |
+| SIN12258P | RASPUTIN SOFT CAPSULE 0.25 mcg | Capsule, liquid filled | Not recorded |
+| SIN03865P | ROCALTROL CAPSULE 0.25 mcg | Capsule, liquid filled | Not recorded |
+| SIN12160P | SILKIS OINTMENT 3 mcg/g | Ointment | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph** (graph-derived, not label text): kidney disease, sarcoidosis, hypercalcemia, nephrocalcinosis, nephrolithiasis, phosphorus metabolism disease, hyperphosphatemia, hypervitaminosis, acute urate nephropathy, pyoureter, and arteriosclerosis obliterans.
-- **Drug Interactions** (100 interactions recorded; main ones listed):
-  - **Major:** cholecalciferol, calcifediol, burosumab
-  - **Moderate:**
-    - Thiazide diuretics (hydrochlorothiazide, chlorothiazide, chlorthalidone, bendroflumethiazide, benzthiazide)
-    - Anticonvulsants and barbiturates (carbamazepine, fosphenytoin, amobarbital, butabarbital, butalbital)
-    - Bile acid sequestrants (cholestyramine, colesevelam, colestipol)
-    - Digoxin and digitoxin
-    - Aluminum hydroxide
-    - Topical calcipotriol
+- **Drug Interactions**: 100 interacting drugs were identified in the interaction screening. Major-level interactions include cholecalciferol, calcifediol and burosumab (combining active vitamin D compounds adds to the risk of hypercalcaemia; burosumab is used with active vitamin D only under specialist supervision). Moderate-level interactions include thiazide diuretics (hydrochlorothiazide, chlorothiazide, chlorthalidone), anticonvulsants and barbiturates (carbamazepine, fosphenytoin, amobarbital, butalbital), bile-acid binders (cholestyramine, colesevelam, colestipol), digoxin and digitoxin, aluminium hydroxide, and topical calcipotriol.
 
-Please refer to the package insert for label warnings and contraindications.
+Please refer to the package insert for other safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction rests only on a model score. It has no trials or literature, and the disease term is obsolete and overlaps with existing indications. It should not drive a repurposing decision on its own.
-
-Other predictions in the same data have meaningful support and could be evaluated as separate candidates:
-- **Hereditary hypophosphatemic rickets / hypophosphatemic rickets** (L3, Proceed with Guardrails): an early Phase 1 study of calcitriol monotherapy in X-linked hypophosphatemia (NCT03748966, n=16) and a Phase 4 dosing trial (NCT03820518, n=100, status unknown), plus several reviews and guidelines.
-- **Vitamin D-dependent rickets** (L3, Proceed with Guardrails): a strong mechanistic rationale in type 1A and supporting clinical series, but no registered trials.
-- **Osteomalacia** (L4, research question) has only indirect, review-level evidence. **Renal tubular acidosis** (L4, Hold) has only physiology studies, case reports and reviews.
+The prediction has no supporting trials or publications, and the disease term is obsolete in the ontology, likely duplicating existing entries. The high score alone does not justify moving forward.
 
 **To proceed, the following is needed:**
-- Re-anchor the candidate on a non-obsolete disease term, or select one of the stronger-supported indications above as the lead.
-- Package insert warnings and contraindications from the HSA, which are currently unavailable.
-- Detailed mechanism of action data.
-- For rickets indications: a monitoring plan for serum and urinary calcium, PTH, and renal ultrasound (hypercalciuria, nephrocalcinosis, hyperparathyroidism), plus a Phase 3 or comparative study to strengthen the evidence base.
+- Clarify which current, non-obsolete disease entry the prediction maps to
+- Search for studies that directly address this condition
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the Health Sciences Authority (HSA)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

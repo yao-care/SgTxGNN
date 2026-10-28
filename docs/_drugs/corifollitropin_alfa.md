@@ -4,17 +4,17 @@ title: Corifollitropin Alfa
 parent: Low Evidence (L5)
 nav_order: 279
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Corifollitropin Alfa: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not stated in the Singapore licence records"
 monitor_inn: "Corifollitropin alfa"
-predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "peptic esophagitis"]
+predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
 ---
 
 # Corifollitropin Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,17 +46,17 @@ Corifollitropin alfa is a long-acting recombinant follicle-stimulating hormone (
 |------|------|
 | Original Indication | Not stated in the Singapore licence records |
 | Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, corifollitropin alfa is a long-acting FSH analogue (an FSH beta-subunit fused with the C-terminal peptide of hCG). It acts on FSH receptors in the gonads.
 
-No plausible mechanistic link to inflammation of the stomach and duodenal lining is evident. FSH receptor agonism has no known effect on gastric mucosal defence or acid-related injury. The high score (0.9965) appears to be a network-based prediction without clinical or literature support. It is probably an artefact of knowledge-graph proximity rather than independent biology.
+No plausible mechanistic link to inflammation of the stomach and duodenal lining is evident. FSH receptor agonism has no known effect on gastric mucosal defence or acid-related injury. The high score (0.9965) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-ranked predictions show the same pattern. They include migraine disorders, peptic ulcer disease, Raynaud disease, pulmonary hypertension, and others. None has any trial or publication evidence, and none has a credible mechanistic rationale. Some are more concerning than promising. For example, ovarian stimulation changes oestradiol levels, which may trigger migraine rather than treat it, and ovarian hyperstimulation carries fluid-shift and thromboembolic risks relevant to pulmonary hypertension.
 
@@ -67,7 +67,7 @@ Other top-ranked predictions show the same pattern. They include migraine disord
 | SIN13940P | Elonva Solution for Injection 150mcg/0.5ml | Injection, solution | Not listed in the licence record |
 | SIN13939P | Elonva Solution for Injection 100mcg/0.5ml | Injection, solution | Not listed in the licence record |
 
-Both licences are valid single-ingredient products from Vetter Pharma-Fertigung GmbH & Co. KG.
+Both licences are valid single-ingredient products from Vetter Pharma-Fertigung GmbH & Co.
 
 ## Safety Considerations
 

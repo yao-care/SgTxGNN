@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Entecavir
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 379
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
+description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Entecavir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Entecavir: From Chronic Hepatitis B to Chronic Hepatitis C Virus Infection
+## Entecavir: Chronic hepatitis C virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The evidence is indirect: **2 clinical trials** and **20 publications** were ret
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Chronic hepatitis C virus infection |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 (indirect evidence only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 17 |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ---

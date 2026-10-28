@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Macitentan
-parent: High Evidence (L1-L2)
-nav_order: 625
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Macitentan: predicted new indication Pulmonary arterial hypertension associated with congenital heart dise… (evidence level L1). Approved use: Pulmonary arterial hypertension"
-monitor_inn: "Macitentan"
-predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 624
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Macitentan: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Macitentan
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,73 +32,46 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Macitentan: From Pulmonary Arterial Hypertension to Pulmonary Arterial Hypertension Associated with Congenital Heart Disease
+<!-- known-uses-page -->
+<!-- description: Macitentan: known uses and market status in Singapore; currently no new candidate indication -->
+## Macitentan: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Macitentan, so there is currently no new predicted indication. The drug's recorded uses are listed below. They come from the drug's own records, not from model predictions.
 
-Macitentan is an oral dual endothelin receptor antagonist, originally used to treat pulmonary arterial hypertension (PAH).
-The TxGNN model predicts it may be effective for **PAH associated with congenital heart disease (CHD-PAH)**, the highest-ranked prediction with meaningful supporting evidence. It is backed by **17 publications**, including several randomized trials, but **no registered clinical trials** in the compiled data.
-Note that CHD-PAH is a subgroup of the already-approved PAH population, so this is largely an extension of the existing indication rather than true repurposing.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary arterial hypertension |
-| Predicted New Indication | Pulmonary arterial hypertension associated with congenital heart disease |
-| TxGNN Prediction Score | 98.75% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Proceed with Guardrails |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-*Note: The first-ranked prediction by TxGNN score is pulmonary arteriovenous malformation (98.89%), but it has no trials or literature and no plausible mechanistic link (Evidence Level L5, Hold). This report therefore focuses on the best-supported prediction, CHD-PAH. Other predictions are summarized under Conclusion and Next Steps.*
+## Known uses recorded for this drug
 
----
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| pulmonary arterial hypertension | licence in another country |
+| pulmonary hypertension | licence in another country |
 
-## Why is This Prediction Reasonable?
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Detailed mechanism of action data is not currently available in the compiled data. Based on known information, macitentan is a dual endothelin receptor antagonist that blocks both ETA and ETB receptors. Endothelin-1 is overexpressed in PAH and drives vasoconstriction and vascular remodeling.
-
-CHD-PAH belongs to WHO Group 1 pulmonary hypertension, the same group as the approved indication. Its pathology is driven by the same endothelin-mediated vascular changes, so the mechanism applies directly.
-
-The literature includes Eisenmenger-specific work (the MAESTRO phase III trial), a CHD-PAH subgroup analysis from the SERAPHIN program, real-world data (OPUS/OrPHeUS, Asian post-marketing surveillance) and a pediatric randomized trial (TOMORROW). One important caveat: MAESTRO did not meet its primary endpoint (change in 6-minute walk distance), so Eisenmenger-specific efficacy should not be assumed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for this indication.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30586694](https://pubmed.ncbi.nlm.nih.gov/30586694/) | 2019 | RCT (MAESTRO) | Circulation | Phase III, double-blind, placebo-controlled, 16-week study of macitentan in Eisenmenger syndrome (exercise capacity, safety) |
-| [28867027](https://pubmed.ncbi.nlm.nih.gov/28867027/) | 2017 | RCT (post hoc subgroup) | Heart Lung Circ | Macitentan in PAH associated with congenital heart defects |
-| [41796854](https://pubmed.ncbi.nlm.nih.gov/41796854/) | 2026 | RCT (TOMORROW) | J Pediatr | Pharmacokinetics, efficacy and safety of macitentan vs standard of care in pediatric PAH |
-| [31096477](https://pubmed.ncbi.nlm.nih.gov/31096477/) | 2019 | Systematic review/meta-analysis | Medicine | Safety and efficacy of PAH-specific drug therapy in Eisenmenger syndrome |
-| [38276220](https://pubmed.ncbi.nlm.nih.gov/38276220/) | 2023 | Review | J Pers Med | Current management and future directions for PAH-CHD |
-| [39585521](https://pubmed.ncbi.nlm.nih.gov/39585521/) | 2024 | Cohort (real-world) | Cardiol Ther | Real-world outcomes of macitentan in CHD-PAH from OPUS/OrPHeUS |
-| [36196862](https://pubmed.ncbi.nlm.nih.gov/36196862/) | 2022 | Cohort | Anatol J Cardiol | Consistent effectiveness and safety of macitentan in idiopathic and CHD-associated PAH |
-| [36329372](https://pubmed.ncbi.nlm.nih.gov/36329372/) | 2023 | Cohort (Asian patients) | Drugs Real World Outcomes | Real-world safety and outcomes of macitentan in Asian PAH patients |
-| [40616677](https://pubmed.ncbi.nlm.nih.gov/40616677/) | 2026 | Cohort (pediatric) | Pediatr Cardiol | Multicenter Spanish experience with macitentan in children with PAH |
-| [35514768](https://pubmed.ncbi.nlm.nih.gov/35514768/) | 2022 | Cohort | Pulm Circ | Prospective assessment of patients switched from bosentan to macitentan (POTENT) |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14809P | OPSUMIT FILM-COATED TABLET 10MG | Tablet, film coated | Not stated in the registration data |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14809P | OPSUMIT FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 
@@ -111,30 +83,6 @@ Safety points flagged in the evaluation: hepatotoxicity monitoring, embryo-fetal
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-CHD-PAH is a WHO Group 1 subgroup closely aligned with the approved PAH indication, supported by multiple randomized trials and real-world cohorts (Evidence Level L1). The Eisenmenger-specific trial missed its primary endpoint, so efficacy in that subpopulation needs confirmation.
-
-**Other predicted indications:**
-
-| Indication | Score | Evidence Level | Recommendation |
-|---|---|---|---|
-| PAH associated with connective tissue disease | 98.59% | L1 | Proceed with Guardrails (real-world data and a meta-analysis; the only listed trial, NCT03726398, was withdrawn with 0 enrollment) |
-| PAH associated with HIV infection | 98.59% | L4 | Research Question (only an indirect registry; antiretroviral CYP3A4 interactions are a concern) |
-| PAH associated with schistosomiasis | 98.59% | L5 | Hold |
-| PAH associated with chronic hemolytic anemia | 98.59% | L5 | Hold (anemia is a known macitentan adverse effect) |
-| Pulmonary arteriovenous malformation | 98.89% | L5 | Hold (no mechanistic link) |
-| Hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata, alopecia | 93.73–98.24% | L5 | Hold (no mechanistic link; likely network prediction artifacts) |
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
-- Detailed mechanism of action data from DrugBank
-- Confirmation of the approved indication wording in the Singapore registration, and whether CHD-PAH/Eisenmenger is covered
-- A safety monitoring plan covering liver function, hemoglobin, pregnancy prevention and fluid retention
-- A review of CYP3A4-related drug interactions in patients' co-medications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

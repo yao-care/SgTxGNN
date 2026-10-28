@@ -4,17 +4,17 @@ title: Lanreotide
 parent: Low Evidence (L5)
 nav_order: 577
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lanreotide: predicted new indication Hypertrichosis (evidence level L5). Approved use: Acromegaly, hyperpituitarism, pituitary gigantism"
+description: "Lanreotide: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Acromegaly, hyperpituitarism, pituitary gigantism"
 monitor_inn: "Lanreotide"
-predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "renal-hepatic-pancreatic dysplasia", "pulmonary arteriovenous malformation (disease)", "polycystic kidney disease 3 with or without polycystic liver disease", "genetic alopecia", "thoracic malformation"]
+predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 ---
 
 # Lanreotide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lanreotide: From Acromegaly to Hypertrichosis
+## Lanreotide: From Acromegaly to hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lanreotide is a long-acting somatostatin analogue, originally used for acromegaly, hyperpituitarism and pituitary gigantism.
 The TxGNN model's top-ranked prediction is **hypertrichosis**, but there are **0 clinical trials** and **0 publications** behind it, so it is a computational prediction only.
-A lower-ranked prediction, **polycystic kidney disease 3 with or without polycystic liver disease**, has far stronger support (see below).
 
 ---
 
@@ -50,10 +49,10 @@ A lower-ranked prediction, **polycystic kidney disease 3 with or without polycys
 |------|------|
 | Original Indication | Acromegaly, hyperpituitarism, pituitary gigantism (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +61,8 @@ A lower-ranked prediction, **polycystic kidney disease 3 with or without polycys
 
 Detailed mechanism of action data is not available in the data compiled for this report. Lanreotide is known as a somatostatin analogue that acts mainly through somatostatin receptors SSTR2 and SSTR5. It suppresses growth hormone secretion, which explains its use in acromegaly and related pituitary conditions.
 
-For hypertrichosis, **no mechanistic link is established**. No known pathway connects somatostatin receptor signalling to hair growth disorders. The high score (99.97%) reflects proximity in the knowledge graph, not biological or clinical evidence. The top five predictions (hypertrichosis, a dental/periodontal malformation syndrome, a Dandy-Walker malformation syndrome, a genetic hair shaft abnormality and Ambras-type hypertrichosis) all have no trials or publications and no plausible mechanism.
+For hypertrichosis, **no mechanistic link is established**. No known pathway connects somatostatin receptor signalling to hair growth disorders. The high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The top five predictions (hypertrichosis, a dental/periodontal malformation syndrome, a Dandy-Walker malformation syndrome, a genetic hair shaft abnormality and Ambras-type hypertrichosis) all have no trials or publications and no plausible mechanism.
 
-**A better-supported prediction ranks 8th:** polycystic kidney disease 3 with or without polycystic liver disease. Somatostatin analogues act through SSTR2 on bile duct cells and kidney tubule cells. They lower intracellular cAMP, which reduces cyst fluid secretion and cyst cell proliferation. This mechanism is well supported in polycystic liver and kidney disease. The listed disease is a specific genetic subtype (GANAB-related), whereas most trial evidence comes from the wider ADPKD/polycystic liver disease group, so the evidence applies by extension.
 
 ---
 
@@ -121,7 +119,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, hypertrichosis, rests only on a graph-based score. It has no trials, no literature and no plausible mechanism. It should not be pursued.
+The top-ranked prediction, hypertrichosis, rests only on a score from the TxGNN model (deep learning). It has no trials, no literature and no plausible mechanism. It should not be pursued.
 
 **To proceed, the following is needed:**
 - Re-prioritise the candidate list. The polycystic kidney/liver disease prediction (rank 8, evidence level L1, suggested "Proceed with Guardrails") is far better supported and should be evaluated as a separate candidate.

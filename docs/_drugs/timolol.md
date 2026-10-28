@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Timolol
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 992
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Timolol: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Hypertension, open-angle glaucoma, ocular hypertension"
+description: "Timolol: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Timolol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Timolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Timolol: From Hypertension and Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Timolol
 {: .text-alpha }
-
-## One-Sentence Summary
-
-> Timolol is a beta-blocker originally used for hypertension, open-angle glaucoma and ocular hypertension.
-> The TxGNN model predicts it may be effective for **primary hereditary glaucoma** (score 98.6%),
-> but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, open-angle glaucoma, ocular hypertension (from the knowledge graph, because the Singapore licence records contain no indication text) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 98.64% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 20 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, timolol is a non-selective beta-adrenergic blocker. In the eye it lowers intraocular pressure (IOP) by reducing aqueous humour production in the ciliary body.
-
-Its efficacy in open-angle glaucoma and ocular hypertension is established. Primary hereditary glaucoma is also a pressure-driven optic neuropathy, so an IOP-lowering drug is mechanistically plausible.
-
-However, the high score is a computational prediction only. It most likely reflects similarity to the already-approved glaucoma indications rather than independent evidence in hereditary forms. No trials or publications were found for this specific condition.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 20 of 20) |
+| Number of Registrations | 20 (valid: 20) |
 
 ## Singapore Market Information
 
@@ -93,20 +69,6 @@ Timolol has 20 valid registrations in Singapore, all ophthalmic solutions or sus
 
 Please refer to the package insert for label warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on the model score alone, with no trials or literature for primary hereditary glaucoma. The score likely reflects similarity to timolol's existing glaucoma indications. Timolol is already marketed in Singapore for glaucoma, so this prediction adds little beyond the current use.
-
-**To proceed, the following is needed:**
-- Clinical or observational evidence of timolol's IOP-lowering effect in hereditary or developmental glaucoma, including paediatric safety data
-- Detailed mechanism of action data
-- HSA package insert warnings and contraindications
-- Confirmation of approved indication wording for the Singapore licences
-
-**Note:** The second-ranked prediction, closed-angle glaucoma (score 97.2%), has stronger support: several randomised comparisons of timolol versus latanoprost in chronic angle-closure glaucoma, plus meta-analyses (evidence level L2). It may be a better candidate for further research. Timolol would be an adjunct to procedures that open the angle, not a standalone treatment.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

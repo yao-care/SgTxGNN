@@ -6,9 +6,9 @@ nav_order: 689
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Diarrhoeal disease"
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Morphine
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Morphine: From Diarrhoeal Disease to Myofascial Pain Syndrome
+## Morphine: Myofascial pain syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Morphine is an opioid analgesic that the knowledge graph links to diarrhoeal disease as its original indication.
+Morphine is an opioid analgesic whose original indication is diarrhoeal disease. Any predicted scores on this page come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 The TxGNN model predicts it may be effective for **myofascial pain syndrome**,
 but there are **0 clinical trials** and only **indirect literature** (10 publications, mostly related pain conditions) supporting this direction.
 
@@ -48,12 +48,12 @@ but there are **0 clinical trials** and only **indirect literature** (10 publica
 
 | Item | Content |
 |------|------|
-| Original Indication | Diarrhoeal disease (per the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myofascial pain syndrome |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -72,11 +72,11 @@ Some other predictions have more supporting evidence than the top-ranked one:
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 4 | **Restless legs syndrome** | 99.47% | L3 | Opioids are recognised as an option for refractory RLS; supported by a national registry with up to 5-year follow-up and intrathecal morphine reports. Recommendation: Research Question |
-| 2 | Manic bipolar affective disorder | 99.64% | L5 | Only animal-model and conceptual links; doubtful |
-| 3 | Tourette syndrome | 99.48% | L5 | Reviews and preclinical work only |
-| 6 | Migraine disorder | 99.32% | L4 | Guidelines generally discourage opioids; potential for harm |
-| 5, 7–10 | ADHD (inattentive), trichotillomania, methemoglobinaemia, migraine with brainstem aura, specific developmental disorder | 99.06–99.34% | L5 | No meaningful supporting evidence |
+| 4 | **Restless legs syndrome** | 0.9947 | L3 | Opioids are recognised as an option for refractory RLS; supported by a national registry with up to 5-year follow-up and intrathecal morphine reports. Recommendation: Research Question |
+| 2 | Manic bipolar affective disorder | 0.9964 | L5 | Only animal-model and conceptual links; doubtful |
+| 3 | Tourette syndrome | 0.9948 | L5 | Reviews and preclinical work only |
+| 6 | Migraine disorder | 0.9932 | L4 | Guidelines generally discourage opioids; potential for harm |
+| 5, 7–10 | ADHD (inattentive), trichotillomania, methemoglobinaemia, migraine with brainstem aura, specific developmental disorder | 99.06–0.9934 | L5 | No meaningful supporting evidence |
 
 ---
 

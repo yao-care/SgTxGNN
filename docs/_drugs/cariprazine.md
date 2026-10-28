@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Cariprazine
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 214
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cariprazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
-monitor_inn: "Cariprazine"
-predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "syndromic myopia", "myopia X-linked", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "distal 17p13.3 microdeletion syndrome"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Cariprazine: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Cariprazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,45 +32,48 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Cariprazine: From Schizophrenia and Bipolar Disorder to Retinal Dystrophy
+<!-- known-uses-page -->
+<!-- description: Cariprazine: known uses and market status in Singapore; currently no new candidate indication -->
+## Cariprazine: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model's candidates for Cariprazine (score ≥ 0.99) are all already known uses, so there is currently no new predicted indication. The one candidate that can be traced to a source, schizophrenia, is supported by a licence in another country.
 
-Cariprazine is an antipsychotic originally used for schizophrenia and bipolar disorder (including manic episodes).
-The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**,
-but **no clinical trials and no publications** currently support this direction, so the prediction rests on the model alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia; bipolar disorder (including manic episodes). The Singapore licences carry no indication text, so this comes from the knowledge-graph indication data. |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 98.70% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, cariprazine is a dopamine D3/D2 partial agonist and a serotonin 5-HT1A partial agonist. Its efficacy in schizophrenia and bipolar disorder comes from modulating these neurotransmitter systems.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| schizophrenia | licence in another country |
 
-The link to retinal dystrophy is weak. Dopamine signalling does play a role in retinal function, but retinal dystrophies are typically inherited degenerative disorders driven by genetic defects in photoreceptors or retinal pigment epithelium. A receptor-modulating antipsychotic is not expected to halt or reverse this degeneration. The high TxGNN score most likely reflects a pattern in the knowledge graph rather than a pharmacologically grounded prediction.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Other top-ranked predictions are also implausible. They include hydranencephaly, perisylvian polymicrogyria, a congenital disorder of glycosylation, Charcot-Marie-Tooth disease type 1G, atypical glycine encephalopathy and distal 17p13.3 microdeletion syndrome. These are structural, metabolic or genetic conditions that a neurotransmitter-receptor drug cannot correct. Three myopia entries (syndromic myopia, X-linked myopia, and myopia 26 X-linked female-limited) have a speculative link through retinal dopamine and eye growth. Cariprazine has not been tested for this, and these are genetic forms of myopia.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15746P | SYMVENU HARD CAPSULES 6MG | Capsule, gelatin coated | Not stated in the data compiled |
-| SIN15745P | SYMVENU HARD CAPSULES 4.5MG | Capsule, gelatin coated | Not stated in the data compiled |
-| SIN15744P | SYMVENU HARD CAPSULES 3MG | Capsule, gelatin coated | Not stated in the data compiled |
-| SIN15743P | SYMVENU HARD CAPSULES 1.5MG | Capsule, gelatin coated | Not stated in the data compiled |
-
-All four licences are valid single-ingredient oral products from Gedeon Richter Plc.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15746P | SYMVENU HARD CAPSULES 6MG | CAPSULE, GELATIN COATED | Valid |
+| SIN15745P | SYMVENU HARD CAPSULES 4.5MG | CAPSULE, GELATIN COATED | Valid |
+| SIN15744P | SYMVENU HARD CAPSULES 3MG | CAPSULE, GELATIN COATED | Valid |
+| SIN15743P | SYMVENU HARD CAPSULES 1.5MG | CAPSULE, GELATIN COATED | Valid |
 
 ## Safety Considerations
 
@@ -87,19 +89,6 @@ All four licences are valid single-ingredient oral products from Gedeon Richter 
 
 Please refer to the package insert for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no clinical trials and no publications, so it sits at evidence level L5. The mechanistic link to retinal dystrophy is weak, since these disorders are genetically driven degenerative conditions. Exposing patients to a systemic antipsychotic with a major drug interaction profile cannot be justified on model output alone.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, which block safety screening
-- Detailed mechanism of action data
-- Preclinical evidence, such as retinal degeneration models, showing a plausible effect of D3/D2 or 5-HT1A partial agonism
-- A literature search for any supporting studies
-- A review of whether another indication on the list has a more credible rationale, since none has any trial or literature support at present
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

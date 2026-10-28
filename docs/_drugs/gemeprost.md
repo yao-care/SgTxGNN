@@ -4,17 +4,17 @@ title: Gemeprost
 parent: Low Evidence (L5)
 nav_order: 473
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Gemeprost: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not stated in the Singapore licence record. The published literature…"
 monitor_inn: "Gemeprost"
-predicted_indications: ["atypical coarctation of aorta", "amenorrhea (disease)", "non-syndromic esophageal malformation", "aortic malformation", "pulmonary hypertension", "kyphoscoliotic heart disease", "esophageal disease", "peripheral arterial disease", "HER2 positive breast carcinoma", "vascular disease"]
+predicted_indications: ["atypical coarctation of aorta", "amenorrhea (disease)", "non-syndromic esophageal malformation", "aortic malformation", "pulmonary hypertension"]
+description: "Gemeprost: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Gemeprost
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Gemeprost: From Obstetric Use (Cervical Softening and Pregnancy Termination) to Atypical Coarctation of Aorta
+## Gemeprost: Atypical coarctation of aorta
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The top-ranked prediction is a network-based score only, and the evidence points
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record. The published literature describes use for medical termination of early pregnancy and cervical preparation. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Atypical coarctation of aorta |
-| TxGNN Prediction Score | 99.53% |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -105,7 +105,7 @@ Please refer to the package insert for formal warnings, contraindications and dr
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, atypical coarctation of aorta, has no trials or literature and no plausible mechanism. Gemeprost is an obstetric vaginal pessary with reported vasospastic and cardiovascular adverse events. The other nine predictions in the ranked list are mostly L5 and also rated Hold. The amenorrhea and vascular disease entries show literature, but it reflects existing obstetric use or safety concerns, not repurposing potential.
+The top prediction, atypical coarctation of aorta, has no trials or literature and no plausible mechanism. Gemeprost is an obstetric vaginal pessary with reported vasospastic and cardiovascular adverse events. The other nine predictions in the ranked list are mostly L5 and also rated Hold.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website

@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Degarelix: From Its Approved Use in Advanced Prostate Cancer to Hypertrichosis
+## Degarelix: From Its Approved Use in Advanced Prostate Cancer to hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ This is a model-only prediction, and the mechanistic link is weak.
 |------|------|
 | Original Indication | Not stated in the Singapore licence records compiled for this report |
 | Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a model-only prediction, and the mechanistic link is weak.
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on its known drug class, degarelix is a GnRH receptor antagonist. It suppresses LH and FSH, which in turn lowers gonadal androgens.
 
-Hypertrichosis is generally not androgen-dependent, unlike hirsutism, so the link between androgen suppression and this condition is weak. The very high TxGNN score reflects graph-based proximity in the knowledge network, not supporting trials or literature.
+Hypertrichosis is generally not androgen-dependent, unlike hirsutism, so the link between androgen suppression and this condition is weak. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, supporting trials or literature.
 
 The other top predictions are also weakly supported. Most are congenital or structural conditions (for example Ambras syndrome, Dandy-Walker malformation syndromes, and genetic hair shaft abnormalities) that hormone suppression would not be expected to correct. Two predictions are more plausible at the pathway level:
 - **Central precocious puberty** is the most biologically coherent, because suppressing the GnRH axis is already the standard of care there (with GnRH agonists). However, there are no paediatric data for degarelix, it is given as a depot injection with injection-site reactions, and approved agents already exist.
@@ -118,7 +118,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score, with no clinical trials or publications, and the mechanism linking GnRH antagonism to hypertrichosis is weak. Hypertrichosis is generally not androgen-dependent. The safety profile also raises QT-prolongation and hypersensitivity concerns.
+The prediction rests only on a TxGNN model (deep learning) score, with no clinical trials or publications, and the mechanism linking GnRH antagonism to hypertrichosis is weak. Hypertrichosis is generally not androgen-dependent. The safety profile also raises QT-prolongation and hypersensitivity concerns.
 
 **To proceed, the following is needed:**
 - The HSA package insert, to confirm approved indications, warnings and contraindications

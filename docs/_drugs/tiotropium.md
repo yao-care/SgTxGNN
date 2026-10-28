@@ -4,17 +4,17 @@ title: Tiotropium
 parent: High Evidence (L1-L2)
 nav_order: 993
 evidence_level: L1
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Bronchitis, asthma, intrinsic asthma, allergic asthma…"
 monitor_inn: "Tiotropium"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Tiotropium: From Bronchitis, Asthma and Emphysema to Obstructive Lung Disease
+## Tiotropium: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Currently, **many registered clinical trials** (including multiple large Phase 3
 
 | Item | Content |
 |------|------|
-| Original Indication | Bronchitis, asthma, intrinsic asthma, allergic asthma, pulmonary emphysema (knowledge-graph indications; the approved indication text in the Singapore licences is blank) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Obstructive lung disease is the parent category of the drug's established indications (COPD, asthma, emphysema). The prediction is therefore a class-level, on-label match rather than a new therapeutic area. Many of the listed trials are COPD trials, and the trial list overlaps substantially with the separate COPD prediction.
 
-Other lower-ranked predictions (for example respiratory malformation, Rienhoff syndrome, tracheal stenosis, interstitial emphysema) have no direct supporting evidence. Their scores most likely reflect knowledge-graph proximity rather than genuine therapeutic potential.
+Other lower-ranked predictions (for example respiratory malformation, Rienhoff syndrome, tracheal stenosis) have no direct supporting evidence. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -115,7 +115,7 @@ The most relevant trials are listed below. Many more COPD and asthma trials were
 
 ## Safety Considerations
 
-- **Contraindications / risk conditions (from knowledge-graph associations, not label text)**: benign prostatic hyperplasia, impaired renal function, angle-closure (closed-angle) glaucoma, and bladder neck obstruction. These are consistent with the known anticholinergic effects of the drug class.
+- **Contraindications / risk conditions (not label text)**: benign prostatic hyperplasia, impaired renal function, angle-closure (closed-angle) glaucoma, and bladder neck obstruction. These are consistent with the known anticholinergic effects of the drug class.
 - **Drug Interactions**: The interaction screen returned 100 records. The main concerns are additive anticholinergic effects (moderate level) with other antimuscarinics such as hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, trospium, mepenzolate, methscopolamine, propantheline and scopolamine. Other moderate interactions include eluxadoline, prucalopride and inhaled human insulin. Cimetidine is a minor interaction.
 - **Related study signals**: One trial examined tiotropium's effect on anterior chamber and intraocular parameters (relevant to glaucoma risk). Meta-analyses have discussed possible cardiovascular and mist-inhaler mortality signals, and these remain debated.
 

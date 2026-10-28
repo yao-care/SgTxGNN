@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Alendronic Acid
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 58
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Alendronic Acid: predicted new indication HIV infectious disease (evidence level L5). Approved use: Postmenopausal osteoporosis, osteoporosis, bone Paget disease…"
-monitor_inn: "Alendronic acid"
-predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "deficiency anemia", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "osteomesopyknosis", "obsolete familial combined hyperlipidemia", "biotin metabolic disease"]
+last_modified_at: 2026-10-23
+description: "Alendronic Acid: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Alendronic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Alendronic Acid: From Postmenopausal Osteoporosis to HIV Infectious Disease
+<!-- known-uses-page -->
+<!-- description: Alendronic Acid: known uses and market status in Singapore; currently no new candidate indication -->
+## Alendronic Acid
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Alendronic Acid. Every candidate that can be traced to a source is already a known use, so there is currently no new predicted indication. The one known use among the candidates is a relation recorded in the knowledge graph, with no approval found.
 
-Alendronic acid (alendronate) is a bisphosphonate originally used to treat osteoporosis, including postmenopausal osteoporosis, and Paget disease of bone.
-The TxGNN model predicts it may be effective for **HIV infectious disease**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only prediction.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis, osteoporosis, bone Paget disease, juvenile Paget disease (from the knowledge graph; no approved indication text is available in the Singapore licence records) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 96.78% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
-| Recommended Decision | Hold |
+| Known uses among model candidates | 1 |
+| Market status in Singapore | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available. Based on known information, alendronic acid is a nitrogen-containing bisphosphonate, a class that inhibits bone resorption, and its efficacy in osteoporosis and Paget disease is well established.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-A plausible but unverified mechanistic link is that nitrogen-containing bisphosphonates inhibit farnesyl pyrophosphate synthase and the prenylation of small GTPases, which could affect immune cell function. Bisphosphonates are also used for HIV-associated bone loss, but that concerns bone density and is not evidence of antiviral or disease-modifying activity against HIV itself.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The high score is therefore best read as a model-derived signal, not as verified evidence. Other top-ranked predictions (feline immunodeficiency syndrome and simian immunodeficiency virus infection, both at 94.8%) appear to come from the same HIV-related signal in the knowledge graph. Several lower-ranked predictions, such as deficiency anemia, megaloblastic anemia, biotin metabolic disease and a neurodevelopmental disorder, have no apparent mechanistic connection to bone-resorption inhibition.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| bone Paget disease |
+
+## Singapore Market Information
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15268P | BUFFERED BINOSTO EFFERVESCENT TABLET 70MG | TABLET, EFFERVESCENT | Valid |
+| SIN11446P | FOSAMAX TABLET 70 mg | TABLET, FILM COATED | Valid |
+| SIN13152P | Fosamax Plus™ 70mg/2800IU Tablet | TABLET | Valid |
 
 ## Safety Considerations
 
@@ -74,33 +85,9 @@ The high score is therefore best read as a model-derived signal, not as verified
 - Acetylsalicylic acid and kanamycin: **Moderate**
 - H2 blockers (famotidine, ranitidine, cimetidine): **Minor**
 
-For the predicted indications, deficiency anemia raises a potential interaction concern with iron supplements. Plummer-Vinson syndrome (dysphagia with oesophageal webs) is clinically implausible and raises a safety concern, because oral alendronate can irritate the oesophagus.
 
 Please refer to the package insert for the full warnings and contraindications.
 
-## Singapore Market Information
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15268P | Buffered Binosto Effervescent Tablet 70 mg | Tablet, effervescent | Not available in the data compiled for this report |
-| SIN11446P | Fosamax Tablet 70 mg | Tablet, film coated | Not available in the data compiled for this report |
-| SIN13152P | Fosamax Plus 70 mg/2800 IU Tablet | Tablet | Not available in the data compiled for this report |
-
-All three licences are valid, single-ingredient registrations and are oral forms.
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The HIV prediction rests only on a model score. No clinical trials or publications were found, so it sits at evidence level L5. The suggested mechanism is unverified, and bone benefit in HIV-associated bone loss is not evidence of an effect on HIV itself. The drug is marketed in Singapore only for bone-related use, so any HIV application would be a new use.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the Singapore regulator (HSA)
-- Mechanism of action data to test the proposed link between prenylation inhibition and immune or antiviral effects
-- A systematic literature and trial search for bisphosphonates in HIV beyond bone density outcomes
-- Preclinical evidence of antiviral or immunomodulatory activity, if the hypothesis is to be pursued
-- Review of the interaction and oesophageal safety profile for any target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

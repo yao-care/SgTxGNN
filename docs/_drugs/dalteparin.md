@@ -4,17 +4,17 @@ title: Dalteparin
 parent: Low Evidence (L5)
 nav_order: 298
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Dalteparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
+indication_count: 5
 monitor_inn: "Dalteparin"
-predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful", "thrombotic thrombocytopenic purpura", "retinal telangiectasia", "retinal microaneurysm", "arteriosclerotic retinopathy", "vertebral artery occlusion"]
+predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
+last_modified_at: 2026-10-27
+description: "Dalteparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dalteparin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dalteparin: From Pulmonary Embolism and Purpura Fulminans to Protein C Deficiency Thrombophilia
+## Dalteparin: low-molecular-weight heparin (factor Xa inhibitor) → thrombophilia due to protein C deficiency, autosomal recessive
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Dalteparin is a low-molecular-weight heparin (LMWH) originally used for pulmonary embolism, disseminated intravascular coagulation and purpura fulminans.
-The TxGNN model predicts it may be useful for **thrombophilia due to protein C deficiency (autosomal recessive)**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. The support is the model score alone.
+Dalteparin is a low-molecular-weight heparin that acts as an injectable anticoagulant.
+The TxGNN model predicts it may be effective for **thrombophilia due to protein C deficiency, autosomal recessive**,
+but **no clinical trials and no publications** directly support this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans, acquired purpura fulminans (from the TxGNN knowledge graph; the Singapore licence has no indication text) |
-| Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.88% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | thrombophilia due to protein C deficiency, autosomal recessive |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, dalteparin is an LMWH that potentiates antithrombin and inhibits factor Xa, thereby reducing clot formation.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, dalteparin is a low-molecular-weight heparin that potentiates antithrombin and inhibits factor Xa. Anticoagulation is biologically plausible for managing thrombotic risk in protein C deficiency, because loss of protein C activity removes a key natural brake on clotting.
 
-Protein C deficiency causes a strong tendency to clot, and its severe form presents as purpura fulminans, which is already among dalteparin's original indications in the knowledge graph. This overlap with the protein C pathway makes anticoagulation biologically plausible. Any use would be adjunctive only, because LMWH does not replace protein C.
+Protein C deficiency is also related to purpura fulminans, a condition in which the protein C pathway is central. This overlap offers a loose rationale for the prediction.
 
-The other predictions are weaker. For several (primary platelet release disorder, pseudo-von Willebrand disease, retinal telangiectasia, retinal microaneurysm, arteriosclerotic retinopathy), an anticoagulant would be expected to add bleeding risk rather than treat the disease, and the scores likely reflect network proximity in the knowledge graph. For atypical haemolytic-uraemic syndrome with thrombomodulin anomaly and thrombotic thrombocytopenic purpura, the rationale is peripheral because complement inhibitors or plasma-based therapy are the standard approach.
+There are important limits. Low-molecular-weight heparin does not replace protein C, so any use would be adjunctive to protein C replacement or other standard care. The support here is a high model score only, with no trial or literature evidence for this disease.
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials are registered for the top predicted indication.
-
-Among the lower-ranked predictions, one trial was linked to painful neuropathy (rank 5), but it does not support that indication:
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00445328](https://clinicaltrials.gov/study/NCT00445328) | Phase 4 | Terminated | 84 | Open-label comparison of dalteparin vs unfractionated heparin for VTE prevention in hospitalised acutely ill medical patients. It does not study painful neuropathy, so it is likely a mismatch, and early termination limits its value. |
+Currently no related clinical trials registered for this predicted indication.
 
 ## Literature Evidence
 
-Currently no related literature is available for the top predicted indication.
-
-The only publication linked to any prediction (rank 10, vertebral artery occlusion) is indirect preclinical work:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [17011126](https://pubmed.ncbi.nlm.nih.gov/17011126/) | 2006 | Preclinical (rat) | Neuroscience Letters | Compared pentosan polysulphate with dalteparin in a rat model of ischaemia-related hippocampal neuronal death. It concerns neuroprotection in an ischaemia model, not vertebral artery occlusion in patients. |
+Currently no related literature available for this predicted indication.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN05249P | FRAGMIN INJECTION 2500 iu/ml | Injection | Not stated in the available data |
-
-The product is a single-ingredient injectable made by Pfizer Manufacturing Belgium NV, and its licence is valid.
+| SIN05249P | FRAGMIN INJECTION 2500 iu/ml | Injection | Not recorded in the local data |
 
 ## Safety Considerations
 
-Package insert warnings and contraindications were not available. Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were found in the interaction screen. Examples at Major level include acetylsalicylic acid, ibuprofen, ketorolac, fondaparinux, abciximab, acalabrutinib, deferasirox, trastuzumab emtansine, ibritumomab tiuxetan and tositumomab. Moderate-level examples include fluvoxamine, fosinopril, sugammadex, fenfluramine, dexfenfluramine and sibutramine. Most Major interactions involve other agents that raise bleeding risk.
 
-- **Knowledge-graph contraindications (not label text)**: The graph links dalteparin to contraindications in conditions with bleeding risk or coagulation abnormalities. These include heparin-induced thrombocytopenia, thrombocytopenia, haemophilia, blood coagulation disease, antithrombin III deficiency, intracranial and intracerebral haemorrhage, active peptic ulcer disease, liver failure, infective endocarditis, placental abruption, Glanzmann thrombasthenia and qualitative platelet defects. Others are retinal disease and retinopathies (diabetic, hypertensive), inflammatory bowel disease, ulcerative colitis, biliary tract disease, obstructive jaundice and osteoporosis.
-- **Drug interactions**: The data compiled for this report list 100 interactions, of which the first 20 were provided. Major interactions include:
-  - Antiplatelet and anticoagulant agents: acetylsalicylic acid, abciximab, fondaparinux
-  - NSAIDs: ketorolac, ibuprofen
-  - Others: acalabrutinib, deferasirox, trastuzumab emtansine, ibritumomab tiuxetan, tositumomab
-  
-  Moderate interactions include fenfluramine, dexfenfluramine, sibutramine, fluvoxamine, fosinopril, sugammadex and radioiodine agents. Together these mainly point to additive bleeding risk.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information. Because dalteparin is an anticoagulant, bleeding risk must be assessed carefully before any new use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has a plausible mechanism, but no trials or publications support it, so the evidence is limited to the model score (L5). The package insert safety review is incomplete, and many of the lower-ranked predictions involve conditions where bleeding risk makes an anticoagulant a poor fit.
+The prediction score is very high (0.9988), but there are no trials or publications for this disease, so the evidence level is L5. The mechanism is plausible but dalteparin cannot replace protein C, so its role would be at most supportive.
 
 **To proceed, the following is needed:**
-- The package insert from the HSA website, to complete the warnings and contraindications review
-- Mechanism of action data (for example from DrugBank)
-- A literature search on LMWH in protein C deficiency and purpura fulminans, including case series
-- Expert clinical review of adjunctive use alongside protein C replacement
-- Assessment of bleeding risk in the target population
+- Literature review of low-molecular-weight heparin use in protein C deficiency, including case series
+- Package insert warnings and contraindications from the HSA record
+- Detailed mechanism of action data
+- Specialist input on adjunctive use alongside protein C replacement, with a bleeding-risk plan
+- Review of the dosing and route requirements for this population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

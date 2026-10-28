@@ -4,17 +4,17 @@ title: Sorbitol
 parent: Low Evidence (L5)
 nav_order: 931
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sorbitol: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not stated in the Singapore licence record"
 monitor_inn: "Sorbitol"
-predicted_indications: ["exercise-induced malignant hyperthermia", "epiglottitis", "congestive heart failure", "infectious otitis media", "toxocariasis", "acute pulmonary heart disease", "middle ear cholesterol granuloma", "otosalpingitis", "allergic otitis media", "familial periodic paralysis"]
+predicted_indications: ["exercise-induced malignant hyperthermia"]
+description: "Sorbitol: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sorbitol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sorbitol: From an Osmotic Agent and Excipient to Exercise-Induced Malignant Hyperthermia
+## Sorbitol: Exercise-induced malignant hyperthermia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is a computational output only and has no clinical backing.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +62,10 @@ The prediction is a computational output only and has no clinical backing.
 
 Currently, detailed mechanism of action data is not available. Sorbitol is a sugar alcohol used as an osmotic agent and as a formulation excipient. Its pharmacology has no known link to the predicted disease.
 
-Exercise-induced malignant hyperthermia is associated with dysregulated calcium handling in skeletal muscle (ryanodine receptor dysfunction). Sorbitol has no known action on this pathway. The high score (0.994) most likely reflects proximity in the knowledge graph rather than pharmacology, so the prediction should be treated as a likely knowledge-graph artefact.
+Exercise-induced malignant hyperthermia is associated with dysregulated calcium handling in skeletal muscle (ryanodine receptor dysfunction). Sorbitol has no known action on this pathway. The high score (0.9940) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should be treated as a likely model artefact.
 
 Other top-ranked predictions were also reviewed. None has trial evidence, and only two have any indirect literature:
-- **Congestive heart failure**: the literature shows only an association between raised myocardial sorbitol and diastolic dysfunction in diabetes. This suggests possible harm rather than benefit.
-- **Infectious otitis media**: the only relevant paper is a trial of xylitol, a different sugar alcohol, which cannot be extrapolated to sorbitol.
+- This suggests possible harm rather than benefit.
 
 ---
 
@@ -92,7 +91,7 @@ Currently no related literature available for exercise-induced malignant hyperth
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signal, not label text)**: Active peptic ulcer disease is listed as a contraindication in the TxGNN knowledge graph.
+- **Contraindications (not label text)**: Active peptic ulcer disease is listed as a contraindication in the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence.
 - **Drug Interactions** (2 found):
   - **Tolevamer**: Major
   - **Lamivudine**: Moderate

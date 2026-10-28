@@ -4,17 +4,17 @@ title: Paclitaxel
 parent: Low Evidence (L5)
 nav_order: 754
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Paclitaxel: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "Paclitaxel"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Paclitaxel: From Ovarian Cancer to Female Breast Carcinoma
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Paclitaxel is a microtubule-stabilizing taxane chemotherapy, originally used for ovarian cancer.
-The TxGNN model predicts it may be effective for **female breast carcinoma**,
 with **40 clinical trials** and **20 publications** currently supporting this direction. Paclitaxel is already an established standard-of-care taxane in breast cancer, so this is closer to a label-adjacent indication than true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (the approved indication text in the Singapore licence records is empty) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.995% |
-| Evidence Level | L2 (as assigned in the compiled data; Phase 3 trials exist but are mostly combination or backbone studies) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 14 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 (as assigned in the compiled data; Phase 3 trials exist but are mostly combination or backbone studies) |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

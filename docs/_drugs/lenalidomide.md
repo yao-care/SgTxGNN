@@ -4,17 +4,17 @@ title: Lenalidomide
 parent: High Evidence (L1-L2)
 nav_order: 586
 evidence_level: L2
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm…"
 monitor_inn: "Lenalidomide"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5", "lymph node cancer", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "ganglioneuroblastoma (disease)", "acute lymphoblastic leukemia (disease)"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
+description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Lenalidomide: From Plasma Cell Myeloma to Myeloid Leukemia
+## Lenalidomide: Myeloid leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ with **44 clinical trials** and **19 publications** currently linked to this dir
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm, lymphosarcoma, myelodysplastic syndrome (the registration records contain no approved-indication text, so the original indications come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -153,8 +153,8 @@ Many phase 1 and 2 studies, including the larger randomised azacitidine ± lenal
 | Unclassified myelodysplastic syndrome | L3 | Research Question (evidence mostly in the del(5q) subset) |
 | Lymph node cancer | L3 | Research Question (the linked trial is in prostate cancer and is not relevant) |
 | Acute lymphoblastic leukemia | L3 | Hold (small early studies; secondary B-ALL safety signal) |
-| Refractory cytopenia of childhood | L4 | Hold |
-| Aregenerative anemia | L4 | Hold |
+| Refractory cytopenia of childhood | L5 | Hold |
+| Aregenerative anemia | L5 | Hold |
 | Blast phase CML, BCR-ABL1 positive | L4 | Hold |
 | Severe congenital hypochromic anemia with ringed sideroblasts | L5 | Hold |
 | Partial deletion of the long arm of chromosome 5 | L5 | Hold (largely covered by the approved del(5q) MDS use) |

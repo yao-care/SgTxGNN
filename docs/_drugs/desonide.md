@@ -6,9 +6,9 @@ nav_order: 317
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Desonide: predicted new indication Polyp of vocal cord (evidence level L5). Approved use: Not stated in the Singapore licence records. The knowledge graph list…"
 monitor_inn: "Desonide"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
+description: "Desonide: predicted new indication Polyp of vocal cord (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Desonide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Desonide: From Inflammatory Skin and Allergic Conditions to Polyp of Vocal Cord
+## Desonide: Polyp of vocal cord
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **polyp of vocal cord**, but **
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records. The knowledge graph lists inflammatory skin conditions (e.g. atopic dermatitis, contact dermatitis, seborrheic dermatitis) and several allergic or inflammatory conditions (e.g. asthma, allergic rhinitis, inflammatory bowel disease) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Polyp of vocal cord |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,15 +63,15 @@ The other top predictions follow the same pattern, and all share the same limita
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Polyp of middle ear | 99.91% | L5 | Corticosteroids are used in ear inflammation, but treatment is surgical or targets the underlying disease |
-| 3 | Polyp of external auditory canal | 99.91% | L5 | Skin-lined canal makes topical delivery plausible, but no evidence for effect on polyp tissue |
-| 4 | Polyp of frontal sinus | 99.91% | L5 | Class-level rationale from sinonasal polyposis, but desonide is not designed for sinus delivery |
-| 5 | Polyp of ureter | 99.90% | L5 | No plausible mechanism or delivery route |
-| 6 | Polyp of vulva | 99.90% | L5 | Topical delivery feasible, but these lesions are treated by excision |
-| 7 | Fibroepithelial polyp | 99.90% | L5 | Benign overgrowth treated by excision |
-| 8 | Neoplastic polyp | 99.90% | L5 | No known antineoplastic action; speculative |
-| 9 | Epulis | 99.90% | L5 | Product not formulated for oral mucosa |
-| 10 | Uterine polyp | 99.90% | L5 | No delivery route or known mechanism |
+| 2 | Polyp of middle ear | 0.9991 | L5 | Corticosteroids are used in ear inflammation, but treatment is surgical or targets the underlying disease |
+| 3 | Polyp of external auditory canal | 0.9991 | L5 | Skin-lined canal makes topical delivery plausible, but no evidence for effect on polyp tissue |
+| 4 | Polyp of frontal sinus | 0.9991 | L5 | Class-level rationale from sinonasal polyposis, but desonide is not designed for sinus delivery |
+| 5 | Polyp of ureter | 0.9990 | L5 | No plausible mechanism or delivery route |
+| 6 | Polyp of vulva | 0.9990 | L5 | Topical delivery feasible, but these lesions are treated by excision |
+| 7 | Fibroepithelial polyp | 0.9990 | L5 | Benign overgrowth treated by excision |
+| 8 | Neoplastic polyp | 0.9990 | L5 | No known antineoplastic action; speculative |
+| 9 | Epulis | 0.9990 | L5 | Product not formulated for oral mucosa |
+| 10 | Uterine polyp | 0.9990 | L5 | No delivery route or known mechanism |
 
 ## Clinical Trial Evidence
 

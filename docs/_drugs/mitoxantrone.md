@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mitoxantrone
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 682
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L4). Approved use: Myeloid leukaemia / acute myeloid leukaemia"
 monitor_inn: "Mitoxantrone"
-predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex", "bulbar polio", "adenosarcoma"]
+predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 ---
 
 # Mitoxantrone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The evidence for this specific prediction is therefore weak, although the closel
 |------|------|
 | Original Indication | Myeloid leukaemia / acute myeloid leukaemia (the Singapore licence record contains no approved indication text) |
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9978 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

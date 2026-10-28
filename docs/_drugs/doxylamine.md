@@ -4,17 +4,17 @@ title: Doxylamine
 parent: Low Evidence (L5)
 nav_order: 354
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Doxylamine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Doxylamine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia", "headache disorder", "faucial diphtheria"]
+predicted_indications: ["nasal cavity disease"]
+description: "Doxylamine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Doxylamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Doxylamine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
+## Doxylamine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Doxylamine is a first-generation H1 antihistamine, originally used for allergic and vasomotor rhinitis, the common cold, allergic conjunctivitis and urticaria/angioedema.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but this is mostly an overlap with an existing indication.
 There are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, allergic conjunctivitis, urticaria, angioedema (from the knowledge graph; no approved-indication text is available on the Singapore licences) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.85% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,10 +60,8 @@ Detailed mechanism of action data is not available in the data compiled for this
 Urticaria and angioedema are already among doxylamine's original indications, so allergic urticaria is mechanistically consistent with its known use. The very high TxGNN score mostly reflects this overlap with an existing indication rather than a genuinely new repurposing opportunity.
 
 Other top-ranked predictions follow the same pattern:
-- **Nasal cavity disease, acute laryngopharyngitis and cold urticaria** (ranks 2–4, scores 99.3–99.4%) overlap with existing rhinitis, pharyngitis, cold and urticaria indications. Any benefit would be symptomatic.
-- **Recalcitrant atopic dermatitis** (97.5%): sedation may relieve itch and sleep disturbance, but the underlying disease is not treated.
-- **Rosacea conjunctivitis, trigeminal autonomic cephalalgia and faucial diphtheria** have weak or no mechanistic rationale. Oral anticholinergic effects could worsen dry eye in rosacea-related ocular disease.
-- **Headache disorder** (83.2%) is the only prediction with any literature, and that literature is indirect (see below).
+- Any benefit would be symptomatic.
+- Oral anticholinergic effects could worsen dry eye in rosacea-related ocular disease.
 
 ## Clinical Trial Evidence
 
@@ -72,7 +69,7 @@ Currently no related clinical trials registered for allergic urticaria.
 
 ## Literature Evidence
 
-No literature is available for allergic urticaria. For the ninth-ranked prediction (headache disorder), the following indirect publications were found:
+No literature is available for allergic urticaria.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

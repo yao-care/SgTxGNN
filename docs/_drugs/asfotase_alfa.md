@@ -5,10 +5,10 @@ parent: Low Evidence (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Asfotase Alfa: predicted new indication Mitochondrial oxidative phosphorylation disorder due to nuclear DNA a… (evidence level L5). Approved use: Hypophosphatasia"
 monitor_inn: "Asfotase alfa"
-predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices without bleeding", "esophageal varices with bleeding", "cystinosis"]
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
+last_modified_at: 2026-10-27
+description: "Asfotase Alfa: predicted new indication mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Asfotase Alfa
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Asfotase alfa: From Hypophosphatasia to Mitochondrial Oxidative Phosphorylation Disorder Due to Nuclear DNA Anomalies
+## Asfotase alfa: recombinant tissue-nonspecific alkaline phosphatase enzyme replacement → mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Asfotase alfa is an enzyme replacement therapy originally used to treat hypophosphatasia.
+Asfotase alfa is a recombinant tissue-nonspecific alkaline phosphatase (TNALP) enzyme replacement therapy.
 The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**,
 but **no clinical trials and no publications** currently support this direction, so the prediction rests on the model alone.
 
@@ -46,30 +46,34 @@ but **no clinical trials and no publications** currently support this direction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypophosphatasia (from the knowledge graph; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, asfotase alfa is a recombinant tissue-nonspecific alkaline phosphatase (TNALP) enzyme replacement. It cleaves inorganic pyrophosphate and other phosphate substrates, and its efficacy in hypophosphatasia comes from restoring bone mineralization.
+Detailed mechanism of action data is not currently available. Asfotase alfa is a recombinant TNALP enzyme replacement that cleaves inorganic pyrophosphate and other phosphate substrates.
 
-For the predicted indication, no clear mechanistic link can be identified. Nuclear-encoded oxidative phosphorylation disorders arise from defects in respiratory chain subunits or assembly factors. These are not substrates or pathways of TNALP. The high score is a graph-based prediction only and cannot be verified mechanistically with the data compiled for this report.
+Nuclear-encoded oxidative phosphorylation disorders arise from defects in respiratory chain subunits or assembly factors. These are not substrates or pathways of TNALP, so no clear mechanistic link can be established. The TxGNN score is a model-based prediction only, and no mechanistic rationale can be verified from the data compiled for this report.
 
-Other top-ranked predictions show the same pattern: Steel syndrome, exocrine pancreatic insufficiency, Scheie syndrome, Hurler syndrome, lysosomal storage disease with skeletal involvement, familial apolipoprotein C-II deficiency, esophageal varices (with and without bleeding) and cystinosis. None has supporting trials or literature. Their scores likely reflect shared "enzyme replacement" or skeletal-phenotype features in the knowledge graph rather than biological relevance.
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+## Literature Evidence
+
+Currently no related literature available.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17126P | STRENSIQ Solution for Injection 100 mg/mL | Injection, solution | Not stated in the licence record |
-| SIN17127P | STRENSIQ Solution for Injection 40 mg/mL | Injection, solution | Not stated in the licence record |
-
-Both licences are valid single-ingredient products. The manufacturer is Alexion Pharma International Operations Limited, with Patheon Italia S.p.A.
+| SIN17126P | STRENSIQ SOLUTION FOR INJECTION 100 MG/ML | Injection, solution | Not recorded in the local data |
+| SIN17127P | STRENSIQ SOLUTION FOR INJECTION 40 MG/ML | Injection, solution | Not recorded in the local data |
 
 ## Safety Considerations
 
@@ -80,14 +84,12 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or literature (L5), and no plausible mechanistic link between TNALP replacement and nuclear-encoded respiratory chain defects. Safety label data have not yet been obtained, so the candidate cannot move past initial screening.
+The prediction is supported only by the TxGNN model score. There are no clinical trials or publications for this disease, and no plausible mechanistic link to TNALP replacement could be identified. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website
-- Mechanism of action data for asfotase alfa
-- Preclinical or mechanistic evidence linking TNALP activity to mitochondrial oxidative phosphorylation
-- Confirmation of the approved indication text for the two Singapore licences
-- A route and formulation compatibility assessment (currently injection only)
+- Mechanism of action data for asfotase alfa, and a mechanistic rationale connecting TNALP activity to nuclear-encoded oxidative phosphorylation defects
+- Preclinical or clinical studies directly addressing this disease
+- Package insert warnings and contraindications from the HSA website to allow safety screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

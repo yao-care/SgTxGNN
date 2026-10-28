@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Doxycycline
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 353
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bronchitis, acne, bacterial pneumonia, anthrax, gonorrhoea and others"
 monitor_inn: "Doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
+description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Doxycycline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Doxycycline: From Bronchitis and Acne to Punctate Epithelial Keratoconjunctivitis
+## Doxycycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but so far only **1 publication** (a 1992 case report) and **no clinical trials*
 
 | Item | Content |
 |------|------|
-| Original Indication | Bronchitis, acne, bacterial pneumonia, anthrax, gonorrhoea and others (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -127,14 +127,14 @@ The model's other top-ranked predictions have similarly limited support, apart f
 | Predicted Indication | Evidence Level | Decision | Note |
 |------|------|------|------|
 | Otitis externa | L4 | Hold | Mostly veterinary resistance surveillance; standard therapy is topical |
-| Postinfectious vasculitis | L4 | Hold | Case reports only |
-| Post-bacterial disorder | L1 | Research Question | 11 trials, mostly doxycycline post-exposure prophylaxis for STIs, including completed Phase 2/3 (NCT00237016) and Phase 3 (NCT00351273) trials. This extends its antibacterial use rather than being a new mechanism, and resistance is a concern |
+| Postinfectious vasculitis | L5 | Hold | Case reports only |
+| Post-bacterial disorder | L5 | Research Question | 11 trials, mostly doxycycline post-exposure prophylaxis for STIs, including completed Phase 2/3 (NCT00237016) and Phase 3 (NCT00351273) trials. This extends its antibacterial use rather than being a new mechanism, and resistance is a concern |
 | Post-infectious syndrome | L1 | Research Question | Doxycycline post-exposure prophylaxis for STIs (NCT04050540, NCT07658976 and NCT07500415) rather than immune-mediated syndromes; the Phase 3 trial is not yet recruiting, so the signal is weak |
-| Infective urethral stricture | L4 | Hold | One retrospective brucellosis series; no stricture benefit shown |
-| Chagas cardiomyopathy | L4 | Hold | Preclinical study showed no added benefit over benznidazole |
+| Infective urethral stricture | L5 | Hold | One retrospective brucellosis series; no stricture benefit shown |
+| Chagas cardiomyopathy | L5 | Hold | Preclinical study showed no added benefit over benznidazole |
 | Infection-related haemolytic uraemic syndrome | L5 | Hold | No evidence; antibiotics may increase toxin release in Shiga toxin-producing *E. coli* infection, a safety concern |
-| Exposure keratitis | L4 | Hold | Literature is off-target |
-| Chronic gingivitis | L3 | Research Question | Supportive periodontitis studies, but the exact condition is not established, and doxycycline is already approved for periodontitis |
+| Exposure keratitis | L5 | Hold | Literature is off-target |
+| Chronic gingivitis | L5 | Research Question | Supportive periodontitis studies, but the exact condition is not established, and doxycycline is already approved for periodontitis |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Tadalafil
 parent: Low Evidence (L5)
 nav_order: 948
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Erectile dysfunction, benign prostatic hyperplasia…"
 monitor_inn: "Tadalafil"
-predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura", "migraine disorder", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 ---
 
 # Tadalafil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Tadalafil is a PDE5 inhibitor originally used for erectile dysfunction, benign prostatic hyperplasia and pulmonary hypertension.
 The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
-The prediction should be treated with great caution and is most likely a knowledge-graph artifact.
+The prediction should be treated with great caution and is most likely a TxGNN model (deep learning) artifact.
 
 ---
 
@@ -50,9 +50,9 @@ The prediction should be treated with great caution and is most likely a knowled
 |------|------|
 | Original Indication | Erectile dysfunction, benign prostatic hyperplasia, pulmonary hypertension, psychologic dyspareunia, premature ejaculation (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -62,11 +62,11 @@ The prediction should be treated with great caution and is most likely a knowled
 
 Currently, detailed mechanism of action data is not available from the data compiled for this report. Tadalafil is known to be a PDE5 inhibitor, which raises cGMP and causes vasodilation. This is the basis of its efficacy in erectile dysfunction and pulmonary hypertension.
 
-A speculative link to hair disorders is that cGMP-mediated changes in perifollicular blood flow could affect hair growth, as is seen with other vasodilators such as minoxidil. However, Ambras syndrome is a rare congenital disorder with a genetic basis (chromosome 8q rearrangements affecting TRPS1 regulation). A PDE5 inhibitor is unlikely to be therapeutically relevant, and the high score probably reflects shared neighbours in the knowledge graph rather than a true therapeutic effect.
+A speculative link to hair disorders is that cGMP-mediated changes in perifollicular blood flow could affect hair growth, as is seen with other vasodilators such as minoxidil. However, Ambras syndrome is a rare congenital disorder with a genetic basis (chromosome 8q rearrangements affecting TRPS1 regulation). A PDE5 inhibitor is unlikely to be therapeutically relevant. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top predictions (hypertrichosis, isolated genetic hair shaft abnormality, familial isolated trichomegaly, hypotrichosis simplex of the scalp) form a "hair-phenotype cluster". For several of these, such as hypertrichosis and trichomegaly, increased hair growth is the disease itself, so the direction of any effect is unclear.
 
-The most biologically plausible of the ten predictions is **kyphoscoliotic heart disease** (score 99.43%). Kyphoscoliosis can cause chronic hypoxia and secondary pulmonary hypertension, and tadalafil is used in pulmonary hypertension. This remains a hypothesis, because PDE5 inhibitors can worsen ventilation-perfusion matching in hypoxic lung disease and no studies in this population were available.
+The most biologically plausible of the ten predictions is **kyphoscoliotic heart disease** (score 0.9943). Kyphoscoliosis can cause chronic hypoxia and secondary pulmonary hypertension, and tadalafil is used in pulmonary hypertension. This remains a hypothesis, because PDE5 inhibitors can worsen ventilation-perfusion matching in hypoxic lung disease and no studies in this population were available.
 
 ---
 
@@ -119,7 +119,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a graph-based score. There are no trials or publications, and the proposed mechanism is weak for a genetic disorder. The same applies to the other nine predictions, none of which has efficacy evidence. The only available literature, the migraine aura case report, points toward harm rather than benefit.
+The prediction is supported only by a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or publications, and the proposed mechanism is weak for a genetic disorder. The same applies to the other predictions, none of which has efficacy evidence. The only available literature, the migraine aura case report, points toward harm rather than benefit.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA

@@ -4,7 +4,7 @@ title: Enfortumab Vedotin
 parent: Low Evidence (L5)
 nav_order: 376
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Enfortumab Vedotin: predicted new indication Leprosy (evidence level L5). Approved use: Not stated in the Singapore licence records (the approved indication…"
 monitor_inn: "Enfortumab vedotin"
@@ -14,7 +14,7 @@ predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovi
 # Enfortumab Vedotin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Enfortumab vedotin is a Nectin-4-directed antibody-drug conjugate (ADC) carrying
 |------|------|
 | Original Indication | Not stated in the Singapore licence records (the approved indication text is blank) |
 | Predicted New Indication | Leprosy (rank 1); the only prediction with a trial is HER2-positive breast carcinoma (rank 10) |
-| TxGNN Prediction Score | 99.53% (leprosy); 98.99% (HER2-positive breast carcinoma) |
+| TxGNN Prediction Score | 0.9953 (leprosy) |
 | Evidence Level | L5 (leprosy); L4 (HER2-positive breast carcinoma) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,7 +67,7 @@ Enfortumab vedotin is an antibody-drug conjugate. The antibody binds Nectin-4, a
 - Cerebral infarction
 - HIV infectious disease
 - Homozygous familial hypercholesterolemia
-- Two veterinary diseases, infectious bovine rhinotracheitis and malignant catarrh. These share an identical score and are probably knowledge-graph artefacts.
+- Two veterinary diseases, infectious bovine rhinotracheitis and malignant catarrh. These share an identical score and are probably TxGNN model (deep learning) artefacts.
 
 The two infection-related predictions that have publications, cytomegalovirus infection and candidiasis, are linked only to adverse-event reports. One is a case of severe oesophagitis after enfortumab vedotin plus pembrolizumab. The other is a pharmacovigilance (FAERS) analysis of ADC safety signals. These are safety observations, not evidence of therapeutic benefit.
 

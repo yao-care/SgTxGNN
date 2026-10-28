@@ -4,17 +4,17 @@ title: Mepivacaine
 parent: Low Evidence (L5)
 nav_order: 649
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Mepivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Local anaesthesia"
 monitor_inn: "Mepivacaine"
-predicted_indications: ["gastroduodenitis", "peptic ulcer disease", "gout", "bronchitis", "rhinitis", "infectious otitis media", "hypertensive disorder", "malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
+description: "Mepivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mepivacaine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mepivacaine: From Local Anaesthesia to Gastroduodenitis
+## Mepivacaine: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mepivacaine is an amide-type local anaesthetic (a sodium channel blocker) that is marketed in Singapore as injectable products, mainly for dental use.
 The TxGNN model predicts it may be effective for **gastroduodenitis**, but this is a computational prediction only, with **0 clinical trials** and **0 publications** supporting it.
-Among the other top-ranked predictions, only gout and hypertensive disorder have any related studies, and these are indirect.
 
 ---
 
@@ -48,12 +47,12 @@ Among the other top-ranked predictions, only gout and hypertensive disorder have
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anaesthesia (the licence records contain no approved indication text; this is inferred from the drug class and product names) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +61,11 @@ Among the other top-ranked predictions, only gout and hypertensive disorder have
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mepivacaine is a sodium channel blocker local anaesthetic. It blocks nerve conduction to produce temporary loss of sensation.
 
-For gastroduodenitis, the data compiled for this report do not support a mechanistic rationale. No trials or publications link mepivacaine to this condition. The high score (0.995) reflects a computational association in the knowledge graph and should not be read as evidence of efficacy. Local anaesthesia would also not address the underlying causes of gastroduodenal inflammation.
+For gastroduodenitis, the data compiled for this report do not support a mechanistic rationale. No trials or publications link mepivacaine to this condition. Local anaesthesia would also not address the underlying causes of gastroduodenal inflammation.
 
 Other predictions were checked for supporting evidence:
-- **Gout (rank 3, score 98.3%):** Mepivacaine was used as a co-injected anaesthetic with intra-articular triamcinolone for gout flares. Pain relief is attributed mainly to the corticosteroid, so mepivacaine's own contribution is not established. This is the most clinically relevant signal among the predictions, but it is indirect.
-- **Hypertensive disorder (rank 7, score 95.6%):** Studies address haemodynamic effects in hypertensive patients during dental and surgical anaesthesia, and nerve blocks for tourniquet-associated hypertension. These are questions of safe use and procedural effects, not treatment of hypertensive disease. It is also unconfirmed that mepivacaine was the agent in the tourniquet trials.
+- Pain relief is attributed mainly to the corticosteroid, so mepivacaine's own contribution is not established. This is the most clinically relevant signal among the predictions, but it is indirect.
+- These are questions of safe use and procedural effects, not treatment of hypertensive disease. It is also unconfirmed that mepivacaine was the agent in the tourniquet trials.
 - **Other predictions** (peptic ulcer disease, bronchitis, rhinitis, otitis media, malignant hypertension types, pulmonary hypertension): no meaningful therapeutic support. The retrieved papers are unrelated or are case reports of adverse events.
 
 ---
@@ -75,7 +74,6 @@ Other predictions were checked for supporting evidence:
 
 Currently no related clinical trials are registered for gastroduodenitis.
 
-For reference, trials were found for the lower-ranked prediction of hypertensive disorder, but they are procedural or safety-focused:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -132,13 +130,12 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for gastroduodenitis rests on a model score alone, with no clinical trials, no literature and no plausible mechanistic link. Even the more developed signals (gout, hypertensive disorder) are indirect: mepivacaine acts as a co-administered anaesthetic or the studies concern safe use, not treatment.
+The prediction for gastroduodenitis rests on a model score alone, with no clinical trials, no literature and no plausible mechanistic link.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
 - Mechanism of action data for mepivacaine
 - Approved indication text for the Singapore licences
-- Clarification of whether the gout combination studies isolate any contribution from mepivacaine, and confirmation of the study design
 - Confirmation of which anaesthetic agent was used in the tourniquet-hypertension trials
 - Route compatibility and similarity-to-original-indication assessments, which have not yet been done
 ## Disclaimer

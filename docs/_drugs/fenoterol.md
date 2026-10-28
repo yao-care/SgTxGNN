@@ -4,17 +4,17 @@ title: Fenoterol
 parent: Low Evidence (L5)
 nav_order: 424
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Fenoterol: predicted new indication Multiple system atrophy (evidence level L5). Approved use: Not stated in the Singapore licence records. Fenoterol is used as a b…"
 monitor_inn: "Fenoterol"
-predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease", "anaphylaxis", "glaucoma 1, open angle"]
+predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
+description: "Fenoterol: predicted new indication Multiple system atrophy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fenoterol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fenoterol: From Bronchodilator Use to Multiple System Atrophy
+## Fenoterol: Multiple system atrophy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The prediction rests on the model score alone (evidence level L5), and the pharm
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records. Fenoterol is used as a bronchodilator, and marketed products are inhaled or nebulised forms. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Multiple system atrophy |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -67,7 +67,7 @@ The other top-ranked predictions have similar problems:
 - **Raynaud disease:** Vasodilation is a plausible rationale, but systemic side effects limit practicality.
 - **Sinoatrial block and sinoatrial node disease:** Chronotropic effects are theoretically helpful, but fenoterol is beta-2 selective and carries proarrhythmic risk.
 
-The only prediction with any literature support is **anaphylaxis** (score 98.3%, evidence level L4). The literature there is entirely preclinical, which is why the sections below cover it.
+The literature there is entirely preclinical, which is why the sections below cover it.
 
 ## Clinical Trial Evidence
 
@@ -75,7 +75,7 @@ Currently no related clinical trials registered for multiple system atrophy or a
 
 ## Literature Evidence
 
-No literature is available for multiple system atrophy. The only supporting literature relates to the lower-ranked anaphylaxis prediction. All of it is animal or tissue work from 1977 to 1987, and none is human clinical data.
+No literature is available for multiple system atrophy. All of it is animal or tissue work from 1977 to 1987, and none is human clinical data.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -108,13 +108,12 @@ Please refer to the package insert for warnings and contraindications. These wer
 **Decision: Hold**
 
 **Rationale:**
-The prediction for multiple system atrophy is supported only by a model score, with no trials or literature. Fenoterol's vasodilatory and chronotropic effects may also be harmful in autonomic disorders. Among the predicted indications, only anaphylaxis has even preclinical support, and epinephrine remains its standard of care.
+The prediction for multiple system atrophy is supported only by a model score, with no trials or literature. Fenoterol's vasodilatory and chronotropic effects may also be harmful in autonomic disorders.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Health Sciences Authority (HSA), which is a blocking gap for safety screening
 - Detailed mechanism of action data
 - Any human evidence for multiple system atrophy. Without it, the prediction should not progress.
-- If the anaphylaxis direction is of interest, a research question on fenoterol as an adjunct for bronchospasm, starting with a review of human data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

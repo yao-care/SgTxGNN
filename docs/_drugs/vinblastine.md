@@ -6,9 +6,9 @@ nav_order: 1068
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vinblastine: predicted new indication Rhabdomyosarcoma (evidence level L4). Approved use: Mycosis fungoides, primary cutaneous T-cell lymphoma…"
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
+description: "Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Vinblastine
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Vinblastine: From Hodgkin Lymphoma and Other Lymphomas to Rhabdomyosarcoma
+## Vinblastine: Rhabdomyosarcoma (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Currently there are **0 registered clinical trials** and **7 publications** (cas
 
 | Item | Content |
 |------|------|
-| Original Indication | Mycosis fungoides, primary cutaneous T-cell lymphoma, Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma, Langerhans cell histiocytosis (from the knowledge graph; the Singapore licence records carry no indication text) |
-| Predicted New Indication | Rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.86% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Rhabdomyosarcoma (disease) |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -104,7 +104,6 @@ Related predicted sub-types (prostate embryonal rhabdomyosarcoma, rank 5) rely o
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (vinca alkaloid, antimitotic) |
-| Myelosuppression Risk | High (leukopenia/neutropenia is the dose-limiting effect; the knowledge graph also flags neutropenia, thrombocytopenia and agranulocytosis) |
 | Emetogenicity Classification | Low to moderate |
 | Monitoring Items | CBC with differential, liver function (bilirubin), peripheral neurological assessment |
 | Handling Protection | Must follow cytotoxic drug handling regulations; injectable for intravenous use only |

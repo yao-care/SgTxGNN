@@ -4,17 +4,17 @@ title: Xylometazoline
 parent: Medium Evidence (L3-L4)
 nav_order: 1080
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Xylometazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Pharyngitis, common cold"
 monitor_inn: "Xylometazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "trigeminal autonomic cephalalgia", "headache disorder", "nasopharyngitis", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "anorectal stricture"]
+predicted_indications: ["nasal cavity disease"]
+description: "Xylometazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Xylometazoline
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Xylometazoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
+## Xylometazoline: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This prediction largely overlaps with the existing use of the drug, so it is an 
 
 | Item | Content |
 |------|------|
-| Original Indication | Pharyngitis, common cold (the Singapore licence records contain no approved-indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -83,7 +83,6 @@ Currently no related clinical trials registered.
 | [1281924](https://pubmed.ncbi.nlm.nih.gov/1281924/) | 1992 | Physiological study | Rhinology | Nasal airflow asymmetry in healthy subjects and in people with colds, and how xylometazoline affects it |
 | [34783482](https://pubmed.ncbi.nlm.nih.gov/34783482/) | 2021 | Review | Vestnik Otorinolaringologii | Treatment of inflammatory nasal and sinus diseases in the elderly, including combined decongestant sprays |
 
-Other predicted indications have little or no supporting evidence. For headache disorder, the retrieved literature points toward harm (see Safety Considerations).
 
 ---
 
@@ -113,7 +112,7 @@ Please refer to the package insert for full warnings, as the label text was not 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The nasal cavity disease prediction is mechanistically sound and supported by small clinical and physiological studies, including randomised comparisons in nasal procedure preparation. It overlaps heavily with xylometazoline's existing use for nasal congestion and colds. There are no registered trials, and the evidence is of limited size. The other predicted indications (for example allergic urticaria, faucial diphtheria, cervical disc disorder and anorectal stricture) lack a plausible mechanism or clinical evidence and should stay on hold.
+The nasal cavity disease prediction is mechanistically sound and supported by small clinical and physiological studies, including randomised comparisons in nasal procedure preparation. It overlaps heavily with xylometazoline's existing use for nasal congestion and colds. There are no registered trials, and the evidence is of limited size.
 
 **To proceed, the following is needed:**
 - Singapore package insert text (warnings, contraindications and approved indications), since the licence records contain no indication text

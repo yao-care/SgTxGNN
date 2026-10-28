@@ -4,17 +4,17 @@ title: Dronedarone
 parent: Medium Evidence (L3-L4)
 nav_order: 355
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Dronedarone: predicted new indication Stroke disorder (evidence level L4). Approved use: Atrial fibrillation"
 monitor_inn: "Dronedarone"
-predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+description: "Dronedarone: predicted new indication Stroke disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Dronedarone: From Atrial Fibrillation to Stroke Disorder
+## Dronedarone: Stroke disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **no registered clinical trials** and only **indirect li
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation (the Singapore licence text carries no approved indication; the original indication comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Stroke disorder |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Dronedarone is a multichannel-blocking antiarrhythmic (it inhibits sodium, potas
 
 Stroke is a major downstream complication of AF. Any link between dronedarone and stroke is therefore indirect: controlling rhythm may lower the risk of cardioembolic stroke. A post hoc analysis of the ATHENA trial suggested a lower stroke rate with dronedarone in paroxysmal or persistent AF, and a laboratory study reported anticoagulant and antiplatelet effects independent of its antiarrhythmic action. A preclinical review also describes possible protective effects on ischaemia/reperfusion injury in heart and brain.
 
-There are important counter-signals. The PALLAS trial showed excess cardiovascular events in high-risk permanent AF, which limits any stroke-prevention rationale. The very high TxGNN score most likely reflects the AF–stroke association in the knowledge graph rather than an independent effect on stroke. The other nine predictions (for example obsolete susceptibility to ischaemic stroke, ABri amyloidosis, duodenal obstruction) have no trial or literature evidence and are mostly knowledge-graph artefacts; only cerebrovascular disorder (L3, indirect, AF-confounded evidence) has any supporting literature.
+There are important counter-signals. The PALLAS trial showed excess cardiovascular events in high-risk permanent AF, which limits any stroke-prevention rationale. The very high score (0.9997 for stroke disorder) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than an independent effect on stroke. The other predictions (for example ABri amyloidosis, duodenal obstruction) have no trial or literature evidence and are mostly TxGNN model (deep learning) artefacts; only cerebrovascular disorder (L3, indirect, AF-confounded evidence) has any supporting literature.
 
 ---
 

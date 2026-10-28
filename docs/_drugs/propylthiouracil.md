@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Propylthiouracil
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 837
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone re… (evidence level L5). Approved use: Hyperthyroidism, Graves' disease, thyrotoxicosis, …"
 monitor_inn: "Propylthiouracil"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia", "Hashimoto thyroiditis", "autoimmune thyroid disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "Prinzmetal angina", "primary hereditary glaucoma"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
+description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (THRB Mutation)
+## Propylthiouracil: Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Propylthiouracil (PTU) is an antithyroid drug originally used for hyperthyroidism, Graves' disease, thyrotoxicosis and thyroid crisis.
 The TxGNN model's top-ranked prediction is **resistance to thyroid hormone due to a THRB mutation**, but there are **no clinical trials** and only **4 publications** (case reports and mouse models), and none show a therapeutic benefit.
-The only prediction with substantive supporting evidence is **autoimmune thyroid disease** (rank 5), which largely overlaps with the already approved Graves' disease indication.
 
 ---
 
@@ -48,12 +47,12 @@ The only prediction with substantive supporting evidence is **autoimmune thyroid
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperthyroidism, Graves' disease, thyrotoxicosis, thyroid crisis (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (rank 1) |
-| TxGNN Prediction Score | 99.66% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 (rank 1); the highest-ranked evidence is L1 for autoimmune thyroid disease (rank 5), which is largely an on-label overlap |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold (rank 1); Proceed with Guardrails for autoimmune thyroid disease (rank 5) |
 
 ---
@@ -65,10 +64,8 @@ Detailed mechanism of action data is not available in the data compiled for this
 For the top-ranked prediction, the rationale is weak. In resistance to thyroid hormone (THRB mutation), tissues are insensitive to hormone and levels are already elevated. Lowering them further with an antithyroid drug could raise TSH and drive goiter or thyroid hyperplasia. Consistent with this, the retrieved case reports describe patients whose goiter enlarged during PTU treatment. The high TxGNN score probably reflects network proximity to thyroid hormone biology, not a validated treatment rationale.
 
 Among the other predictions, only a few have a plausible link:
-- **Autoimmune thyroid disease** includes Graves' disease, a labelled PTU indication, so this is an on-label overlap rather than new repurposing.
 - **Neonatal thyrotoxicosis** is mechanistically relevant, but the literature concerns maternal treatment in pregnancy. PTU's liver toxicity limits direct use in neonates.
 - **Hyperthyroxinemia, Hashimoto thyroiditis and Prinzmetal angina** are relevant only when true thyrotoxicosis is present.
-- **Rare vascular disorders, diabetic nephropathy and primary hereditary glaucoma** have no supporting evidence.
 
 ---
 
@@ -76,7 +73,6 @@ Among the other predictions, only a few have a plausible link:
 
 For the top-ranked prediction (resistance to thyroid hormone), currently no related clinical trials are registered.
 
-Trials found for the related prediction **autoimmune thyroid disease** (rank 5):
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -99,7 +95,6 @@ Publications for the top-ranked prediction (resistance to thyroid hormone):
 | [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Mouse model | Endocrinology | Role of TSH in thyroid carcinoma in TRβ-mutant mice |
 | [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Mouse model | Oncogene | Thyroid hormone activates tumour cell proliferation in a mouse model of follicular thyroid carcinoma |
 
-Selected publications for autoimmune thyroid disease (rank 5):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -137,12 +132,10 @@ Please refer to the package insert for the full warnings and contraindications, 
 
 **Rationale:**
 - The high TxGNN score is not supported by evidence. There are no trials, the literature is limited to case reports and mouse models, and PTU may worsen goiter in this condition by raising TSH.
-- Of the ten predictions, only autoimmune thyroid disease could proceed with guardrails (Proceed with Guardrails), and that is essentially the already approved Graves' indication, not new repurposing.
 
 **To proceed, the following is needed:**
 - HSA package insert warnings and contraindications, which block the safety screening.
 - Mechanism of action data (for example from DrugBank).
-- For autoimmune thyroid disease: larger PTU-specific trials, and a liver and vasculitis monitoring plan.
 - For other predictions: any direct clinical or mechanistic evidence before further consideration.
 ## Disclaimer
 

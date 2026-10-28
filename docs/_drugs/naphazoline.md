@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **hypotrichosis simplex of the 
 |------|------|
 | Original Indication | Not stated in the Singapore license records (the product types are nasal spray, nebuliser and ophthalmic solution; reduction of eye redness is the known clinical use) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **hypotrichosis simplex of the 
 
 Currently, detailed mechanism of action data is not available in the compiled records. From pharmacology data, naphazoline binds alpha-1A, alpha-2A and alpha-2C adrenoceptors. It is a vasoconstrictor that temporarily reduces eye redness by narrowing swollen blood vessels.
 
-The prediction is **not well supported mechanistically**. Hypotrichosis simplex of the scalp is a genetic hair disorder, and no known mechanism links alpha-adrenergic vasoconstriction to hair follicle growth. Vasoconstriction could even reduce scalp blood flow, the opposite of what a hair-growth agent needs. The high TxGNN score most likely reflects proximity in the knowledge graph rather than pharmacology.
+The prediction is **not well supported mechanistically**. Hypotrichosis simplex of the scalp is a genetic hair disorder, and no known mechanism links alpha-adrenergic vasoconstriction to hair follicle growth. Vasoconstriction could even reduce scalp blood flow, the opposite of what a hair-growth agent needs. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions show the same pattern. They are mostly hair-related conditions (congenital hypotrichosis milia, diffuse alopecia areata, alopecia, hypertrichosis) and rare congenital syndromes, none with a plausible mechanism. The two glaucoma predictions (primary hereditary glaucoma and open-angle glaucoma) have a plausible ocular route, but they also carry a safety concern (see below).
 

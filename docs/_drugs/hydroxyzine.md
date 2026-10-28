@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroxyzine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 512
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Hydroxyzine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Atopic eczema, allergic rhinitis, urticaria…"
 monitor_inn: "Hydroxyzine"
-predicted_indications: ["rosacea conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral"]
+predicted_indications: ["rosacea conjunctivitis"]
+description: "Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydroxyzine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Hydroxyzine: From Allergic and Atopic Skin and Airway Conditions to Allergic Urticaria
+## Hydroxyzine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Hydroxyzine is a first-generation H1 antihistamine, originally used for conditions such as atopic eczema, allergic rhinitis, urticaria and angioedema.
-The TxGNN model predicts it may be effective for **allergic urticaria**,
 with **no registered clinical trials** and **20 publications** retrieved, most of which concern other antihistamines or are class reviews.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic eczema, allergic rhinitis, urticaria, angioedema and related allergic conditions (the Singapore licence records contain no indication text, so this comes from the knowledge-graph indication list) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Rosacea conjunctivitis |
+| TxGNN Prediction Score | 0.9970 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +61,7 @@ Urticaria and angioedema are already among hydroxyzine's original indications. A
 
 The 20 retrieved publications are mostly about other antihistamines (bilastine, cetirizine, acrivastine, loratadine, desloratadine) or are class reviews. None is a hydroxyzine-specific trial in allergic urticaria. Cetirizine, a hydroxyzine metabolite, has a large body of urticaria literature, which supports the class effect only indirectly.
 
-Other predicted indications are weaker. Cold urticaria (score 99.66%) has one small 1984 hydroxyzine-specific comparative study (PMID 6480953). Rosacea conjunctivitis, recalcitrant atopic dermatitis, atopic IgE responsiveness, nasal cavity disease, laryngopharyngitis and several non-specific conjunctivitis categories have no retrieved evidence, and their mechanistic links are weak.
+Other predicted indications are weaker. Rosacea conjunctivitis, recalcitrant atopic dermatitis, atopic IgE responsiveness, nasal cavity disease, laryngopharyngitis and several non-specific conjunctivitis categories have no retrieved evidence, and their mechanistic links are weak.
 
 ## Clinical Trial Evidence
 

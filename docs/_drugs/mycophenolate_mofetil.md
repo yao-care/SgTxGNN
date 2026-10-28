@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 692
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available"
 monitor_inn: "Mycophenolate mofetil"
-predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
+predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
 ---
 
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Evidence for this direction is limited and shows no clear virologic benefit.
 |------|------|
 | Original Indication | Not available (the approved indication text in the Singapore licences is empty) |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assessed in the compiled data; see the note under Clinical Trial Evidence) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 The rationale is mechanistically plausible, but the clinical data are small and show no clear virologic benefit. Immunosuppression in people with HIV also raises safety concerns, so the benefit-risk balance is uncertain.
 
-Other predictions in the list are weaker. Multiple sclerosis (score 99.54%) has Phase 2 and early-phase data, but these trials are small and the Cochrane reviews do not establish clear efficacy over established therapies. Most other predictions have no supporting trials or literature.
+Other predictions in the list are weaker. Multiple sclerosis (score 0.9954) has Phase 2 and early-phase data, but these trials are small and the Cochrane reviews do not establish clear efficacy over established therapies. Most other predictions have no supporting trials or literature.
 
 ---
 

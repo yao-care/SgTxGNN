@@ -6,9 +6,9 @@ nav_order: 1055
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis, staphylococcal infection, endocarditis…"
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
+description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vancomycin
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Vancomycin: From Clostridium difficile Colitis to Diffuse Scleroderma
+## Vancomycin: Diffuse scleroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Vancomycin is a glycopeptide antibiotic originally used for Gram-positive bacterial infections, including Clostridium difficile colitis, staphylococcal infections and endocarditis.
 The TxGNN model predicts it may be effective for **diffuse scleroderma**, but there are **0 clinical trials** and only **1 unrelated case report** behind this prediction.
-The high score is most likely a knowledge-graph artifact rather than a real therapeutic signal.
+The high score is most likely a TxGNN model (deep learning) artifact rather than a real therapeutic signal.
 
 ---
 
@@ -48,12 +48,12 @@ The high score is most likely a knowledge-graph artifact rather than a real ther
 
 | Item | Content |
 |------|------|
-| Original Indication | Clostridium difficile colitis, staphylococcal infection, endocarditis, bacterial arthritis, staphylococcal pneumonia (indications from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 10 |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The high score is most likely a knowledge-graph artifact rather than a real ther
 
 Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, vancomycin inhibits bacterial cell wall synthesis by binding D-Ala-D-Ala terminals. This acts on Gram-positive bacteria only.
 
-Diffuse scleroderma is a fibrotic autoimmune disease, not a bacterial infection. There is no plausible mechanistic link between vancomycin and its pathology. The only literature hit is a case report of erythroderma with sepsis and eosinophilia, which is a differential-diagnosis discussion and not evidence of benefit. The high score is therefore likely a graph artifact, and the prediction is not supported.
+Diffuse scleroderma is a fibrotic autoimmune disease, not a bacterial infection. There is no plausible mechanistic link between vancomycin and its pathology. The only literature hit is a case report of erythroderma with sepsis and eosinophilia, which is a differential-diagnosis discussion and not evidence of benefit. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and the prediction is not supported.
 
 **Other predictions reviewed.** Nine other candidates were screened, and none is supported:
 
@@ -104,7 +104,7 @@ Both injectable and oral (capsule) forms are registered.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** kidney disease, pyoureter, neutropenia, agranulocytosis, hearing disorder, auditory system disease.
+- **Contraindications (associations listed in the source data, not label text):** kidney disease, pyoureter, neutropenia, agranulocytosis, hearing disorder, auditory system disease.
 - **Drug Interactions:** 100 interactions were found. Examples from the 20 reviewed:
   - **Major:** intravenous human immunoglobulin G, human botulinum neurotoxin A/B immune globulin, live Vibrio cholerae CVD 103-HgR vaccine.
   - **Moderate:** NSAIDs (ketorolac, ibuprofen, diclofenac, celecoxib), aminoglycosides and related nephrotoxic or ototoxic agents (amikacin, capreomycin, amphotericin B), carboplatin, metformin, bacitracin and cholestyramine.
@@ -118,7 +118,7 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has an L5 evidence level. It has no clinical trials, no mechanistic link between a Gram-positive antibacterial and a fibrotic autoimmune disease, and only an irrelevant case report. The high TxGNN score is likely a graph artifact. Safety also needs attention, since the knowledge graph flags kidney and hearing disorders.
+The prediction has an L5 evidence level. It has no clinical trials, no mechanistic link between a Gram-positive antibacterial and a fibrotic autoimmune disease, and only an irrelevant case report. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Safety also needs attention, since the knowledge graph flags kidney and hearing disorders.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA)

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **cecum villous adenoma**, but 
 |------|------|
 | Original Indication | Colorectal cancer (malignant colon neoplasm, colonic neoplasm, squamous cell carcinoma of colon). The Singapore licence records contain no indication text. |
 | Predicted New Indication | Cecum villous adenoma |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

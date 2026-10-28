@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Arsenic trioxide was originally used to treat acute promyelocytic leukaemia and related myeloid leukaemias.
-The TxGNN model's top-ranked prediction is **unclassified myelodysplastic syndrome** (99.93%), but no clinical trials or publications were found for this specific subtype.
+The TxGNN model's top-ranked prediction is **unclassified myelodysplastic syndrome** (0.9993), but no clinical trials or publications were found for this specific subtype.
 The closest, better-supported prediction is **myelodysplastic syndrome (MDS)** in general, with **20 clinical trials** and **20 publications** compiled for this report.
 
 > Note: The first-ranked prediction has no direct evidence. The sections below present it as requested, and the evidence for the broader MDS category is shown separately where it matters for the decision.
@@ -52,10 +52,10 @@ The closest, better-supported prediction is **myelodysplastic syndrome (MDS)** i
 |------|------|
 | Original Indication | Acute promyelocytic leukaemia (also myelomonocytic leukaemia and AML with inv(16)/t(16;16)); the Singapore licence records contain no indication text |
 | Predicted New Indication | Unclassified myelodysplastic syndrome |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 (for the top-ranked prediction); L2 for the broader MDS category |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold (top-ranked prediction); the broader MDS category is a research question |
 
 ---

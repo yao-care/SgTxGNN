@@ -4,17 +4,17 @@ title: Dexmedetomidine
 parent: Low Evidence (L5)
 nav_order: 323
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Dexmedetomidine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not available"
 monitor_inn: "Dexmedetomidine"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "pulmonary hypertension", "hypotrichosis simplex of the scalp", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "congenital hypotrichosis milia"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
+description: "Dexmedetomidine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dexmedetomidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dexmedetomidine: From Sedation to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Dexmedetomidine: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,27 +46,25 @@ The best-supported alternative is **headache disorder** (specifically post-dural
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the approved indication text is empty in all registrations) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, dexmedetomidine is an alpha-2 adrenergic agonist that reduces sympathetic outflow and may influence vasopressin release.
 
-NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2). These act downstream of vasopressin secretion, so a reduction in vasopressin release would not be expected to correct the disease. The mechanistic link is therefore weak, and the high score is likely a graph-based association rather than a pharmacological rationale. No trials or literature were found.
+NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2). These act downstream of vasopressin secretion, so a reduction in vasopressin release would not be expected to correct the disease. No trials or literature were found.
 
 **Better-supported candidates from the same analysis:**
 
-- **Headache disorder (score 99.30%, L2):** Nebulized dexmedetomidine has been studied for post-dural puncture headache (PDPH). Proposed mechanisms include alpha-2 mediated modulation of pain and central sensitization, and possible effects on cerebral blood flow. The evidence is specific to PDPH, a secondary headache, and does not extend to primary headache disorders.
-- **Migraine disorder (score 99.49%, L5):** One recruiting trial exists (NCT07769255). It has no results yet.
-- **Pulmonary hypertension (score 98.40%, L3):** Evidence mainly supports safe sedation in patients with pulmonary hypertension, not disease-modifying treatment.
-- **Migraine with brainstem aura, trigeminal autonomic cephalalgia, hypotrichosis simplex of the scalp, atrophoderma vermiculata and congenital hypotrichosis milia:** prediction only, with no trials or literature. The hair and skin conditions have no plausible mechanistic link and are likely graph artifacts.
-- **Migraine with or without aura, susceptibility to (L4):** Only preclinical or tangential literature, such as work on cortical spreading depression.
+- **Headache disorder (score 0.9930, L2):** Nebulized dexmedetomidine has been studied for post-dural puncture headache (PDPH). Proposed mechanisms include alpha-2 mediated modulation of pain and central sensitization, and possible effects on cerebral blood flow. The evidence is specific to PDPH, a secondary headache, and does not extend to primary headache disorders.
+- **Migraine disorder (score 0.9949, L5):** One recruiting trial exists (NCT07769255). It has no results yet.
+- **Migraine with brainstem aura, trigeminal autonomic cephalalgia, hypotrichosis simplex of the scalp, atrophoderma vermiculata and congenital hypotrichosis milia:** prediction only, with no trials or literature.
 
 ## Clinical Trial Evidence
 
@@ -111,7 +109,6 @@ Eight valid single-ingredient registrations exist in total. All are injectable.
 
 - **Contraindication-related conditions (knowledge graph, not label text):** hypertensive disorder, hypertension, kidney disease, pyoureter, liver disease, gallbladder disease, diabetes mellitus, diabetic ketoacidosis, hypotensive disorder, atrioventricular block.
 - **Drug Interactions:** 59 interactions were recorded. Moderate-level interactions include morphine (including liposomal), opium, dronabinol, nabilone, diphenoxylate, ethanol, papaverine, sibutramine, amyl nitrite, diazoxide and phentolamine. These are mostly additive sedative or blood-pressure-lowering effects. Several others, such as pantoprazole, lansoprazole, vancomycin, atropine and famotidine, have an unknown severity level.
-- **Published safety signals (from the pulmonary hypertension literature):** bradycardia and rare reports of asystole in children during infusion, and systemic and pulmonary vasoconstriction after loading doses.
 
 Please refer to the package insert for label warnings and contraindications.
 

@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Linagliptin
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 601
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Linagliptin: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
+description: "Linagliptin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Linagliptin"
-predicted_indications: ["opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy", "homozygous familial hypercholesterolemia"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Linagliptin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Linagliptin: From Type 2 Diabetes Mellitus to Opsismodysplasia
+## Linagliptin
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Linagliptin is an oral DPP-4 inhibitor originally used to treat type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia.
-Currently there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus |
-| Predicted New Indication | Opsismodysplasia |
-| TxGNN Prediction Score | 94.90% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Based on known information, linagliptin is a DPP-4 inhibitor. It prolongs incretin activity and lowers blood glucose in type 2 diabetes, and this efficacy is well established.
-
-Opsismodysplasia is a skeletal dysplasia caused by loss-of-function variants in INPPL1 (SHIP2). No plausible mechanistic link to DPP-4 inhibition has been identified. The high TxGNN score (94.90%) is a graph-based prediction and is not backed by any trial or literature evidence, so it should be treated as a hypothesis only.
-
-Other top-ranked predictions are also supported by no clinical evidence and have weak or implausible mechanistic rationale. They include thiamine-responsive dysfunction syndrome, classic stiff person syndrome, focal stiff limb syndrome, several localized lipodystrophies, pancreatic agenesis and homozygous familial hypercholesterolemia. For pancreatic agenesis, two papers were retrieved, but they concern linagliptin in type 2 diabetes and DPP-4 inhibitor tolerability, not the predicted disease.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for opsismodysplasia.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 
 ## Singapore Market Information
 
@@ -80,7 +56,7 @@ Currently no related literature available for opsismodysplasia.
 | SIN14379P | Trajenta Duo Film-Coated Tablets 2.5mg / 1000mg | Film-coated tablet | Not specified in the data compiled |
 | SIN15273P | Glyxambi Film-Coated Tablets 10 mg/5 mg | Film-coated tablet | Not specified in the data compiled |
 
-A sixth licence (SIN15272P, Glyxambi 25 mg/5 mg) is also valid. All six registrations are active and none are cancelled.
+A sixth licence (SIN15272P, Glyxambi 25 mg/5 mg) is also valid.
 
 ## Safety Considerations
 
@@ -94,18 +70,6 @@ A sixth licence (SIN15272P, Glyxambi 25 mg/5 mg) is also valid. All six registra
 
 For the full warnings and contraindications, please refer to the package insert.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a graph-based score. There are no clinical trials or literature, and no plausible mechanistic link between DPP-4 inhibition and INPPL1-related skeletal dysplasia. Linagliptin is well established in type 2 diabetes in Singapore, but that does not support the new indication.
-
-**To proceed, the following is needed:**
-- Mechanism of action data and a credible biological rationale linking DPP-4 inhibition to the SHIP2/INPPL1 pathway
-- Preclinical or disease-model evidence for opsismodysplasia
-- Package insert warnings and contraindications from HSA, to allow safety screening
-- A pathophysiology review of the other top-ranked predictions, to see whether any has a stronger rationale
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

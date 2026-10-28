@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rifaximin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 867
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy, hepatic coma"
 monitor_inn: "Rifaximin"
-predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis", "closed-angle glaucoma", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "HIV infectious disease", "opiate dependence"]
+predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "burning mouth syndrome", "oral leukoedema", "candidiasis"]
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **oral candidiasis**, but there
 |------|------|
 | Original Indication | Hepatic encephalopathy, hepatic coma (the licence record has no approved indication text) |
 | Predicted New Indication | Oral candidiasis |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The only available publication (PMID 34180023) suggests the opposite of a benefit. In patients receiving allogeneic stem cell transplants, rifaximin use favoured infections with micafungin-resistant *Candida* species. A likely explanation is that disrupting gut bacteria allows yeast to overgrow. Rifaximin has no known antifungal activity.
 
-The high TxGNN score therefore looks like an association within the knowledge graph rather than evidence of efficacy. The same pattern appears in other top-ranked predictions: candidiasis in general (score 99.15%) is supported only by observational studies that suggest risk, not benefit.
+The high TxGNN score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same pattern appears in other top-ranked predictions: candidiasis in general (score 0.9915) is supported only by observational studies that suggest risk, not benefit.
 
 ## Clinical Trial Evidence
 

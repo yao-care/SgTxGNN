@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Magnesium Carbonate
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 627
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Magnesium Carbonate: predicted new indication Active peptic ulcer disease (evidence level L4). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "Magnesium carbonate"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
+description: "Magnesium Carbonate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Magnesium Carbonate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Magnesium Carbonate: From Peptic Ulcer Disease and Dyspepsia to Active Peptic Ulcer Disease
+## Magnesium Carbonate: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Magnesium carbonate is an antacid originally used for acid-related stomach conditions such as peptic ulcer disease, gastroesophageal reflux disease and dyspepsia.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this overlaps with its existing use, and the support is limited to **0 clinical trials** and **1 laboratory-based publication**.
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be effective for **active peptic ulcer disease**
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, constipation, dyspepsia (the Singapore licence has no approved indication text on file) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +60,7 @@ The TxGNN model predicts it may be effective for **active peptic ulcer disease**
 
 Detailed mechanism of action data is not currently available. Based on known information, magnesium carbonate is an antacid that neutralises gastric hydrochloric acid. This is a plausible way to relieve symptoms of acid-related ulcer disease.
 
-Active peptic ulcer disease is closely related to the drug's original indication of peptic ulcer disease, so this is not a true repurposing candidate. The prediction mostly restates a use the drug already has. The only literature retrieved is a laboratory study of the acid-neutralising capacity of marketed antacids, which is indirect evidence with no patient outcome data.
+The prediction mostly restates a use the drug already has. The only literature retrieved is a laboratory study of the acid-neutralising capacity of marketed antacids, which is indirect evidence with no patient outcome data.
 
 Other predicted indications in the data follow the same pattern. Gastric ulcer, duodenal ulcer and stomach disease overlap with the labelled uses. Gastrojejunal ulcer, gastroduodenitis and duodenogastric reflux are mechanistically plausible but rest only on laboratory or small mucosal-protection studies. Peptic ulcer perforation, gastroparesis and duodenal obstruction have no clear mechanistic rationale for an antacid and no supporting studies.
 

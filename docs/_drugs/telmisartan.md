@@ -4,7 +4,7 @@ title: Telmisartan
 parent: Low Evidence (L5)
 nav_order: 960
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Telmisartan"
@@ -14,7 +14,7 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 # Telmisartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no
 |------|------|
 | Original Indication | Hypertension; stroke and cerebral infarction (including susceptibility to ischemic stroke) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -63,7 +63,7 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 Prinzmetal (vasospastic) angina is caused by episodic spasm of the coronary arteries. The plausible links are blockade of the renin-angiotensin system, vasodilation, and the partial PPAR-gamma-mediated effects on the vascular lining described for telmisartan. These links are theoretical. No trials or publications were found to show that they translate into benefit in this condition.
 
-The very high score (99.98%) shows the model finds the drug closely connected to this disease in its knowledge graph. It is not evidence of clinical efficacy.
+The very high score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not evidence of clinical efficacy.
 
 ---
 

@@ -4,17 +4,17 @@ title: Etoricoxib
 parent: Low Evidence (L5)
 nav_order: 410
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence records. Published pharmacology s…"
 monitor_inn: "Etoricoxib"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Etoricoxib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,9 +46,9 @@ Etoricoxib is a selective COX-2 inhibitor marketed in Singapore as a painkiller 
 |------|------|
 | Original Indication | Not stated in the Singapore licence records. Published pharmacology sources list rheumatoid arthritis, osteoarthritis, chronic lower back pain, ankylosing spondylitis, acute pain and gout. |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 

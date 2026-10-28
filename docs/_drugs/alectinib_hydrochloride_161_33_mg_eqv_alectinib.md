@@ -8,6 +8,7 @@ nav_order: 56
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alectinib Hydrochloride 161 33 Mg Eqv Alectinib
@@ -51,8 +52,8 @@ This report documents the gap findings and outlines the remediation steps requir
 | Predicted New Indication | Not available — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

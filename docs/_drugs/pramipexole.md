@@ -6,9 +6,9 @@ nav_order: 817
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Restless legs syndrome"
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
+description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Pramipexole
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Pramipexole: From Restless Legs Syndrome and Parkinson Disease to Attention Deficit-Hyperactivity Disorder
+## Pramipexole: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Among the other predicted indications, **schizophrenia** has the strongest suppo
 
 | Item | Content |
 |------|------|
-| Original Indication | Restless legs syndrome; Parkinson disease (the Singapore licences carry no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -105,7 +105,7 @@ For ADHD, the support is a computational prediction plus indirect literature. Th
 - The Singapore package insert (HSA) with warnings and contraindications, and the detailed mechanism of action data
 - A safety plan covering psychiatric adverse effects, impulse-control problems, sleepiness and orthostatic hypotension
 
-**Note on other predictions:** Schizophrenia (score 99.52%) is the best-supported alternative, at evidence level L2 and recommendation "Research Question". Support includes a 16-week placebo-controlled RCT of add-on pramipexole (PMID 35921506, n=200) and a Phase 3 add-on trial, [NCT01320982](https://clinicaltrials.gov/study/NCT01320982) (n=400, status unknown, no results, multiple arms). Because dopamine agonists may worsen psychosis, any move in that direction would need strict guardrails. The remaining predictions (for example faciodigitogenital syndrome, chondromyxoid fibroma and several rare congenital disorders) rest on the model score alone and should stay on hold.
+**Note on other predictions:** Schizophrenia (score 0.9952) is the best-supported alternative, at evidence level L2 and recommendation "Research Question". Support includes a 16-week placebo-controlled RCT of add-on pramipexole (PMID 35921506, n=200) and a Phase 3 add-on trial, [NCT01320982](https://clinicaltrials.gov/study/NCT01320982) (n=400, status unknown, no results, multiple arms). Because dopamine agonists may worsen psychosis, any move in that direction would need strict guardrails. The remaining predictions (for example faciodigitogenital syndrome, chondromyxoid fibroma and several rare congenital disorders) rest on the model score alone and should stay on hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

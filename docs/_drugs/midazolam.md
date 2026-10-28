@@ -4,17 +4,17 @@ title: Midazolam
 parent: High Evidence (L1-L2)
 nav_order: 672
 evidence_level: L2
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Midazolam: predicted new indication Insomnia (evidence level L2). Approved use: Anxiety"
 monitor_inn: "Midazolam"
-predicted_indications: ["insomnia (disease)", "myofascial pain syndrome", "obsessive-compulsive disorder", "tendinitis", "benign paroxysmal torticollis of infancy", "anxiety disorder", "agoraphobia", "myositis fibrosa", "idiopathic granulomatous myositis", "dysthymic disorder"]
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Midazolam
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Evidence Level: **L2** | Predicted Indications: **10**
 |------|------|
 | Original Indication | Anxiety (no approved-indication text is recorded in the Singapore licence data) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

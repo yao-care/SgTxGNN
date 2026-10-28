@@ -4,17 +4,17 @@ title: Aspartic Acid
 parent: Low Evidence (L5)
 nav_order: 114
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Aspartic Acid: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "Aspartic acid"
-predicted_indications: ["renal tubular acidosis", "esophageal varices with bleeding", "esophageal varices without bleeding", "dyspepsia", "renal hypomagnesemia", "Alstrom syndrome", "hypophosphatemia (disease)", "varicose disease", "HELIX syndrome", "Pendred syndrome"]
+predicted_indications: ["renal tubular acidosis"]
 ---
 
 # Aspartic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ This is a computational prediction with essentially no supporting clinical evide
 |------|------|
 | Original Indication | Potassium deficiency disease |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.47% |
+| TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,7 +73,6 @@ Currently no related clinical trials registered.
 | [20068363](https://pubmed.ncbi.nlm.nih.gov/20068363/) | 2010 | Genetic study | Nephron Physiol | Distal RTA in Filipino children caused by SLC4A1 (AE1/Band 3) mutations |
 | [14301365](https://pubmed.ncbi.nlm.nih.gov/14301365/) | 1965 | Basic physiology | Am J Physiol | Relationship of tubular cell pNH3 to renal ammonia production |
 
-Literature for the other predicted indications (esophageal varices, dyspepsia, renal hypomagnesemia, hypophosphatemia, varicose disease, HELIX syndrome, Pendred syndrome, Alström syndrome) was also reviewed. It consists of unrelated genetic, structural or basic-science papers, or nothing at all, and none supports a therapeutic role for aspartic acid.
 
 ## Singapore Market Information
 

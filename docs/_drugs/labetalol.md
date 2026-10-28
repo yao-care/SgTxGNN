@@ -4,17 +4,17 @@ title: Labetalol
 parent: Low Evidence (L5)
 nav_order: 571
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Labetalol: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertensive disorder / hypertension"
+indication_count: 3
+last_modified_at: 2026-10-28
 monitor_inn: "Labetalol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "primary hereditary glaucoma", "open-angle glaucoma", "atrial flutter (disease)", "ocular tuberculosis"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Labetalol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Labetalol: From Hypertension to Malignant Renovascular Hypertension
+## Labetalol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Labetalol is a combined alpha-1 and non-selective beta-blocker, originally used to treat hypertension and hypertensive disorders.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are **no registered clinical trials** and only **1 publication** (an unrelated case report) behind this prediction, so the prediction currently rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder / hypertension (from the knowledge graph; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.08% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,9 +61,9 @@ Malignant renovascular hypertension is a severe form of high blood pressure driv
 The very high score likely reflects the model's closeness to the approved hypertension indication. The one linked publication is a 1981 case report on hallucinogenic drug-induced vasculitis with malignant hypertension. Labetalol was used there only for initial blood pressure control, so it does not demonstrate efficacy in renovascular hypertension.
 
 Other predictions in the same ranking are weaker:
-- **Malignant hypertensive renal disease** (score 99.08%): a plausible extension of the hypertension indication, but with no trials or literature.
-- **Pulmonary hypertension** (two entries, about 99.08%): mechanistically doubtful. Beta-blockade is not a pulmonary hypertension strategy and may be harmful.
-- **Open-angle glaucoma** (score 63.5%): the only other prediction with a plausible direct signal. A 1981 rabbit and small human study reported an eye-pressure-lowering effect of labetalol (PMID 6914126). This is a reasonable research question (evidence level L4) but is not ready for clinical advancement.
+- **Malignant hypertensive renal disease** (score 0.9908): a plausible extension of the hypertension indication, but with no trials or literature.
+- **Pulmonary hypertension** (two entries, about 0.9908): mechanistically doubtful. Beta-blockade is not a pulmonary hypertension strategy and may be harmful.
+- A 1981 rabbit and small human study reported an eye-pressure-lowering effect of labetalol (PMID 6914126). This is a reasonable research question (evidence level L4) but is not ready for clinical advancement.
 
 ## Clinical Trial Evidence
 
@@ -110,7 +109,6 @@ The prediction is supported only by the model score (evidence level L5). There a
 - Mechanism of action data from DrugBank
 - Approved indication text for the two Singapore licences
 - Targeted literature search for labetalol in renovascular and malignant hypertension
-- If a new-use direction is wanted, consider open-angle glaucoma as a separate research question, since it has the only direct signal (early, small-scale data)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

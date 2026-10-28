@@ -4,17 +4,17 @@ title: Letermovir
 parent: Low Evidence (L5)
 nav_order: 588
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Letermovir: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Cytomegalovirus infection"
 monitor_inn: "Letermovir"
-predicted_indications: ["vulvovaginal candidiasis", "fungal infectious disease", "tinea nigra", "malignant catarrh", "infectious bovine rhinotracheitis", "anogenital human papillomavirus infection", "AIDS", "dermatophytosis", "piedra", "varicella zoster infection"]
+predicted_indications: ["vulvovaginal candidiasis"]
+description: "Letermovir: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Letermovir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Letermovir: From Cytomegalovirus Infection to Vulvovaginal Candidiasis
+## Letermovir: Vulvovaginal candidiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The mechanistic rationale is also weak, so this top-ranked prediction is most li
 
 | Item | Content |
 |------|------|
-| Original Indication | Cytomegalovirus infection |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 Vulvovaginal candidiasis is a fungal infection. Candida has no terminase complex comparable to the one in CMV, so there is no plausible mechanistic link between letermovir and this disease. The very high TxGNN score most likely reflects patterns in the knowledge network, not real biological activity. No trials or literature were found to support it.
 
-**Other predictions worth noting:** Among the other predicted indications, most (for example tinea nigra, dermatophytosis, piedra, and several veterinary herpesvirus diseases) also lack any evidence or mechanistic basis. Two are more interesting as research questions:
-- **AIDS (HIV-associated inflammation):** Letermovir does not act on HIV. The hypothesis is that suppressing low-level CMV replication in people living with HIV on antiretroviral therapy may reduce chronic inflammation and immune activation. Evidence level L2, with small trials as described below.
-- **Varicella zoster infection:** VZV is a herpesvirus with its own terminase, so a class-level hypothesis is plausible. However, letermovir's activity against VZV has not been shown, and only in vitro data would be a reasonable first step. Evidence level L4.
+Two are more interesting as research questions:
+- The hypothesis is that suppressing low-level CMV replication in people living with HIV on antiretroviral therapy may reduce chronic inflammation and immune activation. Evidence level L2, with small trials as described below.
+- However, letermovir's activity against VZV has not been shown, and only in vitro data would be a reasonable first step. Evidence level L4.
 
 ## Clinical Trial Evidence
 
@@ -80,7 +80,7 @@ For reference, the following trials relate to the HIV-associated inflammation di
 
 Currently no related literature available for vulvovaginal candidiasis.
 
-For the related "fungal infectious disease" prediction, the retrieved publications are indirect. They concern fungal infections in transplant recipients who receive letermovir prophylaxis, and do not show antifungal efficacy:
+They concern fungal infections in transplant recipients who receive letermovir prophylaxis, and do not show antifungal efficacy:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

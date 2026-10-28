@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Misoprostol
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 681
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Misoprostol: predicted new indication Amenorrhea (evidence level L4). Approved use: Not stated in the Singapore licence data compiled for this report"
+description: "Misoprostol: predicted new indication amenorrhea (disease) (evidence level L4). Approved use: Not stated in the Singapore licence data compiled for this report"
 monitor_inn: "Misoprostol"
-predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "acne (disease)", "esophageal disease", "primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy"]
+predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
 ---
 
 # Misoprostol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Misoprostol: From Gastric Ulcer Prevention to Amenorrhea
+## Misoprostol: From Gastric Ulcer Prevention to amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,10 +46,10 @@ Misoprostol is a prostaglandin E1 analogue, marketed in Singapore as Cytotec tab
 |------|------|
 | Original Indication | Not stated in the Singapore licence data compiled for this report |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9964 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -101,7 +101,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score for amenorrhea is very high (99.64%), but no clinical trials exist and the retrieved literature is about medical abortion, not amenorrhea treatment. The package insert safety data and the mechanism of action are also missing, so the evidence is too weak to support further development for this indication.
+The TxGNN score for amenorrhea is very high (0.9964), but no clinical trials exist and the retrieved literature is about medical abortion, not amenorrhea treatment. The package insert safety data and the mechanism of action are also missing, so the evidence is too weak to support further development for this indication.
 
 **To proceed, the following is needed:**
 - Singapore package insert warnings, contraindications and approved indication text
@@ -110,7 +110,6 @@ The TxGNN score for amenorrhea is very high (99.64%), but no clinical trials exi
 - A safety assessment for women of reproductive age, including pregnancy exclusion
 
 **Other predicted indications:**
-- **Esophageal disease** (score 96.55%, L4, "Research Question") is the more plausible candidate. Misoprostol's mucosal protective action gives a biological link, and a retrospective report describes treating idiopathic esophageal ulceration in AIDS (PMID 9820375). However, the evidence is mainly reviews plus that case-level report, and proton pump inhibitors are the standard of care.
 - The remaining predictions have no clinical or literature support: atypical coarctation of aorta, aortic malformation, esophageal malformation, acne, primary hereditary glaucoma, open-angle glaucoma, congenital hypotrichosis milia, and a complex congenital heart defect. All remain at Hold.
 ## Disclaimer
 

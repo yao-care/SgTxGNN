@@ -48,19 +48,19 @@ It rests on model output alone.
 |------|------|
 | Original Indication | Not listed in the Singapore licence records |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.62% |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Granisetron is a selective 5-HT3 receptor antagonist. Detailed mechanism of action data are not available in the data compiled for this report, and the licence records give no approved indication text. Granisetron's established use, as a 5-HT3 antagonist anti-emetic, is general knowledge and is not confirmed by the compiled data.
 
-The proposed link to mood disorders is speculative. 5-HT3 modulation has been hypothesised to influence dopaminergic and serotonergic signalling relevant to mood regulation. The high TxGNN score (0.996) is a model prediction only. It does not show clinical benefit.
+The proposed link to mood disorders is speculative. 5-HT3 modulation has been hypothesised to influence dopaminergic and serotonergic signalling relevant to mood regulation. The high TxGNN score (0.9962) is a model prediction only. It does not show clinical benefit.
 
-Other lower-ranked predictions include Tourette syndrome, trichotillomania, angioedema, allergic urticaria, cold urticaria, bronchitis, conjunctivitis, acute contagious conjunctivitis and nephrogenic syndrome of inappropriate antidiuresis. Some have loose class-level rationale, for example the serotonergic and dopaminergic involvement in Tourette syndrome and trichotillomania. Others, such as nephrogenic syndrome of inappropriate antidiuresis and infectious conjunctivitis, have no plausible mechanistic link and are likely graph-based artefacts.
+Other lower-ranked predictions include Tourette syndrome, trichotillomania, angioedema, allergic urticaria, cold urticaria, bronchitis, conjunctivitis, acute contagious conjunctivitis and nephrogenic syndrome of inappropriate antidiuresis. Some have loose class-level rationale, for example the serotonergic and dopaminergic involvement in Tourette syndrome and trichotillomania. Others, such as nephrogenic syndrome of inappropriate antidiuresis and infectious conjunctivitis, have no plausible mechanistic link; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Singapore Market Information
 

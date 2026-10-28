@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nintedanib
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 715
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Non-small cell lung carcinoma, lung cancer…"
 monitor_inn: "Nintedanib"
-predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "axial spondylometaphyseal dysplasia", "amyotrohpic lateral sclerosis type 22", "fibroblastic neoplasm", "kidney fibrosarcoma", "conventional fibrosarcoma", "amyotrophic lateral sclerosis, susceptibility to"]
+predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and only **1 publication** (an ind
 |------|------|
 | Original Indication | Non-small cell lung carcinoma, lung cancer, idiopathic pulmonary fibrosis, acute interstitial pneumonia, idiopathic interstitial pneumonia (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| TxGNN Prediction Score | 0.9915 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -103,7 +103,7 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.15%), and the PDGFR-driven biology of DFSP gives a plausible mechanistic rationale. However, there are no clinical trials and the only literature is an indirect review. Imatinib is already the established PDGFR-targeted option, and the package insert safety data are missing.
+The prediction score is high (0.9915), and the PDGFR-driven biology of DFSP gives a plausible mechanistic rationale. However, there are no clinical trials and the only literature is an indirect review. Imatinib is already the established PDGFR-targeted option, and the package insert safety data are missing.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA (a blocking data gap for safety screening)

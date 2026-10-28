@@ -4,17 +4,17 @@ title: Phenol
 parent: Low Evidence (L5)
 nav_order: 785
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "Phenol"
-predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome", "diabetic retinopathy", "exanthem (disease)"]
+predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
+description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenol: From Dermatitis to Acrodermatitis Chronica Atrophicans
+## Phenol: Acrodermatitis chronica atrophicans
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Phenol is a topical antiseptic and caustic agent, originally linked to the treatment of dermatitis.
 The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
-The score is a graph-based prediction only and is not backed by actual studies.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by actual studies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatitis (from the TxGNN knowledge graph; no approved indication text is available in the Singapore licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, phenol is a topical antiseptic and caustic agent. Its link to dermatitis comes from knowledge-graph associations rather than from established clinical use.
+Currently, detailed mechanism of action data is not available. Based on known information, phenol is a topical antiseptic and caustic agent. Its link to dermatitis comes from the TxGNN model (deep learning), whose score may reflect similarities the model learned between related diseases, not biological evidence, rather than from established clinical use.
 
-Acrodermatitis chronica atrophicans is a late-stage skin manifestation of *Borrelia* infection (Lyme disease) and is normally treated with systemic antibiotics. No mechanistic link between phenol and this condition has been established. The high score most likely reflects graph proximity to skin-related diseases, not biological or clinical support.
+Acrodermatitis chronica atrophicans is a late-stage skin manifestation of *Borrelia* infection (Lyme disease) and is normally treated with systemic antibiotics. No mechanistic link between phenol and this condition has been established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical support.
 
 ### Other Predicted Indications (for reference)
 
@@ -66,15 +66,13 @@ All of the following were reviewed. None has supporting clinical trials.
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 2 | Secondary interstitial lung disease of childhood with connective tissue disease | 99.95% | L5 | No plausible mechanism |
-| 3 | Neonatal dermatomyositis | 99.95% | L5 | No direct mechanism; systemic phenol use in neonates raises major toxicity concerns |
-| 4 | Amyopathic dermatomyositis | 99.95% | L5 | Autoimmune disease; phenol has no known immunomodulatory role |
-| 5 | Acne keloid | 99.94% | L4 | Only indirect evidence (one phenol peel paper on acne scars); a **research question** rather than a candidate |
-| 6 | Hydroa vacciniforme, familial | 99.94% | L5 | No mechanism or evidence |
-| 7 | Severe nonproliferative diabetic retinopathy | 99.46% | L5 | Phenol is toxic and unsuitable for ocular or systemic use |
-| 8 | Dry eye syndrome | 99.04% | L5 | Papers do not evaluate phenol; corrosive agent |
-| 9 | Diabetic retinopathy | 98.82% | L5 | Papers concern other phenolic compounds, not phenol |
-| 10 | Exanthem | 97.19% | L5 | Likely graph proximity to dermatitis only |
+| 2 | Secondary interstitial lung disease of childhood with connective tissue disease | 0.9995 | L5 | No plausible mechanism |
+| 3 | Neonatal dermatomyositis | 0.9995 | L5 | No direct mechanism; systemic phenol use in neonates raises major toxicity concerns |
+| 4 | Amyopathic dermatomyositis | 0.9995 | L5 | Autoimmune disease; phenol has no known immunomodulatory role |
+| 5 | Acne keloid | 0.9994 | L5 | Only indirect evidence (one phenol peel paper on acne scars); a **research question** rather than a candidate |
+| 6 | Hydroa vacciniforme, familial | 0.9994 | L5 | No mechanism or evidence |
+| 7 | Severe nonproliferative diabetic retinopathy | 0.9946 | L5 | Phenol is toxic and unsuitable for ocular or systemic use |
+| 8 | Dry eye syndrome | 0.9904 | L5 | Papers do not evaluate phenol; corrosive agent |
 
 Of these, **acne keloid** is the only one with any directly related literature. It is discussed below.
 
@@ -106,7 +104,7 @@ All three licences are valid single-ingredient products. None has been cancelled
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: The TxGNN knowledge graph links phenol to contraindications in many conditions. Notable groups include:
+- **Contraindications (associations learned by the TxGNN model (deep learning), not label text)**: The TxGNN model (deep learning) links phenol to contraindications in many conditions, which may reflect similarities the model learned between related diseases, not biological evidence. Notable groups include:
   - Cardiac: sudden cardiac arrest, heart conduction disease, atrioventricular block
   - Liver and gallbladder disease
   - Diabetes mellitus and diabetic ketoacidosis
@@ -127,7 +125,7 @@ Please refer to the package insert for warnings and drug interaction information
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score (99.95%) is not supported by any clinical trial or publication, and no plausible mechanism links phenol, a topical caustic agent, to a *Borrelia*-related skin condition that is treated with systemic antibiotics. Safety data are also incomplete. All ten predicted indications remain at Evidence Level L5, except acne keloid (L4), which is only a research question.
+The high TxGNN score (0.9995) is not supported by any clinical trial or publication, and no plausible mechanism links phenol, a topical caustic agent, to a *Borrelia*-related skin condition that is treated with systemic antibiotics. Safety data are also incomplete. All ten predicted indications remain at Evidence Level L5, except acne keloid (L4), which is only a research question.
 
 **To proceed, the following is needed:**
 - The Singapore package insert (warnings, contraindications and approved indications), which is a blocking gap for safety screening

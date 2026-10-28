@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Montelukast
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 687
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Montelukast: predicted new indication Bronchitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, intrinsic asthma…"
 monitor_inn: "Montelukast"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "2-hydroxyethyl methacrylate sensitization", "uterine polyp", "polyp of vocal cord", "polyp of middle ear", "fibroepithelial polyp"]
+predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Montelukast: From Allergic Rhinitis and Asthma to Bronchitis
+## Montelukast: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, intrinsic asthma, allergic asthma (from the knowledge graph; the Singapore registration records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 (one completed Phase 3 RCT, but in the related condition of RSV bronchiolitis) |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 

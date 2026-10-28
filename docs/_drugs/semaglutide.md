@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Semaglutide
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 906
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Semaglutide: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
+description: "Semaglutide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Semaglutide"
-predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis", "autoimmune oophoritis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Semaglutide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,59 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Semaglutide: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+## Semaglutide
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Semaglutide is a GLP-1 receptor agonist originally used to treat type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (the registration records compiled for this report contain no approved indication text) |
-| Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 98.64% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 15 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, semaglutide is a GLP-1 receptor agonist that supports glycaemic control and appetite regulation. Its efficacy in type 2 diabetes is established.
-
-No mechanistic link to focal stiff limb syndrome has been established. This is a rare autoimmune/neurological disorder within the stiff-person spectrum, linked to GABAergic and anti-GAD-related dysfunction. GLP-1 receptor agonism has no known role in this pathophysiology. Any anti-inflammatory or neuromodulatory effect is speculative.
-
-The high score probably reflects graph associations, such as the overlap between anti-GAD autoimmunity and autoimmune diabetes. The same score (98.64%) was given to classic stiff person syndrome, which suggests a shared graph neighbourhood rather than disease-specific evidence.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for focal stiff limb syndrome.
-
-The literature retrieved for the lower-ranked prediction, pancreatic agenesis, is preclinical or safety-focused and shows no benefit in that disease.
-
-## Other Predicted Indications (Ranks 2–10)
-
-All other predictions are also Evidence Level L5 with a Hold recommendation, and none has clinical trial support.
-
-| Rank | Predicted Indication | Score | Assessment |
-|------|------|------|------|
-| 2 | Classic stiff person syndrome | 98.64% | Indirect and speculative; anti-GAD65 autoimmunity overlaps with autoimmune diabetes, but no effect on SPS mechanisms is shown |
-| 3 | Opsismodysplasia | 98.59% | No plausible link; a genetic skeletal dysplasia (INPPL1/SHIP2) |
-| 4 | Thiamine-responsive dysfunction syndrome | 98.58% | No direct link; the shared diabetes feature likely drives the association |
-| 5 | Drug-induced localized lipodystrophy | 97.66% | Weak; fat-loss effects are conceptually opposite, and injection-site reactions are a concern |
-| 6 | Centrifugal lipodystrophy | 97.56% | No established link; may be counterproductive |
-| 7 | Pressure-induced localized lipoatrophy | 97.49% | No rationale; treatment is removing the pressure source |
-| 8 | Idiopathic localized lipodystrophy | 97.35% | No established link; weight loss could be unfavourable |
-| 9 | Pancreatic agenesis | 97.31% | Biologically implausible; efficacy depends on functioning beta cells. Only preclinical or safety literature was retrieved |
-| 10 | Autoimmune oophoritis | 95.05% | Speculative; anti-inflammatory effects are reported, but no specific evidence |
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 
 ## Singapore Market Information
 
@@ -111,18 +70,6 @@ Package insert warnings and contraindications were not available. Please refer t
 
 For the lipodystrophy-type predictions, semaglutide's fat- and weight-reducing effects and subcutaneous injection could add safety concerns rather than benefit.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a graph-based score alone, with no clinical trials, no supporting literature and no plausible mechanistic link. Semaglutide's GLP-1 receptor action has no known role in the GABAergic or autoimmune mechanisms of focal stiff limb syndrome.
-
-**To proceed, the following is needed:**
-- Mechanism of action data and a credible biological hypothesis linking GLP-1 receptor agonism to stiff-person spectrum disorders
-- Preclinical or clinical evidence in focal stiff limb syndrome or stiff person syndrome
-- Package insert warnings and contraindications from the HSA website, which is required for safety screening
-- Route compatibility assessment, since this is still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

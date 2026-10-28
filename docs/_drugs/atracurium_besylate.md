@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Atracurium besylate is a non-depolarizing neuromuscular blocker, used as an adjunct in anaesthesia. The TxGNN model predicts it may be effective for **preeclampsia**, but **no clinical trials and no publications** in the data compiled for this report support this prediction. It rests on a graph-based model score alone.
+Atracurium besylate is a non-depolarizing neuromuscular blocker, used as an adjunct in anaesthesia. The TxGNN model predicts it may be effective for **preeclampsia**, but **no clinical trials and no publications** in the data compiled for this report support this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -46,32 +46,32 @@ Atracurium besylate is a non-depolarizing neuromuscular blocker, used as an adju
 |------|------|
 | Original Indication | Not stated in the Singapore licence records (the mechanism points to use as a neuromuscular blocker in anaesthesia) |
 | Predicted New Indication | Preeclampsia |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Atracurium is known to be a non-depolarizing neuromuscular blocker that acts at nicotinic acetylcholine receptors at the motor endplate. This is the basis of its use for muscle relaxation during surgery and ventilation.
 
-There is no established link between this mechanism and preeclampsia. Preeclampsia involves placental dysfunction, endothelial injury and angiogenic imbalance, none of which atracurium targets. The standard agent for seizure prevention in preeclampsia is magnesium sulfate, not atracurium. The high score is most likely a pattern in the knowledge graph rather than a pharmacological signal.
+There is no established link between this mechanism and preeclampsia. Preeclampsia involves placental dysfunction, endothelial injury and angiogenic imbalance, none of which atracurium targets. The standard agent for seizure prevention in preeclampsia is magnesium sulfate, not atracurium. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions show the same weakness. The ten highest-scoring predictions each have no supporting trials or literature:
 
 | Rank | Predicted Disease | Score | Assessment |
 |------|------|------|------|
-| 1 | Preeclampsia | 99.97% | No mechanistic link |
-| 2 | Cauda equina syndrome | 99.95% | Surgical compressive emergency; no direct mechanism |
-| 3 | Blepharospasm | 99.92% | Conceptually plausible, but atracurium is systemic and short-acting; botulinum toxin is the established treatment |
-| 4 | Migraine disorder | 99.91% | No link to trigeminovascular or CGRP pathways |
-| 5 | Obsolete neurogenic bladder | 99.91% | Ontology term is obsolete, which lowers interpretability |
-| 6 | Thrombotic disease | 99.89% | No antithrombotic activity |
-| 7 | Migraine with brainstem aura | 99.88% | Same as migraine disorder |
-| 8 | Severe pre-eclampsia | 99.86% | Same as preeclampsia |
-| 9 | Mild pre-eclampsia | 99.86% | Same as preeclampsia |
-| 10 | Irritable bowel syndrome | 99.84% | Acts on skeletal, not smooth, muscle |
+| 1 | Preeclampsia | 0.9997 | No mechanistic link |
+| 2 | Cauda equina syndrome | 0.9995 | Surgical compressive emergency; no direct mechanism |
+| 3 | Blepharospasm | 0.9992 | Conceptually plausible, but atracurium is systemic and short-acting; botulinum toxin is the established treatment |
+| 4 | Migraine disorder | 0.9991 | No link to trigeminovascular or CGRP pathways |
+| 5 | Obsolete neurogenic bladder | 0.9991 | Ontology term is obsolete, which lowers interpretability |
+| 6 | Thrombotic disease | 0.9989 | No antithrombotic activity |
+| 7 | Migraine with brainstem aura | 0.9988 | Same as migraine disorder |
+| 8 | Severe pre-eclampsia | 0.9986 | Same as preeclampsia |
+| 9 | Mild pre-eclampsia | 0.9986 | Same as preeclampsia |
+| 10 | Irritable bowel syndrome | 0.9984 | Acts on skeletal, not smooth, muscle |
 
 Of these, blepharospasm is the only one with a conceptually plausible link, through reduced involuntary muscle contraction.
 

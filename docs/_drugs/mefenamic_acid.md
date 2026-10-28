@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: High Evidence (L1-L2)
 nav_order: 641
 evidence_level: L2
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not available"
 monitor_inn: "Mefenamic acid"
-predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura", "acromesomelic dysplasia, Hunter-Thompson type", "osteoarthritis"]
+predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The evidence points to symptomatic relief only, not disease modification.
 |------|------|
 | Original Indication | Not available (no approved indication text in the registration records) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the compiled data. Mefenam
 
 Mefenamic acid is already an established analgesic and anti-inflammatory drug, so this prediction is better viewed as an established use within the NSAID class than as true repurposing. Controlled comparisons from the 1960s to 1970s against ibuprofen, sulindac, flurbiprofen, indomethacin and placebo suggest symptomatic efficacy. These studies show symptomatic benefit, not slowing of joint destruction. The drug should therefore not be seen as a disease-modifying antirheumatic agent.
 
-Other predictions for this drug (see below) are consistent with the same mechanism, including migraine (especially menstrual migraine) and osteoarthritis.
+Other predictions for this drug (see below) are consistent with the same mechanism, including migraine (especially menstrual migraine).
 
 ## Clinical Trial Evidence
 
@@ -121,10 +121,8 @@ Several double-blind controlled trials show symptomatic benefit in rheumatoid ar
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Migraine disorder / headache disorder | 99.23% / 99.64% | L2 | Double-blind trials vs acetaminophen, vs propranolol and placebo, and in menstrual migraine; best suited to short-term perimenstrual use |
-| Osteoarthritis | 98.73% | L2 | Older double-blind trials vs indomethacin, diclofenac and ibuprofen; a preclinical study showed no joint-protective effect |
-| Migraine with brainstem aura | 99.21% | L3 | Evidence indirect and extrapolated from general migraine |
-| Osteoarthritis susceptibility, trigeminal autonomic cephalalgia, rare genetic syndromes (colobomatous microphthalmia-rhizomelic dysplasia, brachydactyly-syndactyly, Hunter-Thompson acromesomelic dysplasia) | 98.8%–99.7% | L5 | No evidence and no plausible mechanism; likely model artifacts. Hold |
+| Migraine disorder / headache disorder | 0.9923 / 0.9964 | L2 | Double-blind trials vs acetaminophen, vs propranolol and placebo, and in menstrual migraine; best suited to short-term perimenstrual use |
+| Migraine with brainstem aura | 0.9921 | L5 | Evidence indirect and extrapolated from general migraine |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

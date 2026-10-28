@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trastuzumab
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 1012
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Trastuzumab: predicted new indication Progesterone-receptor positive breast cancer (evidence level L1). Approved use: HER2-positive breast carcinoma"
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Trastuzumab: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Positive Breast Cancer
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Trastuzumab is a HER2-targeted antibody originally used to treat HER2-positive breast carcinoma.
-The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**, with **14 clinical trials** and **20 publications** currently supporting this direction.
 Most of this evidence reflects the already-established HER2-positive population, so the benefit is expected only in tumours that are both PR-positive and HER2-positive.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-positive breast carcinoma (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant cutaneous granular cell skin tumor |
+| TxGNN Prediction Score | 0.9948 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +62,7 @@ A proportion of PR-positive breast cancers also overexpress HER2 (the HER2+/HR+ 
 Endocrine therapy is typically combined with HER2-directed treatment in this group. Crosstalk between HER2 and hormone receptor signalling is a recognised resistance mechanism, which is why combination approaches are being tested.
 
 Other predicted indications in the same analysis:
-- **PR-negative breast cancer** (score 99.90%, L1): trastuzumab works through HER2 blockade, so benefit applies only to HER2-positive patients and not to triple-negative disease. Phase 3 evidence exists, mostly in HER2-positive patients.
+- Phase 3 evidence exists, mostly in HER2-positive patients.
 - **Luminal A or B breast tumour** (L1): evidence is from the literature only, with no trials listed under this term. Luminal B HER2-positive tumours respond to trastuzumab, but Luminal A tumours are generally HER2-negative.
 - **Normal breast-like subtype** (L4, Hold): this subtype is generally HER2-low or HER2-negative, so there is little rationale. The one listed trial tests a different agent.
 - **Six rare tumour types** (L5, Hold): these have model predictions only, with no clinical or literature support. They are malignant cutaneous granular cell tumour, ectomesenchymoma, human herpesvirus 8-related tumour, middle ear neuroendocrine tumour, kidney pelvis sarcomatoid transitional cell carcinoma, and prostatic urethra urothelial carcinoma. HER2 overexpression occurs in some urothelial carcinomas, so those two have a plausible rationale.

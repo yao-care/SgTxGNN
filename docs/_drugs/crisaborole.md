@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Crisaborole
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 280
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Crisaborole: predicted new indication Exanthem (disease) (evidence level L5). Approved use: Atopic dermatitis (atopic eczema)"
-monitor_inn: "Crisaborole"
-predicted_indications: ["exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "pityriasis simplex"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Crisaborole: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Crisaborole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Crisaborole: From Atopic Dermatitis to Exanthem
+<!-- known-uses-page -->
+<!-- description: Crisaborole: known uses and market status in Singapore; currently no new candidate indication -->
+## Crisaborole: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model's candidates for Crisaborole in Singapore are all known uses, so there is currently no new predicted indication. The one use that can be traced to a source is a relation recorded in the knowledge graph, not an approval.
 
-Crisaborole is a topical, non-steroidal PDE4 inhibitor, originally used to treat mild-to-moderate atopic dermatitis (atopic eczema).
-The TxGNN model predicts it may be effective for **exanthem** (a broad rash category), with a high score of **98.58%**.
-However, **0 clinical trials** and **0 publications** currently support this specific prediction, so it rests on model output alone.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Atopic dermatitis (atopic eczema) |
-| Predicted New Indication | Exanthem (disease) |
-| TxGNN Prediction Score | 98.58% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Crisaborole inhibits phosphodiesterase 4 (PDE4), with an IC50 of about 490 nM on partially purified human PDE4. Inhibiting PDE4 raises intracellular cAMP and reduces the release of pro-inflammatory cytokines. In the data compiled for this report, crisaborole also appears to act on PDE1A, PDE4B and PDE7A. This mechanism is well established in atopic dermatitis, where crisaborole was approved by the FDA in December 2016.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Exanthem is a broad, descriptive term for widespread skin eruptions, not a single defined disease. PDE4 inhibition could plausibly dampen skin inflammation in some rashes, which may explain the model's prediction. No specific mechanism for exanthem is supported, and the prediction is too non-specific to evaluate directly.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for exanthem.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for exanthem.
-
-**Related finding:** The second-ranked prediction, **dermatitis** (score 96.64%), has extensive evidence at level L1, including a completed Phase 3 vehicle-controlled trial (NCT04360187, n=391). Nearly all of it concerns atopic dermatitis, which is the original indication, so it mostly confirms the existing use rather than showing true repurposing. Evidence for other dermatitis subtypes is limited to small exploratory studies, such as seborrheic dermatitis (NCT03567980) and stasis dermatitis (NCT04091087, Phase 2).
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| dermatitis, atopic |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16613P | Staquis Ointment 2% w/w | Ointment | — |
-
-Manufacturer: Pharmacia & Upjohn Company LLC (subsidiary of Pfizer Inc). Status: valid, single-ingredient product. Only a topical ointment is registered.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16613P | Staquis Ointment 2% w/w | OINTMENT | Valid |
 
 ## Safety Considerations
 
@@ -96,18 +78,6 @@ Please refer to the package insert for safety information.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The exanthem prediction rests on model output alone. There are no clinical trials or publications, and exanthem is too broad to be a testable indication. The topical-only formulation also limits relevance to non-cutaneous or systemic conditions.
-
-**To proceed, the following is needed:**
-- A specific, well-defined rash or dermatosis subtype to replace the broad "exanthem" category
-- Preclinical or early clinical evidence in that subtype
-- The Singapore package insert for warnings, contraindications and approved indication wording
-- Subtype-specific trials before any use beyond the labelled mild-to-moderate atopic dermatitis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

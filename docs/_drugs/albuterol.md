@@ -8,6 +8,7 @@ nav_order: 48
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Albuterol
@@ -51,8 +52,8 @@ However, the TxGNN pipeline returned **no predicted new indications** for this c
 | Predicted New Indication | No prediction available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model produced no output) |
-| Singapore Market Status | Not marketed (per query result) |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | **Hold** |
 
 ---

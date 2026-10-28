@@ -4,17 +4,17 @@ title: Ketoconazole
 parent: Medium Evidence (L3-L4)
 nav_order: 566
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Superficial fungal infections and related skin conditions (tinea pedi…"
 monitor_inn: "Ketoconazole"
-predicted_indications: ["acne (disease)", "zinc, elevated plasma", "leprosy", "urticaria, aquagenic", "punctate epithelial keratoconjunctivitis", "nail infection", "candida glabrata", "neonatal candidiasis"]
+predicted_indications: ["acne (disease)"]
 ---
 
 # Ketoconazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ Among the other predictions for this drug, **vulvovaginal candidiasis** has much
 |------|------|
 | Original Indication | Superficial fungal infections and related skin conditions (tinea pedis, tinea corporis, seborrhoeic dermatitis, pityriasis versicolor, cutaneous and oral candidiasis, and others). The approved indication text is not available in the Singapore registration records. |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold (treat as a research question) |
 
@@ -124,7 +124,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-The acne prediction score is very high (99.80%), but the evidence is L4. There is one small, non-phased trial (n=52) with no results, and the supporting data are in vitro or indirect. This is a research question, not a ready-to-use repurposing candidate. For comparison, the **vulvovaginal candidiasis** prediction is rated L1 (Proceed with Guardrails). It has two Phase 3 trials, and it extends the established antifungal mechanism to a vaginal formulation.
+The acne prediction score is very high (0.9980), but the evidence is L4. There is one small, non-phased trial (n=52) with no results, and the supporting data are in vitro or indirect. This is a research question, not a ready-to-use repurposing candidate. For comparison, the **vulvovaginal candidiasis** prediction is rated L1 (Proceed with Guardrails). It has two Phase 3 trials, and it extends the established antifungal mechanism to a vaginal formulation.
 
 **To proceed, the following is needed:**
 - Results of NCT07237763, and larger randomised trials with defined acne endpoints

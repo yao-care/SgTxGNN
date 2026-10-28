@@ -4,17 +4,17 @@ title: Ocrelizumab
 parent: Low Evidence (L5)
 nav_order: 730
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Ocrelizumab: predicted new indication HER2-positive breast carcinoma (evidence level L5). Approved use: Progressive multiple sclerosis"
+description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Progressive multiple sclerosis"
 monitor_inn: "Ocrelizumab"
-predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "benign neoplasm of tongue", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "schwannoma of jugular foramen", "benign neoplasm of buccal mucosa"]
+predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 ---
 
 # Ocrelizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ocrelizumab: From Progressive Multiple Sclerosis to HER2-Positive Breast Carcinoma
+## Ocrelizumab: From Progressive Multiple Sclerosis to HER2 positive breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **HER2-positive breast carcinom
 |------|------|
 | Original Indication | Progressive multiple sclerosis |
 | Predicted New Indication | HER2-positive breast carcinoma |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 No direct link to HER2-driven breast cancer biology was identified. A possible connection, such as B cells within the tumour microenvironment, is speculative, and B-cell depletion could be neutral or even unfavourable for anti-tumour immunity.
 
-Several other breast-related predictions (progesterone-receptor positive, normal breast-like subtype, progesterone-receptor negative, luminal A or B) have nearly identical scores of about 0.998. This suggests the model is propagating a shared breast-cancer signal rather than indication-specific evidence. The lower-ranked predictions (benign tongue, hypopharynx and buccal mucosa neoplasms, cervical neuroblastoma, jugular foramen schwannoma) also lack any supporting evidence or plausible rationale.
+Several other breast-related predictions (progesterone-receptor positive, normal breast-like subtype, progesterone-receptor negative, luminal A or B) have nearly identical scores between 0.9980 and 0.9981. This suggests the model is propagating a shared breast-cancer signal rather than indication-specific evidence.
 
 ## Clinical Trial Evidence
 

@@ -4,17 +4,17 @@ title: Captopril
 parent: Low Evidence (L5)
 nav_order: 204
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Captopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
+indication_count: 3
 monitor_inn: "Captopril"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "chronic pulmonary heart disease", "intracerebral hemorrhage", "chronic renal failure syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
+last_modified_at: 2026-10-27
+description: "Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Captopril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,44 +33,52 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Captopril: From Hypertension to Malignant Hypertensive Renal Disease
+## Captopril: ACE inhibitor → malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Captopril is an ACE inhibitor originally used for hypertension and diabetic nephropathy.
+Captopril is an angiotensin-converting enzyme (ACE) inhibitor that is marketed in Singapore as oral tablets.
 The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
-but there are currently **0 registered clinical trials** and only **1 publication** (a diagnostic case report), so the evidence is model prediction only.
+but the data compiled for this report contain **no clinical trials** and only **1 publication**, a case report on diagnostic use, so the prediction rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, hypertensive disorder, diabetic nephropathy (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.28% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, captopril is an ACE inhibitor. It lowers angiotensin II-mediated vasoconstriction and aldosterone release. Its efficacy in hypertension and diabetic nephropathy is established.
+Detailed mechanism of action data is not available in the data compiled for this report. Captopril belongs to the ACE inhibitor class. These drugs reduce the production of angiotensin II, which narrows blood vessels, and also reduce aldosterone release. Mechanistically, this is plausible for severe hypertension that damages the kidneys, because the renin-angiotensin system is often strongly activated in that setting.
 
-Malignant hypertension with renal involvement is a severe, often renin-driven form of high blood pressure. Mechanistically, blocking the renin-angiotensin system is therefore plausible for this condition.
+The only publication retrieved is a case report in which captopril renography was used as a diagnostic test. In that patient, a renal cell carcinoma, not renal artery stenosis, explained the renin-dependent hypertension, which resolved after nephrectomy. This report does not show that captopril treats malignant hypertensive renal disease. The high score (0.9928) is a model prediction only.
 
-However, the only publication retrieved is a case report of captopril renography (a diagnostic test) in a patient whose hypertension was caused by a renal cell carcinoma. It shows no therapeutic benefit. The high score is a model prediction, not clinical proof.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case report | Clinical Nuclear Medicine | Positive captopril renography (a diagnostic test indicating renin-dependent hypertension) was caused by a large renal cell carcinoma, not renal artery stenosis. Hypertension resolved after nephrectomy. This is a diagnostic use, not treatment evidence. |
+| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case report | Clinical Nuclear Medicine | Positive captopril renography in a patient whose renin-dependent hypertension was caused by a large chromophobe renal cell carcinoma, not renal artery stenosis; hypertension resolved after nephrectomy. This is a diagnostic use, not evidence of treatment benefit. |
+
+---
 
 ## Singapore Market Information
 
@@ -82,40 +90,32 @@ Currently no related clinical trials registered.
 | SIN06665P | APO-CAPTO TABLET 50 mg | Tablet | Not recorded |
 | SIN06667P | APO-CAPTO TABLET 12.5 mg | Tablet | Not recorded |
 
-A sixth licence (SIN08474P, DEXACAP TABLET 25 mg) is also valid. All six are single-ingredient oral tablets.
+---
 
 ## Safety Considerations
 
-- **Contraindications / disease associations (from the knowledge graph, not label text)**: kidney disease, liver disease, pancreatitis, gallbladder disease, angioedema (including hereditary and ACE-inhibitor-related forms), systemic lupus erythematosus, diabetes and diabetic ketoacidosis, potassium deficiency, neutropenia and agranulocytosis, aortic stenosis, hypotension, hyperparathyroidism, hepatic encephalopathy, and connective tissue and bone disease.
-- **Drug Interactions**: 100 interactions were found. Most of the listed ones are Moderate, including corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), antidiabetic drugs (metformin, alogliptin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, exenatide, chlorpropamide, acetohexamide), morphine, bupropion, acetylsalicylic acid, and dronabinol. Antacids (aluminium hydroxide, calcium carbonate) are Minor.
-- **Clinical concern for this indication**: ACE inhibitors can reduce kidney function in patients with bilateral renal artery stenosis or a solitary kidney, which matters in severe renovascular and renal hypertension.
+- **Drug Interactions**: The interaction screening returned 100 interacting drugs in total. Most of those listed are Moderate. Examples include:
+  - Corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
+  - Glucose-lowering drugs (metformin, alogliptin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, exenatide, chlorpropamide, acetohexamide)
+  - Others such as bupropion, morphine, acetylsalicylic acid and dronabinol
+  - Antacids (aluminium hydroxide, calcium carbonate) were rated Minor.
 
-Package insert warnings were not available. Please refer to the package insert for full safety information.
+For warnings and contraindications, please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high model score and a plausible mechanism. No trials are registered, and the only publication is a diagnostic case report. Evidence for therapeutic benefit is currently absent.
+The prediction score is high (0.9928), but there are no clinical trials and the single publication is a diagnostic case report that does not address treatment. Evidence is therefore L5, model prediction only.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (a blocking gap for safety screening)
+- Clinical or observational studies of captopril treating malignant hypertensive renal disease
 - Detailed mechanism of action data
-- Clinical evidence of captopril treatment in malignant hypertension with renal involvement
-- A renal safety plan: monitoring creatinine and potassium, and excluding bilateral renal artery stenosis
-
-## Other Predicted Indications Worth Noting
-
-Of the other predicted indications, two are rated more promising than the top-ranked one:
-
-| Predicted Indication | Score | Evidence Level | Recommendation | Comment |
-|------|------|------|------|------|
-| Chronic renal failure syndrome | 81.33% | L2 | Proceed with Guardrails | One randomized trial of captopril to mitigate chronic renal failure after hematopoietic stem cell transplantation ([PMID 18029109](https://pubmed.ncbi.nlm.nih.gov/18029109/)). The trial phase and results should be verified, and broader support comes from class-effect data for other ACE inhibitors. |
-| Chronic pulmonary heart disease | 97.08% | L3 | Research Question | Several small, older haemodynamic studies in COPD with pulmonary hypertension (1986-1989) gave mixed results, for example [PMID 3530649](https://pubmed.ncbi.nlm.nih.gov/3530649/) and [PMID 3050941](https://pubmed.ncbi.nlm.nih.gov/3050941/), the latter showing no pulmonary benefit. |
-| Malignant renovascular hypertension | 99.28% | L4 | Research Question | Mechanistically relevant, but literature is mostly reviews and diagnostic case reports. |
-
-The remaining predictions (pulmonary hypertension subtypes, Braddock syndrome, rare syndromes, brain small vessel disease, intracerebral hemorrhage) have only model prediction or preclinical evidence and are on Hold.
+- Package insert warnings and contraindications from the Singapore regulator (HSA)
+- Assessment of dosing, route and renal-safety monitoring in severe hypertension with kidney involvement
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

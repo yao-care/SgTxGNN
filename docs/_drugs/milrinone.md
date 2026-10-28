@@ -4,17 +4,17 @@ title: Milrinone
 parent: Low Evidence (L5)
 nav_order: 676
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Milrinone: predicted new indication Alopecia (evidence level L5). Approved use: Congestive heart failure"
 monitor_inn: "Milrinone"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
+description: "Milrinone: predicted new indication Alopecia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Milrinone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Milrinone: From Congestive Heart Failure to Alopecia
+## Milrinone: Alopecia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Milrinone is an injectable PDE3 inhibitor used for congestive heart failure. The
 
 | Item | Content |
 |------|------|
-| Original Indication | Congestive heart failure (from pharmacology reference data; the Singapore licence record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Milrinone is an injectable PDE3 inhibitor used for congestive heart failure. The
 
 Detailed mechanism-of-action text is not available in the data compiled for this report. Pharmacology records, however, list milrinone as acting on phosphodiesterase 3A and 3B, and also on PDE2A and PDE5A. Inhibiting PDE3 raises cAMP. In the heart this increases contractility, and in vascular smooth muscle it causes vasodilation. That profile explains its use in decompensated heart failure.
 
-The link to alopecia is speculative. One could argue that vasodilation might improve hair follicle perfusion, or that cAMP signalling might influence follicle biology. No study in the compiled data tests either idea. The very high score most likely reflects proximity in the knowledge graph rather than biological evidence. Milrinone is not an established treatment for any hair disorder.
+The link to alopecia is speculative. One could argue that vasodilation might improve hair follicle perfusion, or that cAMP signalling might influence follicle biology. No study in the compiled data tests either idea. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Milrinone is not an established treatment for any hair disorder.
 
 ---
 

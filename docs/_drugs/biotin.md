@@ -4,17 +4,17 @@ title: Biotin
 parent: Low Evidence (L5)
 nav_order: 163
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Nutritional biotin deficiency"
 monitor_inn: "Biotin"
-predicted_indications: ["dyspepsia", "gastroparesis (disease)", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "familial visceral myopathy", "anemia of prematurity", "congenital prothrombin deficiency", "cystinosis", "obsolete contact dermatitis caused by poison oak"]
+predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
 ---
 
 # Biotin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Biotin (vitamin B7) is a water-soluble vitamin originally used to treat nutritional biotin deficiency.
-The TxGNN model predicts it may be effective for **dyspepsia** (score 99.4%), but **no clinical trials** are registered for this use, and the 6 publications retrieved do not show that biotin treats dyspepsia.
+The TxGNN model (deep learning) predicts it may be effective for **dyspepsia** (score 0.9943), but **no clinical trials** are registered for this use, and the 6 publications retrieved do not show that biotin treats dyspepsia.
 The evidence is currently prediction only.
 
 ---
@@ -50,10 +50,10 @@ The evidence is currently prediction only.
 |------|------|
 | Original Indication | Nutritional biotin deficiency (the approved indication text on the Singapore licences is blank) |
 | Predicted New Indication | Dyspepsia |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -71,9 +71,9 @@ The literature retrieved for dyspepsia does not support the prediction. It cover
 None of these shows that biotin improves dyspepsia. The high TxGNN score is a computational prediction without clinical support.
 
 For context, other predictions with limited or indirect evidence:
-- **Biotin metabolic disease** (score 92.1%) has the strongest supporting material: 6 trials and many reviews. These are mainly high-dose biotin studies in other diseases, so the support is indirect.
+- **Biotin metabolic disease** has the strongest supporting material: 6 trials and many reviews. These are mainly high-dose biotin studies in other diseases, so the support is indirect.
 - **Vitamin deficiency disorder** overlaps with the existing label and is not a true repurposing signal.
-- **Gastroparesis** (score 99.4%) has no trials or literature.
+- **Gastroparesis** (score 0.9942) has no trials or literature.
 
 ---
 

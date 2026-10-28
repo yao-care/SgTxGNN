@@ -4,17 +4,17 @@ title: Miconazole
 parent: Medium Evidence (L3-L4)
 nav_order: 671
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L3). Approved use: Tinea pedis, tinea corporis, cutaneous candidiasis, tinea unguium…"
 monitor_inn: "Miconazole"
-predicted_indications: ["acne (disease)", "gastrin secretion abnormality", "papillary conjunctivitis", "ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "blastomycosis"]
+predicted_indications: ["acne (disease)"]
 ---
 
 # Miconazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Miconazole: From Superficial Fungal Infections to Acne
+## Miconazole: acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,9 +49,9 @@ The TxGNN model predicts it may be effective for **acne**, with **no registered 
 |------|------|
 | Original Indication | Tinea pedis, tinea corporis, cutaneous candidiasis, tinea unguium, pityriasis versicolor, vulvovaginal candidiasis (from the knowledge graph; no approved-indication text is recorded in the Singapore licence data) |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold (research question only) |
 
@@ -117,7 +117,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.54%), but there are no registered clinical trials and the supporting evidence is one review, two small clinical studies and one in vitro study. Some of this literature concerns Malassezia folliculitis, a different condition from acne. The idea is mechanistically plausible and the drug is already widely marketed topically in Singapore, but the data are not yet enough to support moving forward with a clinical programme.
+The TxGNN score is high (0.9954), but there are no registered clinical trials and the supporting evidence is one review, two small clinical studies and one in vitro study. Some of this literature concerns Malassezia folliculitis, a different condition from acne. The idea is mechanistically plausible and the drug is already widely marketed topically in Singapore, but the data are not yet enough to support moving forward with a clinical programme.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA (a blocking gap for safety screening)

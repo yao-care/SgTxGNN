@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clomipramine
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 269
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L5). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
-predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
+predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
 ---
 
 # Clomipramine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **8 clinical trials** (mostly in OCD) and **20 publications** currently sup
 |------|------|
 | Original Indication | Obsessive-compulsive disorder |
 | Predicted New Indication | Anxiety disorder |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L1 (see note under Clinical Trial Evidence) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -102,7 +102,7 @@ Most of the registered trials are OCD-focused (the original indication), so evid
 
 ## Safety Considerations
 
-- **Contraindication signals (from knowledge-graph associations, not label text):** epilepsy, manic bipolar disorder, liver disease, gallbladder disease, substance abuse or dependence, malignant hyperthermia, pheochromocytoma and paraganglioma, glaucoma, hyperthyroidism (including Graves disease and thyrotoxicosis), neuroblastoma, and several cancers (duodenum, small intestine, heart, adrenal gland).
+- **Contraindication signals (from the TxGNN model (deep learning), not label text; they may reflect similarities the model learned between related diseases, not biological evidence):** epilepsy, manic bipolar disorder, liver disease, gallbladder disease, substance abuse or dependence, malignant hyperthermia, pheochromocytoma and paraganglioma, glaucoma, hyperthyroidism (including Graves disease and thyrotoxicosis), neuroblastoma, and several cancers (duodenum, small intestine, heart, adrenal gland).
 - **Drug Interactions:** 100 interactions were recorded. Major-level examples include epinephrine, bupropion, lorcaserin, potassium citrate and cisapride. Moderate-level examples include famotidine, cimetidine, clarithromycin, morphine, aspirin and several anticholinergic agents (atropine, hyoscyamine, glycopyrronium).
 
 Please refer to the package insert for full warnings and contraindications.

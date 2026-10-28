@@ -6,9 +6,9 @@ nav_order: 889
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). Approved use: Myelofibrosis…"
 monitor_inn: "Ruxolitinib"
-predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
+predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
+description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ruxolitinib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ruxolitinib: From Myelofibrosis to Uterine Corpus Perivascular Epithelioid Cell Tumor (PEComa)
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Other predicted indications have more support, notably hemophagocytic lymphohist
 
 | Item | Content |
 |------|------|
-| Original Indication | Myelofibrosis, polycythemia vera and related myeloproliferative neoplasms (from the knowledge graph; the Singapore registry entries contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Uterine corpus perivascular epithelioid cell tumor |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Other predicted indications have more support, notably hemophagocytic lymphohist
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, ruxolitinib is a JAK1/2 inhibitor. Its efficacy in myeloproliferative neoplasms is established, and these diseases are driven by overactive JAK-STAT signalling.
 
-The link to the predicted indication is weak. PEComas are typically driven by activation of the mTOR pathway (loss of TSC1 or TSC2), and the data compiled for this report do not establish any connection between this pathway and JAK1/2 inhibition. The high score most likely reflects network similarity to related diseases in the knowledge graph rather than direct biological or clinical evidence.
+The link to the predicted indication is weak. PEComas are typically driven by activation of the mTOR pathway (loss of TSC1 or TSC2), and the data compiled for this report do not establish any connection between this pathway and JAK1/2 inhibition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The same pattern holds for the other PEComa-family predictions (benign PEComa, lung PEComa, lymphangiomyoma, lymphangioleiomyomatosis). All are prediction-only with no trials or publications. Lymphangioleiomyomatosis is mTOR-driven and already has an established therapy, sirolimus.
 

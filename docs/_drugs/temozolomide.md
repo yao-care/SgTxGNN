@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Temozolomide
-parent: High Evidence (L1-L2)
-nav_order: 961
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Temozolomide: predicted new indication Adult astrocytic tumour (evidence level L1). Approved use: Anaplastic astrocytoma, astrocytoma (excluding glioblastoma)…"
+parent: Low Evidence (L5)
+nav_order: 960
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Temozolomide"
-predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm", "childhood cerebral astrocytoma", "cerebellar astrocytoma", "subependymal giant cell astrocytoma", "diencephalic astrocytomas", "astrocytic tumor", "high grade astrocytic tumor", "low grade astrocytic tumor"]
+predicted_indications: ["cauda equina neoplasm"]
+last_modified_at: 2026-10-23
+description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Anaplastic astrocytoma, astrocytoma (excluding glioblastoma)…"
 ---
 
 # Temozolomide
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,113 +33,90 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Temozolomide: From Anaplastic Astrocytoma and Glioblastoma to Adult Astrocytic Tumour
+## Temozolomide: From Glioma to Cauda Equina Neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Temozolomide is an oral alkylating chemotherapy, originally used for anaplastic astrocytoma, astrocytoma (excluding glioblastoma) and glioblastoma.
-The TxGNN model predicts it may be effective for **adult astrocytic tumour**, with **2 clinical trials** and **20 publications** compiled for this prediction, including several randomised Phase 3 trials.
-This prediction largely overlaps with the drug's existing uses, so it is better viewed as confirmation of current use than as true repurposing.
-
----
+Temozolomide is an oral alkylating chemotherapy drug. The knowledge graph records it for anaplastic astrocytoma, astrocytoma (excluding glioblastoma) and brain glioblastoma.
+The TxGNN model predicts it may be effective for **cauda equina neoplasm**. The supporting evidence is thin: **0 clinical trials** and **3 case reports**, and none of them is a controlled study of this disease.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Anaplastic astrocytoma, astrocytoma (excluding glioblastoma), brain glioblastoma (from the knowledge graph; Singapore licence entries list no indication text) |
-| Predicted New Indication | Adult astrocytic tumour |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Anaplastic astrocytoma, astrocytoma (excluding glioblastoma), brain glioblastoma (relations recorded in the knowledge graph; the Singapore licence records contain no indication text) |
+| Predicted New Indication | Cauda equina neoplasm |
+| TxGNN Prediction Score | 0.9930 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From the supporting analysis, temozolomide is an oral alkylating agent that methylates DNA (at O6-guanine, N7-guanine and N3-adenine). This causes cytotoxic DNA lesions and apoptosis. Its effect is greatest in tumours with a methylated MGMT promoter, because MGMT is the main enzyme that repairs this damage.
+Currently, detailed mechanism of action data is not available in the compiled record. From general pharmacology, temozolomide is an oral alkylating agent. It methylates DNA (O6-guanine, N7-guanine, N3-adenine), which causes cytotoxic lesions and apoptosis in dividing cells. It crosses into the central nervous system. Its activity depends largely on MGMT promoter methylation in the tumour: low MGMT expression increases sensitivity.
 
-The predicted indication, adult astrocytic tumour, falls within the same disease family as the drug's existing uses (anaplastic astrocytoma and glioblastoma). The same DNA-damage mechanism applies, and the standard chemoradiation regimen (radiotherapy plus concomitant and adjuvant temozolomide, the "Stupp regimen") is supported by Phase 3 and randomised evidence. The prediction is therefore mechanistically reasonable, but it confirms existing use rather than opening a new disease area.
+Cauda equina neoplasms are mostly myxopapillary ependymomas, which are glial tumours of the CNS. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
----
+There are important limits. A high score from the TxGNN model (deep learning) is not clinical evidence. The compiled data do not show whether MGMT status in myxopapillary ependymoma supports sensitivity to temozolomide.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Phase 3 | Completed | 500 | Randomised comparison of temozolomide versus PCV (procarbazine, lomustine, vincristine) in recurrent WHO grade III and IV astrocytic tumours; direct evidence in this tumour type |
-| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Phase 1 | Completed | 26 | Dose-finding of XL184 (cabozantinib) with temozolomide and radiotherapy in first-line glioblastoma; safety-focused, does not test temozolomide efficacy |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | RCT | N Engl J Med | Radiotherapy plus concomitant and adjuvant temozolomide versus radiotherapy alone in glioblastoma (efficacy and safety) |
-| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | RCT long-term follow-up | Lancet Oncol | 5-year analysis of the EORTC-NCIC trial of chemoradiation with temozolomide in glioblastoma |
-| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | RCT (Phase 3) | Lancet Oncol | NOA-08: dose-dense temozolomide alone versus radiotherapy alone in elderly patients with anaplastic astrocytoma or glioblastoma |
-| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | RCT (Phase 3) | Lancet | CeTeG/NOA-09: lomustine plus temozolomide versus standard temozolomide in MGMT-methylated glioblastoma |
-| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | RCT | JAMA | Tumour-treating fields plus maintenance temozolomide versus temozolomide alone in glioblastoma |
-| [29260225](https://pubmed.ncbi.nlm.nih.gov/29260225/) | 2017 | RCT | JAMA | Tumour-treating fields plus maintenance temozolomide versus temozolomide alone, effect on survival in glioblastoma |
-| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | RCT | N Engl J Med | Adding bevacizumab to standard temozolomide chemoradiation in newly diagnosed glioblastoma |
-| [39480453](https://pubmed.ncbi.nlm.nih.gov/39480453/) | 2024 | RCT | JAMA Oncol | Adding veliparib to temozolomide in MGMT-methylated glioblastoma |
-| [34898238](https://pubmed.ncbi.nlm.nih.gov/34898238/) | 2022 | Guideline | J Clin Oncol | ASCO-SNO guideline on therapy for diffuse astrocytic and oligodendroglial tumours in adults |
-| [27668386](https://pubmed.ncbi.nlm.nih.gov/27668386/) | 2016 | Review | Clin J Oncol Nurs | Overview of glioblastoma disease and treatment |
+|------|-----|------|---------|---------|
+| [29270703](https://pubmed.ncbi.nlm.nih.gov/29270703/) | 2018 | Case report | Eur Spine J | Temozolomide showed marked efficacy in a relapsed spinal myxopapillary ependymoma with multiple recurrences and cerebrospinal dissemination. This is the only item close to the predicted disease, and it is a single case. |
+| [42760727](https://pubmed.ncbi.nlm.nih.gov/42760727/) | 2026 | Case report | Medicine | Nasal NUT carcinoma with repeated responses to multimodal treatment including radiotherapy. It is a different disease and only loosely related. |
+| [18706663](https://pubmed.ncbi.nlm.nih.gov/18706663/) | 2009 | Case report | Neuro-Chirurgie | Neuromeningeal cryptococcosis in a child treated for pontine glioma. It is not about efficacy in the predicted disease. |
 
----
+**Note on the evidence level.** The evidence level is L5 because no cited study directly examines cauda equina neoplasm as a defined disease. The myxopapillary ependymoma case report is the nearest supporting item. It is a single case in a related tumour type and does not meet the L1–L4 threshold.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11707P | TEMODAL Capsule 100 mg | Capsule | Not stated in the licence data |
-| SIN11706P | TEMODAL Capsule 20 mg | Capsule | Not stated in the licence data |
-| SIN15710P | TemoRel Hard Capsule 20 mg | Capsule | Not stated in the licence data |
-| SIN15709P | TemoRel Hard Capsule 100 mg | Capsule | Not stated in the licence data |
-| SIN15066P | ASTRODAL Capsules 100 mg | Capsule | Not stated in the licence data |
+| SIN15710P | TemoRel Hard Capsule 20 mg | Capsule | Not stated in the available records |
+| SIN15709P | TemoRel Hard Capsule 100 mg | Capsule | Not stated in the available records |
+| SIN15066P | Astrodal Capsules 100 mg | Capsule | Not stated in the available records |
+| SIN15067P | Astrodal Capsules 20 mg | Capsule | Not stated in the available records |
+| SIN11707P | Temodal Capsule 100 mg | Capsule | Not stated in the available records |
 
-Three further licences are valid: ASTRODAL Capsules 20 mg (SIN15067P), GLIOTEM 100 Capsule 100 mg (SIN15642P) and GLIOTEM 20 Capsule 20 mg (SIN15641P). All 8 licences are valid single-ingredient oral capsules, and none is cancelled.
-
----
+Three further single-ingredient licences are also valid: SIN15642P and SIN15641P (Gliotem 100 mg and 20 mg) and SIN11706P (Temodal 20 mg). All 8 licences are oral capsules.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (alkylating agent) |
-| Myelosuppression Risk | Medium to high; the knowledge graph lists neutropenia, thrombocytopenia, pancytopenia, anaemia, lymphopenia and aplastic anaemia as contraindicated conditions, which points to marrow toxicity as a key concern |
+| Myelosuppression Risk | Medium to high. The knowledge graph records contraindication relations with thrombocytopenia, neutropenia, pancytopenia, anaemia, agranulocytosis, lymphopenia and aplastic anaemia, which indicates a bone marrow risk. |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count with differential, liver function, renal function |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
-
----
+| Monitoring Items | Complete blood count with differential, liver function. Renal function and further items should follow the package insert. |
+| Handling Protection | Follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-- **Contraindication signals (from the knowledge graph, not label text)**: liver failure, thrombocytopenia, neutropenia, agranulocytosis, anaemia, macrocytic anaemia, pneumocystosis, pancytopenia, lymphopenia, myelodysplastic syndrome, idiopathic aplastic anaemia, aplastic anaemia.
-- **Drug Interactions**: the interaction query found 100 potential interacting drugs. The most notable is naltrexone (Moderate). Levofloxacin is rated Minor. Others, such as pantoprazole, omeprazole, lansoprazole, morphine, metformin, prednisone, hydrocortisone, amphotericin B and doxycycline, are of unknown severity.
+- **Contraindication relations recorded in the knowledge graph** (not label text): liver failure, thrombocytopenia, neutropenia, agranulocytosis, anaemia, macrocytic anaemia, pneumocystosis, pancytopenia, lymphopenia, myelodysplastic syndrome, idiopathic aplastic anaemia, aplastic anaemia. These need to be checked against the Singapore package insert.
+- **Drug Interactions**: The interaction screen returned 100 records. The most notable is **naltrexone (Moderate)** and **levofloxacin (Minor)**. The other listed interactions have no assigned severity level. They include pantoprazole, omeprazole, lansoprazole, metformin, morphine, prednisone, hydrocortisone, amphotericin B and doxycycline.
 
-Please refer to the package insert for official warnings and contraindications.
-
----
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple randomised Phase 3 trials and RCTs, including the EORTC-NCIC chemoradiation trial and NOA-08, support temozolomide in astrocytic tumours. The predicted indication overlaps with its established uses, and the drug is already marketed in Singapore with 8 valid licences. The main reservations are myelosuppression risk, resistance linked to MGMT status, and the absence of indication text in the licence data.
+The TxGNN score is high (0.9930), but the evidence is limited to a single relevant case report and no registered clinical trials. The package insert warnings and contraindications have not been reviewed, and the mechanism data are missing. The drug is already marketed in Singapore, but no licence text supports this predicted use. It should stay a research question for now.
 
 **To proceed, the following is needed:**
-- Review of the HSA package insert, to confirm approved indications, warnings and contraindications
-- Detailed mechanism of action data from DrugBank
-- Molecular stratification (MGMT promoter methylation, IDH status) to guide patient selection
-- A haematological monitoring plan, with attention to patients who have pre-existing marrow suppression or liver impairment
-- A review of the interacting drug list against typical co-medications
+- Download and review the HSA package insert for warnings, contraindications and approved indications.
+- Mechanism of action data (for example from DrugBank).
+- Evidence on MGMT promoter methylation in myxopapillary ependymoma and cauda equina tumours.
+- A systematic literature search for case series, retrospective cohorts or trials in spinal and myxopapillary ependymoma.
+- A haematological safety monitoring plan, given the bone marrow-related contraindication relations.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

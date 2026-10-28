@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Olodaterol
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 737
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Olodaterol: predicted new indication Bronchitis (evidence level L4). Approved use: Chronic obstructive pulmonary disease (COPD)"
 monitor_inn: "Olodaterol"
-predicted_indications: ["bronchitis", "interstitial emphysema", "compensatory emphysema", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation", "congenital lobar emphysema", "tracheal calcification", "respiratory malformation"]
+predicted_indications: ["bronchitis"]
+description: "Olodaterol: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Olodaterol: From Chronic Obstructive Pulmonary Disease to Bronchitis
+## Olodaterol: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **bronchitis**, but this predic
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease (COPD); COPD, severe early onset |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9984 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -119,8 +119,6 @@ The bronchitis prediction is driven mainly by its overlap with COPD, which is al
 ---
 
 *Other predicted indications for reference:*
-- **Obstructive lung disease** (score 99.57%, evidence level L1, Proceed with Guardrails): essentially the approved COPD indication, supported by multiple completed Phase 3 RCTs. This is an on-label confirmation, not a new repurposing opportunity.
-- **Interstitial emphysema, compensatory emphysema, hyperlucent lung, tracheal stenosis, CD8alpha-related respiratory infection susceptibility, congenital lobar emphysema, tracheal calcification, respiratory malformation**: no supporting clinical evidence and no clear mechanistic rationale (Hold).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

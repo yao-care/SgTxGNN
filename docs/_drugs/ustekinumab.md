@@ -50,10 +50,10 @@ The direct evidence is limited to small Phase 2 studies that showed only modest 
 |------|------|
 | Original Indication | Psoriatic arthritis, psoriasis, parapsoriasis (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Dermatitis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

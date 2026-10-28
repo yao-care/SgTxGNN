@@ -4,17 +4,17 @@ title: Meropenem
 parent: Medium Evidence (L3-L4)
 nav_order: 652
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Pseudomonas aeruginosa infection, meningococcal infection…"
 monitor_inn: "Meropenem"
-predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
+predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 ---
 
 # Meropenem
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The best-supported prediction in the data compiled for this report is actually *
 |------|------|
 | Original Indication | Pseudomonas aeruginosa infection, meningococcal infection, peritonitis, bacterial meningitis (approved indication text is not listed in the Singapore registrations) |
 | Predicted New Indication | Bacterial arthritis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 17 |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,11 +64,9 @@ Bone and joint infections are caused by many of the same organisms. The retrieve
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Urinary tract infection | 99.52% | L1 | Several Phase 3 trials and RCTs; the strongest evidence. Proceed with Guardrails |
-| Paratyphoid fever | 99.57% | L4 | Last-line option for XDR enteric fever; reviews and susceptibility reports only |
-| *Staphylococcus aureus* infection | 99.85% | L4 | Active against MSSA only, not MRSA; indirect evidence |
-| Epiglottitis | 99.91% | L4 | No direct evidence; cephalosporins are first-line |
-| Laryngitis, Lyme disease, Peptostreptococcus infection, Ureaplasma urethritis, gonococcal urethritis | 99.3–99.6% | L5 | Prediction only; stewardship concerns or mechanistic mismatch (Ureaplasma has no cell wall) |
+| Paratyphoid fever | 0.9957 | L4 | Last-line option for XDR enteric fever; reviews and susceptibility reports only |
+| *Staphylococcus aureus* infection | 0.9985 | L4 | Active against MSSA only, not MRSA; indirect evidence |
+| Epiglottitis | 0.9991 | L4 | No direct evidence; cephalosporins are first-line |
 
 ## Clinical Trial Evidence
 

@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Liraglutide
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 605
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Liraglutide: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
+description: "Liraglutide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Liraglutide"
-predicted_indications: ["opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Liraglutide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Liraglutide: From Type 2 Diabetes Mellitus to Opsismodysplasia
+## Liraglutide
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Liraglutide is a GLP-1 receptor agonist injection, originally used to treat type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia, but **no clinical trials and no publications** currently support this prediction.
-The high score is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (from the knowledge-graph indication record; the registration entries list no indication text) |
-| Predicted New Indication | Opsismodysplasia |
-| TxGNN Prediction Score | 96.12% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Based on known information, liraglutide is a GLP-1 receptor agonist whose efficacy in type 2 diabetes has been established.
-
-Opsismodysplasia is a rare skeletal dysplasia caused by mutations in *INPPL1* (SHIP2), a gene involved in insulin and PI3K signaling. This is the only conceivable connection to a diabetes drug. Any link to GLP-1 receptor signaling is highly speculative, and no mechanistic link has been established. The high TxGNN score most likely reflects network-level associations in the knowledge graph rather than biological evidence.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
 ## Singapore Market Information
 
@@ -90,20 +68,6 @@ Both authorizations are valid single-ingredient products, and neither has been c
 
 Please also refer to the package insert for full warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no supporting trials or literature (L5, model prediction only), and the mechanistic link between GLP-1 receptor agonism and *INPPL1*-related skeletal dysplasia is speculative. Liraglutide is marketed in Singapore, but only for its existing indications, so there is no basis to advance this new use.
-
-**To proceed, the following is needed:**
-- Preclinical or mechanistic evidence connecting GLP-1 receptor signaling to SHIP2/INPPL1 biology or skeletal development
-- Detailed mechanism of action data
-- Package insert warnings and contraindications for a full safety review
-- Any case reports or registered studies in opsismodysplasia
-
-**Note:** Among the model's other predictions for liraglutide, **type 1 diabetes mellitus** (score 92.3%) has far stronger support, including multiple Phase 3 trials such as ADJUNCT ONE and ADJUNCT TWO. It may be a better candidate for a separate evaluation. The main concerns there are modest efficacy and the risks of hypoglycaemia, ketosis and gastrointestinal adverse events.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

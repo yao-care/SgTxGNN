@@ -6,9 +6,9 @@ nav_order: 1086
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Zinc Gluconate: predicted new indication Anemia of prematurity (evidence level L5). Approved use: Ascorbic acid deficiency"
 monitor_inn: "Zinc gluconate"
 predicted_indications: ["anemia of prematurity", "injury", "cell proliferation disorder", "perinatal disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "radiation or chemically induced disorder", "disease by subcellular system affected", "iatrogenic disease", "regional odontodysplasia"]
+description: "Zinc Gluconate: predicted new indication Anemia of prematurity (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zinc Gluconate
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Zinc Gluconate: From Ascorbic Acid Deficiency (Scurvy) to Anemia of Prematurity
+## Zinc Gluconate: Anemia of prematurity
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Zinc gluconate is a zinc salt, and the knowledge graph used for this analysis lists ascorbic acid deficiency and scurvy as its original indications.
+Zinc gluconate is a zinc salt, and the predictions for it on this page come from the TxGNN model (deep learning); they may reflect similarities the model learned between related diseases, not biological evidence.
 The TxGNN model predicts it may be effective for **anemia of prematurity**, but **no clinical trials and no publications** currently support this specific prediction.
 The prediction rests on model output and a plausible biological link alone.
 
@@ -46,12 +46,12 @@ The prediction rests on model output and a plausible biological link alone.
 
 | Item | Content |
 |------|------|
-| Original Indication | Ascorbic acid deficiency; scurvy (from the knowledge graph). The Singapore licence record contains no approved indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Anemia of prematurity |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -116,15 +116,15 @@ Other predictions ranked by the model had similarly limited support, and none ch
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Injury | 99.89% | L4 | Mostly animal studies on organ injury. The one Phase 3 trial (NCT06290219) tests platelet-rich plasma and hyaluronic acid, not zinc. |
-| 3 | Cell proliferation disorder | 99.87% | L5 | Very broad category. The two papers are a mouse toxicity study and an in vitro disulfiram study. |
-| 4 | Perinatal disease | 99.87% | L5 | Prediction only. |
-| 5 | Segmental odontomaxillary dysplasia | 99.87% | L5 | Prediction only. |
-| 6 | Florid cemento-osseous dysplasia | 99.87% | L5 | Prediction only. |
-| 7 | Radiation or chemically induced disorder | 99.86% | L4 | Literature is mostly safety signals (anosmia, toxicity). |
-| 8 | Disease by subcellular system affected | 99.86% | L5 | Ontology grouping term, not an actionable indication. |
-| 9 | Iatrogenic disease | 99.85% | L5 | Prediction only. |
-| 10 | Regional odontodysplasia | 99.85% | L5 | Prediction only. |
+| 2 | Injury | 0.9989 | L4 | Mostly animal studies on organ injury. The one Phase 3 trial (NCT06290219) tests platelet-rich plasma and hyaluronic acid, not zinc. |
+| 3 | Cell proliferation disorder | 0.9987 | L5 | Very broad category. The two papers are a mouse toxicity study and an in vitro disulfiram study. |
+| 4 | Perinatal disease | 0.9987 | L5 | Prediction only. |
+| 5 | Segmental odontomaxillary dysplasia | 0.9987 | L5 | Prediction only. |
+| 6 | Florid cemento-osseous dysplasia | 0.9987 | L5 | Prediction only. |
+| 7 | Radiation or chemically induced disorder | 0.9986 | L5 | Literature is mostly safety signals (anosmia, toxicity). |
+| 8 | Disease by subcellular system affected | 0.9986 | L5 | Ontology grouping term, not an actionable indication. |
+| 9 | Iatrogenic disease | 0.9985 | L5 | Prediction only. |
+| 10 | Regional odontodysplasia | 0.9985 | L5 | Prediction only. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -6,9 +6,9 @@ nav_order: 1084
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Zinc Acetate: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Wilson disease, dermatitis, exanthem, otitis externa, hemorrhoid…"
 monitor_inn: "Zinc acetate"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "bronchitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "urinary tract infection (disease)"]
+description: "Zinc Acetate: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zinc Acetate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Zinc Acetate: From Wilson Disease and Dermatologic Conditions to Severe Nonproliferative Diabetic Retinopathy
+## Zinc Acetate: Severe nonproliferative diabetic retinopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Wilson disease, dermatitis, exanthem, otitis externa, hemorrhoid, burn, hereditary hemochromatosis and others (from the knowledge graph; the Singapore licences list no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this report. Zinc is an essential trace element that serves as a cofactor for many enzymes, including superoxide dismutase (an antioxidant enzyme), and it plays roles in immune function, wound healing and epithelial integrity. These are the likely reasons for its existing dermatologic and tissue-repair indications.
 
-A possible link to diabetic retinopathy is zinc's antioxidant and anti-inflammatory activity in diabetic microvascular disease and in retinal metabolism. This link is speculative: the data compiled for this report contain no trials or publications to support it. The related prediction for diabetic retinopathy (score 99.92%) carries the same signal and is not independent evidence.
+A possible link to diabetic retinopathy is zinc's antioxidant and anti-inflammatory activity in diabetic microvascular disease and in retinal metabolism. This link is speculative: the data compiled for this report contain no trials or publications to support it. The related prediction for diabetic retinopathy (score 0.9992) carries the same signal and is not independent evidence.
 
-Other top predictions (bronchitis, acrodermatitis chronica atrophicans, dermatomyositis variants, acne keloid, hydroa vacciniforme, childhood interstitial lung disease, urinary tract infection) also have no supporting clinical evidence. Several likely reflect dermatologic or autoimmune similarity in the knowledge graph rather than a true mechanism. For bronchitis, the only publication is a zinc oxide nanoparticle materials study. For urinary tract infection, the only publication is a 1999 study of zinc supplementation and infections in sickle cell disease, which is indirect evidence.
+Other top predictions (bronchitis, acrodermatitis chronica atrophicans, dermatomyositis variants, acne keloid, hydroa vacciniforme, childhood interstitial lung disease, urinary tract infection) also have no supporting clinical evidence. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related dermatologic or autoimmune diseases, not biological evidence. For bronchitis, the only publication is a zinc oxide nanoparticle materials study. For urinary tract infection, the only publication is a 1999 study of zinc supplementation and infections in sickle cell disease, which is indirect evidence.
 
 ## Clinical Trial Evidence
 
@@ -94,7 +94,7 @@ Please refer to the package insert for further safety information, including war
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.97%), but it is a model output only. No clinical trials or publications support zinc acetate in severe nonproliferative diabetic retinopathy, and the Singapore products are infusion emulsions with no suitable route for this use. Label-based safety data are also missing.
+The prediction score is very high (0.9997), but it is a model output only. No clinical trials or publications support zinc acetate in severe nonproliferative diabetic retinopathy, and the Singapore products are infusion emulsions with no suitable route for this use. Label-based safety data are also missing.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)

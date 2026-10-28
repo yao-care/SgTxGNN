@@ -4,17 +4,17 @@ title: Gemcitabine
 parent: Low Evidence (L5)
 nav_order: 472
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Gemcitabine: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "Gemcitabine"
-predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
+predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
+description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Gemcitabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Gemcitabine: From Ovarian Cancer to Female Breast Carcinoma
+## Gemcitabine: Rectum mucinous adenocarcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Gemcitabine is a nucleoside-analog chemotherapy drug, originally used for ovarian cancer and related ovarian tumours.
-The TxGNN model predicts it may be effective for **female breast carcinoma**,
 with **34 clinical trials** and **20 publications** currently retrieved for this direction, including completed Phase 3 trials.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 (see note below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Rectum mucinous adenocarcinoma |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 (see note below) |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Completed Phase 3 trials exist (NCT00006459, NCT00093795), which meets the L1 criterion by count. However, enrollment and results for NCT00006459 are not reported in the data compiled for this report. Several other Phase 3 trials have unknown status. The level should be confirmed against published trial results.
@@ -113,7 +112,6 @@ All 11 licences are valid single-ingredient injectables, and none carries approv
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (nucleoside analog / antimetabolite) |
-| Myelosuppression Risk | Medium to high. The knowledge graph links gemcitabine with leukopenia, thrombocytopenia and anaemia |
 | Emetogenicity Classification | Low to moderate |
 | Monitoring Items | Complete blood count with differential, liver and renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |

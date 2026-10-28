@@ -6,9 +6,9 @@ nav_order: 851
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ramucirumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Non-small cell lung carcinoma, gastric adenocarcinoma…"
 monitor_inn: "Ramucirumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+description: "Ramucirumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ramucirumab
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ramucirumab: From Lung, Gastric and Liver Cancers to Uterine Ligament Adenocarcinoma
+## Ramucirumab: Uterine ligament adenocarcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung carcinoma, gastric adenocarcinoma, hepatocellular carcinoma (the Singapore licence records contain no indication text; these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Uterine ligament adenocarcinoma |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Adenocarcinomas of gynaecological origin are generally angiogenesis-dependent, so a VEGFR2-mediated rationale is plausible. However, this link is inferred only from the TxGNN score (0.9995) and class-level reasoning. No trial or literature data were available for this specific entity.
 
-Other high-ranking predictions are mostly gynaecological adenocarcinomas, mainly cervical and uterine ligament subtypes. They include endocervical carcinoma (99.95%), adenoid cystic carcinoma of the cervix uteri (99.95%) and several uterine ligament histologic variants. Two of them, signet ring cell variant cervical mucinous adenocarcinoma and intestinal variant cervical mucinous adenocarcinoma, bear a loose histologic resemblance to gastrointestinal adenocarcinomas. The high scores may partly reflect ontology proximity between related cervical and adenocarcinoma terms rather than disease-specific biology.
+Other high-ranking predictions are mostly gynaecological adenocarcinomas, mainly cervical and uterine ligament subtypes. They include endocervical carcinoma (0.9995), adenoid cystic carcinoma of the cervix uteri (0.9995) and several uterine ligament histologic variants. Two of them, signet ring cell variant cervical mucinous adenocarcinoma and intestinal variant cervical mucinous adenocarcinoma, bear a loose histologic resemblance to gastrointestinal adenocarcinomas. The high scores may partly reflect ontology proximity between related cervical and adenocarcinoma terms rather than disease-specific biology.
 
 ## Clinical Trial Evidence
 

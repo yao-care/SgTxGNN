@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Golimumab
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 489
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Golimumab: predicted new indication Rheumatoid vasculitis (evidence level L4). Approved use: Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis…"
 monitor_inn: "Golimumab"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "congenital hypotrichosis with juvenile macular dystrophy", "polyp of vocal cord", "polyp of middle ear", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
+description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Golimumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Golimumab: From Inflammatory Arthritis and Spondyloarthritis to Rheumatoid Vasculitis
+## Golimumab: Hypermobility of coccyx
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Golimumab is an anti-TNF-alpha antibody, originally used for rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis and ulcerative colitis.
-The TxGNN model predicts it may be effective for **rheumatoid vasculitis**.
 The supporting evidence is weak: **1 clinical trial** and **6 publications** were found, and **none directly tests golimumab in rheumatoid vasculitis**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis, ulcerative colitis, inflammatory bowel disease (from the knowledge graph; Singapore licence records contain no indication text) |
-| Predicted New Indication | Rheumatoid vasculitis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypermobility of coccyx |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -108,14 +107,13 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The score is high (99.73%), and a TNF-based mechanism is plausible. But no trial or study directly tests golimumab in rheumatoid vasculitis. The only trial is unrelated, and the literature consists of general reviews and case reports. One case report even shows vasculitis emerging under anti-TNF therapy. Evidence stays at L4, which does not support moving forward.
+But no trial or study directly tests golimumab in rheumatoid vasculitis. The only trial is unrelated, and the literature consists of general reviews and case reports. One case report even shows vasculitis emerging under anti-TNF therapy. Evidence stays at L4, which does not support moving forward.
 
 **To proceed, the following is needed:**
 - Direct clinical evidence, such as case series, cohort data or trials of anti-TNF therapy in rheumatoid vasculitis, with specific attention to paradoxical vasculitis
 - The package insert warnings and contraindications from the Singapore regulator (HSA) for a proper safety review
 - Detailed mechanism-of-action data from DrugBank
 - A safety plan covering TB screening, vaccination status, infection monitoring and steroid co-medication
-- Consideration of the other predicted indications for golimumab, which have stronger evidence but mostly overlap with its approved uses (inflammatory spondylopathy and polyarticular juvenile arthritis)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 |------|------|
 | Original Indication | Not stated in the Singapore licence data (nitrofurantoin is generally used for urinary tract infections) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Nitrofurantoin is a urinary antibacterial, and its efficacy in urinary tract infection is established. No anti-rheumatic mechanism is known.
 
-The high score (0.999) is likely driven by network associations in the knowledge graph, such as shared adverse-effect or comorbidity links. It is not driven by evidence of efficacy. The retrieved papers describe nitrofurantoin- and methotrexate-associated pulmonary fibrosis, drug-induced interstitial lung disease, and a study of antibiotic exposure and RA flares. They show harm or confounding in RA patients, not benefit. The prediction should be treated as a hypothesis only.
+The high score (0.9989) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not driven by evidence of efficacy. The retrieved papers describe nitrofurantoin- and methotrexate-associated pulmonary fibrosis, drug-induced interstitial lung disease, and a study of antibiotic exposure and RA flares. They show harm or confounding in RA patients, not benefit. The prediction should be treated as a hypothesis only.
 
 Other predicted indications were also reviewed. These include diabetic nephropathy, sclerosing cholangitis, methemoglobinemia, gout and several rare congenital syndromes. None has supporting trials or a plausible therapeutic mechanism. Where literature exists, it points to adverse effects: liver injury, methemoglobinemia, or teratogenicity signals.
 
@@ -91,7 +91,7 @@ Both licences are valid single-ingredient oral tablets from Apotex Inc.
 
 ## Safety Considerations
 
-- **Contraindications and risk conditions (from knowledge-graph associations, not label text):**
+- **Contraindications and risk conditions (from the TxGNN model (deep learning); these may reflect similarities the model learned between related diseases, not biological evidence, and are not label text):**
   - Renal: impaired renal function, anuria.
   - Lung: interstitial lung disease, pulmonary fibrosis, postinflammatory pulmonary fibrosis.
   - Liver and biliary: drug-induced liver injury, hepatitis, obstructive jaundice, biliary tract disease.

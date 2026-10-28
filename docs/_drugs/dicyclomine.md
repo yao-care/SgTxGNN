@@ -4,17 +4,17 @@ title: Dicyclomine
 parent: Low Evidence (L5)
 nav_order: 328
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Irritable bowel syndrome"
 monitor_inn: "Dicyclomine"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "attention deficit-hyperactivity disorder", "chondromyxoid fibroma", "gastroduodenitis", "faciodigitogenital syndrome", "peptic ulcer disease", "autonomic nervous system disease"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
+description: "Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dicyclomine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dicyclomine: From Irritable Bowel Syndrome to Cauda Equina Syndrome
+## Dicyclomine: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Dicyclomine is an antimuscarinic antispasmodic, originally used for irritable bowel syndrome, and also linked to Clostridium difficile colitis and neurocirculatory asthenia in the knowledge graph.
 The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
 The prediction is a computational signal only.
 
@@ -46,12 +45,12 @@ The prediction is a computational signal only.
 
 | Item | Content |
 |------|------|
-| Original Indication | Irritable bowel syndrome (from the knowledge graph; no approved indication text is available for the Singapore licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,10 +60,8 @@ Detailed mechanism of action data is not available in the data compiled for this
 In cauda equina syndrome, the bowel and bladder dysfunction could in theory be eased by reduced detrusor overactivity and smooth muscle spasm. This is a symptom-level rationale only. Dicyclomine does not address the underlying nerve root compression, which needs surgical decompression. The very high TxGNN score is a computational prediction with no clinical trial or literature support.
 
 Other predictions in the list are more biologically coherent but equally unsupported by studies:
-- **Obsolete neurogenic bladder (score 99.50%)**: Antimuscarinic blockade of detrusor receptors is a well-established mechanism. Agents such as oxybutynin already cover this space, and the disease term is obsolete and should be mapped to a current ontology entry.
-- **Gastroduodenitis (95.61%) and peptic ulcer disease (93.26%)**: Antispasmodic and antisecretory effects could give symptomatic relief only. Proton pump inhibitors, H2 blockers and H. pylori eradication are the standard of care.
-- **Autonomic nervous system disease (87.96%)**: Indirectly plausible, since neurocirculatory asthenia is an autonomic-type disorder, but the term is broad and anticholinergic side effects could worsen some conditions.
-- **ADHD, specific developmental disorder, chondromyxoid fibroma and faciodigitogenital syndrome**: No credible mechanistic link was identified, and these predictions are probably network artifacts.
+- **Obsolete neurogenic bladder (score 0.9950)**: Antimuscarinic blockade of detrusor receptors is a well-established mechanism. Agents such as oxybutynin already cover this space, and the disease term is obsolete and should be mapped to a current ontology entry.
+- Proton pump inhibitors, H2 blockers and H. pylori eradication are the standard of care.
 
 ## Clinical Trial Evidence
 
@@ -122,7 +119,6 @@ The predicted indication of cauda equina syndrome rests on a high TxGNN score al
 - Approved indication text for the Singapore licences
 - A literature and trial search specific to dicyclomine in neurogenic bowel and bladder dysfunction
 - Mapping of the obsolete "neurogenic bladder" term to a current ontology entry
-- A review of whether the more plausible candidates (neurogenic bladder, gastroduodenitis) are worth pursuing as symptomatic indications, given established alternatives
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

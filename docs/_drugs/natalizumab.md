@@ -4,17 +4,17 @@ title: Natalizumab
 parent: Low Evidence (L5)
 nav_order: 701
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Crohn's disease, inflammatory bowel disease, Crohn's colitis…"
 monitor_inn: "Natalizumab"
-predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis", "pityriasis lichenoides", "penile fibromatosis", "pustulosis palmaris et plantaris", "dermatitis", "neonatal dermatomyositis"]
+predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 ---
 
 # Natalizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Among the other top-10 predictions, psoriasis has the most literature (**16 publ
 |------|------|
 | Original Indication | Crohn's disease, inflammatory bowel disease, Crohn's colitis, multiple sclerosis (the Singapore licence record contains no indication text) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,15 +68,10 @@ The other top-ranked predictions are also poorly supported:
 
 | Predicted Indication | Score | Evidence | Assessment |
 |------|------|------|------|
-| Parapsoriasis | 99.37% | 1 case report (L4) | Reported as an adverse event, so the direction is opposite to a treatment |
-| Psoriasis | 99.19% | 16 publications (L4) | Conflicting: one cohort of 18 MS patients reported improvement, while several case reports describe natalizumab inducing or worsening psoriasis |
-| Severe nonproliferative diabetic retinopathy | 99.18% | None (L5) | No mechanistic or clinical support |
-| Acute lichenoid pityriasis | 99.04% | 1 case report (L4) | Adverse event, not benefit |
-| Pityriasis lichenoides | 98.65% | 1 case report (L4) | Adverse event, not benefit |
-| Penile fibromatosis | 98.42% | None (L5) | No mechanistic or clinical support |
-| Pustulosis palmaris et plantaris | 98.30% | Reviews plus one induced-onset case report (L4) | Drug-induced onset reported; reviews are indirect |
-| Dermatitis | 98.25% | Mostly adverse-reaction reports (L4) | Evidence argues against repurposing |
-| Neonatal dermatomyositis | 97.71% | None (L5) | Extremely rare, no support, and neonatal safety concerns |
+| Parapsoriasis | 0.9937 | 1 case report (L5) | Reported as an adverse event, so the direction is opposite to a treatment |
+| Psoriasis | 0.9919 | 16 publications (L4) | Conflicting: one cohort of 18 MS patients reported improvement, while several case reports describe natalizumab inducing or worsening psoriasis |
+| Severe nonproliferative diabetic retinopathy | 0.9918 | None (L5) | No mechanistic or clinical support |
+| Acute lichenoid pityriasis | 0.9904 | 1 case report (L5) | Adverse event, not benefit |
 
 ---
 

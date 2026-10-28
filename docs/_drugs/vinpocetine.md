@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vinpocetine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 1071
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Vinpocetine: predicted new indication Coronary artery disease (evidence level L4). Approved use: Dementia"
 monitor_inn: "Vinpocetine"
-predicted_indications: ["coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "lissencephaly", "alexia", "respiratory malformation", "Rienhoff syndrome", "pulmonary emphysema", "schizophrenia", "heart valve disease"]
+predicted_indications: ["coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "lissencephaly", "alexia", "respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Vinpocetine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ Note: among the other predictions, **myocardial ischemia** has the strongest sup
 |------|------|
 | Original Indication | Dementia (the Singapore licence record contains no approved indication text) |
 | Predicted New Indication | Coronary artery disease |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,7 @@ Detailed mechanism-of-action data are not available in the data compiled for thi
 
 The link to coronary artery disease is that both conditions involve impaired blood supply to a vital organ. Vasodilatory and anti-inflammatory actions could plausibly help coronary vascular function. However, the two papers retrieved for this prediction concern cerebrovascular disease in humans and PDE inhibitors in hypoxic pulmonary vascular remodelling. Neither studies coronary artery disease directly. The very high TxGNN score is a computational result only and should not be read as clinical evidence.
 
-**A more supported related prediction: myocardial ischemia (score 99.90%, evidence level L4).** Two animal studies report cardioprotection from vinpocetine: an isoproterenol-induced myocardial infarction model in rats (2019) and a myocardial ischemia/reperfusion injury model in mice (2026). Both point to reduced oxidative stress and inflammation, consistent with its known pharmacology. There are no human trials, so this remains a research question rather than a clinical candidate.
+**A more supported related prediction: myocardial ischemia (score 0.9990, evidence level L4).** Two animal studies report cardioprotection from vinpocetine: an isoproterenol-induced myocardial infarction model in rats (2019) and a myocardial ischemia/reperfusion injury model in mice (2026). Both point to reduced oxidative stress and inflammation, consistent with its known pharmacology. There are no human trials, so this remains a research question rather than a clinical candidate.
 
 ## Clinical Trial Evidence
 

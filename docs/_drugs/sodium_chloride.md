@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Sodium Chloride
-parent: Low Evidence (L5)
-nav_order: 920
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Sodium Chloride: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not stated in the approved indication text of the Singapore licences…"
-monitor_inn: "Sodium chloride"
-predicted_indications: ["breast fibrocystic disease", "vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia", "breast abscess"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 919
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Sodium Chloride: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Sodium Chloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,60 +32,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sodium Chloride: From Fluid and Electrolyte Replacement to Breast Fibrocystic Disease
+<!-- known-uses-page -->
+<!-- description: Sodium Chloride: known uses and market status in Singapore; currently no new candidate indication -->
+## Sodium Chloride: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model produced no candidate for Sodium Chloride with a score of 0.99 or higher, so there is currently no new predicted indication. The uses recorded for this drug are listed below. They are the drug's own recorded uses, not model candidates.
 
-Sodium chloride is an electrolyte and fluid replacement agent, marketed in Singapore as intravenous infusions, eye drops, enemas and a concentrated solution.
-The TxGNN model predicts it may be effective for **breast fibrocystic disease**, but **no clinical trials and no supporting publications** currently back this prediction.
-This is a model-only prediction and should be treated as a low-confidence hypothesis.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the approved indication text of the Singapore licences (fluid and electrolyte replacement is the general use of the drug) |
-| Predicted New Indication | Breast fibrocystic disease |
-| TxGNN Prediction Score | 96.79% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 20 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences on record: at least 20) |
+| Number of Registrations | at least 20 |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available. Based on known information, sodium chloride is a physiological electrolyte used for fluid and sodium replacement, and it has no recognised disease-modifying role in fibrocystic breast disease.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| fatigue | licence in another country |
 
-The data compiled for this report show no established mechanistic link between sodium chloride and breast fibrocystic disease. The high score (96.79%) most likely reflects a pattern in the knowledge graph, probably because the drug is so widely used and so widely connected, rather than disease-specific biology. Other benign breast conditions (blunt duct adenosis, apocrine adenosis, benign mammary dysplasia) received similar scores, which supports this interpretation.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Other top-ranked predictions are mostly vulvar and vaginal conditions (vulvovaginitis, vulvitis, vulvar ulceration, postmenopausal atrophic vaginitis). Saline irrigation or soaks may give non-specific supportive relief there, but this is not treatment of the underlying disease. Sodium chloride also has no plausible anti-tumour mechanism for vulvar neoplasm.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for the top-ranked prediction, breast fibrocystic disease.
-
-For reference, the only publication retrieved across the top 10 predictions is for the second-ranked indication, vulvovaginitis. It is not supporting evidence:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33860751](https://pubmed.ncbi.nlm.nih.gov/33860751/) | 2021 | Case report | International Journal of Clinical Pharmacology and Therapeutics | A woman developed chills, fatigue, chest distress and raised inflammatory markers after a terconazole vaginal suppository for vulvovaginal candidiasis. It is an adverse-event report on another drug and does not evaluate sodium chloride as a therapy. |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-All 20 licences are valid single-ingredient products. The data compiled for this report contain no approved indication text for any of them. The main authorisations are listed below.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05951P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 0.9% | INJECTION | Valid |
+| SIN16603P | BAXTER-SODIUM CHLORIDE INJECTION USP 0.9% W/V | INFUSION, SOLUTION | Valid |
+| SIN09481P | SODIUM CHLORIDE INJECTION BP 0.9% | INJECTION | Valid |
+| SIN06865P | SODIUM CHLORIDE INJECTION USP 0.45% | INJECTION | Valid |
+| SIN09858P | SODIUM CHLORIDE INJECTION BP 0.9% w/v | INJECTION | Valid |
+| SIN09640P | SALORIDE INFUSION 0.9% w/v | INJECTION | Valid |
+| SIN09976P | JEN SHENG TONBIEN SOLUTION 150 mg/ml | SOLUTION | Valid |
+| SIN10312P | SODIUM CHLORIDE PARENTERAL SOLUTION 0.9% | INJECTION | Valid |
+| SIN13052P | SODIUM CHLORIDE 0.9% SOLUTION FOR INTRAVENOUS INFUSION | SOLUTION, STERILE | Valid |
+| SIN04089P | RINZ NORMAL SALINE EYE DROPS 0.9% w/v | SOLUTION | Valid |
+| SIN03517P | CENTA ENEMA | ENEMA | Valid |
+| SIN09600P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 0.9% | INJECTION | Valid |
+| SIN07992P | SODIUM CHLORIDE CONCENTRATE INJECTION BP 20% | INJECTION | Valid |
+| SIN06126P | SODIUM CHLORIDE INJECTION USP 0.9% | INJECTION | Valid |
+| SIN06296P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 3% | INJECTION | Valid |
+| SIN15205P | SODIUM CHLORIDE KABI SOLUTION FOR INFUSION 0.9% | INFUSION, SOLUTION | Valid |
+| SIN06282P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 0.9% | INJECTION | Valid |
+| SIN13574P | Infusol NS | INFUSION, SOLUTION | Valid |
+| SIN06310P | SODIUM CHLORIDE INTRAVENOUS INFUSION 0.45% | INJECTION | Valid |
+| SIN02959P | HUACHI ENEMA | ENEMA | Valid |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05951P | Sodium Chloride Intravenous Infusion BP 0.9% | Injection | Not stated |
-| SIN16603P | Baxter-Sodium Chloride Injection USP 0.9% w/v | Infusion, solution | Not stated |
-| SIN07992P | Sodium Chloride Concentrate Injection BP 20% | Injection | Not stated |
-| SIN04089P | Rinz Normal Saline Eye Drops 0.9% w/v | Solution | Not stated |
-| SIN03517P | Centa Enema | Enema | Not stated |
+Only part of the licence list is held in the data; the list may be incomplete.
 
 ## Safety Considerations
 
@@ -96,18 +101,6 @@ All 20 licences are valid single-ingredient products. The data compiled for this
 
 For other safety information, please refer to the package insert.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on the model score alone. There are no clinical trials or publications for breast fibrocystic disease, and no plausible mechanism links sodium chloride to the condition. The same applies to the other nine ranked predictions, which are all also Hold. Most are L5, and vulvovaginitis is L4 on the strength of a single case report that does not support the prediction.
-
-**To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (currently a blocking gap for safety screening)
-- Mechanism of action data
-- Any clinical or preclinical evidence on sodium chloride in fibrocystic breast disease; if none exists, the prediction is unlikely to justify further investment
-- Assessment of route compatibility (available routes such as injection, eye drops and enema versus those needed for breast or vulvovaginal use)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

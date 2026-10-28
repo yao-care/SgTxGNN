@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fusidic Acid
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 460
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not stated in the Singapore licence records. The knowledge graph list…"
 monitor_inn: "Fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
+description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fusidic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Fusidic Acid: From Bacterial Skin and Other Infections to Exposure Keratitis
+## Fusidic Acid: Exposure keratitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records. The knowledge graph lists urinary tract infection, bronchitis, acne, folliculitis, seborrheic dermatitis, bacterial pneumonia and others |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Exposure keratitis |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

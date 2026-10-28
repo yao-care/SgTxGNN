@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroxyprogesterone Caproate
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 510
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Hydroxyprogesterone Caproate: predicted new indication Endometrial cancer (evidence level L3). Approved use: Not available (the registered indication text is blank)"
 monitor_inn: "Hydroxyprogesterone caproate"
-predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia (disease)", "uterine corpus cancer", "cervix endometriosis", "endometrial cancer", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
+predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral", "endometriosis in cutaneous scar", "endometriosis of rectovaginal septum and vagina", "renal hypoplasia (disease)", "uterine corpus cancer", "cervix endometriosis", "endometrial cancer", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
+description: "Hydroxyprogesterone Caproate: predicted new indication Endometriosis of uterus (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydroxyprogesterone Caproate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Hydroxyprogesterone Caproate: From an Unspecified Original Indication to Endometrial Cancer
+## Hydroxyprogesterone Caproate: Endometriosis of uterus
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Support consists of **no registered clinical trials** and **20 publications**, m
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the registered indication text is blank) |
-| Predicted New Indication | Endometrial cancer (the top-ranked TxGNN prediction is endometriosis of uterus, which has only a case report as support) |
-| TxGNN Prediction Score | 99.96% (endometriosis of uterus, the top-ranked prediction: 99.98%) |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Endometriosis of uterus |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (a research question worth following up) |
 
 **Note on selection:** I highlighted endometrial cancer rather than the rank-1 prediction because it is the only prediction with a meaningful body of literature. The other nine predictions are L4 or L5 and are summarised briefly at the end of the report.
@@ -62,7 +62,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Endometrial carcinoma is often hormone-sensitive, so this mechanism is a plausible fit. Progestin therapy for endometrial cancer and hyperplasia is already established with other agents (for example medroxyprogesterone acetate, megestrol and the levonorgestrel intrauterine system). The practical question is therefore whether this specific agent offers any advantage over current standards. The existing literature is largely historical and cannot answer that question.
 
-The high TxGNN score is a computational prediction only. Several other top predictions, such as renal hypoplasia and infantile cerebral and cerebellar atrophy, have no plausible mechanism and are probably graph-based artifacts.
+The high TxGNN score is a computational prediction only. Several other top predictions, such as renal hypoplasia and infantile cerebral and cerebellar atrophy, have no plausible mechanism. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -132,7 +132,6 @@ The mechanism is biologically sound and the literature on endometrial cancer is 
 | Endometriosis of rectovaginal septum and vagina; cervix endometriosis; endometriosis in cutaneous scar | L5 | General progestin rationale only; no drug-specific data |
 | Uterine corpus cancer | L4 | Three older non-randomized studies (1980-1989); overlaps with endometrial cancer |
 | Breast fibrocystic disease | L5 | Prediction only |
-| Renal hypoplasia (two entries); infantile cerebral and cerebellar atrophy | L5 | No plausible mechanism; likely graph artifacts |
 
 All of these remain at **Hold**.
 ## Disclaimer

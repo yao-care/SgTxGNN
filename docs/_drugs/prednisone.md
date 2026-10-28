@@ -48,10 +48,10 @@ with **no registered clinical trials** but **20 publications** currently support
 |------|------|
 | Original Indication | Autoimmune disease, adrenocortical insufficiency, Crohn disease and inflammatory bowel disease, acute lymphoblastic leukaemia, eosinophilic pneumonia, congenital adrenal hyperplasia (the Singapore licence text for the approved indication is not available) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -106,7 +106,7 @@ Please refer to the package insert for the full warnings and contraindications, 
 
 | Rank | Predicted Indication | Evidence Level | Decision | Comment |
 |---|---|---|---|---|
-| 2 | Alopecia mucinosa | L4 | Hold | Only case reports; no prednisone-specific mechanistic evidence, and the lymphoma-associated form needs different management |
+| 2 | Alopecia mucinosa | L5 | Hold | Only case reports; no prednisone-specific mechanistic evidence, and the lymphoma-associated form needs different management |
 | 3 | Telogen effluvium | L5 | Hold | Usually self-limiting and non-autoimmune; no clear rationale |
 | 4 | Folliculitis decalvans | L5 | Hold | Possible bacterial component not addressed by steroids; no supporting data |
 | 5 | Alopecia antibody deficiency | L5 | Hold | Loosely defined entity; retrieved articles are not relevant |

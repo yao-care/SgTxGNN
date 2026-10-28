@@ -4,17 +4,17 @@ title: Ivermectin
 parent: Low Evidence (L5)
 nav_order: 561
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Strongyloidiasis, onchocerciasis"
 monitor_inn: "Ivermectin"
-predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "neonatal candidiasis", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive", "vulvitis"]
+predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
 ---
 
 # Ivermectin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This is a model prediction only and is not backed by actual studies.
 |------|------|
 | Original Indication | Strongyloidiasis, onchocerciasis |
 | Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a model prediction only and is not backed by actual studies.
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, ivermectin acts on glutamate-gated chloride channels in invertebrates, which causes paralysis and death of parasites. Its efficacy in strongyloidiasis and onchocerciasis is well established.
 
-Vulvovaginal candidiasis is a fungal infection. Fungal cells have no clear equivalent of the glutamate-gated chloride channel target, so no mechanistic link between ivermectin's known action and this condition can be confirmed. The high TxGNN score (0.9995) most likely reflects proximity within the knowledge graph (for example, to other candidiasis-related nodes) rather than demonstrated antifungal activity.
+Vulvovaginal candidiasis is a fungal infection. Fungal cells have no clear equivalent of the glutamate-gated chloride channel target, so no mechanistic link between ivermectin's known action and this condition can be confirmed. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (for example, other candidiasis-related diseases), not biological evidence of demonstrated antifungal activity.
 
 The other top predictions are mostly related conditions (other forms of candidiasis, vulvovaginitis, vulvitis, anogenital HPV infection). None has clinical trials or supporting literature. Two of them have retrieved papers (esophageal candidiasis and congenital candidiasis), but these describe approved antiparasitic uses (strongyloidiasis and scabies) and are not evidence for antifungal use.
 
@@ -115,7 +115,7 @@ Please refer to the package insert for warnings and other safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no clinical trials, no relevant publications, and no plausible mechanism, since fungal cells lack a clear target for ivermectin. The two papers that were retrieved concern antiparasitic uses and do not support the antifungal prediction.
+The prediction rests only on a TxGNN model (deep learning) score. There are no clinical trials, no relevant publications, and no plausible mechanism, since fungal cells lack a clear target for ivermectin. The two papers that were retrieved concern antiparasitic uses and do not support the antifungal prediction.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA (a blocking gap for safety screening)

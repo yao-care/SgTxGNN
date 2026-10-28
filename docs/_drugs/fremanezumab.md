@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fremanezumab
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 457
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Fremanezumab: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder"
 monitor_inn: "Fremanezumab"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "amenorrhea (disease)", "sciatic neuropathy", "hemorrhagic disease of newborn"]
+predicted_indications: ["atrophoderma vermiculata"]
+description: "Fremanezumab: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fremanezumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Fremanezumab: From Migraine to Migraine with Brainstem Aura
+## Fremanezumab: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Fremanezumab is a humanized anti-CGRP monoclonal antibody, originally used for migraine prevention.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**,
 but there are currently **0 registered clinical trials** specific to this subtype, and the **20 publications** compiled are mostly indirect (chronic migraine, aura in general, or mechanism studies).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9904 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

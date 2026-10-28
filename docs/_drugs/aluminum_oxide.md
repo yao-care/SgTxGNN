@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Aluminum Oxide
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 73
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aluminum Oxide: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Not stated in the Singapore licence records"
@@ -14,7 +14,7 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 # Aluminum Oxide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ This is essentially a computational prediction with no real supporting evidence.
 |------|------|
 | Original Indication | Not stated in the Singapore licence records |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 No pharmacological mechanism links aluminum oxide to rheumatoid arthritis. The only publication found describes an alumina ceramic hip implant. This is a structural implant material, not a disease-modifying therapy. Any connection is indirect: patients with joint destruction, which can include rheumatoid arthritis, may receive joint replacements.
 
-The high TxGNN score most likely reflects proximity in the knowledge graph, not therapeutic activity. The other nine top predictions (for example brachydactyly-syndactyly syndrome, thrombotic disease and several haemoglobin and coagulation disorders) have no trials or literature and no plausible mechanism.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other nine top predictions (for example brachydactyly-syndactyly syndrome, thrombotic disease and several haemoglobin and coagulation disorders) have no trials or literature and no plausible mechanism.
 
 ## Clinical Trial Evidence
 

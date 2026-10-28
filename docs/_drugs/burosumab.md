@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Burosumab
-parent: Medium Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 185
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Burosumab: predicted new indication Renal osteodystrophy (evidence level L4). Approved use: Hereditary hypophosphatemic rickets"
-monitor_inn: "Burosumab"
-predicted_indications: ["renal osteodystrophy", "impaired renal function disease", "non-renal secondary hyperparathyroidism", "bone remodeling disease", "hyperparathyroidism, transient neonatal", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "hypocalcemic rickets", "cortical cataract"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Burosumab: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Burosumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,68 +32,49 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Burosumab: From Hereditary Hypophosphatemic Rickets to Renal Osteodystrophy
+<!-- known-uses-page -->
+<!-- description: Burosumab: known uses and market status in Singapore; currently no new candidate indication -->
+## Burosumab: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Burosumab, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Burosumab is an anti-FGF23 antibody originally used to treat hereditary hypophosphatemic rickets (X-linked hypophosphatemia, XLH).
-The TxGNN model predicts it may be effective for **Renal Osteodystrophy**, but the data compiled for this report contain **0 clinical trials** and only **2 publications** (both reviews) for this indication, so the evidence is limited to model prediction and general background literature.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hereditary hypophosphatemic rickets (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Renal osteodystrophy |
-| TxGNN Prediction Score | 96.93% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 4 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| familial hypophosphatemia | licence in another country |
+| osteomalacia | licence in another country |
+| x-linked dominant hypophosphatemic rickets | licence in another country |
 
-Detailed mechanism-of-action data are not available in the compiled data. Based on known information, burosumab is a monoclonal antibody that neutralizes fibroblast growth factor 23 (FGF23). Its efficacy in FGF23-driven hypophosphatemic rickets is established, and mechanistically it may be relevant to other disorders of phosphate and bone metabolism.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Excess FGF23 is a core feature of chronic kidney disease–mineral and bone disorder (CKD-MBD, of which renal osteodystrophy is the bone manifestation). It drives phosphate excretion, suppresses active vitamin D (1,25-vitamin D) and contributes to secondary hyperparathyroidism. This makes the link biologically plausible.
-
-However, the direction of effect is uncertain and may be unfavourable. In CKD, where phosphate excretion is already impaired, blocking FGF23 would increase renal phosphate reabsorption. This could worsen hyperphosphatemia and vascular calcification risk. The knowledge graph also lists kidney failure as a contraindication for this drug. The available literature is review-level only.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [42438722](https://pubmed.ncbi.nlm.nih.gov/42438722/) | 2026 | Review | Kidney Int Rep | Reviews controversies and gaps in mineral and bone disease in CKD and kidney transplantation; CKD-MBD is now framed as overlapping syndromes including CKD-associated osteoporosis |
-| [37927073](https://pubmed.ncbi.nlm.nih.gov/37927073/) | 2024 | Review | Curr Pediatr Rev | Diagnosis and new treatments for hypophosphatasia and X-linked hypophosphatemic rickets (original-indication context, not renal osteodystrophy) |
-
-Neither publication tests burosumab in renal osteodystrophy.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| hereditary hypophosphatemic rickets |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16176P | CRYSVITA® Solution for Injection 20 mg/mL | Injection, solution | Not recorded in the compiled data |
-| SIN16177P | CRYSVITA® Solution for Injection 30 mg/mL | Injection, solution | Not recorded in the compiled data |
-| SIN16178P | CRYSVITA® Solution for Injection 10 mg/mL | Injection, solution | Not recorded in the compiled data |
-
-All three licences are held by Kyowa Kirin Co., Ltd. (Takasaki Plant) and are currently valid.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16176P | CRYSVITA® SOLUTION FOR INJECTION 20 MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16177P | CRYSVITA® SOLUTION FOR INJECTION 30 MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16178P | CRYSVITA® SOLUTION FOR INJECTION 10 MG/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 
@@ -109,18 +89,6 @@ For other safety information, please refer to the package insert.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction score is high, but the evidence is model prediction plus review-level literature only (L4). The direction of effect is uncertain, since blocking FGF23 in CKD could worsen hyperphosphatemia and vascular calcification. Kidney failure is a listed contraindication, and many of the interacting drugs are standard CKD-MBD therapy.
-
-**To proceed, the following is needed:**
-- Obtain the Singapore package insert to confirm warnings, contraindications and approved indication text
-- Obtain detailed mechanism-of-action data
-- Preclinical or early-phase clinical data on burosumab in CKD-MBD, with a focus on phosphate, calcification and PTH outcomes
-- A safety assessment of co-administration with active vitamin D analogues, calcimimetics and phosphate products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

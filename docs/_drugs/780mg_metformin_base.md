@@ -8,6 +8,7 @@ nav_order: 15
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # 780Mg Metformin Base
@@ -55,7 +56,8 @@ Due to failed drug identification, the system was unable to retrieve any TxGNN p
 | Predicted New Indications | None (predicted_indications array is empty) |
 | TxGNN Prediction Score | No data |
 | Evidence Level | L5 (model prediction data missing) |
-| Singapore Market Status | Not marketed (0 approvals) |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
+| Number of Registrations | at least 20 |
 | License Count | 0 |
 | Recommended Decision | **Hold** |
 

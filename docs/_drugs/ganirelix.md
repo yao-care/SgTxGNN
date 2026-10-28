@@ -6,9 +6,9 @@ nav_order: 469
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ganirelix: predicted new indication Hypertrichosis (evidence level L5). Approved use: Prevention of premature ovulation in women undergoing ovarian stimula…"
 monitor_inn: "Ganirelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
+description: "Ganirelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ganirelix
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ganirelix: From Ovarian Stimulation Support (Premature Ovulation Prevention) to Hypertrichosis
+## Ganirelix: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,19 +44,19 @@ Ganirelix is a GnRH receptor antagonist used to prevent premature ovulation in w
 
 | Item | Content |
 |------|------|
-| Original Indication | Prevention of premature ovulation in women undergoing ovarian stimulation during fertility treatment (from pharmacology data; the Singapore licence text is blank) |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Ganirelix blocks the GnRH receptor (GNRHR) in the pituitary. This rapidly suppresses LH and FSH and, downstream, gonadal sex steroids. Detailed mechanism of action data is not available in the data compiled for this report, but the receptor-level pharmacology is well established.
 
-The link to hypertrichosis is weak. Hypertrichosis is often androgen-independent (congenital, drug-induced, or genetic forms), so suppressing the gonadal axis would not be expected to help. The high TxGNN score (0.9998) reflects proximity in a knowledge graph, probably through shared hair-phenotype associations, and is not supported by any clinical or literature evidence.
+The link to hypertrichosis is weak. Hypertrichosis is often androgen-independent (congenital, drug-induced, or genetic forms), so suppressing the gonadal axis would not be expected to help.
 
 The other top-ranked predictions (Ambras syndrome, malformation syndromes, Dandy-Walker–related syndromes, genetic hair shaft abnormalities) are mostly structural or genetic conditions with no plausible GnRH mechanism. Two lower-ranked predictions are more biologically coherent:
 - **Central precocious puberty (rank 9):** driven by premature activation of the hypothalamic-pituitary-gonadal axis, so GnRH receptor blockade is mechanistically plausible. This is the most coherent candidate and merits a targeted literature and trial search.
@@ -72,9 +72,6 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12165P | ORGALUTRAN SOLUTION FOR INJECTION 0.25 mg/0.5 ml (Vetter Pharma-Fertigung GmbH & Co. KG) | Injection | Not stated in the licence record |
 
 ## Safety Considerations
 

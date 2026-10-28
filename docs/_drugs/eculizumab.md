@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **cyclic hematopoiesis** (cycli
 |------|------|
 | Original Indication | Paroxysmal nocturnal hemoglobinuria; neuromyelitis optica (the Singapore license text has no approved indication wording) |
 | Predicted New Indication | Cyclic hematopoiesis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, eculizumab is a monoclonal antibody that inhibits complement protein C5 and blocks terminal complement activation. Its efficacy in complement-driven diseases such as paroxysmal nocturnal hemoglobinuria is established.
 
-The link to cyclic hematopoiesis is weak. Cyclic neutropenia is typically driven by ELANE mutations that disrupt the regulation of neutrophil precursors, not by uncontrolled complement activity. The high TxGNN score is a graph-based prediction only, and no mechanistic or clinical evidence supports it.
+The link to cyclic hematopoiesis is weak. Cyclic neutropenia is typically driven by ELANE mutations that disrupt the regulation of neutrophil precursors, not by uncontrolled complement activity. The high score of 0.9997 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No mechanistic or clinical evidence supports it.
 
-The other top-ranked predictions (various congenital neutropenias, adult idiopathic neutropenia, primary immunodeficiency due to p14 deficiency, and primary release disorder of platelets) share this problem. All have scores around 99.9% and no supporting trials. Their mechanisms (neutrophil maturation, chemokine or G-CSF signaling, endosomal function, platelet secretion) are unrelated to terminal complement inhibition.
+The other top-ranked predictions (various congenital neutropenias, adult idiopathic neutropenia, primary immunodeficiency due to p14 deficiency, and primary release disorder of platelets) share this problem. All have TxGNN scores between 0.9994 and 0.9996 and no supporting trials. Their mechanisms (neutrophil maturation, chemokine or G-CSF signaling, endosomal function, platelet secretion) are unrelated to terminal complement inhibition.
 
 ## Clinical Trial Evidence
 
@@ -93,7 +93,7 @@ Please refer to the package insert for warnings and contraindications. These wer
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a graph-based model score. There are no clinical trials, no relevant literature, and no plausible link between complement C5 inhibition and the biology of cyclic neutropenia. The retrieved publications concern other complement-mediated diseases and do not support this indication.
+The prediction rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no relevant literature, and no plausible link between complement C5 inhibition and the biology of cyclic neutropenia. The retrieved publications concern other complement-mediated diseases and do not support this indication.
 
 **To proceed, the following is needed:**
 - Singapore package insert warnings and contraindications (a blocking gap for safety screening)

@@ -6,9 +6,9 @@ nav_order: 747
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Oteracil: predicted new indication Colonic neoplasm (evidence level L1). Approved use: Gastric cancer"
 monitor_inn: "Oteracil"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
+description: "Oteracil: predicted new indication Colonic neoplasm (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Oteracil
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Oteracil: From Gastric Cancer to Colonic Neoplasm
+## Oteracil: Colonic neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **6 clinical trials** and **10 publications** currently supporting this dir
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric cancer (the licence records contain no approved indication text; this comes from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Colonic neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

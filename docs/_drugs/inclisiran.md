@@ -4,17 +4,17 @@ title: Inclisiran
 parent: Low Evidence (L5)
 nav_order: 527
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Inclisiran: predicted new indication Potassium deficiency disease (evidence level L5). Approved use: Not stated in the Singapore licence data (the approved indication tex…"
 monitor_inn: "Inclisiran"
-predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
+predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
 ---
 
 # Inclisiran
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The model score is very high, yet it appears to be a model artifact rather than 
 |------|------|
 | Original Indication | Not stated in the Singapore licence data (the approved indication text is empty). Mechanistically, it is an LDL-C-lowering drug. |
 | Predicted New Indication | Potassium deficiency disease |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,15 +68,14 @@ This mechanism has no known role in potassium homeostasis. No plausible mechanis
 
 | Rank | Predicted Disease | Score | Assessment |
 |------|------|------|------|
-| 2 | Esophageal disease | 99.87% | No established link; prediction only |
-| 3 | Atypical coarctation of aorta | 99.86% | Congenital structural anomaly; LDL-C lowering would not correct it |
-| 4 | Migraine disorder | 99.83% | Speculative vascular or lipid link only |
-| 5 | Non-syndromic esophageal malformation | 99.83% | Developmental malformation; no plausible link |
-| 6 | Migraine with brainstem aura | 99.78% | Neurological/channelopathy etiology; no link |
-| 7 | Migraine with or without aura, susceptibility to | 99.78% | Redundant with other migraine entries, likely a shared-graph-neighbourhood effect |
-| 8 | Aortic malformation | 99.76% | Related trials are not about this condition (see below) |
-| 9 | Esophageal ulcer | 99.73% | No plausible mechanism |
-| 10 | Raynaud disease | 99.73% | Only a speculative endothelial link |
+| 2 | Esophageal disease | 0.9987 | No established link; prediction only |
+| 3 | Atypical coarctation of aorta | 0.9986 | Congenital structural anomaly; LDL-C lowering would not correct it |
+| 4 | Migraine disorder | 0.9983 | Speculative vascular or lipid link only |
+| 5 | Non-syndromic esophageal malformation | 0.9983 | Developmental malformation; no plausible link |
+| 6 | Migraine with brainstem aura | 0.9978 | Neurological/channelopathy etiology; no link |
+| 8 | Aortic malformation | 0.9976 | Related trials are not about this condition (see below) |
+| 9 | Esophageal ulcer | 0.9973 | No plausible mechanism |
+| 10 | Raynaud disease | 0.9973 | Only a speculative endothelial link |
 
 ---
 

@@ -4,17 +4,17 @@ title: Erdafitinib
 parent: Low Evidence (L5)
 nav_order: 390
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Erdafitinib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not stated in the available licence records"
 monitor_inn: "Erdafitinib"
-predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome", "amyotrohpic lateral sclerosis type 22", "amyotrophic lateral sclerosis, susceptibility to", "axial spondylometaphyseal dysplasia", "Mills syndrome"]
+predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Erdafitinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but at present there are **0 clinical trials** and **0 publications** specific t
 |------|------|
 | Original Indication | Not stated in the available licence records |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.38% |
+| TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 FGFR signalling, particularly FGFR1, has been implicated in pulmonary vascular remodelling and the proliferation of pulmonary artery smooth muscle cells. This gives a plausible but unproven rationale for the prediction. However, FGFR inhibition may also carry vascular and cardiac toxicity concerns (for example, effects on endothelial integrity), so the direction of effect is uncertain.
 
-The high TxGNN score (0.994) is a computational prediction only. No supporting trials or literature were found. The original indication could not be confirmed from the licence records, so the link between the original and new indications cannot be assessed.
+The high TxGNN score (0.9938) is a computational prediction only. No supporting trials or literature were found. The original indication could not be confirmed from the licence records, so the link between the original and new indications cannot be assessed.
 
 ## Clinical Trial Evidence
 

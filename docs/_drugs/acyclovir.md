@@ -48,9 +48,9 @@ Among the other predictions for this drug, **common wart** (intralesional use) h
 |------|------|
 | Original Indication | Herpes simplex infection, herpes zoster, chickenpox, herpes labialis, herpes simplex encephalitis, genital herpes (the registration records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 

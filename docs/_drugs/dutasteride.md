@@ -6,9 +6,9 @@ nav_order: 361
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
+description: "Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dutasteride
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dutasteride: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+## Dutasteride: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (the approved indication text is not available in the Singapore registration records; this is taken from the knowledge-graph indication) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 10 |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, dutasteride inhibits type 1 and type 2 5-alpha-reductase and lowers dihydrotestosterone (DHT). This is how it shrinks the prostate in BPH.
 
-The link to the predicted indication is weak. Ambras syndrome is a congenital hypertrichosis caused by genomic rearrangements that alter TRPS1 regulation, so it is not primarily DHT-driven. The very high TxGNN score is a model output reflecting network proximity in the knowledge graph. It is not clinical evidence.
+The link to the predicted indication is weak. Ambras syndrome is a congenital hypertrichosis caused by genomic rearrangements that alter TRPS1 regulation, so it is not primarily DHT-driven. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not clinical evidence.
 
 Other top-ranked predictions are also mostly speculative. These include generalised hypertrichosis, hair shaft abnormalities, hypotrichosis simplex of the scalp, and several developmental malformation syndromes. Hair-related predictions are somewhat more plausible because dutasteride is used off-label for androgenetic alopecia. However, the genetic hair disorders listed are generally not androgen-mediated. The malformation syndromes (dental/periodontal, Dandy-Walker) have no credible mechanistic link.
 

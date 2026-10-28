@@ -8,6 +8,7 @@ nav_order: 75
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alverine Citrate
@@ -51,8 +52,8 @@ this report serves as a data-gap assessment, and a **Hold** decision is recommen
 | Predicted New Indication | No predictions available (TxGNN pipeline not completed) |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model prediction not yet generated |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 ---

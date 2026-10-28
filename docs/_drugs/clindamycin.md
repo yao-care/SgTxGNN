@@ -4,17 +4,17 @@ title: Clindamycin
 parent: Low Evidence (L5)
 nav_order: 263
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Clindamycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections (streptococcal, staphylococcal, anaerobic), acne…"
 monitor_inn: "Clindamycin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis", "superior limbic keratoconjunctivitis", "visual snow syndrome", "keratomalacia", "ophthalmia nodosa"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
 ---
 
 # Clindamycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Bacterial infections (streptococcal, staphylococcal, anaerobic), acne, bacterial vaginosis (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 17 |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

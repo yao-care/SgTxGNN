@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 533
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Insulin Aspart: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
 monitor_inn: "Insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
+description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Aspart
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Aspart: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Aspart: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin aspart is a rapid-acting insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**,
 with **30 clinical trials** and **20 publications** currently supporting this direction.
 This is an established, labelled use of the drug rather than a true repurposing, so the high score mainly reflects existing clinical evidence.
 
@@ -47,12 +46,12 @@ This is an established, labelled use of the drug rather than a true repurposing,
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune oophoritis |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

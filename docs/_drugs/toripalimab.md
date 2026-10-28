@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Toripalimab
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 1007
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Toripalimab: predicted new indication Mixed-type autoimmune hemolytic anemia (evidence level L5). Approved use: Not available in the Singapore licence record. Public information ind…"
+description: "Toripalimab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Toripalimab"
-predicted_indications: ["mixed-type autoimmune hemolytic anemia", "idiopathic aplastic anemia", "dermatitis", "paroxysmal nocturnal hemoglobinuria", "drug-induced autoimmune hemolytic anemia", "proteinuria", "acne keloid", "neonatal autoimmune hemolytic anemia", "primary CD59 deficiency", "amyopathic dermatomyositis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Toripalimab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Toripalimab: From Nasopharyngeal Carcinoma (Oncology) to Mixed-Type Autoimmune Hemolytic Anemia
+## Toripalimab
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Toripalimab is an anti-PD-1 monoclonal antibody used in cancer immunotherapy; it is registered in Singapore, but the approved indication text is not available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **mixed-type autoimmune hemolytic anemia**, with **0 clinical trials** and **0 publications** supporting this direction.
-This is a model prediction only, and PD-1 blockade is more often reported to trigger autoimmune hemolysis than to treat it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the Singapore licence record. Public information indicates nasopharyngeal carcinoma (FDA approval, October 2023). |
-| Predicted New Indication | Mixed-type autoimmune hemolytic anemia |
-| TxGNN Prediction Score | 93.76% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the compiled record. Toripalimab is a humanized antibody that blocks PD-1 from binding to its ligands PD-L1 and PD-L2 (IC50 about 3.0 nM). This releases the brake on T-cell activity against tumours.
-
-The mechanistic rationale for autoimmune hemolytic anemia is weak. Enhancing immune activity would be expected to worsen autoimmune hemolysis rather than relieve it. Checkpoint inhibitors are themselves reported to cause immune-mediated hemolysis. The high TxGNN score therefore likely reflects network associations in the knowledge graph rather than a plausible therapeutic mechanism, and the prediction should be treated with caution.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ## Singapore Market Information
 
@@ -81,18 +59,6 @@ Currently no related literature available.
 
 Please refer to the package insert for further safety information, including warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score alone, with no clinical trials or literature. The biological direction (immune activation in an autoimmune disease) is unfavourable and may be harmful.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA record
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence that PD-1 blockade benefits autoimmune hemolytic anemia
-- A safety assessment of immune-mediated hemolysis risk with checkpoint inhibitors
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

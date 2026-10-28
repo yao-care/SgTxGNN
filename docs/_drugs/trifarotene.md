@@ -4,17 +4,17 @@ title: Trifarotene
 parent: Low Evidence (L5)
 nav_order: 1023
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Trifarotene: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne"
 monitor_inn: "Trifarotene"
-predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome", "demodicidosis of sebaceous gland", "spondyloarthropathy, susceptibility to", "malaria", "Zollinger-Ellison syndrome", "Ehlers-Danlos syndrome", "Beare-Stevenson cutis gyrata syndrome", "isolated congenital adermatoglyphia", "malignant atrophic papulosis"]
+predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"]
+description: "Trifarotene: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trifarotene
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trifarotene: From Acne to Elevated Plasma Zinc
+## Trifarotene: Zinc, elevated plasma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **elevated plasma zinc**, but *
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne (the approved indication text on the Singapore licence is not available; acne is taken from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Zinc, elevated plasma |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,8 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 For elevated plasma zinc, no plausible mechanistic link could be identified. It is a metabolic or laboratory finding with no known retinoid-receptor pathway. A topical drug with minimal systemic exposure is also unlikely to change plasma zinc levels. The high TxGNN score appears to be a network-based artefact rather than a pharmacologically grounded signal.
 
 Other top-ranked predictions are also weakly supported. The most plausible among them are conditions with a skin or follicular component:
-- **PAPA syndrome (rank 2, score 99.32%)**: only the acne manifestation is indirectly related.
-- **Demodicidosis of the sebaceous gland (rank 3, score 98.42%)**: shares the pilosebaceous unit with acne, but trifarotene has no antiparasitic activity.
+- **PAPA syndrome (rank 2, score 0.9932)**: only the acne manifestation is indirectly related.
 
 None of the top 10 predictions has clinical trials or literature behind it.
 

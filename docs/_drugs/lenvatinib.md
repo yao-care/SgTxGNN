@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lenvatinib
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 587
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L5). Approved use: Renal cell carcinoma and thyroid carcinoma"
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
+description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lenvatinib: From Renal Cell Carcinoma and Thyroid Cancer to Liposarcoma
+## Lenvatinib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Support is limited: **1 completed early-phase clinical trial** (a combination wi
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and thyroid carcinoma (from the knowledge-graph indication list; the Singapore registration records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L2 (upper bound: the only trial is single-arm and non-randomized) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

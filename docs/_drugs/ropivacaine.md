@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ropivacaine
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 884
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence data compiled for this report"
 monitor_inn: "Ropivacaine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder", "fibromyalgia", "myofascial pain syndrome", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "bronchitis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
+description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Ropivacaine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ropivacaine: From Local Anaesthesia to Migraine Disorder
+## Ropivacaine: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **2 clinical trials** and **3 publications** currently supporting this dire
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence data compiled for this report (all 7 licences have blank indication text); ropivacaine is a local anaesthetic |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L2 (see note below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 *Note on the evidence level:* The data compiled for this report assigns L2, but the supporting studies are a 10-patient Phase 4 trial, a Phase N/A headache study, and small clinical or observational studies. There is no completed Phase 2/3 RCT specific to migraine, so this level should be read as the upper bound.
@@ -113,7 +113,7 @@ Two further Ropivacaine-AFT injection licences (0.75% and 1%) are also valid, gi
 
   These come from graph relationships and should be verified against the official package insert.
 - **Drug Interactions:** 64 interactions were identified in total. Moderate-level interactions include obeticholic acid, liposomal morphine, deferasirox and fostamatinib. Most other listed interactions are minor or of unknown severity, for example aprepitant, cimetidine, clarithromycin, atropine and epinephrine.
-- **Tissue safety signal:** Several in vitro studies in the tendinitis literature report ropivacaine cytotoxicity to tenocytes. This is relevant if repeated peri-tendinous injection were considered, and it is less directly relevant to migraine.
+- This is relevant if repeated peri-tendinous injection were considered, and it is less directly relevant to migraine.
 
 Please refer to the package insert for the full warnings and contraindications.
 
@@ -138,9 +138,8 @@ The migraine evidence consists of one 10-patient trial, one indirect headache st
 
 ## Other Predicted Indications (Brief Note)
 
-Among the other top-ranked predictions, **myofascial pain syndrome** (TxGNN 98.99%) has the strongest supporting evidence. It rests on a completed Phase 4 trial of trigger point injection with ropivacaine plus pregabalin (NCT07866443, n=74) and several comparative studies, and was assessed as "Proceed with Guardrails" in the data compiled for this report. The combination design limits attribution to ropivacaine, and it is not clearly superior to other local anaesthetics.
 
-The remaining predictions (migraine with brainstem aura, nephrogenic syndrome of inappropriate antidiuresis, dysthymic disorder, fibromyalgia, tendinitis, idiopathic granulomatous myositis, myositis fibrosa and bronchitis) have little or no direct evidence and are on **Hold**. Several look like graph artefacts.
+The remaining predictions (migraine with brainstem aura, nephrogenic syndrome of inappropriate antidiuresis and dysthymic disorder) have little or no direct evidence and are on **Hold**. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

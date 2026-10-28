@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Medium Evidence (L3-L4)
 nav_order: 788
 evidence_level: L4
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Phenylephrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "faucial diphtheria", "cervical disc degenerative disorder", "tracheal disease", "rosacea conjunctivitis", "allergic urticaria", "bronchial disease", "endobronchial leiomyoma"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Phenylephrine: From Allergic Rhinitis and Nasal Congestion to Nasal Cavity Disease
+## Phenylephrine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The evidence is limited: **no registered clinical trials** were found for this i
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, conjunctivitis (atopic, papillary, vernal), nasopharyngitis, headache disorder, haemorrhoid, proctitis (from the knowledge graph; Singapore licence indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,7 +64,6 @@ The predicted indication is largely an extension of its existing nasal uses (rhi
 
 Currently no related clinical trials registered for nasal cavity disease.
 
-(For reference, the lower-ranked prediction "bronchial disease" has one completed Phase 2 trial, [NCT00373802](https://clinicaltrials.gov/study/NCT00373802), a randomized, double-blind, placebo-controlled study of nasal phenylephrine in 50 infants with bronchiolitis. Results were not provided.)
 
 ## Literature Evidence
 
@@ -103,7 +102,7 @@ Please also refer to the package insert for warnings and contraindications, whic
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and the drug is widely marketed in Singapore, but there are no registered trials for nasal cavity disease. The retrieved literature is largely about combination products, reviews or unrelated topics, so evidence is at L4. Other predictions in the list (for example acute laryngopharyngitis, faucial diphtheria, cervical disc disorder) have no supporting evidence at all. The trigeminal autonomic cephalalgia literature is diagnostic pupillometry, not therapeutic.
+The mechanism is plausible and the drug is widely marketed in Singapore, but there are no registered trials for nasal cavity disease. The retrieved literature is largely about combination products, reviews or unrelated topics, so evidence is at L4. The trigeminal autonomic cephalalgia literature is diagnostic pupillometry, not therapeutic.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA

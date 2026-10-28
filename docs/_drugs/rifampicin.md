@@ -6,9 +6,9 @@ nav_order: 866
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifampicin"
-predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
+predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Rifampicin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Rifampicin: From Pulmonary Tuberculosis to Conjunctivitis
+## Rifampicin: Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **no registered clinical trials** and the literature (**19 publica
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary tuberculosis (from the TxGNN knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

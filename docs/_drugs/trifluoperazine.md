@@ -4,17 +4,17 @@ title: Trifluoperazine
 parent: Low Evidence (L5)
 nav_order: 1024
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Trifluoperazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Schizophrenia, anxiety"
 monitor_inn: "Trifluoperazine"
-predicted_indications: ["manic bipolar affective disorder", "syndromic myopia", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+predicted_indications: ["manic bipolar affective disorder"]
+description: "Trifluoperazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trifluoperazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trifluoperazine: From Schizophrenia and Anxiety to Manic Bipolar Affective Disorder
+## Trifluoperazine: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **no registered clinical trials** and only **indirect, c
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, anxiety (from the knowledge graph; the Singapore licence record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 (the scoring in the data compiled for this report lists L4, but no controlled study of trifluoperazine in mania was found, so L5 is the stricter reading under the rules) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

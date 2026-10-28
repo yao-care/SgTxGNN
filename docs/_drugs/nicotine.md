@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Nicotine
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 711
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Nicotine: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Nicotine dependence"
+description: "Nicotine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Nicotine"
-predicted_indications: ["exercise-induced malignant hyperthermia", "migraine with brainstem aura", "oppositional defiant disorder (disease)", "migraine disorder", "blepharospasm", "46,XY disorder of sex development due to testicular steroidogenesis defect", "transverse vaginal septum", "longitudinal vaginal septum", "communication disorder", "developmental disorder of mental health"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Nicotine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nicotine: From Nicotine Dependence to Exercise-Induced Malignant Hyperthermia
+## Nicotine
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Nicotine is used in nicotine replacement therapy and is originally indicated for nicotine dependence (the knowledge graph also lists pellagra and beriberi).
-The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**, but **no clinical trials and no publications** support this prediction.
-It is a model-only prediction and does not appear to be biologically plausible.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Nicotine dependence (per the knowledge graph; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 83.91% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 10 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Based on known information, nicotine is an agonist of nicotinic acetylcholine receptors, and its efficacy in nicotine dependence (as replacement therapy) is established. Mechanistically, it is not clear that it applies to exercise-induced malignant hyperthermia.
-
-Malignant hyperthermia involves dysregulated calcium release through ryanodine receptors in skeletal muscle. Nicotine acts on nicotinic receptors at the neuromuscular junction and activates the sympathetic system, so it is more likely to be a risk than a benefit in this condition. The model score appears to reflect graph-based inference rather than a therapeutic link supported by data.
-
-For context, the other predictions were reviewed. Only **blepharospasm** (rank 5) has direct human studies: two small pilot studies of nicotine nasal spray. They gave mixed results that lean negative, and botulinum toxin remains the standard of care. Predictions for migraine, oppositional defiant disorder, communication disorder and developmental mental health disorder rest mainly on epidemiologic literature that treats nicotine or smoking as a risk factor, not a treatment.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 
 ## Singapore Market Information
 
@@ -90,18 +66,6 @@ Ten valid single-ingredient licences are registered in total; the five above are
 
 For package insert warnings, please refer to the product label.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has only a model score (83.9%), with no trials or publications. The known pharmacology suggests potential harm rather than benefit in malignant hyperthermia.
-
-**To proceed, the following is needed:**
-- Mechanism of action data and a documented biological rationale linking nicotine to ryanodine receptor or calcium dysregulation
-- Preclinical evidence (for example muscle or animal models) showing benefit rather than a trigger effect
-- Package insert warnings and contraindications from the Singapore regulator
-- If a different indication is preferred, consider re-evaluating blepharospasm (the only prediction with direct human data) as a research question, noting that its evidence is old, small and leans negative
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

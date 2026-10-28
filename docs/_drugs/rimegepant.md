@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rimegepant
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 870
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Rimegepant: predicted new indication Migraine with brainstem aura (evidence level L3). Approved use: Migraine disorder"
 monitor_inn: "Rimegepant"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "Prinzmetal angina", "sciatic neuropathy", "homozygous familial hypercholesterolemia"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Rimegepant: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Rimegepant: From Migraine to Migraine with Brainstem Aura
+## Rimegepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Rimegepant is a CGRP receptor antagonist originally used to treat migraine, both acute treatment and prevention of episodic migraine.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**, a migraine subtype.
 There are **no registered clinical trials** for this subtype. **15 publications** were compiled, but they address migraine in general and report no subtype-specific analysis, so the evidence is indirect.
 
 ---
@@ -48,12 +47,12 @@ There are **no registered clinical trials** for this subtype. **15 publications*
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (the Singapore licence record contains no indication text) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9976 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

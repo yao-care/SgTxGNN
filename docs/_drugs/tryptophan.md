@@ -4,17 +4,17 @@ title: Tryptophan
 parent: Medium Evidence (L3-L4)
 nav_order: 1034
 evidence_level: L3
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not stated in the registration records"
 monitor_inn: "Tryptophan"
-predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency", "acne (disease)", "pregnancy associated osteoporosis"]
+predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 ---
 
 # Tryptophan
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Tryptophan is an essential amino acid supplied in Singapore as a component of parenteral nutrition and amino acid infusion products.
-The TxGNN model ranks **restless legs syndrome** as its top predicted new indication, with a score of 99.7%. However, there are **no registered clinical trials** and only **2 small, dated clinical reports (1986-1987)** supporting this direction.
+The TxGNN model (deep learning) ranks **restless legs syndrome** as its top predicted new indication, with a score of 0.9972. However, there are **no registered clinical trials** and only **2 small, dated clinical reports (1986-1987)** supporting this direction.
 The most evidence-supported candidate is actually **insomnia**, which has a 1983 controlled study and a small 1987 study of L-tryptophan, though current guidelines do not endorse it.
 
 > This report evaluates the top-ranked prediction (restless legs syndrome) in detail and summarises the other nine predictions briefly.
@@ -52,10 +52,10 @@ The most evidence-supported candidate is actually **insomnia**, which has a 1983
 |------|------|
 | Original Indication | Not stated in the registration records (the 19 licences are for amino acid infusion and parenteral nutrition products) |
 | Predicted New Indication | Restless legs syndrome |
-| TxGNN Prediction Score | 99.72% |
+| TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -128,15 +128,13 @@ Restless legs syndrome has a high model score but only two small 1980s clinical 
 
 | Rank | Indication | Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 2 | Primary hereditary glaucoma | 99.57% | L5 | Hold |
-| 3 | Open-angle glaucoma | 99.50% | L4 | Hold (observational metabolomic data only) |
-| 4 | Insomnia | 99.47% | L3 | Proceed with Guardrails |
-| 5 | Methemoglobinemia | 99.30% | L5 | Hold |
-| 6 | Methemoglobinemia, alpha type | 99.18% | L5 | Hold |
-| 7 | Methemoglobin reductase deficiency | 99.08% | L5 | Hold |
-| 8 | Congenital prothrombin deficiency | 99.01% | L5 | Hold |
-| 9 | Acne | 98.60% | L4 | Hold (preclinical, microbial-metabolite data only) |
-| 10 | Pregnancy-associated osteoporosis | 98.59% | L5 | Hold |
+| 2 | Primary hereditary glaucoma | 0.9957 | L5 | Hold |
+| 3 | Open-angle glaucoma | 0.9950 | L4 | Hold (observational metabolomic data only) |
+| 4 | Insomnia | 0.9947 | L3 | Proceed with Guardrails |
+| 5 | Methemoglobinemia | 0.9930 | L5 | Hold |
+| 6 | Methemoglobinemia, alpha type | 0.9918 | L5 | Hold |
+| 7 | Methemoglobin reductase deficiency | 0.9908 | L5 | Hold |
+| 8 | Congenital prothrombin deficiency | 0.9901 | L5 | Hold |
 
 **Insomnia is the most developed alternative.** A 1983 controlled study (PMID 6410442, 96 patients) compared 1 g L-tryptophan with flurazepam, secobarbital and placebo. A 1987 study (PMID 3432358) reported improved sleep in 19 of 25 patients with severe chronic insomnia on 2 g L-tryptophan. Recent work is mostly preclinical or combination-product based, and the 2017 AASM guideline (PMID 27998379) does not endorse tryptophan. Any pursuit would need guardrails for serotonergic interactions and product quality.
 

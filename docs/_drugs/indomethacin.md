@@ -6,9 +6,9 @@ nav_order: 530
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Inflammatory arthritis and related conditions (e.g.…"
 monitor_inn: "Indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
+description: "Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Indomethacin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Indomethacin: From Inflammatory Arthritis to Brachydactyly-Syndactyly Syndrome
+## Indomethacin: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This prediction currently has **0 clinical trials** and **0 publications** suppo
 
 | Item | Content |
 |------|------|
-| Original Indication | Inflammatory arthritis and related conditions (e.g., rheumatoid arthritis, ankylosing spondylitis, gout, osteoarthritis, bursitis, tendinitis, patent ductus arteriosus). The Singapore registration records do not state an indication, so this is based on the knowledge graph. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

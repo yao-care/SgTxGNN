@@ -4,17 +4,17 @@ title: Sodium Sulfate
 parent: Low Evidence (L5)
 nav_order: 923
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sodium Sulfate: predicted new indication Dyspepsia (evidence level L5). Approved use: Not stated in the registration data (osmotic laxative / bowel prepara…"
 monitor_inn: "Sodium sulfate"
-predicted_indications: ["dyspepsia", "dry eye syndrome", "stomach disease", "sclerosing cholangitis", "bronchitis", "methemoglobinemia, alpha type", "methemoglobinemia", "methemoglobin reductase deficiency", "postgastrectomy syndrome", "primary hereditary glaucoma"]
+predicted_indications: ["dyspepsia"]
 ---
 
 # Sodium Sulfate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The prediction is best read as a model artifact, not an actionable lead.
 |------|------|
 | Original Indication | Not stated in the registration data (osmotic laxative / bowel preparation by drug class) |
 | Predicted New Indication | Dyspepsia |
-| TxGNN Prediction Score | 99.09% |
+| TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,8 @@ The prediction is best read as a model artifact, not an actionable lead.
 
 Detailed mechanism of action data is not available. Based on known information, sodium sulfate is an osmotic saline laxative: it is poorly absorbed and draws water into the bowel lumen, which promotes evacuation.
 
-This action has no known link to the pathophysiology of functional dyspepsia (impaired gastric accommodation, visceral hypersensitivity, delayed gastric emptying and similar mechanisms). The three papers retrieved for this prediction mostly use **dextran sodium sulfate (DSS)**, a different chemical used to induce colitis in animals. They do not show any therapeutic benefit of sodium sulfate. The high TxGNN score most likely reflects a knowledge-graph artifact, not a real pharmacological relationship.
+This action has no known link to the pathophysiology of functional dyspepsia (impaired gastric accommodation, visceral hypersensitivity, delayed gastric emptying and similar mechanisms). The three papers retrieved for this prediction mostly use **dextran sodium sulfate (DSS)**, a different chemical used to induce colitis in animals. They do not show any therapeutic benefit of sodium sulfate. The high TxGNN score most likely reflects a TxGNN model (deep learning) artifact, not a real pharmacological relationship.
 
-Other top-ranked predictions (dry eye syndrome, stomach disease, sclerosing cholangitis, bronchitis, methemoglobinemia, glaucoma and others) show the same pattern. They have no trials and no plausible mechanism. The only exception is a 1985 cat study on acetaminophen toxicosis, which is weak, indirect, animal-only evidence.
 
 ---
 
@@ -114,7 +113,7 @@ The prediction is supported only by a model score. There are no clinical trials,
 - The HSA package insert, to confirm the approved indication, warnings and contraindications
 - Mechanism of action data (for example from DrugBank)
 - A clear mechanistic hypothesis for dyspepsia, followed by relevant preclinical or clinical evidence
-- Review of the other predicted indications (for example methemoglobinemia, where the only evidence is a single feline study) only if new, direct evidence emerges
+- Review of the other predicted indications only if new, direct evidence emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

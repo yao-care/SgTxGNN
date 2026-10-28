@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Pomalidomide
-parent: Low Evidence (L5)
-nav_order: 807
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Pomalidomide: predicted new indication Indolent plasma cell myeloma (evidence level L5). Approved use: Plasma cell myeloma"
-monitor_inn: "Pomalidomide"
-predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "vulvar melanoma (disease)", "epithelioid cell uveal melanoma", "melanoma", "cholangiocarcinoma, susceptibility to", "congenital temporomandibular joint ankylosis", "polydipsia", "ganglioneuroblastoma (disease)"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 806
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Pomalidomide: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Pomalidomide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,61 +32,52 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pomalidomide: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
+<!-- known-uses-page -->
+<!-- description: Pomalidomide: known uses and market status in Singapore; currently no new candidate indication -->
+## Pomalidomide: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model produced no candidate with a score of 0.99 or higher for Pomalidomide, so there is currently no new predicted indication. The drug's own recorded uses are listed below. They are known uses, not model predictions.
 
-Pomalidomide was originally used to treat plasma cell myeloma (multiple myeloma).
-The TxGNN model predicts it may be effective for **indolent plasma cell myeloma**,
-but currently there are **0 clinical trials** and only **2 general review articles** on myeloma, so the evidence is indirect.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Plasma cell myeloma |
-| Predicted New Indication | Indolent plasma cell myeloma |
-| TxGNN Prediction Score | 93.96% |
-| Evidence Level | L4 (see note below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 
-*Note: By the strict level definitions, a prediction with no actual studies of the drug in this disease falls at L5. It is rated L4 here because the mechanism of action is biologically plausible and preclinical work supports the drug's immunomodulatory activity. Neither is specific to indolent disease.*
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| multiple myeloma | licence in another country |
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on what is known, pomalidomide is an immunomodulatory drug that acts through cereblon, leading to degradation of the transcription factors IKZF1 and IKZF3. This produces direct antimyeloma and immune-stimulating effects.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Indolent plasma cell myeloma (for example, smoldering myeloma) is biologically adjacent to the approved indication. The same malignant plasma cell population is involved, only at an earlier, less aggressive stage. This closeness is probably a major reason the TxGNN score is high.
-
-However, the two supporting references are general reviews of myeloma diagnosis and management. Neither studies pomalidomide in indolent disease. The link is therefore a reasonable hypothesis, not demonstrated evidence.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [21181954](https://pubmed.ncbi.nlm.nih.gov/21181954/) | 2011 | Review | American Journal of Hematology | 2011 update on multiple myeloma diagnosis, risk stratification and management |
-| [22180161](https://pubmed.ncbi.nlm.nih.gov/22180161/) | 2012 | Review | American Journal of Hematology | 2012 update on multiple myeloma diagnosis, risk stratification and management |
-
-Both reviews cover myeloma in general and do not evaluate pomalidomide in indolent disease.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| plasma cell myeloma |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14713P | POMALYST CAPSULE 1MG | Capsule | Not stated |
-| SIN14714P | POMALYST CAPSULE 2MG | Capsule | Not stated |
-| SIN14715P | POMALYST CAPSULE 3MG | Capsule | Not stated |
-| SIN14716P | POMALYST CAPSULE 4MG | Capsule | Not stated |
-| SIN16983P | POMAGEN CAPSULES 1MG | Capsule | Not stated |
-
-There are 8 valid registrations in total (POMALYST from Celgene International Sarl and POMAGEN from Lotus Pharmaceutical Co., Ltd.), covering 1 mg to 4 mg capsules. Only 5 are listed above.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16985P | POMAGEN CAPSULES 3MG | CAPSULE | Valid |
+| SIN16984P | POMAGEN CAPSULES 2MG | CAPSULE | Valid |
+| SIN14714P | POMALYST CAPSULE 2MG | CAPSULE | Valid |
+| SIN14713P | POMALYST CAPSULE 1MG | CAPSULE | Valid |
+| SIN16983P | POMAGEN CAPSULES 1MG | CAPSULE | Valid |
+| SIN14716P | POMALYST CAPSULE 4MG | CAPSULE | Valid |
+| SIN16982P | POMAGEN CAPSULES 4MG | CAPSULE | Valid |
+| SIN14715P | POMALYST CAPSULE 3MG | CAPSULE | Valid |
 
 ## Cytotoxicity
 
@@ -114,18 +104,6 @@ There are 8 valid registrations in total (POMALYST from Celgene International Sa
 
 For warnings and contraindications, please refer to the package insert. Pomalidomide is a thalidomide analogue and is teratogenic, so this must be confirmed against the label before any use.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is close to the already approved myeloma indication and the score is high. However, there are no clinical trials and no literature on pomalidomide in indolent myeloma, so the evidence is indirect. Safety label data is also missing, which blocks safety screening.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website
-- Detailed mechanism of action data (MOA)
-- Clinical studies of pomalidomide in smoldering or indolent myeloma, including the benefit-risk balance in early disease
-- Review of the approved indication wording for each Singapore registration, which is currently blank
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

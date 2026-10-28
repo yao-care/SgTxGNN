@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Zoledronic Acid
-parent: High Evidence (L1-L2)
-nav_order: 1088
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Zoledronic Acid: predicted new indication HIV infectious disease (practically: HIV-associated bone loss / low b… (evidence level L2). Approved use: Humoral hypercalcaemia of malignancy, osteoporosis…"
-monitor_inn: "Zoledronic acid"
-predicted_indications: ["HIV infectious disease", "obsolete familial combined hyperlipidemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "biotin metabolic disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "vitamin deficiency disorder", "Worth syndrome", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "autosomal dominant neovascular inflammatory vitreoretinopathy"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 1087
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Zoledronic Acid: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Zoledronic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,77 +32,57 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Zoledronic Acid: From Hypercalcaemia of Malignancy and Osteoporosis to HIV Infectious Disease
+<!-- known-uses-page -->
+<!-- description: Zoledronic Acid: known uses and market status in Singapore; currently no new candidate indication -->
+## Zoledronic Acid: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model produced candidates for Zoledronic Acid, but every candidate that can be traced to a source is already a known use. There is currently no new predicted indication for this drug. The one known use found is recorded in the knowledge graph only, and no approval was found for it.
 
-Zoledronic acid is an intravenous bisphosphonate originally used for humoral hypercalcaemia of malignancy, osteoporosis (including postmenopausal osteoporosis) and Paget disease of bone.
-The TxGNN model predicts it may be useful in **HIV infectious disease**, with **2 clinical trials** and **9 publications** compiled for this direction.
-The supporting evidence concerns HIV-associated bone loss, not control of the virus itself.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Humoral hypercalcaemia of malignancy, osteoporosis, postmenopausal osteoporosis, Paget disease of bone (from the knowledge graph; the Singapore licence records contain no indication text) |
-| Predicted New Indication | HIV infectious disease (practically: HIV-associated bone loss / low bone mineral density) |
-| TxGNN Prediction Score | 93.95% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 13 |
-| Recommended Decision | Proceed with Guardrails |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Detailed mechanism-of-action data for zoledronic acid is not available in the data compiled for this report. Based on known pharmacology, zoledronic acid is a nitrogen-containing bisphosphonate that inhibits osteoclast-mediated bone resorption. This explains its use in osteoporosis, Paget disease and hypercalcaemia of malignancy.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-In HIV infection, bone loss is common. Antiretroviral therapy (especially tenofovir-containing regimens) and chronic immune activation both contribute. Zoledronic acid therefore acts on a comorbidity of HIV (osteoporosis or low bone mineral density) rather than on the virus. This is closely related to its established osteoporosis use.
-
-A secondary, exploratory mechanism is the activation and expansion of Vγ9Vδ2 T cells through inhibition of farnesyl pyrophosphate synthase. This may have immunomodulatory effects in HIV, but any antiviral or immune-restoring benefit is unproven. The evidence supports the bone-protective use only.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01228318](https://clinicaltrials.gov/study/NCT01228318) | Phase 2 | Completed | 63 | BLIR-HIV: zoledronic acid for bone loss during immune reconstitution on antiretroviral therapy |
-| [NCT00795483](https://clinicaltrials.gov/study/NCT00795483) | Phase 4 | Completed | 33 | Annual vs. biennial zoledronic acid for osteoporosis in an HIV-infected cohort |
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29927785](https://pubmed.ncbi.nlm.nih.gov/29927785/) | 2018 | RCT | AIDS | Zoledronic acid was superior to switching tenofovir disoproxil fumarate for low bone mineral density in HIV-positive adults |
-| [27193748](https://pubmed.ncbi.nlm.nih.gov/27193748/) | 2016 | RCT (Phase IIb) | Clin Infect Dis | A single zoledronic acid infusion prevented ART-induced bone loss in treatment-naive HIV-infected patients |
-| [31621838](https://pubmed.ncbi.nlm.nih.gov/31621838/) | 2020 | RCT follow-up (Phase IIb) | Clin Infect Dis | Protection against ART-induced bone loss from a single dose persisted over the longer term |
-| [31361922](https://pubmed.ncbi.nlm.nih.gov/31361922/) | 2019 | RCT follow-up | J Bone Miner Res | Prolonged bone density and turnover effect of zoledronic acid in HIV-infected adults on tenofovir |
-| [33637048](https://pubmed.ncbi.nlm.nih.gov/33637048/) | 2021 | Clinical/mechanistic study | Mol Med | Zoledronic acid alleviated osteoporosis in HIV patients by suppressing osteoclastogenesis via RANKL regulation |
-| [19238075](https://pubmed.ncbi.nlm.nih.gov/19238075/) | 2009 | Clinical study | AIDS | Zoledronic acid plus interleukin-2 improved immunocompetence by activating Vγ9Vδ2 T cells in HIV-infected persons |
-| [23627025](https://pubmed.ncbi.nlm.nih.gov/23627025/) | 2012 | In vitro/ex vivo | Chin J Exp Clin Virol | Compared Vδ2 T cell expansion from HIV-infected patients using zoledronic acid vs. γδ TCR antibody |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| bone Paget disease |
 
 ## Singapore Market Information
 
-Thirteen valid single-ingredient licences are registered in Singapore, with no cancelled licences. The licence records contain no approved indication text. Five main authorisations are shown below.
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13050P | Zometa Concentrate for Solution for Infusion 4 mg/5 ml | Injection, solution, concentrate | Not stated in the licence record |
-| SIN14316P | Zometa Solution for Infusion 4mg/100ml | Infusion, solution | Not stated in the licence record |
-| SIN13192P | Aclasta 5mg/100ml Solution for Infusion | Infusion, solution | Not stated in the licence record |
-| SIN14934P | Zoledronic Acid Fresenius Kabi Concentrate for Solution for Infusion 4mg/5ml | Infusion, solution concentrate | Not stated in the licence record |
-| SIN16482P | Zoledronic Acid Advagen Solution for Infusion 5mg/100ml | Injection, solution | Not stated in the licence record |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16482P | ZOLEDRONIC ACID ADVAGEN SOLUTION FOR INFUSION 5MG/100ML | INJECTION, SOLUTION | Valid |
+| SIN15562P | ZOBONE CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/5ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN15057P | ZOLDONAT CONCENTRATE FOR SOLUTION FOR INFUSION 4 MG/5 ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN13050P | Zometa Concentrate for Solution for Infusion 4 mg/5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN14316P | Zometa Solution for Infusion 4mg/100ml | INFUSION, SOLUTION | Valid |
+| SIN13192P | Aclasta 5mg/100ml Solution for Infusion | INFUSION, SOLUTION | Valid |
+| SIN15707P | ZOLIDIN CONCENTRATE FOR SOLUTION FOR INFUSION 4 MG/ 5 ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14934P | ZOLEDRONIC ACID FRESENIUS KABI CONCENTRATE FOR SOLUTION FOR  | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14422P | ZOLEDRONIC ACID CONCENTRATE FOR SOLUTION FOR INFUSION 0.8MG/ | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15983P | BONETEM-Z SOLUTION FOR INFUSION 5MG/100ML | INFUSION, SOLUTION | Valid |
+| SIN14915P | AMONZITRA CONCENTRATE FOR SOLUTION FOR INFUSION 0.8MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15982P | ZOLETEM CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/5ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15791P | ZOLTERO 4 ZOLEDRONIC ACID CONCENTRATE SOLUTION FOR INFUSION  | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
 ## Safety Considerations
 
@@ -122,21 +101,6 @@ Package insert warnings and contraindications were not available in the data com
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-Randomised and Phase 2 trials in HIV-infected adults consistently show that zoledronic acid prevents or reverses bone loss, including with tenofovir-containing therapy. The benefit applies to HIV-associated bone loss, which falls under an already labelled use (osteoporosis). There is no evidence of antiviral benefit. The supporting trials are also small (33 and 63 participants), and the pivotal results come from Phase 2b studies rather than multiple completed Phase 3 trials.
-
-**To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (not available in the compiled data)
-- Detailed mechanism-of-action data from DrugBank
-- A defined target population (HIV-positive adults with low bone mineral density, particularly on tenofovir or starting ART)
-- A safety monitoring plan covering renal function, serum calcium and vitamin D, and dental health (osteonecrosis of the jaw)
-- Confirmation of the approved indication wording for the Singapore licences, since the licence records contain none
-- Fracture-outcome data, as the current evidence is mainly bone mineral density
-- No further work on the other predictions (ranks 2-10), which have no supporting evidence or implausible mechanisms. The vitamin deficiency disorder association (rank 7) is largely an artefact of the osteoporosis literature.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

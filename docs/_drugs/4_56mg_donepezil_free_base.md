@@ -8,6 +8,7 @@ nav_order: 11
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # 4 56Mg Donepezil Free Base
@@ -55,8 +56,8 @@ No Singapore market registrations were found, and a complete repurposing evaluat
 | Predicted New Indication | None — TxGNN generated zero predictions for this entry |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | Not applicable |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | **Hold** |
 
 ---

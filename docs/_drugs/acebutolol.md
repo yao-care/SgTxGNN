@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Acebutolol
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 27
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Acebutolol: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Acebutolol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "primary hereditary glaucoma", "open-angle glaucoma", "closed-angle glaucoma", "atrial flutter (disease)"]
+predicted_indications: ["malignant hypertensive renal disease"]
+last_modified_at: 2026-10-23
+description: "Acebutolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension"
 ---
 
 # Acebutolol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,34 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Acebutolol: From Hypertension to Malignant Renovascular Hypertension
+## Acebutolol: From Hypertension to Malignant Hypertensive Renal Disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Acebutolol is a cardioselective beta-blocker originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are **0 registered clinical trials** and only **1 publication** (a 1975 open-label study of general hypertension) supporting this direction.
-This is largely an extension of the existing indication rather than true repurposing.
+Acebutolol is a beta-blocker originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder); the Singapore licence records contain no indication text, so this comes from the knowledge graph |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.10% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Original Indication | Hypertension (recorded in the knowledge graph; the Singapore licence records contain no indication text) |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9910 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, acebutolol is a cardioselective beta-1 blocker with intrinsic sympathomimetic activity. Its efficacy in hypertension is established. Beta blockade reduces renin release, which is relevant to renovascular hypertension, where renin-driven mechanisms play a major role.
+Currently, detailed mechanism of action data is not available. Based on known information, acebutolol is a cardioselective beta-1 blocker with intrinsic sympathomimetic activity. Its blood-pressure-lowering effect in hypertension is recorded in the knowledge graph, and mechanistically it may be applicable to hypertension-related kidney disease. Beta-1 blockade reduces renin release and sympathetic activation, both of which contribute to hypertensive kidney injury.
 
-The relationship between the original and the new indication is very close, since both are forms of high blood pressure. The high TxGNN score probably reflects this similarity to the known hypertension indication rather than a new mechanism. Malignant hypertension usually requires urgent parenteral therapy, so oral acebutolol would not be a first-line choice.
+Malignant hypertensive renal disease is a severe end-organ complication of uncontrolled hypertension. The link to the original indication is therefore close. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. In effect, this is an extension of the existing use to a complication, not a novel use.
 
-Other predictions in the set are weaker. Pulmonary hypertension, Braddock syndrome and chronic pulmonary heart disease lack clinical rationale, and beta blockers may be harmful in right heart disease. Glaucoma has a class-level rationale only with topical beta blockers. **Atrial flutter** is the most credible alternative (L3, 3 studies, class II antiarrhythmic activity), but beta blockers are already standard for rate control there, so novelty is limited.
+There is also a clinical limitation. Beta-blockers are not first-line for malignant hypertension with renal involvement. Intravenous agents (such as labetalol, nicardipine, clevidipine or nitroprusside) and renin-angiotensin system blockade are generally preferred. Oral acebutolol would have a limited role in acute management.
 
 ## Clinical Trial Evidence
 
@@ -68,41 +68,38 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [768911](https://pubmed.ncbi.nlm.nih.gov/768911/) | 1975 | Clinical study (open-label) | La Nouvelle presse medicale | 50 hypertensive patients treated for one year with acebutolol, alone or combined; results good or moderate in 74%, failure in 26%; well tolerated. Not specific to malignant renovascular disease |
+Currently no related literature available.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08621P | APO-ACEBUTOLOL TABLET 100 mg | Film-coated tablet | Not stated in the licence record |
-| SIN08620P | APO-ACEBUTOLOL TABLET 200 mg | Film-coated tablet | Not stated in the licence record |
-| SIN08636P | APO-ACEBUTOLOL TABLET 400 mg | Film-coated tablet | Not stated in the licence record |
+| SIN08621P | APO-ACEBUTOLOL TABLET 100 mg | Tablet, film coated | Not stated in the licence record |
+| SIN08620P | APO-ACEBUTOLOL TABLET 200 mg | Tablet, film coated | Not stated in the licence record |
+| SIN08636P | APO-ACEBUTOLOL TABLET 400 mg | Tablet, film coated | Not stated in the licence record |
 
-All three are single-ingredient oral products from Apotex Inc and are currently valid.
+All three are single-ingredient products from Apotex Inc and are currently valid. The number of registrations is 3 (all licences, none partial).
 
 ## Safety Considerations
 
-- **Contraindications suggested by the knowledge graph (not label text):** asthma (including allergic and intrinsic), pulmonary emphysema, atrioventricular block, sick sinus syndrome, peripheral vascular disease or arterial disease, diabetes mellitus and diabetic ketoacidosis, myasthenia gravis, pheochromocytoma and related adrenal tumours, kidney disease, liver disease, gallbladder disease, psoriasis, and anxiety or dysthymic disorders.
-- **Drug Interactions:** 100 interactions were identified; the 20 reviewed here were mostly Moderate or Minor.
-  - Moderate: antidiabetic agents (acetohexamide, chlorpropamide, canagliflozin, dapagliflozin), corticosteroids (betamethasone, budesonide), calcium salts, atropine, clidinium, bupropion and cimetidine.
-  - Minor: aluminium hydroxide, acetylsalicylic acid and attapulgite.
+- **Relations recorded in the knowledge graph as contraindications** (not taken from label text): anxiety disorder, neurotic disorder, dysthymic disorder, kidney disease, liver disease, gallbladder disease, asthma (including intrinsic and allergic), psoriasis, diabetes mellitus and diabetic ketoacidosis, myasthenia gravis, pheochromocytoma and related adrenal or paraganglioma tumours, peripheral vascular disease, atrioventricular block, pulmonary emphysema, and sick sinus syndrome. Several others are listed for cancers (duodenum, small intestine, heart, adrenal gland). Note that kidney disease is on this list, which is relevant to the predicted renal indication.
+- **Drug Interactions**: 100 interactions were found in total. The 20 retrieved include moderate-level ones with acetohexamide, chlorpropamide, canagliflozin and dapagliflozin (diabetes drugs), atropine, clidinium, bupropion, cimetidine, betamethasone, budesonide, and several calcium salts. Minor-level ones include aluminium hydroxide, acetylsalicylic acid and attapulgite.
 
-Please also refer to the package insert, since label warnings and contraindications were not available for this report.
+Please refer to the package insert for the label warnings and contraindications, as these were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for malignant renovascular hypertension is limited to a single 1975 open-label study of general hypertension, with no registered trials. The high score mainly reflects the drug's existing hypertension indication, and acute malignant hypertension is normally managed with parenteral therapy.
+The prediction has no supporting clinical trials or publications (L5). It is largely an extension of the existing hypertension use to a severe complication, where beta-blockers are not a preferred option. The knowledge graph also records kidney disease as a contraindication relation.
 
 **To proceed, the following is needed:**
-- The Singapore package insert, including warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (for example from DrugBank)
-- Disease-specific clinical evidence in renovascular or malignant hypertension
-- Consideration of atrial flutter or supraventricular arrhythmia prevention as a more credible research question, with review of the 1985-1986 post-bypass studies to confirm design and effect size
+- Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- A literature and trial search specifically on beta-blockers in malignant hypertensive nephropathy
+- Clarification of the approved indications on the Singapore licences
+- Review of the kidney-disease contraindication relation against the label and clinical practice
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulfamethoxazole
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 940
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L4). Approved use: Infectious otitis media, nocardiosis, toxoplasmosis, pneumocystosis…"
 monitor_inn: "Sulfamethoxazole"
-predicted_indications: ["acute contagious conjunctivitis", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "endocardial fibroelastosis", "postinfectious vasculitis", "post-bacterial disorder", "parasitic eyelid infestation", "post-infectious syndrome", "ulcerative blepharitis", "blepharoconjunctivitis"]
+predicted_indications: ["acute contagious conjunctivitis"]
+description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sulfamethoxazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Sulfamethoxazole: From Bacterial and Parasitic Infections to Acute Contagious Conjunctivitis
+## Sulfamethoxazole: Acute contagious conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Conjunctivitis is already among the drug's listed original indications, so this 
 
 | Item | Content |
 |------|------|
-| Original Indication | Infectious otitis media, nocardiosis, toxoplasmosis, pneumocystosis, shigellosis, conjunctivitis and others (the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acute contagious conjunctivitis |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 12 |
+| TxGNN Prediction Score | 0.9963 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,13 +60,13 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Acute contagious conjunctivitis is usually bacterial, so an antibacterial folate-pathway mechanism is biologically plausible. Conjunctivitis is already listed as an original indication, so the prediction mostly restates existing use rather than proposing a new one.
 
-The remaining nine predictions are weaker. Several (punctate epithelial keratoconjunctivitis, endocardial fibroelastosis, postinfectious vasculitis, post-infectious syndrome) involve viral, immune-mediated or fibrotic processes with little antibacterial rationale. Ulcerative blepharitis and blepharoconjunctivitis are plausible because they overlap with bacterial eye infections, but they have no supporting data. Parasitic eyelid infestation links loosely to the listed myiasis and hirudiniasis indications, but it is a prediction only.
+The remaining nine predictions are weaker.
 
 ## Clinical Trial Evidence
 
 Currently no clinical trials are registered for acute contagious conjunctivitis.
 
-For other predicted indications, the trials found were consistent with existing antibacterial uses rather than new ones. The most relevant are listed below, all under "post-bacterial disorder" (rank 6) and "post-infectious syndrome" (rank 8):
+For other predicted indications, the trials found were consistent with existing antibacterial uses rather than new ones.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -79,7 +79,6 @@ For other predicted indications, the trials found were consistent with existing 
 
 ## Literature Evidence
 
-Publications retrieved for the top prediction and for exposure keratitis (rank 3):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -127,7 +126,6 @@ The top prediction, acute contagious conjunctivitis, overlaps with an existing i
 - Mechanism of action data from DrugBank
 - Confirmation of the approved indications for the Singapore licences
 - Clinical efficacy data for sulfamethoxazole in bacterial conjunctivitis, and a decision on whether an ocular formulation is relevant, since none is registered
-- Further review of the ulcerative blepharitis and blepharoconjunctivitis predictions, which are mechanistically plausible but have no data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

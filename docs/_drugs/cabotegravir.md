@@ -4,17 +4,17 @@ title: Cabotegravir
 parent: Low Evidence (L5)
 nav_order: 190
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Cabotegravir: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: HIV-1 infection"
 monitor_inn: "Cabotegravir"
-predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy", "brachydactyly-syndactyly syndrome", "diabetic retinopathy", "non-syndromic visceral malformation", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Cabotegravir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,19 @@ The prediction rests on computational output alone, so it should be treated as a
 |------|------|
 | Original Indication | HIV-1 infection (antiretroviral; the approved indication text is not recorded in the Singapore licence data) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data for this drug is not available in the data compiled for this report. Cabotegravir is known as an HIV-1 integrase strand transfer inhibitor. It blocks viral DNA from integrating into the host genome, which is an antiviral mechanism.
 
-Rheumatoid arthritis is driven by autoimmune inflammation involving pathways such as TNF, IL-6 and JAK-STAT signalling. No plausible link between integrase inhibition and these pathways has been established. The high TxGNN score most likely reflects the structure of the knowledge graph rather than demonstrated biology, and no supporting trial, publication or mechanistic study was found.
+Rheumatoid arthritis is driven by autoimmune inflammation involving pathways such as TNF, IL-6 and JAK-STAT signalling. No plausible link between integrase inhibition and these pathways has been established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No supporting trial, publication or mechanistic study was found.
 
-Other top-ranked predictions are similarly unsupported. They include sclerosing cholangitis, bronchitis, diabetic retinopathy (including the severe non-proliferative form) and several ultra-rare genetic disorders. All of them are L5 (model prediction only), with scores of about 97.8% to 99.2%, and all carry a Hold recommendation.
+Other top-ranked predictions are similarly unsupported. They include sclerosing cholangitis, bronchitis, severe nonproliferative diabetic retinopathy and colobomatous microphthalmia-rhizomelic dysplasia syndrome. All of them are L5 (model prediction only), with scores of 0.9903 to 0.9922, and all carry a Hold recommendation.
 
 ## Clinical Trial Evidence
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 monitor_inn: "Triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-description: "Triptorelin: predicted new indication Hypertrichosis (evidence level L5)."
+description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L5)."
 ---
 
 # Triptorelin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Triptorelin: From Gonadal Hormone Suppression (GnRH Agonist Therapy) to Hypertrichosis
+## Triptorelin: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ This prediction rests on the model alone, so the evidence is very weak.
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.997% |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 The Singapore licence records compiled for this report do not include approved indication text, so the original indication is not listed here.
@@ -132,7 +132,7 @@ The prediction has no clinical trials, a single irrelevant case report, and no p
 - Preclinical or clinical data in hypertrichosis patients
 - Full package insert warnings and contraindications for triptorelin
 
-**Note on other predictions:** Among the other predicted indications, **precocious puberty** (rank 8, TxGNN score 99.89%) has much stronger support. It has several completed Phase 3 trials of triptorelin in central precocious puberty and extensive supporting literature, and the mechanism is consistent. This is most likely a confirmation of existing use rather than true repurposing, and it would warrant a separate evaluation.
+**Note on other predictions:** Among the other predicted indications, **precocious puberty** (rank 8, TxGNN score 0.9989) has much stronger support. It has several completed Phase 3 trials of triptorelin in central precocious puberty and extensive supporting literature, and the mechanism is consistent. This is most likely a confirmation of existing use rather than true repurposing, and it would warrant a separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Sulfasalazine
 parent: Low Evidence (L5)
 nav_order: 941
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Sulfasalazine: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "Sulfasalazine"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "spondyloarthropathy, susceptibility to", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 ---
 
 # Sulfasalazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ Among the ten predictions, **osteoarthritis** has the most supporting material (
 |------|------|
 | Original Indication | Rheumatoid arthritis, ulcerative colitis, inflammatory bowel disease, juvenile idiopathic arthritis, spondyloarthropathy (the Singapore licence record contains no approved indication text) |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome (top-ranked); osteoarthritis is the most evidence-supported alternative |
-| TxGNN Prediction Score | 99.94% (osteoarthritis: 99.64%) |
+| TxGNN Prediction Score | 0.9994 (osteoarthritis: 0.9964) |
 | Evidence Level | L5 (osteoarthritis: L4) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (osteoarthritis: research question only) |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sulfasalazine is an anti-inflammatory drug whose activity is generally attributed to NF-kB modulation and, in preclinical work, inhibition of the cystine/glutamate antiporter (system xc-). Its efficacy in rheumatoid arthritis and inflammatory bowel disease is established.
 
-**Brachydactyly-syndactyly syndrome (top prediction):** No mechanistic link is supported. This is a rare congenital limb malformation, and an anti-inflammatory drug has no evident relevance to a developmental skeletal disorder. The high score of 0.999 reflects model inference only. The same applies to most other top-ranked predictions: colobomatous microphthalmia-rhizomelic dysplasia syndrome, congenital hypotrichosis with juvenile macular dystrophy, acromesomelic dysplasia (Hunter-Thompson type), brachyolmia-amelogenesis imperfecta syndrome and myosclerosis. WHIM syndrome is also unsupported, as it is driven by CXCR4 gain-of-function mutations and sulfasalazine has no known CXCR4 activity.
+**Brachydactyly-syndactyly syndrome (top prediction):** No mechanistic link is supported. This is a rare congenital limb malformation, and an anti-inflammatory drug has no evident relevance to a developmental skeletal disorder. The high score of 0.9994 reflects model inference only. The same applies to most other top-ranked predictions: colobomatous microphthalmia-rhizomelic dysplasia syndrome, congenital hypotrichosis with juvenile macular dystrophy, acromesomelic dysplasia (Hunter-Thompson type), brachyolmia-amelogenesis imperfecta syndrome and myosclerosis. WHIM syndrome is also unsupported, as it is driven by CXCR4 gain-of-function mutations and sulfasalazine has no known CXCR4 activity.
 
 **Osteoarthritis (most plausible direction):** Preclinical studies suggest a credible link. Sulfasalazine reduced cytokine-induced proteoglycan and collagen release from cartilage (PMID 19690126), attenuated cartilage destruction in an ACL transection/meniscectomy model (PMID 26466556), and altered the chondrocyte protein profile (PMID 24329131). A sulfasalazine-hyaluronic acid formulation also reduced inflammation and cartilage degradation in a rat model (PMID 29548914). All of this evidence is preclinical or indirect.
 

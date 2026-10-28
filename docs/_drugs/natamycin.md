@@ -50,10 +50,10 @@ with **1 completed Phase 3 clinical trial** and **14 publications** currently su
 |------|------|
 | Original Indication | Mycotic corneal ulcer |
 | Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 Note on evidence level: the only Phase 3 trial tests a natamycin + lactulose combination, so the effect of natamycin alone cannot be isolated. This report therefore grades the evidence conservatively as L2 (one completed Phase 3 RCT) rather than L1 (two or more).

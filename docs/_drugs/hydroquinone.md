@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroquinone
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 508
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L4). Approved use: Not stated in the Singapore licence record (hydroquinone is generally…"
 monitor_inn: "Hydroquinone"
-predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease", "seborrheic dermatitis", "vulvar squamous neoplasm", "annular atrophic lichen planus", "hypertrophic lichen planus", "lichen planus pigmentosus", "acrodermatitis chronica atrophicans"]
+predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
+description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydroquinone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Hydroquinone: From Skin Hyperpigmentation (Topical Depigmenting Agent) to Seborrheic Keratosis
+## Hydroquinone: Seborrheic keratosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Hydroquinone is a topical depigmenting agent that inhibits melanin production, a
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record (hydroquinone is generally used for skin hyperpigmentation such as melasma) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 Seborrheic keratosis is a benign overgrowth of epidermal cells that is often pigmented. A link therefore exists only through pigment reduction. Hydroquinone would not be expected to affect the growth of the lesion itself. The single supporting article is a prospective observational study of combination treatment for facial pigmentary disorders in Asian patients, which is only indirect evidence for this indication.
 
-Most of the other top predictions have no plausible mechanism. Examples include seborrheic dermatitis, vulvar squamous neoplasm, and acrodermatitis chronica atrophicans, which look like prediction-only signals. The one partial exception is **lichen planus pigmentosus** (rank 9), which has a more plausible link through pigmentation. Its evidence is mixed, however (see Literature Evidence below).
+Most of the other top predictions have no plausible mechanism. Its evidence is mixed, however (see Literature Evidence below).
 
 ---
 
@@ -86,7 +86,6 @@ For seborrheic keratosis:
 |------|-----|------|------|---------|
 | [33046430](https://pubmed.ncbi.nlm.nih.gov/33046430/) | 2021 | Cohort | J Plast Reconstr Aesthet Surg | Prospective observational study of a combination treatment algorithm for facial pigmentary disorders in Asian patients. Indirect evidence only. |
 
-Selected publications for **lichen planus pigmentosus** (rank 9, the only other prediction with a plausible pigment-related link):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -97,7 +96,7 @@ Selected publications for **lichen planus pigmentosus** (rank 9, the only other 
 | [36741605](https://pubmed.ncbi.nlm.nih.gov/36741605/) | 2023 | Case report | Cureus | Unilateral linear lichen planus pigmentosus that improved with isotretinoin |
 | [41531723](https://pubmed.ncbi.nlm.nih.gov/41531723/) | 2025 | Case report | HCA Healthc J Med | Lichen planus pigmentosus inversus that responded to topical tacrolimus |
 
-The evidence for lichen planus pigmentosus consists of reviews and case reports. It includes a report of **no response** to hydroquinone, so it does not support efficacy.
+It includes a report of **no response** to hydroquinone, so it does not support efficacy.
 
 ---
 
@@ -126,13 +125,12 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.73%), but the supporting evidence is a single indirect observational study, with no clinical trials for seborrheic keratosis. Hydroquinone's pigment-lightening action does not address the growth of the lesion. Most other top predictions appear to be model artefacts. Evidence level is L4.
+The prediction score is very high (0.9973), but the supporting evidence is a single indirect observational study, with no clinical trials for seborrheic keratosis. Hydroquinone's pigment-lightening action does not address the growth of the lesion. Most other top predictions appear to be model artefacts. Evidence level is L4.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, and the licensed indication for TRI-LUMA CREAM
 - Mechanism of action data (for example from DrugBank)
 - Direct clinical evidence in seborrheic keratosis, such as a small controlled study
-- If pursuing a pigment-related indication such as lichen planus pigmentosus, a focused review of efficacy and a plan to monitor for ochronosis and skin irritation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

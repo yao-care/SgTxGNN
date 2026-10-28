@@ -4,17 +4,17 @@ title: Lactulose
 parent: Low Evidence (L5)
 nav_order: 574
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). Approved use: Hepatic encephalopathy, hepatic coma, constipation"
 monitor_inn: "Lactulose"
-predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm", "iron deficiency anemia", "opiate dependence"]
+predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
+description: "Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lactulose
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lactulose: From Hepatic Encephalopathy and Constipation to Acute Urate Nephropathy
+## Lactulose: Acute urate nephropathy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The best-supported of the model's ten predictions is **obstructive jaundice** (a
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatic encephalopathy, hepatic coma, constipation (from the TxGNN knowledge graph; the Singapore licence records carry no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acute urate nephropathy |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ The best-supported of the model's ten predictions is **obstructive jaundice** (a
 
 Detailed mechanism-of-action data are not available for this report. Based on known information, lactulose is a non-absorbed osmotic disaccharide that acts in the colon. Its efficacy in hepatic encephalopathy and constipation is established, but nothing in the compiled data offers a plausible route from this action to acute urate nephropathy.
 
-The very high TxGNN score (0.999) reflects a pattern learned from the knowledge graph, not biological or clinical evidence. The data show no trials, no literature, and no mechanistic link. For this top-ranked prediction, the rationale is therefore weak.
+The very high TxGNN score (0.9989) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The data show no trials, no literature, and no mechanistic link. For this top-ranked prediction, the rationale is therefore weak.
 
-**Alternative lead: obstructive jaundice (score 99.53%, Evidence Level L3).** This is the only prediction with a plausible mechanism and some human data. In obstructive jaundice, bile salts are absent from the gut, which promotes endotoxin absorption, bacterial translocation and intestinal barrier dysfunction, all of which contribute to postoperative renal dysfunction. Oral lactulose may reduce the gut endotoxin load. Several publications also overlap with the related predictions of bile duct disease (L3). However, a 1997 review notes that a renal-protective effect "has not been shown conclusively" in clinical studies, and one rat study (1989) found that lactulose did not prevent bile infarction or transaminase elevation. Full-text review is needed to confirm effect direction and study design.
+**Alternative lead: obstructive jaundice (score 0.9953, Evidence Level L3).** This is the only prediction with a plausible mechanism and some human data. In obstructive jaundice, bile salts are absent from the gut, which promotes endotoxin absorption, bacterial translocation and intestinal barrier dysfunction, all of which contribute to postoperative renal dysfunction. Oral lactulose may reduce the gut endotoxin load. Several publications also overlap with the related predictions of bile duct disease (L3). However, a 1997 review notes that a renal-protective effect "has not been shown conclusively" in clinical studies, and one rat study (1989) found that lactulose did not prevent bile infarction or transaminase elevation. Full-text review is needed to confirm effect direction and study design.
 
 ---
 

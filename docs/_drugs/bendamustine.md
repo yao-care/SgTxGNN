@@ -50,10 +50,10 @@ Currently **42 clinical trials** and **20 publications** support this direction,
 |------|------|
 | Original Indication | Follicular lymphoma, mature B-cell neoplasms, acute lymphoblastic leukaemia, Richter syndrome (the Singapore registration records contain no indication text) |
 | Predicted New Indication | Mantle cell lymphoma |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

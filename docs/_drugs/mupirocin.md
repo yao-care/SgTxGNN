@@ -4,17 +4,17 @@ title: Mupirocin
 parent: Low Evidence (L5)
 nav_order: 691
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Mupirocin: predicted new indication Pleural empyema (evidence level L5). Approved use: Impetigo, bullous impetigo"
+description: "Mupirocin: predicted new indication pleural empyema (evidence level L5). Approved use: Impetigo, bullous impetigo"
 monitor_inn: "Mupirocin"
-predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "cutaneous candidiasis", "vaginal discharge", "exposure keratitis", "leukoplakia of vagina", "non-human animal disease", "staphylococcal scalded skin syndrome", "bacterial vaginosis"]
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Mupirocin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mupirocin: From Impetigo to Pleural Empyema
+## Mupirocin: From Impetigo to pleural empyema
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Mupirocin is an ointment that cannot reach a deep body-cavity infection at thera
 |------|------|
 | Original Indication | Impetigo, bullous impetigo |
 | Predicted New Indication | Pleural empyema |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 The approved-indication text was blank on all Singapore licence records. The original indications above come from the drug-disease relationships used by the TxGNN model.
@@ -108,7 +108,6 @@ The prediction rests on model score alone, with no trials or literature. A topic
 - Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA).
 - Detailed mechanism of action data from DrugBank.
 
-**Other candidates:** Among the other predicted indications, **staphylococcal scalded skin syndrome** has the strongest support (evidence level L3, "Proceed with Guardrails"). It involves the same pathogen and toxin mechanism as bullous impetigo. A 2023 comparative study (PMID 37404367) evaluated intravenous antibiotics combined with 2% mupirocin ointment in children. Mupirocin would be an adjunct to systemic antibiotics only, with attention to resistance and to absorption through denuded skin in neonates. This candidate is a more promising focus for further evaluation than pleural empyema.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

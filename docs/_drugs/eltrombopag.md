@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eltrombopag
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 369
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). Approved use: Autoimmune thrombocytopenia"
 monitor_inn: "Eltrombopag"
-predicted_indications: ["HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "female breast carcinoma", "obsolete familial combined hyperlipidemia", "homozygous familial hypercholesterolemia", "AIDS", "rheumatoid arthritis", "cholecystolithiasis"]
+predicted_indications: ["HIV infectious disease"]
+description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Eltrombopag
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Eltrombopag: From Autoimmune Thrombocytopenia to HIV Infectious Disease
+## Eltrombopag: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The likely benefit is supportive, treating HIV-associated low platelet counts ra
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune thrombocytopenia (from the knowledge graph; no approved indication text is available in the Singapore licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 per the data compiled for this report; in practice weaker (see below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -112,14 +112,9 @@ The evidence supports eltrombopag as supportive treatment for HIV-associated thr
 - The HSA package insert (warnings, contraindications and approved indications), a blocking gap for safety screening
 - Detailed mechanism of action data from DrugBank
 - HIV-specific controlled data, or a confirmed HIV subgroup from the Phase 3 trial
-- A hepatic monitoring plan, since the knowledge graph flags liver disease, and a plan for cation-containing co-medications
 - A clear framing of the indication as thrombocytopenia in HIV rather than HIV treatment
 
 **Other predictions in the list:**
-- **AIDS** (score 97.1%) largely duplicates the HIV entry and should be evaluated together with it.
-- **Female breast carcinoma** (98.6%) has preclinical evidence only (HuR targeting, apoptosis in cell lines) and is a research question, not a clinical candidate.
-- **Rheumatoid arthritis** (96.8%) has evidence only for secondary thrombocytopenia in autoimmune disease, not disease-modifying activity, so it is also a research question.
-- The remaining predictions (veterinary and animal-model immunodeficiency conditions, a rare neurodevelopmental disorder, familial hyperlipidaemia terms, cholecystolithiasis) have no supporting evidence and should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

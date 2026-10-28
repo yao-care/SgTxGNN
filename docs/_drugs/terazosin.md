@@ -6,9 +6,9 @@ nav_order: 965
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
+description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Terazosin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Terazosin: From Hypertension and Benign Prostatic Hyperplasia to Hypotrichosis Simplex of the Scalp
+## Terazosin: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,22 +46,22 @@ Other predictions in the list, notably **migraine** and **Raynaud disease**, hav
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension; benign prostatic hyperplasia (from the knowledge graph, as the licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Terazosin is known as a selective alpha-1 adrenergic receptor blocker. It relaxes vascular and prostatic smooth muscle, which explains its use in hypertension and benign prostatic hyperplasia.
 
-The link to hair loss is speculative. One plausible but unproven idea is that vasodilation could improve scalp perfusion and follicle function, similar to minoxidil, another vasodilating antihypertensive. The high TxGNN score is a graph-based prediction only and does not reflect any observed clinical effect.
+The link to hair loss is speculative. One plausible but unproven idea is that vasodilation could improve scalp perfusion and follicle function, similar to minoxidil, another vasodilating antihypertensive. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It does not reflect any observed clinical effect.
 
 The other hair-related predictions are weaker still:
-- **Congenital hypotrichosis milia** and **Ambras-type hypertrichosis universalis congenita** are rare genetic conditions with no mechanistic link to alpha-1 blockade. Ambras-type hypertrichosis is also the opposite phenotype (excess hair), which suggests the scores reflect graph artefacts.
+- **Congenital hypotrichosis milia** and **Ambras-type hypertrichosis universalis congenita** are rare genetic conditions with no mechanistic link to alpha-1 blockade. Ambras-type hypertrichosis is also the opposite phenotype (excess hair), which suggests the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Diffuse alopecia areata** is autoimmune, and alpha-1 blockade has no known direct immunomodulatory role.
 - **Alopecia** has only one indirect review, which discusses extracardiac effects of cardiovascular drugs, mainly minoxidil.
 
@@ -116,7 +116,7 @@ The package insert warnings and contraindications were not available, so please 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, hypotrichosis simplex of the scalp, rests only on a graph-based score, with no trials or publications. The same is true of most other hair-related predictions. Migraine and Raynaud disease show some older, small-scale clinical signals, but they are not strong enough to move beyond a research question.
+The top-ranked prediction, hypotrichosis simplex of the scalp, rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, with no trials or publications. The same is true of most other hair-related predictions. Migraine and Raynaud disease show some older, small-scale clinical signals, but they are not strong enough to move beyond a research question.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA, to complete the safety screening

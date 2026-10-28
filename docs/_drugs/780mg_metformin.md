@@ -8,6 +8,7 @@ nav_order: 14
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # 780Mg Metformin
@@ -52,7 +53,8 @@ The Evidence Pack contains a parsing error in the drug name field (original valu
 | Predicted New Indications | None (predicted_indications is empty) |
 | TxGNN Prediction Score | No data |
 | Evidence Level | Cannot be assessed |
-| Singapore Market Status | Not marketed (data missing, pending verification) |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
+| Number of Registrations | at least 20 |
 | Recommended Decision | **Hold — data quality issues, input data correction needed first** |
 
 ---

@@ -4,17 +4,17 @@ title: Doxazosin
 parent: Low Evidence (L5)
 nav_order: 351
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Doxazosin: predicted new indication Migraine disorder (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Doxazosin"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "syndrome with a Dandy-Walker malformation as major feature", "hypertrichosis (disease)", "congenital hypotrichosis milia", "isolated genetic hair shaft abnormality", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
+description: "Doxazosin: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Doxazosin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Doxazosin: From Hypertension and Benign Prostatic Hyperplasia to Migraine Disorder
+## Doxazosin: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension; benign prostatic hyperplasia (the approved indication text on the Singapore licence is not available, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.20% |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 (model prediction with only a small uncontrolled case series; no trials) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The link to migraine is plausible but indirect. Adrenergic signalling and vascular tone regulation have been proposed to contribute to migraine, and other agents acting on the adrenergic system (for example propranolol and clonidine) are used for prophylaxis. The very high TxGNN score is a computational prediction only and is not backed by trial data. Mechanistic similarity between the original and new indications has not yet been assessed.
 
-Other predictions from the model, such as migraine with brainstem aura, are likely inherited from the general migraine node. Predictions in hair disorders, congenital malformation syndromes and kyphoscoliotic heart disease have no identifiable mechanistic link and appear to be knowledge-graph artefacts. They are not pursued in this report.
+Other predictions from the model, such as migraine with brainstem aura, are likely inherited from the general migraine node. They are not pursued in this report.
 
 ## Clinical Trial Evidence
 

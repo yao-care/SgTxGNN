@@ -6,9 +6,9 @@ nav_order: 669
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Anaerobic bacterial infections, giardiasis, bacterial vaginosis…"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
+description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metronidazole
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Metronidazole: From Anaerobic Bacterial and Protozoal Infections to Pneumocystosis
+## Metronidazole: Pneumocystosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Metronidazole is a nitroimidazole antimicrobial originally used for anaerobic bacterial infections, giardiasis, bacterial vaginosis and rosacea.
-The TxGNN model predicts it may be effective for **pneumocystosis** (score 99.99%), but **no clinical trials** are registered and none of the **10 retrieved publications** shows metronidazole working against Pneumocystis.
+The TxGNN model predicts it may be effective for **pneumocystosis** (score 0.9999), but **no clinical trials** are registered and none of the **10 retrieved publications** shows metronidazole working against Pneumocystis.
 This top-ranked prediction therefore rests on model output alone, and other lower-ranked predictions (such as cap polyposis) have more plausible support.
 
 ---
@@ -48,12 +48,12 @@ This top-ranked prediction therefore rests on model output alone, and other lowe
 
 | Item | Content |
 |------|------|
-| Original Indication | Anaerobic bacterial infections, giardiasis, bacterial vaginosis, rosacea, peritonitis, intracranial abscess (the Singapore licence records contain no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---

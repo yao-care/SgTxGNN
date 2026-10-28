@@ -8,6 +8,7 @@ nav_order: 24
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Abiraterone Acetate
@@ -49,8 +50,8 @@ Abiraterone Acetate is a drug identified for drug repurposing evaluation, but th
 | Predicted New Indication | None — TxGNN prediction results not included |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 (Model prediction only — no actual studies retrievable) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | **Hold** |
 
 ---

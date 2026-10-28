@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Insulin human is a replacement hormone originally used to treat type 1 and type 2 diabetes mellitus and diabetic ketoacidosis.
 The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but **no clinical trials and no publications** currently support this prediction.
-The prediction rests on knowledge-graph signals alone and is best read as a hypothesis rather than a therapeutic lead.
+The prediction comes from the TxGNN model (deep learning) alone and may reflect similarities the model learned between related diseases, not biological evidence. It is best read as a hypothesis rather than a therapeutic lead.
 
 ## Quick Overview
 
@@ -48,10 +48,10 @@ The prediction rests on knowledge-graph signals alone and is best read as a hypo
 |------|------|
 | Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (the registered indication text for the Singapore product is not available) |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 A plausible but unproven link is that insulin signaling influences ovarian granulosa cell function and steroidogenesis. A more likely explanation is comorbidity. Autoimmune oophoritis is immune-mediated and often occurs within autoimmune polyendocrine syndromes that include type 1 diabetes. The model may therefore be picking up a disease-association pattern rather than a therapeutic effect of insulin.
 
 Other top-ranked predictions show similar patterns:
-- **Stiff person syndrome and focal stiff limb syndrome** (scores 99.81%): linked to anti-GAD65 autoimmunity and type 1 diabetes comorbidity. Insulin would treat the diabetes, not the neurological disease.
+- **Stiff person syndrome and focal stiff limb syndrome** (scores 0.9981): linked to anti-GAD65 autoimmunity and type 1 diabetes comorbidity. Insulin would treat the diabetes, not the neurological disease.
 - **Thiamine-responsive dysfunction syndrome and pancreatic agenesis**: insulin already manages the associated diabetes, so these are extensions of the existing indication rather than new uses.
 - **Localized lipodystrophies** (drug-induced, centrifugal, pressure-induced, idiopathic): injection-site lipodystrophy is a known adverse effect of subcutaneous insulin, so these predictions may reflect adverse-effect associations.
 - **Opsismodysplasia**: a theoretical link exists through INPPL1 (SHIP2), a regulator of insulin/PI3K signaling, but there is no evidence that exogenous insulin helps.
@@ -97,7 +97,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a knowledge-graph score, with no clinical trials or literature. The likely drivers are autoimmune comorbidity with type 1 diabetes and disease-similarity propagation, not a therapeutic mechanism of insulin.
+The prediction is supported only by a TxGNN model (deep learning) score, with no clinical trials or literature. The likely drivers are autoimmune comorbidity with type 1 diabetes and disease-similarity propagation, not a therapeutic mechanism of insulin.
 
 **To proceed, the following is needed:**
 - Retrieval of the package insert (warnings, contraindications, approved indication) from the HSA website

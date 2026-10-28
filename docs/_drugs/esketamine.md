@@ -4,17 +4,17 @@ title: Esketamine
 parent: Low Evidence (L5)
 nav_order: 400
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Esketamine: predicted new indication Agoraphobia (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Esketamine"
-predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy", "melancholia", "vitamin B12-responsive methylmalonic acidemia", "obsessive-compulsive disorder", "Keppen-Lubinsky syndrome", "insomnia (disease)", "congenital isolated adrenocorticotropic hormone deficiency (disease)", "autosomal dominant slowed nerve conduction velocity"]
+predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Esketamine: predicted new indication Agoraphobia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Esketamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Esketamine: From Anxiety Disorder to Agoraphobia
+## Esketamine: Agoraphobia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Esketamine is the S-enantiomer of ketamine, delivered as a nasal spray, and its original indications in the knowledge graph are anxiety disorder, neurotic disorder and dysthymic disorder.
 The TxGNN model's top-ranked prediction is **agoraphobia**, but this prediction has **0 clinical trials** and **0 publications** behind it.
-Better-supported alternatives among the other predictions are neurotic depression and melancholia (both L1), insomnia (L2) and obsessive-compulsive disorder (L3), described below.
 
 ---
 
@@ -48,12 +46,12 @@ Better-supported alternatives among the other predictions are neurotic depressio
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (knowledge-graph indications; the Singapore licence has no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Agoraphobia |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,19 +64,14 @@ The top prediction should therefore be treated as a model output only. The data 
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|
-| Agoraphobia | 99.57% | L5 | Hold |
-| Neurotic depression | 97.83% | L1 | Proceed with Guardrails |
-| Melancholia | 97.74% | L1 | Proceed with Guardrails |
-| Obsessive-compulsive disorder | 97.31% | L3 | Research Question |
-| Insomnia | 96.39% | L2 | Research Question |
+| Agoraphobia | 0.9957 | L5 | Hold |
 
 **Neurotic depression and melancholia.** Esketamine's NMDA antagonism and downstream glutamatergic and synaptic plasticity effects underlie its rapid antidepressant action in treatment-resistant depression (TRD). These two predictions largely overlap with depressive disorders for which esketamine is already approved elsewhere, so they are closer to on-label use than true repurposing. Evidence is not specific to the melancholic subtype.
 
-**Obsessive-compulsive disorder (OCD).** Glutamatergic dysfunction in cortico-striato-thalamo-cortical circuits provides a rationale, but the evidence is limited to a retrospective chart review, case reports and reviews.
 
 **Insomnia.** The evidence comes from perioperative settings, often combined with dexmedetomidine, not from primary insomnia disorder.
 
-Several other predictions (benign paroxysmal torticollis of infancy, vitamin B12-responsive methylmalonic acidemia, Keppen-Lubinsky syndrome, congenital isolated ACTH deficiency, autosomal dominant slowed nerve conduction velocity) have no evidence and no identifiable mechanistic basis. They are likely graph-model artifacts.
+Several other predictions (benign paroxysmal torticollis of infancy, vitamin B12-responsive methylmalonic acidemia, Keppen-Lubinsky syndrome, congenital isolated ACTH deficiency, autosomal dominant slowed nerve conduction velocity) have no evidence and no identifiable mechanistic basis.
 
 ---
 
@@ -102,7 +95,6 @@ For reference, the trials found for the next-best-supported predictions are:
 | [NCT06300944](https://clinicaltrials.gov/study/NCT06300944) | N/A | Completed | 100 | Low-dose ketamine on postoperative pain and sleep quality (related compound) |
 | [NCT07610343](https://clinicaltrials.gov/study/NCT07610343) | Phase 4 | Not yet recruiting | 60 | Intranasal dexmedetomidine-esketamine in older adults with mild-to-moderate cognitive impairment |
 
-**Obsessive-compulsive disorder (L3)**
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -127,7 +119,6 @@ For reference, key publications for the better-supported predictions:
 | [33726522](https://pubmed.ncbi.nlm.nih.gov/33726522/) | 2021 | Systematic review | Am J Psychiatry | International expert synthesis of ketamine and esketamine evidence in TRD |
 | [40319349](https://pubmed.ncbi.nlm.nih.gov/40319349/) | 2025 | Long-term extension | Int J Neuropsychopharmacol | Long-term safety and efficacy of esketamine in TRD |
 
-**Obsessive-compulsive disorder**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -171,7 +162,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold** (for the top-ranked prediction, agoraphobia)
 
 **Rationale:**
-Agoraphobia has a high model score but no trials or literature, so it is supported by prediction only. Within the same prediction list, neurotic depression and melancholia (both Proceed with Guardrails) are better-supported directions, though they largely overlap with depression indications esketamine already has elsewhere. OCD and insomnia are research questions.
+Agoraphobia has a high model score but no trials or literature, so it is supported by prediction only. Within the same prediction list, neurotic depression and melancholia (both Proceed with Guardrails) are better-supported directions, though they largely overlap with depression indications esketamine already has elsewhere.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and package insert warnings and contraindications (both currently missing)

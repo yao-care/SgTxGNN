@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Tislelizumab
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 997
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tislelizumab: predicted new indication Mixed-type autoimmune hemolytic anemia (evidence level L5). Approved use: Not stated in the HSA licence record (published sources describe use…"
+description: "Tislelizumab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Tislelizumab"
-predicted_indications: ["mixed-type autoimmune hemolytic anemia", "idiopathic aplastic anemia", "dermatitis", "paroxysmal nocturnal hemoglobinuria", "drug-induced autoimmune hemolytic anemia", "proteinuria", "acne keloid", "neonatal autoimmune hemolytic anemia", "primary CD59 deficiency", "amyopathic dermatomyositis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Tislelizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tislelizumab: From Advanced Solid Tumours to Mixed-Type Autoimmune Hemolytic Anemia
+## Tislelizumab
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Tislelizumab is an anti-PD-1 monoclonal antibody used in cancer immunotherapy, and the HSA licence record in the data compiled for this report does not list an approved indication text.
-The TxGNN model predicts it may be effective for **mixed-type autoimmune hemolytic anemia**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-This is a model-only prediction (Evidence Level L5), and the biology points the opposite way: PD-1 blockade is more likely to cause autoimmune hemolysis than to treat it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the HSA licence record (published sources describe use in Hodgkin lymphoma, bladder cancer, oesophageal squamous cell carcinoma and other cancers) |
-| Predicted New Indication | Mixed-type autoimmune hemolytic anemia |
-| TxGNN Prediction Score | 93.76% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data is not available in the compiled data. Based on known information, tislelizumab is a humanized IgG4 antibody that binds PD-1 (PDCD1, CD279) on T cells. It blocks the PD-1/PD-L1 pathway and reactivates anti-tumour immunity.
-
-The prediction is **not mechanistically convincing**. Autoimmune hemolytic anemia is driven by an overactive immune response against red blood cells. Enhancing T-cell activity through PD-1 blockade would be expected to worsen this condition, and immune checkpoint inhibitors are reported to cause autoimmune hemolytic anemia. The TxGNN score likely reflects network proximity in the knowledge graph (a disease-association link) rather than a true treatment signal.
-
-Other top-ranked predictions show the same pattern. These include idiopathic aplastic anemia, drug-induced autoimmune hemolytic anemia, neonatal autoimmune hemolytic anemia and amyopathic dermatomyositis. All are immune-mediated conditions that PD-1 blockade would more plausibly aggravate. Dermatitis and proteinuria, ranked third and sixth, appear in the literature only as adverse events of tislelizumab.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for mixed-type autoimmune hemolytic anemia.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ## Singapore Market Information
 
@@ -97,18 +73,6 @@ Manufacturer: Boehringer Ingelheim Biopharmaceuticals (China) Ltd. The single li
 
 Please refer to the package insert for full warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score alone, with no trials or publications. The mechanism of PD-1 blockade argues against benefit in autoimmune hemolytic anemia and for possible harm. None of the other top-ranked predictions has trial evidence either. The dermatitis and proteinuria literature documents adverse events, not therapeutic benefit.
-
-**To proceed, the following is needed:**
-- HSA package insert warnings, contraindications and approved indication text (a blocking gap for safety screening)
-- Detailed mechanism-of-action data from DrugBank
-- Preclinical or mechanistic evidence that PD-1 blockade could benefit autoimmune hemolytic anemia, which is currently contradicted by reported immune-mediated hemolysis
-- A review of reported cases of checkpoint-inhibitor-associated hemolysis to clarify the safety signal
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Drug Repurposing Reports
 nav_order: 1
-description: "AI-powered drug repurposing predictions for Singapore HSA-approved medications. 1,051 drugs with clinical trial and literature evidence validation. L1-L5 evidence classification."
+description: "AI-powered drug repurposing predictions for Singapore HSA-approved medications. 966 drugs with clinical trial and literature evidence validation. L1-L5 evidence classification."
 permalink: /
 image: /assets/images/og-default.png
 ---
@@ -10,7 +10,7 @@ image: /assets/images/og-default.png
 # Drug Repurposing: From Data to Evidence
 
 <p class="key-answer" data-question="What is SgTxGNN Drug Repurposing Reports?">
-<strong>SgTxGNN</strong> is a drug repurposing prediction platform based on Harvard's TxGNN model. We use AI to predict <strong>10,463</strong> drug repurposing candidates and provide evidence-based validation reports for <strong>1,051</strong> Singapore HSA-approved medications.
+<strong>SgTxGNN</strong> is a drug repurposing prediction platform based on Harvard's TxGNN model. We use AI to predict <strong>4,276</strong> drug repurposing candidates and provide evidence-based validation reports for <strong>966</strong> Singapore HSA-approved medications.
 </p>
 
 <div class="key-takeaway">
@@ -77,7 +77,7 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #FB8C00;">
     <strong style="font-size: 1.1rem;">Singapore HSA Coverage</strong><br>
-    <span style="color: #666;">Focused on HSA-registered medications covering 1,051 drugs and 10,463 predicted indications. Reports include Singapore license status.</span>
+    <span style="color: #666;">Focused on HSA-registered medications covering 966 drugs and 4,276 predicted indications. Reports include Singapore license status.</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
     <strong style="font-size: 1.1rem;">Known Uses Excluded</strong><br>
@@ -115,11 +115,11 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
 
 <div class="stats-grid">
   <div class="stat-card">
-    <div class="stat-number">1,051</div>
+    <div class="stat-number">966</div>
     <div class="stat-label">Drugs Analyzed</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">10,463</div>
+    <div class="stat-number">4,276</div>
     <div class="stat-label">Predicted New Indications</div>
   </div>
   <div class="stat-card">
@@ -146,7 +146,7 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
 | **High Evidence** | L1-L2, prioritize for evaluation | [View Drugs]({{ '/evidence-high' | relative_url }}) |
 | **Medium Evidence** | L3-L4, needs additional evidence | [View Drugs]({{ '/evidence-medium' | relative_url }}) |
 | **Predictions Only** | L5, research direction reference | [View Drugs]({{ '/evidence-low' | relative_url }}) |
-| **Full Drug List** | All 1,051 drugs (searchable) | [Drug List]({{ '/drugs' | relative_url }}) |
+| **Full Drug List** | All 966 drugs (searchable) | [Drug List]({{ '/drugs' | relative_url }}) |
 | **Methodology** | How predictions are made | [Methodology]({{ '/methodology' | relative_url }}) |
 | **Downloads** | CSV / JSON formats | [Downloads]({{ '/downloads' | relative_url }}) |
 

@@ -4,17 +4,17 @@ title: Phenylalanine
 parent: Low Evidence (L5)
 nav_order: 787
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the Singapore licence records (marketed in amino acid a…"
 monitor_inn: "Phenylalanine"
-predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency", "epiglottitis", "hypophosphatemic rickets", "obsolete hyperuricemia (disease)", "laryngitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "cholecystolithiasis", "diabetic nephropathy"]
+predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
+description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenylalanine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenylalanine: From Parenteral Nutrition Amino Acid to Sclerosing Cholangitis
+## Phenylalanine: Sclerosing cholangitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The prediction currently rests on the model alone.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records (marketed in amino acid and parenteral nutrition infusion products) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The only relevant literature is an observational study of plasma tyrosine and fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. It suggests aromatic amino acid metabolism is altered in cholestatic liver disease. This describes a disease-associated metabolic marker, not a therapeutic rationale. The other two papers (a cholangiocarcinoma serum metabolic signature and a bacterial peptide radioimmunoassay) do not address phenylalanine therapy.
 
-Other predicted indications are also weakly supported. These include congenital prothrombin deficiency, epiglottitis, hypophosphatemic rickets, laryngitis, cholecystolithiasis and diabetic nephropathy. For diabetic nephropathy, which has the most literature, elevated phenylalanine and altered phenylalanine/tyrosine metabolism are associated with worse outcomes. That signal points toward risk rather than benefit.
+Other predicted indications are also weakly supported. These include congenital prothrombin deficiency, epiglottitis, hypophosphatemic rickets, laryngitis, cholecystolithiasis and diabetic nephropathy. That signal points toward risk rather than benefit.
 
 ## Clinical Trial Evidence
 
@@ -104,7 +104,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials and no literature showing a therapeutic effect, so the evidence level is L5 (model prediction only). In diabetic nephropathy, the indication with the most literature, phenylalanine is associated with worse outcomes. Phenylalanine is also flagged in the knowledge graph as contraindicated in kidney disease, which may overlap with some of the predicted indications.
+The prediction has no clinical trials and no literature showing a therapeutic effect, so the evidence level is L5 (model prediction only). Phenylalanine is flagged in the knowledge graph as contraindicated in kidney disease, which may overlap with some of the predicted indications.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website, required before any safety screening

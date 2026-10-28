@@ -4,7 +4,7 @@ title: Salbutamol
 parent: Low Evidence (L5)
 nav_order: 893
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Asthma, bronchial disease"
 monitor_inn: "Salbutamol"
@@ -14,7 +14,7 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 # Salbutamol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Among the other top-ranked predictions, **obstructive lung disease** has the str
 |------|------|
 | Original Indication | Asthma, bronchial disease (approved indication text is not listed in the Singapore licence records) |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 17 |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ---
@@ -72,7 +72,7 @@ The table below shows how the other top-ranked predictions compare:
 | Anaphylaxis | L2 | Phase 3 RCT (NCT05653024) of inhaled salbutamol vs placebo, terminated with n=24; underpowered |
 | Bronchitis / bronchiolitis | L2 | Several trials and reviews; guidelines and meta-analyses generally do not support routine bronchodilator use in infants |
 | Common cold | L3 | One small double-blind RCT of cough in children (PMID 26859020) |
-| Atopic conjunctivitis | L4 | Preclinical animal data only |
+| Atopic conjunctivitis | L5 | Preclinical animal data only |
 | Nasal cavity disease, acute laryngopharyngitis, anorectal stricture | L5 | Prediction only |
 | Pharyngitis | L5 | Prediction only; retrieved papers do not evaluate salbutamol for this condition |
 

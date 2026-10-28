@@ -4,17 +4,17 @@ title: Topiramate
 parent: Low Evidence (L5)
 nav_order: 1006
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (generalized tonic-clonic seizures, partial epilepsy…"
 monitor_inn: "Topiramate"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Topiramate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Topiramate: From Epilepsy to Trigeminal Nerve Neoplasm
+## Topiramate: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (generalized tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome), per the knowledge-graph indication data. The Singapore licence records contain no indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 10 |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Topiramate is a broad-spectrum antiseizure drug. It is generally understood to act on voltage-gated sodium channels, enhance GABA-A activity, antagonize AMPA/kainate glutamate receptors and inhibit carbonic anhydrase. Its efficacy in epilepsy is well established.
 
-The link to a tumour of the trigeminal nerve is weak. These mechanisms control neuronal hyperexcitability and do not act against tumour growth. The high score is therefore probably a graph-based artefact. The model may be picking up network proximity between topiramate and trigeminal-related nodes, such as trigeminal neuralgia, rather than any anti-neoplastic activity.
+The link to a tumour of the trigeminal nerve is weak. These mechanisms control neuronal hyperexcitability and do not act against tumour growth.
 
 No plausible mechanistic link between topiramate and tumour control has been established in the data compiled for this report.
 
@@ -111,14 +111,13 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for trigeminal nerve neoplasm is supported only by a graph-based score. There are no trials or literature, and no mechanistic basis for anti-tumour activity. Topiramate is well established and widely registered in Singapore, but that does not support this indication.
+There are no trials or literature, and no mechanistic basis for anti-tumour activity. Topiramate is well established and widely registered in Singapore, but that does not support this indication.
 
-Other predictions for topiramate have more support. Trigeminal neuralgia (score 98.92%) is rated L2 with a recommendation of Proceed with Guardrails. Its evidence is a small randomized, placebo-controlled crossover pilot study and a meta-analysis against carbamazepine. The predicted seizure-related indications, such as audiogenic seizures and thinking seizures, are rated L3-L4. These may be better candidates for further evaluation.
+Other predictions for topiramate have more support. Its evidence is a small randomized, placebo-controlled crossover pilot study and a meta-analysis against carbamazepine. These may be better candidates for further evaluation.
 
 **To proceed, the following is needed:**
 - Mechanism of action (MOA) data
 - Evidence of anti-neoplastic activity of topiramate, for example preclinical studies in trigeminal nerve tumour models
-- Confirmation of whether the prediction reflects trigeminal neuralgia rather than a true neoplasm
 - Package insert warnings and contraindications from the HSA website, to complete safety screening
 - Route and formulation compatibility assessment for the proposed use
 ## Disclaimer

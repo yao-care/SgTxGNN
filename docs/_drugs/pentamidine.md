@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Pentamidine
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 775
-evidence_level: L5
-indication_count: 5
 last_modified_at: 2026-10-14
-description: "Pentamidine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Pneumocystosis, human African trypanosomiasis, trypanosomiasis"
+description: "Pentamidine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "pentamidine"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "exposure keratitis", "non-human animal disease", "congenital analbuminemia"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Pentamidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,46 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Pentamidine: From Pneumocystosis and Trypanosomiasis to Punctate Epithelial Keratoconjunctivitis
+## Pentamidine
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Pentamidine is an injectable antimicrobial originally used to treat pneumocystosis and human African trypanosomiasis.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pneumocystosis, human African trypanosomiasis, trypanosomiasis (the Singapore licence text for the approved indication is blank) |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Based on known information, pentamidine is an antimicrobial with antiprotozoal and antifungal activity. Its efficacy in pneumocystosis and trypanosomiasis is established, and a speculative link to punctate epithelial keratoconjunctivitis would be an anti-infective or anti-inflammatory effect on the ocular surface.
-
-This link is not supported by any trial or publication in the data compiled for this report. The high score (0.997) is a model prediction only.
-
-Other predictions with high scores are similarly unsupported:
-- **Neurotrophic keratopathy** (99.67%): driven by corneal nerve damage and impaired healing, which is not an established target of pentamidine.
-- **Exposure keratitis** (99.36%): mainly a mechanical and desiccation problem of the cornea, so any benefit would be speculative.
-- **Non-human animal disease** (99.13%): a non-specific ontology category, likely a knowledge-graph artifact.
-- **Congenital analbuminemia** (99.09%): a rare genetic disorder of albumin synthesis with no pharmacological rationale, likely a graph-based artifact.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ## Singapore Market Information
 
@@ -102,18 +74,6 @@ Currently no related literature available.
 
 Please refer to the package insert for label warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by the TxGNN model score. There are no clinical trials or publications, the mechanism is unknown, and the systemic safety signals (cardiac, glycaemic, renal) are a concern for any new use. The Singapore product is an injectable, and route compatibility with an ocular indication has not been assessed.
-
-**To proceed, the following is needed:**
-- The HSA package insert, to obtain warnings, contraindications and the approved indication (a blocking gap for safety screening)
-- Mechanism of action data (e.g. from DrugBank) to assess a mechanistic link to ocular surface disease
-- A literature and trial search specific to pentamidine in keratoconjunctivitis and related ocular conditions
-- An assessment of route and formulation feasibility (for example, whether a topical ocular preparation is even plausible), together with systemic exposure and toxicity considerations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

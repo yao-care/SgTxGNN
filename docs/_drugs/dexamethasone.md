@@ -6,9 +6,9 @@ nav_order: 319
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dexamethasone: predicted new indication Alopecia areata (evidence level L2). Approved use: Adrenocortical insufficiency…"
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Dexamethasone
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Dexamethasone: From Adrenocortical Insufficiency and Inflammatory Conditions to Alopecia Areata
+## Dexamethasone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ with **0 registered clinical trials** and **20 publications** (including **1 ran
 
 | Item | Content |
 |------|------|
-| Original Indication | Adrenocortical insufficiency, Crohn disease and inflammatory bowel disease, acute lymphoblastic leukaemia, congenital adrenal hyperplasia, and others (from the knowledge graph; Singapore licence indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -97,7 +97,7 @@ A total of 20 valid single-ingredient licences exist, covering tablets, elixir, 
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: hypertension, epilepsy, hyperglycaemia, congestive heart failure, herpes simplex virus keratitis, measles, urea cycle disorders (carbamoyl phosphate synthetase I deficiency, citrullinemia, hyperargininemia), and pituitary hormone deficiency conditions (including hypopituitarism and growth hormone deficiency).
+- **Contraindications (TxGNN model (deep learning) output, not label text; may reflect similarities the model learned between related diseases, not biological evidence)**: hypertension, epilepsy, hyperglycaemia, congestive heart failure, herpes simplex virus keratitis, measles, urea cycle disorders (carbamoyl phosphate synthetase I deficiency, citrullinemia, hyperargininemia), and pituitary hormone deficiency conditions (including hypopituitarism and growth hormone deficiency).
 - **Drug Interactions**: 100 interactions were recorded. Major interactions include **fentanyl** and **adalimumab**. Moderate interactions include paclitaxel, abemaciclib, acalabrutinib, ibuprofen, ketorolac, nifedipine, acetazolamide, acarbose, isotretinoin and zidovudine.
 - **Related safety literature**: Reviews of pulse corticosteroid therapy in children describe associated side effects; dosing and monitoring should follow these sources.
 

@@ -5,10 +5,10 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1052
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not stated in the Singapore registration data. The products are amino…"
+last_modified_at: 2026-10-28
 monitor_inn: "Valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
+description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Valine
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Valine: From Parenteral Nutrition Amino Acid Component to Sclerosing Cholangitis
+## Valine: Sclerosing cholangitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This is a research question, not a therapeutic candidate.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data. The products are amino acid and parenteral nutrition formulations. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 In chronic cholestatic liver disease, amino acid metabolism is altered, including imbalances between branched-chain and aromatic amino acids. These changes may relate to fatigue and hepatic metabolic dysfunction. The retrieved literature shows a metabolic association between amino acids and primary biliary cirrhosis/primary sclerosing cholangitis. It does not show that giving valine treats the disease.
 
-The TxGNN score is high, but it is a graph-based prediction. The supporting papers describe associations, not therapeutic effects of valine supplementation.
+The TxGNN score is high, but it comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The supporting papers describe associations, not therapeutic effects of valine supplementation.
 
 ## Clinical Trial Evidence
 
@@ -95,10 +95,10 @@ Please refer to the package insert for safety information.
 
 None of the other top predictions has real therapeutic support:
 
-- **Hyperthyroidism (99.32%)**: Observational studies link BCAAs, including valine, to thyroid function and metabolism. Many other retrieved papers concern thyroid-stimulating hormone receptor mutations that substitute a valine residue in the protein. These are name-matching artifacts, not evidence for valine as a drug. Hold.
-- **Resistance to thyroid hormone (99.21%) and hyperthyroxinemia (99.07%)**: All retrieved papers are genetic reports of receptor mutations with valine residue substitutions. Supplementation cannot correct a genetic cause. Hold.
-- **Angle-closure, traumatic and neovascular glaucoma, glaucomatous optic disc atrophy, and aqueous misdirection (99.23% to 99.39%)**: No relevant evidence or plausible mechanism. The one paper retrieved, a pedigree report on angle-closure glaucoma, does not involve valine. The scores likely reflect network proximity to other glaucoma terms. Hold.
-- **Obsolete bundle branch block (99.19%)**: An obsolete ontology term, not a valid repurposing target. Hold.
+- **Hyperthyroidism (0.9932)**: Observational studies link BCAAs, including valine, to thyroid function and metabolism. Many other retrieved papers concern thyroid-stimulating hormone receptor mutations that substitute a valine residue in the protein. These are name-matching artifacts, not evidence for valine as a drug. Hold.
+- **Resistance to thyroid hormone (0.9921) and hyperthyroxinemia (0.9907)**: All retrieved papers are genetic reports of receptor mutations with valine residue substitutions. Supplementation cannot correct a genetic cause. Hold.
+- **Angle-closure, traumatic and neovascular glaucoma, glaucomatous optic disc atrophy, and aqueous misdirection (0.9923 to 0.9940)**: No relevant evidence or plausible mechanism. The one paper retrieved, a pedigree report on angle-closure glaucoma, does not involve valine. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related glaucoma diseases, not biological evidence. Hold.
+- **Obsolete bundle branch block (0.9919)**: An obsolete ontology term, not a valid repurposing target. Hold.
 
 ## Conclusion and Next Steps
 

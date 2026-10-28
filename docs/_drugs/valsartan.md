@@ -4,17 +4,17 @@ title: Valsartan
 parent: Medium Evidence (L3-L4)
 nav_order: 1054
 evidence_level: L4
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Valsartan"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ but **no clinical trials** and only **1 indirect publication** (a preclinical st
 |------|------|
 | Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -112,7 +112,7 @@ Please also refer to the package insert for the full warnings and contraindicati
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.97%), and blocking the renin-angiotensin system is biologically sensible for malignant hypertensive kidney injury. However, no clinical trials exist, and the only retrieved paper tests a different drug in animals. Evidence is limited to L4 (mechanistic and preclinical). Valsartan's kidney-related cautions also require a safety evaluation.
+The TxGNN score is very high (0.9997), and blocking the renin-angiotensin system is biologically sensible for malignant hypertensive kidney injury. However, no clinical trials exist, and the only retrieved paper tests a different drug in animals. Evidence is limited to L4 (mechanistic and preclinical). Valsartan's kidney-related cautions also require a safety evaluation.
 
 **To proceed, the following is needed:**
 - Valsartan-specific preclinical or clinical data in malignant hypertensive nephropathy

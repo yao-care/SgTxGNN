@@ -4,7 +4,7 @@ title: Alglucosidase Alfa
 parent: Low Evidence (L5)
 nav_order: 64
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Alglucosidase Alfa: predicted new indication Adult polyglucosan body disease (evidence level L5). Approved use: Glycogen storage disease"
 monitor_inn: "Alglucosidase alfa"
@@ -14,7 +14,7 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 # Alglucosidase Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Glycogen storage disease (the Singapore registration lists no indication text) |
 | Predicted New Indication | Adult polyglucosan body disease |
-| TxGNN Prediction Score | 99.47% |
+| TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,9 +64,9 @@ However, the mechanistic support is weak, for two reasons:
 - The enzyme acts on lysosomal glycosidic bonds. It is not clear that it can reach cytosolic polyglucosan or degrade this abnormal structure.
 - APBD is a neurological disease, and the recombinant enzyme has limited blood-brain barrier penetration.
 
-The high TxGNN score (0.995) is therefore best read as a signal from the shared "glycogen storage disease" category, not as proof of a specific mechanism.
+The high TxGNN score (0.9947) is therefore best read as a signal from the shared "glycogen storage disease" category, not as proof of a specific mechanism.
 
-**Other predictions in the top 10:** Two further predictions, congenital and fatal perinatal forms of glycogen storage disease type IV (branching enzyme deficiency), have scores of 99.32% and the same indirect rationale. The remaining seven predictions (congenital entropion, congenital ectropion, congenital Horner syndrome, ptosis-vocal cord paralysis syndrome, camptodactyly-myopia-medial rectus fibrosis syndrome, epiblepharon, and ptosis-strabismus-ectopic pupils syndrome) are structural or developmental eye and neuromuscular conditions with no plausible link to glycogen metabolism. They are most likely artifacts of the knowledge graph. All ten have evidence level L5 and no supporting trials or literature.
+**Other predictions in the top 10:** Seven further predictions (congenital entropion, congenital ectropion, congenital Horner syndrome, ptosis-vocal cord paralysis syndrome, camptodactyly-myopia-medial rectus fibrosis syndrome, epiblepharon, and ptosis-strabismus-ectopic pupils syndrome) are structural or developmental eye and neuromuscular conditions with no plausible link to glycogen metabolism. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. All of them have evidence level L5 and no supporting trials or literature.
 
 ## Clinical Trial Evidence
 

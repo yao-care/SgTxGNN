@@ -4,17 +4,17 @@ title: Alverine
 parent: Low Evidence (L5)
 nav_order: 74
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Alverine: predicted new indication Dysthymic disorder (evidence level L5). Approved use: Not stated in the Singapore licence records. Reference sources descri…"
 monitor_inn: "Alverine"
-predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)", "migraine with brainstem aura"]
+predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
 ---
 
 # Alverine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,23 +46,23 @@ Alverine is a smooth muscle relaxant used in some countries for gastrointestinal
 |------|------|
 | Original Indication | Not stated in the Singapore licence records. Reference sources describe symptomatic relief of gastrointestinal smooth muscle spasm and cramps associated with dysmenorrhoea. |
 | Predicted New Indication | Dysthymic disorder |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Based on the information compiled for this report, alverine is a synthetic smooth muscle relaxant with reported 5-HT1A receptor antagonist activity. Its pharmacology record also lists an interaction with the HNF4A transcription factor, but this has no clear link to mood disorders.
 
-The serotonin system plays a recognised role in mood and anxiety disorders, so a link between alverine and dysthymia is plausible. However, no direct evidence supports it. The prediction rests on the model's graph-based inference alone.
+The serotonin system plays a recognised role in mood and anxiety disorders, so a link between alverine and dysthymia is plausible. However, no direct evidence supports it. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predicted indications are mostly in the same mood and anxiety group, which gives the signal some internal consistency:
 
 - **Anxiety disorder (rank 3):** A 2014 mouse study reported anxiolytic-like effects of alverine citrate, consistent with 5-HT1A antagonism (L4).
 - **Neurotic depression and melancholia (ranks 5 and 6):** A 2018 network-based repositioning study nominated alverine as a potential antidepressant candidate (L4).
-- **Other predictions:** Migraine, infantile torticollis and congenital ACTH deficiency have no supporting evidence. The ACTH deficiency prediction is likely a graph artifact.
+- **Other predictions:** Migraine, infantile torticollis and congenital ACTH deficiency have no supporting evidence. The ACTH deficiency score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -97,7 +97,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for dysthymic disorder is supported only by a high model score (99.83%), with no trials or literature for this indication. The related evidence is limited to one mouse study and one computational study, so the indication stays at L5. The safety package is also incomplete, because package insert warnings and contraindications are unavailable.
+The prediction for dysthymic disorder is supported only by a high model score (0.9983), with no trials or literature for this indication. The related evidence is limited to one mouse study and one computational study, so the indication stays at L5. The safety package is also incomplete, because package insert warnings and contraindications are unavailable.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA, which is a blocking gap for safety screening

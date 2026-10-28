@@ -4,17 +4,17 @@ title: Leflunomide
 parent: Low Evidence (L5)
 nav_order: 584
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Leflunomide: predicted new indication Plasma cell myeloma (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Leflunomide"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "indolent plasma cell myeloma", "plasma cell myeloma", "myeloid leukemia", "Meester-Loeys syndrome", "ganglioneuroblastoma (disease)", "WHIM syndrome", "scalp dermatosis", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Leflunomide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,16 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Leflunomide: From Rheumatoid Arthritis to Plasma Cell Myeloma
+## Leflunomide: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Leflunomide is an oral immunomodulatory drug originally used for **rheumatoid arthritis** and **psoriatic arthritis**.
-The TxGNN model predicts it may be effective for **plasma cell myeloma (multiple myeloma)**, supported by **5 clinical trials** (1 completed Phase 1/2, no randomised trials) and several preclinical and early clinical publications.
 The evidence is early-stage, and efficacy has not yet been shown in controlled trials.
 
-> **Note on candidate selection:** The two highest-scoring predictions (brachydactyly-syndactyly syndrome and colobomatous microphthalmia-rhizomelic dysplasia syndrome, both about 99.9%) have no trials, no literature and no plausible mechanism. Leflunomide is also known to be teratogenic, which argues against use in congenital conditions. This report therefore focuses on plasma cell myeloma, the highest-ranked prediction with direct clinical evidence.
+Leflunomide is also known to be teratogenic, which argues against use in congenital conditions.
 
 ---
 
@@ -50,12 +49,12 @@ The evidence is early-stage, and efficacy has not yet been shown in controlled t
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis; psoriatic arthritis (from the knowledge-graph indication record, because Singapore registration entries list no indication text) |
-| Predicted New Indication | Plasma cell myeloma |
-| TxGNN Prediction Score | 95.16% |
-| Evidence Level | L2 (provisional; only early-phase trials exist, no completed Phase 2/3 RCT) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 (provisional; only early-phase trials exist, no completed Phase 2/3 RCT) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -66,7 +65,7 @@ Detailed mechanism-of-action data were not available in the compiled drug record
 
 Myeloma cells are rapidly dividing plasma cells with a high demand for nucleotides. Laboratory studies show that DHODH is expressed in myeloma cell lines and primary myeloma cells, and that blocking it causes apoptosis and reduced proliferation. Teriflunomide also lowers c-Myc expression by targeting PIM kinases. In a mouse model, leflunomide combined with lenalidomide extended survival. Other work suggests a mitochondria-independent cytotoxic effect and a possible link to mitochondrial fusion pathways.
 
-Both rheumatoid arthritis and myeloma involve over-active immune-lineage cells, so the same pyrimidine-depletion mechanism could apply. A Phase 1 study in relapsed/refractory myeloma supports feasibility in humans. The related prediction for **indolent (smoldering) plasma cell myeloma** (score 95.5%) is supported only indirectly, through trials matched to the broader disease term.
+Both rheumatoid arthritis and myeloma involve over-active immune-lineage cells, so the same pyrimidine-depletion mechanism could apply. A Phase 1 study in relapsed/refractory myeloma supports feasibility in humans.
 
 ---
 

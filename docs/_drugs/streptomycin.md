@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 |------|------|
 | Original Indication | Pulmonary tuberculosis, plague, tularemia, brucellosis and other bacterial infections (the Singapore licence has no indication text on file) |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -136,15 +136,15 @@ All have an evidence level of L4 or L5 and a recommendation of Hold.
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |---|---|---|---|---|
-| 2 | Postinfectious vasculitis | 99.86% | L5 | No studies; no clear mechanistic rationale |
-| 3 | Post-bacterial disorder | 99.86% | L5 | No studies; non-specific category |
-| 4 | Post-infectious syndrome | 99.85% | L5 | No studies; persists after pathogen clearance |
-| 5 | Infective urethral stricture | 99.85% | L4 | Only old genitourinary tuberculosis reports (1964, 1976) |
-| 6 | Otitis externa | 99.85% | L4 | Only 1947-era human reports plus veterinary and in vitro work; ototoxicity concern |
-| 7 | Chagas cardiomyopathy | 99.83% | L5 | No studies; no antiparasitic activity |
-| 8 | Infection-related hemolytic uremic syndrome | 99.82% | L5 | Antibiotics are generally avoided; nephrotoxicity concern |
-| 9 | Lyme disease | 99.66% | L4 | Literature mostly on resistance mechanisms; standard therapy is safer |
-| 10 | Infectious otitis interna | 99.65% | L5 | Literature signals toxicity (vestibulotoxic and cochleotoxic); not supported |
+| 2 | Postinfectious vasculitis | 0.9986 | L5 | No studies; no clear mechanistic rationale |
+| 3 | Post-bacterial disorder | 0.9986 | L5 | No studies; non-specific category |
+| 4 | Post-infectious syndrome | 0.9985 | L5 | No studies; persists after pathogen clearance |
+| 5 | Infective urethral stricture | 0.9985 | L5 | Only old genitourinary tuberculosis reports (1964, 1976) |
+| 6 | Otitis externa | 0.9985 | L5 | Only 1947-era human reports plus veterinary and in vitro work; ototoxicity concern |
+| 7 | Chagas cardiomyopathy | 0.9983 | L5 | No studies; no antiparasitic activity |
+| 8 | Infection-related hemolytic uremic syndrome | 0.9982 | L5 | Antibiotics are generally avoided; nephrotoxicity concern |
+| 9 | Lyme disease | 0.9966 | L4 | Literature mostly on resistance mechanisms; standard therapy is safer |
+| 10 | Infectious otitis interna | 0.9965 | L5 | Literature signals toxicity (vestibulotoxic and cochleotoxic); not supported |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

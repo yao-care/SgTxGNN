@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Resorcinol
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 862
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Resorcinol: predicted new indication Acne keloid (evidence level L4). Approved use: Acne, dermatitis, acneiform dermatitis"
 monitor_inn: "Resorcinol"
-predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "rheumatoid vasculitis", "hypermobility of coccyx", "polyarticular juvenile rheumatoid arthritis", "ankylosing spondylitis"]
+predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
+description: "Resorcinol: predicted new indication Acne keloid (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Resorcinol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Resorcinol: From Acne and Dermatitis to Acne Keloid
+## Resorcinol: Acne keloid
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **acne keloid** (acne keloidali
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne, dermatitis, acneiform dermatitis (from the knowledge graph; the Singapore licences list no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne keloid |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -95,7 +95,7 @@ Package insert warnings and contraindications have not been obtained. Please ref
 **Decision: Hold**
 
 **Rationale:**
-The prediction score for acne keloid is very high (99.83%), but no clinical trials or publications support it. The mechanistic link is indirect and inferred from the acne indication. The knowledge graph also flags many contraindication signals, and the package insert safety data are missing. This makes it a research question rather than a candidate ready to move forward.
+The prediction score for acne keloid is very high (0.9983), but no clinical trials or publications support it. The mechanistic link is indirect and inferred from the acne indication. The knowledge graph also flags many contraindication signals, and the package insert safety data are missing. This makes it a research question rather than a candidate ready to move forward.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)

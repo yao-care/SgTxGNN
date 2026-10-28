@@ -4,17 +4,17 @@ title: Iloprost
 parent: Low Evidence (L5)
 nav_order: 520
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Iloprost: predicted new indication Top-ranked: hypotrichosis simplex of the scalp. Best-supported: PAH a… (evidence level L5). Approved use: Pulmonary arterial hypertension"
 monitor_inn: "Iloprost"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata", "alopecia"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
 ---
 
 # Iloprost
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Iloprost: From Pulmonary Arterial Hypertension to Pulmonary Arterial Hypertension Associated with Congenital Heart Disease
+## Iloprost: From Pulmonary Arterial Hypertension to Hypotrichosis Simplex of the Scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -51,10 +51,10 @@ Note: the top-scoring prediction (rank 1) has no trials or literature. This repo
 |------|------|
 | Original Indication | Pulmonary arterial hypertension (the Singapore licence has no approved indication text on file) |
 | Predicted New Indication | Top-ranked: hypotrichosis simplex of the scalp. Best-supported: PAH associated with congenital heart disease |
-| TxGNN Prediction Score | 99.45% (hypotrichosis simplex of the scalp); 99.32% (PAH associated with congenital heart disease) |
+| TxGNN Prediction Score | 0.9945 (hypotrichosis simplex of the scalp) |
 | Evidence Level | L5 (hypotrichosis simplex of the scalp); L3 (PAH associated with congenital heart disease) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1 prediction); Proceed with Guardrails as a research question (PAH-CHD) |
 
 ---
@@ -63,7 +63,7 @@ Note: the top-scoring prediction (rank 1) has no trials or literature. This repo
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, iloprost is a prostacyclin analogue that activates IP receptors, producing vasodilation and inhibiting platelet aggregation and vascular smooth muscle proliferation.
 
-**Top-ranked prediction (hypotrichosis simplex of the scalp):** The link is only speculative. A possible route is improved perifollicular blood flow, but hypotrichosis simplex is a genetic disorder not expected to respond to vasodilation. The high score likely reflects network proximity in the knowledge graph rather than a real pharmacological relationship. No trials or literature support it.
+**Top-ranked prediction (hypotrichosis simplex of the scalp):** The link is only speculative. A possible route is improved perifollicular blood flow, but hypotrichosis simplex is a genetic disorder not expected to respond to vasodilation. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature support it.
 
 **PAH associated with congenital heart disease (PAH-CHD):** This is a subgroup of the approved indication. Iloprost acts on the same pulmonary vascular pathway, so the mechanistic link is strong. The supporting evidence is observational and small-scale (case series, biomarker studies, paediatric acute-response studies). No randomised trial in this subgroup is evident.
 

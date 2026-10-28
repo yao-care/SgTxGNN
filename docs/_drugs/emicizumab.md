@@ -6,9 +6,9 @@ nav_order: 370
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Emicizumab: predicted new indication Acquired coagulation factor deficiency (evidence level L5). Approved use: Hemophilia"
 monitor_inn: "Emicizumab"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
+description: "Emicizumab: predicted new indication Pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Emicizumab
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Emicizumab: From Hemophilia to Acquired Coagulation Factor Deficiency (Acquired Hemophilia A)
+## Emicizumab: Pseudo-von Willebrand disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Emicizumab is a bispecific antibody originally used to treat hemophilia (hemophi
 
 | Item | Content |
 |------|------|
-| Original Indication | Hemophilia; symptomatic form of hemophilia in female carriers (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Acquired coagulation factor deficiency (best interpreted as acquired hemophilia A) |
-| TxGNN Prediction Score | 99.91% (the top-ranked prediction, pseudo-von Willebrand disease, scored 99.99% but has no supporting evidence and no mechanistic rationale) |
-| Evidence Level | L1 (see note in the conclusion) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pseudo-von Willebrand disease |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 (see note in the conclusion) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 > Note: The report focuses on the 5th-ranked prediction, acquired coagulation factor deficiency, because it is the only one of the 10 predictions with substantial evidence and a plausible mechanism. The other nine predictions are summarised at the end of the report.
@@ -141,15 +141,14 @@ The other nine predictions are not supported and should be held.
 
 | Predicted Indication | Score | Reason |
 |------|------|------|
-| Pseudo-von Willebrand disease | 99.99% | Platelet disorder; no mechanistic link; no evidence |
-| Primary release disorder of platelets | 99.99% | Platelet secretion defect; no mechanistic link |
-| Glanzmann thrombasthenia | 99.98% | Platelet aggregation defect; the only article concerns a different drug (rFVIIa); likely a graph artefact |
-| Scott syndrome | 99.92% | Impaired phosphatidylserine exposure may limit emicizumab's action |
-| Bleeding diathesis due to a collagen receptor defect | 99.86% | Primary haemostasis defect, unrelated to the target step |
-| Hemorrhagic disorder due to constitutional thrombocytopenia | 99.85% | Does not correct platelet number |
-| Thrombotic thrombocytopenic purpura | 99.61% | Prothrombotic condition; mechanistically a safety concern |
-| Fetal and neonatal alloimmune thrombocytopenia | 99.52% | Different pathway |
-| "Flood factor deficiency" | 99.40% | Ambiguous name, possibly a data-entry error |
+| Pseudo-von Willebrand disease | 0.9999 | Platelet disorder; no mechanistic link; no evidence |
+| Primary release disorder of platelets | 0.9999 | Platelet secretion defect; no mechanistic link |
+| Scott syndrome | 0.9992 | Impaired phosphatidylserine exposure may limit emicizumab's action |
+| Bleeding diathesis due to a collagen receptor defect | 0.9986 | Primary haemostasis defect, unrelated to the target step |
+| Hemorrhagic disorder due to constitutional thrombocytopenia | 0.9985 | Does not correct platelet number |
+| Thrombotic thrombocytopenic purpura | 0.9961 | Prothrombotic condition; mechanistically a safety concern |
+| Fetal and neonatal alloimmune thrombocytopenia | 0.9952 | Different pathway |
+| "Flood factor deficiency" | 0.9940 | Ambiguous name, possibly a data-entry error |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Verteporfin
 parent: Low Evidence (L5)
 nav_order: 1064
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Verteporfin: predicted new indication Mitochondrial oxidative phosphorylation disorder due to nuclear DNA a… (evidence level L5). Approved use: Macular degeneration"
 monitor_inn: "Verteporfin"
-predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices with bleeding", "esophageal varices without bleeding", "exocrine pancreatic insufficiency", "varicose disease", "MRCS syndrome", "pigmented paravenous retinochoroidal atrophy", "familial flecked retinopathy", "ectopia lentis-chorioretinal dystrophy-myopia syndrome", "retinal dystrophy in systemic or cerebroretinal lipidoses"]
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
+description: "Verteporfin: predicted new indication Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Verteporfin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Verteporfin: From Macular Degeneration to Mitochondrial Oxidative Phosphorylation Disorder Due to Nuclear DNA Anomalies
+## Verteporfin: Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Macular degeneration (the Singapore licence has no indication text on file) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,15 +64,6 @@ Other predicted indications were also reviewed. All are at L4–L5 and remain on
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |------|------|------|------|------|
-| 2 | Esophageal varices with bleeding | 98.86% | L5 | Prediction only. Photodynamic vascular occlusion could raise bleeding risk in portal hypertension. |
-| 3 | Esophageal varices without bleeding | 98.86% | L5 | Same score as rank 2, likely a near-duplicate node. |
-| 4 | Exocrine pancreatic insufficiency | 98.57% | L4 | One preclinical paper on YAP and pancreatic fibrosis (indirect). |
-| 5 | Varicose disease | 97.06% | L5 | Prediction only. |
-| 6 | MRCS syndrome | 96.16% | L5 | Prediction only. |
-| 7 | Pigmented paravenous retinochoroidal atrophy | 96.06% | L5 | Ocular, but not a neovascular condition. |
-| 8 | Familial flecked retinopathy | 95.08% | L5 | Loose contextual fit only. |
-| 9 | Ectopia lentis-chorioretinal dystrophy-myopia syndrome | 94.83% | L5 | No identifiable mechanism. |
-| 10 | Retinal dystrophy in systemic or cerebroretinal lipidoses | 94.56% | L4 | One general review of ocular photodynamic therapy. |
 
 ## Clinical Trial Evidence
 
@@ -116,7 +107,6 @@ The prediction for mitochondrial oxidative phosphorylation disorder is supported
 - Package insert warnings and contraindications from the Health Sciences Authority (HSA), which are required before any safety screening
 - Verteporfin mechanism of action data (for example from DrugBank)
 - Mechanistic or preclinical evidence linking verteporfin to nuclear-DNA-related oxidative phosphorylation defects
-- Full-text review of PMID 39818090 if exocrine pancreatic insufficiency is pursued as an alternative candidate
 - Safety assessment of the KG-listed contraindications (porphyria, liver and gallbladder disease) in any new patient population
 ## Disclaimer
 

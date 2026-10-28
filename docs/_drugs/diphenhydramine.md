@@ -4,17 +4,17 @@ title: Diphenhydramine
 parent: Low Evidence (L5)
 nav_order: 337
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Diphenhydramine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Insomnia, vasomotor rhinitis, allergic rhinitis, atopic…"
 monitor_inn: "Diphenhydramine"
-predicted_indications: ["rosacea conjunctivitis", "cauda equina syndrome", "nasopharyngitis", "viral conjunctivitis", "neuralgia", "trigeminal autonomic cephalalgia", "glossodynia"]
+predicted_indications: ["rosacea conjunctivitis"]
+description: "Diphenhydramine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Diphenhydramine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Diphenhydramine: From Allergic Rhinitis and Insomnia to Rosacea Conjunctivitis
+## Diphenhydramine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The better-supported candidates in the list are rhinitis (an on-label or near-la
 
 | Item | Content |
 |------|------|
-| Original Indication | Insomnia, vasomotor rhinitis, allergic rhinitis, atopic, papillary and vernal conjunctivitis (the registration records compiled for this report contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.20% |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 14 |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 **Note:** The top-ranked prediction has no supporting evidence. Among the 10 predictions, rhinitis has the strongest evidence (Level L1, Proceed with Guardrails), but it largely overlaps with an existing indication. It is covered in the sections below as the most actionable direction.
@@ -65,8 +65,6 @@ The model's high score for rosacea conjunctivitis probably reflects its similari
 For the other predictions:
 - **Rhinitis:** H1 blockade reduces sneezing, rhinorrhoea and itching. This is effectively an existing use rather than true repurposing.
 - **Allergic urticaria and cold urticaria:** Histamine release from mast cells drives wheals and itch, so H1 blockade is plausible. Newer-generation antihistamines are preferred first-line for safety reasons.
-- **Cauda equina syndrome, viral conjunctivitis, glossodynia:** No plausible mechanistic link, or only speculative; these look like graph artefacts.
-- **Neuralgia, trigeminal autonomic cephalalgia, nasopharyngitis:** Indirect or historical evidence only.
 
 ## Clinical Trial Evidence
 
@@ -120,13 +118,13 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold** (for the top-ranked prediction, rosacea conjunctivitis)
 
 **Rationale:**
-The model score is high (99.20%), but there are no trials or publications, and the mechanism (meibomian gland dysfunction and inflammation) is not histamine-driven. The evidence level is L5.
+The model score is high (0.9920), but there are no trials or publications, and the mechanism (meibomian gland dysfunction and inflammation) is not histamine-driven. The evidence level is L5.
 
 **Other candidates:**
 - **Rhinitis:** Level L1, Proceed with Guardrails. It is effectively an existing indication, so it is not a true repurposing opportunity. Guardrails are sedation, anticholinergic effects and cognitive impairment, plus DDI caution.
 - **Allergic urticaria:** Research question (L4). The only Phase 3 trial tests IV cetirizine, not diphenhydramine.
-- **Cold urticaria, nasopharyngitis, neuralgia, trigeminal autonomic cephalalgia:** Hold. Evidence is indirect, historical or case-level.
-- **Cauda equina syndrome, viral conjunctivitis, glossodynia:** Hold. No plausible link or no evidence.
+- Evidence is indirect, historical or case-level.
+- No plausible link or no evidence.
 
 **To proceed, the following is needed:**
 - Singapore package insert warnings, contraindications and approved indication text (a blocking gap for safety screening)

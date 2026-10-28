@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroxyurea
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 511
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L4). Approved use: Melanoma, sickle cell anaemia, ovarian cancer"
 monitor_inn: "Hydroxyurea"
-predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
+predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
 ---
 
 # Hydroxyurea
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The prediction is therefore supported mainly by the computational score rather t
 |------|------|
 | Original Indication | Melanoma, sickle cell anaemia, ovarian cancer (the Singapore licence has no indication text recorded) |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -117,7 +117,7 @@ For authoritative details, please refer to the package insert warnings and preca
 
 ## Safety Considerations
 
-- **Contraindication-linked conditions (knowledge-graph association, not label text)**: kidney disease, pyoureter, thrombocytopenia, anaemia, macrocytic anaemia, leukopenia, cutaneous vasculitis.
+- **Contraindication-linked conditions (not label text)**: kidney disease, pyoureter, thrombocytopenia, anaemia, macrocytic anaemia, leukopenia, cutaneous vasculitis.
 - **Drug Interactions**: 100 potential interactions were identified. Levofloxacin is the one with a graded level (Minor). Others, such as doxycycline, amphotericin B, hydrocortisone, famotidine, acetylsalicylic acid, pantoprazole, metformin, omeprazole, morphine and simvastatin, have no severity grade assigned.
 
 Please refer to the package insert for label warnings and contraindications.

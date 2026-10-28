@@ -4,17 +4,17 @@ title: Piribedil
 parent: Low Evidence (L5)
 nav_order: 800
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Piribedil: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Parkinson disease / parkinsonian disorder"
 monitor_inn: "Piribedil"
-predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "PLA2G6-associated neurodegeneration", "lethal infantile mitochondrial myopathy", "myopia 26, X-linked, female-limited", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "atypical glycine encephalopathy"]
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "PLA2G6-associated neurodegeneration"]
+description: "Piribedil: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Piribedil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Piribedil: From Parkinson Disease to Retinal Dystrophy with or without Extraocular Anomalies
+## Piribedil: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **1 publication** (which does 
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease / parkinsonian disorder |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +63,6 @@ Dopamine does play a role in normal retinal physiology. However, no link has bee
 Other top-ranked predictions are of mixed plausibility:
 - **Plausible (symptomatic dopaminergic therapy):** juvenile parkinsonism (Hunt type), juvenile-onset Parkinson disease 19A (flagged as a research question), and PLA2G6-associated neurodegeneration. None has trials or literature specific to piribedil, and these predictions largely reflect similarity to the existing indication.
 - **Weak rationale:** X-linked myopia (two forms), where dopamine modulates eye growth, but the genetic cause and the need for systemic dosing make benefit unlikely.
-- **No identified rationale:** perisylvian polymicrogyria, lethal infantile mitochondrial myopathy, congenital disorder of glycosylation with defective fucosylation, and atypical glycine encephalopathy.
 
 ## Clinical Trial Evidence
 

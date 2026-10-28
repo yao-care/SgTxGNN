@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Guaifenesin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 493
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Guaifenesin"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis", "tracheal disease", "trigeminal autonomic cephalalgia", "anorectal stricture", "anal polyp", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Guaifenesin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Guaifenesin: From Upper Respiratory Tract Conditions (Rhinitis, Common Cold) to Nasal Cavity Disease
+## Guaifenesin: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and only **1 publication** (a narr
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (from the knowledge graph; Singapore licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 18 |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -109,15 +109,9 @@ The prediction score is high, but the evidence is limited to a single narrative 
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Acute laryngopharyngitis | 99.98% | L5 | Driven by similarity to existing indications; no studies supplied |
-| 3 | Faucial diphtheria | 99.54% | L5 | No plausible mechanism; likely a false positive |
-| 4 | Cervical disc degenerative disorder | 99.50% | L5 | No plausible mechanism; likely a model artifact |
-| 5 | Papillary conjunctivitis | 99.27% | L5 | No known anti-allergic mechanism |
-| 6 | Tracheal disease | 98.83% | L3 | In vitro data on MUC5AC and mucociliary transport ([PMID 23113953](https://pubmed.ncbi.nlm.nih.gov/23113953/)); the other paper is a case report with no efficacy evidence |
-| 7 | Trigeminal autonomic cephalalgia | 98.70% | L5 | No established mechanism |
-| 8 | Anorectal stricture | 98.63% | L5 | No plausible mechanism |
-| 9 | Anal polyp | 98.61% | L5 | No biological rationale |
-| 10 | Punctate epithelial keratoconjunctivitis | 98.48% | L5 | No established mechanism |
+| 3 | Faucial diphtheria | 0.9954 | L5 | No plausible mechanism; likely a false positive |
+| 4 | Cervical disc degenerative disorder | 0.9950 | L5 | No plausible mechanism; likely a model artifact |
+| 5 | Papillary conjunctivitis | 0.9927 | L5 | No known anti-allergic mechanism |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

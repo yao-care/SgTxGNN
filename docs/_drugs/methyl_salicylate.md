@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Methyl Salicylate
-parent: Low Evidence (L5)
-nav_order: 661
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Methyl Salicylate: predicted new indication Gout (evidence level L5). Approved use: Not specified"
-monitor_inn: "Methyl salicylate"
-predicted_indications: ["gout", "bronchitis", "exostosis", "congestive heart failure", "osteoarthritis susceptibility", "osteoarthritis", "acute pulmonary heart disease", "pseudoachondroplasia", "rheumatoid arthritis", "exostoses, multiple,"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 660
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Methyl Salicylate: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Methyl Salicylate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +32,48 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methyl Salicylate: From an Unspecified Topical Indication to Gout
+<!-- known-uses-page -->
+<!-- description: Methyl Salicylate: known uses and market status in Singapore; currently no new candidate indication -->
+## Methyl Salicylate: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Methyl Salicylate, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Methyl salicylate is a topical salicylate counter-irritant. It is registered in Singapore as a lotion, but no approved indication text was recorded.
-The TxGNN model ranks **gout** as its top predicted new indication, with **no registered clinical trials** and only **1 publication**, which is a plant biology study unrelated to gout in humans.
-This prediction is model-based only. The better-supported alternative among the top 10 predictions is osteoarthritis (symptomatic topical use), but the evidence there is also limited and partly indirect.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not specified (the approved indication text on the Singapore licence is blank) |
-| Predicted New Indication | Gout |
-| TxGNN Prediction Score | 98.86% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 4 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available. Based on known information, methyl salicylate is a salicylate that is hydrolysed to salicylic acid after dermal absorption. Salicylic acid inhibits COX enzymes and has anti-inflammatory activity, so in principle it could relieve inflammatory pain such as gouty inflammation.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| contusion | licence in another country |
+| fracture | licence in another country |
+| myalgia | licence in another country |
+| neuralgia | licence in another country |
 
-However, the single publication retrieved for gout (PMID 26042139) is a study of volatile compounds in grapevine and has no bearing on human gout. The high TxGNN score therefore reflects a knowledge-graph association only, with no clinical support.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-For context, the other nine top predictions are also weak. Osteoarthritis (rank 6) and rheumatoid arthritis (rank 9) are biologically plausible for symptomatic relief, but their evidence is mostly indirect or preclinical. Several predictions (exostosis, pseudoachondroplasia, multiple exostoses, acute pulmonary heart disease) have no evidence or plausible mechanism. For congestive heart failure, salicylates and NSAIDs may cause fluid retention and worsen the condition, so the direction of effect is potentially harmful.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26042139](https://pubmed.ncbi.nlm.nih.gov/26042139/) | 2015 | Plant biology (not clinical) | Frontiers in Plant Science | Volatile compounds as markers of defence elicitation in grapevine. Not relevant to gout. |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08677P | Robinson Ringworm and Whitespot Lotion | Lotion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08677P | ROBINSON RINGWORM AND WHITESPOT LOTION | LOTION | Valid |
 
 ## Safety Considerations
 
@@ -95,19 +92,6 @@ Currently no related clinical trials registered.
 
 For label-based warnings and contraindications, please refer to the package insert.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The gout prediction rests entirely on the model score. No trials exist, and the only retrieved paper is unrelated plant research. Salicylate anti-inflammatory activity makes a symptomatic benefit conceivable, but nothing supports it.
-
-**To proceed, the following is needed:**
-- The package insert for the Singapore product, to confirm approved indications, warnings and contraindications
-- Mechanism of action data from DrugBank
-- A targeted literature search on topical salicylates in gout, with human clinical data
-- Consideration of osteoarthritis (symptomatic topical use) as a more evidence-supported research question than gout. It currently sits at L3 with limited, partly indirect evidence.
-- Confirmation that the route of administration (topical lotion) suits the target condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

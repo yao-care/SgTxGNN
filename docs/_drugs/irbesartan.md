@@ -4,17 +4,17 @@ title: Irbesartan
 parent: Low Evidence (L5)
 nav_order: 547
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
 monitor_inn: "Irbesartan"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "chronic pulmonary heart disease", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 ---
 
 # Irbesartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ but **no clinical trials** and **no publications** currently support this specif
 |------|------|
 | Original Indication | Hypertension, hypertensive disorder, diabetic nephropathy (the registration records contain no approved indication text) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -58,13 +58,11 @@ but **no clinical trials** and **no publications** currently support this specif
 
 Currently, detailed mechanism of action data is not available. Based on known information, irbesartan belongs to the angiotensin II type 1 (AT1) receptor blocker class. Its efficacy in hypertension and diabetic nephropathy is established, and mechanistically, blocking the renin-angiotensin system may be applicable to hypertensive kidney injury.
 
-The predicted indication is closely related to the approved ones: both involve high blood pressure damaging the kidney. The high TxGNN score (0.993) most likely reflects this closeness in the knowledge graph rather than independent evidence. In addition, malignant hypertension is an acute emergency usually managed with parenteral agents, so an oral ARB is unlikely to be a primary therapy.
+The predicted indication is closely related to the approved ones: both involve high blood pressure damaging the kidney. The high TxGNN score (0.9931) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. In addition, malignant hypertension is an acute emergency usually managed with parenteral agents, so an oral ARB is unlikely to be a primary therapy.
 
 Other predictions from the same model run were also reviewed. They do not have stronger support:
-- **Malignant renovascular hypertension** (score 99.31%): mechanistically coherent, but there are no trials or literature. Bilateral renal artery stenosis is a known safety concern for ARBs.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.25%): the most developed evidence (L4), but all of it is preclinical, from cell and animal models of hypoxic stress.
-- **Chronic pulmonary heart disease** (score 96.53%): literature is mostly about heart failure with preserved ejection fraction and is only indirectly relevant.
-- Other predictions (pulmonary hypertension of unclear mechanism, Braddock syndrome, Prinzmetal angina, two ultra-rare genetic disorders, and an obsolete stroke-susceptibility term) have no trials or literature.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 0.9925): the most developed evidence (L4), but all of it is preclinical, from cell and animal models of hypoxic stress.
+- Other predictions (pulmonary hypertension of unclear mechanism) have no trials or literature.
 
 ## Clinical Trial Evidence
 

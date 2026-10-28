@@ -50,10 +50,10 @@ Evidence is very thin: **0 clinical trials** and **1 publication** (a comment le
 |------|------|
 | Original Indication | Not stated in the Singapore licence records compiled for this report. The literature describes bicalutamide as an AR inhibitor commonly used in prostate cancer. |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.69% |
+| TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold (Research Question) |
 
 ---

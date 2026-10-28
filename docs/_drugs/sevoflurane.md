@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this
 |------|------|
 | Original Indication | General anaesthesia (inhaled anaesthetic; the registered indication text is not available in the Singapore licence records) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,15 +63,15 @@ Other high-scoring predictions, none of which has clinical trial evidence, are:
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Tourette syndrome | 99.50% | L5 | No studies; inhaled anaesthesia is impractical for a chronic condition |
-| 3 | Fibromyalgia | 99.42% | L4 | One case report on anaesthetic management only; indirect |
-| 4 | Tendinitis | 99.41% | L4 | Anaesthesia studies in tendon surgery; the link is a surgical context, not treatment |
-| 5 | Myositis fibrosa | 99.41% | L5 | No studies and no plausible mechanism |
-| 6 | Idiopathic granulomatous myositis | 99.41% | L5 | No studies |
-| 7 | Nephrogenic syndrome of inappropriate antidiuresis | 99.40% | L5 | No action on the V2 receptor pathway; nephrotoxicity concerns |
-| 8 | Trichotillomania | 99.33% | L5 | No studies; nonspecific CNS effects |
-| 9 | Migraine disorder | 99.23% | L4 | Only a paediatric MRI anaesthesia cohort; volatile agents can cause headache |
-| 10 | Inclusion body myositis | 99.09% | L4 | One case report on perioperative management only |
+| 2 | Tourette syndrome | 0.9950 | L5 | No studies; inhaled anaesthesia is impractical for a chronic condition |
+| 3 | Fibromyalgia | 0.9942 | L4 | One case report on anaesthetic management only; indirect |
+| 4 | Tendinitis | 0.9941 | L5 | Anaesthesia studies in tendon surgery; the link is a surgical context, not treatment |
+| 5 | Myositis fibrosa | 0.9941 | L5 | No studies and no plausible mechanism |
+| 6 | Idiopathic granulomatous myositis | 0.9941 | L5 | No studies |
+| 7 | Nephrogenic syndrome of inappropriate antidiuresis | 0.9940 | L5 | No action on the V2 receptor pathway; nephrotoxicity concerns |
+| 8 | Trichotillomania | 0.9933 | L5 | No studies; nonspecific CNS effects |
+| 9 | Migraine disorder | 0.9923 | L5 | Only a paediatric MRI anaesthesia cohort; volatile agents can cause headache |
+| 10 | Inclusion body myositis | 0.9909 | L4 | One case report on perioperative management only |
 
 ## Clinical Trial Evidence
 

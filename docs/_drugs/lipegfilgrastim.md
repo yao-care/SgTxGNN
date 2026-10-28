@@ -4,17 +4,17 @@ title: Lipegfilgrastim
 parent: Low Evidence (L5)
 nav_order: 604
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Lipegfilgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the approved indication text of the Singapore licence"
+indication_count: 5
+last_modified_at: 2026-10-28
 monitor_inn: "Lipegfilgrastim"
-predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombocytopenia due to immune destruction", "bleeding diathesis due to a collagen receptor defect", "Scott syndrome", "drug-induced osteoporosis"]
+predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
+description: "Lipegfilgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lipegfilgrastim
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lipegfilgrastim: From Neutropenia Support (Original Indication Not Recorded) to Primary Release Disorder of Platelets
+## Lipegfilgrastim: Primary release disorder of platelets
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but **0 clinical trials** and **0 publications** currently support this directio
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the approved indication text of the Singapore licence |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lipegfilgrastim is a pegylated G-CSF analog. It acts on the neutrophil lineage through the G-CSF receptor.
 
-Primary release disorder of platelets is a qualitative platelet function defect, in which platelets fail to secrete their granule contents properly. G-CSF has no established mechanism for correcting such a defect. The high TxGNN score is a network-based prediction only, likely reflecting graph proximity to other haematological disorders rather than a biological rationale. No trials or literature were available to support it.
+Primary release disorder of platelets is a qualitative platelet function defect, in which platelets fail to secrete their granule contents properly. G-CSF has no established mechanism for correcting such a defect. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature were available to support it.
 
-Other top-ranked predictions show the same pattern. They include severe nonproliferative diabetic retinopathy (99.91%), pseudo-von Willebrand disease (99.91%), Glanzmann thrombasthenia (99.91%) and diabetic retinopathy (99.75%). None has supporting trials or literature, and none has a plausible mechanistic link. For drug-induced osteoporosis (98.64%), G-CSF exposure has been associated with bone remodelling changes, which suggests a possible adverse rather than therapeutic relationship.
+Other top-ranked predictions show the same pattern. They include severe nonproliferative diabetic retinopathy (0.9991), pseudo-von Willebrand disease (0.9991), Glanzmann thrombasthenia (0.9991) and diabetic retinopathy (0.9975). None has supporting trials or literature, and none has a plausible mechanistic link.
 
 ## Clinical Trial Evidence
 

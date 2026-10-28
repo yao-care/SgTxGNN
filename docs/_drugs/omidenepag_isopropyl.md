@@ -4,17 +4,17 @@ title: Omidenepag Isopropyl
 parent: Low Evidence (L5)
 nav_order: 741
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Omidenepag Isopropyl: predicted new indication Pancreatitis (evidence level L5). Approved use: Ocular hypertension, glaucoma"
 monitor_inn: "Omidenepag isopropyl"
-predicted_indications: ["pancreatitis", "hyperphosphatemia (disease)", "esophageal varices with bleeding", "esophageal varices without bleeding", "blepharospasm", "familial visceral myopathy", "alcoholic cardiomyopathy", "lipase deficiency, combined", "varicose disease", "hiatus hernia (disease)"]
+predicted_indications: ["pancreatitis", "hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "blepharospasm", "familial visceral myopathy", "alcoholic cardiomyopathy"]
+description: "Omidenepag Isopropyl: predicted new indication Pancreatitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omidenepag Isopropyl
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Omidenepag Isopropyl: From Ocular Hypertension and Glaucoma to Pancreatitis
+## Omidenepag Isopropyl: Pancreatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **pancreatitis**, but there are
 
 | Item | Content |
 |------|------|
-| Original Indication | Ocular hypertension, glaucoma (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pancreatitis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **pancreatitis**, but there are
 
 Currently, detailed mechanism of action data is not available in the compiled data. Omidenepag isopropyl is understood to be a selective prostanoid EP2 receptor agonist applied to the eye. Its efficacy in lowering intraocular pressure is the basis of its use in ocular hypertension and glaucoma.
 
-No direct mechanistic link between EP2 receptor agonism and pancreatitis is established in the data compiled for this report. The high TxGNN score (99.76%) is a knowledge-graph prediction only, and it likely reflects shared network neighbours rather than biological evidence. In addition, the eye-drop form gives minimal systemic exposure, which makes a pancreatic effect even less plausible without a different formulation or route.
+No direct mechanistic link between EP2 receptor agonism and pancreatitis is established in the data compiled for this report. The high TxGNN score (0.9976) is a TxGNN model (deep learning) prediction only, and it likely reflects shared network neighbours rather than biological evidence. In addition, the eye-drop form gives minimal systemic exposure, which makes a pancreatic effect even less plausible without a different formulation or route.
 
 Other top-ranked predictions (for example hyperphosphatemia, esophageal varices, blepharospasm and familial visceral myopathy) also have scores above 99% with no supporting trials or publications. This suggests the score alone does not discriminate well among them.
 

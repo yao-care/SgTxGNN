@@ -4,17 +4,17 @@ title: Sodium Fluoride
 parent: Low Evidence (L5)
 nav_order: 922
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Sodium fluoride"
-predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis", "urogenital tuberculosis", "biotin metabolic disease", "abdominal tuberculosis"]
+predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
+description: "Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sodium Fluoride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sodium Fluoride: From Vitamin Deficiency Disorder to Epiglottitis
+## Sodium Fluoride: Epiglottitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Sodium fluoride was originally associated with the treatment of vitamin deficiency disorder (based on the knowledge graph's indication records).
+Sodium fluoride was originally associated with the treatment of vitamin deficiency disorder (according to the TxGNN model (deep learning); this may reflect similarities the model learned between related diseases, not biological evidence).
 The TxGNN model predicts it may be effective for **epiglottitis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
 The prediction is purely computational and has no direct clinical or literature support.
 
@@ -46,21 +46,21 @@ The prediction is purely computational and has no direct clinical or literature 
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin deficiency disorder (knowledge graph record; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Sodium fluoride is a fluoride salt used in dental products and as a trace-element component of parenteral nutrition. Its role in vitamin deficiency disorder comes from the knowledge graph and is not confirmed by Singapore labelling.
+Currently, detailed mechanism of action data is not available. Sodium fluoride is a fluoride salt used in dental products and as a trace-element component of parenteral nutrition. Its role in vitamin deficiency disorder comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not confirmed by Singapore labelling.
 
 The predicted indication, epiglottitis, is an acute airway infection usually caused by bacteria such as *Haemophilus influenzae* type b. It is treated with antibiotics and airway management. No mechanistic link between sodium fluoride and this condition has been established, and the drug has no known antibacterial activity relevant to it.
 
-The high score (99.92%) most likely reflects network proximity to anti-infective drugs in the knowledge graph rather than drug-specific biology. Other top-ranked predictions (urinary tract infection, gonococcal urethritis, Ureaplasma urethritis, urogenital and abdominal tuberculosis) show the same pattern: all are infections with no supporting evidence.
+The high score (0.9992) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Other top-ranked predictions (urinary tract infection, gonococcal urethritis, Ureaplasma urethritis) show the same pattern: all are infections with no supporting evidence.
 
 ## Clinical Trial Evidence
 

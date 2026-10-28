@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Perampanel
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 779
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Perampanel: predicted new indication Visual epilepsy (evidence level L4). Approved use: Partial epilepsy"
 monitor_inn: "Perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,26 +33,26 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Perampanel: From Partial Epilepsy to Visual Epilepsy
+## Perampanel: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Perampanel is an antiseizure medicine, originally used for partial (focal-onset) epilepsy.
-The TxGNN model predicts it may be effective for **visual epilepsy**, but **no clinical trials** and no studies specific to this condition were found. The 19 publications retrieved are general epilepsy literature, so support is indirect.
+The 19 publications retrieved are general epilepsy literature, so support is indirect.
 
-Among the other predicted indications, **status epilepticus** has the strongest evidence (4 clinical trials and 19 publications). It is covered in the supplementary section below.
+It is covered in the supplementary section below.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy; partial motor epilepsy (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Beta-ketothiolase deficiency |
+| TxGNN Prediction Score | 0.9979 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -105,15 +105,7 @@ Please refer to the package insert for warnings and contraindications.
 
 | Predicted Indication | Score | Evidence Level | Notes |
 |------|------|------|------|
-| **Status epilepticus** | 99.77% | L2 | 4 trials, 19 publications; most promising |
-| Audiogenic seizures | 99.86% | L4 | Animal models only (DBA/2 mice, genetically epilepsy-prone rats) |
-| Reading seizures | 99.83% | L4 | Indirect literature only |
-| Eating seizures | 99.86% | L4 | Case reports only, one describing an adverse effect |
-| Thinking seizures | 99.86% | L4 | Indirect literature only |
-| Micturition-induced seizures | 99.86% | L4 | Indirect literature only |
-| Orgasm-induced seizures | 99.86% | L5 | Prediction only |
-| Startle epilepsy | 99.86% | L5 | Prediction only |
-| Beta-ketothiolase deficiency | 99.79% | L5 | Prediction only; no clear mechanistic link |
+| Beta-ketothiolase deficiency | 0.9979 | L5 | Prediction only; no clear mechanistic link |
 
 ### Status Epilepticus: Clinical Trials
 
@@ -137,10 +129,9 @@ Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for the primary prediction, visual epilepsy)
 
 **Rationale:**
-The prediction score is high, but there are no clinical trials and no literature specific to visual epilepsy. Support rests on the shared AMPA-mediated mechanism and general epilepsy data (L4). Safety and labelling data are also incomplete.
+Support rests on the shared AMPA-mediated mechanism and general epilepsy data (L4). Safety and labelling data are also incomplete.
 
 **To proceed, the following is needed:**
 - Case series or trials specific to visual (photosensitive) epilepsy

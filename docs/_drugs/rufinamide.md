@@ -4,17 +4,17 @@ title: Rufinamide
 parent: Low Evidence (L5)
 nav_order: 887
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Rufinamide: predicted new indication Febrile infection-related epilepsy syndrome (evidence level L5). Approved use: Lennox-Gastaut syndrome"
 monitor_inn: "Rufinamide"
-predicted_indications: ["perioral myoclonia with absences", "trigeminal nerve neoplasm", "renal-hepatic-pancreatic dysplasia"]
+predicted_indications: ["perioral myoclonia with absences"]
+description: "Rufinamide: predicted new indication Perioral myoclonia with absences (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rufinamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rufinamide: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome
+## Rufinamide: Perioral myoclonia with absences
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Rufinamide is an antiseizure medication originally used for seizures associated with Lennox-Gastaut syndrome.
-The TxGNN model predicts it may be effective for **febrile infection-related epilepsy syndrome (FIRES)**,
 but currently there are **0 clinical trials** and **0 publications** directly supporting this prediction, so it rests on model output alone.
 
 ---
@@ -48,12 +47,12 @@ but currently there are **0 clinical trials** and **0 publications** directly su
 
 | Item | Content |
 |------|------|
-| Original Indication | Lennox-Gastaut syndrome (from knowledge-graph indication data; the Singapore licence record contains no indication text) |
-| Predicted New Indication | Febrile infection-related epilepsy syndrome |
-| TxGNN Prediction Score | 99.57% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Perioral myoclonia with absences |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,7 @@ but currently there are **0 clinical trials** and **0 publications** directly su
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rufinamide is a triazole-derivative antiseizure drug. Its efficacy in Lennox-Gastaut syndrome has been established, and it is generally thought to act by modulating sodium channels. Mechanistically, it may be applicable to FIRES, but this link is unproven.
 
-FIRES is a severe, refractory epileptic encephalopathy that develops after a febrile illness. Its course is thought to be driven largely by neuroinflammation. Lennox-Gastaut syndrome is also a drug-resistant epileptic encephalopathy, which may explain why the model places the two close together. However, rufinamide's sodium-channel activity targets seizure generation, not the inflammatory process behind FIRES. The high score (99.57%) is a graph-based prediction only. It should not be read as evidence of benefit.
+FIRES is a severe, refractory epileptic encephalopathy that develops after a febrile illness. Its course is thought to be driven largely by neuroinflammation. Lennox-Gastaut syndrome is also a drug-resistant epileptic encephalopathy, which may explain why the model places the two close together. However, rufinamide's sodium-channel activity targets seizure generation, not the inflammatory process behind FIRES. It should not be read as evidence of benefit.
 
 ---
 

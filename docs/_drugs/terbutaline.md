@@ -4,17 +4,17 @@ title: Terbutaline
 parent: High Evidence (L1-L2)
 nav_order: 967
 evidence_level: L1
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma, bronchitis and emphysema"
 monitor_inn: "Terbutaline"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "laryngotracheitis", "bronchial neoplasm (disease)", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "nasolacrimal duct disease", "lacrimal atrophy"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The data compiled for this report include **15 clinical trials** (9 of them comp
 |------|------|
 | Original Indication | Asthma, bronchitis and emphysema (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the compiled data. Based o
 
 The predicted indication overlaps with terbutaline's established uses in asthma, bronchitis and emphysema. This is therefore closer to an on-label or near-label category than true repurposing. Several large Phase 3 trials used terbutaline as the as-needed reliever comparator, which supports its efficacy and safety profile. Note that in those studies terbutaline was the active comparator and not the investigational arm.
 
-Among the other predictions, **chronic obstructive pulmonary disease (COPD)** (score 96.81%) also has strong support, including a Phase 3 trial (NCT00421122) and several randomized studies. Anaphylaxis has only preclinical and animal evidence. The remaining predictions (respiratory malformation, Rienhoff syndrome, laryngotracheitis, bronchial neoplasm, food-dependent exercise-induced anaphylaxis, nasolacrimal duct disease, lacrimal atrophy) have no meaningful supporting evidence and appear to be model artefacts. Their recommendation is Hold.
+Among the other predictions, **chronic obstructive pulmonary disease (COPD)** also has strong support, including a Phase 3 trial (NCT00421122) and several randomized studies. The remaining predictions (respiratory malformation, Rienhoff syndrome) have no meaningful supporting evidence and appear to be model artefacts. Their recommendation is Hold.
 
 ---
 

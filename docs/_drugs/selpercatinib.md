@@ -4,17 +4,17 @@ title: Selpercatinib
 parent: Low Evidence (L5)
 nav_order: 904
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Selpercatinib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available in the Singapore licence records"
 monitor_inn: "Selpercatinib"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "migraine with or without aura, susceptibility to", "pulmonary hypertension, primary, autosomal recessive", "obsolete patella aplasia, coxa vara, and tarsal synostosis", "idiopathic pulmonary arterial hypertension", "atrophoderma vermiculata", "coxopodopatellar syndrome"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Selpercatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,19 +46,19 @@ Selpercatinib is a selective RET kinase inhibitor, marketed in Singapore as TANS
 |------|------|
 | Original Indication | Not available in the Singapore licence records |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.18% |
+| TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Selpercatinib is known to be a selective RET kinase inhibitor, and the publications retrieved concern RET-driven cancers (RET fusion-positive non-small-cell lung cancer and RET-mutated medullary thyroid carcinoma).
 
-The analysis found no established mechanistic link between RET inhibition and pulmonary hypertension. RET signalling has no well-validated role in pulmonary vascular remodelling. The high TxGNN score is a computational output that likely reflects knowledge-graph proximity. Any plausible link, such as off-target kinase effects on vascular signalling, would be speculative and is not supported by the data.
+The analysis found no established mechanistic link between RET inhibition and pulmonary hypertension. RET signalling has no well-validated role in pulmonary vascular remodelling. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any plausible link, such as off-target kinase effects on vascular signalling, would be speculative and is not supported by the data.
 
-Other predictions in the same list (for example migraine, idiopathic pulmonary arterial hypertension, and several rare skeletal or skin conditions) are also supported only by model scores, with no clinical evidence. Idiopathic pulmonary arterial hypertension is the closest related entry. Some multi-kinase inhibitors have been studied there, but selpercatinib is highly RET-selective, so extrapolating from that class is weak.
+Other predictions in the same list (for example migraine) are also supported only by model scores, with no clinical evidence.
 
 ## Clinical Trial Evidence
 

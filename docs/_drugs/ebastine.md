@@ -4,17 +4,17 @@ title: Ebastine
 parent: Low Evidence (L5)
 nav_order: 363
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ebastine: predicted new indication Coronary artery disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, idiopathic urticaria"
 monitor_inn: "Ebastine"
-predicted_indications: ["coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "leprosy", "candidiasis", "pneumocystosis", "hypertrichosis (disease)", "polyp of vocal cord", "polyp of middle ear", "uterine polyp"]
+predicted_indications: ["coronary artery disease", "myocardial ischemia"]
 ---
 
 # Ebastine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **coronary artery disease**, bu
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, idiopathic urticaria (from the TxGNN knowledge graph; the Singapore licence has no indication text recorded) |
 | Predicted New Indication | Coronary artery disease |
-| TxGNN Prediction Score | 99.18% |
+| TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -65,15 +65,7 @@ All of the following are supported by model prediction only (L5), with no clinic
 
 | Rank | Predicted Indication | Score | Comment |
 |---|---|---|---|
-| 2 | Myocardial ischemia | 99.10% | Histamine-mediated coronary vasoconstriction is theoretical only. Ebastine/carebastine has known QT-related considerations, which argue for caution in cardiac patients. |
-| 3 | Anomalous left coronary artery from the pulmonary artery | 98.97% | Congenital structural anomaly treated surgically; no plausible pharmacological mechanism. |
-| 4 | Leprosy | 98.86% | Only one publication was returned and it concerns levocetirizine, not ebastine. |
-| 5 | Candidiasis | 98.72% | No antifungal mechanism established. |
-| 6 | Pneumocystosis | 98.69% | No mechanism linking H1 antagonism to infection. |
-| 7 | Hypertrichosis | 98.55% | No mechanistic rationale. |
-| 8 | Polyp of vocal cord | 98.37% | Tenuous link via allergic/inflammatory upper-airway disease. |
-| 9 | Polyp of middle ear | 98.36% | Weak link via mucosal inflammation; usually managed surgically. |
-| 10 | Uterine polyp | 98.35% | No plausible mechanism (hormonal, proliferative). |
+| 2 | Myocardial ischemia | 0.9910 | Histamine-mediated coronary vasoconstriction is theoretical only. Ebastine/carebastine has known QT-related considerations, which argue for caution in cardiac patients. |
 
 ## Clinical Trial Evidence
 
@@ -83,7 +75,6 @@ Currently no related clinical trials registered.
 
 For the top-ranked prediction (coronary artery disease), currently no related literature is available.
 
-The only publication returned across all predictions relates to the rank 4 prediction (leprosy), and is not direct evidence for ebastine:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

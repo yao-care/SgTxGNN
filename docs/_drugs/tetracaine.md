@@ -4,17 +4,17 @@ title: Tetracaine
 parent: Low Evidence (L5)
 nav_order: 976
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "Tetracaine"
-predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome", "pityriasis simplex"]
+predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
+description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tetracaine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tetracaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
+## Tetracaine: Acrodermatitis chronica atrophicans
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Tetracaine is an ester-type local anaesthetic, listed in the knowledge graph with dermatitis as its original indication and marketed in Singapore as eye drops and a topical cream.
+Tetracaine is an ester-type local anaesthetic, with dermatitis as its original indication, and marketed in Singapore as eye drops and a topical cream.
 The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**, but there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatitis (from the knowledge graph; the Singapore licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -98,7 +98,7 @@ For reference, selected publications for other predictions:
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** The knowledge graph links tetracaine to the following conditions, which should be checked against the package insert:
+- **Contraindications (associations, not label text):** The following conditions are associated with tetracaine and should be checked against the package insert:
   - Neurological and neuromuscular: epilepsy, myasthenia gravis (including adult-onset), neuromuscular junction disease, butyrylcholinesterase deficiency
   - Cardiac and respiratory: heart disease, cardiovascular disease, sudden cardiac arrest, heart conduction disease, respiratory failure
   - Organ function and metabolic: kidney disease, liver disease, gallbladder disease, pyoureter, hyperthyroidism, Graves disease, thyrotoxicosis
@@ -123,7 +123,7 @@ The prediction rests on a model score alone, with no clinical trials or literatu
 - Package insert warnings and contraindications from the Singapore regulator (HSA), which are needed before safety screening
 - Approved indication text for the three Singapore licences
 - Any preclinical or clinical evidence for a disease-relevant effect, if a new indication is to be pursued
-- Review of whether the original dermatitis indication is supported, since it comes only from the knowledge graph
+- Review of whether the original dermatitis indication is supported
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

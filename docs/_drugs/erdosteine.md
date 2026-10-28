@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Erdosteine
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 391
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Erdosteine: predicted new indication Marcothrombocytopenia with mitral valve insufficiency (evidence level L5). Approved use: Not stated in the Singapore license data (erdosteine is generally kno…"
+description: "Erdosteine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Erdosteine"
-predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "thrombocytopenia", "dense granule disease", "transient neonatal thrombocytopenia", "platelet storage pool deficiency", "Ledderhose disease", "penile fibromatosis", "respiratory syncytial virus infectious disease", "infantile digital fibromatosis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Erdosteine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,44 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Erdosteine: From Respiratory Mucolytic Use to Macrothrombocytopenia with Mitral Valve Insufficiency
+## Erdosteine
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Erdosteine is a mucolytic with antioxidant activity, registered in Singapore as 300 mg oral products, though the approved indication text is not available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **marcothrombocytopenia with mitral valve insufficiency**, but **0 clinical trials** and **0 publications** currently support this prediction.
-This is a model-only prediction and should be treated as a hypothesis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore license data (erdosteine is generally known as a mucolytic for respiratory conditions) |
-| Predicted New Indication | Marcothrombocytopenia with mitral valve insufficiency |
-| TxGNN Prediction Score | 84.75% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Based on known information, erdosteine is a mucolytic whose active metabolite (Met 1) contains a free thiol group and has antioxidant activity. It is used in airway disease, where it helps reduce mucus burden.
-
-No known pathway connects erdosteine to inherited macrothrombocytopenia or valvular disease. The high score appears to reflect proximity within the knowledge graph rather than a biological rationale. The prediction should therefore be regarded as weak and unsupported.
-
-Other platelet-related predictions from the same model (hereditary thrombocytopenia, general thrombocytopenia, dense granule disease, platelet storage pool deficiency, transient neonatal thrombocytopenia) share the same limitation. Thrombocytopenia has many different causes, and nothing suggests erdosteine raises platelet counts.
-
-Among the ten predictions, **respiratory syncytial virus infection** (score 74.95%) is the most biologically plausible. Any benefit would be symptomatic or adjunctive (mucus and inflammation) rather than antiviral, and it remains a research question. The fibromatosis predictions (Ledderhose disease, penile fibromatosis, infantile digital fibromatosis) rest only on a speculative antioxidant rationale.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
 ## Singapore Market Information
 
@@ -85,19 +59,6 @@ Both licenses are valid, single-ingredient oral products from Edmond Pharma S.R.
 
 Please refer to the package insert for safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a graph-based score, with no clinical trials, no literature, and no plausible mechanism linking erdosteine to platelet or valvular disorders. Safety data are also missing.
-
-**To proceed, the following is needed:**
-- Mechanism of action data for erdosteine
-- Package insert warnings and contraindications from the HSA
-- Preclinical or observational evidence for any platelet-related effect
-- For the more plausible RSV hypothesis: preclinical or observational studies of adjunctive mucolytic benefit
-- Pediatric and neonatal safety data before considering any paediatric indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

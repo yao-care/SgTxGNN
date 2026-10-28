@@ -4,17 +4,17 @@ title: Bumetanide
 parent: Medium Evidence (L3-L4)
 nav_order: 182
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L4). Approved use: Congestive heart failure"
 monitor_inn: "Bumetanide"
-predicted_indications: ["acute pulmonary heart disease", "acute urate nephropathy", "primary hereditary glaucoma", "chronic kidney disease", "chronic pulmonary heart disease", "open-angle glaucoma", "end stage renal failure", "hypoglycemia", "nephrolithiasis", "unclassified intestinal pseudoobstruction"]
+predicted_indications: ["acute pulmonary heart disease"]
 ---
 
 # Bumetanide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The evidence is indirect, and the prediction largely reflects the drug's similar
 |------|------|
 | Original Indication | Congestive heart failure |
 | Predicted New Indication | Acute pulmonary heart disease |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

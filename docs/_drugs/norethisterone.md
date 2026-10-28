@@ -4,17 +4,17 @@ title: Norethisterone
 parent: Medium Evidence (L3-L4)
 nav_order: 722
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Norethisterone: predicted new indication Amenorrhea (evidence level L4). Approved use: Acne, primary ovarian failure, endometriosis…"
 monitor_inn: "Norethisterone"
-predicted_indications: ["amenorrhea (disease)", "symptomatic form of fragile X syndrome in female carrier", "zinc, elevated plasma", "anovulation", "ovarian remnant syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 12", "luteoma of pregnancy", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 5"]
+predicted_indications: ["amenorrhea (disease)"]
+description: "Norethisterone: predicted new indication Amenorrhea (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Norethisterone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Norethisterone: From Endometriosis and Ovarian Failure to Amenorrhea
+## Norethisterone: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no registered clinical trials** and the **20 publicati
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne, primary ovarian failure, endometriosis, postmenopausal osteoporosis, atrophic vulvovaginitis (from the knowledge graph; no approved-indication text is available from Singapore labels) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.60% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -113,7 +113,6 @@ The prediction score is high, but there are no registered trials and the literat
 - Approved-indication text for the Singapore registrations, to confirm whether menstrual disorders are already covered
 - Prospective or registered trial evidence for amenorrhea as a treated condition
 
-**Other predicted indications:** Anovulation (rank 4) has some indirect literature support, mainly on managing abnormal uterine bleeding with oral progestogens, and is at L4 as a research question. The remaining predictions (ranks 2, 3, and 5–10, including fragile X carrier symptoms, ovarian remnant syndrome, luteoma of pregnancy, and several chromosomal disorders) have no literature or trials, are at L5, and are on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

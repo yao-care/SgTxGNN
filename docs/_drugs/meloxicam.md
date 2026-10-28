@@ -4,17 +4,17 @@ title: Meloxicam
 parent: Low Evidence (L5)
 nav_order: 645
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…"
 monitor_inn: "Meloxicam"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, spondyloarthropathy (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available from the compiled data. Meloxicam is a COX-2-preferential NSAID that reduces prostaglandin-mediated inflammation and pain. Its efficacy in inflammatory and degenerative joint diseases is well established.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia caused by loss-of-function variants in CDMP1/GDF5, which affect chondrogenesis. Meloxicam has no known effect on the GDF5/BMP signalling pathway. The very high TxGNN score probably reflects the disease's proximity to musculoskeletal and arthropathy terms in the knowledge graph rather than a true therapeutic relationship. At most, an NSAID might relieve secondary joint pain, and this has not been studied.
+Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia caused by loss-of-function variants in CDMP1/GDF5, which affect chondrogenesis. Meloxicam has no known effect on the GDF5/BMP signalling pathway. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At most, an NSAID might relieve secondary joint pain, and this has not been studied.
 
 Other top-ranked predictions show the same pattern. Most are rare genetic skeletal or developmental disorders (brachyolmia, pseudoachondroplasia, WHIM syndrome and others) with no plausible mechanistic link. The only entries with a credible connection overlap with meloxicam's existing indications. These are spondyloarthropathy susceptibility, rheumatoid nodulosis and rheumatoid factor-positive polyarticular juvenile idiopathic arthritis. Rheumatoid factor-positive polyarticular JIA is the only prediction with any supporting literature, and that is a general NSAID safety registry rather than evidence of efficacy.
 
@@ -96,7 +96,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or literature (Evidence Level L5). There is also no plausible mechanistic link between COX inhibition and a GDF5-related skeletal dysplasia. It is most likely a knowledge-graph artefact. Meloxicam's safety profile, with cardiovascular, renal and gastrointestinal cautions, adds further risk to any speculative use.
+The prediction has no supporting clinical trials or literature (Evidence Level L5). There is also no plausible mechanistic link between COX inhibition and a GDF5-related skeletal dysplasia. It is most likely a TxGNN model (deep learning) artefact. Meloxicam's safety profile, with cardiovascular, renal and gastrointestinal cautions, adds further risk to any speculative use.
 
 **To proceed, the following is needed:**
 - Singapore package insert warnings and contraindications (HSA), which are required before any safety screening.

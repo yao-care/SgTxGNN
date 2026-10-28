@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Vitamin E
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 1074
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L4). Approved use: Cholestasis, benign recurrent intrahepatic cholestasis…"
@@ -14,7 +14,7 @@ predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin me
 # Vitamin E
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,19 @@ but **no clinical trials** and only **1 indirectly related publication** support
 |------|------|
 | Original Indication | Cholestasis, benign recurrent intrahepatic cholestasis, familial intrahepatic cholestasis, familial isolated vitamin E deficiency (the Singapore licence texts list no approved indication) |
 | Predicted New Indication | Inborn disorder of bilirubin metabolism |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on known information, vitamin E (alpha-tocopherol) is a lipid-soluble antioxidant that limits lipid peroxidation in cell membranes. It is already used to correct fat-soluble vitamin deficiency in cholestatic liver disease.
 
-The predicted indication is related to the original ones only loosely. The single supporting paper (PMID 7915305) describes a bile acid synthesis defect that causes progressive intrahepatic cholestasis. This is close to the cholestasis indications, but it is not a bilirubin metabolism disorder in the strict sense. Vitamin E repletion would treat secondary deficiency, not the underlying bilirubin metabolism defect. The very high TxGNN score most likely reflects network proximity to cholestasis in the knowledge graph rather than a specific mechanism.
+The predicted indication is related to the original ones only loosely. The single supporting paper (PMID 7915305) describes a bile acid synthesis defect that causes progressive intrahepatic cholestasis. This is close to the cholestasis indications, but it is not a bilirubin metabolism disorder in the strict sense. Vitamin E repletion would treat secondary deficiency, not the underlying bilirubin metabolism defect. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-A related "bilirubin metabolism disease" prediction (rank 2, score 99.99%) has somewhat more literature. It includes a small 1979 neonatal study of vitamin E in preterm infants with bilirubinemia (PMID 481976) and several reports of low plasma vitamin E in chronic liver disease. This evidence is old, indirect, and does not establish efficacy.
+A related "bilirubin metabolism disease" prediction (rank 2, score 0.9999) has somewhat more literature. It includes a small 1979 neonatal study of vitamin E in preterm infants with bilirubinemia (PMID 481976) and several reports of low plasma vitamin E in chronic liver disease. This evidence is old, indirect, and does not establish efficacy.
 
 ## Clinical Trial Evidence
 

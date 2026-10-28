@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Piracetam
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 798
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Piracetam: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the Singapore licence records (reference sources descri…"
+description: "Piracetam: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Piracetam"
-predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "pseudoachondroplasia", "hepatic porphyria", "gout", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "primitive portal vein thrombosis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Piracetam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Piracetam: From Cognitive and Myoclonus Use to Osteoarthritis
+## Piracetam
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Piracetam is a nootropic (cognitive-enhancing) drug. It is authorised in several European, Asian and South American countries, including for myoclonus in the UK, and is registered in Singapore in capsule, tablet and injection forms.
-The TxGNN model predicts it may be effective for **osteoarthritis**.
-However, there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on computational prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records (reference sources describe use in myoclonus and cognitive enhancement) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 98.45% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that piracetam is associated with AMPA-type glutamate receptor subunits (GluA1, GluA2, GluA3 and GluA4). It is reported to modulate neurotransmission and membrane fluidity, and is mainly used as a nootropic and for myoclonus.
-
-No mechanistic link between these actions and joint cartilage or inflammatory pathways is supported by the available data. The prediction (score 0.985) most likely reflects proximity in the TxGNN knowledge graph rather than biological or clinical evidence. It should be treated as a hypothesis-generating signal only.
-
-Other predicted indications are also supported only by the model: osteoarthritis susceptibility, rheumatoid arthritis, pseudoachondroplasia, hepatic porphyria, gout, brachyolmia, acromesomelic dysplasia (Hunter-Thompson type), myosclerosis and primitive portal vein thrombosis. None has clinical trials or publications, and several are rare genetic skeletal disorders with no evident connection to piracetam.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 
 ## Singapore Market Information
 
@@ -88,19 +64,6 @@ All five licences are valid single-ingredient products. Available routes are ora
 
 For other safety information, including warnings and contraindications, please refer to the package insert.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction for osteoarthritis is purely computational (Evidence Level L5). There are no clinical trials or publications, and no mechanistic link to joint disease is supported by the available data. The package insert safety information has not yet been reviewed, so safety screening cannot proceed.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website
-- Detailed mechanism of action data (for example from DrugBank)
-- A literature and trial search on piracetam in osteoarthritis, to look for preclinical or clinical signals
-- A biological rationale connecting piracetam's actions to cartilage or joint inflammation
-- Assessment of the clinical relevance and dosage-form suitability (oral versus injectable) for osteoarthritis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

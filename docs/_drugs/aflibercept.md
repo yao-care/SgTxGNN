@@ -4,17 +4,17 @@ title: Aflibercept
 parent: Low Evidence (L5)
 nav_order: 43
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Aflibercept: predicted new indication Esotropia (evidence level L5). Approved use: Metastatic colorectal cancer, macular degeneration…"
+indication_count: 1
 monitor_inn: "Aflibercept"
-predicted_indications: ["esotropia", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease", "urethral calculus", "adenosine deaminase deficiency", "hemorrhagic disease of newborn", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "middle ear neuroendocrine tumor"]
+predicted_indications: ["esotropia"]
+last_modified_at: 2026-10-27
+description: "Aflibercept: predicted new indication esotropia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Aflibercept
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,59 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Aflibercept: From Metastatic Colorectal Cancer and Retinal Vascular Disease to Esotropia
+## Aflibercept: VEGF trap (anti-angiogenic fusion protein) → esotropia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Aflibercept is a VEGF-trap protein originally used for retinal vascular diseases (macular degeneration, diabetic macular edema, retinal artery occlusion) and, in its intravenous form, for metastatic colorectal cancer.
-The TxGNN model predicts it may be effective for **esotropia**, but there are **0 clinical trials** and **0 publications** supporting this direction.
-The prediction is model-based only and has no supporting evidence in the data compiled for this report.
-
----
+Aflibercept is a VEGF-A/VEGF-B/PlGF trap given by injection, used mainly for retinal vascular diseases.
+The TxGNN model predicts it may be effective for **esotropia**, but there are currently **no clinical trials** and **no publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic colorectal cancer, macular degeneration, retinal artery occlusion, diabetic macular edema (from the knowledge graph; the Singapore licence records list no indication text) |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.38% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | esotropia |
+| TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Aflibercept is a recombinant fusion protein that traps VEGF-A, VEGF-B and placental growth factor (PlGF). It is given by intravitreal injection for retinal vascular diseases and, as the product Zaltrap, by intravenous infusion for metastatic colorectal cancer. Detailed mechanism-of-action data from DrugBank are not currently available.
+Aflibercept binds VEGF-A, VEGF-B and placental growth factor (PlGF), blocking signals that drive abnormal blood vessel growth and leakage. Detailed mechanism-of-action data are not available in the data compiled for this report, but this class of action is well established in retinal vascular disease.
 
-Esotropia is a disorder of ocular alignment, driven by neuromuscular or refractive factors. No plausible mechanistic link between VEGF blockade and esotropia has been identified. The two conditions share only the eye as an anatomical location. The very high TxGNN score is likely a knowledge-graph artifact, not a pharmacological signal.
-
-Other top-ranked predictions are similarly weak. Examples include esophageal varices, urethral calculus, adenosine deaminase deficiency and hemorrhagic disease of the newborn. Several of these carry added safety concern, because anti-VEGF therapy is associated with bleeding risk. Some predicted tumours, such as ectomesenchymoma and middle ear neuroendocrine tumour, have a generic anti-angiogenic rationale, but no tumour-specific data were found.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for esotropia.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+Esotropia is an inward deviation of the eye caused mainly by neuromuscular or refractive factors, not by abnormal blood vessel growth. No plausible mechanistic link between VEGF blockade and esotropia has been identified. The high score (0.9938) is a model output only; it is not backed by any trial or publication, and it should be treated as a hypothesis, not as evidence of benefit.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17040P | EYLEA Solution for Injection in Vial 8 mg | Injection, solution | Not listed in the data |
-| SIN14380P | EYLEA Solution for Injection in Prefilled Syringe 40 mg/ml | Injection, solution | Not listed in the data |
-| SIN14592P | ZALTRAP Concentrate for Solution for Infusion 25 mg/ml | Infusion, solution concentrate | Not listed in the data |
-| SIN14345P | EYLEA Solution for Injection in Vial 2 mg | Injection, solution | Not listed in the data |
-
----
+| SIN17040P | EYLEA Solution for Injection in Vial 8 mg | Injection, solution | Not recorded |
+| SIN14380P | EYLEA Solution for Injection in Prefilled Syringe 40 mg/ml | Injection, solution | Not recorded |
+| SIN14592P | ZALTRAP Concentrate for Solution for Infusion 25 mg/ml | Infusion, solution concentrate | Not recorded |
+| SIN14345P | EYLEA Solution for Injection in Vial 2 mg | Injection, solution | Not recorded |
 
 ## Safety Considerations
 
-- **Drug Interactions**: 78 interactions were identified. Major-level examples include deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol, cladribine and clozapine. Moderate-level examples include strontium chloride Sr-89, roflumilast, chloramphenicol, zidovudine, azathioprine, alemtuzumab and anakinra.
-- **Bleeding risk**: Systemic anti-VEGF therapy is associated with bleeding and hemorrhage risk. This is particularly relevant to the bleeding-related predicted conditions.
+- **Drug Interactions**: 78 interactions were recorded. Examples of those rated Major include deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol, cladribine and clozapine. Moderate examples include strontium chloride Sr-89, roflumilast, chloramphenicol, zidovudine, alemtuzumab, anakinra and azathioprine.
 
 Please refer to the package insert for warnings and contraindications.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for esotropia rests only on the model score. There are no clinical trials or literature, and no plausible mechanism links VEGF inhibition to ocular misalignment. Evidence is at level L5.
+The prediction has no supporting clinical trials or publications and no plausible mechanistic link to esotropia, so the evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking VEGF signalling to esotropia, supported by preclinical or observational data
-- Detailed mechanism of action data (MOA)
-- Package insert warnings and contraindications from the Singapore regulator (HSA) for the safety review
-- Approved indication text for the Singapore registrations
-- Review of the other top-ranked predictions, in particular the oncology candidates (ectomesenchymoma, malignant cutaneous granular cell tumour, middle ear neuroendocrine tumour), which have a more plausible anti-angiogenic rationale, and the bleeding-related conditions, which carry safety concerns
+- Any preclinical or clinical study that directly examines VEGF blockade in esotropia
+- A plausible biological rationale linking VEGF/PlGF signalling to ocular misalignment
+- Package insert warnings and contraindications from the HSA
+- Detailed mechanism-of-action data from DrugBank
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

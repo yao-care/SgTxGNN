@@ -4,17 +4,17 @@ title: Ivabradine
 parent: Low Evidence (L5)
 nav_order: 560
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not stated in the Singapore registration records. Ivabradine is gener…"
 monitor_inn: "Ivabradine"
-predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "leprosy"]
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ivabradine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ivabradine: From Heart Rate Control to Hypertrichosis
+## Ivabradine: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ However, there are **0 clinical trials** and **0 publications** supporting this 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records. Ivabradine is generally known as a heart-rate-lowering drug. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.79% |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Ivabradine inhibits the HCN channel (the "If" current) in the sinoatrial node, which slows the heart rate. Detailed mechanism data was not available in the data compiled for this report, so this description is based on general pharmacology.
 
-The review found no plausible mechanistic link between this action and hair follicle biology. The high score appears to be a network-based prediction artifact. It likely reflects shared neighbours with other hair-related conditions in the knowledge graph, not a real pharmacological relationship. Without trials or literature, there is no support for the prediction beyond the model itself.
+The review found no plausible mechanistic link between this action and hair follicle biology. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Without trials or literature, there is no support for the prediction beyond the model itself.
 
 ## Clinical Trial Evidence
 
@@ -109,9 +109,7 @@ The prediction has no clinical trials or literature behind it, and no plausible 
 - Package insert warnings and contraindications from the Singapore regulator
 - Approved indication text for the Singapore registrations
 
-**Note on other predictions:** Among the other predictions for ivabradine, **pulmonary hypertension** (score 98.50%) has by far the most supporting data, at evidence level L3. It has 20 publications:
 - animal studies showing improved right ventricular function and less fibrosis
-- small clinical studies in pulmonary arterial hypertension and in COPD-associated pulmonary hypertension
 
 No registered trials exist, and the safety of heart rate reduction in patients whose cardiac output depends on the right ventricle remains uncertain. It is best framed as a research question that needs randomized, adequately powered confirmation. If the team wants to pursue a repurposing direction for ivabradine, this indication is a more sensible starting point than hypertrichosis.
 ## Disclaimer

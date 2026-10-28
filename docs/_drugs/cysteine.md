@@ -4,17 +4,17 @@ title: Cysteine
 parent: Medium Evidence (L3-L4)
 nav_order: 290
 evidence_level: L4
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L4). Approved use: Bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis…"
 monitor_inn: "Cysteine"
-predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma", "excretory apparatus of the lacrimal system anomaly", "tracheal disease", "nasolacrimal duct disease"]
+predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
 ---
 
 # Cysteine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be useful for **dry eye syndrome**, but the data
 |------|------|
 | Original Indication | Bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis, amyloidosis (no approved indication text is available from Singapore licences) |
 | Predicted New Indication | Dry eye syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

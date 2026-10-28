@@ -4,17 +4,17 @@ title: Celecoxib
 parent: Low Evidence (L5)
 nav_order: 228
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, ankylosing spondylitis, osteoarthritis…"
+indication_count: 7
 monitor_inn: "Celecoxib"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "inflammatory spondylopathy", "WHIM syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
+last_modified_at: 2026-10-27
+description: "Celecoxib: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Celecoxib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,52 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Celecoxib: From Rheumatoid Arthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Celecoxib: COX-2 selective NSAID → acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Celecoxib is a COX-2-selective anti-inflammatory drug, originally used for arthritic conditions such as rheumatoid arthritis, ankylosing spondylitis and osteoarthritis.
-The TxGNN model ranks **acromesomelic dysplasia, Hunter-Thompson type** (a rare genetic skeletal disorder) as its top prediction, with a very high score.
-**No clinical trials and no publications** currently support this prediction, so it rests on the model output alone.
+Celecoxib is a selective COX-2 inhibitor (an NSAID) that is marketed in Singapore as oral capsules.
+The TxGNN model predicts it may be relevant to **acromesomelic dysplasia, Hunter-Thompson type**,
+but **no clinical trials and no publications** currently support this prediction, so it rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, ankylosing spondylitis, osteoarthritis, juvenile idiopathic arthritis (from the knowledge-graph indication list, because the Singapore licence records contain no indication text) |
-| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.88% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | acromesomelic dysplasia, Hunter-Thompson type |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 14 |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Celecoxib is known to be a selective COX-2 inhibitor. It reduces prostaglandin-driven inflammation and pain, and its efficacy in arthritic diseases is established.
+Detailed mechanism-of-action data for celecoxib are not available in the data compiled for this report. Celecoxib is generally known as a COX-2 inhibitor that reduces inflammation and pain.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a rare skeletal dysplasia caused by a genetic defect in the CDMP1/GDF5 pathway. It is a developmental disorder, not an inflammatory one. COX-2 inhibition has no known effect on this pathway.
-
-The high score most likely reflects the model's network proximity to musculoskeletal diseases rather than a real biological link. At best, celecoxib could offer symptomatic pain relief. There is no evidence it would change the course of the disease.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
-
-## Singapore Market Information
-
-Celecoxib has 14 valid single-ingredient registrations, all oral capsules and none cancelled. The licence records contain no approved-indication text. The five main authorizations are listed below.
-
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN11240P | Celebrex Capsules 100 mg | Capsule |
-| SIN11241P | Celebrex Capsules 200 mg | Capsule |
-| SIN13653P | Celebrex Capsule 400 mg | Capsule |
-| SIN14560P | Celecoxib Sandoz Capsule 200 mg | Capsule |
-| SIN15754P | Hovid-Celecoxib Capsule 200 mg | Capsule |
+Acromesomelic dysplasia, Hunter-Thompson type is a rare skeletal dysplasia caused by a genetic defect in the CDMP1/GDF5 pathway. No clear mechanistic link to COX-2 inhibition is known, because the condition arises from a developmental defect rather than inflammation. The high model score is a computational prediction only. No trial or publication supports it, and the biological rationale is weak.
 
 ## Safety Considerations
 
-Label-based warnings and contraindications were not available, so please refer to the package insert for them. The following information comes from other sources.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
 
-- **Contraindication signals (knowledge graph, not label text)**:
-  - Cardiovascular: hypertension, congestive heart failure, myocardial infarction, stroke and cerebrovascular disorders, other cardiovascular and heart disease
-  - Gastrointestinal: peptic ulcer disease (including active)
-  - Kidney and liver disease
-  - Asthma (including allergic and intrinsic)
-  - Gallbladder disease
-  - Anaemia and haemoglobinopathy
-  - Substance abuse/dependence
-- **Drug Interactions**: 100 interactions were recorded. The one rated **Major** is eliglustat. Many others are rated Moderate, including:
-  - Sulfonylureas and other antidiabetics: glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide, nateglinide, metformin, exenatide
-  - Aminosalicylates: mesalazine, balsalazide, olsalazine
-  - Others: hydrocortisone, cimetidine, levofloxacin, metronidazole, naltrexone, kanamycin, fenfluramine
+**Drug Interactions** (100 interactions were recorded; examples of the main ones):
+- **Major**: Eliglustat
+- **Moderate**: hydrocortisone, metformin, several sulfonylureas (acetohexamide, chlorpropamide, glimepiride, glipizide, glyburide), nateglinide, exenatide, cimetidine, levofloxacin, metronidazole, kanamycin, mesalazine, balsalazide, olsalazine, naltrexone, fenfluramine, dexfenfluramine
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical or literature support, and no plausible mechanism links COX-2 inhibition to a genetic skeletal dysplasia. Celecoxib also carries meaningful cardiovascular, gastrointestinal and renal risks, which are not justified without evidence of benefit.
+The prediction has no supporting clinical trials or literature, and no plausible mechanistic link between COX-2 inhibition and the genetic basis of this skeletal dysplasia. Evidence is at the model-prediction level (L5).
 
 **To proceed, the following is needed:**
-- Biological evidence that prostaglandin or COX-2 pathways contribute to this disease (preclinical or mechanistic studies)
-- Detailed mechanism-of-action data
-- Package insert warnings and contraindications for the Singapore products
-- A defined target population and outcome measure, if symptomatic pain relief is the goal
-
-**Note on other predictions for this drug:** Among the other top-10 predictions, **inflammatory spondylopathy** (score 99.80%) has the strongest support. It has 11 registered trials, including two completed Phase 3 trials (NCT00648141, NCT00762463), and 20 publications, giving it evidence level L1. This largely overlaps with celecoxib's existing ankylosing spondylitis use, so it is closer to confirming a known use than to new repurposing. It would be worth evaluating separately, with cardiovascular, gastrointestinal and renal monitoring.
+- Preclinical or mechanistic evidence connecting celecoxib to the GDF5/CDMP1 pathway or to the disease phenotype
+- Detailed mechanism-of-action data for celecoxib
+- Package insert warnings and contraindications from the HSA, to allow safety screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

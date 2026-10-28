@@ -6,9 +6,9 @@ nav_order: 409
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Etoposide: predicted new indication Well-differentiated fetal adenocarcinoma of the lung . The best-suppo… (evidence level L5). Approved use: Small cell lung carcinoma"
 monitor_inn: "Etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
+description: "Etoposide: predicted new indication Well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etoposide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Etoposide: From Small Cell Lung Carcinoma and Germ Cell Tumours to Well-Differentiated Fetal Adenocarcinoma of the Lung
+## Etoposide: Well-differentiated fetal adenocarcinoma of the lung
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is **well-differentiated fetal adenocarc
 
 | Item | Content |
 |------|------|
-| Original Indication | Small cell lung carcinoma; testicular cancer and germ cell tumours (from the knowledge graph; the local licence record has no indication text) |
-| Predicted New Indication | Well-differentiated fetal adenocarcinoma of the lung (rank 1). The best-supported predictions are Ewing sarcoma and rhabdomyosarcoma, discussed below |
-| TxGNN Prediction Score | 99.94% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Well-differentiated fetal adenocarcinoma of the lung |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 for the rank 1 prediction (the only literature is a case report and review, so L4 as scored in the data compiled for this report; no trials). L1 for Ewing sarcoma and rhabdomyosarcoma |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1); Proceed with Guardrails (Ewing sarcoma, rhabdomyosarcoma) |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **well-differentiated fetal adenocarc
 
 Detailed mechanism of action data is not available in the data compiled for this report. Etoposide is known as a topoisomerase II inhibitor: it causes DNA strand breaks that kill rapidly dividing cells. It is established in small cell lung cancer and germ cell tumours, and mechanistically may be applicable to other fast-growing tumours.
 
-For the rank 1 prediction, well-differentiated fetal adenocarcinoma is one component of pulmonary blastoma, a rare lung malignancy. Etoposide is already used in lung cancer, and platinum/etoposide regimens are applied to pulmonary blastoma by analogy. The high score appears to reflect network proximity to lung cancer in the knowledge graph rather than direct clinical data.
+For the rank 1 prediction, well-differentiated fetal adenocarcinoma is one component of pulmonary blastoma, a rare lung malignancy. Etoposide is already used in lung cancer, and platinum/etoposide regimens are applied to pulmonary blastoma by analogy. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The more clinically grounded predictions are the sarcomas. Etoposide combined with ifosfamide is an established backbone of Ewing sarcoma chemotherapy (alternating VDC/IE regimens) and is used in rhabdomyosarcoma. A caveat applies: etoposide is given within multi-drug regimens, so its separate contribution cannot be isolated, and in these cancers it is already standard of care, so it is arguably not a novel repurposing.
 

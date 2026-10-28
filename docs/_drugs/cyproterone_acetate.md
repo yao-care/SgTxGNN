@@ -4,17 +4,17 @@ title: Cyproterone Acetate
 parent: Medium Evidence (L3-L4)
 nav_order: 289
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the Singapore licence records. Published pharmacology d…"
 monitor_inn: "Cyproterone acetate"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "migraine with or without aura, susceptibility to", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
 ---
 
 # Cyproterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ This prediction is computational only and is not supported by direct evidence.
 |------|------|
 | Original Indication | Not stated in the Singapore licence records. Published pharmacology describes androgen-dependent diseases (prostate cancer, benign prostatic hyperplasia), acne and hirsutism in women, menopausal hot flushes, and use in combined oral contraceptives |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The link to migraine is indirect and hormonal. Migraine is modulated by hormonal changes such as estrogen withdrawal, and progestins can affect central nervous system excitability. A 2003 review notes that progestins interact with GABA-A receptors and with dopamine and opioid systems, and that cyproterone acetate increases dopaminergic responses and binds opiate receptors independently of its classical effects. This makes a link plausible in theory.
 
-However, none of the retrieved papers shows that cyproterone acetate treats migraine. The hormone-therapy literature suggests hormonal agents can aggravate or alter migraine. The high TxGNN score reflects a knowledge-graph prediction, not clinical proof.
+However, none of the retrieved papers shows that cyproterone acetate treats migraine. The hormone-therapy literature suggests hormonal agents can aggravate or alter migraine. The high TxGNN score reflects a TxGNN model (deep learning) prediction, not clinical proof.
 
 Other predictions for this drug point to a safety signal rather than a therapeutic one. Several (migraine with brainstem aura, thrombophilia, antithrombin deficiency, factor V excess) most likely reflect the known thrombosis risk of cyproterone acetate-containing combined contraceptives.
 

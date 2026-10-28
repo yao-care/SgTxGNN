@@ -4,17 +4,17 @@ title: Folic Acid
 parent: Medium Evidence (L3-L4)
 nav_order: 449
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L4). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Folic acid"
-predicted_indications: ["biotin metabolic disease", "non-syndromic esophageal malformation", "esophageal disease", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "inborn error of biotin metabolism", "Ureaplasma urethritis", "gonococcal urethritis", "esophageal ulcer", "urinary tract infection (disease)"]
+predicted_indications: ["biotin metabolic disease"]
+description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Folic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Folic Acid: From Folate-Deficiency Anaemia to Biotin Metabolic Disease
+## Folic Acid: Biotin metabolic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This prediction rests on model output alone and is not supported by direct evide
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin deficiency disorder; folic acid deficiency anaemia; iron deficiency anaemia; hypochromic, microcytic and other deficiency anaemias (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Biotin metabolic disease |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 Folate and biotin are both B-vitamin cofactors, and vitamin-responsive disorders are often reviewed together. This is probably why the model links them. However, the link is indirect. Folic acid does not replace biotin, and biotinidase or holocarboxylase synthetase deficiencies are treated with biotin itself. The retrieved literature consists of general vitamin reviews with no direct evidence for folic acid in this condition.
 
-Other predictions for this drug were also examined. Most are weaker than the top-ranked one: they have no supporting evidence (for example Ureaplasma and gonococcal urethritis, where folic acid has no antimicrobial role) or are too broad to support a specific indication (for example "esophageal disease"). Plummer-Vinson syndrome (dysphagia, oesophageal webs and iron-deficiency anaemia) is the most clinically plausible, as folate may be supportive, but evidence is limited to a case report and a single-centre prospective study.
+Other predictions for this drug were also examined.
 
 ---
 
@@ -104,7 +104,7 @@ All three licences are valid single-ingredient registrations. Routes available a
 
 ## Safety Considerations
 
-- **Contraindication signals (knowledge-graph associations, not label text)**: The knowledge graph links folic acid to many conditions, including kidney disease, nephrolithiasis, sickle cell anaemia, haemolytic anaemia, hereditary haemochromatosis, Wilson disease, diabetes mellitus, diabetic ketoacidosis, hyperparathyroidism, hypercalcaemia, inflammatory bowel disease, ulcerative colitis, peptic ulcer disease, bipolar disorder and sarcoidosis. These need clinical verification against the package insert.
+- These need clinical verification against the package insert.
 - **Drug Interactions**: 100 interactions were found. The only graded ones in the list reviewed are **Pancrelipase (Moderate)** and **Sulfasalazine (Minor)**. Others, such as metformin, omeprazole, pantoprazole, lansoprazole, mesalazine and prednisone, are of unknown severity.
 
 Please refer to the package insert for warnings and contraindications.
@@ -116,13 +116,12 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.49%), but the evidence level is L4: no trials exist, and the literature is general vitamin reviews. The mechanistic link to biotin metabolic disease is indirect, since biotin itself is the standard treatment. Other predicted indications are no stronger, apart from Plummer-Vinson syndrome, which may be worth a separate look as a research question.
+The TxGNN score is high (0.9949), but the evidence level is L4: no trials exist, and the literature is general vitamin reviews. The mechanistic link to biotin metabolic disease is indirect, since biotin itself is the standard treatment.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
 - Detailed mechanism of action data (for example from DrugBank)
 - Direct evidence, such as case series or controlled studies, of folic acid in biotin-related disorders
-- Evaluation of Plummer-Vinson syndrome as an alternative, clinically more plausible candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Baclofen
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 134
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Baclofen"
-predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence", "attention deficit hyperactivity disorder, inattentive type", "myofascial pain syndrome", "faciodigitogenital syndrome", "trigeminal nerve neoplasm", "methemoglobinemia", "chondromyxoid fibroma", "methemoglobinemia, alpha type", "specific developmental disorder"]
+predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
 ---
 
 # Baclofen
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The evidence is weak for this top-ranked indication. The better-supported altern
 |------|------|
 | Original Indication | Not available (all 4 Singapore licences have an empty approved indication text) |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.32% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| TxGNN Prediction Score | 0.9932 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the compiled data. From kn
 
 The link is indirect and extrapolated. The retrieved literature mainly covers Tourette syndrome and tic treatment, which often co-occurs with ADHD, plus rodent studies of impulsivity, hippocampal EEG and social play. None of it tests baclofen in people with ADHD.
 
-The second-ranked prediction, **nicotine dependence** (score 99.19%), has a clearer rationale. Baclofen dampens mesolimbic dopamine release, and animal studies show it reduces nicotine reward and withdrawal signs. It is covered in more detail below as the more promising lead.
+The second-ranked prediction, **nicotine dependence** (score 0.9919), has a clearer rationale. Baclofen dampens mesolimbic dopamine release, and animal studies show it reduces nicotine reward and withdrawal signs. It is covered in more detail below as the more promising lead.
 
 ## Clinical Trial Evidence
 

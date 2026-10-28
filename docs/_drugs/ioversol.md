@@ -2,19 +2,19 @@
 layout: default
 title: Ioversol
 parent: Low Evidence (L5)
-nav_order: 544
+nav_order: 543
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ioversol: predicted new indication Osteoarthritis susceptibility (evidence level L5). Approved use: Not stated in the Singapore licence data (iodinated contrast agent fo…"
+indication_count: 9
 monitor_inn: "Ioversol"
-predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
+last_modified_at: 2026-10-23
+description: "Ioversol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the Singapore licence record (the approved indication t…"
 ---
 
 # Ioversol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ioversol: From Radiographic Contrast Imaging to Osteoarthritis Susceptibility
+## Ioversol: From Diagnostic Contrast Imaging to Osteoarthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ioversol is an iodinated, non-ionic radiographic contrast agent used to enhance imaging. The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility**, but **no clinical trials and no publications** directly support this prediction. It is a computational prediction only.
+Ioversol is an iodinated radiographic contrast agent used for diagnostic imaging. The TxGNN model predicts it may be effective for **osteoarthritis**, but no clinical trials directly study ioversol for this disease, and the single linked publication examines an embolization procedure rather than ioversol's pharmacology. The prediction is best treated as a research question, not a treatment candidate.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence data (iodinated contrast agent for diagnostic imaging) |
-| Predicted New Indication | Osteoarthritis susceptibility |
-| TxGNN Prediction Score | 99.67% |
+| Original Indication | Not stated in the Singapore licence record (the approved indication text is empty); ioversol is known as an iodinated contrast agent |
+| Predicted New Indication | Osteoarthritis |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ioversol is an iodinated, non-ionic contrast agent. It works by attenuating X-rays during imaging, not by acting on disease biology.
+Currently, detailed mechanism of action data is not available. Ioversol is an iodinated contrast agent used to visualise blood vessels and tissues on X-ray based imaging. It is a diagnostic aid, and it has no recognised anti-inflammatory or cartilage-protective activity.
 
-No mechanistic link to osteoarthritis susceptibility was identified. Susceptibility to osteoarthritis is a genetic and predisposition concept, and ioversol has no known pharmacologic action on it. The high TxGNN score reflects a graph-based computational association only.
+The only publication linked to this prediction (PMID 38102013, the LipioJoint-1 trial) tested genicular artery embolization with an ethiodized oil (Lipiodol) based emulsion for knee osteoarthritis. Any benefit there comes from the embolization procedure, not from ioversol. A contrast agent like ioversol might be used for angiographic guidance in such a procedure, but that is a procedural association, not a pharmacological one. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should not be read as evidence of efficacy.
 
-Other top-ranked predictions show the same pattern. Osteoarthritis, rheumatoid arthritis, several rare skeletal dysplasias (brachyolmia, acromesomelic dysplasia), hemoglobinopathy, myosclerosis and alopecia all have scores above 99%. None has a plausible mechanism, and these scores are likely artifacts of the graph structure.
-
-For osteoarthritis (rank 2), one publication exists (PMID 38102013). It studies genicular artery embolization with an ethiodized oil-based agent, not ioversol. Ioversol's only plausible role would be as an imaging aid for such a procedure, which is not a therapeutic effect.
+Because this publication does not study ioversol for osteoarthritis, the evidence level is L5 (model prediction only).
 
 ## Clinical Trial Evidence
 
@@ -68,42 +66,39 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature directly supports the top prediction (osteoarthritis susceptibility). The only indirectly related publication, found under the osteoarthritis prediction, is listed below.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | Single-arm clinical trial | Diagnostic and Interventional Imaging | LipioJoint-1: safety and efficacy of transient genicular artery embolization using an ethiodized oil-based emulsion for knee osteoarthritis. It does not study ioversol. |
+| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | Clinical trial (single-arm) | Diagnostic and Interventional Imaging | LipioJoint-1: safety and efficacy of transient genicular artery embolization using an ethiodized oil emulsion for knee osteoarthritis. It does not test ioversol. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN07748P | OPTIRAY 350 INJECTION 74% | Injection | Not available in licence record |
+| SIN07748P | OPTIRAY 350 INJECTION 74% | Injection | Not stated in the licence record |
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction screen returned 100 interactions in total. Many of the listed ones are rated Major. Main examples:
-  - **Metformin** (Major)
-  - **Amphotericin B**, including lipid complex, cholesteryl sulfate and liposomal forms (Major)
-  - **Aminoglycosides and related antibiotics**: kanamycin, neomycin, streptomycin, and also vancomycin and polymyxin B (Major)
-  - **Aminosalicylates**: mesalazine, balsalazide, olsalazine, sulfasalazine (Major)
-  - **Mannitol** (Moderate)
+- **Drug Interactions**: 100 interactions are recorded in total. The main ones rated Major are:
+  - Metformin
+  - Amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms)
+  - Mesalazine, balsalazide, olsalazine and sulfasalazine
+  - Aminoglycosides and related antibiotics: vancomycin, kanamycin, neomycin, streptomycin and polymyxin B
+  - Mannitol is rated Moderate.
 
-Please refer to the package insert for key warnings and contraindications.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no trials, no supporting literature, and no plausible mechanism linking a diagnostic contrast agent to osteoarthritis susceptibility. The one related publication does not involve ioversol.
+Ioversol has no known pharmacological mechanism relevant to osteoarthritis. The only linked study evaluates an embolization procedure using a different agent. The high TxGNN score is not supported by direct clinical evidence, so the case stays at L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for ioversol, and any biological rationale for the predicted indication
-- Package insert warnings and contraindications from the Singapore regulator
-- Approved indication text for the Singapore licence
-- Any direct preclinical or clinical study of ioversol in osteoarthritis
-- Confirmation of route and formulation compatibility (ioversol is available only as an injection)
+- Mechanism of action data for ioversol and a plausible biological rationale for osteoarthritis
+- Any study that directly evaluates ioversol in osteoarthritis
+- The package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA)
+- Confirmation of the approved indication text for the Singapore licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

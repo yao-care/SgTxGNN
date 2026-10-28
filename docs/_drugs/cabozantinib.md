@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Cabozantinib
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 191
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Cabozantinib: predicted new indication Liposarcoma (evidence level L3). Approved use: Renal cell carcinoma (clear cell and non-papillary types) and medulla…"
 monitor_inn: "Cabozantinib"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 # Cabozantinib
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **liposarcoma**, but the eviden
 |------|------|
 | Original Indication | Renal cell carcinoma (clear cell and non-papillary types) and medullary thyroid carcinoma (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -118,7 +118,7 @@ The model's other top predictions fall into three groups:
   - **Renal cell carcinoma with Xp11.2/TFE3 translocations** (L2, Proceed with Guardrails) rests on small Phase 2 trials in variant-histology RCC, with no subtype-specific results.
   - **Childhood kidney cell carcinoma** (L2, Research Question) has one Phase 2 pediatric trial of 109 patients with mixed tumour types and no results available.
 - **Renal carcinoma (general):** Rated L1 with Phase 3 RCTs (METEOR, CheckMate 9ER, COSMIC-313). It is an established indication, so it validates the model rather than offering new repurposing evidence.
-- **Unsupported predictions (Hold, L5):** Ovarian myxoid liposarcoma, renal cell carcinoma associated with neuroblastoma, amyotrophic lateral sclerosis, bilateral parasagittal parieto-occipital polymicrogyria and angiolipoma have no trials or literature. The last three have no plausible mechanistic rationale and likely reflect graph-based artifacts.
+- **Unsupported predictions (Hold, L5):** Ovarian myxoid liposarcoma, amyotrophic lateral sclerosis, bilateral parasagittal parieto-occipital polymicrogyria and angiolipoma have no trials or literature. The last three have no plausible mechanistic rationale; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

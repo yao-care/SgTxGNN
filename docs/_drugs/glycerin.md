@@ -6,9 +6,9 @@ nav_order: 486
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Constipation disorder"
 monitor_inn: "Glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
+description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Glycerin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Glycerin: From Constipation to Cauda Equina Syndrome
+## Glycerin: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is a model-only prediction. Among the other top-ranked predictions, only op
 
 | Item | Content |
 |------|------|
-| Original Indication | Constipation disorder (from the TxGNN knowledge graph; no approved indication text in the Singapore licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +62,11 @@ This is a model-only prediction. Among the other top-ranked predictions, only op
 
 Currently, detailed mechanism of action data is not available. Based on known information, glycerin is an osmotic agent. Its efficacy in constipation is established, but there is no recognised mechanistic link to compressive or inflammatory disease of the cauda equina.
 
-The high score for cauda equina syndrome is a graph-based prediction only. No trials or literature were found to support it, so the prediction should be treated as a hypothesis, not a finding.
+The high score for cauda equina syndrome comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature were found to support it, so the prediction should be treated as a hypothesis, not a finding.
 
 Other predictions have somewhat more plausible rationales:
-- **Open-angle glaucoma (score 99.59%, L4):** Oral or intravenous glycerin lowers intraocular pressure by raising plasma osmolarity. This is used mainly as a short-term rescue measure in acute angle-closure glaucoma. It is not a chronic therapy for open-angle disease, and systemic risks such as hyperglycaemia, dehydration and nausea limit long-term use.
-- **Irritable bowel syndrome (score 99.49%, L4):** Glycerin's laxative action may relieve constipation-predominant symptoms. The link rests on symptom overlap with the existing indication, and there is no controlled evidence in this condition.
+- **Open-angle glaucoma (score 0.9959, L4):** Oral or intravenous glycerin lowers intraocular pressure by raising plasma osmolarity. This is used mainly as a short-term rescue measure in acute angle-closure glaucoma. It is not a chronic therapy for open-angle disease, and systemic risks such as hyperglycaemia, dehydration and nausea limit long-term use.
+- **Irritable bowel syndrome (score 0.9949, L4):** Glycerin's laxative action may relieve constipation-predominant symptoms. The link rests on symptom overlap with the existing indication, and there is no controlled evidence in this condition.
 - **Alopecia, hypotrichosis, alopecia areata, migraine and primary hereditary glaucoma:** No supporting mechanism or clinical evidence was found.
 
 ---
@@ -124,7 +124,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, cauda equina syndrome, has no clinical trials, no literature and no recognised mechanistic link, so the high score reflects only the graph model. The more plausible ideas, osmotic lowering of intraocular pressure and constipation-predominant IBS, are also unsupported by direct evidence and face practical limits.
+The top prediction, cauda equina syndrome, has no clinical trials, no literature and no recognised mechanistic link, so the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The more plausible ideas, osmotic lowering of intraocular pressure and constipation-predominant IBS, are also unsupported by direct evidence and face practical limits.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Singapore regulator (HSA), which are currently missing and block safety screening

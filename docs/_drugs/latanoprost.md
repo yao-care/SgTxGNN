@@ -4,17 +4,17 @@ title: Latanoprost
 parent: Low Evidence (L5)
 nav_order: 581
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Latanoprost: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma, ocular hypertension"
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Latanoprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Latanoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Latanoprost is a prostaglandin eye drop originally used to treat open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma, ocular hypertension |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.88% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Visceral calciphylaxis |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 13 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, latanoprost is a prostaglandin F2-alpha analogue that lowers intraocular pressure by increasing uveoscleral outflow. Its efficacy in open-angle glaucoma and ocular hypertension is established, so it is plausible that it could lower pressure in hereditary glaucomas such as primary congenital glaucoma.
 
-However, this prediction largely overlaps with the drug's existing glaucoma use and is not a true repurposing. Congenital glaucoma is often managed surgically, and paediatric use and efficacy would need dedicated evaluation. The very high TxGNN score (99.88%) is a model prediction only.
+However, this prediction largely overlaps with the drug's existing glaucoma use and is not a true repurposing. Congenital glaucoma is often managed surgically, and paediatric use and efficacy would need dedicated evaluation.
 
 **Other predicted indications (all L5, no trials or literature):**
 - **Hair-growth disorders** (hypotrichosis simplex of the scalp, congenital hypotrichosis milia): the most plausible mechanism beyond glaucoma. Prostaglandin F2-alpha analogues prolong the anagen (growth) phase of hair, and eyelash hypertrichosis is a recognised latanoprost effect. These are rare genetic conditions with no specific supporting data, so they remain research questions.

@@ -4,17 +4,17 @@ title: Risperidone
 parent: Low Evidence (L5)
 nav_order: 875
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (Hold, L5) (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "Risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder", "Tourette syndrome", "intellectual disability", "autism, susceptibility to", "chromosome 15q11.2 deletion syndrome"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Risperidone: From Schizophrenia and Bipolar Disorder to Major Affective Disorder
+## Risperidone: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,29 +48,24 @@ The best-supported predictions are **major affective disorder** (11 clinical tri
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia; bipolar disorder (including manic episodes); autism spectrum disorder (irritability). The Singapore licence records contain no indication text, so these come from the knowledge graph. |
-| Predicted New Indication (top-ranked by TxGNN) | Gaze palsy, familial horizontal, with progressive scoliosis (Hold, L5) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication (top-ranked by TxGNN) | Gaze palsy, familial horizontal, with progressive scoliosis |
 | Best-Supported Predicted Indication | Major affective disorder (L1, Proceed with Guardrails) |
-| TxGNN Prediction Score | 99.76% (top-ranked); 99.11% (major affective disorder) |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 (top-ranked); L1 (major affective disorder) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 16 |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold for the top-ranked entry; Proceed with Guardrails for major affective disorder, Tourette syndrome and intellectual disability (behavioural symptoms) |
 
 ### Summary of the Top 10 Predictions
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 1 | Gaze palsy, familial horizontal, with progressive scoliosis | 99.76% | L5 | Hold |
-| 2 | Asperger syndrome, susceptibility to | 99.74% | L5 | Hold |
-| 3 | Amelocerebrohypohidrotic syndrome | 99.69% | L5 | Hold |
-| 4 | Phelan-McDermid syndrome | 99.59% | L4 | Research Question |
-| 5 | Trichotillomania | 99.51% | L4 | Research Question |
-| 6 | Major affective disorder | 99.11% | L1 | Proceed with Guardrails |
-| 7 | Tourette syndrome | 98.76% | L2 | Proceed with Guardrails |
-| 8 | Intellectual disability | 98.72% | L1 | Proceed with Guardrails |
-| 9 | Autism, susceptibility to | 98.65% | L4 | Research Question |
-| 10 | Chromosome 15q11.2 deletion syndrome | 98.59% | L5 | Hold |
+| 1 | Gaze palsy, familial horizontal, with progressive scoliosis | 0.9976 | L5 | Hold |
+| 3 | Amelocerebrohypohidrotic syndrome | 0.9969 | L5 | Hold |
+| 4 | Phelan-McDermid syndrome | 0.9959 | L4 | Research Question |
+| 5 | Trichotillomania | 0.9951 | L4 | Research Question |
+| 6 | Major affective disorder | 0.9911 | L1 | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
@@ -78,9 +73,8 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 **Major affective disorder.** Drugs with 5-HT2A and D2 antagonism are established adjuncts in treatment-resistant depression. Bipolar mania is already an original indication, so the incremental repurposing value lies mainly in augmenting antidepressants in unipolar major depressive disorder (MDD). Two Phase 3 trials of adjunctive risperidone in SSRI-resistant MDD, together with several meta-analyses and network meta-analyses of augmentation strategies, support this direction.
 
-**Tourette syndrome.** Tics are linked to dysregulated dopamine signalling in cortico-striato-thalamo-cortical circuits, and D2 blockade is the basis of antipsychotic tic suppression. Placebo-controlled trials and European guidelines support its use as an option.
+Placebo-controlled trials and European guidelines support its use as an option.
 
-**Intellectual disability.** Risperidone's benefit targets disruptive and aggressive behaviour, not the intellectual disability itself, and it overlaps with the existing autism-irritability indication, which lowers novelty.
 
 **Low-evidence entries.** Ranks 1-3 and 10 are rare genetic syndromes with no trials or literature and no plausible mechanistic link. Rank 2 (Asperger syndrome susceptibility) likely reflects overlap with the existing autism indication rather than new evidence. Rank 9 (autism susceptibility) mainly reflects pharmacogenetic and safety literature on an approved use.
 
@@ -127,7 +121,6 @@ The data compiled for this report do not include efficacy results, so the primar
 | [21088586](https://pubmed.ncbi.nlm.nih.gov/21088586/) | 2011 | Systematic review | Curr Opin Psychiatry | Efficacy and safety of second-generation antipsychotics in non-psychotic MDD |
 | [7545159](https://pubmed.ncbi.nlm.nih.gov/7545159/) | 1995 | Clinical report / review | J Clin Psychiatry | Early report on risperidone in affective illness and OCD |
 
-**Tourette syndrome:**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -137,7 +130,6 @@ The data compiled for this report do not include efficacy results, so the primar
 | [34757514](https://pubmed.ncbi.nlm.nih.gov/34757514/) | 2022 | Guideline | Eur Child Adolesc Psychiatry | European guidelines (v2.0), pharmacological treatment |
 | [8543544](https://pubmed.ncbi.nlm.nih.gov/8543544/) | 1996 | Open-label trial | J Clin Psychiatry | Open-label efficacy and safety of risperidone in Tourette syndrome |
 
-**Intellectual disability:**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -194,8 +186,8 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold for the top-ranked prediction; Proceed with Guardrails for the best-supported predictions (major affective disorder, Tourette syndrome, intellectual disability behavioural symptoms)**
 
 **Rationale:**
-- The top-ranked prediction (familial horizontal gaze palsy with progressive scoliosis) and ranks 2, 3 and 10 have no trials or literature and no plausible mechanism. The high scores are graph-based predictions only and should not be treated as repurposing signals.
-- Major affective disorder has two completed Phase 3 trials in treatment-resistant MDD (n=630 and n=258) plus meta-analytic support (L1). Bipolar mania is already an original indication, so the new value is unipolar MDD augmentation. Tourette syndrome (L2) and behavioural symptoms in intellectual disability (L1) are supported by placebo-controlled trials, but intellectual disability overlaps with the existing autism indication. Trichotillomania, Phelan-McDermid syndrome and autism susceptibility are research questions only.
+- The top-ranked prediction (familial horizontal gaze palsy with progressive scoliosis) and ranks 2, 3 and 10 have no trials or literature and no plausible mechanism.
+- Major affective disorder has two completed Phase 3 trials in treatment-resistant MDD (n=630 and n=258) plus meta-analytic support (L1). Bipolar mania is already an original indication, so the new value is unipolar MDD augmentation. Trichotillomania, Phelan-McDermid syndrome and autism susceptibility are research questions only.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA), which are currently missing and block safety screening

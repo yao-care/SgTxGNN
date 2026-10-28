@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Pasireotide
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 766
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pasireotide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Adrenal gland hyperfunction"
+description: "Pasireotide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Pasireotide"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "hypertrichosis (disease)", "carbamoyl phosphate synthetase I deficiency disease", "isolated genetic hair shaft abnormality", "hyperargininemia", "tinea nigra", "duodenal obstruction"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Pasireotide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pasireotide: From Cushing Syndrome to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Pasireotide
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Pasireotide is a somatostatin analogue originally used to treat Cushing syndrome (adrenal gland hyperfunction).
-The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,
-but **no clinical trials and no publications** currently support this prediction. It is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Adrenal gland hyperfunction; Cushing syndrome (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 96.12% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pasireotide is a multi-receptor somatostatin analogue (acting on SSTR1, 2, 3 and 5). It suppresses ACTH, growth hormone and IGF-1, which is why it works in Cushing syndrome.
-
-NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2), which leads to inappropriate water retention. A link between somatostatin receptor agonism and water balance could only be indirect, for example through modulation of vasopressin or cAMP signalling. No direct mechanism has been established.
-
-The high score (96.12%) should therefore be treated as a hypothesis from network proximity in the knowledge graph, not as biological confirmation. The other nine predictions in the ranking (for example Ambras-type hypertrichosis, hyperargininemia and tinea nigra) also have no supporting evidence and no credible mechanism.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Singapore Market Information
 
@@ -91,19 +67,6 @@ All three licences are valid single-ingredient products, and none has been cance
 
 Please refer to the package insert for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by a model score. There are no clinical trials or publications, and no plausible mechanism links somatostatin receptor agonism to NSIAD, which is driven by AVPR2 gain-of-function. Because the evidence level is L5, the project should not advance.
-
-**To proceed, the following is needed:**
-- Detailed mechanism of action data for pasireotide, and an analysis of any link to vasopressin or cAMP signalling
-- Preclinical or case-level evidence for NSIAD (for example, in vitro AVPR2 gain-of-function models)
-- Approved indication text, warnings and contraindications from the HSA package inserts
-- Review of route and formulation compatibility (only a long-acting injectable is registered in Singapore)
-- A safety assessment covering hyperglycaemia, hepatic effects and the major drug interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

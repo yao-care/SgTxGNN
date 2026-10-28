@@ -4,17 +4,17 @@ title: Imipramine
 parent: Medium Evidence (L3-L4)
 nav_order: 525
 evidence_level: L3
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "Imipramine"
-predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder", "agoraphobia", "histrionic personality disorder (disease)", "schizoid personality disorder"]
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
+description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Imipramine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Imipramine: From Anxiety Disorder to Attention Deficit-Hyperactivity Disorder
+## Imipramine: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **no registered clinical trials** but **20 publications** currently support
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, nocturnal enuresis (from the knowledge graph; the Singapore licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -106,7 +106,7 @@ Both are single-ingredient oral products from Apotex Inc and are currently valid
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not package-insert text)**: epilepsy; bipolar disorder and major affective disorder; kidney, liver and gallbladder disease; blood disorders (thrombocytopenia, neutropenia, agranulocytosis); benign prostatic hyperplasia; substance abuse/dependence; cardiovascular conditions (coronary artery disease, heart disease, heart conduction disease, sudden cardiac arrest); stroke and other cerebrovascular disorders; ileus and intestinal obstruction; ocular hypertension and angle-closure glaucoma; hyperthyroidism (Graves disease, thyrotoxicosis).
+- **Contraindications (not package-insert text)**: epilepsy; bipolar disorder and major affective disorder; kidney, liver and gallbladder disease; blood disorders (thrombocytopenia, neutropenia, agranulocytosis); benign prostatic hyperplasia; substance abuse/dependence; cardiovascular conditions (coronary artery disease, heart disease, heart conduction disease, sudden cardiac arrest); stroke and other cerebrovascular disorders; ileus and intestinal obstruction; ocular hypertension and angle-closure glaucoma; hyperthyroidism (Graves disease, thyrotoxicosis).
 - **Drug Interactions**: 100 interactions were recorded, and a medication review is required. Examples of **Major** interactions include epinephrine, bupropion, lorcaserin, potassium citrate and dolasetron. **Moderate** examples include famotidine, cimetidine, clarithromycin, morphine, acetylsalicylic acid, and anticholinergics (atropine, hyoscyamine, glycopyrronium, dicyclomine).
 - **Points of attention for this indication**: cardiac toxicity (QTc and conduction effects), anticholinergic burden, lethality in overdose, and safety in children.
 
@@ -134,11 +134,9 @@ Imipramine has a plausible noradrenergic mechanism and a dedicated body of liter
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision | Note |
 |------|------|------|------|------|
-| Agoraphobia | 98.97% | L2 | Proceed with Guardrails | Strongest evidence of the alternatives: multiple controlled studies of imipramine in panic disorder with agoraphobia (e.g. [6101535](https://pubmed.ncbi.nlm.nih.gov/6101535/), [3512534](https://pubmed.ncbi.nlm.nih.gov/3512534/), [7726306](https://pubmed.ncbi.nlm.nih.gov/7726306/)) and a 2023 Cochrane network meta-analysis ([38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/)). SSRIs are now first-line, so imipramine is second-line. |
-| Obsessive-compulsive disorder | 99.01% | L3 | Research Question | Small comparative studies suggest weaker efficacy than clomipramine and SSRIs. |
-| ADHD, inattentive type | 99.83% | L5 | Hold | Model prediction only; no subtype-specific evidence. |
-| Specific developmental disorder | 99.67% | L4 | Hold | Only indirect, off-target literature. |
-| Faciodigitogenital syndrome, chondromyxoid fibroma, benign paroxysmal torticollis of infancy, histrionic personality disorder, schizoid personality disorder | 98.61%–99.80% | L5 | Hold | No trials or literature and no clear mechanistic link. |
+| Obsessive-compulsive disorder | 0.9901 | L3 | Research Question | Small comparative studies suggest weaker efficacy than clomipramine and SSRIs. |
+| ADHD, inattentive type | 0.9983 | L5 | Hold | Model prediction only; no subtype-specific evidence. |
+| Specific developmental disorder | 0.9967 | L5 | Hold | Only indirect, off-target literature. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

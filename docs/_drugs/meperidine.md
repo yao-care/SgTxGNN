@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Meperidine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 648
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Meperidine: predicted new indication Headache disorder (evidence level L3). Approved use: Not recorded"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-10-28
 monitor_inn: "Meperidine"
-predicted_indications: ["Tourette syndrome", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "methemoglobinemia", "common cold", "nephrogenic syndrome of inappropriate antidiuresis", "trigeminal autonomic cephalalgia", "attention deficit hyperactivity disorder, inattentive type", "schizophreniform disorder"]
+predicted_indications: ["Tourette syndrome", "trichotillomania"]
+description: "Meperidine: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Meperidine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Meperidine: From Opioid Analgesia to Headache Disorder
+## Meperidine: Tourette syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Meperidine (pethidine) is a mu-opioid analgesic, and its Singapore registration is for an injectable solution; no approved indication text is recorded in the data compiled for this report.
 The TxGNN model predicts it may be effective for **headache disorder** (the highest-ranked prediction with real literature support; the top-ranked prediction overall is Tourette syndrome, which has no evidence).
-Currently there are **0 registered clinical trials** and **18 publications** for headache disorder, mostly historical emergency-department studies in which meperidine was often a comparator rather than a favoured treatment.
 
 ---
 
@@ -48,15 +47,15 @@ Currently there are **0 registered clinical trials** and **18 publications** for
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (the Singapore licence has no approved indication text) |
-| Predicted New Indication | Headache disorder (rank 3 of 10; see note below) |
-| TxGNN Prediction Score | 98.69% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Tourette syndrome |
+| TxGNN Prediction Score | 0.9946 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-**Note on selection:** The top-ranked prediction, Tourette syndrome (99.46%), and the second-ranked, trichotillomania (99.39%), have no trials or literature (evidence level L5), so this report focuses on headache disorder, the best-supported candidate. Its evidence level is L3 because it rests on systematic reviews and meta-analysis rather than completed Phase 3 trials.
+**Note on selection:** The top-ranked prediction, Tourette syndrome (0.9946), and the second-ranked, trichotillomania (0.9939), have no trials or literature (evidence level L5), so this report focuses on headache disorder, the best-supported candidate. Its evidence level is L3 because it rests on systematic reviews and meta-analysis rather than completed Phase 3 trials.
 
 ---
 
@@ -116,7 +115,7 @@ Please also refer to the package insert for key warnings and contraindications, 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for headache disorder is limited to small, mostly historical emergency-department studies and reviews where meperidine is typically a comparator without a demonstrated advantage. Guidelines discourage opioids for migraine because of dependence, medication-overuse and rebound risk. The other nine predictions (including Tourette syndrome and trichotillomania) have no supporting evidence, and several have mechanistic directions that are questionable or point to harm.
+Guidelines discourage opioids for migraine because of dependence, medication-overuse and rebound risk. The other nine predictions (including Tourette syndrome and trichotillomania) have no supporting evidence, and several have mechanistic directions that are questionable or point to harm.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)

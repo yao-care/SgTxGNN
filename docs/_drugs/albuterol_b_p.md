@@ -8,6 +8,7 @@ nav_order: 49
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Albuterol B P
@@ -51,8 +52,8 @@ This report documents the data gaps and recommends a **Hold** decision pending r
 | Predicted New Indication | No prediction generated |
 | TxGNN Prediction Score | N/A — No prediction available |
 | Evidence Level | N/A — No supporting evidence retrieved |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | **Hold** |
 
 ---

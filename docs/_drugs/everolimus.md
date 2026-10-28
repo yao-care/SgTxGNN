@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Everolimus
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 412
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Everolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Renal cell carcinoma, breast carcinoma, kidney angiomyolipoma…"
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
+description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Everolimus
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Everolimus: From Renal Cell Carcinoma to Liposarcoma
+## Everolimus: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Support so far is **1 clinical trial** (a combination Phase 2 study) and **4 pub
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma, breast carcinoma, kidney angiomyolipoma, tuberous sclerosis (the registration records list no indication text, so these come from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 (provisional: the only trial is a single-arm, non-randomised Phase 2 combination study that has not completed, so it does not strictly meet the L2 definition) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

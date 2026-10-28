@@ -4,17 +4,17 @@ title: Losartan
 parent: Medium Evidence (L3-L4)
 nav_order: 617
 evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Losartan: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
+indication_count: 7
+last_modified_at: 2026-10-28
 monitor_inn: "Losartan"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "chronic pulmonary heart disease", "intracerebral hemorrhage"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Losartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Losartan: From Hypertension to Malignant Renovascular Hypertension
+## Losartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Losartan is an angiotensin II receptor blocker (ARB) originally used for hypertension and diabetic nephropathy.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but the evidence is thin: **0 clinical trials** and **2 publications** (one case report and one preclinical animal-model paper).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, hypertensive disorder, diabetic nephropathy (the Singapore licence records list no indication text) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.73% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -60,11 +59,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 There are important caveats. The malignant form is a hypertensive emergency, and ARBs carry a risk of acute kidney injury in bilateral renal artery stenosis or a solitary kidney. The only human evidence is a single case report (Takayasu's arteritis with renal artery stenosis, in which enalapril plus losartan lowered blood pressure without deterioration of renal function). The other publication is a rat hypertension-model methods paper.
 
 Other predictions in the same list (ranked by score) have a similar profile:
-- **Malignant hypertensive renal disease** (99.73%): preclinical evidence only (L4).
-- **Pulmonary hypertension owing to lung disease/hypoxia** (99.71%): small human physiological studies and animal data, with mixed or negative findings (L4).
-- **Brain small vessel disease 1** (99.37%): indirect evidence from blood-pressure-lowering agents in general small vessel disease and from Marfan/Alport literature (L4).
-- **Chronic pulmonary heart disease** (98.59%): one Phase 3 trial whose losartan arm could not be confirmed, plus small physiological and preclinical studies (L4).
-- **Intracerebral hemorrhage** (97.30%): preclinical only, with some adverse signals (L4).
+- **Malignant hypertensive renal disease** (0.9973): preclinical evidence only (L4).
+- **Pulmonary hypertension owing to lung disease/hypoxia** (0.9971): small human physiological studies and animal data, with mixed or negative findings (L4).
+- **Brain small vessel disease 1** (0.9937): indirect evidence from blood-pressure-lowering agents in general small vessel disease and from Marfan/Alport literature (L4).
 - **Pulmonary hypertension of unclear multifactorial mechanism, Braddock syndrome, Prinzmetal angina and COL4A1-related hematuria-retinal arteriolar tortuosity syndrome**: prediction score only (L5).
 
 ## Clinical Trial Evidence
@@ -103,7 +100,7 @@ The package insert warnings and contraindications for the Singapore products wer
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.73%), but human evidence is limited to one case report, with no registered trials. Safety in the target population is a real concern, because renal artery stenosis is a recognised risk setting for ARB-induced kidney injury. The evidence level is L4.
+The TxGNN score is high (0.9973), but human evidence is limited to one case report, with no registered trials. Safety in the target population is a real concern, because renal artery stenosis is a recognised risk setting for ARB-induced kidney injury. The evidence level is L4.
 
 **To proceed, the following is needed:**
 - Singapore package insert warnings and contraindications, to enable safety screening

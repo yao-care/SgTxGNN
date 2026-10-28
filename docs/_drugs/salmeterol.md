@@ -4,17 +4,17 @@ title: Salmeterol
 parent: High Evidence (L1-L2)
 nav_order: 896
 evidence_level: L1
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Pulmonary emphysema, intrinsic asthma, allergic asthma"
 monitor_inn: "Salmeterol"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema", "bronchial neoplasm (disease)", "hyperlucent lung"]
+predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Salmeterol: From Asthma and Emphysema to Bronchitis
+## Salmeterol: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Most of this evidence is in COPD populations, so the new indication is a close e
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma (the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -152,8 +152,8 @@ Multiple completed Phase 3 trials in COPD and chronic bronchitis include salmete
 |---|---|---|---|---|
 | 3 | Obstructive lung disease | L1 | Proceed with Guardrails | Essentially the original indication (COPD/asthma), supported by large Phase 3/4 trials |
 | 5 | Asthma | L1 | Proceed with Guardrails | Already a labelled use; not for monotherapy |
-| 2 | Respiratory malformation | L4 | Hold | Indirect, symptomatic link only (e.g. cystic fibrosis) |
-| 7 | Atopic eczema | L4 | Hold | Preclinical and mechanistic data only; no clinical trials |
+| 2 | Respiratory malformation | L5 | Hold | Indirect, symptomatic link only (e.g. cystic fibrosis) |
+| 7 | Atopic eczema | L5 | Hold | Preclinical and mechanistic data only; no clinical trials |
 | 8 | Bronchial neoplasm | L4 | Hold | Trials matched by term only; no anti-tumour evidence |
 | 9 | Hyperlucent lung | L4 | Hold | A single case report |
 | 4, 6, 10 | Rienhoff syndrome; asthma-related traits, susceptibility to; compensatory emphysema | L5 | Hold | Model prediction only, with no supporting studies |

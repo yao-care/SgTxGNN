@@ -6,9 +6,9 @@ nav_order: 673
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Orthostatic hypotension"
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
+description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Midodrine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Midodrine: From Orthostatic Hypotension to Variably Protease-Sensitive Prionopathy
+## Midodrine: Variably protease-sensitive prionopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,28 +46,28 @@ The best-supported prediction in the list is **hypotensive disorder** (1 Phase 2
 
 | Item | Content |
 |------|------|
-| Original Indication | Orthostatic hypotension (also multiple system atrophy and postural orthostatic tachycardia syndrome, per the knowledge graph); the Singapore licence text is blank |
-| Predicted New Indication | Variably protease-sensitive prionopathy (top-ranked) |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Variably protease-sensitive prionopathy |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 For reference, the other predictions, ranked by evidence:
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|
-| Hypotensive disorder | 99.90% | L2 | Proceed with Guardrails (largely existing use) |
-| Sinoatrial node disease | 99.77% | L4 | Hold (safety concern) |
-| Attention deficit-hyperactivity disorder | 99.94% | L5 | Hold |
-| Other predictions (ranks 2, 5, 7–10) | 99.66–99.95% | L5 | Hold |
+| Hypotensive disorder | 0.9990 | L2 | Proceed with Guardrails (largely existing use) |
+| Sinoatrial node disease | 0.9977 | L5 | Hold (safety concern) |
+| Attention deficit-hyperactivity disorder | 0.9994 | L5 | Hold |
+| Other predictions (ranks 2, 5, 7–10) | 99.66–0.9995 | L5 | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Midodrine is a prodrug whose active metabolite, desglymidodrine, selectively activates peripheral alpha-1 adrenergic receptors. This increases vascular tone and raises blood pressure, which is why it is used for orthostatic hypotension.
 
-**For the top-ranked prediction (variably protease-sensitive prionopathy), no plausible mechanistic link was identified.** Midodrine does not appreciably cross the blood-brain barrier, and prion pathology is not known to respond to alpha-1 agonism. The high score reflects knowledge-graph proximity only. The same applies to faciodigitogenital syndrome, monogenic obesity, specific developmental disorder and the obsolete hypertelorism term, which is likely a graph artefact and should be excluded.
+**For the top-ranked prediction (variably protease-sensitive prionopathy), no plausible mechanistic link was identified.** Midodrine does not appreciably cross the blood-brain barrier, and prion pathology is not known to respond to alpha-1 agonism. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to faciodigitogenital syndrome, monogenic obesity, specific developmental disorder and the obsolete hypertelorism term, which is likely a model artefact and should be excluded.
 
 **Hypotensive disorder is the only mechanistically strong prediction.** Raising vascular tone directly addresses low blood pressure. However, this overlaps with the existing approved use, so it is not a true repurposing signal. Predictions in the ADHD family are weak and indirect because midodrine has minimal central activity. For sinoatrial node disease and sinoatrial block, midodrine can cause reflex bradycardia, so these are safety concerns rather than therapeutic opportunities.
 

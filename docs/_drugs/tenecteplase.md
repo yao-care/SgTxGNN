@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenecteplase
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 962
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Tenecteplase: predicted new indication Posterolateral myocardial infarction (evidence level L4). Approved use: Myocardial infarction…"
 monitor_inn: "Tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+description: "Tenecteplase: predicted new indication Congenital coronary artery anomaly (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tenecteplase: From Myocardial Infarction to Posterolateral Myocardial Infarction
+## Tenecteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tenecteplase is a fibrin-specific clot-dissolving drug, originally used to treat myocardial infarction and coronary thrombosis.
-The TxGNN model predicts it may be effective for **posterolateral myocardial infarction**, an anatomical subtype of the already-treated condition.
 There are currently **0 clinical trials** and **0 publications** specific to this subtype, so the support is inferred from the parent indication and not from subtype-specific data.
 
 ---
@@ -48,12 +47,12 @@ There are currently **0 clinical trials** and **0 publications** specific to thi
 
 | Item | Content |
 |------|------|
-| Original Indication | Myocardial infarction, coronary thrombosis (hemoglobinopathy is also listed in the knowledge graph). The Singapore licence text carries no approved indication wording. |
-| Predicted New Indication | Posterolateral myocardial infarction |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Congenital coronary artery anomaly |
+| TxGNN Prediction Score | 0.9961 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Posterolateral myocardial infarction is a regional subtype of acute myocardial infarction, which is already an original indication. The mechanistic link is therefore direct. In practice, this is largely covered by the existing indication and is not a true repurposing. The prediction is supported by reasoning from the parent condition (ST-elevation MI), not by subtype-specific studies.
 
-Other predictions from the same model, such as posteroinferior and septal myocardial infarction, follow the same logic. Several other high-scoring predictions (chromosomal deletion, red cell enzyme and membrane disorders) have no plausible mechanistic link and appear to be knowledge-graph artifacts.
+Several other high-scoring predictions (chromosomal deletion, red cell enzyme and membrane disorders) have no plausible mechanistic link and appear to be TxGNN model (deep learning) artifacts.
 
 ---
 
@@ -90,7 +89,7 @@ For context, literature on neighbouring predictions is indirect:
 |---------|------|------|-----------|
 | SIN12015P | METALYSE FOR INJECTION 10,000 u/vial | Injection, powder, for solution | Not stated in the registration record |
 
-Manufacturer: Boehringer Ingelheim Pharma GmbH & Co KG. The registration is valid and the product is a single-ingredient injectable.
+The registration is valid and the product is a single-ingredient injectable.
 
 ---
 

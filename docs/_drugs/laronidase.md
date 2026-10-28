@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Laronidase
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 579
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Laronidase: predicted new indication Lysosomal storage disease with skeletal involvement (evidence level L4). Approved use: Mucopolysaccharidosis I (Hurler…"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-10-28
 monitor_inn: "Laronidase"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome", "lysosomal disease with hypertrophic cardiomyopathy", "syndromic neurometabolic disease with X-linked intellectual disability", "eyelids malposition disorder", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-strabismus-ectopic pupils syndrome", "inborn disorder of lysosomal amino acid transport", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "ptosis-vocal cord paralysis syndrome"]
+predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
+description: "Laronidase: predicted new indication Lysosomal storage disease with skeletal involvement (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Laronidase: From Mucopolysaccharidosis Type I to Lysosomal Storage Disease with Skeletal Involvement
+## Laronidase: Lysosomal storage disease with skeletal involvement
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The predicted category largely overlaps with the already-approved MPS I indicati
 
 | Item | Content |
 |------|------|
-| Original Indication | Mucopolysaccharidosis I (Hurler, Hurler-Scheie and Scheie syndromes). The Singapore licence text does not state an indication. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Lysosomal storage disease with skeletal involvement |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9931 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -120,10 +120,7 @@ The prediction rests on model output and indirect MPS I literature, with no tria
 
 For completeness, the other nine model predictions all carry weaker evidence:
 
-- **Sanfilippo syndrome (99.22%, L4, Hold):** Sanfilippo syndrome (MPS III) is caused by deficiencies in other heparan sulfate-degrading enzymes, which laronidase cannot replace. The retrieved literature concerns MPS I, and intravenous enzyme replacement has limited CNS penetration.
-- **Lysosomal disease with hypertrophic cardiomyopathy (98.82%, L5, Hold):** Model prediction only, with no trials or literature.
-- **Syndromic neurometabolic disease with X-linked intellectual disability (98.73%, L5, Hold):** Prediction only, with unclear mechanistic link.
-- **Eyelid and ocular malformation syndromes (ranks 5, 6, 7, 9 and 10), and inborn disorder of lysosomal amino acid transport (rank 8, L5, Hold):** Prediction only, with no plausible mechanism and likely driven by network similarity.
+- **Sanfilippo syndrome (0.9922, L4, Hold):** Sanfilippo syndrome (MPS III) is caused by deficiencies in other heparan sulfate-degrading enzymes, which laronidase cannot replace. The retrieved literature concerns MPS I, and intravenous enzyme replacement has limited CNS penetration.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

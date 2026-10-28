@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dapoxetine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 301
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Dapoxetine: predicted new indication Migraine disorder (evidence level L4). Approved use: Premature ejaculation"
 monitor_inn: "Dapoxetine"
-predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "neurotic disorder", "atrophoderma vermiculata", "ulerythema ophryogenesis", "neurotic depression", "melancholia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
+predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
+description: "Dapoxetine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dapoxetine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Dapoxetine: From Premature Ejaculation to Migraine Disorder
+## Dapoxetine: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Currently there are **0 clinical trials** and **2 publications** linked to this 
 
 | Item | Content |
 |------|------|
-| Original Indication | Premature ejaculation (the Singapore licence records contain no approved indication text; this indication comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| TxGNN Prediction Score | 0.9934 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Serotonergic dysregulation is implicated in migraine, and the SSRI class has been discussed for off-label use in migraine prophylaxis. However, this support is at the class level only. It has not been shown for dapoxetine itself. Dapoxetine is also designed for on-demand dosing with a very short half-life, which differs from the chronic dosing used for prophylaxis.
 
-The high TxGNN score (0.993) is a computational prediction, not clinical evidence.
+The high TxGNN score (0.9934) is a computational prediction, not clinical evidence.
 
 ---
 

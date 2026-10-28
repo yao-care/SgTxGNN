@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Idarubicin
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 516
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Idarubicin: predicted new indication Bulbar polio (evidence level L5). Approved use: Acute myeloid leukaemia (AML) and related subtypes"
+description: "Idarubicin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Idarubicin"
-predicted_indications: ["bulbar polio", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "familial thrombocytosis", "reactive thrombocytosis", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction", "obsolete Hodgkin's granuloma"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Idarubicin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Idarubicin: From Acute Myeloid Leukaemia to Bulbar Polio
+## Idarubicin
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Idarubicin is an anthracycline chemotherapy drug originally used to treat acute myeloid leukaemia (AML) and related myeloid conditions.
-The TxGNN model predicts it may be effective for **bulbar polio**, but **no clinical trials and no publications** currently support this prediction.
-The prediction is purely computational, and the mechanism makes it biologically implausible.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute myeloid leukaemia (AML) and related subtypes (the Singapore licence entries carry no indication text; this indication comes from the knowledge graph) |
-| Predicted New Indication | Bulbar polio |
-| TxGNN Prediction Score | 97.05% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacological knowledge, idarubicin is a topoisomerase II inhibitor and DNA intercalator. Its efficacy in AML comes from cytotoxic damage to rapidly dividing leukaemic cells.
-
-Bulbar polio is an acute viral infection of the nervous system caused by poliovirus. Idarubicin has no known antiviral activity against poliovirus, and giving a cytotoxic anthracycline for an acute viral neurological infection is biologically implausible. The high TxGNN score (rank 21,090 among all predictions) most likely reflects a network-based artefact rather than a real therapeutic link.
-
-Other top-ranked predictions show the same pattern. Most (e.g., 5q35 microduplication syndrome, neuralgic amyotrophy, reactive thrombocytosis) have no supporting evidence and no plausible mechanism. A few have class-level plausibility only, based on anthracyclines in general rather than idarubicin: ganglioneuroblastoma and Hodgkin lymphoma (listed as the obsolete term "Hodgkin's granuloma"). Retroperitoneal neoplasm (rank 8) has one weakly linked case report on myeloid sarcoma.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for bulbar polio.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
 ## Singapore Market Information
 
@@ -98,18 +74,6 @@ Please also refer to the package insert warnings and precautions.
 
 Please refer to the package insert for the full warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a graph-based score alone, with no trials or publications. Idarubicin has no known antiviral action, and its toxicity (myelosuppression, cardiotoxicity) is unacceptable for an acute viral infection. Evidence is at the lowest level (L5).
-
-**To proceed, the following is needed:**
-- Mechanism of action data, and evidence of any activity against poliovirus or neuroprotective effect
-- Package insert warnings and contraindications from the HSA
-- Preclinical (in vitro or in vivo) data supporting a link to bulbar polio
-- If repurposing is pursued, a better-supported prediction such as ganglioneuroblastoma or Hodgkin lymphoma should be reviewed, with idarubicin-specific evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

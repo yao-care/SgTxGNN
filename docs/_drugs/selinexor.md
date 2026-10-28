@@ -4,17 +4,17 @@ title: Selinexor
 parent: Low Evidence (L5)
 nav_order: 903
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Selinexor: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available"
 monitor_inn: "Selinexor"
-predicted_indications: ["drug-induced osteoporosis", "HER2 positive breast carcinoma", "progesterone-receptor negative breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "squamous cell lung carcinoma", "gestational trophoblastic neoplasm", "cervical neuroblastoma", "schwannoma of jugular foramen"]
+predicted_indications: ["drug-induced osteoporosis"]
+description: "Selinexor: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Selinexor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,41 +33,38 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Selinexor: From an Unspecified Original Indication to Drug-Induced Osteoporosis
+## Selinexor: Drug-induced osteoporosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Selinexor is an oral XPO1 (exportin 1) inhibitor marketed in Singapore as XPOVIO, but the registered indication text is not available in the data compiled for this report.
 The TxGNN model's top-ranked prediction is **drug-induced osteoporosis**, which has **no clinical trials and no publications** behind it, so it is a computational prediction only.
-Among the 10 predictions, the one with the most clinical grounding is **squamous cell lung carcinoma**, with **2 selinexor trials** (one withdrawn and one terminated), neither of which produced usable efficacy evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the Singapore registration lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.22% |
+| TxGNN Prediction Score | 0.9922 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Selinexor is known to be an XPO1 inhibitor that blocks nuclear export, causing tumour suppressor proteins to be retained in the nucleus of cancer cells. This is an anticancer mechanism.
 
-For **drug-induced osteoporosis**, the supplied data supports no plausible link to bone metabolism. The drug's known adverse effects (nausea, anorexia, weight loss) also give no rationale for benefit in this setting. The high score (0.992) reflects a model output only, and the prediction should be treated with caution.
+For **drug-induced osteoporosis**, the supplied data supports no plausible link to bone metabolism. The drug's known adverse effects (nausea, anorexia, weight loss) also give no rationale for benefit in this setting. The high score (0.9922) reflects a model output only, and the prediction should be treated with caution.
 
 Other predictions are somewhat more plausible mechanistically, because they are cancers:
-- **Squamous cell lung carcinoma** has the most clinical grounding, with two selinexor trials registered in lung cancer settings.
 - **Breast cancer subtypes** (HER2-positive, progesterone-receptor positive or negative, luminal A or B, normal breast-like) are supported only indirectly. The linked literature concerns selinexor and XPO1 inhibition in myeloma, lymphoma and other diseases, with no breast cancer-specific data.
-- **Gestational trophoblastic neoplasm, cervical neuroblastoma and schwannoma of jugular foramen** are prediction-only, with no supporting data.
 
 ## Clinical Trial Evidence
 
-The top-ranked prediction (drug-induced osteoporosis) has no registered clinical trials. The table below shows trials for the best-supported alternative prediction, squamous cell lung carcinoma.
+The top-ranked prediction (drug-induced osteoporosis) has no registered clinical trials.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -125,7 +122,6 @@ The top prediction, drug-induced osteoporosis, rests on a model score alone (L5)
 **To proceed, the following is needed:**
 - The HSA package insert (approved indications, warnings, contraindications), which is currently a blocking gap for safety screening
 - Detailed mechanism of action data from DrugBank
-- For squamous cell lung carcinoma, the termination reasons and any posted results of NCT02213133, and confirmation of whether squamous lung histology was enrolled
 - A mechanistic or preclinical rationale linking XPO1 inhibition to bone metabolism before any further work on drug-induced osteoporosis
 - Breast cancer-specific preclinical or clinical data if the breast cancer subtype predictions are to be pursued
 ## Disclaimer

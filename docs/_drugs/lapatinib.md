@@ -4,17 +4,17 @@ title: Lapatinib
 parent: Low Evidence (L5)
 nav_order: 578
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Lapatinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: HER2-positive breast carcinoma"
 monitor_inn: "Lapatinib"
-predicted_indications: ["dermatofibrosarcoma protuberans", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "cysticercosis", "heart fibrosarcoma", "low grade fibromyxoid sarcoma", "Plasmodium falciparum malaria", "coenurosis", "lymphangiomyoma"]
+predicted_indications: ["dermatofibrosarcoma protuberans"]
+description: "Lapatinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lapatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lapatinib: From HER2-Positive Breast Cancer to Dermatofibrosarcoma Protuberans
+## Lapatinib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,20 @@ but **no clinical trials and no publications** in the data compiled for this rep
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-positive breast carcinoma (from the knowledge graph; the Singapore licence record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.30% |
+| TxGNN Prediction Score | 0.9930 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not currently available. Lapatinib is generally known as an oral dual EGFR/HER2 tyrosine kinase inhibitor. Its efficacy in HER2-positive breast cancer is established, but that mechanism does not obviously transfer to DFSP.
 
-DFSP is driven mainly by the COL1A1-PDGFB fusion and PDGFRB signalling, which is not a recognised lapatinib target. The high score (0.993) most likely reflects proximity in the knowledge graph (for example, to other fibroblastic and sarcoma-type tumours) rather than a specific pharmacological rationale. The data compiled for this report do not support a mechanistic link.
+DFSP is driven mainly by the COL1A1-PDGFB fusion and PDGFRB signalling, which is not a recognised lapatinib target. The high score (0.9930) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (for example, other fibroblastic and sarcoma-type tumours), not biological evidence. The data compiled for this report do not support a mechanistic link.
 
-Other predictions in the list are similarly unsupported: fibroblastic neoplasm, conventional fibrosarcoma, kidney fibrosarcoma, heart fibrosarcoma, low-grade fibromyxoid sarcoma, cysticercosis, coenurosis and lymphangiomyoma. The one exception is *Plasmodium falciparum* malaria (rank 8), which has preclinical evidence. It showed that lapatinib inhibits haemozoin formation (PMID 32235391), which makes it a research question rather than a clinical candidate.
 
 ## Clinical Trial Evidence
 

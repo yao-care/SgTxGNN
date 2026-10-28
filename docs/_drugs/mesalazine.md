@@ -4,17 +4,17 @@ title: Mesalazine
 parent: Low Evidence (L5)
 nav_order: 653
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "Mesalazine"
-predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mesalazine: From Ulcerative Colitis to Congenital Hypotrichosis with Juvenile Macular Dystrophy
+## Mesalazine: Congenital hypotrichosis with juvenile macular dystrophy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mesalazine (5-aminosalicylic acid) was originally used to treat **ulcerative colitis**, inflammatory bowel disease and ulcerative proctosigmoiditis.
-The TxGNN model's top-ranked prediction is **congenital hypotrichosis with juvenile macular dystrophy**, but **no clinical trials and no publications** support it. The prediction appears to be a graph-based artifact.
+The TxGNN model's top-ranked prediction is **congenital hypotrichosis with juvenile macular dystrophy**, but **no clinical trials and no publications** support it. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 Among the top 10 predictions, only **rheumatoid arthritis** (indirect literature) and **osteoarthritis** (one computational study) have any supporting material, and neither includes direct efficacy data for mesalazine.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (from the knowledge-graph indication list; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 14 |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, mesalazine is a 5-aminosalicylic acid anti-inflammatory agent. Its efficacy in ulcerative colitis is well established. Its proposed actions include PPAR-gamma activation, COX/lipoxygenase inhibition and NF-kB modulation.
 
-For the top-ranked prediction, **no plausible mechanistic link was identified**. Congenital hypotrichosis with juvenile macular dystrophy is a rare genetic disorder of hair and retinal development caused by CDH3 (cadherin) mutations. Mesalazine's anti-inflammatory action does not address this defect. The high score most likely reflects network proximity in the knowledge graph rather than true pharmacological relevance.
+For the top-ranked prediction, **no plausible mechanistic link was identified**. Congenital hypotrichosis with juvenile macular dystrophy is a rare genetic disorder of hair and retinal development caused by CDH3 (cadherin) mutations. Mesalazine's anti-inflammatory action does not address this defect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-10 predictions fall into two groups:
 - **Weak or indirect rationale:** Osteoarthritis has a low-grade inflammatory component, so a theoretical anti-inflammatory link exists. Rheumatoid arthritis is linked through sulfasalazine, which is split into sulfapyridine and mesalazine. However, sulfasalazine's antirheumatic effect is generally attributed to the sulfapyridine moiety, not mesalazine.
@@ -111,7 +111,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no trials, no literature and no plausible mechanism, so its high TxGNN score is best read as a graph artifact. The evidence level is L5. Even the more credible candidates, rheumatoid arthritis (L4) and osteoarthritis (L5), rest only on indirect or computational evidence. Mesalazine's own antirheumatic efficacy is unproven, since the benefit of sulfasalazine is attributed mainly to sulfapyridine.
+The top-ranked prediction has no trials, no literature and no plausible mechanism, so its high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The evidence level is L5. Even the more credible candidates, rheumatoid arthritis (L4) and osteoarthritis (L5), rest only on indirect or computational evidence. Mesalazine's own antirheumatic efficacy is unproven, since the benefit of sulfasalazine is attributed mainly to sulfapyridine.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data (MOA)

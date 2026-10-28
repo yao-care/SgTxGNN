@@ -4,17 +4,17 @@ title: Ranolazine
 parent: Low Evidence (L5)
 nav_order: 854
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ranolazine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the Singapore licence records compiled for this report…"
 monitor_inn: "Ranolazine"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "myositis fibrosa", "idiopathic granulomatous myositis", "tendinitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "fibromyalgia", "headache disorder", "conjunctivitis"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Ranolazine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ranolazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ranolazine: From Chronic Angina to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Ranolazine: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ranolazine is an extended-release oral drug marketed in Singapore, and it is known as a second-line treatment for chronic angina. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis**, but this is a graph-based prediction only. There are currently **0 clinical trials** and **0 publications** supporting this specific direction.
+Ranolazine is an extended-release oral drug marketed in Singapore, and it is known as a second-line treatment for chronic angina. The TxGNN model (deep learning) predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis**, but this is a model prediction only. There are currently **0 clinical trials** and **0 publications** supporting this specific direction.
 
 ---
 
@@ -46,12 +46,12 @@ Ranolazine is an extended-release oral drug marketed in Singapore, and it is kno
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records compiled for this report (the literature describes use in chronic angina) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,9 +60,8 @@ Ranolazine is an extended-release oral drug marketed in Singapore, and it is kno
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Ranolazine is generally known to inhibit the late sodium current and partially inhibit fatty acid oxidation, and its efficacy in chronic angina is established.
 
-Nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function changes in the vasopressin V2 receptor pathway. Ranolazine's known actions have no evident connection to this pathway. The high score (0.996) most likely reflects relationships in the knowledge graph rather than a pharmacological rationale, so the prediction should be treated as a hypothesis only.
+Nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function changes in the vasopressin V2 receptor pathway. Ranolazine's known actions have no evident connection to this pathway. The high score (0.9965) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should be treated as a hypothesis only.
 
-For context, other top-ranked predictions are also unsupported by trials. The only ones with any related literature are the headache disorder prediction (rank 9; one 2016 case report on migraine in a patient with microvascular angina and atrial fibrillation) and a Cochrane review on myotonia, which concerns sodium channel pharmacology rather than headache.
 
 ---
 
@@ -111,14 +110,13 @@ Please refer to the package insert for warnings and contraindications from the l
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. No clinical trials or publications support it, and the known pharmacology of ranolazine has no clear link to the disease mechanism. The knowledge-graph contraindications (QT prolongation, kidney disease and liver cirrhosis) add further caution.
+The prediction rests only on a TxGNN model (deep learning) score. No clinical trials or publications support it, and the known pharmacology of ranolazine has no clear link to the disease mechanism. The knowledge-graph contraindications (QT prolongation, kidney disease and liver cirrhosis) add further caution.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to assess any plausible biological link
 - Package insert warnings and contraindications from the Singapore regulator, plus the approved indication text
 - Preclinical or mechanistic studies testing ranolazine in V2 receptor gain-of-function models
 - A safety review of QT risk and renal and hepatic impairment in the target population
-- A review of the higher-ranked alternatives, such as headache disorder, where limited indirect literature exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

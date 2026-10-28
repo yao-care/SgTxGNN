@@ -4,17 +4,17 @@ title: Levobupivacaine
 parent: Low Evidence (L5)
 nav_order: 594
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Levobupivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not stated in the registration record (local anaesthesia/analgesia by…"
 monitor_inn: "Levobupivacaine"
-predicted_indications: ["gastroduodenitis", "peptic ulcer disease", "gout", "rhinitis", "bronchitis", "migraine disorder", "migraine with brainstem aura", "exostosis", "hypertensive disorder", "ankylosing spondylitis"]
+predicted_indications: ["gastroduodenitis"]
+description: "Levobupivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levobupivacaine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,44 +33,41 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Levobupivacaine: From Local Anaesthesia to Gastroduodenitis
+## Levobupivacaine: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Levobupivacaine is a long-acting amide local anaesthetic that blocks voltage-gated sodium channels.
 The TxGNN model ranks **gastroduodenitis** as its top predicted new indication, but **no clinical trials and no publications** currently support this prediction.
-The score is a graph-based computational prediction only (evidence level L5).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record (local anaesthesia/analgesia by injection is the known use) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.09% |
+| TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, levobupivacaine is a long-acting amide local anaesthetic, and it is understood to act by blocking voltage-gated sodium channels in nerve fibres. Its anaesthetic and analgesic efficacy is established, but this does not extend to inflammatory gastrointestinal disease.
 
-For gastroduodenitis, no mechanistic link could be identified. Sodium channel blockade has no established role in gastroduodenal inflammation, and the high TxGNN score reflects graph-based association only. The same applies to the other top-ranked predictions (peptic ulcer disease, gout, rhinitis, bronchitis, ankylosing spondylitis), none of which has any trial or literature support.
+For gastroduodenitis, no mechanistic link could be identified.
 
 **Other predictions with some evidence**
 
-- **Migraine disorder** (score 97.59%, L4): Local anaesthetics are used in greater occipital nerve blocks, which plausibly modulate headache pain signalling. The single 2026 publication is a prospective cohort on nerve blocks across headache types. It does not isolate levobupivacaine. This is indirect procedural evidence, not evidence for systemic repurposing.
-- **Hypertensive disorder** (score 96.19%, L4): The studies use levobupivacaine as an anaesthetic in hypertensive or haemodynamically sensitive patients. They do not show that it treats hypertension.
-- **Exostosis** (score 96.76%, L4): One case report describes routine perioperative nerve block analgesia, not treatment of the disease.
+- The single 2026 publication is a prospective cohort on nerve blocks across headache types. It does not isolate levobupivacaine. This is indirect procedural evidence, not evidence for systemic repurposing.
+- They do not show that it treats hypertension.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials are registered for gastroduodenitis, the top-ranked prediction.
 
-For reference, the two trials found for the lower-ranked prediction of hypertensive disorder are anaesthesia studies, not disease-treatment studies:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|

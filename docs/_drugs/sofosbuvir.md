@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 925
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "Sofosbuvir"
-predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
+description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sofosbuvir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sofosbuvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+## Sofosbuvir: Hepatitis B virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection (the Singapore licence records contain no indication text; this is taken from the drug's knowledge-graph indications) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L2 (as assigned in the compiled data; see the caveat below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

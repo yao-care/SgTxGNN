@@ -4,17 +4,17 @@ title: Propafenone
 parent: Low Evidence (L5)
 nav_order: 833
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Atrial fibrillation"
 monitor_inn: "Propafenone"
-predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "Tourette syndrome", "hyperthyroidism"]
+predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 ---
 
 # Propafenone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The most credible repurposing direction in this prediction set is instead **cate
 |------|------|
 | Original Indication | Atrial fibrillation; ventricular tachycardia (the Singapore licence text for the registered product is blank) |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,17 +62,13 @@ The most credible repurposing direction in this prediction set is instead **cate
 
 Currently, detailed mechanism of action data is not available. Based on known information, propafenone is a class IC sodium channel blocker. Its efficacy in atrial fibrillation and ventricular tachycardia is established.
 
-For manic bipolar affective disorder, **no plausible therapeutic mechanism is established**. The literature describes propafenone as a *cause* of mania (a 1985 case report) and of psychosis through a venlafaxine interaction (2001). The high TxGNN score is likely a knowledge-graph artifact and conflicts with the safety evidence. This prediction should not be pursued as a treatment.
+For manic bipolar affective disorder, **no plausible therapeutic mechanism is established**. The literature describes propafenone as a *cause* of mania (a 1985 case report) and of psychosis through a venlafaxine interaction (2001). The high TxGNN score is likely a TxGNN model (deep learning) artifact and conflicts with the safety evidence. This prediction should not be pursued as a treatment.
 
 **Other predictions in the set (for context):**
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 2 | Catecholaminergic polymorphic ventricular tachycardia (CPVT) | 99.79% | L3 | Most credible. Preclinical work shows class I antiarrhythmics, including propafenone, inhibit RyR2 and suppress Ca²⁺ waves, the core CPVT mechanism. A 35-year effective treatment case report exists. Flecainide is the established add-on therapy, so propafenone would be an alternative or second-line option. No trials or RCTs. |
-| 5 | Incessant infant ventricular tachycardia | 99.44% | L3 | Close to the labelled indication (a population and subtype extension). Small, mostly old paediatric series. Proarrhythmia risk in children needs attention. |
-| 6 | Arrhythmogenic right ventricular cardiomyopathy | 99.42% | L4 | Indirect or case-level evidence with safety signals (QRS widening, drug-induced incessant VT). Structural heart disease is a caution for class IC agents. |
-| 3, 4, 7, 8, 9 | Periodic paralysis with transient compartment-like syndrome; Prinzmetal angina; nephrogenic syndrome of inappropriate antidiuresis; trichotillomania; Tourette syndrome | 98.5–99.7% | L5 | Prediction only; no trials, no literature, no supported rationale. |
-| 10 | Hyperthyroidism | 96.93% | L5 | No therapeutic link. Papers concern atrial fibrillation and thyroid status as comorbidity or risk factor. |
+| 6 | Arrhythmogenic right ventricular cardiomyopathy | 0.9942 | L4 | Indirect or case-level evidence with safety signals (QRS widening, drug-induced incessant VT). Structural heart disease is a caution for class IC agents. |
 
 ---
 
@@ -133,7 +129,7 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (manic bipolar affective disorder) is supported only by case reports of propafenone *causing* mania and psychosis, so it should not be pursued. The high score is likely a knowledge-graph artifact. Among the other predictions, CPVT has a coherent mechanism (RyR2 inhibition) and a long-term case report, but still has no trials or RCTs and sits behind flecainide as the established therapy.
+The top-ranked prediction (manic bipolar affective disorder) is supported only by case reports of propafenone *causing* mania and psychosis, so it should not be pursued. The high score is likely a TxGNN model (deep learning) artifact. Among the other predictions, CPVT has a coherent mechanism (RyR2 inhibition) and a long-term case report, but still has no trials or RCTs and sits behind flecainide as the established therapy.
 
 **To proceed, the following is needed:**
 - Retrieve and review the HSA package insert for warnings, contraindications and approved indications (the registered licence has no indication text)

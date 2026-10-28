@@ -4,17 +4,17 @@ title: Levonorgestrel
 parent: Medium Evidence (L3-L4)
 nav_order: 598
 evidence_level: L4
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Postmenopausal osteoporosis / osteoporosis"
 monitor_inn: "Levonorgestrel"
-predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "breast abscess", "fat necrosis of breast", "lactation disease"]
+predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Levonorgestrel: From Osteoporosis to Acne
+## Levonorgestrel: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Levonorgestrel is a progestin, best known as a contraceptive, and the knowledge graph lists postmenopausal osteoporosis and osteoporosis as its original indications.
+Levonorgestrel is a progestin, best known as a contraceptive.
 The TxGNN model predicts it may be effective for **acne**, but the **0 clinical trials** and **19 publications** compiled for this report (mostly narrative reviews) do not directly support this direction.
 This is a model-generated hypothesis only.
 
@@ -48,12 +48,12 @@ This is a model-generated hypothesis only.
 
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis / osteoporosis (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -112,7 +112,7 @@ The remaining retrieved publications are general reviews of contraception (impla
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output with no registered trials. The retrieved literature is mostly narrative reviews. Levonorgestrel's residual androgenicity argues against a direct anti-acne effect, and the only acne-specific evidence involves combination pills. Other predicted indications (ranks 2–10) have no efficacy evidence either. The lactation disease prediction is supported only by a contraceptive safety study, not by evidence of therapeutic benefit.
+The prediction rests on model output with no registered trials. The retrieved literature is mostly narrative reviews. Levonorgestrel's residual androgenicity argues against a direct anti-acne effect, and the only acne-specific evidence involves combination pills. Other predicted indications (ranks 2–10) have no efficacy evidence either.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA), which are required for safety screening

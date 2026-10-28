@@ -6,7 +6,7 @@ nav_order: 403
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Estradiol Valerate: predicted new indication Symptomatic form of fragile X syndrome in female carriers (evidence level L5). Approved use: Primary ovarian failure"
+description: "Estradiol Valerate: predicted new indication symptomatic form of fragile X syndrome in female carrier (evidence level L5). Approved use: Primary ovarian failure"
 monitor_inn: "Estradiol valerate"
 predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "anovulation", "ovarian remnant syndrome", "luteoma of pregnancy", "ovarian dysfunction"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Estradiol Valerate: From Primary Ovarian Failure to Symptomatic Fragile X Syndrome in Female Carriers
+## Estradiol Valerate: From Primary Ovarian Failure to Symptomatic Form of Fragile X Syndrome in Female Carrier
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ The prediction currently rests on model output and a plausible mechanistic link 
 |------|------|
 | Original Indication | Primary ovarian failure (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Symptomatic form of fragile X syndrome in female carriers |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Female carriers of an FMR1 premutation can develop fragile X-associated primary ovarian insufficiency (FXPOI). This overlaps with the original indication, so estrogen replacement is plausible for the low-estrogen part of the condition. It would not be expected to treat other features of fragile X carrier syndrome. The high TxGNN score is a prediction only, with no supporting studies retrieved.
 
-Other top-ranked predictions follow a similar pattern. Blepharophimosis-epicanthus inversus-ptosis (BPES), including the 3q23 rearrangement form, involves FOXL2-related ovarian insufficiency. Estrogen could address only the ovarian component, not the eyelid malformation. Anovulation and ovarian dysfunction are the only predictions with any retrieved evidence, and that evidence is mostly indirect (see below). Several predictions (partial trisomy/tetrasomy of chromosome arms 5p, 12p and 18p) show no clear mechanistic link, and the scores likely reflect knowledge-graph proximity to gonadal phenotypes.
+Other top-ranked predictions follow a similar pattern. Blepharophimosis-epicanthus inversus-ptosis (BPES), including the 3q23 rearrangement form, involves FOXL2-related ovarian insufficiency. Estrogen could address only the ovarian component, not the eyelid malformation. Anovulation and ovarian dysfunction are the only predictions with any retrieved evidence, and that evidence is mostly indirect (see below). Several predictions (partial trisomy/tetrasomy of chromosome arms 5p, 12p and 18p) show no clear mechanistic link, and their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -93,7 +93,7 @@ For the lower-ranked predictions (anovulation and ovarian dysfunction), the lite
 | SIN04456P | PROGYNOVA TABLET 2 mg | Tablet, sugar coated | Not stated in the licence record |
 | SIN04778P | PROGYLUTON TABLET | Tablet, sugar coated | Not stated in the licence record |
 
-Both are valid single-ingredient oral products from Bayer Weimar GmbH und Co. KG.
+Both are valid single-ingredient oral products from Bayer Weimar GmbH und Co.
 
 ## Safety Considerations
 

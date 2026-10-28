@@ -4,17 +4,17 @@ title: Vonoprazan
 parent: Low Evidence (L5)
 nav_order: 1075
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Vonoprazan: predicted new indication Active peptic ulcer disease (evidence level L5). Approved use: Gastric ulcer, duodenal ulcer, esophagitis, peptic esophagitis…"
 monitor_inn: "Vonoprazan"
-predicted_indications: ["peptic ulcer perforation", "hiatus hernia (disease)", "achlorhydria", "gastric dilatation", "cascade stomach", "pylorospasm", "Dieulafoy lesion", "hemorrhagic duodenitis"]
+predicted_indications: ["peptic ulcer perforation", "hiatus hernia (disease)", "achlorhydria", "gastric dilatation", "pylorospasm", "cascade stomach", "Dieulafoy lesion", "hemorrhagic duodenitis"]
+description: "Vonoprazan: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vonoprazan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Vonoprazan: From Gastric/Duodenal Ulcer and Reflux Esophagitis to Active Peptic Ulcer Disease
+## Vonoprazan: Peptic ulcer perforation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Vonoprazan is a potassium-competitive acid blocker (P-CAB), originally used for gastric ulcer, duodenal ulcer, esophagitis and gastroesophageal reflux disease.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, which is essentially an on-label or near-label use.
 Currently there are **0 registered clinical trials** but **18 publications** supporting this direction, including systematic reviews, meta-analyses and randomised trials.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, duodenal ulcer, esophagitis, peptic esophagitis, gastroesophageal reflux disease (from the knowledge graph; no approved indication text is available in the Singapore licences) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 (see note below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Peptic ulcer perforation |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 (see note below) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* No clinical trials are registered for this indication in the data compiled for this report. The L1 grade rests on published phase 3 RCTs and meta-analyses of vonoprazan in gastric and duodenal ulcers, which are closely related conditions.
@@ -119,12 +118,11 @@ Lower-ranked predictions do not currently support further action:
 
 | Predicted Indication | Score | Evidence | Assessment |
 |------|------|------|------|
-| Peptic ulcer perforation | 99.97% | Guidelines and a general ulcer meta-analysis only (indirect) | Hold |
-| Gastrojejunal ulcer | 99.97% | Extrapolated from peptic ulcer, GERD and *H. pylori* literature | Research question |
-| Hiatus hernia | 99.88% | Observational GERD studies; vonoprazan treats reflux symptoms, not the hernia | Research question |
-| Hemorrhagic duodenitis | 99.74% | Indirect, from duodenal ulcer RCTs | Research question |
-| Achlorhydria | 99.86% | No evidence; mechanistically contradictory, since the drug further suppresses acid | Hold |
-| Gastric dilatation, cascade stomach, pylorospasm, Dieulafoy lesion | 99.85% | No supporting evidence; likely knowledge-graph artifacts | Hold |
+| Peptic ulcer perforation | 0.9997 | Guidelines and a general ulcer meta-analysis only (indirect) | Hold |
+| Hiatus hernia | 0.9988 | Observational GERD studies; vonoprazan treats reflux symptoms, not the hernia | Research question |
+| Hemorrhagic duodenitis | 0.9974 | Indirect, from duodenal ulcer RCTs | Research question |
+| Achlorhydria | 0.9986 | No evidence; mechanistically contradictory, since the drug further suppresses acid | Hold |
+| Gastric dilatation, cascade stomach, pylorospasm, Dieulafoy lesion | 0.9985 | No supporting evidence; likely TxGNN model (deep learning) artifacts | Hold |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

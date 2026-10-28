@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 |------|------|
 | Original Indication | Bacterial infections (pneumonia, sinusitis, pyelonephritis, conjunctivitis, anthrax and others) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 12 |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

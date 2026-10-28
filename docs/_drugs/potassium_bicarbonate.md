@@ -4,17 +4,17 @@ title: Potassium Bicarbonate
 parent: Low Evidence (L5)
 nav_order: 811
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Potassium Bicarbonate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Peptic ulcer disease, potassium deficiency…"
 monitor_inn: "Potassium bicarbonate"
-predicted_indications: ["gastroduodenitis", "stomach disease", "gastroparesis (disease)", "postgastrectomy syndrome", "acute urate nephropathy", "duodenal obstruction"]
+predicted_indications: ["gastroduodenitis"]
 ---
 
 # Potassium Bicarbonate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **gastroduodenitis**, but there
 |------|------|
 | Original Indication | Peptic ulcer disease, potassium deficiency, gastroesophageal reflux disease, esophagitis, dyspepsia (the registration records in Singapore contain no approved indication text) |
 | Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.72% |
+| TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Based on known information, potassium bicarbonate is an alkalinising agent that can neutralise gastric acid. In Singapore it is marketed as a component of alginate/antacid suspensions.
 
-Gastroduodenitis is an acid-related inflammation of the stomach and duodenal lining, so acid neutralisation is mechanistically plausible. However, the high TxGNN score most likely reflects the drug's closeness in the knowledge graph to its existing indications (peptic ulcer disease, esophagitis, dyspepsia). It is not evidence of independent efficacy. The new indication is therefore largely an extension of the existing acid-related use rather than a distinct repurposing opportunity.
+Gastroduodenitis is an acid-related inflammation of the stomach and duodenal lining, so acid neutralisation is mechanistically plausible. However, the high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the drug's existing indications (peptic ulcer disease, esophagitis, dyspepsia), not biological evidence. It is not evidence of independent efficacy. The new indication is therefore largely an extension of the existing acid-related use rather than a distinct repurposing opportunity.
 
 ## Clinical Trial Evidence
 

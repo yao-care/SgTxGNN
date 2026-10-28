@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Secukinumab
-parent: Low Evidence (L5)
-nav_order: 898
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Secukinumab: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not available in the data compiled for this report"
-monitor_inn: "Secukinumab"
-predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "HER2 positive breast carcinoma", "drug-induced osteoporosis", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "fetal and neonatal alloimmune thrombocytopenia"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 897
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Secukinumab: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Secukinumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,52 +32,50 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Secukinumab: From Inflammatory Conditions (Original Indication Not Recorded) to Primary Release Disorder of Platelets
+<!-- known-uses-page -->
+<!-- description: Secukinumab: known uses and market status in Singapore; currently no new candidate indication -->
+## Secukinumab: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Secukinumab, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Secukinumab is an anti-IL-17A monoclonal antibody that is marketed in Singapore as Cosentyx, but the approved-indication text was not captured in the data compiled for this report.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but **no clinical trials and no relevant publications** support this prediction. It rests on a graph-based score alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the licence records contain no indication text) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 98.16% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 3 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available in the compiled data. From general knowledge, secukinumab neutralises interleukin-17A (IL-17A), a cytokine involved in inflammatory and autoimmune skin and joint disease. The compiled data did not record its original indications.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| ankylosing spondylitis | licence in another country |
+| psoriasis | licence in another country |
+| psoriatic arthritis | licence in another country |
 
-The predicted disease is a primary release (secretion) defect of platelets. This is an intrinsic platelet function disorder, and it is not known to be driven by IL-17A. The review of this prediction found no plausible mechanistic link. The high TxGNN score (rank 16,221) is a graph-derived signal only and has no supporting trials or literature.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The same applies to the other top-ranked predictions, such as pseudo-von Willebrand disease, Glanzmann thrombasthenia and fetal and neonatal alloimmune thrombocytopenia. These are platelet or bleeding disorders with causes unrelated to IL-17A. Some lower-ranked predictions have a weak rationale. For example, IL-17A contributes to bone resorption in inflammatory settings, which gives drug-induced osteoporosis a weak biological basis. These were also not supported by any studies.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
-
-For context, publications were retrieved for a lower-ranked prediction (luminal A/B breast tumour), but they cover secukinumab in other diseases and do not address that indication. They include the phase 3 SUNSHINE/SUNRISE trials in hidradenitis suppurativa ([PMID 36746171](https://pubmed.ncbi.nlm.nih.gov/36746171/)), psoriasis and axial spondyloarthritis. They appear to be keyword-matching artifacts. Hidradenitis suppurativa could be assessed separately as a candidate indication.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16359P | COSENTYX Solution for Injection in Pre-filled UnoReady Pen 300mg/2ml | Injection, solution | Not recorded |
-| SIN14751P | COSENTYX Solution for Injection in Prefilled Syringe 150mg/ml | Injection, solution | Not recorded |
-| SIN14750P | COSENTYX Solution for Injection in Prefilled SensoReady Pen 150mg/ml | Injection, solution | Not recorded |
-| SIN16315P | COSENTYX Solution for Injection in Prefilled Syringe 75mg/0.5ml | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16359P | COSENTYX SOLUTION FOR INJECTION IN PRE-FILLED UNOREADY PEN 3 | INJECTION, SOLUTION | Valid |
+| SIN14751P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SYRINGE 150MG/M | INJECTION, SOLUTION | Valid |
+| SIN14750P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SENSOREADY PEN  | INJECTION, SOLUTION | Valid |
+| SIN16315P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SYRINGE 75MG/0. | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 
@@ -88,18 +85,6 @@ For context, publications were retrieved for a lower-ranked prediction (luminal 
 
 For warnings and contraindications, please refer to the package insert.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a graph-based score. There are no trials or literature, and there is no plausible link between IL-17A blockade and a platelet release defect. The evidence level is L5.
-
-**To proceed, the following is needed:**
-- Mechanism of action data and a documented mechanistic rationale linking IL-17A to platelet release disorders
-- Package insert warnings and contraindications, and approved-indication text for the Singapore licences
-- Any preclinical or clinical evidence in platelet function disorders
-- Consideration of better-supported candidates, such as hidradenitis suppurativa, which has phase 3 RCT data and should be evaluated separately
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

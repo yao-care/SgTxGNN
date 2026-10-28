@@ -4,17 +4,17 @@ title: Galantamine
 parent: Low Evidence (L5)
 nav_order: 464
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Alzheimer disease"
 monitor_inn: "Galantamine"
-predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria", "porphyria"]
+predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
+description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Galantamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Galantamine: From Alzheimer Disease to Psychogenic Movement Disorders
+## Galantamine: Psychogenic movement disorders
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ The strongest related evidence (**20 publications**, no registered trials) is fo
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer disease (the Singapore licence records contain no approved indication text; this indication comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Psychogenic movement disorders |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, galantamine is an acetylcholinesterase inhibitor that also modulates nicotinic receptors. It has an established role in Alzheimer disease, where cholinergic signalling is reduced.
 
-For psychogenic movement disorders, the link is weak. A link through cholinergic or nicotinic modulation of motor circuits is speculative, and a functional disorder has no established cholinesterase-inhibitor target. The high score appears to reflect proximity to other movement disorders in the knowledge graph rather than a specific mechanism.
+For psychogenic movement disorders, the link is weak. A link through cholinergic or nicotinic modulation of motor circuits is speculative, and a functional disorder has no established cholinesterase-inhibitor target. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predicted movement-related indications have somewhat better support:
 - **Lingual-facial-buccal dyskinesia (tardive dyskinesia):** The rationale is cholinergic augmentation to restore the dopamine-acetylcholine balance in the striatum. Cochrane reviews and a meta-analysis of cholinergic drugs address the drug class rather than galantamine specifically, and have not established clear benefit. One randomized crossover trial of galantamine in tardive dyskinesia has been published.
@@ -104,7 +104,6 @@ All three licences are valid, single-ingredient, oral products from Janssen.
   - Acid-suppressing agents: famotidine, ranitidine, cimetidine.
   - Others: clarithromycin, metronidazole, loperamide, and QT-relevant agents such as dolasetron and palonosetron.
 - **Movement-disorder signal:** The 2025 systematic review and the Pisa syndrome pharmacovigilance study suggest cholinesterase inhibitors may themselves cause movement disorders. This matters for any use in movement-disorder populations.
-- **Porphyria predictions:** The porphyria-related predictions need a porphyrinogenic drug-safety check before any consideration, because a metabolic trigger risk cannot be excluded from the available data.
 
 Please refer to the package insert for full safety information. Warnings and contraindications from the label were not available for this report.
 

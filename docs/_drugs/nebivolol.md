@@ -4,17 +4,17 @@ title: Nebivolol
 parent: Low Evidence (L5)
 nav_order: 703
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "Nebivolol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina", "ocular tuberculosis", "congenital temporomandibular joint ankylosis", "polydipsia"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nebivolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nebivolol: From Hypertension to Malignant Hypertensive Renal Disease
+## Nebivolol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder); the Singapore licence records contain no indication text |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,11 +60,10 @@ Detailed mechanism of action data is not available. From general pharmacology, n
 Malignant hypertensive renal disease is a severe form of the same condition, which is why the model scores it so highly. However, malignant hypertension is a hypertensive emergency, normally managed with intravenous agents, and oral nebivolol is not a standard option. The high score most likely reflects proximity to the original indication rather than a genuine new repurposing signal.
 
 Other predictions reviewed for this drug:
-- **Malignant renovascular hypertension** (99.42%): a secondary hypertension subtype. Beta-blockade lowers renin release, which is mechanistically relevant, but there is no direct evidence (L5, Hold).
-- **Pulmonary hypertension, unclear multifactorial mechanism** (99.39%): nitric oxide-mediated vasodilation could theoretically help. Beta-blockers are used cautiously in pulmonary arterial hypertension because of right ventricular concerns (L5, Hold).
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.39%): the literature is mostly preclinical or off-topic (L4, Hold).
-- **Chronic pulmonary heart disease** (91.85%): the most developed signal beyond the top prediction. It has one Phase 4 trial and literature supporting safety in heart failure with COPD, but the evidence is indirect (L4, Research Question).
-- **Prinzmetal angina** (87.48%): one related recruiting trial, with a safety caution on vasospasm (L4, Hold).
+- **Malignant renovascular hypertension** (0.9942): a secondary hypertension subtype. Beta-blockade lowers renin release, which is mechanistically relevant, but there is no direct evidence (L5, Hold).
+- **Pulmonary hypertension, unclear multifactorial mechanism** (0.9939): nitric oxide-mediated vasodilation could theoretically help. Beta-blockers are used cautiously in pulmonary arterial hypertension because of right ventricular concerns (L5, Hold).
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (0.9939): the literature is mostly preclinical or off-topic (L4, Hold).
+- It has one Phase 4 trial and literature supporting safety in heart failure with COPD, but the evidence is indirect (L4, Research Question).
 - Braddock syndrome, ocular tuberculosis, congenital temporomandibular joint ankylosis and polydipsia: no plausible mechanistic link and no evidence (L5, Hold).
 
 ## Clinical Trial Evidence
@@ -82,7 +81,6 @@ For reference, trials found for other predicted indications:
 
 Currently no related literature available for malignant hypertensive renal disease.
 
-For reference, the most relevant publications found for related predicted indications (chronic pulmonary heart disease and pulmonary hypertension due to lung disease or hypoxia):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -121,13 +119,12 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication has no clinical trials or publications (L5, model prediction only). The high score likely reflects ontology proximity to hypertension, and malignant hypertension is an emergency typically treated with intravenous agents. Of the other predictions, chronic pulmonary heart disease is the only one with an indirect evidence base, and it is better framed as a research question than a repurposing recommendation.
+The predicted indication has no clinical trials or publications (L5, model prediction only). The high score likely reflects ontology proximity to hypertension, and malignant hypertension is an emergency typically treated with intravenous agents.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website (a blocking data gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Clinical or observational evidence of oral nebivolol in malignant hypertension with renal involvement, or a clear rationale for its role relative to standard intravenous therapy
-- For chronic pulmonary heart disease, studies directly enrolling cor pulmonale patients, with attention to right ventricular safety
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

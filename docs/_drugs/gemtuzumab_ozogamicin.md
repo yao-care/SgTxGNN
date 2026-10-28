@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Gemtuzumab Ozogamicin
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 475
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Gemtuzumab Ozogamicin: predicted new indication Richter syndrome (evidence level L5). Approved use: Acute myeloid leukemia"
+description: "Gemtuzumab Ozogamicin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Gemtuzumab ozogamicin"
-predicted_indications: ["Richter syndrome", "bulbar polio", "metastatic neoplasm", "malignant spiradenoma", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "acute lymphoblastic/lymphocytic leukemia"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Gemtuzumab Ozogamicin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,47 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Gemtuzumab ozogamicin: From Acute Myeloid Leukemia to Richter Syndrome
+## Gemtuzumab Ozogamicin
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Gemtuzumab ozogamicin is a CD33-targeted antibody-drug conjugate, originally used to treat acute myeloid leukemia (AML).
-The TxGNN model predicts it may be effective for **Richter syndrome**, but **no clinical trials and no publications** currently support this prediction.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute myeloid leukemia (the Singapore license record has no indication text, so this comes from the drug's knowledge-graph indications) |
-| Predicted New Indication | Richter syndrome |
-| TxGNN Prediction Score | 98.06% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, gemtuzumab ozogamicin delivers a cytotoxic calicheamicin payload to cells that express CD33. Its efficacy in AML is established, so a mechanistic link to other CD33-expressing blood cancers is plausible.
-
-For Richter syndrome, that link is weak. Richter syndrome is typically a large B-cell transformation of chronic lymphocytic leukemia that is CD20-positive and CD33-negative. This means the drug's target is probably absent on the cancer cells. The high TxGNN score (98.06%) is a model output only. It is not backed by any trial or publication, so it should be treated as a hypothesis rather than a finding.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ---
 
@@ -113,19 +84,6 @@ Please refer to the package insert for warnings and contraindications.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on the model score alone, with no trials or literature. The drug's target (CD33) is probably absent in Richter syndrome, so the mechanistic basis is weak.
-
-**To proceed, the following is needed:**
-- Evidence that Richter syndrome cells express CD33, for example from immunophenotyping data
-- Any preclinical or clinical data of the drug in Richter syndrome or related B-cell transformations
-- The Singapore package insert warnings and contraindications (including hepatic safety)
-- Detailed mechanism-of-action data
-- Review of other predicted indications that have better supporting evidence, such as blast-phase chronic myeloid leukemia, where preclinical and case-report data exist
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -48,19 +48,19 @@ This is a computational prediction only, and it should be treated with caution.
 |------|------|
 | Original Indication | Not available (the approved indication text is blank in all Singapore licences) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Fosaprepitant is known to be a prodrug of aprepitant, which blocks the NK1 (substance P) receptor. Its use in nausea and vomiting is well established, but that information is not in the compiled data, so the original indication is not confirmed here.
 
-The link to the predicted indication is weak. Nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function mutations in the vasopressin V2 receptor. NK1 antagonism is not known to act on this receptor or pathway. The high score of 99.92% reflects a computational, network-based prediction. It is not backed by any mechanism, trial or publication in the supplied data.
+The link to the predicted indication is weak. Nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function mutations in the vasopressin V2 receptor. NK1 antagonism is not known to act on this receptor or pathway. The high score of 0.9992 reflects a computational, network-based prediction. It is not backed by any mechanism, trial or publication in the supplied data.
 
-Other top predictions were also reviewed (pneumocystosis, leprosy, cryptococcal meningitis, multiple endocrine neoplasia, intracranial abscess, malaria, echinococcosis, hyperargininemia). None has any clinical or literature support, and none has an established mechanistic rationale. The only prediction with any supporting evidence is **retinitis** (rank 7, score 99.68%), which has one preclinical study (see below).
+Other top predictions were also reviewed (pneumocystosis, leprosy, cryptococcal meningitis, multiple endocrine neoplasia, intracranial abscess, malaria, echinococcosis, hyperargininemia). None has any clinical or literature support, and none has an established mechanistic rationale. The only prediction with any supporting evidence is **retinitis** (rank 7, score 0.9968), which has one preclinical study (see below).
 
 ## Clinical Trial Evidence
 

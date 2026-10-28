@@ -50,10 +50,10 @@ The prediction is therefore model-only, with no credible supporting evidence.
 |------|------|
 | Original Indication | Not stated in the HSA licence data (injectable inotrope, cardiac support) |
 | Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction is therefore model-only, with no credible supporting evidence.
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dobutamine is a beta-1 adrenergic agonist given intravenously to increase cardiac contractility, for example in acute heart failure or low-output states.
 
-The prediction has no credible mechanistic basis. Dobutamine has no known action on hair follicles. The high score is most likely an artefact of the knowledge graph, which links cardiovascular drugs to hair-growth conditions through shared associations such as minoxidil, a vasodilator used for hair growth. The only retrieved paper describes heart failure caused by minoxidil poisoning in a cat, in which dobutamine was used only to treat low blood pressure. It does not evaluate dobutamine for alopecia.
+The prediction has no credible mechanistic basis. Dobutamine has no known action on hair follicles. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only retrieved paper describes heart failure caused by minoxidil poisoning in a cat, in which dobutamine was used only to treat low blood pressure. It does not evaluate dobutamine for alopecia.
 
 Other top-ranked predictions (hypotrichosis, diffuse alopecia areata, hypertrichosis, glaucoma, Raynaud disease, headache, migraine) show the same pattern: high scores with no trials and no supporting literature. Headache in particular is more likely an adverse-effect signal than a treatment indication.
 
@@ -123,7 +123,7 @@ The prediction rests only on a model score. There are no clinical trials, no sup
 - Mechanism of action data from DrugBank
 - Preclinical evidence of an effect on hair follicles or hair growth
 - Assessment of whether a topical route is feasible, since only an injectable form is registered in Singapore
-- Re-examination of whether the alopecia prediction is a minoxidil-related knowledge-graph artefact
+- Re-examination of whether the alopecia prediction is a minoxidil-related TxGNN model (deep learning) artefact
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

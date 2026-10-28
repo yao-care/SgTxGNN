@@ -4,17 +4,17 @@ title: Enzalutamide
 parent: Low Evidence (L5)
 nav_order: 381
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Enzalutamide: predicted new indication Prostate cancer/brain cancer susceptibility (evidence level L5). Approved use: Prostate cancer"
 monitor_inn: "Enzalutamide"
-predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "benign neoplasm of prostate", "prostate phyllodes tumor"]
+predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+description: "Enzalutamide: predicted new indication Prostate leiomyoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Enzalutamide: From Prostate Cancer to Prostate Cancer/Brain Cancer Susceptibility
+## Enzalutamide: Prostate leiomyoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Enzalutamide is an androgen receptor (AR) signaling inhibitor, originally used to treat prostate cancer.
-The TxGNN model predicts it may be effective for **prostate cancer/brain cancer susceptibility** (top-ranked prediction), but this prediction rests on **model output only**, with **0 clinical trials** and **0 publications** directly supporting it.
 Broader related terms (such as "male reproductive organ cancer" and "prostate neoplasm") show extensive evidence, but it is almost entirely for prostate cancer, which is already the approved use.
 
 ---
@@ -48,12 +47,12 @@ Broader related terms (such as "male reproductive organ cancer" and "prostate ne
 
 | Item | Content |
 |------|------|
-| Original Indication | Prostate cancer (the Singapore licence record contains no indication text; the original indication comes from the knowledge graph: prostate cancer, familial prostate carcinoma, prostate carcinoma) |
-| Predicted New Indication | Prostate cancer/brain cancer susceptibility |
-| TxGNN Prediction Score | 99.71% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Prostate leiomyoma |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 (for the top prediction) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +61,9 @@ Broader related terms (such as "male reproductive organ cancer" and "prostate ne
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, enzalutamide blocks androgen binding to the AR, prevents AR nuclear translocation, and impairs AR binding to DNA. Its efficacy in prostate cancer is well established.
 
-The top prediction most likely reflects a shared prostate cancer gene-disease association in the knowledge graph, not a true biological link. Nothing in the data connects enzalutamide to a brain cancer susceptibility phenotype, so this prediction should be treated as a model artefact until proven otherwise.
+Nothing in the data connects enzalutamide to a brain cancer susceptibility phenotype, so this prediction should be treated as a model artefact until proven otherwise.
 
-The other top-10 predictions are also weakly supported. Rare prostatic stromal tumours (leiomyoma, fibroma, phyllodes tumours) could in theory depend on AR signaling, and Brenner tumour (an ovarian neoplasm) has no known AR dependence. None has any trials or publications. The broader terms "male reproductive organ cancer", "prostate neoplasm" and "benign neoplasm of prostate" carry evidence that concerns malignant prostate cancer, not new uses.
+The other top-10 predictions are also weakly supported. Rare prostatic stromal tumours (leiomyoma, fibroma, phyllodes tumours) could in theory depend on AR signaling, and Brenner tumour (an ovarian neoplasm) has no known AR dependence. None has any trials or publications.
 
 ---
 
@@ -139,7 +138,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (prostate cancer/brain cancer susceptibility) is supported by model output only (L5), with no trials, no literature, and no plausible mechanistic link to enzalutamide. The strong Phase 3 evidence found for broader terms reflects the existing prostate cancer indication, not a new repurposing opportunity. For those label-aligned terms, use would be "Proceed with Guardrails" (L1) as confirmation of existing use only.
+The strong Phase 3 evidence found for broader terms reflects the existing prostate cancer indication, not a new repurposing opportunity. For those label-aligned terms, use would be "Proceed with Guardrails" (L1) as confirmation of existing use only.
 
 **To proceed, the following is needed:**
 - Clarification of what the "prostate cancer/brain cancer susceptibility" term represents, and any biological or clinical rationale linking enzalutamide to it

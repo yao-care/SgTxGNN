@@ -4,17 +4,17 @@ title: Chloramphenicol
 parent: Medium Evidence (L3-L4)
 nav_order: 236
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Chloramphenicol: predicted new indication Conjunctivitis (evidence level L3). Approved use: Typhoid fever, salmonellosis, paratyphoid fever…"
 monitor_inn: "Chloramphenicol"
-predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "chronic rhinosinusitis"]
+predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Topical chloramphenicol for bacterial conjunctivitis is already established clin
 |------|------|
 | Original Indication | Typhoid fever, salmonellosis, paratyphoid fever, meningococcal infection, streptococcal meningitis, and other infections (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

@@ -4,17 +4,17 @@ title: Pegfilgrastim
 parent: Low Evidence (L5)
 nav_order: 769
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Pegfilgrastim: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not listed in the Singapore licence records"
 monitor_inn: "Pegfilgrastim"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "primary release disorder of platelets", "diabetic cataract", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "drug-induced osteoporosis", "senile cataract", "nuclear senile cataract", "cortical cataract"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 ---
 
 # Pegfilgrastim
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **severe nonproliferative diabe
 |------|------|
 | Original Indication | Not listed in the Singapore licence records |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on general 
 
 A theoretical link exists: G-CSF can mobilise haematopoietic and endothelial progenitor cells, which might influence vascular repair. This is speculative. Neutrophil activation could also worsen retinal inflammation, so the direction of effect is uncertain.
 
-The high score (0.999) is a model prediction only. Other predictions for this drug (for example diabetic retinopathy, diabetic cataract and several cataract subtypes) appear to reflect network proximity to diabetic and eye-related conditions rather than biological rationale.
+The high score (0.9989) is a model prediction only. Other predictions for this drug (for example diabetic retinopathy, diabetic cataract and several cataract subtypes) appear to reflect network proximity to diabetic and eye-related conditions rather than biological rationale.
 
 ## Clinical Trial Evidence
 

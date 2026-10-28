@@ -4,17 +4,17 @@ title: Glutamic Acid
 parent: Medium Evidence (L3-L4)
 nav_order: 484
 evidence_level: L4
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the licence data"
 monitor_inn: "Glutamic acid"
-predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)", "autosomal dominant neovascular inflammatory vitreoretinopathy", "dyspepsia", "open-angle glaucoma", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "Worth syndrome", "vitamin deficiency disorder"]
+predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
 ---
 
 # Glutamic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The high model score is a prediction, not clinical evidence.
 |------|------|
 | Original Indication | Not stated in the licence data; marketed as a component of parenteral amino acid and nutrition infusion products |
 | Predicted New Indication | Postmenopausal osteoporosis |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -124,7 +124,7 @@ Theoretical concerns also apply to the predicted indications. Glutamate excitoto
 **Rationale:**
 There are no clinical trials, and the literature is indirect: it concerns vitamin K, vitamin D and different glutamate compounds, with only one mouse study on glutamic acid itself. The evidence is at the mechanism or preclinical level (L4), and the knowledge-graph flags for renal, calcium and cardiac disease add safety questions for a bone indication.
 
-The other predicted indications (pregnancy-associated osteoporosis, glaucoma, gastroparesis, dyspepsia and others) are supported by prediction only (L5) and are also on Hold.
+The other predicted indications (pregnancy-associated osteoporosis, glaucoma, gastroparesis and others) are supported by prediction only (L5) and are also on Hold.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Singapore HSA, to complete safety screening

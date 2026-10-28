@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pheniramine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 783
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Pheniramine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Pheniramine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "anorectal stricture"]
+predicted_indications: ["nasal cavity disease"]
+description: "Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pheniramine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Pheniramine: From Allergic and Upper Respiratory Conditions to Allergic Urticaria
+## Pheniramine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pheniramine is a first-generation H1-antihistamine, originally used for allergic rhinitis, the common cold, allergic conjunctivitis, urticaria and angioedema.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but this largely restates an existing indication, and **0 clinical trials** and **4 publications** (none providing efficacy evidence for pheniramine) are currently available.
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but thi
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, allergic conjunctivitis, urticaria, angioedema (the Singapore licence has no approved indication text recorded) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9928 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +62,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Urticaria and angioedema are already among pheniramine's known original indications. The prediction is therefore not a true repurposing finding but a restatement of existing use, which is consistent with the very high TxGNN score.
 
-Other predicted indications, such as nasal cavity disease, acute laryngopharyngitis and cold urticaria, also overlap with existing uses. Others, such as faucial diphtheria, cervical disc degenerative disorder and anorectal stricture, have no plausible mechanistic link.
+Other predicted indications, such as nasal cavity disease, acute laryngopharyngitis and cold urticaria, also overlap with existing uses.
 
 ---
 

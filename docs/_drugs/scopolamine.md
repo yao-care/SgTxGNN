@@ -4,17 +4,17 @@ title: Scopolamine
 parent: Low Evidence (L5)
 nav_order: 897
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Peptic ulcer disease, allergic rhinitis, uveitis, motion sickness…"
 monitor_inn: "Scopolamine"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "idiopathic uveal effusion syndrome", "idiopathic panuveitis"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis"]
+description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Scopolamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Scopolamine: From Peptic Ulcer Disease and Motion Sickness to Cauda Equina Syndrome
+## Scopolamine: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, allergic rhinitis, uveitis, motion sickness, irritable bowel syndrome and others (from the knowledge graph; no approved indication text is available for Singapore licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,15 +64,11 @@ Cauda equina syndrome causes bladder and bowel dysfunction. Antimuscarinics can 
 
 | Rank | Predicted Indication | Score | Comment |
 |---|---|---|---|
-| 2 | Neurogenic bladder (obsolete term) | 99.98% | Plausible class-level antimuscarinic effect, but central side effects limit use and better bladder-selective agents exist |
-| 3 | Papillary conjunctivitis | 99.98% | Indirect link; antihistamines and mast-cell stabilisers are more appropriate |
-| 4 | Atopic conjunctivitis | 99.80% | Does not address IgE-mediated inflammation; may worsen dry eye |
-| 5 | Rosacea conjunctivitis | 99.40% | No clear mechanism; tear-film reduction could aggravate symptoms |
-| 6 | Vernal conjunctivitis | 99.08% | Th2-driven disease; link is only through allergic and ocular indications |
-| 7 | Nasal cavity disease | 98.998% | Biologically coherent (existing rhinitis uses) but a very broad category |
-| 8 | Acute laryngopharyngitis | 98.87% | Adjacent to historical pharyngitis and common cold uses; drying may be undesirable in acute infection |
-| 9 | Idiopathic uveal effusion syndrome | 98.30% | Strongest mechanistic rationale (cycloplegia), but definitive management is usually surgical |
-| 10 | Idiopathic panuveitis | 98.14% | Effectively an existing indication; symptomatic benefit only |
+| 2 | Neurogenic bladder (obsolete term) | 0.9998 | Plausible class-level antimuscarinic effect, but central side effects limit use and better bladder-selective agents exist |
+| 3 | Papillary conjunctivitis | 0.9998 | Indirect link; antihistamines and mast-cell stabilisers are more appropriate |
+| 4 | Atopic conjunctivitis | 0.9980 | Does not address IgE-mediated inflammation; may worsen dry eye |
+| 5 | Rosacea conjunctivitis | 0.9940 | No clear mechanism; tear-film reduction could aggravate symptoms |
+| 6 | Vernal conjunctivitis | 0.9908 | Th2-driven disease; link is only through allergic and ocular indications |
 
 ## Clinical Trial Evidence
 
@@ -80,7 +76,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature directly supports the lead prediction (cauda equina syndrome). The only publication retrieved was for a lower-ranked prediction, nasal cavity disease:
+No literature directly supports the lead prediction (cauda equina syndrome).
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -120,7 +116,7 @@ Minor interactions include acetaminophen and hydrochlorothiazide. For package in
 **Decision: Hold**
 
 **Rationale:**
-The prediction for cauda equina syndrome is supported only by the model score (Evidence Level L5), with no trials or literature. Antimuscarinics could at most relieve symptoms, not treat the underlying cause. Scopolamine also has central side effects and a long list of contraindications, and better-suited bladder agents exist. Of the predictions, idiopathic uveal effusion syndrome has the most plausible mechanism, and idiopathic panuveitis largely overlaps with existing uses.
+The prediction for cauda equina syndrome is supported only by the model score (Evidence Level L5), with no trials or literature. Antimuscarinics could at most relieve symptoms, not treat the underlying cause. Scopolamine also has central side effects and a long list of contraindications, and better-suited bladder agents exist.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)

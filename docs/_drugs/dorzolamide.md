@@ -4,17 +4,17 @@ title: Dorzolamide
 parent: Low Evidence (L5)
 nav_order: 348
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Dorzolamide: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
+description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dorzolamide: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Dorzolamide: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Dorzolamide is a topical carbonic anhydrase inhibitor originally used to lower eye pressure in open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but there are currently **0 clinical trials** and **0 publications** for this specific condition, so the prediction rests on the model score and mechanistic reasoning alone.
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be effective for **primary hereditary glaucoma**
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma; ocular hypertension |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

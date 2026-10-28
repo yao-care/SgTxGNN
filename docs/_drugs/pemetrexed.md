@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pemetrexed
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 772
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pemetrexed: predicted new indication Malignant peritoneal mesothelioma (evidence level L2). Approved use: Non-small cell lung cancer"
 monitor_inn: "Pemetrexed"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Pemetrexed: From Non-Small Cell Lung Cancer and Pleural Mesothelioma to Malignant Peritoneal Mesothelioma
+## Pemetrexed: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pemetrexed is an antifolate chemotherapy originally used for non-small cell lung cancer and malignant pleural mesothelioma.
-The TxGNN model predicts it may be effective for **malignant peritoneal mesothelioma**,
 with **7 clinical trials** and **20 publications** currently supporting this direction. Pemetrexed-platinum is already used for this disease by extrapolation from pleural disease, so this is closer to a label extension than a novel repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung cancer; malignant pleural mesothelioma (the Singapore licence records contain no indication text, so this comes from the knowledge-graph indication data) |
-| Predicted New Indication | Malignant peritoneal mesothelioma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 13 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pleural adenomatoid tumor |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -106,7 +105,6 @@ There are 13 valid single-ingredient licences in total, all for injectable forms
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (antifolate class) |
-| Myelosuppression Risk | Medium to high. The knowledge graph links pemetrexed with neutropenia, thrombocytopenia, anaemia and agranulocytosis. |
 | Emetogenicity Classification | Low to moderate |
 | Monitoring Items | Complete blood count with differential, renal function (including creatinine clearance), liver function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
@@ -115,7 +113,6 @@ Please refer to the package insert warnings and precautions for full details.
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (knowledge-graph associations, not label text)**: kidney disease and impaired renal function, thrombocytopenia, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), and pyoureter.
 - **Drug Interactions**: 100 interactions were found. The main ones shown are all moderate: NSAID-type and salicylate drugs (acetylsalicylic acid, mesalazine, balsalazide, olsalazine), H2 blockers (famotidine, ranitidine, cimetidine), metformin, amphotericin B formulations, aminoglycosides and polymyxin B (kanamycin, neomycin, polymyxin B), vancomycin, amoxicillin, levofloxacin and sapropterin. Many of these affect renal clearance or kidney function.
 
 Please refer to the package insert for label warnings and contraindications.

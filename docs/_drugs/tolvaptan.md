@@ -4,17 +4,17 @@ title: Tolvaptan
 parent: Low Evidence (L5)
 nav_order: 1005
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Tolvaptan: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Inappropriate ADH syndrome (SIADH)"
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tolvaptan: From SIADH-Related Hyponatraemia and Polycystic Kidney Disease to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tolvaptan is a selective vasopressin V2 receptor antagonist, originally used for inappropriate ADH syndrome (SIADH), nephrogenic syndrome of inappropriate antidiuresis and polycystic kidney disease.
-The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease**.
 Currently **no registered clinical trials** are linked to this exact indication, but **20 publications** support the direction, including **2 RCTs** (in ADPKD generally) and a Cochrane systematic review.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Inappropriate ADH syndrome (SIADH); nephrogenic syndrome of inappropriate antidiuresis; polycystic kidney disease (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 (based on pivotal RCTs in ADPKD generally; none specific to PKD3) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Renal-hepatic-pancreatic dysplasia |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 (based on pivotal RCTs in ADPKD generally; none specific to PKD3) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

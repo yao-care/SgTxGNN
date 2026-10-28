@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fluoxetine
-parent: Medium Evidence (L3-L4)
-nav_order: 443
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Fluoxetine: predicted new indication Schizotypal personality disorder (evidence level L3). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
+parent: Low Evidence (L5)
+nav_order: 442
+evidence_level: L5
+indication_count: 9
 monitor_inn: "Fluoxetine"
-predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants", "melancholia"]
+predicted_indications: ["schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
+last_modified_at: 2026-10-23
+description: "Fluoxetine: predicted new indication Schizotypal personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluoxetine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,104 +33,86 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Fluoxetine: From Depression and Anxiety Disorders to Schizotypal Personality Disorder
+## Fluoxetine: Schizotypal personality disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fluoxetine is a selective serotonin reuptake inhibitor (SSRI), originally used for depression, anxiety disorders, obsessive-compulsive disorder and bulimia nervosa.
-The TxGNN model predicts it may be effective for **schizotypal personality disorder**,
-but there are currently **no registered clinical trials** and only a small body of directly relevant literature (one 22-patient open-label study from 1991 plus reviews), so the evidence is limited.
-
----
+Fluoxetine is a selective serotonin reuptake inhibitor (SSRI). The TxGNN model predicts it may be useful for **schizotypal personality disorder**, but there are **no registered clinical trials** and only **10 publications**, most of them indirect, so the evidence is limited.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, bipolar disorder, unipolar and endogenous depression, major depressive disorder, bulimia nervosa, obsessive-compulsive disorder (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Schizotypal personality disorder |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
-| Recommended Decision | Hold (research question only) |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 (no study directly and adequately addresses this disease; see below) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
+| Recommended Decision | Hold |
 
----
+**Note on the evidence level:** One small, open-label, 12-week study (PMID 1853957, 22 patients) included schizotypal patients, but it mixed them with borderline personality disorder patients and reported results for the combined group. The other papers are reviews, comorbidity studies or case reports. Because no cited study directly establishes efficacy in schizotypal personality disorder, the evidence level is capped at L5, which is lower than the L3 shown in the compiled data.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, fluoxetine is an SSRI whose efficacy in depression, anxiety and obsessive-compulsive disorder is well established. Mechanistically, serotonergic modulation may reduce affective instability and the obsessive and anxious features that overlap with schizotypal traits.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, fluoxetine is an SSRI. Serotonergic modulation may reduce affective instability, obsessional features and impulsivity, which overlap partly with schizotypal traits.
 
-The strongest direct support is a 1991 prospective, non-blind 12-week study of 22 patients with borderline or schizotypal personality disorder. It reported significant reductions in self-injury and in Hopkins Symptom Checklist scores, and the authors called for controlled trials. A 1998 review of psychopharmacologic treatment in these disorders concluded that there is no agent of choice, and that different drug classes may help selected patients depending on symptom presentation.
+The relationship to the original uses is indirect. Those uses (depression, anxiety, obsessive-compulsive disorder, bulimia) are mood and anxiety conditions. Schizotypal personality disorder is a cluster A personality disorder with odd beliefs, social withdrawal and perceptual distortions. The small open-label study (PMID 1853957) reported reductions in self-injury and in symptom checklist scores in a mixed borderline and schizotypal group. A cluster A review (PMID 29955451) and a pharmacotherapy review (PMID 9448667) indicate there is no agent of choice for these disorders. No effect on core psychotic-like or negative symptoms has been established.
 
-There is also a safety signal: a 1998 case report describes transient psychosis with psychogenic polydipsia in a schizotypal patient taking fluoxetine. The high TxGNN score therefore remains a hypothesis rather than confirmed efficacy.
-
----
+There is also a safety signal: a case report (PMID 9664779) describes transient psychosis with psychogenic polydipsia in a schizotypal patient taking fluoxetine.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1853957](https://pubmed.ncbi.nlm.nih.gov/1853957/) | 1991 | Open-label study | Am J Psychiatry | 22 borderline/schizotypal patients on fluoxetine for 12 weeks; significant reductions in self-injury and symptom scores; controlled trials recommended |
-| [9448667](https://pubmed.ncbi.nlm.nih.gov/9448667/) | 1998 | Clinical outcome review | J Clin Psychiatry | No agent of choice for borderline or schizotypal personality disorder; benefit depends on symptom presentation |
-| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | Ment Health Clin | Pharmacologic treatment of cluster A personality disorders |
-| [8227492](https://pubmed.ncbi.nlm.nih.gov/8227492/) | 1993 | Review | J Clin Psychopharmacol | Conceptual framework and efficacy data for medications in personality disorders |
-| [12214786](https://pubmed.ncbi.nlm.nih.gov/12214786/) | 2002 | Review | Psychol Med | Personality disorder diagnoses in depressed outpatients before and after fluoxetine treatment (indirect) |
-| [15209835](https://pubmed.ncbi.nlm.nih.gov/15209835/) | 2004 | Cohort | Aust N Z J Psychiatry | Personality traits and treatment outcome in bipolar II disorder versus major depression (indirect) |
-| [9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/) | 1998 | Case report | Psychosomatics | Transient psychosis with psychogenic polydipsia in a schizotypal patient taking fluoxetine (safety signal) |
-
----
+| [1853957](https://pubmed.ncbi.nlm.nih.gov/1853957/) | 1991 | Open-label clinical study | Am J Psychiatry | 22 patients with borderline and/or schizotypal personality disorder; 12 weeks of fluoxetine reduced self-injury and symptom scores; authors call for controlled trials |
+| [9448667](https://pubmed.ncbi.nlm.nih.gov/9448667/) | 1998 | Clinical outcome review | J Clin Psychiatry | No agent of choice for borderline or schizotypal personality disorder; benefit depends on symptom profile |
+| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | Ment Health Clin | Review of drug treatment for cluster A personality disorders |
+| [8227492](https://pubmed.ncbi.nlm.nih.gov/8227492/) | 1993 | Review | J Clin Psychopharmacol | Conceptual framework and efficacy data for drugs in personality disorders |
+| [12214786](https://pubmed.ncbi.nlm.nih.gov/12214786/) | 2002 | Review | Psychol Med | Personality disorder diagnoses in depressed outpatients before and after fluoxetine |
+| [15209835](https://pubmed.ncbi.nlm.nih.gov/15209835/) | 2004 | Cohort | Aust N Z J Psychiatry | Personality traits and treatment outcome in bipolar II disorder versus major depression |
+| [9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/) | 1998 | Case report | Psychosomatics | Transient psychosis with polydipsia in a schizotypal patient on fluoxetine (adverse event) |
+| [33634761](https://pubmed.ncbi.nlm.nih.gov/33634761/) | 2021 | Case report | CNS Neurol Disord Drug Targets | Catatonia treated with asenapine (not fluoxetine) in a schizotypal patient |
+| [7635854](https://pubmed.ncbi.nlm.nih.gov/7635854/) | 1995 | Cohort | J Clin Psychiatry | Predictors of drug response in OCD (indirect) |
+| [37082034](https://pubmed.ncbi.nlm.nih.gov/37082034/) | 2021 | Case report | Postepy Psychiatr Neurol | Comorbid OCD and anorexia nervosa in an adolescent (indirect) |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN03027P | PROZAC CAPSULE 20 mg | Capsule | Not stated in the available records |
-| SIN09317P | APO-FLUOXETINE CAPSULE 10 mg | Capsule | Not stated in the available records |
-| SIN09318P | APO-FLUOXETINE CAPSULE 20 mg | Capsule | Not stated in the available records |
-| SIN12311P | FLUOXETINE-TEVA 20 MG CAPSULES | Capsule | Not stated in the available records |
-| SIN11954P | PROCTIN CAPSULE 20 mg | Capsule | Not stated in the available records |
+| SIN03027P | PROZAC CAPSULE 20 mg | Capsule | Not stated in the records |
+| SIN09317P | APO-FLUOXETINE CAPSULE 10 mg | Capsule | Not stated in the records |
+| SIN09318P | APO-FLUOXETINE CAPSULE 20 mg | Capsule | Not stated in the records |
+| SIN12311P | FLUOXETINE-TEVA 20 MG CAPSULES | Capsule | Not stated in the records |
+| SIN11954P | PROCTIN CAPSULE 20 mg | Capsule | Not stated in the records |
 
-Seven valid single-ingredient licences are registered in total, all oral capsules.
-
----
+Seven single-ingredient oral capsule registrations are valid; the five main ones are shown above.
 
 ## Safety Considerations
 
-- **Disease-level contraindication signals (knowledge graph, not label text)**: Conditions linked to fluoxetine include bipolar disorder and major affective disorder, epilepsy, liver failure/liver disease and cirrhosis, diabetes and diabetic ketoacidosis, hyperglycemia, neutropenia and agranulocytosis, blood coagulation disease, orthostatic and other hypotensive disorders, benign prostatic hyperplasia, hyperlipidemia and hypertriglyceridemia, obesity, stroke and cerebrovascular disorders, and myocardial infarction. These should be verified against the package insert.
-- **Drug Interactions**: 100 interactions were found. Major-level examples include bupropion, lorcaserin, diethylpropion, dolasetron, palonosetron, eliglustat and cisapride. Moderate-level examples include famotidine, loperamide, morphine, acetylsalicylic acid, clarithromycin and chlorpropamide.
-- **Literature safety signal**: Transient psychosis with polydipsia in a schizotypal patient on fluoxetine (1998 case report).
+- **Relations recorded in the knowledge graph (not label text):** The knowledge graph links fluoxetine with a number of contraindication relations, including bipolar disorder and major affective disorder, epilepsy, liver failure, liver disease and cirrhosis, diabetes and diabetic ketoacidosis, neutropenia and agranulocytosis, blood coagulation disease, orthostatic hypotension, benign prostatic hyperplasia, hyperlipidemia, stroke and cerebrovascular disorders, and myocardial infarction. These have not been verified against the Singapore package insert.
+- **Drug interactions:** 100 interactions were found. Major ones include bupropion, lorcaserin, diethylpropion, dolasetron, palonosetron, eliglustat and cisapride. Moderate ones include aspirin, morphine, clarithromycin, famotidine, loperamide, chlorpropamide and several laxatives.
+- **Literature signals:** A case report links fluoxetine to transient psychosis in a schizotypal patient. Another report describes apathy and indifference, which appeared dose-related, with fluoxetine and fluvoxamine. Fluoxetine's suicidality warning in young patients was noted in the compiled rationale.
 
-Please refer to the package insert for warnings and contraindications.
-
----
+Please refer to the package insert for the full label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (research question only)**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but direct evidence for schizotypal personality disorder is limited to one small, non-blind study from 1991 and general reviews that identify no agent of choice. There are no registered trials, and a case report raises a psychosis-related safety signal in this population.
+The model score is very high (0.9992), but no registered trials exist and the only schizotypal-specific data are one small, non-blind study in a mixed borderline and schizotypal sample, plus reviews stating there is no agent of choice. A case report also raises a psychosis-related safety signal.
 
 **To proceed, the following is needed:**
-- A randomized, placebo-controlled trial of fluoxetine in schizotypal personality disorder
-- Package insert warnings and contraindications from HSA
-- Mechanism of action data
-- Safety review for psychotic-spectrum patients, including the polydipsia/psychosis case report
-
----
-
-**Other predicted indications (for reference):**
-- **Phobic disorder** (L1, Proceed with Guardrails): a completed Phase 3 trial in childhood social phobia (NCT00043537, n=139) plus reviews and meta-analyses support SSRI use. Whether fluoxetine was the pharmacologic arm needs verification, pediatric suicidality warnings apply, and novelty is limited because anxiety disorders are already an indication.
-- **Agoraphobia, manic bipolar affective disorder, melancholia** (L2, Research Question): these overlap with existing indications. Evidence for agoraphobia is mostly panic disorder studies. The bipolar evidence concerns the depressive phase, not mania, and antidepressant monotherapy in mania carries a switching risk. Melancholia lacks subtype-specific data.
-- **Schizoid, paranoid and histrionic personality disorders, benign paroxysmal torticollis of infancy, Ohdo syndrome** (L4–L5, Hold): prediction only, with no relevant fluoxetine-specific evidence.
+- A randomised, controlled trial of fluoxetine in a sample with schizotypal personality disorder alone
+- Mechanism of action data and a clearer mechanistic rationale for schizotypal features
+- The Singapore package insert warnings, contraindications and approved indications, since the licence text is empty
+- A safety plan covering psychosis, mania switching and suicidality in young patients, and the interaction risks above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

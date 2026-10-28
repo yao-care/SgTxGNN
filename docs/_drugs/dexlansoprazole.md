@@ -4,17 +4,17 @@ title: Dexlansoprazole
 parent: Low Evidence (L5)
 nav_order: 322
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Dexlansoprazole: predicted new indication Active peptic ulcer disease (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "Dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
+description: "Dexlansoprazole: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dexlansoprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dexlansoprazole: From Peptic Ulcer Disease / GERD to Active Peptic Ulcer Disease
+## Dexlansoprazole: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Dexlansoprazole is a proton pump inhibitor (PPI) originally used for peptic ulcer disease, gastroesophageal reflux disease (GERD) and esophagitis.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, although this is largely an on-label, mechanism-consistent use rather than true repurposing.
 Currently, **2 completed Phase 3 trials** and **3 publications** are listed for this indication. These trials were run in erosive esophagitis, so they support it only indirectly.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, peptic esophagitis (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.999% |
-| Evidence Level | L1 (see note below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 (see note below) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note: The L1 level reflects two large, completed Phase 3 RCTs. Both studied erosive esophagitis, not ulcer healing, so the support for ulcer endpoints is indirect.*
@@ -60,7 +59,7 @@ Currently, **2 completed Phase 3 trials** and **3 publications** are listed for 
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on established class knowledge, dexlansoprazole is a PPI. It irreversibly inhibits the gastric H+/K+ ATPase (the "proton pump") and suppresses acid secretion. Acid suppression is the core mechanism for healing peptic ulcers.
 
-Peptic ulcer disease is already among the drug's original indications in the knowledge graph. The prediction is therefore consistent with the drug's known pharmacology and with the PPI class. It reflects the closeness of related acid-driven diseases in the knowledge graph, rather than a new therapeutic area.
+The prediction is therefore consistent with the drug's known pharmacology and with the PPI class.
 
 Other predictions for this drug follow the same pattern:
 - **Gastric ulcer** and **duodenal ulcer** are supported indirectly by the same Phase 3 program (L1, Proceed with Guardrails).

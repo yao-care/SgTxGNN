@@ -8,6 +8,7 @@ nav_order: 20
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Abacavir Core
@@ -51,8 +52,8 @@ The primary cause is a missing DrugBank ID and an unresolved drug identity flag 
 | Predicted New Indication | None — no TxGNN predictions returned |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — no predictions available |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

@@ -4,17 +4,17 @@ title: Moclobemide
 parent: High Evidence (L1-L2)
 nav_order: 684
 evidence_level: L2
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Moclobemide"
-predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy", "melancholia", "Keppen-Lubinsky syndrome", "vitamin B12-responsive methylmalonic acidemia", "migraine disorder", "migraine with brainstem aura", "obsessive-compulsive disorder", "autosomal dominant slowed nerve conduction velocity"]
+predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Moclobemide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ This is a near-label extension of its existing anxiety use rather than a true re
 |------|------|
 | Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (the Singapore licence record contains no indication text) |
 | Predicted New Indication | Agoraphobia |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

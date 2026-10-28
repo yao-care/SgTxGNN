@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Pilocarpine
-parent: Low Evidence (L5)
-nav_order: 792
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Pilocarpine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
-monitor_inn: "Pilocarpine"
-predicted_indications: ["oral candidiasis", "osteoradionecrosis of the mandible", "commissural lip fistula", "burning mouth syndrome", "oral leukoedema", "chronic tic disorder", "benign shuddering attacks"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 791
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Pilocarpine: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Pilocarpine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,63 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pilocarpine: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+<!-- known-uses-page -->
+<!-- description: Pilocarpine: known uses and market status in Singapore; currently no new candidate indication -->
+## Pilocarpine: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Pilocarpine, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The one known use found is listed below with its source.
 
-> Pilocarpine is a muscarinic agonist originally used to lower eye pressure in open-angle glaucoma and ocular hypertension.
-> The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
-> but there are currently **0 clinical trials** and **0 publications** for this specific condition, so the prediction rests on the model score and general pharmacology alone.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma; ocular hypertension |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
-*The Singapore licence records contain no approved-indication text, so the original indications come from the TxGNN knowledge graph.*
+## Known uses among the model's candidates
 
----
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| primary hereditary glaucoma | licence in another country (approved indication: glaucoma) |
 
-## Why is This Prediction Reasonable?
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, pilocarpine is a muscarinic agonist. It contracts the ciliary muscle and increases outflow of aqueous humour through the trabecular meshwork, which lowers intraocular pressure (IOP). Its efficacy in open-angle glaucoma has been established over decades of clinical use.
-
-Primary hereditary glaucoma is also a disease of raised IOP caused by impaired aqueous outflow. A drug that opens the outflow pathway could therefore plausibly help. This is a mechanistic inference only. No studies for this specific condition were found, and the high score is a model prediction rather than clinical evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11683P | SALAGEN TABLET 5 mg | Film-coated tablet (oral) | — |
-| SIN04712P | ISOPTO CARPINE STERILE OPHTHALMIC SOLUTION 2% | Solution (ophthalmic) | — |
-
-Both licences are valid single-ingredient products, and none are cancelled. Only the ophthalmic solution matches the eye-related prediction. The oral tablet is a different route and would not be a like-for-like fit.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11683P | SALAGEN TABLET 5 mg | TABLET, FILM COATED | Valid |
+| SIN04712P | ISOPTO CARPINE STERILE OPHTHALMIC SOLUTION 2% | SOLUTION | Valid |
 
 ## Safety Considerations
 
@@ -104,19 +86,6 @@ Please refer to the package insert for authoritative warnings and contraindicati
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-- No trials or publications support primary hereditary glaucoma specifically, so the prediction is based on the model score and general pharmacology alone (L5).
-- Pilocarpine's established glaucoma use is already a labelled indication, so it adds little as a new repurposing signal. The related open-angle glaucoma entry has four linked trials, but they are small or non-efficacy studies, and none is a completed Phase 3 RCT.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening.
-- Mechanism of action data, for example from DrugBank.
-- A targeted literature search for pilocarpine in primary congenital or hereditary glaucoma, including case series and paediatric use.
-- Confirmation of whether this is a genuinely new use or falls under the existing glaucoma indication, and whether the ophthalmic solution is the appropriate route.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

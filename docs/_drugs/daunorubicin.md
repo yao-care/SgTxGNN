@@ -6,9 +6,9 @@ nav_order: 307
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Daunorubicin: predicted new indication Hodgkin's lymphoma (evidence level L3). Approved use: Acute lymphoblastic leukaemia and acute myeloid leukaemia"
 monitor_inn: "Daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
+description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Daunorubicin
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Daunorubicin: From Acute Leukaemia to Hodgkin's Lymphoma
+## Daunorubicin: Hodgkins lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but support is limited: **2 Phase 2 clinical trials** (neither isolates daunorub
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukaemia and acute myeloid leukaemia (from the knowledge graph; the Singapore licence record contains no indication text) |
-| Predicted New Indication | Hodgkin's lymphoma |
-| TxGNN Prediction Score | 99.81% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hodgkins lymphoma |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

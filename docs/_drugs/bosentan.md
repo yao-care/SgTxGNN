@@ -4,17 +4,17 @@ title: Bosentan
 parent: Medium Evidence (L3-L4)
 nav_order: 169
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Bosentan: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Pulmonary arterial hypertension…"
 monitor_inn: "Bosentan"
-predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita"]
+predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
 ---
 
 # Bosentan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The evidence is limited to model prediction and preclinical work.
 |------|------|
 | Original Indication | Pulmonary arterial hypertension, systemic sclerosis (scleroderma). No approved indication text is recorded in the Singapore licences. |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -113,7 +113,6 @@ The prediction score is high, but there are no clinical trials and no human data
 - A benefit-risk assessment addressing hepatotoxicity, anaemia and fluid retention in an RA population, who commonly take corticosteroids and other interacting drugs
 
 **Other predictions of note:**
-- **Limited systemic sclerosis** (score 99.65%, L4) is largely an extension of existing use, since systemic sclerosis is already an original indication. Evidence includes a 2023 systematic review and meta-analysis on digital ulcers (PMID 36974107), a 2025 randomised trial of bosentan versus nifedipine for scleroderma vasculopathy (PMID 36278776), and in vitro work on endothelial-to-mesenchymal transition (PMID 27716320). The underlying pivotal digital-ulcer RCTs are not in the compiled data and should be verified before upgrading the evidence level. This is the most promising direction for follow-up.
 - **Gout** and the other eight predictions (rare developmental and skin syndromes, hypertrichosis, and so on) have no supporting clinical evidence and should be held.
 ## Disclaimer
 

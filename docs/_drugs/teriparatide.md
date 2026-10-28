@@ -4,9 +4,9 @@ title: Teriparatide
 parent: Low Evidence (L5)
 nav_order: 969
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Teriparatide: predicted new indication Duodenal ulcer (evidence level L5). Approved use: Postmenopausal osteoporosis"
+description: "Teriparatide: predicted new indication duodenal ulcer (disease) (evidence level L5). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 # Teriparatide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Teriparatide: From Osteoporosis to Duodenal Ulcer
+## Teriparatide: From Osteoporosis to duodenal ulcer (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Teriparatide is a parathyroid hormone fragment (PTH 1-34), originally used to treat postmenopausal osteoporosis and other forms of osteoporosis in patients at high fracture risk.
-The TxGNN model predicts it may be effective for **duodenal ulcer**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** currently supporting it.
+The TxGNN model (deep learning) predicts it may be effective for **duodenal ulcer (disease)**, but this is a model prediction only, with **0 clinical trials** and **0 publications** currently supporting it.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **duodenal ulcer**, but this is
 |------|------|
 | Original Indication | Postmenopausal osteoporosis; osteoporosis |
 | Predicted New Indication | Duodenal ulcer |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **duodenal ulcer**, but this is
 
 Detailed mechanism of action data is not available in the data compiled for this report. Teriparatide is the active fragment of human parathyroid hormone. Pharmacology data show it binds the PTH1 and PTH2 receptors. Its established role is bone-anabolic: it stimulates osteoblast activity and bone formation, which is why it is used in osteoporosis.
 
-No plausible link between this bone-building signalling and duodenal ulcer healing is established in the available data. Duodenal ulcer is a gastrointestinal mucosal disease, driven mainly by acid, *H. pylori* and mucosal defence, and it is not a bone or calcium-metabolism disorder. The very high TxGNN score reflects a pattern in the knowledge graph rather than a demonstrated biological or clinical connection. No clinical or literature evidence was found to support it. This prediction should therefore be treated as a hypothesis only.
+No plausible link between this bone-building signalling and duodenal ulcer healing is established in the available data. Duodenal ulcer is a gastrointestinal mucosal disease, driven mainly by acid, *H. pylori* and mucosal defence, and it is not a bone or calcium-metabolism disorder. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No clinical or literature evidence was found to support it. This prediction should therefore be treated as a hypothesis only.
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Etravirine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 411
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Etravirine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Etravirine"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Etravirine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,26 +50,26 @@ The prediction is best treated as a research question, not an actionable repurpo
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the Singapore licence text lists no approved indication) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, etravirine is an NNRTI that inhibits HIV-1 reverse transcriptase, and its efficacy in HIV infection is established. Simian immunodeficiency virus (SIV) is a closely related lentivirus, which is why the model places it close to HIV in the knowledge graph.
+Detailed mechanism of action data is not available. Based on known information, etravirine is an NNRTI that inhibits HIV-1 reverse transcriptase, and its efficacy in HIV infection is established. Simian immunodeficiency virus (SIV) is a closely related lentivirus. The score for it comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 However, the mechanistic link is weak. SIV and HIV-2 are intrinsically resistant to most NNRTIs, so activity of etravirine against SIV is not expected from its class mechanism. The high TxGNN score most likely reflects network proximity to the HIV indication rather than a demonstrated pharmacological effect.
 
 Also note that SIV infection is an animal (non-human primate) disease. Any value would be as a research model rather than a human therapeutic indication.
 
 Other predictions in the top 10 are not better supported:
-- **Feline acquired immunodeficiency syndrome** (score 99.98%): veterinary, no evidence, and NNRTI activity against FIV is generally poor.
+- **Feline acquired immunodeficiency syndrome** (score 0.9998): veterinary, no evidence, and NNRTI activity against FIV is generally poor.
 - **AIDS related complex** and **congenital HIV**: these largely overlap with the existing HIV indication, so they are effectively on-label use rather than true repurposing. Evidence is observational or virologic only (Evidence Level L3).
-- **Rare neurodevelopmental disorder, benign prostate and reproductive neoplasms, Brenner tumor, obsolete familial combined hyperlipidemia**: no plausible mechanism and no evidence. These look like graph artifacts.
+- **Rare neurodevelopmental disorder, benign prostate and reproductive neoplasms, Brenner tumor, obsolete familial combined hyperlipidemia**: no plausible mechanism and no evidence. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

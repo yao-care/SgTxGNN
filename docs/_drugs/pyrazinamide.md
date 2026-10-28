@@ -6,9 +6,9 @@ nav_order: 842
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pyrazinamide: predicted new indication Infectious otitis media (evidence level L5). Approved use: Pulmonary tuberculosis, meningeal tuberculosis, tuberculous meningitis"
 monitor_inn: "Pyrazinamide"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
+description: "Pyrazinamide: predicted new indication Infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pyrazinamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pyrazinamide: From Tuberculosis to Infectious Otitis Media
+## Pyrazinamide: Infectious otitis media
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Related evidence exists only for tuberculous middle ear disease (a few case repo
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary tuberculosis, meningeal tuberculosis, tuberculous meningitis (from the knowledge graph; the Singapore licence has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Infectious otitis media |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +62,11 @@ Related evidence exists only for tuberculous middle ear disease (a few case repo
 
 Detailed mechanism of action data is not available. Based on known information, pyrazinamide is a component of standard multi-drug anti-tuberculosis regimens, its efficacy in tuberculosis has been established, and it acts only against *Mycobacterium tuberculosis*.
 
-The prediction is therefore only plausible for **tuberculous otitis media**, a rare extrapulmonary form of TB. Common bacterial otitis media is not covered by pyrazinamide. The very high TxGNN score is most likely driven by closeness to tuberculosis in the knowledge graph and not by pathogen-specific evidence.
+The prediction is therefore only plausible for **tuberculous otitis media**, a rare extrapulmonary form of TB. Common bacterial otitis media is not covered by pyrazinamide. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other ear-related predictions fall into three groups:
 - **TB-linked, supported only by case reports:** middle ear disease, chronic otitis media, suppurative otitis media. These are extensions of the existing TB indication and not true repurposing.
-- **No plausible mechanism:** non-suppurative, allergic, cholesterol granuloma, otosalpingitis and infectious otitis interna. These rest on graph similarity alone.
+- **No plausible mechanism:** non-suppurative, allergic, cholesterol granuloma, otosalpingitis and infectious otitis interna. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Non-ear prediction:** Lyme disease (rank 9) has no direct clinical evidence for pyrazinamide.
 
 ---

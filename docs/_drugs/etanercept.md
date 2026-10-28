@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etanercept
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 404
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Etanercept: predicted new indication Rheumatoid vasculitis (evidence level L4). Approved use: Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis…"
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-10-28
 monitor_inn: "Etanercept"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "WHIM syndrome"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etanercept
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Etanercept: From Rheumatoid Arthritis and Spondyloarthritis to Rheumatoid Vasculitis
+## Etanercept: Hypermobility of coccyx
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Etanercept is a TNF-blocking fusion protein, originally used for rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis and juvenile idiopathic arthritis.
-The TxGNN model predicts it may be effective for **rheumatoid vasculitis** (top-ranked prediction), but this prediction has only **1 clinical trial** (which does not test etanercept for this condition) and **20 publications**, several of which report etanercept *causing* vasculitis.
-Evidence for this top prediction is weak. Other predictions (inflammatory spondylopathy, polyarticular JIA) are much better supported, but they largely overlap with already-approved uses.
+Evidence for this top prediction is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis, juvenile idiopathic arthritis (from the knowledge graph; Singapore licence indication text is not available) |
-| Predicted New Indication | Rheumatoid vasculitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypermobility of coccyx |
+| TxGNN Prediction Score | 0.9963 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -110,9 +109,8 @@ Please refer to the package insert for warnings and contraindications.
 No trial tests etanercept in rheumatoid vasculitis, and the literature includes multiple reports of etanercept causing vasculitis and nodulosis. The high TxGNN score is not backed by direct evidence, and the safety signal runs against the hypothesis.
 
 **Other predictions from the model (for context):**
-- **Inflammatory spondylopathy** (99.57%, L1, Proceed with Guardrails): overlaps with approved ankylosing spondylitis and axial spondyloarthritis uses, supported by Phase 3 RCTs (e.g., NCT00421915, NCT00434044, NCT00317499). It is effectively an existing indication, not true repurposing.
-- **Polyarticular juvenile rheumatoid arthritis** (99.50%, L1, Proceed with Guardrails): an approved JIA use with Phase 3 data. Guardrails are standard paediatric TNF-inhibitor monitoring.
-- **Juvenile chronic polyarthritis** (L2) and **RF-positive polyarticular JIA** (L3): overlap with approved JIA use.
+- It is effectively an existing indication, not true repurposing.
+- Guardrails are standard paediatric TNF-inhibitor monitoring.
 - **Hold (L4/L5)**: rheumatoid nodulosis (literature indicates harm), vertebral disease (only indirect support), hypermobility of coccyx, Kummell disease and WHIM syndrome (no trials or literature, no plausible TNF mechanism).
 
 **To proceed, the following is needed:**

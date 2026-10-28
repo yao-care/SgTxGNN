@@ -4,17 +4,17 @@ title: Oxybutynin
 parent: Low Evidence (L5)
 nav_order: 749
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Overactive bladder, neurogenic bladder, cauda equina syndrome"
 monitor_inn: "Oxybutynin"
-predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease", "low compliance bladder", "nephrogenic syndrome of inappropriate antidiuresis", "insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "familial episodic pain syndrome with predominantly upper body involvement", "transient tic disorder"]
+predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 ---
 
 # Oxybutynin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Overactive bladder, neurogenic bladder, cauda equina syndrome (the Singapore licence lists no approved indication text) |
 | Predicted New Indication | Restless legs syndrome |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this report. Based on known information, oxybutynin is an antimuscarinic agent whose efficacy in overactive bladder is well established. It acts by relaxing the bladder detrusor muscle.
 
-The link to restless legs syndrome is speculative. A possible route is central or peripheral anticholinergic modulation, but nothing in the data compiled for this report supports it. Oxybutynin's anticholinergic burden could even aggravate sleep-related symptoms. The high score of 0.997 comes from a graph-based prediction only.
+The link to restless legs syndrome is speculative. A possible route is central or peripheral anticholinergic modulation, but nothing in the data compiled for this report supports it. Oxybutynin's anticholinergic burden could even aggravate sleep-related symptoms. The high score of 0.9974 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -94,7 +94,7 @@ Please also refer to the package insert for the official warnings and contraindi
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score, with no trials or literature. The anticholinergic profile of oxybutynin may even worsen sleep-related symptoms.
+The prediction rests only on the TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence, with no trials or literature. The anticholinergic profile of oxybutynin may even worsen sleep-related symptoms.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data and a credible biological link to restless legs syndrome
@@ -110,10 +110,7 @@ Other predictions were also reviewed. None is stronger than the leading one as a
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Peptic ulcer disease | 99.31% | L4 | Only 1960s descriptive evaluations, plus a 1990 report of oxybutynin-induced reflux esophagitis. Hold. |
-| Low compliance bladder | 97.88% | L3 | Systematic reviews and cohort studies of intravesical oxybutynin in neurogenic bladder. Closely related to the existing indications, so this is nearly on-label rather than true repurposing. Research Question. |
-| Attention deficit-hyperactivity disorder | 95.11% | L4 | The literature covers enuresis in children with ADHD, not treatment of ADHD itself. Hold. |
-| Gastroduodenitis, nephrogenic syndrome of inappropriate antidiuresis, insomnia, faciodigitogenital syndrome, familial episodic pain syndrome, transient tic disorder | 92.4–99.6% | L5 | No supporting evidence. Hold. |
+| Peptic ulcer disease | 0.9931 | L5 | Only 1960s descriptive evaluations, plus a 1990 report of oxybutynin-induced reflux esophagitis. Hold. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

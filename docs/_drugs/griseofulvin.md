@@ -4,17 +4,17 @@ title: Griseofulvin
 parent: Low Evidence (L5)
 nav_order: 492
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Dermatophyte infections (tinea pedis, tinea corporis, tinea unguium…"
 monitor_inn: "Griseofulvin"
-predicted_indications: ["myiasis", "creeping myiasis", "wound myiasis", "furuncular myiasis", "echinococcus granulosus infectious disease", "toxoplasmosis", "alveolar echinococcosis", "blastomycosis", "Bacteroidaceae infectious disease"]
+predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wound myiasis", "echinococcus granulosus infectious disease"]
+description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Griseofulvin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Griseofulvin: From Tinea (Dermatophyte) Infections to Myiasis
+## Griseofulvin: Myiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Griseofulvin is an oral antifungal originally used to treat dermatophyte infections such as tinea pedis, tinea corporis, tinea unguium and tinea barbae.
-The TxGNN model predicts it may be effective for **myiasis** (score 99.41%), but **no clinical trials and no publications** currently support this prediction.
+The TxGNN model predicts it may be effective for **myiasis** (score 0.9941), but **no clinical trials and no publications** currently support this prediction.
 It is a model-only signal (evidence level L5), and the mechanistic rationale is weak.
 
 ---
@@ -48,12 +48,12 @@ It is a model-only signal (evidence level L5), and the mechanistic rationale is 
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatophyte infections (tinea pedis, tinea corporis, tinea unguium, tinea barbae, scalp or beard dermatophytosis, groin and perianal dermatophytosis). Singapore licence records contain no approved-indication text, so these come from the knowledge-graph indication data. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myiasis |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,13 +62,10 @@ It is a model-only signal (evidence level L5), and the mechanistic rationale is 
 
 Detailed mechanism of action data is not currently available in the data compiled for this report. Based on general knowledge, griseofulvin is a fungistatic agent that disrupts fungal microtubules and mitosis. Its efficacy is established in dermatophyte infections of skin, hair and nails.
 
-Myiasis is an infestation of tissue by fly larvae. Larvae are arthropods, so there is no plausible shared target with a fungal-specific agent. The high TxGNN score is a graph-based prediction only. The closely related subtypes (creeping, wound and furuncular myiasis) share an identical score of 99.34%, which suggests a shared ontology-derived signal rather than independent evidence.
+Myiasis is an infestation of tissue by fly larvae. Larvae are arthropods, so there is no plausible shared target with a fungal-specific agent. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The closely related subtypes (creeping, wound and furuncular myiasis) share an identical score of 0.9934, which suggests a shared learned similarity rather than independent evidence.
 
 Other predicted indications are similarly weak:
 - **Echinococcosis (E. granulosus and alveolar)**: a speculative parallel exists, because benzimidazoles also act on tubulin. No data show that griseofulvin affects helminth tubulin.
-- **Cutaneous candidiasis** (score 98.71%): the only prediction with literature, but griseofulvin is generally considered ineffective against Candida. The 20 retrieved publications are mostly reviews of superficial mycoses and other antifungals (terbinafine, itraconazole, ketoconazole, tolnaftate). They are indirect evidence at best (evidence level L4).
-- **Blastomycosis** (score 97.08%): a systemic fungal infection, so class plausibility is higher. Azoles and amphotericin B are the standard treatments, and the three retrieved publications (1963–1994) are general reviews with only indirect support (L4).
-- **Toxoplasmosis and Bacteroidaceae infection**: no plausible mechanism, and no evidence.
 
 ---
 

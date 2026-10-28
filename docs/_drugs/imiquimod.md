@@ -48,10 +48,10 @@ with **2 clinical trials** and **9 publications** currently supporting this dire
 |------|------|
 | Original Indication | Common wart, anogenital HPV infection, superficial multifocal basal cell carcinoma, actinic keratosis and related skin conditions (the Singapore licence has no indication text on file) |
 | Predicted New Indication | Pre-malignant neoplasm |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L1 (as assigned in the compiled data; see the note below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 (as assigned in the compiled data; see the note below) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 > **Note on the evidence level:** The L1 grade requires at least two completed Phase 3 RCTs. Only one of the two Phase 3 trials is completed (and it is a single-arm, open-label study with 20 participants). The other was a randomised trial terminated after 9 participants. A stricter reading would place the evidence closer to L2/L3, supported mainly by reviews and case reports. The decision below reflects this caution.

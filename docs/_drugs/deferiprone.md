@@ -4,17 +4,17 @@ title: Deferiprone
 parent: Medium Evidence (L3-L4)
 nav_order: 309
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Hemosiderosis and beta-thalassaemia-related conditions"
 monitor_inn: "Deferiprone"
-predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary", "partial deletion of the short arm of chromosome 16"]
+predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "hepatopulmonary syndrome", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
+description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Deferiprone: From Transfusional Iron Overload in Thalassaemia to Hepatic Porphyria
+## Deferiprone: Hepatic porphyria
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **hepatic porphyria**, but ther
 
 | Item | Content |
 |------|------|
-| Original Indication | Hemosiderosis and beta-thalassaemia-related conditions (the Singapore licence entries contain no indication text, so this comes from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hepatic porphyria |
-| TxGNN Prediction Score | 99.20% |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

@@ -4,17 +4,17 @@ title: Letrozole
 parent: High Evidence (L1-L2)
 nav_order: 589
 evidence_level: L1
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Letrozole: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Not available"
 monitor_inn: "Letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Letrozole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Letrozole: From Breast Cancer Endocrine Therapy to Female Breast Carcinoma
+## Letrozole: Nipple carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Letrozole is an oral aromatase inhibitor that lowers estrogen production, and it is already marketed in Singapore for hormone-driven breast cancer.
-The TxGNN model predicts it may be effective for **female breast carcinoma**, which is an established use of the drug, not a new one.
 This direction is supported by **40 clinical trials** and **19 publications** listed for this prediction, including several large Phase 3 trials.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the Singapore licence records contain no indication text); the predicted indication is breast cancer, the drug's established use |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nipple carcinoma |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -120,7 +119,6 @@ Six other registrations are not listed: Letara, Letrocord, Letrovitae, Lebreta, 
 | Cytotoxicity Classification | Hormonal (endocrine) antineoplastic agent, non-steroidal aromatase inhibitor; not a conventional cytotoxic |
 | Myelosuppression Risk | Low; please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Low |
-| Monitoring Items | Please refer to the package insert; bone health and liver function are relevant given the knowledge-graph signals below |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations

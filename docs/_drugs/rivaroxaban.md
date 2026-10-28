@@ -4,17 +4,17 @@ title: Rivaroxaban
 parent: Low Evidence (L5)
 nav_order: 878
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the Singapore licence records (anticoagulant"
 monitor_inn: "Rivaroxaban"
-predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "systemic mastocytosis", "Smouldering systemic mastocytosis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Rivaroxaban
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 |------|------|
 | Original Indication | Not available in the Singapore licence records (anticoagulant; the retrieved literature concerns venous thromboembolism and atrial fibrillation) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available in the compiled data. Based o
 
 A plausible link to rheumatoid arthritis is the crosstalk between coagulation and inflammation. Factor Xa and thrombin signal through PAR-1/PAR-2 receptors in synovial tissue, and thrombin generation is elevated in autoimmune disease. This is a hypothesis only. No retrieved study evaluates rivaroxaban for controlling rheumatoid arthritis, and the high TxGNN score should be read as a computational signal, not clinical evidence.
 
-Other predicted indications (gout, HIV infection, rare syndromes, mastocytosis and others) have even weaker support. Several appear to be knowledge-graph artefacts. The HIV literature concerns drug interactions and bleeding risk, not treatment of HIV.
+Other predicted indications (gout, HIV infection, rare syndromes, mastocytosis and others) have even weaker support. Several appear to be TxGNN model (deep learning) artefacts. The HIV literature concerns drug interactions and bleeding risk, not treatment of HIV.
 
 ## Clinical Trial Evidence
 

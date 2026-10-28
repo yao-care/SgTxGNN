@@ -4,17 +4,17 @@ title: Guselkumab
 parent: Low Evidence (L5)
 nav_order: 494
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Guselkumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the Singapore licence data (approved indication text is…"
 monitor_inn: "Guselkumab"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
+description: "Guselkumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Guselkumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Guselkumab: From Plaque Psoriasis to Drug-Induced Osteoporosis (and Other Predicted Uses)
+## Guselkumab: Drug-induced osteoporosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Guselkumab is an IL-23 p19 inhibitor sold in Singapore as TREMFYA, and the data compiled for this report do not list its approved indication.
 The TxGNN model's top-ranked prediction is **drug-induced osteoporosis**, which has **no clinical trials and no publications** behind it.
-Two lower-ranked predictions are better supported: **psoriasis** (**30 clinical trials**, **20 publications**) and **ulcerative colitis** (**10 clinical trials**, **20 publications**).
 
 ---
 
@@ -48,23 +47,20 @@ Two lower-ranked predictions are better supported: **psoriasis** (**30 clinical 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence data (approved indication text is empty) |
-| Predicted New Indication | Drug-induced osteoporosis (rank 1) |
-| TxGNN Prediction Score | 99.84% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Drug-induced osteoporosis |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 **Other predictions in context**
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|
-| Psoriasis | 99.75% | L1 | Proceed with Guardrails |
-| Ulcerative colitis | 99.70% | L1 | Proceed with Guardrails |
-| Severe nonproliferative diabetic retinopathy, diabetic retinopathy, renal osteodystrophy, congenital hypotrichosis with juvenile macular dystrophy, primary release disorder of platelets, Glanzmann thrombasthenia, non-renal secondary hyperparathyroidism | 99.55%–99.80% | L5 | Hold |
+| Severe nonproliferative diabetic retinopathy, diabetic retinopathy, renal osteodystrophy, congenital hypotrichosis with juvenile macular dystrophy, primary release disorder of platelets, Glanzmann thrombasthenia, non-renal secondary hyperparathyroidism | 0.9955–0.9980 | L5 | Hold |
 
-Psoriasis and ulcerative colitis are the only predictions with actionable evidence, so the sections below cover them in detail.
 
 ---
 
@@ -74,7 +70,7 @@ Detailed mechanism-of-action data is not available in the compiled data. Based o
 
 **Drug-induced osteoporosis (top-ranked prediction).** IL-23/IL-17 signalling has been linked to inflammatory bone loss. However, there is no direct connection to drug-induced osteoporosis, such as glucocorticoid-induced bone loss. No trials or literature were found, so this prediction rests on the model score alone.
 
-**Psoriasis.** Blocking IL-23 interrupts the Th17 axis that drives keratinocyte overgrowth and skin inflammation. This is guselkumab's established use, so the evidence confirms the prediction and is not a new repurposing finding. The label should still be checked, because the licence data do not state the approved indications.
+**Psoriasis.** Blocking IL-23 interrupts the Th17 axis that drives keratinocyte overgrowth and skin inflammation. This is guselkumab's established use, not a new repurposing finding. The label should still be checked, because the licence data do not state the approved indications.
 
 **Ulcerative colitis.** IL-23 drives mucosal Th17 inflammation in inflammatory bowel disease, and guselkumab's p19 blockade targets this pathway directly. The Phase 3 QUASAR programme provides direct efficacy and safety evidence.
 
@@ -171,7 +167,7 @@ For warnings and contraindications, please refer to the package insert.
 **Decision: Hold** (for the top-ranked prediction, drug-induced osteoporosis)
 
 **Rationale:**
-The top prediction is supported only by a model score of 99.84%. It has no trials, no literature and no clear mechanistic link to IL-23 blockade. Psoriasis and ulcerative colitis are L1 and could proceed with guardrails, but psoriasis is already established use, and ulcerative colitis is supported by Phase 3 programmes that have not all completed.
+The top prediction is supported only by a model score of 0.9984. It has no trials, no literature and no clear mechanistic link to IL-23 blockade.
 
 **To proceed, the following is needed:**
 - Singapore package insert, to confirm approved indications, warnings and contraindications

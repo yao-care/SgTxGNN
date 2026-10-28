@@ -46,10 +46,10 @@ Nepafenac is a topical NSAID prodrug eye drop, marketed in Singapore as NevanacÂ
 |------|------|
 | Original Indication | Not stated in the Singapore licence data. Ocular inflammation and pain after cataract surgery is the drug's known use. |
 | Predicted New Indication | Eye disease |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L1 |
-| Singapore Market Status | âœ“ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -122,7 +122,7 @@ Multiple completed Phase 3 trials, including large randomised trials after catar
 
 **To proceed, the following is needed:**
 - The approved indication text from the Singapore package insert, to confirm which uses are already authorised.
-- The package insert warnings and contraindications, checked against the knowledge-graph signals (especially corneal and ocular surface disease, diabetes and bleeding disorders).
+- The package insert warnings and contraindications, checked against the TxGNN model (deep learning) signals, which may reflect similarities the model learned between related diseases, not biological evidence (especially corneal and ocular surface disease, diabetes and bleeding disorders).
 - Narrowing of the target to specific conditions (postoperative inflammation, cystoid macular edema, diabetic macular edema).
 - A corneal safety monitoring plan for high-risk patients.
 - Mechanism of action data from DrugBank.

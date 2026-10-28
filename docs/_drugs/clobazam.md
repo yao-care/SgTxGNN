@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clobazam: predicted new indication Febrile infection-related epilepsy syndrome (evidence level L4). Approved use: Lennox-Gastaut syndrome"
 monitor_inn: "Clobazam"
-predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "cryptogenic late-onset epileptic spasms", "atypical childhood epilepsy with centrotemporal spikes", "photosensitive occipital lobe epilepsy", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
+predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "atypical childhood epilepsy with centrotemporal spikes", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
 ---
 
 # Clobazam
@@ -48,10 +48,10 @@ but there are **0 registered clinical trials** and only **2 publications** (a ca
 |------|------|
 | Original Indication | Lennox-Gastaut syndrome (the Singapore licence record contains no indication text) |
 | Predicted New Indication | Febrile infection-related epilepsy syndrome |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -105,10 +105,10 @@ The prediction score is very high, but there are no clinical trials and only two
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |------|------|------|------|------|
-| 6 | Childhood onset epileptic encephalopathy | 99.59% | L1 | Largely an on-label use (Lennox-Gastaut syndrome), supported by guidelines and reviews. This is not true repurposing, and other encephalopathies (e.g., STXBP1, Angelman, Dravet) need syndrome-specific confirmation. This is the strongest candidate, at Proceed with Guardrails. |
-| 7 | Benign occipital epilepsy | 99.58% | L4 | A Cochrane review covers clobazam monotherapy in focal or generalized seizures, but nothing is specific to this syndrome. |
-| 3, 4, 5 | Cryptogenic late-onset epileptic spasms; atypical childhood epilepsy with centrotemporal spikes; photosensitive occipital lobe epilepsy | 99.77% each | L4 | Indirect and weak literature only. |
-| 2, 8, 9, 10 | Perioral myoclonia with absences; GRIN2A-related epileptic encephalopathy; restless legs syndrome; polymicrogyria with optic nerve hypoplasia | 99.07–99.79% | L5 | Prediction score only, with no trials or literature. Hold. |
+| 6 | Childhood onset epileptic encephalopathy | 0.9959 | L5 | Largely an on-label use (Lennox-Gastaut syndrome), supported by guidelines and reviews. This is not true repurposing, and other encephalopathies (e.g., STXBP1, Angelman, Dravet) need syndrome-specific confirmation. This is the strongest candidate, at Proceed with Guardrails. |
+| 7 | Benign occipital epilepsy | 0.9958 | L5 | A Cochrane review covers clobazam monotherapy in focal or generalized seizures, but nothing is specific to this syndrome. |
+| 3, 4, 5 | Cryptogenic late-onset epileptic spasms; atypical childhood epilepsy with centrotemporal spikes; photosensitive occipital lobe epilepsy | 0.9977 each | L5 | Indirect and weak literature only. |
+| 2, 8, 9, 10 | Perioral myoclonia with absences; GRIN2A-related epileptic encephalopathy; restless legs syndrome; polymicrogyria with optic nerve hypoplasia | 99.07–0.9979 | L5 | Prediction score only, with no trials or literature. Hold. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

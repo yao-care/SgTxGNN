@@ -4,17 +4,17 @@ title: Latanoprostene Bunod
 parent: Low Evidence (L5)
 nav_order: 582
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Latanoprostene Bunod: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Latanoprostene bunod"
-predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "idiopathic spontaneous coronary artery dissection", "angiodysplasia of stomach", "lymphangiectasis", "hemangioendothelioma"]
+predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "idiopathic spontaneous coronary artery dissection", "angiodysplasia of stomach", "lymphangiectasis", "hemangioendothelioma"]
+description: "Latanoprostene Bunod: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Latanoprostene Bunod
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Latanoprostene Bunod: From Open-Angle Glaucoma to Visceral Calciphylaxis
+## Latanoprostene Bunod: Visceral calciphylaxis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma; ocular hypertension (the Singapore licence record contains no indication text, so these are taken from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Visceral calciphylaxis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The link to visceral calciphylaxis is weak. NO-mediated vasodilation could theoretically relate to calcific vasculopathy. However, calciphylaxis involves widespread vascular calcification and clotting, and an eye drop gives minimal systemic exposure. The prediction is therefore best viewed as a hypothesis from the model, not a mechanistically supported finding.
 
-For context, the other top-ranked predictions are mostly vascular or thoracic outlet conditions with similarly weak rationale. The one exception is **primary hereditary glaucoma** (score 99.71%), which is mechanistically plausible but closely mirrors the existing glaucoma labelling, so it is not a novel repurposing signal. Efficacy in paediatric or developmental glaucoma, where drainage-pathway malformations may limit response, is unestablished.
+For context, the other top-ranked predictions are mostly vascular or thoracic outlet conditions with similarly weak rationale.
 
 ## Clinical Trial Evidence
 

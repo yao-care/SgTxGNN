@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Codeine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 276
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Codeine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Codeine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis", "tracheal disease", "cold urticaria", "bronchial disease"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 ---
 
 # Codeine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,9 +47,9 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but o
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (the Singapore licence records contain no approved-indication text) |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but o
 
 Currently, detailed mechanism of action data is not available. Based on known information, codeine is an opioid analgesic and antitussive. It is widely used in single-ingredient and combination products for cough, cold and pain, and these uses are the basis for its original indications of rhinitis, pharyngitis, common cold and headache.
 
-The predicted indication, nasal cavity disease, is anatomically close to these upper-airway conditions. The high TxGNN score most likely reflects this closeness in the knowledge graph rather than a therapeutic mechanism.
+The predicted indication, nasal cavity disease, is anatomically close to these upper-airway conditions. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a therapeutic mechanism.
 
 The only publication found is a case report of rhinolithiasis (a nasal stone) formed around a hardened mixture of codeine and opium, in which codeine was the cause of the pathology. No credible therapeutic mechanism for nasal cavity disease was identified, so the prediction is not supported.
 
@@ -99,7 +99,7 @@ Please also refer to the package insert for label warnings and contraindications
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a single case report in which codeine caused the nasal pathology. There are no trials and no therapeutic mechanism, so this is a model artefact based on graph proximity to rhinitis and the common cold. The other predicted indications do not offer a better opportunity. Most are prediction-only or overlap with existing cough and cold use. Allergic urticaria and cold urticaria are safety concerns, since codeine triggers rather than treats them.
+The prediction rests on a single case report in which codeine caused the nasal pathology. There are no trials and no therapeutic mechanism. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases such as rhinitis and the common cold, not biological evidence. The other predicted indications do not offer a better opportunity. Most are prediction-only or overlap with existing cough and cold use. Allergic urticaria is a safety concern, since codeine triggers rather than treats it.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for codeine, to support any mechanistic-link analysis

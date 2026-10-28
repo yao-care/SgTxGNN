@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ipratropium
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 546
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ipratropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease, allergic rhinitis…"
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
+description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Ipratropium: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## Ipratropium: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ipratropium is an inhaled anticholinergic bronchodilator, originally used for chronic obstructive pulmonary disease (COPD), allergic and vasomotor rhinitis, and bronchitis.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, which overlaps heavily with its existing COPD and bronchial disease uses.
 The data compiled for this report include **25 clinical trials** and **20 publications** for this indication, including one large completed Phase 3 trial (n=1,118).
 
 ---
@@ -48,12 +47,12 @@ The data compiled for this report include **25 clinical trials** and **20 public
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease, allergic rhinitis, vasomotor rhinitis, bronchitis, common cold, pulmonary emphysema (from the TxGNN knowledge graph; Singapore label text was not available) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -118,7 +117,7 @@ The table lists 10 of the 20 publications (reviews and systematic reviews first)
 | SIN02664P | BERODUAL SOLUTION | Solution | Not listed in the data compiled |
 | SIN11739P | BERODUAL N METERED DOSE INHALER | Aerosol, spray | Not listed in the data compiled |
 
-A sixth licence, SIN09558P (COMBIVENT UNIT DOSE VIAL FOR INHALATION, solution), is also valid. All six registrations are valid, and none are cancelled.
+A sixth licence, SIN09558P (COMBIVENT UNIT DOSE VIAL FOR INHALATION, solution), is also valid.
 
 ---
 

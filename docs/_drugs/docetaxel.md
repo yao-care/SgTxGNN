@@ -4,17 +4,17 @@ title: Docetaxel
 parent: High Evidence (L1-L2)
 nav_order: 342
 evidence_level: L1
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Docetaxel: predicted new indication Female breast carcinoma (already a known indication) (evidence level L1). Approved use: Non-small cell lung cancer"
 monitor_inn: "Docetaxel"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Docetaxel
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Docetaxel: From Non-Small Cell Lung Cancer to Female Breast Carcinoma
+## Docetaxel: Ewing sarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Docetaxel is a taxane chemotherapy drug originally used for non-small cell lung cancer, prostate cancer, head and neck cancer, gastric cancer and breast cancer.
-The TxGNN model predicts it may be effective for **female breast carcinoma**, but breast carcinoma is already among its established indications, so this is confirmation of known use rather than true repurposing.
 The data compiled for this report include **50 clinical trials** and **20 publications** for this indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung cancer (the Singapore licence records contain no approved indication text; original indications are taken from the knowledge-graph indication list) |
-| Predicted New Indication | Female breast carcinoma (already a known indication) |
-| TxGNN Prediction Score | 99.90% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Ewing sarcoma |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 12 |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -113,7 +112,6 @@ Seven further registrations exist (Hospira 80 mg/8 ml, Textas 20 and 80, Docetax
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (taxane, antimicrotubule agent) |
-| Myelosuppression Risk | High. The knowledge graph links docetaxel with neutropenia, thrombocytopenia, anaemia and agranulocytosis |
 | Emetogenicity Classification | Low to moderate (based on general drug-class knowledge) |
 | Monitoring Items | Complete blood count with differential, liver function (including bilirubin), renal function, signs of neuropathy, fluid retention and mucositis |
 | Handling Protection | Must follow cytotoxic drug handling regulations |

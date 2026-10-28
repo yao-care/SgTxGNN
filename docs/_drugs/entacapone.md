@@ -48,21 +48,21 @@ but **no clinical trials and no publications** currently support this specific p
 |------|------|
 | Original Indication | Parkinson disease (and related parkinsonian syndromes) |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, entacapone is a catechol-O-methyltransferase (COMT) inhibitor. It extends the effect of levodopa, and its efficacy in Parkinson disease is established. Mechanistically, it may be applicable to neurodegenerative conditions that include parkinsonian features.
 
-PLA2G6-associated neurodegeneration includes dystonia-parkinsonism phenotypes, so a dopaminergic or COMT-inhibitor rationale is conceivable. However, entacapone has no known effect on the underlying PLA2G6 lipid-metabolism defect. It only prolongs levodopa action, so any benefit would at most be symptomatic. The high score may reflect the closeness of this disease to parkinsonian conditions in the knowledge graph rather than independent evidence.
+PLA2G6-associated neurodegeneration includes dystonia-parkinsonism phenotypes, so a dopaminergic or COMT-inhibitor rationale is conceivable. However, entacapone has no known effect on the underlying PLA2G6 lipid-metabolism defect. It only prolongs levodopa action, so any benefit would at most be symptomatic. The high score (0.9976) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-ranked predictions are mostly weak or implausible. Examples are Rasmussen encephalitis, myelitis, transaldolase deficiency and fructose-1,6-bisphosphatase deficiency, for which no mechanistic link was identified. "Paralysis agitans, juvenile, of Hunt" is a historical term for juvenile parkinsonism and largely overlaps with the original indications. Two predictions have limited indirect support and are worth noting as research questions:
-- **Lewy body dementia** (score 99.25%): shares alpha-synuclein pathology and dopaminergic deficits with Parkinson disease. Support is preclinical only.
-- **Progressive supranuclear palsy-corticobasal syndrome** (score 99.04%): conceptually plausible, but levodopa response is typically poor in these conditions.
+- **Lewy body dementia** (score 0.9925): shares alpha-synuclein pathology and dopaminergic deficits with Parkinson disease. Support is preclinical only.
+- **Progressive supranuclear palsy-corticobasal syndrome** (score 0.9904): conceptually plausible, but levodopa response is typically poor in these conditions.
 
 ## Clinical Trial Evidence
 

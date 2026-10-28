@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sacubitril
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 891
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Sacubitril: predicted new indication Diabetic nephropathy (evidence level L3). Approved use: Not available"
 monitor_inn: "Sacubitril"
-predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy", "sclerosing cholangitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "homozygous familial hypercholesterolemia", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
+predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
+description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sacubitril
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Sacubitril: From Heart Failure Therapy to Diabetic Nephropathy
+## Sacubitril: Brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **diabetic nephropathy** (the t
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (approved indication text is empty in the Singapore licence records) |
-| Predicted New Indication | Diabetic nephropathy (the top-ranked prediction, brain small vessel disease, has almost no support; see the note below) |
-| TxGNN Prediction Score | 99.50% (diabetic nephropathy); the rank 1 prediction scored 99.58% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brain small vessel disease 1 with or without ocular anomalies |
+| TxGNN Prediction Score | 0.9958 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails (research-question stage) |
 
 **Note on prediction selection:** The rank 1 prediction (brain small vessel disease 1 with or without ocular anomalies) and the other top-10 predictions, except diabetic nephropathy, have no clinical trials and either no literature or only unrelated literature (evidence level L5, Hold). This report therefore focuses on diabetic nephropathy, the only prediction with substantive supporting evidence.

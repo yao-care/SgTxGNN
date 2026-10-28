@@ -4,17 +4,17 @@ title: Trimethoprim
 parent: Low Evidence (L5)
 nav_order: 1029
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection (other labelled uses: infectious otitis media…"
 monitor_inn: "Trimethoprim"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 ---
 
 # Trimethoprim
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ The top-ranked prediction is therefore a model signal only. Among the other pred
 |------|------|
 | Original Indication | Urinary tract infection (other labelled uses: infectious otitis media, pneumocystosis, shigellosis, conjunctivitis, blepharoconjunctivitis). The Singapore licence records list no indication text. |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 12 |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Trimethoprim is generally known as an antibacterial that inhibits bacterial dihydrofolate reductase (a folate pathway enzyme). Its efficacy in bacterial eye and urinary infections is established, and mechanistically it may be applicable to infectious surface eye disease.
 
-Trimethoprim is already used topically (combined with polymyxin B) for bacterial conjunctivitis, so a link to ocular surface disease is plausible. However, punctate epithelial keratoconjunctivitis is often viral or toxic/inflammatory in origin, and trimethoprim has no antiviral activity. The high score (0.996) is a graph-based prediction only, and nothing in the compiled data supports it.
+Trimethoprim is already used topically (combined with polymyxin B) for bacterial conjunctivitis, so a link to ocular surface disease is plausible. However, punctate epithelial keratoconjunctivitis is often viral or toxic/inflammatory in origin, and trimethoprim has no antiviral activity. The high score (0.9957) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; nothing in the compiled data supports it.
 
 ## Clinical Trial Evidence
 

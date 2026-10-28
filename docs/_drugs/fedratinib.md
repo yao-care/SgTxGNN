@@ -6,9 +6,9 @@ nav_order: 419
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fedratinib: predicted new indication Benign PEComa (evidence level L5). Approved use: Primary myelofibrosis / myelofibrosis"
 monitor_inn: "Fedratinib"
 predicted_indications: ["benign PEComa", "lymphangiomyoma", "uterine corpus perivascular epithelioid cell tumor", "dermatofibrosarcoma protuberans", "rhabdoid tumor", "familial rhabdoid tumor", "autosomal recessive familial Mediterranean fever", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection", "lymphangioleiomyomatosis"]
+description: "Fedratinib: predicted new indication Benign PEComa (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fedratinib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fedratinib: From Myelofibrosis to Benign PEComa
+## Fedratinib: Benign PEComa
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary myelofibrosis / myelofibrosis (the approved indication text in the Singapore licence record is empty, so this comes from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Benign PEComa |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, fedratinib is a JAK2/FLT3 inhibitor. Its efficacy in myelofibrosis, a disease driven by dysregulated JAK/STAT signalling, has been established.
 
-PEComa (perivascular epithelioid cell tumour) is typically driven by mTOR pathway activation through TSC1/TSC2 loss. A link between this biology and JAK/STAT signalling is speculative and not supported by the data compiled. The prediction most likely reflects patterns in the knowledge graph rather than a demonstrated pharmacological connection.
+PEComa (perivascular epithelioid cell tumour) is typically driven by mTOR pathway activation through TSC1/TSC2 loss. A link between this biology and JAK/STAT signalling is speculative and not supported by the data compiled. The prediction (benign PEComa: 0.9984) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-ranked predictions fall into several groups:
 - **mTOR/TSC-driven diseases**: lymphangiomyoma, uterine corpus PEComa, lymphangioleiomyomatosis

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Melphalan
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 646
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Melphalan: predicted new indication Gonadal germ cell tumor (evidence level L2). Approved use: Ovarian cancer"
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Melphalan: From Ovarian Cancer to Gonadal Germ Cell Tumor
+## Melphalan: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Melphalan is an alkylating chemotherapy drug, originally used for ovarian cancer.
-The TxGNN model predicts it may be effective for **gonadal germ cell tumor**,
 with **7 clinical trials** and **1 publication** currently listed for this direction. Most of the trials use melphalan as one part of a high-dose combination regimen.
 
 ---
@@ -48,12 +47,12 @@ with **7 clinical trials** and **1 publication** currently listed for this direc
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (from the knowledge graph; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Gonadal germ cell tumor |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Female breast carcinoma |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -106,7 +105,6 @@ Both licences are valid single-ingredient products, covering injectable and oral
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (alkylating agent) |
-| Myelosuppression Risk | High (the knowledge graph links melphalan to neutropenia, leukopenia, thrombocytopenia and anaemia) |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Complete blood count with differential, liver and renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
@@ -127,9 +125,7 @@ Please refer to the package insert for full warnings and contraindications.
 
 | Predicted Indication | Score | Evidence Level | Note |
 |------|------|------|------|
-| Ovarian primitive germ cell tumor | 99.75% | L3 | Small phase 1/2 trials and one case report |
-| Female breast carcinoma | 99.67% | L2 | Many high-dose combination studies and a randomized trial versus vinorelbine, but modern alternatives and second-malignancy risk limit use |
-| Choriocarcinoma of ovary, malignant non-epithelial ovarian tumor, and several mucinous adenocarcinomas (rectum, colon, gallbladder, cervix, endometrium) | 99.26–99.74% | L5 | Prediction only, with no trials or literature in the data; the mucinous predictions likely reflect histology labels rather than mechanism |
+| Female breast carcinoma | 0.9967 | L5 | Many high-dose combination studies and a randomized trial versus vinorelbine, but modern alternatives and second-malignancy risk limit use |
 
 ---
 

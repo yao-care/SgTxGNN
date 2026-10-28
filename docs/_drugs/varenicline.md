@@ -48,10 +48,10 @@ Varenicline is a nicotinic receptor partial agonist, marketed in Singapore as Ch
 |------|------|
 | Original Indication | Not stated in the Singapore licence records compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

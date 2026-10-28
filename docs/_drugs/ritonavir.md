@@ -4,17 +4,17 @@ title: Ritonavir
 parent: Medium Evidence (L3-L4)
 nav_order: 876
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis C virus infection, HIV infection / AIDS"
 monitor_inn: "Ritonavir"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis B virus infection", "fibroma of prostate", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ritonavir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Ritonavir: From HIV/AIDS and Hepatitis C to Simian Immunodeficiency Virus Infection
+## Ritonavir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ There are **no clinical trials** and **11 publications** (all preclinical or lab
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection, HIV infection / AIDS (from the knowledge graph; Singapore label text not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 SIV is a lentivirus closely related to HIV, and its protease is inhibited by HIV protease inhibitors, though susceptibility varies. A laboratory study found ritonavir inhibited SIVmac239 with a 50% effective concentration of about 13 nM, compared with about 25 nM for HIV-1. Macaque studies of combination antiretroviral therapy also support biological plausibility.
 
-However, SIV infection is an animal model of the disease ritonavir already treats. This is best read as a preclinical validation of the existing HIV indication, not a new human indication. The model's other top predictions (feline AIDS, a genetic neurodevelopmental disorder) have no supporting evidence and are likely graph-based artefacts.
+However, SIV infection is an animal model of the disease ritonavir already treats. This is best read as a preclinical validation of the existing HIV indication, not a new human indication. The model's other top predictions (feline AIDS, a genetic neurodevelopmental disorder) have no supporting evidence. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -110,7 +110,7 @@ Please refer to the package insert for full warnings, as label text was not avai
 **Decision: Hold**
 
 **Rationale:**
-The SIV prediction rests on laboratory and macaque studies only, with no human trials. SIV is an animal model of HIV, which ritonavir already treats, so it offers no new clinical indication. The other high-scoring predictions are either on-label HIV uses, indirect evidence from ritonavir used as a booster, or unsupported artefacts. The one possible lead is hepatitis E virus infection (L4, in vitro only: ritonavir blocked viral internalization and cleared virus with ribavirin), which would be worth a separate research question.
+The SIV prediction rests on laboratory and macaque studies only, with no human trials. SIV is an animal model of HIV, which ritonavir already treats, so it offers no new clinical indication. The other high-scoring predictions are either on-label HIV uses, indirect evidence from ritonavir used as a booster, or unsupported. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Singapore package insert warnings and contraindications (HSA)

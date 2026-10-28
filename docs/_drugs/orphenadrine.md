@@ -4,17 +4,17 @@ title: Orphenadrine
 parent: Low Evidence (L5)
 nav_order: 744
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Parkinsonian disorder"
 monitor_inn: "Orphenadrine"
-predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy", "hydranencephaly (disease)"]
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
 ---
 
 # Orphenadrine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Orphenadrine: From Parkinsonian Disorder to Retinal Dystrophy (with or without Extraocular Anomalies)
+## Orphenadrine: From Parkinsonian Disorder to Retinal Dystrophy with or without Extraocular Anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 |------|------|
 | Original Indication | Parkinsonian disorder; Parkinson disease |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, orphenadrine is an anticholinergic/antihistaminic agent with NMDA-antagonist activity. Its efficacy in parkinsonian disorders is established, but nothing in the data compiled for this report connects these actions to inherited retinal degeneration.
 
-Retinal dystrophy is a hereditary degenerative condition. Orphenadrine's pharmacology (muscarinic and H1 antagonism, NMDA channel block) has no known disease-modifying link to it. The high TxGNN score reflects a knowledge-graph prediction only, so this should be treated as a hypothesis, not a supported finding.
+Retinal dystrophy is a hereditary degenerative condition. Orphenadrine's pharmacology (muscarinic and H1 antagonism, NMDA channel block) has no known disease-modifying link to it. The high TxGNN score reflects a TxGNN model (deep learning) prediction only, so this should be treated as a hypothesis, not a supported finding.
 
-Other top-ranked predictions for this drug are also weakly supported. The only candidate with any literature is **schizophrenia** (rank 5, score 99.13%, evidence level L3). There, orphenadrine has mainly been studied as an adjunct for antipsychotic-induced extrapyramidal symptoms, which is management of drug side effects rather than disease treatment. The literature is mostly old, and Cochrane reviews note that anticholinergics may worsen tardive dyskinesia. It is flagged as a research question, not a recommendation.
+Other top-ranked predictions for this drug are also weakly supported. The only candidate with any literature is **schizophrenia** (rank 5, score 0.9913, evidence level L3). There, orphenadrine has mainly been studied as an adjunct for antipsychotic-induced extrapyramidal symptoms, which is management of drug side effects rather than disease treatment. The literature is mostly old, and Cochrane reviews note that anticholinergics may worsen tardive dyskinesia. It is flagged as a research question, not a recommendation.
 
 ## Clinical Trial Evidence
 
@@ -93,7 +93,7 @@ The glaucoma contraindication deserves particular attention for any eye-related 
 **Decision: Hold**
 
 **Rationale:**
-The retinal dystrophy prediction rests only on a knowledge-graph score, with no trials, no literature and no plausible mechanism. Orphenadrine's anticholinergic burden and the glaucoma contraindication add concern for an eye-related use.
+The retinal dystrophy prediction rests only on a TxGNN model (deep learning) score, with no trials, no literature and no plausible mechanism. Orphenadrine's anticholinergic burden and the glaucoma contraindication add concern for an eye-related use.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological rationale linking orphenadrine to retinal degeneration

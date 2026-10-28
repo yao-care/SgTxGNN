@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Inotuzumab Ozogamicin
-parent: Low Evidence (L5)
-nav_order: 532
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Inotuzumab Ozogamicin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Relapsed or refractory CD22-positive B-cell precursor acute lymphobla…"
-monitor_inn: "Inotuzumab ozogamicin"
-predicted_indications: ["drug-induced osteoporosis", "HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "severe nonproliferative diabetic retinopathy", "primary release disorder of platelets", "pseudo-von Willebrand disease", "infectious bovine rhinotracheitis"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 531
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Inotuzumab Ozogamicin: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Inotuzumab Ozogamicin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,54 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Inotuzumab ozogamicin: From B-Cell Acute Lymphoblastic Leukaemia to Drug-Induced Osteoporosis
+<!-- known-uses-page -->
+<!-- description: Inotuzumab Ozogamicin: known uses and market status in Singapore; currently no new candidate indication -->
+## Inotuzumab Ozogamicin: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Inotuzumab Ozogamicin, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Inotuzumab ozogamicin is a CD22-directed antibody-drug conjugate (calicheamicin payload), marketed in Singapore as Besponsa. The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but **0 clinical trials** and **0 publications** specifically support this direction. The prediction rests on model output alone and has no plausible mechanistic link.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Relapsed or refractory CD22-positive B-cell precursor acute lymphoblastic leukaemia (from published literature; the Singapore licence record contains no indication text) |
-| Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 98.24% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, inotuzumab ozogamicin is an anti-CD22 antibody linked to calicheamicin. After binding CD22 on B-cells, the complex is internalised and releases the payload, which causes double-strand DNA breaks and cell death.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| precursor cell lymphoblastic leukemia-lymphoma | licence in another country |
 
-The original indication is a B-cell malignancy that expresses CD22. Drug-induced osteoporosis is a bone-remodelling disorder with no connection to CD22-expressing cells. No mechanistic link could be identified.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The high score is most likely an artefact of the knowledge graph. The other top-10 predictions (several breast carcinoma subtypes, diabetic retinopathy, platelet and von Willebrand disorders, and a veterinary viral disease) are equally unsupported, which reinforces this conclusion. The drug's myelosuppression and thrombocytopenia would also argue against use in platelet-related conditions.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for drug-induced osteoporosis.
-
-Note: the literature retrieved by drug name for a lower-ranked prediction (luminal A/B breast tumour) concerned inotuzumab ozogamicin in B-cell acute lymphoblastic leukaemia, not breast cancer. These papers support the approved indication only. Examples include:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30920645](https://pubmed.ncbi.nlm.nih.gov/30920645/) | 2019 | Phase 3 RCT | Cancer | Final INO-VATE results: inotuzumab ozogamicin vs standard-of-care chemotherapy in relapsed/refractory B-ALL, with long-term survival follow-up |
-| [41026957](https://pubmed.ncbi.nlm.nih.gov/41026957/) | 2025 | Clinical trial | J Clin Oncol | Inotuzumab followed by blinatumomab in older adults with newly diagnosed B-ALL (chemotherapy-free regimen) |
-| [37187201](https://pubmed.ncbi.nlm.nih.gov/37187201/) | 2023 | Phase 2 | Lancet Haematol | Mini-hyper-CVD plus inotuzumab, with or without blinatumomab, in older patients with Ph-negative B-ALL |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15747P | BESPONSA Powder for Concentrate for Solution for Infusion 1 mg/vial | Powder, for solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15747P | BESPONSA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1M | POWDER, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 
@@ -103,18 +93,6 @@ Note: the literature retrieved by drug name for a lower-ranked prediction (lumin
 
 For warnings and contraindications, please refer to the package insert, as the data compiled for this report did not include label text.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is computational only (L5), with no clinical trials or literature, and no biological link between a CD22-targeted cytotoxic conjugate and bone remodelling. The drug's toxicity profile (myelosuppression, hepatotoxicity) also makes repurposing for a non-malignant condition unattractive.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA record (currently missing, and a blocking gap for safety screening)
-- Mechanism of action data confirmed from a primary source
-- Any mechanistic or preclinical evidence linking CD22 biology or calicheamicin to bone metabolism (none identified so far)
-- Review of other predictions, as none of the top 10 has supporting evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

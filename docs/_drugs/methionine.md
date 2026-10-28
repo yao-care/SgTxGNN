@@ -2,13 +2,13 @@
 layout: default
 title: Methionine
 parent: Low Evidence (L5)
-nav_order: 656
+nav_order: 655
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence data (marketed as a component of amino acid…"
 monitor_inn: "Methionine"
-predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "tetanic cataract", "cortical cataract", "nuclear senile cataract", "immature cataract", "mature cataract", "diabetic cataract"]
+predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "tetanic cataract", "nuclear senile cataract", "diabetic cataract"]
+last_modified_at: 2026-10-23
+description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence records"
 ---
 
 # Methionine
@@ -33,31 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methionine: From Parenteral Nutrition Amino Acid to Acne
+## Methionine: From Parenteral Nutrition Amino Acid Component to Acne
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Methionine is an essential amino acid used as a component of parenteral nutrition (amino acid infusion) products in Singapore.
-The TxGNN model predicts it may be effective for **acne**, with a very high computational score but **0 clinical trials** and only **2 publications**, neither of which tests methionine as a treatment.
+Methionine is an essential amino acid, and in Singapore it is registered as an ingredient of parenteral nutrition and amino acid infusion products. The TxGNN model predicts it may be useful for **acne (disease)**, but there are **0 clinical trials** and only **2 publications** that touch the topic, neither of which tests methionine as a treatment. The prediction should be treated as a hypothesis only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data (marketed as a component of amino acid and parenteral nutrition products) |
+| Original Indication | Not stated in the licence records (all 19 licences have empty indication text); registered as an amino acid component of infusion and parenteral nutrition products |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
+
+*Evidence level note:* the data compiled for this report assigned L4 to acne, but neither cited paper directly studies methionine for acne (one is a gene mutation case report, the other describes a side effect of isotretinoin). Under the evidence ceiling rule this is therefore L5.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, methionine is a sulfur-containing essential amino acid and part of multi-component amino acid infusions. It is a precursor in homocysteine and cysteine metabolism, and its role in nutrition support is established. Mechanistically, it may be relevant to acne only through indirect metabolic pathways.
+Currently, detailed mechanism of action data is not available. Methionine is a sulfur-containing essential amino acid that takes part in protein synthesis and in the methionine/homocysteine one-carbon metabolic cycle. In Singapore it is used as one component of amino acid solutions for intravenous nutrition.
 
-The data compiled for this report do not support a direct link. The only acne-related paper reports raised plasma homocysteine in patients taking isotretinoin. That is a side effect of another drug on methionine/homocysteine metabolism, not a therapeutic effect of methionine. The second paper describes a neonatal genetic disorder (MTHFR mutation) in which acne was only one of several skin findings. The very high TxGNN score is therefore a computational prediction without clinical support.
+The link to acne is weak. One retrieved paper is a case report of an MTHFR mutation in a neonate with encephalopathy, hair loss and neonatal acne; it concerns the homocysteine/methionine cycle but not acne treatment. The other reports raised plasma homocysteine in patients taking isotretinoin for cystic acne, which describes a drug side effect on one-carbon metabolism and not a therapeutic role for methionine. Supplementing methionine could even raise homocysteine, which is a potential concern. The very high TxGNN score is therefore not backed by clinical data.
 
 ## Clinical Trial Evidence
 
@@ -67,45 +68,46 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Cohort | International Journal of Dermatology | Plasma homocysteine was elevated in patients taking isotretinoin for cystic acne. This concerns a drug side effect, not a benefit of methionine. |
-| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Case report | BMJ Case Reports | A neonate with a novel MTHFR mutation had encephalopathy, hair loss, marfanoid features and neonatal acne. Not relevant to acne treatment. |
+| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Cohort | Int J Dermatol | Plasma homocysteine was elevated in patients receiving isotretinoin for cystic acne; this is a drug side-effect observation and does not test methionine as a treatment |
+| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Case report | BMJ Case Reports | Novel MTHFR mutation in a neonate with encephalopathy, hair loss, marfanoid features and neonatal acne; not related to methionine therapy for acne |
 
 ## Singapore Market Information
 
-All 19 licences are valid single-ingredient registrations. No approved indication text is recorded for them. Five main authorisations are listed.
+All 19 licences are valid single-ingredient entries; the licence records contain no approved indication text. The five below are examples.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not recorded |
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not recorded |
-| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Not recorded |
-| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Not recorded |
-| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not recorded |
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not stated in licence record |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not stated in licence record |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Not stated in licence record |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not stated in licence record |
+| SIN14286P | SmofKabiven Emulsion for Infusion | Injection, emulsion | Not stated in licence record |
+
+All registered forms are injectable or infusion products (plus one sterile peritoneal dialysis solution); no oral or topical methionine product is listed, so route compatibility for acne has not been assessed.
 
 ## Safety Considerations
 
-- **Disease associations flagged in the knowledge graph (not label text):** The TxGNN knowledge graph links methionine to contraindications in several disease groups. These include kidney disease (chronic kidney disease, end-stage renal failure, nephrolithiasis, nephrocalcinosis), cardiovascular disease (hypertension, heart disease, ventricular fibrillation, digitalis poisoning), metabolic disorders (diabetes mellitus, diabetic ketoacidosis, hyperlipidaemia, phenylketonuria and other phenylalanine metabolism disorders, phosphorus metabolism disease), and calcium-related conditions (hypercalcaemia, sarcoidosis). These are knowledge-graph edges and need confirmation against the product labels.
-- **Drug Interactions (5 recorded):**
-  - Moderate: activated charcoal
-  - Minor: ephedrine, pseudoephedrine, mexiletine, flecainide
+- **Relations recorded in the knowledge graph (not label text):** the TxGNN knowledge graph links methionine to contraindication relations with, among others, kidney disease (including chronic and end-stage renal failure), nephrolithiasis, hypertension, heart disease and cardiovascular disease, diabetes mellitus and diabetic ketoacidosis, hyperlipidemia, hypercalcemia, phenylketonuria and other phenylalanine metabolism disorders, sarcoidosis, digitalis poisoning and ventricular fibrillation. These need verification against the product labels.
+- **Drug Interactions** (5 recorded):
+  - Activated charcoal: Moderate
+  - Ephedrine, pseudoephedrine, mexiletine, flecainide: Minor
+- **Other concern:** methionine is converted to homocysteine, and raised homocysteine is a possible vascular risk, so safety and direction of effect must be clarified before any use for acne.
 
-Please refer to the package insert for full safety information. Warnings and contraindications from the label were not available.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a computational score alone. There are no clinical trials, and the two papers do not test methionine for acne. The acne-related paper points to a possible harm signal (homocysteine) rather than benefit.
+The TxGNN score is very high, but no clinical trial exists and neither retrieved paper tests methionine for acne. The mechanistic link is unsupported and may even point the wrong way because of homocysteine. Evidence is at L5.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, since safety screening cannot proceed without them
+- Package insert warnings and contraindications from the Singapore regulator (HSA)
 - Mechanism of action data for methionine
-- Preclinical or clinical evidence that methionine has a therapeutic effect in acne
-- Clarification of the direction of effect (whether methionine or homocysteine changes help or harm)
-- Assessment of route compatibility, since the registered forms are all parenteral and acne would likely need a different route
-
-**Other predicted indications (for reference):** Diabetic cataract is the most plausible of the ten predicted indications. It has indirect support from homocysteine and methionine sulfoxide reductase B1 research (evidence level L4, research question stage). The remaining predicted indications, including severe nonproliferative diabetic retinopathy and several cataract types, are held at L4–L5 without direct evidence.
+- Preclinical or clinical evidence that methionine, rather than its metabolites, affects acne
+- Homocysteine safety assessment and clarification of a suitable (non-parenteral) route
+- Review of the other lower-ranked predictions: diabetic cataract has the most relevant mechanistic literature (methionine sulfoxide reductase in lens cells), but it is preclinical, concerns the endogenous repair enzyme rather than methionine supplementation, and has no clinical trials; it is best treated as a research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

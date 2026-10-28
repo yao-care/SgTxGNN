@@ -4,17 +4,17 @@ title: Histidine
 parent: Low Evidence (L5)
 nav_order: 498
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Histidine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the registration records"
 monitor_inn: "Histidine"
-predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis", "congenital prothrombin deficiency", "familial visceral myopathy", "potassium deficiency disease", "dyspepsia", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "primary aldosteronism", "intestinal obstruction"]
+predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
+description: "Histidine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Histidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Histidine: From Parenteral Nutrition Amino Acid Component to Gastroparesis
+## Histidine: Gastroparesis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction currently rests almost entirely on the model score.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records (all 17 licences list products without indication text; they are amino acid infusion and parenteral nutrition products) |
-| Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.55% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroparesis (disease) |
+| TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 17 |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ The prediction currently rests almost entirely on the model score.
 
 Currently, detailed mechanism of action data is not available. Based on known information, histidine is a component of amino acid and parenteral nutrition formulations, where it supplies an essential amino acid. A mechanism by which it might act on delayed gastric emptying is not established.
 
-The only publication linked to this prediction studies gastric amyloid pathology and mucosal denervation in hereditary ATTR amyloidosis. It does not test histidine and does not show that histidine affects gastric motility. The high TxGNN score (99.55%) reflects a graph-based association, not a demonstrated pharmacological link.
+The only publication linked to this prediction studies gastric amyloid pathology and mucosal denervation in hereditary ATTR amyloidosis. It does not test histidine and does not show that histidine affects gastric motility. The high TxGNN score (0.9955) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other predictions show the same pattern. The related predictions for intestinal pseudo-obstruction and familial visceral myopathy are also supported only by model scores. For dyspepsia, one physiological study (PMID 29031770) examined a mixture of three amino acids, including histidine, and its effect on gastric emptying, which is an indirect hint at most. For sclerosing cholangitis, the preclinical evidence points to the histidine-to-histamine pathway as a driver of disease, so the direction of effect appears unfavourable or at best unclear.
+Other predictions show the same pattern. For sclerosing cholangitis, the preclinical evidence points to the histidine-to-histamine pathway as a driver of disease, so the direction of effect appears unfavourable or at best unclear.
 
 ---
 

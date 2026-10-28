@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Erythromycin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 398
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Acne, infectious otitis media, streptococcal infection…"
 monitor_inn: "Erythromycin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
+description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Erythromycin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Erythromycin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+## Erythromycin: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne, infectious otitis media, streptococcal infection, bacterial pneumonia, staphylococcal infection, gonorrhoea, pertussis, urethritis, conjunctivitis and others (knowledge-graph indications; no approved indication text is available from Singapore licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -123,7 +123,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.89%), but there are no clinical trials and only one indirect review for punctate epithelial keratoconjunctivitis. Evidence is at L4, and no ophthalmic erythromycin product is among the Singapore registrations.
+The prediction score is very high (0.9989), but there are no clinical trials and only one indirect review for punctate epithelial keratoconjunctivitis. Evidence is at L4, and no ophthalmic erythromycin product is among the Singapore registrations.
 
 **To proceed, the following is needed:**
 - Clinical studies (ideally controlled trials) of erythromycin in punctate epithelial keratoconjunctivitis or closely related ocular surface disease

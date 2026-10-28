@@ -4,7 +4,7 @@ title: Ipilimumab
 parent: Low Evidence (L5)
 nav_order: 545
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "Ipilimumab"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Ipilimumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The high score appears to be a model artifact rather than a reflection of real e
 |------|------|
 | Original Indication | Metastatic melanoma |
 | Predicted New Indication | Choroideremia |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available from the data comp
 
 Choroideremia is a single-gene, X-linked retinal degeneration caused by loss of the CHM (REP1) gene. It is not driven by tumour growth or by a failure of immune surveillance. No plausible biological link between CTLA-4 blockade and this disease was identified.
 
-The very high TxGNN score (0.99) therefore appears to be a graph-based prediction artifact. No trials or literature back it up, so the prediction should be treated as a hypothesis only.
+The very high TxGNN score (0.9906) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature back it up, so the prediction should be treated as a hypothesis only.
 
 ---
 
@@ -128,7 +128,6 @@ The prediction rests on model output alone (L5). There are no trials or publicat
 - Detailed mechanism of action data (MOA)
 - A safety assessment for ocular use, since immune-related adverse events could further harm an already degenerating retina
 
-Other predictions for this drug are more credible, because they are melanoma subtypes within or close to the approved indication. For example, non-cutaneous melanoma has a completed Phase 2 trial of nivolumab plus ipilimumab in uveal melanoma. These would be better candidates to prioritise for further evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

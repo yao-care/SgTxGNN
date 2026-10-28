@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 523
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Imiglucerase: predicted new indication Hurler syndrome (evidence level L4). Approved use: Gaucher disease"
 monitor_inn: "Imiglucerase"
-predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "lysosomal storage disease with skeletal involvement", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Wolman disease", "proximal myopathy with extrapyramidal signs", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"]
+predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **0 registered clinical trials** and only **1 general re
 |------|------|
 | Original Indication | Gaucher disease |
 | Predicted New Indication | Hurler syndrome |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9952 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

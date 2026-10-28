@@ -4,17 +4,17 @@ title: Atazanavir
 parent: Low Evidence (L5)
 nav_order: 115
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Atazanavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "Atazanavir"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 ---
 
 # Atazanavir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Among the other predictions, only **congenital HIV** has meaningful observationa
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,13 +62,13 @@ Among the other predictions, only **congenital HIV** has meaningful observationa
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, atazanavir is an HIV-1 protease inhibitor. Its efficacy in HIV infection and AIDS is established, and mechanistically it could be relevant to related lentiviral diseases.
 
-Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, but its protease differs in structure and in sensitivity to inhibitors. The high TxGNN score most likely reflects similarity between disease terms in the knowledge graph (the link to HIV), not direct evidence. This is also a veterinary condition, which falls outside the scope of human drug repurposing.
+Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, but its protease differs in structure and in sensitivity to inhibitors. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This is also a veterinary condition, which falls outside the scope of human drug repurposing.
 
 Two other predictions deserve mention:
 - **Simian immunodeficiency virus infection** (rank 2): this is the primate counterpart of HIV. One 2010 macaque study supports it only indirectly, and it is an animal model, not a human indication.
 - **Congenital HIV** (rank 6): this is the most credible prediction. It lies within atazanavir's mechanism and extends the approved HIV use to pregnancy and neonates. However, most of the evidence concerns safety in exposed, uninfected infants or maternal pharmacokinetics, not treatment of infected infants.
 
-The remaining predictions (a rare neurodevelopmental disorder, benign tumours of the prostate and reproductive system, Brenner tumour, and an obsolete hyperlipidaemia term) have no plausible mechanistic link and look like knowledge-graph artefacts.
+The remaining predictions (a rare neurodevelopmental disorder, benign tumours of the prostate and reproductive system, Brenner tumour, and an obsolete hyperlipidaemia term) have no plausible mechanistic link and look like TxGNN model (deep learning) artefacts.
 
 ---
 

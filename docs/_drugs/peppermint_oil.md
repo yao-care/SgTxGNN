@@ -47,17 +47,17 @@ However, there are **0 clinical trials** and **0 publications** supporting this 
 | Item | Content |
 |------|------|
 | Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Peppermint oil is a plant-derived oil rich in menthol, and it is registered in Singapore as a single-ingredient oral product. The registration record does not state an approved indication, so the link between an "original indication" and leprosy cannot be drawn from the available data.
 
-The high score is a graph-based computational prediction. No mechanistic link to leprosy has been established. Laboratory antimicrobial activity of essential oils does not show efficacy against *Mycobacterium leprae*. This prediction should be treated as a hypothesis only.
+The high score (0.9980) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No mechanistic link to leprosy has been established. Laboratory antimicrobial activity of essential oils does not show efficacy against *Mycobacterium leprae*. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -86,7 +86,7 @@ Please refer to the package insert for safety information. No drug interaction r
 **Rationale:**
 The leprosy prediction has no supporting trials, no literature, and no plausible mechanism in the available data. It is a computational signal only (L5).
 
-**Other predictions:** Among the other top-ranked predictions, only **cardiovascular disease** (TxGNN score 99.13%) has supporting human evidence (L3, "Research Question"):
+**Other predictions:** Among the other top-ranked predictions, only **cardiovascular disease** (TxGNN score 0.9913) has supporting human evidence (L3, "Research Question"):
 - One completed trial, [NCT05561543](https://clinicaltrials.gov/study/NCT05561543), tested peppermint oil on cardiometabolic outcomes in mild-to-moderate hypertension. It is small (40 participants) and has no assigned phase.
 - A placebo-controlled randomized trial report ([PMID 42024666](https://pubmed.ncbi.nlm.nih.gov/42024666/), PLoS One, 2026) and its protocol ([PMID 40333716](https://pubmed.ncbi.nlm.nih.gov/40333716/), 2025) cover the same question.
 - These results rely on surrogate endpoints and are not confirmatory. If the team wants to pursue a direction with evidence, this one is a better candidate than leprosy.

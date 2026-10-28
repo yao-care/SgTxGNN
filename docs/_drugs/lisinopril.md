@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lisinopril
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 607
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Lisinopril: predicted new indication Posterolateral myocardial infarction (evidence level L4). Approved use: Hypertension, myocardial infarction"
 monitor_inn: "Lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Lisinopril: From Hypertension and Myocardial Infarction to Posterolateral Myocardial Infarction
+## Lisinopril: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lisinopril is an ACE inhibitor originally used to treat hypertension and myocardial infarction.
-The TxGNN model predicts it may be effective for **posterolateral myocardial infarction**, but this is an anatomical subtype of an indication it already covers, with **0 clinical trials** and **0 publications** specific to this subtype.
 The evidence is indirect, based on extrapolation from the parent indication.
 
 ---
@@ -48,12 +47,12 @@ The evidence is indirect, based on extrapolation from the parent indication.
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, myocardial infarction (from the knowledge-graph indication list; no approved indication text is available from the Singapore licences) |
-| Predicted New Indication | Posterolateral myocardial infarction |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 13 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -130,7 +129,7 @@ Please refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but posterolateral myocardial infarction is a subtype of an indication lisinopril already covers. There are no trials or literature specific to it, so this is not a new repurposing opportunity. The evidence level is L4, on indirect class extrapolation only.
+There are no trials or literature specific to it, so this is not a new repurposing opportunity. The evidence level is L4, on indirect class extrapolation only.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website, which are required before safety screening can proceed

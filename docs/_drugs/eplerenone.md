@@ -4,17 +4,17 @@ title: Eplerenone
 parent: Low Evidence (L5)
 nav_order: 385
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Eplerenone: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension (hypertensive disorder). The Singapore licence record…"
 monitor_inn: "Eplerenone"
-predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "obsolete susceptibility to ischemic stroke", "brain stem infarction", "cerebrovascular disorder", "cerebral artery occlusion"]
+predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Eplerenone: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Eplerenone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Eplerenone: From Hypertension to Pulmonary Hypertension
+## Eplerenone: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension (with 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The Singapore licence records contain no approved indication text, so this comes from the knowledge-graph indication data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
-| TxGNN Prediction Score | 99.50% |
+| TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

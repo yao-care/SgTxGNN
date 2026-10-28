@@ -8,6 +8,7 @@ nav_order: 80
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ambroxol Hcl
@@ -51,8 +52,8 @@ A full repurposing evaluation cannot be completed until critical data gaps are r
 | Predicted New Indication | No prediction data available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — Prediction pipeline returned no results |
-| Singapore Market Status | ✗ Not Registered |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | **Hold** |
 
 ---

@@ -4,17 +4,17 @@ title: Lactic Acid
 parent: Low Evidence (L5)
 nav_order: 573
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not stated in the approved indication text of the Singapore licences"
 monitor_inn: "Lactic acid"
-predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome", "esophageal disease", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "excretory apparatus of the lacrimal system anomaly", "eye disease", "cauda equina syndrome"]
+predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
+description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lactic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lactic Acid: From an Endogenous Metabolite and Topical/Infusion Agent to Atypical Coarctation of Aorta
+## Lactic Acid: Atypical coarctation of aorta
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Of the 10 predicted indications, none has direct therapeutic evidence, so this i
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the approved indication text of the Singapore licences |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Atypical coarctation of aorta |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,13 +62,13 @@ Of the 10 predicted indications, none has direct therapeutic evidence, so this i
 
 Currently, detailed mechanism of action data is not available. Lactic acid is an endogenous metabolite (the end product of glycolysis) and is used as a topical and pH-adjusting agent. It also appears as lactate in intravenous fluid.
 
-For atypical coarctation of aorta, no mechanistic link was identified. This is a structural developmental anomaly of the aorta, and lactic acid has no known role in aortic development or in treating vascular malformations. The high TxGNN score (99.59%) reflects network proximity in the knowledge graph rather than biological or clinical rationale.
+For atypical coarctation of aorta, no mechanistic link was identified. This is a structural developmental anomaly of the aorta, and lactic acid has no known role in aortic development or in treating vascular malformations. The high TxGNN score (0.9959) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions were also reviewed, and none shows therapeutic support:
 
 - **Aortic malformation:** The 14 retrieved papers concern congenital heart surgery, biodegradable devices made of poly-lactic acid, and perioperative monitoring. None tests lactic acid as a treatment.
 - **Dry eye syndrome (L4):** The evidence concerns lactic acid bacteria (probiotics) in mouse models and metabolomic biomarkers, not lactic acid itself.
-- **Esophageal disease and eye disease:** The literature includes adverse signals. Indole-3-lactic acid suppressed anti-PD-1 efficacy in esophageal squamous cell carcinoma, and lactic acid upregulated VEGF and promoted choroidal neovascularization in preclinical work.
+- Indole-3-lactic acid suppressed anti-PD-1 efficacy in esophageal squamous cell carcinoma, and lactic acid upregulated VEGF and promoted choroidal neovascularization in preclinical work.
 - **Amenorrhea:** The only paper is a baboon vaginal microbiota study, which is not a treatment link.
 - **Non-syndromic esophageal malformation, complex double outlet right ventricle, lacrimal excretory anomaly and cauda equina syndrome:** Prediction only, with no mechanistic rationale, trials or literature.
 
@@ -119,7 +119,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no trials, no literature on lactic acid in this condition, and no plausible mechanism for a structural aortic anomaly. None of the other nine predicted indications has therapeutic evidence either, and some show potential harm signals.
+The prediction rests only on a TxGNN model (deep learning) score. There are no trials, no literature on lactic acid in this condition, and no plausible mechanism for a structural aortic anomaly. None of the other nine predicted indications has therapeutic evidence either, and some show potential harm signals.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website (this gap blocks safety screening)

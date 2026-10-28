@@ -4,17 +4,17 @@ title: Tedizolid Phosphate
 parent: Low Evidence (L5)
 nav_order: 958
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Tedizolid Phosphate: predicted new indication Post-infectious syndrome (evidence level L5). Approved use: Skin disease caused by infection"
 monitor_inn: "Tedizolid phosphate"
-predicted_indications: ["post-infectious syndrome", "post-bacterial disorder", "postinfectious vasculitis", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "conjunctivitis", "infectious otitis interna", "infectious otitis media"]
+predicted_indications: ["post-infectious syndrome", "post-bacterial disorder", "postinfectious vasculitis", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "conjunctivitis"]
+description: "Tedizolid Phosphate: predicted new indication Post-infectious syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tedizolid Phosphate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tedizolid Phosphate: From Skin Infection to Post-Infectious Syndrome
+## Tedizolid Phosphate: Post-infectious syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,33 +46,31 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Skin disease caused by infection (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Post-infectious syndrome |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, tedizolid is an oxazolidinone antibacterial. It inhibits bacterial protein synthesis by binding the 23S rRNA of the 50S ribosomal subunit, and it is active against Gram-positive organisms. Its efficacy in infection-related skin disease is the basis for its original use.
 
-The link to the predicted indication is weak. Post-infectious syndromes are generally immune-mediated sequelae that appear after the pathogen has been cleared, so an antibacterial offers no clear mechanistic rationale. The high score (0.994) most likely reflects the model's association between "infection" concepts and anti-infective drugs, not a demonstrated biological mechanism. A plausible role would exist only if a persistent Gram-positive trigger were identified.
+The link to the predicted indication is weak. Post-infectious syndromes are generally immune-mediated sequelae that appear after the pathogen has been cleared, so an antibacterial offers no clear mechanistic rationale. The high score (0.9942) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A plausible role would exist only if a persistent Gram-positive trigger were identified.
 
 **Other predictions in the top 10** (all L5, all Hold):
 
 | Rank | Predicted Disease | Score | Comment |
 |------|------|------|------|
-| 2 | Post-bacterial disorder | 99.42% | Vague category that overlaps with post-infectious syndrome |
-| 3 | Postinfectious vasculitis | 99.42% | Immune-complex mediated, so an antibacterial would not address the pathology |
-| 4 | Infective urethral stricture | 99.38% | Fibrotic and anatomical, with surgery as the primary treatment. Many urethral pathogens are Gram-negative |
-| 5 | Chagas cardiomyopathy | 99.37% | Protozoal cause, with no established antiprotozoal activity |
-| 6 | Infection-related haemolytic uraemic syndrome | 99.36% | Usually Shiga toxin-producing *E. coli*, so there is no activity, and antibiotics may increase toxin release (potentially unsafe) |
-| 7 | Otitis externa | 99.33% | Plausible for *S. aureus*, but *Pseudomonas aeruginosa* is not covered. Topical agents are standard |
-| 8 | Conjunctivitis | 99.00% | MRSA is covered in vitro, but an ophthalmic formulation would be needed |
-| 9 | Infectious otitis interna | 98.58% | Inner ear penetration is unknown |
-| 10 | Infectious otitis media | 97.65% | *H. influenzae* and *M. catarrhalis* are not covered, and paediatric data are limited |
+| 2 | Post-bacterial disorder | 0.9942 | Vague category that overlaps with post-infectious syndrome |
+| 3 | Postinfectious vasculitis | 0.9942 | Immune-complex mediated, so an antibacterial would not address the pathology |
+| 4 | Infective urethral stricture | 0.9938 | Fibrotic and anatomical, with surgery as the primary treatment. Many urethral pathogens are Gram-negative |
+| 5 | Chagas cardiomyopathy | 0.9937 | Protozoal cause, with no established antiprotozoal activity |
+| 6 | Infection-related haemolytic uraemic syndrome | 0.9936 | Usually Shiga toxin-producing *E. coli*, so there is no activity, and antibiotics may increase toxin release (potentially unsafe) |
+| 7 | Otitis externa | 0.9933 | Plausible for *S. aureus*, but *Pseudomonas aeruginosa* is not covered. Topical agents are standard |
+| 8 | Conjunctivitis | 0.9900 | MRSA is covered in vitro, but an ophthalmic formulation would be needed |
 
 Among these, **otitis externa** and **conjunctivitis** are the most biologically plausible, because they involve Gram-positive pathogens related to the approved skin infection indication. Neither has supporting data.
 

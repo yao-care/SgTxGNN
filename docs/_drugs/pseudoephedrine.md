@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 841
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "trigeminal autonomic cephalalgia", "rosacea conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder", "massive neonatal aspiration syndrome", "bronchial disease"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
+description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Pseudoephedrine: From Rhinitis and the Common Cold to Nasal Cavity Disease
+## Pseudoephedrine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ This prediction largely overlaps with existing uses, so it is not a true repurpo
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, nasopharyngitis, conjunctivitis (atopic, papillary, vernal), headache disorder (from the knowledge graph; no approved indication text is available in the Singapore licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 "Nasal cavity disease" is a broad category that covers the conditions pseudoephedrine already treats. The supporting literature includes a comparative study of oral and topical decongestant effects (pseudoephedrine versus phenylpropanolamine, measured by acoustic rhinometry), a review of nonallergic rhinitis, and several animal models of nasal congestion. The mechanism fits well, but the new indication adds little beyond what is already established.
 
-Other predictions for this drug (for example acute laryngopharyngitis, allergic urticaria, trigeminal autonomic cephalalgia, rosacea conjunctivitis, cold urticaria, faucial diphtheria, cervical disc degenerative disorder, massive neonatal aspiration syndrome and bronchial disease) have weak or no supporting evidence and are rated Hold or Research Question. Many appear to be artefacts of graph proximity to the approved indications.
+Another prediction for this drug (allergic urticaria) has weak or no supporting evidence and is rated Hold or Research Question. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

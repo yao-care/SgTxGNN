@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Dimethicone
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 333
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Dimethicone: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the Singapore licence records"
+description: "Dimethicone: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Dimethicone"
-predicted_indications: ["insomnia (disease)", "craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "severe nonproliferative diabetic retinopathy"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Dimethicone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,49 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dimethicone: From Gastrointestinal Gas Relief to Insomnia
+## Dimethicone
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Dimethicone is a silicone-based antifoaming agent that acts physically and is not absorbed after oral use. It is marketed in Singapore in a number of antacid and anti-flatulence products.
-The TxGNN model predicts it may be effective for **insomnia**, but **0 clinical trials** and **0 publications** support this direction, and no biological rationale has been identified.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 94.35% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 19 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Dimethicone is a silicone polymer that works as a surface-active antifoaming agent. It is not systemically absorbed after oral use, so it acts physically rather than pharmacologically.
-
-Based on the data compiled for this report, **no plausible mechanistic link** exists between dimethicone and insomnia. It has no known activity on the main sleep-regulating pathways (GABA, orexin, histamine, melatonin). The high score of 0.94 appears to be a knowledge-graph artefact and has no supporting biological rationale.
-
-The other top-ranked predictions are mainly cataract subtypes (such as immature, mature, senile, nuclear and cortical cataract) and severe nonproliferative diabetic retinopathy. They share the same weakness: no mechanism, no trials and no literature. Silicone oil is used surgically as an intraocular tamponade, and cataract is a known complication of that use. This is a device role rather than a therapeutic effect, so it does not support these indications. These predictions probably reflect proximity in the knowledge graph rather than pharmacology.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 
 ---
 
@@ -99,19 +68,6 @@ Please refer to the package insert for safety information.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a model score. There are no clinical trials, no literature and no plausible mechanism. Dimethicone is a non-absorbed, physically acting agent with no known effect on sleep pathways. Evidence is at the lowest level (L5).
-
-**To proceed, the following is needed:**
-- A credible mechanistic hypothesis explaining how a non-absorbed silicone could affect sleep
-- Mechanism of action data from DrugBank
-- Package insert warnings and contraindications from the HSA website
-- Preclinical or clinical evidence for insomnia
-- Assessment of route compatibility and the dosage forms required for any new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

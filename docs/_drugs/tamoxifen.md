@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tamoxifen
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 954
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L4). Approved use: Female breast carcinoma"
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tamoxifen
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tamoxifen: From Breast Carcinoma to Mammary Paget Disease
+## Tamoxifen: Mammary Paget disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Evidence for this specific prediction is therefore weak (model prediction plus c
 
 | Item | Content |
 |------|------|
-| Original Indication | Female breast carcinoma (the approved indication text is not available in the Singapore licence records; this is taken from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Mammary Paget disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| TxGNN Prediction Score | 0.9969 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

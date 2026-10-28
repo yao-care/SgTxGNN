@@ -4,17 +4,17 @@ title: Goserelin
 parent: High Evidence (L1-L2)
 nav_order: 490
 evidence_level: L1
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Goserelin: predicted new indication Amenorrhea (evidence level L1). Approved use: Endometriosis"
+description: "Goserelin: predicted new indication amenorrhea (disease) (evidence level L1). Approved use: Endometriosis"
 monitor_inn: "Goserelin"
-predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral", "cervix endometriosis", "gelatinous drop-like corneal dystrophy", "duodenogastric reflux", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "duodenal obstruction", "duodenal ulcer (disease)"]
+predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 ---
 
 # Goserelin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Goserelin: From Endometriosis to Amenorrhea
+## Goserelin: From Endometriosis to Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Amenorrhea is largely an expected pharmacological effect of ovarian suppression 
 |------|------|
 | Original Indication | Endometriosis (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -94,7 +94,7 @@ Both licences are valid, single-ingredient products from AstraZeneca UK Ltd.
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (from knowledge-graph associations, not package insert text)**: hypertension and hypertensive disorder, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, obesity (including monogenic obesity), and urinary tract obstruction.
+- **Contraindication-related conditions (from TxGNN model (deep learning) associations, which may reflect similarities the model learned between related diseases, not biological evidence, and not package insert text)**: hypertension and hypertensive disorder, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, obesity (including monogenic obesity), and urinary tract obstruction.
 - **Drug Interactions**: 100 interactions were identified. Most are of moderate severity; the one Major interaction in the listed results is **dolasetron**. Moderate interactions in the list include:
   - Antidiabetic agents: acarbose, alogliptin, canagliflozin, chlorpropamide, dapagliflozin, dulaglutide, empagliflozin, glimepiride, linagliptin, metformin, saxagliptin, albiglutide
   - Others: famotidine, loperamide, bisacodyl, clarithromycin, picosulfuric acid, polyethylene glycol (3350 with electrolytes), palonosetron

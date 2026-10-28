@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 751
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Pharyngitis, common cold"
 monitor_inn: "Oxymetazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "allergic urticaria", "faucial diphtheria", "papillary conjunctivitis", "cervical disc degenerative disorder", "nasopharyngitis", "massive neonatal aspiration syndrome"]
+predicted_indications: ["nasal cavity disease", "headache disorder"]
+description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Oxymetazoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
+## Oxymetazoline: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 | Item | Content |
 |------|------|
-| Original Indication | Pharyngitis, common cold |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 10 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Stimulating alpha-adrenergic receptors constricts blood vessels in the nasal mucosa, reducing swelling, blood flow and congestion. This is plausible for nasal cavity conditions involving mucosal swelling or bleeding. However, the existing use for nasal congestion already largely overlaps with this predicted indication, so it is closer to an extension of the current label than a true repurposing opportunity.
 
-Other predicted indications are weaker. Acute laryngopharyngitis and nasopharyngitis are closely related to the original indications but have no supporting studies. A headache disorder prediction has some support (intranasal tetracaine plus oxymetazoline for status migrainosus), but this is a combination product, so oxymetazoline's own contribution cannot be separated. Several other predictions (e.g., cervical disc degenerative disorder, allergic urticaria, faucial diphtheria, massive neonatal aspiration syndrome) have no plausible mechanistic link and are likely spurious.
+Other predicted indications are weaker. Acute laryngopharyngitis and nasopharyngitis are closely related to the original indications but have no supporting studies. A headache disorder prediction has some support (intranasal tetracaine plus oxymetazoline for status migrainosus), but this is a combination product, so oxymetazoline's own contribution cannot be separated.
 
 ---
 

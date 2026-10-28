@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Detemir
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 535
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Insulin Detemir: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
 monitor_inn: "Insulin detemir"
-predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Detemir: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Detemir
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Detemir: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Detemir: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin detemir is a long-acting basal insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, which is in fact already part of its established, marketed use rather than a true new indication.
 The data compiled for this report include **39 clinical trials** and **20 publications** that support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune oophoritis |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Type 1 diabetes is a form of diabetes mellitus, the drug's original indication, and it is defined by absolute insulin deficiency. This makes it the classic setting for basal insulin replacement. The prediction is therefore reasonable, but it largely **confirms existing on-label use** rather than identifying a new therapeutic opportunity.
 
-Other predictions (ranks 2–10) have no clinical trials or literature and are model output only. Examples include autoimmune oophoritis, opsismodysplasia and stiff person syndrome. Several likely reflect comorbidity or adverse-effect associations in the knowledge graph (for example, lipodystrophy is a known injection-site effect of insulin). Pancreatic agenesis is biologically plausible because insulin replacement is the standard treatment for the resulting diabetes, but it has no supporting studies here. None of these is recommended for advancement at this stage.
+Other predictions (ranks 2–10) have no clinical trials or literature and are model output only. Examples include autoimmune oophoritis, opsismodysplasia and stiff person syndrome. Pancreatic agenesis is biologically plausible because insulin replacement is the standard treatment for the resulting diabetes, but it has no supporting studies here. None of these is recommended for advancement at this stage.
 
 ## Clinical Trial Evidence
 

@@ -50,10 +50,10 @@ Among the other top-ranked predictions, only hyperthyroidism has a registered tr
 |------|------|
 | Original Indication | Not stated in the registration data (the products are amino acid infusion and nutrition products) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 15 |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,12 +62,12 @@ Among the other top-ranked predictions, only hyperthyroidism has a registered tr
 
 Currently, detailed mechanism of action data is not available. Tyrosine is a known amino acid and a precursor of catecholamines (dopamine and norepinephrine) and of thyroid hormones. It is supplied in Singapore as a component of parenteral nutrition products.
 
-For cauda equina syndrome, no mechanistic link was identified in the data compiled for this report. The condition is a compressive injury of the nerve roots of the cauda equina, and nothing in the data connects catecholamine precursor supply to that injury. The high score (0.998) is a graph-based prediction only and should be read as a hypothesis, not as evidence.
+For cauda equina syndrome, no mechanistic link was identified in the data compiled for this report. The condition is a compressive injury of the nerve roots of the cauda equina, and nothing in the data connects catecholamine precursor supply to that injury. The high score (0.9977) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be read as a hypothesis only.
 
 Other top-ranked predictions show the same pattern:
 - **Hyperthyroidism, hyperthyroxinemia, and thyroid hormone resistance**: Tyrosine is a substrate for thyroid hormone synthesis, but supplying more substrate would be expected to be neutral or unfavorable when the goal is to lower hormone activity. This is a safety concern as well as a lack of evidence.
 - **Postural orthostatic tachycardia syndrome**: A link to autonomic function is plausible, since tyrosine is a catecholamine precursor. However, the only paper retrieved is a case report of chronic fatigue syndrome treated with alpha-methyl-p-tyrosine, a tyrosine hydroxylase inhibitor that acts opposite to tyrosine.
-- **Glaucoma-related conditions (angle-closure, traumatic, neovascular, aqueous misdirection)**: None of the retrieved papers tests tyrosine as a treatment. Two predictions share an identical score, which suggests they are driven by shared graph neighbours rather than tyrosine-specific biology.
+- **Glaucoma-related conditions (angle-closure, traumatic, neovascular, aqueous misdirection)**: None of the retrieved papers tests tyrosine as a treatment. The scores for these predictions come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Obsolete neurogenic bladder (disease)**: The term is flagged as obsolete in the ontology and needs to be mapped to a current term before any assessment.
 
 ---
@@ -130,7 +130,7 @@ One point can be noted from the predictions themselves: for the thyroid-related 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for cauda equina syndrome rests only on a graph-based score, with no clinical trials, no literature, and no identified mechanism. The same is true of the other top predictions. For the thyroid-related predictions, the biology suggests possible harm rather than benefit.
+The prediction for cauda equina syndrome rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence, with no clinical trials, no literature, and no identified mechanism. The same is true of the other top predictions. For the thyroid-related predictions, the biology suggests possible harm rather than benefit.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data, and a plausible mechanistic link between tyrosine and the target condition

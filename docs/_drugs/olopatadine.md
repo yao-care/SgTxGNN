@@ -4,17 +4,17 @@ title: Olopatadine
 parent: Low Evidence (L5)
 nav_order: 738
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis…"
 monitor_inn: "Olopatadine"
-predicted_indications: ["rosacea conjunctivitis", "punctate epithelial keratoconjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "blepharoconjunctivitis"]
+predicted_indications: ["rosacea conjunctivitis"]
+description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Olopatadine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Olopatadine: From Allergic Conjunctivitis and Rhinitis to Rosacea Conjunctivitis
+## Olopatadine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The score is a model prediction only.
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available from the data comp
 
 The link to rosacea conjunctivitis is weak. Ocular rosacea is driven mainly by meibomian gland dysfunction, inflammation and *Demodex* mites, with only a limited allergic or histaminergic component. Any benefit from olopatadine would therefore be indirect, for example relieving a coexisting allergic component.
 
-The very high TxGNN score (0.994) most likely reflects similarity to the approved conjunctivitis indications rather than a distinct mechanistic signal.
+The very high TxGNN score (0.9941) most likely reflects similarity to the approved conjunctivitis indications rather than a distinct mechanistic signal.
 
-Other predictions in the same ranking show the same pattern. Examples are punctate epithelial keratoconjunctivitis, conjunctival folliculosis, chronic follicular conjunctivitis and blepharoconjunctivitis. Only their allergic subsets are plausible targets. Viral or infectious forms (acute hemorrhagic conjunctivitis, pseudomembranous conjunctivitis) have little mechanistic rationale. All of these are at L4–L5 and are on Hold.
+Other predictions in the same ranking show the same pattern. Only their allergic subsets are plausible targets. All of these are at L4–L5 and are on Hold.
 
 ## Clinical Trial Evidence
 
@@ -72,7 +72,7 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for rosacea conjunctivitis.
 
-For the second-ranked prediction, punctate epithelial keratoconjunctivitis, one case report is linked. It is PMID [22606467](https://pubmed.ncbi.nlm.nih.gov/22606467/) (2011, *Case Reports in Ophthalmological Medicine*), on limbitis secondary to autologous serum eye drops in atopic keratoconjunctivitis. Olopatadine appears only as part of the background treatment, so this is not evidence of efficacy.
+It is PMID [22606467](https://pubmed.ncbi.nlm.nih.gov/22606467/) (2011, *Case Reports in Ophthalmological Medicine*), on limbitis secondary to autologous serum eye drops in atopic keratoconjunctivitis. Olopatadine appears only as part of the background treatment, so this is not evidence of efficacy.
 
 ## Singapore Market Information
 

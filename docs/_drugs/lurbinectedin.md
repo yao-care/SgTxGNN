@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lurbinectedin: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not stated in the Singapore registration data compiled for this report"
 monitor_inn: "Lurbinectedin"
-predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "cytomegalovirus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "infectious bovine rhinotracheitis", "malignant catarrh", "Mills syndrome"]
+predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "cytomegalovirus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "malignant catarrh", "infectious bovine rhinotracheitis", "Mills syndrome"]
 ---
 
 # Lurbinectedin
@@ -46,19 +46,19 @@ Lurbinectedin is an injectable anticancer drug registered in Singapore as a sing
 |------|------|
 | Original Indication | Not stated in the Singapore registration data compiled for this report |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.44% |
+| TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not formally available in the data compiled for this report. Lurbinectedin is understood to be an oncology agent that binds DNA in the minor groove and inhibits oncogenic transcription. Because it is an antineoplastic, it could plausibly be relevant to neuroendocrine tumours, which are part of the multiple endocrine neoplasia spectrum.
 
-This link is speculative. The high score (99.44%) is a model prediction only, and no trial or publication was found to support it. The approved indication text was also not available, so the relationship between the original and the predicted indication cannot be assessed.
+This link is speculative. The high score (0.9944) is a model prediction only, and no trial or publication was found to support it. The approved indication text was also not available, so the relationship between the original and the predicted indication cannot be assessed.
 
-Other high-ranking predictions (HIV infection, rheumatoid arthritis, amyotrophic lateral sclerosis, cytomegalovirus infection, and several veterinary diseases) have no identified mechanistic rationale. They most likely reflect proximity in the knowledge graph rather than real therapeutic potential, which is a reason for caution about the TxGNN scores for this drug in general.
+Other high-ranking predictions (HIV infection, rheumatoid arthritis, amyotrophic lateral sclerosis, cytomegalovirus infection, and several veterinary diseases) have no identified mechanistic rationale. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, which is a reason for caution about the TxGNN scores for this drug in general.
 
 ## Singapore Market Information
 

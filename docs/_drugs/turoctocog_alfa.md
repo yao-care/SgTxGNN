@@ -48,10 +48,10 @@ Turoctocog alfa is a recombinant human factor VIII (B-domain truncated) product,
 |------|------|
 | Original Indication | Hemophilia (including the symptomatic form of hemophilia in female carriers) |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,21 +60,21 @@ Turoctocog alfa is a recombinant human factor VIII (B-domain truncated) product,
 
 Detailed mechanism of action data is not available. Based on known information, turoctocog alfa is a recombinant factor VIII that replaces the missing FVIII activity in the intrinsic coagulation pathway. Its efficacy in hemophilia comes from correcting that specific deficiency.
 
-Primary platelet release disorders arise from defects in platelet granule secretion or signalling, not from FVIII deficiency. There is therefore no clear mechanistic rationale for this prediction. The high TxGNN score most likely reflects shared "bleeding disorder" neighbours in the knowledge graph and is not clinical support.
+Primary platelet release disorders arise from defects in platelet granule secretion or signalling, not from FVIII deficiency. There is therefore no clear mechanistic rationale for this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predicted indications (all L5, all Hold, with no trials or literature):**
 
 | Rank | Predicted Disease | Score | Assessment |
 |---|---|---|---|
-| 2 | Pseudo-von Willebrand disease | 99.99% | Primary defect is platelet GPIbα gain-of-function; FVIII replacement alone would not address it. Only an indirect link, as FVIII is carried by VWF. |
-| 3 | Glanzmann thrombasthenia | 99.99% | Caused by integrin αIIbβ3 deficiency; FVIII is not the missing component. No plausible link. |
-| 4 | Scott syndrome | 99.95% | Defective phosphatidylserine exposure on platelets; extra FVIII does not restore the missing surface. Weak, indirect link. |
-| 5 | Acquired coagulation factor deficiency | 99.95% | Most plausible candidate, since FVIII replacement could address acquired FVIII deficiency. Inhibitory autoantibodies (acquired hemophilia A) often make replacement ineffective. The category is also broad. |
-| 6 | Bleeding diathesis due to a collagen receptor defect | 99.91% | Platelet-level defect independent of FVIII. |
-| 7 | Hemorrhagic disorder due to a constitutional thrombocytopenia | 99.91% | Bleeding is driven by platelet count or function, not FVIII. |
-| 8 | "Flood factor deficiency" | 99.61% | Not a standard disease name; the ontology entry should be verified. |
-| 9 | Thrombotic thrombocytopenic purpura | 99.54% | Prothrombotic condition; a procoagulant could be harmful. This is a safety concern, not an opportunity. |
-| 10 | Hereditary thrombocytosis with transverse limb defect | 99.52% | Thrombotic rather than bleeding risk; a procoagulant is not appropriate. |
+| 2 | Pseudo-von Willebrand disease | 0.9999 | Primary defect is platelet GPIbα gain-of-function; FVIII replacement alone would not address it. Only an indirect link, as FVIII is carried by VWF. |
+| 3 | Glanzmann thrombasthenia | 0.9999 | Caused by integrin αIIbβ3 deficiency; FVIII is not the missing component. No plausible link. |
+| 4 | Scott syndrome | 0.9995 | Defective phosphatidylserine exposure on platelets; extra FVIII does not restore the missing surface. Weak, indirect link. |
+| 5 | Acquired coagulation factor deficiency | 0.9995 | Most plausible candidate, since FVIII replacement could address acquired FVIII deficiency. Inhibitory autoantibodies (acquired hemophilia A) often make replacement ineffective. The category is also broad. |
+| 6 | Bleeding diathesis due to a collagen receptor defect | 0.9991 | Platelet-level defect independent of FVIII. |
+| 7 | Hemorrhagic disorder due to a constitutional thrombocytopenia | 0.9991 | Bleeding is driven by platelet count or function, not FVIII. |
+| 8 | "Flood factor deficiency" | 0.9961 | Not a standard disease name; the ontology entry should be verified. |
+| 9 | Thrombotic thrombocytopenic purpura | 0.9954 | Prothrombotic condition; a procoagulant could be harmful. This is a safety concern, not an opportunity. |
+| 10 | Hereditary thrombocytosis with transverse limb defect | 0.9952 | Thrombotic rather than bleeding risk; a procoagulant is not appropriate. |
 
 ---
 

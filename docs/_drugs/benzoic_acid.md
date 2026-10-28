@@ -5,10 +5,10 @@ parent: Low Evidence (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Benzoic Acid: predicted new indication Bronchitis (evidence level L5). Approved use: Pemphigus, Peyronie disease, penile fibromatosis, scleroderma…"
 monitor_inn: "Benzoic acid"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
+last_modified_at: 2026-10-27
+description: "Benzoic Acid: predicted new indication bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Benzoic Acid
@@ -33,101 +33,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Benzoic Acid: From Fibrotic and Autoimmune Skin Conditions to Bronchitis
+## Benzoic acid: topical antifungal/keratolytic agent → bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Benzoic acid is listed in the drug knowledge graph for fibrotic and autoimmune skin conditions such as pemphigus, Peyronie disease and scleroderma, and in Singapore it is marketed only as a topical single-ingredient product.
-The TxGNN model predicts it may be effective for **bronchitis**, but **no clinical trials** and only **2 publications** were found, and neither studies benzoic acid.
-This prediction is model-based only and has no direct supporting evidence.
-
----
+Benzoic acid is an aromatic carboxylic acid used in topical skin preparations in Singapore.
+The TxGNN model predicts it may be effective for **bronchitis**, but **no clinical trials** and **no publications that study benzoic acid in bronchitis** are available, so this is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pemphigus, Peyronie disease, penile fibromatosis, scleroderma, systemic sclerosis, dermatomyositis (from the knowledge graph; the Singapore licences list no approved indication text) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | bronchitis |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Benzoic acid is marketed in Singapore only as a single-ingredient topical product (ointments and a solution), and no mechanism can be derived from the data compiled for this report.
+Currently, detailed mechanism of action data is not available. The data compiled for this report contain no mechanism of action for benzoic acid, and no credible mechanistic link to bronchitis can be established from the supplied information.
 
-The relationship between the original indications and bronchitis is unclear. The original indications are mostly fibrotic or autoimmune skin and connective-tissue diseases, while bronchitis is an inflammatory airway condition. The two papers retrieved for bronchitis concern repaglinide in type 2 diabetes and a soluble epoxide hydrolase inhibitor in smoke-induced COPD. Neither studies benzoic acid. The very high model score therefore remains a statistical prediction without clinical support.
+The two retrieved papers do not study benzoic acid. One reviews repaglinide (a benzoic acid derivative) in type 2 diabetes. The other examines a soluble epoxide hydrolase inhibitor in smoke-induced chronic obstructive pulmonary disease (COPD), where bronchitis is mentioned only as one component of the disease. The very high score (0.9998) reflects the model's output alone and is not corroborated by clinical evidence.
 
-Other predictions in the list are more biologically coherent with the original indications. Palmar fibromatosis, Ledderhose disease and infantile digital fibromatosis are fibromatosis-type conditions related to Peyronie disease and penile fibromatosis. They are flagged as research questions, but they also have no trials or literature.
-
----
+Other diseases appear among the model's outputs, but none has direct supporting studies in the data. The fibromatosis-type conditions (palmar fibromatosis, Ledderhose disease, infantile digital fibromatosis) are the only ones with a plausible, still hypothetical, thematic link. This report treats bronchitis as the main prediction.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11577798](https://pubmed.ncbi.nlm.nih.gov/11577798/) | 2001 | Review | Drugs | Review of repaglinide (a benzoic acid derivative) in type 2 diabetes; not about bronchitis or benzoic acid itself |
-| [22180869](https://pubmed.ncbi.nlm.nih.gov/22180869/) | 2012 | Preclinical/Animal study | Am J Respir Cell Mol Biol | Soluble epoxide hydrolase inhibitor in smoke-induced COPD; bronchitis is mentioned only as a component of COPD; no benzoic acid involvement |
-
----
+| [11577798](https://pubmed.ncbi.nlm.nih.gov/11577798/) | 2001 | Review | Drugs | Review of repaglinide, a benzoic acid derivative, in type 2 diabetes; not about benzoic acid or bronchitis |
+| [22180869](https://pubmed.ncbi.nlm.nih.gov/22180869/) | 2012 | Preclinical/Animal study | Am J Respir Cell Mol Biol | Soluble epoxide hydrolase inhibitor in smoke-induced COPD (a condition that includes bronchitis); does not involve benzoic acid |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN09544P | Robinson Ringworm & Whitespot Ointment | Ointment | Not stated |
-| SIN08773P | Tinea Skin Solution (Three Leg Brand) | Solution | Not stated |
-| SIN09830P | Saw Hong Choon Skin Ointment | Ointment | Not stated |
-| SIN04418P | Nixoderm Ointment | Ointment | Not stated |
-| SIN16547P | Veelanz's Ointment | Ointment | Not stated |
-
-All five licences are valid single-ingredient products. The product names suggest topical use for skin conditions such as ringworm and tinea, although no approved indication text was recorded.
-
----
+| SIN09544P | ROBINSON RINGWORM & WHITESPOT OINTMENT | Ointment | Not recorded |
+| SIN08773P | TINEA SKIN SOLUTION (THREE LEG BRAND) | Solution | Not recorded |
+| SIN09830P | SAW HONG CHOON SKIN OINTMENT | Ointment | Not recorded |
+| SIN04418P | NIXODERM OINTMENT | Ointment | Not recorded |
+| SIN16547P | VEELANZ'S OINTMENT | Ointment | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: The knowledge graph links benzoic acid to many disease contraindications. The main groups are:
-  - Liver and kidney disease, including liver failure
-  - Cardiovascular conditions: hypertension, coronary artery disease, heart conduction disease, sudden cardiac arrest
-  - Blood disorders: anaemia, haemophilia and other coagulation disorders, G6PD deficiency
-  - Diabetes and diabetic ketoacidosis
-  - Metabolic disorders: galactosemia, glycogen storage disease, cystinuria
-  - Neuromuscular disease: myasthenia gravis
-  - Gastrointestinal conditions: gastritis, achalasia
-  - Others: benign prostatic hyperplasia, anorexia nervosa
-
-  These associations are not confirmed by package insert text and should be verified.
-
-Please refer to the package insert for key warnings and drug interaction information. No drug interaction records were found.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The bronchitis prediction rests only on a model score, with no clinical trials and no literature on benzoic acid. The mechanism of action is unknown. The existing Singapore products are topical, which also does not fit a respiratory indication.
+The prediction rests on the model score alone. No trial or publication studies benzoic acid in bronchitis, and the available products are topical skin preparations, so there is no evident route to a respiratory use. Evidence level is L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for benzoic acid (e.g., from DrugBank)
-- Package insert warnings and contraindications from the HSA website, to enable safety screening
-- Route and formulation feasibility assessment, since the marketed products are topical only
-- Targeted literature and trial searches for benzoic acid in respiratory disease
-- Consideration of the fibromatosis-type predictions (palmar fibromatosis, Ledderhose disease) as better-aligned research questions, subject to the same evidence gaps
+- Mechanism of action data for benzoic acid and a rationale for an effect in bronchitis
+- Preclinical or clinical studies that directly address bronchitis
+- Package insert warnings and contraindications from the Health Sciences Authority (HSA)
+- An assessment of whether a suitable route of administration exists, since current local products are topical
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

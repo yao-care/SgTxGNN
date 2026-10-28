@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency"
 monitor_inn: "Ascorbic acid"
-predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "perinatal disease", "florid cemento-osseous dysplasia", "disease by subcellular system affected", "vitamin deficiency disorder"]
+predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "vitamin deficiency disorder"]
 ---
 
 # Ascorbic Acid
@@ -50,10 +50,10 @@ Among the other predictions, "injury" (**16 clinical trials**, **20 publications
 |------|------|
 | Original Indication | Ascorbic acid deficiency; scurvy (no approved indication text is recorded in the Singapore licences) |
 | Predicted New Indication | Non-syndromic esophageal malformation |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Among the other predictions, "injury" (**16 clinical trials**, **20 publications
 
 Detailed mechanism of action data is not currently available. Ascorbic acid is a well-known water-soluble vitamin that acts as an antioxidant and as a cofactor for collagen synthesis. Its efficacy in correcting vitamin C deficiency and scurvy is established.
 
-For the top-ranked prediction, non-syndromic esophageal malformation, **no mechanistic rationale has been identified**. This is a congenital structural malformation, and ascorbic acid is not expected to correct it. The high score reflects a graph-based prediction only, with no supporting trials or literature.
+For the top-ranked prediction, non-syndromic esophageal malformation, **no mechanistic rationale has been identified**. This is a congenital structural malformation, and ascorbic acid is not expected to correct it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no supporting trials or literature.
 
 Other predictions have more plausible links:
 
@@ -125,7 +125,7 @@ No literature is available for the top-ranked prediction. The most relevant publ
 
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph (not label text):** The TxGNN knowledge graph links ascorbic acid to a number of conditions as contraindications, including kidney disease, anuria, nephrocalcinosis, primary hyperoxaluria, hereditary hemochromatosis, sickle cell anemia, diabetes mellitus, peptic ulcer disease, liver disease, hypertension, epilepsy, and hypercalcemia. These need verification against the official package insert.
+- **Contraindications noted by TxGNN (not label text):** TxGNN lists ascorbic acid as contraindicated in a number of conditions, including kidney disease, anuria, nephrocalcinosis, primary hyperoxaluria, hereditary hemochromatosis, sickle cell anemia, diabetes mellitus, peptic ulcer disease, liver disease, hypertension, epilepsy, and hypercalcemia. These need verification against the official package insert.
 - **Drug Interactions:** 25 interactions were identified. Moderate-level interactions include amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine, aluminum hydroxide, bortezomib and deferoxamine. Others, such as paclitaxel, cisplatin, doxorubicin, pseudoephedrine, ephedrine, ethinylestradiol, flecainide, fluphenazine, indinavir and mexiletine, are minor.
 - **Esophageal context:** Preclinical data suggest possible harm in reflux settings, which is relevant to the esophageal predictions.
 

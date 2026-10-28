@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenofovir Alafenamide
-parent: Medium Evidence (L3-L4)
-nav_order: 963
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Tenofovir Alafenamide: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection / AIDS"
+parent: Low Evidence (L5)
+nav_order: 962
+evidence_level: L5
+indication_count: 3
 monitor_inn: "Tenofovir alafenamide"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "chronic hepatitis C virus infection", "obsolete familial combined hyperlipidemia", "hepatitis C virus infection", "hepatitis E virus infection"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-23
+description: "Tenofovir Alafenamide: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease, AIDS"
 ---
 
 # Tenofovir Alafenamide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,93 +33,75 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tenofovir Alafenamide: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Tenofovir Alafenamide: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Tenofovir alafenamide (TAF) was originally developed for HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but the evidence is limited to **8 preclinical publications** (mostly macaque studies) and **no registered clinical trials**.
-SIV infection is an animal-model disease, not a human clinical target, so this prediction is better read as a confirmation of TAF's anti-retroviral activity than as a new human indication.
-
----
+Tenofovir alafenamide (TAF) is an antiviral originally used to treat HIV infection and AIDS (it is also used for chronic hepatitis B).
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**,
+but there are currently **0 clinical trials** and **0 publications** directly studying this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection / AIDS |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Original Indication | HIV infectious disease, AIDS (relation recorded in the knowledge graph; the Singapore licence records contain no indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. TAF is known to be a prodrug of tenofovir and a nucleotide reverse transcriptase inhibitor. It is used in HIV treatment and in several fixed-dose combinations. SIV and the chimeric SHIV viruses are close relatives of HIV that also depend on reverse transcription, so activity against them is mechanistically coherent.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, TAF is a prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. It delivers tenofovir diphosphate efficiently into lymphoid cells, where it blocks viral DNA synthesis.
 
-The original indication (HIV) and the predicted indication (SIV) are essentially the same virus family studied in a different host. Macaque SIV/SHIV models are widely used to test HIV prevention (PrEP, PEP) and cure strategies. The prediction therefore mostly reflects the drug's use as a research tool in these models, not a new treatment opportunity for patients.
+Feline immunodeficiency virus (FIV) is a lentivirus that, like HIV-1, replicates through reverse transcriptase. This shared biology makes activity against FIV mechanistically plausible and likely explains the high TxGNN score.
 
----
+This is a veterinary indication, and no studies were found for it. It is therefore a computational prediction only and has little direct relevance to human drug repurposing. The other predictions for this drug are also weak: simian immunodeficiency virus infection is supported only by preclinical animal studies, and a rare neurodevelopmental disorder has no identifiable mechanistic link.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-All retrieved publications are preclinical. No randomised human trials exist for this indication.
+Currently no related literature available for feline acquired immunodeficiency syndrome.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclinical (macaque) | J Infect Dis | Oral emtricitabine + TAF protected macaques from repeated rectal SHIV exposure, supporting TAF for PrEP |
-| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Preclinical (macaque) | J Infect Dis | Tested oral TAF/emtricitabine and TAF alone against repeated vaginal SHIV exposure |
-| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Preclinical (implant, animal) | J Antimicrob Chemother | Biodegradable TAF-releasing implant evaluated for safety and vaginal protection in macaques |
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Preclinical (macaque) | J Infect Dis | TAF/elvitegravir vaginal inserts gave extended post-exposure protection (earlier work: 93% protection before and 100% after exposure) |
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical (macaque) | Nat Commun | Early treatment with oral emtricitabine/TAF plus long-acting cabotegravir/rilpivirine, with or without an immune agent, aimed at SHIV remission |
-| [41342257](https://pubmed.ncbi.nlm.nih.gov/41342257/) | 2026 | Preclinical (macaque, topical insert) | J Infect Dis | TAF/elvitegravir rectal inserts gave partial post-exposure protection (82.9%) |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preclinical (humanized mouse) | Front Immunol | Dual-purpose mouse model for testing antivirals against both SIV and HIV |
-| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Preclinical (methods) | PLoS One | Protocol for training macaques to take daily oral antiretrovirals, for HIV prevention and treatment research |
-
----
+For context, the second-ranked prediction, simian immunodeficiency virus infection, has 8 preclinical records (macaque and humanized mouse studies). Examples include [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) (2016, oral emtricitabine/TAF protecting macaques from rectal SHIV infection) and [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) (2019, oral TAF alone or with emtricitabine against vaginal SHIV infection). These are animal models of HIV, not studies of feline disease, so they do not raise the evidence level for this prediction.
 
 ## Singapore Market Information
 
-TAF is registered in Singapore in 5 valid single-ingredient-listed licences, all oral film-coated tablets. The registration records do not include approved-indication text.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15392P | VEMLIDY Film Coated Tablet 25 mg | Film-coated tablet | Not stated in the records |
+| SIN15322P | DESCOVY Film Coated Tablet 200 mg/25 mg | Film-coated tablet | Not stated in the records |
+| SIN15321P | DESCOVY Film Coated Tablet 200 mg/10 mg | Film-coated tablet | Not stated in the records |
+| SIN16015P | ODEFSEY Film-Coated Tablet 200 mg/25 mg/25 mg | Film-coated tablet | Not stated in the records |
+| SIN15604P | BIKTARVY Film-Coated Tablets 50 mg/200 mg/25 mg | Film-coated tablet | Not stated in the records |
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15392P | VEMLIDY 25 mg | Film-coated tablet |
-| SIN15322P | DESCOVY 200 mg/25 mg | Film-coated tablet |
-| SIN15321P | DESCOVY 200 mg/10 mg | Film-coated tablet |
-| SIN16015P | ODEFSEY 200 mg/25 mg/25 mg | Film-coated tablet |
-| SIN15604P | BIKTARVY 50 mg/200 mg/25 mg | Film-coated tablet |
-
----
+Note: Several of these products (DESCOVY, ODEFSEY, BIKTARVY) contain TAF together with other active ingredients, although they are recorded as single licences in the data.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No drug–drug interactions were recorded. The only entry is a pharmacology link to the bitter taste receptor TAS2R39, which is a target association and not a clinical interaction.
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The supporting evidence is entirely preclinical (macaque and mouse studies) and there are no registered trials. SIV infection is an animal-model disease, so there is no human repurposing opportunity. The prediction mainly confirms TAF's anti-retroviral activity, which is already established in its approved HIV use.
+The prediction is supported only by the TxGNN score, with no trials or publications on feline acquired immunodeficiency syndrome (Evidence Level L5). It is also a veterinary indication outside the scope of human repurposing.
 
 **To proceed, the following is needed:**
-- A clinically relevant human target. The data compiled for this report suggest chronic hepatitis B virus infection (lower-ranked in the model, but with Phase 3 evidence, L1) is a far stronger candidate to evaluate.
-- Detailed mechanism of action data (MOA).
-- Package insert warnings and contraindications from the Singapore regulator (HSA) to support safety screening.
+- Any in vitro or in vivo FIV studies of TAF, if a veterinary direction is of interest
+- Mechanism of action data for TAF
+- HSA package insert warnings and contraindications
+- If human repurposing is the goal, reprioritise toward predictions that have human clinical evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

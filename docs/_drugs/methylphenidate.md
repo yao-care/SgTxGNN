@@ -4,17 +4,17 @@ title: Methylphenidate
 parent: Low Evidence (L5)
 nav_order: 664
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: ADHD, narcolepsy"
 monitor_inn: "Methylphenidate"
-predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder", "trichotillomania", "cerebellar ataxia", "autosomal dominant cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "benign paroxysmal torticollis of infancy", "insomnia (disease)"]
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
+description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methylphenidate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methylphenidate: From ADHD and Narcolepsy to Faciodigitogenital Syndrome
+## Methylphenidate: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Methylphenidate is a central nervous system stimulant, originally used to treat attention deficit hyperactivity disorder (ADHD) and narcolepsy.
-The TxGNN model predicts it may be effective for **faciodigitogenital syndrome** (score 99.998%), but **no clinical trials and no publications** currently support this prediction, so it is a model output only.
+The TxGNN model predicts it may be effective for **faciodigitogenital syndrome** (score 1.0000), but **no clinical trials and no publications** currently support this prediction, so it is a model output only.
 Among the other top-ranked predictions, only a few have any indirect evidence, and none shows direct proof of therapeutic benefit.
 
 ---
@@ -48,12 +48,12 @@ Among the other top-ranked predictions, only a few have any indirect evidence, a
 
 | Item | Content |
 |------|------|
-| Original Indication | ADHD, narcolepsy (the licence records list no indication text; these indications come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Faciodigitogenital syndrome |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 15 |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,15 +68,9 @@ Faciodigitogenital syndrome is a rare developmental disorder. No plausible mecha
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Chondromyxoid fibroma | 99.991% | L5 | No data; likely a knowledge-graph artifact |
-| 3 | Specific developmental disorder | 99.988% | L4 | Literature is mostly about ADHD (already approved); indirect |
-| 4 | Dysthymic disorder | 99.109% | L4 | Only ADHD with comorbid subsyndromal depression studied; indirect |
-| 5 | Trichotillomania | 98.825% | L4 | Case reports suggest stimulants may *cause* or worsen it |
-| 6 | Cerebellar ataxia | 98.394% | L4 | Case-level and imaging data only; no improvement in ataxia shown |
-| 7 | Autosomal dominant cerebellar ataxia | 98.379% | L5 | Only a diagnostic imaging study |
-| 8 | Spinocerebellar degeneration with slow eye movements | 97.567% | L5 | Imaging studies only |
-| 9 | Benign paroxysmal torticollis of infancy | 97.514% | L5 | No data |
-| 10 | Insomnia | 97.512% | L4 | Stimulant tends to worsen sleep; trials study sleep as a side effect |
+| 2 | Chondromyxoid fibroma | 0.9999 | L5 | No data; likely a TxGNN model (deep learning) artifact |
+| 3 | Specific developmental disorder | 0.9999 | L5 | Literature is mostly about ADHD (already approved); indirect |
+| 4 | Dysthymic disorder | 0.9911 | L5 | Only ADHD with comorbid subsyndromal depression studied; indirect |
 
 ---
 
@@ -134,7 +128,7 @@ Methylphenidate has 15 valid single-ingredient registrations in Singapore, all o
 
 - **Contraindications suggested by the knowledge graph** (these are graph associations, not package insert text): hypertension, coronary artery disease, myocardial infarction, stroke and other cerebrovascular disorders, sudden cardiac arrest, heart conduction disease, epilepsy, bipolar and other major affective disorders, psychotic and schizophrenia-spectrum disorders, substance abuse/dependence, anorexia nervosa, glaucoma, hyperthyroidism/thyrotoxicosis (including Graves disease), thrombocytopenia, leukopenia, and anaemia/haemoglobinopathy.
 - **Drug Interactions**: The interaction search returned 100 records. **Bupropion** is rated Major. Moderate interactions include isometheptene, ephedrine, epinephrine, and the bowel-preparation agents polyethylene glycol (3350 with electrolytes), picosulfuric acid and sodium sulfate. Many others are of unknown severity.
-- **Signals from the literature**: Case reports link stimulant treatment to new-onset or worsened trichotillomania. Stimulants can also worsen sleep onset and duration.
+- Stimulants can also worsen sleep onset and duration.
 
 Please refer to the package insert for the official warnings, as these were not available in the compiled data.
 
@@ -146,13 +140,12 @@ Please refer to the package insert for the official warnings, as these were not 
 
 **Rationale:**
 - The top prediction (faciodigitogenital syndrome) is supported only by a model score. There are no trials, no literature, and no plausible mechanistic link (Evidence Level L5).
-- Among the other top predictions, the evidence is indirect, reflects the existing ADHD indication, or points to a possible harm (trichotillomania, insomnia). None justifies efficacy development at this stage. Dysthymic disorder, cerebellar ataxia and specific developmental disorder may be worth considering as research questions.
+- None justifies efficacy development at this stage. Dysthymic disorder, cerebellar ataxia and specific developmental disorder may be worth considering as research questions.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a documented biological rationale linking methylphenidate to the predicted condition
 - The HSA package insert, including approved indications, warnings, and contraindications
 - Direct clinical studies in the predicted condition (none exist at present)
-- A safety evaluation for trichotillomania and sleep disturbance if these predictions are pursued
 - Route and formulation compatibility assessment
 ## Disclaimer
 

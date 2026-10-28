@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vasopressin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 1057
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Vasopressin: predicted new indication Congenital prothrombin deficiency (evidence level L4). Approved use: Not stated in the available licence data"
 monitor_inn: "Vasopressin"
-predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "orofacial clefting syndrome", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "cystic neoplasm"]
+predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
 ---
 
 # Vasopressin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The prediction rests essentially on model output alone, so the evidence is weak.
 |------|------|
 | Original Indication | Not stated in the available licence data |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9963 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

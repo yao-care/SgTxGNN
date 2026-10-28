@@ -4,17 +4,17 @@ title: Cytarabine
 parent: Medium Evidence (L3-L4)
 nav_order: 291
 evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Acute lymphoblastic leukaemia and acute myeloid leukaemia (including…"
+indication_count: 9
+last_modified_at: 2026-10-28
 monitor_inn: "Cytarabine"
-predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
+predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
+description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Cytarabine: From Acute Leukaemia to Small Cell Lung Carcinoma
+## Cytarabine: Small cell lung carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **small cell lung carcinoma**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukaemia and acute myeloid leukaemia (including several subtypes). The Singapore licence records contain no indication text, so this comes from the knowledge graph. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Small cell lung carcinoma |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -139,14 +139,14 @@ The prediction score is very high, but no clinical trials exist for small cell l
 - A comparison against current standard SCLC therapy before any trial design
 
 **Other predicted indications (for reference):** Nine further indications were evaluated, and all are rated Hold except neuroblastoma, which is rated Research Question. All of these have indirect or no supporting evidence.
-- Primary pulmonary lymphoma (L4, 99.78%): indirect evidence from high-dose methotrexate plus cytarabine regimens in primary CNS lymphoma.
-- Well-differentiated fetal adenocarcinoma of the lung (L5, 99.76%): prediction only.
-- Pulmonary blastoma (L5, 99.76%): prediction only.
-- Upper aerodigestive tract neoplasm (L4, 99.49%): one randomised study of high-dose cytarabine with cisplatin and 5-FU in head and neck cancer (PMID 12110494).
-- Ganglioneuroblastoma (L5, 99.36%): prediction only.
-- Vertebral anomalies with endocrine and T-cell dysfunction (L5, 99.32%): prediction only, likely a graph artefact.
-- Retroperitoneal neoplasm (L4, 99.23%): case reports of myeloid sarcoma and lymphoma only.
-- Neuroblastoma (L4, 99.19%; Research Question): preclinical sensitivity data. The three listed trials do not test cytarabine for this disease.
+- Primary pulmonary lymphoma (L4, 0.9978): indirect evidence from high-dose methotrexate plus cytarabine regimens in primary CNS lymphoma.
+- Well-differentiated fetal adenocarcinoma of the lung (L5, 0.9976): prediction only.
+- Pulmonary blastoma (L5, 0.9976): prediction only.
+- Upper aerodigestive tract neoplasm (L4, 0.9949): one randomised study of high-dose cytarabine with cisplatin and 5-FU in head and neck cancer (PMID 12110494).
+- Ganglioneuroblastoma (L5, 0.9936): prediction only.
+- Vertebral anomalies with endocrine and T-cell dysfunction (L5, 0.9932): prediction only; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+- Retroperitoneal neoplasm (L4, 0.9923): case reports of myeloid sarcoma and lymphoma only.
+- Neuroblastoma (L4, 0.9919; Research Question): preclinical sensitivity data. The three listed trials do not test cytarabine for this disease.
 - CLL/SLL with somatic hypermutation (L5, 98.96%): prediction only.
 ## Disclaimer
 

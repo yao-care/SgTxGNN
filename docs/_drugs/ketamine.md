@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ketamine
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 565
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "Ketamine"
-predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "common cold", "migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "Tourette syndrome", "myofascial pain syndrome", "trichotillomania", "psychotic disorder"]
+predicted_indications: ["headache disorder"]
+description: "Ketamine: predicted new indication Headache disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Ketamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ketamine: From Anaesthesia/Analgesia to Headache Disorder
+## Ketamine: Headache disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Several of these trials are small, and the key Phase 3 trial is still recruiting
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the Singapore licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Headache disorder |
-| TxGNN Prediction Score | 99.33% |
+| TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 per the scoring in the data compiled for this report. Note that only one Phase 3 trial has completed, so this level may be overstated. |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Ketamine is an NMDA receptor antagonist. Detailed mechanism-of-action data from 
 
 Glutamate signalling, cortical spreading depolarization and central sensitization all contribute to headache pathophysiology. Blocking NMDA receptors is therefore a plausible way to relieve pain and migraine. Ketamine is already used in anaesthesia and pain medicine, and it has been tested in emergency department headache and in refractory chronic headache.
 
-Related predictions on the same drug support this direction. Migraine disorder (L1, Proceed with Guardrails) shares most of the same trials. Trigeminal autonomic cephalalgia, including cluster headache, has open-label and case-series signals. Some other predictions, such as the common cold, ADHD, Tourette syndrome and psychotic disorder, have no credible support or even suggest harm. They should not be pursued.
+Related predictions on the same drug support this direction. They should not be pursued.
 
 ---
 
@@ -134,7 +134,7 @@ Ketamine has a plausible NMDA-related mechanism and several randomized trials in
 - Mechanism-of-action data from DrugBank
 - A decision on route and formulation, since the registered products are injectable only
 - A monitoring plan for blood pressure, cardiovascular risk, dissociative effects and abuse potential
-- Prioritising migraine and cluster headache over other predicted indications. The common cold, ADHD, Tourette syndrome, psychotic disorder and trichotillomania should be held.
+- Prioritising migraine and cluster headache over other predicted indications.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

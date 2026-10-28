@@ -4,17 +4,17 @@ title: Benzydamine
 parent: Low Evidence (L5)
 nav_order: 149
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Benzydamine: predicted new indication Benign prostatic hyperplasia (evidence level L5). Approved use: Not stated in the registration records compiled for this report (prod…"
+indication_count: 1
 monitor_inn: "Benzydamine"
-predicted_indications: ["benign prostatic hyperplasia (disease)", "headache disorder", "trigeminal autonomic cephalalgia", "peripheral vascular disease", "common cold", "peripheral arterial disease", "female breast carcinoma", "toxocariasis", "subarachnoid hemorrhage (disease)", "alopecia"]
+predicted_indications: ["benign prostatic hyperplasia (disease)"]
+last_modified_at: 2026-10-27
+description: "Benzydamine: predicted new indication benign prostatic hyperplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Benzydamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,97 +33,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Benzydamine: From Local Oromucosal Anti-inflammatory Use to Benign Prostatic Hyperplasia
+## Benzydamine: locally acting anti-inflammatory and anaesthetic agent → benign prostatic hyperplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Benzydamine is a locally acting anti-inflammatory and analgesic agent, marketed in Singapore as throat sprays, lozenges, mouthwashes and a mouth gel.
-The TxGNN model predicts it may be effective for **benign prostatic hyperplasia** (top-ranked prediction), but **no clinical trials and no publications** currently support this specific prediction.
-Among the other predicted indications, only **common cold** (sore throat symptoms) and **peripheral vascular disease** (venous inflammation) have any supporting literature.
+Benzydamine is a locally acting anti-inflammatory agent with local anaesthetic properties, marketed in Singapore in sprays, lozenges, mouthwashes and a gel.
+The TxGNN model predicts it may be effective for **benign prostatic hyperplasia**, with a score of 0.9926.
+At present there are **no clinical trials and no publications** supporting this direction, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records compiled for this report (products are throat sprays, lozenges, mouthwashes and a mouth gel) |
-| Predicted New Indication | Benign prostatic hyperplasia |
-| TxGNN Prediction Score | 99.26% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | benign prostatic hyperplasia |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 13 |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, benzydamine is a locally acting NSAID-like agent with anti-inflammatory, local anaesthetic and membrane-stabilising properties. Its efficacy in oropharyngeal inflammation and pain is established, and mechanistically it may be applicable to conditions involving inflammation.
+Detailed mechanism of action data is not currently available. Benzydamine is generally described as a locally acting NSAID-like agent with anti-inflammatory, local anaesthetic and membrane-stabilising properties.
 
-For benign prostatic hyperplasia, a link to prostatic inflammation is possible but speculative. No data compiled for this report support it. The high TxGNN score (0.993) is a computational prediction only. Benzydamine is also used in Singapore only in oromucosal and topical forms, so reaching prostate tissue would require a different route of administration, which has not been assessed.
+A speculative link could be drawn to inflammation in the prostate, which is thought to play a role in benign prostatic hyperplasia. However, no clinical or literature evidence was compiled to support this, and the similarity between the drug's current uses and the predicted indication has not been assessed. The high score is a computational prediction only and should not be read as evidence of efficacy.
 
-Other predictions carry different levels of support:
-- **Common cold (rank 5, L3):** Benzydamine is an established agent for sore throat and pharyngeal inflammation, which are cold symptoms. The evidence relates to symptom relief, not treatment of the viral illness itself.
-- **Peripheral vascular disease (rank 4, L4):** Older studies (1967–1976) describe benefit in superficial venous inflammation and thrombophlebitis. This is indirect for vascular disease as a whole, particularly arterial disease.
-- **Headache disorder, trigeminal autonomic cephalalgia, peripheral arterial disease, breast carcinoma, toxocariasis, subarachnoid haemorrhage, alopecia:** No supporting evidence. These are prediction-only (L5), and several have no plausible mechanism.
+Route compatibility is also unresolved. Marketed Singapore products are sprays, lozenges, mouthwashes and a topical gel, all intended for local use in the mouth and throat. Whether any of these could reach the prostate in a useful way is unknown, and a different formulation or route would probably be needed.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for benign prostatic hyperplasia. No registered trials were found for any of the top 10 predicted indications.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available for benign prostatic hyperplasia.
+Currently no related literature available.
 
-For reference, literature was found for two other predicted indications:
-
-**Common cold (rank 5)**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [37000110](https://pubmed.ncbi.nlm.nih.gov/37000110/) | 2023 | Phase IV randomised trial | Medicine | Compared speed of pain relief of benzydamine 0.3% oromucosal spray vs 3 mg lozenges in acute sore throat |
-| [31718214](https://pubmed.ncbi.nlm.nih.gov/31718214/) | 2019 | Comparative pilot study | Acta Med Acad | Lysozyme vs benzydamine vs chlorhexidine oral sprays in acute tonsillopharyngitis associated with a common cold |
-| [40626097](https://pubmed.ncbi.nlm.nih.gov/40626097/) | 2025 | Methodological paper | Front Pain Res | Development and refinement of the sore throat pain model for measuring acute pain treatment effects |
-| [8984600](https://pubmed.ncbi.nlm.nih.gov/8984600/) | 1996 | Double-blind study | Schweiz Med Wochenschr | Rhinomanometric comparison of three nasal sprays, including benzydamine, in 60 common cold patients (indirect relevance) |
-
-**Peripheral vascular disease (rank 4)**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [772478](https://pubmed.ncbi.nlm.nih.gov/772478/) | 1976 | Controlled clinical study | Minerva Med | Double-blind comparison of topical feprazone and benzydamine in thrombophlebitis; both active and well tolerated, feprazone cured faster |
-| [5622836](https://pubmed.ncbi.nlm.nih.gov/5622836/) | 1967 | Clinical observation | Minerva Dermatol | Benzydamine in inflammatory phlebopathies of the lower limbs |
-| [5123780](https://pubmed.ncbi.nlm.nih.gov/5123780/) | 1971 | Clinical observation | Phlebologie | Benzydamine hydrochloride as an anti-inflammatory agent in angiology |
-| [5397591](https://pubmed.ncbi.nlm.nih.gov/5397591/) | 1969 | Clinical observation | Il Policlinico | Benzydamine plus tetracycline in acute and subacute inflammation |
-| [5382105](https://pubmed.ncbi.nlm.nih.gov/5382105/) | 1969 | Clinical observation | Clin Ter | Anti-inflammatory activity of benzydamine plus tetracycline |
-| [5606258](https://pubmed.ncbi.nlm.nih.gov/5606258/) | 1967 | Clinical observation | Minerva Dermatol | Benzydamine use in dermatology (indirect) |
+---
 
 ## Singapore Market Information
 
-Approved indication text was not available in the registration records compiled for this report. Thirteen single-ingredient licences are valid; the main ones are listed below.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13626P | Difflam For Children Throat Spray | Spray | Not stated |
-| SIN17050P | Tymora Throat Spray 0.3% w/v | Spray | Not stated |
-| SIN07411P | Difflam Lozenge 3 mg | Lozenge | Not stated |
-| SIN04232P | Difflam Solution 22.5 mg/15 ml | Mouthwash | Not stated |
-| SIN09963P | Difflam Mouth Gel | Gel | Not stated |
+| SIN13626P | Difflam For Children Throat Spray | Spray | Not recorded |
+| SIN17050P | Tymora Throat Spray 0.3% w/v | Spray | Not recorded |
+| SIN07411P | Difflam Lozenge 3 mg | Lozenge | Not recorded |
+| SIN04232P | Difflam Solution 22.5 mg/15 ml | Mouthwash | Not recorded |
+| SIN13625P | Difflam Forte Anti-Inflammatory Throat Spray | Spray | Not recorded |
+
+All 13 licences are for single-ingredient products and are currently valid. The list above shows only five of them.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction records were available in the data compiled for this report.
+Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for benign prostatic hyperplasia rests solely on a computational score, with no trials, no literature and no established mechanism. The drug is available in Singapore only in oromucosal and topical forms, which are not obviously suited to this condition. Among the other predictions, common cold (symptomatic sore throat relief, L3) is the best supported, but it largely overlaps with benzydamine's existing use rather than being a true new indication.
+The prediction has a high model score but no supporting trials or publications, so it sits at evidence level L5. The available local formulations are also designed for oral and throat use, which makes the route to the prostate unclear.
 
 **To proceed, the following is needed:**
-- Package insert warnings, contraindications and approved indications from the HSA, to allow safety screening
-- Mechanism of action data (for example from DrugBank)
-- A literature search on benzydamine and prostatic inflammation or lower urinary tract symptoms
-- Assessment of route and formulation compatibility for any prostate-directed use
-- If a lower-risk direction is preferred, a review of the common cold and thrombophlebitis evidence to judge whether these are meaningful new indications
+- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
+- Detailed mechanism of action data (for example from DrugBank)
+- A literature and trial search for benzydamine in prostatic inflammation or benign prostatic hyperplasia
+- Assessment of route and formulation feasibility for reaching prostate tissue
+- Preclinical or mechanistic evidence linking the drug's anti-inflammatory action to this condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -8,6 +8,7 @@ nav_order: 62
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alfuzosin Hcl
@@ -51,8 +52,8 @@ Without predicted indications or mechanism data, a standard repurposing evaluati
 | Predicted New Indication | None — no predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 (no studies; no model prediction output) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | **Hold** |
 
 ---

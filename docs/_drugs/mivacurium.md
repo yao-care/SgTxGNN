@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Mivacurium
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 683
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Mivacurium: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the Singapore licence record (the drug is known as a ne…"
+description: "Mivacurium: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Mivacurium"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "migraine disorder", "irritable bowel syndrome", "migraine with brainstem aura", "primary hereditary glaucoma", "open-angle glaucoma", "hypotrichosis simplex of the scalp", "seborrheic dermatitis", "congenital hypotrichosis milia"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Mivacurium
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mivacurium: From Neuromuscular Blockade in Anaesthesia to Cauda Equina Syndrome
+## Mivacurium
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Mivacurium is a short-acting non-depolarizing neuromuscular blocker, marketed in Singapore as an injectable product. The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record (the drug is known as a neuromuscular blocker used in anaesthesia) |
-| Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 97.91% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, mivacurium is a short-acting non-depolarizing neuromuscular blocker. It competitively antagonizes nicotinic acetylcholine receptors at the neuromuscular junction and is used intravenously in monitored anaesthesia settings.
-
-Cauda equina syndrome is a compressive neurological emergency, and its definitive treatment is surgical decompression. Neuromuscular blockade has no plausible disease-modifying effect on it. The high score (0.979) most likely reflects proximity in the knowledge graph, such as shared neuromuscular or neurological associations, rather than a true therapeutic signal.
-
-The other top predictions show the same pattern. These include neurogenic bladder (the ontology term is flagged as obsolete), migraine, irritable bowel syndrome, glaucoma and hair or skin disorders. Each lacks a credible mechanistic link and has no supporting studies. The migraine association may stem from botulinum toxin, which also reduces cholinergic transmission, but it acts presynaptically through a different mechanism.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ## Singapore Market Information
 
@@ -76,18 +62,6 @@ The other top predictions show the same pattern. These include neurogenic bladde
 
 Please refer to the package insert for warnings and formal contraindications, as label data were not available.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is model-only (L5) with no registered trials or literature. The pharmacology of a neuromuscular blocker does not fit cauda equina syndrome, whose treatment is surgical. The drug is also restricted to intravenous use in monitored anaesthesia settings, and its safety profile includes many significant interactions.
-
-**To proceed, the following is needed:**
-- Mechanism of action data and a documented mechanistic rationale linking the drug to the predicted indication
-- The HSA package insert, to confirm warnings, contraindications and the approved indication
-- Any preclinical or clinical evidence supporting the predicted indication
-- A route and dosing feasibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

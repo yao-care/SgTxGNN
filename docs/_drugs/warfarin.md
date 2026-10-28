@@ -4,17 +4,17 @@ title: Warfarin
 parent: Low Evidence (L5)
 nav_order: 1079
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Warfarin: predicted new indication Top-ranked: heparin cofactor 2 deficiency. Best-supported: thrombophi… (evidence level L5). Approved use: Pulmonary embolism, thrombotic disease, intracranial embol…"
 monitor_inn: "Warfarin"
-predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "migraine disorder"]
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Warfarin: predicted new indication Top-ranked: heparin cofactor 2 deficiency. Best-supported: thrombophilia (heparin cofactor 2 deficiency) (evidence level L5). Approved use: Not recorded in the loca…"
 ---
 
 # Warfarin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Warfarin: From Thrombotic Disease to Thrombophilia
+## Warfarin: Top-ranked: heparin cofactor 2 deficiency. Best-supported: thrombophilia (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is **heparin cofactor 2 deficiency**, bu
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary embolism, thrombotic disease, intracranial embolism (from the knowledge graph; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Top-ranked: heparin cofactor 2 deficiency. Best-supported: thrombophilia |
-| TxGNN Prediction Score | 99.87% (heparin cofactor 2 deficiency); 99.75% (thrombophilia) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Top-ranked: heparin cofactor 2 deficiency. Best-supported: thrombophilia (heparin cofactor 2 deficiency) |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 or L4 for most predictions; thrombophilia is rated L1 in the underlying data, but this is overstated (see below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails (thrombophilia only); Hold or Research Question for the others |
 
 > **Note on the evidence level:** The only trial for thrombophilia (NCT00895505) is a Phase 3 trial of unknown status. It tests a D-dimer-guided strategy for extending anticoagulation, not warfarin against placebo in thrombophilia. A conservative reading is therefore closer to L3, since the support is mainly reviews and management articles.
@@ -157,7 +157,7 @@ Package insert warnings and contraindications were not available in the data com
 
 **Rationale:**
 - Thrombophilia is the only prediction where the mechanism, an established anticoagulant role in VTE secondary prevention, and a Phase 3 trial all point the same way. However, the trial is indirect and its status is unknown, so the evidence is partial.
-- Rheumatoid arthritis and the breast-related predictions look like false positives driven by drug-interaction literature or graph propagation. Migraine and the rare deficiencies rest only on case reports.
+- Rheumatoid arthritis and the breast-related predictions look like false positives driven by drug-interaction literature; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The rare deficiencies rest only on case reports.
 
 **To proceed, the following is needed:**
 - The package insert warnings and contraindications from the HSA website; this is a blocking gap for safety screening.

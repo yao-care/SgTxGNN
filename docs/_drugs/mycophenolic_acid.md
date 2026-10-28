@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mycophenolic Acid
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 693
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mycophenolic Acid: predicted new indication Hemoglobinopathy (evidence level L3). Approved use: Not available"
@@ -14,7 +14,7 @@ predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with 
 # Mycophenolic Acid
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The evidence is weak and mostly indirect, so this is best treated as a research 
 |------|------|
 | Original Indication | Not available (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.60% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 |
+| TxGNN Prediction Score | 0.9960 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

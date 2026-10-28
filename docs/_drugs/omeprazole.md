@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 740
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Omeprazole: predicted new indication Duodenogastric reflux (evidence level L3). Approved use: Gastric ulcer, peptic ulcer disease, GERD, esophagitis…"
 monitor_inn: "Omeprazole"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "duodenitis"]
+predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Omeprazole: From Acid-Related Gastric and Duodenal Disorders to Duodenogastric Reflux
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Omeprazole is a proton pump inhibitor originally used for gastric and duodenal ulcers, gastroesophageal reflux disease (GERD), esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux**, but the supporting evidence is thin: **1 clinical trial** (a diagnostic imaging study, not a treatment trial) and **15 publications**, mostly small human studies, animal experiments and reviews.
 Animal data also raise a safety signal, so this is best treated as a research question rather than a ready candidate.
 
 ---
@@ -48,11 +47,11 @@ Animal data also raise a safety signal, so this is best treated as a research qu
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, GERD, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9964 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 

@@ -4,17 +4,17 @@ title: Metformin
 parent: Low Evidence (L5)
 nav_order: 655
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Metformin"
-predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy", "homozygous familial hypercholesterolemia"]
+predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
+description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metformin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Metformin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+## Metformin: Focal stiff limb syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,11 +45,11 @@ The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (taken from the knowledge-graph indication records; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Focal stiff limb syndrome belongs to the stiff-person spectrum, which is an autoimmune/neurological group of disorders. The related classic stiff person syndrome involves anti-GAD antibodies and impaired GABAergic signalling. No established metformin pathway to these conditions is evident. The association may partly reflect the co-occurrence of autoimmune diabetes with these disorders in the model's data, rather than a therapeutic rationale.
 
-The same limitation applies to the other top-ranked predictions. The second-ranked prediction, classic stiff person syndrome, has an almost identical score (99.45%). It has no trials or literature either. Opsismodysplasia, thiamine-responsive dysfunction syndrome and several localized lipodystrophies also rank highly, but none has supporting clinical evidence.
+The same limitation applies to the other top-ranked predictions. The second-ranked prediction, classic stiff person syndrome, has an almost identical score (0.9945). It has no trials or literature either. Opsismodysplasia, thiamine-responsive dysfunction syndrome and several localized lipodystrophies also rank highly, but none has supporting clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -71,8 +71,8 @@ Currently no related literature available for focal stiff limb syndrome.
 
 Among the lower-ranked predictions, the only evidence was indirect:
 
-- **Pancreatic agenesis (rank 8):** The retrieved publications are mostly general reviews of diabetes, pancreatic cancer or type 3c diabetes, plus a metformin hepatotoxicity case report. None addresses pancreatic agenesis. Insulin replacement is the standard therapy, and metformin's insulin-sensitizing action would not be expected to compensate for absent beta cells.
-- **Homozygous familial hypercholesterolemia (rank 10):** One in vitro study ([PMID 3377878](https://pubmed.ncbi.nlm.nih.gov/3377878/), 1988, *Atherosclerosis*) reported that metformin decreased cholesterol metabolism in cultured human fibroblasts. This is preclinical and not clinical evidence. The other publication ([PMID 37160786](https://pubmed.ncbi.nlm.nih.gov/37160786/), 2023, *Acta Diabetologica*) concerns GLP-1 analogue therapy in rare genetic diseases and does not establish metformin efficacy.
+- Insulin replacement is the standard therapy, and metformin's insulin-sensitizing action would not be expected to compensate for absent beta cells.
+- This is preclinical and not clinical evidence. The other publication ([PMID 37160786](https://pubmed.ncbi.nlm.nih.gov/37160786/), 2023, *Acta Diabetologica*) concerns GLP-1 analogue therapy in rare genetic diseases and does not establish metformin efficacy.
 
 ## Singapore Market Information
 

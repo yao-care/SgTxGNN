@@ -8,6 +8,7 @@ nav_order: 21
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Abacavir Sulfate 702 762 Mg Eqv Abacavir
@@ -53,8 +54,8 @@ This report documents the root causes of pipeline failure and recommends specifi
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — model prediction stage not reached |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

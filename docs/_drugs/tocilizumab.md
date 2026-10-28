@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: High Evidence (L1-L2)
 nav_order: 1000
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L2). Approved use: Rheumatoid arthritis, juvenile idiopathic arthritis…"
 monitor_inn: "Tocilizumab"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Tocilizumab: From Rheumatoid Arthritis to Ankylosing Spondylitis
+## Tocilizumab: Ankylosing spondylitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but the two Phase 3 placebo-controlled trials in this disease were **both termin
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, juvenile idiopathic arthritis, spondyloarthropathy, temporal arteritis, Castleman disease (from the knowledge graph; no approved indication text is available in the Singapore licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ankylosing spondylitis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Tocilizumab is known as a humanised monoclonal antibody against the interleukin-6 receptor (IL-6R). It is established in rheumatoid arthritis and juvenile idiopathic arthritis, and the literature describes use in giant cell arteritis.
 
-IL-6 signalling contributes to inflammation and bone remodelling in axial spondyloarthritis, so blocking the IL-6 receptor is biologically plausible. Ankylosing spondylitis is also closely related to the spondyloarthropathy indication already in the knowledge graph.
+IL-6 signalling contributes to inflammation and bone remodelling in axial spondyloarthritis, so blocking the IL-6 receptor is biologically plausible. The ankylosing spondylitis prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 However, the two placebo-controlled Phase 3 trials (BUILDER-1 and BUILDER-2 programme) were terminated, and the published literature points to limited efficacy compared with TNF and IL-17 inhibitors. Tocilizumab is therefore best seen as an off-label option only after other biologics have failed.
 

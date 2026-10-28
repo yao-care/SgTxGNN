@@ -6,9 +6,9 @@ nav_order: 608
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Bipolar disorder"
 monitor_inn: "Lithium carbonate"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
+description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lithium Carbonate
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lithium Carbonate: From Bipolar Disorder to Pseudoachondroplasia
+## Lithium Carbonate: Pseudoachondroplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Lithium carbonate is a long-established mood stabiliser, originally used for bipolar disorder and related affective disorders, and it is also linked to several joint conditions in the knowledge graph.
+Lithium carbonate is a long-established mood stabiliser, originally used for bipolar disorder and related affective disorders, and the TxGNN model (deep learning) also predicts several joint conditions for it; these scores may reflect similarities the model learned between related diseases, not biological evidence.
 The TxGNN model predicts it may be effective for **pseudoachondroplasia**, a rare genetic skeletal disorder.
 This prediction is supported by **0 clinical trials** and **0 publications**, so it is a model prediction only.
 
@@ -46,21 +46,21 @@ This prediction is supported by **0 clinical trials** and **0 publications**, so
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder (the Singapore licence has no indication text; the original indications come from the knowledge graph, which also lists major affective disorder, manic bipolar affective disorder, rheumatoid arthritis, osteoarthritis and juvenile idiopathic arthritis) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pseudoachondroplasia |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data are not available for this report. Lithium is generally known to modulate GSK-3 and Wnt signalling, and these pathways take part in chondrocyte function and cartilage biology. That is background knowledge, not something shown by the data compiled for this report.
 
-Pseudoachondroplasia is caused by COMP gene mutations, which lead to endoplasmic reticulum stress in chondrocytes and a defective cartilage matrix. The data compiled for this report do not support a direct link between lithium and this COMP-related pathology. The high score most likely reflects proximity in the knowledge graph to lithium's skeletal and joint indications (osteoarthritis, arthropathy, juvenile arthritis), not demonstrated biology.
+Pseudoachondroplasia is caused by COMP gene mutations, which lead to endoplasmic reticulum stress in chondrocytes and a defective cartilage matrix. The data compiled for this report do not support a direct link between lithium and this COMP-related pathology. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (such as lithium's skeletal and joint indications: osteoarthritis, arthropathy, juvenile arthritis), not biological evidence.
 
-The other top-ranked predictions follow the same pattern. They are rare skeletal dysplasias (for example acromesomelic dysplasia Hunter-Thompson type, brachyolmia and brachydactyly-syndactyly syndrome), and all have scores of about 99.95% to 99.98% but no clinical evidence. Lower-ranked predictions such as Behr syndrome, WHIM syndrome and moesin-deficiency immunodeficiency have plausible but untested hypotheses (neuroprotection, effects on neutrophil counts). Their evidence level is also L5.
+The other top-ranked predictions follow the same pattern. They are rare skeletal dysplasias (for example acromesomelic dysplasia Hunter-Thompson type, brachyolmia and brachydactyly-syndactyly syndrome), and all have scores of about 0.9995 to 0.9998 but no clinical evidence. Lower-ranked predictions such as Behr syndrome, WHIM syndrome and moesin-deficiency immunodeficiency have plausible but untested hypotheses (neuroprotection, effects on neutrophil counts). Their evidence level is also L5.
 
 ## Clinical Trial Evidence
 
@@ -102,7 +102,7 @@ Package-insert warnings and contraindications are not available. Please refer to
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a very high model score (99.98%). No clinical trials or publications support it, and no mechanistic link to COMP-related pseudoachondroplasia is shown. The same holds for the other nine predictions, all of which are at evidence level L5.
+The prediction rests only on a very high model score (0.9998). No clinical trials or publications support it, and no mechanistic link to COMP-related pseudoachondroplasia is shown. The same holds for the other nine predictions, all of which are at evidence level L5.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, which currently block safety screening

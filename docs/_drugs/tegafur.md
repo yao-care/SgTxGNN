@@ -6,9 +6,9 @@ nav_order: 959
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tegafur: predicted new indication Colonic neoplasm (evidence level L1). Approved use: Gastric cancer"
 monitor_inn: "Tegafur"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
+description: "Tegafur: predicted new indication Colonic neoplasm (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Tegafur
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Tegafur: From Gastric Cancer to Colonic Neoplasm
+## Tegafur: Colonic neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **16 clinical trials** (including several completed Phase 3 trials) and **2
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric cancer (approved indication text is not listed in the Singapore licence records; gastric cancer is taken from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Colonic neoplasm |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L1 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

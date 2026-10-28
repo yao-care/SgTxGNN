@@ -4,7 +4,7 @@ title: Phenobarbital
 parent: Low Evidence (L5)
 nav_order: 784
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalized tonic-clonic and partial epilepsy)…"
 monitor_inn: "Phenobarbital"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 # Phenobarbital
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Phenobarbital is a long-established antiseizure drug, originally used for epilepsy (including generalized tonic-clonic and partial seizures), migraine-related conditions and Lennox-Gastaut syndrome.
 The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but there are **0 clinical trials** and only **1 publication** (a Sturge-Weber syndrome case series that does not address a tumour), so the evidence for this prediction is essentially absent.
-Of the other predicted indications, the seizure-related ones (such as micturition-induced seizures, startle epilepsy and audiogenic seizures) are more credible because they sit close to phenobarbital's established use.
 
 ---
 
@@ -50,10 +49,10 @@ Of the other predicted indications, the seizure-related ones (such as micturitio
 |------|------|
 | Original Indication | Epilepsy (including generalized tonic-clonic and partial epilepsy), migraine disorders, Lennox-Gastaut syndrome. The Singapore licence records contain no approved indication text. |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,7 @@ Of the other predicted indications, the seizure-related ones (such as micturitio
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacological knowledge, phenobarbital is a barbiturate that enhances GABA-A receptor-mediated inhibition in the brain. This explains its antiseizure activity.
 
-For the top-ranked prediction, **trigeminal nerve neoplasm**, there is no plausible mechanistic link. Phenobarbital has no known antineoplastic activity. The only retrieved paper describes Sturge-Weber syndrome, a neurocutaneous vascular disorder with seizures, not a trigeminal tumour. The high score most likely reflects proximity in the knowledge graph through seizure- and trigeminal-related nodes, not true therapeutic evidence. The same applies to **beta-ketothiolase deficiency** (rank 10), an inborn error of metabolism with no rationale for phenobarbital.
+For the top-ranked prediction, **trigeminal nerve neoplasm**, there is no plausible mechanistic link. Phenobarbital has no known antineoplastic activity. The only retrieved paper describes Sturge-Weber syndrome, a neurocutaneous vascular disorder with seizures, not a trigeminal tumour. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to **beta-ketothiolase deficiency** (rank 10), an inborn error of metabolism with no rationale for phenobarbital.
 
 The remaining predictions are more coherent. Micturition-induced, orgasm-induced, thinking, startle, eating, audiogenic and reading seizures are all reflex or stimulus-triggered seizure types. A general antiseizure GABAergic mechanism could plausibly apply to them. Even so, no retrieved paper shows phenobarbital efficacy in any of these specific conditions. Trigeminal neuralgia (rank 9) is treated with anticonvulsants, but carbamazepine is first line and phenobarbital is not a recommended therapy.
 

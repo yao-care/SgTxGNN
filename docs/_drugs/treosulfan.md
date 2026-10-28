@@ -4,17 +4,17 @@ title: Treosulfan
 parent: Low Evidence (L5)
 nav_order: 1018
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Treosulfan: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not stated in the Singapore licence records (the drug is known to be…"
 monitor_inn: "Treosulfan"
-predicted_indications: ["diabetic cataract", "cortical cataract", "nuclear senile cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "mature cataract", "immature cataract", "diabetic retinopathy", "senile cataract"]
+predicted_indications: ["diabetic cataract"]
 ---
 
 # Treosulfan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Treosulfan is an alkylating chemotherapy agent given by infusion, used as a cond
 |------|------|
 | Original Indication | Not stated in the Singapore licence records (the drug is known to be used for conditioning before haematopoietic stem cell transplantation) |
 | Predicted New Indication | Diabetic cataract |
-| TxGNN Prediction Score | 99.01% |
+| TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The link between this mechanism and diabetic cataract is weak. Diabetic cataract develops through polyol pathway activation, oxidative stress and glycation of lens proteins. DNA alkylation does not address any of these processes. Related alkylating agents such as busulfan are associated with an *increased* risk of cataract, so the real-world effect may be the opposite of what the model predicts.
 
-The high score (0.990) is a graph-based prediction only. The same pattern appears across the other top predictions, which are mostly cataract subtypes (cortical, nuclear senile, senile, mature, immature, tetanic, craniostenosis, and type 2 diabetes-associated cataract) plus diabetic retinopathy. None has trial or literature support, and none has a plausible mechanistic rationale. For diabetic retinopathy, anti-VEGF therapy, laser and corticosteroids are already established, and the systemic toxicity of treosulfan would be a major barrier.
+The high score (0.9901) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

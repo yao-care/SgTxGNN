@@ -6,9 +6,9 @@ nav_order: 458
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not stated in the licence data compiled for this report"
 monitor_inn: "Fulvestrant"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Fulvestrant
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Fulvestrant: From Its Licensed Breast Cancer Use to HIV Infectious Disease
+## Fulvestrant: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data compiled for this report |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 8 |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The link to HIV is indirect. ERα is expressed in CD4+ T cells and appears to influence HIV transcription and latency. A 2026 laboratory study (JCI Insight) examined how ERα ligands, including fulvestrant, and HIV latency-reversing agents interact in these cells. Fulvestrant could plausibly influence latency reversal, but this is preclinical work only. No human data exist.
 
-Other high-scoring predictions have even weaker support. Simian immunodeficiency virus infection and feline AIDS appear to come from similarity to HIV in the knowledge graph. Multiple endocrine neoplasia appears to come from shared endocrine disease ontology, because the linked trials are all in breast cancer, not in that condition.
+Other high-scoring predictions have even weaker support. The scores for simian immunodeficiency virus infection and feline AIDS come from the TxGNN model (deep learning) and may reflect similarities the model learned between these diseases and HIV, not biological evidence. The score for multiple endocrine neoplasia also comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related endocrine diseases, not biological evidence, because the linked trials are all in breast cancer, not in that condition.
 
 ## Clinical Trial Evidence
 
@@ -91,7 +91,6 @@ Three further licences are valid (SIN17045P, SIN16848P, SIN16893P). All 8 are si
 | Cytotoxicity Classification | Endocrine therapy (estrogen receptor antagonist and degrader), not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions. Because the knowledge graph flags thrombocytopenia, blood coagulation disease and liver disease, a blood count, coagulation status and liver function are reasonable to consider. |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations

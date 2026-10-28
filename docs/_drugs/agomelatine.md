@@ -4,17 +4,17 @@ title: Agomelatine
 parent: Low Evidence (L5)
 nav_order: 45
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Agomelatine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not stated in the Singapore licence record. The knowledge graph lists…"
+indication_count: 7
 monitor_inn: "Agomelatine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "melancholia", "Ohdo syndrome and variants", "dysthymic disorder", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
+last_modified_at: 2026-10-27
+description: "Agomelatine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,65 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Agomelatine: From Depressive Disorders to Benign Paroxysmal Torticollis of Infancy
+## Agomelatine: melatonergic MT1/MT2 agonist and 5-HT2C antagonist → benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Agomelatine is an antidepressant originally used for unipolar depression, endogenous depression, major depressive disorder and anxiety disorder.
-The TxGNN model's top-ranked prediction is **benign paroxysmal torticollis of infancy**, but this prediction has **0 clinical trials** and **0 publications** behind it. It is a model prediction only.
-Among the other top-10 predictions, the depression-related ones (melancholia, neurotic depression, dysthymic disorder) have literature support, but this is largely an overlap with the existing indication rather than true repurposing.
+Agomelatine is an oral antidepressant that acts on melatonin MT1/MT2 receptors and as a 5-HT2C antagonist.
+The TxGNN model predicts it may be effective for **benign paroxysmal torticollis of infancy**,
+but **no clinical trials and no publications** are currently available to support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record. The knowledge graph lists unipolar depression, endogenous depression, major depressive disorder and anxiety disorder |
-| Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.96% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | benign paroxysmal torticollis of infancy |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for the original indication is not available in the data compiled for this report. From the literature, agomelatine is an agonist of melatonin MT1 and MT2 receptors and an antagonist of the serotonin 5-HT2C receptor. Together these actions may normalise circadian rhythms, improve slow-wave sleep and increase dopamine and noradrenaline release in the prefrontal cortex. Pharmacology records also list activity at 5-HT2A and 5-HT2B receptors.
+Detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology records, agomelatine binds melatonin MT1 and MT2 receptors and the serotonin 5-HT2A, 5-HT2B and 5-HT2C receptors. It is known for use in major depressive disorder.
 
-For the top-ranked prediction, **benign paroxysmal torticollis of infancy**, no mechanistic link was identified. It is a childhood disorder in the migraine spectrum, and the use of agomelatine in children is not established. The very high score is therefore best treated as an unverified model output.
-
-Other predictions fall into three groups:
-- **Anxiety-spectrum (agoraphobia, neurotic disorder):** A plausible biological link exists through 5-HT2C antagonism and melatonergic modulation, since anxiety disorder is already among the original indications. No condition-specific trials or literature were retrieved.
-- **Depressive spectrum (melancholia, neurotic depression, dysthymic disorder):** These are subtypes of, or closely related to, major depressive disorder, where agomelatine is already used. The evidence is largely aggregated antidepressant data.
-- **Rare genetic syndromes (Ohdo syndrome and variants, Ohdo-type blepharophimosis, Keppen-Lubinsky syndrome, ligneous conjunctivitis):** There is no plausible mechanistic link, and the high scores likely reflect network artefacts.
+Benign paroxysmal torticollis of infancy is a rare paediatric episodic disorder in the migraine spectrum. No mechanistic link between melatonergic or 5-HT2C pharmacology and this condition was identified, and agomelatine use in infants and children is not established. The very high score should therefore be treated as a model signal that may reflect network proximity, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for the top-ranked prediction or for any other top-10 prediction.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The top-ranked prediction (benign paroxysmal torticollis of infancy) has no related literature. The table below shows literature for the most evidence-rich predictions, melancholia and dysthymic disorder. Most of it is class-level antidepressant evidence rather than disease-specific data.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Network meta-analysis (RCTs) | Lancet | Compares efficacy and acceptability of 21 antidepressants in acute adult major depressive disorder |
-| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Systematic review / meta-analysis | Molecular Psychiatry | Network meta-analysis of antidepressants in the maintenance phase of major depressive disorder |
-| [21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/) | 2011 | Meta-analysis of RCTs | J Clin Psychiatry | Antidepressants as a class are effective in dysthymia versus placebo (not agomelatine-specific) |
-| [41679391](https://pubmed.ncbi.nlm.nih.gov/41679391/) | 2026 | Systematic review / meta-analysis | J Affect Disord | Insomnia symptoms in depressed patients treated with agomelatine, mirtazapine and trazodone |
-| [19708725](https://pubmed.ncbi.nlm.nih.gov/19708725/) | 2009 | Review | CNS Drugs | Agomelatine efficacy at each phase of antidepressant treatment |
-| [24033095](https://pubmed.ncbi.nlm.nih.gov/24033095/) | 2013 | Review | Expert Opin Drug Saf | Agomelatine is an effective antidepressant with relatively mild side effects |
-| [23037643](https://pubmed.ncbi.nlm.nih.gov/23037643/) | 2012 | Review | J Neuropsychiatry Clin Neurosci | Novel mechanisms of action of agomelatine, linking circadian and sleep regulation to depression |
-| [40129874](https://pubmed.ncbi.nlm.nih.gov/40129874/) | 2025 | Narrative review | PCN Reports | Agomelatine among drugs showing promising anti-anhedonic effects |
-| [25255870](https://pubmed.ncbi.nlm.nih.gov/25255870/) | 2014 | Review | Curr Drug Metab | Safety and tolerability of agomelatine, with a focus on hepatotoxicity |
-| [38043099](https://pubmed.ncbi.nlm.nih.gov/38043099/) | 2023 | Case series | Acta Biochim Pol | Sertraline and agomelatine in hemodialysis patients with depression (low-grade evidence) |
+Currently no related literature available.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13770P | VALDOXAN Tablet 25mg | Film-coated tablet (oral) | Not stated in the licence record |
+| SIN13770P | VALDOXAN Tablet 25mg | Tablet, film coated | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Hepatotoxicity:** The literature reports severe hepatotoxic adverse reactions with agomelatine, including rare fatal hepatic failure (PMID 25255870). Liver function monitoring is generally advised.
-- **Drug Interactions:** No specific drug-drug interaction records were found. Only pharmacological target interactions were listed: 5-HT2A, 5-HT2B, 5-HT2C, MT1 and MT2 receptors.
-- **Paediatric use:** Use of agomelatine in children is not established, which matters for the top-ranked prediction, a disorder of infancy.
+- **Pharmacology and receptor targets**: Agomelatine acts on 5-HT2A, 5-HT2B, 5-HT2C, MT1 and MT2 receptors. These are target-binding records, not drug–drug interactions; no specific interacting drugs were identified in the data compiled for this report.
 
-Please refer to the package insert for full warnings and contraindications.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, benign paroxysmal torticollis of infancy, has a very high model score but no trials, no literature, no mechanistic rationale and an unestablished paediatric profile (Evidence Level L5). The depression-related predictions (melancholia, neurotic depression, dysthymic disorder) have the most literature (L2–L3), but they largely overlap with the existing indication, so they are better framed as research questions than as new repurposing opportunities.
+The prediction has no supporting trials or literature, no plausible mechanism, and the target population is paediatric, in which agomelatine use is not established. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA record, which is a blocking gap for safety screening
-- Mechanism of action data from DrugBank
-- Mechanistic and clinical rationale for benign paroxysmal torticollis of infancy, if it is to be pursued
-- Paediatric safety and dosing data
-- Agomelatine-specific trials for dysthymic disorder, agoraphobia and other anxiety-spectrum conditions, as these are the most plausible directions
+- Package insert warnings and contraindications from the HSA record
+- Mechanism of action data and a plausible biological rationale for this condition
+- Any case reports, observational data or preclinical studies directly addressing benign paroxysmal torticollis of infancy
+- A paediatric safety assessment before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

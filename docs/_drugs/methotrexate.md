@@ -4,17 +4,17 @@ title: Methotrexate
 parent: Low Evidence (L5)
 nav_order: 657
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Acute lymphoblastic leukemia, non-Hodgkin lymphoma, mycosis fungoides…"
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methotrexate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methotrexate: From Acute Lymphoblastic Leukemia and Rheumatoid Arthritis to Pulmonary Blastoma
+## Methotrexate: Pulmonary blastoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,25 +46,23 @@ The better-supported predicted directions are **Hodgkin lymphoma** (45 trials, 2
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukemia, non-Hodgkin lymphoma, mycosis fungoides, rheumatoid arthritis, psoriasis (the approved indication text in the Singapore licenses is blank; these come from the TxGNN knowledge graph) |
-| Predicted New Indication | Pulmonary blastoma (rank 1) |
-| TxGNN Prediction Score | 99.45% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary blastoma |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 7 |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 **Other top predictions in the data compiled for this report:**
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 2 | Primary pulmonary lymphoma | 99.45% | L4 | Research Question |
-| 3 | Small cell lung carcinoma | 99.43% | L4 | Hold |
-| 4 | Well-differentiated fetal adenocarcinoma of the lung | 99.42% | L5 | Hold |
-| 5 | Hodgkin lymphoma | 99.32% | L1 (field-level, see below) | Research Question |
-| 6 | Rhabdomyosarcoma | 99.25% | L2 | Research Question |
-| 7-8 | CLL/SLL (two molecular subtypes) | 99.23% | L5 | Hold |
-| 9-10 | Parameningeal embryonal rhabdomyosarcoma; botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.21%, 99.21% | L5 | Hold |
+| 2 | Primary pulmonary lymphoma | 0.9945 | L5 | Research Question |
+| 4 | Well-differentiated fetal adenocarcinoma of the lung | 0.9942 | L5 | Hold |
+| 5 | Hodgkin lymphoma | 0.9932 | L1 (field-level, see below) | Research Question |
+| 6 | Rhabdomyosarcoma | 0.9925 | L2 | Research Question |
+| 9-10 | Parameningeal embryonal rhabdomyosarcoma; botryoid-type embryonal rhabdomyosarcoma of the vagina | 0.9921, 0.9921 | L5 | Hold |
 
 ## Why is This Prediction Reasonable?
 
@@ -93,7 +91,6 @@ The top-ranked prediction (pulmonary blastoma) has no registered trials. The tri
 
 The remaining Hodgkin-listed trials are mostly NHL protocols, transplant studies and GVHD prophylaxis studies. None is a Hodgkin-specific trial of methotrexate as the antilymphoma agent.
 
-**Small cell lung carcinoma (rank 3): all 4 trials, none in SCLC**
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -116,7 +113,6 @@ The remaining Hodgkin-listed trials are mostly NHL protocols, transplant studies
 | [38720609](https://pubmed.ncbi.nlm.nih.gov/38720609/) | 2024 | Case report | Kyobu Geka | Primary pulmonary DLBCL arising from methotrexate-associated lymphoproliferative disorder (a safety signal) |
 | [32590768](https://pubmed.ncbi.nlm.nih.gov/32590768/) | 2020 | Case report | Medicine | Two cases of primary pulmonary NK/T-cell lymphoma plus literature review |
 
-**Small cell lung carcinoma (rank 3): no methotrexate-specific benefit shown**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

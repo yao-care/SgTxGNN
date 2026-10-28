@@ -4,17 +4,17 @@ title: Framycetin
 parent: Low Evidence (L5)
 nav_order: 456
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not available (the registered approved-indication text is empty)"
 monitor_inn: "Framycetin"
-predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "bronchitis", "genital herpes", "vitamin deficiency disorder"]
+predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
+description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Framycetin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Framycetin: From an Unspecified Original Indication to Sclerosing Cholangitis
+## Framycetin: Sclerosing cholangitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This is a model prediction only (evidence level L5).
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the registered approved-indication text is empty) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,19 +64,16 @@ For context, the other top predictions are:
 
 | Rank | Predicted Indication | Score | Plausibility |
 |---|---|---|---|
-| 2 | Urinary tract infection | 99.42% | Plausible class activity; urinary exposure uncertain, nephrotoxicity concern |
-| 3 | Congenital prothrombin deficiency | 99.41% | No plausible mechanism; likely model artifact |
-| 4 | Ureaplasma urethritis | 99.28% | Weak; aminoglycosides have limited activity |
-| 5 | Gonococcal urethritis | 99.28% | Class-level rationale only |
-| 6 | Uterine inflammatory disease | 99.18% | Class-level plausibility only |
-| 7 | Xanthogranulomatous pyelonephritis | 99.18% | Nephrotoxicity concern; surgical management usual |
-| 8 | Bronchitis | 98.95% | One historical 1956 report; weak support |
-| 9 | Genital herpes | 98.66% | Viral; no antiviral activity expected |
-| 10 | Vitamin deficiency disorder | 96.79% | Likely spurious; could worsen deficiency |
+| 2 | Urinary tract infection | 0.9942 | Plausible class activity; urinary exposure uncertain, nephrotoxicity concern |
+| 3 | Congenital prothrombin deficiency | 0.9941 | No plausible mechanism; likely model artifact |
+| 4 | Ureaplasma urethritis | 0.9928 | Weak; aminoglycosides have limited activity |
+| 5 | Gonococcal urethritis | 0.9928 | Class-level rationale only |
+| 6 | Uterine inflammatory disease | 0.9918 | Class-level plausibility only |
+| 7 | Xanthogranulomatous pyelonephritis | 0.9918 | Nephrotoxicity concern; surgical management usual |
 
 ## Literature Evidence
 
-No literature is available for the top predicted indication (sclerosing cholangitis). The only publication retrieved across the predictions relates to a lower-ranked indication, bronchitis:
+No literature is available for the top predicted indication (sclerosing cholangitis).
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

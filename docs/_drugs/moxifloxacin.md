@@ -4,17 +4,17 @@ title: Moxifloxacin
 parent: Low Evidence (L5)
 nav_order: 690
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (streptococcal and staphylococcal infections…"
 monitor_inn: "Moxifloxacin"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm", "bubonic plague"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 ---
 
 # Moxifloxacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,13 +49,13 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but this r
 |------|------|
 | Original Indication | Bacterial infections (streptococcal and staphylococcal infections, bacterial pneumonia, peritonitis, conjunctivitis, plague, etc.) |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 14 |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
-The Singapore registrations in the compiled data carry no approved-indication text. The original indications above come from the TxGNN knowledge graph, not from approved labelling.
+The Singapore registrations in the compiled data carry no approved-indication text. The original indications above are not taken from approved labelling.
 
 ---
 
@@ -63,7 +63,7 @@ The Singapore registrations in the compiled data carry no approved-indication te
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Moxifloxacin is a fluoroquinolone antibacterial. Drugs in this class inhibit bacterial DNA gyrase and topoisomerase IV, and its efficacy in bacterial respiratory, intra-abdominal, eye and plague infections is established.
 
-Hyperamylasemia is a laboratory finding, an elevated serum amylase level. It is not an infectious disease. No plausible mechanism links an antibacterial to lowering amylase, so the prediction looks like a graph-based artefact rather than a biologically grounded signal. A high score therefore should not be read as evidence of benefit.
+Hyperamylasemia is a laboratory finding, an elevated serum amylase level. It is not an infectious disease. No plausible mechanism links an antibacterial to lowering amylase, so the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A high score therefore should not be read as evidence of benefit.
 
 ---
 
@@ -122,7 +122,6 @@ The prediction has no supporting trials or publications and no plausible mechani
 - Package insert warnings and contraindications for Singapore-registered products
 - A review of the safety profile, especially QT prolongation, tendon and neuropathy risks, and the major corticosteroid interactions, before any new use is considered
 
-**Note:** Among the other model predictions for moxifloxacin, bubonic plague has the most supporting evidence. It rests on preclinical studies (animal and in vitro models) and is a close extension of the existing plague indication, so it may be a better candidate to explore.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

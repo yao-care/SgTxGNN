@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 651
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Mercaptopurine: predicted new indication Myeloid leukaemia (evidence level L5). Approved use: Acute lymphoblastic leukaemia"
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
+description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mercaptopurine: From Acute Lymphoblastic Leukaemia to Myeloid Leukaemia
+## Mercaptopurine: Myeloid leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **15 clinical trials** and **20 publications** retrieved for this direction
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukaemia (the Singapore licence record contains no approved-indication text; the original indication is taken from the TxGNN knowledge graph) |
-| Predicted New Indication | Myeloid leukaemia |
-| TxGNN Prediction Score | 99.94% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Myeloid leukemia |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L1 (formally; see the caveat below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -48,10 +48,10 @@ Ifosfamide is an alkylating chemotherapy drug that is registered in Singapore as
 |------|------|
 | Original Indication | Not stated in the Singapore registration record; ifosfamide is a cytotoxic anticancer agent (best known in sarcoma and germ cell tumours) |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L3 (reviews, Phase 2 studies and cohorts; no completed Phase 2/3 RCT) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L5 (reviews, Phase 2 studies and cohorts; no completed Phase 2/3 RCT) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

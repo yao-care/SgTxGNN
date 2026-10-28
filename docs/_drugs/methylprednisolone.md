@@ -4,7 +4,7 @@ title: Methylprednisolone
 parent: High Evidence (L1-L2)
 nav_order: 665
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Methylprednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, Crohn disease, adrenocortical insufficiency…"
 monitor_inn: "Methylprednisolone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Methylprednisolone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **1 clinical trial** and **19 publications** currently supporting this dire
 |------|------|
 | Original Indication | Autoimmune disease, Crohn disease, adrenocortical insufficiency, acute lymphoblastic leukaemia, and others (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

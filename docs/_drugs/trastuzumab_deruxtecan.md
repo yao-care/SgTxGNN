@@ -4,17 +4,17 @@ title: Trastuzumab Deruxtecan
 parent: Low Evidence (L5)
 nav_order: 1013
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Trastuzumab Deruxtecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available"
 monitor_inn: "Trastuzumab deruxtecan"
-predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "bronchitis", "diabetic cataract", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis"]
+predicted_indications: ["drug-induced osteoporosis"]
+description: "Trastuzumab Deruxtecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trastuzumab Deruxtecan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trastuzumab deruxtecan: From Its Registered Oncology Use to Drug-Induced Osteoporosis
+## Trastuzumab Deruxtecan: Drug-induced osteoporosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is a model-only prediction (Evidence Level L5) with no identifiable mechani
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the approved indication text in the Singapore licence record is empty) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ This is a model-only prediction (Evidence Level L5) with no identifiable mechani
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate with a topoisomerase I inhibitor payload, designed to deliver cytotoxic therapy to HER2-expressing tumours.
 
-On review, the prediction is **not mechanistically reasonable**. HER2-targeted cytotoxic delivery has no known connection to bone metabolism or osteoporosis. The high TxGNN score is a graph-based computational result, with no clinical or literature support behind it.
+On review, the prediction is **not mechanistically reasonable**. HER2-targeted cytotoxic delivery has no known connection to bone metabolism or osteoporosis.
 
-The other top-ranked predictions share the same weakness. They include severe nonproliferative diabetic retinopathy, diabetic retinopathy, bronchitis, diabetic cataract and several tumour or lesion types without HER2 dependence. For bronchitis in particular, the drug carries a boxed warning for interstitial lung disease/pneumonitis, so respiratory risk argues against use.
+The other top-ranked predictions share the same weakness.
 
 ---
 
@@ -78,7 +78,7 @@ Currently no related clinical trials registered for drug-induced osteoporosis.
 
 Currently no related literature available for drug-induced osteoporosis.
 
-For reference, the literature retrieved for the rank-8 prediction ("ductal or ductular proliferation") consists mainly of HER2-positive and HER2-low breast, pancreatic and salivary ductal cancer reports. These are not evidence for the top-ranked indication, and several are adverse-event case reports (Fanconi syndrome, dermatomyositis, interstitial lung disease). They concern existing oncology use rather than repurposing, and should be evaluated separately.
+These are not evidence for the top-ranked indication, and several are adverse-event case reports (Fanconi syndrome, dermatomyositis, interstitial lung disease). They concern existing oncology use rather than repurposing, and should be evaluated separately.
 
 ---
 
@@ -116,7 +116,7 @@ For the full set of warnings and contraindications, please refer to the package 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score, with no trials, no literature and no plausible mechanism linking a HER2-directed cytotoxic conjugate to osteoporosis. Using a toxic oncology agent in a non-oncologic bone condition would also raise a clear risk-benefit concern.
+Using a toxic oncology agent in a non-oncologic bone condition would also raise a clear risk-benefit concern.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from HSA (currently a blocking data gap that prevents safety screening)

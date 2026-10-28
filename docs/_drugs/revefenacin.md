@@ -4,17 +4,17 @@ title: Revefenacin
 parent: Low Evidence (L5)
 nav_order: 863
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Revefenacin: predicted new indication Bronchitis (evidence level L5). Approved use: Chronic obstructive pulmonary disease (COPD)"
 monitor_inn: "Revefenacin"
-predicted_indications: ["bronchitis", "tracheal stenosis", "compensatory emphysema", "hyperlucent lung", "interstitial emphysema", "susceptibility to respiratory infections associated with CD8alpha chain mutation", "congenital lobar emphysema", "tracheal calcification", "respiratory malformation"]
+predicted_indications: ["bronchitis"]
 ---
 
 # Revefenacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **bronchitis**, but only **1 cl
 |------|------|
 | Original Indication | Chronic obstructive pulmonary disease (COPD) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L3 (as scored; the supporting evidence is indirect, see below) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9961 |
+| Evidence Level | L5 (as scored; the supporting evidence is indirect, see below) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **bronchitis**, but only **1 cl
 
 Revefenacin is a lung-selective LAMA. By blocking M3 muscarinic receptors, it reduces cholinergic bronchoconstriction and mucus secretion. Both are plausibly relevant to chronic bronchitis.
 
-Chronic bronchitis and COPD overlap clinically, and chronic bronchitis is one of the main COPD phenotypes. The high TxGNN score (0.996) most likely reflects this overlap in the knowledge graph rather than independent evidence for bronchitis. The one linked trial (NCT01704404) enrolled COPD patients, so it does not show efficacy in a bronchitis-specific population.
+Chronic bronchitis and COPD overlap clinically, and chronic bronchitis is one of the main COPD phenotypes. The high score (0.9961) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence for bronchitis. The one linked trial (NCT01704404) enrolled COPD patients, so it does not show efficacy in a bronchitis-specific population.
 
 Detailed mechanism-of-action data from DrugBank is currently unavailable. The mechanistic reasoning above is therefore based on the drug's known pharmacological class.
 

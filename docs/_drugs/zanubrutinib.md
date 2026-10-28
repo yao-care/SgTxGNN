@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 1082
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Zanubrutinib: predicted new indication Myeloid leukemia (evidence level L4). Approved use: Mantle cell lymphoma, B-cell neoplasm, lymphosarcoma"
 monitor_inn: "Zanubrutinib"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "lymphoma, non-Hodgkin, familial", "acute lymphoblastic/lymphocytic leukemia"]
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
 ---
 
 # Zanubrutinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The high model score is therefore not yet backed by clinical data.
 |------|------|
 | Original Indication | Mantle cell lymphoma, B-cell neoplasm, lymphosarcoma (the Singapore licence record has no indication text) |
 | Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9965 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

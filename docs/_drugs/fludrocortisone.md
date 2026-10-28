@@ -4,17 +4,17 @@ title: Fludrocortisone
 parent: Low Evidence (L5)
 nav_order: 437
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Fludrocortisone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not stated in the Singapore licence record (fludrocortisone's establi…"
 monitor_inn: "Fludrocortisone"
-predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis", "granulomatous slack skin disease", "optic papillitis"]
+predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
+description: "Fludrocortisone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fludrocortisone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fludrocortisone: From Mineralocorticoid Replacement to Primary Cutaneous T-Cell Lymphoma
+## Fludrocortisone: Primary cutaneous T-cell lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Fludrocortisone is a synthetic corticosteroid with mainly mineralocorticoid activity, registered in Singapore as Florinef tablets.
 The TxGNN model ranks **primary cutaneous T-cell lymphoma** as its top predicted new indication, but **no clinical trials and no publications** support it.
-The prediction rests on model output alone and is likely a class-level artifact of the knowledge graph.
+The prediction rests on model output alone. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -48,12 +48,12 @@ The prediction rests on model output alone and is likely a class-level artifact 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record (fludrocortisone's established uses are adrenal insufficiency and orthostatic hypotension) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +62,11 @@ The prediction rests on model output alone and is likely a class-level artifact 
 
 Currently, detailed mechanism of action data is not available. Fludrocortisone is a mineralocorticoid with some glucocorticoid activity. Its efficacy in its established uses is documented in the literature compiled for this report. Whether that translates to primary cutaneous T-cell lymphoma is unproven.
 
-Corticosteroids suppress lymphocytes, and topical steroids are used in early-stage cutaneous T-cell lymphoma. However, no specific link to fludrocortisone is documented. The very high score most likely reflects class-level proximity in the knowledge graph rather than a true therapeutic relationship.
+Corticosteroids suppress lymphocytes, and topical steroids are used in early-stage cutaneous T-cell lymphoma. However, no specific link to fludrocortisone is documented. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a true therapeutic relationship.
 
-The other top-ranked predictions are similarly weak. Cystic teratoma, spinal cord dermoid cyst, dermoid cyst of ovary, exostosis and granulomatous slack skin disease have no plausible mechanistic link. Two broad orbital categories and optic papillitis have no supporting studies either.
+The other top-ranked predictions are similarly weak. Cystic teratoma, spinal cord dermoid cyst, dermoid cyst of ovary, exostosis and granulomatous slack skin disease have no plausible mechanistic link.
 
-The one prediction with some literature is **eye disease** (rank 6, score 99.14%, evidence level L4). The most relevant item is a 2021 preclinical study showing anti-inflammatory and neuroprotective effects of fludrocortisone in retinal degeneration. A 2022 Phase 1B study also tested intravitreal fludrocortisone acetate for safety and tolerability in geographic atrophy. Because "eye disease" is too broad, a specific indication such as geographic atrophy would need to be defined first.
+The one prediction with some literature is **eye disease** (rank 6, score 0.9914, evidence level L4). The most relevant item is a 2021 preclinical study showing anti-inflammatory and neuroprotective effects of fludrocortisone in retinal degeneration. A 2022 Phase 1B study also tested intravitreal fludrocortisone acetate for safety and tolerability in geographic atrophy. Because "eye disease" is too broad, a specific indication such as geographic atrophy would need to be defined first.
 
 ---
 

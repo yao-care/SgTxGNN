@@ -2,19 +2,19 @@
 layout: default
 title: Loteprednol Etabonate
 parent: Low Evidence (L5)
-nav_order: 618
+nav_order: 617
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Loteprednol Etabonate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). Approved use: Uveitis, atopic conjunctivitis, vernal conjunctivitis…"
+indication_count: 9
 monitor_inn: "Loteprednol etabonate"
-predicted_indications: ["chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "rosacea conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
+predicted_indications: ["parasitic conjunctivitis", "serous conjunctivitis except viral", "conjunctival folliculosis", "chronic follicular conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
+last_modified_at: 2026-10-23
+description: "Loteprednol Etabonate: predicted new indication Parasitic conjunctivitis (evidence level L5). Approved use: Relations recorded in the knowledge graph: uveitis…"
 ---
 
 # Loteprednol Etabonate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,61 +33,54 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Loteprednol Etabonate: From Uveitis and Allergic Conjunctivitis to Chronic Follicular Conjunctivitis
+## Loteprednol Etabonate: From Ocular Inflammatory Conditions to Parasitic Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Loteprednol etabonate is a topical ophthalmic corticosteroid, originally used for inflammatory eye conditions such as uveitis and atopic, vernal and papillary conjunctivitis.
-The TxGNN model predicts it may be effective for **chronic follicular conjunctivitis**,
-but there are currently **no clinical trials and no publications** directly supporting this prediction, so it rests on model prediction alone.
-
----
+Loteprednol etabonate is a topical corticosteroid. The TxGNN model predicts it may be useful for **parasitic conjunctivitis**, but this rests on a model prediction alone, with **0 clinical trials** and **0 publications** that directly study this disease.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Uveitis, atopic conjunctivitis, vernal conjunctivitis, papillary conjunctivitis and related ocular inflammatory conditions (the Singapore licence record does not include indication text) |
-| Predicted New Indication | Chronic follicular conjunctivitis |
-| TxGNN Prediction Score | 99.69% |
+| Original Indication | Relations recorded in the knowledge graph: uveitis, atopic conjunctivitis, vernal conjunctivitis, papillary conjunctivitis, and others. The Singapore licence record contains no indication text. |
+| Predicted New Indication | Parasitic conjunctivitis |
+| TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, loteprednol etabonate is a topical corticosteroid. Its efficacy in related inflammatory conjunctival conditions (atopic, vernal and papillary conjunctivitis) is already recognised, and it may therefore be mechanistically applicable to chronic follicular conjunctivitis through suppression of inflammation.
+Detailed mechanism of action data is not available. Loteprednol etabonate is a topical corticosteroid. Its anti-inflammatory effect could plausibly reduce the inflammatory component of parasitic conjunctivitis.
 
-Chronic follicular conjunctivitis is an inflammatory disease of the conjunctival surface, so it sits close to the drug's existing indications. This closeness is the main reason the prediction is plausible. However, the follicular form can have many causes (infectious, toxic or allergic). A steroid would only help when inflammation is the driver, and it could be harmful where an infection is the cause.
+There are important limits. Parasitic conjunctivitis is an infection, so it would still need antiparasitic treatment. Corticosteroids can worsen some infections. The knowledge graph also records contraindication relations with several eye infections (see Safety Considerations). The prediction is therefore a class-level rationale, not demonstrated benefit.
 
-The other top predictions are weaker or riskier:
-- **Rosacea conjunctivitis** (score 99.34%) is the most coherent link, because rosacea is already among the drug's listed original indications. It is best treated as a focused research question.
-- **Pseudomembranous conjunctivitis** (score 99.66%) has one 2025 paper on adenoviral conjunctivitis (PMID 40638366). It compared ganciclovir and povidone-iodine, and their combinations with loteprednol etabonate, for viral load reduction. The evidence is indirect, and steroids may prolong viral shedding.
-- **Infectious or viral forms** (acute hemorrhagic, acute contagious and parasitic conjunctivitis) carry risk, because a steroid does not treat the underlying infection and may worsen it.
-- **Conjunctival folliculosis** is often benign and non-inflammatory, so the steroid rationale is weak.
-- **Otitis externa** involves a different route and formulation, since loteprednol is made for ophthalmic use, so any extrapolation is speculative.
-
----
+Other predicted indications have the same L5 status and a Hold recommendation:
+- serous conjunctivitis (non-viral)
+- conjunctival folliculosis
+- chronic follicular conjunctivitis
+- pseudomembranous conjunctivitis
+- Angelucci syndrome
+- acute hemorrhagic conjunctivitis
+- acute contagious conjunctivitis
+- otitis externa (no otic formulation exists)
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-No literature is available for the lead prediction (chronic follicular conjunctivitis). One publication is available for a lower-ranked prediction, pseudomembranous conjunctivitis:
+Currently no literature directly studying parasitic conjunctivitis is available.
+
+For a related prediction (pseudomembranous conjunctivitis), one 2025 paper was retrieved. It is shown here for context only and does not support the parasitic conjunctivitis prediction.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40638366](https://pubmed.ncbi.nlm.nih.gov/40638366/) | 2025 | Comparative study (type not confirmed; full text not reviewed) | Ocular Immunology and Inflammation | PCR-based evaluation of viral load reduction in adenoviral conjunctivitis, comparing topical ganciclovir and povidone-iodine, and their combination with loteprednol etabonate |
-
----
+| [40638366](https://pubmed.ncbi.nlm.nih.gov/40638366/) | 2025 | Comparative study (design unconfirmed) | Ocular Immunology and Inflammation | Compared topical ganciclovir, povidone-iodine, and their combination with loteprednol etabonate for viral load reduction and clinical outcomes in adenoviral conjunctivitis. Results are not available in the retrieved abstract. |
 
 ## Singapore Market Information
 
@@ -95,30 +88,26 @@ No literature is available for the lead prediction (chronic follicular conjuncti
 |---------|------|------|-----------|
 | SIN12601P | LOTEMAX STERILE OPHTHALMIC SUSPENSION 0.5% (Bausch & Lomb Inc) | Solution | Not stated in the licence record |
 
----
-
 ## Safety Considerations
 
-- **Disease-level cautions (from the knowledge graph, not label text)**: Loteprednol is flagged as contraindicated or to be avoided in ocular hypertension, glaucoma, herpes simplex virus keratitis, fungal eye infection, viral eye infection, ocular tuberculosis and ophthalmic herpes zoster. These cautions matter for this repurposing, because several predicted conditions are infectious.
-- **Drug Interactions**: 30 potential interactions were identified, but none has a severity rating. Those listed include pantoprazole, doxycycline, omeprazole, lansoprazole, triamcinolone, prednisone, simvastatin, warfarin, clopidogrel and ibuprofen. They should be interpreted with caution, since the severity is unknown and the drug is applied topically to the eye.
+- **Relations recorded in the knowledge graph (not label text)**: contraindication relations with ocular hypertension, glaucoma, herpes simplex virus keratitis, fungal eye infection, viral eye infection, ocular tuberculosis, and ophthalmic herpes zoster. These should be confirmed against the package insert.
+- **Drug Interactions**: 30 potential interactions were identified, all with an unclassified severity level. Examples include triamcinolone, prednisone, warfarin, clopidogrel, acetylsalicylic acid, ibuprofen, simvastatin, rosuvastatin, hydroxychloroquine and doxycycline. Their clinical relevance for a topical eye product is not established.
 
-Please refer to the package insert for the full warnings and contraindications.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.69%), but there are no clinical trials or publications for chronic follicular conjunctivitis, so the evidence level is L5. Many of the top-ranked predicted conditions are infectious, where a steroid could cause harm. The package insert warnings are also not yet available.
+The prediction score is high (0.9969), but no trial or publication directly studies loteprednol in parasitic conjunctivitis, so the evidence level is L5. The condition is infectious, and the knowledge graph records contraindications with several eye infections, so steroid use needs careful justification.
 
 **To proceed, the following is needed:**
-- The HSA package insert, covering warnings, contraindications and the approved indication text
-- Mechanism of action data for loteprednol etabonate
-- A targeted literature and trial search on loteprednol in chronic follicular conjunctivitis and ocular rosacea, the most plausible candidates
-- A review of whether the follicular condition is inflammatory or infectious, to exclude cases where a steroid is unsafe
-- Full-text review of PMID 40638366 to confirm what was actually evaluated
+- The Singapore package insert (warnings, contraindications, approved indications), which is currently missing
+- Mechanism of action data
+- A literature and trial search specific to parasitic conjunctivitis, including its use alongside antiparasitic therapy
+- Clinical review of the benefit-risk balance of corticosteroids in infectious conjunctivitis
+- Review of the potential drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

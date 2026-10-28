@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Irinotecan
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 548
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L3). Approved use: Metastatic colon cancer"
 monitor_inn: "Irinotecan"
-predicted_indications: ["female breast carcinoma", "pancreatic carcinoma with mixed differentiation", "osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas", "pancreatic intraductal papillary-mucinous carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic signet ring cell adenocarcinoma", "mixed ductal-endocrine carcinoma of pancreas", "malignant exocrine pancreas neoplasm", "undifferentiated pancreatic carcinoma"]
+predicted_indications: ["female breast carcinoma"]
+description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Irinotecan
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Irinotecan: From Metastatic Colon Cancer and Pancreatic Adenocarcinoma to Female Breast Carcinoma
+## Irinotecan: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**, bu
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic colon cancer; pancreatic adenocarcinoma (from the knowledge graph; no approved-indication text is available in the Singapore licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 11 |
+| TxGNN Prediction Score | 0.9908 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -157,8 +157,7 @@ The TxGNN score is high, and the SN-38 mechanism is validated in breast cancer t
 ---
 
 **Other predicted indications** (all pancreatic subtypes of the approved pancreatic adenocarcinoma indication, with the highest-ranked first):
-- **Research Question (L3):** rare pancreatic histologies including invasive IPMN carcinoma and IPMN (retrospective or case-level evidence from 2026), and pancreatic signet ring cell adenocarcinoma (one Phase 1 mFOLFIRINOX study).
-- **Hold (L4/L5):** osteoclastic giant cell tumour, solid pseudopapillary carcinoma, mixed ductal-endocrine carcinoma, malignant exocrine pancreas neoplasm, and undifferentiated pancreatic carcinoma. These have no trials or only case reports, or a terminated study with one participant.
+- These have no trials or only case reports, or a terminated study with one participant.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Gliclazide
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 480
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-14
-description: "Gliclazide: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
+description: "Gliclazide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Gliclazide"
-predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "autoimmune oophoritis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Gliclazide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,54 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Gliclazide: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
+## Gliclazide
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Gliclazide is a sulfonylurea originally used to treat type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **classic stiff person syndrome**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (from the knowledge graph; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Classic stiff person syndrome |
-| TxGNN Prediction Score | 97.96% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 17 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, gliclazide is a sulfonylurea that blocks the K-ATP channels (SUR1/Kir6.2) of pancreatic beta cells, which stimulates insulin secretion. Its efficacy in type 2 diabetes is well established.
-
-Stiff person syndrome is an autoimmune neurological disorder, usually linked to anti-GAD65 antibodies and impaired GABAergic inhibition. The only speculative connection is the shared GAD65 autoimmune background with type 1 diabetes. Gliclazide has no known GABAergic or immunomodulatory action relevant to this disease. The high score is therefore a network-based association only, not a pharmacological rationale.
-
-The same signal appears for **focal stiff limb syndrome** (identical score, 97.96%), which is likely driven by shared knowledge-graph neighbours.
-
-### Other Predictions in This Set
-
-| Rank | Predicted Disease | Score | Assessment |
-|------|------|------|------|
-| 3 | Thiamine-responsive dysfunction syndrome | 97.79% | Likely refers to thiamine-responsive megaloblastic anaemia, which includes diabetes. Any benefit would be symptomatic glycaemic control only; the disease is treated with thiamine and insulin. |
-| 4 | Opsismodysplasia | 97.72% | Loose link via PI3K/insulin signalling (INPPL1/SHIP2). Gliclazide does not act on this pathway. |
-| 5 | Pancreatic agenesis | 96.64% | Mechanistically unsuitable: gliclazide needs functioning beta cells. Insulin replacement is the standard of care. |
-| 6–9 | Localized lipodystrophies (drug-induced, centrifugal, pressure-induced, idiopathic) | 95.9–96.4% | Likely reflect metabolic-disease proximity in the graph. Gliclazide has no known effect on adipose tissue. |
-| 10 | Autoimmune oophoritis | 88.15% | Speculative immunomodulatory link, not established. |
-
-All of these have L5 evidence and a Hold recommendation.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 
 ## Singapore Market Information
 
@@ -100,18 +64,6 @@ All forms are oral tablets (standard, film-coated, extended-release).
 
 Please refer to the package insert for safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no supporting clinical trials or literature (L5), and there is no plausible pharmacological link between gliclazide and stiff person syndrome. Gliclazide is widely marketed in Singapore, but only for diabetes, so market availability does not support this new use.
-
-**To proceed, the following is needed:**
-- Mechanism of action data to assess any link to GABAergic or autoimmune pathways
-- Package insert warnings and contraindications from the HSA website
-- Preclinical or case-level evidence of benefit in stiff person syndrome
-- Review of the indirect predictions with a possible symptom-level rationale (e.g., thiamine-responsive megaloblastic anaemia), separately from disease-modifying claims
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Tropicamide
 parent: Low Evidence (L5)
 nav_order: 1032
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Cycloplegia"
 monitor_inn: "Tropicamide"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "primary hereditary glaucoma", "nasopharyngitis", "recalcitrant atopic dermatitis"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
+description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tropicamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tropicamide: From Cycloplegia to Cauda Equina Syndrome
+## Tropicamide: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ It is a computational prediction only, and the mechanistic rationale is weak.
 
 | Item | Content |
 |------|------|
-| Original Indication | Cycloplegia (the Singapore licence records contain no approved-indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.53% |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 2 |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,9 +62,8 @@ In theory, blocking muscarinic receptors could affect bladder (detrusor) and bow
 
 Other top-ranked predictions are also weak:
 - **Neurogenic bladder, irritable bowel syndrome, nasal cavity disease and nasopharyngitis**: class-level antimuscarinic plausibility only. There is no tropicamide-specific data and no suitable formulation. Approved agents such as oxybutynin already serve the bladder indication.
-- **Primary hereditary glaucoma**: pharmacologically contradictory. Tropicamide can raise intraocular pressure or precipitate angle closure, so this is a safety concern rather than an opportunity.
-- **Allergic urticaria**: the only retrieved paper reports anaphylaxis from a different mydriatic (cyclopentolate), which is an adverse reaction and not evidence of benefit.
-- **Pharyngitis, acute laryngopharyngitis and recalcitrant atopic dermatitis**: no credible mechanism. Drying effects could even be undesirable.
+- Tropicamide can raise intraocular pressure or precipitate angle closure, so this is a safety concern rather than an opportunity.
+- Drying effects could even be undesirable.
 
 ## Clinical Trial Evidence
 

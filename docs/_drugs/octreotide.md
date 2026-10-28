@@ -4,17 +4,17 @@ title: Octreotide
 parent: Low Evidence (L5)
 nav_order: 731
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acromegaly, hyperpituitarism, carcinoid syndrome"
 monitor_inn: "Octreotide"
-predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis", "nephrotic syndrome ocular anomalies", "Addison disease", "membranoproliferative glomerulonephritis, X-linked", "familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis", "familial idiopathic steroid-resistant nephrotic syndrome with minimal changes", "adrenocortical insufficiency", "primary hypereosinophilic syndrome", "autosomal recessive familial Mediterranean fever"]
+predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 ---
 
 # Octreotide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,18 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Acromegaly, hyperpituitarism, carcinoid syndrome (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Vulvar inverted follicular keratosis |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Octreotide is a somatostatin analogue, and its efficacy in acromegaly and carcinoid syndrome is established. Its known effects are mediated through somatostatin receptors, mainly in pituitary and neuroendocrine tissue.
 
-The data compiled for this report show no plausible link between somatostatin-receptor activity and vulvar inverted follicular keratosis. The very high TxGNN score (0.996) is not backed by any trial or publication. The adjacent prediction, seborrheic keratosis (score 0.995), is similarly unsupported, which suggests the score may reflect a knowledge-graph neighbourhood effect rather than true biological evidence.
+The data compiled for this report show no plausible link between somatostatin-receptor activity and vulvar inverted follicular keratosis. The very high TxGNN score (0.9958) is not backed by any trial or publication. The adjacent prediction, seborrheic keratosis (score 0.9955), is similarly unsupported, which suggests the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other top predictions also lack support. Addison disease (rank 4) and adrenocortical insufficiency (rank 8) have only indirect, low-tier literature (a case report, a small negative physiological study, and a pituitary case series). These do not show that octreotide treats adrenal insufficiency.
 
 ## Clinical Trial Evidence
 

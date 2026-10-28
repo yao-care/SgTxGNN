@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Estradiol
-parent: Low Evidence (L5)
-nav_order: 402
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Estradiol: predicted new indication Symptomatic form of fragile X syndrome in female carrier (evidence level L5). Approved use: Primary ovarian failure, postmenopausal osteoporosis…"
-monitor_inn: "Estradiol"
-predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "anovulation", "ovarian remnant syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 12", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "luteoma of pregnancy", "partial autosomal trisomy/tetrasomy", "ovarian ectopic pregnancy"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 401
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Estradiol: known uses and market status in Singapore; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Estradiol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,68 +32,54 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Estradiol: From Primary Ovarian Failure and Menopausal Conditions to Symptomatic Fragile X Syndrome in Female Carriers
+<!-- known-uses-page -->
+<!-- description: Estradiol: known uses and market status in Singapore; currently no new candidate indication -->
+## Estradiol: Known uses and market status in Singapore
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model's candidates for Estradiol are all known uses, so there is currently no new predicted indication. The only traceable candidate, acne, is recorded as a relation in the knowledge graph. No approval or licence supporting it was found.
 
-Estradiol is an estrogen hormone originally used for primary ovarian failure, postmenopausal osteoporosis and postmenopausal atrophic vaginitis.
-The TxGNN model predicts it may be effective for the **symptomatic form of fragile X syndrome in female carriers**, which most likely means fragile X-associated primary ovarian insufficiency.
-This prediction currently rests on **model output alone**: **0 clinical trials** and **0 publications** were found.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Primary ovarian failure, postmenopausal osteoporosis, postmenopausal atrophic vaginitis, acne (from the knowledge graph; the Singapore licences list no indication text) |
-| Predicted New Indication | Symptomatic form of fragile X syndrome in female carrier |
-| TxGNN Prediction Score | 98.76% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 10 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Singapore | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available. Based on known information, estradiol is the main natural estrogen. It replaces the hormone when the ovaries no longer produce enough of it, and its efficacy in primary ovarian failure is established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Female carriers of an FMR1 premutation can develop fragile X-associated primary ovarian insufficiency (FXPOI). This condition overlaps with estradiol's established use in primary ovarian failure, so hormone replacement is a plausible way to manage the ovarian component, such as estrogen deficiency symptoms and bone health.
-
-This is a reasoned hypothesis, not a demonstrated result. The link comes only from the TxGNN prediction. Estradiol would not treat the underlying genetic condition or its non-ovarian features, such as neurological or cognitive symptoms.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| acne (disease) |
 
 ## Singapore Market Information
 
-Ten single-ingredient estradiol-containing products hold valid registrations in Singapore. No approved indication text is recorded for any of them. The five main ones are:
-
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN11642P | DIVIGEL GEL 1mg/dose | Gel |
-| SIN14877P | VAGIFEM® VAGINAL TABLET 10MCG | Film-coated tablet |
-| SIN06009P | ESTROFEM TABLET 2 mg | Film-coated tablet |
-| SIN06503P | OESTROGEL 0.06% | Gel |
-| SIN11644P | DIVIGEL GEL 0.5mg/dose | Gel |
-
-Available forms include topical gels and oral film-coated tablets.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11642P | DIVIGEL GEL 1mg/dose | GEL | Valid |
+| SIN14877P | VAGIFEM® VAGINAL TABLET 10MCG | TABLET, FILM COATED | Valid |
+| SIN06009P | ESTROFEM TABLET 2 mg | TABLET, FILM COATED | Valid |
+| SIN06503P | OESTROGEL 0.06% | GEL | Valid |
+| SIN11644P | DIVIGEL GEL 0.5mg/dose | GEL | Valid |
+| SIN09922P | ESTROFEM TABLET 1 mg | TABLET, FILM COATED | Valid |
+| SIN12121P | FEMOSTON CONTI 1/5 TABLET | TABLET, FILM COATED | Valid |
+| SIN10960P | ACTIVELLE TABLET | TABLET, FILM COATED | Valid |
+| SIN11896P | FEMOSTON 1/10 TABLET | TABLET, FILM COATED | Valid |
+| SIN09530P | FEMOSTON 2/10 TABLET | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 
@@ -109,21 +94,6 @@ Please also refer to the package insert for full safety information, as no label
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction score is high (98.76%), but there are no clinical trials or publications behind it, so the evidence level is L5. The biological idea of hormone replacement for FXPOI is reasonable, yet it is untested here and would address only the ovarian component of the condition.
-
-**To proceed, the following is needed:**
-- A literature and trial search specific to FXPOI or FMR1 premutation carriers and hormone replacement therapy
-- Mechanism of action data
-- Package insert warnings and contraindications from the Singapore regulator (HSA)
-- Assessment of the long-term safety of estrogen in this population, including the KG-flagged contraindications
-- Route and formulation selection (oral versus transdermal) for the target population
-
-Of the other indications predicted for estradiol, anovulation is the only one with registered trials. It has a Phase 4 trial of clomiphene plus estradiol (NCT02186782, n=600, status unknown) and reaches evidence level L2. It may be a better candidate for further evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

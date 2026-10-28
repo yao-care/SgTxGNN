@@ -4,17 +4,17 @@ title: Oxymetholone
 parent: Low Evidence (L5)
 nav_order: 752
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Oxymetholone: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Diamond-Blackfan anemia, inherited aplastic anemia…"
 monitor_inn: "Oxymetholone"
-predicted_indications: ["seborrheic dermatitis", "primary release disorder of platelets", "pseudo-von Willebrand disease", "seborrheic keratosis", "vulvar inverted follicular keratosis", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "psoriasis", "parapsoriasis", "acute lichenoid pityriasis"]
+predicted_indications: ["seborrheic dermatitis"]
 ---
 
 # Oxymetholone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This is a computational prediction only, and the direction of effect may even be
 |------|------|
 | Original Indication | Diamond-Blackfan anemia, inherited aplastic anemia, idiopathic aplastic anemia, aplastic anemia (the Singapore licence has no approved indication text recorded) |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.05% |
+| TxGNN Prediction Score | 0.9905 |
 | Evidence Level | L5 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,8 @@ This is a computational prediction only, and the direction of effect may even be
 
 Currently, detailed mechanism of action data is not available. Based on known information, oxymetholone is an anabolic androgenic steroid. Its efficacy in bone marrow failure and anemias is the basis of its original use, but a mechanistic link to seborrheic dermatitis has not been established.
 
-The data compiled for this report suggest that a connection to sebaceous gland or inflammatory modulation is speculative. Androgens typically increase sebum production, so the direction of effect may be unfavorable for seborrheic dermatitis. The high score most likely reflects proximity in the knowledge graph rather than a demonstrated biological rationale.
+The data compiled for this report suggest that a connection to sebaceous gland or inflammatory modulation is speculative. Androgens typically increase sebum production, so the direction of effect may be unfavorable for seborrheic dermatitis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other predictions for this drug (for example psoriasis, seborrheic keratosis, Glanzmann thrombasthenia and pseudo-von Willebrand disease) also score above 90% but likewise have no clinical or literature support.
 
 ---
 
@@ -90,7 +89,7 @@ Currently no related literature available.
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge graph associations, not package insert text)**: The knowledge graph lists the following conditions as contraindicated:
+- **Contraindications (from the TxGNN model's data, not package insert text)**: The following conditions are listed as contraindicated:
   - Liver and biliary: liver failure, liver disease, peliosis hepatis, gallbladder disease
   - Kidney: kidney disease, pyoureter, nephrotic syndrome (including familial form), lipoid nephrosis
   - Cardiovascular: congestive heart failure, heart disease, cardiovascular disease, coronary artery disease, arteriosclerosis disorder, atherosclerosis, hypoalphalipoproteinemia

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Darunavir
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 305
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Darunavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection, AIDS"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "Darunavir"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+last_modified_at: 2026-10-28
+description: "Darunavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Darunavir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,81 +33,101 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Darunavir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Darunavir: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Darunavir is an HIV-1 protease inhibitor, originally used to treat HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but there are **no registered clinical trials** and only **4 publications**, all macaque studies of combination antiretroviral therapy (not darunavir alone).
-This is an animal-model indication that largely restates the original indication, so it is not a true repurposing opportunity.
+Darunavir is an HIV protease inhibitor, and HIV infection and AIDS are its original uses.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, a veterinary disease.
+There are **no clinical trials** and **no publications** that directly study this disease, so the support is model prediction only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection, AIDS (the Singapore licence records contain no approved indication text; this comes from the knowledge graph) |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 5 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, darunavir is an HIV-1 protease inhibitor. Its efficacy in HIV infection is established, and mechanistically it may be applicable to SIV infection.
+Detailed mechanism of action data is not available for this report. Darunavir is known as an HIV-1 protease inhibitor, a class of drugs that blocks the enzyme the virus needs to mature into infectious particles.
 
-SIV is the non-human primate counterpart of HIV, and the two viruses have related proteases, so the mechanistic rationale is strong. However, the retrieved publications describe macaque studies of combination ART, latency-reversing agents and viral reservoir restriction. Their titles do not show that darunavir was tested as a single agent.
+Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, so a mechanistic rationale is plausible. However, FIV protease differs structurally from HIV-1 protease, and darunavir's activity against it is not established in the data compiled for this report. The high score is a computational prediction only.
 
-SIV infection is an animal-model indication with no human clinical value beyond the existing HIV indication. It is not a new therapeutic opportunity.
+This is also a veterinary condition, so its relevance to human drug repurposing is limited. The other predicted indications are weaker still:
+
+- **Simian immunodeficiency virus infection (score 0.9997)**: Four preclinical macaque studies were found, but they test combination antiretroviral regimens or adjunct agents and do not isolate darunavir's own effect. It is an animal research model, not a human treatment indication. These studies do not directly address feline AIDS.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (0.9997)**: No mechanistic link is evident, and the very high score likely reflects TxGNN model (deep learning) artifacts.
+- **Obsolete familial combined hyperlipidemia (0.9919)**: HIV protease inhibitors are associated with dyslipidemia, which runs opposite to a therapeutic benefit. The disease term is also obsolete in the ontology.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
+
+Currently no related literature available for feline acquired immunodeficiency syndrome.
+
+For the related simian immunodeficiency virus prediction, the following preclinical macaque studies were found. They are indirect evidence only.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Preclinical (non-human primate) | PloS one | Suppressive combination ART plus the histone deacetylase inhibitor SAHA in SIV-infected Chinese rhesus macaques, as a model of viral reservoirs |
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Preclinical (non-human primate) | AIDS Res Hum Retroviruses | Comparison of two coformulated injectable combination ART regimens in SIVmac239-infected rhesus macaques |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preclinical (non-human primate) | PLoS Pathogens | Highly intensified multidrug ART produced long-term viral suppression and restricted the viral reservoir in a simian AIDS model |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Preclinical (non-human primate) | AIDS | Gold compound auranofin restricted the viral reservoir in the monkey AIDS model and helped contain viral load after ART suspension |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Preclinical NHP study | AIDS Res Hum Retroviruses | Comparison of two injectable combination ART regimens in SIV-infected rhesus macaques |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preclinical NHP study | PLoS Pathog | Highly intensified multidrug ART gave long-term viral suppression and restricted the viral reservoir in a simian AIDS model |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Preclinical NHP study | PLoS One | Suppressive ART plus the HDAC inhibitor SAHA in SIV-infected Chinese rhesus macaques |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Preclinical NHP study | AIDS | Auranofin plus ART restricted the viral reservoir in the monkey AIDS model |
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13853P | PREZISTA™ Tablet 75 mg | Film-coated tablet | Not stated in the licence record |
-| SIN13854P | PREZISTA™ Tablet 150 mg | Film-coated tablet | Not stated in the licence record |
-| SIN13855P | PREZISTA™ Tablet 400 mg | Film-coated tablet | Not stated in the licence record |
-| SIN13856P | PREZISTA™ Tablet 600 mg | Film-coated tablet | Not stated in the licence record |
-| SIN14595P | PREZISTA™ Tablet 800 mg | Film-coated tablet | Not stated in the licence record |
+| SIN13853P | PREZISTA™ Tablet 75 mg | Film-coated tablet | Not stated in the records |
+| SIN13854P | PREZISTA™ Tablet 150 mg | Film-coated tablet | Not stated in the records |
+| SIN13855P | PREZISTA™ Tablet 400 mg | Film-coated tablet | Not stated in the records |
+| SIN13856P | PREZISTA™ Tablet 600 mg | Film-coated tablet | Not stated in the records |
+| SIN14595P | PREZISTA™ Tablet 800 mg | Film-coated tablet | Not stated in the records |
+
+---
 
 ## Safety Considerations
 
-- **Disease-related cautions (from the knowledge graph, not label text)**: Darunavir is linked to contraindication or caution signals in liver failure, liver disease, cirrhosis, chronic hepatitis B and C infection, gallbladder disease, diabetes mellitus, hyperglycaemia, diabetic ketoacidosis, hypertriglyceridaemia, and haemophilia.
-- **Drug Interactions**: 100 interactions were found. The sample reviewed includes one **Major** interaction, with **cisapride**. The other interactions in the sample are Moderate, including:
-  - Antidiabetic agents: acarbose, albiglutide, alogliptin, metformin, pioglitazone, canagliflozin, dapagliflozin, saxagliptin, chlorpropamide, acetohexamide
-  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone
-  - Others: aprepitant, clarithromycin
+- **Relations recorded in the knowledge graph (not label text)**: The knowledge graph links darunavir to the following conditions as contraindication relations: liver failure, liver disease, cirrhosis of liver, gallbladder disease, hyperglycemia, diabetes mellitus, diabetic ketoacidosis, chronic hepatitis B and C virus infection, hypertriglyceridemia, and hemophilia. These should be checked against the package insert.
+- **Drug Interactions**: 100 interactions were found in total. Examples include:
+  - **Major**: cisapride
+  - **Moderate**: corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), antidiabetic drugs (metformin, pioglitazone, acarbose, alogliptin, saxagliptin, canagliflozin, dapagliflozin, chlorpropamide, acetohexamide, albiglutide), clarithromycin, and aprepitant
 
-Please refer to the package insert for the official warnings and contraindications.
+Please refer to the package insert for label warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The SIV prediction is supported only by preclinical macaque studies of combination ART, with no darunavir-specific evidence and no registered trials. It is an animal-model indication that restates the existing HIV indication, so it offers no new human therapeutic value.
+The top prediction is a veterinary disease with no trials or publications, so the evidence level is L5. The related simian model studies do not isolate darunavir's effect and do not directly study feline AIDS. The human equivalent, HIV, is already an original use of this drug.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for darunavir
-- Package insert warnings and contraindications, which are needed before any safety screening
-- Evidence that darunavir alone was tested in SIV models, if this indication is pursued for research purposes
-
-**Other predicted indications:** Congenital HIV (rank 6) has the most human-relevant support, with pharmacokinetic and pregnancy-safety literature. It is a variant of the approved HIV indication rather than a new disease, and could be treated as a research question. The remaining predictions (feline AIDS, a neurodevelopmental disorder, obsolete familial combined hyperlipidaemia, AIDS-related complex, and benign prostate and reproductive neoplasms) have no supporting evidence or only overlap with the existing HIV indication.
+- Data on darunavir's activity against FIV protease (in vitro or in vivo)
+- Confirmation that a veterinary indication falls within the scope of this human repurposing programme
+- Package insert warnings and contraindications from the HSA, and mechanism of action data
+- Mapping of the obsolete hyperlipidemia term to its current ontology term, if that prediction is to be pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

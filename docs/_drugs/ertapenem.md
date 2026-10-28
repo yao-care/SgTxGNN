@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ertapenem
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 397
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Bacterial pneumonia, streptococcal pneumonia…"
 monitor_inn: "Ertapenem"
-predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "toxocariasis", "urinary tract infection (disease)", "blood group incompatibility", "Ureaplasma urethritis", "gonococcal urethritis"]
+predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Ertapenem: From Bacterial Pneumonia to Bacterial Arthritis
+## Ertapenem: Bacterial arthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Evidence is therefore limited, and the more actionable signals lie in other pred
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial pneumonia, streptococcal pneumonia, *Peptostreptococcus* infection (the Singapore licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bacterial arthritis |
-| TxGNN Prediction Score | 99.72% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 4 |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -112,7 +112,7 @@ For bacterial arthritis, the biological plausibility is high, but the evidence i
 **Other predicted indications of note:**
 - **Urinary tract infection (L1, Proceed with Guardrails):** Several completed Phase 3 trials exist, including a randomised comparison with ceftriaxone in complicated UTI (NCT01014013, n=271) and a combined analysis of two double-blind ertapenem versus ceftriaxone trials (PMID 15150185). This is largely an established use rather than a novel repurposing. Guardrails should cover antimicrobial stewardship and resistance, and the label status should be verified.
 - **Staphylococcus aureus infection (L2, Research Question):** Cefazolin plus ertapenem is being tested in a Phase 2 trial for MSSA bacteremia (NCT04886284, recruiting, n=60), supported by salvage-therapy case series. Ertapenem would be an add-on partner, not monotherapy.
-- **Hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, toxocariasis, blood group incompatibility, *Ureaplasma* urethritis and gonococcal urethritis:** No plausible mechanism or clinical support was found. These are likely model artifacts, and all are Hold.
+- These are likely model artifacts, and all are Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

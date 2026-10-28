@@ -4,17 +4,17 @@ title: Pravastatin
 parent: Medium Evidence (L3-L4)
 nav_order: 818
 evidence_level: L4
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pravastatin: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L4). Approved use: Hypertriglyceridaemia, stroke, cerebrovascular disorder…"
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Pravastatin: From Hyperlipidaemia and Atherosclerosis to Homozygous Familial Hypercholesterolaemia
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **homozygous familial hyperchol
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridaemia, stroke, cerebrovascular disorder, cerebral infarction, atherosclerosis, familial combined hyperlipidaemia, hyperlipoproteinaemia (from the knowledge graph; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Homozygous familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | HIV infectious disease |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 3 |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold (as a research question) |
 
 ---

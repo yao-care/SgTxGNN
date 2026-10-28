@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ribociclib
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 864
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L5). Approved use: The Singapore licence record has no indication text. The compiled lit…"
 monitor_inn: "Ribociclib"
-predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "multiple endocrine neoplasia", "HIV infectious disease", "heart neoplasm"]
+predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
 ---
 
 # Ribociclib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Ribociclib is an oral CDK4/6 inhibitor marketed in Singapore as Kisqali. It is u
 |------|------|
 | Original Indication | The Singapore licence record has no indication text. The compiled literature and trials show use in HR+/HER2- breast cancer. |
 | Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 99.35% |
+| TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L4 (preclinical evidence only) |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

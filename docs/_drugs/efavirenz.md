@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Efavirenz
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 366
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "Efavirenz"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-23
+description: "Efavirenz: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease, AIDS"
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,34 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Efavirenz: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Efavirenz: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Efavirenz is an antiretroviral drug originally used to treat HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, but this is an animal-model disease and the support comes from **0 clinical trials** and **14 publications**, mostly preclinical macaque studies.
+Efavirenz is an antiretroviral drug (an HIV-1 non-nucleoside reverse transcriptase inhibitor) that is recorded in the knowledge graph for HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome** (a veterinary condition), but there are **0 clinical trials** and only **1 publication**, an in vitro biochemical and structural study, behind this prediction.
+This is a model prediction with very weak support and limited relevance to human repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (the Singapore licence text for the registered product is blank) |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 1 |
+| Original Indication | HIV infectious disease, AIDS (relations recorded in the knowledge graph; the Singapore licence record has no indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 0.9980 |
+| Evidence Level | L5 |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) that acts on HIV-1 reverse transcriptase, and its efficacy in HIV infection is established.
+Currently, detailed mechanism of action data is not available. Based on known information, efavirenz is an HIV-1 non-nucleoside reverse transcriptase inhibitor (NNRTI), a class that blocks the viral reverse transcriptase enzyme. Feline immunodeficiency virus (FIV) is also a lentivirus with its own reverse transcriptase, which is the basis for the model's link.
 
-The macaque studies use RT-SHIV, a chimeric simian virus that carries HIV-1 reverse transcriptase. Efavirenz activity in these studies therefore reflects the HIV-1 RT component, not native SIV. This biological similarity to the approved HIV indication explains the high model score.
+The only publication compiled for this report (2023) compared NNRTIs, including efavirenz, nevirapine and rilpivirine, against feline and human immunodeficiency virus reverse transcriptases using biochemical and structural methods. The data available here do not show its conclusion on efavirenz activity against FIV. NNRTIs are generally known to work poorly on reverse transcriptases from lentiviruses other than HIV-1, so the very high TxGNN score should not be read as evidence of efficacy.
 
-SIV infection is an animal-model disease, so this is not a human repurposing opportunity. The evidence supports efavirenz as a research tool in primate models of HIV therapy.
+The other two predictions in the data show similar limits. For simian immunodeficiency virus infection (score 0.9980), the macaque studies use a chimeric virus (RT-SHIV) carrying HIV-1 reverse transcriptase, which is sensitive to efavirenz. Wild-type SIV is intrinsically resistant to NNRTIs, so these studies model HIV therapy rather than show efficacy against native SIV. For a rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (score 0.9977), there are no trials or publications and no supported mechanistic link.
 
 ## Clinical Trial Evidence
 
@@ -67,50 +68,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The 14 publications are all preclinical or laboratory studies. The most relevant are listed below (the first two rows are the most directly relevant studies).
+No publication directly shows efavirenz efficacy in feline acquired immunodeficiency syndrome. The one publication compiled for this disease is an in vitro study.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Animal study | Antimicrob Agents Chemother | Efavirenz therapy in rhesus macaques infected with RT-SHIV, a chimeric SIV carrying HIV-1 reverse transcriptase |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Animal study | J Virol | Efavirenz + lamivudine + tenofovir suppressed virus load in RT-SHIV-infected rhesus macaques |
-| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Animal study | Antimicrob Agents Chemother | Enhanced four- and five-drug ART improved viral decay kinetics in RT-SHIV macaques |
-| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Animal study | Retrovirology | Viral subpopulation dynamics in macaques given short-course efavirenz monotherapy followed by combination ART |
-| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Animal study | J Virol | SIV genetic diversity persisted in macaques despite ART, including after efavirenz monotherapy |
-| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Laboratory study | J Virol | Ultrasensitive PCR found rare preexisting drug-resistant variants in RT-SHIV macaques |
-| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In vitro | J Virol | Characterization of an SIV-HIV chimera expressing HIV-1 RT for studying NNRTI resistance |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro | Antivir Ther | Susceptibility of HIV-2, SIV and SHIV to anti-HIV-1 compounds |
-| [20032180](https://pubmed.ncbi.nlm.nih.gov/20032180/) | 2010 | Animal study | J Virol | Viral reservoirs and sanctuaries during HAART in a macaque model |
-| [24505452](https://pubmed.ncbi.nlm.nih.gov/24505452/) | 2014 | Animal study | PLoS One | Residual viremia in an RT-SHIV macaque HAART model |
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Biochemical/structural in vitro study | Journal of Veterinary Science | Compared nevirapine, efavirenz and rilpivirine against feline and human immunodeficiency virus reverse transcriptases to assess NNRTI potential for FIV infection; the abstract is truncated, so the result for efavirenz is not confirmed |
+
+Because the study is a laboratory comparison and does not clearly establish activity, it is not counted as a direct disease study at the clinical level. The evidence level is therefore L5.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15719P | Efavirenz Sandoz Film Coated Tablet 600 mg (Sandoz Private Limited) | Tablet, film coated | Not stated in the registration record |
+| SIN15719P | EFAVIRENZ SANDOZ FILM COATED TABLET 600MG (Sandoz Private Limited) | Tablet, film coated | Not stated in the licence record |
 
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph (not label text)**: liver failure and liver disease, kidney disease, epilepsy, anxiety and other psychiatric disorders (neurotic, dysthymic, delusional disorders, paranoid schizophrenia), chronic hepatitis B and C virus infection, hypertriglyceridemia, fatty liver disease and non-alcoholic steatohepatitis, lactic acidosis, Fanconi renotubular syndrome, and bone and mineral disorders (osteomalacia, rickets, hypophosphatemia).
-- **Drug Interactions**: 100 interactions were found. The only Major interaction in the displayed list is **dolasetron**. The others displayed are Moderate, including clarithromycin, bupropion, aprepitant, corticosteroids (dexamethasone, hydrocortisone, betamethasone, triamcinolone), pioglitazone, saxagliptin, famotidine, rabeprazole, and several laxatives and bowel-preparation agents.
-- **Neuropsychiatric effects**: the literature reports neuropsychiatric side effects, including acute psychosis, with efavirenz.
+- **Knowledge-graph contraindication relations** (not label text): liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, chronic hepatitis B and C virus infection, kidney disease, Fanconi renotubular syndrome, lactic acidosis, epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder, delusional disorder, paranoid schizophrenia, hypertriglyceridemia, obesity disorder, hypophosphatemia, osteomalacia, rickets, gallbladder disease and others.
+- **Drug Interactions**: 100 interactions were found in the DDInter database. Examples at the Major level: dolasetron. Examples at the Moderate level: acarbose, famotidine, rabeprazole, bupropion, aprepitant, clarithromycin, pioglitazone, saxagliptin, dexamethasone, hydrocortisone, loperamide and minocycline.
+- Efavirenz is also known for central nervous system and neuropsychiatric effects, which would be a particular concern in a neurodevelopmental population.
 
-The package insert warnings and contraindications could not be retrieved. Please refer to the package insert for the full safety information.
+Please refer to the package insert for label warnings and contraindications, as these were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-SIV infection is an animal-model disease with only preclinical evidence (L4), and efavirenz acts through the HIV-1 RT component of the chimeric virus. This is a research-tool use, not a human repurposing opportunity.
+The prediction rests on a model score and a single in vitro study whose result for efavirenz is unconfirmed. Efavirenz is generally not expected to act on non-HIV-1 lentiviral reverse transcriptases. The indication is veterinary, so it offers little for human repurposing. The SIV link reflects an HIV-1 reverse transcriptase model rather than a new use, and the neurodevelopmental prediction has no supporting data at all.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, to complete safety screening
-- Mechanism of action data (MOA)
-- A decision on whether to pursue any human indication at all. Other predictions in this run do not offer a better route:
-  - **Feline acquired immunodeficiency syndrome (rank 2)**: a veterinary indication with a single in vitro study (Hold).
-  - **AIDS related complex (rank 5)**: a duplicate of the existing HIV indication, not new (Hold).
-  - **Congenital HIV (rank 6)**: has one completed Phase 3 trial (NCT00102960, n=377) but its efavirenz-specific contribution is unclear, and first-trimester neural-tube defect and infant safety questions remain open. It is the only prediction with trial-level support and the best candidate for any follow-up.
-  - **Ranks 3, 4 and 7–10 (model prediction only)**: no evidence, and efavirenz's neuropsychiatric and lipid-raising effects argue against benefit in some of them.
+- Full text of the FIV reverse transcriptase study, to confirm whether efavirenz inhibits FIV reverse transcriptase
+- Cell-based or in vivo data in FIV-infected cats, if a veterinary direction is of interest
+- Mechanism of action data
+- HSA package insert warnings and contraindications
+- A decision on whether the veterinary indication falls within the scope of human drug repurposing at all
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
