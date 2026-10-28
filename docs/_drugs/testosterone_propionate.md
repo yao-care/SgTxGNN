@@ -5,7 +5,7 @@ layout: default
 title: Testosterone Propionate
 parent: Known Uses Only (No New Predictions)
 nav_order: 973
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Testosterone Propionate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Testosterone propionate"
 predicted_indications: []

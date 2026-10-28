@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 67
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Alpelisib: predicted new indication Pulmonary hypertension (evidence level L4). Approved use: Not recorded in the Singapore licence data (the trials compiled point…"
 monitor_inn: "Alpelisib"
 predicted_indications: ["pulmonary hypertension"]

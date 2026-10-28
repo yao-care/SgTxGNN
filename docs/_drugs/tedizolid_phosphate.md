@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 958
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Tedizolid phosphate"
 predicted_indications: ["post-infectious syndrome", "post-bacterial disorder", "postinfectious vasculitis", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "conjunctivitis"]
 description: "Tedizolid Phosphate: predicted new indication Post-infectious syndrome (evidence level L5). Approved use: Not recorded in the local data"

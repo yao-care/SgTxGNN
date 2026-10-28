@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 923
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sodium Sulfate: predicted new indication Dyspepsia (evidence level L5). Approved use: Not stated in the registration data (osmotic laxative / bowel prepara…"
 monitor_inn: "Sodium sulfate"
 predicted_indications: ["dyspepsia"]

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "Clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Clobetasol: predicted new indication primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 

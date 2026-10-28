@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Danazol: predicted new indication Amenorrhea (disease) (evidence level L3). Approved use: Endometriosis"
 monitor_inn: "Danazol"
 predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]

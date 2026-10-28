@@ -5,7 +5,7 @@ layout: default
 title: Velaglucerase Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 1059
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Velaglucerase Alfa: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Velaglucerase alfa"
 predicted_indications: []

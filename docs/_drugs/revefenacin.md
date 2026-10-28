@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 863
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Revefenacin: predicted new indication Bronchitis (evidence level L5). Approved use: Chronic obstructive pulmonary disease (COPD)"
 monitor_inn: "Revefenacin"
 predicted_indications: ["bronchitis"]

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 111
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Articaine: predicted new indication Gout (evidence level L5). Approved use: Not available"
 monitor_inn: "Articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]

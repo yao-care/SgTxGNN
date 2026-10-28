@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 939
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Sulbactam"
 predicted_indications: ["bacterial arthritis"]
 description: "Sulbactam: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"

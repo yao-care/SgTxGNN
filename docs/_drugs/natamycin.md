@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 702
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Natamycin: predicted new indication Vulvovaginal candidiasis (evidence level L2). Approved use: Mycotic corneal ulcer"
 monitor_inn: "Natamycin"
 predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Dobutamine: predicted new indication Alopecia (evidence level L5). Approved use: Not stated in the HSA licence data (injectable inotrope…"
 monitor_inn: "Dobutamine"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Alverine: predicted new indication Dysthymic disorder (evidence level L5). Approved use: Not stated in the Singapore licence records. Reference sources descri…"
 monitor_inn: "Alverine"
 predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]

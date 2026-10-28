@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Felypressin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the registration data"
 monitor_inn: "Felypressin"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "esotropia", "diabetic retinopathy", "chondroid hamartoma", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "tumor of testis and paratestis", "pre-malignant neoplasm"]

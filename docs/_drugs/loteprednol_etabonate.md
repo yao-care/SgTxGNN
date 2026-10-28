@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Loteprednol etabonate"
 predicted_indications: ["parasitic conjunctivitis", "serous conjunctivitis except viral", "conjunctival folliculosis", "chronic follicular conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Loteprednol Etabonate: predicted new indication Parasitic conjunctivitis (evidence level L5). Approved use: Relations recorded in the knowledge graph: uveitis…"
 ---
 

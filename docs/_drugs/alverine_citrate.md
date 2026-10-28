@@ -3,18 +3,18 @@ noindex: true
 sitemap: false
 layout: default
 title: Alverine Citrate
-parent: Low Evidence (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 75
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-09-17
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Alverine Citrate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **0** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +33,19 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-## Alverine Citrate: Preliminary Screening — Insufficient Data for Full Evaluation
+## Alverine Citrate
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Alverine Citrate is an antispasmodic smooth muscle relaxant commonly used for irritable bowel syndrome (IBS) and gastrointestinal spasms.
-However, the current Evidence Pack contains **no TxGNN-predicted new indications**, **no Singapore regulatory registrations**, and **no mechanism of action data** —
-this report serves as a data-gap assessment, and a **Hold** decision is recommended until core data is collected.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|---------|
-| Original Indication | Not recorded in Singapore regulatory database |
-| Predicted New Indication | No predictions available (TxGNN pipeline not completed) |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction not yet generated |
+| Original Indication | Not recorded in the local data |
 | Singapore Market Status | Marketed (valid licences: 2 of 2) |
 | Number of Registrations | 2 (valid: 2) |
-| Recommended Decision | **Hold** |
 
 ---
 
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available for Alverine Citrate in this Evidence Pack. Based on known pharmacological literature, Alverine Citrate is a selective smooth muscle relaxant belonging to the antispasmodic class. Its efficacy in gastrointestinal conditions (particularly IBS and intestinal colic) has been established in clinical practice.
-
-Without a completed TxGNN prediction run, no new indication has been identified. The DrugBank query returned one result (query log ID 2), suggesting the compound exists in the DrugBank database — however, the DrugBank ID was not captured in this Evidence Pack. Completing the DrugBank ID lookup would be the critical first step to enable TxGNN graph traversal and generate repurposing candidates.
-
----
-
-## Singapore Market Information
-
-Alverine Citrate currently has **no registered products** in the Singapore Health Sciences Authority (HSA) database. There are no active licenses, withdrawn entries, or historical registrations on record.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The TxGNN repurposing pipeline has not been executed for Alverine Citrate, yielding zero predicted indications. Without a DrugBank ID, mechanism of action data, or safety profile, no evidence-based repurposing assessment is possible at this stage.
-
-**To proceed, the following is needed:**
-
-- **[Blocking]** Retrieve the DrugBank ID from the DrugBank API (query log confirms the compound exists — ID capture failed)
-- **[Blocking]** Download and parse the package insert (PI) from Singapore HSA or equivalent regional authority to obtain warnings and contraindications
-- **[High]** Extract mechanism of action (MOA) from DrugBank once the ID is confirmed
-- **[High]** Re-run the TxGNN KG prediction pipeline with the confirmed DrugBank ID to generate repurposing candidates
-- **[Medium]** Verify Singapore market status — confirm whether Alverine Citrate is sold under a combination product or under a different INN that may carry its own registration
-- **[Medium]** Run ClinicalTrials.gov and PubMed collectors after TxGNN candidates are generated to populate evidence tables
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

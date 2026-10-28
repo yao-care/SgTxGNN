@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Enfortumab Vedotin: predicted new indication Leprosy (evidence level L5). Approved use: Not stated in the Singapore licence records (the approved indication…"
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]

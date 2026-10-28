@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1079
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin: predicted new indication Top-ranked: heparin cofactor 2 deficiency. Best-supported: thrombophilia (heparin cofactor 2 deficiency) (evidence level L5). Approved use: Not recorded in the loca…"

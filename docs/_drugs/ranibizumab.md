@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ranibizumab"
 predicted_indications: ["diabetes mellitus type 2 associated cataract", "mature cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ranibizumab: predicted new indication Diabetes mellitus type 2 associated cataract (evidence level L5). Approved use: Diabetic retinopathy, diabetic macular edema…"
 ---
 

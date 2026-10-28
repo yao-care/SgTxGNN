@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 967
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma, bronchitis and emphysema"
 monitor_inn: "Terbutaline"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]

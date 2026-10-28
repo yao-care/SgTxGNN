@@ -5,7 +5,7 @@ layout: default
 title: Magnesium Acetate Tetrahydrate
 parent: Known Uses Only (No New Predictions)
 nav_order: 626
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Magnesium Acetate Tetrahydrate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Magnesium acetate tetrahydrate"
 predicted_indications: []

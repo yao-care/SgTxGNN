@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Iloprost: predicted new indication Top-ranked: hypotrichosis simplex of the scalp. Best-supported: PAH a… (evidence level L5). Approved use: Pulmonary arterial hypertension"
 monitor_inn: "Iloprost"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]

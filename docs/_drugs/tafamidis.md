@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 948
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Tafamidis: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---

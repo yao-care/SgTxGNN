@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 676
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Milrinone"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
 description: "Milrinone: predicted new indication Alopecia (evidence level L5). Approved use: Not recorded in the local data"

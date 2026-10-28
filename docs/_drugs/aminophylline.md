@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 88
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded in the Singapore license data"
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]

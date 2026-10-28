@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "alpha-Tocopherol acetate"
 predicted_indications: ["drug-induced osteoporosis", "diabetic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "diabetic retinopathy"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Alpha-Tocopherol Acetate: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the licence record"
 ---
 

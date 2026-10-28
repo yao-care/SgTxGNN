@@ -5,7 +5,7 @@ layout: default
 title: Sodium Zirconium Cyclosilicate
 parent: Known Uses Only (No New Predictions)
 nav_order: 924
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sodium Zirconium Cyclosilicate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Sodium zirconium cyclosilicate"
 predicted_indications: []

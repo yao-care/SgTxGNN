@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 741
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "Omidenepag isopropyl"
 predicted_indications: ["pancreatitis", "hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "blepharospasm", "familial visceral myopathy", "alcoholic cardiomyopathy"]
 description: "Omidenepag Isopropyl: predicted new indication Pancreatitis (evidence level L5). Approved use: Not recorded in the local data"

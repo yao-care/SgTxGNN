@@ -5,7 +5,7 @@ layout: default
 title: Methyl Aminolevulinate
 parent: Known Uses Only (No New Predictions)
 nav_order: 660
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Methyl Aminolevulinate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "methyl aminolevulinate"
 predicted_indications: []

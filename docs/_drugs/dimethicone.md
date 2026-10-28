@@ -5,7 +5,7 @@ layout: default
 title: Dimethicone
 parent: Known Uses Only (No New Predictions)
 nav_order: 333
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Dimethicone: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Dimethicone"
 predicted_indications: []

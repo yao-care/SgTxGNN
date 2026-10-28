@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 911
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sevoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: General anaesthesia"
 monitor_inn: "Sevoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 478
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Gimeracil: predicted new indication Colonic neoplasm (evidence level L1). Approved use: Gastric cancer"
 monitor_inn: "Gimeracil"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]

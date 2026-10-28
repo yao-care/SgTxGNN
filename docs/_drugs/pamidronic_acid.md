@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 759
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Pamidronic Acid: predicted new indication HIV infectious disease (evidence level L5). Approved use: Humoral hypercalcemia of malignancy"
 monitor_inn: "Pamidronic acid"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]

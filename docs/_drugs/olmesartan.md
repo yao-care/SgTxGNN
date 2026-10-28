@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 736
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Olmesartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not available in the Singapore license data (the drug class is ARB…"
 monitor_inn: "Olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
