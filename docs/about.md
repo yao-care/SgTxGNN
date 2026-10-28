@@ -119,6 +119,8 @@ This platform integrates multiple authoritative public data sources including AI
 | Predicted New Indications (known uses excluded) | {{ site.data.site_stats.indications }} |
 | Diseases Covered | 4,589 |
 
+Browse the full [Drug List](/drugs/), or filter candidates by evidence tier: [High](/evidence-high/), [Medium](/evidence-medium/), [Low](/evidence-low/). Example reports: [Temozolomide](/drugs/temozolomide/), [Vonoprazan](/drugs/vonoprazan/).
+
 ---
 
 ## How to Cite
