@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/nursing-ho
 2026-10-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/skh-nuh-save-more-1-1m-in-annual-energy-costs-with-innovations-in-operating-theatres)
+
+---
+
+### [Google to partner with NHG Health on AI-powered health coach](https://www.straitstimes.com/singapore/health/google-to-partner-nhg-health-on-ai-powered-health-coach)
+
+2026-10-29
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/google-to-partner-nhg-health-on-ai-powered-health-coach)
 
 ---
 
