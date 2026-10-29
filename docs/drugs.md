@@ -26,6 +26,11 @@ Browse all {{ site.data.site_stats.drugs }} drugs with repurposing predictions
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+This list is based on the registration data of [HSA](https://www.hsa.gov.sg/) (Singapore).
+
+<!-- local-home:end -->
+
 ## Search & Filter
 
 <div class="drug-search-container">

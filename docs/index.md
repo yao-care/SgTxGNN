@@ -24,6 +24,50 @@ Not just "possibly effective" — we show you where the evidence is. L1-L5 evide
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## Singapore: what this site covers
+
+This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [HSA](https://www.hsa.gov.sg/) (Singapore).
+
+Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Highest evidence levels on this site
+
+| Medicine | Evidence level |
+|---|---|
+| [Bendamustine](/drugs/bendamustine/) | L1 |
+| [Busulfan](/drugs/busulfan/) | L1 |
+| [Glecaprevir](/drugs/glecaprevir/) | L1 |
+| [Nepafenac](/drugs/nepafenac/) | L1 |
+| [Oteracil](/drugs/oteracil/) | L1 |
+| [Polidocanol](/drugs/polidocanol/) | L1 |
+| [Tegafur](/drugs/tegafur/) | L1 |
+| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
+| [Hydrocortisone Acetate](/drugs/hydrocortisone-acetate/) | L1 |
+| [Peginterferon Alfa-2A](/drugs/peginterferon-alfa-2a/) | L1 |
+
+### Medicines covered only by this site among the 30 TxGNN sites
+
+| Medicine | Evidence level |
+|---|---|
+| [Butylscopolamine](/drugs/butylscopolamine/) | L3 |
+| [Tedizolid Phosphate](/drugs/tedizolid-phosphate/) | L5 |
+| [Aminolevulinic Acid](/drugs/aminolevulinic-acid/) | N/A |
+| [Atracurium](/drugs/atracurium/) | N/A |
+| [Azelaic Acid](/drugs/azelaic-acid/) | N/A |
+| [Bemiparin](/drugs/bemiparin/) | N/A |
+| [Benzyl Benzoate](/drugs/benzyl-benzoate/) | N/A |
+| [Bezafibrate](/drugs/bezafibrate/) | N/A |
+| [Bifonazole](/drugs/bifonazole/) | N/A |
+| [Bilastine](/drugs/bilastine/) | N/A |
+| [Bromhexine](/drugs/bromhexine/) | N/A |
+| [Buclizine](/drugs/buclizine/) | N/A |
+| [Calcium Gluconate](/drugs/calcium-gluconate/) | N/A |
+| [Calfactant](/drugs/calfactant/) | N/A |
+| [Cefotaxime](/drugs/cefotaxime/) | N/A |
+
+<!-- local-home:end -->
+
 ## Drug Search
 
 <p class="key-answer" data-question="How do I search for drug repurposing possibilities?">
