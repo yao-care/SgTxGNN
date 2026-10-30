@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 1013
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Trastuzumab Emtansine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Trastuzum
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 4 |
 | Evidence level | Not applicable |
-| Market status in Singapore | Marketed (valid licences: 2 of 2) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
 | Number of Registrations | 2 (valid: 2) |
 
 ## Known uses among the model's candidates

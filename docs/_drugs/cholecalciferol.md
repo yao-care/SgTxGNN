@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cholecalciferol: predicted new indication Acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Vitamin D deficiency, rickets, osteomalacia, osteoporosis…"
 ---
 
@@ -51,7 +51,7 @@ However, there are **0 clinical trials** and **0 publications** supporting this 
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Licences | 3 (valid: 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

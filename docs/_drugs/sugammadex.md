@@ -3,7 +3,7 @@ layout: default
 title: Sugammadex
 parent: Known Uses Only (No New Predictions)
 nav_order: 937
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sugammadex: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sugammadex, 
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 1 |
-| Market status in Singapore | Marketed (valid licences: 5 of 5) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
 | Number of Registrations | 5 (valid: 5) |
 
 ## Known uses recorded for this drug

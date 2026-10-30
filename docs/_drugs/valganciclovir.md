@@ -3,7 +3,7 @@ layout: default
 title: Valganciclovir
 parent: Known Uses Only (No New Predictions)
 nav_order: 1050
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Valganciclovir: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| Market status in Singapore | Marketed (valid licences: 2 of 2) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
 | Number of Registrations | 2 (valid: 2) |
 
 ## Known uses recorded for this drug

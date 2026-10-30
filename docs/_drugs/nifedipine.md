@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 711
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nifedipine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nifedipine, 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 6 |
 | Evidence level | Not applicable |
-| Market status in Singapore | Marketed (valid licences: 11 of 11) |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
 | Number of Registrations | 11 (valid: 11) |
 
 ## Known uses recorded for this drug

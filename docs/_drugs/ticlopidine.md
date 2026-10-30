@@ -3,7 +3,7 @@ layout: default
 title: Ticlopidine
 parent: Known Uses Only (No New Predictions)
 nav_order: 988
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ticlopidine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| Market status in Singapore | Marketed (valid licences: 3 of 3) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug

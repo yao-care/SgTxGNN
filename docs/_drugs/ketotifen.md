@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 568
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ketotifen: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ All candidates produced by the TxGNN deep-learning model (score ≥ 0.99) for Ke
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| Market status in Singapore | Marketed (valid licences: 6 of 6) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
 | Number of Registrations | 6 (valid: 6) |
 
 ## Known uses among the model's candidates

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sertaconazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis"
 ---
 
@@ -50,7 +50,7 @@ The TxGNN model predicts it may be useful for **ectothrix infectious disease** (
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Licences | 2 (valid: 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

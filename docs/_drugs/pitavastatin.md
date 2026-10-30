@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Pitavastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pitavastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not stated in the Singapore licence records. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence."
 ---
 
@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **cholesterol-ester transfer pr
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Licences | 2 (valid: 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -3,7 +3,7 @@ layout: default
 title: Dapagliflozin
 parent: Known Uses Only (No New Predictions)
 nav_order: 300
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dapagliflozin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 8 |
-| Market status in Singapore | Marketed (valid licences: 8 of 8) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
 | Number of Registrations | 8 (valid: 8) |
 
 ## Known uses recorded for this drug

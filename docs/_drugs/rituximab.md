@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 876
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rituximab: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Rituximab, s
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 14 |
 | Evidence level | Not applicable |
-| Market status in Singapore | Marketed (valid licences: 8 of 8) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
 | Number of Registrations | 8 (valid: 8) |
 
 ## Known uses recorded for this drug

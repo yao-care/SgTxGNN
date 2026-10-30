@@ -3,7 +3,7 @@ layout: default
 title: Azelaic Acid
 parent: Known Uses Only (No New Predictions)
 nav_order: 129
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Azelaic Acid: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN model's candidates for Azelaic Acid are all known uses, so there is cu
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 1 |
-| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
 | Number of Registrations | 1 (valid: 1) |
 
 ## Known uses among the model's candidates

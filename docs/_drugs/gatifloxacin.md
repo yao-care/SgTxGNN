@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 469
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Gatifloxacin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 10 |
 | Evidence level | Not applicable |
-| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
 | Number of Registrations | 1 (valid: 1) |
 
 ## Known uses recorded for this drug

@@ -3,7 +3,7 @@ layout: default
 title: Benserazide
 parent: Known Uses Only (No New Predictions)
 nav_order: 143
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Benserazide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Benserazide,
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| Market status in Singapore | Marketed (valid licences: 4 of 4) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
 | Number of Registrations | 4 (valid: 4) |
 
 ## Known uses recorded for this drug

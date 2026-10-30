@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 685
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mometasone Furoate: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ All candidates produced by the TxGNN model for Mometasone Furoate (score ≥ 0.9
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| Market status in Singapore | Marketed (valid licences on record: at least 20) |
+| Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | at least 20 |
 
 ## Known uses among the model's candidates

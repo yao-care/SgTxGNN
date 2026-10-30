@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 391
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Erenumab: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN model produced candidates for Erenumab with a score of 0.99 or higher.
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in Singapore | Marketed (valid licences: 4 of 4) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
 | Number of Registrations | 4 (valid: 4) |
 
 ## Known uses among the model's candidates

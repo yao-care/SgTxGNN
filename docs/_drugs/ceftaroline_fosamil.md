@@ -3,7 +3,7 @@ layout: default
 title: Ceftaroline Fosamil
 parent: Known Uses Only (No New Predictions)
 nav_order: 223
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ceftaroline Fosamil: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 3 |
-| Market status in Singapore | Marketed (valid licences: 1 of 1) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
 | Number of Registrations | 1 (valid: 1) |
 
 ## Known uses recorded for this drug

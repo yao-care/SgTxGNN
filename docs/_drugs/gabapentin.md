@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 460
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Gabapentin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN model produced candidates for Gabapentin, but every candidate that can
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in Singapore | Marketed (valid licences: 14 of 14) |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
 | Number of Registrations | 14 (valid: 14) |
 
 ## Known uses among the model's candidates

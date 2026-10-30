@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "microcystic/reticular schwannoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Selumetinib: predicted new indication Familial generalized lentiginosis (evidence level L5). Approved use: Neurofibromatosis"
 ---
 
@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **familial generalized lentigin
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Licences | 2 (valid: 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

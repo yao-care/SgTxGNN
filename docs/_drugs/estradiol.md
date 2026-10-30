@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 401
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Estradiol: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN model's candidates for Estradiol are all known uses, so there is curre
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in Singapore | Marketed (valid licences: 10 of 10) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
 | Number of Registrations | 10 (valid: 10) |
 
 ## Known uses among the model's candidates

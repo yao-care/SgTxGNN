@@ -3,7 +3,7 @@ layout: default
 title: Alendronic Acid
 parent: Known Uses Only (No New Predictions)
 nav_order: 58
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Alendronic Acid: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Alendroni
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 1 |
-| Market status in Singapore | Marketed (valid licences: 3 of 3) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
 
 ## Known uses among the model's candidates
