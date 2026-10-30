@@ -19,7 +19,7 @@ get() {  # $1 repo $2 tag $3 asset 前綴 $4 tar 要去掉的路徑層數
   local d; d=$(mktemp -d)
   gh release download "$2" -R "$1" -D "$d" -p "$3.*"
   (cd "$d" && check "$3.sha256")
-  cat "$d/$3".tar.gz.part-* | tar xzf - --strip-components="$4"
+  if ls "$d/$3".tar.gz.part-* >/dev/null 2>&1; then cat "$d/$3".tar.gz.part-*; else cat "$d/$3.tar.gz"; fi | tar xzf - --strip-components="$4"  # 大檔分片、小檔（cache）不分片
   rm -rf "$d"; echo "✓ $1 $2 $3"
 }
 get "$REPO" "$TAG" "$SITE-data" 1          # tar 內是 <站>/data/...，去掉第一層解到本 repo
