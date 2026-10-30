@@ -13,7 +13,15 @@ permalink: /news/stroke/
 
 ---
 
-**2 articles** related to stroke.
+**3 articles** related to stroke.
+
+---
+
+### [New SGH emergency and national neuroscience building slashes stroke treatment times](https://www.straitstimes.com/singapore/health/new-sgh-emergency-and-national-neuroscience-building-slashes-stroke-treatment-times)
+
+2026-10-30
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-sgh-emergency-and-national-neuroscience-building-slashes-stroke-treatment-times)
 
 ---
 

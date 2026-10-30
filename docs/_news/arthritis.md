@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Rare disorder and low muscle tone cannot dampen teen’s swimming passion](https://www.straitstimes.com/singapore/health/rare-disorder-and-low-muscle-tone-cannot-dampen-teens-swimming-passion)
-
-2026-10-30
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/rare-disorder-and-low-muscle-tone-cannot-dampen-teens-swimming-passion)
+**6 articles** related to arthritis.
 
 ---
 
