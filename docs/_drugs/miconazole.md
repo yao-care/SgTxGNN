@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 671
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L3). Approved use: Tinea pedis, tinea corporis, cutaneous candidiasis, tinea unguium…"
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **acne**, with **no registered 
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L3 |
 | Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | 20 |
+| Number of Registrations | at least 20 |
 | Recommended Decision | Hold (research question only) |
 
 ---

@@ -5,7 +5,7 @@ layout: default
 title: Sitagliptin
 parent: Known Uses Only (No New Predictions)
 nav_order: 915
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Sitagliptin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Sitagliptin"
 predicted_indications: []
@@ -44,7 +44,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|------|
 | Original Indication | Not recorded in the local data |
 | Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | 20 |
+| Number of Registrations | at least 20 |
 
 ## Singapore Market Information
 

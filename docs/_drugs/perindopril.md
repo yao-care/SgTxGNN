@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 780
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The evidence rests on model prediction alone (Level L5).
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | 20 |
+| Number of Registrations | at least 20 |
 | Recommended Decision | Hold |
 
 *Note: The registered approved-indication text for the Singapore licences is blank in the data compiled for this report. The original indication is taken from the drug's known indication records.*

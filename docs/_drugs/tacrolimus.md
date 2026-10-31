@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 947
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -51,7 +51,7 @@ with **2 clinical trials** (one Phase 3, one Phase 4, both completed) and **20 p
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 (see note below) |
 | Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | 20 |
+| Number of Registrations | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* By the strict rules (at least two completed Phase 3 RCTs), seborrheic dermatitis has one completed Phase 3 trial and one completed Phase 4 trial. L1 is the level assigned in the compiled data, but it is somewhat generous. A conservative reading would put it between L2 and L1.

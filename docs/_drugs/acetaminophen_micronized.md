@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 predicted_indications: []
 ---
 
@@ -55,7 +55,7 @@ Without a TxGNN score or supporting evidence, a formal repurposing evaluation ca
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction only — not applicable; no prediction generated) |
 | Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | 0 |
+| Number of Registrations | at least 20 |
 | Recommended Decision | **Hold** |
 
 ---

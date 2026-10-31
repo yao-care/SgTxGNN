@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 687
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ Evidence Level: **L2** | Predicted Indications: **3**
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 (one completed Phase 3 RCT, but in the related condition of RSV bronchiolitis) |
 | Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | 20 |
+| Number of Registrations | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

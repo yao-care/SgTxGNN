@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 description: "Diclofenac: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,7 @@ The highest-ranked prediction by the TxGNN model, **hypotrichosis simplex of the
 | Evidence Level (rank 1) | L5 |
 | Best-Supported Candidate | hypotrichosis simplex of the scalp |
 | Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | 20 |
+| Number of Registrations | at least 20 |
 | Recommended Decision | Rank 1: Hold. Juvenile idiopathic arthritis: Proceed with Guardrails |
 
 ---
