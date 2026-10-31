@@ -13,13 +13,13 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
 ### [Nursing home staff to be trained in end-of-life care under Dover Park Hospice, NTUC Health tie](https://www.straitstimes.com/singapore/health/nursing-home-staff-to-be-trained-in-end-of-life-care-under-dover-park-hospice-ntuc-health-tie-up)
 
-2026-10-30
+2026-10-31
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nursing-home-staff-to-be-trained-in-end-of-life-care-under-dover-park-hospice-ntuc-health-tie-up)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/nursing-ho
 
 ### [SKH, NUH save over $1.1m in annual energy costs with innovations in operating theatres](https://www.straitstimes.com/singapore/health/skh-nuh-save-more-1-1m-in-annual-energy-costs-with-innovations-in-operating-theatres)
 
-2026-10-30
+2026-10-31
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/skh-nuh-save-more-1-1m-in-annual-energy-costs-with-innovations-in-operating-theatres)
 
@@ -35,15 +35,23 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/skh-nuh-sa
 
 ### [Google to partner with NHG Health on AI-powered health coach](https://www.straitstimes.com/singapore/health/google-to-partner-nhg-health-on-ai-powered-health-coach)
 
-2026-10-30
+2026-10-31
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/google-to-partner-nhg-health-on-ai-powered-health-coach)
 
 ---
 
+### [Comfortable in her own skin: How a 12-year-old embraces her rare birthmark](https://www.straitstimes.com/singapore/health/comfortable-in-her-own-skin-how-a-12-year-old-embraces-her-rare-birthmark)
+
+2026-10-31
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/comfortable-in-her-own-skin-how-a-12-year-old-embraces-her-rare-birthmark)
+
+---
+
 ### [Is mouthwash bad for your oral health? Here's what the research found](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
-2026-10-30
+2026-10-31
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
@@ -51,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome
 
 ### [Brain fog isn’t just forgetfulness: What causes it? Is it linked to dementia? When should you worry?](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
-2026-10-30
+2026-10-31
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
@@ -59,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms
 
 ### [How drinking affects your dementia risk – and what studies say about moderate alcohol use](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
-2026-10-30
+2026-10-31
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 

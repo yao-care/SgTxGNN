@@ -13,21 +13,13 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
-
----
-
-### [New blood test could help flag risk of condition that leads to liver failure, cancer](https://www.straitstimes.com/singapore/health/new-blood-test-could-help-prevent-condition-that-leads-to-liver-failure-cancer)
-
-2026-10-30
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-blood-test-could-help-prevent-condition-that-leads-to-liver-failure-cancer)
+**1 articles** related to cancer.
 
 ---
 
 ### [How Stage 4 lung cancer changed this former nightlife boss: From 5 litres of beer a night to Everest Base Camp](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
 
-2026-10-30
+2026-10-31
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
 

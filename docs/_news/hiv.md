@@ -19,7 +19,7 @@ permalink: /news/hiv/
 
 ### [AI-powered hearing aids: How they help you follow conversations in noisy places](https://www.straitstimes.com/singapore/health/ai-powered-hearing-aids-how-they-help-you-follow-conversations-in-noisy-places-20db-hearing)
 
-2026-10-30
+2026-10-31
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/ai-powered-hearing-aids-how-they-help-you-follow-conversations-in-noisy-places-20db-hearing)
 
