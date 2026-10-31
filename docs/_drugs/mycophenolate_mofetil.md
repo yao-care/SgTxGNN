@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 692
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -77,7 +77,7 @@ Other predictions in the list are weaker. Multiple sclerosis (score 0.9954) has 
 | [NCT00112593](https://clinicaltrials.gov/study/NCT00112593) | N/A | Completed | 5 | Non-myeloablative stem cell transplant in HIV-positive patients, with MMF as part of post-transplant immunosuppression. Not evidence of antiviral efficacy |
 | [NCT00021489](https://clinicaltrials.gov/study/NCT00021489) | Phase 2 | Withdrawn | 0 | Safety and antiretroviral activity of MMF added to abacavir in treatment-experienced HIV. Withdrawn before enrolment, so no data |
 
-**Note on evidence level:** The compiled data assign L2, but none of these trials provides direct, informative efficacy data for MMF in HIV. The only directly relevant trial was withdrawn, and the completed Phase 2 trial focused on a different agent. In practice the evidence is weaker than L2 suggests.
+**Note on evidence level:** The compiled data assign L2, but none of these trials provides direct, informative efficacy data for MMF in HIV. In practice the evidence is weaker than L2 suggests.
 
 ---
 
@@ -132,7 +132,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link (IMPDH inhibition and potentiation of nucleoside analogues) is plausible, but the clinical data are small, the only directly relevant trial was withdrawn, and no clear virologic benefit has been shown. Immunosuppression in HIV carries safety concerns, and the Singapore licence indication text and package insert safety data are missing.
+Immunosuppression in HIV carries safety concerns, and the Singapore licence indication text and package insert safety data are missing.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, and the approved indication text

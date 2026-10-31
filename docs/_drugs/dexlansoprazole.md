@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
 description: "Dexlansoprazole: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -63,7 +63,7 @@ The prediction is therefore consistent with the drug's known pharmacology and wi
 
 Other predictions for this drug follow the same pattern:
 - **Gastric ulcer** and **duodenal ulcer** are supported indirectly by the same Phase 3 program (L1, Proceed with Guardrails).
-- **Gastrojejunal ulcer** (marginal ulcer after gastric bypass) is a research question. The only trial was withdrawn with no participants.
+- **Gastrojejunal ulcer** (marginal ulcer after gastric bypass) is a research question.
 - **Achlorhydria** is a probable false positive, because an acid suppressant has no rationale in a condition with no acid.
 - **Peptic ulcer perforation, gastroduodenitis, duodenal obstruction, duodenogastric reflux and leather-bottle stomach** have no clinical evidence. They should stay on Hold.
 
