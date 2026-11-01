@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
-
----
-
-### [Nursing home staff to be trained in end-of-life care under Dover Park Hospice, NTUC Health tie](https://www.straitstimes.com/singapore/health/nursing-home-staff-to-be-trained-in-end-of-life-care-under-dover-park-hospice-ntuc-health-tie-up)
-
-2026-11-01
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/nursing-home-staff-to-be-trained-in-end-of-life-care-under-dover-park-hospice-ntuc-health-tie-up)
+**5 articles** related to arthritis.
 
 ---
 
