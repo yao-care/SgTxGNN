@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
-
----
-
-### [SKH, NUH save over $1.1m in annual energy costs with innovations in operating theatres](https://www.straitstimes.com/singapore/health/skh-nuh-save-more-1-1m-in-annual-energy-costs-with-innovations-in-operating-theatres)
-
-2026-11-01
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/skh-nuh-save-more-1-1m-in-annual-energy-costs-with-innovations-in-operating-theatres)
+**4 articles** related to arthritis.
 
 ---
 
