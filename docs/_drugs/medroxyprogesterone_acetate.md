@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 640
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L3** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Medroxyprogesterone acetate is a synthetic progestin marketed in Singapore as injectable and oral tablet products.
-The TxGNN model predicts it may be effective for **breast fibrocystic disease**,
-but there are **no registered clinical trials** and only **9 publications** (mostly older reviews and small studies) supporting this direction, with only two small, dated studies of the drug itself in this condition.
+Medroxyprogesterone acetate is a synthetic progestin (a progesterone-like hormone) marketed in Singapore as injectable and oral products. The TxGNN model predicts it may be useful for **breast fibrocystic disease**, with a score of 0.9995. Support is limited to **no registered clinical trials** and **9 publications**, including two small, older clinical studies of this drug in the condition, so the evidence level is **L3**.
 
 ## Quick Overview
 
@@ -49,18 +47,18 @@ but there are **no registered clinical trials** and only **9 publications** (mos
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9995 |
-| Evidence Level | L5 |
+| Evidence Level | L3 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, medroxyprogesterone acetate is a progestin, a drug class that acts on progesterone receptors.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on its drug class, medroxyprogesterone acetate acts like progesterone on progesterone receptors.
 
-Fibrocystic breast disease is thought to arise from estrogen predominance and relative progesterone deficiency, which drives proliferation of connective tissue and breast epithelium (Vorherr, 1986). A progestin could in principle counter this estrogen-driven proliferation, which is the rationale behind the prediction.
+Fibrocystic breast disease is thought to arise from estrogen predominance and relative progesterone deficiency, which drive overgrowth of connective tissue and then of the epithelium (Vorherr, 1986). A progestin could therefore counter estrogen-driven proliferation of breast tissue. Two small clinical reports of medroxyprogesterone acetate in this condition fit that idea: a 1983 therapeutic trial in severe disease and a 1988 report in adolescents.
 
-The evidence is mixed, however. Two small, older reports describe medroxyprogesterone acetate in fibrocystic breast disease (a 1983 therapeutic trial in severe disease and a 1988 adolescent report), but their abstracts are not available to confirm results. Studies of hormone replacement therapy suggest that combined estrogen-progestin regimens can increase breast density and epithelial proliferation, so the benefit-risk balance is uncertain.
+There are also contrary signals. Studies of hormone replacement therapy show that combined estrogen-progestin regimens can increase breast density and epithelial proliferation. Animal data note that medroxyprogesterone acetate can cause myoepithelial hyperplasia in beagles. The balance of benefit and risk is therefore uncertain.
 
 ## Clinical Trial Evidence
 
@@ -71,14 +69,13 @@ Currently no related clinical trials registered.
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [6241963](https://pubmed.ncbi.nlm.nih.gov/6241963/) | 1983 | Small non-randomized clinical trial | Rev Chil Obstet Ginecol | Therapeutic trial of medroxyprogesterone acetate in severe fibrocystic breast disease (no abstract available) |
-| [2978834](https://pubmed.ncbi.nlm.nih.gov/2978834/) | 1988 | Clinical study (adolescents) | Rev Chil Pediatr | Medroxyprogesterone acetate in fibrocystic breast disease in adolescents (no abstract available) |
-| [12841885](https://pubmed.ncbi.nlm.nih.gov/12841885/) | 2003 | Cohort/Clinical study | Climacteric | Compared five hormone replacement regimens on fibrocystic mastopathy in postmenopausal women |
-| [11379380](https://pubmed.ncbi.nlm.nih.gov/11379380/) | 2001 | Cohort | Climacteric | Fine-needle-aspiration cytology used to follow breast epithelial proliferation during HRT |
-| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Review | Am J Obstet Gynecol | Fibrocystic disease is linked to estrogen predominance and progesterone deficiency; breast cancer risk is raised two- to fourfold |
-| [3657597](https://pubmed.ncbi.nlm.nih.gov/3657597/) | 1987 | Review | Maturitas | Medroxyprogesterone acetate induced myoepithelial hyperplasia in beagles, while oral contraceptives reduced fibrocystic disease incidence in women |
-| [10576236](https://pubmed.ncbi.nlm.nih.gov/10576236/) | 1999 | Cohort (imaging) | Int J Gynaecol Obstet | Mammographic and ultrasound breast changes during different types of HRT |
-| [11379377](https://pubmed.ncbi.nlm.nih.gov/11379377/) | 2001 | Clinical study | Climacteric | Effect of HRT regimens on mammographic breast density |
-| [8603031](https://pubmed.ncbi.nlm.nih.gov/8603031/) | 1996 | Preclinical/Mechanistic | J Steroid Biochem Mol Biol | Androgen receptor-mediated growth control in breast and endometrial cancer cells |
+| [2978834](https://pubmed.ncbi.nlm.nih.gov/2978834/) | 1988 | Clinical study (adolescents) | Rev Chil Pediatr | Use of medroxyprogesterone acetate in fibrocystic breast disease in adolescents (no abstract available) |
+| [12841885](https://pubmed.ncbi.nlm.nih.gov/12841885/) | 2003 | Cohort/clinical study | Climacteric | Compared five hormone replacement regimens on fibrocystic mastopathy in postmenopausal women |
+| [11379380](https://pubmed.ncbi.nlm.nih.gov/11379380/) | 2001 | Cohort | Climacteric | Used fine-needle-aspiration cytology to follow breast epithelial proliferation during hormone replacement therapy |
+| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Review | Am J Obstet Gynecol | Fibrocystic disease is linked to estrogen predominance and progesterone deficiency; breast cancer risk rises two- to fourfold |
+| [3657597](https://pubmed.ncbi.nlm.nih.gov/3657597/) | 1987 | Review | Maturitas | Oral contraceptives reduce fibrocystic disease incidence, while medroxyprogesterone acetate induced myoepithelial hyperplasia in beagles |
+| [10576236](https://pubmed.ncbi.nlm.nih.gov/10576236/) | 1999 | Cohort (imaging) | Int J Gynaecol Obstet | Assessed mammographic and ultrasound breast changes, including new solid or cystic formations, during different hormone replacement regimens |
+| [11379377](https://pubmed.ncbi.nlm.nih.gov/11379377/) | 2001 | Clinical study (imaging) | Climacteric | Evaluated the effect of different hormone replacement regimens on mammographic breast density |
 
 ## Singapore Market Information
 
@@ -88,27 +85,29 @@ Currently no related clinical trials registered.
 | SIN03841P | Provera Tablet 10 mg | Tablet | Not recorded |
 | SIN10513P | Provera Tablet 5 mg | Tablet | Not recorded |
 
+All three licences are valid single-ingredient products. The approved indication text is not recorded in the local data.
+
 ## Safety Considerations
 
-- **Contraindication-related conditions (not label text):** The data compiled for this report flag conditions where use of the drug is of concern, including hypertension, liver failure and liver disease, kidney disease, gallbladder disease, epilepsy, diabetes mellitus, diabetic ketoacidosis, asthma, systemic lupus erythematosus, hypothyroidism, hypercalcaemia, hypertriglyceridaemia, osteoporosis, anxiety and related mood disorders, substance abuse/dependence, and female breast carcinoma. These should be checked against the package insert.
-- **Drug Interactions:** 100 interactions were found, all those listed being of Moderate level. The main ones are with antidiabetic agents (e.g. metformin, acarbose, alogliptin, canagliflozin, dapagliflozin, empagliflozin, glimepiride, chlorpropamide, saxagliptin, insulins, and GLP-1 agonists such as semaglutide, liraglutide, dulaglutide and albiglutide), as well as dexamethasone, aprepitant, clarithromycin and pegvaliase.
-- The relevance of the breast carcinoma concern is notable here, since fibrocystic disease itself carries an elevated breast cancer risk and HRT data suggest progestins may increase breast density and proliferation.
+- **Drug Interactions**: 100 interactions were recorded. The ones shown below are all rated Moderate.
+  - Antidiabetic agents, which may alter blood glucose control: metformin, glimepiride, chlorpropamide, acarbose, insulins (aspart, degludec, detemir), GLP-1 agonists (liraglutide, semaglutide, dulaglutide, albiglutide), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin) and DPP-4 inhibitors (alogliptin, saxagliptin).
+  - Others: dexamethasone, aprepitant, clarithromycin and pegvaliase.
+- **Breast tissue effects**: Literature on hormone regimens suggests progestin-containing therapy may increase breast density and epithelial proliferation. This matters for a condition that already carries an elevated breast cancer risk.
 
-Please also refer to the package insert for full warnings and contraindications.
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No registered trials exist, and the only studies of the drug in this condition are small, dated reports without available results. Contrary HRT signals on breast density and proliferation, together with breast-related safety concerns, leave the benefit-risk balance uncertain. No cited study provides adequate direct evidence, so the evidence level is L5.
+The only direct clinical evidence is two small, older, non-randomized studies, and no trials are registered. Hormone-regimen studies point in both directions on breast proliferation, so the benefit-risk balance is unclear. The evidence level is L3.
 
 **To proceed, the following is needed:**
-- Retrieval and appraisal of the full texts of the 1983 and 1988 medroxyprogesterone acetate studies
+- Full-text review of the 1983 and 1988 studies to confirm dose, duration, outcomes and safety
+- Mechanism-of-action data for the drug
 - Package insert warnings and contraindications from the HSA
-- Mechanism of action data
-- A controlled study or a systematic review of progestin therapy in fibrocystic breast disease, with attention to breast cancer risk
-- A safety plan for patients with hypertension, liver, kidney, or gallbladder disease, diabetes, and breast cancer risk factors
+- A well-designed randomized study, or at least a prospective study, with breast density and proliferation as safety endpoints
 
 ## Disclaimer
 
