@@ -81,7 +81,7 @@ Predicted new indications shown on drug pages meet all of these criteria:
 1. Drug registration data from [data.gov.sg](https://data.gov.sg/)
 2. 11,466 registered products processed
 3. Active ingredients mapped to DrugBank IDs
-4. 745 unique drugs with successful mapping
+4. Drugs mapped to DrugBank with a published drug report: {{ site.data.drug_stats.total_drugs }}
 
 ### TxGNN Integration
 

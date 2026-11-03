@@ -46,7 +46,7 @@ electronic health record integration.
 |------|-------------|
 | Project Maintainer | 藥提醒科技有限公司 (yao.care) |
 | Model Basis | Harvard TxGNN (Zitnik Lab) |
-| Last Updated | March 2026 |
+| Last Updated | {{ site.data.drug_stats.generated }} |
 
 ### Academic Foundation
 

@@ -29,10 +29,13 @@ The core prediction engine, published in *Nature Medicine* (2024).
 
 **Source**: Health Sciences Authority, Singapore
 
-Drug registration data for Singapore-approved medications.
+Drug registration data for Singapore-approved medications: the HSA list of registered therapeutic products
+published on data.gov.sg (dataset `d_767279312753558cbf19d48344577084`, downloaded through the data.gov.sg
+poll-download API). The list contains currently registered products only and has no status column.
 
 - [HSA Website](https://www.hsa.gov.sg/)
-- [data.gov.sg](https://data.gov.sg/)
+- [Dataset on data.gov.sg](https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view)
+- Licence status in drug reports is re-checked against the latest list every Monday by an automated workflow
 
 ---
 
@@ -74,7 +77,7 @@ Comprehensive drug and target database.
 1. HSA drug names extracted from registration data
 2. Normalized using chemical name standardization
 3. Mapped to DrugBank identifiers
-4. Successfully mapped: 745 drugs
+4. Drugs mapped to DrugBank with a published drug report: {{ site.data.drug_stats.total_drugs }}
 
 ### Prediction Generation
 
@@ -90,7 +93,7 @@ Comprehensive drug and target database.
 | Source | Last Updated | Frequency |
 |--------|--------------|-----------|
 | TxGNN Model | 2023 | As published |
-| HSA Data | March 2026 | Quarterly |
+| HSA Data | March 2026 | Licence status re-checked weekly (every Monday, automated) |
 | DrugBank | 2025 | Annual |
 
 ---
