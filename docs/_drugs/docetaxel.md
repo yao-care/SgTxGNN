@@ -38,9 +38,7 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Docetaxel is a taxane chemotherapy that stops tumour cells from dividing, and it is marketed in Singapore as a single-ingredient product.
-The TxGNN model predicts it may be useful for **Ewing sarcoma**.
-Currently **8 clinical trials** and **20 publications** relate to this direction, mostly small Phase 2 studies of docetaxel combined with other drugs.
+Docetaxel is an antimitotic taxane chemotherapy drug that is already marketed in Singapore. The TxGNN model predicts it may be effective for **Ewing sarcoma**, with **8 clinical trials** and **20 publications** currently linked to this direction. Several Phase 2 studies in recurrent Ewing sarcoma include docetaxel, mostly in combination regimens, so the evidence level is **L2**.
 
 ## Quick Overview
 
@@ -56,37 +54,39 @@ Currently **8 clinical trials** and **20 publications** relate to this direction
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for docetaxel are not available in the data compiled for this report. Docetaxel belongs to the taxane class, which stabilises microtubules and blocks cell division. Its antimitotic activity is expected to act on rapidly proliferating tumour cells such as those in Ewing sarcoma.
+Detailed mechanism-of-action data for docetaxel is not available in the data compiled for this report. Based on its known drug class, docetaxel is a taxane with antimitotic activity: it acts against rapidly proliferating tumour cells by interfering with cell division.
 
-Docetaxel has mainly been studied together with gemcitabine in relapsed sarcomas in children and young adults. Laboratory and clinical reports suggest that giving gemcitabine before docetaxel may add synergy. Responses reported in Ewing sarcoma are modest and come from small, mostly combination-regimen studies. The prediction is therefore plausible, but it is not proof of benefit.
+Ewing sarcoma is an aggressive bone and soft-tissue tumour of children and young adults, and relapsed disease has few treatment options. Docetaxel has been used together with gemcitabine in relapsed paediatric sarcomas, where giving gemcitabine first may add synergy. Docetaxel has also been studied with irinotecan in recurrent or refractory Ewing sarcoma family tumours.
+
+Reported responses in Ewing sarcoma are modest and come from small studies, mostly of combination regimens. The contribution of docetaxel alone is hard to separate from its partner drugs.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00073983](https://clinicaltrials.gov/study/NCT00073983) | Phase 2 | Completed | 54 | Sequential gemcitabine then docetaxel in recurrent Ewing sarcoma, osteosarcoma and chondrosarcoma. Directly relevant |
-| [NCT02511132](https://clinicaltrials.gov/study/NCT02511132) | Phase 2 | Completed | 22 | Metastatic Ewing sarcoma: Vigil immunotherapy vs gemcitabine plus docetaxel (randomised, part 1) |
-| [NCT00002825](https://clinicaltrials.gov/study/NCT00002825) | Phase 2 | Completed | 20 | Single-agent docetaxel in children with recurrent solid tumours, including Ewing sarcoma. Small, mixed cohort |
-| [NCT03449901](https://clinicaltrials.gov/study/NCT03449901) | Phase 2 | Completed | 98 | ADI-PEG 20 with gemcitabine and docetaxel in several sarcomas. Mixed population |
-| [NCT00014456](https://clinicaltrials.gov/study/NCT00014456) | Phase 1 | Completed | 35 | Dose escalation of docetaxel, gemcitabine and filgrastim in advanced solid tumours (safety and dosing) |
-| [NCT00049296](https://clinicaltrials.gov/study/NCT00049296) | Phase 1 | Completed | 26 | Thalidomide plus docetaxel pharmacokinetics in advanced cancer. Limited disease-specific relevance |
-| [NCT05116800](https://clinicaltrials.gov/study/NCT05116800) | Phase 2 | Withdrawn | 0 | 9-ING-41 with gemcitabine/docetaxel in sarcomas. No participants enrolled |
-| [NCT04183062](https://clinicaltrials.gov/study/NCT04183062) | Phase 2 | Withdrawn | 0 | BIO-11006 with gemcitabine/docetaxel for lung metastases in osteosarcoma or Ewing sarcoma. No participants enrolled |
+| [NCT00073983](https://clinicaltrials.gov/study/NCT00073983) | Phase 2 | Completed | 54 | Sequential gemcitabine then docetaxel in recurrent Ewing sarcoma, osteosarcoma and chondrosarcoma |
+| [NCT02511132](https://clinicaltrials.gov/study/NCT02511132) | Phase 2 | Completed | 22 | Vigil immunotherapy vs gemcitabine plus docetaxel in metastatic Ewing sarcoma |
+| [NCT03449901](https://clinicaltrials.gov/study/NCT03449901) | Phase 2 | Completed | 98 | ADI-PEG 20 with gemcitabine and docetaxel in mixed sarcomas, including Ewing sarcoma |
+| [NCT00002825](https://clinicaltrials.gov/study/NCT00002825) | Phase 2 | Completed | 20 | Single-agent docetaxel in children with recurrent solid tumours (small, mixed cohort) |
+| [NCT00014456](https://clinicaltrials.gov/study/NCT00014456) | Phase 1 | Completed | 35 | Dose escalation of docetaxel, gemcitabine and filgrastim in advanced solid tumours |
+| [NCT00049296](https://clinicaltrials.gov/study/NCT00049296) | Phase 1 | Completed | 26 | Thalidomide plus docetaxel pharmacokinetics in advanced cancer |
+| [NCT05116800](https://clinicaltrials.gov/study/NCT05116800) | Phase 2 | Withdrawn | 0 | 9-ING-41 with gemcitabine/docetaxel in sarcomas; no patients enrolled |
+| [NCT04183062](https://clinicaltrials.gov/study/NCT04183062) | Phase 2 | Withdrawn | 0 | BIO-11006 with gemcitabine/docetaxel in osteosarcoma and Ewing sarcoma; no patients enrolled |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22363068](https://pubmed.ncbi.nlm.nih.gov/22363068/) | 2012 | Phase II trial | The Oncologist | SARC003: gemcitabine followed by docetaxel in recurrent Ewing sarcoma, osteosarcoma and chondrosarcoma; primary endpoint was objective response by RECIST |
-| [28787430](https://pubmed.ncbi.nlm.nih.gov/28787430/) | 2017 | Phase II trial | British Journal of Cancer | GEIS-21: intensive chemotherapy including gemcitabine and docetaxel in newly diagnosed high-risk Ewing sarcoma |
-| [25164234](https://pubmed.ncbi.nlm.nih.gov/25164234/) | 2014 | Phase I/II trial | BMC Cancer | Docetaxel plus irinotecan in children and young adults with recurrent or refractory Ewing sarcoma family tumours |
-| [18521364](https://pubmed.ncbi.nlm.nih.gov/18521364/) | 2003 | Phase II study | Sarcoma | Single-agent docetaxel in 14 patients with relapsed or refractory Ewing tumours |
-| [18484657](https://pubmed.ncbi.nlm.nih.gov/18484657/) | 2008 | Cohort | Cancer | Gemcitabine plus docetaxel in children and young adults with refractory bone sarcoma: toxicity and efficacy |
-| [22302783](https://pubmed.ncbi.nlm.nih.gov/22302783/) | 2012 | Cohort | Pediatric Blood & Cancer | Gemcitabine plus docetaxel in relapsed and refractory paediatric sarcomas |
-| [19727011](https://pubmed.ncbi.nlm.nih.gov/19727011/) | 2009 | Case series | J Pediatr Hematol Oncol | Experience with gemcitabine-docetaxel in relapsed or refractory paediatric sarcomas |
-| [32386107](https://pubmed.ncbi.nlm.nih.gov/32386107/) | 2020 | Phase II trial | Pediatric Blood & Cancer | Gemcitabine with nab-paclitaxel (a related taxane) in recurrent Ewing sarcoma |
-| [15117993](https://pubmed.ncbi.nlm.nih.gov/15117993/) | 2004 | Preclinical/clinical | Journal of Clinical Oncology | Synergy of gemcitabine followed by docetaxel in sarcoma cell cultures and patients |
-| [26154614](https://pubmed.ncbi.nlm.nih.gov/26154614/) | 2015 | Preclinical | Pediatric Blood & Cancer | Docetaxel and cabazitaxel tested in paediatric preclinical models |
+| [22363068](https://pubmed.ncbi.nlm.nih.gov/22363068/) | 2012 | Phase II trial | The Oncologist | Sequential gemcitabine then docetaxel in recurrent Ewing sarcoma, osteosarcoma and chondrosarcoma (SARC 003) |
+| [28787430](https://pubmed.ncbi.nlm.nih.gov/28787430/) | 2017 | Phase II trial | Br J Cancer | GEIS-21: intensive chemotherapy including gemcitabine and docetaxel in newly diagnosed high-risk Ewing sarcoma |
+| [25164234](https://pubmed.ncbi.nlm.nih.gov/25164234/) | 2014 | Phase I/II trial | BMC Cancer | Docetaxel plus irinotecan in recurrent or refractory Ewing sarcoma family tumours |
+| [18521364](https://pubmed.ncbi.nlm.nih.gov/18521364/) | 2003 | Phase II | Sarcoma | Docetaxel in relapsed and refractory Ewing's tumours (initial results, 14 patients) |
+| [18484657](https://pubmed.ncbi.nlm.nih.gov/18484657/) | 2008 | Cohort | Cancer | Gemcitabine plus docetaxel in children and young adults with refractory bone sarcoma |
+| [22302783](https://pubmed.ncbi.nlm.nih.gov/22302783/) | 2012 | Cohort | Pediatr Blood Cancer | GEMDOX in relapsed and refractory paediatric sarcomas |
+| [19727011](https://pubmed.ncbi.nlm.nih.gov/19727011/) | 2009 | Case series | J Pediatr Hematol Oncol | Gemcitabine-docetaxel in relapsed or refractory paediatric sarcomas |
+| [28221727](https://pubmed.ncbi.nlm.nih.gov/28221727/) | 2017 | Single-centre experience | Pediatr Blood Cancer | Docetaxel, bevacizumab and gemcitabine in very high-risk sarcomas in adolescents and young adults |
+| [20132000](https://pubmed.ncbi.nlm.nih.gov/20132000/) | 2010 | Review | Expert Rev Anticancer Ther | Role of chemotherapy in soft tissue sarcomas |
+| [15117993](https://pubmed.ncbi.nlm.nih.gov/15117993/) | 2004 | Preclinical/Clinical | J Clin Oncol | Synergy of sequential gemcitabine then docetaxel in sarcoma |
 
 ## Singapore Market Information
 
@@ -98,43 +98,37 @@ Docetaxel has mainly been studied together with gemcitabine in relapsed sarcomas
 | SIN14564P | Docetaxel Sandoz Concentrate for Solution for Infusion 10mg/ml | Injection, solution, concentrate | Not available |
 | SIN15109P | Daxotel Concentrate for Solution for Infusion 20mg/ml | Injection, solution, concentrate | Not available |
 
-These are 5 of the 12 valid single-ingredient licences. All are injectable products.
+Twelve single-ingredient licences are valid in total; the five above are the main examples.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (taxane, antimitotic) |
-| Myelosuppression Risk | High (neutropenia is the main concern; febrile neutropenia is possible) |
+| Cytotoxicity Classification | Conventional cytotoxic (taxane class) |
+| Myelosuppression Risk | High (neutropenia is a recognised dose-limiting toxicity) |
 | Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Complete blood count with differential, liver function including bilirubin, renal function |
+| Monitoring Items | Complete blood count with differential, liver function (bilirubin and transaminases), renal function, signs of neuropathy and fluid retention |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
-
-Please also refer to the package insert warnings and precautions.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction screen returned many entries. Notable ones are:
-  - **Major**: clarithromycin.
-  - **Moderate**: aprepitant, rolapitant, metronidazole, tinidazole, cimetidine, miconazole, eliglustat, rosuvastatin, simvastatin, troglitazone.
-  - **Minor**: dexamethasone, prednisone, prednisolone, levofloxacin.
-  - Several of the moderate and major interactions involve drugs that inhibit or compete for liver enzymes, so co-medication needs review.
+- **Contraindications and cautions in related disease records:** liver disease, hyperbilirubinaemia, thrombocytopenia, neutropenia, anaemia, peripheral neuropathy, diarrhoeal disease, stomatitis and pulmonary oedema are recorded as conditions where docetaxel is a concern. This is not label text.
+- **Drug Interactions:** 100 interactions were recorded. Major: **clarithromycin**. Moderate examples: aprepitant, cimetidine, metronidazole, miconazole, rolapitant, rosuvastatin, simvastatin, tinidazole. Minor examples: dexamethasone, prednisolone, prednisone, levofloxacin.
 
-Please refer to the package insert for warnings and contraindications.
+Please refer to the package insert for formal warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several completed Phase 2 studies include docetaxel-based regimens in recurrent Ewing sarcoma, so the evidence level is L2. Responses are modest and come mostly from combination regimens in small mixed cohorts, so any further work should be limited to research use under defined safety controls.
+Several completed Phase 2 studies in recurrent Ewing sarcoma include docetaxel, mainly with gemcitabine or irinotecan, which supports an **L2** evidence level. Responses are modest, the studies are small, and docetaxel's own contribution within the combinations is unclear.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA records
-- Detailed mechanism-of-action data
-- Clarification of docetaxel's own contribution, as separate from gemcitabine or irinotecan, in the combination studies
-- A myelosuppression monitoring plan and review of interacting co-medications, especially strong enzyme inhibitors such as clarithromycin
-- Dosing and safety data specific to children and young adults
+- Package insert warnings and contraindications from the HSA
+- Detailed mechanism of action data
+- Comparison against current standard relapsed Ewing sarcoma regimens, and a randomised or larger prospective study to isolate docetaxel's contribution
+- A safety monitoring plan for myelosuppression, hepatic impairment and CYP3A4 interactions, especially in paediatric and young adult patients
 
 ## Disclaimer
 

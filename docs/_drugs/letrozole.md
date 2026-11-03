@@ -38,9 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Letrozole is an oral aromatase inhibitor that lowers oestrogen production and is marketed in Singapore.
-The TxGNN model predicts it may be relevant to **nipple carcinoma**, with a score of **0.9976**.
-Evidence is at the model-prediction level only: **no clinical trials** and **no study testing letrozole in this disease** were found, only a handful of unrelated or loosely related case reports (evidence level **L5**).
+Letrozole is an aromatase inhibitor, a hormonal (endocrine) therapy that lowers estrogen production.
+The TxGNN model predicts it may be effective for **nipple carcinoma**, but the evidence level is **L5 (model prediction only)**: no clinical trials are registered, and the 8 publications found are case reports and a small case-based report that do not test letrozole in this disease.
 
 ## Quick Overview
 
@@ -56,9 +55,9 @@ Evidence is at the model-prediction level only: **no clinical trials** and **no 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Letrozole is generally known as a non-steroidal aromatase inhibitor, which reduces oestrogen synthesis. Tumours that depend on oestrogen signalling may therefore respond to it.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Letrozole belongs to the aromatase inhibitor class, which reduces estrogen synthesis. If a tumour is hormone receptor-positive, this approach is plausible.
 
-Nipple carcinoma is a breast-related cancer. If an individual tumour is hormone receptor-positive, aromatase inhibition is mechanistically plausible. However, receptor status in nipple-origin tumours is not established in the available data, and the mechanistic link remains a hypothesis. No study cited here tests letrozole in nipple carcinoma.
+Nipple carcinoma is a breast cancer subtype, and hormone-driven growth is a common feature of breast cancers. This is the basis for the mechanistic link. However, it is a hypothesis: receptor status of nipple tumours is not established in the available data, and no study has tested letrozole for this specific site.
 
 ## Clinical Trial Evidence
 
@@ -66,20 +65,20 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-None of the publications below tests letrozole in nipple carcinoma. They are case reports on nipple or breast tumours and give only background context.
+The publications retrieved concern breast or nipple-region tumours but none evaluates letrozole in nipple carcinoma. They are listed for context only.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33120755](https://pubmed.ncbi.nlm.nih.gov/33120755/) | 2020 | Case report | Medicine | Neoadjuvant endocrine therapy in poorly differentiated neuroendocrine carcinoma of the breast. This is the closest evidence on endocrine therapy, but it is not nipple-specific and the abstract does not name letrozole. |
-| [41607681](https://pubmed.ncbi.nlm.nih.gov/41607681/) | 2026 | Case report | Clinical Case Reports | Nipple-originating solid papillary carcinoma in situ in a 73-year-old woman. It describes the rarity of the entity and the lack of standard treatment. |
-| [40395253](https://pubmed.ncbi.nlm.nih.gov/40395253/) | 2025 | Case report | Cureus | Axillary recurrence after breast cancer that presented with bloody nipple discharge. |
-| [34495428](https://pubmed.ncbi.nlm.nih.gov/34495428/) | 2021 | Case report | Surgical Case Reports | Accessory breast cancer in the inframammary region. |
-| [39682607](https://pubmed.ncbi.nlm.nih.gov/39682607/) | 2024 | Case report | Diagnostics (Basel) | Synchronous metastatic infra-mammary accessory breast cancer and ipsilateral breast cancer. |
-| [42040393](https://pubmed.ncbi.nlm.nih.gov/42040393/) | 2026 | Case report | Clinical Case Reports | Tall cell carcinoma of the breast with reverse polarity, with an IDH1 R132 mutation. |
+| [33120755](https://pubmed.ncbi.nlm.nih.gov/33120755/) | 2020 | Case report (neoadjuvant endocrine therapy) | Medicine | Neoadjuvant endocrine therapy in poorly differentiated neuroendocrine carcinoma of the breast; no standard treatment exists and the effect of endocrine therapy is unclear |
+| [41607681](https://pubmed.ncbi.nlm.nih.gov/41607681/) | 2026 | Case report | Clinical Case Reports | Solid papillary carcinoma in situ arising in the nipple; limited evidence on diagnosis and treatment |
+| [40395253](https://pubmed.ncbi.nlm.nih.gov/40395253/) | 2025 | Case report | Cureus | Axillary recurrence in breast cancer first detected through bloody nipple discharge |
+| [34495428](https://pubmed.ncbi.nlm.nih.gov/34495428/) | 2021 | Case report | Surgical Case Reports | Accessory breast cancer in the inframammary region |
+| [39682607](https://pubmed.ncbi.nlm.nih.gov/39682607/) | 2024 | Case report | Diagnostics | Synchronous metastatic infra-mammary accessory breast cancer and ipsilateral breast cancer |
+| [42040393](https://pubmed.ncbi.nlm.nih.gov/42040393/) | 2026 | Case report | Clinical Case Reports | Tall cell carcinoma of the breast with reverse polarity and IDH1 mutation |
+| [42305961](https://pubmed.ncbi.nlm.nih.gov/42305961/) | 2026 | Case report | Frontiers in Medicine | Synchronous accessory breast cancer, papillary thyroid carcinoma and nasal papilloma |
+| [42416948](https://pubmed.ncbi.nlm.nih.gov/42416948/) | 2026 | Case report | Cureus | Imaging features of florid lobular carcinoma in situ |
 
 ## Singapore Market Information
-
-Letrozole single-ingredient film-coated tablets are marketed in Singapore. The local data compiled for this report does not record approved-indication text for these licences. Five of the licences are listed below.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -89,23 +88,37 @@ Letrozole single-ingredient film-coated tablets are marketed in Singapore. The l
 | SIN14406P | Lotuserm Film-Coated Tablets 2.5 mg | Tablet, film coated | Not stated in licence record |
 | SIN15739P | Zatrolex Film-Coated Tablet 2.5 mg | Tablet, film coated | Not stated in licence record |
 
+All 11 licences for single-ingredient letrozole products are valid, and none are cancelled. Only the first five are listed here.
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Hormonal (endocrine) therapy, not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
+
 ## Safety Considerations
 
-- **Drug Interactions**: 100 interacting drugs are recorded. Aprepitant is the only one graded **Moderate**. The other entries reviewed have no severity grade, including calcitriol, glimepiride, lansoprazole, omeprazole, pantoprazole, famotidine, metformin, simvastatin, morphine, prednisone and acetylsalicylic acid. Their clinical significance needs pharmacist review.
+- **Conditions flagged as cautions in the data compiled for this report (not label text):** liver failure, cirrhosis of the liver, osteoporosis (including postmenopausal osteoporosis), hyperbilirubinaemia (including hereditary forms and Gilbert syndrome), and cerebrovascular disorder. These should be checked against the package insert.
+- **Drug Interactions:** 100 potential interactions were identified. The only one graded Moderate is **aprepitant**. Others, including calcitriol, glimepiride, metformin, omeprazole, lansoprazole, pantoprazole, famotidine, simvastatin, prednisone, morphine and acetylsalicylic acid, have no severity grade recorded.
 
-Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
+For other safety information, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (0.9976), but no clinical trial and no study of letrozole in nipple carcinoma exist, so the evidence level is L5. The available literature consists of case reports that do not evaluate letrozole in this disease.
+The prediction score is high (0.9976), but the evidence level is L5. No study tests letrozole in nipple carcinoma, no trials are registered, and the literature is limited to case reports of related breast tumours. Safety considerations such as bone loss and liver impairment call for caution until direct evidence exists.
 
 **To proceed, the following is needed:**
-- Site-specific clinical data or registered trials of letrozole in nipple carcinoma, including hormone receptor status of these tumours
-- Mechanism-of-action data and a review of the package insert warnings and contraindications
-- A pharmacist review of the interactions with unclassified severity, especially aprepitant (Moderate)
+- Hormone receptor profiling data for nipple carcinoma, to confirm that aromatase inhibition is biologically relevant
+- Clinical studies or well-documented case series of letrozole specifically in nipple carcinoma
+- Mechanism of action data and the package insert warnings and contraindications from the Singapore regulator
+- A safety monitoring plan covering bone health and liver function
 
 ## Disclaimer
 

@@ -38,8 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Vortioxetine is a multimodal serotonergic agent (serotonin transporter inhibition plus activity at several serotonin receptors) that is marketed in Singapore.
-The TxGNN model predicts it may be useful for **neurotic disorder**, but the evidence is limited to model prediction: **no clinical trials** and **1 general publication** that does not study vortioxetine. The evidence level is **L5**.
+Vortioxetine is a multimodal serotonergic antidepressant marketed in Singapore.
+The TxGNN model predicts it may be useful for **neurotic disorder**, with a score of **0.9924**.
+Evidence is at level **L5**: **no clinical trials** and only **1 publication** are available, and that publication does not test vortioxetine in this condition.
 
 ## Quick Overview
 
@@ -55,9 +56,11 @@ The TxGNN model predicts it may be useful for **neurotic disorder**, but the evi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for vortioxetine is not available in the data compiled for this report. Published pharmacology describes it as combining serotonin transporter inhibition with 5-HT1A agonism and 5-HT3/5-HT7 antagonism.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on general pharmacology, vortioxetine acts on the serotonin system: it inhibits the serotonin transporter (SERT), agonises 5-HT1A receptors and antagonises 5-HT3 and 5-HT7 receptors.
 
-"Neurotic disorder" is an older, broad diagnostic category that overlaps with depressive and anxiety-type conditions. That overlap is the only link between this drug and the predicted disease, and it is indirect. The single publication found is a narrative article on treating neurotic depression in general. It contains no vortioxetine-specific data, so it does not confirm the prediction. The high score is a computational signal that needs validation.
+"Neurotic disorder" is an older, broad diagnostic category that overlaps with depressive and anxiety presentations. This overlap is the only link between the drug and the prediction, and it is indirect. The single publication found is a narrative article on treating neurotic depression with antidepressants and psychotherapy. It contains no vortioxetine-specific data, so it does not test this drug in this condition.
+
+The prediction is therefore a computational suggestion, not a finding supported by direct studies.
 
 ## Clinical Trial Evidence
 
@@ -67,11 +70,9 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Review / case report | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Case-based discussion of neurotic depression. It favours an integrated approach combining antidepressants with cognitive behavioural therapy. It does not test vortioxetine. |
+| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Review (case report–based) | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Presents a case of neurotic depression and favours combined antidepressant treatment and cognitive behavioural therapy; not specific to vortioxetine |
 
 ## Singapore Market Information
-
-Vortioxetine is marketed in Singapore, and all of its single-ingredient licences are currently valid. The local records do not include approved-indication text, so the approved indication is not recorded in the local data. Main authorisations:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -83,23 +84,22 @@ Vortioxetine is marketed in Singapore, and all of its single-ingredient licences
 
 ## Safety Considerations
 
-- **Drug Interactions**: 100 interactions are recorded. Those rated **Major** include bupropion, lorcaserin, diethylpropion, dolasetron, palonosetron and phentermine. Moderate interactions include morphine, acetylsalicylic acid, dexamethasone, several insulins and sulfonylureas (chlorpropamide, glimepiride), and some bowel-preparation products.
+- **Drug Interactions**: 100 interactions are recorded. Major-level interactions include bupropion, lorcaserin, diethylpropion, dolasetron, palonosetron and phentermine. Moderate-level interactions include morphine, acetylsalicylic acid, dexamethasone, chlorpropamide, glimepiride and several insulins (aspart, degludec, detemir, glargine, glulisine).
 
-For warnings and contraindications, please refer to the package insert.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The main prediction (score 0.9924) rests only on a computational signal and an indirect link through a broad legacy diagnostic category. No trial or publication tests vortioxetine in neurotic disorder, so the evidence level is L5.
+No study tests vortioxetine in neurotic disorder, so the evidence level is L5. The only publication is a general treatment article on neurotic depression. The high model score alone is not enough to justify moving forward.
 
 **To proceed, the following is needed:**
-- Clarify how "neurotic disorder" maps onto current diagnostic categories, and which patient group would be targeted
-- Studies or trials that directly test vortioxetine in the target condition
-- Package insert warnings and contraindications from HSA
-- Detailed mechanism-of-action data
-- A review of the major drug interactions for the likely co-medications
+- Clinical or observational studies of vortioxetine that directly address neurotic disorder
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from the HSA to allow safety screening
+- A clear definition of the target population, given that "neurotic disorder" is a legacy and broad category
 
 ## Disclaimer
 
