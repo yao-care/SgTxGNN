@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Clobetasol propionate"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Clobetasol Propionate: predicted new indication vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,13 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **7**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Clobetasol propionate: Super-potent topical corticosteroid (glucocorticoid receptor agonist) → vulvar inverted follicular keratosis (vulvar inverted follicular keratosis)
-{: .text-alpha }
-
-Note: the page language is English, so the name is written once: see title below.
-
-Correction of the title per the English-name rule:
 
 ## Clobetasol propionate: Super-potent topical corticosteroid (glucocorticoid receptor agonist) → vulvar inverted follicular keratosis
 {: .text-alpha }
