@@ -31,6 +31,8 @@ This list is based on the registration data of [HSA](https://www.hsa.gov.sg/) (S
 
 <!-- local-home:end -->
 
+Shortlist: [Singapore medicines with clinical-trial evidence for a new indication]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, with the predicted indication and the number of registered trials cited).
+
 ## Search & Filter
 
 <div class="drug-search-container">

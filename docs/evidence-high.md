@@ -12,6 +12,8 @@ permalink: /evidence-high/
 Predictions with strong clinical trial support
 {: .fs-6 .fw-300 }
 
+Which of these drugs have trial evidence for their predicted new indication, and how many registered trials are cited? See [Singapore medicines with clinical-trial evidence for a new indication]({{ '/clinical-trial-evidence/' | relative_url }}).
+
 ---
 
 ## What is High Evidence?
