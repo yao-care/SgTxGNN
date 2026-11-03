@@ -15,6 +15,7 @@ Evidence levels range from L1 (stronger clinical evidence) to L5 (model predicti
 - `/` Drug Repurposing Reports — AI-powered drug repurposing predictions for Singapore HSA-approved medications. 966 drugs with clinical trial and literature evidence validation. L1-L5 evidence classification.
 - `/drugs/` Drug List — Complete list of Singapore HSA-approved drugs with repurposing predictions
 - `/evidence-high/` High Evidence (L1-L2) — Drug repurposing candidates with high evidence levels (L1-L2)
+- `/clinical-trial-evidence/` Singapore Drugs with Trial Evidence for a New Indication — Singapore medicines (HSA registration data) whose TxGNN-predicted new indication has clinical-trial evidence (L1-L2): indication, level, registered trials.
 - `/evidence-medium/` Medium Evidence (L3-L4) — Drug repurposing candidates with medium evidence levels (L3-L4)
 - `/evidence-low/` Low Evidence (L5) — Drug repurposing candidates with prediction only (L5)
 - `/methodology/` Methodology — How SgTxGNN predictions are generated and validated
