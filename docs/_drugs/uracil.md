@@ -38,8 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Uracil is a pyrimidine base. In Singapore it is registered only as part of the UFT capsule (tegafur plus uracil), and no approved indication text is available for it.
-The data compiled for this report contain **4 clinical trials** and **20 publications** for this disease, and none of them directly studies uracil as a single agent.
+Uracil is a pyrimidine base used as a component of the combination product UFT.
+The TxGNN model predicts it may be related to **lipoma of colon**, but **no clinical trials and no publications** directly study this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
@@ -55,37 +55,17 @@ The data compiled for this report contain **4 clinical trials** and **20 publica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for uracil as a single agent is not available. In the UFT combination, uracil competitively inhibits dihydropyrimidine dehydrogenase (DPD). This slows the breakdown of 5-fluorouracil (5-FU), which is released from the prodrug tegafur, and raises 5-FU exposure in tumour tissue.
+Currently, detailed mechanism of action data is not available. Uracil is a pyrimidine base that appears in fluoropyrimidine-based combination products, where it is used to modulate the breakdown of the active cytotoxic partner.
 
-This is why the model links uracil to colon cancer. Clinical evidence supports UFT, not uracil alone. Uracil by itself has no demonstrated antitumour activity. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of independent efficacy.
-
-Cohort data and trials involving UFT in colon cancer are therefore informative about the combination only. None of the cited studies tests uracil by itself in colonic neoplasm, so the evidence level is capped at L5.
+Lipoma of colon is a benign fatty tumour. An antimetabolite pyrimidine strategy has no plausible mechanistic relevance to it. The high score most likely reflects anatomical similarity to colon-related diseases in the model rather than a real pharmacological link. The prediction should be treated as a weak, hypothesis-only signal.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02912559](https://clinicaltrials.gov/study/NCT02912559) | Phase 3 | Active, not recruiting | 712 | Chemotherapy with or without atezolizumab in stage III dMMR colon cancer. Uracil is not a study drug. |
-| [NCT01383343](https://clinicaltrials.gov/study/NCT01383343) | Phase 1 | Completed | 17 | FOLFIRI with sorafenib and bevacizumab in advanced GI cancers. The backbone is 5-FU, not uracil. |
-| [NCT04164069](https://clinicaltrials.gov/study/NCT04164069) | Phase 1 | Completed | 9 | Dasatinib to prevent oxaliplatin neuropathy with FOLFOX. Uracil is not studied. |
-| [NCT04761614](https://clinicaltrials.gov/study/NCT04761614) | Phase 1 | Completed | 13 | Riluzole with mFOLFOX6 and bevacizumab in metastatic colorectal cancer. The backbone is 5-FU, not uracil. |
-
-All four trials were graded as indirectly related to uracil.
+Currently no related clinical trials registered for this disease.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | Phase 3 RCT | Clin Colorectal Cancer | S-1 plus oxaliplatin versus UFT/leucovorin as adjuvant therapy in high-risk stage III colon cancer. UFT/LV was the comparator arm. |
-| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | Cohort/trial follow-up | ESMO Open | Five-year update of ACTS-CC 02. SOX was not superior to UFT/LV for disease-free survival. |
-| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | Cohort and meta-analysis | Medicine | Taiwan nationwide data comparing adjuvant UFT with 5-FU in stage II and III colon cancer. |
-| [36676634](https://pubmed.ncbi.nlm.nih.gov/36676634/) | 2022 | Cohort | Medicina | Taiwan cohort of adjuvant UFT in stage IIA colon cancer versus observation. |
-| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | RCT | Int J Clin Oncol | Adjuvant OK-432 immunotherapy with oral carmofur or UFT in colorectal cancer. |
-| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Review | Surg Today | UFT as postoperative adjuvant chemotherapy: clinical evidence and mechanism. |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Review | Clin Colorectal Cancer | Asian consensus guidelines for metastatic colorectal cancer. |
-| [11320674](https://pubmed.ncbi.nlm.nih.gov/11320674/) | 2001 | Case report | Cancer Chemother Pharmacol | UFT-induced haemolytic anaemia in metastatic colon cancer. |
-
-These studies concern UFT (tegafur plus uracil) or general colon cancer care. None tests uracil alone.
+Currently no related literature available for this disease.
 
 ## Singapore Market Information
 
@@ -95,33 +75,31 @@ These studies concern UFT (tegafur plus uracil) or general colon cancer care. No
 
 ## Cytotoxicity
 
-Uracil is not itself a cytotoxic agent. The registered product, UFT, contains tegafur, a fluoropyrimidine prodrug of 5-FU, so cytotoxic precautions apply to that product.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine class, as the UFT combination) |
+| Cytotoxicity Classification | Uracil itself is a nucleobase; it is marketed locally in a fluoropyrimidine-based (cytotoxic) combination capsule, so the product is conventional cytotoxic chemotherapy |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential, liver and renal function |
-| Handling Protection | Follow local cytotoxic drug handling rules for the UFT product |
+| Monitoring Items | Please refer to the package insert warnings and precautions (typically CBC, liver and renal function) |
+| Handling Protection | Follow local cytotoxic drug handling regulations for the combination product |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-The literature includes a case report of haemolytic anaemia during UFT treatment (PMID 11320674) and a case of severe toxicity with tegafur, uracil and mitomycin C (PMID 8895681). Both relate to the combination.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The clinical evidence supports the UFT combination (tegafur plus uracil), where uracil acts as a DPD inhibitor, not as an independent antitumour agent. Package insert safety data are also missing.
+The prediction has a high model score (0.9936) but no supporting trials or publications, and no plausible mechanistic link to a benign colonic fatty tumour. Evidence is at level L5.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications for the Singapore UFT licence
-- Mechanism of action data for uracil from DrugBank
-- A decision on whether the question concerns uracil alone or the UFT combination. If it is the combination, it should be assessed as a tegafur-uracil product.
+- Any study directly addressing lipoma of colon and uracil
+- Mechanism of action data for uracil
+- Package insert warnings and contraindications for safety screening
+- A clear clinical rationale, given that benign lesions are normally managed by observation or endoscopic/surgical removal
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

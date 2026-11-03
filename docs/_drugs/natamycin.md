@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Natamycin is a polyene antifungal originally used for fungal (mycotic) corneal ulcer.
+Natamycin is a polyene antifungal that acts on fungal cell membranes. The TxGNN model predicts it may be useful for **vulvitis**, with a score of **0.9981**. The data compiled for this report contain **no clinical trial or publication that directly studies vulvitis**, so the evidence rests on the model prediction and indirect mechanistic reasoning.
 
 ---
 
@@ -52,43 +52,27 @@ Natamycin is a polyene antifungal originally used for fungal (mycotic) corneal u
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 1 of 1) |
 | Number of Registrations | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
-
-Note on evidence level: the only Phase 3 trial tests a natamycin + lactulose combination, so the effect of natamycin alone cannot be isolated. This report therefore grades the evidence conservatively as L2 (one completed Phase 3 RCT) rather than L1 (two or more).
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on the known polyene class mechanism, natamycin binds ergosterol in fungal cell membranes and disrupts membrane function.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Natamycin belongs to the polyene antifungals. It binds ergosterol in fungal cell membranes, which gives it activity against yeasts and moulds. Mechanistically, it could help in vulvitis only when a fungal (yeast) infection is the cause.
 
-Natamycin's approved use is topical treatment of fungal eye infections (the Singapore product is a 5% ophthalmic suspension). *Candida* species are also ergosterol-containing fungi, so activity against vulvovaginal candidiasis is mechanistically consistent. Natamycin vaginal tablets and pessaries (e.g. Pimafucin) have long been used for vaginal yeast infections in other countries, and the literature includes several older clinical studies with cure rates of roughly 76–94%.
-
-The same logic explains why related predictions (candidiasis, vulvitis, vulvovaginitis, vaginitis) are plausible only where *Candida* is the cause. Predictions with no fungal link, such as postmenopausal atrophic vaginitis and vulvar neoplasm, are not supported by any evidence.
+This reasoning is indirect. Vulvitis has many causes, including irritant, allergic, hormonal, bacterial and autoimmune ones, and natamycin would not be expected to help in non-fungal cases. No study of natamycin in a population defined by vulvitis was found. The high model score should therefore be treated as a hypothesis, not as proof of benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06411314](https://clinicaltrials.gov/study/NCT06411314) | Phase 3 | Completed | 218 | Randomized superiority trial of natamycin 100 mg + lactulose 300 mg vaginal suppositories vs. natamycin 100 mg (Pimafucin) or lactulose 300 mg alone in non-pregnant adult women with vulvovaginal candidiasis. It is a combination product, so natamycin's own contribution cannot be separated. |
+Currently no clinical trials registered that directly study natamycin in vulvitis.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39979898](https://pubmed.ncbi.nlm.nih.gov/39979898/) | 2025 | RCT | BMC Women's Health | Efficacy and safety of natamycin + lactulose vaginal suppositories in adult women with vulvovaginal candidiasis |
-| [4561566](https://pubmed.ncbi.nlm.nih.gov/4561566/) | 1972 | Comparative clinical trial | Med J Aust | Amphotericin B (Fungilin) vs. natamycin (Pimafucin) pessaries in vaginal candidiasis |
-| [6760652](https://pubmed.ncbi.nlm.nih.gov/6760652/) | 1982 | Clinical study | Acta Obstet Gynecol Scand | 33 patients on natamycin vaginal tablets for 10 days; cure rate 94% with partner treated vs. 88% with placebo cream, not significantly different |
-| [4584444](https://pubmed.ncbi.nlm.nih.gov/4584444/) | 1973 | Clinical study | The Practitioner | Natamycin for vaginal candidiasis in pregnancy |
-| [6966774](https://pubmed.ncbi.nlm.nih.gov/6966774/) | 1980 | Clinical study | N Z Med J | 50 women given Pimafucin vaginal tablets for 10 days; 76% cure rate at two weeks, maintained at four weeks |
-| [159686](https://pubmed.ncbi.nlm.nih.gov/159686/) | 1979 | Controlled trial | Aust N Z J Obstet Gynaecol | 120 patients with monilial vulvovaginitis; adding Elase to natamycin improved symptom relief and organism eradication vs. natamycin alone |
-| [11048415](https://pubmed.ncbi.nlm.nih.gov/11048415/) | 1999 | Review | Ceska Gynekol | Diagnosis of chronic vaginal candidiasis; natamycin compared with clotrimazole |
-| [12849848](https://pubmed.ncbi.nlm.nih.gov/12849848/) | 2003 | Case-control | Reprod Toxicol | Teratology study of vaginal natamycin in pregnancy (supporting safety data) |
-| [18288724](https://pubmed.ncbi.nlm.nih.gov/18288724/) | 2008 | Formulation/preclinical | J Pharm Sci | Natamycin–γ-cyclodextrin vaginal mucoadhesive tablets; MIC90 below 0.0313 µg/mL |
+Currently no related literature available that directly studies natamycin in vulvitis.
 
 ---
 
@@ -98,29 +82,30 @@ The same logic explains why related predictions (candidiasis, vulvitis, vulvovag
 |---------|------|------|-----------|
 | SIN06719P | NATACYN 5% Sterile Ophthalmic Suspension (Alcon Research LLC) | Solution | Not stated in the data compiled for this report |
 
-The only registered product is an ophthalmic suspension. No vaginal natamycin formulation is registered in Singapore, so using it for vulvovaginal candidiasis would need a suitable dosage form and route.
+The only registered product is a single-ingredient ophthalmic suspension. No vulvar or vaginal natamycin product is registered locally.
 
 ---
 
 ## Safety Considerations
 
-Safety data for natamycin are limited in the data compiled for this report. No drug-interaction records were found, and no contraindicated diseases were identified from the knowledge graph. A case-control study of vaginal natamycin use in pregnancy (PMID 12849848) provides some supporting reassurance. Please refer to the package insert for full safety information.
+No warning, contraindication or drug interaction data were found in the data compiled for this report. Please refer to the package insert for safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 3 RCT (n=218) and several older clinical studies support natamycin for vulvovaginal candidiasis, and the antifungal mechanism fits. However, the Phase 3 trial used a natamycin + lactulose combination, and Singapore currently has only an ophthalmic product.
+No cited study directly addresses vulvitis, so the evidence level is L5 and the prediction rests on the model score and indirect mechanistic reasoning. Vulvitis is also a heterogeneous condition, and natamycin could only plausibly work in the fungal subset. The only local product is an ophthalmic suspension, which is not suitable for vulvar use.
 
 **To proceed, the following is needed:**
-- Obtain and review the HSA package insert for warnings and contraindications
-- Confirm the mechanism of action from DrugBank
-- Review the full results of NCT06411314 and PMID 39979898, especially the natamycin-alone arm
-- Evaluate the availability of a vaginal formulation and route in Singapore
-- Limit the scope to candidal infections; the predictions for trichomonal vulvovaginitis, atrophic vaginitis, vulvar ulceration, vulvar neoplasm and tinea nigra lack supporting evidence and should be held
+- Clinical or literature evidence that directly studies natamycin in vulvitis, with the cause defined (fungal versus non-fungal)
+- Detailed mechanism-of-action data
+- The package insert warnings and contraindications from the Health Sciences Authority (HSA)
+- A suitable topical or vaginal formulation and route, since none is currently registered in Singapore
+- A safety review for use on vulvar or mucosal tissue
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

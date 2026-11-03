@@ -38,8 +38,7 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Mefenamic acid is a nonsteroidal anti-inflammatory drug (NSAID) that is widely marketed in Singapore, although no approved indication text is available in the data compiled for this report.
-The evidence points to symptomatic relief only, not disease modification.
+Mefenamic acid is a long-marketed non-steroidal anti-inflammatory drug (NSAID) that blocks prostaglandin synthesis. The TxGNN model predicts it may be useful for **headache disorder**, and the supporting evidence is **18 publications and no registered clinical trials**. Several of the publications are small double-blind trials in migraine, a major type of headache disorder.
 
 ## Quick Overview
 
@@ -55,11 +54,14 @@ The evidence points to symptomatic relief only, not disease modification.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Mefenamic acid belongs to the fenamate class of NSAIDs, which inhibit the cyclo-oxygenase enzymes (COX-1 and COX-2) and thereby reduce prostaglandin synthesis. Prostaglandins mediate pain and inflammation, which are central symptoms of rheumatoid arthritis.
+Detailed mechanism-of-action data were not available in the data compiled for this report. Mefenamic acid belongs to the fenamate NSAIDs, which inhibit cyclooxygenase (COX) and so reduce prostaglandin synthesis. Prostaglandins contribute to neurogenic inflammation and pain signalling, and this is the main mechanistic link to headache.
 
-Mefenamic acid is already an established analgesic and anti-inflammatory drug, so this prediction is better viewed as an established use within the NSAID class than as true repurposing. Controlled comparisons from the 1960s to 1970s against ibuprofen, sulindac, flurbiprofen, indomethacin and placebo suggest symptomatic efficacy. These studies show symptomatic benefit, not slowing of joint destruction. The drug should therefore not be seen as a disease-modifying antirheumatic agent.
+The link is strongest for migraine, and especially menstrual migraine, which is thought to be prostaglandin-driven. The publications describe three double-blind studies:
+- Mefenamic acid versus acetaminophen for acute attacks.
+- Mefenamic acid versus propranolol and placebo for prophylaxis.
+- Mefenamic acid versus placebo in menstrual migraine.
 
-Other predictions for this drug (see below) are consistent with the same mechanism, including migraine (especially menstrual migraine).
+Guidelines and reviews also discuss NSAIDs in migraine. Direct evidence for other headache types, such as tension-type or cluster-type headache, is thin or absent. Prolonged use carries gastrointestinal and renal risks, and NSAID overuse can itself cause medication-overuse headache, so any use would be short-term.
 
 ## Clinical Trial Evidence
 
@@ -69,18 +71,20 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT (double-blind crossover) | Curr Med Res Opin | In 24 patients, mefenamic acid (1500 mg/day), sulindac and flurbiprofen were all significantly better than placebo for pain, joint tenderness and morning stiffness |
-| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT (vs ibuprofen) | Med J Aust | Mefenamic acid 1500 mg/day compared favourably with ibuprofen 1200 mg/day; side effects mild and mostly gastrointestinal |
-| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT (vs ibuprofen) | J Int Med Res | In 40 patients, analgesic and anti-inflammatory effects were not significantly different from ibuprofen |
-| [326491](https://pubmed.ncbi.nlm.nih.gov/326491/) | 1977 | Double-blind crossover | Curr Med Res Opin | In 18 patients, mefenamic acid and indomethacin were both significantly better than placebo on most parameters |
-| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | Clinical study | Ann Rheum Dis | Early clinical study of mefenamic acid in rheumatoid arthritis |
-| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | Comparative study | Br Med J | Mefenamic and flufenamic acid compared with aspirin and phenylbutazone in rheumatoid arthritis |
-| [5333309](https://pubmed.ncbi.nlm.nih.gov/5333309/) | 1966 | Review | Br Med J | Overview of mefenamic acid |
-| [377958](https://pubmed.ncbi.nlm.nih.gov/377958/) | 1979 | Review | Am J Hosp Pharm | Review of antirheumatic drug therapy, including mefenamic acid |
-| [1455792](https://pubmed.ncbi.nlm.nih.gov/1455792/) | 1992 | Clinical study | Vopr Kurortol Fizioter Lech Fiz Kult | Electrophoresis of mefenamic acid; complete or partial response reported in 75% of 125 patients |
-| [5676955](https://pubmed.ncbi.nlm.nih.gov/5676955/) | 1968 | Case report (safety) | Br Med J | Three patients developed autoimmune haemolytic anaemia on mefenamic acid; all recovered after withdrawal |
+| [6347393](https://pubmed.ncbi.nlm.nih.gov/6347393/) | 1983 | RCT (double-blind crossover) | Cephalalgia | Mefenamic acid 500 mg compared with paracetamol 500 mg in 40 migraine patients over six attacks (metoclopramide given in all attacks) |
+| [3524092](https://pubmed.ncbi.nlm.nih.gov/3524092/) | 1986 | RCT (double-blind crossover) | Acta Neurol Scand | Prophylaxis in 29 patients: attack frequency and total duration were significantly reduced with mefenamic acid or propranolol versus placebo; severity and average duration were not |
+| [10799353](https://pubmed.ncbi.nlm.nih.gov/10799353/) | 2000 | RCT (double-blind, placebo) | Eur J Med Res | 24 women with menstrual migraine without aura; mefenamic acid compared with placebo over two cycles |
+| [22529203](https://pubmed.ncbi.nlm.nih.gov/22529203/) | 2012 | Guideline | Neurology | AAN/AHS evidence-based update on NSAIDs and complementary treatments for episodic migraine prevention |
+| [18427072](https://pubmed.ncbi.nlm.nih.gov/18427072/) | 2008 | Evidence-based review | Neurology | Systematic review and meta-analysis of acute and short-term preventive therapy for menstrually related migraine |
+| [20836574](https://pubmed.ncbi.nlm.nih.gov/20836574/) | 2010 | Review | Drugs | Prevention and treatment of menstrual migraine |
+| [8749241](https://pubmed.ncbi.nlm.nih.gov/8749241/) | 1995 | Review | Cephalalgia | Analgesics and NSAIDs in acute migraine attacks, usually combined with an antiemetic |
+| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Review | Pathol Biol | Review of controlled NSAID studies in migraine, including mefenamic acid |
+| [40265504](https://pubmed.ncbi.nlm.nih.gov/40265504/) | 2025 | Review | Curr Opin Neurol | Update on the clinical course and management of migraine in women |
+| [29095288](https://pubmed.ncbi.nlm.nih.gov/29095288/) | 2017 | Case series and review (safety) | Medicine | Severe enteropathy with villous atrophy in prolonged mefenamic acid users |
 
 ## Singapore Market Information
+
+Mefenamic acid is marketed in Singapore, and all 11 single-ingredient licences in the local records are valid. The approved indication text is not recorded in the local data. The main authorizations are listed below.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -90,38 +94,38 @@ Currently no related clinical trials registered.
 | SIN08483P | Pontalon Capsule 250 mg | Capsule | Not available |
 | SIN10125P | Mefril-250 Capsule 250 mg | Capsule | Not available |
 
-A total of 11 valid single-ingredient registrations exist. Further products include Beafemic capsules, Fenagesic tablets, Fenagesic-500 tablets, Fenagesic suspension (125 mg/5 ml) and Orcigesic tablets and capsules.
-
 ## Safety Considerations
 
-- **Contraindications (inferred from a drug-disease knowledge graph, not from label text)**: hypertension, kidney disease, liver disease, gallbladder disease, peptic ulcer disease (including active ulcer), blood coagulation disorders, myocardial infarction and other heart and cardiovascular disease, hemoglobinopathy.
-- **Safety signals from the literature**: autoimmune haemolytic anaemia, enteropathy with villous atrophy and steatorrhoea after prolonged use, nephropathy, gastrointestinal bleeding and ulceration, and acute eosinophilic pneumonia (case reports). Caution is particularly warranted in older patients and with long-term use.
-- **Drug interactions**: 100 interactions were identified. Those listed include:
-  - **Moderate**: acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), metformin, chlorpropamide, mesalazine, balsalazide, aprepitant, potassium citrate and bicarbonate, picosulfuric acid, polyethylene glycol with electrolytes.
-  - **Minor**: famotidine, ranitidine, cimetidine, dapagliflozin, linaclotide.
+- **Conditions of concern for NSAIDs** (from the data compiled for this report; these are not taken from the package insert): hypertension, kidney disease, liver disease, gallbladder disease, peptic ulcer disease, blood coagulation disorders, myocardial infarction and other cardiovascular or heart disease, and haemoglobinopathy.
+- **Safety signals in the literature:**
+  - Severe enteropathy with villous atrophy after prolonged use (PMID 29095288).
+  - Analgesic-associated renal disease in chronic headache patients, in which mefenamic acid was among the commonly used analgesics (PMID 8262786).
+  - Medication-overuse headache with NSAID overuse (preclinical model, PMID 38812640).
+- **Drug interactions:** 100 interactions were recorded. Those rated Moderate include:
+  - corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone);
+  - acetylsalicylic acid;
+  - metformin and chlorpropamide;
+  - mesalazine and balsalazide;
+  - aprepitant;
+  - potassium citrate and potassium bicarbonate;
+  - picosulfuric acid and polyethylene glycol with electrolytes.
 
-Please also refer to the package insert, as label warnings and contraindications were not available in the compiled data.
+  Famotidine, ranitidine, cimetidine, dapagliflozin and linaclotide are rated Minor.
+
+Package insert warnings and contraindications were not available in the data compiled for this report, so please refer to the package insert for the full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several double-blind controlled trials show symptomatic benefit in rheumatoid arthritis comparable to other NSAIDs, and the drug is already marketed in Singapore. However, the trials are old, small, short and symptomatic only, and no trial is registered. The gastrointestinal, renal and haematological safety signals, plus a long list of interacting drugs, require careful risk control.
+The mechanism is plausible, and three small double-blind trials in migraine plus guideline-level reviews support NSAID activity in headache. The evidence is mostly old, small and limited to migraine, and prolonged use carries gastrointestinal, renal and medication-overuse risks. Any further work should therefore be limited to short-term use in migraine.
 
 **To proceed, the following is needed:**
-- Approved indication text and safety warnings from the Singapore package inserts
-- Mechanism of action data confirmed from a drug database
-- Confirmation of whether rheumatoid arthritis is already covered by existing labels
-- Comparison against current standard rheumatoid arthritis therapy and a limit on duration of use
-- Monitoring plan for gastrointestinal, renal and haematological adverse effects, especially in older patients and those with the comorbidities listed above
-
-### Other Predicted Indications (for reference)
-
-| Predicted Indication | TxGNN Score | Evidence Level | Assessment |
-|------|------|------|------|
-| Migraine disorder / headache disorder | 0.9923 / 0.9964 | L2 | Double-blind trials vs acetaminophen, vs propranolol and placebo, and in menstrual migraine; best suited to short-term perimenstrual use |
-| Migraine with brainstem aura | 0.9921 | L5 | Evidence indirect and extrapolated from general migraine |
+- Review of the Singapore package insert for warnings, contraindications and approved indication text, which is currently missing.
+- Detailed mechanism-of-action data from DrugBank.
+- Current, adequately powered trials of mefenamic acid in headache types beyond migraine, such as tension-type headache.
+- A safety plan covering duration limits, renal, gastrointestinal and cardiovascular screening, and monitoring for medication-overuse headache.
 
 ## Disclaimer
 

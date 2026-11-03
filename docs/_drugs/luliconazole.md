@@ -38,7 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Luliconazole is a topical imidazole antifungal, originally used for tinea pedis, tinea corporis and other dermatophyte infections.
+Luliconazole is a topical azole antifungal marketed in Singapore as a nail solution. The TxGNN model predicts it may be useful for **endothrix infectious disease** (a dermatophyte infection of the inside of the hair shaft). No clinical trials or publications currently support this prediction, so it rests on the model alone.
+
+---
 
 ## Quick Overview
 
@@ -50,25 +52,29 @@ Luliconazole is a topical imidazole antifungal, originally used for tinea pedis,
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 1 of 1) |
 | Number of Registrations | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this report. Based on known information, luliconazole is a topical imidazole antifungal. Imidazoles inhibit lanosterol 14-alpha-demethylase, an enzyme needed to make ergosterol, a key component of the fungal cell membrane. Its efficacy in dermatophyte infections has been established, and mechanistically it may be applicable to pityriasis versicolor.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Luliconazole belongs to the azole class of antifungals, which act against fungi, so a class-level link to a dermatophyte (fungal) infection of the hair is plausible.
 
-Pityriasis versicolor is a superficial skin infection caused by *Malassezia* yeasts, which are also susceptible to azole antifungals. Published in vitro work describes luliconazole as active against dermatophytes, *Candida* and *Malassezia*. The link is therefore biologically consistent. Note that this reasoning is inferred from the drug class rather than from confirmed mechanism data compiled for this report.
+Endothrix infection occurs when dermatophytes grow inside the hair shaft. Luliconazole is applied to the skin or nail surface, and a topical product may not reach the hair shaft and follicle in sufficient concentration. Infections at this site are usually treated with systemic therapy, which limits how far the prediction can be trusted for a topical product. The support is purely a model prediction.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [27559523](https://pubmed.ncbi.nlm.nih.gov/27559523/) | 2016 | Comparative clinical study (described as a prospective, open, randomized controlled trial in the title) | Indian Dermatology Online Journal | Compared topical ketoconazole with topical luliconazole in pityriasis versicolor at a tertiary hospital in eastern India. No abstract was available, so results could not be summarised. |
-| [29198426](https://pubmed.ncbi.nlm.nih.gov/29198426/) | 2018 | In vitro study | Journal de Mycologie Médicale | Luliconazole inhibits sterol 14-α-demethylase and has broad antifungal activity, including against *Malassezia*. The study itself tested *Candida* strains. |
+Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
@@ -76,35 +82,29 @@ Pityriasis versicolor is a superficial skin infection caused by *Malassezia* yea
 |---------|------|------|-----------|
 | SIN16428P | LUCONAC EXTERNAL SOLUTION FOR NAILS 5% w/w | Solution | Not listed |
 
-Note: the only registered product is a 5% nail solution (manufacturer: Sato Pharmaceutical Co., Ltd.). It is not a cream formulation like the one being tested in the pityriasis versicolor trial.
+The one registration is valid and is for a single-ingredient product.
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-No drug-interaction records were found for luliconazole.
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanism is consistent with *Malassezia* susceptibility to azoles, and a head-to-head trial against ketoconazole is registered. The only published comparative study has no abstract available and its design is not confirmed, and the registered trial has no results yet. Evidence is therefore moderate rather than strong.
+The prediction is supported only by the model score. There are no trials or publications on this disease, and topical delivery to the hair shaft is a major doubt about whether the drug could work here.
 
 **To proceed, the following is needed:**
-- Obtain the results of PMID 27559523 and confirm its design and outcomes
-- Follow the results of NCT07333170 once completed
-- Detailed mechanism of action data (MOA)
-- Package insert warnings and contraindications from the HSA website
-- Confirm that a cream formulation suitable for this indication is available in Singapore, since the only registered product is a nail solution
+- Package insert warnings and contraindications from the HSA, since safety data is missing
+- Mechanism-of-action data
+- Evidence that a topical product can reach the hair shaft and follicle, for example laboratory penetration studies or early clinical data in hair infections
+- Any clinical trial or publication that directly studies this disease
 
-## Other Predicted Indications (Brief Note)
-
-- **Superficial mycosis** (L3) overlaps heavily with the existing dermatophyte indications. It is better viewed as an extension within the same disease family than as true repurposing. No registered trials were found.
-- **Cutaneous candidiasis** (L4) has only preclinical support (in vitro and rat model data). No human trials were found.
-- **Majocchi granuloma, tinea profunda, and dermatophytosis of scalp or beard** (L4) have only case-level or indirect evidence. Topical penetration into hair follicles and deep tissue is a limiting factor.
-- **Endothrix and ectothrix infectious disease** (L5) are supported by model prediction only.
-- Luliconazole has no known antiparasitic or antiviral mechanism.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -38,10 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Tipiracil is a component of the trifluridine/tipiracil combination (Lonsurf), originally used to treat metastatic colorectal cancer.
-The TxGNN model predicts it may be effective for **cecum villous adenoma**, but **no clinical trials and no publications** currently support this prediction.
-
----
+Tipiracil is a thymidine phosphorylase inhibitor that is co-formulated with trifluridine to prevent its breakdown and raise its exposure. The TxGNN model predicts it may be useful for **cecum villous adenoma**, but this rests on the model score alone: **no clinical trials and no publications** directly support it.
 
 ## Quick Overview
 
@@ -55,36 +52,19 @@ The TxGNN model predicts it may be effective for **cecum villous adenoma**, but 
 | Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tipiracil is a thymidine phosphorylase inhibitor. It is co-formulated with trifluridine, a thymidine analogue that is incorporated into DNA, and tipiracil prevents trifluridine from being broken down so that its exposure is higher. Tipiracil is not itself the cytotoxic component.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, tipiracil is a thymidine phosphorylase inhibitor. It is not used on its own as a cytotoxic agent. It is combined with trifluridine, a thymidine analog that is incorporated into DNA, and tipiracil protects trifluridine from degradation so that more of it reaches tumour cells.
 
-A villous adenoma is a benign precursor lesion in the same part of the bowel as the approved colorectal cancer indication, which likely explains the high prediction score. However, the link rests only on the model score. Cytotoxic therapy is not an established approach for benign adenomas, which are normally managed by endoscopic resection.
-
-Other predicted indications (for example colonic lipoma, colon leiomyoma, colonic lymphangioma, cavernous hemangioma of colon, and colorectal GIST) show similarly weak rationale. Rectosigmoid junction neoplasm is probably a site-specific subset of the already approved colorectal indication rather than a true repurposing candidate.
-
----
+A villous adenoma is a benign precursor lesion located in the same part of the bowel as the cancers this combination is used for. That anatomical closeness is the main reason the model links the two. However, the link rests only on the high prediction score. Cytotoxic therapy is not an established approach for benign adenomas, which are normally managed by endoscopic resection. The mechanistic case is therefore weak.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available for cecum villous adenoma.
-
-For reference, the closest-ranked prediction, "cecal disease" (rank 6), retrieved only case reports, all in the approved colorectal cancer setting or about adverse events:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [32655959](https://pubmed.ncbi.nlm.nih.gov/32655959/) | 2020 | Case report | Case Reports in Oncological Medicine | Readministration of cancer drugs in a patient with chemorefractory metastatic colorectal cancer arising from the cecum |
-| [30677817](https://pubmed.ncbi.nlm.nih.gov/30677817/) | 2018 | Case report | Dermatology Online Journal | Trifluridine/tipiracil-associated leukocytoclastic vasculitis with late-onset Henoch-Schönlein purpura in a patient with metastatic appendiceal cancer (adverse event) |
-
----
 
 ## Singapore Market Information
 
@@ -93,43 +73,53 @@ For reference, the closest-ranked prediction, "cecal disease" (rank 6), retrieve
 | SIN15491P | LONSURF FILM-COATED TABLET 15MG/6.14MG | Tablet, film coated | Not specified in the available records |
 | SIN15494P | LONSURF FILM-COATED TABLET 20MG/8.19MG | Tablet, film coated | Not specified in the available records |
 
-Both licences are valid single-ingredient registrations (manufacturer: Taiho Pharmaceutical Co., Ltd., Kitajima Plant). The only route is oral.
-
----
+Both authorizations are currently valid, are held by Taiho Pharmaceutical Co., Ltd. (Kitajima Plant) and are for oral use.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (the trifluridine/tipiracil combination; trifluridine is a thymidine-analogue antimetabolite, and tipiracil is the thymidine phosphorylase inhibitor that boosts its exposure) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (literature reports leukopenia and neutropenia with this combination) |
+| Cytotoxicity Classification | Component of a cytotoxic combination (thymidine phosphorylase inhibitor paired with the nucleoside analog trifluridine) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Complete blood count with differential, liver and renal function |
 | Handling Protection | Follow local cytotoxic drug handling regulations |
 
----
-
 ## Safety Considerations
 
-- **Drug Interactions**: 14 interaction records were found. Thirteen are rated Moderate: cimetidine, tafenoquine, ketoconazole, brigatinib, crizotinib, encorafenib, ethinylestradiol, lenvatinib, medroxyprogesterone acetate, megestrol acetate, ribociclib, rucaparib, and vandetanib. The remaining record is a pharmacology database entry linking tipiracil to the SARS-CoV-2 non-structural protein 15 target, with no clinical severity rating.
-- **Adverse events in the literature**: a case report describes leukocytoclastic vasculitis with Henoch-Schönlein purpura after trifluridine/tipiracil treatment.
+**Drug Interactions:** 14 interaction records were found. Thirteen are rated Moderate. The interacting drugs are:
 
-Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
+- Cimetidine
+- Tafenoquine
+- Ketoconazole
+- Brigatinib
+- Crizotinib
+- Encorafenib
+- Ethinylestradiol
+- Lenvatinib
+- Medroxyprogesterone acetate
+- Megestrol acetate
+- Ribociclib
+- Rucaparib
+- Vandetanib
 
----
+One further record describes tipiracil binding to a SARS-CoV-2 non-structural protein in pharmacology data. It has no severity rating and no clinical meaning has been established.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score, with no clinical trials or publications. A villous adenoma is a benign lesion usually cured by endoscopic resection, so systemic cytotoxic therapy is hard to justify.
+The prediction has a very high model score (0.9999), but there are no clinical trials or publications on cecum villous adenoma, so the evidence level is L5. Benign adenomas are treated by endoscopic removal, and systemic cytotoxic therapy has no established role, so the risk-benefit balance is unfavourable without supporting data.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Evidence that systemic antimetabolite therapy has any role in benign colonic adenomas
-- Review of whether the higher-ranked predictions are only labelling overlaps with the approved colorectal cancer indication
+- Clinical or preclinical evidence that the trifluridine/tipiracil combination acts on adenomatous lesions
+- A clear clinical rationale for systemic cytotoxic therapy over endoscopic resection
+- Mechanism-of-action data and package insert warnings and contraindications
+- A safety plan covering myelosuppression and the interactions listed above
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

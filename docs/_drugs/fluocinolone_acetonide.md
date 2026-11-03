@@ -38,8 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Fluocinolone acetonide is a potent topical corticosteroid.
-Currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score and class-level reasoning alone.
+Fluocinolone acetonide is a synthetic corticosteroid used on the skin to treat inflammatory and itchy conditions.
+The TxGNN model predicts it may be effective for **lichen planus pemphigoides**, but at present there are **no clinical trials** and **no publications** supporting this direction.
 
 ## Quick Overview
 
@@ -53,24 +53,11 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 | Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
-Other predicted indications, all with L5 evidence and a Hold recommendation:
-
-| Predicted Indication | TxGNN Score |
-|------|------|
-| Lichen planus pemphigoides | 0.9934 |
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Pharmacology data shows that fluocinolone acetonide acts on the glucocorticoid receptor (NR3C1). As a class, potent topical corticosteroids have anti-inflammatory, immunosuppressive and antipruritic effects. The drug is used in creams for inflammatory and itchy skin conditions.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that fluocinolone acetonide acts on the glucocorticoid receptor (NR3C1), which is the usual route by which corticosteroids reduce inflammation and itching in the skin.
 
-Lichen planus pigmentosus is a lichenoid, T-cell-mediated inflammatory skin disease with pigment incontinence. Suppressing lichenoid inflammation is a plausible mechanism. The high prediction score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
-
-The other variants follow similar reasoning:
-- **Hypertrophic lichen planus** has thick, itchy plaques, and potent topical steroids are a commonly used class of therapy for lichen planus in general.
-- **Annular atrophic lichen planus** is also inflammation-driven, but its atrophic lesions raise a concern about steroid-induced skin atrophy.
-- **Lichen planus pemphigoides** combines lichen planus with autoimmune blistering. Topical steroids may help local inflammation, but severe disease usually needs systemic immunosuppression, so the link is only partial.
-
-These links rest on model prediction and class-level reasoning, not on studies of this drug in these diseases.
+Lichen planus pemphigoides combines features of lichen planus with subepidermal autoimmune blistering (anti-BP180 autoantibodies). A topical corticosteroid may help calm local skin inflammation, so a mechanistic link is plausible. However, the link is only partial: severe disease typically needs systemic immunosuppression, which a topical product alone would not provide. The TxGNN score is the only support for this prediction.
 
 ## Clinical Trial Evidence
 
@@ -89,36 +76,27 @@ Currently no related literature available.
 | SIN14597P | CETRAXAL PLUS EAR DROPS SOLUTION | Solution | Not stated in the available records |
 | SIN12607P | TRI-LUMA CREAM | Cream | Not stated in the available records |
 
-All four licences are valid and listed as single-ingredient records. The available forms are topical creams and an ear-drop solution. The records give no approved indication text, so no approved use can be confirmed from them.
+All four licences are valid single-ingredient products. Topical cream is the main dosage form, and one product is an ear-drop solution.
 
 ## Safety Considerations
 
-**Contraindication-type relations recorded in the knowledge graph** (not label text):
-- Infections and eye conditions: herpes simplex infections and herpes simplex keratitis, geniculate herpes zoster, fungal eye infection, mycotic corneal ulcer, ocular tuberculosis, glaucoma
-- Skin and vascular conditions: skin atrophy, telangiectasis, capillary disease, hereditary hemorrhagic telangiectasia, peripheral vascular disease, intermittent claudication, peripheral arterial disease, sunburn
-- Adrenal conditions: adrenocortical insufficiency, Addison disease
-- Dermatitis and atopic eczema also appear in this list, although the same conditions appear among the recorded uses. This inconsistency should be checked against the label.
+- **Drug Interactions**: Ten interaction records were retrieved, but none has a severity level assigned. Partners listed include dexamethasone, cetirizine, citalopram, valproic acid, acetaminophen, digoxin, levothyroxine, alendronic acid and clonazepam. The tenth record is the drug's own target, the glucocorticoid receptor, which describes the pharmacology rather than an interaction.
 
-The skin atrophy relation is particularly relevant to annular atrophic lichen planus.
-
-**Drug interactions:** The interaction screen returned 10 entries. The nine drug entries are Dexamethasone, Cetirizine, Citalopram, Valproic acid, Acetaminophen, Digoxin, Levothyroxine, Alendronic acid and Clonazepam. None has a severity level assigned (all "Unknown"). The tenth entry is the glucocorticoid receptor, which is the drug's pharmacological target, not an interacting drug.
-
-Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
+Label warnings and contraindications were not available in the compiled data. Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-However, no clinical trial or publication in the data directly studies fluocinolone acetonide in any of the predicted diseases, so the evidence level is L5. Package insert safety data is also missing, which blocks safety screening.
+The prediction rests only on a model score (0.9934). No trial or publication directly studies this disease with fluocinolone acetonide, so the evidence level is L5. The mechanistic link is partial, because severe disease usually requires systemic therapy.
 
 **To proceed, the following is needed:**
-- A literature and trial search for topical fluocinolone acetonide in lichen planus variants, especially lichen planus pigmentosus
-- Package insert warnings and contraindications from the HSA, with approved indications for each Singapore product
-- Detailed mechanism-of-action data
-- Review of the skin atrophy risk, particularly for atrophic lichen planus
-- Review of route and formulation fit, since the predicted diseases have not been matched against the available cream and ear-drop forms
-- Clarification of the severity of the listed drug interactions
+- Case reports, case series or trials of topical corticosteroids in lichen planus pemphigoides
+- The Singapore package insert, to review warnings and contraindications
+- Mechanism of action data for the drug
+- Assessment of whether a topical route is sufficient for the expected disease severity, with a plan for systemic therapy where needed
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

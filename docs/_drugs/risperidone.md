@@ -38,116 +38,39 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Risperidone is an atypical antipsychotic originally used for schizophrenia, bipolar disorder (including mania) and autism-associated irritability.
-The TxGNN model ranks **gaze palsy, familial horizontal, with progressive scoliosis** as its top-scoring prediction, but this entry has no supporting evidence.
-
-> **Note on the top-ranked prediction:** The rank 1 prediction is a rare genetic disorder with no trials, no literature and no plausible mechanistic link. This report therefore presents the top-ranked entry in the overview, and details the best-supported candidate (major affective disorder) in the evidence sections.
+Risperidone is an atypical antipsychotic that is widely marketed in Singapore.
+The TxGNN model predicts it may be effective for **gaze palsy, familial horizontal, with progressive scoliosis**.
+**No clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication (top-ranked by TxGNN) | Gaze palsy, familial horizontal, with progressive scoliosis |
-| Best-Supported Predicted Indication | Major affective disorder (L1, Proceed with Guardrails) |
+| Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9976 |
-| Evidence Level | L5 (top-ranked); L1 (major affective disorder) |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 16 of 16) |
 | Number of Registrations | 16 (valid: 16) |
-| Recommended Decision | Hold for the top-ranked entry; Proceed with Guardrails for major affective disorder, Tourette syndrome and intellectual disability (behavioural symptoms) |
-
-### Summary of the Top 10 Predictions
-
-| Rank | Predicted Indication | Score | Evidence Level | Recommendation |
-|---|---|---|---|---|
-| 1 | Gaze palsy, familial horizontal, with progressive scoliosis | 0.9976 | L5 | Hold |
-| 3 | Amelocerebrohypohidrotic syndrome | 0.9969 | L5 | Hold |
-| 4 | Phelan-McDermid syndrome | 0.9959 | L4 | Research Question |
-| 5 | Trichotillomania | 0.9951 | L4 | Research Question |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature, risperidone is an atypical antipsychotic with potent dopamine D2 and serotonin 5-HT2A receptor antagonism. Its efficacy in schizophrenia and bipolar mania is established.
+Detailed mechanism of action data for risperidone is not available in the data compiled for this report. It is generally understood as an antagonist of dopamine D2 and serotonin 5-HT2A receptors.
 
-**Major affective disorder.** Drugs with 5-HT2A and D2 antagonism are established adjuncts in treatment-resistant depression. Bipolar mania is already an original indication, so the incremental repurposing value lies mainly in augmenting antidepressants in unipolar major depressive disorder (MDD). Two Phase 3 trials of adjunctive risperidone in SSRI-resistant MDD, together with several meta-analyses and network meta-analyses of augmentation strategies, support this direction.
-
-Placebo-controlled trials and European guidelines support its use as an option.
-
-
-**Low-evidence entries.** Ranks 1-3 and 10 are rare genetic syndromes with no trials or literature and no plausible mechanistic link. Rank 2 (Asperger syndrome susceptibility) likely reflects overlap with the existing autism indication rather than new evidence. Rank 9 (autism susceptibility) mainly reflects pharmacogenetic and safety literature on an approved use.
+The predicted condition is a rare genetic disorder linked to ROBO3, with a structural neurodevelopmental basis (abnormal wiring of brainstem pathways controlling eye movement) and progressive scoliosis. We found no plausible mechanistic link. D2/5-HT2A receptor blockade would not be expected to correct this underlying defect. The high score is a model-derived signal with no clinical or literature support, so the prediction should be treated with caution.
 
 ## Clinical Trial Evidence
 
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) | Phase 3 | Completed | 630 | Adjunctive risperidone vs placebo in MDD not responding to standard antidepressants |
-| [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) | Phase 3 | Completed | 258 | Risperidone augmentation of SSRI in treatment-resistant depression, including long-term maintenance effect |
-| [NCT00277654](https://clinicaltrials.gov/study/NCT00277654) | Phase 3 | Completed | 111 | Risperidone monotherapy vs placebo in bipolar disorder with panic or generalised anxiety disorder |
-| [NCT00174577](https://clinicaltrials.gov/study/NCT00174577) | Phase 3 | Unknown | 84 | Risperidone augmentation in patients who failed or partially responded to an antidepressant |
-| [NCT00167479](https://clinicaltrials.gov/study/NCT00167479) | Phase 4 | Completed | 60 | Placebo-controlled risperidone monotherapy in bipolar disorder with comorbid anxiety |
-| [NCT00203723](https://clinicaltrials.gov/study/NCT00203723) | Phase 4 | Terminated | 45 | ECT plus risperidone vs ECT alone in treatment-resistant depression; terminated early, limited power |
-| [NCT01282632](https://clinicaltrials.gov/study/NCT01282632) | Phase 1/2 | Completed | 42 | Pilot comparing risperidone and olanzapine add-on to SSRIs in treatment-resistant depression |
-| [NCT00179062](https://clinicaltrials.gov/study/NCT00179062) | N/A | Completed | 300 | Open-label comparison of weight gain and health outcomes with risperidone vs olanzapine (safety-oriented) |
-| [NCT00012558](https://clinicaltrials.gov/study/NCT00012558) | N/A | Completed | 5000 | STEP-BD long-term bipolar treatment programme (indirect for risperidone) |
-| [NCT07503002](https://clinicaltrials.gov/study/NCT07503002) | Phase 1 | Not yet recruiting | 10 | Risperidone given after LSD to shorten the LSD experience in MDD (risperidone is a tool, not the treatment) |
-
-Other predictions with trial evidence:
-
-| Trial Number | Indication | Phase | Status | Enrollment | Key Findings |
-|---|---|---|---|---|---|
-| [NCT00004393](https://clinicaltrials.gov/study/NCT00004393) | Tourette syndrome | Phase 2 | Completed | 50 | Double-blind placebo-controlled risperidone trial in children and adults with moderate to severe Tourette syndrome |
-| [NCT00250354](https://clinicaltrials.gov/study/NCT00250354) | Intellectual disability | Phase 3 | Completed | 110 | Risperidone vs placebo in conduct disorder in children aged 5-12 with mild, moderate or borderline intellectual disability |
-| [NCT00266552](https://clinicaltrials.gov/study/NCT00266552) | Intellectual disability | Phase 3 | Completed | 118 | Risperidone oral solution vs placebo in conduct disorder in a similar population |
-| [NCT00261508](https://clinicaltrials.gov/study/NCT00261508) | Intellectual disability | Phase 3 | Completed | 80 | Risperidone vs placebo for behavioural symptoms in autistic disorder and other pervasive developmental disorders |
-| [NCT00065273](https://clinicaltrials.gov/study/NCT00065273) | Intellectual disability | Phase 3 | Completed | 50 | Atypical neuroleptics for severe aberrant behaviour in people with intellectual disability |
-
-The data compiled for this report do not include efficacy results, so the primary outcomes of these trials should be verified in the published reports.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-**Major affective disorder** (systematic reviews prioritised):
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematic review / NMA | J Affect Disord | Compares augmentation agents for treatment-resistant major depression |
-| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematic review / meta-analysis | J Psychopharmacol | Augmentation and combination treatments in early-stage treatment-resistant depression |
-| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Systematic review / meta-analysis | J Psychopharmacol | Antidepressants plus second-generation antipsychotics vs esketamine vs lithium |
-| [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | Cochrane review | Cochrane Database Syst Rev | Second-generation antipsychotics for MDD and dysthymia |
-| [21189367](https://pubmed.ncbi.nlm.nih.gov/21189367/) | 2011 | Review | Ann Pharmacother | Efficacy and safety of risperidone augmentation in MDD |
-| [21088586](https://pubmed.ncbi.nlm.nih.gov/21088586/) | 2011 | Systematic review | Curr Opin Psychiatry | Efficacy and safety of second-generation antipsychotics in non-psychotic MDD |
-| [7545159](https://pubmed.ncbi.nlm.nih.gov/7545159/) | 1995 | Clinical report / review | J Clin Psychiatry | Early report on risperidone in affective illness and OCD |
-
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [11799340](https://pubmed.ncbi.nlm.nih.gov/11799340/) | 2002 | RCT | J Clin Psychopharmacol | Double-blind placebo-controlled 8-week trial in 48 adolescents and adults |
-| [12682319](https://pubmed.ncbi.nlm.nih.gov/12682319/) | 2003 | RCT | Neurology | Placebo-controlled trial of risperidone in children and adults with Tourette syndrome |
-| [36528030](https://pubmed.ncbi.nlm.nih.gov/36528030/) | 2023 | Network meta-analysis | Lancet Child Adolesc Health | Comparative efficacy and tolerability of drugs for Tourette syndrome in young people |
-| [34757514](https://pubmed.ncbi.nlm.nih.gov/34757514/) | 2022 | Guideline | Eur Child Adolesc Psychiatry | European guidelines (v2.0), pharmacological treatment |
-| [8543544](https://pubmed.ncbi.nlm.nih.gov/8543544/) | 1996 | Open-label trial | J Clin Psychiatry | Open-label efficacy and safety of risperidone in Tourette syndrome |
-
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39690490](https://pubmed.ncbi.nlm.nih.gov/39690490/) | 2025 | Network meta-analysis | J Psychopharmacol | Pharmacotherapies for agitation in autism or intellectual disability |
-| [40396498](https://pubmed.ncbi.nlm.nih.gov/40396498/) | 2025 | Network meta-analysis | Cochrane Database Syst Rev | Atypical antipsychotics for autism spectrum disorder |
-| [26779860](https://pubmed.ncbi.nlm.nih.gov/26779860/) | 2016 | Systematic review | Curr Opin Psychiatry | Pharmacotherapy for mental health problems in intellectual disability |
-| [12920389](https://pubmed.ncbi.nlm.nih.gov/12920389/) | 2003 | Naturalistic cohort | Int Clin Psychopharmacol | Risperidone and olanzapine in adults with ID were well tolerated and effective for target symptoms |
-
-**Trichotillomania** (case reports and small series only, no controlled trials):
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38797877](https://pubmed.ncbi.nlm.nih.gov/38797877/) | 2025 | Review | Int J Dermatol | Review of pharmacological treatment options |
-| [10357517](https://pubmed.ncbi.nlm.nih.gov/10357517/) | 1999 | Case series | J Child Adolesc Psychopharmacol | Risperidone added in three SRI-refractory cases; all showed a robust decrease in symptoms |
-| [9108814](https://pubmed.ncbi.nlm.nih.gov/9108814/) | 1997 | Case series | J Clin Psychiatry | Risperidone augmentation of SRIs in OCD and related disorders |
-
-**Phelan-McDermid syndrome:** a clinical management review ([35328058](https://pubmed.ncbi.nlm.nih.gov/35328058/), 2022, *Genes*) and a zebrafish study of prescribed drugs ([37868296](https://pubmed.ncbi.nlm.nih.gov/37868296/), 2023, *F1000Research*). There are no human trials.
+Currently no related literature available.
 
 ## Singapore Market Information
 
-There are 16 valid single-ingredient registrations. The five main ones are listed below. The licence records contain no approved-indication text.
+Risperidone has 16 valid licences in Singapore, covering oral tablets, oral solutions and injectable products. The main ones are listed below.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -157,41 +80,24 @@ There are 16 valid single-ingredient registrations. The five main ones are liste
 | SIN12354P | RISPERDAL CONSTA for Injection 37.5 mg/vial | Powder for solution for injection | Not recorded |
 | SIN17184P | RYKINDO Extended-Release Injectable Suspension 37.5 mg/vial | Extended-release injectable suspension | Not recorded |
 
-The remaining registrations are generic or other brand products (Eperon, Apo-Risperidone, Risperidone Mevon, Risperidex, Risperidone-Chanelle, and other Rykindo and Risperdal Consta strengths). Available routes are oral (film-coated tablets), oral solution and injectable (long-acting).
-
 ## Safety Considerations
 
-**Contraindications / cautions from the knowledge graph** (drug-disease contraindication edges, not package-insert text):
-- Cardiovascular and cerebrovascular: stroke, cerebrovascular disorder, cerebral infarction, myocardial infarction, coronary thrombosis, sudden cardiac arrest, heart conduction disease, cardiovascular disease, heart disease
-- Blood pressure: orthostatic hypotension, hypotensive disorder, postural orthostatic tachycardia syndrome, multiple system atrophy
-- Metabolic: diabetes mellitus, hyperglycaemia, diabetic ketoacidosis, hyperlipidaemia (including familial), obesity (including monogenic)
-- Haematological: neutropenia, agranulocytosis, haemoglobinopathy
-- Liver and biliary: liver failure, liver disease, gallbladder disease
-- Other: epilepsy, female breast carcinoma
+- **Drug Interactions**: 100 interactions were recorded. Major-level interactions include **bupropion** and **morphine**. Moderate-level interactions include acarbose, famotidine, epinephrine, hydrocortisone, metformin, amphotericin B, atropine, loperamide and canagliflozin. Ranitidine is a minor-level interaction.
 
-**Drug interactions** (100 recorded; main ones shown):
-- **Major:** bupropion, morphine
-- **Moderate:** metformin, acarbose, alogliptin, albiglutide, canagliflozin (antidiabetics); epinephrine, hydrocortisone, amphotericin B, lorcaserin; anticholinergics (atropine, hyoscyamine, glycopyrronium, clidinium); loperamide, bisacodyl, famotidine
-- **Minor:** ranitidine
-
-**Monitoring guardrails from the evidence reviewed:** weight and metabolic parameters, prolactin elevation, extrapyramidal symptoms and sedation. Pharmacogenetic studies (CYP2D6, DRD2, UGT1A1, HTR2C) suggest individual variability in prolactin and weight response.
-
-Please refer to the package insert for full warnings and contraindications.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
+**Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (familial horizontal gaze palsy with progressive scoliosis) and ranks 2, 3 and 10 have no trials or literature and no plausible mechanism.
-- Major affective disorder has two completed Phase 3 trials in treatment-resistant MDD (n=630 and n=258) plus meta-analytic support (L1). Bipolar mania is already an original indication, so the new value is unipolar MDD augmentation. Trichotillomania, Phelan-McDermid syndrome and autism susceptibility are research questions only.
+The prediction has no supporting clinical trials or publications, so its evidence level is L5. There is also no plausible mechanistic link between risperidone's receptor pharmacology and the underlying genetic neurodevelopmental defect.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA), which are currently missing and block safety screening
-- Detailed mechanism of action data
-- Verification of efficacy outcomes in the Phase 3 MDD trials (NCT00095134, NCT00044681) and the Tourette trial (NCT00004393)
-- Confirmation of the approved indications on the Singapore licences
-- A monitoring plan for metabolic, prolactin and extrapyramidal effects, restricting use to treatment-resistant cases with documented antidepressant failure
-- Route compatibility and similarity-to-original-indication assessments, which are still pending
+- Any clinical or preclinical study that directly addresses this disease
+- A credible mechanistic rationale, supported by detailed mechanism of action data for risperidone
+- Package insert warnings and contraindications from the Singapore regulator, for safety screening
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

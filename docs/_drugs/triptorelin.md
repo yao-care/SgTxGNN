@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "Triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L5)."
+description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Triptorelin
@@ -38,16 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist that suppresses sex hormones, and it is marketed in Singapore as injectable depot products.
-The TxGNN model predicts it may be effective for **hypertrichosis** with a very high score, but there are **0 clinical trials** and only **1 publication**, a case report that does not support this use.
-This prediction rests on the model alone, so the evidence is very weak.
-
----
+Triptorelin is a gonadotropin-releasing hormone (GnRH) agonist that suppresses gonadal sex steroids and is marketed in Singapore as injectable products.
+The TxGNN model predicts it may be effective for **hypertrichosis (disease)**, but there are **0 clinical trials** and only **1 publication** (a case report in which the hypertrichosis was attributed to another drug, not to triptorelin), so the prediction is not supported by real evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
@@ -55,37 +53,23 @@ This prediction rests on the model alone, so the evidence is very weak.
 | Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
-The Singapore licence records compiled for this report do not include approved indication text, so the original indication is not listed here.
-
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Triptorelin is a GnRH agonist. Continuous stimulation desensitises pituitary GnRH receptors and suppresses LH and FSH, which in turn lowers gonadal sex steroids.
+Detailed mechanism of action data is not available in the data compiled for this report. Triptorelin belongs to the GnRH agonist class, which, with continued exposure, desensitises the pituitary and lowers gonadal sex steroid production.
 
-**This prediction is not mechanistically convincing.** Hypertrichosis is excessive hair growth that is not androgen-dependent. It is often drug-induced (for example by ciclosporin) or congenital. No credible pathway links GnRH agonism to treating it. Suppressing sex hormones would not be expected to reverse it.
-
-The only publication retrieved is a case report of ciclosporin-induced hypertrichosis in a transgender woman who was also taking estradiol and triptorelin. The hypertrichosis was attributed to ciclosporin, and the report shows that it occurred despite androgen suppression. This is not evidence that triptorelin treats the condition. The high TxGNN score is a statistical prediction only.
-
----
+No credible mechanistic link to hypertrichosis was identified. The only retrieved paper describes hypertrichosis in a transgender woman with psoriasis who was taking estradiol and triptorelin. The authors attributed the hypertrichosis to ciclosporin, not to the testosterone-blocking therapy. It therefore offers no support for triptorelin as a treatment. The high TxGNN score (0.9999) is a model prediction only and should not be read as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Case report | Cureus | Generalised hypertrichosis caused by ciclosporin in a 25-year-old transgender woman with psoriasis. She was also on estradiol and triptorelin, so the report shows hypertrichosis arising despite androgen suppression. It does not show a treatment benefit. |
-
----
+| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Case report | Cureus | Ciclosporin-induced generalised hypertrichosis in a transgender woman on estradiol and triptorelin; hypertrichosis occurred despite androgen suppression and was attributed to ciclosporin |
 
 ## Singapore Market Information
-
-Six valid single-ingredient licences are registered. The first five are listed below, and approved indication text is not available for them.
 
 | Authorization Number | Product Name | Dosage Form |
 |---------|------|------|
@@ -95,44 +79,24 @@ Six valid single-ingredient licences are registered. The first five are listed b
 | SIN14634P | Diphereline P.R. Powder and Solvent for Suspension for Injection 3.75 mg/vial | Injection, extended-release powder for suspension |
 | SIN08697P | Decapeptyl Injection 0.1 mg/ml | Injection |
 
----
-
 ## Safety Considerations
 
-Please refer to the package insert for key warnings and contraindications.
+- **Drug Interactions**: 100 interactions were found in the interaction screen. One is rated Major: dolasetron. Most others are rated Moderate, including several antidiabetic drugs (acarbose, metformin, pioglitazone, glimepiride, chlorpropamide, alogliptin, saxagliptin, canagliflozin, dapagliflozin, empagliflozin, albiglutide, dulaglutide), as well as famotidine, clarithromycin, loperamide, bisacodyl, palonosetron, picosulfuric acid and polyethylene glycol with electrolytes.
 
-- **Disease associations from the knowledge graph (not label text):** The TxGNN knowledge graph links triptorelin to the following conditions as potential contraindications. These should be checked against the official label before any use:
-  - hypertension
-  - kidney disease
-  - liver disease
-  - gallbladder disease
-  - hyperglycaemia
-  - diabetes mellitus
-  - diabetic ketoacidosis
-  - obesity
-  - urinary tract obstruction
-  - spinal cord disease
-  - pyoureter
-- **Drug interactions:** 100 interactions were identified.
-  - **Major:** dolasetron.
-  - **Moderate (examples):** antidiabetic agents such as metformin, pioglitazone, glimepiride, acarbose, dapagliflozin, empagliflozin, canagliflozin, alogliptin, saxagliptin, dulaglutide and albiglutide.
-  - **Moderate (others):** clarithromycin, famotidine, palonosetron, loperamide, bisacodyl and bowel-preparation agents.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, a single irrelevant case report, and no plausible mechanism for GnRH agonism to treat hypertrichosis. The high TxGNN score alone does not justify further development for this indication.
+The prediction rests on a model score alone. No clinical trials exist, and the single publication does not show benefit from triptorelin; it describes hypertrichosis caused by another drug. No mechanistic link is apparent.
 
 **To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking GnRH agonism to the type of hypertrichosis targeted
-- Preclinical or clinical data in hypertrichosis patients
-- Full package insert warnings and contraindications for triptorelin
+- Mechanism of action data and a plausible biological rationale linking GnRH agonism to hypertrichosis
+- Package insert warnings and contraindications from the HSA
+- Any preclinical or clinical study directly testing triptorelin in hypertrichosis
 
-It has several completed Phase 3 trials of triptorelin in central precocious puberty and extensive supporting literature, and the mechanism is consistent. This is most likely a confirmation of existing use rather than true repurposing, and it would warrant a separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

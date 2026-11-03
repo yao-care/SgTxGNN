@@ -38,8 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Flurbiprofen is a non-steroidal anti-inflammatory drug (NSAID) originally used for rheumatoid arthritis, osteoarthritis and other joint disorders.
-There are **no registered clinical trials**, but the data compiled for this report include **20 publications**, many of them older double-blind comparison studies.
+Flurbiprofen is a non-steroidal anti-inflammatory drug (NSAID) that works by inhibiting cyclooxygenase (COX) enzymes. The TxGNN model predicts it may be relevant to **acromesomelic dysplasia, Hunter-Thompson type**, with a very high model score. However, there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ---
 
@@ -50,20 +49,20 @@ There are **no registered clinical trials**, but the data compiled for this repo
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L5 (older comparative studies and reviews, no registered trials) |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, flurbiprofen is an NSAID that inhibits COX-1 and COX-2, which reduces prostaglandin-mediated inflammation and pain. This is the established mechanism of symptomatic relief in axial spondyloarthritis.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Flurbiprofen belongs to the NSAID class, whose members reduce prostaglandin production through COX inhibition. This gives the drug anti-inflammatory and analgesic effects.
 
-Ankylosing spondylitis is an inflammatory rheumatic disease whose symptoms (pain, stiffness, tenderness of the joints) are the same ones flurbiprofen is already used to relieve in rheumatoid arthritis and osteoarthritis. This is therefore closer to an extension within the same therapeutic class than a true repurposing. NSAIDs are established first-line therapy for this condition.
+The predicted disease is a rare genetic skeletal dysplasia linked to the CDMP1/GDF5 pathway, which governs bone and cartilage development. No plausible mechanistic link between COX inhibition and this developmental genetic basis was identified. An NSAID would not be expected to modify the underlying disease. At most it could offer symptomatic pain relief, and no data support even that.
 
-The other top-ranked predictions are mostly rare genetic skeletal or developmental syndromes (for example brachydactyly-syndactyly syndrome, brachyolmia and pseudoachondroplasia). No plausible mechanistic link was identified for them, and they have no trials or literature. They remain model predictions only (L5, Hold). Spondyloarthropathy susceptibility (L4) overlaps with ankylosing spondylitis, and its support is inferred from the same evidence.
+The high score is therefore a computational pattern match and should not be read as a signal of clinical benefit.
 
 ---
 
@@ -75,20 +74,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Most of the literature predates 2000. The study types below were inferred largely from titles and abstracts.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [3963017](https://pubmed.ncbi.nlm.nih.gov/3963017/) | 1986 | Double-blind randomized comparison | Am J Med | Flurbiprofen 200 mg/day vs phenylbutazone in 90 patients over 26 weeks: equally effective in controlling pain and symptoms |
-| [3963018](https://pubmed.ncbi.nlm.nih.gov/3963018/) | 1986 | Double-blind randomized comparison | Am J Med | Flurbiprofen vs indomethacin in 57 patients over 26 weeks: effective in controlling pain and associated symptoms |
-| [71969](https://pubmed.ncbi.nlm.nih.gov/71969/) | 1977 | Double-blind randomized comparison | Curr Med Res Opin | Flurbiprofen vs indomethacin in 26 patients over 6 weeks: equally effective for pain and tenderness |
-| [329422](https://pubmed.ncbi.nlm.nih.gov/329422/) | 1977 | Double-blind randomized comparison | South Med J | Flurbiprofen vs indomethacin in 26 patients: equal relief of joint pain and tenderness |
-| [324773](https://pubmed.ncbi.nlm.nih.gov/324773/) | 1977 | Double-blind randomized comparison | Eur J Clin Pharmacol | Flurbiprofen vs phenylbutazone in 27 patients: equally effective; overall improvement favoured phenylbutazone but not significantly |
-| [4611579](https://pubmed.ncbi.nlm.nih.gov/4611579/) | 1974 | Double-blind cross-over trial | Br Med J | Flurbiprofen vs phenylbutazone in 35 patients: well tolerated, efficacy approaching phenylbutazone |
-| [7003449](https://pubmed.ncbi.nlm.nih.gov/7003449/) | 1980 | Double-blind cross-over comparison | N Z Med J | Flurbiprofen vs naproxen in 30 patients: no significant efficacy difference; side effects more frequent with flurbiprofen |
-| [4595274](https://pubmed.ncbi.nlm.nih.gov/4595274/) | 1974 | Double-blind cross-over comparison | Ann Rheum Dis | Indomethacin, flurbiprofen and placebo compared in ankylosing spondylitis (no abstract available) |
-| [391529](https://pubmed.ncbi.nlm.nih.gov/391529/) | 1979 | Review | Drugs | Pharmacology and therapeutic use of flurbiprofen in rheumatic diseases, including ankylosing spondylitis |
-| [3963024](https://pubmed.ncbi.nlm.nih.gov/3963024/) | 1986 | Pooled safety analysis | Am J Med | Liver and kidney data pooled from nine phase III trials (1,677 patients) in ankylosing spondylitis, osteoarthritis and rheumatoid arthritis |
+Currently no related literature available.
 
 ---
 
@@ -100,41 +86,35 @@ Most of the literature predates 2000. The study types below were inferred largel
 | SIN15370P | Strepsils Max Pro Direct Spray 8.75mg per dose | Spray | Not stated in the licence record |
 | SIN12090P | Acustop Cataplasma Plaster 40 mg/sheet | Patch | Not stated in the licence record |
 
-All three licences are valid single-ingredient products. They are a lozenge, a spray and a patch (topical or local routes), not the systemic oral forms used in the ankylosing spondylitis studies above. Route compatibility for the predicted indication has not been assessed.
+All three licences are for single-ingredient products and are currently valid. The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment.
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications (from the knowledge graph, not label text)**: hypertension, kidney disease, liver disease, gallbladder disease, peptic ulcer disease (including active), blood coagulation disease, myocardial infarction, coronary thrombosis, cardiovascular and heart disease, hemoglobinopathy, substance abuse/dependence, and pyoureter.
-- **Drug Interactions**: 100 interactions were found in the interaction databases; the 20 reviewed include mostly moderate ones:
-  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide
-  - Aspirin (acetylsalicylic acid)
-  - Mesalazine and balsalazide
-  - Antidiabetics: metformin, glimepiride, chlorpropamide
-  - Aprepitant
-  - Potassium citrate and potassium bicarbonate
-  - Bowel preparations: picosulfuric acid, sodium sulfate, polyethylene glycol with electrolytes
-  - Minor interactions: famotidine, cimetidine, linaclotide
-- One study in the literature set (PMID 7003449) noted more frequent side effects with flurbiprofen than naproxen. The pooled phase III analysis (PMID 3963024) examined liver and kidney assay data.
+**Drug Interactions** (100 interacting drugs recorded in the interaction database; examples below):
 
-Package insert warnings were not available, so please refer to the package insert for complete safety information.
+- **Moderate:** hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide (corticosteroids); acetylsalicylic acid; metformin; glimepiride and chlorpropamide (sulfonylureas); aprepitant; mesalazine and balsalazide; potassium citrate and potassium bicarbonate; picosulfuric acid; sodium sulfate; polyethylene glycol with electrolytes
+- **Minor:** famotidine, cimetidine, linaclotide
+
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
+**Decision: Hold**
 
 **Rationale:**
-- Several double-blind comparison studies show flurbiprofen relieves ankylosing spondylitis symptoms about as well as indomethacin, phenylbutazone and naproxen. NSAIDs are also an established treatment class for this condition. However, the evidence is old, small and not registered, and there are no trials of recent design.
-- The Singapore-registered products are topical or local forms, and the top-ranked rare skeletal disease predictions have no supporting evidence.
+The prediction has no supporting clinical trials or publications (evidence level L5). No plausible mechanistic link was identified between COX inhibition and this genetic skeletal dysplasia. The high TxGNN score alone is not sufficient to justify further investment.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Confirmation of the study designs and outcomes of the older comparison studies, with a review of newer evidence for NSAIDs in axial spondyloarthritis
-- Assessment of whether a systemic oral formulation is registered or needed in Singapore
-- A safety plan for patients with cardiovascular, renal, hepatic, gastrointestinal bleeding or coagulation risk, and a review of interactions with corticosteroids, aspirin and antidiabetic drugs
+- Any preclinical or clinical evidence that directly studies flurbiprofen, or COX inhibition, in this disease
+- A credible mechanistic hypothesis linking the drug to the GDF5/CDMP1-related pathology
+- Detailed mechanism-of-action data for flurbiprofen
+- Package insert warnings and contraindications from the HSA records, to allow safety screening
+- A route-of-administration assessment, since the registered Singapore forms are non-oral (lozenge, spray, patch)
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

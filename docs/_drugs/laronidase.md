@@ -38,10 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Laronidase is a recombinant alpha-L-iduronidase enzyme replacement therapy, originally used for mucopolysaccharidosis type I (MPS I), including Hurler, Hurler-Scheie and Scheie syndromes.
-The predicted category largely overlaps with the already-approved MPS I indication, so this is best seen as a research question rather than a true new indication.
-
----
+Laronidase is a recombinant human alpha-L-iduronidase enzyme replacement therapy that is marketed in Singapore. The TxGNN model predicts it may be relevant to **Sanfilippo syndrome** (score 0.9922). However, there are **no registered clinical trials** and **none of the 8 publications** compiled for this report tests laronidase in Sanfilippo syndrome, so the prediction currently rests on the model alone.
 
 ## Quick Overview
 
@@ -55,34 +52,36 @@ The predicted category largely overlaps with the already-approved MPS I indicati
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Laronidase is a recombinant form of alpha-L-iduronidase, the lysosomal enzyme that is deficient in MPS I. Replacing it helps break down the glycosaminoglycans (GAGs) dermatan sulfate and heparan sulfate, which otherwise accumulate in tissues. Currently, detailed mechanism of action data is not available in the compiled data, but this role is well described in the literature.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Laronidase is a recombinant alpha-L-iduronidase. This enzyme removes iduronide residues from the glycosaminoglycans heparan sulfate and dermatan sulfate.
 
-MPS I causes skeletal disease (dysostosis multiplex) through GAG accumulation. A laboratory study (PMID 18758061) showed that cultured fibroblasts and osteoblasts take up laronidase, mainly through mannose 6-phosphate receptors, and that the enzyme reaches lysosomes. This supports a plausible effect on bone cells.
+The model's high score most likely reflects shared biology: Sanfilippo syndrome (MPS III) also involves accumulation of heparan sulfate. The mechanistic fit is weak, though, for three reasons:
 
-There are important caveats. The predicted category is a broad class label that overlaps with the approved MPS I indication, rather than a distinct new disease. Enzyme replacement is also known to have limited effect on bone and cartilage because of poor penetration into avascular tissue. Because laronidase is specific to iduronide substrates, efficacy in other storage diseases is not expected.
+- Sanfilippo syndrome is caused by deficiencies of other heparan sulfate-degrading enzymes (SGSH, NAGLU, HGSNAT, GNS), not by a lack of alpha-L-iduronidase.
+- Laronidase acts upstream of those enzymatic steps, so it cannot replace the missing activity.
+- Intravenous enzyme replacement has limited penetration into the central nervous system, and CNS disease is the main clinical problem in Sanfilippo syndrome.
 
----
+The score should therefore be read as a hypothesis-generating signal, not as evidence of benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+None of these publications studies laronidase in Sanfilippo syndrome. They concern the enzyme's own deficiency disorder or are preclinical, so they are indirect evidence.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatr Endocrinol Rev | Overview of MPS I: iduronidase deficiency, the Hurler/Hurler-Scheie/Scheie spectrum, and diagnosis by urinary GAGs and enzyme assay |
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review | BioDrugs | Early development of laronidase for MPS I, including orphan designation and fast-track status |
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Case report | Pediatr Neurol | 6.5-year follow-up of a boy with Scheie syndrome on enzyme replacement; overall status declined and disease progressed |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | In vitro study | Biol Pharm Bull | MPS I fibroblasts and osteoblasts took up laronidase via M6P receptors, and the enzyme reached lysosomes |
-
----
+| [15126990](https://pubmed.ncbi.nlm.nih.gov/15126990/) | 2004 | RCT | The Journal of Pediatrics | Randomized, double-blind, placebo-controlled multinational study confirming efficacy and safety of laronidase in alpha-L-iduronidase deficiency (indirect) |
+| [40830667](https://pubmed.ncbi.nlm.nih.gov/40830667/) | 2025 | Phase III crossover (biosimilar comparison) | Scientific Reports | Biosimilar laronidase compared with the reference product for maintaining urinary glycosaminoglycan levels (indirect) |
+| [32340185](https://pubmed.ncbi.nlm.nih.gov/32340185/) | 2020 | Review | Int J Mol Sci | Summarizes efficacy and safety of intravenous enzyme replacement across several mucopolysaccharidoses; post-marketing data are sometimes conflicting |
+| [31020996](https://pubmed.ncbi.nlm.nih.gov/31020996/) | 2019 | Systematic review | J Inherit Metab Dis | Real-world effectiveness data for laronidase are limited |
+| [15794739](https://pubmed.ncbi.nlm.nih.gov/15794739/) | 2005 | Review | Expert Opin Pharmacother | First five years of clinical experience with laronidase |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review | BioDrugs | Development overview of laronidase, including orphan designation and early trials |
+| [33139350](https://pubmed.ncbi.nlm.nih.gov/33139350/) | 2021 | Cohort/registry analysis | Arch Dis Child | Time to treatment has improved over 15 years, but time to diagnosis has not |
+| [23251908](https://pubmed.ncbi.nlm.nih.gov/23251908/) | 2012 | Preclinical (cell culture) | Acta Biochim Pol | Laronidase showed no cytotoxicity in cell lines; compares siRNA-based glycosaminoglycan synthesis silencing with enzyme therapy. This is not evidence of laronidase efficacy in Sanfilippo syndrome |
 
 ## Singapore Market Information
 
@@ -90,36 +89,28 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | SIN13347P | ALDURAZYME | Injection, solution | Not stated in the available licence record |
 
----
+The one authorization on record is a valid single-ingredient licence (Vetter Pharma-Fertigung GmbH & Co. KG and BioMarin Pharmaceutical Inc).
 
 ## Safety Considerations
 
-- **Drug Interactions**: Two minor interactions were identified, with chloroquine and procaine.
+- **Drug Interactions:** Two minor interactions are recorded, with chloroquine and procaine.
 
-For other safety information, including warnings and contraindications, please refer to the package insert.
-
----
+Warning and contraindication text is not available in the compiled data. Please refer to the package insert for these.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output and indirect MPS I literature, with no trials directly addressing the new indication. The predicted category also largely overlaps with the approved MPS I use, and enzyme replacement is known to have limited effect on bone. It is best treated as a research question.
+The prediction score is high, but the evidence level is L5. No trial or publication tests laronidase in Sanfilippo syndrome. The mechanism also argues against benefit, because the missing enzymes differ from the one laronidase supplies, and intravenous delivery reaches the CNS poorly.
 
 **To proceed, the following is needed:**
-- Clarification of what "lysosomal storage disease with skeletal involvement" covers beyond MPS I, and whether any distinct population is not already served by the approved indication
-- Studies of skeletal outcomes with laronidase
-- The package insert for warnings, contraindications and the approved indication text
-- Mechanism of action data
+- Preclinical or mechanistic data showing that laronidase can act on the heparan sulfate substrates that accumulate in Sanfilippo syndrome
+- Evidence that enough enzyme reaches the central nervous system, for example through a different delivery route
+- Mechanism-of-action data for laronidase
+- Package insert warnings and contraindications, to support safety screening
+- Any registered or published clinical studies in Sanfilippo syndrome, if they exist
 
----
-
-## Other Predicted Indications (Brief)
-
-For completeness, the other nine model predictions all carry weaker evidence:
-
-- **Sanfilippo syndrome (0.9922, L4, Hold):** Sanfilippo syndrome (MPS III) is caused by deficiencies in other heparan sulfate-degrading enzymes, which laronidase cannot replace. The retrieved literature concerns MPS I, and intravenous enzyme replacement has limited CNS penetration.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

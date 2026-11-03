@@ -38,8 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Chloramphenicol is a broad-spectrum antibiotic originally used for systemic bacterial and rickettsial infections such as typhoid fever, meningitis and typhus.
-Topical chloramphenicol for bacterial conjunctivitis is already established clinical practice in some countries, so this is closer to an existing use than true repurposing.
+Chloramphenicol is an antibiotic marketed in Singapore as ear and eye drops.
+The TxGNN model predicts it may be effective for **diffuse scleroderma**, but there are **0 clinical trials** and only **4 laboratory-based publications** on this disease, none showing a therapeutic effect of the drug.
 
 ## Quick Overview
 
@@ -51,32 +51,26 @@ Topical chloramphenicol for bacterial conjunctivitis is already established clin
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, chloramphenicol is a broad-spectrum, bacteriostatic antibiotic that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit.
+Currently, detailed mechanism of action data is not available. Chloramphenicol is a broad-spectrum antibiotic, and its use against bacterial infections is well established. Mechanistically, there is no clear reason it would act on diffuse scleroderma, which is an autoimmune and fibrotic disease.
 
-Its original indications are bacterial and rickettsial infections, including several that involve mucosal and ear/skin sites (otitis externa, skin infections). Bacterial conjunctivitis is a superficial infection of the eye, so the same antibacterial activity is directly relevant. The supplied literature notes that topical chloramphenicol is widely used for conjunctivitis in the UK, though rarely prescribed for it in the U.S.
-
-The Singapore registrations are for ear drops and an eye drop product (0.5%), which means a topical ocular form is already available locally.
+The four publications linked to this prediction (1996–2006) study collagen gene regulation and TGF-beta/Smad3 signalling in scleroderma fibroblasts. They appear to use chloramphenicol mainly as a reporter-assay tool (the CAT assay), not as a treatment. The high TxGNN score therefore is not backed by a plausible therapeutic mechanism in the data compiled for this report.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for conjunctivitis.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Selected publications (no RCTs were identified; reviews and comparative studies are prioritised):
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Review (Cochrane) | Cochrane Database Syst Rev | Interventions for preventing ophthalmia neonatorum (neonatal conjunctivitis) |
-| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Comparative review of 16 topical ophthalmic antibacterial preparations |
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative study | Curr Ther Res | Moxifloxacin compared with chloramphenicol for bacterial eye infections |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Review | Drug Safety | Debate over a possible link between ocular chloramphenicol and aplastic anaemia |
-| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Review | Eye | Appropriate use and misuse of topical chloramphenicol |
-| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Review | Clin Exp Ophthalmol | Concerns about over-the-counter chloramphenicol |
+| [8702443](https://pubmed.ncbi.nlm.nih.gov/8702443/) | 1996 | Basic research | Arthritis and Rheumatism | Transcriptional activation of the COL1A1 collagen gene in dermal fibroblasts from patients with diffuse systemic sclerosis; role of intronic sequences |
+| [9811061](https://pubmed.ncbi.nlm.nih.gov/9811061/) | 1998 | Basic research | Arthritis and Rheumatism | Promoter elements and transcription factors behind up-regulated COL1A1 expression in systemic sclerosis |
+| [11229480](https://pubmed.ncbi.nlm.nih.gov/11229480/) | 2001 | Basic research | Arthritis and Rheumatism | Blocking TGF-beta signalling prevented up-regulated collagen synthesis in scleroderma fibroblasts |
+| [16319104](https://pubmed.ncbi.nlm.nih.gov/16319104/) | 2006 | Basic research | Rheumatology (Oxford) | Constitutively phosphorylated Smad3 interacts with Sp1 and p300 in scleroderma fibroblasts |
 
 ## Singapore Market Information
 
@@ -86,35 +80,26 @@ Selected publications (no RCTs were identified; reviews and comparative studies 
 | SIN04574P | Chloramphenicol Ear Drops 5% w/v | Solution | Not stated in the licence record |
 | SIN00231P | Xepanicol Eye Drops 0.5% | Solution | Not stated in the licence record |
 
-## Cytotoxicity
-
-Chloramphenicol is an antibacterial, not an antineoplastic drug, so this section does not apply.
-
 ## Safety Considerations
 
-- **Contraindications / conditions of concern** (from the drug-disease knowledge graph, not from label text): kidney disease, liver disease, gallbladder disease, peripheral neuropathy, optic neuritis, acute intermittent porphyria, and a range of blood disorders, namely anaemia, aplastic anaemia, thrombocytopenia, agranulocytosis, neutropenia (including congenital forms), and paroxysmal nocturnal haemoglobinuria.
-- **Literature-based concerns**: the possible link between ocular chloramphenicol and aplastic anaemia remains debated, and over-the-counter misuse has been raised as a concern.
-- **Drug Interactions** (100 interactions recorded; examples):
-  - **Major**: cisapride, naloxegol
-  - **Moderate**: sulfonylurea antidiabetics (glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide), repaglinide, saxagliptin, simvastatin, rosuvastatin, metronidazole, aprepitant, budesonide, iron, eliglustat, nitisinone, balsalazide, naldemedine
+- **Conditions of concern with chloramphenicol** (from drug–disease relationship data, not label text): kidney disease, liver disease, gallbladder disease, thrombocytopenia, anaemia (including aplastic anaemia), neutropenia and agranulocytosis, peripheral neuropathy, optic neuritis, acute intermittent porphyria and paroxysmal nocturnal haemoglobinuria.
+- **Drug Interactions**: 100 interactions were found. Major ones include **cisapride** and **naloxegol**. Moderate ones include metronidazole, sulfonylureas (glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide), repaglinide, simvastatin, rosuvastatin, saxagliptin, aprepitant, budesonide, iron and eliglustat.
 
-Package insert warnings were not available for this review; please refer to the package insert for full safety information.
+Please refer to the package insert for label warnings and contraindications, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Topical chloramphenicol for bacterial conjunctivitis is established practice, and the Singapore market already has an eye drop product. The evidence is limited to reviews and older comparative studies (L3), with no registered trials, and efficacy in some studies was equal or inferior to alternatives. Haematological safety concerns call for guardrails.
+The prediction rests on the model score alone. No trial studies this disease, and the four publications are laboratory studies that use chloramphenicol as an assay tool rather than a treatment. Its known blood toxicity is a further concern in a chronic condition such as scleroderma.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications for the eye drop product, plus the approved indication text, which is missing from the licence records
-- Mechanism of action data from DrugBank
-- Confirmation of the approved ocular indication for SIN00231P
-- Guardrails for use: topical-only use, short courses, and a screening for history of blood disorders or bone marrow suppression
-- Review of current local resistance patterns and comparison with alternative topical antibiotics
+- Evidence that chloramphenicol has a therapeutic effect in diffuse scleroderma (preclinical or clinical)
+- Mechanism of action data for the drug
+- Package insert warnings and contraindications from the HSA
+- A risk-benefit review of the haematological toxicity for long-term use
 
-**Other predicted indications (not recommended at this time, Hold):** diffuse scleroderma, postinfectious vasculitis, post-bacterial disorder, post-infectious syndrome, infective urethral stricture, Chagas cardiomyopathy, infection-related haemolytic uraemic syndrome, punctate epithelial keratoconjunctivitis and chronic rhinosinusitis. These are supported only by model prediction or by literature that does not evaluate chloramphenicol as a treatment (for example, the scleroderma papers use chloramphenicol only as a laboratory reporter assay tool).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

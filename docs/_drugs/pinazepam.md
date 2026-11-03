@@ -38,9 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Pinazepam is a benzodiazepine that the body converts into N-desmethyldiazepam (nordazepam), and it is marketed in Singapore as an oral capsule. No approved indication text is recorded for it in the data compiled for this report.
-The TxGNN model predicts it may be effective for **insomnia** (top-ranked prediction), but there are currently **no clinical trials and no publications** directly supporting this indication.
-The evidence is a computational prediction only (Level L5).
+Pinazepam is a benzodiazepine prodrug that is converted in the body to nordazepam, a sedative-hypnotic compound. The TxGNN model predicts it may be useful for **insomnia (disease)**. Currently **0 clinical trials** and **0 publications** support this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
@@ -56,38 +54,17 @@ The evidence is a computational prediction only (Level L5).
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, pinazepam is a 1,4-benzodiazepine prodrug. It is converted mainly by N-dealkylation into N-desmethyldiazepam (nordazepam), a long-acting positive allosteric modulator of the GABA-A receptor. This class produces sedative, hypnotic and anxiolytic effects.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, pinazepam is a benzodiazepine prodrug metabolised to N-desmethyldiazepam (nordazepam). Nordazepam enhances the activity of GABA-A receptors, which produces sedative and hypnotic effects.
 
-Because GABA-A potentiation underlies the sedative-hypnotic action of benzodiazepines, the link to insomnia is mechanistically plausible. A 1984 review, however, describes pinazepam as having a comparatively low hypnotic effect and limited motor impairment in animals. This weakens the case for insomnia specifically. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
-
-**Other predictions for context:**
-- **Sleep disorder (initiating and maintaining sleep):** essentially the same entity as insomnia, with no supporting studies.
-- **Alcohol withdrawal and alcohol withdrawal delirium:** benzodiazepines are standard of care, but no pinazepam-specific evidence exists and established agents are available.
-- **Antidepressant, barbiturate and hallucinogen abuse:** identical scores across these terms (0.9946) come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; the rationale is weak or absent.
+Because this mechanism reduces neuronal excitability and promotes sleep, it is biologically plausible for insomnia. However, no clinical trials or publications were found that study pinazepam in insomnia. The high score is a computational prediction only and does not show that the drug works for this condition.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for insomnia.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for insomnia.
-
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [6147192](https://pubmed.ncbi.nlm.nih.gov/6147192/) | 1984 | Review | Clinical Therapeutics | Review of pinazepam's pharmacology and therapeutic efficacy. Controls anxiety and aggression in animals, with low hypnotic effect and less toxicity than diazepam |
-| [12907](https://pubmed.ncbi.nlm.nih.gov/12907/) | 1976 | Open-label trial | La Clinica Terapeutica | Open clinical trial of pinazepam (no abstract available) |
-| [7006888](https://pubmed.ncbi.nlm.nih.gov/7006888/) | 1980 | Clinical study | La Clinica Terapeutica | Clinical research in gastrointestinal psychosomatic diseases (no abstract available) |
-| [28903606](https://pubmed.ncbi.nlm.nih.gov/28903606/) | 2017 | Review | Drug Metabolism Reviews | Metabolic profile of oxazepam and related benzodiazepines, including pinazepam, with clinical and forensic aspects |
-| [6809477](https://pubmed.ncbi.nlm.nih.gov/6809477/) | 1982 | Pharmacokinetic | Eur J Clin Pharmacol | Pinazepam acts as a prodrug; its metabolite reaches higher plasma levels than the parent shortly after a 10 mg oral dose |
-| [6147314](https://pubmed.ncbi.nlm.nih.gov/6147314/) | 1983 | Pharmacokinetic | Int J Clin Pharmacol Res | Kinetics in six healthy volunteers after a single 10 mg oral dose |
-| [6150857](https://pubmed.ncbi.nlm.nih.gov/6150857/) | 1984 | Pharmacokinetic | Eur J Clin Pharmacol | Placental transfer of pinazepam and its metabolite in 25 women at term |
-| [26359](https://pubmed.ncbi.nlm.nih.gov/26359/) | 1978 | Preclinical | Arzneimittel-Forschung | In rats, pinazepam was more than twice as active as diazepam in reducing conditioned emotional response |
-| [240369](https://pubmed.ncbi.nlm.nih.gov/240369/) | 1975 | Preclinical/Toxicology | Arzneimittel-Forschung | Lower toxicity, hypnotic and muscle-relaxant activity than diazepam |
-| [6124406](https://pubmed.ncbi.nlm.nih.gov/6124406/) | 1982 | Preclinical PK | Drug Metab Dispos | Rapid absorption and conversion to N-desmethyldiazepam in rats, with a liver first-pass effect |
-
-These studies are mostly pharmacokinetic or preclinical, dated, and not randomized controlled trials.
+Currently no related literature available.
 
 ## Singapore Market Information
 
@@ -97,24 +74,21 @@ These studies are mostly pharmacokinetic or preclinical, dated, and not randomiz
 
 ## Safety Considerations
 
-- **Drug Interactions:** No interaction records were found for this drug.
-- **Knowledge-graph contraindications:** No drug-disease contraindication edges were found.
-
-Please refer to the package insert for warnings and contraindications. As a benzodiazepine, dependence, abuse liability, sedation and fetal exposure are class concerns, and placental transfer has been documented for pinazepam and its metabolite (PMID 6150857).
+Please refer to the package insert for safety information. No drug-interaction records were found in the data compiled for this report. As a benzodiazepine, pinazepam carries a known class risk of sedation, dependence and abuse, which should be weighed in any new use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The insomnia prediction rests only on a model score, with no trials or literature, and early animal data suggest pinazepam has a relatively low hypnotic effect. The better-supported indications (anxiety) are probably the drug's original use rather than true repurposing.
+The only support for insomnia is a model score and a plausible GABA-A mechanism. No trials or publications directly study pinazepam in insomnia, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
-- Mechanism of action data from DrugBank
-- Clinical efficacy data for pinazepam in insomnia, such as sleep studies or comparisons with established hypnotics
-- A comparison against existing benzodiazepines and other hypnotics already marketed in Singapore
-- A dependence and abuse-risk assessment for any sleep-related use
+- Clinical or observational studies of pinazepam (or nordazepam) in insomnia
+- Package insert warnings and contraindications from HSA
+- Detailed mechanism-of-action data from DrugBank
+- A dependence, abuse and next-day sedation risk assessment for a sleep indication
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
