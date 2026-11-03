@@ -4,17 +4,17 @@ title: Ertapenem
 parent: Low Evidence (L5)
 nav_order: 397
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "Ertapenem"
-predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -111,7 +111,6 @@ For bacterial arthritis, the biological plausibility is high, but the evidence i
 
 **Other predicted indications of note:**
 - **Urinary tract infection (L1, Proceed with Guardrails):** Several completed Phase 3 trials exist, including a randomised comparison with ceftriaxone in complicated UTI (NCT01014013, n=271) and a combined analysis of two double-blind ertapenem versus ceftriaxone trials (PMID 15150185). This is largely an established use rather than a novel repurposing. Guardrails should cover antimicrobial stewardship and resistance, and the label status should be verified.
-- **Staphylococcus aureus infection (L2, Research Question):** Cefazolin plus ertapenem is being tested in a Phase 2 trial for MSSA bacteremia (NCT04886284, recruiting, n=60), supported by salvage-therapy case series. Ertapenem would be an add-on partner, not monotherapy.
 - These are likely model artifacts, and all are Hold.
 ## Disclaimer
 

@@ -4,17 +4,17 @@ title: Pinazepam
 parent: Low Evidence (L5)
 nav_order: 794
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-28
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Pinazepam"
-predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "anxiety", "sleep disorder, initiating and maintaining sleep"]
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "sleep disorder, initiating and maintaining sleep"]
 description: "Pinazepam: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pinazepam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -62,7 +62,6 @@ Because GABA-A potentiation underlies the sedative-hypnotic action of benzodiaze
 
 **Other predictions for context:**
 - **Sleep disorder (initiating and maintaining sleep):** essentially the same entity as insomnia, with no supporting studies.
-- **Anxiety and anxiety disorder:** the only predictions with literature (L3), but these likely overlap with the drug's original use, so they are closer to on-label use than true repurposing.
 - **Alcohol withdrawal and alcohol withdrawal delirium:** benzodiazepines are standard of care, but no pinazepam-specific evidence exists and established agents are available.
 - **Antidepressant, barbiturate and hallucinogen abuse:** identical scores across these terms (0.9946) come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; the rationale is weak or absent.
 
@@ -74,7 +73,6 @@ Currently no related clinical trials registered for insomnia.
 
 Currently no related literature available for insomnia.
 
-For the related predicted indication **anxiety / anxiety disorder**, the following publications were found (most relevant first):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

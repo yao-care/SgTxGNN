@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyclophosphamide
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 286
-evidence_level: L2
-indication_count: 4
-last_modified_at: 2026-10-28
-description: "Cyclophosphamide: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Lymphoma, plasma cell myeloma…"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Cyclophosphamide"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-## Cyclophosphamide: From Lymphoma and Breast Carcinoma to Myeloid Leukemia
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Cyclophosphamide is an alkylating chemotherapy drug, originally used for lymphomas, multiple myeloma, neuroblastoma, breast carcinoma and retinoblastoma, among others.
-The TxGNN model predicts it may be useful for **myeloid leukemia**, with **34 clinical trials** and **20 publications** currently supporting this direction.
 Most of this evidence concerns transplant conditioning and post-transplant graft-versus-host disease (GVHD) prevention, not cyclophosphamide alone as a leukemia treatment.
 
 ---
@@ -48,10 +47,10 @@ Most of this evidence concerns transplant conditioning and post-transplant graft
 
 | Item | Content |
 |------|------|
-| Original Indication | Lymphoma, plasma cell myeloma, cutaneous T-cell lymphoma (including mycosis fungoides), neuroblastoma, breast carcinoma, retinoblastoma (from the knowledge-graph indication list; no approved-indication text is recorded for the Singapore licences) |
-| Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 0.9947 |
-| Evidence Level | L2 (one completed randomized Phase 2/3 trial; no completed Phase 3 trials) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| TxGNN Prediction Score | 0.9938 |
+| Evidence Level | L5 (one completed randomized Phase 2/3 trial; no completed Phase 3 trials) |
 | Singapore Market Status | Marketed (valid licences: 5 of 5) |
 | Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |

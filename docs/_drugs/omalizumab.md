@@ -4,17 +4,17 @@ title: Omalizumab
 parent: Medium Evidence (L3-L4)
 nav_order: 739
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Omalizumab: predicted new indication Bronchitis (evidence level L3). Approved use: Asthma, intrinsic asthma, allergic asthma, idiopathic urticaria"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Omalizumab"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+description: "Omalizumab: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Omalizumab: From Asthma to Bronchitis
+## Omalizumab: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,7 +48,7 @@ The data compiled for this report show stronger evidence for neighbouring predic
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, intrinsic asthma, allergic asthma, idiopathic urticaria (approved indication text is not available in the Singapore licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |

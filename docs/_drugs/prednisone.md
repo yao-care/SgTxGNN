@@ -4,17 +4,17 @@ title: Prednisone
 parent: High Evidence (L1-L2)
 nav_order: 823
 evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, adrenocortical insufficiency…"
 monitor_inn: "Prednisone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 ---
 
 # Prednisone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -113,7 +113,6 @@ Please refer to the package insert for the full warnings and contraindications, 
 | 6 | Hereditary hypotrichosis with recurrent skin vesicles | L5 | Hold | Genetic structural disorder; no rationale |
 | 7 | Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome | L5 | Hold | Genetic syndrome; immunosuppression unlikely to help |
 | 8 | Atrichia with papular lesions | L5 | Hold | Genetic follicle regeneration disorder; not immune-driven |
-| 9 | Tenosynovitis | L4 | Research Question | Glucocorticoids are used for underlying inflammatory conditions, but evidence is case reports and observational studies |
 | 10 | Prolapse of lacrimal gland | L5 | Hold | Structural problem treated surgically; no evidence |
 
 ## Conclusion and Next Steps

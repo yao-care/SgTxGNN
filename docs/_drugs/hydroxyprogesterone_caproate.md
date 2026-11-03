@@ -4,17 +4,17 @@ title: Hydroxyprogesterone Caproate
 parent: Low Evidence (L5)
 nav_order: 510
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Hydroxyprogesterone caproate"
-predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral", "endometriosis in cutaneous scar", "endometriosis of rectovaginal septum and vagina", "renal hypoplasia (disease)", "uterine corpus cancer", "cervix endometriosis", "endometrial cancer", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
+predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral", "endometriosis in cutaneous scar", "endometriosis of rectovaginal septum and vagina", "renal hypoplasia (disease)", "cervix endometriosis", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
 description: "Hydroxyprogesterone Caproate: predicted new indication Endometriosis of uterus (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydroxyprogesterone Caproate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Hydroxyprogesterone caproate is a long-acting injectable progestin marketed in Singapore as Proluton Depot, but the registered indication text is not available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **endometrial cancer**, the most biologically coherent of its top predictions.
 Support consists of **no registered clinical trials** and **20 publications**, mostly historical, uncontrolled or small clinical series from 1971 to 1995, plus one 2012 systematic review of progestins in general.
 
 ## Quick Overview
@@ -54,7 +53,7 @@ Support consists of **no registered clinical trials** and **20 publications**, m
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (a research question worth following up) |
 
-**Note on selection:** I highlighted endometrial cancer rather than the rank-1 prediction because it is the only prediction with a meaningful body of literature. The other nine predictions are L4 or L5 and are summarised briefly at the end of the report.
+The other nine predictions are L4 or L5 and are summarised briefly at the end of the report.
 
 ## Why is This Prediction Reasonable?
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oteracil
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 747
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Oteracil"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
-description: "Oteracil: predicted new indication Colonic neoplasm (evidence level L1). Approved use: Not recorded in the local data"
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
+description: "Oteracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Oteracil
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Oteracil: Colonic neoplasm
+## Oteracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Oteracil is a component of the S-1 combination (tegafur/gimeracil/oteracil), originally used for gastric cancer treatment.
-The TxGNN model predicts it may be effective for **Colonic Neoplasm**,
-with **6 clinical trials** and **10 publications** currently supporting this direction. The evidence applies to S-1 as a combination, not to oteracil as a standalone agent.
+The evidence applies to S-1 as a combination, not to oteracil as a standalone agent.
 
 ---
 
@@ -49,9 +48,9 @@ with **6 clinical trials** and **10 publications** currently supporting this dir
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Colonic neoplasm |
-| TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L1 |
+| Predicted New Indication | Cecum villous adenoma |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 2 of 2) |
 | Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |

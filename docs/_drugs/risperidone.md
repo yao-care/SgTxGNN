@@ -4,17 +4,17 @@ title: Risperidone
 parent: Low Evidence (L5)
 nav_order: 875
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-28
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "Risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,6 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 Risperidone is an atypical antipsychotic originally used for schizophrenia, bipolar disorder (including mania) and autism-associated irritability.
 The TxGNN model ranks **gaze palsy, familial horizontal, with progressive scoliosis** as its top-scoring prediction, but this entry has no supporting evidence.
-The best-supported predictions are **major affective disorder** (11 clinical trials, 20 publications, including 2 completed Phase 3 trials of adjunctive therapy in treatment-resistant depression) and **Tourette syndrome** (1 Phase 2 placebo-controlled trial, 20 publications).
 
 > **Note on the top-ranked prediction:** The rank 1 prediction is a rare genetic disorder with no trials, no literature and no plausible mechanistic link. This report therefore presents the top-ranked entry in the overview, and details the best-supported candidate (major affective disorder) in the evidence sections.
 
@@ -65,7 +64,6 @@ The best-supported predictions are **major affective disorder** (11 clinical tri
 | 3 | Amelocerebrohypohidrotic syndrome | 0.9969 | L5 | Hold |
 | 4 | Phelan-McDermid syndrome | 0.9959 | L4 | Research Question |
 | 5 | Trichotillomania | 0.9951 | L4 | Research Question |
-| 6 | Major affective disorder | 0.9911 | L1 | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
@@ -80,7 +78,6 @@ Placebo-controlled trials and European guidelines support its use as an option.
 
 ## Clinical Trial Evidence
 
-Trials for the best-supported prediction, **major affective disorder** (up to 10 most relevant shown):
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -183,7 +180,6 @@ Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold for the top-ranked prediction; Proceed with Guardrails for the best-supported predictions (major affective disorder, Tourette syndrome, intellectual disability behavioural symptoms)**
 
 **Rationale:**
 - The top-ranked prediction (familial horizontal gaze palsy with progressive scoliosis) and ranks 2, 3 and 10 have no trials or literature and no plausible mechanism.

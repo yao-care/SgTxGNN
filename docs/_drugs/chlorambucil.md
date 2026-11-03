@@ -4,17 +4,17 @@ title: Chlorambucil
 parent: Low Evidence (L5)
 nav_order: 235
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-28
+indication_count: 5
+last_modified_at: 2026-11-03
 monitor_inn: "Chlorambucil"
-predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-description: "Chlorambucil: predicted new indication Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (evidence level L5)."
+predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+description: "Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Chlorambucil: Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation
+## Chlorambucil: ALK-positive large B-cell lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,8 +49,8 @@ Currently there are **no clinical trials and no publications** specific to this 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation |
-| TxGNN Prediction Score | 0.9972 |
+| Predicted New Indication | ALK-positive large B-cell lymphoma |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 1 of 1) |
 | Number of Registrations | 1 (valid: 1) |

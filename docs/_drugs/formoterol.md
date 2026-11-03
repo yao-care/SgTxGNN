@@ -4,17 +4,17 @@ title: Formoterol
 parent: Low Evidence (L5)
 nav_order: 452
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Formoterol"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,6 @@ Evidence Level: **L5** | Predicted Indications: **3**
 ## One-Sentence Summary
 
 Formoterol is a long-acting beta2-agonist bronchodilator, originally used for pulmonary emphysema and asthma (intrinsic and allergic).
-The TxGNN model predicts it may be effective for **Bronchitis** (chronic bronchitis within COPD), with **18 clinical trials** and **18 publications** currently supporting this direction.
 Most of this evidence comes from COPD studies of formoterol-containing combinations, so it is strong but not specific to formoterol alone.
 
 ---

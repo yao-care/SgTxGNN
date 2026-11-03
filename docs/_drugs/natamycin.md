@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Natamycin
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 702
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Natamycin: predicted new indication Vulvovaginal candidiasis (evidence level L2). Approved use: Mycotic corneal ulcer"
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Natamycin"
-predicted_indications: ["vulvovaginal candidiasis", "candidiasis", "vulvitis", "vulvovaginitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginitis (disease)", "tinea nigra"]
+predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
+description: "Natamycin: predicted new indication Vulvitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Natamycin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Natamycin: From Mycotic Corneal Ulcer to Vulvovaginal Candidiasis
+## Natamycin: Vulvitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Natamycin is a polyene antifungal originally used for fungal (mycotic) corneal ulcer.
-The TxGNN model predicts it may be effective for **vulvovaginal candidiasis**,
-with **1 completed Phase 3 clinical trial** and **14 publications** currently supporting this direction.
 
 ---
 
@@ -48,10 +46,10 @@ with **1 completed Phase 3 clinical trial** and **14 publications** currently su
 
 | Item | Content |
 |------|------|
-| Original Indication | Mycotic corneal ulcer |
-| Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 0.9997 |
-| Evidence Level | L2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Vulvitis |
+| TxGNN Prediction Score | 0.9981 |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 1 of 1) |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
@@ -89,7 +87,6 @@ The same logic explains why related predictions (candidiasis, vulvitis, vulvovag
 | [6966774](https://pubmed.ncbi.nlm.nih.gov/6966774/) | 1980 | Clinical study | N Z Med J | 50 women given Pimafucin vaginal tablets for 10 days; 76% cure rate at two weeks, maintained at four weeks |
 | [159686](https://pubmed.ncbi.nlm.nih.gov/159686/) | 1979 | Controlled trial | Aust N Z J Obstet Gynaecol | 120 patients with monilial vulvovaginitis; adding Elase to natamycin improved symptom relief and organism eradication vs. natamycin alone |
 | [11048415](https://pubmed.ncbi.nlm.nih.gov/11048415/) | 1999 | Review | Ceska Gynekol | Diagnosis of chronic vaginal candidiasis; natamycin compared with clotrimazole |
-| [1082689](https://pubmed.ncbi.nlm.nih.gov/1082689/) | 1975 | Clinical study | Zentralbl Gynakol | Oral metronidazole plus vaginal natamycin; vaginal candidiasis cured clinically in 89% after the first course |
 | [12849848](https://pubmed.ncbi.nlm.nih.gov/12849848/) | 2003 | Case-control | Reprod Toxicol | Teratology study of vaginal natamycin in pregnancy (supporting safety data) |
 | [18288724](https://pubmed.ncbi.nlm.nih.gov/18288724/) | 2008 | Formulation/preclinical | J Pharm Sci | Natamycin–γ-cyclodextrin vaginal mucoadhesive tablets; MIC90 below 0.0313 µg/mL |
 

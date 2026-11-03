@@ -10,7 +10,7 @@ image: /assets/images/og-default.png
 # Drug Repurposing: From Data to Evidence
 
 <p class="key-answer" data-question="What is SgTxGNN Drug Repurposing Reports?">
-<strong>SgTxGNN</strong> is a drug repurposing prediction platform based on Harvard's TxGNN model. We use AI to predict <strong>4,276</strong> drug repurposing candidates and provide evidence-based validation reports for <strong>966</strong> Singapore HSA-approved medications.
+<strong>SgTxGNN</strong> is a drug repurposing prediction platform based on Harvard's TxGNN model. We use AI to predict <strong>4,189</strong> drug repurposing candidates and provide evidence-based validation reports for <strong>966</strong> Singapore HSA-approved medications.
 </p>
 
 <div class="key-takeaway">
@@ -121,7 +121,7 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #FB8C00;">
     <strong style="font-size: 1.1rem;">Singapore HSA Coverage</strong><br>
-    <span style="color: #666;">Focused on HSA-registered medications covering 966 drugs and 4,276 predicted indications. Reports include Singapore license status.</span>
+    <span style="color: #666;">Focused on HSA-registered medications covering 966 drugs and 4,189 predicted indications. Reports include Singapore license status.</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
     <strong style="font-size: 1.1rem;">Known Uses Excluded</strong><br>
@@ -163,7 +163,7 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
     <div class="stat-label">Drugs Analyzed</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">4,276</div>
+    <div class="stat-number">4,189</div>
     <div class="stat-label">Predicted New Indications</div>
   </div>
   <div class="stat-card">

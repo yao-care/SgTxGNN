@@ -4,17 +4,17 @@ title: Haloperidol
 parent: Low Evidence (L5)
 nav_order: 495
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Haloperidol"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -117,7 +117,7 @@ All four registrations are valid single-ingredient products, available as oral t
 - Official Singapore package insert warnings and contraindications
 - An assessment of route and dosing feasibility for this rare genetic disorder
 
-**Note on other predictions:** Among the other predicted indications, **manic bipolar affective disorder** has the strongest support (L1). It has a Phase 3 placebo- and haloperidol-controlled trial (NCT00129220, n=224) and network meta-analyses. It lies within haloperidol's existing psychiatric area, so it is better seen as an extension than as novel repurposing. It could proceed with guardrails: monitoring for extrapyramidal symptoms, QT prolongation and tardive dyskinesia, and managing the high interaction burden.
+It has a Phase 3 placebo- and haloperidol-controlled trial (NCT00129220, n=224) and network meta-analyses. It lies within haloperidol's existing psychiatric area, so it is better seen as an extension than as novel repurposing. It could proceed with guardrails: monitoring for extrapyramidal symptoms, QT prolongation and tardive dyskinesia, and managing the high interaction burden.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

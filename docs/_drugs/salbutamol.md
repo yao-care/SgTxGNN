@@ -4,17 +4,17 @@ title: Salbutamol
 parent: Low Evidence (L5)
 nav_order: 893
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
+indication_count: 8
+last_modified_at: 2026-11-03
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Asthma, bronchial disease"
 monitor_inn: "Salbutamol"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 ---
 
 # Salbutamol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -70,7 +70,6 @@ The table below shows how the other top-ranked predictions compare:
 |------|------|------|
 | Obstructive lung disease | L1 | Phase 3 trial of ipratropium/salbutamol in COPD (n=1,118), but the partner drug confounds attribution, and the indication is effectively the original one |
 | Anaphylaxis | L2 | Phase 3 RCT (NCT05653024) of inhaled salbutamol vs placebo, terminated with n=24; underpowered |
-| Bronchitis / bronchiolitis | L2 | Several trials and reviews; guidelines and meta-analyses generally do not support routine bronchodilator use in infants |
 | Common cold | L3 | One small double-blind RCT of cough in children (PMID 26859020) |
 | Atopic conjunctivitis | L5 | Preclinical animal data only |
 | Nasal cavity disease, acute laryngopharyngitis, anorectal stricture | L5 | Prediction only |

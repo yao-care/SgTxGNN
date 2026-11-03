@@ -4,17 +4,17 @@ title: Uracil
 parent: Low Evidence (L5)
 nav_order: 1042
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 monitor_inn: "Uracil"
-predicted_indications: ["colonic neoplasm", "gastric carcinoma", "rectosigmoid junction neoplasm", "lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
-last_modified_at: 2026-10-28
-description: "Uracil: predicted new indication Colonic neoplasm (evidence level L5). Approved use: Not available"
+predicted_indications: ["lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
+last_modified_at: 2026-11-03
+description: "Uracil: predicted new indication Lipoma of colon (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Uracil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Uracil: From an Unspecified Original Indication to Colonic Neoplasm
+## Uracil: Lipoma of colon
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Uracil is a pyrimidine base. In Singapore it is registered only as part of the UFT capsule (tegafur plus uracil), and no approved indication text is available for it.
-The TxGNN model predicts it may be effective for **colonic neoplasm**, but the clinical evidence concerns the UFT combination rather than uracil alone.
 The data compiled for this report contain **4 clinical trials** and **20 publications** for this disease, and none of them directly studies uracil as a single agent.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the Singapore licence record has no indication text) |
-| Predicted New Indication | Colonic neoplasm |
-| TxGNN Prediction Score | 0.9950 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Lipoma of colon |
+| TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 1 of 1) |
 | Number of Registrations | 1 (valid: 1) |
@@ -117,7 +116,7 @@ The literature includes a case report of haemolytic anaemia during UFT treatment
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by any study that directly examines uracil for colonic neoplasm. The clinical evidence supports the UFT combination (tegafur plus uracil), where uracil acts as a DPD inhibitor, not as an independent antitumour agent. Package insert safety data are also missing.
+The clinical evidence supports the UFT combination (tegafur plus uracil), where uracil acts as a DPD inhibitor, not as an independent antitumour agent. Package insert safety data are also missing.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications for the Singapore UFT licence

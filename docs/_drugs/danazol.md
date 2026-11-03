@@ -4,17 +4,17 @@ title: Danazol
 parent: Low Evidence (L5)
 nav_order: 299
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-11-03
 description: "Danazol: predicted new indication Amenorrhea (disease) (evidence level L3). Approved use: Endometriosis"
 monitor_inn: "Danazol"
-predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
+predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
 ---
 
 # Danazol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -114,7 +114,6 @@ The mechanism for inducing amenorrhea is well established and a 2024 cohort supp
 
 | Predicted Indication | TxGNN Score | Evidence Level | Suggested Decision | Note |
 |------|------|------|------|------|
-| Benign mammary dysplasia | 1.0000 | L5 | Proceed with Guardrails | Closely related to the existing fibrocystic breast disease use; several 1980s clinical studies, including a double-blind randomised trial in 80 women (PMID 3074777) and a double-blind crossover study against placebo (PMID 6373293). Reserve for severe, refractory symptoms. |
 | Breast adenosis | 1.0000 | L5 | Research Question | Evidence concerns fibrocystic change in general; low-dose danazol reports exist. |
 | Apocrine adenosis of breast | 1.0000 | L5 | Hold | Indirect evidence through the parent condition only. |
 | Breast abscess | 1.0000 | L5 | Hold | Two 1986 letters on periareolar abscess; anecdotal. |

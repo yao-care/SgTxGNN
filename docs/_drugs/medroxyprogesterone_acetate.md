@@ -4,17 +4,17 @@ title: Medroxyprogesterone Acetate
 parent: Medium Evidence (L3-L4)
 nav_order: 640
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-11-03
-description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis, endometrial cancer, postmenopausal osteoporosis…"
 monitor_inn: "Medroxyprogesterone acetate"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Medroxyprogesterone Acetate: From Endometriosis to Amenorrhea
+## Medroxyprogesterone Acetate: Breast fibrocystic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,9 +46,9 @@ but **no clinical trials** are registered and the **20 publications** retrieved 
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis, endometrial cancer, postmenopausal osteoporosis, postmenopausal atrophic vaginitis (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 1.0000 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Breast fibrocystic disease |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |

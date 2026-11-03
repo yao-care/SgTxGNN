@@ -4,17 +4,17 @@ title: Iron
 parent: Low Evidence (L5)
 nav_order: 549
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-28
+indication_count: 5
+last_modified_at: 2026-11-03
 monitor_inn: "Iron"
-predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 description: "Iron: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Iron
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -118,7 +118,6 @@ The prediction has no supporting trials or literature (L5). Megaloblastic anemia
 - Package insert warnings and contraindications from the HSA labels
 
 **Other predicted indications in the same analysis:**
-- **Plummer-Vinson syndrome** (L4) has substantial literature, mostly reviews and case reports. It is essentially an on-label use of iron for iron deficiency anemia, so it is not a true repurposing candidate.
 - These trials largely address anemia in trauma, hip fracture or pregnancy, or test multi-nutrient supplements, so they overlap with the original anemia indication. They would be better framed as extensions of anemia treatment than as new disease indications.
 ## Disclaimer
 

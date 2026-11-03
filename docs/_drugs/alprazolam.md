@@ -4,17 +4,17 @@ title: Alprazolam
 parent: Medium Evidence (L3-L4)
 nav_order: 70
 evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Alprazolam: predicted new indication insomnia (disease) (evidence level L4). Approved use: Anxiety disorder"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Alprazolam"
-predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
+description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,20 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Alprazolam: From Anxiety Disorder to insomnia (disease)
+## Alprazolam: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Alprazolam is a benzodiazepine originally used to treat anxiety disorders and mixed anxiety and depressive disorder.
-The TxGNN model predicts it may be effective for **insomnia** (top-ranked prediction), but **no clinical trials** and only **indirect literature** currently support this direction. The strongest evidence in the data compiled for this report belongs to other predicted indications (agoraphobia and phobic disorder), which largely overlap with alprazolam's existing anxiolytic use.
+The TxGNN model predicts it may be effective for **insomnia** (top-ranked prediction), but **no clinical trials** and only **indirect literature** currently support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder; mixed anxiety and depressive disorder (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Insomnia |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L4 |
 | Singapore Market Status | Marketed (valid licences: 7 of 7) |
@@ -83,7 +83,7 @@ Literature for insomnia (selected from 18 items; none is an RCT of alprazolam fo
 | [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | Cohort | JHEP Reports | Zolpidem deprescribing reduces falls and fractures in cirrhosis (not alprazolam) |
 | [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Preclinical | Aging | Repeated alprazolam in mice caused mitochondrial dysfunction and impaired memory consolidation |
 
-Stronger evidence exists for the related predicted indications of agoraphobia and phobic disorder. It includes a Cochrane network meta-analysis of pharmacological treatments for panic disorder ([38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/), 2023), a meta-analysis of alprazolam versus other benzodiazepines ([21869686](https://pubmed.ncbi.nlm.nih.gov/21869686/), 2011), and several placebo-controlled RCTs, such as [3282478](https://pubmed.ncbi.nlm.nih.gov/3282478/) (n≈526, 1988) and [8101126](https://pubmed.ncbi.nlm.nih.gov/8101126/) (n=154, 1993). These mostly address panic disorder with agoraphobia, an area that overlaps with alprazolam's existing anxiolytic use.
+It includes a Cochrane network meta-analysis of pharmacological treatments for panic disorder ([38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/), 2023), a meta-analysis of alprazolam versus other benzodiazepines ([21869686](https://pubmed.ncbi.nlm.nih.gov/21869686/), 2011), and several placebo-controlled RCTs, such as [3282478](https://pubmed.ncbi.nlm.nih.gov/3282478/) (n≈526, 1988) and [8101126](https://pubmed.ncbi.nlm.nih.gov/8101126/) (n=154, 1993). These mostly address panic disorder with agoraphobia, an area that overlaps with alprazolam's existing anxiolytic use.
 
 ## Singapore Market Information
 
@@ -113,7 +113,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-Insomnia is supported mainly by the model score and a plausible sedative mechanism. No trial directly tests alprazolam for insomnia, and approved alternatives exist. Known risks of dependence, falls and cognitive impairment further weaken the case. By contrast, agoraphobia and phobic disorder (both L1, Proceed with Guardrails) have stronger evidence, but they largely reflect established anxiolytic use rather than new repurposing.
+Insomnia is supported mainly by the model score and a plausible sedative mechanism. No trial directly tests alprazolam for insomnia, and approved alternatives exist. Known risks of dependence, falls and cognitive impairment further weaken the case.
 
 **To proceed, the following is needed:**
 - Controlled trial data on alprazolam for insomnia, ideally compared with approved hypnotics

@@ -4,17 +4,17 @@ title: Levofloxacin
 parent: Low Evidence (L5)
 nav_order: 597
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections (pneumonia, sinusitis, pyelonephritis…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Levofloxacin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
+description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Levofloxacin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+## Levofloxacin: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,7 +45,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (pneumonia, sinusitis, pyelonephritis, conjunctivitis, anthrax and others) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
@@ -110,7 +110,7 @@ The prediction rests on a model score alone (L5). No clinical trials exist, and 
 - Package insert warnings and contraindications from the HSA, to complete safety screening.
 - An assessment of route and formulation, since an ophthalmic preparation would be needed for ocular use.
 
-**Note on other candidates:** Among the other predictions, **septicemic plague** has the strongest support (L3). It rests on animal-model evidence, including cure of experimental pneumonic plague in African green monkeys, and no human RCTs exist. It may be a better lead to evaluate, with guardrails such as confirming local susceptibility, monitoring for resistance and using expert infectious disease guidance.
+It rests on animal-model evidence, including cure of experimental pneumonic plague in African green monkeys, and no human RCTs exist. It may be a better lead to evaluate, with guardrails such as confirming local susceptibility, monitoring for resistance and using expert infectious disease guidance.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

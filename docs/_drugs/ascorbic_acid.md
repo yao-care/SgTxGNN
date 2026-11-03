@@ -4,17 +4,17 @@ title: Ascorbic Acid
 parent: Low Evidence (L5)
 nav_order: 112
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Ascorbic acid"
-predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "vitamin deficiency disorder"]
+predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected"]
+description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ascorbic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ascorbic Acid: From Ascorbic Acid Deficiency and Scurvy to Non-Syndromic Esophageal Malformation
+## Ascorbic Acid: Non-syndromic esophageal malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,7 +48,7 @@ Among the other predictions, "injury" (**16 clinical trials**, **20 publications
 
 | Item | Content |
 |------|------|
-| Original Indication | Ascorbic acid deficiency; scurvy (no approved indication text is recorded in the Singapore licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |

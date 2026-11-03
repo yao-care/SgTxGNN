@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 236
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Chloramphenicol: predicted new indication Conjunctivitis (evidence level L3). Approved use: Typhoid fever, salmonellosis, paratyphoid fever…"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Chloramphenicol"
-predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+description: "Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-## Chloramphenicol: From Typhoid Fever to Conjunctivitis
+## Chloramphenicol: Diffuse scleroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Chloramphenicol is a broad-spectrum antibiotic originally used for systemic bacterial and rickettsial infections such as typhoid fever, meningitis and typhus.
-The TxGNN model predicts it may be effective for **conjunctivitis**, with **no registered clinical trials** and **20 publications** (mostly reviews and older comparative studies) currently supporting this direction.
 Topical chloramphenicol for bacterial conjunctivitis is already established clinical practice in some countries, so this is closer to an existing use than true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Typhoid fever, salmonellosis, paratyphoid fever, meningococcal infection, streptococcal meningitis, and other infections (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 0.9966 |
-| Evidence Level | L3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Diffuse scleroderma |
+| TxGNN Prediction Score | 0.9965 |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
@@ -78,10 +77,6 @@ Selected publications (no RCTs were identified; reviews and comparative studies 
 | [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Review | Drug Safety | Debate over a possible link between ocular chloramphenicol and aplastic anaemia |
 | [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Review | Eye | Appropriate use and misuse of topical chloramphenicol |
 | [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Review | Clin Exp Ophthalmol | Concerns about over-the-counter chloramphenicol |
-| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Randomized comparison (open) | Acta Ophthalmol | In Tanzania, fusidic acid had a higher clinical success rate (93%) than chloramphenicol (48%) and framycetin (74%) in acute conjunctivitis |
-| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | Randomized comparison (single-blind) | Acta Ophthalmol | Clinical success of 81% with chloramphenicol vs 84% with fusidic acid in purulent conjunctivitis; more trivial local side effects with chloramphenicol |
-| [7153511](https://pubmed.ncbi.nlm.nih.gov/7153511/) | 1982 | Clinical/laboratory study | J Hyg | Chloramphenicol drops delayed and reduced signs of chlamydial neonatal conjunctivitis, but 85% of treated infants remained culture-positive |
-| [22186318](https://pubmed.ncbi.nlm.nih.gov/22186318/) | 2012 | Experimental | Pak J Pharm Sci | Chloramphenicol niosomes compared with 0.5% eye drops in experimental conjunctivitis in rabbits |
 
 ## Singapore Market Information
 

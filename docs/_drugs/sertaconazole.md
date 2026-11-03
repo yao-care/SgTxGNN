@@ -4,17 +4,17 @@ title: Sertaconazole
 parent: Low Evidence (L5)
 nav_order: 908
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "Sertaconazole"
-predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
-last_modified_at: 2026-10-30
-description: "Sertaconazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis"
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
+last_modified_at: 2026-11-03
+description: "Sertaconazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertaconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Sertaconazole: From Tinea Pedis to Ectothrix Infectious Disease
+## Sertaconazole: Ectothrix infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,7 +45,7 @@ The TxGNN model predicts it may be useful for **ectothrix infectious disease** (
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis (relation recorded in the knowledge graph; the local licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ectothrix infectious disease |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
@@ -61,7 +61,7 @@ Tinea pedis and ectothrix infections are both caused by dermatophytes, for examp
 
 There are two caveats. First, the prediction is not backed by any trial or publication. Second, delivery is a real limit. Topical products penetrate poorly into the hair follicle and shaft, and scalp hair infections such as tinea capitis generally need systemic antifungals.
 
-Two other predictions for this drug are worth noting. Endothrix infectious disease (score 0.9956) has the same limitations and no supporting studies. Pityriasis versicolor (score 0.9945) has a 1992 clinical study and two reviews, so it is better supported than this indication. It could be a more practical research question.
+Two other predictions for this drug are worth noting. Endothrix infectious disease (score 0.9956) has the same limitations and no supporting studies. It could be a more practical research question.
 
 ## Clinical Trial Evidence
 
@@ -96,7 +96,6 @@ The only support for this indication is the model prediction, with no trials or 
 - Evidence on whether the cream can reach infected hair shafts, or whether a systemic route would be required
 - The package insert, to confirm the approved indications, warnings and contraindications
 - Detailed mechanism-of-action data from DrugBank
-- A comparison with the better-supported pityriasis versicolor prediction, to decide which to pursue first
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

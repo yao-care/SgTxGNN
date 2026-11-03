@@ -4,17 +4,17 @@ title: Ceftazidime
 parent: Low Evidence (L5)
 nav_order: 224
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Ceftazidime: predicted new indication hyperamylasemia (evidence level L2). Approved use: Bacterial infections"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Ceftazidime"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
+description: "Ceftazidime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ceftazidime
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ceftazidime: From Bacterial Infections to Hyperamylasemia
+## Ceftazidime: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,9 +48,9 @@ Note that this is an antibacterial use largely consistent with its existing infe
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (streptococcal infection, bacterial pneumonia, bacterial meningitis, peritonitis, etc.; the licence indication text is not available) |
-| Predicted New Indication | Urinary tract infection (the top two model predictions, hyperamylasemia and polyclonal hyperviscosity syndrome, have no supporting evidence and are not biologically plausible, so the first evidence-supported prediction is evaluated here) |
-| TxGNN Prediction Score | 0.9941 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hyperamylasemia |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 4 of 4) |
 | Number of Registrations | 4 (valid: 4) |

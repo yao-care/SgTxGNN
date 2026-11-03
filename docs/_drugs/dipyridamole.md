@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dipyridamole
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 339
-evidence_level: L4
-indication_count: 8
+evidence_level: L5
+indication_count: 6
 monitor_inn: "Dipyridamole"
-predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-10-30
-description: "Dipyridamole: predicted new indication Thrombotic disease (evidence level L5). Approved use: Atrial fibrillation"
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+last_modified_at: 2026-11-03
+description: "Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-## Dipyridamole: From Atrial Fibrillation to Thrombotic Disease
+## Dipyridamole: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Dipyridamole is an antiplatelet and vasodilator drug. It has atrial fibrillation as a related indication (not a Singapore-approved indication).
-The TxGNN model predicts it may be useful for **thrombotic disease**, with **0 registered clinical trials** and **20 publications**, mostly narrative reviews and older antiplatelet overviews. Several of these publications are only tangentially related.
+Several of these publications are only tangentially related.
 
 ---
 
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be useful for **thrombotic disease**, with **0 r
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation (relation recorded in the knowledge graph; the Singapore licence records give no indication text) |
-| Predicted New Indication | Thrombotic disease |
-| TxGNN Prediction Score | 0.9994 |
-| Evidence Level | L4 (mechanism and review-level literature only, no trials) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 (mechanism and review-level literature only, no trials) |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
@@ -69,7 +69,6 @@ The predicted label also does not distinguish arterial from venous thrombosis. A
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for the predicted indication "thrombotic disease".
 
 ---
 
@@ -131,7 +130,7 @@ Please refer to the package insert for the official warnings, as these were not 
 **Decision: Hold**
 
 **Rationale:**
-- The TxGNN score is high, but no registered trial supports "thrombotic disease". The literature is mostly reviews, so the evidence is mechanism-level only (L4).
+- The literature is mostly reviews, so the evidence is mechanism-level only (L4).
 - The label is broad and largely overlaps with antiplatelet uses already described in the literature. It gives no specific, testable repurposing hypothesis.
 - Of the other predictions for this drug, transient ischaemic attack (rank 3) is much better supported. A large completed trial (ESPRIT, NCT00161070, n=4,500) and several meta-analyses address aspirin plus dipyridamole in cerebral ischaemia. That candidate would be the more productive one to evaluate first.
 

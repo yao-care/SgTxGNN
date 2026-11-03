@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Low Evidence (L5)
 nav_order: 445
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Flurbiprofen: predicted new indication Ankylosing spondylitis (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Flurbiprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
+description: "Flurbiprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Flurbiprofen: From Rheumatoid Arthritis and Osteoarthritis to Ankylosing Spondylitis
+## Flurbiprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Flurbiprofen is a non-steroidal anti-inflammatory drug (NSAID) originally used for rheumatoid arthritis, osteoarthritis and other joint disorders.
-The TxGNN model predicts it may be useful for **ankylosing spondylitis**, the best-supported of its top ten predictions.
 There are **no registered clinical trials**, but the data compiled for this report include **20 publications**, many of them older double-blind comparison studies.
 
 ---
@@ -48,9 +47,9 @@ There are **no registered clinical trials**, but the data compiled for this repo
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (the Singapore licence records contain no indication text) |
-| Predicted New Indication | Ankylosing spondylitis (the report focuses on this candidate; the model's top-ranked prediction, acromesomelic dysplasia, Hunter-Thompson type, has no supporting evidence) |
-| TxGNN Prediction Score | 0.9997 (ankylosing spondylitis); 0.9999 (top-ranked prediction) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (older comparative studies and reviews, no registered trials) |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
@@ -125,7 +124,6 @@ Package insert warnings were not available, so please refer to the package inser
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for ankylosing spondylitis only; the other nine predictions remain on Hold)
 
 **Rationale:**
 - Several double-blind comparison studies show flurbiprofen relieves ankylosing spondylitis symptoms about as well as indomethacin, phenylbutazone and naproxen. NSAIDs are also an established treatment class for this condition. However, the evidence is old, small and not registered, and there are no trials of recent design.

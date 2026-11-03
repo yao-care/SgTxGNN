@@ -4,17 +4,17 @@ title: Clidinium
 parent: Low Evidence (L5)
 nav_order: 262
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "Clidinium"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
-last_modified_at: 2026-10-28
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
+last_modified_at: 2026-11-03
 description: "Clidinium: predicted new indication cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Clidinium
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---

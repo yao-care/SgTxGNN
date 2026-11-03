@@ -4,17 +4,17 @@ title: Laronidase
 parent: Low Evidence (L5)
 nav_order: 579
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "Laronidase"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
-description: "Laronidase: predicted new indication Lysosomal storage disease with skeletal involvement (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["Sanfilippo syndrome"]
+description: "Laronidase: predicted new indication Sanfilippo syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Laronidase: Lysosomal storage disease with skeletal involvement
+## Laronidase: Sanfilippo syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Laronidase is a recombinant alpha-L-iduronidase enzyme replacement therapy, originally used for mucopolysaccharidosis type I (MPS I), including Hurler, Hurler-Scheie and Scheie syndromes.
-The TxGNN model predicts it may be effective for **lysosomal storage disease with skeletal involvement**, but there are currently **no registered clinical trials** and only **4 publications** for this prediction, none of which directly test the new indication.
 The predicted category largely overlaps with the already-approved MPS I indication, so this is best seen as a research question rather than a true new indication.
 
 ---
@@ -49,8 +48,8 @@ The predicted category largely overlaps with the already-approved MPS I indicati
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Lysosomal storage disease with skeletal involvement |
-| TxGNN Prediction Score | 0.9931 |
+| Predicted New Indication | Sanfilippo syndrome |
+| TxGNN Prediction Score | 0.9922 |
 | Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 1 of 1) |
 | Number of Registrations | 1 (valid: 1) |

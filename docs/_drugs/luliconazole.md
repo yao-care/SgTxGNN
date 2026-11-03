@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Luliconazole
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 620
-evidence_level: L3
-indication_count: 3
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Luliconazole"
-predicted_indications: ["pityriasis versicolor", "endothrix infectious disease", "ectothrix infectious disease"]
-description: "Luliconazole: predicted new indication Pityriasis versicolor (evidence level L3). Approved use: Not recorded in the local data"
+predicted_indications: ["endothrix infectious disease", "ectothrix infectious disease"]
+description: "Luliconazole: predicted new indication Endothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Luliconazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-## Luliconazole: Pityriasis versicolor
+## Luliconazole: Endothrix infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Luliconazole is a topical imidazole antifungal, originally used for tinea pedis, tinea corporis and other dermatophyte infections.
-The TxGNN model predicts it may be effective for **pityriasis versicolor**,
-with **1 registered clinical trial** (not yet recruiting) and **2 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Pityriasis versicolor |
-| TxGNN Prediction Score | 0.9913 |
-| Evidence Level | L3 |
+| Predicted New Indication | Endothrix infectious disease |
+| TxGNN Prediction Score | 0.9910 |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 1 of 1) |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
@@ -64,7 +62,6 @@ Pityriasis versicolor is a superficial skin infection caused by *Malassezia* yea
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07333170](https://clinicaltrials.gov/study/NCT07333170) | Phase 4 | Not yet recruiting | 86 | Head-to-head comparison of luliconazole 2% cream vs ketoconazole 1% cream in pityriasis versicolor. Planned for 2026-02 to 2026-11. No results yet. |
 
 ## Literature Evidence
 

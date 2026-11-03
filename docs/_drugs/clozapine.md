@@ -4,17 +4,17 @@ title: Clozapine
 parent: Low Evidence (L5)
 nav_order: 274
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not stated in the Singapore licence records . Clozapine is known clin…"
 monitor_inn: "Clozapine"
-predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 ---
 
 # Clozapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -113,7 +113,6 @@ Please also refer to the package insert, as label warnings and contraindications
 | Major affective disorder | 0.9948 | L2 | Research Question (indirect support only) |
 | ADHD | 0.9931 | L4 | Hold (indirect and preclinical data only) |
 | ADHD, inattentive type | 0.9921 | L5 | Hold (no studies retrieved) |
-| Psychotic disorder | 0.9912 | L1 | Proceed with Guardrails |
 | Malan overgrowth syndrome | 0.9902 | L5 | Hold (no studies retrieved) |
 
 ## Conclusion and Next Steps

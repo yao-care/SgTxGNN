@@ -4,17 +4,17 @@ title: Triptorelin
 parent: Low Evidence (L5)
 nav_order: 1031
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Triptorelin"
-predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L5)."
 ---
 
 # Triptorelin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -132,7 +132,7 @@ The prediction has no clinical trials, a single irrelevant case report, and no p
 - Preclinical or clinical data in hypertrichosis patients
 - Full package insert warnings and contraindications for triptorelin
 
-**Note on other predictions:** Among the other predicted indications, **precocious puberty** (rank 8, TxGNN score 0.9989) has much stronger support. It has several completed Phase 3 trials of triptorelin in central precocious puberty and extensive supporting literature, and the mechanism is consistent. This is most likely a confirmation of existing use rather than true repurposing, and it would warrant a separate evaluation.
+It has several completed Phase 3 trials of triptorelin in central precocious puberty and extensive supporting literature, and the mechanism is consistent. This is most likely a confirmation of existing use rather than true repurposing, and it would warrant a separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

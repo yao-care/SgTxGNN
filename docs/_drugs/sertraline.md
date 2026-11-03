@@ -4,17 +4,17 @@ title: Sertraline
 parent: Low Evidence (L5)
 nav_order: 909
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 monitor_inn: "Sertraline"
-predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-10-28
-description: "Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
+predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
+last_modified_at: 2026-11-03
+description: "Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Sertraline: From Anxiety and Mood Disorders to Schizoid Personality Disorder
+## Sertraline: Schizoid personality disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,7 +45,7 @@ The TxGNN model predicts it may be useful for **schizoid personality disorder**,
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, post-traumatic stress disorder, social phobia, phobic disorder, obsessive-compulsive disorder (relations recorded in the knowledge graph; the Singapore licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Schizoid personality disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
@@ -101,7 +101,7 @@ The prediction score is very high, but there are no clinical trials and no publi
 - Package insert warnings and contraindications from the Singapore regulator (HSA)
 - Review of the interaction profile, especially the Major interactions listed above
 
-**Note:** Among the other predictions for sertraline, **agoraphobia** has far stronger support, including several randomised trials and network meta-analyses in panic disorder with or without agoraphobia. It is better treated as an extension of existing anxiety-related uses than as a true repurposing, and it could be assessed separately.
+It is better treated as an extension of existing anxiety-related uses than as a true repurposing, and it could be assessed separately.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

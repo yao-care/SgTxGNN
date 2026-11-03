@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salmeterol
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 896
-evidence_level: L1
-indication_count: 5
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-11-03
 monitor_inn: "Salmeterol"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **5**
 
 </div>
 
-## Salmeterol: Bronchitis
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Salmeterol is a long-acting beta2-adrenoceptor agonist, originally used for pulmonary emphysema and asthma (intrinsic and allergic).
-The TxGNN model predicts it may be effective for **bronchitis** (mainly chronic bronchitis within COPD), with **9 clinical trials** and **20 publications** currently supporting this direction.
 Most of this evidence is in COPD populations, so the new indication is a close extension of the existing ones rather than a distant repurposing.
 
 ---
@@ -49,9 +48,9 @@ Most of this evidence is in COPD populations, so the new indication is a close e
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 0.9992 |
-| Evidence Level | L1 |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 8 of 8) |
 | Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Proceed with Guardrails |

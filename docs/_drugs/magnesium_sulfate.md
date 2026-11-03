@@ -4,17 +4,17 @@ title: Magnesium Sulfate
 parent: Low Evidence (L5)
 nav_order: 630
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "Magnesium sulfate"
-predicted_indications: ["toxemia of pregnancy", "thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-10-28
-description: "Magnesium Sulfate: predicted new indication Toxemia of pregnancy (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
+last_modified_at: 2026-11-03
+description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Magnesium Sulfate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Magnesium Sulfate: Toxemia of pregnancy
+## Magnesium Sulfate: Thrombotic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Magnesium sulfate is a long-established mineral salt. Singapore licence records exist for an injection and a syrup.
-The TxGNN model predicts it may be effective for **toxemia of pregnancy**, a term that largely overlaps with pre-eclampsia and eclampsia.
 This direction is supported by **30 clinical trials** and **20 publications** in the data compiled for this report. The publications are mostly reviews and pharmacokinetic studies.
 
 ## Quick Overview
@@ -47,8 +46,8 @@ This direction is supported by **30 clinical trials** and **20 publications** in
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Toxemia of pregnancy |
-| TxGNN Prediction Score | 1.0000 |
+| Predicted New Indication | Thrombotic disease |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 (see note below) |
 | Singapore Market Status | Marketed (valid licences: 2 of 2) |
 | Number of Registrations | 2 (valid: 2) |

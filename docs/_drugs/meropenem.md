@@ -4,17 +4,17 @@ title: Meropenem
 parent: Medium Evidence (L3-L4)
 nav_order: 652
 evidence_level: L4
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Pseudomonas aeruginosa infection, meningococcal infection…"
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "Meropenem"
-predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "gonococcal urethritis", "Ureaplasma urethritis"]
+predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
+description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Meropenem
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-## Meropenem: From Bacterial Meningitis and Serious Bacterial Infections to Bacterial Arthritis
+## Meropenem: Bacterial arthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ The best-supported prediction in the data compiled for this report is actually *
 
 | Item | Content |
 |------|------|
-| Original Indication | Pseudomonas aeruginosa infection, meningococcal infection, peritonitis, bacterial meningitis (approved indication text is not listed in the Singapore registrations) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
@@ -65,7 +65,6 @@ Bone and joint infections are caused by many of the same organisms. The retrieve
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
 | Paratyphoid fever | 0.9957 | L4 | Last-line option for XDR enteric fever; reviews and susceptibility reports only |
-| *Staphylococcus aureus* infection | 0.9985 | L4 | Active against MSSA only, not MRSA; indirect evidence |
 | Epiglottitis | 0.9991 | L4 | No direct evidence; cephalosporins are first-line |
 
 ## Clinical Trial Evidence

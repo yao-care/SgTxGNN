@@ -4,17 +4,17 @@ title: Erythromycin
 parent: Low Evidence (L5)
 nav_order: 398
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-28
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "Erythromycin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Erythromycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -64,7 +64,6 @@ Currently, detailed mechanism of action data is not available. Based on known in
 The one retrieved paper concerns chronic blepharokeratoconjunctivitis in children, a condition in which macrolides are used. This is indirect evidence. No clinical trial tests erythromycin for punctate epithelial keratoconjunctivitis specifically, and the high model score has not yet been confirmed by clinical data.
 
 Other predictions in the same list include several that are weaker:
-- **Acute contagious conjunctivitis** largely overlaps with an existing indication, so it is not a true repurposing candidate.
 - **Lymphogranuloma venereum** has the strongest mechanistic link (erythromycin is active against *Chlamydia trachomatis*). However, the evidence is review-level only, and doxycycline is first-line.
 - **Necrotizing ulcerative gingivitis, polyclonal hyperviscosity syndrome, hyperamylasemia, postinfectious vasculitis and the broad post-infectious categories** have only historical, indirect or no supporting evidence.
 

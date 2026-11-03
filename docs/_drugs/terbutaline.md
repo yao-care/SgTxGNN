@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terbutaline
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 967
-evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma, bronchitis and emphysema"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Terbutaline"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-## Terbutaline: From Asthma to Obstructive Lung Disease
+## Terbutaline: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Terbutaline is a selective beta-2 adrenergic agonist, originally used to treat asthma, bronchitis and emphysema.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, a category that largely overlaps with its existing uses.
 The data compiled for this report include **15 clinical trials** (9 of them completed Phase 3 studies) and **20 publications** supporting this direction.
 
 ---
@@ -48,10 +47,10 @@ The data compiled for this report include **15 clinical trials** (9 of them comp
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, bronchitis and emphysema (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 0.9996 |
-| Evidence Level | L1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9952 |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |

@@ -4,17 +4,17 @@ title: Amiodarone
 parent: Medium Evidence (L3-L4)
 nav_order: 89
 evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (CPVT) (evidence level L4). Approved use: Ventricular fibrillation"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Amiodarone"
-predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Amiodarone: From Ventricular Fibrillation to Catecholaminergic Polymorphic Ventricular Tachycardia
+## Amiodarone: Catecholaminergic polymorphic ventricular tachycardia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,8 +46,8 @@ Among the other predictions, **ventricular tachycardia** (18 clinical trials, 20
 
 | Item | Content |
 |------|------|
-| Original Indication | Ventricular fibrillation (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia (CPVT) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |

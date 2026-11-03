@@ -4,17 +4,17 @@ title: Choline Salicylate
 parent: Low Evidence (L5)
 nav_order: 245
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Choline Salicylate: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Singapore licence records"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Choline salicylate"
-predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "hypertensive disorder", "migraine disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Raynaud disease", "pulmonary hypertension"]
+predicted_indications: ["Prinzmetal angina", "hypertensive disorder", "migraine disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Raynaud disease", "pulmonary hypertension"]
+description: "Choline Salicylate: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Choline Salicylate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Choline Salicylate: From Topical Oral Pain Relief to Prinzmetal Angina
+## Choline Salicylate: Prinzmetal angina
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,8 +44,8 @@ Choline salicylate is a non-acetylated salicylate marketed in Singapore as topic
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records (all three licences list no approved indication text; products are oral/topical pain-relieving gels) |
-| Predicted New Indication | Prinzmetal angina (top-ranked prediction); rheumatoid arthritis is the only prediction with literature support |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 (model prediction only) |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |

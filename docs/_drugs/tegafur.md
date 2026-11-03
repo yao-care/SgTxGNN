@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tegafur
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 959
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Tegafur"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
-description: "Tegafur: predicted new indication Colonic neoplasm (evidence level L1). Approved use: Not recorded in the local data"
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
+description: "Tegafur: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tegafur
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Tegafur: Colonic neoplasm
+## Tegafur: Cecum villous adenoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tegafur is an oral fluoropyrimidine prodrug of 5-fluorouracil (5-FU), originally used to treat gastric cancer.
-The TxGNN model predicts it may be effective for **colonic neoplasm**,
-with **16 clinical trials** (including several completed Phase 3 trials) and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Colonic neoplasm |
-| TxGNN Prediction Score | 0.9990 |
-| Evidence Level | L1 |
+| Predicted New Indication | Cecum villous adenoma |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |

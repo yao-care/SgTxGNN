@@ -4,17 +4,17 @@ title: Tipiracil
 parent: Low Evidence (L5)
 nav_order: 994
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Tipiracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Colorectal cancer (malignant colon neoplasm, colonic neoplasm…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Tipiracil"
-predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+description: "Tipiracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tipiracil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tipiracil: From Colorectal Cancer to Cecum Villous Adenoma
+## Tipiracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,7 +47,7 @@ The TxGNN model predicts it may be effective for **cecum villous adenoma**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Colorectal cancer (malignant colon neoplasm, colonic neoplasm, squamous cell carcinoma of colon). The Singapore licence records contain no indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cecum villous adenoma |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
