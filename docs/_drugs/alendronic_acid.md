@@ -3,7 +3,7 @@ layout: default
 title: Alendronic Acid
 parent: Known Uses Only (No New Predictions)
 nav_order: 58
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Alendronic Acid: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Alendronic Acid. Every candidate that can be traced to a source is already a known use, so there is currently no new predicted indication. The one known use among the candidates is a relation recorded in the knowledge graph, with no approval found.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 1 |
@@ -50,16 +51,19 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Alendroni
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | bone Paget disease |

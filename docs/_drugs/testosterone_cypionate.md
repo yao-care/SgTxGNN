@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 971
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Testosterone Cypionate: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN model (deep learning) produced no new predicted indication for Testosterone Cypionate on this page. The diseases listed below are known uses or were removed from the prediction list, and they carry no TxGNN score.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
@@ -52,16 +53,19 @@ The TxGNN model (deep learning) produced no new predicted indication for Testost
 ## Known uses recorded for this drug
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | androgen insensitivity syndrome |

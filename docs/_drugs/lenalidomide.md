@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 586
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
@@ -159,6 +159,7 @@ Many phase 1 and 2 studies, including the larger randomised azacitidine ± lenal
 | Severe congenital hypochromic anemia with ringed sideroblasts | L5 | Hold |
 | Partial deletion of the long arm of chromosome 5 | L5 | Hold (largely covered by the approved del(5q) MDS use) |
 | Ganglioneuroblastoma | L5 | Hold |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

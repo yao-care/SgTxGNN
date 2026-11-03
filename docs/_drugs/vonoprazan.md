@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1075
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Vonoprazan"
 predicted_indications: ["peptic ulcer perforation", "hiatus hernia (disease)", "achlorhydria", "gastric dilatation", "pylorospasm", "cascade stomach", "Dieulafoy lesion", "hemorrhagic duodenitis"]
 description: "Vonoprazan: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
@@ -123,6 +123,7 @@ Lower-ranked predictions do not currently support further action:
 | Hemorrhagic duodenitis | 0.9974 | Indirect, from duodenal ulcer RCTs | Research question |
 | Achlorhydria | 0.9986 | No evidence; mechanistically contradictory, since the drug further suppresses acid | Hold |
 | Gastric dilatation, cascade stomach, pylorospasm, Dieulafoy lesion | 0.9985 | No supporting evidence; likely TxGNN model (deep learning) artifacts | Hold |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 725
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -117,6 +117,7 @@ Nortriptyline has a plausible noradrenergic mechanism for ADHD, a published cont
 | Predicted Indication | Score | Evidence Level | Suggested Stance |
 |------|------|------|------|
 | ADHD, inattentive type | 0.9933 | L5 | Research question; indirect support from parent ADHD evidence only |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

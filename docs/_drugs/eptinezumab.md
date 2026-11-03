@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 387
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Eptinezumab: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN model produced candidates for Eptinezumab, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The one known use is related to an approved indication through the same disease category; it is not itself listed as approved.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,16 +53,19 @@ The TxGNN model produced candidates for Eptinezumab, but every candidate that ca
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | migraine with brainstem aura | migraine |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

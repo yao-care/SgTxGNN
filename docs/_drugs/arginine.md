@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 107
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not stated in the licence data compiled for this report (products are…"
 monitor_inn: "Arginine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -121,6 +121,7 @@ The TxGNN score is high (0.9942), but the supporting evidence is limited to anim
 
 | Rank | Predicted Indication | Score | Evidence Level | Suggested Action |
 |------|------|------|------|------|
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

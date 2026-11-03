@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 525
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -137,6 +137,7 @@ Imipramine has a plausible noradrenergic mechanism and a dedicated body of liter
 | Obsessive-compulsive disorder | 0.9901 | L3 | Research Question | Small comparative studies suggest weaker efficacy than clomipramine and SSRIs. |
 | ADHD, inattentive type | 0.9983 | L5 | Hold | Model prediction only; no subtype-specific evidence. |
 | Specific developmental disorder | 0.9967 | L5 | Hold | Only indirect, off-target literature. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

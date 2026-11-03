@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
@@ -109,6 +109,7 @@ The prediction is biologically plausible, because protein C deficiency is a hype
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
 | 2 | Primary release disorder of platelets | 0.9906 | L5 | No mechanistic rationale for heparin; the literature is only thematically adjacent; bleeding risk could increase |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 1077
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: predicted new indication Neurotic disorder (evidence level L1). Approved use: Not recorded in the local data"
@@ -148,6 +148,7 @@ Several completed Phase 3 placebo-controlled RCTs and multiple meta-analyses sup
 |------|------|------|------|------|
 | Neurotic disorder | 0.9924 | L4 | Hold | Legacy broad category; one narrative article, no vortioxetine-specific data |
 | Benign paroxysmal torticollis of infancy | 0.9907 | L5 | Hold | No mechanistic rationale; paediatric safety concerns |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

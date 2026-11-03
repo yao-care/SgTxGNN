@@ -3,7 +3,7 @@ layout: default
 title: Chlormadinone
 parent: Known Uses Only (No New Predictions)
 nav_order: 239
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Chlormadinone: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Chlormadinone, so there is currently no new predicted indication. The recorded uses for this drug are listed below. There are none in the current data.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
@@ -50,16 +51,19 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 ## Known uses recorded for this drug
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | None | None |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | None | None |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | None |

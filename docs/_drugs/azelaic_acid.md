@@ -3,7 +3,7 @@ layout: default
 title: Azelaic Acid
 parent: Known Uses Only (No New Predictions)
 nav_order: 129
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Azelaic Acid: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN model's candidates for Azelaic Acid are all known uses, so there is currently no new predicted indication. Of the candidates that can be traced to a source, one matches a relation already recorded in the knowledge graph. It is not backed by a licence or label in the data used here.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 1 |
@@ -50,16 +51,19 @@ The TxGNN model's candidates for Azelaic Acid are all known uses, so there is cu
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | acne (disease) |

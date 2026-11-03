@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1086
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Zinc gluconate"
 predicted_indications: ["anemia of prematurity", "injury", "cell proliferation disorder", "perinatal disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "radiation or chemically induced disorder", "disease by subcellular system affected", "iatrogenic disease", "regional odontodysplasia"]
 description: "Zinc Gluconate: predicted new indication Anemia of prematurity (evidence level L5). Approved use: Not recorded in the local data"
@@ -125,6 +125,7 @@ Other predictions ranked by the model had similarly limited support, and none ch
 | 8 | Disease by subcellular system affected | 0.9986 | L5 | Ontology grouping term, not an actionable indication. |
 | 9 | Iatrogenic disease | 0.9985 | L5 | Prediction only. |
 | 10 | Regional odontodysplasia | 0.9985 | L5 | Prediction only. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

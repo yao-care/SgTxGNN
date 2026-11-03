@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 790
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -140,6 +140,7 @@ The other predictions offer a more credible path than the top-ranked one:
 |---|---|---|---|---|
 | 9 | Trigeminal neuralgia | 0.9997 | L4 | Most clinically credible. Phenytoin acts on the same sodium channel mechanism as carbamazepine (first-line). Evidence includes IV phenytoin retrospective cohorts (PMID 32981076, PMID 35469475) and a Cochrane review on neuropathic pain (PMID 22592741). Guidelines favour carbamazepine/oxcarbazepine, so it is at best second-line or rescue. Suggested as a research question. |
 | 10 | Beta-ketothiolase deficiency | 0.9995 | L5 | No mechanistic rationale or literature. Hold. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

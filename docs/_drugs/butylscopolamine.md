@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 187
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Butylscopolamine: predicted new indication Irritable bowel syndrome (evidence level L3). Approved use: Not stated in the registration data compiled for this report (general…"
 monitor_inn: "Butylscopolamine"
 predicted_indications: ["irritable bowel syndrome"]
@@ -107,6 +107,7 @@ The other nine predicted indications have no clinical trials and no supporting e
 
 | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

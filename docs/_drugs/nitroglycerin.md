@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 718
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not available"
 monitor_inn: "Nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -142,6 +142,7 @@ All five registrations are valid single-ingredient products. No inhaled or nebul
 | Transient ischemic attack | L4 | Hold | Only cerebral vasospasm reports, with no direct evidence. Possible intracranial pressure concerns |
 | Headache disorder | L4 | Hold | Nitroglycerin triggers migraine and is used as an induction model, which points against therapeutic use |
 | Kyphoscoliotic heart disease, primary hereditary glaucoma, congenital hypotrichosis milia, alopecia, hypotrichosis simplex of the scalp | L5 | Hold | Model prediction only, with no supporting trials or literature |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

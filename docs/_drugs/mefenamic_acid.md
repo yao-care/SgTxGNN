@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 641
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not available"
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
@@ -123,6 +123,7 @@ Several double-blind controlled trials show symptomatic benefit in rheumatoid ar
 |------|------|------|------|
 | Migraine disorder / headache disorder | 0.9923 / 0.9964 | L2 | Double-blind trials vs acetaminophen, vs propranolol and placebo, and in menstrual migraine; best suited to short-term perimenstrual use |
 | Migraine with brainstem aura | 0.9921 | L5 | Evidence indirect and extrapolated from general migraine |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

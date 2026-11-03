@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -135,6 +135,7 @@ The model's other top-ranked predictions have similarly limited support, apart f
 | Infection-related haemolytic uraemic syndrome | L5 | Hold | No evidence; antibiotics may increase toxin release in Shiga toxin-producing *E. coli* infection, a safety concern |
 | Exposure keratitis | L5 | Hold | Literature is off-target |
 | Chronic gingivitis | L5 | Research Question | Supportive periodontitis studies, but the exact condition is not established, and doxycycline is already approved for periodontitis |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

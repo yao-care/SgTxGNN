@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 947
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -128,6 +128,7 @@ A completed Phase 3 trial and a completed Phase 4 trial directly address tacroli
 | Indication | Score | Evidence Level | Recommendation | Comment |
 |------|------|------|------|------|
 | Parapsoriasis | 0.9924 | L5 | Research Question | Case reports only |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

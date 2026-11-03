@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 896
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Salmeterol"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -157,6 +157,7 @@ Multiple completed Phase 3 trials in COPD and chronic bronchitis include salmete
 | 8 | Bronchial neoplasm | L4 | Hold | Trials matched by term only; no anti-tumour evidence |
 | 9 | Hyperlucent lung | L4 | Hold | A single case report |
 | 4, 6, 10 | Rienhoff syndrome; asthma-related traits, susceptibility to; compensatory emphysema | L5 | Hold | Model prediction only, with no supporting studies |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

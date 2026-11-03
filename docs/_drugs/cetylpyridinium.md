@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 234
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Cetylpyridinium: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN model has no candidate with a score of 0.99 or higher for Cetylpyridinium, so there is currently no new predicted indication. The recorded uses for this drug are listed below. For this drug, no uses are recorded.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
@@ -52,16 +53,19 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cetylpyridin
 ## Known uses recorded for this drug
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

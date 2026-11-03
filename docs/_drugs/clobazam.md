@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 265
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Clobazam: predicted new indication Febrile infection-related epilepsy syndrome (evidence level L4). Approved use: Lennox-Gastaut syndrome"
 monitor_inn: "Clobazam"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "atypical childhood epilepsy with centrotemporal spikes", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
@@ -109,6 +109,7 @@ The prediction score is very high, but there are no clinical trials and only two
 | 7 | Benign occipital epilepsy | 0.9958 | L5 | A Cochrane review covers clobazam monotherapy in focal or generalized seizures, but nothing is specific to this syndrome. |
 | 3, 4, 5 | Cryptogenic late-onset epileptic spasms; atypical childhood epilepsy with centrotemporal spikes; photosensitive occipital lobe epilepsy | 0.9977 each | L5 | Indirect and weak literature only. |
 | 2, 8, 9, 10 | Perioral myoclonia with absences; GRIN2A-related epileptic encephalopathy; restless legs syndrome; polymicrogyria with optic nerve hypoplasia | 99.07–0.9979 | L5 | Prediction score only, with no trials or literature. Hold. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

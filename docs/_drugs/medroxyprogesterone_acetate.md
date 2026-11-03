@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 640
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis, endometrial cancer, postmenopausal osteoporosis…"
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
@@ -124,6 +124,7 @@ The prediction score is very high, but there are no registered trials and no dir
 | 6 | Endometriosis in cutaneous scar | L5 | Model inference only; typically managed surgically |
 | 7-8 | Renal hypoplasia (bilateral / unspecified) | L5 | No plausible mechanism; likely a TxGNN model (deep learning) artifact |
 | 9-10 | Blunt duct adenosis / apocrine adenosis of breast | L5 | Fibrocystic-spectrum lesions; no direct evidence |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

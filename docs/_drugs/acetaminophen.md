@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 29
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Acetaminophen: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetaminophen. Every candidate that can be traced to a source is already a known use, so there is currently no new predicted indication. This page lists those known uses and the drug's market status in Singapore.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,16 +53,19 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetamino
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

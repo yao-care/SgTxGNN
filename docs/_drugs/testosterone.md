@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 970
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Testosterone: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher for Testosterone, so there is currently no new predicted indication.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
@@ -52,16 +53,19 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 ## Known uses recorded for this drug
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | None | None |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | None | None |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | acquired pituitary hormone deficiency |

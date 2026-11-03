@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 359
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Dupilumab"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -124,6 +124,7 @@ No trial tests dupilumab directly in bronchitis, and the only listed trial is a 
 | 3 | Acne keloid | 0.9961 | L5 | Hold | One case-level publication on keloid stabilization; no trials; no acne-specific evidence. |
 | 4 | Exanthem | 0.9957 | L5 | Research Question | One small Phase 4 study (n=10) and a systematic review in cutaneous immune-related adverse events. Evidence is mixed because dupilumab can also induce rashes. |
 | 5–10 | Neonatal dermatomyositis; acrodermatitis chronica atrophicans; amyopathic dermatomyositis; childhood connective-tissue-disease-associated ILD; familial hydroa vacciniforme; severe nonproliferative diabetic retinopathy | 99.09–0.9956 | L5 | Hold | Model prediction only, with no valid trials or literature and no plausible mechanistic link. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

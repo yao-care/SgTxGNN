@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 684
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -115,6 +115,7 @@ Two randomised trials in panic disorder with or without agoraphobia, together wi
 | 7 | Migraine disorder | L4 | Only small, unclear-design prophylaxis reports; most papers concern triptan interaction hazards. Research Question |
 | 9 | Obsessive-compulsive disorder | L3 | Only small clinical data; guidelines favour SSRIs and clomipramine. Research Question |
 | 2, 5, 6, 8, 10 | Benign paroxysmal torticollis of infancy, Keppen-Lubinsky syndrome, vitamin B12-responsive methylmalonic acidemia, migraine with brainstem aura, autosomal dominant slowed nerve conduction velocity | L5 | High model scores only, with no trials, no literature and no plausible mechanism. Hold |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

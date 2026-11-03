@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Emicizumab"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
 description: "Emicizumab: predicted new indication Pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -149,6 +149,7 @@ The other nine predictions are not supported and should be held.
 | Thrombotic thrombocytopenic purpura | 0.9961 | Prothrombotic condition; mechanistically a safety concern |
 | Fetal and neonatal alloimmune thrombocytopenia | 0.9952 | Different pathway |
 | "Flood factor deficiency" | 0.9940 | Ambiguous name, possibly a data-entry error |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

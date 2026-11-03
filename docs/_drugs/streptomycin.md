@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 936
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Streptomycin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis, plague, tularemia…"
 monitor_inn: "Streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
@@ -145,6 +145,7 @@ All have an evidence level of L4 or L5 and a recommendation of Hold.
 | 8 | Infection-related hemolytic uremic syndrome | 0.9982 | L5 | Antibiotics are generally avoided; nephrotoxicity concern |
 | 9 | Lyme disease | 0.9966 | L4 | Literature mostly on resistance mechanisms; standard therapy is safer |
 | 10 | Infectious otitis interna | 0.9965 | L5 | Literature signals toxicity (vestibulotoxic and cochleotoxic); not supported |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

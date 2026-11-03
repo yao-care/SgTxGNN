@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 251
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Cinacalcet: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Cinacalcet, so there is currently no new predicted indication. The recorded uses for this drug are listed below. No uses are recorded for it in the data used for this page.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
@@ -52,16 +53,19 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 ## Known uses recorded for this drug
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | None | None |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | None | None |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | None |
