@@ -13,7 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**3 articles** related to stroke.
+**4 articles** related to stroke.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/stroke/
 2026-11-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-sgh-emergency-and-national-neuroscience-building-slashes-stroke-treatment-times)
+
+---
+
+### [Singapore launches Asia-Pacific initiative to earlier identify next big infectious disease threat](https://www.straitstimes.com/singapore/health/singapore-launches-asia-pacific-initiative-to-earlier-identify-next-big-infectious-disease-threat)
+
+2026-11-03
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-launches-asia-pacific-initiative-to-earlier-identify-next-big-infectious-disease-threat)
 
 ---
 
