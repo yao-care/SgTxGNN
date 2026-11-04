@@ -53,30 +53,33 @@ Full searchable index for the website.
 
 ## FHIR Resources
 
-FHIR R4 resources available via API:
+FHIR R4 resources are served as static JSON files. MedicationKnowledge files are named by drug (`/fhir/MedicationKnowledge/{drug}.json`) and ClinicalUseDefinition files by drug and predicted indication (`/fhir/ClinicalUseDefinition/{drug}-{disease}.json`):
 
 ```bash
 # CapabilityStatement
 curl https://sgtxgnn.yao.care/fhir/metadata
 
 # MedicationKnowledge
-curl https://sgtxgnn.yao.care/fhir/MedicationKnowledge/DB00945
+curl https://sgtxgnn.yao.care/fhir/MedicationKnowledge/amlodipine.json
 
 # ClinicalUseDefinition
-curl https://sgtxgnn.yao.care/fhir/ClinicalUseDefinition/DB00945-indication-1
+curl https://sgtxgnn.yao.care/fhir/ClinicalUseDefinition/amlodipine-brain-stem-infarction.json
 ```
 
 ---
 
 ## Bulk Download
 
-Download complete dataset:
+The git repository does not include the processed data files (`data/processed/`), so cloning it is not enough. The complete dataset is published as a GitHub Release asset of the SgTxGNN repository, currently [data-20261029](https://github.com/yao-care/SgTxGNN/releases/tag/data-20261029) (see all [SgTxGNN releases](https://github.com/yao-care/SgTxGNN/releases)).
+
+Download every `SgTxGNN-data.tar.gz.part-*` file and `SgTxGNN-data.sha256` from the release, then:
 
 ```bash
-# Clone repository
-git clone https://github.com/yao-care/SgTxGNN.git
+# Verify and extract (creates SgTxGNN/data/)
+sha256sum -c SgTxGNN-data.sha256
+cat SgTxGNN-data.tar.gz.part-* | tar xzf -
 
-# Data is in data/processed/
+# Processed data is in SgTxGNN/data/processed/
 ls SgTxGNN/data/processed/
 ```
 
