@@ -53,9 +53,8 @@ SgTxGNN adapts TxGNN specifically for Singapore:
 
 ### Coverage
 
-- **745 drugs** mapped to DrugBank
-- **31,543 predictions** generated
-- **4,589 diseases** covered
+- **{{ site.data.drug_stats.total_drugs }} drug reports** published
+- **{{ site.data.site_stats.indications }} predicted new indications** listed on the drug pages
 
 ---
 
@@ -69,17 +68,17 @@ Singapore HSA drug data is mapped to international identifiers:
 HSA Drug Registry → Ingredient Normalisation → DrugBank ID
 ```
 
-Mapping rate: **73.87%** of HSA ingredients successfully mapped
+Mapping rate: **69.9%** of unique HSA ingredients (1,421 of 2,032) mapped to DrugBank (from `data/processed/drug_mapping.csv`, data release data-20261029)
 
 ### 2. Prediction and Known-Use Check
 
 Deep learning predicts; the knowledge graph identifies known uses:
 
-| Method | Description | Count |
-|--------|-------------|-------|
-| **Knowledge Graph (KG)** | Known indications / off-label uses (not predictions) | 22,136 |
-| **Deep Learning (DL)** | Neural network predictions | 29,100 |
-| **KG+DL** | Known uses also scored highly by DL | 1,217 |
+| Method | Description |
+|--------|-------------|
+| **Knowledge Graph (KG)** | Known indications / off-label uses (not predictions) |
+| **Deep Learning (DL)** | Neural network predictions |
+| **KG+DL** | Known uses also scored highly by DL |
 
 ### 3. Evidence Classification
 
