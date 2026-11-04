@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pazopanib
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 767
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
-description: "Pazopanib: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pazopanib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,12 +36,11 @@ Evidence Level: **L5** | Predicted Indications: **6**
 ## Pazopanib: Liposarcoma
 {: .text-alpha }
 
-The prompt says to use predicted_indications[0] as the primary prediction. That entry (Xp11.2/TFE3 RCC) has no trials or literature. The data compiled for this report also contain better-supported candidates, namely liposarcoma, fibroblastic neoplasm, dermatofibrosarcoma protuberans (DFSP) and unclassified RCC. These are summarised after the main sections so the primary entry is not misrepresented.
-
 ## One-Sentence Summary
 
-Pazopanib is an oral multi-target tyrosine kinase inhibitor, originally used for renal cell carcinoma and soft tissue sarcoma.
-Other predicted indications have more support, particularly liposarcoma (6 trials, 20 publications), fibroblastic neoplasm (2 trials, 20 publications) and DFSP (4 trials, 12 publications).
+Pazopanib is an oral multi-targeted tyrosine kinase inhibitor that blocks VEGFR and PDGFR signalling.
+The TxGNN model predicts it may be effective for **liposarcoma**,
+with **6 clinical trials** and **20 publications** compiled for this report, including two Phase 2 trials in advanced liposarcoma (evidence level **L2**).
 
 ## Quick Overview
 
@@ -50,24 +49,40 @@ Other predicted indications have more support, particularly liposarcoma (6 trial
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9959 |
-| Evidence Level | L5 |
+| Evidence Level | L2 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pazopanib inhibits VEGFR-1/2/3, PDGFR and c-Kit. It is already used for renal cell carcinoma and non-adipocytic soft tissue sarcoma.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on the literature, pazopanib is a multi-target tyrosine kinase inhibitor with anti-angiogenic and antitumour properties, acting on VEGFR and PDGFR signalling, which are relevant to soft tissue sarcoma tumour angiogenesis.
 
-Xp11.2/TFE3 translocation RCC is a rare RCC subtype in which the VEGF pathway is involved. A biological link to the original indication therefore exists. However, the high TxGNN score is a model output only. No trial or publication addresses this subtype in the compiled data.
+Liposarcoma is a soft tissue sarcoma, so a shared pathway is plausible. The evidence is mixed, however. Liposarcoma (adipocytic sarcoma) was reported to have shown a lack of benefit in the earlier Phase 2 program, and the activity seen in advanced liposarcoma is subtype-dependent. Other trials enrol mixed soft tissue sarcoma populations and are only partly specific to liposarcoma.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for the Xp11.2/TFE3 RCC prediction.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) | Phase 2 | Completed | 42 | Single-agent pazopanib in unresectable or metastatic liposarcoma; direct evidence |
+| [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) | Phase 2 | Completed | 52 | Activity and tolerability of pazopanib in relapsed advanced/metastatic liposarcoma |
+| [NCT01532687](https://clinicaltrials.gov/study/NCT01532687) | Phase 2 | Completed | 54 | Randomised double-blind: gemcitabine with or without pazopanib in refractory soft tissue sarcoma (mixed population) |
+| [NCT02180867](https://clinicaltrials.gov/study/NCT02180867) | Phase 2/3 | Completed | 140 | Neoadjuvant radiation ± chemotherapy ± pazopanib in non-rhabdomyosarcoma soft tissue sarcoma (not subtype-specific) |
+| [NCT02357810](https://clinicaltrials.gov/study/NCT02357810) | Phase 2 | Completed | 178 | Pazopanib plus oral topotecan in metastatic soft tissue and bone sarcomas (liposarcoma likely a subgroup) |
+| [NCT06239272](https://clinicaltrials.gov/study/NCT06239272) | Phase 1/2 | Recruiting | 139 | Risk-adapted maintenance pazopanib in non-rhabdomyosarcoma soft tissue sarcoma (mixed population) |
 
 ## Literature Evidence
 
-Currently no related literature available for the Xp11.2/TFE3 RCC prediction.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31010343](https://pubmed.ncbi.nlm.nih.gov/31010343/) | 2019 | Phase 2 clinical trial | Expert Opin Investig Drugs | Pazopanib in advanced intermediate- or high-grade liposarcoma; multi-target TKI with anti-angiogenic activity |
+| [28844815](https://pubmed.ncbi.nlm.nih.gov/28844815/) | 2017 | Review/Commentary | Lancet Oncol | Commentary on pazopanib for advanced liposarcoma |
+| [35609512](https://pubmed.ncbi.nlm.nih.gov/35609512/) | 2022 | Review | Oncol Res Treat | Established and experimental systemic options for advanced liposarcoma |
+| [32026050](https://pubmed.ncbi.nlm.nih.gov/32026050/) | 2020 | Review | Curr Treat Options Oncol | Systemic therapy options for dedifferentiated liposarcoma |
+| [37298520](https://pubmed.ncbi.nlm.nih.gov/37298520/) | 2023 | Review | Int J Mol Sci | Treatment of dedifferentiated liposarcoma in the era of immunotherapy |
+| [28547734](https://pubmed.ncbi.nlm.nih.gov/28547734/) | 2017 | Review | Adv Ther | Proposals for optimal use of pazopanib, trabectedin and eribulin in soft tissue sarcoma |
+| [30060824](https://pubmed.ncbi.nlm.nih.gov/30060824/) | 2018 | Preclinical | Tissue Cell | Pazopanib regressed a doxorubicin-resistant, PDGFRA-amplified pleomorphic liposarcoma in a mouse xenograft model |
+| [27434055](https://pubmed.ncbi.nlm.nih.gov/27434055/) | 2016 | Review | Cancer | Chemotherapy for soft tissue sarcoma |
 
 ## Singapore Market Information
 
@@ -77,59 +92,36 @@ Currently no related literature available for the Xp11.2/TFE3 RCC prediction.
 | SIN14023P | Votrient Tablet 400 mg | Film-coated tablet | Not recorded |
 | SIN14022P | Votrient Tablet 200 mg | Film-coated tablet | Not recorded |
 
-All three authorizations are valid single-ingredient products for oral use.
-
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor), not a conventional cytotoxic |
+| Cytotoxicity Classification | Targeted therapy (multi-targeted tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Liver function, blood pressure, ECG/QT and electrolytes, thyroid function, urine protein, and blood counts. These follow the contraindication-linked conditions below. |
+| Monitoring Items | Please refer to the package insert; typically blood counts, liver and renal function, blood pressure and ECG/electrolytes |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-- **Contraindication-linked conditions (from the TxGNN knowledge graph, not label text)**:
-  - Cardiovascular: hypertension, long QT syndrome (including familial), torsades de pointes, myocardial infarction, coronary thrombosis
-  - Liver: liver failure, drug-induced liver injury, hyperbilirubinaemia (including Gilbert syndrome)
-  - Endocrine and metabolic: hypothyroidism, potassium deficiency, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease
-  - Other: intracerebral haemorrhage, active peptic ulcer disease, pancreatitis, proteinuria, diarrhoeal disease, hemoglobinopathy
-- **Drug Interactions**: 100 interactions were found in total. The main ones shown:
-  - **Major**: acid-reducing agents (famotidine, ranitidine, cimetidine, omeprazole, esomeprazole, rabeprazole, dexlansoprazole), clarithromycin, dolasetron
-  - **Moderate**: dexamethasone, budesonide, aprepitant, loperamide, bisacodyl, pioglitazone, saxagliptin, eliglustat, magnesium oxide, polyethylene glycol
+- **Contraindication-related conditions flagged in the data compiled for this report (not label text)**: hypertension, long QT syndrome and torsades de pointes, liver failure and drug-induced liver injury, hypothyroidism, myocardial infarction, intracerebral hemorrhage, active peptic ulcer disease, pancreatitis, proteinuria, diarrheal disease, hyperbilirubinemia (including Gilbert syndrome), and several electrolyte disorders (potassium deficiency, hypercalcemia, phosphorus metabolism disease).
+- **Drug Interactions**: 100 interactions were found. Major ones include acid-suppressing agents (famotidine, ranitidine, cimetidine, omeprazole, esomeprazole, rabeprazole, dexlansoprazole), clarithromycin and dolasetron. Moderate ones include pioglitazone, loperamide, aprepitant, dexamethasone, budesonide, saxagliptin, eliglustat, bisacodyl, magnesium oxide and polyethylene glycol with electrolytes.
 
-Please also refer to the package insert for full warnings and contraindications.
-
-## Other Predicted Indications with Stronger Evidence
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Key Support | Recommendation |
-|---|---|---|---|---|---|
-| 4 | Liposarcoma | 0.9959 | L2 | Phase 2 trials [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) (n=42) and [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) (n=52); [PMID 31010343](https://pubmed.ncbi.nlm.nih.gov/31010343/) | Research Question |
-| 8 | Fibroblastic neoplasm | 0.9935 | L5 | [NCT02066285](https://clinicaltrials.gov/study/NCT02066285) (n=96, solitary fibrous tumour/extraskeletal myxoid chondrosarcoma); [PMID 25269954](https://pubmed.ncbi.nlm.nih.gov/25269954/) | Research Question |
-| 10 | Dermatofibrosarcoma protuberans | 0.9929 | L2 | Phase 2 in unresectable DFSP ([PMID 32956651](https://pubmed.ncbi.nlm.nih.gov/32956651/)); terminated [NCT01059656](https://clinicaltrials.gov/study/NCT01059656) (n=23) | Research Question |
-
-Ranks 3, 5, 6, 7 and 9 (RCC with neuroblastoma, childhood kidney cell carcinoma, ovarian myxoid liposarcoma, heart fibrosarcoma and kidney fibrosarcoma) are L5 with no supporting studies, and are all on Hold.
-
-Caveats on the stronger candidates:
-- **Liposarcoma**: pazopanib's soft tissue sarcoma approval excludes the adipocytic subtype, and the evidence is mixed.
-- **Unclassified RCC**: the data are retrospective or single-arm and do not isolate this subtype. No randomized evidence is available.
-- **DFSP**: imatinib remains the standard targeted therapy, and most listed trials are mixed sarcoma populations.
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The primary prediction (Xp11.2/TFE3 RCC) has no clinical trials or literature and rests on a model score and mechanistic plausibility alone, so it is L5. Pazopanib is already marketed in Singapore with three valid authorizations, which makes follow-up feasible. The stronger signals lie in other predicted indications, and those are better treated as separate research questions.
+Two completed Phase 2 trials of pazopanib in advanced liposarcoma (NCT01506596, NCT01692496; PMID 31010343) place the evidence at L2, with no Phase 3 trial. Results are mixed and subtype-dependent, and liposarcoma has historically shown limited benefit from pazopanib, so use should be restricted to carefully selected patients.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA, which are currently missing and block safety screening
-- Detailed mechanism of action data from DrugBank
-- The approved indication text for the Singapore licences, which is empty in the current records
-- For Xp11.2/TFE3 RCC: a targeted literature search for case series or subgroup analyses within non-clear-cell RCC studies
-- Consideration of re-prioritising evaluation toward unclassified RCC, DFSP or fibroblastic tumours, each of which has a Phase 2 evidence base
+- Review of the Phase 2 outcomes by liposarcoma subtype (well-/dedifferentiated, myxoid, pleomorphic) to identify responsive groups
+- Package insert warnings and contraindications from the HSA, which are currently missing
+- Mechanism-of-action data
+- Safety monitoring plan covering blood pressure, QT interval, liver function and the major drug interactions above
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

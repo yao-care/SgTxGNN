@@ -3,18 +3,18 @@ layout: default
 title: Miconazole
 parent: Medium Evidence (L3-L4)
 nav_order: 671
-evidence_level: L3
+evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-31
-description: "Miconazole: predicted new indication Acne (disease) (evidence level L3). Approved use: Tinea pedis, tinea corporis, cutaneous candidiasis, tinea unguium…"
+last_modified_at: 2026-11-04
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
+description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Miconazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-## Miconazole: acne (disease)
+## Miconazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Miconazole is a topical azole antifungal, originally used for tinea (athlete's foot, ringworm, nail infection), cutaneous candidiasis, pityriasis versicolor and vulvovaginal candidiasis.
-The TxGNN model predicts it may be effective for **acne**, with **no registered clinical trials** and **4 publications** (one review, two small clinical studies, one in vitro study) currently supporting this direction.
+Miconazole is a topical imidazole antifungal widely marketed in Singapore.
+The TxGNN model predicts it may be useful for **acne (disease)**, but the evidence is thin: there are **no registered clinical trials**, and the **4 publications** found are a review, a small split-face study, a diagnostic and therapeutic study in a look-alike condition, and an in vitro study. The evidence level is **L4**.
 
 ---
 
@@ -47,26 +47,23 @@ The TxGNN model predicts it may be effective for **acne**, with **no registered 
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, tinea corporis, cutaneous candidiasis, tinea unguium, pityriasis versicolor, vulvovaginal candidiasis (from the knowledge graph; no approved-indication text is recorded in the Singapore licence data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9954 |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | Singapore Market Status | Marketed (valid licences on record: at least 20) |
 | Number of Registrations | at least 20 |
-| Recommended Decision | Hold (research question only) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known information, miconazole is an imidazole antifungal that is understood to inhibit fungal ergosterol synthesis (CYP51). Its efficacy in superficial fungal skin infections is well established, and a historical review (PMID 16597199) notes it may also inhibit fungal peroxidases.
+Detailed mechanism of action data are not available for this report. Miconazole belongs to the imidazole antifungal class. Based on the literature, it has in vitro activity against *Propionibacterium acnes* (the bacterium involved in acne vulgaris) and against *Malassezia* yeasts. A review of its effects on skin disorders also describes anti-inflammatory properties.
 
-For acne, the link is indirect but plausible in three ways:
-- **In vitro antibacterial activity:** Imidazole antifungals have been tested against *Propionibacterium acnes* (*Cutibacterium acnes*), the bacterium associated with acne vulgaris (PMID 20045949). This is attractive given rising antibiotic resistance.
-- **Anti-*Malassezia* activity:** *Malassezia* causes Pityrosporum folliculitis, which is frequently misdiagnosed as acne (PMID 8593718). Miconazole may help in these look-alike cases, but that is a different condition from true acne.
-- **Possible anti-inflammatory effect:** A review of miconazole's effects on skin disorders (PMID 18627330) and a small split-face study in catamenial (period-related) acne (PMID 15536660) suggest possible benefit.
+Malassezia is linked to Pityrosporum folliculitis, a condition that looks like acne and is often misdiagnosed as acne vulgaris. An antifungal could therefore help in some acne-like presentations. A small split-face study in catamenial (menstrual-cycle-related) acne also hints at possible benefit.
 
-The evidence is limited to small studies and laboratory data, so this should be treated as a hypothesis rather than an established use.
+These points are suggestive only. They rest on laboratory data, a review and small studies. No trial has tested miconazole directly in acne.
 
 ---
 
@@ -80,16 +77,16 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Review | Expert Opin Pharmacother | Overview of miconazole's multiple effects on skin disorders beyond its antifungal action |
-| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical study (split-face, small) | Skin Res Technol | Clinical and instrument-based assessment in mild inflammatory catamenial acne; suggests possible benefit |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Clinical study | Clin Exp Dermatol | Pityrosporum folliculitis (62 patients) is often mistaken for acne vulgaris; diagnosis and therapeutic trials reported |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biol Pharm Bull | Azole antifungals tested for activity against *P. acnes* from acne patients, motivated by antibiotic resistance |
+| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Review | Expert Opin Pharmacother | Overview of miconazole's multiple effects on skin disorders, including antibacterial and anti-inflammatory actions |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical study (split-face, small) | Skin Res Technol | Clinical and bioinstrumental assessment in mild inflammatory catamenial acne, suggesting possible benefit |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Clinical study | Clin Exp Dermatol | Diagnosis and therapeutic trials in Pityrosporum folliculitis, a condition often mistaken for acne vulgaris |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biol Pharm Bull | Azole antifungals, including miconazole, tested in vitro against *P. acnes* isolates from acne vulgaris patients |
 
 ---
 
 ## Singapore Market Information
 
-Miconazole has 20 valid single-ingredient registrations in Singapore, none cancelled. No approved-indication text is recorded for these products. Five main authorisations are listed below.
+At least 20 valid single-ingredient licences are on record, and the list may be partial. Main examples:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -99,16 +96,13 @@ Miconazole has 20 valid single-ingredient registrations in Singapore, none cance
 | SIN10836P | Resolve Solution 2% w/w | Solution | Not recorded |
 | SIN11180P | Neo-Penotran Pessary | Suppository | Not recorded |
 
-Other registered forms include a powder (Minazol) and several creams, including combination-named products such as Micon-H and Zaricort. All are classified as single-ingredient licences in the data.
-
 ---
 
 ## Safety Considerations
 
-- **Disease-level cautions (knowledge graph):** Liver disease and gallbladder disease are flagged as contraindication-related conditions. These come from a knowledge graph, not from label text, and should be verified against the package insert.
-- **Drug Interactions:** 100 interactions are recorded. Most are Moderate, a few are Minor, and none of those listed is Major. Examples of moderate interactions include paclitaxel, fentanyl, alfentanil, hydrocodone, acalabrutinib, nifedipine, amlodipine, amiodarone, amitriptyline, alprazolam, alfuzosin, aliskiren, alosetron, ethinylestradiol and estradiol. Many of these likely reflect CYP3A4 inhibition and are most relevant with systemic exposure. Topical use gives low systemic absorption, but interaction risk should still be considered, particularly in patients on warfarin-like or CYP3A4-sensitive drugs.
+- **Drug Interactions**: 100 interactions are on record. Examples at moderate level include paclitaxel, fentanyl, alfentanil, acalabrutinib, nifedipine, amlodipine, amiodarone, amitriptyline, alprazolam, hydrocodone, estradiol and ethinylestradiol. Minor examples include dolutegravir, loratadine and amphotericin B.
 
-Package insert warnings and contraindications were not available. Please refer to the package insert for further safety information.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -117,15 +111,14 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (0.9954), but there are no registered clinical trials and the supporting evidence is one review, two small clinical studies and one in vitro study. Some of this literature concerns Malassezia folliculitis, a different condition from acne. The idea is mechanistically plausible and the drug is already widely marketed topically in Singapore, but the data are not yet enough to support moving forward with a clinical programme.
+The evidence level is L4. Support comes from a review of miconazole's skin effects, in vitro anti-*P. acnes* activity and small studies, with no clinical study in acne itself. This is a research question rather than a basis for action.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (a blocking gap for safety screening)
-- Detailed mechanism of action data from DrugBank
-- A controlled trial (ideally randomised) of topical miconazole in acne vulgaris, with comparison against standard therapy
-- Clear separation of true acne from Malassezia folliculitis in any study population
-- Review of liver-related cautions and interaction risks, especially if systemic exposure is considered
-- Assessment of formulation and route suitability for acne (not yet evaluated)
+- A controlled clinical trial of miconazole in acne
+- Mechanism of action data
+- Package insert warnings and contraindications
+- Confirmation that the topical formulations suit acne-prone skin
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

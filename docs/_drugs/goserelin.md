@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Goserelin
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 490
-evidence_level: L1
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
-description: "Goserelin: predicted new indication amenorrhea (disease) (evidence level L1). Approved use: Endometriosis"
+last_modified_at: 2026-11-04
 monitor_inn: "Goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
+description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Goserelin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,55 +33,50 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-## Goserelin: From Endometriosis to Amenorrhea (disease)
+## Goserelin: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Goserelin is a GnRH (gonadotropin-releasing hormone) agonist, originally used to treat endometriosis.
-The TxGNN model predicts it may be effective for **amenorrhea**, with **1 clinical trial** and **16 publications** currently supporting this direction.
-Amenorrhea is largely an expected pharmacological effect of ovarian suppression rather than a separate disease target, so the evidence is indirect.
+Goserelin is a gonadotropin-releasing hormone (GnRH) agonist that suppresses ovarian hormone production. The TxGNN model predicts a link with **amenorrhea**, but no study tests goserelin as a treatment for amenorrhea; the available **1 clinical trial** and **16 publications** report amenorrhea as an expected effect of ovarian suppression (mainly in breast cancer). The evidence level is therefore **L5** (model prediction only).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (the Singapore licence records contain no approved indication text) |
-| Predicted New Indication | Amenorrhea |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L1 |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 2 of 2) |
 | Number of Registrations | 2 (valid: 2) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, goserelin is a GnRH agonist. Continuous exposure desensitises pituitary GnRH receptors, which suppresses LH and FSH and lowers ovarian estradiol production. The result is a reversible, hypoestrogenic state with amenorrhea.
+Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, goserelin is a GnRH agonist. Continuous exposure desensitizes pituitary GnRH receptors, lowering LH and FSH and reducing ovarian estradiol, which produces a reversible hypoestrogenic state with amenorrhea.
 
-Endometriosis lesions depend on estrogen, so this suppression is how goserelin relieves the disease. Amenorrhea is therefore a built-in effect of the same mechanism. It is also used as a marker of ovarian suppression in premenopausal breast cancer. Chemotherapy-induced amenorrhea and ovarian failure have been studied as outcomes of goserelin ovarian protection.
-
-An important caveat: amenorrhea here is a therapeutic effect or side effect, not a distinct disease for which goserelin is the treatment. The high model score reflects this strong mechanistic link, but the evidence does not show goserelin as a treatment for pathological amenorrhea.
+This is why the prediction should be read with care. Amenorrhea here is an expected pharmacological effect, or a side effect, of ovarian suppression rather than a separate disease that goserelin treats. It is used as a marker of ovarian suppression in premenopausal breast cancer, and it is studied as an outcome in chemotherapy-induced ovarian failure and ovarian protection. The high score reflects this association, not proof of benefit as a therapy for amenorrhea.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02132390](https://clinicaltrials.gov/study/NCT02132390) | Phase 3 | Unknown | 300 | Adjuvant toremifene with or without goserelin in premenopausal women with hormone receptor-positive stage I-IIIA breast cancer, with or without chemotherapy-induced amenorrhoea. Amenorrhea is a pharmacodynamic outcome here, so the trial is only indirectly relevant. No results confirmed. |
+| [NCT02132390](https://clinicaltrials.gov/study/NCT02132390) | Phase 3 | Unknown | 300 | Adjuvant toremifene with or without goserelin in premenopausal women with hormone receptor-positive breast cancer, with or without chemotherapy-induced amenorrhea. Amenorrhea is a pharmacodynamic context, not the treatment target; no confirmed results. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12488406](https://pubmed.ncbi.nlm.nih.gov/12488406/) | 2002 | RCT | J Clin Oncol | Goserelin versus CMF chemotherapy as adjuvant therapy in premenopausal node-positive breast cancer (ZEBRA study), looking at short-term toxicity and premature menopause |
-| [14679153](https://pubmed.ncbi.nlm.nih.gov/14679153/) | 2003 | RCT | J Natl Cancer Inst | IBCSG Trial VIII: chemotherapy followed by goserelin versus either alone in node-negative premenopausal breast cancer |
-| [17159194](https://pubmed.ncbi.nlm.nih.gov/17159194/) | 2007 | RCT (secondary analysis) | J Clin Oncol | Impact of chemotherapy, goserelin, or both on amenorrhea, hot flashes and quality of life |
-| [8513962](https://pubmed.ncbi.nlm.nih.gov/8513962/) | 1993 | RCT | Fertil Steril | Goserelin versus low-dose oral contraceptive for endometriosis-associated pelvic pain |
-| [28472240](https://pubmed.ncbi.nlm.nih.gov/28472240/) | 2017 | Meta-analysis/Review | Ann Oncol | OPTION trial: GnRH agonist during chemotherapy for early breast cancer to reduce the risk of premature ovarian insufficiency |
-| [12353820](https://pubmed.ncbi.nlm.nih.gov/12353820/) | 2002 | Review | Breast Cancer Res Treat | Overview of LHRH agonists, including goserelin, in early breast cancer and the benefits of reversible ovarian ablation |
-| [12734855](https://pubmed.ncbi.nlm.nih.gov/12734855/) | 2003 | Review | Br J Surg | Methods of ovarian ablation and the relevance of ovarian suppression in adjuvant breast cancer treatment |
-| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | J R Army Med Corps | Therapeutic induction of amenorrhoea; goserelin discussed as an effective option alongside continuous oral contraceptives |
+| [17159194](https://pubmed.ncbi.nlm.nih.gov/17159194/) | 2007 | RCT (secondary analysis) | J Clin Oncol | Quality of life, hot flashes and amenorrhea after chemotherapy, goserelin or both in premenopausal breast cancer (IBCSG Trial VIII) |
+| [12488406](https://pubmed.ncbi.nlm.nih.gov/12488406/) | 2002 | RCT | J Clin Oncol | Goserelin versus CMF chemotherapy as adjuvant therapy in premenopausal node-positive breast cancer |
+| [14679153](https://pubmed.ncbi.nlm.nih.gov/14679153/) | 2003 | RCT | J Natl Cancer Inst | Chemotherapy followed by goserelin versus either alone in node-negative premenopausal breast cancer |
+| [8513962](https://pubmed.ncbi.nlm.nih.gov/8513962/) | 1993 | RCT | Fertil Steril | Goserelin versus low-dose oral contraceptive for pelvic pain |
+| [28472240](https://pubmed.ncbi.nlm.nih.gov/28472240/) | 2017 | Meta-analysis/Review | Ann Oncol | OPTION trial: GnRH agonist during chemotherapy to reduce premature ovarian insufficiency |
+| [12353820](https://pubmed.ncbi.nlm.nih.gov/12353820/) | 2002 | Review | Breast Cancer Res Treat | LHRH agonists induce reversible ovarian ablation in early breast cancer |
+| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | J R Army Med Corps | Therapeutic induction of amenorrhea with goserelin compared with continuous oral contraceptives |
 | [25187267](https://pubmed.ncbi.nlm.nih.gov/25187267/) | 2015 | Cohort | Cancer Res Treat | Goserelin ovarian ablation improved survival in stage II/III hormone receptor-positive breast cancer without chemotherapy-induced amenorrhea |
-| [26951320](https://pubmed.ncbi.nlm.nih.gov/26951320/) | 2016 | Cohort/Grand Rounds | J Clin Oncol | Whether estradiol monitoring is necessary during ovarian suppression for breast cancer |
+| [2522795](https://pubmed.ncbi.nlm.nih.gov/2522795/) | 1989 | Clinical study | Br J Obstet Gynaecol | Gonadotropin suppression with goserelin did not reverse premature ovarian failure |
 
 ## Singapore Market Information
 
@@ -90,30 +85,29 @@ An important caveat: amenorrhea here is a therapeutic effect or side effect, not
 | SIN01506P | ZOLADEX DEPOT INJECTION 3.6 mg/syringe | Injection | Not stated in the licence record |
 | SIN09793P | ZOLADEX LA DEPOT INJECTION 10.8 mg/syringe | Injection | Not stated in the licence record |
 
-Both licences are valid, single-ingredient products from AstraZeneca UK Ltd.
+## Cytotoxicity
+
+Goserelin is a hormonal agent, not a conventional cytotoxic drug. Please refer to the package insert warnings and precautions.
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (from TxGNN model (deep learning) associations, which may reflect similarities the model learned between related diseases, not biological evidence, and not package insert text)**: hypertension and hypertensive disorder, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, obesity (including monogenic obesity), and urinary tract obstruction.
-- **Drug Interactions**: 100 interactions were identified. Most are of moderate severity; the one Major interaction in the listed results is **dolasetron**. Moderate interactions in the list include:
-  - Antidiabetic agents: acarbose, alogliptin, canagliflozin, chlorpropamide, dapagliflozin, dulaglutide, empagliflozin, glimepiride, linagliptin, metformin, saxagliptin, albiglutide
-  - Others: famotidine, loperamide, bisacodyl, clarithromycin, picosulfuric acid, polyethylene glycol (3350 with electrolytes), palonosetron
+- **Drug Interactions**: 100 interactions were found. Most are moderate and mainly involve antidiabetic drugs (e.g. metformin, acarbose, glimepiride, dapagliflozin, empagliflozin, linagliptin, saxagliptin, alogliptin, canagliflozin, chlorpropamide, dulaglutide, albiglutide), bowel preparations and laxatives, and others such as famotidine, loperamide, clarithromycin and palonosetron. One major interaction is listed with **dolasetron**.
 
-The package insert warnings and contraindications could not be obtained. Please refer to the package insert for the full safety information.
+For other safety information, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Goserelin reliably induces reversible amenorrhea through ovarian suppression, and several RCTs in breast cancer and endometriosis document this effect. However, amenorrhea is an expected pharmacological effect rather than an independent treatment target. The only registered trial addresses breast cancer, with amenorrhea as an indirect outcome and no confirmed results. The evidence level of L1 therefore overstates direct support for amenorrhea as an indication.
+The evidence level is L5. No study tests goserelin as a treatment for amenorrhea; the trial and publications describe amenorrhea as a result of goserelin's ovarian suppression, mainly in breast cancer. The prediction does not support a new therapeutic use.
 
 **To proceed, the following is needed:**
-- Clarify whether the intended use is therapeutic induction of amenorrhea (for example, menstrual suppression or protection of ovarian function during chemotherapy) or treatment of pathological amenorrhea. The latter is not supported by the data.
-- Obtain the Singapore package insert (warnings, contraindications, approved indications), which was unavailable for this review.
-- Obtain detailed mechanism of action data from DrugBank.
-- Review the DDI list, especially the Major interaction with dolasetron and the antidiabetic agents, together with the metabolic conditions flagged in the contraindication associations.
-- Monitor bone density and menopausal symptoms in any long-term or non-oncology use.
+- Evidence from studies that directly test goserelin as a treatment for amenorrhea, if a therapeutic rationale can be defined
+- Mechanism of action data and package insert warnings and contraindications
+- Clarification of whether amenorrhea is a therapeutic target or an expected effect of treatment
+- Review of interactions, especially the major interaction with dolasetron
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

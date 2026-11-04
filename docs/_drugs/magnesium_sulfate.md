@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Magnesium Sulfate
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 630
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 monitor_inn: "Magnesium sulfate"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-03
-description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
+last_modified_at: 2026-11-04
+description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Magnesium Sulfate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L3** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Magnesium sulfate is an injectable and oral mineral salt with a long history of clinical use.
-The TxGNN model predicts it may be effective for **thrombotic disease**,
-but only **1 clinical trial** (a Phase 3 study in thrombotic thrombocytopenic purpura with unknown status and no published results) and mostly indirect literature currently relate to this direction.
+Magnesium sulfate is a mineral salt given by injection and orally as a laxative syrup.
+The TxGNN model predicts it may be effective for **thrombotic disease**, with **1 clinical trial** (in thrombotic thrombocytopenic purpura, status unknown, no results) and a small set of older preclinical and pilot studies supporting this direction.
+Evidence level is **L3**.
 
 ## Quick Overview
 
@@ -49,35 +49,34 @@ but only **1 clinical trial** (a Phase 3 study in thrombotic thrombocytopenic pu
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9990 |
-| Evidence Level | L5 |
+| Evidence Level | L3 |
 | Singapore Market Status | Marketed (valid licences: 2 of 2) |
 | Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on general pharmacology, magnesium has plausible antithrombotic effects, including inhibition of platelet aggregation and of calcium-dependent steps in the coagulation cascade.
+Detailed mechanism of action data is not currently available. Based on the published literature, magnesium has plausible antithrombotic effects: it can inhibit platelet aggregation and interfere with calcium-dependent steps of the coagulation cascade.
 
-Older animal studies support this idea. In dogs and rabbits, magnesium sulfate reduced thrombus formation at sites of arterial endothelial damage (PMID 3441141, 7368083), and in a rat carotid injury model it prevented or delayed thrombus formation (PMID 11816720). A small open-label pilot in patients undergoing coronary stenting (PMID 14506544) examined feasibility of magnesium administration.
+Animal studies support this. Magnesium sulfate reduced platelet deposition and thrombus formation after arterial injury in rabbits, dogs and rats (PMIDs 7368083, 3441141, 11816720). A small nonrandomized pilot study also tested magnesium in patients undergoing coronary stenting, where stent thrombosis is the concern (PMID 14506544).
 
-These findings are preclinical or small and indirect. The only trial is in thrombotic thrombocytopenic purpura (TTP), a narrow subtype that cannot be generalized to thrombotic disease as a whole. No cited study directly tests magnesium sulfate in thrombotic disease as a broad category, so the evidence level stays at L5 (model prediction with no direct supporting study).
+These findings are early. They show feasibility and biological plausibility, not proven clinical benefit in thrombotic disease. The only randomized trial is in thrombotic thrombocytopenic purpura (TTP), a narrow subtype that cannot be generalised to thrombotic disease overall.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03237819](https://clinicaltrials.gov/study/NCT03237819) | Phase 3 | Unknown | 74 | Multicentre randomized controlled trial of magnesium sulfate in thrombotic thrombocytopenic purpura in intensive care (2018–2021). No results available. |
+| [NCT03237819](https://clinicaltrials.gov/study/NCT03237819) | Phase 3 | Unknown | 74 | Multicentre randomised controlled trial of magnesium sulfate in TTP in intensive care (2018–2021). No results available. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14506544](https://pubmed.ncbi.nlm.nih.gov/14506544/) | 2003 | Cohort (open-label pilot) | J Cardiovasc Pharmacol Ther | Feasibility of magnesium in patients undergoing non-acute coronary stenting; magnesium inhibits acute stent thrombosis in animal models |
-| [11816720](https://pubmed.ncbi.nlm.nih.gov/11816720/) | 2001 | Preclinical | Thromb Haemost | IV magnesium sulfate prevented or delayed carotid thrombus formation in rats, with impaired coagulation in vivo |
-| [3441141](https://pubmed.ncbi.nlm.nih.gov/3441141/) | 1987 | Preclinical | Magnesium | Antithrombogenic effect at sites of endothelial damage in dog coronary and rabbit carotid arteries |
-| [7368083](https://pubmed.ncbi.nlm.nih.gov/7368083/) | 1980 | Preclinical | Surgery | Reduced platelet deposition in rabbits after temporary arterial occlusion |
-| [8024163](https://pubmed.ncbi.nlm.nih.gov/8024163/) | 1994 | Clinical study | Angiology | Magnesium sulfate infusion and noradrenaline/neuropeptide-Y levels in primary Raynaud's phenomenon (vascular, not thrombotic) |
-| [3724238](https://pubmed.ncbi.nlm.nih.gov/3724238/) | 1986 | Clinical study | Magnesium | Magnesium sulfate terminated and prevented cold-induced vasoconstriction in 15 patients with Prinzmetal's angina |
+| [14506544](https://pubmed.ncbi.nlm.nih.gov/14506544/) | 2003 | Cohort (open-label pilot) | J Cardiovasc Pharmacol Ther | Feasibility of magnesium in patients undergoing non-acute PCI with stent implantation, after animal data showed inhibition of acute stent thrombosis |
+| [11816720](https://pubmed.ncbi.nlm.nih.gov/11816720/) | 2001 | Preclinical | Thromb Haemost | IV magnesium prevented or delayed carotid thrombus formation in a rat model and impaired coagulation in vivo |
+| [3441141](https://pubmed.ncbi.nlm.nih.gov/3441141/) | 1987 | Preclinical | Magnesium | Antithrombogenic effect at sites of endothelial damage in dogs and rabbits |
+| [7368083](https://pubmed.ncbi.nlm.nih.gov/7368083/) | 1980 | Preclinical | Surgery | Reduced platelet deposition in rabbit arteries after temporary occlusion |
+| [14168822](https://pubmed.ncbi.nlm.nih.gov/14168822/) | 1964 | Historical report | The Practitioner | Parenteral magnesium sulphate in arterial disease (no abstract available) |
 
 ## Singapore Market Information
 
@@ -88,22 +87,23 @@ These findings are preclinical or small and indirect. The only trial is in throm
 
 ## Safety Considerations
 
-- **Drug Interactions**: 92 interactions were recorded. Major-level interactions include dolutegravir, amikacin and bictegravir. Moderate-level interactions include doxycycline, tetracycline, ciprofloxacin, nifedipine, amlodipine, cisatracurium, alendronic acid, risedronic acid, ibandronate, cholecalciferol, calcifediol, calcitriol, and several corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone).
+- **Drug Interactions:** 92 interactions were found in the data compiled for this report. Major interactions include **dolutegravir**, **amikacin** and **bictegravir**. Moderate interactions include doxycycline, tetracycline, ciprofloxacin, nifedipine, amlodipine, cisatracurium, alendronic acid, risedronic acid, ibandronate, cholecalciferol, calcifediol, calcitriol, and several corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone).
 
-Please refer to the package insert for warnings and contraindications.
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Support for thrombotic disease rests on older animal studies and a single Phase 3 trial in TTP with unknown status and no results. No cited study directly addresses thrombotic disease as a whole, so the evidence is limited to a model prediction.
+The evidence level is L3. The only randomised trial is in TTP, a narrow subtype, and has unknown status with no results. The supporting studies are mostly animal work and a small nonrandomised pilot. This is a research question, not yet a basis for clinical use.
 
 **To proceed, the following is needed:**
-- Published results or status clarification for NCT03237819
-- Controlled human studies in a defined thrombotic population
-- Mechanism of action data and package insert safety information (warnings, contraindications)
-- Dose and route assessment, given the interactions listed above
+- Results or status update for NCT03237819
+- Randomised clinical data in a broader thrombotic population (for example venous thromboembolism or stent thrombosis)
+- Mechanism of action data
+- Package insert warnings and contraindications
+- Dose and route definition, with a bleeding-risk assessment and a review of interactions with antithrombotic drugs
 
 ## Disclaimer
 

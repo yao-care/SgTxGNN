@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sorafenib
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 930
-evidence_level: L2
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "Sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
-description: "Sorafenib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
+description: "Sorafenib: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,11 +38,9 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Sorafenib is a multikinase inhibitor originally used to treat hepatocellular carcinoma, renal cell carcinoma and thyroid carcinoma.
-The TxGNN model predicts it may be effective for **liposarcoma**,
-but the supporting evidence is indirect: **1 Phase 2 clinical trial** in advanced soft tissue sarcomas (liposarcoma is only one subgroup) and **8 publications**, most of them reviews or preclinical studies.
-
----
+Sorafenib is an oral multikinase inhibitor that is currently marketed in Singapore.
+The TxGNN model predicts it may be useful for **Liposarcoma**.
+No study has tested sorafenib in liposarcoma itself. The evidence consists of **1 Phase 2 trial** and several publications in soft tissue sarcoma generally, so the evidence level is **L5**.
 
 ## Quick Overview
 
@@ -51,42 +49,38 @@ but the supporting evidence is indirect: **1 Phase 2 clinical trial** in advance
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9982 |
-| Evidence Level | L2 |
+| Evidence Level | L5 |
 | Singapore Market Status | Marketed (valid licences: 3 of 3) |
 | Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Sorafenib is a multikinase inhibitor that blocks the RAF/MEK/ERK signalling pathway and receptors involved in tumour blood-vessel growth (VEGFR, PDGFR, KIT). Angiogenesis and MAPK signalling are plausible drivers in soft tissue sarcomas. A laboratory study showed that sorafenib inhibited growth and MAPK signalling in cell lines that included dedifferentiated liposarcoma.
+Sorafenib blocks several kinases: RAF (the RAF/MEK/ERK signalling pathway), VEGFR, PDGFR and KIT. Blocking these slows tumour cell growth and cuts the tumour's blood supply. Angiogenesis and MAPK signalling are plausible drivers in soft tissue sarcomas, which is the mechanistic basis for the prediction.
 
-The original indications (liver, kidney and thyroid cancers) are all solid tumours that depend on angiogenesis and kinase signalling. This gives a mechanistic reason to test sorafenib in sarcomas. However, soft tissue sarcoma treatment is increasingly driven by histological subtype, and liposarcoma-specific activity of sorafenib has not been clearly established. The prediction should therefore be considered a hypothesis, not a confirmed benefit.
+The supporting data are indirect:
 
----
+- A Phase 2 trial tested sorafenib in advanced soft tissue sarcomas as a group. Liposarcoma is only one subgroup, and no subtype-specific results are available.
+- A laboratory study of sorafenib used dedifferentiated liposarcoma cell lines alongside nerve sheath tumour cells. It reported inhibition of growth and MAPK signalling, but it is preclinical.
+- Reviews note that sarcoma treatment depends heavily on histological subtype. Liposarcoma-specific activity of sorafenib is therefore not established.
+
+Detailed mechanism-of-action data from the drug database are not available. The mechanism above comes from the literature compiled for this report.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Completed | 51 | Single-agent sorafenib in advanced soft tissue sarcomas. Liposarcoma is one subgroup and no subtype-specific results are available in the compiled data. |
-
----
+| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Completed | 51 | Single-agent sorafenib in advanced soft tissue sarcomas. Liposarcoma is one subgroup, and no subtype-specific results are provided. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Phase 2 trial (SWOG S0505) | Cancer | Phase 2 intergroup trial of sorafenib in advanced soft tissue sarcomas; sorafenib targets RAF, VEGFR1-3, PDGFR-B, FLT3 and KIT. |
-| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Phase 1 trial | Ann Surg Oncol | Neoadjuvant radiotherapy plus sorafenib in locally advanced extremity soft tissue sarcoma. |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Ann Oncol | Soft tissue sarcoma therapy is increasingly histology-driven; trabectedin is highlighted for liposarcoma. |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magy Onkol | Histology-based medical treatment of soft tissue sarcomas. |
-| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preclinical | Mol Cancer Ther | Sorafenib inhibited growth and MAPK signalling in MPNST and dedifferentiated liposarcoma cell lines. |
-| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preclinical | Am J Pathol | Dedifferentiated liposarcoma xenograft models; response to PI3K pathway inhibition. |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Front Oncol | Sarcoma PDOX models and palbociclib combinations (not sorafenib-specific). |
-
----
+| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Phase 2 trial (SWOG S0505) | Cancer | Sorafenib in advanced soft tissue sarcomas; this is a multi-histology study, not specific to liposarcoma. |
+| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Phase 1 trial | Ann Surg Oncol | Neoadjuvant radiotherapy plus sorafenib in locally advanced extremity soft tissue sarcoma; safety and feasibility focus. |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Ann Oncol | Soft tissue sarcoma therapy is increasingly dictated by histological subtype. |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magy Onkol | Histology-driven medical treatment of soft tissue sarcomas. |
+| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preclinical | Mol Cancer Ther | Sorafenib inhibited growth and MAPK signalling in nerve sheath tumour cells and dedifferentiated liposarcoma cell lines. |
 
 ## Singapore Market Information
 
@@ -96,44 +90,41 @@ The original indications (liver, kidney and thyroid cancers) are all solid tumou
 | SIN16485P | INFENIB FILM COATED TABLET 200MG | Film-coated tablet | Not recorded in the compiled data |
 | SIN16774P | SORAVAR 200 FILM COATED TABLET 200 MG | Film-coated tablet | Not recorded in the compiled data |
 
----
+All listed licences are currently valid, and the product is available as an oral tablet. The approved indication text is not recorded in the local data.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Targeted therapy (multikinase inhibitor), not a conventional cytotoxic |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions. The knowledge graph lists thrombocytopenia, neutropenia and agranulocytosis among its contraindication-linked conditions. |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
-
----
+| Monitoring Items | Blood counts, liver and renal function, and blood pressure; see the package insert for the full schedule |
+| Handling Protection | Follow local institutional procedures for handling oral anticancer agents |
 
 ## Safety Considerations
 
-- **Contraindication-linked conditions (knowledge graph, not label text)**: hypertension, liver failure, thrombocytopenia, neutropenia, agranulocytosis, blood coagulation disease, acute coronary syndrome, coronary artery disease, myocardial infarction, myocardial ischaemia, anaemia, hypophosphataemia, pancreatitis, and anxiety/neurotic/dysthymic disorders.
-- **Drug Interactions**: 100 interactions were found in total. Examples:
-  - **Major**: dolasetron.
-  - **Moderate**: famotidine, loperamide, dexamethasone, clarithromycin, levofloxacin, palonosetron, naltrexone, bisacodyl and several laxatives.
-  - **Minor**: dapagliflozin, metronidazole, naloxegol.
+- **Drug Interactions:** Screening found 100 recorded interactions. The main ones are:
+  - **Major:** dolasetron.
+  - **Moderate:** famotidine, loperamide, dexamethasone, clarithromycin, levofloxacin, palonosetron, naltrexone, bisacodyl, and several bowel-preparation agents (e.g. polyethylene glycol with electrolytes, sodium sulfate, picosulfuric acid, lactulose, lactitol).
+  - **Minor:** dapagliflozin, metronidazole, naloxegol.
 
-Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for the authoritative safety information.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only clinical evidence is a single-arm-style Phase 2 trial in mixed soft tissue sarcomas, with no liposarcoma-specific results. Reviews indicate that activity in sarcoma is histology-dependent, and other agents (such as trabectedin) are favoured for liposarcoma. The high TxGNN score is not backed by direct clinical evidence. The L2 level reflects the single Phase 2 trial and should not be read as strong evidence for this specific indication.
+The prediction score is very high (0.9982), but no study tests sorafenib in liposarcoma itself. The only trial and the supporting publications address soft tissue sarcoma in general or preclinical models, so the evidence level is L5. Liposarcoma-specific activity is unproven.
 
 **To proceed, the following is needed:**
-- Liposarcoma subgroup results from the Phase 2 trials (NCT00217620 and SWOG S0505)
-- Detailed mechanism of action data from DrugBank
-- Package insert warnings and contraindications from the HSA, to complete safety screening
-- Approved indication text for the three Singapore licences
-- A comparison against current standard options for liposarcoma and a safety plan for patients with the flagged cardiovascular, haematological and hepatic conditions
+- Liposarcoma-specific results, for example subtype breakdown from the soft tissue sarcoma Phase 2 trials, or a dedicated liposarcoma study
+- Comparison with established liposarcoma treatments
+- Package insert warnings and contraindications for the Singapore products
+- Detailed mechanism-of-action data from the drug database
+- A safety monitoring plan, including attention to the major interaction with dolasetron
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
