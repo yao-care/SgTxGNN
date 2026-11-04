@@ -21,7 +21,7 @@ All drug repurposing predictions with source and model score.
 
 | File | Format | Size | Records |
 |------|--------|------|---------|
-| [unified_predictions.csv]({{ '/data/unified_predictions.csv' | relative_url }}) | CSV | ~3 MB | 31,543 |
+| [drugs.csv]({{ '/data/drugs.csv' | relative_url }}) | CSV | ~2 MB | 31,543 |
 
 **Columns**:
 - `drugbank_id`: DrugBank identifier
@@ -65,26 +65,6 @@ curl https://sgtxgnn.yao.care/fhir/MedicationKnowledge/DB00945
 # ClinicalUseDefinition
 curl https://sgtxgnn.yao.care/fhir/ClinicalUseDefinition/DB00945-indication-1
 ```
-
----
-
-## Mapping Files
-
-### Drug Mapping
-
-HSA drugs to DrugBank mappings.
-
-| File | Format | Description |
-|------|--------|-------------|
-| [drug_mapping.csv]({{ '/data/drug_mapping.csv' | relative_url }}) | CSV | HSA → DrugBank |
-
-### Disease Mapping
-
-Disease name normalisation.
-
-| File | Format | Description |
-|------|--------|-------------|
-| [disease_mapping.csv]({{ '/data/disease_mapping.csv' | relative_url }}) | CSV | Local → Standard |
 
 ---
 

@@ -117,7 +117,7 @@ Demonstrates the complexity of translating hypotheses to clinical practice. Cont
 import pandas as pd
 
 # Load predictions
-predictions = pd.read_csv('unified_predictions.csv')
+predictions = pd.read_csv('https://sgtxgnn.yao.care/data/drugs.csv')
 
 # Filter for drug of interest
 drug_preds = predictions[predictions['drug_name'] == 'Aspirin']
