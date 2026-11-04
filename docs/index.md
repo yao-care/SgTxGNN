@@ -10,7 +10,7 @@ image: /assets/images/og-default.png
 # Drug Repurposing: From Data to Evidence
 
 <p class="key-answer" data-question="What is SgTxGNN Drug Repurposing Reports?">
-<strong>SgTxGNN</strong> is a drug repurposing prediction platform based on Harvard's TxGNN model. We use AI to predict <strong>4,189</strong> drug repurposing candidates and provide evidence-based validation reports for <strong>966</strong> Singapore HSA-approved medications.
+<strong>SgTxGNN</strong> is a drug repurposing prediction platform based on Harvard's TxGNN model. We use AI to predict <strong>{{ site.data.site_stats.indications }}</strong> drug repurposing candidates and provide evidence-based validation reports for <strong>{{ site.data.drug_stats.total_drugs }}</strong> Singapore HSA-approved medications.
 </p>
 
 <div class="key-takeaway">
@@ -29,7 +29,20 @@ Not just "possibly effective" — we show you where the evidence is. L1-L5 evide
 
 This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [HSA](https://www.hsa.gov.sg/) (Singapore).
 
-Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+Dataset: [HSA registered therapeutic products (data.gov.sg)](https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view), downloaded and compared automatically every week (Mondays). Details: [Data Sources Reference]({{ '/sources/' | relative_url }}).
+
+Reports by evidence level:
+
+| Evidence level | Reports | Share |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+
+8 predicted drug–disease pairs on this site appear on no other of the 30 TxGNN sites.
 
 ### Highest evidence levels on this site
 
@@ -37,20 +50,19 @@ Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {
 |---|---|
 | [Bendamustine](/drugs/bendamustine/) | L1 |
 | [Busulfan](/drugs/busulfan/) | L1 |
-| [Glecaprevir](/drugs/glecaprevir/) | L1 |
 | [Nepafenac](/drugs/nepafenac/) | L1 |
-| [Oteracil](/drugs/oteracil/) | L1 |
 | [Polidocanol](/drugs/polidocanol/) | L1 |
-| [Tegafur](/drugs/tegafur/) | L1 |
-| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
-| [Hydrocortisone Acetate](/drugs/hydrocortisone-acetate/) | L1 |
 | [Peginterferon Alfa-2A](/drugs/peginterferon-alfa-2a/) | L1 |
+| [Clofarabine](/drugs/clofarabine/) | L1 |
+| [Clomipramine](/drugs/clomipramine/) | L1 |
+| [Doxorubicin](/drugs/doxorubicin/) | L1 |
+| [Ofatumumab](/drugs/ofatumumab/) | L1 |
+| [Tacrolimus](/drugs/tacrolimus/) | L1 |
 
 ### Medicines covered only by this site among the 30 TxGNN sites
 
 | Medicine | Evidence level |
 |---|---|
-| [Butylscopolamine](/drugs/butylscopolamine/) | L3 |
 | [Tedizolid Phosphate](/drugs/tedizolid-phosphate/) | L5 |
 | [Aminolevulinic Acid](/drugs/aminolevulinic-acid/) | N/A |
 | [Atracurium](/drugs/atracurium/) | N/A |
@@ -62,6 +74,7 @@ Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {
 | [Bilastine](/drugs/bilastine/) | N/A |
 | [Bromhexine](/drugs/bromhexine/) | N/A |
 | [Buclizine](/drugs/buclizine/) | N/A |
+| [Butylscopolamine](/drugs/butylscopolamine/) | N/A |
 | [Calcium Gluconate](/drugs/calcium-gluconate/) | N/A |
 | [Calfactant](/drugs/calfactant/) | N/A |
 | [Cefotaxime](/drugs/cefotaxime/) | N/A |
@@ -121,7 +134,7 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #FB8C00;">
     <strong style="font-size: 1.1rem;">Singapore HSA Coverage</strong><br>
-    <span style="color: #666;">Focused on HSA-registered medications covering 966 drugs and 4,189 predicted indications. Reports include Singapore license status.</span>
+    <span style="color: #666;">Focused on HSA-registered medications covering {{ site.data.drug_stats.total_drugs }} drugs and {{ site.data.site_stats.indications }} predicted indications. Reports include Singapore license status.</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
     <strong style="font-size: 1.1rem;">Known Uses Excluded</strong><br>
@@ -159,15 +172,15 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
 
 <div class="stats-grid">
   <div class="stat-card">
-    <div class="stat-number">966</div>
+    <div class="stat-number">{{ site.data.drug_stats.total_drugs }}</div>
     <div class="stat-label">Drugs Analyzed</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">4,189</div>
+    <div class="stat-number">{{ site.data.site_stats.indications }}</div>
     <div class="stat-label">Predicted New Indications</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">1,873</div>
+    <div class="stat-number">{% assign dz = "" | split: "" %}{% for d in site.drugs %}{% unless d.noindex or d.layout == "id_redirect" %}{% if d.predicted_indications %}{% assign dz = dz | concat: d.predicted_indications %}{% endif %}{% endunless %}{% endfor %}{{ dz | uniq | size }}</div>
     <div class="stat-label">Diseases Covered</div>
   </div>
 </div>
@@ -190,7 +203,7 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
 | **High Evidence** | L1-L2, prioritize for evaluation | [View Drugs]({{ '/evidence-high' | relative_url }}) |
 | **Medium Evidence** | L3-L4, needs additional evidence | [View Drugs]({{ '/evidence-medium' | relative_url }}) |
 | **Predictions Only** | L5, research direction reference | [View Drugs]({{ '/evidence-low' | relative_url }}) |
-| **Full Drug List** | All 966 drugs (searchable) | [Drug List]({{ '/drugs' | relative_url }}) |
+| **Full Drug List** | All {{ site.data.drug_stats.total_drugs }} drugs (searchable) | [Drug List]({{ '/drugs' | relative_url }}) |
 | **Methodology** | How predictions are made | [Methodology]({{ '/methodology' | relative_url }}) |
 | **Downloads** | CSV / JSON formats | [Downloads]({{ '/downloads' | relative_url }}) |
 
@@ -277,15 +290,4 @@ This report is for academic research purposes only and <strong>does not constitu
 
 ## About the Developer
 
-This platform is developed and operated by **藥提醒科技有限公司** (yao.care, company registration
-number 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-SgTxGNN is the Singapore site of the company's "TxGNN Drug Repurposing" product line.
-The same system is deployed across 30 countries and regions, each named `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, and so on) at `{cc}txgnn.yao.care`.
-Product overview: <https://www.yao.care/medical/txgnn/>.
-
-The TxGNN model itself was developed by the Zitnik Lab at Harvard Medical School and published
-in *Nature Medicine*. This platform is the production system 藥提醒科技有限公司 built on top of that
-model, covering national drug-registration data integration, deep-learning prediction that excludes uses already recorded in the knowledge graph, PubMed / ClinicalTrials evidence grading, and SMART on FHIR
-electronic health record integration.
+This platform is developed and operated by **藥提醒科技有限公司** (yao.care). See the <a href="{{ '/about/' | relative_url }}">About</a> page for the full company and methodology background.
