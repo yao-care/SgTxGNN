@@ -105,34 +105,12 @@ Key enzymes and their clinical significance:
 
 ## Data Sources
 
-| Source | Coverage |
-|--------|----------|
-| **DDInter** | 240,000+ interaction pairs |
-| **DrugBank** | Mechanism-based interactions |
-| **HSA Alerts** | Singapore-specific warnings |
+| Source | Use on this site |
+|--------|------------------|
+| **DDInter 2.0** | Drug–drug interaction pairs with severity levels, used for the interaction notes on drug reports |
+| **Guide to PHARMACOLOGY** | Approved-drug interaction data, read together with DDInter when drug reports are built |
 
----
-
-## API Access
-
-Query interactions programmatically:
-
-```bash
-# Check interaction between two drugs
-curl "https://sgtxgnn.yao.care/api/ddi?drugA=DB00945&drugB=DB00374"
-```
-
-Response:
-```json
-{
-  "drugA": "Aspirin",
-  "drugB": "Warfarin",
-  "interaction": true,
-  "severity": "serious",
-  "description": "Increased risk of bleeding",
-  "mechanism": "Additive antiplatelet and anticoagulant effects"
-}
-```
+There is no interaction API on this site; it is a static website.
 
 ---
 

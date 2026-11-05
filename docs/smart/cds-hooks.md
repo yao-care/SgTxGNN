@@ -184,14 +184,13 @@ Triggered when signing orders.
   "links": [
     {
       "label": "View drug details",
-      "url": "https://sgtxgnn.yao.care/drugs/db00945",
+      "url": "https://sgtxgnn.yao.care/drugs/acetylsalicylic-acid/",
       "type": "absolute"
     },
     {
       "label": "Launch SMART app",
       "url": "https://sgtxgnn.yao.care/smart/launch.html",
-      "type": "smart",
-      "appContext": "drug=DB00945"
+      "type": "smart"
     }
   ]
 }

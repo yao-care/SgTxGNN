@@ -37,12 +37,14 @@ The IG defines minimum data elements:
 ```json
 {
   "drugA": {
-    "code": "DB00945",
-    "display": "Aspirin"
+    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+    "code": "1191",
+    "display": "aspirin"
   },
   "drugB": {
-    "code": "DB00374",
-    "display": "Warfarin"
+    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+    "code": "11289",
+    "display": "warfarin"
   },
   "severity": "serious",
   "description": "Increased bleeding risk",
@@ -83,7 +85,7 @@ The IG defines minimum data elements:
           "resource": {
             "resourceType": "MedicationRequest",
             "medicationCodeableConcept": {
-              "coding": [{"code": "DB00945"}]
+              "coding": [{"system": "http://www.nlm.nih.gov/research/umls/rxnorm", "code": "1191", "display": "aspirin"}]
             }
           }
         }
@@ -191,33 +193,9 @@ Strategies to reduce alert fatigue:
 
 ---
 
-## SgTxGNN DDI Integration
+## SgTxGNN DDI Status
 
-### Data Sources
-
-SgTxGNN DDI data from:
-- DDInter database
-- DrugBank interactions
-- HSA safety alerts
-
-### API Endpoint
-
-```http
-GET /api/ddi?drugA={drugbank_id}&drugB={drugbank_id}
-```
-
-### Response
-
-```json
-{
-  "interaction": true,
-  "severity": "moderate",
-  "description": "May increase effect",
-  "mechanism": "CYP3A4 inhibition",
-  "source": "DDInter",
-  "recommendation": "Monitor and adjust dose if needed"
-}
-```
+SgTxGNN does not check drug–drug interactions in the standalone page or the SMART app, and this static site has no CDS service and no interaction API. The drug reports include interaction notes built from DDInter 2.0 and Guide to PHARMACOLOGY data; see [Drug-Drug Interactions]({{ '/safety/drug-interactions/' | relative_url }}).
 
 ---
 

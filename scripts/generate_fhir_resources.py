@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
 """
-Generate FHIR R4 resources from BrTxGNN drug prediction data.
+Generate FHIR R4 resources from SgTxGNN drug prediction data.
 
 This script reads the search-index.json and generates:
 - MedicationKnowledge resources for each drug
 - ClinicalUseDefinition resources for each predicted indication
 - A Bundle containing all resources
 - A CapabilityStatement (metadata)
+
+Usage:
+    python3 scripts/generate_fhir_resources.py                  # regenerate everything from search-index.json
+    python3 scripts/generate_fhir_resources.py --metadata-only  # only rewrite docs/fhir/metadata, counting the
+                                                                # resource files already in docs/fhir/
 """
 
 import json
 import re
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -145,12 +151,12 @@ def create_capability_statement(base_url: str, drug_count: int, indication_count
         "id": "sgtxgnn-fhir-server",
         "url": f"{base_url}/fhir/metadata",
         "version": "1.0.0",
-        "name": "BrTxGNNFHIRServer",
-        "title": "BrTxGNN FHIR Server",
+        "name": "SgTxGNNFHIRServer",
+        "title": "SgTxGNN FHIR Server",
         "status": "active",
         "experimental": True,
         "date": datetime.now().strftime("%Y-%m-%d"),
-        "publisher": "BrTxGNN",
+        "publisher": "SgTxGNN",
         "contact": [
             {
                 "telecom": [
@@ -161,10 +167,10 @@ def create_capability_statement(base_url: str, drug_count: int, indication_count
                 ]
             }
         ],
-        "description": f"BrTxGNN drug repurposing prediction data exposed as FHIR resources. Contains {drug_count} drugs and {indication_count} predicted indications.",
+        "description": f"SgTxGNN drug repurposing prediction data exposed as static FHIR resources. Contains {drug_count} MedicationKnowledge and {indication_count} ClinicalUseDefinition resources.",
         "kind": "instance",
         "software": {
-            "name": "BrTxGNN Static FHIR API",
+            "name": "SgTxGNN Static FHIR API",
             "version": "1.0.0"
         },
         "implementation": {
@@ -183,13 +189,6 @@ def create_capability_statement(base_url: str, drug_count: int, indication_count
                         "profile": "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge",
                         "interaction": [
                             {"code": "read"}
-                        ],
-                        "searchParam": [
-                            {
-                                "name": "_id",
-                                "type": "token",
-                                "documentation": "Drug identifier (slug)"
-                            }
                         ]
                     },
                     {
@@ -197,13 +196,6 @@ def create_capability_statement(base_url: str, drug_count: int, indication_count
                         "profile": "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition",
                         "interaction": [
                             {"code": "read"}
-                        ],
-                        "searchParam": [
-                            {
-                                "name": "subject",
-                                "type": "reference",
-                                "documentation": "Reference to MedicationKnowledge"
-                            }
                         ]
                     }
                 ]
@@ -243,6 +235,18 @@ def main():
     project_root = Path(__file__).parent.parent
     input_file = project_root / "docs" / "data" / "search-index.json"
     output_dir = project_root / "docs" / "fhir"
+
+    if "--metadata-only" in sys.argv[1:]:
+        # The published resource files were not all produced by this script, so a full
+        # rerun rewrites or adds thousands of files. This mode only refreshes the
+        # CapabilityStatement, with counts taken from the files that are published.
+        mk = len(list((output_dir / "MedicationKnowledge").glob("*.json")))
+        cud = len(list((output_dir / "ClinicalUseDefinition").glob("*.json")))
+        capability = create_capability_statement(base_url, mk, cud)
+        with open(output_dir / "metadata", "w", encoding="utf-8") as f:
+            json.dump(capability, f, ensure_ascii=False, indent=2)
+        print(f"Generated CapabilityStatement (metadata): {mk} MedicationKnowledge, {cud} ClinicalUseDefinition")
+        return
 
     print(f"Reading search index from {input_file}")
 
