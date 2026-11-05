@@ -53,7 +53,7 @@ App requests authorization with scopes:
 ```javascript
 FHIR.oauth2.authorize({
   client_id: "sgtxgnn-smart-app",
-  scope: "launch patient/MedicationRequest.read patient/Patient.read patient/Condition.read",
+  scope: "launch patient/MedicationRequest.read patient/MedicationStatement.read patient/Patient.read patient/Condition.read",
   redirect_uri: "https://sgtxgnn.yao.care/smart/app.html",
   pkce: true
 });
@@ -131,7 +131,7 @@ Contact your EHR administrator with:
 | App Name | SgTxGNN Drug Repurposing |
 | Launch URL | `https://sgtxgnn.yao.care/smart/launch.html` |
 | Redirect URL | `https://sgtxgnn.yao.care/smart/app.html` |
-| Scopes | `launch patient/MedicationRequest.read patient/Patient.read patient/Condition.read` |
+| Scopes | `launch patient/MedicationRequest.read patient/MedicationStatement.read patient/Patient.read patient/Condition.read` |
 | PKCE | Required |
 
 ### Step 2: Configure Client ID

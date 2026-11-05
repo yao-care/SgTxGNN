@@ -60,7 +60,7 @@ Register with your EHR administrator using:
 | Launch URL | `https://sgtxgnn.yao.care/smart/launch.html` |
 | Redirect URL | `https://sgtxgnn.yao.care/smart/app.html` |
 | FHIR Version | R4 |
-| Scopes | `launch patient/MedicationRequest.read patient/Patient.read patient/Condition.read` |
+| Scopes | `launch patient/MedicationRequest.read patient/MedicationStatement.read patient/Patient.read patient/Condition.read` |
 
 ---
 

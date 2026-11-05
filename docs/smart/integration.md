@@ -113,7 +113,6 @@ After successful testing:
 
 - No patient data stored externally
 - Processing runs in the user's browser; only the medications' RxNorm codes (no patient identifiers) are sent to NLM RxNav, and drug and indication names to ClinicalTrials.gov when trials are requested
-- Audit logging available on request
 
 ---
 

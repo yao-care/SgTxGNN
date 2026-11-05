@@ -195,7 +195,7 @@ Strategies to reduce alert fatigue:
 
 ## SgTxGNN DDI Status
 
-SgTxGNN does not check drug–drug interactions in the standalone page or the SMART app, and this static site has no CDS service and no interaction API. The drug reports include interaction notes built from DDInter 2.0 and Guide to PHARMACOLOGY data; see [Drug-Drug Interactions]({{ '/safety/drug-interactions/' | relative_url }}).
+SgTxGNN does not check drug–drug interactions in the standalone page or the SMART app, and this static site has no CDS service and no interaction API. The drug reports include interaction notes built from the DDInter download files, with Guide to PHARMACOLOGY drug–target data; see [Drug-Drug Interactions]({{ '/safety/drug-interactions/' | relative_url }}).
 
 ---
 

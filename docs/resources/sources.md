@@ -89,13 +89,13 @@ Comprehensive drug and target database.
 
 ### DDInter
 
-**Source**: Shanghai University
+**Source**: CBDD team, Central South University (Changsha, China), with the National University of Defense Technology
 
 Drug-drug interaction database.
 
 - [Website](http://ddinter.scbdd.com/)
 
-**Coverage**: 240,000+ interaction pairs
+**Coverage on this site**: the DDInter download files (`ddinter_code_*.csv`), 222,383 rows, 160,235 unique drug pairs
 
 ### SIDER
 
@@ -132,7 +132,7 @@ Side effect database.
 | TxGNN Model | 2023 | As published |
 | HSA Data | March 2026 | Quarterly |
 | DrugBank | 2025 | Annual |
-| DDInter | 2025 | Annual |
+| DDInter | 2026-02 (download files) | Annual |
 
 ---
 
