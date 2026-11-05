@@ -95,7 +95,7 @@ Drug-drug interaction database.
 
 - [Website](http://ddinter.scbdd.com/)
 
-**Coverage on this site**: the DDInter download files (`ddinter_code_*.csv`), 222,383 rows, 160,235 unique drug pairs
+**Coverage on this site**: the DDInter download files (`ddinter_code_*.csv`), {{ site.data.ddi_sources.display.ddinter_rows }} rows, {{ site.data.ddi_sources.display.ddinter_unique_pairs }} unique drug pairs
 
 ### SIDER
 
