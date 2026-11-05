@@ -24,17 +24,18 @@ Drug repurposing predictions for Singapore HSA-approved drugs using the TxGNN mo
 | **Unique Drugs** | 1,041 |
 | **Unique Indications** | 17,184 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 925 MK / 48,379 CUD |
+| **FHIR Resources** | 1,685 MK / 6,052 CUD |
 
 ### Evidence Level Distribution
 
 | Evidence Level | Report Count | Description |
 |---------|-------|------|
-| **L1** | 0 | Multiple Phase 3 RCTs |
-| **L2** | 0 | Single RCT or multiple Phase 2 |
-| **L3** | 0 | Observational studies |
-| **L4** | 0 | Preclinical / mechanistic studies |
-| **L5** | 1500 | Computational prediction only |
+| **L1** | 11 | Multiple Phase 3 RCTs |
+| **L2** | 34 | Single RCT or multiple Phase 2 |
+| **L3** | 22 | Observational studies |
+| **L4** | 54 | Preclinical / mechanistic studies |
+| **L5** | 602 | Computational prediction only |
+| **N/A** | 243 | Known uses only (no new prediction) |
 
 ### By Source
 
