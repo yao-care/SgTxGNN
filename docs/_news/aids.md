@@ -17,9 +17,9 @@ permalink: /news/aids/
 
 ---
 
-### [AI-powered hearing aids: How they help you follow conversations in noisy places](https://www.straitstimes.com/singapore/health/ai-powered-hearing-aids-how-they-help-you-follow-conversations-in-noisy-places-20db-hearing)
+### [Struggling to hear in noisy places? How AI-powered hearing aids can help](https://www.straitstimes.com/singapore/health/ai-powered-hearing-aids-how-they-help-you-follow-conversations-in-noisy-places-20db-hearing)
 
-2026-11-04
+2026-11-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/ai-powered-hearing-aids-how-they-help-you-follow-conversations-in-noisy-places-20db-hearing)
 
