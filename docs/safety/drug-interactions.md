@@ -108,7 +108,7 @@ Key enzymes and their clinical significance:
 | Source | Use on this site |
 |--------|------------------|
 | **DDInter** (download files `ddinter_code_*.csv`) | Drug–drug interaction pairs with severity levels, used for the interaction notes on drug reports |
-| **Guide to PHARMACOLOGY** | GtoPdb 2026.3: 4,799 approved-drug target records (drug–target data, not interactions), read together with DDInter when drug reports are built |
+| **Guide to PHARMACOLOGY** | GtoPdb 2026.3.1: 4,808 approved-drug target records (drug–target data, not interactions), read together with DDInter when drug reports are built |
 
 There is no interaction API on this site; it is a static website.
 
