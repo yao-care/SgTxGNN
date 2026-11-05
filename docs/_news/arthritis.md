@@ -17,19 +17,19 @@ permalink: /news/arthritis/
 
 ---
 
-### [Google to partner with NHG Health on AI-powered health coach](https://www.straitstimes.com/singapore/health/google-to-partner-nhg-health-on-ai-powered-health-coach)
-
-2026-11-05
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/google-to-partner-nhg-health-on-ai-powered-health-coach)
-
----
-
 ### [Comfortable in her own skin: How a 12-year-old embraces her rare birthmark](https://www.straitstimes.com/singapore/health/comfortable-in-her-own-skin-how-a-12-year-old-embraces-her-rare-birthmark)
 
 2026-11-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/comfortable-in-her-own-skin-how-a-12-year-old-embraces-her-rare-birthmark)
+
+---
+
+### [Her paycheck stopped when cancer hit, her insurance payout didn’t](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
+
+2026-11-05
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
 
 ---
 

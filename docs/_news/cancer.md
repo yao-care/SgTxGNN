@@ -13,7 +13,15 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
+
+---
+
+### [Her paycheck stopped when cancer hit, her insurance payout didn’t](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
+
+2026-11-05
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
 
 ---
 
