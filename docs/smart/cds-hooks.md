@@ -9,6 +9,8 @@ permalink: /smart/cds-hooks/
 
 # CDS Hooks Architecture Design
 
+> **Planning document**: This page is a planning document; the services it describes have not been deployed, and `https://sgtxgnn.yao.care/cds-services` does not exist. SgTxGNN currently provides no CDS Hooks service and no cds-services.json, only static FHIR files and the SMART app and standalone page, which run in the browser.
+
 Technical guide for implementing CDS Hooks services.
 
 ---

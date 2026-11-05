@@ -48,7 +48,7 @@ When evaluating SMART on FHIR apps for clinical use, consider these dimensions:
 
 | Criterion | SgTxGNN Status | Notes |
 |-----------|----------------|-------|
-| PDPA (Singapore) | Compliant | No personal data collected |
+| PDPA (Singapore) | Compliant | No patient data collected; site usage statistics via Google Analytics 4 analytics cookies |
 | Research use disclaimer | Present | All pages |
 | Medical device classification | Not applicable | Information only |
 

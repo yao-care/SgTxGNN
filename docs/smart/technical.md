@@ -160,7 +160,7 @@ Access-Control-Allow-Headers: Authorization, Content-Type
 
 ### No Data Retention
 
-- Patient data processed in-browser only
+- Patient data processed in the browser; only the medications' RxNorm codes (no patient identifiers) are sent to NLM RxNav, and drug and indication names to ClinicalTrials.gov when trials are requested
 - No server-side logging of patient information
 - Session tokens expire after 1 hour
 

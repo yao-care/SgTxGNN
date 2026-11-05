@@ -81,7 +81,7 @@ Register with your EHR administrator using:
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
     <strong>Privacy First</strong><br>
-    <span style="color: #666;">All processing in-browser, no data stored</span>
+    <span style="color: #666;">Patient data is not sent to our servers or stored; only RxNorm codes go to NLM RxNav</span>
   </div>
 </div>
 

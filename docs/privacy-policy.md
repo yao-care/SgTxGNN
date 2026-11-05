@@ -8,7 +8,7 @@ permalink: /privacy-policy/
 
 # Privacy Policy
 
-Last updated: March 2026
+Last updated: 5 November 2026
 
 ---
 
@@ -22,21 +22,20 @@ SgTxGNN is a research platform providing drug repurposing predictions. We are co
 
 ### Website Analytics
 
-We use privacy-respecting analytics to understand how the website is used:
+We use Google Analytics 4, with analytics cookies set when a page loads, to understand how the website is used:
 - Page views and navigation patterns
 - Browser and device information
-- Geographic region (country level)
+- Approximate geographic location (derived by Google Analytics)
 
 We do **not** collect:
-- Personal identifying information
-- IP addresses
-- Tracking cookies
+- Names, email addresses or account information (the site has no accounts or forms)
+- Search terms, form contents or URL query strings (these are not sent to Google Analytics)
 
 ### SMART App Data
 
 When using our SMART on FHIR application:
-- Patient medication data is processed in-browser only
-- No patient data is transmitted to or stored by SgTxGNN
+- Patient identity and EHR data are not sent to SgTxGNN's servers (this is a static site with no backend) and are not stored by SgTxGNN
+- To match drug names, the app sends the medications' RxNorm codes (no patient identifiers) to the US National Library of Medicine's RxNav service; when you ask for clinical trials, the drug and indication names are sent to ClinicalTrials.gov
 - Authentication is handled by your EHR system
 
 ---
@@ -65,11 +64,7 @@ We **may** share:
 
 ## Cookies
 
-This website uses only essential cookies required for basic functionality:
-- Session management
-- User preferences (theme, language)
-
-No tracking or advertising cookies are used.
+The only cookies on this website are the Google Analytics 4 analytics cookies (such as `_ga`), used for the usage statistics described above. They are set when a page loads. The site sets no cookies of its own for sessions or preferences.
 
 ---
 
@@ -127,5 +122,5 @@ For privacy concerns, please contact us through:
 
 <div class="disclaimer">
 <strong>Research Platform</strong><br>
-SgTxGNN is a research tool. It does not collect or process personal health information for any purpose other than displaying predictions in the SMART app context, where all processing occurs locally in your browser.
+SgTxGNN is a research tool. It does not collect or store personal health information. In the SMART app, patient data is processed in your browser to display predictions; only the medications' RxNorm codes (no patient identifiers) are sent to NLM RxNav, and the drug and indication names to ClinicalTrials.gov when you ask for trials.
 </div>

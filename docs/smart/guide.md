@@ -118,7 +118,7 @@ Not all medications have repurposing predictions. The app only shows results for
 ## Privacy & Security
 
 - **No data storage**: Patient data is never stored by SgTxGNN
-- **In-browser processing**: All analysis happens locally
+- **In-browser processing**: Analysis runs in your browser; to match drug names, the medications' RxNorm codes (no patient identifiers) are sent to NLM RxNav
 - **Encrypted connections**: HTTPS only
 - **OAuth 2.0**: Industry-standard authentication
 

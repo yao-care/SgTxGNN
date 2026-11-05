@@ -112,7 +112,7 @@ After successful testing:
 ### Data Handling
 
 - No patient data stored externally
-- All processing in user's browser
+- Processing runs in the user's browser; only the medications' RxNorm codes (no patient identifiers) are sent to NLM RxNav, and drug and indication names to ClinicalTrials.gov when trials are requested
 - Audit logging available on request
 
 ---
@@ -136,6 +136,6 @@ For integration assistance:
 
 ### Data Protection
 
-- No personal data collected
+- No patient data collected; site usage statistics via Google Analytics 4 (analytics cookies)
 - No data stored on external servers
 - Privacy by design architecture
