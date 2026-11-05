@@ -9,7 +9,7 @@ permalink: /smart/fhir-api/
 
 # FHIR API Specification
 
-Complete FHIR R4 API documentation for SgTxGNN.
+FHIR R4 resources for SgTxGNN, published as static JSON files on GitHub Pages.
 
 ---
 
@@ -19,63 +19,49 @@ Complete FHIR R4 API documentation for SgTxGNN.
 https://sgtxgnn.yao.care/fhir
 ```
 
+The site is static: every resource is a file that can only be read (HTTP `GET`). Search queries such as `?subject=` or `?_id=` are not supported; use the file names below.
+
+---
+
+## File naming
+
+| Resource | File | Example |
+|----------|------|---------|
+| CapabilityStatement | `/fhir/metadata` | [/fhir/metadata]({{ '/fhir/metadata' | relative_url }}) |
+| MedicationKnowledge | `/fhir/MedicationKnowledge/{drug}.json` | `/fhir/MedicationKnowledge/amlodipine.json` |
+| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/{drug}-{indication}.json` | `/fhir/ClinicalUseDefinition/amlodipine-brain-stem-infarction.json` |
+| Bundle (all MedicationKnowledge) | `/fhir/Bundle/all-predictions.json` | [/fhir/Bundle/all-predictions.json]({{ '/fhir/Bundle/all-predictions.json' | relative_url }}) |
+
+- `{drug}` is the drug's page slug, the same as in the drug report URL `/drugs/{drug}/` (lower case, words joined by `-`).
+- `{indication}` is the predicted indication name in lower case with spaces and most punctuation turned into `-`; some names keep parentheses or `_`, e.g. `alanine-gastroparesis-(disease).json`. The full list of files is in the repository folder [`docs/fhir/ClinicalUseDefinition/`](https://github.com/yao-care/SgTxGNN/tree/main/docs/fhir/ClinicalUseDefinition).
+- The resource `id` inside each file is the file name without `.json`.
+
 ---
 
 ## CapabilityStatement
 
-### Request
-
 ```http
 GET /fhir/metadata
-Accept: application/fhir+json
 ```
 
-### Response
-
-```json
-{
-  "resourceType": "CapabilityStatement",
-  "status": "active",
-  "date": "2026-03-01",
-  "publisher": "Yao.Care",
-  "kind": "instance",
-  "fhirVersion": "4.0.1",
-  "format": ["json"],
-  "rest": [{
-    "mode": "server",
-    "resource": [
-      {
-        "type": "MedicationKnowledge",
-        "profile": "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge",
-        "interaction": [{"code": "read"}, {"code": "search-type"}]
-      },
-      {
-        "type": "ClinicalUseDefinition",
-        "profile": "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition",
-        "interaction": [{"code": "read"}, {"code": "search-type"}]
-      }
-    ]
-  }]
-}
-```
+Declares FHIR version `4.0.1` and `read` access to MedicationKnowledge and ClinicalUseDefinition.
 
 ---
 
 ## MedicationKnowledge
 
-Drug information with repurposing metadata.
+Drug information with the evidence level shown on the drug report.
 
 ### Read
 
 ```http
-GET /fhir/MedicationKnowledge/{drugbank_id}
-Accept: application/fhir+json
+GET /fhir/MedicationKnowledge/{drug}.json
 ```
 
 ### Example
 
 ```http
-GET /fhir/MedicationKnowledge/DB00945
+GET /fhir/MedicationKnowledge/amlodipine.json
 ```
 
 ### Response
@@ -83,24 +69,29 @@ GET /fhir/MedicationKnowledge/DB00945
 ```json
 {
   "resourceType": "MedicationKnowledge",
-  "id": "DB00945",
-  "code": {
-    "coding": [{
-      "system": "https://www.drugbank.ca",
-      "code": "DB00945",
-      "display": "Aspirin"
-    }]
+  "id": "amlodipine",
+  "meta": {
+    "profile": ["http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"]
   },
   "status": "active",
-  "manufacturer": {
-    "display": "Various"
+  "code": {
+    "coding": [{
+      "system": "https://sgtxgnn.yao.care/drugs",
+      "code": "amlodipine",
+      "display": "AMLODIPINE"
+    }],
+    "text": "AMLODIPINE"
   },
+  "intendedJurisdiction": [{
+    "coding": [{
+      "system": "urn:iso:std:iso:3166",
+      "code": "SG",
+      "display": "Singapore"
+    }]
+  }],
   "extension": [{
-    "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/hsa-license",
-    "valueString": "SIN12345P"
-  }, {
-    "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-count",
-    "valueInteger": 42
+    "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+    "valueCode": "L5"
   }]
 }
 ```
@@ -109,26 +100,22 @@ GET /fhir/MedicationKnowledge/DB00945
 
 ## ClinicalUseDefinition
 
-Drug repurposing predictions.
+One file per predicted indication of a drug.
 
 ### Read
 
 ```http
-GET /fhir/ClinicalUseDefinition/{id}
-Accept: application/fhir+json
+GET /fhir/ClinicalUseDefinition/{drug}-{indication}.json
 ```
 
-### Search by Drug
+### Finding the predictions for a drug
 
-```http
-GET /fhir/ClinicalUseDefinition?subject=MedicationKnowledge/{drugbank_id}
-Accept: application/fhir+json
-```
+There is no search endpoint. A drug's predicted indications are listed on its report (`/drugs/{drug}/`) and in [`/data/search-index.json`]({{ '/data/search-index.json' | relative_url }}); the matching files are the ones whose names start with `{drug}-` in [`docs/fhir/ClinicalUseDefinition/`](https://github.com/yao-care/SgTxGNN/tree/main/docs/fhir/ClinicalUseDefinition).
 
 ### Example
 
 ```http
-GET /fhir/ClinicalUseDefinition/DB00945-alzheimer
+GET /fhir/ClinicalUseDefinition/amlodipine-brain-stem-infarction.json
 ```
 
 ### Response
@@ -136,32 +123,37 @@ GET /fhir/ClinicalUseDefinition/DB00945-alzheimer
 ```json
 {
   "resourceType": "ClinicalUseDefinition",
-  "id": "DB00945-alzheimer",
+  "id": "amlodipine-brain-stem-infarction",
+  "meta": {
+    "profile": ["http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"]
+  },
   "type": "indication",
+  "status": {
+    "coding": [{
+      "system": "http://hl7.org/fhir/publication-status",
+      "code": "draft",
+      "display": "Draft"
+    }]
+  },
   "subject": [{
-    "reference": "MedicationKnowledge/DB00945"
+    "reference": "MedicationKnowledge/amlodipine"
   }],
   "indication": {
     "diseaseSymptomProcedure": {
       "concept": {
-        "coding": [{
-          "system": "http://snomed.info/sct",
-          "code": "26929004",
-          "display": "Alzheimer's disease"
-        }],
-        "text": "Alzheimer's disease"
+        "text": "brain stem infarction"
       }
     }
   },
   "extension": [{
-    "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-    "valueCode": "L4"
+    "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-status",
+    "valueCode": "predicted"
   }, {
-    "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-    "valueCode": "KG+DL"
+    "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+    "valueCode": "L5"
   }, {
     "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
-    "valueDecimal": 0.9923
+    "valueDecimal": 0.9994
   }]
 }
 ```
@@ -186,19 +178,13 @@ Values: L1, L2, L3, L4, L5
 | L4 | Preclinical/mechanistic |
 | L5 | Model prediction only |
 
-### Prediction Source
+### Prediction Status
 
 ```
-URL: https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-source
+URL: https://sgtxgnn.yao.care/fhir/StructureDefinition/prediction-status
 Type: code
-Values: KG, DL, KG+DL
+Values: predicted
 ```
-
-| Value | Description |
-|-------|-------------|
-| KG | Known use recorded in the knowledge graph |
-| DL | Deep Learning only |
-| KG+DL | Known use that DL also scored highly (not a new prediction) |
 
 ### TxGNN Score
 
@@ -212,51 +198,12 @@ Deep learning model score: a ranking value inside the model, not a probability.
 
 ---
 
-## Error Responses
+## Errors
 
-### 404 Not Found
-
-```json
-{
-  "resourceType": "OperationOutcome",
-  "issue": [{
-    "severity": "error",
-    "code": "not-found",
-    "diagnostics": "Resource not found"
-  }]
-}
-```
-
-### 400 Bad Request
-
-```json
-{
-  "resourceType": "OperationOutcome",
-  "issue": [{
-    "severity": "error",
-    "code": "invalid",
-    "diagnostics": "Invalid request parameters"
-  }]
-}
-```
-
----
-
-## Rate Limits
-
-| Endpoint | Limit |
-|----------|-------|
-| Read operations | 100/minute |
-| Search operations | 50/minute |
+A file that does not exist returns HTTP `404` with the site's HTML "page not found" page, not a FHIR `OperationOutcome`.
 
 ---
 
 ## CORS
 
-Cross-Origin Resource Sharing is enabled for all origins:
-
-```http
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, OPTIONS
-Access-Control-Allow-Headers: Authorization, Content-Type, Accept
-```
+GitHub Pages sends `Access-Control-Allow-Origin: *`, so the files can be read from browser apps on other origins.

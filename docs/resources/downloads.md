@@ -21,7 +21,7 @@ All drug repurposing predictions with source and model score.
 
 | File | Format | Size | Records |
 |------|--------|------|---------|
-| [drugs.csv]({{ '/data/drugs.csv' | relative_url }}) | CSV | ~2 MB | 31,543 |
+| [drugs.csv]({{ '/data/drugs.csv' | relative_url }}) | CSV | ~2 MB | One row per drug–disease pair |
 
 **Columns**:
 - `drugbank_id`: DrugBank identifier
@@ -32,22 +32,21 @@ All drug repurposing predictions with source and model score.
 
 ### Drug List
 
-Complete list of analysed drugs with metadata.
+List of drug report pages with evidence level and links.
 
 | File | Format | Size | Records |
 |------|--------|------|---------|
-| [drugs.json]({{ '/data/drugs.json' | relative_url }}) | JSON | ~500 KB | 745 |
-| [drugs.csv]({{ '/data/drugs.csv' | relative_url }}) | CSV | ~100 KB | 745 |
+| [drugs.json]({{ '/data/drugs.json' | relative_url }}) | JSON | ~300 KB | One entry per drug page (count in `total_count`) |
 
 ---
 
 ## Search Index
 
-Full searchable index for the website.
+Searchable index used by the website and the SMART app: drugs with their top predicted indications, and indications with their drugs.
 
 | File | Format | Size | Entries |
 |------|--------|------|---------|
-| [search-index.json]({{ '/data/search-index.json' | relative_url }}) | JSON | ~5 MB | 31,543 |
+| [search-index.json]({{ '/data/search-index.json' | relative_url }}) | JSON | ~750 KB | Counts in `drug_count` and `indication_count` |
 
 ---
 
@@ -96,13 +95,23 @@ ls SgTxGNN/data/processed/
 
 ### JSON Format
 
+`drugs.json`:
+
 ```json
 {
+  "generated": "2026-10-17",
+  "total_count": 1051,
+  "source": "SgTxGNN",
   "drugs": [
     {
-      "drugbank_id": "DB00945",
-      "name": "Aspirin",
-      "predictions": [...]
+      "slug": "abacavir",
+      "name": "Abacavir",
+      "evidence_level": "L4",
+      "indication_count": 10,
+      "original_indication": "",
+      "predicted_indication": "",
+      "txgnn_score": "",
+      "url": "/drugs/abacavir/"
     }
   ]
 }

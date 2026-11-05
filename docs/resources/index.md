@@ -31,8 +31,8 @@ Data sources, downloads, and research materials
 
 | File | Format | Description |
 |------|--------|-------------|
-| [Unified Predictions]({{ '/data/drugs.csv' | relative_url }}) | CSV | All 31,543 predictions |
-| [Drug List]({{ '/data/drugs.json' | relative_url }}) | JSON | {{ site.data.drug_stats.total_drugs }} drugs with metadata |
+| [Unified Predictions]({{ '/data/drugs.csv' | relative_url }}) | CSV | All drug–disease pairs (predictions and known uses) |
+| [Drug List]({{ '/data/drugs.json' | relative_url }}) | JSON | Drug report pages with evidence level and links |
 | [Search Index]({{ '/data/search-index.json' | relative_url }}) | JSON | Full searchable index |
 
 ### FHIR Resources
@@ -40,8 +40,8 @@ Data sources, downloads, and research materials
 | Resource | Endpoint |
 |----------|----------|
 | Capability Statement | `/fhir/metadata` |
-| MedicationKnowledge | `/fhir/MedicationKnowledge/{id}` |
-| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/{id}` |
+| MedicationKnowledge | `/fhir/MedicationKnowledge/{id}.json` |
+| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/{id}.json` |
 
 ---
 
@@ -97,14 +97,14 @@ And the original TxGNN paper:
 
 ## API Access
 
-SgTxGNN data is available via FHIR API:
+SgTxGNN data is available as static FHIR R4 JSON files. MedicationKnowledge files are named by the drug's page slug (`/fhir/MedicationKnowledge/{drug}.json`); ClinicalUseDefinition files by drug slug and predicted indication (`/fhir/ClinicalUseDefinition/{drug}-{indication}.json`). The site is static, so search queries such as `?subject=` are not supported.
 
 ```bash
 # Get drug information
-curl https://sgtxgnn.yao.care/fhir/MedicationKnowledge/DB00945
+curl https://sgtxgnn.yao.care/fhir/MedicationKnowledge/amlodipine.json
 
-# Get predictions for a drug
-curl https://sgtxgnn.yao.care/fhir/ClinicalUseDefinition?subject=MedicationKnowledge/DB00945
+# Get one predicted indication for that drug
+curl https://sgtxgnn.yao.care/fhir/ClinicalUseDefinition/amlodipine-brain-stem-infarction.json
 ```
 
 See [FHIR API Documentation]({{ '/smart/fhir-api/' | relative_url }}) for details.

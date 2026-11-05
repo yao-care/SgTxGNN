@@ -94,8 +94,8 @@ SgTxGNN provides FHIR R4 resources:
 | Resource | Endpoint | Description |
 |----------|----------|-------------|
 | CapabilityStatement | `/fhir/metadata` | Server capabilities |
-| MedicationKnowledge | `/fhir/MedicationKnowledge/{id}` | Drug information |
-| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/{id}` | Repurposing predictions |
+| MedicationKnowledge | `/fhir/MedicationKnowledge/{id}.json` | Drug information |
+| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/{id}.json` | Repurposing predictions |
 
 ---
 

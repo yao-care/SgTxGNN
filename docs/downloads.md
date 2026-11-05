@@ -22,10 +22,10 @@ Candidate table combining deep learning (DL) predictions with known uses from th
 
 | Format | File | Size | Description |
 |--------|------|------|-------------|
-| CSV | [drugs.csv]({{ '/data/drugs.csv' | relative_url }}) | ~2 MB | All predictions in CSV format |
-| JSON | [drugs.json]({{ '/data/drugs.json' | relative_url }}) | ~50 KB | Drug list with metadata |
-| JSON | [drugs-by-level.json]({{ '/data/drugs-by-level.json' | relative_url }}) | ~100 KB | Predictions organized by evidence level |
-| JSON | [search-index.json]({{ '/data/search-index.json' | relative_url }}) | ~3 MB | Full search index |
+| CSV | [drugs.csv]({{ '/data/drugs.csv' | relative_url }}) | ~2 MB | All drug–disease pairs (predictions and known uses) |
+| JSON | [drugs.json]({{ '/data/drugs.json' | relative_url }}) | ~300 KB | List of drug report pages with evidence level |
+| JSON | [drugs-by-level.json]({{ '/data/drugs-by-level.json' | relative_url }}) | ~40 KB | Row counts by source (KG / DL / KG+DL) and the top-scoring pairs |
+| JSON | [search-index.json]({{ '/data/search-index.json' | relative_url }}) | ~750 KB | Search index used by the site and the SMART app |
 
 ---
 
@@ -38,16 +38,16 @@ Candidate table combining deep learning (DL) predictions with known uses from th
 | `drugbank_id` | string | DrugBank identifier (e.g., DB00945) |
 | `drug_name` | string | Drug generic name |
 | `disease_name` | string | Disease (predicted or known use, see `source`) |
-| `score` | float | DL model score (0.5-1.0, null for KG-only); a ranking value, not a probability |
+| `score` | float | DL model score (0.5-1.0, empty for KG-only rows); a ranking value, not a probability |
 | `source` | string | KG = known use in the knowledge graph; DL = model prediction; KG+DL = known use also scored by DL |
 
 ### Example Rows
 
 ```csv
 drugbank_id,drug_name,disease_name,score,source
-DB00945,Acetylsalicylic acid,myocardial infarction,0.948889,KG+DL
-DB01076,Atorvastatin,cerebrovascular disorder,0.923456,DL
-DB00829,Diazepam,alcohol withdrawal,null,KG
+DB00005,ETANERCEPT,ankylosing spondylitis,,KG
+DB00829,Diazepam,alcohol withdrawal,0.999200403690338,KG+DL
+DB00945,Acetylsalicylic acid,migraine with brainstem aura,0.999371349811554,DL
 ```
 
 ---
@@ -65,14 +65,16 @@ SgTxGNN provides a FHIR R4-compliant API for programmatic access:
 
 | Resource | Endpoint | Count |
 |----------|----------|-------|
-| MedicationKnowledge | `/fhir/MedicationKnowledge/{id}` | {{ site.static_files | where_exp: 'f', 'f.path contains "/fhir/MedicationKnowledge/"' | size }} |
-| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/{id}` | {{ site.static_files | where_exp: 'f', 'f.path contains "/fhir/ClinicalUseDefinition/"' | size }} |
+| MedicationKnowledge | `/fhir/MedicationKnowledge/{id}.json` | {{ site.static_files | where_exp: 'f', 'f.path contains "/fhir/MedicationKnowledge/"' | size }} |
+| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/{id}.json` | {{ site.static_files | where_exp: 'f', 'f.path contains "/fhir/ClinicalUseDefinition/"' | size }} |
 
 #### Example Request
 
 ```bash
-curl https://sgtxgnn.yao.care/fhir/MedicationKnowledge/db00945
+curl https://sgtxgnn.yao.care/fhir/MedicationKnowledge/amlodipine.json
 ```
+
+Resources are static files named by drug slug; search queries are not supported. See the [FHIR API page]({{ '/smart/fhir-api/' | relative_url }}).
 
 ---
 

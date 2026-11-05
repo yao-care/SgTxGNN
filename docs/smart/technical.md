@@ -85,33 +85,38 @@ Accept: application/fhir+json
 
 ### MedicationKnowledge
 
+Static JSON file named by the drug's page slug:
+
 ```
-GET /fhir/MedicationKnowledge/{drugbank_id}
-Accept: application/fhir+json
+GET /fhir/MedicationKnowledge/{drug}.json
 ```
 
-Example response:
+Example (`/fhir/MedicationKnowledge/amlodipine.json`, abridged):
 ```json
 {
   "resourceType": "MedicationKnowledge",
-  "id": "DB00945",
+  "id": "amlodipine",
+  "status": "active",
   "code": {
     "coding": [{
-      "system": "https://www.drugbank.ca",
-      "code": "DB00945",
-      "display": "Aspirin"
-    }]
-  },
-  "status": "active"
+      "system": "https://sgtxgnn.yao.care/drugs",
+      "code": "amlodipine",
+      "display": "AMLODIPINE"
+    }],
+    "text": "AMLODIPINE"
+  }
 }
 ```
 
 ### ClinicalUseDefinition
 
+Static JSON file named by drug slug and predicted indication:
+
 ```
-GET /fhir/ClinicalUseDefinition/{drugbank_id}-{disease_id}
-Accept: application/fhir+json
+GET /fhir/ClinicalUseDefinition/{drug}-{indication}.json
 ```
+
+Example: `/fhir/ClinicalUseDefinition/amlodipine-brain-stem-infarction.json`
 
 ---
 
