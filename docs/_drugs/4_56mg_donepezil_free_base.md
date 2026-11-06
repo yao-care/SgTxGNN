@@ -73,6 +73,16 @@ Donepezil is a well-characterised compound with a known mechanism of action (rev
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13645P | Aricept Evess 5mg orodispersible tablet | TABLET, ORALLY DISINTEGRATING | Valid |
+| SIN13646P | Aricept Evess 10mg orodispersible tablet | TABLET, ORALLY DISINTEGRATING | Valid |
+| SIN14389P | DOPEZIL TABLETS 10MG | TABLET, FILM COATED | Valid |
+| SIN14390P | DOPEZIL TABLETS 5MG | TABLET, FILM COATED | Valid |
+| SIN14575P | Aricept Film-coated Tablets 23mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 15 HSA registrations.
+
 ---
 
 ## Safety Considerations

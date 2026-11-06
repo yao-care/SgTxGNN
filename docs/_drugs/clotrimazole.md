@@ -73,6 +73,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00175P | COTREN VAGINAL TABLETS 500 mg | TABLET | Valid |
+| SIN03395P | CANDID-V6 VAGINAL TABLET 100 mg | TABLET | Valid |
+| SIN03396P | CANDID-V3 VAGINAL TABLET 200 mg | TABLET | Valid |
+| SIN03397P | CANDID V-1 VAGINAL TABLET 500 mg | TABLET | Valid |
+| SIN03584P | CANESTEN GYN 1 DAY THERAPY VAGINAL TABLET 0.5 g | TABLET | Valid |
+
+Showing 5 of 23 HSA registrations.
+
 The records cover creams, vaginal tablets, ear drops, spray, powder and lotion. The local records carry no approved-indication text, so no indication table is shown.
 
 ## Safety Considerations

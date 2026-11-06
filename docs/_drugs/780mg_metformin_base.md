@@ -84,6 +84,16 @@ No relevant literature data are currently available (predicted_indications is em
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04249P | GLUCOPHAGE TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN04272P | METFORMIN TABLET 500 mg | TABLET | Valid |
+| SIN04674P | METFORMIN TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN04812P | DIABETMIN TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN06937P | GLYFORMIN 500 TABLET 500 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 65 HSA registrations.
+
 ---
 
 ## Safety Considerations

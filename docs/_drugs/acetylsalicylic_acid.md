@@ -68,6 +68,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05313P | CARDIPRIN 100 TABLET 100 mg | TABLET | Valid |
+| SIN05362P | BAYER ASPIRIN TABLET 500 mg | TABLET | Valid |
+| SIN05373P | ASPIRIN (E.C.) TABLETS 100 mg | ENTERIC COATED TABLET | Valid |
+| SIN08997P | BOKEY ENTERIC-MICROENCAPSULATED CAPSULES 100 mg | CAPSULE | Valid |
+| SIN09770P | THREE LEGS BRAND MEDICINAL POWDER ASPIRIN 600 mg/sachet | POWDER | Valid |
+
+Showing 5 of 10 HSA registrations.
+
 Aspirin is marketed in Singapore, and all local licences in the data compiled for this report are valid. Products are oral forms (enteric-coated tablets, plain tablets and capsules), several as single-ingredient aspirin.
 
 ## Safety Considerations

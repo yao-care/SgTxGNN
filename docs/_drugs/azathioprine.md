@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Azathioprine"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Azathioprine: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -71,6 +71,12 @@ Currently no related clinical trials registered.
 Currently no related literature available.
 
 ## Singapore Market Information
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02082P | IMURAN TABLET 50 mg | TABLET, FILM COATED | Valid |
+| SIN10165P | AZATHIOPRINE PCH TABLET 50 mg | TABLET | Valid |
+| SIN11000P | AZAFRINE TABS. 50 mg | TABLET | Valid |
 
 Azathioprine is marketed in Singapore as single-ingredient oral tablets (plain and film-coated), and all of its registrations are currently valid. The local records do not carry indication text for these products.
 

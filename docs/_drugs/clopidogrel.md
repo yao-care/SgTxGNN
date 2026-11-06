@@ -93,6 +93,16 @@ None of these publications studies migraine with brainstem aura itself. They con
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09828P | PLAVIX TABLET 75 mg | TABLET, FILM COATED | Valid |
+| SIN13571P | Apo-Clopidogrel 75mg Tablet | TABLET, FILM COATED | Valid |
+| SIN13746P | Clopidogrel Sandoz Film Coated Tablet 75mg | TABLET, FILM COATED | Valid |
+| SIN13820P | DEPLATT TABLET 75MG | TABLET | Valid |
+| SIN13844P | PLACTA TABLET 75 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 16 HSA registrations.
+
 Clopidogrel is currently marketed in Singapore. Approved indication text is not recorded in the local data.
 
 ---

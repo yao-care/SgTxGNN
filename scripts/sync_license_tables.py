@@ -7,7 +7,9 @@
 - 新資料沒有任何註冊時拿掉表，改一句「No registration was found in the HSA listing of registered therapeutic products used for this report.」
 - 表後 known_use_pages 寫的「Only part of the licence list is held in the data; the list may be incomplete.」（原本是部分紀錄才加）：
   重建後的紀錄是完整清單（total_matches＝紀錄數），這句跟事實矛盾，一併拿掉；仍是部分紀錄的證據包保留。
-- 段落裡沒有表的頁不新增；表以外的文字不動（跟新事實矛盾的句子由 tools/txgnn/.claude/delete_license_sentences.py 處理）。
+- 段落裡沒有表的頁（矛盾句刪完只剩標題，例 ganirelix、palivizumab；或舊頁只有文字）：在標題下補程式產生的表（min(5, 總數) 列，
+  總數較多時加「Showing N of M HSA registrations.」）；沒有任何註冊時補「No registration was found …」句（已有就不重複）。
+  比照 Uk、NZ、Ph 的同名程式（2026-11-06 用戶決定）。表以外的文字不動（跟新事實矛盾的句子由 tools/txgnn/.claude/delete_license_sentences.py 處理）。
 用法（repo 根目錄）：python3 scripts/sync_license_tables.py [--dry-run] [頁 ...]
 """
 import json
@@ -47,7 +49,16 @@ def process(text, recs, partial=False):
     b = next((k for k in range(a, len(lines)) if lines[k].startswith("## ")), len(lines))
     tb = [k for k in range(a, b) if lines[k].startswith("|")]
     if not tb:
-        return None
+        rows = table_rows(recs)
+        if rows:
+            n = min(5, len(rows))
+            block = HEAD + rows[:n] + (["", SHOW.format(n=n, m=len(rows))] if len(rows) > n else [])
+        elif not any(l.strip() == NONE_LINE for l in lines[a:b]):
+            block = [NONE_LINE]
+        else:
+            return None
+        t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:a] + [""] + block + [""] + lines[a:]))
+        return t2 if t2 != text else None
     x, y = tb[0], tb[0]
     while y + 1 < b and lines[y + 1].startswith("|"):
         y += 1

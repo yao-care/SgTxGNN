@@ -72,6 +72,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12165P | ORGALUTRAN SOLUTION FOR INJECTION 0.25 mg/0.5 ml | INJECTION | Valid |
+| SIN17558P | GANIRELIX-AFT SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 0.25 MG/0.5 | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

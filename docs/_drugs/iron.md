@@ -90,7 +90,7 @@ Currently no related literature available.
 
 Showing 5 of 7 HSA registrations.
 
-A sixth authorization, SIN14341P (Nutritrace Concentrate for solution for infusion), is also valid. The drug is marketed in this country, and all 6 of 6 licences are valid single-ingredient registrations; none is cancelled. Approved indication text was not available for these products. The list covers oral and injectable routes, and some products (for example Velphoro and Nutritrace) are likely to serve purposes other than treating iron deficiency anemia.
+A sixth authorization, SIN14341P (Nutritrace Concentrate for solution for infusion), is also valid. The drug is marketed in this country; none is cancelled. Approved indication text was not available for these products. The list covers oral and injectable routes, and some products (for example Velphoro and Nutritrace) are likely to serve purposes other than treating iron deficiency anemia.
 
 ---
 

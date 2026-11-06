@@ -73,6 +73,16 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00388P | ROCEPHIN FOR INJECTION 1 g/vial (INTRAMUSCULAR) | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN00566P | ROCEPHIN FOR INJECTION 1 g/vial (INTRAVENOUS) | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN09926P | TRICEFIN FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN10888P | CEFAXONE FOR INJECTION 500 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN11104P | CEFAXONE FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+Showing 5 of 22 HSA registrations.
+
 Examples include Rocephin (F. Hoffmann-La Roche), Ceftriaxone Kabi, Ceftriaxone-AFT, Ceftriaxone Advagen, Cyrosef, Medaxone, Cefaxone and Tricefin. Indication text is not recorded in the local data for these licences.
 
 ## Safety Considerations

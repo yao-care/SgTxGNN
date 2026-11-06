@@ -90,8 +90,6 @@ None of the retrieved publications studies respiratory malformation. They cover 
 
 Showing 5 of 17 HSA registrations.
 
-The list shows 5 of 18 valid licences.
-
 ## Safety Considerations
 
 - **Drug Interactions**: 100 interactions were recorded in the interaction data. Examples include moderate-level interactions with acarbose, famotidine, clarithromycin, cisapride, dolasetron, ephedrine, isometheptene, diethylpropion, and several antidiabetic agents (e.g. alogliptin, canagliflozin, dapagliflozin, empagliflozin, dulaglutide, albiglutide, chlorpropamide). Minor interactions were recorded with corticosteroids such as budesonide, beclomethasone, betamethasone, and dexamethasone.

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 757
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Palivizumab"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
 description: "Palivizumab: predicted new indication Benign neoplasm of tongue (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,6 +69,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15112P | SYNAGIS SOLUTION FOR INJECTION 100MG/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

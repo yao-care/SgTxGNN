@@ -82,6 +82,10 @@ Currently no related literature is available in this Evidence Pack.
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15220P | ALECENSA HARD CAPSULE 150MG | CAPSULE | Valid |
+
 > **Note:** Alectinib (Alecensa®) has regulatory approval in the US (FDA, 2015/2017), EU (EMA), and Japan (PMDA).
 
 ---

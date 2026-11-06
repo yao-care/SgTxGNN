@@ -70,6 +70,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01039P | CONCOR 5 TABLET 5 mg | TABLET, FILM COATED | Valid |
+| SIN11349P | CONCOR TABLET 2.5 mg | TABLET, FILM COATED | Valid |
+| SIN12568P | BISOHEXAL TABLET 5 mg | TABLET, FILM COATED | Valid |
+| SIN15506P | BISOPRO FILM-COATED TABLET 2.5MG | TABLET, FILM COATED | Valid |
+| SIN15507P | BISOPRO FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 24 HSA registrations.
+
 Bisoprolol is marketed in Singapore, and the compiled data show valid licences with no cancelled ones. The detailed licence table is added by the site program.
 
 ## Safety Considerations

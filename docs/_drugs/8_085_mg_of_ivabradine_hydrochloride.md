@@ -80,6 +80,16 @@ Because `predicted_indications` is empty, the sections for **Why is This Predict
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13408P | CORALAN Tablet 5mg | TABLET, FILM COATED | Valid |
+| SIN13409P | CORALAN Tablet 7.5 mg | TABLET, FILM COATED | Valid |
+| SIN16726P | BRAVACOR FILM-COATED TABLETS 5MG | TABLET, FILM COATED | Valid |
+| SIN16727P | BRAVACOR FILM-COATED TABLETS 7.5MG | TABLET, FILM COATED | Valid |
+| SIN17056P | ABRAD FILM COATED TABLET 7.5 MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 8 HSA registrations.
+
 > Based on international data, ivabradine is marketed globally as **Procoralan** (Servier) and **Corlanor** (Amgen/US).
 
 ---

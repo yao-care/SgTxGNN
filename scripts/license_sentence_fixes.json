@@ -364,6 +364,12 @@
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 6 張（單方 5），句中「7 registrations」；「All 7」與事實不符；句子只有許可說法，整句刪"
   }
  ],
+ "ceftazidime": [
+  {
+   "sentence": "All four licences are valid single-ingredient products.",
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 6 張；句子的總數／張數說法與事實不符（checker 總數說法規則）；句子只有張數說法（或主詞就是錯的張數），整句刪（2026-11-06 逐句核對）"
+  }
+ ],
  "ceftolozane": [
   {
    "sentence": "This is one single-ingredient licence and its status is valid.",
@@ -755,6 +761,12 @@
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 4 張（單方 0），句中「three licences」；「All three」與事實不符；句子只有許可說法，整句刪"
   }
  ],
+ "formoterol": [
+  {
+   "sentence": "The list shows 5 of 18 valid licences.",
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 17 張；句子的總數／張數說法與事實不符（checker 總數說法規則）；句子只有張數說法（或主詞就是錯的張數），整句刪（2026-11-06 逐句核對）"
+  }
+ ],
  "fulvestrant": [
   {
    "sentence": "All 8 are single-ingredient products, and none is cancelled.",
@@ -891,6 +903,13 @@
   {
    "sentence": "A sixth licence, SIN09558P (COMBIVENT UNIT DOSE VIAL FOR INHALATION, solution), is also valid.",
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 5 張（單方 3），句中「A sixth licence」與事實不符；句子只有許可說法，整句刪"
+  }
+ ],
+ "iron": [
+  {
+   "sentence": "The drug is marketed in this country, and all 6 of 6 licences are valid single-ingredient registrations; none is cancelled.",
+   "cut": ", and all 6 of 6 licences are valid single-ingredient registrations",
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 7 張；句子的總數／張數說法與事實不符（checker 總數說法規則）；只刪張數子句，其餘保留（2026-11-06 逐句核對）"
   }
  ],
  "isoleucine": [

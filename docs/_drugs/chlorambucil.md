@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Chlorambucil"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
 description: "Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,6 +82,9 @@ Currently no related literature available for this specific subtype.
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11696P | LEUKERAN TABLET 2 mg (Revised Formula) | TABLET, FILM COATED | Valid |
 
 ---
 

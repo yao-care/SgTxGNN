@@ -80,6 +80,16 @@ Currently no related literature available (no predicted indications available to
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14146P | Zytiga Tablet 250 mg | TABLET | Valid |
+| SIN15345P | ZYTIGA FILM-COATED TABLET 500MG | TABLET, FILM COATED | Valid |
+| SIN15833P | ABIRANAT TABLETS 250MG USP | TABLET | Valid |
+| SIN15933P | ONCOPROS - ABIRATERONE ACETATE TABLETS USP 250MG | TABLET | Valid |
+| SIN16002P | ABIRATRED ABIRATERONE ACETATE FILM COATED TABLET USP 250MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 17 HSA registrations.
+
 ---
 
 ## Safety Considerations

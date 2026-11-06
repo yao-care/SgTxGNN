@@ -79,8 +79,6 @@ Currently no related literature available.
 
 Showing 5 of 6 HSA registrations.
 
-All four licences are valid single-ingredient products.
-
 ## Safety Considerations
 
 Package insert warnings and contraindications were not available in the data compiled for this report; please refer to the package insert for safety information.

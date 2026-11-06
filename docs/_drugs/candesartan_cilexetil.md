@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Candesartan cilexetil"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,6 +69,14 @@ Currently no related clinical trials registered.
 Currently no related literature available. The publications retrieved in the data compiled for this report concern other conditions and do not study this disease.
 
 ## Singapore Market Information
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10878P | ATACAND TABLET 8 mg | TABLET | Valid |
+| SIN10880P | ATACAND TABLET 16 mg | TABLET | Valid |
+| SIN14301P | Candesartan Sandoz Tablet 16mg | TABLET | Valid |
+| SIN14302P | Candesartan Sandoz Tablet 8mg | TABLET | Valid |
+| SIN11383P | ATACAND PLUS TABLET | TABLET | Valid |
 
 The drug is currently marketed in Singapore. All registered products are oral tablets, and all registrations are currently valid.
 

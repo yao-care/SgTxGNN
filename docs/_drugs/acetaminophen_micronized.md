@@ -72,6 +72,16 @@ To unlock TxGNN predictions, the canonical DrugBank entry for acetaminophen (DB0
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05323P | PROGESIC TABLET 500 mg | TABLET | Valid |
+| SIN05328P | PANAMOL TABLETS 500 mg | TABLET | Valid |
+| SIN05471P | BIOGESIC TABLET 500 mg | TABLET | Valid |
+| SIN05559P | PANAMOL FORTE SUSPENSION 250 mg/5 ml | SUSPENSION | Valid |
+| SIN05565P | PARMOL 250 SUSPENSION 250 mg/5 ml | SUSPENSION | Valid |
+
+Showing 5 of 101 HSA registrations.
+
 ---
 
 ## Safety Considerations

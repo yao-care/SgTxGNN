@@ -81,6 +81,12 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07835P | CIMETIDINE TABLETS 200 mg | TABLET, FILM COATED | Valid |
+| SIN08468P | SHINTAMET FILM COATED TABLET 400 mg | TABLET, FILM COATED | Valid |
+| SIN09571P | CIMETIDINE TABLET 200 mg | TABLET | Valid |
+
 Cimetidine is currently marketed in Singapore.
 
 ## Safety Considerations
