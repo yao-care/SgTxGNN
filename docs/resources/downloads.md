@@ -95,19 +95,34 @@ ls SgTxGNN/data/processed/
 
 ### JSON Format
 
-`drugs.json`:
+`drugs.json` lists the public drug report pages, one entry per page (count in `total_count`).
+
+| Field | Description |
+|-------|-------------|
+| `slug` | URL name of the drug page (`/drugs/<slug>/`) |
+| `name` | Drug name |
+| `evidence_level` | Evidence level shown at the top of the drug page (L1–L5) |
+| `indication_count` | Number of predicted indications on the drug page |
+| `original_indication` | Approved indication, filled only when the drug page front matter has one; currently empty (`""`) for every drug |
+| `predicted_indication` | Currently empty (`""`) for every drug. It used to be extracted automatically from the page text, but most extracted values were table headings, so it has been left empty since 2026-11-06. The field is kept so existing code does not break |
+| `txgnn_score` | Currently empty (`""`) for every drug, for the same reason |
+| `url` | Drug page URL |
+
+For predicted indications and their model scores, see each drug page or [search-index.json]({{ '/data/search-index.json' | relative_url }}).
+
+Example (excerpt of the generated file):
 
 ```json
 {
-  "generated": "2026-10-17",
-  "total_count": 1051,
+  "generated": "2026-11-06",
+  "total_count": {{ site.data.drug_stats.total_drugs }},
   "source": "SgTxGNN",
   "drugs": [
     {
       "slug": "abacavir",
       "name": "Abacavir",
-      "evidence_level": "L4",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 3,
       "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
