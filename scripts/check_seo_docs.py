@@ -19,6 +19,8 @@
   10. docs/_data/hreflang.json 裡本站自己的頁（說明頁等，藥物頁除外）存在、不是 noindex／轉址頁、組裡有自我參照、沒有 x-default（2026-11-04）。
   12. docs/_data/ddi_sources.json＝.github/ddi-versions.json 的 site_data；頁面的 DDInter／GtoPdb 數字與版本用 Liquid 讀它（scripts/sync_ddi_sources.py，2026-11-05）。
   13. docs/data/drugs.json 等於公開藥物頁：不含 noindex／轉址頁、等級＝頁首、筆數＝drug_stats.json total_drugs、original_indication 不是預測說明或截斷的句子、predicted_indication／txgnn_score 不是表頭字或預測說明（2026-11-06）。
+  14. 下載檔 docs/data/drugs.csv、drugs-by-level.json 等於公開藥物頁：不含 noindex／轉址頁、等級＝頁首、各等級藥數＝drug_stats.json、
+      每藥配對數＝indication_count，且與 scripts/generate_download_data.py 的輸出相同（2026-11-06）。
 
 Tw 專屬的檢查（TFDA 許可證表、docs/_data/drug_reviews.json 人工查核紀錄、drug_stats.json）沒有移植；
 本站之後若建立同類機制，再把對應檢查加回來。
@@ -507,6 +509,92 @@ if _DJ_F.exists():
     if _dj_bad:
         errors.append(f"docs/data/drugs.json 與藥物頁不一致 {len(_dj_bad)} 項，例：{'；'.join(_dj_bad[:5])}"
                       f"（母目錄跑 python3 .claude/generate_drugs_json.py <本站目錄>）")
+
+
+# 14) 下載檔（2026-11-06 補）：docs/data/drugs.csv、drugs-by-level.json。2026-03 初始 commit 之後沒更新（全量 KG＋DL 配對、
+#    公開藥物頁裡 264 個藥不在檔內），/evidence-high/、/evidence-medium/、/evidence-low/ 的 JS 讀 drugs-by-level.json。
+#    2026-11-06 起由 scripts/generate_download_data.py 從公開藥物頁與 search-index.json 重產。這裡獨立檢查：兩份都進版控；
+#    drugs-by-level.json 的 levels 只收公開藥物頁且一個不漏、分組鍵＝各筆 evidence_level＝頁首（沒寫當 L5）、
+#    counts.drugs＝total_drugs、各等級藥數＝drug_stats.json level_counts（N/A＝其餘）；drugs.csv 每列的藥是公開藥物頁、
+#    每藥列數＝該頁 indication_count、總列數＝counts.total；最後整份要等於產生器輸出（generated 不比）。
+#    修法：python3 scripts/generate_download_data.py
+import csv as _csv
+import importlib.util as _ilu
+_dl_bad = []
+_dl_pages = {}  # 網址 → (是否公開, 頁首等級, title, indication_count)
+for _f in sorted((DOCS / "_drugs").glob("*.md")):
+    _t = _f.read_text(encoding="utf-8", errors="replace")
+    _fm = front_matter(_t)
+    _u = norm(_fm.get("permalink") or "/drugs/" + jekyll_slugify(_fm.get("slug") or _f.stem) + "/")
+    _redir = 'http-equiv="refresh"' in _t or _fm.get("layout") == "id_redirect" or bool(_fm.get("redirect_to"))
+    try:
+        _ic = int(_fm.get("indication_count") or 0)
+    except ValueError:
+        _ic = 0
+    _dl_pages[_u] = (not _redir and _fm.get("noindex", "").lower() != "true", _fm.get("evidence_level") or "L5", _fm.get("title", ""), _ic)
+_dl_public = {_u for _u, _v in _dl_pages.items() if _v[0]}
+_dl_stats = json.loads((DOCS / "_data" / "drug_stats.json").read_text(encoding="utf-8"))
+_dl_want = dict(_dl_stats.get("level_counts", {}))
+_dl_want["N/A"] = _dl_stats.get("total_drugs", 0) - sum(_dl_want.values())
+for _rel in ("data/drugs.csv", "data/drugs-by-level.json"):
+    if not (DOCS / _rel).exists() or not file_exists(_rel):
+        _dl_bad.append(f"{_rel} 不存在或沒有進版控（上線會 404）")
+try:
+    _bl = json.loads((DOCS / "data" / "drugs-by-level.json").read_text(encoding="utf-8"))
+    _lv = _bl.get("levels") if isinstance(_bl, dict) else None
+    if not isinstance(_lv, dict):
+        _dl_bad.append("data/drugs-by-level.json 沒有 levels（依頁首等級分組的公開藥物）")
+        _lv = {}
+    _seen = []
+    for _k, _grp in _lv.items():
+        for _r in _grp:
+            _u = norm(str(_r.get("url") or ""))
+            _seen.append(_u)
+            if _u not in _dl_pages:
+                _dl_bad.append(f"drugs-by-level.json：{_u} 沒有這個藥物頁")
+            elif not _dl_pages[_u][0]:
+                _dl_bad.append(f"drugs-by-level.json：{_u} 是 noindex 或轉址頁")
+            elif str(_r.get("evidence_level")) != _dl_pages[_u][1] or _k != _dl_pages[_u][1]:
+                _dl_bad.append(f"drugs-by-level.json：{_u} 放在 {_k} 組、等級 {_r.get('evidence_level')}，頁首 {_dl_pages[_u][1]}")
+    if len(_seen) != len(set(_seen)):
+        _dl_bad.append("drugs-by-level.json：有重複的藥")
+    _dl_bad += [f"drugs-by-level.json：{_u} 是公開藥物頁但不在檔內" for _u in sorted(_dl_public - set(_seen))]
+    _cnt = _bl.get("counts", {}) if isinstance(_bl, dict) else {}
+    if _cnt.get("drugs") != _dl_stats.get("total_drugs") or len(_seen) != _dl_stats.get("total_drugs"):
+        _dl_bad.insert(0, f"drugs-by-level.json：藥數 {len(_seen)}（counts.drugs {_cnt.get('drugs')}），drug_stats.json total_drugs {_dl_stats.get('total_drugs')}")
+    for _k, _n in _dl_want.items():
+        if len(_lv.get(_k, [])) != _n or _cnt.get(_k, 0) != _n:
+            _dl_bad.append(f"drugs-by-level.json：{_k} {len(_lv.get(_k, []))} 個（counts {_cnt.get(_k, 0)}），drug_stats.json {_n} 個")
+except Exception as _e:
+    _cnt = {}
+    _dl_bad.append(f"data/drugs-by-level.json 讀不了：{_e}")
+try:
+    _rows = list(_csv.DictReader((DOCS / "data" / "drugs.csv").read_text(encoding="utf-8").splitlines()))
+    _by_name = {_v[2].casefold(): _u for _u, _v in _dl_pages.items() if _v[0]}
+    _per = {}
+    for _r in _rows:
+        _u = _by_name.get(str(_r.get("drug_name", "")).casefold())
+        if _u is None:
+            _dl_bad.append(f"drugs.csv：{_r.get('drug_name')} 不是公開藥物頁的藥")
+            continue
+        _per[_u] = _per.get(_u, 0) + 1
+    for _u in sorted(_dl_public):
+        if _per.get(_u, 0) != _dl_pages[_u][3]:
+            _dl_bad.append(f"drugs.csv：{_u} {_per.get(_u, 0)} 列，頁面 indication_count {_dl_pages[_u][3]}")
+    if _cnt and len(_rows) != _cnt.get("total"):
+        _dl_bad.append(f"drugs.csv：{len(_rows)} 列，drugs-by-level.json counts.total {_cnt.get('total')}")
+except Exception as _e:
+    _dl_bad.append(f"data/drugs.csv 讀不了：{_e}")
+try:
+    _gdd_spec = _ilu.spec_from_file_location("_gdd", Path(__file__).resolve().parent / "generate_download_data.py")
+    _gdd = _ilu.module_from_spec(_gdd_spec)
+    _gdd_spec.loader.exec_module(_gdd)
+    _gdd_files, _ = _gdd.build(DOCS)
+    _dl_bad += [f"{_rel} 與產生器輸出不同（過期）" for _rel in _gdd.stale_files(_gdd_files, DOCS)]
+except Exception as _e:
+    _dl_bad.append(f"scripts/generate_download_data.py 執行失敗：{_e}")
+if _dl_bad:
+    errors.append(f"下載檔與藥物頁不一致 {len(_dl_bad)} 項，例：{'；'.join(_dl_bad[:6])}（跑 python3 scripts/generate_download_data.py）")
 
 if errors:
     print(f"docs SEO 守門：✗ {len(errors)} 項")

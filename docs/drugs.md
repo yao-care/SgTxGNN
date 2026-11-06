@@ -199,7 +199,8 @@ document.addEventListener('DOMContentLoaded', function() {
 ## Statistics
 
 {%- comment -%}2026-11-06：數字改由資料算，口徑＝本站公開的藥物頁（同 docs/_data/drug_stats.json、/data/drugs.json）。
-舊版寫死 31,543／1,217／6,361，是 drugs-by-level.json 的全量預測（含沒有公開頁的藥、含 KG 已知用途），口徑不同。
+舊版寫死 31,543／1,217／6,361，是 2026-03 版 drugs-by-level.json 的全量預測（含沒有公開頁的藥、含 KG 已知用途），口徑不同；
+該檔 2026-11-06 起由 scripts/generate_download_data.py 從公開藥物頁重產。
 公開資料沒有每筆預測的 KG／DL 來源，所以拿掉 KG+DL 列。分數 > 0.99 這列由下方 JS 讀 /data/search-index.json 算。{%- endcomment -%}
 {%- assign stat_pairs = 0 -%}
 {%- for d in site.data.drug_stats.all_drugs -%}{%- assign stat_pairs = stat_pairs | plus: d.indication_count -%}{%- endfor -%}

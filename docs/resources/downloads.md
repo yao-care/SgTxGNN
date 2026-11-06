@@ -17,18 +17,18 @@ Download SgTxGNN datasets for research use.
 
 ### Unified Predictions
 
-All drug repurposing predictions with source and model score.
+The predicted new indications listed on this site's public drug pages, with the TxGNN deep learning model score. Known uses are excluded on the drug pages, so they are not in this file.
 
 | File | Format | Size | Records |
 |------|--------|------|---------|
-| [drugs.csv]({{ '/data/drugs.csv' | relative_url }}) | CSV | ~2 MB | One row per drug–disease pair |
+| [drugs.csv]({{ '/data/drugs.csv' | relative_url }}) | CSV | ~250 KB | One row per drug–indication pair |
 
 **Columns**:
-- `drugbank_id`: DrugBank identifier
-- `drug_name`: Generic drug name
-- `disease_name`: Disease (predicted or known use, see `source`)
-- `score`: Model score (0-1); a ranking value, not a probability
-- `source`: KG = known use in the knowledge graph; DL = model prediction; KG+DL = known use also scored by DL
+- `drugbank_id`: DrugBank identifier, from this site's DrugBank ID redirect pages; empty when none
+- `drug_name`: Drug name as shown on the drug page
+- `disease_name`: Predicted new indication listed on the drug page
+- `score`: TxGNN model score (0–1); a ranking value, not a probability
+- `source`: always DL (deep learning prediction); there are no KG or KG+DL rows
 
 ### Drug List
 

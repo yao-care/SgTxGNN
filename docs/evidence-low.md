@@ -26,49 +26,52 @@ These predictions represent research hypotheses that require validation.
 
 ---
 
-## All Predictions by Source
+## Drugs at L5
+
+Drugs on this site whose evidence level (shown at the top of each drug page) is L5. The score is the TxGNN model score of the drug's top-scoring predicted indication — a ranking value, not a probability.
 
 <div id="low-evidence-stats">
-  Loading prediction statistics...
+  Loading drugs...
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // 2026-11-06：/data/drugs-by-level.json 改由 scripts/generate_download_data.py 從本站公開藥物頁重產，
+  // levels 依藥物頁頁首的證據等級分組（不含 noindex／轉址頁），藥物網址直接用檔內的 url。
+  const base = '{{ "/" | relative_url }}'.replace(/\/$/, '');
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  const LEVELS = ['L5'];
   fetch('{{ "/data/drugs-by-level.json" | relative_url }}')
-    .then(response => response.json())
+    .then(r => r.json())
     .then(data => {
       const container = document.getElementById('low-evidence-stats');
-
+      const rows = LEVELS.flatMap(lv => (data.levels && data.levels[lv]) || []);
+      if (rows.length === 0) {
+        container.innerHTML = '<p>No drugs at this evidence level.</p>';
+        return;
+      }
       container.innerHTML = `
+        <p><em>${rows.length} drugs (${LEVELS.map(lv => lv + ': ' + (((data.levels || {})[lv]) || []).length).join(', ')}).</em></p>
         <table>
           <thead>
             <tr>
-              <th>Source</th>
-              <th>Count</th>
-              <th>Description</th>
+              <th>Drug</th>
+              <th>Level</th>
+              <th>Predicted indications</th>
+              <th>Top-scoring predicted indication</th>
+              <th>Score</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td><span class="badge kgdl">KG+DL</span></td>
-              <td>${data.counts?.kgdl || 0}</td>
-              <td>Known use recorded in the knowledge graph that DL also scored highly — not a new prediction</td>
-            </tr>
-            <tr>
-              <td><span class="badge dl">DL</span></td>
-              <td>${data.counts?.dl || 0}</td>
-              <td>Deep learning prediction with model score</td>
-            </tr>
-            <tr>
-              <td><span class="badge kg">KG</span></td>
-              <td>${data.counts?.kg || 0}</td>
-              <td>Known use in knowledge graph (not a prediction)</td>
-            </tr>
-            <tr>
-              <td><strong>Total</strong></td>
-              <td><strong>${data.counts?.total || 0}</strong></td>
-              <td></td>
-            </tr>
+            ${rows.map(d => `
+              <tr>
+                <td><a href="${esc(base + d.url)}">${esc(d.drug_name)}</a></td>
+                <td>${esc(d.evidence_level)}</td>
+                <td>${esc(d.indication_count)}</td>
+                <td>${esc(d.top_indication)}</td>
+                <td>${typeof d.top_score === 'number' ? d.top_score.toFixed(4) : '—'}</td>
+              </tr>
+            `).join('')}
           </tbody>
         </table>
       `;
@@ -80,24 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <style>
-.badge {
-  padding: 0.125rem 0.5rem;
-  border-radius: 3px;
-  font-size: 0.75rem;
-  font-weight: 600;
-}
-.badge.kgdl {
-  background: #2E7D32;
-  color: white;
-}
-.badge.dl {
-  background: #1976D2;
-  color: white;
-}
-.badge.kg {
-  background: #9E9E9E;
-  color: white;
-}
+#low-evidence-stats table { font-size: 0.875rem; }
 </style>
 
 ---

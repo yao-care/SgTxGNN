@@ -27,9 +27,67 @@ These predictions have supporting evidence but need additional clinical validati
 
 ---
 
-## High-Score Predictions (DL > 0.99)
+## Drugs at L3–L4
 
-The following predictions scored 0.99 or higher in the deep learning model (the score is a ranking value, not a probability):
+Drugs on this site whose evidence level (shown at the top of each drug page) is L3 or L4. The score is the TxGNN model score of the drug's top-scoring predicted indication — a ranking value, not a probability.
+
+<div id="medium-level-list">
+  Loading drugs...
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // 2026-11-06：/data/drugs-by-level.json 改由 scripts/generate_download_data.py 從本站公開藥物頁重產，
+  // levels 依藥物頁頁首的證據等級分組（不含 noindex／轉址頁），藥物網址直接用檔內的 url。
+  const base = '{{ "/" | relative_url }}'.replace(/\/$/, '');
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  const LEVELS = ['L3', 'L4'];
+  fetch('{{ "/data/drugs-by-level.json" | relative_url }}')
+    .then(r => r.json())
+    .then(data => {
+      const container = document.getElementById('medium-level-list');
+      const rows = LEVELS.flatMap(lv => (data.levels && data.levels[lv]) || []);
+      if (rows.length === 0) {
+        container.innerHTML = '<p>No drugs at this evidence level.</p>';
+        return;
+      }
+      container.innerHTML = `
+        <p><em>${rows.length} drugs (${LEVELS.map(lv => lv + ': ' + (((data.levels || {})[lv]) || []).length).join(', ')}).</em></p>
+        <table>
+          <thead>
+            <tr>
+              <th>Drug</th>
+              <th>Level</th>
+              <th>Predicted indications</th>
+              <th>Top-scoring predicted indication</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map(d => `
+              <tr>
+                <td><a href="${esc(base + d.url)}">${esc(d.drug_name)}</a></td>
+                <td>${esc(d.evidence_level)}</td>
+                <td>${esc(d.indication_count)}</td>
+                <td>${esc(d.top_indication)}</td>
+                <td>${typeof d.top_score === 'number' ? d.top_score.toFixed(4) : '—'}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+    })
+    .catch(err => {
+      document.getElementById('medium-level-list').innerHTML = '<p>Failed to load data.</p>';
+    });
+});
+</script>
+
+---
+
+## High-Score Predictions (DL > 0.99, All Levels)
+
+The highest-scoring predicted new indications across all evidence levels on this site's drug pages (the score is a ranking value, not a probability; the evidence level of each drug is on its page):
 
 <div id="medium-evidence-list">
   Loading medium evidence drugs...
@@ -37,21 +95,14 @@ The following predictions scored 0.99 or higher in the deep learning model (the 
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // 2026-11-06：藥物連結改用 /data/drugs.json 的 url（依藥名對應），直接連到藥物頁；
-  // 舊版用 drugbank_id 拼 /drugs/dbXXXXX/，會先經過舊 ID 的轉址頁。drugs.json 沒有的藥只顯示名稱、不連結。
+  // 2026-11-06：/data/drugs-by-level.json 改由 scripts/generate_download_data.py 從本站公開藥物頁重產；
+  // high_score 每筆帶藥物頁 url，直接連到藥物頁（沒有 url 時只顯示名稱）。
   const base = '{{ "/" | relative_url }}'.replace(/\/$/, '');
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
-  Promise.all([
-    fetch('{{ "/data/drugs-by-level.json" | relative_url }}').then(r => r.json()),
-    fetch('{{ "/data/drugs.json" | relative_url }}').then(r => r.json())
-  ])
-    .then(([data, drugsData]) => {
-      const urlByName = {};
-      (drugsData.drugs || []).forEach(x => { if (x.name && x.url) urlByName[String(x.name).toLowerCase()] = x.url; });
-      const drugLink = d => {
-        const u = urlByName[String(d.drug_name).toLowerCase()];
-        return u ? `<a href="${esc(base + u)}">${esc(d.drug_name)}</a>` : esc(d.drug_name);
-      };
+  fetch('{{ "/data/drugs-by-level.json" | relative_url }}')
+    .then(r => r.json())
+    .then(data => {
+      const drugLink = d => d.url ? `<a href="${esc(base + d.url)}">${esc(d.drug_name)}</a>` : esc(d.drug_name);
       const container = document.getElementById('medium-evidence-list');
       const highScore = data.high_score || [];
 
@@ -75,13 +126,13 @@ document.addEventListener('DOMContentLoaded', function() {
               <tr>
                 <td>${drugLink(d)}</td>
                 <td>${esc(d.disease_name)}</td>
-                <td>${d.score.toFixed(4)}</td>
-                <td><span class="badge ${d.source === 'KG+DL' ? 'kgdl' : 'dl'}">${d.source}</span></td>
+                <td>${typeof d.score === 'number' ? d.score.toFixed(4) : '—'}</td>
+                <td><span class="badge ${d.source === 'KG+DL' ? 'kgdl' : 'dl'}">${esc(d.source)}</span></td>
               </tr>
             `).join('')}
           </tbody>
         </table>
-        <p><em>Showing top 50 of ${highScore.length} high-score predictions (score > 0.99).</em></p>
+        <p><em>Showing top ${Math.min(50, highScore.length)} of ${(data.counts && data.counts.high_score) || highScore.length} predictions with score > 0.99.</em></p>
       `;
     })
     .catch(err => {

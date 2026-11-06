@@ -31,7 +31,7 @@ Data sources, downloads, and research materials
 
 | File | Format | Description |
 |------|--------|-------------|
-| [Unified Predictions]({{ '/data/drugs.csv' | relative_url }}) | CSV | All drug–disease pairs (predictions and known uses) |
+| [Unified Predictions]({{ '/data/drugs.csv' | relative_url }}) | CSV | All predicted drug–indication pairs on the public drug pages |
 | [Drug List]({{ '/data/drugs.json' | relative_url }}) | JSON | Drug report pages with evidence level and links |
 | [Search Index]({{ '/data/search-index.json' | relative_url }}) | JSON | Full searchable index |
 

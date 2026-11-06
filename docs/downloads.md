@@ -18,13 +18,13 @@ Download prediction data in various formats
 
 ### Unified Predictions
 
-Candidate table combining deep learning (DL) predictions with known uses from the knowledge graph (KG). Rows with source KG are known uses, not predictions.
+The predicted new indications listed on this site's public drug pages, one row per drug–indication pair, with the TxGNN deep learning (DL) model score. Known uses are excluded on the drug pages, so they are not in these files. The files are rebuilt from the drug pages (noindex and redirect pages excluded).
 
 | Format | File | Size | Description |
 |--------|------|------|-------------|
-| CSV | [drugs.csv]({{ '/data/drugs.csv' | relative_url }}) | ~2 MB | All drug–disease pairs (predictions and known uses) |
+| CSV | [drugs.csv]({{ '/data/drugs.csv' | relative_url }}) | ~250 KB | All predicted drug–indication pairs on the public drug pages |
 | JSON | [drugs.json]({{ '/data/drugs.json' | relative_url }}) | ~300 KB | List of drug report pages with evidence level |
-| JSON | [drugs-by-level.json]({{ '/data/drugs-by-level.json' | relative_url }}) | ~40 KB | Row counts by source (KG / DL / KG+DL) and the top-scoring pairs |
+| JSON | [drugs-by-level.json]({{ '/data/drugs-by-level.json' | relative_url }}) | ~280 KB | Public drug pages grouped by evidence level (`levels`, with each drug's top-scoring predicted indication), drug and pair counts (`counts`), and the 100 highest-scoring pairs (`high_score`) |
 | JSON | [search-index.json]({{ '/data/search-index.json' | relative_url }}) | ~750 KB | Search index used by the site and the SMART app |
 
 ---
@@ -35,19 +35,19 @@ Candidate table combining deep learning (DL) predictions with known uses from th
 
 | Column | Type | Description |
 |--------|------|-------------|
-| `drugbank_id` | string | DrugBank identifier (e.g., DB00945) |
-| `drug_name` | string | Drug generic name |
-| `disease_name` | string | Disease (predicted or known use, see `source`) |
-| `score` | float | DL model score (0.5-1.0, empty for KG-only rows); a ranking value, not a probability |
-| `source` | string | KG = known use in the knowledge graph; DL = model prediction; KG+DL = known use also scored by DL |
+| `drugbank_id` | string | DrugBank identifier (e.g., DB01048), from this site's DrugBank ID redirect pages; empty when none |
+| `drug_name` | string | Drug name as shown on the drug page |
+| `disease_name` | string | Predicted new indication listed on the drug page |
+| `score` | float | TxGNN deep learning model score (0–1, 4 decimals); a ranking value, not a probability |
+| `source` | string | Always DL (deep learning prediction). Known uses are excluded on the drug pages, so there are no KG or KG+DL rows |
 
 ### Example Rows
 
 ```csv
 drugbank_id,drug_name,disease_name,score,source
-DB00005,ETANERCEPT,ankylosing spondylitis,,KG
-DB00829,Diazepam,alcohol withdrawal,0.999200403690338,KG+DL
-DB00945,Acetylsalicylic acid,migraine with brainstem aura,0.999371349811554,DL
+DB01048,Abacavir,simian immunodeficiency virus infection,0.9979,DL
+DB01048,Abacavir,feline acquired immunodeficiency syndrome,0.9979,DL
+DB01048,Abacavir,"neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",0.9978,DL
 ```
 
 ---

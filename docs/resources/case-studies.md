@@ -120,14 +120,14 @@ import pandas as pd
 predictions = pd.read_csv('https://sgtxgnn.yao.care/data/drugs.csv')
 
 # Filter for drug of interest
-drug_preds = predictions[predictions['drug_name'] == 'Aspirin']
-print(f"Found {len(drug_preds)} predictions for Aspirin")
+drug_preds = predictions[predictions['drug_name'] == 'Acetylsalicylic Acid']
+print(f"Found {len(drug_preds)} predictions for Acetylsalicylic Acid")
 ```
 
 ### Step 2: Review Predictions
 
 ```python
-# Sort by confidence
+# Sort by model score (a ranking value, not a probability)
 drug_preds = drug_preds.sort_values('score', ascending=False)
 
 # Show top predictions
@@ -138,7 +138,7 @@ print(drug_preds[['disease_name', 'score', 'source']].head(10))
 
 Focus on predictions that are:
 - **Listed on the site**: Score ≥ 0.99 (deep learning prediction)
-- **Not a known use**: exclude rows already recorded in the knowledge graph (Source = KG or KG+DL)
+- **Not a known use**: known uses are already excluded from drugs.csv (every row has Source = DL)
 - **Clinically plausible**: Has mechanistic rationale
 
 ### Step 4: Gather Evidence

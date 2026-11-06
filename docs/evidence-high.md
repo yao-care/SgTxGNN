@@ -29,61 +29,54 @@ These predictions have the strongest clinical foundation and can be prioritized 
 
 ---
 
-## KG+DL Pairs (Known Uses, Not New Predictions)
+## Drugs at L1–L2
 
-The following pairs scored highly in Deep Learning and are also an indication or off-label use already recorded in the knowledge graph — a known use recovered by the model, not a new prediction:
+Drugs on this site whose evidence level (shown at the top of each drug page) is L1 or L2. The score is the TxGNN model score of the drug's top-scoring predicted indication — a ranking value, not a probability. Open a drug page for the evidence behind each predicted indication.
 
 <div id="high-evidence-list">
-  Loading high evidence drugs...
+  Loading drugs...
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // 2026-11-06：藥物連結改用 /data/drugs.json 的 url（依藥名對應），直接連到藥物頁；
-  // 舊版用 drugbank_id 拼 /drugs/dbXXXXX/，會先經過舊 ID 的轉址頁。drugs.json 沒有的藥只顯示名稱、不連結。
+  // 2026-11-06：/data/drugs-by-level.json 改由 scripts/generate_download_data.py 從本站公開藥物頁重產，
+  // levels 依藥物頁頁首的證據等級分組（不含 noindex／轉址頁），藥物網址直接用檔內的 url。
   const base = '{{ "/" | relative_url }}'.replace(/\/$/, '');
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
-  Promise.all([
-    fetch('{{ "/data/drugs-by-level.json" | relative_url }}').then(r => r.json()),
-    fetch('{{ "/data/drugs.json" | relative_url }}').then(r => r.json())
-  ])
-    .then(([data, drugsData]) => {
-      const urlByName = {};
-      (drugsData.drugs || []).forEach(x => { if (x.name && x.url) urlByName[String(x.name).toLowerCase()] = x.url; });
-      const drugLink = d => {
-        const u = urlByName[String(d.drug_name).toLowerCase()];
-        return u ? `<a href="${esc(base + u)}">${esc(d.drug_name)}</a>` : esc(d.drug_name);
-      };
+  const LEVELS = ['L1', 'L2'];
+  fetch('{{ "/data/drugs-by-level.json" | relative_url }}')
+    .then(r => r.json())
+    .then(data => {
       const container = document.getElementById('high-evidence-list');
-      const highEvidence = data.kgdl_validated || [];
-
-      if (highEvidence.length === 0) {
-        container.innerHTML = '<p>No high evidence drugs found.</p>';
+      const rows = LEVELS.flatMap(lv => (data.levels && data.levels[lv]) || []);
+      if (rows.length === 0) {
+        container.innerHTML = '<p>No drugs at this evidence level.</p>';
         return;
       }
-
       container.innerHTML = `
+        <p><em>${rows.length} drugs (${LEVELS.map(lv => lv + ': ' + (((data.levels || {})[lv]) || []).length).join(', ')}).</em></p>
         <table>
           <thead>
             <tr>
               <th>Drug</th>
-              <th>Predicted Indication</th>
+              <th>Level</th>
+              <th>Predicted indications</th>
+              <th>Top-scoring predicted indication</th>
               <th>Score</th>
-              <th>Source</th>
             </tr>
           </thead>
           <tbody>
-            ${highEvidence.slice(0, 50).map(d => `
+            ${rows.map(d => `
               <tr>
-                <td>${drugLink(d)}</td>
-                <td>${esc(d.disease_name)}</td>
-                <td>${d.score ? d.score.toFixed(4) : 'N/A'}</td>
-                <td><span class="badge kgdl">KG+DL</span></td>
+                <td><a href="${esc(base + d.url)}">${esc(d.drug_name)}</a></td>
+                <td>${esc(d.evidence_level)}</td>
+                <td>${esc(d.indication_count)}</td>
+                <td>${esc(d.top_indication)}</td>
+                <td>${typeof d.top_score === 'number' ? d.top_score.toFixed(4) : '—'}</td>
               </tr>
             `).join('')}
           </tbody>
         </table>
-        <p><em>Showing top 50 of ${highEvidence.length} KG+DL (known-use) pairs.</em></p>
       `;
     })
     .catch(err => {
@@ -91,17 +84,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
-<style>
-.badge.kgdl {
-  padding: 0.125rem 0.5rem;
-  border-radius: 3px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  background: #2E7D32;
-  color: white;
-}
-</style>
 
 ---
 
