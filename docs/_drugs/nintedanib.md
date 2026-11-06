@@ -6,7 +6,7 @@ nav_order: 715
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-11-06
-description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Non-small cell lung carcinoma, lung cancer…"
+description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Non-small cell lung carcinoma, lung cancer…"
 monitor_inn: "Nintedanib"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 ---

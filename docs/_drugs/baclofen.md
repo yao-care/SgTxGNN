@@ -6,7 +6,7 @@ nav_order: 134
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not available"
+description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "Baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
 ---

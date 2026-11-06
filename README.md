@@ -24,7 +24,7 @@ Drug repurposing predictions for Singapore HSA-approved drugs using the TxGNN mo
 | **Unique Drugs** | 1,041 |
 | **Unique Indications** | 17,184 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 1,685 MK / 6,052 CUD |
+| **FHIR Resources** | 999 MK / 4,189 CUD |
 
 ### Evidence Level Distribution
 

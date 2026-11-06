@@ -6,7 +6,7 @@ nav_order: 580
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Larotrectinib: predicted new indication Multiple endocrine neoplasia (evidence level L3). Approved use: Not listed in the Singapore registration records (the drug is known a…"
+description: "Larotrectinib: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not listed in the Singapore registration records (the drug is known a…"
 monitor_inn: "Larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
 ---

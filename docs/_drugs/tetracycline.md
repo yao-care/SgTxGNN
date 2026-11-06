@@ -6,7 +6,7 @@ nav_order: 977
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-11-06
-description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections (urinary tract infection, bronchitis, acne…"
+description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections (urinary tract infection, bronchitis, acne…"
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 ---

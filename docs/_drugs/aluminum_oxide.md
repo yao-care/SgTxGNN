@@ -6,7 +6,7 @@ nav_order: 73
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Aluminum Oxide: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Not stated in the Singapore licence records"
+description: "Aluminum Oxide: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the Singapore licence records"
 monitor_inn: "Aluminum oxide"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "heparin cofactor 2 deficiency", "hemoglobinopathy", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombotic disease", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency"]
 ---

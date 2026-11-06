@@ -6,7 +6,7 @@ nav_order: 1071
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-11-06
-description: "Vinpocetine: predicted new indication Coronary artery disease (evidence level L4). Approved use: Dementia"
+description: "Vinpocetine: predicted new indication Coronary artery disease (evidence level L5). Approved use: Dementia"
 monitor_inn: "Vinpocetine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "lissencephaly", "alexia", "respiratory malformation", "Rienhoff syndrome"]
 ---
