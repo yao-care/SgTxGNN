@@ -81,7 +81,7 @@ This is animal data only. No human studies were compiled.
 | SIN14341P | Nutritrace Concentrate for solution for infusion | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 
-All three registrations are valid single-ingredient licences, and none has been cancelled. All are injectable forms.
+All three registrations are valid licences, and none has been cancelled. All are injectable forms.
 
 ## Safety Considerations
 

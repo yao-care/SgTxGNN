@@ -87,7 +87,7 @@ Currently no related literature available for the top predicted indication.
 | SIN04717P | NAPHCON-A STERILE OPHTHALMIC SOLUTION | SOLUTION | Valid |
 | SIN07343P | FLUCUR NEBULISER | SPRAY | Valid |
 
-All three licenses are valid single-ingredient products.
+All three licenses are valid products.
 
 ---
 

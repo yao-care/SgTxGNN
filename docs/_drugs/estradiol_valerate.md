@@ -93,7 +93,7 @@ For the lower-ranked predictions (anovulation and ovarian dysfunction), the lite
 | SIN04456P | PROGYNOVA TABLET 2 mg | TABLET, SUGAR COATED | Valid |
 | SIN04778P | PROGYLUTON TABLET | TABLET, SUGAR COATED | Valid |
 
-Both are valid single-ingredient oral products from Bayer Weimar GmbH und Co.
+Both are valid oral products from Bayer Weimar GmbH und Co.
 
 ## Safety Considerations
 

@@ -76,8 +76,6 @@ Currently no related literature available.
 | SIN17394P | LIVAZEBE Film-coated Tablets 2 mg/10 mg | TABLET, FILM COATED | Valid |
 | SIN17395P | LIVAZEBE Film-coated Tablets 4 mg/10 mg | TABLET, FILM COATED | Valid |
 
-Both licences are valid, single-ingredient oral products from Kowa Company, Ltd.
-
 ## Safety Considerations
 
 - **Contraindications recorded in the knowledge graph** (not taken from label text): liver disease, gallbladder disease, hypothyroidism, myxedema, congenital hypothyroidism, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, hypotensive disorder, rhabdomyolysis, nodular fasciitis, impaired renal function, and injury.

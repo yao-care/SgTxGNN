@@ -103,7 +103,7 @@ For cauda equina syndrome, currently no related literature is available. Because
 | SIN02959P | HUACHI ENEMA | ENEMA | Valid |
 | SIN03514P | MINICA S ENEMA | ENEMA | Valid |
 
-All three licences are valid single-ingredient products. Only syrup and enema forms are registered in Singapore.
+All three licences are valid products. Only syrup and enema forms are registered in Singapore.
 
 ---
 

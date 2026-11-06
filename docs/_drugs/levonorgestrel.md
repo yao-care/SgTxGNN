@@ -82,7 +82,7 @@ Currently no related clinical trials registered.
 | SIN11836P | POSTINOR 2 TABLET 0.75 mg | TABLET | Valid |
 | SIN04834P | MICROGYNON 30 TABLET | TABLET, SUGAR COATED | Valid |
 
-All three licences are valid, and all are single-ingredient products.
+All three licences are valid.
 
 ## Safety Considerations
 

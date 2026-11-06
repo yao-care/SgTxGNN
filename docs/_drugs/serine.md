@@ -71,7 +71,7 @@ Currently no related literature available for familial visceral myopathy.
 
 ## Singapore Market Information
 
-Serine is marketed in Singapore as an ingredient of 19 valid single-ingredient registrations. The approved indication text is not available for these products. The five main authorizations are listed below.
+Serine is marketed in Singapore. The approved indication text is not available. The five main authorizations are listed below.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

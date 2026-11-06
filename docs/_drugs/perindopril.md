@@ -103,7 +103,7 @@ Many of the other retrieved papers (herbal formulas, hepatocellular carcinoma, i
 
 ## Singapore Market Information
 
-All are combination products and none is cancelled. The approved-indication text is not available in the data compiled for this report. Main authorisations:
+None is cancelled. The approved-indication text is not available in the data compiled for this report. Main authorisations:
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

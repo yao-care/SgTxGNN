@@ -75,7 +75,7 @@ Currently no related literature available.
 | SIN05148P | POTCIT MIXTURE | SOLUTION | Valid |
 | SIN06732P | POTASSIUM CITRATE MIXTURE BP | SOLUTION | Valid |
 
-All three are single-ingredient products and currently valid. The records contain no approved indication text.
+All three are currently valid. The records contain no approved indication text.
 
 ## Safety Considerations
 

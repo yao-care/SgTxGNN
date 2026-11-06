@@ -102,7 +102,7 @@ Most of these publications concern other drugs or the heterozygous form; none is
 | SIN12671P | APO-PRAVASTATIN TABLET 10 mg | TABLET | Valid |
 | SIN14508P | PRAVAFEN HARD CAPSULES 40mg/160mg | CAPSULE | Valid |
 
-All three are valid single-ingredient registrations (Pravafen is a pravastatin/fenofibrate product by its strengths, though the record lists it as single).
+All three are valid registrations (Pravafen is a pravastatin/fenofibrate product by its strengths).
 
 ---
 

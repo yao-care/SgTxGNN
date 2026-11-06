@@ -86,7 +86,7 @@ For reference, the closest indirect evidence comes from the rank 4 prediction (p
 
 ## Singapore Market Information
 
-All 20 registrations are valid single-ingredient products (oral tablets). Approved indication text is not recorded for any of them. Five main authorizations are listed:
+All 20 registrations are valid products (oral tablets). Approved indication text is not recorded for any of them. Five main authorizations are listed:
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

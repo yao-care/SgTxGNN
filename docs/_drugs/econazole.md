@@ -86,7 +86,7 @@ Currently no related literature available.
 | SIN06601P | ECONAZINE CREAM | CREAM | Valid |
 | SIN10246P | ECOCORT CREAM | CREAM | Valid |
 
-Both licences are valid single-ingredient topical cream products. Only the cream form is available locally.
+Both licences are valid topical cream products. Only the cream form is available locally.
 
 ---
 

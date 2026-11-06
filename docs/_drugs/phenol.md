@@ -100,7 +100,7 @@ The dry eye syndrome (20 papers) and diabetic retinopathy (4 papers) results wer
 | SIN03372P | CASTELLANI'S PAINT (STAINLESS) | LIQUID | Valid |
 | SIN05339P | EGOPSORYL TA GEL | OINTMENT | Valid |
 
-All three licences are valid single-ingredient products. None has been cancelled.
+All three licences are valid products. None has been cancelled.
 
 ## Safety Considerations
 

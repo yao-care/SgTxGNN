@@ -86,7 +86,7 @@ Currently no related literature available for amenorrhea.
 
 Showing 5 of 6 HSA registrations.
 
-A sixth registration, Diosper Film Coated Tablet (SIN11942P), is also valid. All six are single-ingredient oral products.
+A sixth registration, Diosper Film Coated Tablet (SIN11942P), is also valid. All six are oral products.
 
 ## Safety Considerations
 

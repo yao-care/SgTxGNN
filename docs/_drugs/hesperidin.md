@@ -83,7 +83,7 @@ Currently no related clinical trials registered.
 
 Showing 5 of 6 HSA registrations.
 
-A sixth licence (SIN11942P, Diosper Film Coated Tablet, KLEVA S.A.) is also valid. All six are single-ingredient oral products.
+A sixth licence (SIN11942P, Diosper Film Coated Tablet, KLEVA S.A.) is also valid. All six are oral products.
 
 ## Safety Considerations
 

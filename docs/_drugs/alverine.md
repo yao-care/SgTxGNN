@@ -84,7 +84,7 @@ Currently no related literature is available for dysthymic disorder itself. The 
 | SIN16773P | ALVERSIME SOFT CAPSULES | CAPSULE | Valid |
 | SIN17214P | ALMET CAPSULES | CAPSULE, LIQUID FILLED | Valid |
 
-Both licences are valid single-ingredient products. None are cancelled.
+Both licences are valid products. None are cancelled.
 
 ## Safety Considerations
 

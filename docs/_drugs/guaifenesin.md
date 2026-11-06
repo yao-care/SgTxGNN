@@ -74,7 +74,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-All 18 licences are valid single-ingredient registrations, with none cancelled. The licence records contain no approved indication text. Five main authorisations are listed below.
+All 18 licences are valid registrations, with none cancelled. The licence records contain no approved indication text. Five main authorisations are listed below.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

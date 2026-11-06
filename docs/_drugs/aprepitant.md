@@ -79,7 +79,7 @@ Currently no related literature available for nephrogenic syndrome of inappropri
 | SIN12371P | EMEND TRI-PACK CAPSULE | CAPSULE | Valid |
 | SIN16363P | INAPITANT TRI-PACK CAPSULE | CAPSULE | Valid |
 
-All three licences are valid single-ingredient products, and none is cancelled. The only route of administration is oral.
+All three licences are valid products, and none is cancelled. The only route of administration is oral.
 
 ## Safety Considerations
 

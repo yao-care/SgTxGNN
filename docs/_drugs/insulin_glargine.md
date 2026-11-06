@@ -74,7 +74,7 @@ Other top-ranked predictions show similar patterns. Several (stiff person syndro
 
 Showing 5 of 6 HSA registrations.
 
-One further registration, SIN15542P (Soliqua 100 units/ml + 33 mcg/ml pre-filled pen), is also valid. All six registrations are single-ingredient entries and none is cancelled.
+One further registration, SIN15542P (Soliqua 100 units/ml + 33 mcg/ml pre-filled pen), is also valid. None is cancelled.
 
 ## Safety Considerations
 

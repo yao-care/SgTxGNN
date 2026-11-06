@@ -91,7 +91,7 @@ None of these studies directly tests tobramycin in exposure keratitis.
 | SIN04438P | TOBRADEX STERILE OPHTHALMIC SUSPENSION | SOLUTION | Valid |
 | SIN13647P | ZYLET® STERILE OPHTHALMIC SUSPENSION | SUSPENSION, STERILE | Valid |
 
-All five registrations are valid single-ingredient licences (ophthalmic products).
+All five registrations are valid licences (ophthalmic products).
 
 ## Safety Considerations
 

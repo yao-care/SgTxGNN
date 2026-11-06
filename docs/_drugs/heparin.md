@@ -82,7 +82,7 @@ Currently no related literature available.
 
 Showing 5 of 6 HSA registrations.
 
-A sixth licence, SIN12253P (Heparinised Saline Injection 10 iu/ml, B. Braun), is also valid. All six licences are for single-ingredient injectable products.
+A sixth licence, SIN12253P (Heparinised Saline Injection 10 iu/ml, B. Braun), is also valid. All six licences are for injectable products.
 
 ## Safety Considerations
 

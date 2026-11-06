@@ -110,7 +110,7 @@ Publications most relevant to the top prediction (bronchitis), plus the key conj
 | SIN04945P | POLYDEXA EAR DROPS | SOLUTION | Valid |
 | SIN07745P | POLYGYNAX VAGINAL CAPSULE | CAPSULE | Valid |
 
-All four licences are valid, single-ingredient registrations. The registered products are for ear, eye, skin and vaginal use, and none is an inhaled or injectable respiratory product.
+All four licences are valid. The registered products are for ear, eye, skin and vaginal use, and none is an inhaled or injectable respiratory product.
 
 ---
 

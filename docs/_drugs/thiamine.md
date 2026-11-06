@@ -98,7 +98,7 @@ These studies show associations between nutritional or metabolic status and glau
 
 Showing 5 of 10 HSA registrations.
 
-Five of the ten valid licences are shown. All ten are recorded as single-ingredient products, with oral film-coated tablets and injectable forms.
+Five of the ten valid licences are shown. All ten are oral film-coated tablets and injectable forms.
 
 ## Safety Considerations
 

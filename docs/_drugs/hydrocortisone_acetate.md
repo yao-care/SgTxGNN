@@ -75,7 +75,7 @@ There are two caveats. Low-potency hydrocortisone is generally considered weak f
 
 ## Singapore Market Information
 
-Eight valid licences are recorded in Singapore, all single-ingredient topical creams. Five are shown below.
+Eight valid licences are recorded in Singapore, all topical creams. Five are shown below.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

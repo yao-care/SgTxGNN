@@ -76,7 +76,7 @@ Currently no related literature available.
 | SIN03372P | CASTELLANI'S PAINT (STAINLESS) | LIQUID | Valid |
 | SIN06396P | WILISAN RINGWORM COMPOUND LOTION | LOTION | Valid |
 
-Both licences are valid single-ingredient products for topical use.
+Both licences are valid products for topical use.
 
 ## Cytotoxicity
 

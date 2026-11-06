@@ -92,7 +92,7 @@ No randomised trials or systematic reviews were identified. The available litera
 | SIN13672P | TS-ONE Capsule 20 | CAPSULE | Valid |
 | SIN13673P | TS-ONE Capsule 25 | CAPSULE | Valid |
 
-Both licences are valid single-ingredient registrations held by Taiho Pharmaceutical Co., Ltd. (Tokushima Plant), for oral use.
+Both licences are valid registrations held by Taiho Pharmaceutical Co., Ltd. (Tokushima Plant), for oral use.
 
 ## Cytotoxicity
 

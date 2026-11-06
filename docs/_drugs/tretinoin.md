@@ -84,7 +84,7 @@ For osteoarthritis (rank 7), two items were retrieved, but neither supports tret
 
 Showing 5 of 6 HSA registrations.
 
-A sixth licence, Tri-Luma Cream (SIN12607P), is also valid. All 6 registrations are single-ingredient and valid. Five are topical creams and one is an oral capsule (Vesanoid).
+A sixth licence, Tri-Luma Cream (SIN12607P), is also valid. All 6 registrations are valid. Five are topical creams and one is an oral capsule (Vesanoid).
 
 ## Cytotoxicity
 

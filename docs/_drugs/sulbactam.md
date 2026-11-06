@@ -87,7 +87,7 @@ The most relevant publications for bacterial arthritis (clinical studies priorit
 | SIN01949P | UNASYN 3000 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN01950P | UNASYN 750 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
-All three are valid single-ingredient licences, manufactured by Haupt Pharma Latina S.r.L. The only registered route is injectable.
+All three are valid licences, manufactured by Haupt Pharma Latina S.r.L. The only registered route is injectable.
 
 ## Safety Considerations
 

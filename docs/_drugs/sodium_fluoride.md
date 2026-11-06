@@ -81,7 +81,7 @@ For reference, the closest-ranked laryngeal prediction (laryngitis, rank 7) retu
 | SIN14341P | Nutritrace Concentrate for solution for infusion | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 
-All four registrations are valid single-ingredient licences. The available forms are a dental liquid and injectable or infusion concentrates. Epiglottitis is an acute airway infection, and none of these forms is an established route for treating it.
+All four registrations are valid licences. The available forms are a dental liquid and injectable or infusion concentrates. Epiglottitis is an acute airway infection, and none of these forms is an established route for treating it.
 
 ## Safety Considerations
 

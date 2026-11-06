@@ -88,7 +88,7 @@ Currently no related literature available.
 | SIN16538P | FORTACIN CUTANEOUS SPRAY SOLUTION 7.5MG/dose + 2.5MG/dose | SPRAY, METERED | Valid |
 | SIN17501P | XYLOCREAM 5% W/W | CREAM | Valid |
 
-All five licences are valid single-ingredient registrations, and none has been cancelled. No licence is for an ophthalmic dosage form.
+All five licences are valid registrations, and none has been cancelled. No licence is for an ophthalmic dosage form.
 
 ---
 

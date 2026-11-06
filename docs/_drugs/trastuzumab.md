@@ -109,7 +109,7 @@ Other predicted indications in the same analysis:
 
 Showing 5 of 11 HSA registrations.
 
-There are 11 valid registrations in total, all single-ingredient products. They include the originator and several biosimilars (Herzuma, Kanjinti, Trazimera, Trazher) as well as the Phesgo subcutaneous formulation.
+There are 11 valid registrations in total. They include the originator and several biosimilars (Herzuma, Kanjinti, Trazimera, Trazher) as well as the Phesgo subcutaneous formulation.
 
 ## Cytotoxicity
 

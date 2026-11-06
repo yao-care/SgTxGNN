@@ -80,7 +80,7 @@ Currently no related literature available for gout.
 | SIN14537P | Posicaine-100 Injection | INJECTION, SOLUTION | Valid |
 | SIN15913P | ARTINIBSA 4% WITH EPINEPHRINE SOLUTION FOR INJECTION 1:100000 | INJECTION, SOLUTION | Valid |
 
-All five registrations are valid single-ingredient products.
+All five registrations are valid products.
 
 ## Safety Considerations
 

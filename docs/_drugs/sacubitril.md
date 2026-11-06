@@ -102,7 +102,7 @@ The mechanistic link is therefore biologically plausible, but renal outcomes in 
 | SIN16873P | MERAVO FILM-COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
 | SIN16874P | MERAVO FILM-COATED TABLETS 200MG | TABLET, FILM COATED | Valid |
 
-All three licences are valid single-ingredient products (manufacturer: Biocon Pharma Limited), and none has been cancelled.
+All three licences are valid products (manufacturer: Biocon Pharma Limited), and none has been cancelled.
 
 ---
 
