@@ -47,7 +47,7 @@ The TxGNN model produced no candidate for Piperazine with a score of 0.99 or hig
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 2 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 
 ## Known uses recorded for this drug

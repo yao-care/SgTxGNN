@@ -52,7 +52,7 @@ Related evidence exists only for tuberculous middle ear disease (a few case repo
 | Predicted New Indication | Infectious otitis media |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 

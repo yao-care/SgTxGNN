@@ -50,7 +50,7 @@ The top-ranked prediction is a network-based score only, and the evidence points
 | Predicted New Indication | Atypical coarctation of aorta |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 

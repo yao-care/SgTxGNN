@@ -47,7 +47,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Brompheni
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 
 ## Known uses among the model's candidates

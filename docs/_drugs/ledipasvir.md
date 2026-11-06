@@ -52,7 +52,7 @@ but the supporting evidence is thin: **5 related clinical trials** (only 1 direc
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L2 |
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 

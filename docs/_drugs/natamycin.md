@@ -50,7 +50,7 @@ Natamycin is a polyene antifungal that acts on fungal cell membranes. The TxGNN 
 | Predicted New Indication | Vulvitis |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 

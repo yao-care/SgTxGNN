@@ -52,7 +52,7 @@ This is a model-only prediction with no mechanistic or clinical support.
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 

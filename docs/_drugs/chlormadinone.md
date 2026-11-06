@@ -45,7 +45,7 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 
 ## Known uses recorded for this drug

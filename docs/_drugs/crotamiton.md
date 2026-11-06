@@ -43,7 +43,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 
 *Note: The data compiled for this report labels this candidate L4 with a "Research Question" recommendation, based on indirect pharmacological reasoning. Under the standard evidence rules (no clinical trials, no literature), it falls at L5. The Hold decision reflects that gap, while the biological plausibility justifies keeping it as a research question.*

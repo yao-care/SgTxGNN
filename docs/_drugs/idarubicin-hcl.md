@@ -20,7 +20,7 @@ evidence_level: N/A
 
 | Property | Value |
 |----------|-------|
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 | Drug Name | IDARUBICIN HCL |
 | DrugBank ID | [DB01177](https://go.drugbank.com/drugs/DB01177) |

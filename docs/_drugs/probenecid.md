@@ -52,7 +52,7 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 | Predicted New Indication | Hypouricemia, renal |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| Singapore Market Status | Not marketed (no licence on record) |
+| Singapore Market Status | Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data |
 | Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 

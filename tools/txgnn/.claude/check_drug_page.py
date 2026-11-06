@@ -25,7 +25,7 @@
      M3 擴充（2026-11-05，英文站、M3X_SITES 啟用）：M3a 未上市卻寫有效、M3b 有效卻寫未註冊／查無註冊、M3c 有註銷卻寫全部有效／沒有註銷／有效張數過多
 D1 一頁只能有一份報告（2026-11-03 用戶決定）：報告標題＝H2 後一行是「{: .text-alpha }」；兩個以上就錯
    （過去產生時殘留的第二份舊報告、或模型自己「更正標題」留下的第二個標題；修法見 drop_duplicate_reports_20261103.py）
-N1 noindex（--noindex 時才查）：no_pred_noindex 的頁要有 noindex: true，其他頁不得有
+N1 noindex（--noindex 時才查）：no_pred_noindex 的頁、站上 docs/_data/force_noindex.json 列的頁要有 noindex: true，其他頁不得有
 用法（母目錄）：python3 .claude/check_drug_page.py [--selftest] [--noindex] [--pages site:page,...] [站 ...]
 輸出 .claude/audit_20261016/check/results.tsv（site, page, code, detail）；有錯 exit 1。
 """
@@ -310,6 +310,10 @@ NO_CENTRAL = {
     "ThTxGNN": "ไม่พบทะเบียนตำรับยาในระบบค้นหาข้อมูลผลิตภัณฑ์ยาของ อย.",
     # 2026-10-31（pm）：JP 的來源是藥價基準收載醫藥品マスター，不收 OTC 等未收載品目，查不到不等於國內未承認
     "JpTxGNN": "本サイトのデータ（薬価基準収載医薬品マスター）に該当品目なし（国内の承認状況は未確認）",
+    # 2026-11-06（用戶決定）：SG 的來源是 HSA 現行註冊清單（data.gov.sg，只列現行註冊），不在清單不等於沒有藥；
+    # EU 的來源只有 EMA 集中許可，各會員國的國家許可不在資料裡。兩站都只陳述資料範圍，不寫 Not marketed
+    "SgTxGNN": "Not in the current HSA register of therapeutic products (data.gov.sg listing) – registrations no longer listed are not included in this data",
+    "EuTxGNN": "No EMA central authorisation on record – national authorisations in EU member states are not included in this data",
 }
 
 
@@ -414,6 +418,16 @@ SCOPE_CANCELLED = {
     "DETxGNN": "Zentrale EU-Zulassung (EMA) erloschen ({n} von {n}) – nationale Zulassungen (BfArM) sind in den hier ausgewerteten Daten nicht enthalten",
     "FITxGNN": "Keskitetty EU-myyntilupa (EMA) peruttu ({n}/{n}) – kansallisia myyntilupia (Fimea) ei ole tässä käytetyissä tiedoissa",
     "NOTxGNN": "Sentral EU-godkjenning (EMA) avregistrert ({n} av {n}) – nasjonale markedsføringstillatelser (DMP) finnes ikke i dataene som er brukt her",
+    "EuTxGNN": "No valid EMA central authorisation (withdrawn, lapsed or expired: {n} of {n}) – national authorisations in EU member states are not included in this data",
+}
+# 只陳述資料範圍的站（NO_CENTRAL／SCOPE_CANCELLED），事實是查無或全部註銷時，正文斷言「在本國／歐盟沒有上市、買不到」超出資料範圍（2026-11-06，Sg、Eu）
+SCOPE_NOMKT = {
+    "SgTxGNN": re.compile(r"\bnot (currently |yet )?(marketed|available|sold|launched)\b[^.;]{0,25}\b(in Singapore|locally|on the (Singapore|local) market)\b|"
+                          r"\bno longer (marketed|available|sold)\b[^.;]{0,25}\b(in Singapore|locally)\b|\b(unavailable|off the market) in Singapore\b|"
+                          r"\bnot on the (Singapore|local) market\b", re.I),
+    "EuTxGNN": re.compile(r"\bnot (currently |yet )?(marketed|available|sold|authori[sz]ed|launched)\b[^.;]{0,25}\b(in (the )?(EU|European Union|Europe|EEA))\b|"
+                          r"\bno longer (marketed|available|sold|authori[sz]ed)\b[^.;]{0,25}\b(in (the )?(EU|European Union|Europe|EEA))\b|"
+                          r"\b(unavailable|off the market) in (the )?(EU|European Union|Europe)\b|\bnot on the (EU|European) market\b", re.I),
 }
 
 
@@ -469,6 +483,25 @@ ALL_CANCEL = re.compile(
     r"\b(kesemua|semua)\b[^.\n]{0,40}pendaftaran[^.\n]{0,30}dibatalkan|tiada pendaftaran (yang )?sah|"
     r"جميع التراخيص[^.\n]{0,40}(ملغا|ملغى|ملغية|أُلغيت|ألغيت)|لا توجد تراخيص سارية|لا يوجد ترخيص ساري|"
     r"(ทั้งหมด|ทุกรายการ)[^.\n]{0,30}ยกเลิก|ไม่มีทะเบียนที่ยังมีผล", re.I)
+# 2026-11-06（用戶決定修誤判）：「全部…許可…註銷」那一類（all／todos／alle／toutes／tutti／alla／kaikki／semua…開頭）
+# 若「全部」與註銷字之間有否定或有效字樣，講的是「全部有效、沒有註銷」，不是全部註銷
+# （「All four licences are valid, and none has been cancelled.」「Todos los registros están vigentes y ninguno fue cancelado.」）
+_ALL_LEAD = re.compile(r"^(all|every|tod[oa]s|alle|tou(tes|s)|tutt[ei]|alla|kaikki|kesemua|semua|جميع|ทั้งหมด|ทุกรายการ)\b", re.I)
+_ALL_NEGV = re.compile(r"\b(none|no|not|neither|nor|never|without|valid|active|current(ly)? (valid|active)|ninguno|ninguna|ningún|ni|sin|vigentes?|"
+                       r"válid[oa]s?|nenhum[a]?|ativ[oa]s?|keine?n?|kein|gültig\w*|aucune?|valides?|nessun[oa]?|validi|valide|geen|geldig\w*|"
+                       r"ingen|giltig\w*|gyldig\w*|ei|voimassa\w*|tiada|sah)\b|ยังมีผล|ไม่มี|السارية|سارية|لا", re.I)
+
+
+def all_cancel(s):
+    """ALL_CANCEL 命中、且不是「全部有效、沒有註銷」的說法"""
+    for m in ALL_CANCEL.finditer(s):
+        g = m.group(0)
+        if _ALL_LEAD.search(g) and _ALL_NEGV.search(g[3:]):
+            continue
+        return True
+    return False
+
+
 # 2026-10-31（pm 退件 BR）：「只有註銷的許可」這類說法（沒寫未上市、但說只剩註銷登記），事實有有效許可時跟狀態列矛盾。
 # 句中同時提到有效／現行許可（POS_VALID）的不算（例：「2 張註銷、3 張有效」）。單純提到「另有 4 個註銷登記」不算，
 # 只抓括號斷言「(registro cancelado)」與「apenas／solo … cancelado」這類「只有」的說法。
@@ -535,7 +568,7 @@ AT_LEAST = re.compile(r"at least|al menos|pelo menos|mindestens|mindst|vähintä
 #       data retrieval failure 這類「查無結果」說法）
 #   M3c 事實有註銷張數（非部分紀錄），正文寫全部有效／沒有註銷，或正文寫的有效張數多於事實
 # 只在 M3X_SITES 的站啟用：新規則上線前，該站頁面要先清到 0（否則許可證排程的 checker 會擋下整批）；selftest 一律測。
-M3X_SITES = {"COTxGNN", "CaTxGNN", "DkTxGNN", "ESTxGNN", "KrTxGNN", "MyTxGNN", "SgTxGNN", "UsTxGNN", "ZaTxGNN"}
+M3X_SITES = {"COTxGNN", "CaTxGNN", "DkTxGNN", "ESTxGNN", "KrTxGNN", "EuTxGNN", "MyTxGNN", "SgTxGNN", "UsTxGNN", "ZaTxGNN"}
 M3X_LANGS = ("en", "en-us")
 VALID_CLAIM = re.compile(r"\bvalid status\b|\b(is|are|remains?) (currently |still )?valid\b|\bcurrently valid\b|"
                          r"\bvalid (single[\w-]*|registrations?|licen[cs]es?|authori[sz]ations?|approvals?|SAHPRA|products?|records?|entr(y|ies))\b|"
@@ -580,6 +613,9 @@ def m3x(lang, s, fc, site=None):
     if ms in ("Cancelled only", "Not marketed") and VALID_CLAIM.search(s) and not mv2.NEG.search(s):
         return "M3a"
     if v > 0 and (NOREG_CLAIM.search(s) or (site in NOREG_EXTRA and NOREG_EXTRA[site].search(s))) and not POS_VALID.search(s) and REG_WORD.search(s):
+        return "M3b"
+    if v > 0 and c == 0 and not fc.get("partial") and site in CANC_NONE and CANC_NONE[site].search(s) and not CANC_NONE_EXCL.search(s) \
+            and not NONE_CANCEL.search(s):
         return "M3b"
     if c > 0 and (not fc.get("partial") or site in M3X_PARTIAL):
         if NONE_CANCEL.search(s) or (ALL_VALID.search(s) and not re.search(r"cancel", s, re.I)):
@@ -636,6 +672,19 @@ NOREG_EXTRA["SgTxGNN"] = re.compile(
     r"\b(registration|regulatory) (registration )?records? (are|is) absent\b|\bcurrently unregistered\b|\bunregistered in Singapore\b|"
     r"\bregulatory data returned zero\b|\bnot present in regulatory data\b|\btotal_licen[cs]es\W{0,3}[:=]\s*0\b|\bno local regulatory data\b|"
     r"\bno approved registration\b|\bno Singapore market registration\b|\bno Singapore regulatory\b", re.I)
+# EU（2026-11-06，英文）：舊頁依當時的單筆紀錄寫「本藥（唯一）的 EU 許可已註銷」；本站有有效集中許可時判 M3b
+# （「earlier／previously／in 2017」這類講過去某個許可的句子不算）
+NOREG_EXTRA["EuTxGNN"] = re.compile(
+    r"^(?!.*\b(earlier|previous(ly)?|formerly|in (19|20)\d\d|re-?authori[sz]ed)\b)(?=.*("
+    r"\b(the|its|this|sole|only)( only| sole)?( EU| EMA| centrali[sz]ed| marketing| reference product'?s?)? (authori[sz]ation|licen[cs]e)\b[^.;]{0,40}?\b(is|was|has been|are|were)( also| currently| now)*( recorded| listed| shown)?( as)? (cancel+ed|withdrawn|revoked|lapsed|expired)\b|"
+    r"\bauthori[sz]ation status is (cancel+ed|withdrawn)\b|\bshows the licen[cs]e as cancel+ed\b|"
+    r"\bthe product'?s? (EU )?(authori[sz]ation )?(is|was|has been) (also )?(cancel+ed|withdrawn)\b|"
+    r"\bmarketing authori[sz]ation has (also )?been (cancel+ed|withdrawn)\b))", re.I)
+# EU（2026-11-06）：本藥的 EMA 集中許可全部有效、沒有註銷（c＝0）時，正文說許可已註銷（cancelled／cancellation、authorisation was withdrawn）
+# 一定與事實矛盾（舊頁依當時誤判的狀態寫成）。講過去的事（earlier／previously／historically／in 2017）、「沒有註銷」的否定句不算
+CANC_NONE = {"EuTxGNN": re.compile(r"\bcancel+ed\b|\bcancell?ations?\b|\bauthori[sz]ations? (was|were|has been|have been) withdrawn\b", re.I)}
+CANC_NONE_EXCL = re.compile(r"\b(previously|formerly|earlier|historically|in (19|20)\d\d|from the market (as|for)|later withdrawn)\b|"
+                            r"\b(no|none|not|without|neither|nor)\b[^.;]{0,40}\bcancel|\bcancel+ed:? 0\b", re.I)
 # CO：沒有任何註銷許可（c＝0）時，提到「registro cancelado／estado cancelado／solo cancelados」就是 2026-10-03 誤判留下的錯句
 CANC_NOUN = {"COTxGNN": re.compile(r"\b(registros?|productos?|presentaci\w+)( sanitarios?)?( \w+){0,3} cancelad[oa]s?\b|\bregistros?,? (también |hoy |todos )?cancelad|\bestado( de mercado)? cancelado\b|\bsolo cancelad|"
                                    r"\bcancelad[oa]s?\b(?=[^.;]{0,40}\b(registro|INVIMA|Colombia))", re.I)}
@@ -657,11 +706,13 @@ def m3_verdict(site, lang, s, fc):
         return None  # 講的是獸用許可（只有獸用許可的頁說它有效、上市是對的）；但有人用許可時「唯一許可是獸用」仍算矛盾
     if v > 0 and site in M3X_SITES and VET_ONLY_CLAIM.search(s):
         return "M3b", f"M3b 事實有人用有效許可 {v} 張，正文寫唯一／全部許可是獸用：{s[:60]}"
-    if v > 0 and (ALL_CANCEL.search(s) or NOT_MKT_CLAIM.search(s) or ((NOT_MKT_LOOSE.search(s) or ONLY_CANCEL.search(s)) and not POS_VALID.search(s))) \
+    if v > 0 and (all_cancel(s) or NOT_MKT_CLAIM.search(s) or ((NOT_MKT_LOOSE.search(s) or ONLY_CANCEL.search(s)) and not POS_VALID.search(s))) \
             and not (still_valid_ok(s) and not NOT_MKT_CLAIM.search(s)):
         return "M3", f"事實有效 {v} 張，正文寫全部註銷：{s[:60]}"
     if ms in ("Cancelled only", "Not marketed") and (marketed_word(lang) in s or MKT_CLAIM_EXTRA.search(s)) and not mv2.NEG.search(s):
         return "M3", f"事實 {ms}，正文寫上市中：{s[:60]}"
+    if ms in ("Not marketed", "Cancelled only") and site in SCOPE_NOMKT and SCOPE_NOMKT[site].search(s):
+        return "M3s", f"M3s 事實 {ms}（資料只含 {('HSA 現行註冊' if site == 'SgTxGNN' else 'EMA 集中許可')}），正文斷言沒有上市：{s[:60]}"
     if site in M3X_SITES:
         if ms == "Approved, not marketed" and lang in M3X_LANGS and MKT_CLAIM_EN.search(s) and not FORMER.search(s) and not REGISTRY_CTX.search(s):
             return "M3d", f"M3d 事實 {ms}，正文寫上市中：{s[:60]}"
@@ -1427,6 +1478,8 @@ def check_page(site, f, cls, want_noindex):
                 k = mv2.norm_id(cells[0]) if cells else ""
                 if lic.get(k) == "valid" and mv2.TABLE_NEG.search(" ".join(cells[1:])):
                     E("M1", f"有效許可證 {cells[0]} 寫成註銷")
+            for code_, detail in row_status_conflicts(site, all_rows, lic):
+                E(code_, detail)
     # M3（pm C1）：正文市場說法與事實矛盾
     if fc:
         ms, v = fc.get("market_status"), fc.get("valid") or 0
@@ -1447,12 +1500,48 @@ def check_page(site, f, cls, want_noindex):
     # N1
     if want_noindex:
         has = bool(re.search(r"^noindex:\s*true", fm, re.M))
-        if (cls == "no_pred_noindex") != has:
+        # 站上 docs/_data/force_noindex.json 列的頁（用戶核准、附依據；Us 2026-11-06 PEG 3500）一律 noindex
+        _ff = BASE / site / "docs/_data/force_noindex.json"
+        forced = _ff.exists() and f.stem in json.loads(_ff.read_text(encoding="utf-8")).get("pages", {})
+        if (cls == "no_pred_noindex" or forced) != has:
             E("N1", f"class={cls} noindex={has}")
     return errs
 
 
 # ---------- 自我測試 ----------
+# M1 擴充（2026-11-06，Us 用戶決定）：許可證表的號碼格夾著狀態字（「NDA208743 (cancelled)」「ANDA… (Hikma), cancelled」），
+# 或狀態寫在別欄（「Not specified (valid)」），而狀態跟事實層不一致 → M1。原本的檢查只認號碼格「恰好是號碼」的列，這種寫法漏掉
+# （Us 2026-11-06：144 頁把有效寫成註銷、44 頁把停產寫成有效）。號碼樣式各站不同，只在 TABLE_ROW_STATUS 的站查。
+TABLE_ROW_STATUS = {"UsTxGNN": re.compile(r"\b(NDA|ANDA|BLA)\s*(\d{6})\b")}
+_ROW_NEG = re.compile(mv2.TABLE_NEG.pattern + r"|discontinu", re.I)
+_ROW_POS = re.compile(r"\bvalid\b|\bactive\b", re.I)
+
+
+def row_status_word(cells):
+    """表格列（含號碼格）寫的狀態：cancelled／valid／None"""
+    txt = " ".join(cells)
+    if _ROW_NEG.search(txt):
+        return "cancelled"
+    return "valid" if _ROW_POS.search(txt) else None
+
+
+def row_status_conflicts(site, rows, lic):
+    """[(代碼, 說明)]：號碼格含本站許可證號（可夾別的字）、列上寫的狀態跟事實相反"""
+    rx = TABLE_ROW_STATUS.get(site)
+    out = []
+    for cells in rows if rx else []:
+        m = rx.search(cells[0]) if cells else None
+        if not m:
+            continue
+        st = lic.get(mv2.norm_id(m.group(1) + m.group(2)))
+        said = row_status_word(cells)
+        if st == "valid" and said == "cancelled":
+            out.append(("M1", f"有效許可證 {cells[0]} 寫成註銷（列上的狀態字）"))
+        elif st == "cancelled" and said == "valid":
+            out.append(("M1", f"已停產／註銷的許可證 {cells[0]} 寫成有效（列上的狀態字）"))
+    return out
+
+
 def selftest():
     rows = list(csv.DictReader(open(RULES / "test_cases.tsv", encoding="utf-8"), delimiter="\t"))
     bad = 0
@@ -1471,7 +1560,7 @@ def selftest():
             got = bool(PRED_ROW.search(text))
         elif code == "M3":  # note＝valid=<n> 或 cancelled（事實）
             if note.startswith("valid="):
-                got = int(note[6:]) > 0 and bool(ALL_CANCEL.search(text) or NOT_MKT_CLAIM.search(text) or
+                got = int(note[6:]) > 0 and bool(all_cancel(text) or NOT_MKT_CLAIM.search(text) or
                                                  (NOT_MKT_LOOSE.search(text) and not POS_VALID.search(text))) \
                     and not (still_valid_ok(text) and not NOT_MKT_CLAIM.search(text))
             else:
@@ -1499,6 +1588,11 @@ def selftest():
             got = index_english(site, name) == note
         elif code == "D1":  # text 裡的「\\n」是換行：兩個以上報告標題（H2＋{: .text-alpha }）才算
             got = len(report_titles(text.replace("\\n", "\n"))) > 1
+        elif code == "ROW_STATUS":  # text＝「站|表格列」，note＝事實（號碼=valid|cancelled）
+            site, row = text.split("|", 1)
+            k, s = note.split("=", 1)
+            cells = [c.strip() for c in row.strip().strip("|").split("|")]
+            got = bool(row_status_conflicts(site, [cells], {mv2.norm_id(k): s}))
         elif code == "STATUS_ROW":  # text＝「站|列標題1;列標題2」，note＝應選中的列標題
             site, labels = text.split("|", 1)
             pick = status_row(site, [[l, "x"] for l in labels.split(";")])
