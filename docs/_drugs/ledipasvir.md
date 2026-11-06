@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 583
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Ledipasvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but the supporting evidence is thin: **5 related clinical trials** (only 1 direc
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---
@@ -101,9 +101,7 @@ The other predicted indications (hepatitis E, hepatitis A, flavivirus diseases, 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14920P | HARVONI TABLET 90MG/400MG | Film-coated tablet | Not stated in the registration record |
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ---
 
@@ -132,7 +130,6 @@ Ledipasvir has no expected direct anti-HBV mechanism. The only directly relevant
 - Mechanism of action data
 - Package insert warnings and contraindications, since these are currently missing from the data compiled for this report
 - An HBV reactivation monitoring plan for any co-infected population
-- Clarification of the approved indication text in the Singapore registration record
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 587
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
@@ -79,10 +79,10 @@ The mechanistic reasoning above is inferred rather than drawn from recorded mech
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14983P | LENVIMA Hard Capsules 10 mg | Capsule |
-| SIN14982P | LENVIMA Hard Capsule 4 mg | Capsule |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14982P | LENVIMA HARD CAPSULE 4MG | CAPSULE | Valid |
+| SIN14983P | LENVIMA HARD CAPSULES 10 MG | CAPSULE | Valid |
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ layout: default
 title: Magnesium Acetate Tetrahydrate
 parent: Known Uses Only (No New Predictions)
 nav_order: 626
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Magnesium Acetate Tetrahydrate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Magnesium acetate tetrahydrate"
 predicted_indications: []
@@ -43,18 +43,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16734P | Nutriflex Omega Special B. Braun Emulsion for Infusion | Injection, emulsion | Not stated |
-| SIN15468P | Nutriflex Omega Plus Emulsion for Infusion | Injection, emulsion | Not stated |
-| SIN15469P | Nutriflex Omega Special Emulsion for Infusion | Injection, emulsion | Not stated |
-
-All three are valid single-ingredient registrations held by B. Braun Melsungen AG, and all are injectable.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
 
 ## Safety Considerations
 

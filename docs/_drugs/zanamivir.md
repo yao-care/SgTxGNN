@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1081
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Zanamivir"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 description: "Zanamivir: predicted new indication Pyelonephritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,9 +72,9 @@ Currently no related literature available for pyelonephritis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11199P | RELENZA ROTADISK 5 mg/dose | Powder, metered | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11199P | RELENZA ROTADISK 5 mg/dose | POWDER, METERED | Valid |
 
 ## Safety Considerations
 

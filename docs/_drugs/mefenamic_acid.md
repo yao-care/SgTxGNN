@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 641
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Mefenamic acid is a long-marketed non-steroidal anti-inflammatory drug (NSAID) t
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -84,15 +84,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Mefenamic acid is marketed in Singapore, and all 11 single-ingredient licences in the local records are valid. The approved indication text is not recorded in the local data. The main authorizations are listed below.
+The approved indication text is not recorded in the local data. The main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07726P | Pontalon Film Coated Tablet 500 mg | Film-coated tablet | Not available |
-| SIN05487P | Fenagesic Capsules 250 mg | Capsule | Not available |
-| SIN11071P | Melgesic Capsule 250 mg | Capsule | Not available |
-| SIN08483P | Pontalon Capsule 250 mg | Capsule | Not available |
-| SIN10125P | Mefril-250 Capsule 250 mg | Capsule | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05376P | BEAFEMIC CAPSULES 250 mg | CAPSULE | Valid |
+| SIN05488P | FENAGESIC SUSPENSION 125 mg/5 ml | SUSPENSION | Valid |
+| SIN07726P | PONTALON FILM COATED TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN08483P | PONTALON CAPSULE 250 mg | CAPSULE | Valid |
+| SIN10125P | MEFRIL-250 CAPSULE 250 mg | CAPSULE | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

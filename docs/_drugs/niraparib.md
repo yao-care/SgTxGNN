@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 716
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Malignant epithelial tumour of ovary"
 monitor_inn: "Niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "pre-malignant neoplasm", "inner ear neoplasm", "schwannoma of jugular foramen"]
@@ -49,8 +49,8 @@ The TxGNN model (deep learning) predicts it may be effective for **Epiglottis Ne
 | Predicted New Indication | Epiglottis neoplasm |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,14 +69,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16460P | ZEJULA Film-Coated Tablet 200mg | Film-coated tablet |
-| SIN16459P | ZEJULA Film-Coated Tablet 100mg | Film-coated tablet |
-| SIN17109P | Akeega Film-coated Tablets 50mg/500mg | Film-coated tablet |
-| SIN17110P | Akeega Film-coated Tablets 100mg/500mg | Film-coated tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16459P | ZEJULA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+| SIN16460P | ZEJULA FILM-COATED TABLET 200MG | TABLET, FILM COATED | Valid |
 
-All four registrations are valid and oral. The approved indication text was not available in the registration records compiled for this report.
+The approved indication text was not available in the registration records compiled for this report.
 
 ## Cytotoxicity
 

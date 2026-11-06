@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bacitracin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bacitracin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,9 +69,9 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04413P | POLYBAMYCIN OINT. | Ointment | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04413P | POLYBAMYCIN OINT. | OINTMENT | Valid |
 
 This is a single-ingredient licence and it is currently valid.
 

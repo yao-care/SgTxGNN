@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Belimumab"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Belimumab: predicted new indication primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,10 +70,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14211P | Benlysta Powder for Solution for Infusion 120mg | Injection, powder, lyophilised, for solution | Not recorded in the local data |
-| SIN14212P | Benlysta Powder for Solution for Infusion 400mg | Injection, powder, lyophilised, for solution | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14211P | Benlysta Powder for Solution for Infusion 120mg | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN14212P | Benlysta Powder for Solution for Infusion 400mg | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

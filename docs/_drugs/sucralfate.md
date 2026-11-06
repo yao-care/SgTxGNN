@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 937
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L5). Approved use: Not recorded in the local data"
@@ -87,7 +87,6 @@ For reference, the trials found for the nearest predicted indication (esophagiti
 
 Currently no related literature available for duodenogastric reflux.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [2986275](https://pubmed.ncbi.nlm.nih.gov/2986275/) | 1985 | Randomised double-blind comparison | Scand J Gastroenterol | Sucralfate vs alginate/antacid over 6 weeks (68 completers); about 70% improved or symptom-free, and esophagitis healed in 53% of the sucralfate group |
@@ -105,9 +104,9 @@ Currently no related literature available for duodenogastric reflux.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08585P | APO-SUCRALFATE TABLET 1 g (Apotex Inc) | Tablet (oral) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08585P | APO-SUCRALFATE TABLET 1 g | TABLET | Valid |
 
 ---
 

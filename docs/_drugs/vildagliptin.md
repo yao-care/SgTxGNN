@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Vildagliptin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,14 +69,17 @@ Currently no related literature available for classic stiff person syndrome.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13407P | Galvus Tablet 50mg | Tablet | Not stated in the records |
-| SIN13685P | Galvus Met Tablet 50mg/850mg | Tablet, film coated | Not stated in the records |
-| SIN13684P | Galvus Met Tablet 50mg/1000mg | Tablet, film coated | Not stated in the records |
-| SIN13952P | Galvus Met Tablet 50mg/500mg | Tablet, film coated | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13407P | Galvus Tablet 50mg | TABLET | Valid |
+| SIN17250P | BIDSIPTIN TABLET 50MG | TABLET | Valid |
+| SIN17509P | AVEXA AVILDAG TABLET 50MG | TABLET | Valid |
+| SIN13684P | Galvus Met Tablet 50mg/1000mg | TABLET, FILM COATED | Valid |
+| SIN13685P | Galvus Met Tablet 50mg/850mg | TABLET, FILM COATED | Valid |
 
-All four are valid registrations, and all are for oral use. The records are classified as single-ingredient, although the product names ("Galvus Met") suggest metformin combinations. This should be verified against the package insert.
+Showing 5 of 6 HSA registrations.
+
+The records are classified as single-ingredient, although the product names ("Galvus Met") suggest metformin combinations. This should be verified against the package insert.
 
 ## Safety Considerations
 

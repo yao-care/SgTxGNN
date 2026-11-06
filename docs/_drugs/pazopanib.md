@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 767
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **6 clinical trials** and **20 publications** compiled for this report, inc
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -86,11 +86,12 @@ Liposarcoma is a soft tissue sarcoma, so a shared pathway is plausible. The evid
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17000P | PAZOPANIB-TEVA FC TABLETS 200 MG | Film-coated tablet | Not recorded |
-| SIN14023P | Votrient Tablet 400 mg | Film-coated tablet | Not recorded |
-| SIN14022P | Votrient Tablet 200 mg | Film-coated tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14022P | Votrient Tablet 200 mg | TABLET, FILM COATED | Valid |
+| SIN14023P | Votrient Tablet 400 mg | TABLET, FILM COATED | Valid |
+| SIN16736P | TYROKA FILM-COATED TABLETS 200 MG | TABLET, FILM COATED | Valid |
+| SIN17000P | PAZOPANIB-TEVA FC TABLETS 200 MG | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

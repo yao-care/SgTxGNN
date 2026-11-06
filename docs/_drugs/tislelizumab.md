@@ -5,7 +5,7 @@ layout: default
 title: Tislelizumab
 parent: Known Uses Only (No New Predictions)
 nav_order: 997
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tislelizumab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Tislelizumab"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17089P | TEVIMBRA CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/10ML | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17089P | TEVIMBRA CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/10ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 Manufacturer: Boehringer Ingelheim Biopharmaceuticals (China) Ltd. The single licence is valid and the product is a single-ingredient injectable.
 

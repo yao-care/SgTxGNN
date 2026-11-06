@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 948
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Erectile dysfunction, benign prostatic hyperplasia…"
 monitor_inn: "Tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ The prediction should be treated with great caution and is most likely a TxGNN m
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 32 of 32) |
+| Number of Registrations | 32 (valid: 32) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,15 +90,17 @@ For context, the only tadalafil-specific publication found among the lower-ranke
 
 ## Singapore Market Information
 
-Twenty valid single-ingredient registrations exist. Five main authorizations are listed below. The licence records contain no approved indication text.
+Five main authorizations are listed below. The licence records contain no approved indication text.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12181P | CIALIS Tablet 20 mg (Lilly del Caribe) | Film-coated tablet | Not recorded |
-| SIN13632P | CIALIS Tablet 5 mg (Lilly del Caribe) | Film-coated tablet | Not recorded |
-| SIN16885P | Tadalafil-Teva FC Tablet 5 mg | Film-coated tablet | Not recorded |
-| SIN15899P | Caliberi Orodispersible Film 5 mg (CTCBIO) | Soluble film | Not recorded |
-| SIN16580P | Tadilas Film-Coated Tablets 20 mg (Krka) | Film-coated tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12181P | CIALIS TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN13631P | CIALIS TABLET 2.5 mg | TABLET, FILM COATED | Valid |
+| SIN13632P | CIALIS TABLET 5 mg | TABLET, FILM COATED | Valid |
+| SIN15898P | CALIBERI ORODISPERSIBLE FILM 20MG | FILM, SOLUBLE | Valid |
+| SIN15899P | CALIBERI ORODISPERSIBLE FILM 5MG | FILM, SOLUBLE | Valid |
+
+Showing 5 of 32 HSA registrations.
 
 ---
 

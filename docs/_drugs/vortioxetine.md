@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1077
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: predicted new indication Neurotic disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,13 +74,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14665P | BRINTELLIX Film-Coated Tablets 5 mg | Film-coated tablet | Not stated in the data |
-| SIN14666P | BRINTELLIX Film-Coated Tablets 10 mg | Film-coated tablet | Not stated in the data |
-| SIN14667P | BRINTELLIX Film-Coated Tablets 20 mg | Film-coated tablet | Not stated in the data |
-| SIN16577P | BRINTELLIX Oral Drops, Solution 20 mg/ml | Solution | Not stated in the data |
-| SIN16556P | VORTIOSON Film-Coated Tablet 10 mg | Film-coated tablet | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14665P | BRINTELLIX FILM-COATED TABLETS 5MG | TABLET, FILM COATED | Valid |
+| SIN14666P | BRINTELLIX FILM-COATED TABLETS 10MG | TABLET, FILM COATED | Valid |
+| SIN14667P | BRINTELLIX FILM-COATED TABLETS 20MG | TABLET, FILM COATED | Valid |
+| SIN16555P | VORTIOSON FILM-COATED TABLET 20MG | TABLET, FILM COATED | Valid |
+| SIN16556P | VORTIOSON FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Tezepelumab
 parent: Known Uses Only (No New Predictions)
 nav_order: 978
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tezepelumab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Tezepelumab"
 predicted_indications: []
@@ -50,10 +50,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16815P | TEZSPIRE Solution for Injection 210 mg in Pre-filled Syringe | Injection, solution | Not available |
-| SIN16817P | TEZSPIRE Solution for Injection 210 mg in Pre-filled Pen | Injection, solution | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16815P | TEZSPIRE SOLUTION FOR INJECTION 210 MG IN PRE-FILLED SYRINGE | INJECTION, SOLUTION | Valid |
+| SIN16817P | TEZSPIRE SOLUTION FOR INJECTION 210 MG IN PRE-FILLED PEN | INJECTION, SOLUTION | Valid |
 
 Both authorizations are valid single-ingredient products from Amgen Manufacturing Limited LLC.
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 876
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Rituximab: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Rituximab, s
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 14 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 
 ## Known uses recorded for this drug
 
@@ -86,14 +86,12 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Rituximab, s
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN09946P | MABTHERA CONCENTRATE FOR SOLUTION FOR INFUSION 500 mg/50ml | INJECTION | Valid |
+| SIN13718P | Mabthera Concentrate for Solution for Infusion 100mg/10ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15023P | MABTHERA SOLUTION FOR SUBCUTANEOUS INJECTION 1400MG | INJECTION, SOLUTION | Valid |
+| SIN15671P | TRUXIMA® CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15969P | RIXATHON CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/50ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15970P | RIXATHON CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/10ML | INFUSION, SOLUTION CONCENTRATE | Valid |
-| SIN09946P | MABTHERA CONCENTRATE FOR SOLUTION FOR INFUSION 500 mg/50ml | INJECTION | Valid |
-| SIN15671P | TRUXIMA® CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
-| SIN16452P | RUXIENCE CONCENTRATE FOR SOLUTION FOR INFUSION 500mg/50mL | INFUSION, SOLUTION CONCENTRATE | Valid |
-| SIN15023P | MABTHERA SOLUTION FOR SUBCUTANEOUS INJECTION 1400MG | INJECTION, SOLUTION | Valid |
-| SIN13718P | Mabthera Concentrate for Solution for Infusion 100mg/10ml | INFUSION, SOLUTION CONCENTRATE | Valid |
-| SIN16451P | RUXIENCE CONCENTRATE FOR SOLUTION FOR INFUSION 100mg/10mL | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Cytotoxicity
 

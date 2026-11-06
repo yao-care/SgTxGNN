@@ -5,7 +5,7 @@ layout: default
 title: Sitagliptin
 parent: Known Uses Only (No New Predictions)
 nav_order: 915
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Sitagliptin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Sitagliptin"
 predicted_indications: []
@@ -43,20 +43,22 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 39 of 39) |
+| Number of Registrations | 39 (valid: 39) |
 
 ## Singapore Market Information
 
-Sitagliptin has 20 valid single-ingredient registrations in Singapore, including the original JANUVIA brand, generics, and combinations with metformin. Approved indication text was not available for any of them. The main authorizations are:
+Approved indication text was not available for any of them. The main authorizations are:
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN13257P | JANUVIA 100 mg tablet | Tablet | Organon Pharma (UK) Limited |
-| SIN13258P | JANUVIA 50 mg tablet | Tablet | Organon Pharma (UK) Limited |
-| SIN13259P | JANUVIA 25 mg tablet | Tablet | Organon Pharma (UK) Limited |
-| SIN13442P | JANUMET Tablet 50mg/500mg | Film-coated tablet | MSD International GmbH (Singapore Branch) and others |
-| SIN14703P | JANUMET XR Tablet 50mg/1000mg | Extended-release film-coated tablet | MSD International GmbH (Puerto Rico Branch) and others |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13257P | JANUVIA™ 100 mg tablet | TABLET | Valid |
+| SIN13258P | JANUVIA™ 50 mg tablet | TABLET | Valid |
+| SIN13259P | JANUVIA™ 25mg tablet | TABLET | Valid |
+| SIN17122P | SITAGLIPTIN SANDOZ FILM COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+| SIN17123P | SITAGLIPTIN SANDOZ FILM COATED TABLET 50MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 39 HSA registrations.
 
 ## Safety Considerations
 

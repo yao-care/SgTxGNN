@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Emicizumab"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
 description: "Emicizumab: predicted new indication Pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,10 +97,10 @@ Of 20 publications, the 10 most relevant are listed. Prospective studies are lis
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15576P | HEMLIBRA SOLUTION FOR INJECTION 150MG/ML | Injection, solution | Not recorded |
-| SIN15577P | HEMLIBRA SOLUTION FOR INJECTION 30MG/ML | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15576P | HEMLIBRA SOLUTION FOR INJECTION 150MG/ML | INJECTION, SOLUTION | Valid |
+| SIN15577P | HEMLIBRA SOLUTION FOR INJECTION 30MG/ML | INJECTION, SOLUTION | Valid |
 
 Both products are valid single-ingredient registrations, manufactured by Chugai Pharma Manufacturing and Samsung Biologics.
 

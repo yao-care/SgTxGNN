@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 279
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Corifollitropin Alfa: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not stated in the Singapore licence records"
 monitor_inn: "Corifollitropin alfa"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
@@ -62,10 +62,10 @@ Other top-ranked predictions show the same pattern. They include migraine disord
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13940P | Elonva Solution for Injection 150mcg/0.5ml | Injection, solution | Not listed in the licence record |
-| SIN13939P | Elonva Solution for Injection 100mcg/0.5ml | Injection, solution | Not listed in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13939P | Elonva Solution for Injection 100mcg/0.5ml | INJECTION, SOLUTION | Valid |
+| SIN13940P | Elonva Solution for Injection 150mcg/0.5ml | INJECTION, SOLUTION | Valid |
 
 Both licences are valid single-ingredient products from Vetter Pharma-Fertigung GmbH & Co.
 

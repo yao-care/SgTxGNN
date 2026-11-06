@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Domperidone"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -77,7 +77,6 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [11191009](https://pubmed.ncbi.nlm.nih.gov/11191009/) | 2000 | Randomised primary care study | Curr Med Res Opin | Fixed combination of domperidone and paracetamol compared with sumatriptan 50 mg in 120 patients with moderate to severe migraine |
@@ -97,13 +96,15 @@ Other predictions have no literature.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02500P | MOTILIUM TABLET 10 mg | Tablet, film coated | Not recorded |
-| SIN02891P | MOTILIUM SUSPENSION 1 mg/ml | Suspension | Not recorded |
-| SIN10187P | DOMPEL TABLET 10 mg | Tablet | Not recorded |
-| SIN10198P | GASTRIUM TABLET 10 mg | Tablet | Not recorded |
-| SIN09583P | DOMPER SUPPOSITORY 10 mg | Suppository | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02500P | MOTILIUM TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN02891P | MOTILIUM SUSPENSION 1 mg/ml | SUSPENSION | Valid |
+| SIN06751P | DOMPER TABLET 10 mg | TABLET | Valid |
+| SIN09202P | SAM CHUN DANG DOMPERIDONE TABLET 10 mg | TABLET | Valid |
+| SIN09583P | DOMPER SUPPOSITORY 10 mg | SUPPOSITORY | Valid |
+
+Showing 5 of 9 HSA registrations.
 
 There are 9 valid single-ingredient registrations in total. Available forms include oral tablets, suspension and suppository.
 

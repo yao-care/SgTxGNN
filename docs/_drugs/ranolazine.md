@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 854
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ranolazine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ranolazine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -62,7 +62,6 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function changes in the vasopressin V2 receptor pathway. Ranolazine's known actions have no evident connection to this pathway. The high score (0.9965) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should be treated as a hypothesis only.
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -79,11 +78,11 @@ Currently no related literature available for nephrogenic syndrome of inappropri
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14861P | Ranexa Prolonged-Release Tablet 375 mg | Tablet, film coated, extended release | Not stated in the licence record |
-| SIN14862P | Ranexa Prolonged-Release Tablet 500 mg | Tablet, film coated, extended release | Not stated in the licence record |
-| SIN14863P | Ranexa Prolonged-Release Tablet 750 mg | Tablet, film coated, extended release | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14861P | RANEXA PROLONGED-RELEASE TABLET 375 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN14862P | RANEXA PROLONGED-RELEASE TABLET 500 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN14863P | RANEXA PROLONGED-RELEASE TABLET 750 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 
 All three licences are valid single-ingredient products from Menarini-Von Heyden GmbH, administered orally.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ioversol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ioversol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the Singapore licence record (the approved indication t…"
 ---
 
@@ -72,9 +72,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07748P | OPTIRAY 350 INJECTION 74% | Injection | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07748P | OPTIRAY 350 INJECTION 74% | INJECTION | Valid |
 
 ## Safety Considerations
 

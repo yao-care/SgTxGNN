@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acetylcysteine: predicted new indication Thrombotic disease (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The data compiled for this report include **7 clinical trials** and **20 publica
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 16 of 16) |
-| Number of Registrations | 16 (valid: 16) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -89,15 +89,17 @@ An important caveat: the Phase 3 TA-TMA trial is listed as completed, but no out
 
 ## Singapore Market Information
 
-Acetylcysteine is marketed in Singapore as single-ingredient products (16 valid licences in the local records), including granules, powder for solution, effervescent tablets and capsules. The approved indication is not recorded in the local data.
+The approved indication is not recorded in the local data.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN03414P | FLUIMUCIL GRANULES 100 mg/sachet | Granule |
-| SIN07474P | FLUIMUCIL A 600 EFFERVESCENT TABLET 600MG | Tablet |
-| SIN16305P | MUCODEX POWDER FOR SOLUTION 100MG/SACHET | Powder, for solution |
-| SIN14971P | MENTOPIN ACETYLCYSTEINE EFFERVESCENT TABLET 600mg | Effervescent tablet |
-| SIN12497P | SPATAM CAPSULE 200 mg | Capsule |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03414P | FLUIMUCIL GRANULES 100 mg/sachet | GRANULE | Valid |
+| SIN03415P | FLUIMUCIL GRANULES 200 mg/sachet | GRANULE | Valid |
+| SIN07474P | FLUIMUCIL A 600 EFFERVESCENT TABLET 600MG (Revised Formula) | TABLET | Valid |
+| SIN12497P | SPATAM CAPSULE 200 mg | CAPSULE | Valid |
+| SIN14392P | TREBON-N GRANULES FOR ORAL SUSPENSION 100MG/SACHET | GRANULE, FOR SUSPENSION | Valid |
+
+Showing 5 of 18 HSA registrations.
 
 ## Safety Considerations
 

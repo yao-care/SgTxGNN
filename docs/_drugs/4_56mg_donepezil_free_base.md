@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 11
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -44,7 +44,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 The entry `4.56MG DONEPEZIL FREE BASE` appears to refer to a transdermal patch formulation of donepezil, a reversible acetylcholinesterase inhibitor used for Alzheimer's disease.
 However, the TxGNN model generated **no predicted indications** for this entry — most likely due to a drug name normalization failure where the dosage value and formulation descriptor were parsed as part of the INN.
-No Singapore market registrations were found, and a complete repurposing evaluation cannot be produced until the upstream data quality issues are resolved.
 
 ---
 
@@ -56,8 +55,8 @@ No Singapore market registrations were found, and a complete repurposing evaluat
 | Predicted New Indication | None — TxGNN generated zero predictions for this entry |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 13 of 13) |
-| Number of Registrations | 13 (valid: 13) |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -73,8 +72,6 @@ Donepezil is a well-characterised compound with a known mechanism of action (rev
 ---
 
 ## Singapore Market Information
-
-No HSA registrations were found for the string `4.56MG DONEPEZIL FREE BASE`. This is expected: Singapore product registrations are filed under the INN (`Donepezil`) or specific brand names (e.g., Aricept®, Memac®), not under dosage-qualified strings. A separate query under the correct INN or known brand names is needed to determine actual Singapore market status.
 
 ---
 
@@ -96,7 +93,6 @@ The Evidence Pack cannot support a repurposing evaluation in its current form. T
 - **Normalize the drug name:** Strip the dosage (`4.56MG`) and salt descriptor (`FREE BASE`) and resubmit as the bare INN `Donepezil`
 - **Re-run the TxGNN prediction pipeline** using the corrected identifier to generate `predicted_indications`
 - **Retrieve MOA and safety data** from DrugBank (DB00843) to populate `original_moa`, `key_warnings`, and `contraindications`
-- **Re-query Singapore HSA** under `Donepezil` and known brand names to determine actual market status
 - **Re-generate the Evidence Pack** with the corrected drug entry before proceeding to formal evaluation
 ## Disclaimer
 

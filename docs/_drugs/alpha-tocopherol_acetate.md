@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "alpha-Tocopherol acetate"
 predicted_indications: ["drug-induced osteoporosis", "diabetic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "diabetic retinopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alpha-Tocopherol Acetate: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the licence record"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Alpha-tocopherol acetate is a form of vitamin E, and in Singapore it is registered as a component of an injectable multivitamin product (the licence record carries no indication text).
+Alpha-tocopherol acetate is a form of vitamin E.
 The TxGNN model predicts it may be useful for **drug-induced osteoporosis**, but **no clinical trials and no publications** were found for this disease, so the prediction rests on the model score alone.
 Among the other predicted diseases, the strongest signals are indirect preclinical studies in diabetic cataract and diabetic retinopathy.
 
@@ -52,8 +52,8 @@ Among the other predicted diseases, the strongest signals are indirect preclinic
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,11 +90,7 @@ For context, the following publications were found for other predicted diseases.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution | Not stated in the licence record |
-
-Note that this is a multivitamin injection and only the injectable form is registered. The licence record does not list an approved indication, so none is claimed here.
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ---
 
@@ -115,7 +111,7 @@ No clinical trial or publication addresses drug-induced osteoporosis, so the pre
 - Searches for clinical and observational studies of vitamin E and bone loss in patients on bone-toxic drugs (for example, long-term glucocorticoids)
 - Mechanism of action data for alpha-tocopherol acetate
 - The package insert's warnings and contraindications for safety screening
-- Confirmation of the approved indication and the route of administration, since only an injectable multivitamin is registered in Singapore
+- Confirmation of the approved indication and the route of administration
 - If the eye-disease predictions are pursued, direct human studies in diabetic retinopathy or cataract. The current animal data are indirect.
 ## Disclaimer
 

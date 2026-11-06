@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Potassium citrate"
 predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,11 +69,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN08734P | UROCIT-K Tablet 1080 mg | Tablet |
-| SIN05148P | POTCIT Mixture | Solution |
-| SIN06732P | Potassium Citrate Mixture BP | Solution |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08734P | UROCIT-K TABLET 1080 mg | TABLET | Valid |
+| SIN05148P | POTCIT MIXTURE | SOLUTION | Valid |
+| SIN06732P | POTASSIUM CITRATE MIXTURE BP | SOLUTION | Valid |
 
 All three are single-ingredient products and currently valid. The records contain no approved indication text.
 

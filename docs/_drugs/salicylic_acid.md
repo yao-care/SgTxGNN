@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 895
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Salicylic acid"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
 description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 22 of 22) |
+| Number of Registrations | 22 (valid: 22) |
 | Recommended Decision | Hold |
 
 ---
@@ -81,15 +81,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Twenty valid single-ingredient licences are registered. The licence records do not include approved indication text. The five main authorisations are listed below.
+The licence records do not include approved indication text. The five main authorisations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09177P | ICM White Spot Lotion 5% | Lotion | Not stated |
-| SIN04701P | Centa Skin Lotion 2% w/v | Lotion | Not stated |
-| SIN02882P | Salicylic Acid 2% Cream | Cream | Not stated |
-| SIN13728P | Collomack Salicylic Acid Solution 10% | Solution | Not stated |
-| SIN04047P | Duofilm Collodion | Tincture | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02882P | SALICYLIC ACID 2% CREAM | CREAM | Valid |
+| SIN09177P | ICM WHITE SPOT LOTION 5% | LOTION | Valid |
+| SIN13728P | Collomack Salicylic Acid Solution 10% | SOLUTION | Valid |
+| SIN03248P | PREPARED COAL TAR 5% ET SALICYLIC ACID 2% OINTMENT | OINTMENT | Valid |
+| SIN03627P | COCOIS CO. OINTMENT | OINTMENT | Valid |
+
+Showing 5 of 22 HSA registrations.
 
 ---
 

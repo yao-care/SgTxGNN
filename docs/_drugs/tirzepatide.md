@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 995
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Tirzepatide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tirzepatide,
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 
 ## Known uses recorded for this drug
 
@@ -76,12 +76,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tirzepatide,
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN16714P | MOUNJARO INJECTION 5MG/0.5ML | INJECTION, SOLUTION | Valid |
+| SIN16716P | MOUNJARO INJECTION 2.5MG/0.5ML | INJECTION, SOLUTION | Valid |
 | SIN16717P | MOUNJARO INJECTION 7.5MG/0.5ML | INJECTION, SOLUTION | Valid |
 | SIN16718P | MOUNJARO INJECTION 10MG/0.5ML | INJECTION, SOLUTION | Valid |
-| SIN16716P | MOUNJARO INJECTION 2.5MG/0.5ML | INJECTION, SOLUTION | Valid |
-| SIN16714P | MOUNJARO INJECTION 5MG/0.5ML | INJECTION, SOLUTION | Valid |
 | SIN16719P | MOUNJARO INJECTION 12.5MG/0.5ML | INJECTION, SOLUTION | Valid |
 | SIN16720P | MOUNJARO INJECTION 15MG/0.5ML | INJECTION, SOLUTION | Valid |
+
+Showing 6 of 18 HSA registrations.
 
 ## Safety Considerations
 

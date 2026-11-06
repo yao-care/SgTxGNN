@@ -5,7 +5,7 @@ layout: default
 title: Netupitant
 parent: Known Uses Only (No New Predictions)
 nav_order: 709
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Netupitant: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Netupitant"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15031P | AKYNZEO CAPSULES 300MG/0.5MG | Capsule, gelatin coated (oral) | Not stated in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15031P | AKYNZEO CAPSULES 300MG/0.5MG | CAPSULE, GELATIN COATED | Valid |
 
 ## Cytotoxicity
 

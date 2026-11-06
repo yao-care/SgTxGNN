@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **hyperamylasemia**, but **no cli
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,15 +71,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Cefuroxime is marketed in Singapore, with 8 valid single-ingredient licences. The approved indication text is not recorded in the local data. Five main authorisations are listed below.
+The approved indication text is not recorded in the local data. Five main authorisations are listed below.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN12049P | CEFTIL Tablet 250 mg | Film-coated tablet |
-| SIN15154P | CEFUROXIME-AFT Powder for Injection 1.5 g/vial | Powder for solution for injection |
-| SIN10946P | SHINCEF for Injection 750 mg/vial | Powder for solution for injection |
-| SIN02365P | ZINNAT Tablet 250 mg | Film-coated tablet |
-| SIN02364P | ZINNAT Tablet 500 mg | Film-coated tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02364P | ZINNAT TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN02365P | ZINNAT TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN07013P | ZINNAT FOR SUSPENSION 125 mg/5 ml | GRANULE, FOR SUSPENSION | Valid |
+| SIN10946P | SHINCEF FOR INJECTION 750 mg/ vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN10947P | SHINCEF FOR INJECTION 1.5 g/ vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+Showing 5 of 12 HSA registrations.
 
 Available routes are oral (film-coated tablets) and injectable (powder for solution).
 

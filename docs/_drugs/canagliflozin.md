@@ -5,7 +5,7 @@ layout: default
 title: Canagliflozin
 parent: Known Uses Only (No New Predictions)
 nav_order: 200
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Canagliflozin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Canagliflozin"
 predicted_indications: []
@@ -48,10 +48,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14507P | INVOKANA™ Film-Coated Tablets 300 mg | Tablet, film coated | Not available in the records |
-| SIN14506P | INVOKANA™ Film-Coated Tablets 100 mg | Tablet, film coated | Not available in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14506P | INVOKANA™ FILM-COATED TABLETS 100 MG | TABLET, FILM COATED | Valid |
+| SIN14507P | INVOKANA™ FILM-COATED TABLETS 300 MG | TABLET, FILM COATED | Valid |
 
 Both registrations are valid single-ingredient products for oral use, with no cancelled licences.
 

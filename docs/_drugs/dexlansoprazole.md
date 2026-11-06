@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
 description: "Dexlansoprazole: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,10 +84,10 @@ Other predictions for this drug follow the same pattern:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14486P | DEXILANT DELAYED RELEASE CAPSULE 60mg | Capsule, delayed release | Not stated in the registration record |
-| SIN14485P | DEXILANT DELAYED RELEASE CAPSULE 30mg | Capsule, delayed release | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14485P | DEXILANT DELAYED RELEASE CAPSULE 30mg | CAPSULE, DELAYED RELEASE | Valid |
+| SIN14486P | DEXILANT DELAYED RELEASE CAPSULE 60mg | CAPSULE, DELAYED RELEASE | Valid |
 
 ## Safety Considerations
 

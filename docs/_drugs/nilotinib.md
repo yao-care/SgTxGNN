@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Nilotinib"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
 description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **dermatofibrosarcoma protubera
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,12 +96,11 @@ No clinical trials are registered for dermatofibrosarcoma protuberans.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13498P | Tasigna Capsule 200mg | Capsule | Not stated in the licence record |
-| SIN13959P | Tasigna Capsule 150mg | Capsule | Not stated in the licence record |
-
-Both licences are valid single-ingredient oral products (manufacturers: Novartis Pharma Stein AG and Novartis Pharmaceutical Manufacturing LLC).
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13498P | Tasigna Capsule 200mg | CAPSULE | Valid |
+| SIN13959P | Tasigna Capsule 150mg | CAPSULE | Valid |
+| SIN15837P | TASIGNA CAPSULE 50MG | CAPSULE | Valid |
 
 ---
 

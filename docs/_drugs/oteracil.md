@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 747
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Oteracil"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
 description: "Oteracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,10 +69,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13672P | TS-ONE Capsule 20 | Capsule | Not recorded in the compiled data |
-| SIN13673P | TS-ONE Capsule 25 | Capsule | Not recorded in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13672P | TS-ONE Capsule 20 | CAPSULE | Valid |
+| SIN13673P | TS-ONE Capsule 25 | CAPSULE | Valid |
 
 Both authorizations are currently valid, and the product is supplied as an oral capsule (manufacturer: Taiho Pharmaceutical Co., Ltd., Tokushima Plant).
 

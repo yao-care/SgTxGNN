@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
 description: "Doxylamine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,12 +83,9 @@ These studies involve combination products, a PK/PD study, a review and a misuse
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16865P | BONJESTA Extended-Release Tablets 20 mg/20 mg | Tablet, film coated, extended release | Not stated in the available data |
-| SIN15301P | DICLECTIN Delayed Release Tablets 10 mg/10 mg | Tablet, delayed release | Not stated in the available data |
-
-Both products are oral, single-ingredient registrations (listed as valid) from Duchesnay Inc.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16865P | BONJESTA EXTENDED-RELEASE TABLETS 20 MG/20 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 
 ## Safety Considerations
 

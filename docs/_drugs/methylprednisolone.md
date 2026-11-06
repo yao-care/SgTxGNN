@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, but ther
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,12 +61,17 @@ Alopecia mucinosa is an inflammatory hair follicle disorder. The model's high sc
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04683P | SOLU-MEDROL FOR INJECTION 500 mg/8 ml | Powder for solution for injection | Not stated in the available records |
-| SIN14594P | METHYLPREDNISOLONE POWDER FOR SOLUTION FOR INJECTION 500mg | Lyophilised powder for solution for injection | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04683P | SOLU-MEDROL FOR INJECTION 500 mg/8 ml | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14594P | METHYLPREDNISOLONE POWDER FOR SOLUTION FOR INJECTION 500mg | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17531P | LYO-DROL POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17532P | LYO-DROL POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 40MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17533P | LYO-DROL POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 125MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
-Both licences are currently valid, and both are for injectable formulations. No topical formulation is registered locally, which matters because alopecia mucinosa is a skin and hair-follicle condition.
+Showing 5 of 6 HSA registrations.
+
+No topical formulation is registered locally, which matters because alopecia mucinosa is a skin and hair-follicle condition.
 
 ## Safety Considerations
 

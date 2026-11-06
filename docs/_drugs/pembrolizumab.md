@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 771
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Pembrolizumab"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Pembrolizumab: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,10 +84,10 @@ Currently no related literature available for the predicted indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14881P | KEYTRUDA Solution for Infusion 25mg/mL | Infusion, solution concentrate | Not stated in the licence record |
-| SIN16677P | Pembrolizumab Solution for Infusion 25mg/mL | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14881P | KEYTRUDA SOLUTION FOR INFUSION 25MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN16677P | Pembrolizumab Solution for Infusion 25mg/mL | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 Both licences are valid single-ingredient products, and both are injectable (intravenous infusion) only.
 

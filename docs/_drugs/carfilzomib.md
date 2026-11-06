@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Carfilzomib"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carfilzomib: predicted new indication CMM7 (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,10 +72,10 @@ Currently no related literature available for CMM7.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15184P | KYPROLIS Powder for Solution for Infusion 60 mg/vial | Injection, powder, lyophilized, for solution | Not recorded in the local data |
-| SIN15414P | KYPROLIS Powder for Solution for Infusion 30 mg/vial | Injection, powder, lyophilized, for solution | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15184P | KYPROLIS POWDER FOR SOLUTION FOR INFUSION 60MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15414P | KYPROLIS POWDER FOR SOLUTION FOR INFUSION 30 MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

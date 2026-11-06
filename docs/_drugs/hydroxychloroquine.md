@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 508
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Hydroxychloroquine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Hydroxychlor
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 11 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 
 ## Known uses recorded for this drug
 
@@ -85,10 +85,12 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Hydroxychlor
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11874P | HALOXIN TABLET 100 mg | TABLET, SUGAR COATED | Valid |
-| SIN16632P | HCQS HYDROXYCHLOROQUINE TABLET BP 200 mg | TABLET, FILM COATED | Valid |
 | SIN12213P | PLAQUENIL TABLET 200 mg (White) | TABLET, FILM COATED | Valid |
 | SIN12669P | HALOXIN TABLET 200 mg | TABLET, SUGAR COATED | Valid |
 | SIN16475P | ACCOQUIN FILM COATED TABLET 200 MG | TABLET, FILM COATED | Valid |
+| SIN16632P | HCQS HYDROXYCHLOROQUINE TABLET BP 200 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

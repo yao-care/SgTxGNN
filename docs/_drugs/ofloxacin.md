@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 733
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ofloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (e.g. typhoid fever, urinary tract infection…"
 monitor_inn: "Ofloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
@@ -73,13 +73,15 @@ Currently no related literature available.
 
 Six valid single-ingredient licences, all oral film-coated tablets. Approved indication text was not available for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN11433P | OFLOX TABLET 200 mg | Tablet, film coated | Brown & Burk Pharmaceutical Ltd |
-| SIN08409P | FUGACIN TABLET 200 mg | Tablet, film coated | Shin Poong Pharmaceutical Co Ltd |
-| SIN11377P | AKILEN TABLET 200 mg | Tablet, film coated | PT Sanbe Farma |
-| SIN10118P | OFCIN FILM COATED TABLET 400 mg | Tablet, film coated | Y.S.P. Industries (M) Sdn Bhd |
-| SIN10119P | OFCIN FILM COATED TABLET 200 mg | Tablet, film coated | Yung Shin Pharmaceutical Ind Co Ltd / YSP Industries (M) Sdn Bhd |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08409P | FUGACIN TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN10118P | OFCIN FILM COATED TABLET 400 mg | TABLET, FILM COATED | Valid |
+| SIN10119P | OFCIN FILM COATED TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN11377P | AKILEN TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN11433P | OFLOX TABLET 200 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 A sixth licence, SIN13219P (FLOVID 200, HOVID Bhd., film-coated tablet), is also valid.
 

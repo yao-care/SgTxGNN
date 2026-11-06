@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 613
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Loratadine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,23 +74,23 @@ The TxGNN deep-learning model produced candidates for Loratadine, but every cand
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN12466P | LORACIN TABLET 10 mg | TABLET | Valid |
 | SIN10351P | HALODIN TABLETS 10 mg | TABLET | Valid |
-| SIN11617P | ARDIN TABLET 10 mg | TABLET | Valid |
-| SIN12046P | CARIN TABLET 10 mg | TABLET | Valid |
-| SIN16091P | CLARITYNE SYRUP 5 MG/5 ML (GRAPE FLAVOR) | SYRUP | Valid |
-| SIN14077P | CLARITYNE TABLET 10mg | TABLET, FILM COATED | Valid |
-| SIN11679P | LORFAST TABLET 10 mg | TABLET | Valid |
-| SIN14300P | LORADINE SYRUP 1MG/ML | SYRUP | Valid |
-| SIN13341P | Loradine Tablet 10 mg | TABLET | Valid |
-| SIN11932P | EZEDE' TABLET 10 mg | TABLET | Valid |
-| SIN12067P | RINITYN TABLET 10 mg | TABLET | Valid |
-| SIN12029P | LORIDIN RAPITAB 10 mg | TABLET | Valid |
 | SIN11084P | ALLORIS TABLETS 10 mg | TABLET, FILM COATED | Valid |
+| SIN11617P | ARDIN TABLET 10 mg | TABLET | Valid |
+| SIN11679P | LORFAST TABLET 10 mg | TABLET | Valid |
+| SIN11932P | EZEDE' TABLET 10 mg | TABLET | Valid |
+| SIN12029P | LORIDIN RAPITAB 10 mg | TABLET | Valid |
+| SIN12046P | CARIN TABLET 10 mg | TABLET | Valid |
+| SIN12067P | RINITYN TABLET 10 mg | TABLET | Valid |
+| SIN12466P | LORACIN TABLET 10 mg | TABLET | Valid |
+| SIN13341P | Loradine Tablet 10 mg | TABLET | Valid |
+| SIN14077P | CLARITYNE TABLET 10mg | TABLET, FILM COATED | Valid |
+| SIN14300P | LORADINE SYRUP 1MG/ML | SYRUP | Valid |
 | SIN14482P | SUNADINE TABLET 10MG | TABLET, FILM COATED | Valid |
+| SIN16091P | CLARITYNE SYRUP 5 MG/5 ML (GRAPE FLAVOR) | SYRUP | Valid |
+| SIN07282P | CLARITYN-D 12HOUR REPETABS | TABLET, SUGAR COATED | Valid |
 | SIN12246P | CLARITYN-D 24HOUR EXTENDED RELEASE TABLET | TABLET, SUGAR COATED | Valid |
 | SIN12470P | DE-COLD S.R.F.C TABLETS | TABLET, FILM COATED | Valid |
-| SIN07282P | CLARITYN-D 12HOUR REPETABS | TABLET, SUGAR COATED | Valid |
 
 ## Safety Considerations
 

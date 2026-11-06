@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Levocetirizine: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for rheumatoid arthritis.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | Causes, management and treatment options for chronic urticaria |
@@ -79,15 +78,13 @@ Currently no related literature available for rheumatoid arthritis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14939P | ALLERZAL F.C. TABLET 5MG | Film-coated tablet | Not stated in the licence record |
-| SIN16028P | XYZAL FILM-COATED TABLET 5 MG | Film-coated tablet | Not stated in the licence record |
-| SIN16480P | STADELTINE FILM-COATED TABLET 5MG | Film-coated tablet | Not stated in the licence record |
-| SIN16312P | ALERINIT FILM-COATED TABLET 5MG | Film-coated tablet | Not stated in the licence record |
-| SIN12084P | Zyr-NEX TABLET 5 mg | Film-coated tablet | Not stated in the licence record |
-
-A sixth licence (SIN14505P, Levozine F.C. Tablet 5mg) is also valid. All six are single-ingredient oral products and none has been cancelled.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14505P | Levozine F.C. Tablet 5mg | TABLET, FILM COATED | Valid |
+| SIN14939P | ALLERZAL F.C. TABLET 5MG | TABLET, FILM COATED | Valid |
+| SIN16028P | XYZAL FILM-COATED TABLET 5 MG | TABLET, FILM COATED | Valid |
+| SIN16312P | ALERINIT FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
+| SIN16480P | STADELTINE FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

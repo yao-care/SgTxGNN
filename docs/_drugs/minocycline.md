@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 677
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,13 +72,13 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15432P | BORYMYCIN CAPSULE 50MG | Capsule | Not stated in the data |
-| SIN10160P | AA PHARMA MINOCYCLINE CAPSULE 50 mg | Capsule | Not stated in the data |
-| SIN10266P | BORYMYCIN CAPSULE 100 mg | Capsule | Not stated in the data |
-| SIN10155P | AA PHARMA MINOCYCLINE CAPSULE 100 mg | Capsule | Not stated in the data |
-| SIN15172P | PERIOCLINE PERIODONTAL OINTMENT 2% W/W | Ointment | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10155P | AA PHARMA MINOCYCLINE CAPSULE 100 mg | CAPSULE | Valid |
+| SIN10160P | AA PHARMA MINOCYCLINE CAPSULE 50 mg | CAPSULE | Valid |
+| SIN10266P | BORYMYCIN CAPSULE 100 mg | CAPSULE | Valid |
+| SIN15172P | PERIOCLINE PERIODONTAL OINTMENT 2% W/W | OINTMENT | Valid |
+| SIN15432P | BORYMYCIN CAPSULE 50MG | CAPSULE | Valid |
 
 All five registrations are valid single-ingredient products. Four are oral capsules, and one is a periodontal ointment. No ophthalmic formulation is registered, so a new route of administration would likely be needed for an eye indication.
 

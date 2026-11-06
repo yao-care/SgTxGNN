@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 734
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Schizophrenia, bipolar disorder, major depressive disorder…"
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **benign paroxysmal torticollis of in
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 19 of 19) |
-| Number of Registrations | 19 (valid: 19) |
+| Singapore Market Status | Marketed (valid licences: 21 of 21) |
+| Number of Registrations | 21 (valid: 21) |
 | Recommended Decision | Hold |
 
 The table reflects the top-ranked prediction. Other predictions in the top 10 have stronger evidence and are summarised below.
@@ -72,7 +72,6 @@ Detailed mechanism of action data is not currently available. Olanzapine is know
 **Top-ranked prediction (benign paroxysmal torticollis of infancy).** This is a self-limiting childhood disorder related to the migraine spectrum and often linked to CACNA1A. Any link to olanzapine's receptor pharmacology is speculative. Giving an antipsychotic to infants for a condition that resolves on its own would also raise substantial safety concerns. The high score is a computational prediction only.
 
 **Mood and anxiety predictions.** Neurotic depression, melancholia and dysthymic disorder overlap with major depression, where olanzapine (especially with fluoxetine) is used as augmentation in treatment-resistant cases. The evidence concerns major depression in general, not these specific labels, and much of the value is already covered by existing indications. For agoraphobia, olanzapine's serotonergic and dopaminergic antagonism may plausibly reduce panic and phobic anxiety, but the data come from panic disorder studies and are indirect.
-
 
 ---
 
@@ -109,15 +108,17 @@ Several retrieved items are off-target (rapid-cycling bipolar disorder, valproat
 
 ## Singapore Market Information
 
-Olanzapine has 19 valid single-ingredient registrations, with no cancelled ones. The registration records provide no approved indication text. Five main authorizations are listed.
+The registration records provide no approved indication text. Five main authorizations are listed.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09410P | ZYPREXA TABLET 10 mg | Film-coated tablet | Not stated in the registration record |
-| SIN09411P | ZYPREXA TABLET 5 mg | Film-coated tablet | Not stated in the registration record |
-| SIN12474P | ZYPREXA ZYDIS ORODISPERSIBLE TABLET 10 mg | Tablet | Not stated in the registration record |
-| SIN12475P | ZYPREXA ZYDIS ORODISPERSIBLE TABLET 5 mg | Tablet | Not stated in the registration record |
-| SIN14228P | Olanzapine Mevon Film-coated Tablets 10 mg | Film-coated tablet | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09410P | ZYPREXA TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN09411P | ZYPREXA TABLET 5 mg | TABLET, FILM COATED | Valid |
+| SIN12474P | ZYPREXA ZYDIS ORODISPERSIBLE TABLET 10 mg | TABLET | Valid |
+| SIN12475P | ZYPREXA ZYDIS ORODISPERSIBLE TABLET 5 mg | TABLET | Valid |
+| SIN13955P | Onzapin Tablet 5 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 21 HSA registrations.
 
 All available forms are oral (film-coated tablets, orally disintegrating tablets and plain tablets).
 

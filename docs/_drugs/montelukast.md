@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 687
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Evidence Level: **L2** | Predicted Indications: **2**
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 (one completed Phase 3 RCT, but in the related condition of RSV bronchiolitis) |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 26 of 26) |
+| Number of Registrations | 26 (valid: 26) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -98,15 +98,17 @@ The literature is mostly reviews and guidelines, and none of the retrieved paper
 
 ## Singapore Market Information
 
-Montelukast has 20 valid registrations in Singapore, all single-ingredient oral tablets. The five main ones are listed below. The registration records do not contain approved-indication text.
+The five main ones are listed below. The registration records do not contain approved-indication text.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09769P | Singulair Tablet 10 mg | Tablet | — |
-| SIN09768P | Singulair Chewable Tablet 5 mg | Tablet | — |
-| SIN11641P | Singulair Chewable Tablet 4 mg | Tablet, film coated | — |
-| SIN14383P | Montelukast Sandoz Chewable Tablets 5 mg | Tablet, chewable | — |
-| SIN14385P | Montelukast Sandoz Film Coated Tablet 10 mg | Tablet, film coated | — |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09768P | SINGULAIR CHEWABLE TABLET 5 mg | TABLET | Valid |
+| SIN09769P | SINGULAIR TABLET 10 mg | TABLET | Valid |
+| SIN11641P | SINGULAIR CHEWABLE TABLET 4 mg | TABLET, FILM COATED | Valid |
+| SIN12460P | SINGULAIR ORAL GRANULES 4 mg/sachet | GRANULE | Valid |
+| SIN14071P | Montelukast Mevon Film-coated Tablets 10mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 26 HSA registrations.
 
 ## Safety Considerations
 

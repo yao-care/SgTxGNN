@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 514
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This prediction has **no clinical trials and no publications** behind it, so it 
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 26 of 26) |
+| Number of Registrations | 26 (valid: 26) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,15 +74,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Ibuprofen has 20 valid single-ingredient registrations in Singapore and none cancelled. The approved indication text is not recorded for any of them. The main authorizations are listed below.
+The approved indication text is not recorded for any of them. The main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10707P | Spedifen 400 Sachet 400 mg/sachet | Granule, for solution | Not recorded |
-| SIN05464P | Ibufen Tablets 200 mg | Tablet, film coated | Not recorded |
-| SIN14587P | Nurofen Tablet 400 mg | Tablet, sugar coated | Not recorded |
-| SIN16467P | B. Braun Ibuprofen Solution for Infusion 4 mg/ml | Infusion, solution | Not recorded |
-| SIN14561P | Nurofen Express Liquid Capsule 400 mg | Capsule, liquid filled | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05443P | BRUFEN Suspension 100 mg/5 ml | SYRUP | Valid |
+| SIN05464P | IBUFEN TABLETS 200 mg | TABLET, FILM COATED | Valid |
+| SIN05722P | BRUFEN TABLET 200 mg | TABLET, SUGAR COATED | Valid |
+| SIN06016P | APO-IBUPROFEN-FC TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN06017P | APO-IBUPROFEN-FC TABLET 400 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 26 HSA registrations.
 
 Other registered forms include suspensions and syrups (for example Nurofen for Children and Brufen) as well as further tablets.
 

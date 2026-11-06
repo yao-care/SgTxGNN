@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 134
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -89,12 +89,12 @@ Publications retrieved for ADHD (none test baclofen in ADHD patients):
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10026P | PMS-BACLOFEN TABLET 10 mg | Tablet | Not listed |
-| SIN06831P | COLMIFEN 10 TABLET 10 mg | Tablet | Not listed |
-| SIN05330P | LIORESAL 10 TABLET 10 mg | Tablet | Not listed |
-| SIN09087P | APO-BACLOFEN TABLET 10 mg | Tablet | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05330P | LIORESAL 10 TABLET 10 mg | TABLET | Valid |
+| SIN06831P | COLMIFEN 10 TABLET 10 mg | TABLET | Valid |
+| SIN09087P | APO-BACLOFEN TABLET 10 mg | TABLET | Valid |
+| SIN10026P | PMS-BACLOFEN TABLET 10 mg | TABLET | Valid |
 
 ## Safety Considerations
 

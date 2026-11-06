@@ -3,7 +3,7 @@ layout: default
 title: Benserazide
 parent: Known Uses Only (No New Predictions)
 nav_order: 143
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Benserazide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -72,10 +72,10 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Benserazide,
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN06121P | MADOPAR 125 CAPSULE 125 mg | CAPSULE | Valid |
 | SIN05195P | MADOPAR HBS 125 CAPSULE | CAPSULE | Valid |
-| SIN11075P | MADOPAR DISPERSIBLE TABLETS 125 mg | TABLET | Valid |
 | SIN06119P | MADOPAR 250 TABLET 250 mg | TABLET | Valid |
+| SIN06121P | MADOPAR 125 CAPSULE 125 mg | CAPSULE | Valid |
+| SIN11075P | MADOPAR DISPERSIBLE TABLETS 125 mg | TABLET | Valid |
 
 ## Safety Considerations
 

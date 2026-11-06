@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Benzbromarone"
 predicted_indications: ["hypouricemia, renal"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benzbromarone: predicted new indication hypouricemia, renal (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,9 +82,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN06371P | NARCARICIN MITE TABLET 50 mg | Tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06371P | NARCARICIN MITE TABLET 50 mg | TABLET | Valid |
 
 ## Safety Considerations
 

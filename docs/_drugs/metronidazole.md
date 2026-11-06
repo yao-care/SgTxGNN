@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This top-ranked prediction therefore rests on model output alone, and other lowe
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,15 +93,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10509P | AXCEL METRONIDAZOLE-200 TABLETS 200 mg | Tablet | Not recorded |
-| SIN03741P | AA PHARMA METRONIDAZOLE TABLET 250 mg | Tablet | Not recorded |
-| SIN01260P | METRONIDAZOLE INTRAVENOUS INFUSION 500 mg/100 ml | Injection | Not recorded |
-| SIN11737P | METRONIDAZOLE FRESENIUS SOLUTION FOR INFUSION 500 mg/100 ml | Injection | Not recorded |
-| SIN11198P | ROZEX CREAM 0.75% | Cream | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01260P | METRONIDAZOLE INTRAVENOUS INFUSION 500 mg/100 ml | INJECTION | Valid |
+| SIN02391P | MEDAZOLE TABLETS 200 mg | TABLET | Valid |
+| SIN03741P | AA PHARMA METRONIDAZOLE TABLET 250 mg | TABLET | Valid |
+| SIN08077P | NIZOLE TABLET 200 mg | TABLET | Valid |
+| SIN08453P | ROZEX GEL 0.75% | GEL | Valid |
 
-Eleven valid single-ingredient licences are registered in total. The others include further oral tablets, a topical gel and two vaginal suppository products. Available routes are oral, injectable, topical and vaginal.
+Showing 5 of 9 HSA registrations.
+
+The others include further oral tablets, a topical gel and two vaginal suppository products. Available routes are oral, injectable, topical and vaginal.
 
 ---
 

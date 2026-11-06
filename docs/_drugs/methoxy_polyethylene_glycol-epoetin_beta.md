@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Methoxy polyethylene glycol-epoetin beta"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Methoxy Polyethylene Glycol-Epoetin Beta: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,11 +74,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13530P | Mircera Solution for Injection 75mcg/0.3ml (Pre-filled Syringe) | Injection, solution | Not available |
-| SIN13535P | Mircera Solution for Injection 50mcg/0.3ml (Pre-filled Syringe) | Injection, solution | Not available |
-| SIN13529P | Mircera Solution for Injection 100mcg/0.3ml (Pre-filled Syringe) | Injection, solution | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13529P | Mircera Solution for Injection 100mcg/0.3ml (Pre-filled Syringe) | INJECTION, SOLUTION | Valid |
+| SIN13530P | Mircera Solution for Injection 75mcg/0.3ml (Pre-filled Syringe) | INJECTION, SOLUTION | Valid |
+| SIN13535P | Mircera Solution for Injection 50mcg/0.3ml (Pre-filled Syringe) | INJECTION, SOLUTION | Valid |
 
 All three licences are valid, held by F. Hoffmann-La Roche AG, and are for the injectable route only.
 

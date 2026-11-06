@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 736
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Olmesartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not available in the Singapore license data (the drug class is ARB…"
 monitor_inn: "Olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
@@ -108,13 +108,15 @@ Preclinical publications for pulmonary hypertension:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15528P | OLMEZEN Film-Coated Tablet 40mg | Film-coated tablet | Not listed |
-| SIN13018P | Olmetec Tablet 40mg | Film-coated tablet | Not listed |
-| SIN13016P | Olmetec Tablet 20mg | Film-coated tablet | Not listed |
-| SIN15530P | OLMEZEN Film-Coated Tablet 20mg | Film-coated tablet | Not listed |
-| SIN13964P | Azoren Film-Coated Tablet 20mg/5mg | Film-coated tablet | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13016P | Olmetec Tablet 20mg | TABLET, FILM COATED | Valid |
+| SIN13018P | Olmetec Tablet 40mg | TABLET, FILM COATED | Valid |
+| SIN15528P | OLMEZEN FILM-COATED TABLET 40MG | TABLET, FILM COATED | Valid |
+| SIN15530P | OLMEZEN FILM-COATED TABLET 20MG | TABLET, FILM COATED | Valid |
+| SIN13964P | Azoren Film-Coated Tablet 20mg/5mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 All 7 licenses are valid (oral film-coated tablets). Two more Azoren strengths (SIN13966P, SIN13965P) are not shown here.
 

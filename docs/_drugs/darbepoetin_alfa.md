@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 304
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Darbepoetin Alfa: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,13 +74,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Darbepoetin 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN14743P | NESP INJECTION PLASTIC SYRINGE 60 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN14739P | NESP INJECTION PLASTIC SYRINGE 10 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
 | SIN14740P | NESP INJECTION PLASTIC SYRINGE 20 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
 | SIN14741P | NESP INJECTION PLASTIC SYRINGE 30 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
-| SIN14739P | NESP INJECTION PLASTIC SYRINGE 10 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN14742P | NESP INJECTION PLASTIC SYRINGE 40 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN14743P | NESP INJECTION PLASTIC SYRINGE 60 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
 | SIN14744P | NESP INJECTION PLASTIC SYRINGE 120 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
 | SIN14745P | NESP INJECTION PLASTIC SYRINGE 180 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
-| SIN14742P | NESP INJECTION PLASTIC SYRINGE 40 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
 ## Safety Considerations
 

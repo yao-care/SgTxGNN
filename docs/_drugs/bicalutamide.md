@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 157
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bicalutamide: predicted new indication Hypertrichosis (evidence level L4). Approved use: Not stated in the Singapore licence records compiled for this report.…"
 monitor_inn: "Bicalutamide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -52,8 +52,8 @@ Evidence is very thin: **0 clinical trials** and **1 publication** (a comment le
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold (Research Question) |
 
 ---
@@ -84,17 +84,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-All six registrations are valid, single-ingredient oral film-coated or plain tablets. Approved-indication text was not available in the data compiled for this report.
+Approved-indication text was not available in the data compiled for this report.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN11344P | CASODEX TABLET 150 mg | Tablet, film coated | Corden Pharma GmbH |
-| SIN09772P | CASODEX TABLET 50 mg | Tablet, film coated | Corden Pharma GmbH |
-| SIN15134P | BICALUTAMIDE STADA FILM COATED TABLET 50MG | Tablet, film coated | Kocak Farma Ilac ve Kimya Sanyi A.S. |
-| SIN15695P | CALUMEX FILM-COATED TABLETS 50MG | Tablet, film coated | GENEPHARM S.A |
-| SIN14145P | BICALOX TABLETS 50MG | Tablet, film coated | DOUGLAS MANUFACTURING LTD |
-
-A sixth registration, SIN14824P (BICAMED 50, Hetero Labs Limited, plain tablet), is not shown.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09772P | CASODEX TABLET 50 mg | TABLET, FILM COATED | Valid |
+| SIN14824P | BICAMED 50 BICALUTAMIDE TABLETS 50mg | TABLET | Valid |
+| SIN15134P | BICALUTAMIDE STADA FILM COATED TABLET 50MG | TABLET, FILM COATED | Valid |
+| SIN15695P | CALUMEX FILM-COATED TABLETS 50MG | TABLET, FILM COATED | Valid |
 
 ---
 

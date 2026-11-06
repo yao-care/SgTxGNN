@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 553
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Isoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Singapore licence records (product names indicate i…"
 monitor_inn: "Isoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,10 +71,9 @@ Currently no related literature available for Prinzmetal angina.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08670P | AERRANE INHALATION ANAESTHETIC (Baxter Healthcare Corporation) | Solution | Not stated in the licence record |
-| SIN07914P | ISOFLURANE INHALATION (Piramal Pharma Limited) | Solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08670P | AERRANE INHALATION ANAESTHETIC | SOLUTION | Valid |
 
 ## Safety Considerations
 

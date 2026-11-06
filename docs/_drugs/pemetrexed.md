@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 772
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Pemetrexed"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ with **7 clinical trials** and **20 publications** currently supporting this dir
 | Predicted New Indication | Pleural adenomatoid tumor |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 13 of 13) |
-| Number of Registrations | 13 (valid: 13) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -90,15 +90,15 @@ Peritoneal disease is typically treated with cytoreductive surgery plus hyperthe
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13480P | ALIMTA 100mg Powder for Solution for Infusion | Lyophilized powder for infusion | Indication text not recorded |
-| SIN14536P | Pemetrexed Powder for Solution for Infusion 500mg/vial (Mylan) | Lyophilized powder for infusion | Indication text not recorded |
-| SIN15466P | Pemcord 100 Powder for Solution for Infusion | Powder for infusion | Indication text not recorded |
-| SIN15621P | PEMEX Powder for Solution for Injection 500mg/vial | Lyophilized powder for injection | Indication text not recorded |
-| SIN16814P | PEMETREXED KABI Concentrate for Solution for Infusion 25mg/ml | Solution concentrate for infusion | Indication text not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13042P | Alimta 500mg Powder for Solution for Infusion | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN13480P | ALIMTA 100mg Powder for Solution for Infusion | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN14536P | PEMETREXED POWDER FOR SOLUTION FOR INFUSION 500mg/vial | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15465P | Pemcord 500 Powder for Solution for Infusion 500mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15466P | Pemcord 100 Powder for Solution for infusion 100mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
-There are 13 valid single-ingredient licences in total, all for injectable forms.
+Showing 5 of 16 HSA registrations.
 
 ## Cytotoxicity
 

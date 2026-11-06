@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pegfilgrastim: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not listed in the Singapore licence records"
 monitor_inn: "Pegfilgrastim"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -71,11 +71,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13200P | Neulastim Pre-filled Syringe 6mg/0.6ml | Injection, solution | Not listed |
-| SIN16012P | Fulphila Solution for Injection in Prefilled Syringe 6mg/0.6ml | Injection, solution | Not listed |
-| SIN16249P | Pelgraz Solution for Injection in pre-filled syringe 6mg/0.6mL | Injection, solution | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13200P | Neulastim Pre-filled Syringe 6mg/0.6ml | INJECTION, SOLUTION | Valid |
+| SIN16012P | FULPHILA™ SOLUTION FOR INJECTION IN PREFILLED SYRINGE 6MG/0.6ML | INJECTION, SOLUTION | Valid |
+| SIN16249P | Pelgraz Solution for Injection in pre-filled syringe 6mg/0.6mL | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

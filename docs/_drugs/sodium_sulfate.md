@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 923
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sodium Sulfate: predicted new indication Dyspepsia (evidence level L5). Approved use: Not stated in the registration data (osmotic laxative / bowel prepara…"
 monitor_inn: "Sodium sulfate"
 predicted_indications: ["dyspepsia"]
@@ -64,7 +64,6 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 This action has no known link to the pathophysiology of functional dyspepsia (impaired gastric accommodation, visceral hypersensitivity, delayed gastric emptying and similar mechanisms). The three papers retrieved for this prediction mostly use **dextran sodium sulfate (DSS)**, a different chemical used to induce colitis in animals. They do not show any therapeutic benefit of sodium sulfate. The high TxGNN score most likely reflects a TxGNN model (deep learning) artifact, not a real pharmacological relationship.
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -87,9 +86,9 @@ None of these publications evaluates sodium sulfate for dyspepsia.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09234P | FORTRANS FOR ORAL SOLUTION | Granule, for solution | Indication text not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09234P | FORTRANS FOR ORAL SOLUTION | GRANULE, FOR SOLUTION | Valid |
 
 ---
 

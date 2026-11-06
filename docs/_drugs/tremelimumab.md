@@ -5,7 +5,7 @@ layout: default
 title: Tremelimumab
 parent: Known Uses Only (No New Predictions)
 nav_order: 1017
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tremelimumab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Tremelimumab"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16845P | IMJUDO Concentrate for Solution for Infusion 20 mg/mL | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16845P | IMJUDO CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Safety Considerations
 

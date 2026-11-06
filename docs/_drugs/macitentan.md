@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 624
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Macitentan: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Macitentan, 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 2 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -76,6 +76,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Macitentan, 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14809P | OPSUMIT FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
+| SIN17241P | Opsynvi Film-coated Tablets 10mg/20mg | TABLET, FILM COATED | Valid |
+| SIN17242P | Opsynvi Film-coated Tablets 10mg/40mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

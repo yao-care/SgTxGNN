@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 900
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Selenium Sulfide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Selenium Sul
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 4 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
 ## Known uses recorded for this drug
 
@@ -77,6 +77,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Selenium Sul
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN05069P | SELSUN SUSPENSION 2.5% | SHAMPOO | Valid |
 | SIN10324P | SELDRON CLEANING LOTION 2.5% w/v | LOTION | Valid |
 
 ## Safety Considerations

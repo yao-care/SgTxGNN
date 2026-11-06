@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 568
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ketotifen: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All candidates produced by the TxGNN deep-learning model (score ≥ 0.99) for Ke
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Known uses among the model's candidates
 
@@ -75,12 +75,9 @@ All candidates produced by the TxGNN deep-learning model (score ≥ 0.99) for Ke
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN07601P | DHATIFEN TABLET 1 mg | TABLET | Valid |
-| SIN08054P | SUNTOTIFEN TABLET 1 mg | TABLET | Valid |
-| SIN08053P | SUNTOTIFEN SYRUP 1 mg/5 ml | SYRUP | Valid |
+| SIN08766P | KETOTIFEN SYRUP 1 mg/5 ml | SYRUP | Valid |
 | SIN09651P | TOFEN TABLET 1 mg | TABLET | Valid |
 | SIN10107P | ASUMALIFE SYRUP 1 mg/5 ml | SYRUP | Valid |
-| SIN08766P | KETOTIFEN SYRUP 1 mg/5 ml | SYRUP | Valid |
 
 ## Safety Considerations
 

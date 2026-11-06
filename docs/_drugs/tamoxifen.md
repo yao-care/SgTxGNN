@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 954
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,12 +83,12 @@ Mammary Paget disease is usually associated with underlying ductal carcinoma in 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06409P | NOVOFEN 20 TABLET 20 mg | Tablet | Not available in the compiled data |
-| SIN07094P | TAMOXIFEN TABLET 20 mg | Film-coated tablet | Not available in the compiled data |
-| SIN00796P | NOLVADEX-D TABLET 20 mg | Film-coated tablet | Not available in the compiled data |
-| SIN00794P | NOLVADEX TABLET 10 mg | Film-coated tablet | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00794P | NOLVADEX TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN00796P | NOLVADEX-D TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN06409P | NOVOFEN 20 TABLET 20 mg | TABLET | Valid |
+| SIN07094P | TAMOXIFEN TABLET 20 mg | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

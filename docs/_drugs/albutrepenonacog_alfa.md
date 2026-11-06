@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Albutrepenonacog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Albutrepenonacog Alfa: predicted new indication pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,12 +69,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15811P | IDELVION Powder and Solvent for Solution for Injection 250IU/vial | Lyophilised powder for injection | Not recorded in the local data |
-| SIN15812P | IDELVION Powder and Solvent for Solution for Injection 500IU/vial | Lyophilised powder for injection | Not recorded in the local data |
-| SIN15813P | IDELVION Powder and Solvent for Solution for Injection 1000IU/vial | Lyophilised powder for injection | Not recorded in the local data |
-| SIN15814P | IDELVION Powder and Solvent for Solution for Injection 2000IU/vial | Lyophilised powder for injection | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15811P | IDELVION POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15812P | IDELVION POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15813P | IDELVION POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15814P | IDELVION POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 2000IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

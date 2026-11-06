@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 158
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bictegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Bictegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -75,9 +75,9 @@ Currently no related clinical trials registered for SIV infection.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15604P | BIKTARVY FILM-COATED TABLETS 50MG/200MG/25MG | Film-coated tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15604P | BIKTARVY FILM-COATED TABLETS 50MG/200MG/25MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

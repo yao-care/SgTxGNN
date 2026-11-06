@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 460
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Gabapentin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidates for Gabapentin, but every candidate that can
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 
 ## Known uses among the model's candidates
 
@@ -74,20 +74,18 @@ The TxGNN model produced candidates for Gabapentin, but every candidate that can
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN12638P | PMS-GABAPENTIN CAPSULE 100 mg | CAPSULE | Valid |
-| SIN16698P | ALPENTIN CAPSULE 100MG | CAPSULE | Valid |
-| SIN17166P | GRALISE EXTENDED RELEASE TABLETS 300 MG | TABLET, EXTENDED RELEASE | Valid |
 | SIN08302P | NEURONTIN CAPSULE 400 mg | CAPSULE | Valid |
 | SIN08303P | NEURONTIN CAPSULE 300 mg | CAPSULE | Valid |
-| SIN13677P | Gabapentin Sandoz Capsules 300mg | CAPSULE | Valid |
-| SIN16697P | ALPENTIN CAPSULE 300MG | CAPSULE | Valid |
-| SIN17165P | GRALISE EXTENDED RELEASE TABLETS 600 MG | TABLET, EXTENDED RELEASE | Valid |
-| SIN13678P | Gabapentin Sandoz Capsules 400mg | CAPSULE | Valid |
-| SIN15230P | NEURAN CAPSULE 300MG | CAPSULE | Valid |
-| SIN14277P | APO-GABAPENTIN CAPSULES 300mg | CAPSULE | Valid |
-| SIN16294P | GABAPIN 100-GABAPENTIN CAPSULES USP 100 MG | CAPSULE, GELATIN COATED | Valid |
-| SIN16293P | GABAPIN 300-GABAPENTIN CAPSULES USP 300 MG | CAPSULE, GELATIN COATED | Valid |
+| SIN12638P | PMS-GABAPENTIN CAPSULE 100 mg | CAPSULE | Valid |
 | SIN13548P | Apo-Gabapentin 400mg Capsules | CAPSULE | Valid |
+| SIN13677P | Gabapentin Sandoz Capsules 300mg | CAPSULE | Valid |
+| SIN13678P | Gabapentin Sandoz Capsules 400mg | CAPSULE | Valid |
+| SIN14277P | APO-GABAPENTIN CAPSULES 300mg | CAPSULE | Valid |
+| SIN15230P | NEURAN CAPSULE 300MG | CAPSULE | Valid |
+| SIN16293P | GABAPIN 300-GABAPENTIN CAPSULES USP 300 MG | CAPSULE, GELATIN COATED | Valid |
+| SIN16294P | GABAPIN 100-GABAPENTIN CAPSULES USP 100 MG | CAPSULE, GELATIN COATED | Valid |
+| SIN16697P | ALPENTIN CAPSULE 300MG | CAPSULE | Valid |
+| SIN16698P | ALPENTIN CAPSULE 100MG | CAPSULE | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1008
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Trabectedin"
 predicted_indications: ["female breast carcinoma"]
 description: "Trabectedin: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,9 +89,9 @@ The abstracts compiled for this report do not report efficacy figures for these 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13661P | YONDELIS Powder for Injection 1mg/vial (Baxter Oncology GmbH) | Injection, powder, for solution | Not stated in the compiled licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13661P | YONDELIS Powder for Injection 1mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

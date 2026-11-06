@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Flurbiprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 description: "Flurbiprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Flurbiprofen is a non-steroidal anti-inflammatory drug (NSAID) that works by inh
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,13 +80,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14364P | Strepsils MaxPro Honey and Lemon lozenges 8.75mg | Lozenge | Not stated in the licence record |
-| SIN15370P | Strepsils Max Pro Direct Spray 8.75mg per dose | Spray | Not stated in the licence record |
-| SIN12090P | Acustop Cataplasma Plaster 40 mg/sheet | Patch | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12090P | ACUSTOP CATAPLASMA PLASTER 40 mg/sheet | PATCH | Valid |
+| SIN14364P | Strepsils MaxPro Honey and Lemon lozenges 8.75mg | LOZENGE | Valid |
+| SIN15370P | STREPSILS MAX PRO DIRECT SPRAY 8.75MG PER DOSE | SPRAY | Valid |
+| SIN17495P | STREPSILS MAX PRO DIRECT SPRAY HONEY AND LEMON 8.75MG PER DOSE | SPRAY | Valid |
 
-All three licences are for single-ingredient products and are currently valid. The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment.
+The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment.
 
 ---
 

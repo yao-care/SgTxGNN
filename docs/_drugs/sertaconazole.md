@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sertaconazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -73,10 +73,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN10933P | ZALAIN CREAM 2% | Cream |
-| SIN11905P | ZALAIN VAGINAL SUPPOSITORY 300 mg | Suppository |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10933P | ZALAIN CREAM 2% | CREAM | Valid |
+| SIN11905P | ZALAIN VAGINAL SUPPOSITORY 300 mg | SUPPOSITORY | Valid |
 
 Both licences are valid single-ingredient products. The data compiled for this report contains no approved indication text for either one. Only the cream is a topical skin formulation.
 

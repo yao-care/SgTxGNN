@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 description: "Desloratadine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ with **2 clinical trials** and **6 publications** (2 of them RCTs) currently sup
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -93,15 +93,17 @@ Both trials are small, and neither is a Phase 3 study.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15773P | Desloratadine Sandoz Film Coated Tablet 5 mg | Film-coated tablet | Not stated in the data compiled |
-| SIN16298P | Destavell Film-Coated Tablet 5 mg | Film-coated tablet | Not stated in the data compiled |
-| SIN16170P | Alrinast Film-Coated Tablet 5 mg | Film-coated tablet | Not stated in the data compiled |
-| SIN16670P | Glendes Tablet 5 mg | Tablet | Not stated in the data compiled |
-| SIN15938P | Airistar Film-Coated Tablet 5 mg | Film-coated tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11743P | AERIUS TABLET 5 mg | TABLET, FILM COATED | Valid |
+| SIN12530P | AERIUS ORAL SOLUTION 0.5 mg/ml | SOLUTION | Valid |
+| SIN15773P | DESLORATADINE SANDOZ FILM COATED TABLET 5MG | TABLET, FILM COATED | Valid |
+| SIN15938P | AIRISTAR FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
+| SIN16170P | ALRINAST FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
 
-A sixth licence, SIN11743P (Aerius Tablet 5 mg, film-coated), is also valid. All six are single-ingredient oral products, and all are currently valid.
+Showing 5 of 8 HSA registrations.
+
+A sixth licence, SIN11743P (Aerius Tablet 5 mg, film-coated), is also valid.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Atezolizumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Atezolizumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,11 +69,11 @@ Currently no related literature available for this disease.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15964P | TECENTRIQ Concentrate for Solution for Infusion 840 mg/14 mL | Infusion, solution concentrate | Not recorded |
-| SIN15425P | TECENTRIQ Concentrate for Solution for Infusion 1200 mg/20 mL | Infusion, solution concentrate | Not recorded |
-| SIN17033P | TECENTRIQ Solution for Injection 1875 mg/15 mL | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15425P | TECENTRIQ CONCENTRATE FOR SOLUTION FOR INFUSION 1200 MG/ 20 ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15964P | TECENTRIQ CONCENTRATE FOR SOLUTION FOR INFUSION 840MG/14ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN17033P | TECENTRIQ SOLUTION FOR INJECTION 1875MG/15ML | INJECTION, SOLUTION | Valid |
 
 All three licences are single-ingredient products and currently valid.
 

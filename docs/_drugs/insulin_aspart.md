@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,15 +96,17 @@ The table lists the 10 most relevant publications, prioritising RCTs and systema
 
 ## Singapore Market Information
 
-The data compiled for this report list 8 valid single-ingredient registrations. The approved indication text is not available for any of them. The five main authorizations are shown below.
+The approved indication text is not available for any of them. The five main authorizations are shown below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12189P | NovoRapid FlexPen Injection 100 u/ml | Injection | Not stated in registration data |
-| SIN11394P | NovoRapid Penfill Injection 100 u/ml | Injection | Not stated in registration data |
-| SIN15995P | Fiasp Solution for Injection in Vial 100U/ml | Injection, solution | Not stated in registration data |
-| SIN15994P | Fiasp FlexTouch 100U/ml | Injection, solution | Not stated in registration data |
-| SIN15480P | NovoMix® 30 Penfill® 100 U/ml | Injection, suspension | Not stated in registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11394P | NOVORAPID PENFILL INJECTION 100 u/ml | INJECTION | Valid |
+| SIN12189P | NOVORAPID FLEXPEN INJECTION 100 u/ml | INJECTION | Valid |
+| SIN15480P | NOVOMIX® 30 PENFILL® 100 U/ML | INJECTION, SUSPENSION | Valid |
+| SIN15994P | FIASP FLEXTOUCH 100U/ML | INJECTION, SOLUTION | Valid |
+| SIN15995P | FIASP SOLUTION FOR INJECTION IN VIAL 100U/ML | INJECTION, SOLUTION | Valid |
+
+Showing 5 of 8 HSA registrations.
 
 Other registrations: Kirsty™ (SIN16868P pre-filled pen, SIN16867P vial) and Ryzodeg® FlexTouch® (SIN15706P).
 

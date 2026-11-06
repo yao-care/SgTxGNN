@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 880
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Rocuronium: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence records (the approved indication…"
 monitor_inn: "Rocuronium"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
@@ -89,12 +89,12 @@ No publications were found for the migraine prediction itself. The only literatu
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17025P | NOVERON SOLUTION FOR INJECTION 10MG/ML | Injection, solution | Not stated |
-| SIN15106P | ROCURONIUM KABI SOLUTION FOR INJECTION/INFUSION 10MG/ML | Injection, solution | Not stated |
-| SIN09479P | ESMERON INJECTION 50 mg/5ml | Injection | Not stated |
-| SIN15237P | ROCURONIUM-HAMELN INJECTION 10MG/ML | Injection, solution | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09479P | ESMERON INJECTION 50 mg/5ml | INJECTION | Valid |
+| SIN15106P | ROCURONIUM KABI SOLUTION FOR INJECTION/INFUSION 10MG/ML | INJECTION, SOLUTION | Valid |
+| SIN15237P | ROCURONIUM-HAMELN INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
+| SIN17025P | NOVERON SOLUTION FOR INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
 
 All four registrations are valid, single-ingredient injectable products.
 

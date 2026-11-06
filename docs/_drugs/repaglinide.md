@@ -5,7 +5,7 @@ layout: default
 title: Repaglinide
 parent: Known Uses Only (No New Predictions)
 nav_order: 861
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Repaglinide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Repaglinide"
 predicted_indications: []
@@ -43,20 +43,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10672P | NOVONORM TABLET 0.5 mg | Tablet | Not stated in the licence record |
-| SIN10673P | NOVONORM TABLET 1 mg | Tablet | Not stated in the licence record |
-| SIN10674P | NOVONORM TABLET 2 mg | Tablet | Not stated in the licence record |
-| SIN16376P | REPAGLINIDE MEVON TABLETS 0.5 MG | Tablet | Not stated in the licence record |
-| SIN16375P | REPAGLINIDE MEVON TABLETS 1 MG | Tablet | Not stated in the licence record |
-
-A sixth licence, SIN16374P (REPAGLINIDE MEVON TABLETS 2 MG), is also valid. All 6 licences are single-ingredient oral tablets.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16374P | REPAGLINIDE MEVON TABLETS 2 MG | TABLET | Valid |
+| SIN16375P | REPAGLINIDE MEVON TABLETS 1 MG | TABLET | Valid |
+| SIN16376P | REPAGLINIDE MEVON TABLETS 0.5 MG | TABLET | Valid |
 
 ## Safety Considerations
 

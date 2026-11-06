@@ -3,7 +3,7 @@ layout: default
 title: Dapagliflozin
 parent: Known Uses Only (No New Predictions)
 nav_order: 300
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Dapagliflozin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -45,8 +45,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 8 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 
 ## Known uses recorded for this drug
 
@@ -78,14 +78,16 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN17199P | DAPAGLIFLOZIN SANDOZ FILM COATED TABLET 10MG | TABLET, FILM COATED | Valid |
-| SIN14542P | FORXIGA TABLET 10mg | TABLET, FILM COATED | Valid |
 | SIN14541P | FORXIGA TABLET 5MG | TABLET, FILM COATED | Valid |
-| SIN15079P | XIGDUO XR TABLETS 10MG/1000MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
-| SIN15078P | XIGDUO XR TABLETS 10MG/500MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
-| SIN16958P | SIDAPVIA FIXED DOSE COMBINATION TABLET 10 MG/100 MG | TABLET, FILM COATED | Valid |
-| SIN15077P | XIGDUO XR TABLETS 5MG/500MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
-| SIN15080P | XIGDUO XR TABLETS 5MG/1000MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN14542P | FORXIGA TABLET 10mg | TABLET, FILM COATED | Valid |
+| SIN17048P | EDISTRIDE FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
+| SIN17199P | DAPAGLIFLOZIN SANDOZ FILM COATED TABLET 10MG | TABLET, FILM COATED | Valid |
+| SIN17276P | DAPIFLOZIN 10 TABLET 10MG | TABLET, FILM COATED | Valid |
+| SIN17389P | Dapavid Film-Coated Tablets 10mg | TABLET, FILM COATED | Valid |
+| SIN17427P | DAPIGA FILM COATED TABLETS 10MG | TABLET, FILM COATED | Valid |
+| SIN17469P | DAFASGLIT 10 FILM-COATED TABLETS 10MG | TABLET, FILM COATED | Valid |
+
+Showing 8 of 12 HSA registrations.
 
 ## Safety Considerations
 

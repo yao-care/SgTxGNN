@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 843
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Pyridoxine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 
 ## Known uses recorded for this drug
 
@@ -75,20 +75,19 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15301P | DICLECTIN DELAYED RELEASE TABLETS 10MG/10MG | TABLET, DELAYED RELEASE | Valid |
-| SIN16865P | BONJESTA EXTENDED-RELEASE TABLETS 20 MG/20 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN05447P | IBERET-FOLIC-500 TABLET | TABLET, FILM COATED | Valid |
 | SIN06258P | NEUROBION TABLET | TABLET, SUGAR COATED | Valid |
+| SIN07635P | VITAMIN B FORTE TABLET | TABLET, FILM COATED | Valid |
+| SIN08700P | NEUROFORTE TABLET | TABLET, FILM COATED | Valid |
+| SIN08875P | NEUROGEN-E TABLET | TABLET, FILM COATED | Valid |
+| SIN10260P | NUTRIHEALTH NEUROVIT FORTE TABLET | TABLET, FILM COATED | Valid |
+| SIN10261P | NUTRIHEALTH NEUROVIT TABLET | TABLET, FILM COATED | Valid |
+| SIN11606P | NEUROSANBE TABLET | TABLET, FILM COATED | Valid |
+| SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN12077P | DANEURON TABLET | TABLET, FILM COATED | Valid |
 | SIN15098P | NEUROBION TABLET (OTC) | TABLET, SUGAR COATED | Valid |
-| SIN10891P | NEURO-B TABLET | TABLET, FILM COATED | Valid |
-| SIN07635P | VITAMIN B FORTE TABLET | TABLET, FILM COATED | Valid |
-| SIN11606P | NEUROSANBE TABLET | TABLET, FILM COATED | Valid |
-| SIN10260P | NUTRIHEALTH NEUROVIT FORTE TABLET | TABLET, FILM COATED | Valid |
-| SIN08700P | NEUROFORTE TABLET | TABLET, FILM COATED | Valid |
-| SIN06262P | NEUROBION INJECTION | INJECTION | Valid |
-| SIN10261P | NUTRIHEALTH NEUROVIT TABLET | TABLET, FILM COATED | Valid |
-| SIN08875P | NEUROGEN-E TABLET | TABLET, FILM COATED | Valid |
-| SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN16865P | BONJESTA EXTENDED-RELEASE TABLETS 20 MG/20 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 
 ## Safety Considerations
 

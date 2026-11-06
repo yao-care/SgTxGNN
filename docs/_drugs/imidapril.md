@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 522
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Imidapril"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Imidapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,7 +88,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for the primary predicted indication (pulmonary hypertension).
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [22983755](https://pubmed.ncbi.nlm.nih.gov/22983755/) | 2012 | Meta-analysis (ACE inhibitor class) | Advances in Therapy | Meta-analysis of five Asian studies on ACE inhibitors for preventing post-stroke pneumonia; class effect, not imidapril-specific |
@@ -104,10 +103,10 @@ Currently no related literature available for the primary predicted indication (
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10614P | TANATRIL TABLETS 10 mg | Tablet | Not stated in the available data |
-| SIN10615P | TANATRIL TABLETS 5 mg | Tablet | Not stated in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10614P | TANATRIL TABLETS 10 mg | TABLET | Valid |
+| SIN10615P | TANATRIL TABLETS 5 mg | TABLET | Valid |
 
 Both are single-ingredient, valid licences held by PT Mitsubishi Tanabe Pharma Indonesia, for oral use.
 

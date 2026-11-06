@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 722
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Norethisterone"
 description: "Norethisterone: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
@@ -46,12 +46,12 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06679P | NORCOLUT TABLET 5 mg | Tablet | Not available |
-| SIN04755P | SUNOLUT TABLET 5 mg | Tablet | Not available |
-| SIN03934P | NORCUTIN TABLETS 5 mg | Tablet | Not available |
-| SIN10960P | ACTIVELLE TABLET | Film-coated tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03934P | NORCUTIN TABLETS 5 mg | TABLET | Valid |
+| SIN06679P | NORCOLUT TABLET 5 mg | TABLET | Valid |
+| SIN06011P | TRISEQUENS TABLET | TABLET, FILM COATED | Valid |
+| SIN10960P | ACTIVELLE TABLET | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

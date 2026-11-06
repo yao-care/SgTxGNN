@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dienogest: predicted new indication amenorrhea (disease) (evidence level L4). Approved use: Not stated in the licence data (the literature describes dienogest as…"
 monitor_inn: "Dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -50,8 +50,8 @@ Dienogest is an oral progestin that is marketed in Singapore as 2 mg tablets (it
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,14 +90,13 @@ None of these studies tests dienogest as a treatment for amenorrhea. For the ran
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15891P | DIENOSIS TABLETS 2 MG | Tablet | Not available |
-| SIN16681P | VIENOMET TABLETS 2MG | Tablet | Not available |
-| SIN16682P | DIMETRUM TABLET 2MG | Tablet | Not available |
-| SIN16854P | DIENOMET TABLET 2MG | Tablet | Not available |
-
-All four registrations are valid single-ingredient oral tablets.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13879P | Visanne Tablet 2mg | TABLET | Valid |
+| SIN15891P | DIENOSIS TABLETS 2 MG | TABLET | Valid |
+| SIN16681P | VIENOMET TABLETS 2MG | TABLET | Valid |
+| SIN16682P | DIMETRUM TABLET 2MG | TABLET | Valid |
+| SIN16854P | DIENOMET TABLET 2MG | TABLET | Valid |
 
 ---
 

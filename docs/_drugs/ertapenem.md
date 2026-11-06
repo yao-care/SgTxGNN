@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,12 +81,12 @@ Currently no related clinical trials registered for bacterial arthritis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16029P | Ertapenem Kabi Powder for Injection 1g/vial | Lyophilised powder for injection solution | Not stated |
-| SIN11855P | Invanz for Injection 1 g/vial | Powder for injection solution | Not stated |
-| SIN15602P | Ertapenem Mevon Powder for Concentrate for Solution for Infusion 1g/vial | Lyophilised powder for injection solution | Not stated |
-| SIN16008P | Ertapik for Injection 1g/vial | Lyophilised powder for injection solution | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11855P | INVANZ FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15602P | ERTAPENEM MEVON POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G/VI | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16008P | ERTAPIK FOR INJECTION 1G/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16029P | ERTAPENEM KABI POWDER FOR INJECTION 1G/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Lapatinib"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
 description: "Lapatinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,7 +60,6 @@ Detailed mechanism-of-action data is not currently available. Lapatinib is gener
 
 DFSP is driven mainly by the COL1A1-PDGFB fusion and PDGFRB signalling, which is not a recognised lapatinib target. The high score (0.9930) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (for example, other fibroblastic and sarcoma-type tumours), not biological evidence. The data compiled for this report do not support a mechanistic link.
 
-
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
@@ -71,9 +70,9 @@ Currently no related literature available for dermatofibrosarcoma protuberans.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13366P | Tykerb tablet 250mg | Film-coated tablet (oral) | Indication text not available in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13366P | Tykerb tablet 250mg | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

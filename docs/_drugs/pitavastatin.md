@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Pitavastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pitavastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not stated in the Singapore licence records. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence."
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **cholesterol-ester transfer pr
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,10 +69,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15859P | LIVALO Film-Coated Tablets 2 mg | Film-coated tablet | Not stated in the licence record |
-| SIN15860P | LIVALO Film-Coated Tablets 4 mg | Film-coated tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15859P | LIVALO FILM-COATED TABLETS 2MG | TABLET, FILM COATED | Valid |
+| SIN15860P | LIVALO FILM-COATED TABLETS 4MG | TABLET, FILM COATED | Valid |
+| SIN17394P | LIVAZEBE Film-coated Tablets 2 mg/10 mg | TABLET, FILM COATED | Valid |
+| SIN17395P | LIVAZEBE Film-coated Tablets 4 mg/10 mg | TABLET, FILM COATED | Valid |
 
 Both licences are valid, single-ingredient oral products from Kowa Company, Ltd.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,15 +76,17 @@ It is PMID [22606467](https://pubmed.ncbi.nlm.nih.gov/22606467/) (2011, *Case Re
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13961P | Pataday® Sterile Ophthalmic Solution 0.2% | Solution, sterile | Not specified in the data |
-| SIN15242P | PAZEO Ophthalmic Solution 0.7% | Solution, sterile | Not specified in the data |
-| SIN16569P | OLOPAN Ophthalmic Solution 0.1% w/v | Solution | Not specified in the data |
-| SIN15526P | ALERCHEK Ophthalmic Solution 0.2% | Solution, sterile | Not specified in the data |
-| SIN15527P | ALERCHEK Ophthalmic Solution 0.1% | Solution, sterile | Not specified in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10485P | PATANOL STERILE OPHTHALMIC SOLUTION 0.1% | SOLUTION | Valid |
+| SIN13961P | Pataday® Sterile Ophthalmic Solution 0.2% | SOLUTION, STERILE | Valid |
+| SIN15242P | PAZEO OPHTHALMIC SOLUTION 0.7% | SOLUTION, STERILE | Valid |
+| SIN15526P | ALERCHEK OPHTHALMIC SOLUTION 0.2% | SOLUTION, STERILE | Valid |
+| SIN15527P | ALERCHEK OPHTHALMIC SOLUTION 0.1% | SOLUTION, STERILE | Valid |
 
-Seven valid single-ingredient licences are registered, and none are cancelled. The two others are PATANOL Sterile Ophthalmic Solution 0.1% (SIN10485P) and RYALTRIS Nasal Spray 600/25 mcg (SIN16523P).
+Showing 5 of 7 HSA registrations.
+
+The two others are PATANOL Sterile Ophthalmic Solution 0.1% (SIN10485P) and RYALTRIS Nasal Spray 600/25 mcg (SIN16523P).
 
 ## Safety Considerations
 

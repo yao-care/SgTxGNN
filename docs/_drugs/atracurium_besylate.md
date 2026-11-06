@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 121
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Atracurium Besylate: predicted new indication Preeclampsia (evidence level L5). Approved use: Not stated in the Singapore licence records (the mechanism points to…"
 monitor_inn: "Atracurium besylate"
 predicted_indications: ["preeclampsia", "cauda equina syndrome", "blepharospasm", "migraine disorder", "obsolete neurogenic bladder (disease)", "thrombotic disease", "migraine with brainstem aura", "severe pre-eclampsia", "mild pre-eclampsia", "irritable bowel syndrome"]
@@ -48,8 +48,8 @@ Atracurium besylate is a non-depolarizing neuromuscular blocker, used as an adju
 | Predicted New Indication | Preeclampsia |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,12 +85,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06058P | TRACRIUM INJECTION 10 mg/ml | Injection | Not stated in the licence record |
-| SIN14836P | ATRACURIUM LABATEC IV SOLUTION FOR INJECTION 10MG/ML | Injection, solution | Not stated in the licence record |
-
-Both are valid single-ingredient licences and both are injectable products.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06058P | TRACRIUM INJECTION 10 mg/ml | INJECTION | Valid |
+| SIN14533P | Atracurium-hameln Injection 10mg/ml | INJECTION, SOLUTION | Valid |
+| SIN14836P | ATRACURIUM LABATEC IV SOLUTION FOR INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16945P | NOTRIXUM INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

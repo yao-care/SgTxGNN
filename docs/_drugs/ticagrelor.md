@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ticagrelor"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Acute coronary syndrome"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **intracranial arteriosclerosis
 | Predicted New Indication | Intracranial arteriosclerosis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The data compiled for this report grades this indication as L1. I have downgraded it to L5. The Phase 3 CAPTIVA trial (NCT05047172) studies the right disease, but it is still active and has no results. Neither the trial registry data nor the publications confirm that ticagrelor is one of its arms. The other trial (NCT06714526) is small, still recruiting, and has no results. Neither study provides outcome data showing that ticagrelor works for this disease, so the evidence supports only a model prediction for now.
@@ -79,11 +79,12 @@ A small cohort report (PMID 39658130) describes ticagrelor 60 mg twice daily plu
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15294P | BRILINTA TABLET 60 MG | Film-coated tablet | Not stated in the licence records |
-| SIN17211P | TICASPAN 90 FILM-COATED TABLETS 90MG | Film-coated tablet | Not stated in the licence records |
-| SIN14120P | Brilinta Tablet 90 mg | Film-coated tablet | Not stated in the licence records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14120P | Brilinta Tablet 90 mg | TABLET, FILM COATED | Valid |
+| SIN15294P | BRILINTA TABLET 60 MG | TABLET, FILM COATED | Valid |
+| SIN17211P | TICASPAN 90 FILM-COATED TABLETS 90MG | TABLET, FILM COATED | Valid |
+| SIN17266P | RECLOVAC 90 FILM COATED TABLETS 90MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

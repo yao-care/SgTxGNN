@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,13 +74,15 @@ Currently no related literature available.
 
 Twelve valid single-ingredient registrations exist. The five main ones are listed below. No approved indication text is recorded for these licences.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07668P | CLEXANE Injection 2000 IU (20 mg)/0.2 ml | Injection | Not recorded |
-| SIN14095P | CLEXANE Injection 4000 IU (40 mg)/0.4 ml | Injection | Not recorded |
-| SIN14096P | CLEXANE Injection 6000 IU (60 mg)/0.6 ml | Injection | Not recorded |
-| SIN16331P | INHIXA Solution for Injection 8000 Anti-Xa IU (80 mg)/0.8 ml | Injection, solution | Not recorded |
-| SIN17086P | Enoxaparin Sandoz Solution for Injection in Pre-filled Syringe 6,000 IU (60 mg)/0.6 ml | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07668P | CLEXANE INJECTION 2000 IU (20mg)/0.2 ml | INJECTION | Valid |
+| SIN14094P | CLEXANE INJECTION 8000 IU (80mg)/0.8 ml | INJECTION | Valid |
+| SIN14095P | CLEXANE INJECTION 4000 IU (40mg)/0.4 ml | INJECTION | Valid |
+| SIN14096P | CLEXANE INJECTION 6000 IU (60mg)/0.6 ml | INJECTION | Valid |
+| SIN16331P | INHIXA SOLUTION FOR INJECTION 8,000IU (80MG)/0.8ML | INJECTION, SOLUTION | Valid |
+
+Showing 5 of 12 HSA registrations.
 
 ## Safety Considerations
 

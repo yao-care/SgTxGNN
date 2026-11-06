@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 484
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Glyburide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 
 ## Known uses recorded for this drug
 
@@ -75,11 +75,10 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN07284P | BENIL TABLET 5 mg | TABLET | Valid |
+| SIN04206P | GLIMIDE TABLET 5 mg | TABLET | Valid |
+| SIN04842P | APO-GLYBURIDE TABLET 5 mg | TABLET | Valid |
 | SIN07380P | CLAMIDE TABLET 5 mg | TABLET | Valid |
 | SIN10998P | T.O.NIL TABLET 5 mg | TABLET | Valid |
-| SIN04842P | APO-GLYBURIDE TABLET 5 mg | TABLET | Valid |
-| SIN04206P | GLIMIDE TABLET 5 mg | TABLET | Valid |
 | SIN12322P | GLUCOVANCE TABLET 500 mg/5 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations

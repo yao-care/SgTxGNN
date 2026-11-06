@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Econazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 ---
 
@@ -81,10 +81,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06601P | ECONAZINE CREAM | Cream | Not stated in licence record |
-| SIN10246P | ECOCORT CREAM | Cream | Not stated in licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06601P | ECONAZINE CREAM | CREAM | Valid |
+| SIN10246P | ECOCORT CREAM | CREAM | Valid |
 
 Both licences are valid single-ingredient topical cream products. Only the cream form is available locally.
 

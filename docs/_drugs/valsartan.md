@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1054
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
@@ -50,8 +50,8 @@ but **no clinical trials** and only **1 indirect publication** (a preclinical st
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 32 of 32) |
+| Number of Registrations | 32 (valid: 32) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,15 +88,17 @@ Related indirect evidence for the second-ranked prediction, malignant renovascul
 
 ## Singapore Market Information
 
-All 20 registrations are valid single-ingredient licences in oral film-coated tablet form. The approved indication text was not available for these licences. Five main authorizations:
+The approved indication text was not available for these licences. Five main authorizations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11555P | DIOVAN TABLET 80 mg | Film-coated tablet | Not available |
-| SIN11554P | DIOVAN TABLET 160 mg | Film-coated tablet | Not available |
-| SIN14139P | Valsartan Sandoz film coated tablet 80mg | Film-coated tablet | Not available |
-| SIN14140P | Valsartan Sandoz film coated tablet 160mg | Film-coated tablet | Not available |
-| SIN12011P | CO-DIOVAN 160/25 TABLET | Film-coated tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11554P | DIOVAN TABLET 160 mg | TABLET, FILM COATED | Valid |
+| SIN11555P | DIOVAN TABLET 80 mg | TABLET, FILM COATED | Valid |
+| SIN14139P | Valsartan Sandoz film coated tablet 80mg | TABLET, FILM COATED | Valid |
+| SIN14140P | Valsartan Sandoz film coated tablet 160mg | TABLET, FILM COATED | Valid |
+| SIN14777P | STARVAL FILM COATED TABLET 160 MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 32 HSA registrations.
 
 ## Safety Considerations
 

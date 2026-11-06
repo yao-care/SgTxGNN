@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 197
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Calcium Gluconate: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model's candidates for Calcium Gluconate are all known uses, so there 
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
 ## Known uses among the model's candidates
 
@@ -74,9 +74,8 @@ The TxGNN model's candidates for Calcium Gluconate are all known uses, so there 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN05659P | CALCIUM GLUCONATE INJECTION 10% | INJECTION | Valid |
 | SIN05221P | HYDROFLUORIC ACID ANTIDOTE GEL 2.5% w/w | GEL | Valid |
-| SIN08451P | CALCIUM GLUCONATE INJECTION USP 10% | INJECTION | Valid |
+| SIN05659P | CALCIUM GLUCONATE INJECTION 10% | INJECTION | Valid |
 
 ## Safety Considerations
 

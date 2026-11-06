@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 290
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L4). Approved use: Bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis…"
 monitor_inn: "Cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **dry eye syndrome**, but the data
 | Predicted New Indication | Dry eye syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,14 +82,13 @@ No randomised trials or clinical studies were found. The most relevant publicati
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06299P | Nephrosteril for Intravenous Infusion | Injection | Not stated |
-| SIN08352P | Aminoplasmal-15% Infusion | Injection | Not stated |
-| SIN07846P | Trophamine Injection 10% | Injection | Not stated |
-| SIN07428P | Vaminolact Intravenous Solution | Injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
 
-All four registrations are valid, single-ingredient injectable amino acid products. No ophthalmic (eye-drop) cysteine product is registered, so the injectable forms do not match the route a dry eye treatment would need.
+No ophthalmic (eye-drop) cysteine product is registered, so the injectable forms do not match the route a dry eye treatment would need.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Alirocumab"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alirocumab: predicted new indication ichthyosis, X-linked, without steroid sulfatase deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,10 +70,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15229P | PRALUENT Solution for Injection in a Pre-filled Pen 150 mg/ml | Injection, solution |
-| SIN15228P | PRALUENT Solution for Injection in a Pre-filled Pen 75 mg/ml | Injection, solution |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15228P | PRALUENT SOLUTION FOR INJECTION IN A PRE-FILLED PEN 75MG/ML | INJECTION, SOLUTION | Valid |
+| SIN15229P | PRALUENT SOLUTION FOR INJECTION IN A PRE-FILLED PEN 150 MG/ML | INJECTION, SOLUTION | Valid |
 
 Both licences are valid single-ingredient products.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 549
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Iron"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 description: "Iron: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but **0 clinical trials** and **0 publications** currently support this directio
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,13 +80,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14035P | Ferinject Solution for Injection 50mg/ml | Injection, solution |
-| SIN14981P | Maltofer Film-Coated Tablets 100mg | Tablet, film coated |
-| SIN16513P | Avofer Injection 100mg/5ml | Injection |
-| SIN05699P | Maltofer Drops 50 mg/ml | Solution |
-| SIN14727P | Velphoro® Chewable Tablets 500mg | Tablet, chewable |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05699P | MALTOFER DROPS 50 mg/ml | SOLUTION | Valid |
+| SIN11354P | VENOFER SOLUTION FOR INJECTION 100 mg/5 ml | INJECTION | Valid |
+| SIN14035P | Ferinject Solution for Injection 50mg/ml | INJECTION, SOLUTION | Valid |
+| SIN14727P | Velphoro® Chewable Tablets 500mg | TABLET, CHEWABLE | Valid |
+| SIN14981P | MALTOFER FILM-COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 A sixth authorization, SIN14341P (Nutritrace Concentrate for solution for infusion), is also valid. The drug is marketed in this country, and all 6 of 6 licences are valid single-ingredient registrations; none is cancelled. Approved indication text was not available for these products. The list covers oral and injectable routes, and some products (for example Velphoro and Nutritrace) are likely to serve purposes other than treating iron deficiency anemia.
 

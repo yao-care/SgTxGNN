@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Benzydamine"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benzydamine: predicted new indication benign prostatic hyperplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ At present there are **no clinical trials and no publications** supporting this 
 | Predicted New Indication | benign prostatic hyperplasia |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 13 of 13) |
-| Number of Registrations | 13 (valid: 13) |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,15 +82,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13626P | Difflam For Children Throat Spray | Spray | Not recorded |
-| SIN17050P | Tymora Throat Spray 0.3% w/v | Spray | Not recorded |
-| SIN07411P | Difflam Lozenge 3 mg | Lozenge | Not recorded |
-| SIN04232P | Difflam Solution 22.5 mg/15 ml | Mouthwash | Not recorded |
-| SIN13625P | Difflam Forte Anti-Inflammatory Throat Spray | Spray | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04232P | DIFFLAM SOLUTION 22.5 mg/15 ml | MOUTHWASH | Valid |
+| SIN07411P | DIFFLAM LOZENGE 3 mg | LOZENGE | Valid |
+| SIN13625P | Difflam Forte Anti-Inflammatory Throat Spray | SPRAY | Valid |
+| SIN13626P | Difflam For Children Throat Spray | SPRAY | Valid |
+| SIN16801P | EASIFLAM MOUTHWASH 0.15% W/V | MOUTHWASH | Valid |
 
-All 13 licences are for single-ingredient products and are currently valid. The list above shows only five of them.
+Showing 5 of 14 HSA registrations.
+
+The list above shows only five of them.
 
 ---
 

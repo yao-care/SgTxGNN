@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 941
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sulfasalazine: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "Sulfasalazine"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
@@ -50,8 +50,8 @@ Among the ten predictions, **osteoarthritis** has the most supporting material (
 | Predicted New Indication | Brachydactyly-syndactyly syndrome (top-ranked); osteoarthritis is the most evidence-supported alternative |
 | TxGNN Prediction Score | 0.9994 (osteoarthritis: 0.9964) |
 | Evidence Level | L5 (osteoarthritis: L4) |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold (osteoarthritis: research question only) |
 
 ## Why is This Prediction Reasonable?
@@ -86,9 +86,10 @@ No literature was found for the top-ranked prediction (brachydactyly-syndactyly 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06512P | PMS-SULFASALAZINE E.C. TABLET 500 mg | Enteric coated tablet | Indication text not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01589P | SALAZOPYRIN EN-TABLET 500 mg | ENTERIC COATED TABLET | Valid |
+| SIN06512P | PMS-SULFASALAZINE E.C.TABLET 500 mg | ENTERIC COATED TABLET | Valid |
 
 The only available route is oral. The product is a valid single-ingredient licence.
 

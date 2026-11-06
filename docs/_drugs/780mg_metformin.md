@@ -5,7 +5,7 @@ layout: default
 title: 780Mg Metformin
 parent: Known Uses Only (No New Predictions)
 nav_order: 14
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|---------|
 | Data Status | ⚠️ Drug name parsing error |
 | Identified Drug | metformin (presumed, requires confirmation) |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 65 of 65) |
+| Number of Registrations | 65 (valid: 65) |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 899
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,9 +95,9 @@ Several other retrieved papers concern antipsychotic-induced sexual dysfunction 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08681P | SELEGOS TABLET 5 mg (Medochemie Ltd) | Tablet | Not recorded in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08681P | SELEGOS TABLET 5 mg | TABLET | Valid |
 
 ---
 

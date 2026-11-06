@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 933
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Sotatercept"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
 description: "Sotatercept: predicted new indication Acute lymphoblastic leukemia (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acute lymphoblastic leukemia*
 | Predicted New Indication | Acute lymphoblastic leukemia (disease) |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,10 +75,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17094P | WINREVAIR® Powder for Solution for Injection 60 mg (vial only) | Lyophilized powder for injection | Not stated in the data |
-| SIN17093P | WINREVAIR® Powder for Solution for Injection 45 mg (vial only) | Lyophilized powder for injection | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17091P | WINREVAIR® POWDER FOR SOLUTION FOR INJECTION 45MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17092P | WINREVAIR® POWDER FOR SOLUTION FOR INJECTION 60MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17093P | WINREVAIR® POWDER FOR SOLUTION FOR INJECTION 45MG (VIAL ONLY) | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17094P | WINREVAIR® POWDER FOR SOLUTION FOR INJECTION 60MG (VIAL ONLY) | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

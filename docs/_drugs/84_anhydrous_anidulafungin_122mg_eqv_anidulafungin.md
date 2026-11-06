@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -80,11 +80,11 @@ Currently no related literature is available for a predicted indication.
 
 ## Singapore Market Information
 
-Anidulafungin holds no product registrations in Singapore at the time of this report.
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|-------------|-------------|---------------------|
-| — | — | — | No records found |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13585P | Eraxis 100mg For Injection | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16106P | ANIDACCORD 100 POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN17508P | ANICURA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ---
 
@@ -113,7 +113,6 @@ The TxGNN pipeline returned zero predicted indications, most likely because the 
 2. **Retrieve MOA data** — Pull mechanistic data from DrugBank (query already returned 1 result; extraction step needs to be re-executed).
 3. **Retrieve safety data** — Download the Singapore HSA or reference-market package insert PDF and parse key warnings and contraindications (Data Gap DG001).
 4. **Re-run the full evidence pipeline** — Once a valid predicted indication is available, re-collect ClinicalTrials.gov and PubMed evidence for that indication pair.
-5. **Confirm Singapore registration intent** — Since anidulafungin is currently unregistered in Singapore, confirm whether the repurposing study requires a new NDA or is intended for compassionate / named-patient use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

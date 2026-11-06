@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 681
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Misoprostol: predicted new indication amenorrhea (disease) (evidence level L4). Approved use: Not stated in the Singapore licence data compiled for this report"
 monitor_inn: "Misoprostol"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -80,9 +80,9 @@ All of these papers concern pregnancy termination or related conditions. None sh
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03501P | CYTOTEC TABLET 200 mcg | Tablet (oral) | Not specified in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03501P | CYTOTEC TABLET 200 mcg | TABLET | Valid |
 
 ## Safety Considerations
 

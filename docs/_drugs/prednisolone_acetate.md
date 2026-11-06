@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Prednisolone acetate"
 predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -81,9 +81,9 @@ Currently no related literature available for conjunctival folliculosis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04661P | PRED FORTE OPHTHALMIC SUSPENSION 1% (Allergan Pharmaceuticals Ireland) | Solution | Indication text not provided in the record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04661P | PRED FORTE OPHTHALMIC SUSPENSION 1% | SOLUTION | Valid |
 
 ---
 

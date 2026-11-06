@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benzocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant for **papillary conjunctivitis**, bu
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,15 +71,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07825P | HURRICAINE GEL 20% | Gel | Not recorded |
-| SIN10762P | TOPICALE GEL 180 mg/g | Gel | Not recorded |
-| SIN08158P | HURRICAINE SPRAY 20% | Spray | Not recorded |
-| SIN12391P | FREEZ-EEZ TOPICAL ANESTHETIC GEL 20% w/w | Gel | Not recorded |
-| SIN08535P | HORF LOZENGES | Lozenge | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07825P | HURRICAINE GEL 20% | GEL | Valid |
+| SIN08158P | HURRICAINE SPRAY 20% | SPRAY | Valid |
+| SIN10762P | TOPICALE GEL 180 mg/g | GEL | Valid |
+| SIN04392P | DORITHRICIN THROAT LOZENGES | LOZENGE | Valid |
+| SIN08535P | HORF LOZENGES | LOZENGE | Valid |
 
-All six registered products are single-ingredient and currently valid. Available forms are gel, spray and lozenge; no ophthalmic formulation is registered.
+Available forms are gel, spray and lozenge; no ophthalmic formulation is registered.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1080
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Xylometazoline"
 predicted_indications: ["nasal cavity disease"]
 description: "Xylometazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -83,16 +83,15 @@ Currently no related clinical trials registered.
 | [1281924](https://pubmed.ncbi.nlm.nih.gov/1281924/) | 1992 | Physiological study | Rhinology | Nasal airflow asymmetry in healthy subjects and in people with colds, and how xylometazoline affects it |
 | [34783482](https://pubmed.ncbi.nlm.nih.gov/34783482/) | 2021 | Review | Vestnik Otorinolaringologii | Treatment of inflammatory nasal and sinus diseases in the elderly, including combined decongestant sprays |
 
-
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11622P | OTRIVIN NASAL DROPS 0.05% | Solution | Not stated in the licence record |
-| SIN11624P | OTRIVIN NASAL SPRAY 0.1% | Spray | Not stated in the licence record |
-| SIN15198P | SNUP STADA® SPRAY 0.1% | Spray | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11622P | OTRIVIN NASAL DROPS 0.05% | SOLUTION | Valid |
+| SIN11624P | OTRIVIN NASAL SPRAY 0.1% | SPRAY | Valid |
+| SIN15198P | SNUP STADA® SPRAY 0.1% | SPRAY | Valid |
 
 ---
 

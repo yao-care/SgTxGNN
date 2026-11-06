@@ -5,7 +5,7 @@ layout: default
 title: Anidulafungin
 parent: Known Uses Only (No New Predictions)
 nav_order: 101
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Anidulafungin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Anidulafungin"
 predicted_indications: []
@@ -48,11 +48,11 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16803P | Anidulafungin Fresenius Kabi Powder for Concentrate for Solution for Infusion 100mg/vial | Injection, powder, lyophilized, for solution | Not stated in the data |
-| SIN13585P | Eraxis 100mg For Injection | Injection, powder, lyophilized, for solution | Not stated in the data |
-| SIN16106P | Anidaccord 100 Powder for Concentrate for Solution for Infusion 100 mg | Injection, powder, for solution | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13585P | Eraxis 100mg For Injection | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16106P | ANIDACCORD 100 POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN17508P | ANICURA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 All three are single-ingredient, valid registrations, and all are injectable.
 

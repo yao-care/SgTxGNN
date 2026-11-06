@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 875
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,13 +72,15 @@ Currently no related literature available.
 
 Risperidone has 16 valid licences in Singapore, covering oral tablets, oral solutions and injectable products. The main ones are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08058P | RISPERDAL Tablet 2 mg | Film-coated tablet | Not recorded |
-| SIN08061P | RISPERDAL Tablet 1 mg | Film-coated tablet | Not recorded |
-| SIN09905P | RISPERDAL Oral Solution 1 mg/ml | Solution | Not recorded |
-| SIN12354P | RISPERDAL CONSTA for Injection 37.5 mg/vial | Powder for solution for injection | Not recorded |
-| SIN17184P | RYKINDO Extended-Release Injectable Suspension 37.5 mg/vial | Extended-release injectable suspension | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08058P | RISPERDAL TABLET 2 mg | TABLET, FILM COATED | Valid |
+| SIN08061P | RISPERDAL TABLET 1 mg | TABLET, FILM COATED | Valid |
+| SIN09905P | RISPERDAL ORAL SOLUTION 1 mg/ml | SOLUTION | Valid |
+| SIN12354P | RISPERDAL CONSTA FOR INJECTION 37.5 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN12355P | RISPERDAL CONSTA FOR INJECTION 25 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+Showing 5 of 16 HSA registrations.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fosfomycin: predicted new indication Uterine inflammatory disease (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -73,9 +73,9 @@ Uterine inflammatory conditions such as endometritis or pelvic inflammatory dise
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11013P | MONUROL SACHET 3 g/sachet (Zambon Switzerland Ltd) | Granule, for suspension | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11013P | MONUROL SACHET 3 g/sachet | GRANULE, FOR SUSPENSION | Valid |
 
 ## Safety Considerations
 

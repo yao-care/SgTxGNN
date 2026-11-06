@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 907
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sennosides: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the registration data (sennosides are generally used as…"
 monitor_inn: "Sennosides"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia"]
@@ -48,8 +48,8 @@ Sennosides are stimulant laxatives that are registered and marketed in Singapore
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,12 +74,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04731P | SENOKOT TABLET 7.5 mg | Tablet | Not stated in registration data |
-| SIN02550P | SENNA TABLET 7.5 mg | Tablet | Not stated in registration data |
-
-Both registrations are valid single-ingredient oral products.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02550P | SENNA TABLET 7.5 mg | TABLET | Valid |
+| SIN04731P | SENOKOT TABLET 7.5 mg | TABLET | Valid |
+| SIN17578P | LAX-TAB SENNA TABLET 7.5MG | TABLET | Valid |
 
 ## Safety Considerations
 
@@ -96,7 +95,7 @@ The prediction is supported only by a score from the TxGNN model (deep learning)
 - The package insert (warnings and contraindications) from the HSA website, which is a blocking gap for safety screening
 - Mechanism of action data for sennosides from DrugBank
 - Any preclinical or clinical evidence linking sennosides to hair follicle biology
-- Confirmation of the approved indication text for the two Singapore registrations
+- Confirmation of the approved indication text
 - Route compatibility analysis (the available oral route versus the likely topical or other route needed for hair or eye conditions)
 ## Disclaimer
 

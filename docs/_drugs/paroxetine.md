@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 765
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This prediction currently has **0 clinical trials** and **0 publications** behin
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,9 +80,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13485P | Apo-Paroxetine 20mg Tablet (Apotex Inc) | Tablet, film coated (oral) | Not listed in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12583P | SEROXAT CR TABLET 25 mg | TABLET, EXTENDED RELEASE | Valid |
+| SIN12584P | SEROXAT CR TABLET 12.5 mg | TABLET, EXTENDED RELEASE | Valid |
+| SIN13485P | Apo-Paroxetine 20mg Tablet | TABLET, FILM COATED | Valid |
 
 ---
 

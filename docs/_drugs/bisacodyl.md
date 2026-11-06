@@ -5,7 +5,7 @@ layout: default
 title: Bisacodyl
 parent: Known Uses Only (No New Predictions)
 nav_order: 164
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bisacodyl: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Bisacodyl"
 predicted_indications: []
@@ -43,22 +43,24 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 
 ---
 
 ## Singapore Market Information
 
-Bisacodyl has 11 valid single-ingredient registrations in Singapore and none cancelled. The approved indication text is not available for any of them. The first five are listed below.
+The approved indication text is not available for any of them. The first five are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN02432P | Laxodyl Tablet 5 mg | Enteric coated tablet | Sunward Pharmaceutical Private Limited |
-| SIN02689P | S.L. Laxative Tablet 5 mg | Enteric coated tablet | Beacons Pharmaceuticals Pte. Ltd. |
-| SIN03319P | Unilax Tablet 5 mg | Enteric coated tablet | Beacons Pharmaceuticals Pte. Ltd. |
-| SIN03615P | Bisacodyl Tablet 5 mg | Enteric coated tablet | Beacons Pharmaceuticals Pte. Ltd. |
-| SIN14002P | Bisacodyl Suppositories 5 mg | Suppository | Y.S.P. Industries (M) Sdn. Bhd. |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02663P | DULCOLAX SUPPOSITORY 10 mg | SUPPOSITORY | Valid |
+| SIN02669P | DULCOLAX TABLET 5 mg | ENTERIC COATED TABLET | Valid |
+| SIN02689P | S.L. LAXATIVE TABLET 5 mg | ENTERIC COATED TABLET | Valid |
+| SIN03319P | UNILAX TABLET 5 mg | ENTERIC COATED TABLET | Valid |
+| SIN03615P | BISACODYL TABLET 5 mg | ENTERIC COATED TABLET | Valid |
+
+Showing 5 of 9 HSA registrations.
 
 Available forms are oral enteric coated tablets and suppositories.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1013
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Trastuzumab deruxtecan"
 predicted_indications: ["drug-induced osteoporosis"]
 description: "Trastuzumab Deruxtecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,9 +84,9 @@ These are not evidence for the top-ranked indication, and several are adverse-ev
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16352P | ENHERTU Powder for Concentrate for Solution for Infusion 100mg/vial (Baxter Oncology GmbH) | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16352P | ENHERTU POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/VIAL | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ---
 

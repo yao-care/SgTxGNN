@@ -3,7 +3,7 @@ layout: default
 title: Neomycin
 parent: Known Uses Only (No New Predictions)
 nav_order: 704
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Neomycin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -72,15 +72,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Neomycin, so
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN04129P | NEO-BETASONE CREAM | CREAM | Valid |
-| SIN04113P | NEO-CORTISONE CREAM | CREAM | Valid |
 | SIN00678P | BANEOCIN POWDER | POWDER | Valid |
-| SIN01930P | UNIFLEX-N CREAM | CREAM | Valid |
 | SIN00959P | DEXTRACIN EYE/EAR DROPS | SOLUTION | Valid |
-| SIN07745P | POLYGYNAX VAGINAL CAPSULE | CAPSULE | Valid |
+| SIN01930P | UNIFLEX-N CREAM | CREAM | Valid |
+| SIN04113P | NEO-CORTISONE CREAM | CREAM | Valid |
+| SIN04129P | NEO-BETASONE CREAM | CREAM | Valid |
 | SIN04358P | MAXITROL STERILE OPHTHALMIC SUSPENSION | SOLUTION | Valid |
-| SIN04945P | POLYDEXA EAR DROPS | SOLUTION | Valid |
 | SIN04413P | POLYBAMYCIN OINT. | OINTMENT | Valid |
+| SIN04945P | POLYDEXA EAR DROPS | SOLUTION | Valid |
+| SIN07745P | POLYGYNAX VAGINAL CAPSULE | CAPSULE | Valid |
 
 ## Safety Considerations
 

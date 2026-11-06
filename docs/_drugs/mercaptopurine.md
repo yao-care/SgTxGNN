@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 651
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). Approved use: Not recorded in the local data"
@@ -92,9 +92,9 @@ Several Phase 3 leukemia trials appear in the data, but mercaptopurine was not a
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10810P | PURINETONE TABLETS 50 mg | Tablet | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10810P | PURINETONE TABLETS 50 mg | TABLET | Valid |
 
 ## Cytotoxicity
 

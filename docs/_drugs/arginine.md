@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 107
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not stated in the licence data compiled for this report (products are…"
 monitor_inn: "Arginine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and only **9 publicati
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 20 of 20) |
-| Number of Registrations | 20 (valid: 20) |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,13 +82,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16003P | LYSAKARE Solution for Infusion 25G/25G | Infusion, solution | Not stated |
-| SIN16337P | AMINOVEN Solution for Infusion 15% | Infusion, solution | Not stated |
-| SIN11682P | AMINOVEN Solution for Infusion 5% | Injection | Not stated |
-| SIN11829P | AMINOVEN Solution for Infusion 10% | Injection | Not stated |
-| SIN06299P | NEPHROSTERIL for Intravenous Infusion | Injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
+
+Showing 5 of 19 HSA registrations.
 
 A further 15 valid single-ingredient registrations exist, mainly parenteral nutrition emulsions and amino acid infusions (for example SmofKabiven, Nutriflex Omega, Oliclinomel, Aminoplasmal and Nutrineal PD4).
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "Magnesium sulfate"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Evidence level is **L3**.
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,10 +80,15 @@ These findings are early. They show feasibility and biological plausibility, not
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN05860P | DBL Magnesium Sulfate Concentrated Injection 49.3% | Injection |
-| SIN02748P | Lemon Sweet Purgative Syrup | Syrup |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05860P | DBL Magnesium Sulfate Concentrated Injection 49.3% | INJECTION | Valid |
+| SIN17263P | Magnesium Sulfate-AFT Concentrate for Solution for Injection 50% w/v | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN02748P | LEMON SWEET PURGATIVE SYRUP | SYRUP | Valid |
+| SIN14286P | SmofKabiven Emulsion for Infusion | INJECTION, EMULSION | Valid |
+| SIN14287P | SmofKabiven Peripheral Emulsion for Infusion | INJECTION, EMULSION | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

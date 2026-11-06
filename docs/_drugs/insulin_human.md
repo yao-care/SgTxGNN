@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Insulin Human: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 2 diabetes mellitus, type 1 diabetes mellitus…"
 monitor_inn: "Insulin human"
 predicted_indications: ["autoimmune oophoritis", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
@@ -50,8 +50,8 @@ The prediction comes from the TxGNN model (deep learning) alone and may reflect 
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02395P | ACTRAPID INJECTION 100 IU/ml | Injection | Not stated in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02395P | ACTRAPID INJECTION 100 IU/ml | INJECTION | Valid |
+| SIN02397P | ACTRAPID PENFILL INJECTION 100 IU/ml | INJECTION | Valid |
+| SIN08654P | INSULATARD PENFILL INJECTION 100 iu/ml | INJECTION | Valid |
+| SIN08655P | INSULATARD INJECTION 100 iu/ml | INJECTION | Valid |
+| SIN08200P | MIXTARD 30 PENFILL INJECTION 100 iu/ml | INJECTION | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

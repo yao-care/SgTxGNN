@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, 
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 65 of 65) |
+| Number of Registrations | 65 (valid: 65) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,15 +76,17 @@ Among the lower-ranked predictions, the only evidence was indirect:
 
 ## Singapore Market Information
 
-Metformin has 20 valid single-ingredient registrations in Singapore. Approved indication text is not recorded in the licence data. The five main authorizations are listed below.
+Approved indication text is not recorded in the licence data. The five main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN04249P | Glucophage Tablet 500 mg | Film-coated tablet | Merck Sante SAS / Merck S.L. / PT Merck Tbk |
-| SIN06988P | Glucophage Tablet 850 mg | Film-coated tablet | Merck Sante SAS / Merck S.L. / PT Merck Tbk |
-| SIN13249P | Glucophage XR 500 mg Extended Release Tablet | Extended-release tablet | Merck Sante sas (Semoy) / Merck Healthcare KGaA |
-| SIN07530P | Glycomet Tablet 500 mg | Tablet | USV Private Limited |
-| SIN16257P | Adimet XR Tablet 500 mg | Film-coated extended-release tablet | Centaur Pharmaceuticals Private Limited |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04249P | GLUCOPHAGE TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN04272P | METFORMIN TABLET 500 mg | TABLET | Valid |
+| SIN04674P | METFORMIN TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN04812P | DIABETMIN TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN06937P | GLYFORMIN 500 TABLET 500 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 65 HSA registrations.
 
 All products are oral tablets (immediate-release, film-coated or extended-release).
 

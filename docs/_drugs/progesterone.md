@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 829
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Support is limited: **no registered clinical trials** and **19 publications**, m
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,10 +81,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03626P | CYCLOGEST PESSARY 400 mg | Suppository | Not stated in the records |
-| SIN10884P | CRINONE PROGESTERONE VAGINAL GEL 8% | Gel | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03626P | CYCLOGEST PESSARY 400 mg | SUPPOSITORY | Valid |
+| SIN10884P | CRINONE PROGESTERONE VAGINAL GEL 8% | GEL | Valid |
+| SIN11437P | UTROGESTAN CAPSULE 100 mg (White) | CAPSULE, LIQUID FILLED | Valid |
+| SIN15005P | ENDOMETRIN VAGINAL TABLETS 100 MG | TABLET, EFFERVESCENT | Valid |
+| SIN15475P | UTROGESTAN CAPSULE 200mg | CAPSULE, LIQUID FILLED | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ## Safety Considerations
 

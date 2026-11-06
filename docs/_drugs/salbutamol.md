@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 893
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Asthma, bronchial disease"
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
@@ -52,8 +52,8 @@ Among the other top-ranked predictions, **obstructive lung disease** has the str
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 17 of 17) |
-| Number of Registrations | 17 (valid: 17) |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -118,15 +118,17 @@ For reference, key publications for the other top predictions:
 
 ## Singapore Market Information
 
-Salbutamol has 17 valid single-ingredient registrations. The approved indication text is not recorded for these licences.
+The approved indication text is not recorded for these licences.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11359P | Ventolin Evohaler 100 mcg | Aerosol, spray | Not recorded |
-| SIN08675P | Buventol Easyhaler 200 mcg/inhalation dose | Powder, metered | Not recorded |
-| SIN13980P | Azmasol HFA Inhalation Aerosol 100 mcg | Aerosol, metered | Not recorded |
-| SIN02913P | Asmol Tablet 4 mg | Tablet | Not recorded |
-| SIN02539P | Ventolin Solution for Intravenous Infusion 5 mg/5 ml | Injection | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00022P | ZENMOLIN SYRUP 2 mg/5 ml | SYRUP | Valid |
+| SIN02539P | VENTOLIN SOLUTION FOR INTRAVENOUS INFUSION 5 mg/5 ml | INJECTION | Valid |
+| SIN02687P | VENDEROL TABLET 2 mg | TABLET | Valid |
+| SIN02988P | VENTOLIN RESPIRATOR SOLUTION 0.5% w/v | SOLUTION | Valid |
+| SIN05762P | VENTAMOL SYRUP 2 mg/5 ml | SYRUP | Valid |
+
+Showing 5 of 14 HSA registrations.
 
 Available forms include oral (tablet, syrup, suspension), inhaled (aerosol, powder, solution) and injectable products. No ophthalmic formulation is registered, which matters for any conjunctivitis indication.
 

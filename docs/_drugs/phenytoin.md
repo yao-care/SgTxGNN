@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 790
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -83,15 +83,12 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09208P | DILANTIN CAPSULE 100 mg | Capsule | Not stated in the compiled data |
-| SIN13114P | Dilantin 125 (Phenytoin Oral Suspension, USP) 125mg/5ml | Suspension | Not stated in the compiled data |
-| SIN16560P | PHARMANIAGA PHENYTOIN SODIUM SOLUTION FOR INJECTION 250MG/5ML | Injection, solution | Not stated in the compiled data |
-| SIN08183P | DBL PHENYTOIN INJECTION BP 50 mg/ml | Injection | Not stated in the compiled data |
-| SIN06056P | DILANTIN CAPSULE 30 mg | Capsule | Not stated in the compiled data |
-
-All five licences are valid single-ingredient products, covering oral and injectable routes.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06056P | DILANTIN CAPSULE 30 mg | CAPSULE | Valid |
+| SIN09208P | DILANTIN CAPSULE 100 mg | CAPSULE | Valid |
+| SIN13114P | Dilantin 125® (Phenytoin Oral Suspension, USP) 125mg/5ml | SUSPENSION | Valid |
+| SIN16560P | PHARMANIAGA PHENYTOIN SODIUM SOLUTION FOR INJECTION 250MG/5ML | INJECTION, SOLUTION | Valid |
 
 ---
 

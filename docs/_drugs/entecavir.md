@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 379
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence is indirect: **2 clinical trials** and **20 publications** were ret
 | Predicted New Indication | Chronic hepatitis C virus infection |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 (indirect evidence only) |
-| Singapore Market Status | Marketed (valid licences: 17 of 17) |
-| Number of Registrations | 17 (valid: 17) |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,15 +94,17 @@ The prediction looks like a network association rather than a true pharmacologic
 
 ## Singapore Market Information
 
-Entecavir has 17 valid single-ingredient registrations in Singapore, all film-coated oral tablets. Approved indication text is not available for these registrations. Five of them are listed below.
+Approved indication text is not available for these registrations. Five of them are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN13165P | BARACLUDE TABLET 0.5mg | Film-coated tablet | AstraZeneca Pharmaceuticals LP and others |
-| SIN13167P | BARACLUDE TABLET 1mg | Film-coated tablet | AstraZeneca Pharmaceuticals LP and others |
-| SIN15548P | ENTECAVIR SANDOZ FILM-COATED TABLET 0.5MG | Film-coated tablet | Novartis Pharmaceutical Manufacturing LLC |
-| SIN16094P | PMS-ENTECAVIR FILM COATED TABLET 0.5mg | Film-coated tablet | Pharmascience Inc |
-| SIN16092P | ENTECAVIR-TEVA FC TABLETS 0.5MG | Film-coated tablet | Remedica Ltd. |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13165P | BARACLUDE TABLET 0.5mg | TABLET, FILM COATED | Valid |
+| SIN13167P | BARACLUDE TABLET 1mg | TABLET, FILM COATED | Valid |
+| SIN15548P | ENTECAVIR SANDOZ FILM-COATED TABLET 0.5MG | TABLET, FILM COATED | Valid |
+| SIN15955P | BECAVIR F.C. TABLET 0.5 mg | TABLET, FILM COATED | Valid |
+| SIN16034P | ENTEVIR FILM-COATED TABLET 1MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 19 HSA registrations.
 
 ---
 

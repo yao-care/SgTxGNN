@@ -5,7 +5,7 @@ layout: default
 title: Benzatropine
 parent: Known Uses Only (No New Predictions)
 nav_order: 144
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benzatropine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "benzatropine"
 predicted_indications: []
@@ -48,10 +48,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16222P | Benzatropine Phebra Solution for Injection 2 mg/2 mL | Injection, solution | Not stated in the records |
-| SIN05894P | Apo-Benztropine Tablet 2 mg | Tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05894P | APO-BENZTROPINE TABLET 2 mg | TABLET | Valid |
+| SIN16222P | BENZATROPINE PHEBRA SOLUTION FOR INJECTION 2 MG/2 ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

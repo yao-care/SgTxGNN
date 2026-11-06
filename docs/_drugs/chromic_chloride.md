@@ -5,7 +5,7 @@ layout: default
 title: Chromic Chloride
 parent: Known Uses Only (No New Predictions)
 nav_order: 247
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Chromic Chloride: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Chromic chloride"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | Infusion, solution concentrate | Not listed in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 This is the only valid registration (single-ingredient product, manufactured by HP Halden Pharma AS). It is an injectable product only, and no formulation for ocular use is registered.
 

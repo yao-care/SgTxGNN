@@ -5,7 +5,7 @@ layout: default
 title: Luspatercept
 parent: Known Uses Only (No New Predictions)
 nav_order: 623
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Luspatercept: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Luspatercept"
 predicted_indications: []
@@ -48,10 +48,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16470P | REBLOZYL Powder for Solution for Injection 25 mg/vial | Injection, powder, for solution | Not stated in the data compiled |
-| SIN16471P | REBLOZYL Powder for Solution for Injection 75 mg/vial | Injection, powder, for solution | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16470P | REBLOZYL POWDER FOR SOLUTION FOR INJECTION 25 MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN16471P | REBLOZYL POWDER FOR SOLUTION FOR INJECTION 75 MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction rests on the model score alone, so the evidence is very weak.
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 18 of 18) |
-| Number of Registrations | 18 (valid: 18) |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,13 +80,15 @@ None of the retrieved publications studies respiratory malformation. They cover 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13761P | Atimos Pressurised Inhalation Solution 12mcg/inhalation | Metered aerosol | Not stated |
-| SIN16056P | DuoResp Spiromax Dry Powder for Inhalation 160/4.5 mcg | Metered powder | Not stated |
-| SIN11681P | Symbicort Turbuhaler 160/4.5 mcg/dose | Metered powder | Not stated |
-| SIN13932P | Foster Pressurised Inhalation Solution 100/6 mcg per actuation | Metered aerosol | Not stated |
-| SIN15924P | Trimbow Pressurised Inhalation Solution 100/6/12.5 μg per actuation | Metered aerosol | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11678P | SYMBICORT TURBUHALER 80/4.5 mcg/dose | POWDER, METERED | Valid |
+| SIN11681P | SYMBICORT TURBUHALER 160/4.5 mcg/dose | POWDER, METERED | Valid |
+| SIN12580P | SYMBICORT TURBUHALER INHALATION POWDER 320/9 mcg/dose | POWDER, METERED | Valid |
+| SIN13932P | Foster Pressurised Inhalation Solution 100mcg/6mcg per Actuation | AEROSOL, METERED | Valid |
+| SIN14549P | FLUTIFORM® PRESSURISED INHALATION, SUSPENSION 50 MICROGRAM/5 MICROGRAM | AEROSOL, METERED | Valid |
+
+Showing 5 of 17 HSA registrations.
 
 The list shows 5 of 18 valid licences.
 

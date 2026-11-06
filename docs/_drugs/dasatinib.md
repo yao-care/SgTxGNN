@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 306
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Dasatinib"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence level is **L3**: there is no randomized trial in Ewing sarcoma.
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,13 +83,15 @@ The clinical picture is less encouraging. A review notes that single-agent dasat
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13352P | SPRYCEL Tablets 70 mg (AstraZeneca) | Tablet, film coated |
-| SIN17175P | MYOPHIL Film Coated Tablets 70 mg (Biocon) | Tablet, film coated |
-| SIN13354P | SPRYCEL Tablets 50 mg (AstraZeneca) | Tablet, film coated |
-| SIN17177P | MYOPHIL Film Coated Tablets 50 mg (Biocon) | Tablet, film coated |
-| SIN17176P | MYOPHIL Film Coated Tablets 20 mg (Biocon) | Tablet, film coated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13352P | SPRYCEL TABLETS 70MG | TABLET, FILM COATED | Valid |
+| SIN13353P | SPRYCEL TABLETS 20MG | TABLET, FILM COATED | Valid |
+| SIN13354P | SPRYCEL TABLETS 50MG | TABLET, FILM COATED | Valid |
+| SIN16729P | DASATINIB-TEVA FC TABLET 70MG | TABLET, FILM COATED | Valid |
+| SIN16730P | DASATINIB-TEVA FC TABLET 50MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 16 HSA registrations.
 
 The list above shows 5 of them.
 

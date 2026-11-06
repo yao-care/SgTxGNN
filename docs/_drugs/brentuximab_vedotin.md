@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Brentuximab vedotin"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Brentuximab Vedotin: predicted new indication follicular lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -85,9 +85,9 @@ None of these publications directly studies brentuximab vedotin as treatment for
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14477P | ADCETRIS® Powder for Concentrate for Solution for Infusion 50mg/vial | Injection, powder, for solution | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14477P | ADCETRIS® POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

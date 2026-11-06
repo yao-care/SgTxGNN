@@ -6,7 +6,7 @@ title: SODIUM FUSIDATE
 parent: Known Uses Only (No New Predictions)
 nav_order: 488
 last_modified_date: 2026-03-11
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -20,8 +20,8 @@ evidence_level: N/A
 
 | Property | Value |
 |----------|-------|
-| Singapore Market Status | Marketed (valid licences: 19 of 19) |
-| Number of Registrations | 19 (valid: 19) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Drug Name | SODIUM FUSIDATE |
 | DrugBank ID | [DB02703](https://go.drugbank.com/drugs/DB02703) |
 | HSA Status | Registered with Health Sciences Authority |

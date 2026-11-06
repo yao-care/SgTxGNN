@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 391
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Erenumab: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,10 +74,10 @@ The TxGNN model produced candidates for Erenumab with a score of 0.99 or higher.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15925P | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED PEN 140MG/ML | INJECTION, SOLUTION | Valid |
 | SIN15543P | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED PEN 70MG/ML | INJECTION, SOLUTION | Valid |
-| SIN15926P | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 140MG/M | INJECTION, SOLUTION | Valid |
 | SIN15545P | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 70MG/ML | INJECTION, SOLUTION | Valid |
+| SIN15925P | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED PEN 140MG/ML | INJECTION, SOLUTION | Valid |
+| SIN15926P | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 140MG/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

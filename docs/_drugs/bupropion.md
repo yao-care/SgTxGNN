@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -84,10 +84,10 @@ These are the same catecholaminergic pathways targeted by established ADHD treat
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10983P | WELLBUTRIN SR TABLETS 150 mg | Film-coated tablet | Not recorded in local data |
-| SIN16411P | CONTRAVE PROLONGED RELEASE TABLET 8MG/90MG | Film-coated extended-release tablet | Not recorded in local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10983P | WELLBUTRIN SR TABLETS 150 mg | TABLET, FILM COATED | Valid |
+| SIN16411P | CONTRAVE PROLONGED RELEASE TABLET 8MG/90MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 
 ## Safety Considerations
 

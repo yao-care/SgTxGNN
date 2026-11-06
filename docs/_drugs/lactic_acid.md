@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,11 +95,11 @@ No literature was retrieved for atypical coarctation of aorta. The closest relat
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04047P | DUOFILM COLLODION | Tincture | Not stated |
-| SIN04987P | SATO UONOME SOLUTION | Solution | Not stated |
-| SIN06281P | COMPOUND SODIUM LACTATE INTRAVENOUS INFUSION BP | Injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04047P | DUOFILM COLLODION | TINCTURE | Valid |
+| SIN04987P | SATO UONOME SOLUTION | SOLUTION | Valid |
+| SIN06281P | COMPOUND SODIUM LACTATE INTRAVENOUS INFUSION BP | INJECTION | Valid |
 
 ---
 

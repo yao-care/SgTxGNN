@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1086
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Zinc gluconate"
 predicted_indications: ["anemia of prematurity", "injury", "cell proliferation disorder", "perinatal disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "radiation or chemically induced disorder", "disease by subcellular system affected", "iatrogenic disease", "regional odontodysplasia"]
 description: "Zinc Gluconate: predicted new indication Anemia of prematurity (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,9 +72,9 @@ Currently no related literature available for anemia of prematurity.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16768P | ZINC AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 1 MG/ML | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16768P | ZINC AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 1 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 The only registered product is an injectable (infusion) formulation made by Laboratoire AGUETTANT.
 

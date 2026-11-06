@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 | Predicted New Indication | Renal hypodysplasia/aplasia |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 15 of 15) |
-| Number of Registrations | 15 (valid: 15) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,15 +71,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-All 15 licences are valid single-ingredient products. The licence records contain no approved-indication text. The main authorisations are listed below.
+The licence records contain no approved-indication text. The main authorisations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09741P | Euthyrox Tablet 100 mcg | Tablet | Not stated in licence record |
-| SIN13251P | Eltroxin Tablet 100 mcg | Tablet | Not stated in licence record |
-| SIN16695P | Thyrocord 75 Tablet 75 mcg | Tablet | Not stated in licence record |
-| SIN16626P | Rovexine-100 Tablets 100 mcg | Tablet | Not stated in licence record |
-| SIN09760P | Levothyroxine Sodium for Injection 500 mcg/vial | Powder for solution for injection | Not stated in licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09739P | EUTHYROX TABLET 25 mcg | TABLET | Valid |
+| SIN09740P | EUTHYROX TABLET 50 mcg | TABLET | Valid |
+| SIN09741P | EUTHYROX TABLET 100 mcg | TABLET | Valid |
+| SIN09760P | LEVOTHYROXINE SODIUM FOR INJECTION 500 mcg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN11536P | EUTHYROX TABLET 75 mcg | TABLET | Valid |
+
+Showing 5 of 16 HSA registrations.
 
 Products are available as oral tablets and as an injectable.
 

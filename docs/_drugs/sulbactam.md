@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 939
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Sulbactam"
 predicted_indications: ["bacterial arthritis"]
 description: "Sulbactam: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,11 +81,11 @@ The most relevant publications for bacterial arthritis (clinical studies priorit
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01949P | UNASYN 3000 FOR INJECTION | Injection, powder, for solution | Not stated in the licence data |
-| SIN01948P | UNASYN 1500 FOR INJECTION | Injection, powder, for solution | Not stated in the licence data |
-| SIN01950P | UNASYN 750 FOR INJECTION | Injection, powder, for solution | Not stated in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01948P | UNASYN 1500 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN01949P | UNASYN 3000 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN01950P | UNASYN 750 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 All three are valid single-ingredient licences, manufactured by Haupt Pharma Latina S.r.L. The only registered route is injectable.
 
@@ -102,7 +102,6 @@ Please refer to the package insert for full warnings and contraindications.
 
 **Rationale:**
 The mechanistic link is plausible, but the evidence for bacterial arthritis is limited to small, older, mostly open-label studies and case reports, with no registered trials. Evidence is also graded L3 and the programme stage is S1. In addition, the safety review cannot proceed because the Singapore package insert warnings and contraindications have not been obtained.
-
 
 **To proceed, the following is needed:**
 - Singapore package insert warnings and contraindications (a blocking gap for safety screening)

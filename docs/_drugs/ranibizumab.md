@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ranibizumab"
 predicted_indications: ["diabetes mellitus type 2 associated cataract", "mature cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ranibizumab: predicted new indication Diabetes mellitus type 2 associated cataract (evidence level L5). Approved use: Diabetic retinopathy, diabetic macular edema…"
 ---
 
@@ -79,10 +79,10 @@ Both publications concern diabetic macular edema, not cataract.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14772P | LUCENTIS Solution for Injection in Pre-filled Syringe 1.65mg/0.165ml | Injection, solution | Not stated in the data compiled |
-| SIN13411P | Lucentis 10mg/ml Solution for Injection | Injection, solution | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13411P | Lucentis 10mg/ml Solution for Injection | INJECTION, SOLUTION | Valid |
+| SIN14772P | LUCENTIS SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 1.65mg/0.165ml | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

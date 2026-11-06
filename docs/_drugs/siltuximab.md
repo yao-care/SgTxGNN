@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 913
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Siltuximab"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
 description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,10 +80,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14762P | SYLVANT powder for concentrate for solution for infusion 100 mg/vial | Injection, lyophilized powder for solution | Not specified in the registration record |
-| SIN14763P | SYLVANT powder for concentrate for solution for infusion 400 mg/vial | Injection, lyophilized powder for solution | Not specified in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14762P | SYLVANT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN14763P | SYLVANT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 400MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 Both registrations are valid single-ingredient products from Cilag AG.
 
@@ -106,7 +106,6 @@ Please refer to the package insert for warnings and contraindications.
 
 **Rationale:**
 The prediction score is high (0.9964), but there are no clinical trials or publications for siltuximab in extracutaneous mastocytoma, and the mechanistic link is only a general suggestion of IL-6 involvement. The evidence level is L5.
-
 
 **To proceed, the following is needed:**
 - Evidence that IL-6 contributes to the disease biology of extracutaneous mastocytoma (preclinical or mechanistic studies)

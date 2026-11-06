@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1057
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Vasopressin: predicted new indication Congenital prothrombin deficiency (evidence level L4). Approved use: Not stated in the available licence data"
 monitor_inn: "Vasopressin"
 predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
@@ -78,9 +78,9 @@ None of these studies involves vasopressin in prothrombin deficiency.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08350P | Vasopressin Injection USP 20 u/ml (Fresenius Kabi USA, LLC) | Injection | Not stated in available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08350P | VASOPRESSIN INJECTION USP 20 u/ml | INJECTION | Valid |
 
 ## Safety Considerations
 

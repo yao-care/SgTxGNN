@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 868
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Rilpivirine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Rilpivirine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -89,11 +89,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16568P | REKAMBYS Prolonged-Release Suspension for Injection 300mg/ml | Extended-release injectable suspension | Not stated in the licence record |
-| SIN14363P | EDURANT Film-Coated Tablet 25 mg | Film-coated tablet | Not stated in the licence record |
-| SIN16015P | ODEFSEY Film-Coated Tablet 200mg/25mg/25mg | Film-coated tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14363P | EDURANT FILM-COATED TABLET 25 MG | TABLET, FILM COATED | Valid |
+| SIN16568P | REKAMBYS PROLONGED-RELEASE SUSPENSION FOR INJECTION 300MG/ML | INJECTION, SUSPENSION, EXTENDED RELEASE | Valid |
+| SIN16015P | ODEFSEY FILM-COATED TABLET 200MG/25MG/25MG | TABLET, FILM COATED | Valid |
 
 ---
 

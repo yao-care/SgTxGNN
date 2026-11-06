@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 749
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Overactive bladder, neurogenic bladder, cauda equina syndrome"
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
@@ -70,9 +70,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11215P | OBUTIN TABLETS 5 mg (Hanlim Pharmaceutical) | Tablet (oral) | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11215P | OBUTIN TABLETS 5 mg | TABLET | Valid |
 
 ## Safety Considerations
 

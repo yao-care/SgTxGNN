@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 932
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Sotalol"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
 description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,10 +89,10 @@ For reference, the most relevant publications found for the rank 4 prediction (s
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13311P | SotaHexal 80mg Tablet | Film-coated tablet | Not stated in the data |
-| SIN09139P | APO-SOTALOL TABLET 160 mg | Tablet | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09139P | APO-SOTALOL TABLET 160 mg | TABLET | Valid |
+| SIN13311P | SotaHexal 80mg Tablet | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

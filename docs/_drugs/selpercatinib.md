@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 904
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Selpercatinib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available in the Singapore licence records"
 monitor_inn: "Selpercatinib"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -48,8 +48,8 @@ Selpercatinib is a selective RET kinase inhibitor, marketed in Singapore as TANS
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,10 +74,12 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16991P | TANSTRIVE HARD CAPSULES 80MG | Capsule | Not stated in the records |
-| SIN16990P | TANSTRIVE HARD CAPSULES 40MG | Capsule | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16990P | TANSTRIVE HARD CAPSULES 40MG | CAPSULE | Valid |
+| SIN16991P | TANSTRIVE HARD CAPSULES 80MG | CAPSULE | Valid |
+| SIN17487P | TANSTRIVE TABLETS 40MG | TABLET, FILM COATED | Valid |
+| SIN17488P | TANSTRIVE TABLETS 80MG | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Norelgestromin"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Norelgestromin: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -73,9 +73,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12423P | EVRA TRANSDERMAL PATCH (6 mg/600 mcg) | Patch | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12423P | EVRA TRANSDERMAL PATCH (6 mg/600 mcg) | PATCH | Valid |
 
 Manufacturer: LTS Lohmann Therapie-Systeme AG. The registration is valid and is a single-ingredient listing.
 

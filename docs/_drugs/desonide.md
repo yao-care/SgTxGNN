@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Desonide"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
 description: "Desonide: predicted new indication Polyp of vocal cord (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,10 +83,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08252P | DESOWEN CREAM 0.05% | Cream | Not stated in the data compiled |
-| SIN08572P | DESOWEN LOTION 0.05% | Lotion | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08252P | DESOWEN CREAM 0.05% | CREAM | Valid |
+| SIN08572P | DESOWEN LOTION 0.05% | LOTION | Valid |
 
 Both licences are valid single-ingredient products from Laboratoires Galderma. The available formulations are topical (cream and lotion).
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Anaplastic astrocytoma, astrocytoma (excluding glioblastoma)…"
 ---
 
@@ -77,13 +77,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15710P | TemoRel Hard Capsule 20 mg | Capsule | Not stated in the available records |
-| SIN15709P | TemoRel Hard Capsule 100 mg | Capsule | Not stated in the available records |
-| SIN15066P | Astrodal Capsules 100 mg | Capsule | Not stated in the available records |
-| SIN15067P | Astrodal Capsules 20 mg | Capsule | Not stated in the available records |
-| SIN11707P | Temodal Capsule 100 mg | Capsule | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11706P | TEMODAL CAPSULE 20 mg | CAPSULE | Valid |
+| SIN11707P | TEMODAL CAPSULE 100 mg | CAPSULE | Valid |
+| SIN15066P | ASTRODAL CAPSULES 100MG | CAPSULE | Valid |
+| SIN15067P | ASTRODAL CAPSULES 20MG | CAPSULE | Valid |
+| SIN15641P | GLIOTEM 20 CAPSULE 20 MG | CAPSULE | Valid |
+
+Showing 5 of 8 HSA registrations.
 
 Three further single-ingredient licences are also valid: SIN15642P and SIN15641P (Gliotem 100 mg and 20 mg) and SIN11706P (Temodal 20 mg). All 8 licences are oral capsules.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alglucosidase Alfa: predicted new indication Adult polyglucosan body disease (evidence level L5). Approved use: Glycogen storage disease"
 monitor_inn: "Alglucosidase alfa"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
@@ -78,9 +78,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13543P | Myozyme® (Alglucosidase alfa) 50mg Powder for Solution for Infusion | Injection, powder, lyophilized, for solution | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13543P | Myozyme® (Alglucosidase alfa) 50mg Powder for Solution for Infusion | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 The product is a single-ingredient injectable (manufacturer: Genzyme Ireland Limited) with a valid status. There are no cancelled registrations.
 

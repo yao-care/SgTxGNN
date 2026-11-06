@@ -5,7 +5,7 @@ layout: default
 title: Bortezomib
 parent: Known Uses Only (No New Predictions)
 nav_order: 168
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bortezomib: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Bortezomib"
 predicted_indications: []
@@ -43,20 +43,22 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 12 of 12) |
-| Number of Registrations | 12 (valid: 12) |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 
 ## Singapore Market Information
 
-Twelve single-ingredient registrations are valid, and none has been cancelled. All are injectable powders for solution (3.5 mg/vial). Approved indication text was not provided for any of them. The five main authorizations are listed below.
+All are injectable powders for solution (3.5 mg/vial). Approved indication text was not provided for any of them. The five main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13064P | Velcade 3.5 mg for Injection (BSP Pharmaceuticals) | Injection, powder, for solution |
-| SIN15900P | Pfizer Bortezomib Powder for Injection 3.5 mg (Gland Pharma) | Injection, powder, for solution |
-| SIN15594P | Bortesun Powder for Solution for Injection 3.5 mg/vial (Sun Pharmaceutical) | Injection, powder, lyophilized, for solution |
-| SIN16732P | Bortezomib-Teva Powder for Solution for Injection 3.5 mg/vial | Injection, powder, lyophilized, for solution |
-| SIN16472P | Bortezomib Kabi Powder for Solution for Injection 3.5 mg/vial (Fresenius Kabi Oncology) | Injection, powder, lyophilized, for solution |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13064P | VELCADE 3.5mg FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15243P | BORACTIB POWDER FOR SOLUTION FOR INJECTION 3.5MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15594P | BORTESUN POWDER FOR SOLUTION FOR INJECTION 3.5 MG/ VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15853P | ZOMOD 3.5 POWDER FOR SOLUTION FOR INJECTION 3.5MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15900P | PFIZER BORTEZOMIB POWDER FOR INJECTION 3.5MG | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+Showing 5 of 13 HSA registrations.
 
 ## Cytotoxicity
 

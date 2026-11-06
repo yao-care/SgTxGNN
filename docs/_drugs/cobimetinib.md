@@ -5,7 +5,7 @@ layout: default
 title: Cobimetinib
 parent: Known Uses Only (No New Predictions)
 nav_order: 275
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cobimetinib: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "cobimetinib"
 predicted_indications: []
@@ -50,9 +50,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15219P | COTELLIC FILM-COATED TABLET 20 MG | Film-coated tablet (oral) | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15219P | COTELLIC FILM-COATED TABLET 20 MG | TABLET, FILM COATED | Valid |
 
 ---
 

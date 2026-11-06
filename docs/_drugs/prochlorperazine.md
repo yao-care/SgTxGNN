@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Prochlorperazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
 description: "Prochlorperazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The best-supported lead among the predicted indications is **manic bipolar affec
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,11 +82,9 @@ No literature is available for the top-ranked prediction (retinal dystrophy). Th
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01382P | STEMETIL INJECTION 12.5 mg/ml | Injection | Not available |
-| SIN02049P | PROCHLOR TABLETS 5 mg | Tablet | Not available |
-| SIN03002P | PROPERAZINE TABLET 5 mg | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02049P | PROCHLOR TABLETS 5 mg | TABLET | Valid |
 
 ## Cytotoxicity
 

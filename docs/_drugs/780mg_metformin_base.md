@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 15
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -43,7 +43,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 The drug field (INN) in this Evidence Pack contains a non-standard string `"780MG METFORMIN BASE)"`, which appears to result from a parsing error where dosage specifications were inadvertently mixed into the drug name field, rather than representing a correct international nonproprietary name.
-Due to failed drug identification, the system was unable to retrieve any TxGNN predicted indications, Singapore market availability data, or safety data. **At present, drug repurposing assessment cannot be executed**.
+Due to failed drug identification, the system was unable to retrieve any TxGNN predicted indications, or safety data. **At present, drug repurposing assessment cannot be executed**.
 
 ---
 
@@ -56,9 +56,8 @@ Due to failed drug identification, the system was unable to retrieve any TxGNN p
 | Predicted New Indications | None (predicted_indications array is empty) |
 | TxGNN Prediction Score | No data |
 | Evidence Level | L5 (model prediction data missing) |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
-| License Count | 0 |
+| Singapore Market Status | Marketed (valid licences: 65 of 65) |
+| Number of Registrations | 65 (valid: 65) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -85,10 +84,6 @@ No relevant literature data are currently available (predicted_indications is em
 
 ## Singapore Market Information
 
-The present query retrieved no Singapore approval records (total_licenses: 0).
-
-Should drug identification be confirmed as Metformin, re-querying is warranted—Metformin is widely marketed in Singapore and would be expected to have multiple HSA approval records.
-
 ---
 
 ## Safety Considerations
@@ -102,7 +97,7 @@ Please consult product labeling warnings and contraindications. Safety data quer
 **Decision: Hold**
 
 **Rationale:**
-The drug identification field (INN) contains a malformed string, resulting in complete failure of DrugBank mapping, TxGNN prediction, Singapore market availability query, and safety assessment. Without data correction, this case presents no evaluable prediction evidence.
+The drug identification field (INN) contains a malformed string, resulting in complete failure of DrugBank mapping, TxGNN prediction, and safety assessment. Without data correction, this case presents no evaluable prediction evidence.
 
 **To proceed, the following is needed:**
 
@@ -116,9 +111,6 @@ The drug identification field (INN) contains a malformed string, resulting in co
 
 3. **Re-execute TxGNN prediction**
    - Upon confirmation of drug identification, regenerate `predicted_indications`
-
-4. **Supplement Singapore HSA data (High)**
-   - Metformin should have market records in Singapore; re-query to confirm
 
 5. **Supplement product labeling safety data (Blocking)**
    - Per DG001 remediation measures: download product labeling PDF for parsing of warnings and contraindications

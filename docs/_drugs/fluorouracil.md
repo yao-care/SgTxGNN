@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,11 +74,11 @@ For context, the closest disease-level prediction, rhabdomyosarcoma (general), h
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05050P | DBL Fluorouracil Injection BP 50mg/mL | Injection | Not stated in the licence record |
-| SIN09904P | Fluorouracil Injection 50 mg/ml | Injection | Not stated in the licence record |
-| SIN04266P | Verrumal Solution | Solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05050P | DBL Fluorouracil Injection BP 50mg/mL | INJECTION | Valid |
+| SIN09904P | FLUOROURACIL INJECTION 50 mg/ml | INJECTION | Valid |
+| SIN04266P | VERRUMAL SOLUTION | SOLUTION | Valid |
 
 ## Cytotoxicity
 

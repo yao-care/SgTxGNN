@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 870
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Rimegepant"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Rimegepant: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,9 +92,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16702P | NURTEC ORALLY DISINTEGRATING TABLET 75MG | Tablet, orally disintegrating | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16702P | NURTEC ORALLY DISINTEGRATING TABLET 75MG | TABLET, ORALLY DISINTEGRATING | Valid |
 
 ---
 

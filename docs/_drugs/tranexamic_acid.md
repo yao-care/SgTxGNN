@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1011
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The prediction is best treated as a research question rather than an actionable 
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,6 @@ The prediction is best treated as a research question rather than an actionable 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tranexamic acid is a lysine analogue that blocks plasminogen binding to fibrin, which reduces fibrinolysis. It is established for heavy menstrual bleeding.
 
 The high TxGNN score for amenorrhea probably reflects the drug's close association with menstrual disorders. However, amenorrhea means the absence of menses, so a drug that reduces bleeding does not treat it. The biological link is indirect. At most, tranexamic acid might play a role in menstrual suppression or prophylaxis, for example in women with haematological cancers, but that is not treatment of amenorrhea as a condition.
-
 
 ---
 
@@ -86,15 +85,17 @@ Neither article studies tranexamic acid for treating amenorrhea.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16551P | Tafixyl Solution for Injection 100 mg/ml | Injection, solution | Not available |
-| SIN15167P | Medsamic Solution for Injection 100 mg/ml | Injection, solution | Not available |
-| SIN15715P | Xamilux Injection 100 mg/ml | Injection, solution | Not available |
-| SIN02488P | Cyklokapron Injection 100 mg/ml | Injection | Not available |
-| SIN15052P | Haemostop Injection 100 mg/ml | Injection, solution | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02487P | CYKLOKAPRON TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN02488P | CYKLOKAPRON INJECTION 100 mg/ml | INJECTION | Valid |
+| SIN15052P | HAEMOSTOP INJECTION 100MG/ML | INJECTION, SOLUTION | Valid |
+| SIN15167P | MEDSAMIC SOLUTION FOR INJECTION 100MG/ML | INJECTION, SOLUTION | Valid |
+| SIN15715P | XAMILUX INJECTION 100MG/ML | INJECTION, SOLUTION | Valid |
 
-A sixth licence, Cyklokapron Tablet 500 mg (SIN02487P, film-coated tablet), is also valid. All six licences are single-ingredient products. Both injectable and oral forms are available.
+Showing 5 of 7 HSA registrations.
+
+A sixth licence, Cyklokapron Tablet 500 mg (SIN02487P, film-coated tablet), is also valid. Both injectable and oral forms are available.
 
 ---
 

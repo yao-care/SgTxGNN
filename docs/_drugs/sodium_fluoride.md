@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 922
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Sodium fluoride"
 predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
 description: "Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,12 +74,12 @@ For reference, the closest-ranked laryngeal prediction (laryngitis, rank 7) retu
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07802P | DURAPHAT 50mg/ml Dental Suspension | Liquid | Not specified |
-| SIN08899P | PEDITRACE Concentrate for Parenteral Infusion | Injection | Not specified |
-| SIN15302P | ADDAVEN Concentrate for Solution for Infusion | Infusion, solution concentrate | Not specified |
-| SIN14341P | Nutritrace Concentrate for Solution for Infusion | Infusion, solution concentrate | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07802P | DURAPHAT 50mg/ml DENTAL SUSPENSION | LIQUID | Valid |
+| SIN08899P | PEDITRACE CONCENTRATE FOR PARENTERAL INFUSION | INJECTION | Valid |
+| SIN14341P | Nutritrace Concentrate for solution for infusion | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 All four registrations are valid single-ingredient licences. The available forms are a dental liquid and injectable or infusion concentrates. Epiglottitis is an acute airway infection, and none of these forms is an established route for treating it.
 

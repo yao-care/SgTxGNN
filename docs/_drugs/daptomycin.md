@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Daptomycin: predicted new indication Osteoarthritis (evidence level L4). Approved use: Not stated in the Singapore licence records . The drug is generally k…"
 monitor_inn: "Daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -93,15 +93,17 @@ Ten publications were retrieved for osteoarthritis. All concern bone and joint *
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16443P | Pfizer Daptomycin 500 mg/vial | Lyophilised powder for injection/infusion | Not stated in the records |
-| SIN16813P | Penmix Daptomycin 500 mg/vial | Lyophilised powder for injection/infusion | Not stated in the records |
-| SIN16828P | Bedapt Daptomycin 500 mg/vial | Powder for solution for injection/infusion | Not stated in the records |
-| SIN17204P | Daptomycin/Anfarm 500 mg/vial | Lyophilised powder for injection/infusion | Not stated in the records |
-| SIN16900P | Daptomycin-AFT 500 mg/vial | Lyophilised powder for injection/infusion | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16071P | DAPTOCCORD 500 POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500 MG/VI | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16443P | PFIZER DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500 MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16813P | PENMIX DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500MG/ | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16828P | BEDAPT DAPTOMYCIN POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500MG/ | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN16900P | DAPTOMYCIN-AFT POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500 MG/VI | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
-Two further licences are valid: SIN16071P (Daptoccord 500) and SIN13501P (Cubicin 500 mg). In total there are 7 valid single-ingredient licences, all injectable.
+Showing 5 of 7 HSA registrations.
+
+In total there are 7 valid single-ingredient licences, all injectable.
 
 ---
 

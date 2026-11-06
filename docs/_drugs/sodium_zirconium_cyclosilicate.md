@@ -5,7 +5,7 @@ layout: default
 title: Sodium Zirconium Cyclosilicate
 parent: Known Uses Only (No New Predictions)
 nav_order: 924
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sodium Zirconium Cyclosilicate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Sodium zirconium cyclosilicate"
 predicted_indications: []
@@ -48,10 +48,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15961P | LOKELMA POWDER FOR ORAL SUSPENSION 5G | Powder, for suspension | Not stated in the registration data |
-| SIN15962P | LOKELMA POWDER FOR ORAL SUSPENSION 10G | Powder, for suspension | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15961P | LOKELMA POWDER FOR ORAL SUSPENSION 5G | POWDER, FOR SUSPENSION | Valid |
+| SIN15962P | LOKELMA POWDER FOR ORAL SUSPENSION 10G | POWDER, FOR SUSPENSION | Valid |
 
 ## Safety Considerations
 

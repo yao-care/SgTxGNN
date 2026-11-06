@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 965
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Terbinafine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All candidates that the TxGNN model produced for Terbinafine (score ≥ 0.99) an
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 
 ## Known uses among the model's candidates
 
@@ -74,14 +74,13 @@ All candidates that the TxGNN model produced for Terbinafine (score ≥ 0.99) an
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15413P | DERMAFIN CREAM 10MG/G | CREAM | Valid |
-| SIN15295P | SOLVEASY TINEA SPRAY 1% w/w | SPRAY | Valid |
-| SIN16925P | FUNGIFEX TABLET 250MG | TABLET | Valid |
-| SIN16896P | FINAB CREAM 1% W/W | CREAM | Valid |
-| SIN06932P | LAMISIL TABLET 250 mg | TABLET, FILM COATED | Valid |
-| SIN15296P | SOLVEASY TINEA CREAM 1% w/w | CREAM | Valid |
 | SIN07623P | LAMISIL CREAM 1% | CREAM | Valid |
 | SIN10617P | LAMISIL DERMGEL 1% | GEL | Valid |
+| SIN15295P | SOLVEASY TINEA SPRAY 1% w/w | SPRAY | Valid |
+| SIN15296P | SOLVEASY TINEA CREAM 1% w/w | CREAM | Valid |
+| SIN15413P | DERMAFIN CREAM 10MG/G | CREAM | Valid |
+| SIN16896P | FINAB CREAM 1% W/W | CREAM | Valid |
+| SIN16925P | FUNGIFEX TABLET 250MG | TABLET | Valid |
 
 ## Safety Considerations
 

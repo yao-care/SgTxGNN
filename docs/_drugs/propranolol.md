@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 836
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Better-supported candidates lower in the ranking are **intramuscular hemangioma*
 | Predicted New Indication | Distal myopathy, Tateyama type |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -97,15 +97,15 @@ Currently no related literature available for distal myopathy, Tateyama type. Th
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00076P | INPANOL TABLETS 10 mg | Tablet | Not available |
-| SIN07707P | NALOL TABLET 10 mg (Revised formula) | Tablet | Not available |
-| SIN01621P | PROPANOL TABLETS 40 mg | Film-coated tablet | Not available |
-| SIN01978P | NALOL TABLET 40 mg | Tablet | Not available |
-| SIN07708P | NALOL TABLET 80 mg | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00041P | APO-PROPRANOLOL TABLET 40 mg | TABLET | Valid |
+| SIN00046P | APO-PROPRANOLOL TABLET 10 mg | TABLET | Valid |
+| SIN00076P | INPANOL TABLETS 10 mg | TABLET | Valid |
+| SIN00094P | PROPANOL TABLET 10 mg | TABLET | Valid |
+| SIN01621P | PROPANOL TABLETS 40 mg | TABLET, FILM COATED | Valid |
 
-Three further registrations (APO-PROPRANOLOL 10 mg and 40 mg, PROPANOL 10 mg) are also valid, giving 8 valid single-ingredient licences in total. All are oral tablets.
+All are oral tablets.
 
 ---
 
@@ -137,7 +137,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, distal myopathy, Tateyama type, is supported only by a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no literature and no plausible mechanism. The knowledge graph also lists myopathy as a contraindication. Propranolol is widely marketed in Singapore (8 valid licences of 8), but the better-supported candidate (intramuscular hemangioma) relies on indirect evidence, so it is better treated as a research question than as a new-indication opportunity.
+The top-ranked prediction, distal myopathy, Tateyama type, is supported only by a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no literature and no plausible mechanism. The knowledge graph also lists myopathy as a contraindication. Propranolol is widely marketed in Singapore, but the better-supported candidate (intramuscular hemangioma) relies on indirect evidence, so it is better treated as a research question than as a new-indication opportunity.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Health Sciences Authority (HSA) website, and approved indication text for the Singapore licences

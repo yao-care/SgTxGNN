@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,11 +81,11 @@ None of the publications below tests amiodarone in CPVT. They are listed for dis
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15782P | DIOLUX Concentrate for Solution for Injection 50 mg/ml | Injection, solution, concentrate | Not stated in the data |
-| SIN09784P | CORDARONE Tablet 200 mg | Tablet | Not stated in the data |
-| SIN00852P | CORDARONE Injection 150 mg/3 ml | Injection | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00852P | CORDARONE INJECTION 150 mg/3 ml | INJECTION | Valid |
+| SIN09784P | CORDARONE TABLET 200 mg | TABLET | Valid |
+| SIN15782P | DIOLUX CONCENTRATE FOR SOLUTION FOR INJECTION 50MG/ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
 ## Safety Considerations
 

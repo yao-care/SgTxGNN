@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Bleomycin: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,9 +74,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08426P | DBL Bleomycin Sulfate for Injection 15000 iu/vial | Injection, powder, for solution | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08426P | DBL BLEOMYCIN SULFATE FOR INJECTION 15000 iu/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

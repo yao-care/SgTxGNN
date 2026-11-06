@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 461
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Gadobutrol: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,7 +75,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gadobutrol, 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12399P | GADOVIST INJECTION 1.0 mmol/ml | INJECTION | Valid |
-| SIN13807P | GADOVIST 1MMOL/ML PREFILLED SYRINGE 5.0 ML | INJECTION | Valid |
+| SIN13807P | GADOVIST 1MMOL/ML PREFILLED SYRINGE | INJECTION | Valid |
 
 ## Safety Considerations
 

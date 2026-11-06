@@ -5,7 +5,7 @@ layout: default
 title: Venlafaxine
 parent: Known Uses Only (No New Predictions)
 nav_order: 1062
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Venlafaxine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Venlafaxine"
 predicted_indications: []
@@ -52,13 +52,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Venlafaxine has 7 valid single-ingredient registrations in Singapore, all oral. The first 5 are listed below. Approved indication text is not available in the licence records.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN11435P | EFEXOR XR CAPSULE 75 mg (Pfizer Ireland Pharmaceuticals) | Capsule |
-| SIN15038P | VENLEX XR CAPSULES 75MG (Pharmathen) | Capsule, extended release |
-| SIN15039P | VENLEX FORTE XR CAPSULES 150MG (Pharmathen) | Capsule, extended release |
-| SIN15521P | DEPREVIX MODIFIED RELEASE HARD CAPSULE 150MG (Pharmathen) | Capsule, delayed release |
-| SIN15520P | DEPREVIX MODIFIED RELEASE HARD CAPSULE 75MG (Pharmathen) | Capsule, delayed release |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11435P | EFEXOR XR CAPSULE 75 mg | CAPSULE | Valid |
+| SIN13478P | ViePax XR 75mg Tablet | TABLET, EXTENDED RELEASE | Valid |
+| SIN15038P | VENLEX XR CAPSULES 75MG | CAPSULE, EXTENDED RELEASE | Valid |
+| SIN15039P | VENLEX FORTE XR CAPSULES 150MG | CAPSULE, EXTENDED RELEASE | Valid |
+| SIN15520P | DEPREVIX MODIFIED RELEASE HARD CAPSULE 75MG | CAPSULE, DELAYED RELEASE | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ---
 

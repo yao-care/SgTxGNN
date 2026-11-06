@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Deoxycholic acid"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy"]
 description: "Deoxycholic Acid: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -37,7 +37,7 @@ description: "Deoxycholic Acid: predicted new indication Autosomal dominant fami
 
 ## One-Sentence Summary
 
-Deoxycholic acid is a secondary bile acid, marketed in Singapore as an injectable (BELKYRA) and known for its cell-membrane-disrupting (cytolytic) action in fat reduction. The TxGNN model predicts it may be effective for **diabetic nephropathy**, the highest-ranked prediction that has any literature support. This direction is supported by **0 clinical trials** and **4 publications**, all indirect (preclinical or observational bile acid studies).
+Deoxycholic acid is a secondary bile acid, known for its cell-membrane-disrupting (cytolytic) action in fat reduction. The TxGNN model predicts it may be effective for **diabetic nephropathy**, the highest-ranked prediction that has any literature support. This direction is supported by **0 clinical trials** and **4 publications**, all indirect (preclinical or observational bile acid studies).
 
 Note: the top-ranked TxGNN predictions (a COL4A1-related syndrome and brain small vessel disease) have no supporting evidence of any kind. Diabetic nephropathy is featured here because it is the highest-ranked prediction with any supporting literature.
 
@@ -49,8 +49,8 @@ Note: the top-ranked TxGNN predictions (a COL4A1-related syndrome and brain smal
 | Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15509P | BELKYRA INJECTION 10 MG/ML | Injection, solution | Not stated in the registration data |
-
-The manufacturer is Hospira, Inc. This is a single-ingredient product with valid status.
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Safety Considerations
 

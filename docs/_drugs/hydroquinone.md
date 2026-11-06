@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Hydroquinone"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
 description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,7 +86,6 @@ For seborrheic keratosis:
 |------|-----|------|------|---------|
 | [33046430](https://pubmed.ncbi.nlm.nih.gov/33046430/) | 2021 | Cohort | J Plast Reconstr Aesthet Surg | Prospective observational study of a combination treatment algorithm for facial pigmentary disorders in Asian patients. Indirect evidence only. |
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [35151757](https://pubmed.ncbi.nlm.nih.gov/35151757/) | 2023 | Review | J Am Acad Dermatol | Pathogenesis and clinical features of common pigmentary disorders, including lichen planus pigmentosus |
@@ -102,9 +101,9 @@ It includes a report of **no response** to hydroquinone, so it does not support 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12607P | TRI-LUMA CREAM | Cream | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12607P | TRI-LUMA CREAM | CREAM | Valid |
 
 Hydroquinone is currently available in Singapore only as a topical cream.
 

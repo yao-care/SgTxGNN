@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 566
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Superficial fungal infections and related skin conditions (tinea pedi…"
 monitor_inn: "Ketoconazole"
 predicted_indications: ["acne (disease)"]
@@ -52,8 +52,8 @@ Among the other predictions for this drug, **vulvovaginal candidiasis** has much
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 21 of 21) |
+| Number of Registrations | 21 (valid: 21) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -96,15 +96,17 @@ Much of the remaining retrieved literature is tangential (polycystic ovary syndr
 
 ## Singapore Market Information
 
-There are 20 valid registrations, all single-ingredient products. Approved indication text is not available in the registration records. Main authorisations:
+Approved indication text is not available in the registration records. Main authorisations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01117P | NIZORAL CREAM 2% (Janssen) | Cream | Not available |
-| SIN04926P | NIZORAL SHAMPOO 20 mg/g | Shampoo | Not available |
-| SIN04863P | PHYTORAL TABLET 200 mg | Tablet | Not available |
-| SIN10955P | KETOCONAZOLE TABLETS 200 mg (Hovid) | Tablet | Not available |
-| SIN10030P | PHYTORAL OINTMENT 2% w/w | Ointment | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01117P | NIZORAL CREAM 2% | CREAM | Valid |
+| SIN04863P | PHYTORAL TABLET 200 mg | TABLET | Valid |
+| SIN04926P | NIZORAL SHAMPOO 20 mg/g | SHAMPOO | Valid |
+| SIN07793P | ANTANAZOL TABLET 200 mg | TABLET | Valid |
+| SIN07997P | ANTANAZOL CREAM 2% | CREAM | Valid |
+
+Showing 5 of 21 HSA registrations.
 
 Available forms include creams, shampoos, ointments and 200 mg tablets. A topical cream is therefore already available for the route used in the acne trial.
 

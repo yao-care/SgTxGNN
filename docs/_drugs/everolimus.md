@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 412
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -89,13 +89,13 @@ The evidence is still early. The one directly relevant trial is a single-arm Pha
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13194P | Certican Tablets 0.25 mg | Tablet | Not listed in registration data |
-| SIN13195P | Certican Tablets 0.75 mg | Tablet | Not listed in registration data |
-| SIN13196P | Certican Tablets 0.5 mg | Tablet | Not listed in registration data |
-| SIN13749P | Afinitor Tablet 10 mg | Tablet | Not listed in registration data |
-| SIN13750P | Afinitor Tablet 5 mg | Tablet | Not listed in registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13194P | CERTICAN TABLETS 0.25 MG | TABLET | Valid |
+| SIN13195P | CERTICAN TABLETS 0.75 MG | TABLET | Valid |
+| SIN13196P | CERTICAN TABLETS 0.5 MG | TABLET | Valid |
+| SIN13749P | Afinitor Tablet 10mg | TABLET | Valid |
+| SIN13750P | Afinitor Tablet 5mg | TABLET | Valid |
 
 All five registrations are valid single-ingredient oral tablets from Novartis.
 

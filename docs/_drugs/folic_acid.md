@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 449
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This prediction rests on model output alone and is not supported by direct evide
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,13 +92,14 @@ The most relevant publications are listed below. All are reviews or general pape
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12633P | EUROFER CHEW TABLETS | Tablet | Not stated in the available records |
-| SIN05209P | SOLUVIT N FOR INFUSION | Powder for solution for injection | Not stated in the available records |
-| SIN11975P | CERNEVIT FOR INJECTION | Powder for solution for injection | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN05447P | IBERET-FOLIC-500 TABLET | TABLET, FILM COATED | Valid |
+| SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN12633P | EUROFER CHEW TABLETS | TABLET | Valid |
 
-All three licences are valid single-ingredient registrations. Routes available are oral and injectable.
+Routes available are oral and injectable.
 
 ---
 

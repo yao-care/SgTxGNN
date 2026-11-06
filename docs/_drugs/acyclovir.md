@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Acyclovir: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -50,8 +50,8 @@ Among the other predictions for this drug, **common wart** (intralesional use) h
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 34 of 34) |
+| Number of Registrations | 34 (valid: 34) |
 | Recommended Decision | Hold |
 
 > **Note:** The top-ranked prediction has no supporting evidence. The second-ranked prediction, **common wart**, has the strongest evidence (L2) and is discussed below as the most promising repurposing direction.
@@ -107,15 +107,17 @@ For the best-supported prediction, **common wart**, the main publications are:
 
 ## Singapore Market Information
 
-Twenty valid single-ingredient registrations are on record. The records compiled for this report contain no approved indication text. The main ones are listed below.
+The records compiled for this report contain no approved indication text. The main ones are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01192P | ZOVIRAX SUSPENSION 200 mg/5 ml | Suspension | Not available |
-| SIN01191P | ZOVIRAX CREAM 5% w/w | Cream | Not available |
-| SIN14645P | SALACLOVIR POWDER FOR SOLUTION FOR INFUSION 250MG/VIAL | Injection, powder, for solution | Not available |
-| SIN10307P | APO-ACYCLOVIR TABLET 400 mg | Tablet | Not available |
-| SIN08761P | MEDOVIR 200 TABLET 200 mg | Tablet, film coated | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01191P | ZOVIRAX CREAM 5% w/w | CREAM | Valid |
+| SIN01192P | ZOVIRAX SUSPENSION 200 mg/5 ml | SUSPENSION | Valid |
+| SIN08532P | VIRLESS TABLET 200 mg | TABLET | Valid |
+| SIN08605P | VIRLESS CREAM 5 % | CREAM | Valid |
+| SIN08640P | ZORAL 400 TABLET 400 mg | TABLET | Valid |
+
+Showing 5 of 34 HSA registrations.
 
 Available dosage forms cover oral (tablet, film-coated tablet), topical (cream), suspension and injectable (powder for infusion) routes.
 

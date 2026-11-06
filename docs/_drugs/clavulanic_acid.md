@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant for **Ureaplasma urethritis**, but *
 | Predicted New Indication | Ureaplasma urethritis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 12 of 12) |
-| Number of Registrations | 12 (valid: 12) |
+| Singapore Market Status | Marketed (valid licences: 26 of 26) |
+| Number of Registrations | 26 (valid: 26) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,13 +78,15 @@ The publications below concern urethritis in general. None evaluates clavulanic 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08956P | AUGMENTIN TABLET 1 g | Film-coated tablet | Not recorded |
-| SIN16749P | CLAMOX FILM-COATED TABLETS 1G | Film-coated tablet | Not recorded |
-| SIN11027P | ENHANCIN TABLETS 625 mg | Film-coated tablet | Not recorded |
-| SIN15043P | SALACLAV POWDER FOR SOLUTION FOR INJECTION 1.2G/VIAL | Powder for solution for injection | Not recorded |
-| SIN11219P | AMOCLA TABLETS 625 mg | Film-coated tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08956P | AUGMENTIN TABLET 1 g | TABLET, FILM COATED | Valid |
+| SIN09827P | AUGMENTIN TABLET 625 mg | TABLET, FILM COATED | Valid |
+| SIN09831P | AUGMENTIN FOR ORAL SUSPENSION 228 mg/5 ml | POWDER, FOR SUSPENSION | Valid |
+| SIN10599P | CURAM FILM-COATED TABLET 625 mg | TABLET, FILM COATED | Valid |
+| SIN10604P | CURAM POWDER FOR ORAL SUSPENSION 312.5 mg/5 ml | POWDER, FOR SUSPENSION | Valid |
+
+Showing 5 of 26 HSA registrations.
 
 ## Safety Considerations
 

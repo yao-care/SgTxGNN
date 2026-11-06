@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Busulfan: predicted new indication Myelodysplastic syndrome (evidence level L1). Approved use: Not stated in the Singapore licence records"
 ---
 
@@ -98,10 +98,10 @@ Many other trials in the compiled set test graft-versus-host disease prevention 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13260P | BUSULFEX® INJECTION 60 mg/vial (Baxter Oncology GmbH) | Injection, solution, concentrate | Not stated in the licence record |
-| SIN11001P | MYRAN TABLETS 2 mg (Korea United Pharmaceutical Inc) | Tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11001P | MYRAN TABLETS 2 mg | TABLET | Valid |
+| SIN13260P | BUSULFEX® INJECTION 60 mg/vial | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
 Both are single-ingredient products with valid status.
 

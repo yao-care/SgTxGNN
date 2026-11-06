@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 858
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -82,9 +82,9 @@ However, the efficacy signal in liposarcoma appears **weaker** than in other sar
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14360P | Stivarga Tablet 40mg (Bayer AG, Leverkusen) | Film-coated tablet | Not listed in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14360P | Stivarga Tablet 40mg | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

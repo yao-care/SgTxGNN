@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Arsenic Trioxide: predicted new indication Unclassified myelodysplastic syndrome (evidence level L5). Approved use: Acute promyelocytic leukaemia (also myelomonocytic leukaemia and AML…"
 monitor_inn: "Arsenic trioxide"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
@@ -54,8 +54,8 @@ The closest, better-supported prediction is **myelodysplastic syndrome (MDS)** i
 | Predicted New Indication | Unclassified myelodysplastic syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 (for the top-ranked prediction); L2 for the broader MDS category |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold (top-ranked prediction); the broader MDS category is a research question |
 
 ---
@@ -112,10 +112,11 @@ No publications were found for unclassified myelodysplastic syndrome itself. The
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16961P | Arsenic Trioxide-AFT Concentrated Solution for Injection for Infusion 10mg/10ml | Injection, solution, concentrate | Not stated in the available records |
-| SIN16634P | Asadin Injection 1mg/ml | Injection | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16634P | ASADIN INJECTION 1MG/ML | INJECTION | Valid |
+| SIN16961P | ARSENIC TRIOXIDE-AFT CONCENTRATED SOLUTION FOR INJECTION FOR INFUSION  | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN17447P | PHENASEN CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/10ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
 ---
 
@@ -157,7 +158,7 @@ The top-ranked prediction, unclassified myelodysplastic syndrome, rests only on 
 - Package insert warnings and contraindications from the HSA, since the safety screening cannot be completed without them
 - Mechanism of action data
 - A cardiac and electrolyte monitoring plan (QT prolongation risk and interacting drugs)
-- Singapore-approved indication text, which is missing from both licences
+- Singapore-approved indication text
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

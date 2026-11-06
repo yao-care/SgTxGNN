@@ -5,7 +5,7 @@ layout: default
 title: Mebeverine
 parent: Known Uses Only (No New Predictions)
 nav_order: 638
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mebeverine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Mebeverine"
 predicted_indications: []
@@ -43,17 +43,18 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09873P | MEBETIN TABLET 135 mg | Tablet, sugar coated | Not listed in the data compiled for this report |
-| SIN07666P | DUSPATALIN RETARD CAPSULE 200 mg | Capsule | Not listed in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07666P | DUSPATALIN RETARD CAPSULE 200 mg | CAPSULE | Valid |
+| SIN09873P | MEBETIN TABLET 135 mg | TABLET, SUGAR COATED | Valid |
+| SIN17409P | MESPAZEN FILM COATED TABLET 135MG | TABLET, FILM COATED | Valid |
 
-Both licences are valid single-ingredient products for oral use. Mebetin is made by Sam Chun Dang Pharm Co Ltd. Duspatalin Retard is made by Abbott Biologicals B.V., Mylan Laboratories SAS and Abbott Laboratories GmbH.
+Mebetin is made by Sam Chun Dang Pharm Co Ltd. Duspatalin Retard is made by Abbott Biologicals B.V., Mylan Laboratories SAS and Abbott Laboratories GmbH.
 
 ## Safety Considerations
 

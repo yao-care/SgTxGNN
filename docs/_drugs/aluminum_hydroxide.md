@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 72
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Aluminum Hydroxide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced candidate indications for Aluminum Hydrox
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 4 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 
 ## Known uses among the model's candidates
 
@@ -77,19 +77,21 @@ The TxGNN deep-learning model produced candidate indications for Aluminum Hydrox
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02930P | ALU-TAB TABLET 600 mg | TABLET, FILM COATED | Valid |
+| SIN03572P | ACTAL TABLET 216 mg | TABLET | Valid |
+| SIN08783P | ALUTACID ANTACID MIXTURE 4% w/w | SUSPENSION | Valid |
 | SIN03159P | ALUMAG TABLETS | TABLET | Valid |
-| SIN09499P | ALLUMAG M TABLET | TABLET | Valid |
-| SIN06592P | AXCEL EVILINE TABLET | TABLET | Valid |
+| SIN03314P | SEMOR STOMACH TABLET | TABLET | Valid |
 | SIN03406P | POLYSILIC III SUSPENSION | SUSPENSION | Valid |
-| SIN06400P | AXCEL EVILINE FORTE SUSPENSION | SUSPENSION | Valid |
-| SIN03547P | ALUMAG PLUS TABLETS | TABLET | Valid |
-| SIN03484P | HYDROSIL TABLET | TABLET | Valid |
-| SIN09280P | WEISEN-U TABLET | TABLET, FILM COATED | Valid |
-| SIN07046P | CENVITE TABLET | TABLET | Valid |
 | SIN03440P | INON GRANULES | GRANULE | Valid |
-| SIN09497P | ALLUMAG MPS TABLET | TABLET | Valid |
-| SIN07066P | SUNTACID TABLET | TABLET | Valid |
-| SIN08119P | MACGEL TABLET | TABLET | Valid |
+| SIN03484P | HYDROSIL TABLET | TABLET | Valid |
+| SIN03547P | ALUMAG PLUS TABLETS | TABLET | Valid |
+| SIN05336P | WELUSIL TABLET | TABLET | Valid |
+| SIN06400P | AXCEL EVILINE FORTE SUSPENSION | SUSPENSION | Valid |
+| SIN06592P | AXCEL EVILINE TABLET | TABLET | Valid |
+| SIN07376P | ACTAL PLUS TABLET | TABLET | Valid |
+| SIN07893P | GERSKIN TABLET | TABLET | Valid |
+
+Showing 14 of 18 HSA registrations.
 
 ## Safety Considerations
 

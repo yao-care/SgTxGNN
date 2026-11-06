@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 29
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Acetaminophen: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetamino
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 101 of 101) |
+| Number of Registrations | 101 (valid: 101) |
 
 ## Known uses among the model's candidates
 
@@ -74,26 +74,28 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetamino
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16479P | PANADOL MINI CAPS CAPSULE 500MG | CAPSULE | Valid |
-| SIN11299P | PARACIL TABLETS 500 mg | TABLET | Valid |
-| SIN14871P | PARASUSTAIN SUSTAINED RELEASE TABLETS 665MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
-| SIN14699P | PANADOL WITH OPTIZORB CAPLET 500MG | TABLET, FILM COATED | Valid |
-| SIN11120P | PRITAMOL SUPPOSITORIES 125 mg | SUPPOSITORY | Valid |
-| SIN05565P | PARMOL 250 SUSPENSION 250 mg/5 ml | SUSPENSION | Valid |
-| SIN06670P | DOUBLE PARROT BRAND ADULT FEVER TABLETS 500 mg | TABLET | Valid |
-| SIN06174P | SUNNY PARACETAMOL TABLET 500 mg | TABLET | Valid |
-| SIN10854P | AXCEL PARACETAMOL-250 SUSPENSION (ORANGE) 250 mg/5 ml | SUSPENSION | Valid |
-| SIN11122P | PRITAMOL SUPPOSITORIES 250 mg | SUPPOSITORY | Valid |
-| SIN09869P | PORO TABLET 500 mg | TABLET | Valid |
+| SIN05323P | PROGESIC TABLET 500 mg | TABLET | Valid |
 | SIN05328P | PANAMOL TABLETS 500 mg | TABLET | Valid |
+| SIN05471P | BIOGESIC TABLET 500 mg | TABLET | Valid |
+| SIN05559P | PANAMOL FORTE SUSPENSION 250 mg/5 ml | SUSPENSION | Valid |
+| SIN05565P | PARMOL 250 SUSPENSION 250 mg/5 ml | SUSPENSION | Valid |
+| SIN05802P | PANAMOL-500 SUSPENSION 500 mg/5 ml | SUSPENSION | Valid |
+| SIN05919P | PANADOL TABLET 500 mg | TABLET | Valid |
+| SIN05921P | PANADOL FOR CHILDREN TABLET 120 mg | TABLET | Valid |
+| SIN06068P | PROGESIC-250 SUSPENSION 250 mg/5 ml | SUSPENSION | Valid |
+| SIN06080P | PANAMOL PAED. SUSPENSION 120 mg/5 ml | SUSPENSION | Valid |
+| SIN06174P | SUNNY PARACETAMOL TABLET 500 mg | TABLET | Valid |
+| SIN06220P | SETAMOL TABLET 500 mg | TABLET, FILM COATED | Valid |
 | SIN06353P | AI KAN SHAN FEVER POWDER 500 mg/sachet | POWDER | Valid |
-| SIN15123P | DUMIN CAPLET 500MG | TABLET | Valid |
-| SIN07404P | PANADOL SOLUBLE TABLET 500 mg | TABLET | Valid |
-| SIN15949P | TYLENOL FILM COATED TABLETS 500MG | TABLET, FILM COATED | Valid |
-| SIN14143P | Avadol Tablet 500mg | TABLET | Valid |
-| SIN15443P | PARACETAMOL KABI SOLUTION FOR INFUSION 10MG/ML | INFUSION, SOLUTION | Valid |
-| SIN10641P | ACET 325 SUPPOSITORIES 325 mg | SUPPOSITORY | Valid |
 | SIN06364P | DHAMOL SUSPENSION 250 mg/5 ml | SUSPENSION | Valid |
+| SIN06365P | DHAMOL SUSPENSION 500 mg/5 ml | SUSPENSION | Valid |
+| SIN06670P | DOUBLE PARROT BRAND ADULT FEVER TABLETS 500 mg | TABLET | Valid |
+| SIN07378P | PARMOL 120 SYRUP 120 mg/5 ml | SYRUP | Valid |
+| SIN07404P | PANADOL SOLUBLE TABLET 500 mg | TABLET | Valid |
+| SIN08377P | REMEDOL 125 SUPPOSITORY 125 mg | SUPPOSITORY | Valid |
+| SIN08788P | PAXIMOL ORAL MIXTURE FOR CHILDREN 120 mg/5 ml | SUSPENSION | Valid |
+
+Showing 20 of 101 HSA registrations.
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

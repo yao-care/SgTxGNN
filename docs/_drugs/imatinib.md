@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Among the other top-ranked predictions, only liposarcoma has relevant Phase 2 tr
 | Predicted New Indication | Heart fibrosarcoma |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 13 of 13) |
-| Number of Registrations | 13 (valid: 13) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -100,15 +100,17 @@ For heart fibrosarcoma, only one publication is available. Key publications for 
 
 ## Singapore Market Information
 
-Imatinib has 13 valid single-ingredient registrations in Singapore, with no cancelled licences. Approved indication text is not recorded in the licence data. The main authorisations are:
+Approved indication text is not recorded in the licence data. The main authorisations are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13279P | Glivec Film Coated Tablet 100mg | Film-coated tablet | Not recorded |
-| SIN13280P | Glivec Film Coated Tablet 400mg | Film-coated tablet | Not recorded |
-| SIN15356P | Vativio Film Coated Tablet 100mg | Film-coated tablet | Not recorded |
-| SIN15357P | Vativio Film Coated Tablet 400mg | Film-coated tablet | Not recorded |
-| SIN15107P | Imatinib-AFT Capsules 100mg | Capsule | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13279P | Glivec Film Coated Tablet 100mg | TABLET, FILM COATED | Valid |
+| SIN13280P | Glivec Film Coated Tablet 400mg | TABLET, FILM COATED | Valid |
+| SIN15107P | IMATINIB-AFT CAPSULES 100MG | CAPSULE | Valid |
+| SIN15108P | IMATINIB-AFT CAPSULES 400MG | CAPSULE | Valid |
+| SIN15306P | VEENAT FILM COATED TABLETS 400 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 16 HSA registrations.
 
 Other registered products include Veenat (100 mg and 400 mg), Hetero Imatinib (100 mg and 400 mg), Imatiqual (100 mg and 400 mg), Neopax 400 mg and Imatinib-AFT 400 mg capsules. All are oral formulations.
 

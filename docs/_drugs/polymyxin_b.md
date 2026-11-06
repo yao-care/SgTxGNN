@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 806
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -103,12 +103,12 @@ Publications most relevant to the top prediction (bronchitis), plus the key conj
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04945P | POLYDEXA EAR DROPS | Solution | Not stated |
-| SIN04358P | MAXITROL STERILE OPHTHALMIC SUSPENSION | Solution | Not stated |
-| SIN04413P | POLYBAMYCIN OINT. | Ointment | Not stated |
-| SIN07745P | POLYGYNAX VAGINAL CAPSULE | Capsule | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04358P | MAXITROL STERILE OPHTHALMIC SUSPENSION | SOLUTION | Valid |
+| SIN04413P | POLYBAMYCIN OINT. | OINTMENT | Valid |
+| SIN04945P | POLYDEXA EAR DROPS | SOLUTION | Valid |
+| SIN07745P | POLYGYNAX VAGINAL CAPSULE | CAPSULE | Valid |
 
 All four licences are valid, single-ingredient registrations. The registered products are for ear, eye, skin and vaginal use, and none is an inhaled or injectable respiratory product.
 

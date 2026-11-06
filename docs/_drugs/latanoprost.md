@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Latanoprost is a prostaglandin eye drop originally used to treat open-angle glau
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 13 of 13) |
-| Number of Registrations | 13 (valid: 13) |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Thirteen valid licences are registered in Singapore, none cancelled. Approved indication text is not listed for these licences. The main authorisations are:
+Approved indication text is not listed for these licences. The main authorisations are:
 
-| Authorization Number | Product Name | Dosage Form | Notes |
-|---------|------|------|-----------|
-| SIN09549P | Xalatan Eye Drops 0.005% | Solution | Originator product (Pfizer) |
-| SIN16849P | Latano Santen Ophthalmic Solution 0.005% w/v | Solution, sterile | Latanoprost alone |
-| SIN15884P | Latanoprost TOA Ophthalmic Solution 0.005% w/v | Solution, sterile | Latanoprost alone |
-| SIN11922P | Xalacom Eye Drops | Solution | Latanoprost-containing product (the Xalacom/Lata-T/Latochek-T names suggest timolol combinations) |
-| SIN16818P | Rocklatan Ophthalmic Solution 0.02% / 0.005% w/v | Solution, sterile | Latanoprost-containing product (Rocklatan is a netarsudil combination) |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09549P | XALATAN EYE DROPS 0.005% | SOLUTION | Valid |
+| SIN14590P | LATANDROPS EYE DROPS SOLUTION 50mcg/ml | SOLUTION | Valid |
+| SIN14956P | LATOCHEK STERILE EYE DROPS 0.005% | SOLUTION, STERILE | Valid |
+| SIN15884P | LATANOPROST TOA OPHTHALMIC SOLUTION 0.005% W/V | SOLUTION, STERILE | Valid |
+| SIN16849P | LATANO SANTEN OPHTHALMIC SOLUTION, 0.005%w/v | SOLUTION, STERILE | Valid |
+
+Showing 5 of 12 HSA registrations.
 
 ## Safety Considerations
 

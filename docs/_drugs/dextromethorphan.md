@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 description: "Dextromethorphan: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This is a model-only prediction with a very high score and no direct evidence be
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 18 of 18) |
-| Number of Registrations | 18 (valid: 18) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,7 +85,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for nasal cavity disease.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [2255670](https://pubmed.ncbi.nlm.nih.gov/2255670/) | 1990 | In vitro | Pharmacology & Toxicology | Effects of dextromethorphan, vadocaine, diphenhydramine and hydroxyzine on ciliary beat frequency in rat tracheal explants; relevant to mucociliary function but does not show therapeutic benefit |
@@ -95,15 +94,17 @@ Currently no related literature available for nasal cavity disease.
 
 ## Singapore Market Information
 
-All 18 licences are valid single-ingredient registrations with no cancellations. Approved indication text is not available in the licence records. Five main authorisations are listed below.
+Approved indication text is not available in the licence records. Five main authorisations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02810P | Beathorphan Elixir 15 mg/5 ml | Elixir | Not available |
-| SIN06770P | Tussidex Forte Linctus 15 mg/5 ml | Elixir | Not available |
-| SIN08825P | Strepsils Cough for Dry Cough Lozenges 5 mg | Lozenge | Not available |
-| SIN02653P | Beathorphan Tablets 15 mg | Tablet, film coated | Not available |
-| SIN13992P | Sunthorphan Syrup 15 mg/5 ml | Syrup | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02653P | BEATHORPHAN TABLETS 15 mg | TABLET, FILM COATED | Valid |
+| SIN02810P | BEATHORPHAN ELIXIR 15 mg/5 ml | ELIXIR | Valid |
+| SIN03252P | DEXCOPHAN PAEDIATRIC LINCTUS 5.5 mg/5 ml | ELIXIR | Valid |
+| SIN06770P | TUSSIDEX FORTE LINCTUS 15 mg/5 ml | ELIXIR | Valid |
+| SIN08789P | METOPHAN COUGH SYRUP 15 mg/5 ml | SYRUP | Valid |
+
+Showing 5 of 16 HSA registrations.
 
 Available forms include elixir, syrup, lozenge, tablet (plain, sugar-coated and film-coated) and gelatin-coated capsule.
 

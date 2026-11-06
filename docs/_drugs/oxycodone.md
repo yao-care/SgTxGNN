@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 749
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Oxycodone: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,13 +74,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oxycodone, s
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN14885P | OXYCONTIN® NEO CONTROLLED-RELEASE TABLETS 20 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
-| SIN14884P | OXYCONTIN® NEO CONTROLLED-RELEASE TABLET 10 mg | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN13079P | OXYNORM 10MG CAPSULE | CAPSULE | Valid |
-| SIN16635P | OXYCODONE KALCEKS SOLUTION FOR INJECTION OR INFUSION 10 MG/M | INJECTION, SOLUTION | Valid |
-| SIN15996P | OXYCODONE WOCKHARDT SOLUTION FOR INJECTION OR INFUSION 10MG/ | INJECTION, SOLUTION | Valid |
 | SIN13083P | OXYNORM 5MG CAPSULE | CAPSULE | Valid |
 | SIN13733P | OxyNorm® Sterile Solution for Injection or Infusion 10mg/ml | INJECTION, SOLUTION | Valid |
+| SIN14884P | OXYCONTIN® NEO CONTROLLED-RELEASE TABLET 10 mg | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN14885P | OXYCONTIN® NEO CONTROLLED-RELEASE TABLETS 20 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN15996P | OXYCODONE WOCKHARDT SOLUTION FOR INJECTION OR INFUSION 10MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16635P | OXYCODONE KALCEKS SOLUTION FOR INJECTION OR INFUSION 10 MG/ML | INJECTION, SOLUTION | Valid |
 | SIN14031P | TARGIN® Prolonged Release Tablets 5mg/2.5mg | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN14032P | TARGIN® Prolonged Release Tablets 10mg/5mg | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 

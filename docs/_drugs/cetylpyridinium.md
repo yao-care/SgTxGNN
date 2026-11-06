@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 234
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cetylpyridinium: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,12 +74,12 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cetylpyridin
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN12321P | DIFFLAM ANTI-INFLAMMATORY LOZENGE (WITH ANTIBACTERIAL) (RASP | LOZENGE | Valid |
-| SIN10428P | SORAGEL ANTISEPTIC PAIN RELIEVING ORAL GEL | GEL | Valid |
-| SIN09963P | DIFFLAM MOUTH GEL | GEL | Valid |
 | SIN04042P | DENTINOX TEETHING GEL | GEL | Valid |
-| SIN12320P | DIFFLAM ANTI-INFLAMMATORY LOZENGE (WITH ANTIBACTERIAL) (HONE | LOZENGE | Valid |
-| SIN13591P | Difflam™ Anti-inflammatory Lozenge (with antibacterial) (Euc | LOZENGE | Valid |
+| SIN09963P | DIFFLAM MOUTH GEL | GEL | Valid |
+| SIN10428P | SORAGEL ANTISEPTIC PAIN RELIEVING ORAL GEL | GEL | Valid |
+| SIN12320P | DIFFLAM ANTI-INFLAMMATORY LOZENGE (WITH ANTIBACTERIAL) (HONEY LEMON) | LOZENGE | Valid |
+| SIN12321P | DIFFLAM ANTI-INFLAMMATORY LOZENGE (WITH ANTIBACTERIAL) (RASPBERRY RELI | LOZENGE | Valid |
+| SIN13591P | Difflam™ Anti-inflammatory Lozenge (with antibacterial) (Eucalyptus an | LOZENGE | Valid |
 
 ## Safety Considerations
 

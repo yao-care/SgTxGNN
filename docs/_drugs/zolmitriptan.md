@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1089
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,9 +92,9 @@ Currently no related clinical trials registered for migraine with brainstem aura
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN11816P | ZOMIG RAPIMELT TABLET 2.5 mg | Tablet (oral) |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11816P | ZOMIG RAPIMELT TABLET 2.5 mg | TABLET | Valid |
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Aflibercept"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Aflibercept: predicted new indication esotropia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -61,12 +61,12 @@ Esotropia is an inward deviation of the eye caused mainly by neuromuscular or re
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17040P | EYLEA Solution for Injection in Vial 8 mg | Injection, solution | Not recorded |
-| SIN14380P | EYLEA Solution for Injection in Prefilled Syringe 40 mg/ml | Injection, solution | Not recorded |
-| SIN14592P | ZALTRAP Concentrate for Solution for Infusion 25 mg/ml | Infusion, solution concentrate | Not recorded |
-| SIN14345P | EYLEA Solution for Injection in Vial 2 mg | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14345P | EYLEA SOLUTION FOR INJECTION IN VIAL 2MG | INJECTION, SOLUTION | Valid |
+| SIN14380P | EYLEA SOLUTION FOR INJECTION IN PREFILLED SYRINGE 40 mg/ml | INJECTION, SOLUTION | Valid |
+| SIN14592P | ZALTRAP CONCENTRATE FOR SOLUTION FOR INFUSION 25 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN17040P | EYLEA SOLUTION FOR INJECTION IN VIAL 8MG | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

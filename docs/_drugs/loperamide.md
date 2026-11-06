@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 612
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Diarrheal disease, dysentery"
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
@@ -50,8 +50,8 @@ The high score appears to be a model artifact rather than biological evidence.
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 10 of 10) |
-| Number of Registrations | 10 (valid: 10) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,15 +84,17 @@ For other predicted indications, the following publications were found. They bea
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06212P | IMODIUM CAPSULE 2 mg | Capsule | Not listed |
-| SIN05587P | VACONTIL CAPSULE 2 mg | Capsule | Not listed |
-| SIN05595P | LOPERAX CAPSULE 2 mg | Capsule | Not listed |
-| SIN06525P | LORPA SYRUP 1mg/5ml | Syrup | Not listed |
-| SIN07107P | DIATROL CAPSULE 2 mg | Capsule | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05587P | VACONTIL CAPSULE 2 mg | CAPSULE | Valid |
+| SIN06212P | IMODIUM CAPSULE 2 mg | CAPSULE | Valid |
+| SIN06525P | LORPA SYRUP 1mg/5ml | SYRUP | Valid |
+| SIN08031P | COLODIUM CAPSULE 2 mg | CAPSULE | Valid |
+| SIN09217P | LORAMIDE CAPSULE 2 mg | CAPSULE | Valid |
 
-There are 10 valid single-ingredient registrations in total (9 capsule and syrup products beyond those above include ABYDIUM, COLODIUM, LORAMIDE, ELDOPER, and DIATROL SYRUP). All are oral forms; no ophthalmic formulation is registered.
+Showing 5 of 7 HSA registrations.
+
+All are oral forms; no ophthalmic formulation is registered.
 
 ## Safety Considerations
 

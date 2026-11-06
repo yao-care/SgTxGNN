@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ambroxol: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but the supporting evidence is thin: **0 clinical trials** and **1 publication**
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 10 of 10) |
-| Number of Registrations | 10 (valid: 10) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13373P | Mucosolvan 24 Hours Capsule 75mg | Capsule, delayed release | Not recorded in local data |
-| SIN10547P | Mucoclear Syrup 30 mg/5 ml | Syrup | Not recorded in local data |
-| SIN02696P | Mucosolvan Tablet 30 mg | Tablet | Not recorded in local data |
-| SIN02983P | Amxol Tablets 30 mg | Tablet | Not recorded in local data |
-| SIN07180P | Shinoxol Tablets 30 mg | Tablet | Not recorded in local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02696P | MUCOSOLVAN TABLET 30 mg | TABLET | Valid |
+| SIN02983P | AMXOL TABLETS 30 mg | TABLET | Valid |
+| SIN03515P | MUCOSOLVAN LIQUID 30 mg/5 ml | ELIXIR | Valid |
+| SIN07180P | SHINOXOL TABLETS 30 mg | TABLET | Valid |
+| SIN08999P | AXOL LIQUID 3 mg/ml | SOLUTION | Valid |
 
-All 10 single-ingredient licences are valid; the table lists the first five.
+Showing 5 of 8 HSA registrations.
 
 ## Safety Considerations
 

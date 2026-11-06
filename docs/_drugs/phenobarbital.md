@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 784
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalized tonic-clonic and partial epilepsy)…"
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -100,10 +100,10 @@ These papers concern general or neonatal seizures, animal models, or carbamazepi
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02457P | Phenobarbitone Tablet 10 mg (PT Actavis Indonesia) | Tablet | Not stated in the registration record |
-| SIN03709P | Phenobarbitone Tablet 60 mg (PT Actavis Indonesia) | Tablet | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02457P | PHENOBARBITONE TABLET 10 mg | TABLET | Valid |
+| SIN03709P | PHENOBARBITONE TABLET 60 mg | TABLET | Valid |
 
 Both authorizations are valid single-ingredient oral tablets.
 

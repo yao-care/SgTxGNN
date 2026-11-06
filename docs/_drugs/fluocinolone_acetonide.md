@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fluocinolone acetonide"
 predicted_indications: ["lichen planus pemphigoides"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **lichen planus pemphigoides**,
 | Predicted New Indication | Lichen planus pemphigoides |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,14 +69,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03907P | SUPRICORT CREAM 0.025% w/w | Cream | Not stated in the available records |
-| SIN04897P | FLUNOLONE-V CREAM 0.25 mg/g | Cream | Not stated in the available records |
-| SIN14597P | CETRAXAL PLUS EAR DROPS SOLUTION | Solution | Not stated in the available records |
-| SIN12607P | TRI-LUMA CREAM | Cream | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03907P | SUPRICORT CREAM 0.025% w/w | CREAM | Valid |
+| SIN12607P | TRI-LUMA CREAM | CREAM | Valid |
+| SIN14597P | CETRAXAL PLUS EAR DROPS SOLUTION | SOLUTION | Valid |
 
-All four licences are valid single-ingredient products. Topical cream is the main dosage form, and one product is an ear-drop solution.
+Topical cream is the main dosage form, and one product is an ear-drop solution.
 
 ## Safety Considerations
 

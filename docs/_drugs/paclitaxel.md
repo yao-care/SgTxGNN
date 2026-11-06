@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 754
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Paclitaxel"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,13 +101,15 @@ The literature is mostly older reviews and early-phase studies, plus preclinical
 
 Paclitaxel has 14 valid single-ingredient registrations in Singapore and no cancelled ones. All are injectable forms. Approved indication text is not recorded for any of them. The table lists 5 of the 14.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16436P | PACLITERO 100 Solution for Injection 100mg/16.7ml | Injection, solution | Not recorded |
-| SIN12050P | GENEXOL Injection 6 mg/ml | Injection | Not recorded |
-| SIN14532P | ABRAXANE for Injectable Suspension 100mg/vial | Injection, powder, for suspension | Not recorded |
-| SIN14102P | PAXEL Injection 6 mg/ml | Injection, solution, concentrate | Not recorded |
-| SIN13752P | Aclipak Concentrate for Solution for Infusion 6mg/ml | Infusion, solution concentrate | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09539P | ANZATAX INJECTION CONCENTRATE 6 mg/ml | INJECTION | Valid |
+| SIN12050P | GENEXOL INJECTION 6 mg/ml | INJECTION | Valid |
+| SIN13180P | INTAXEL INJECTION 6 mg/ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN13701P | EBETAXEL INJECTION 6MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN13752P | Aclipak Concentrate for Solution for Infusion 6mg/ ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+Showing 5 of 14 HSA registrations.
 
 ## Cytotoxicity
 

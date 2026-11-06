@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 935
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,13 +84,15 @@ Currently no related literature available.
 
 Seven oral spironolactone products hold valid single-ingredient licences in Singapore, and none are cancelled. The licence records contain no approved indication text. The five listed below are a selection of the seven.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN02222P | Aldactone Tablet 25 mg | Tablet |
-| SIN16711P | Spiridon Tablets 25 mg | Tablet |
-| SIN16710P | Spiridon Tablets 50 mg | Tablet |
-| SIN16709P | Spiridon Tablets 100 mg | Tablet |
-| SIN02153P | Spirolon 25 Tablet 25 mg | Film-coated tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00664P | URACTONUM TABLET 25 mg | TABLET | Valid |
+| SIN02153P | SPIROLON 25 TABLET 25 mg | TABLET, FILM COATED | Valid |
+| SIN02168P | SPIROLON 100 TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN02222P | ALDACTONE TABLET 25 mg | TABLET | Valid |
+| SIN16709P | SPIRIDON TABLETS 100MG | TABLET | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ---
 

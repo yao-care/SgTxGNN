@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Benzoic acid"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benzoic Acid: predicted new indication bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,13 +74,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09544P | ROBINSON RINGWORM & WHITESPOT OINTMENT | Ointment | Not recorded |
-| SIN08773P | TINEA SKIN SOLUTION (THREE LEG BRAND) | Solution | Not recorded |
-| SIN09830P | SAW HONG CHOON SKIN OINTMENT | Ointment | Not recorded |
-| SIN04418P | NIXODERM OINTMENT | Ointment | Not recorded |
-| SIN16547P | VEELANZ'S OINTMENT | Ointment | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04418P | NIXODERM OINTMENT | OINTMENT | Valid |
+| SIN08773P | TINEA SKIN SOLUTION (THREE LEG BRAND) | SOLUTION | Valid |
+| SIN09544P | ROBINSON RINGWORM & WHITESPOT OINTMENT | OINTMENT | Valid |
+| SIN09830P | SAW HONG CHOON SKIN OINTMENT | OINTMENT | Valid |
+| SIN16547P | VEELANZ'S OINTMENT | OINTMENT | Valid |
 
 ## Safety Considerations
 

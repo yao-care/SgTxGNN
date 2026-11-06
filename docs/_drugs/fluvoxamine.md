@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fluvoxamine: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Social phobia, phobic disorder, obsessive-compulsive disorder"
 ---
 
@@ -83,11 +83,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09491P | FAVERIN TABLET 100 mg (WHITE) | Film-coated tablet | Not stated in the licence record |
-| SIN09489P | FAVERIN TABLET 50 mg (WHITE) | Film-coated tablet | Not stated in the licence record |
-| SIN13559P | APO-FLUVOXAMINE 100MG TABLET | Film-coated tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09489P | FAVERIN TABLET 50 mg (WHITE) | TABLET, FILM COATED | Valid |
+| SIN09491P | FAVERIN TABLET 100 mg (WHITE) | TABLET, FILM COATED | Valid |
+| SIN13559P | APO-FLUVOXAMINE 100MG TABLET | TABLET, FILM COATED | Valid |
 
 All three products are oral, single-ingredient and currently valid.
 

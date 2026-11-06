@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Insulin lispro"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction is best regarded as a model-derived hypothesis rather than a ther
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,13 +89,12 @@ No literature is available for the top-ranked prediction (autoimmune oophoritis)
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13719P | HUMALOG KWIKPEN 100 units/ml | Injection | Not stated in the data compiled |
-| SIN11227P | HUMALOG MIX 25 Suspension for Injection 100 iu/ml | Injection | Not stated in the data compiled |
-| SIN11171P | HUMALOG MIX25 KWIKPEN 100 units/ml | Injection | Not stated in the data compiled |
-
-All three registrations are valid single-ingredient products, available as injectables only.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13719P | HUMALOG KWIKPEN 100 units/ml | INJECTION | Valid |
+| SIN11171P | HUMALOG MIX25 KWIKPEN 100 units/ml | INJECTION | Valid |
+| SIN11227P | HUMALOG MIX 25 SUSPENSION FOR INJECTION 100 iu/ml | INJECTION | Valid |
+| SIN14025P | Humalog Mix50 Kwikpen 100 units/ml | INJECTION | Valid |
 
 ## Safety Considerations
 
@@ -118,7 +117,7 @@ Please refer to the package insert for warnings and contraindications.
 The top prediction, autoimmune oophoritis, has no clinical trials or literature, no mechanistic link, and a score that comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Evidence is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA, and approved indication text for the three Singapore licences
+- Package insert warnings and contraindications from the HSA, and approved indication text
 - Mechanism of action data from DrugBank
 - A targeted literature search on insulin and autoimmune ovarian disease
 - Consideration of pancreatic agenesis (L4) as a separate research question, given the physiological rationale for insulin replacement

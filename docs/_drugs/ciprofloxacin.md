@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ciprofloxacin: predicted new indication diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but there are **no registered clinical trials** and only **2 publications** that
 | Predicted New Indication | diffuse scleroderma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 25 of 25) |
+| Number of Registrations | 25 (valid: 25) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,13 +75,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09598P | CIPROFLOXACIN TABLET 250 mg | Film-coated tablet | Not recorded |
-| SIN14596P | CETRAXAL EAR DROPS SOLUTION 2MG/ML | Solution | Not recorded |
-| SIN10371P | CYCIN TABLET 500 mg | Film-coated tablet | Not recorded |
-| SIN09642P | NEOFLOXIN TABLET 250 mg | Film-coated tablet | Not recorded |
-| SIN03028P | CIPROBAY 250 TABLET 250 mg | Film-coated tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03028P | CIPROBAY 250 TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN03617P | CIPROBAY 200 INFUSION SOLUTION 200 mg/100 ml | INJECTION | Valid |
+| SIN05085P | CIPROBAY 500 TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN08940P | MICROFLOX-250 TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN09569P | QUPRON TABLETS 250 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 25 HSA registrations.
 
 The list above shows 5 of the licences; the licence records may be partial.
 

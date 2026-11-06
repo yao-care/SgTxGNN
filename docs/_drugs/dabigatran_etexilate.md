@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not available in the data compiled for this report (the registered in…"
 monitor_inn: "Dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -50,8 +50,8 @@ Dabigatran etexilate is an oral direct thrombin inhibitor (marketed in Singapore
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,15 @@ Currently no related clinical trials registered for sclerosing cholangitis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13697P | Pradaxa 75mg, hard capsules | Capsule | Not listed in the compiled data |
-| SIN13941P | Pradaxa 150mg, Hard Capsules | Capsule | Not listed in the compiled data |
-| SIN13698P | Pradaxa 110 mg, hard capsules | Capsule | Not listed in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13697P | Pradaxa 75mg, hard capsules | CAPSULE | Valid |
+| SIN13698P | Pradaxa 110 mg, hard capsules | CAPSULE | Valid |
+| SIN13941P | Pradaxa 150mg, Hard Capsules | CAPSULE | Valid |
+| SIN17424P | LEAXOLAR CAPSULES 150 mg | CAPSULE | Valid |
+| SIN17425P | LEAXOLAR CAPSULES 110 mg | CAPSULE | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ---
 

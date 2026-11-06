@@ -5,7 +5,7 @@ layout: default
 title: Blinatumomab
 parent: Known Uses Only (No New Predictions)
 nav_order: 167
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Blinatumomab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Blinatumomab"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15103P | BLINCYTO POWDER FOR INFUSION 35 MCG/VIAL | Injection, powder, lyophilized, for solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15103P | BLINCYTO POWDER FOR INFUSION 35 MCG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

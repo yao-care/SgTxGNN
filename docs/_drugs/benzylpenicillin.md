@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Benzylpenicillin"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benzylpenicillin: predicted new indication pericoronitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -71,9 +71,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00682P | PENICILLIN G SODIUM SANDOZ 5,000,000 IU/VIAL | Injection, powder, for solution | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00682P | PENICILLIN G SODIUM SANDOZ 5,000,000 IU/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

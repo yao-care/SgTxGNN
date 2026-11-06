@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 897
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Scopolamine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis"]
 description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,15 +84,17 @@ No literature directly supports the lead prediction (cauda equina syndrome).
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07796P | FUCON INJECTION 20 mg/ml | Injection | Not available |
-| SIN09563P | VACOPAN INJECTION 20 mg/ml | Injection | Not available |
-| SIN02854P | HYOMIDE TABLET 10 mg | Tablet, sugar coated | Not available |
-| SIN07177P | FUCON CAPSULE 10 mg | Capsule | Not available |
-| SIN16636P | YSP HYOSCINE INJECTION 20MG/ML | Injection, solution | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02575P | DHACOPAN TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN02854P | HYOMIDE TABLET 10 mg | TABLET, SUGAR COATED | Valid |
+| SIN03082P | SPASMOLIV TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN03574P | BUSCOPAN TABLET 10 mg | TABLET, SUGAR COATED | Valid |
+| SIN03683P | COSPAN INJ. 20 mg/ml | INJECTION | Valid |
 
-A sixth licence, SIN07433P (HYOSUN SYRUP 5mg/5 ml), is also valid. All six are single-ingredient products and none is cancelled.
+Showing 5 of 10 HSA registrations.
+
+A sixth licence, SIN07433P (HYOSUN SYRUP 5mg/5 ml), is also valid.
 
 ## Safety Considerations
 

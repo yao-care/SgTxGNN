@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Efavirenz"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Efavirenz: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease, AIDS"
 ---
 
@@ -78,9 +78,9 @@ Because the study is a laboratory comparison and does not clearly establish acti
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15719P | EFAVIRENZ SANDOZ FILM COATED TABLET 600MG (Sandoz Private Limited) | Tablet, film coated | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15719P | EFAVIRENZ SANDOZ FILM COATED TABLET 600MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

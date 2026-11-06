@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 887
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: predicted new indication Perioral myoclonia with absences (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,9 +79,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15146P | INOVELON FILM-COATED TABLET 200 MG | Tablet, film coated (oral) | Indication text not listed in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15146P | INOVELON FILM-COATED TABLET 200 MG | TABLET, FILM COATED | Valid |
 
 ---
 

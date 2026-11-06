@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -53,8 +53,8 @@ Leflunomide is also known to be teratogenic, which argues against use in congeni
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 (provisional; only early-phase trials exist, no completed Phase 2/3 RCT) |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -97,14 +97,12 @@ Both rheumatoid arthritis and myeloma involve over-active immune-lineage cells, 
 
 ## Singapore Market Information
 
-All four registrations are valid single-ingredient oral film-coated tablets. The registration records list no approved-indication text.
+The registration records list no approved-indication text.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN15252P | Leflunomide Mevon Film-Coated Tablets 20 mg | Film-coated tablet | Pharmathen S.A. |
-| SIN11400P | Arava Tablet 20 mg | Film-coated tablet | Opella Healthcare International SAS |
-| SIN11401P | Arava Tablet 100 mg | Film-coated tablet | Opella Healthcare International SAS |
-| SIN17108P | Bageda Film-Coated Tablet 20 mg | Film-coated tablet | World Medicine İlaç San. ve Tic. A.Ş. |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15252P | LEFLUNOMIDE MEVON FILM-COATED TABLETS 20 MG | TABLET, FILM COATED | Valid |
+| SIN17108P | BAGEDA FILM-COATED TABLET 20MG | TABLET, FILM COATED | Valid |
 
 ---
 

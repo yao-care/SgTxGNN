@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 3
 monitor_inn: "Clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clonazepam: predicted new indication restless legs syndrome (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -79,10 +79,10 @@ Current guidance is cautious. Dopamine agonists, alpha-2-delta ligands and iron 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17075P | CLONAZEPAM MEVON TABLETS 0.5 MG | Tablet | Not recorded |
-| SIN06410P | CLONOTRIL 0.5 TABLET 0.5 mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06410P | CLONOTRIL 0.5 TABLET 0.5 mg | TABLET | Valid |
+| SIN17075P | CLONAZEPAM MEVON TABLETS 0.5 MG | TABLET | Valid |
 
 ## Safety Considerations
 

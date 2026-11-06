@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 946
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Sunitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **2 compl
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold (research question only; see Conclusion) |
 
 ## Why is This Prediction Reasonable?
@@ -79,15 +79,15 @@ Soft tissue sarcomas, including liposarcoma, can depend on angiogenesis and PDGF
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16742P | NIBINASE Hard Gelatin Capsule 25 mg | Capsule | Not stated in the data |
-| SIN16743P | NIBINASE Hard Gelatin Capsule 50 mg | Capsule | Not stated in the data |
-| SIN16741P | NIBINASE Hard Gelatin Capsule 12.5 mg | Capsule | Not stated in the data |
-| SIN16271P | INSUNITINIB Capsule 37.5 mg | Capsule, gelatin coated | Not stated in the data |
-| SIN16272P | INSUNITINIB Capsule 50 mg | Capsule, gelatin coated | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16269P | INSUNITINIB CAPSULE 12.5MG | CAPSULE, GELATIN COATED | Valid |
+| SIN16270P | INSUNITINIB CAPSULE 25MG | CAPSULE, GELATIN COATED | Valid |
+| SIN16271P | INSUNITINIB CAPSULE 37.5MG | CAPSULE, GELATIN COATED | Valid |
+| SIN16272P | INSUNITINIB CAPSULE 50MG | CAPSULE, GELATIN COATED | Valid |
+| SIN16578P | ALSUNI CAPSULES 50MG | CAPSULE | Valid |
 
-Two further INSUNITINIB strengths (12.5 mg, 25 mg) are also registered, giving 7 valid single-ingredient registrations in total.
+Showing 5 of 9 HSA registrations.
 
 ## Cytotoxicity
 

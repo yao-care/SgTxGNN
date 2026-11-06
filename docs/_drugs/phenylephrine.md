@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 788
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence is limited: **no registered clinical trials** were found for this i
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 19 of 19) |
-| Number of Registrations | 19 (valid: 19) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +63,6 @@ The predicted indication is largely an extension of its existing nasal uses (rhi
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered for nasal cavity disease.
-
 
 ## Literature Evidence
 
@@ -77,15 +76,17 @@ Currently no related clinical trials registered for nasal cavity disease.
 
 ## Singapore Market Information
 
-There are 19 valid single-ingredient licences. The approved indication text is not available for any of them. Five main authorizations:
+The approved indication text is not available for any of them. Five main authorizations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10139P | Minims Phenylephrine Hydrochloride Eye Drops 2.5% w/v | Solution | Not available |
-| SIN04319P | Minims Phenylephrine Hydrochloride Eye Drops 10% w/v | Solution | Not available |
-| SIN15896P | Phenylalpha Solution for Injection 50mcg/ml | Injection, solution | Not available |
-| SIN13878P | Panadol Cold Relief PE Caplet | Tablet | Not available |
-| SIN12603P | Decolgen Non Drowse Caplets | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04319P | MINIMS PHENYLEPHRINE HYDROCHLORIDE EYE DROPS 10% w/v | SOLUTION | Valid |
+| SIN04893P | MYDFRIN STERILE OPHTHALMIC SOLUTION 2.5% | SOLUTION | Valid |
+| SIN10139P | MINIMS PHENYLEPHRINE HYDROCHLORIDE EYE DROPS 2.5% w/v | SOLUTION | Valid |
+| SIN15668P | PHENYLALPHA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 50MCG/ML | INJECTION, SOLUTION | Valid |
+| SIN15896P | PHENYLALPHA SOLUTION FOR INJECTION 50mcg/ml | INJECTION, SOLUTION | Valid |
+
+Showing 5 of 16 HSA registrations.
 
 Other licences cover eye drops, injection, nasal/throat spray, tablets, capsules and powder for cold and flu products.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Glycine"
 predicted_indications: ["nasal cavity disease"]
 description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,7 +59,6 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The very high score (0.9985) most likely reflects overlap with those original indications, since rhinitis is itself a nasal cavity disease. It is not evidence of a new mechanism. No mechanistic rationale can be confirmed, and the linked trial and papers do not show that glycine is effective in nasal disease.
 
-
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -75,15 +74,17 @@ The very high score (0.9985) most likely reflects overlap with those original in
 
 ## Singapore Market Information
 
-Glycine has 19 valid single-ingredient registrations, with no cancelled ones. No approved indication text is recorded for these products. Most are parenteral nutrition or amino acid infusion products. Five representative authorizations:
+No approved indication text is recorded for these products. Most are parenteral nutrition or amino acid infusion products. Five representative authorizations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12172P | Glyprin Dispersible Tablet | Tablet | Not recorded |
-| SIN16337P | Aminoven Solution for Infusion 15% | Infusion, solution | Not recorded |
-| SIN11682P | Aminoven Solution for Infusion 5% | Injection | Not recorded |
-| SIN08352P | Aminoplasmal-15% Infusion | Injection | Not recorded |
-| SIN09353P | Nutrineal PD4 with 1.1% Amino Acid Solution | Solution, sterile | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
+
+Showing 5 of 19 HSA registrations.
 
 The registered dosage forms are an oral tablet, injectables, a sterile solution and emulsions. No nasal or topical formulation appears among them, so route compatibility with a nasal indication has not been established.
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 383
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 20 of 20) |
-| Number of Registrations | 20 (valid: 20) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -84,15 +84,17 @@ Both publications are low-tier and give little information about ephedrine's own
 
 ## Singapore Market Information
 
-There are 20 valid licences, all single-ingredient products and none cancelled. No approved indication text is recorded for any of them. The main authorisations are:
+No approved indication text is recorded for any of them. The main authorisations are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16846P | Ephedrine Aguettant Solution for Injection in Pre-filled Syringe 30 mg/10 mL | Injection, solution | Not recorded |
-| SIN04850P | Ephedrine Nasal Drops BPC | Solution | Not recorded |
-| SIN15912P | Ephedrine Aguettant Solution for Injection 30 mg/mL | Injection, solution | Not recorded |
-| SIN02734P | DBL Ephedrine Sulfate Injection 30 mg/mL | Injection | Not recorded |
-| SIN15678P | Martindale Pharma Ephedrine Hydrochloride Solution for Injection 30 mg/mL | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02734P | DBL EPHEDRINE SULFATE INJECTION 30 mg/ml | INJECTION | Valid |
+| SIN04850P | EPHEDRINE NASAL DROPS BPC | SOLUTION | Valid |
+| SIN15678P | MARTINDALE PHARMA EPHEDRINE HYDROCHLORIDE SOLUTION FOR INJECTION 30MG/ | INJECTION, SOLUTION | Valid |
+| SIN15912P | EPHEDRINE AGUETTANT SOLUTION FOR INJECTION 30MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16846P | EPHEDRINE AGUETTANT SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 30 MG | INJECTION, SOLUTION | Valid |
+
+Showing 5 of 16 HSA registrations.
 
 The remaining licences are mostly oral cough linctuses, syrups and mixtures (elixir, syrup and solution forms). The nasal drops (SIN04850P) are the only nasal product listed.
 

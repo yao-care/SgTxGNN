@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 867
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy, hepatic coma"
 monitor_inn: "Rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "burning mouth syndrome", "oral leukoedema", "candidiasis"]
@@ -73,9 +73,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14761P | XIFAXAN Film-coated Tablet 550mg (Alfasigma S.p.A.) | Film-coated tablet (oral) | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14761P | XIFAXAN Film-coated Tablet 550mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

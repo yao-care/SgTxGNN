@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 845
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Rabeprazole: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazo
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 
 ## Known uses among the model's candidates
 
@@ -75,10 +75,11 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN11232P | PARIET TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN11233P | PARIET TABLET 20 mg | ENTERIC COATED TABLET | Valid |
+| SIN14319P | Rabeprazole Sandoz Gastro Resistant Tablet 20mg | TABLET, ENTERIC COATED | Valid |
 | SIN14910P | ACILESOL GASTRO- RESISTANT TABLET 20MG | TABLET, ENTERIC COATED | Valid |
 | SIN15259P | BEPRAZ GASTRO RESISTANT TABLETS 20MG | TABLET, DELAYED RELEASE | Valid |
-| SIN15260P | BEPRAZ GASTRO RESISTANT TABLETS 10MG | TABLET, DELAYED RELEASE | Valid |
-| SIN14319P | Rabeprazole Sandoz Gastro Resistant Tablet 20mg | TABLET, ENTERIC COATED | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Nemolizumab
 parent: Known Uses Only (No New Predictions)
 nav_order: 704
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nemolizumab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Nemolizumab"
 predicted_indications: []
@@ -43,15 +43,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17206P | NEMLUVIO powder and solvent for solution for injection in pre-filled pen 30 mg | Lyophilised powder for injection | Not available in licence data |
-| SIN17207P | NEMLUVIO powder and solvent for solution for injection in pre-filled syringe 30 mg | Lyophilised powder for injection | Not available in licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17206P | NEMLUVIO POWDER AND SOLVENT FOR SOLUTION FOR INJECTION IN PRE-FILLED P | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

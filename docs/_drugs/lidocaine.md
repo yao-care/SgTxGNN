@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Relations recorded in the knowledge graph: dermatitis, neuralgia…"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model ranks **punctate epithelial keratoconjunctivitis** as its top pr
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 40 of 40) |
+| Number of Registrations | 40 (valid: 40) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,13 +75,15 @@ For context, other predicted ocular and related conditions have some literature,
 
 At least 20 single-ingredient licences are listed, all valid. The list may be partial. The licence records contain no approved-indication text, so no indications are shown here.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN06314P | Lidocaine Gel 2% (with preservative) | Gel |
-| SIN05673P | LumaCina Lidocaine Injection 2% | Injection |
-| SIN15953P | Xylotin 300 – Lidocaine Hydrochloride Injection USP 300 mg/30 mL | Injection, solution |
-| SIN05684P | Xylocaine Jelly 2% | Gel |
-| SIN15952P | Xylotin 50 – Lidocaine Hydrochloride Injection USP 50 mg/5 mL | Injection, solution |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05616P | XYLOCAINE INJECTION 1% (5ML) | INJECTION | Valid |
+| SIN05671P | LumaCina Lidocaine Injection 1% | INJECTION | Valid |
+| SIN05673P | LumaCina Lidocaine Injection 2% | INJECTION | Valid |
+| SIN05683P | XYLOCAINE OINTMENT 5% | OINTMENT | Valid |
+| SIN05684P | XYLOCAINE JELLY 2% | GEL | Valid |
+
+Showing 5 of 40 HSA registrations.
 
 Available forms include gel, injection, ointment, spray and patch. No ophthalmic-specific product appears in the listed licences.
 

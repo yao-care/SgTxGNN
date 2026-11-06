@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 1027
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Trimetazidine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,12 +74,12 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16614P | TRIMEZEN MODIFIED-RELEASE TABLETS 35MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN01673P | VASTAREL TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN11607P | METAGARD TABLET 20 mg | TABLET, FILM COATED | Valid |
 | SIN12268P | VASTAREL MR TABLET 35 mg | TABLET, FILM COATED | Valid |
 | SIN15092P | MAXCARD MODIFIED RELEASE TABLETS 35MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN15877P | VASTAREL XR EXTENDED-RELEASE HARD CAPSULE 80 mg | CAPSULE, EXTENDED RELEASE | Valid |
-| SIN01673P | VASTAREL TABLET 20 mg | TABLET, FILM COATED | Valid |
-| SIN11607P | METAGARD TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN16614P | TRIMEZEN MODIFIED-RELEASE TABLETS 35MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L5). Approved use: Not available"
 monitor_inn: "Desogestrel"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -82,9 +82,9 @@ There are important limits. The Phase 3 trial (NCT00946192) studies fat-mediated
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06136P | MERCILON TABLET (N V Organon) | Tablet (oral) | Not recorded in the license data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06136P | MERCILON TABLET | TABLET | Valid |
 
 ## Safety Considerations
 

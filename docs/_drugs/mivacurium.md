@@ -5,7 +5,7 @@ layout: default
 title: Mivacurium
 parent: Known Uses Only (No New Predictions)
 nav_order: 683
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mivacurium: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Mivacurium"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07624P | MIVACRON INJECTION 10 mg/5 ml | Injection | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07624P | MIVACRON INJECTION 10 mg/5 ml | INJECTION | Valid |
 
 ## Safety Considerations
 

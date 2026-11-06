@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Chloroquine: predicted new indication Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L4). Approved use: Rheumatoid arthritis, systemic lupus erythematosus, mal…"
 monitor_inn: "Chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -62,11 +62,9 @@ Rheumatoid factor-positive polyarticular JIA resembles adult rheumatoid arthriti
 
 There is an important caveat. The only paper retrieved for this exact prediction concerns leflunomide, not chloroquine, so it does not test the hypothesis. Modern JIA care has also moved to conventional synthetic DMARDs and biologics.
 
-
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered for the top prediction.
-
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -93,9 +91,9 @@ Most of this literature is old (1962–1991), narrative or descriptive, and does
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01559P | Chloroquine Tablets 250 mg (Beacons Pharmaceuticals Pte. Ltd.) | Tablet, film coated | Not recorded in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01559P | CHLOROQUINE TABLETS 250 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

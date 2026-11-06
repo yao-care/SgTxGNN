@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,13 +86,15 @@ Currently no related clinical trials registered for trigeminal nerve neoplasm.
 
 All 10 licences are valid single-ingredient oral tablets. The licence records contain no approved-indication text. The 5 main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07497P | LAMICTAL TABLET 50 mg | Tablet | — |
-| SIN07498P | LAMICTAL TABLET 100 mg | Tablet | — |
-| SIN09094P | LAMICTAL DISPERSIBLE TABLET 5 mg | Tablet | — |
-| SIN14088P | Lamictal Tablet 25 mg | Tablet | — |
-| SIN13555P | Apo-Lamotrigine 100mg Tablet | Tablet | — |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07497P | LAMICTAL TABLET 50 mg | TABLET | Valid |
+| SIN07498P | LAMICTAL TABLET 100 mg | TABLET | Valid |
+| SIN09094P | LAMICTAL DISPERSIBLE TABLET 5 mg | TABLET | Valid |
+| SIN13364P | Lamitor -100 | TABLET | Valid |
+| SIN13365P | Lamitor - 50 | TABLET | Valid |
+
+Showing 5 of 10 HSA registrations.
 
 ---
 

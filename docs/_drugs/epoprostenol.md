@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 385
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Epoprostenol: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -81,8 +81,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15405P | VELETRI POWDER FOR SOLUTION FOR INFUSION 0.5MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN02241P | FLOLAN FOR INFUSION 0.5 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15405P | VELETRI POWDER FOR SOLUTION FOR INFUSION 0.5MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN15406P | VELETRI POWDER FOR SOLUTION FOR INFUSION 1.5MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations

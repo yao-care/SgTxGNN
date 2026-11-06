@@ -5,7 +5,7 @@ layout: default
 title: Naltrexone
 parent: Known Uses Only (No New Predictions)
 nav_order: 696
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Naltrexone: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Naltrexone"
 predicted_indications: []
@@ -48,10 +48,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10002P | NARPAN TABLET 50 mg | Tablet | Not stated in the licence record |
-| SIN16411P | CONTRAVE PROLONGED RELEASE TABLET 8MG/90MG | Film-coated extended-release tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10002P | NARPAN TABLET 50 mg | TABLET | Valid |
+| SIN16411P | CONTRAVE PROLONGED RELEASE TABLET 8MG/90MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 
 ## Safety Considerations
 

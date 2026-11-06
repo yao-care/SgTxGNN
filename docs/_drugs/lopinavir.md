@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Lopinavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lopinavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection and AIDS"
 ---
 
@@ -74,10 +74,10 @@ For context, three preclinical macaque studies were found for the related predic
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13250P | Kaletra Tablet 200mg/50mg | Film-coated tablet | Not stated in the records |
-| SIN11492P | Kaletra Oral Solution | Syrup | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11492P | KALETRA ORAL SOLUTION | SYRUP | Valid |
+| SIN13250P | Kaletra Tablet 200mg/50mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

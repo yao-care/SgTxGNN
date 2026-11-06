@@ -5,7 +5,7 @@ layout: default
 title: Timolol
 parent: Known Uses Only (No New Predictions)
 nav_order: 992
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Timolol: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Timolol"
 predicted_indications: []
@@ -50,13 +50,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Timolol has 20 valid registrations in Singapore, all ophthalmic solutions or suspensions and none cancelled. Five are shown below. The remaining 15 are mostly fixed-dose combinations with other glaucoma drugs, such as latanoprost, travoprost, bimatoprost, brimonidine, dorzolamide and brinzolamide. Approved indication text is not recorded in the licence data.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN11054P | Timabak Eyedrops 0.5% | Solution | Excelvision |
-| SIN08619P | Timoptol-XE Ophthalmic Solution 0.5% | Solution | Santen Pharmaceutical |
-| SIN04135P | Timoptol Ophthalmic Solution 0.5% | Solution | Santen Pharmaceutical |
-| SIN09709P | Timolol-POS Eye Drops 0.5% | Solution | Ursapharm |
-| SIN13744P | Timo-Comod 0.5% Eye Drops | Solution | Ursapharm |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04135P | TIMOPTOL OPHTHALMIC SOLUTION 0.5% | SOLUTION | Valid |
+| SIN09709P | TIMOLOL-POS EYE DROPS 0.5% | SOLUTION | Valid |
+| SIN11054P | TIMABAK EYEDROPS 0.5% | SOLUTION | Valid |
+| SIN13744P | TIMO-COMOD 0.5% EYE DROPS | SOLUTION | Valid |
+| SIN11643P | COSOPT OPHTHALMIC SOLUTION | SOLUTION | Valid |
+
+Showing 5 of 20 HSA registrations.
 
 ## Safety Considerations
 

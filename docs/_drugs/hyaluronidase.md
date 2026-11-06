@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Hyaluronidase: predicted new indication Esotropia (evidence level L5). Approved use: Not stated in the Singapore registration record"
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
@@ -84,9 +84,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10302P | HYALASE Powder for Injection 1500 iu/ampoule (CP Pharmaceuticals Ltd) | Injection, powder, for solution | Not stated in the register |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10302P | HYALASE POWDER FOR INJECTION 1500 iu/ampoule | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 All registered forms are injectable. The license is valid, and it is a single-ingredient product.
 

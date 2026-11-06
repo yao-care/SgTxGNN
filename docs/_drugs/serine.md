@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 908
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
 description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **familial visceral myopathy**,
 | Predicted New Indication | Familial visceral myopathy |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 19 of 19) |
-| Number of Registrations | 19 (valid: 19) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,13 +73,15 @@ Currently no related literature available for familial visceral myopathy.
 
 Serine is marketed in Singapore as an ingredient of 19 valid single-ingredient registrations. The approved indication text is not available for these products. The five main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not available |
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not available |
-| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Not available |
-| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Not available |
-| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
+
+Showing 5 of 18 HSA registrations.
 
 The other registrations include amino acid infusions, a peritoneal dialysis solution (Nutrineal) and lipid-containing parenteral nutrition emulsions (SmofKabiven, Nutriflex Omega, Oliclinomel). All are injectable or sterile solution forms, so the route of administration would need to be considered for any new indication.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Undecylenic acid"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Undecylenic Acid: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection"
 ---
 
@@ -75,9 +75,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09862P | VETIC CREAM (SATO Pharmaceutical Co Ltd) | Cream (topical) | No indication text recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09862P | VETIC CREAM | CREAM | Valid |
 
 ## Safety Considerations
 

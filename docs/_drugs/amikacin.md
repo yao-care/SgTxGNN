@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "meningococcemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Amikacin: predicted new indication paratyphoid fever (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,10 +80,10 @@ None of the retrieved papers evaluates amikacin as a treatment for paratyphoid f
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11944P | ILDONG AMIKACIN INJECTION 500 mg/2 ml | Injection | Not recorded |
-| SIN15908P | AKACIN INJECTION 500MG/2ML | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11944P | ILDONG AMIKACIN INJECTION 500 mg/2 ml | INJECTION | Valid |
+| SIN15908P | AKACIN INJECTION 500MG/2ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

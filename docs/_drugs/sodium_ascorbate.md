@@ -5,7 +5,7 @@ layout: default
 title: Sodium Ascorbate
 parent: Known Uses Only (No New Predictions)
 nav_order: 917
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sodium Ascorbate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Sodium ascorbate"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05209P | SOLUVIT N FOR INFUSION (Fresenius Kabi SSPC) | Injection, powder, for solution | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

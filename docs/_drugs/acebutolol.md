@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Acebutolol"
 predicted_indications: ["malignant hypertensive renal disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acebutolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension"
 ---
 
@@ -72,11 +72,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08621P | APO-ACEBUTOLOL TABLET 100 mg | Tablet, film coated | Not stated in the licence record |
-| SIN08620P | APO-ACEBUTOLOL TABLET 200 mg | Tablet, film coated | Not stated in the licence record |
-| SIN08636P | APO-ACEBUTOLOL TABLET 400 mg | Tablet, film coated | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08620P | APO-ACEBUTOLOL TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN08621P | APO-ACEBUTOLOL TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN08636P | APO-ACEBUTOLOL TABLET 400 mg | TABLET, FILM COATED | Valid |
 
 All three are single-ingredient products from Apotex Inc and are currently valid. The number of registrations is 3 (all licences, none partial).
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 874
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Risdiplam: predicted new indication Acne (evidence level L5). Approved use: Not listed in the Singapore license record (the drug is known as an S…"
 monitor_inn: "Risdiplam"
 predicted_indications: ["acne (disease)"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acne**, but there are current
 | Predicted New Indication | Acne |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,9 +70,10 @@ The high TxGNN score (0.9945, rank 6885) is therefore best read as a possible Tx
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16349P | EVRYSDI POWDER FOR ORAL SOLUTION 0.75 MG/ML | Powder, for solution | Not listed in the license record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16349P | EVRYSDI POWDER FOR ORAL SOLUTION 0.75 MG/ML | POWDER, FOR SOLUTION | Valid |
+| SIN17484P | EVRYSDI FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
 
 ---
 

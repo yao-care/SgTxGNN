@@ -5,7 +5,7 @@ layout: default
 title: Ulipristal
 parent: Known Uses Only (No New Predictions)
 nav_order: 1039
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ulipristal: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Ulipristal"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13979P | ELLA TABLET 30MG (manufacturer: CENEXI) | Tablet (oral) | Not stated in the license record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13979P | ELLA TABLET 30MG | TABLET | Valid |
 
 ## Safety Considerations
 

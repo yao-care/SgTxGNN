@@ -5,7 +5,7 @@ layout: default
 title: Ferric Derisomaltose
 parent: Known Uses Only (No New Predictions)
 nav_order: 426
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ferric Derisomaltose: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Ferric derisomaltose"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15855P | MONOFER® Solution for Injection or Infusion 100 mg/ml | Injection, solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15855P | MONOFER® SOLUTION FOR INJECTION OR INFUSION 100 MG/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

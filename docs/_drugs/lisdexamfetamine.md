@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lisdexamfetamine: predicted new indication Specific developmental disorder (evidence level L4). Approved use: Attention deficit hyperactivity disorder"
 monitor_inn: "Lisdexamfetamine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "autosomal dominant cerebellar ataxia", "cerebellar ataxia", "spinocerebellar degeneration with slow eye movements", "trichotillomania", "transient tic disorder", "narcolepsy"]
@@ -85,13 +85,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15840P | VYVANSE CAPSULES 20 mg | Capsule | Not available |
-| SIN15841P | VYVANSE CAPSULES 30 mg | Capsule | Not available |
-| SIN15842P | VYVANSE CAPSULES 40 mg | Capsule | Not available |
-| SIN15843P | VYVANSE CAPSULES 50 mg | Capsule | Not available |
-| SIN15844P | VYVANSE CAPSULES 60 mg | Capsule | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15840P | VYVANSE CAPSULES 20 mg | CAPSULE | Valid |
+| SIN15841P | VYVANSE CAPSULES 30 mg | CAPSULE | Valid |
+| SIN15842P | VYVANSE CAPSULES 40 mg | CAPSULE | Valid |
+| SIN15843P | VYVANSE CAPSULES 50 mg | CAPSULE | Valid |
+| SIN15844P | VYVANSE CAPSULES 60 mg | CAPSULE | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 A sixth licence, SIN15845P (70 mg), is also valid. All six are single-ingredient oral capsules, made by Patheon Pharmaceuticals Inc. (bulk production) and Takeda GmbH.
 

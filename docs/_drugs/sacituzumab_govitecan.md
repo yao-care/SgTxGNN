@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 890
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sacituzumab Govitecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available in the registration data compiled for this report"
 monitor_inn: "Sacituzumab govitecan"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
@@ -70,9 +70,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16425P | TRODELVY POWDER FOR SOLUTION FOR INFUSION 180 MG/VIAL | Injection, powder, lyophilised, for solution | Not listed in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16425P | TRODELVY POWDER FOR SOLUTION FOR INFUSION 180 MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

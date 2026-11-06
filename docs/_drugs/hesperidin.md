@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 497
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
 description: "Hesperidin: predicted new indication Myeloproliferative neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -73,13 +73,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17191P | Vessosmin Film Coated Tablet 500mg | Tablet, film coated | Not recorded |
-| SIN16068P | Ruventin Film Coated Tablet 500mg | Tablet, film coated | Not recorded |
-| SIN01067P | Daflon Tablet 500 mg | Tablet, sugar coated | Not recorded |
-| SIN15669P | Daflon Film-Coated Tablet 1000 mg | Tablet, film coated | Not recorded |
-| SIN16960P | Davmorid Film Coated Tablet | Tablet, film coated | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01067P | DAFLON TABLET 500 mg | TABLET, SUGAR COATED | Valid |
+| SIN11942P | DIOSPER FILM COATED TABLET | TABLET, FILM COATED | Valid |
+| SIN15669P | DAFLON FILM-COATED TABLET 1000 mg | TABLET, FILM COATED | Valid |
+| SIN16068P | RUVENTIN FILM COATED TABLET 500MG | TABLET, FILM COATED | Valid |
+| SIN16960P | DAVMORID FILM COATED TABLET | TABLET, FILM COATED | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 A sixth licence (SIN11942P, Diosper Film Coated Tablet, KLEVA S.A.) is also valid. All six are single-ingredient oral products.
 

@@ -5,7 +5,7 @@ layout: default
 title: Dulaglutide
 parent: Known Uses Only (No New Predictions)
 nav_order: 357
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dulaglutide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Dulaglutide"
 predicted_indications: []
@@ -50,10 +50,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14968P | TRULICITY INJECTION 0.75MG/0.5ML | Injection, solution | Not listed in the data compiled |
-| SIN14967P | TRULICITY INJECTION 1.5MG/0.5ML | Injection, solution | Not listed in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14967P | TRULICITY INJECTION 1.5MG/0.5ML | INJECTION, SOLUTION | Valid |
+| SIN14968P | TRULICITY INJECTION 0.75MG/0.5ML | INJECTION, SOLUTION | Valid |
 
 Both licences are valid single-ingredient products from Eli Lilly and Company (Vetter Pharma-Fertigung as co-manufacturer).
 

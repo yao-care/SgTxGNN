@@ -5,7 +5,7 @@ layout: default
 title: Vaborbactam
 parent: Known Uses Only (No New Predictions)
 nav_order: 1048
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Vaborbactam: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Vaborbactam"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17224P | VABOREM Powder for Concentrate for Solution for Infusion 1G/1G | Injection, powder, for solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17224P | VABOREM POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G/1G | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

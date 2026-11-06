@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bimatoprost: predicted new indication Malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Open-angle glaucoma, ocular hypertension (also eyelash hypertr…"
 monitor_inn: "Bimatoprost"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
@@ -82,12 +82,12 @@ Currently no related literature available for the predicted indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16938P | LUMIGAN PF (Bimatoprost Ophthalmic Solution) 0.03% | Sterile solution |
-| SIN14365P | LUMIGAN (Bimatoprost Ophthalmic Solution) 0.01% | Sterile solution |
-| SIN13589P | Ganfort Eye Drops | Sterile solution |
-| SIN14966P | GANFORT PF Eye Drops (Bimatoprost 0.3 mg/ml, Timolol 5.0 mg/ml) | Sterile solution |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14365P | LUMIGAN (BIMATOPROST OPHTHALMIC SOLUTION) 0.01% | SOLUTION, STERILE | Valid |
+| SIN16938P | LUMIGAN PF (BIMATOPROST OPHTHALMIC SOLUTION) 0.03% | SOLUTION, STERILE | Valid |
+| SIN13589P | Ganfort Eye Drops | SOLUTION, STERILE | Valid |
+| SIN14966P | GANFORT PF EYE DROPS (Bimatoprost 0.3mg/ml, Timolol 5.0mg/ml) | SOLUTION, STERILE | Valid |
 
 All four registrations are valid and held by Allergan Pharmaceuticals Ireland. The data compiled for this report do not include approved indication text. The Ganfort products contain bimatoprost combined with timolol.
 

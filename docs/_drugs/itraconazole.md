@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 559
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but there a
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -100,13 +100,12 @@ The most relevant items for pneumocystosis (none shows itraconazole activity aga
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16379P | JAMP ITRACONAZOLE ORAL SOLUTION 10MG/ML | Solution | Not stated in the data |
-| SIN12459P | UNITRAC CAPSULE 100 mg | Capsule | Not stated in the data |
-| SIN08206P | SPORANOX CAPSULE 100 mg | Capsule | Not stated in the data |
-| SIN09823P | SPORANOX ORAL SOLUTION 10 mg/ml | Solution | Not stated in the data |
-| SIN11355P | CANDITRAL CAPSULE 100 mg | Capsule | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08206P | SPORANOX CAPSULE 100 mg | CAPSULE | Valid |
+| SIN11355P | CANDITRAL CAPSULE 100 mg | CAPSULE | Valid |
+| SIN12459P | UNITRAC CAPSULE 100 mg | CAPSULE | Valid |
+| SIN16379P | JAMP ITRACONAZOLE ORAL SOLUTION 10MG/ML | SOLUTION | Valid |
 
 ---
 

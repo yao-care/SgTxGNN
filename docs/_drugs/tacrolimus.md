@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 947
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -50,8 +50,8 @@ with **2 clinical trials** (one Phase 3, one Phase 4, both completed) and **20 p
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 (see note below) |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 26 of 26) |
+| Number of Registrations | 26 (valid: 26) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* By the strict rules (at least two completed Phase 3 RCTs), seborrheic dermatitis has one completed Phase 3 trial and one completed Phase 4 trial. L1 is the level assigned in the compiled data, but it is somewhat generous. A conservative reading would put it between L2 and L1.
@@ -88,15 +88,17 @@ Results of these trials were not included in the compiled data.
 
 ## Singapore Market Information
 
-There are 20 valid single-ingredient licences. The licence records contain no approved indication text. Five main authorisations are shown below, including the topical ointments most relevant to this prediction.
+The licence records contain no approved indication text. Five main authorisations are shown below, including the topical ointments most relevant to this prediction.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12523P | Protopic Ointment 0.03% | Ointment | Not recorded |
-| SIN12524P | Protopic Ointment 0.1% | Ointment | Not recorded |
-| SIN09649P | Prograf Capsules 1 mg | Capsule | Not recorded |
-| SIN09639P | Prograf Concentrate for Infusion 5 mg/ml | Injection | Not recorded |
-| SIN14134P | Advagraf Prolonged Release Hard Capsules 1 mg | Extended-release capsule | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09639P | PROGRAF CONCENTRATE FOR INFUSION 5 mg/ml | INJECTION | Valid |
+| SIN09649P | PROGRAF CAPSULES 1 mg | CAPSULE | Valid |
+| SIN09650P | PROGRAF CAPSULES 5 mg | CAPSULE | Valid |
+| SIN11451P | PROGRAF CAPSULE 0.5 mg | CAPSULE | Valid |
+| SIN12523P | PROTOPIC OINTMENT 0.03% | OINTMENT | Valid |
+
+Showing 5 of 26 HSA registrations.
 
 Only the two Protopic ointments are topical. The remaining licences are oral or injectable systemic products.
 

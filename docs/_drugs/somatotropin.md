@@ -5,7 +5,7 @@ layout: default
 title: Somatotropin
 parent: Known Uses Only (No New Predictions)
 nav_order: 929
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Somatotropin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Somatotropin"
 predicted_indications: []
@@ -43,22 +43,20 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14362P | ZOMACTON Powder and Solvent for Solution for Injection 4 mg | Injection, powder, for solution | Not listed in the registration record |
-| SIN12215P | NORDITROPIN FLEXPRO Injection 10 mg/1.5 ml | Injection | Not listed in the registration record |
-| SIN14432P | Saizen solution for injection 5.83 mg/ml (6 mg in 1.03 ml) | Injection, solution | Not listed in the registration record |
-| SIN14433P | Saizen solution for injection 8.00 mg/ml (20 mg in 2.50 ml) | Injection, solution | Not listed in the registration record |
-| SIN14425P | Saizen solution for injection 8.00 mg/ml (12 mg in 1.50 ml) | Injection, solution | Not listed in the registration record |
-
-A sixth licence, SIN12219P (NORDITROPIN FLEXPRO Injection 5 mg/1.5 ml), is also valid. All six registrations are single-ingredient products, and none is cancelled.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12215P | NORDITROPIN FLEXPRO INJECTION 10 mg/1.5 ml | INJECTION | Valid |
+| SIN12219P | NORDITROPIN FLEXPRO INJECTION 5 mg/1.5 ml | INJECTION | Valid |
+| SIN14425P | Saizen solution for injection 8.00mg/ml (12mg in 1.50ml) | INJECTION, SOLUTION | Valid |
+| SIN14432P | Saizen solution for injection 5.83mg/ml (6mg in 1.03ml) | INJECTION, SOLUTION | Valid |
+| SIN14433P | Saizen solution for injection 8.00mg/ml (20mg in 2.50ml) | INJECTION, SOLUTION | Valid |
 
 ---
 

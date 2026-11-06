@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Capecitabine: predicted new indication Gastric adenocarcinoma and proximal polyposis of the stomach (evidence level L5). Approved use: Relations recorded in the knowledge graph: metastasis from malig…"
 ---
 
@@ -72,13 +72,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15464P | INTACAPE Film Coated Tablet 500 mg | Film-coated tablet | Not stated in the records |
-| SIN15369P | KAPETRAL Film-Coated Tablet 500 mg | Film-coated tablet | Not stated in the records |
-| SIN10678P | XELODA Tablets 150 mg | Film-coated tablet | Not stated in the records |
-| SIN15368P | KAPETRAL Film-Coated Tablet 150 mg | Film-coated tablet | Not stated in the records |
-| SIN10677P | XELODA Tablets 500 mg | Film-coated tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10677P | XELODA TABLETS 500 mg | TABLET, FILM COATED | Valid |
+| SIN10678P | XELODA TABLETS 150 mg | TABLET, FILM COATED | Valid |
+| SIN14798P | CAPETERO CAPECITABINE TABLETS 150MG | TABLET | Valid |
+| SIN14799P | CAPETERO CAPECITABINE TABLETS 500MG | TABLET | Valid |
+| SIN15368P | KAPETRAL FILM-COATED TABLET 150MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 10 HSA registrations.
 
 These are 5 of 10 valid single-ingredient registrations. The others are CAPETERO (150 mg and 500 mg), INTACAPE 150 mg, and INCITABINE (150 mg and 500 mg).
 

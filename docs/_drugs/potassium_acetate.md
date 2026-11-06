@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 810
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Potassium deficiency disease"
 monitor_inn: "Potassium acetate"
 predicted_indications: ["renal tubular acidosis"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** were found for this drug in this 
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05868P | DBL Potassium Acetate Concentrated Injection 2.45 g/5 ml | Injection | Not stated in the data compiled |
-| SIN15411P | Aminoplasmal B.Braun 10% E Solution for Infusion | Infusion, solution | Not stated in the data compiled |
-| SIN16734P | Nutriflex Omega Special B. Braun Emulsion for Infusion | Injection, emulsion | Not stated in the data compiled |
-| SIN15469P | Nutriflex Omega Special Emulsion for Infusion | Injection, emulsion | Not stated in the data compiled |
-| SIN15468P | Nutriflex Omega Plus Emulsion for Infusion | Injection, emulsion | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05868P | DBL POTASSIUM ACETATE CONCENTRATED INJECTION 2.45 g/5 ml | INJECTION | Valid |
+| SIN15411P | AMINOPLASMAL B.BRAUN 10% E SOLUTION FOR INFUSION | INFUSION, SOLUTION | Valid |
+| SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
 
-All five registrations are injectable or infusion products. Oral forms were not identified.
+Oral forms were not identified.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Clascoterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 260
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clascoterone: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Clascoterone"
 predicted_indications: []
@@ -50,9 +50,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17072P | Winlevi Cream 1% w/w (Cosmo S.p.A.) | Cream (topical) | Indication text not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17072P | Winlevi Cream 1% w/w | CREAM | Valid |
 
 ---
 

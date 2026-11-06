@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,15 +85,17 @@ Currently no related clinical trials registered for punctate epithelial keratoco
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11952P | ERYCYN-250 Tablet 250 mg | Film-coated tablet | Not stated in the data |
-| SIN11245P | RETORIN Powder for Suspension 200 mg/5 ml | Powder for suspension | Not stated in the data |
-| SIN00126P | ERYSOL for Oral Suspension 200 mg/5 ml | Granule for suspension | Not stated in the data |
-| SIN07545P | ERMYCIN 250 Tablet 250 mg | Film-coated tablet | Not stated in the data |
-| SIN00578P | ERYSON Tablets 250 mg | Enteric-coated tablet | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00126P | ERYSOL FOR ORAL SUSPENSION 200 mg/5 ml | GRANULE, FOR SUSPENSION | Valid |
+| SIN00578P | ERYSON TABLETS 250 mg | ENTERIC COATED TABLET | Valid |
+| SIN07545P | ERMYCIN 250 TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN10446P | ERYSON LOTION 2% | LOTION | Valid |
+| SIN11245P | RETORIN POWDER FOR SUSPENSION 200 mg/5 ml | POWDER, FOR SUSPENSION | Valid |
 
-Two more valid licences are registered (7 in total): EROGRAN for Oral Suspension (SIN08042P) and ERYSON Lotion 2% (SIN10446P). All 7 are single-ingredient products, and none is cancelled. No ophthalmic formulation is listed among the Singapore products, which matters for an ocular indication.
+Showing 5 of 6 HSA registrations.
+
+No ophthalmic formulation is listed among the Singapore products, which matters for an ocular indication.
 
 ---
 

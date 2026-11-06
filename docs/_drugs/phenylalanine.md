@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 787
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction currently rests on the model alone.
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 19 of 19) |
-| Number of Registrations | 19 (valid: 19) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,15 +76,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16337P | AMINOVEN Solution for Infusion 15% | Infusion, solution | Not stated |
-| SIN11682P | AMINOVEN Solution for Infusion 5% | Injection | Not stated |
-| SIN11829P | AMINOVEN Solution for Infusion 10% | Injection | Not stated |
-| SIN06299P | NEPHROSTERIL for Intravenous Infusion | Injection | Not stated |
-| SIN08352P | AMINOPLASMAL-15% Infusion | Injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
-All 19 registrations are valid single-ingredient licences, mainly amino acid infusions and parenteral nutrition emulsions. Only the first five are listed here.
+Showing 5 of 18 HSA registrations.
+
+Only the first five are listed here.
 
 ## Safety Considerations
 

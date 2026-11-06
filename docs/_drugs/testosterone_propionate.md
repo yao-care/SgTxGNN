@@ -5,7 +5,7 @@ layout: default
 title: Testosterone Propionate
 parent: Known Uses Only (No New Predictions)
 nav_order: 973
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Testosterone Propionate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Testosterone propionate"
 predicted_indications: []
@@ -50,9 +50,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04555P | SUSTANON 250 INJECTION | Injection | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04555P | SUSTANON 250 INJECTION | INJECTION | Valid |
 
 The product is a valid single-ingredient registration, manufactured by EVER Pharma Jena GmbH.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 596
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,6 @@ The TxGNN model's top-ranked prediction is Rasmussen subacute encephalitis, but 
 | Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold (rank 1); Research Question for PLA2G6-associated neurodegeneration |
 
-
 ---
 
 ## Why is This Prediction Reasonable?
@@ -89,7 +88,6 @@ Trials were found only for two lower-ranked candidates:
 
 ## Literature Evidence
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [34622992](https://pubmed.ncbi.nlm.nih.gov/34622992/) | 2022 | Review/Case series | Mov Disord | Complex parkinsonism is the commonest phenotype in late-onset PLAN |
@@ -115,15 +113,17 @@ Trials were found only for two lower-ranked candidates:
 
 ## Singapore Market Information
 
-There are 13 valid single-ingredient registrations. The licence records contain no approved indication text. The main five are:
+The licence records contain no approved indication text. The main five are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06119P | MADOPAR 250 TABLET 250 mg | Tablet | Not stated in the licence record |
-| SIN06121P | MADOPAR 125 CAPSULE 125 mg | Capsule | Not stated in the licence record |
-| SIN05195P | MADOPAR HBS 125 CAPSULE | Capsule | Not stated in the licence record |
-| SIN11075P | MADOPAR DISPERSIBLE TABLETS 125 mg | Tablet | Not stated in the licence record |
-| SIN13142P | Stalevo Film Coated Tablets 100/25/200 mg | Film-coated tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05195P | MADOPAR HBS 125 CAPSULE | CAPSULE | Valid |
+| SIN06119P | MADOPAR 250 TABLET 250 mg | TABLET | Valid |
+| SIN06121P | MADOPAR 125 CAPSULE 125 mg | CAPSULE | Valid |
+| SIN10285P | CREDANIL 25/100 TABLET | TABLET | Valid |
+| SIN10286P | CREDANIL 25/250 TABLET | TABLET | Valid |
+
+Showing 5 of 13 HSA registrations.
 
 All available forms are oral (tablet, capsule, film-coated tablet).
 

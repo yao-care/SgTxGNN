@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). Approved use: Asthma, allergic asthma, allergic rhinitis, vasomotor rhinitis"
 monitor_inn: "Fluticasone furoate"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but there ar
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -84,13 +84,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13666P | Avamys Nasal Spray 27.5 mcg/spray | Suspension spray |
-| SIN15806P | Trelegy Ellipta Inhalation Powder 100/62.5/25 mcg | Metered powder |
-| SIN16914P | Trelegy Ellipta Inhalation Powder 200/62.5/25 mcg | Metered powder |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13666P | Avamys Nasal Spray 27.5 mcg/spray | SPRAY, SUSPENSION | Valid |
+| SIN14736P | RELVAR ELLIPTA INHALATION POWDER 100MCG/25MCG | POWDER, METERED | Valid |
+| SIN14737P | RELVAR ELLIPTA INHALATION POWDER 200MCG/25MCG | POWDER, METERED | Valid |
+| SIN15806P | TRELEGY ELLIPTA INHALATION POWDER 100 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
+| SIN16914P | TRELEGY ELLIPTA INHALATION POWDER 200 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
 
-All three licences are currently valid. None is for a skin (topical) formulation.
+None is for a skin (topical) formulation.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 112
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected"]
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **non-syndromic esophageal malfor
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,13 +69,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05858P | Ascorbic Acid Injection USP 500 mg/5 ml | Injection | Not recorded |
-| SIN11609P | Panadol Cold & Flu Hot Remedy | Powder | Not recorded |
-| SIN11975P | Cernevit for Injection | Injection, powder, for solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05858P | ASCORBIC ACID INJECTION USP 500 mg/5 ml | INJECTION | Valid |
+| SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN05447P | IBERET-FOLIC-500 TABLET | TABLET, FILM COATED | Valid |
+| SIN11609P | PANADOL COLD & FLU HOT REMEDY | POWDER | Valid |
+| SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
-All three authorizations are currently valid. Panadol Cold & Flu Hot Remedy and Cernevit are multi-ingredient preparations, so their licences do not describe how ascorbic acid alone is approved.
+Panadol Cold & Flu Hot Remedy and Cernevit are multi-ingredient preparations, so their licences do not describe how ascorbic acid alone is approved.
 
 ## Safety Considerations
 

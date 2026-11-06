@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1010
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "Trametinib"
 predicted_indications: ["choroideremia"]
@@ -109,11 +109,11 @@ For context, the highest-ranked literature relates to **malignant melanoma of th
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15182P | MEKINIST Film-Coated Tablets 2 mg | Film-coated tablet | Not specified in the data compiled |
-| SIN15181P | MEKINIST Film-Coated Tablets 0.5 mg | Film-coated tablet | Not specified in the data compiled |
-| SIN17018P | MEKINIST Powder for Oral Solution 4.7 mg | Powder for solution | Not specified in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15181P | MEKINIST FILM-COATED TABLETS 0.5MG | TABLET, FILM COATED | Valid |
+| SIN15182P | MEKINIST FILM-COATED TABLETS 2MG | TABLET, FILM COATED | Valid |
+| SIN17018P | MEKINIST® POWDER FOR ORAL SOLUTION 4.7 MG | POWDER, FOR SOLUTION | Valid |
 
 ---
 

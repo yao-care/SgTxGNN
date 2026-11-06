@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Phentermine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Phentermine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,12 +69,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN05315P | PANBESY CAPSULE 15 MG | Capsule |
-| SIN01256P | DUROMINE CAPSULE 30 mg | Capsule |
-| SIN05113P | PANBESY CAPSULE 30 mg | Capsule |
-| SIN01255P | DUROMINE CAPSULE 15 mg | Capsule |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01255P | DUROMINE CAPSULE 15 mg | CAPSULE | Valid |
+| SIN01256P | DUROMINE CAPSULE 30 mg | CAPSULE | Valid |
+| SIN05113P | PANBESY CAPSULE 30 mg | CAPSULE | Valid |
+| SIN05315P | PANBESY CAPSULE 15 MG | CAPSULE | Valid |
 
 All four are valid single-ingredient oral products. The approved indication text is not available for them.
 
@@ -91,7 +91,6 @@ Label warnings were not available for this report. Please refer to the package i
 
 **Rationale:**
 The top-ranked prediction has only model-based support (L5), with no trials, no literature and no plausible mechanism. It is not clinically actionable.
-
 
 **To proceed, the following is needed:**
 - Mechanism of action data

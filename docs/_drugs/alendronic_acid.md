@@ -3,7 +3,7 @@ layout: default
 title: Alendronic Acid
 parent: Known Uses Only (No New Predictions)
 nav_order: 58
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Alendronic Acid: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -45,8 +45,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Alendroni
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 1 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Alendroni
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15268P | BUFFERED BINOSTO EFFERVESCENT TABLET 70MG | TABLET, EFFERVESCENT | Valid |
 | SIN11446P | FOSAMAX TABLET 70 mg | TABLET, FILM COATED | Valid |
-| SIN13152P | Fosamax Plus™ 70mg/2800IU Tablet | TABLET | Valid |
+| SIN13558P | APO-ALENDRONATE 10MG TABLET | TABLET | Valid |
+| SIN14582P | ALENDRONATE SANDOZ FILM COATED TABLETS 70MG | TABLET, FILM COATED | Valid |
+| SIN14606P | LENDOMAX TABLET 70MG | TABLET | Valid |
+| SIN15268P | BUFFERED BINOSTO EFFERVESCENT TABLET 70MG | TABLET, EFFERVESCENT | Valid |
+
+Showing 5 of 8 HSA registrations.
 
 ## Safety Considerations
 
@@ -88,7 +92,6 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Alendroni
 - Calcium salts (acetate, carbonate, citrate, gluconate, lactate, phosphate, and others), iron, and magnesium and aluminium-containing antacids (aluminium hydroxide, magaldrate, magnesium carbonate/chloride/citrate), kaolin and attapulgite: **Moderate**, likely reduced absorption of the oral bisphosphonate
 - Acetylsalicylic acid and kanamycin: **Moderate**
 - H2 blockers (famotidine, ranitidine, cimetidine): **Minor**
-
 
 Please refer to the package insert for the full warnings and contraindications.
 

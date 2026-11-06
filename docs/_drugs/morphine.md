@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 689
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ No clinical trials are registered for this use, and none of the **10 publication
 | Predicted New Indication | Myofascial pain syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,15 +81,15 @@ None of these studies directly tests morphine for myofascial pain syndrome.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05508P | MST CONTINUS TABLET 30 mg | Tablet, film coated | Not stated in the data |
-| SIN05506P | MST CONTINUS TABLET 10 mg | Tablet, film coated | Not stated in the data |
-| SIN00757P | DBL MORPHINE SULFATE INJECTION 10 mg/ml | Injection | Not stated in the data |
-| SIN16891P | MORPHINE SULFATE KALCEKS SOLUTION FOR INJECTION 10MG/ML | Injection, solution | Not stated in the data |
-| SIN13598P | Morphine-hameln 10 mg/ml Injection | Injection, solution | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00757P | DBL MORPHINE SULFATE INJECTION 10 mg/ml | INJECTION | Valid |
+| SIN05506P | MST CONTINUS TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN05508P | MST CONTINUS TABLET 30 mg | TABLET, FILM COATED | Valid |
+| SIN13598P | Morphine-hameln 10 mg/ml Injection | INJECTION, SOLUTION | Valid |
+| SIN16036P | ORAMORPH SYRUP 2MG/ML | SYRUP | Valid |
 
-All five licences are valid single-ingredient products, available as oral tablets and injectables.
+Showing 5 of 7 HSA registrations.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 534
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,11 +97,11 @@ Note: Phase 3 trials with faster-acting aspart, LY900014 or other insulins use d
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15703P | TRESIBA® FLEXTOUCH® Solution for Injection in Pre-filled Pen 100 U/ml | Injection, solution | Not stated in the licence data |
-| SIN15704P | TRESIBA® FLEXTOUCH® Solution for Injection in Pre-filled Pen 200 U/ml | Injection, solution | Not stated in the licence data |
-| SIN15706P | RYZODEG® FLEXTOUCH® Solution for Injection in Pre-filled Pen 100 U/ml | Injection, solution | Not stated in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15703P | TRESIBA® FLEXTOUCH® SOLUTION FOR INJECTION IN PRE-FILLED PEN 100 U/ML | INJECTION, SOLUTION | Valid |
+| SIN15704P | TRESIBA® FLEXTOUCH® SOLUTION FOR INJECTION IN PRE-FILLED PEN 200 U/ML | INJECTION, SOLUTION | Valid |
+| SIN15706P | RYZODEG® FLEXTOUCH® SOLUTION FOR INJECTION IN PRE-FILLED PEN 100 U/ml | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

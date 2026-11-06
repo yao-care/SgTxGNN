@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1030
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Allergic urticaria largely overlaps with an indication triprolidine already has,
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,15 +91,17 @@ Literature for other predicted indications is also indirect:
 
 ## Singapore Market Information
 
-Eleven valid single-ingredient registrations are on file. The approved indication text is not recorded for any of them. The five main ones are listed below.
+The approved indication text is not recorded for any of them. The five main ones are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09453P | DECONDINE TABLET | Film-coated tablet | Not recorded |
-| SIN03116P | FEDAC TABLET | Tablet | Not recorded |
-| SIN03927P | ACTIMIN TABLET | Tablet | Not recorded |
-| SIN10474P | ACTIHIST SYRUP | Syrup | Not recorded |
-| SIN03181P | DECONDINE SYRUP | Syrup | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03116P | FEDAC TABLET | TABLET | Valid |
+| SIN03140P | BEACTAFED CO SYRUP | SYRUP | Valid |
+| SIN03181P | DECONDINE SYRUP | SYRUP | Valid |
+| SIN03193P | FEDAC SYRUP | SYRUP | Valid |
+| SIN03195P | FEDAC COMPOUND LINCTUS | ELIXIR | Valid |
+
+Showing 5 of 9 HSA registrations.
 
 Other registrations include syrups (BEACTAFED, PEACEF, FEDAC, BEACTAFED CO) and elixir-type linctuses (FEDAC COMPOUND, COUGH-EN). Available forms are oral tablets, syrups and elixirs.
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 718
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not available"
 monitor_inn: "Nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -95,13 +95,13 @@ In pulmonary hypertension the same pathway can lower pulmonary vascular resistan
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12240P | RECTOGESIC OINTMENT 0.2% w/w | Ointment | Not stated in available records |
-| SIN15702P | MYONIT INSTA Nitroglycerin Sublingual Tablets USP 0.5 mg | Tablet | Not stated in available records |
-| SIN15510P | GLYDEX IV Solution for Injection 1 mg/ml | Injection | Not stated in available records |
-| SIN09161P | GLYTRIN SPRAY | Spray | Not stated in available records |
-| SIN15105P | GLYCERYL TRINITRATE-HAMELN INJECTION 1 mg/ml | Infusion, solution | Not stated in available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09161P | GLYTRIN SPRAY | SPRAY | Valid |
+| SIN12240P | RECTOGESIC OINTMENT 0.2% w/w | OINTMENT | Valid |
+| SIN15105P | GLYCERYL TRINITRATE-HAMELN INJECTION 1MG/ML | INFUSION, SOLUTION | Valid |
+| SIN15510P | GLYDEX IV Solution for Injection 1mg/ml | INJECTION | Valid |
+| SIN15702P | MYONIT INSTA NITROGLYCERIN SUBLINGUAL TABLETS USP 0.5MG | TABLET | Valid |
 
 All five registrations are valid single-ingredient products. No inhaled or nebulized product is registered, so the route studied for pulmonary hypertension would be off-label in Singapore.
 

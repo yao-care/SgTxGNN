@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 812
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Potassium chloride"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction mainly reflects supportive correction of low potassium rather tha
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 44 of 44) |
+| Number of Registrations | 44 (valid: 44) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,15 +85,17 @@ The retrieved literature consists of case reports, cohort studies and reviews. N
 
 ## Singapore Market Information
 
-There are 20 valid single-ingredient licences. The following are five main ones, covering the different dosage forms. The data compiled for this report contain no approved indication text for any of them.
+The following are five main ones, covering the different dosage forms. The data compiled for this report contain no approved indication text for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07923P | Sterile Potassium Chloride Concentrate Injection 7.45% | Injection | Not stated |
-| SIN11566P | Potassium Chloride Injection, Highly Concentrated (400 mEq/l) | Injection | Not stated |
-| SIN08437P | Potassium Chloride Mixture 500 mg/5 ml | Solution | Not stated |
-| SIN07447P | Potassium Chloride Tablets (Slow-Release) 600 mg | Tablet | Not stated |
-| SIN13569P | Potassium Chloride 0.3% w/v and Glucose 5% w/v Intravenous Infusion BP | Infusion, solution | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07447P | POTASSIUM CHLORIDE TABLETS (SLOW-RELEASE) 600 mg (YELLOW) | TABLET | Valid |
+| SIN07923P | STERILE POTASSIUM CHLORIDE CONCENTRATE INJECTION 7.45% | INJECTION | Valid |
+| SIN08437P | POTASSIUM CHLORIDE MIXTURE 500 mg/5 ml | SOLUTION | Valid |
+| SIN11532P | POTASSIUM CHLORIDE INJECTION - HIGHLY CONCENTRATED (100 mEq/l) | INJECTION | Valid |
+| SIN11566P | POTASSIUM CHLORIDE INJECTION - HIGHLY CONCENTRATED (400 mEq/l) | INJECTION | Valid |
+
+Showing 5 of 44 HSA registrations.
 
 ## Safety Considerations
 

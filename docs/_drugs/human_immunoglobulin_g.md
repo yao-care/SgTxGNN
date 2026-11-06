@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 499
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Human Immunoglobulin G: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not available"
 monitor_inn: "Human immunoglobulin G"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis"]
@@ -64,9 +64,9 @@ Other top predictions from the model include diabetic retinopathy (0.9963) and d
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16766P | IMMUNOGLOBULINS SG INJECTION 50mg/ml (SK Plasma Co., Ltd.) | Injection | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16766P | IMMUNOGLOBULINS SG INJECTION 50mg/ml | INJECTION | Valid |
 
 ## Safety Considerations
 

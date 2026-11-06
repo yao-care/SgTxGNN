@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 690
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (streptococcal and staphylococcal infections…"
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but this r
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 The Singapore registrations in the compiled data carry no approved-indication text. The original indications above are not taken from approved labelling.
@@ -81,15 +81,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Moxifloxacin has 14 valid single-ingredient registrations in Singapore and none cancelled. They cover oral tablets, intravenous infusions and ophthalmic solutions. The five main ones are:
+They cover oral tablets, intravenous infusions and ophthalmic solutions. The five main ones are:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN11351P | Avelox Tablet 400 mg | Film-coated tablet |
-| SIN11971P | Avelox Solution for Infusion 400 mg/250 ml | Injection |
-| SIN12614P | Vigamox Ophthalmic Solution 0.5% | Solution |
-| SIN15310P | Moxifloxacin Kabi Solution for Infusion 400 mg/250 ml | Infusion solution |
-| SIN15579P | Moloxin Film-Coated Tablets 400 mg | Film-coated tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11351P | AVELOX TABLET 400 mg | TABLET, FILM COATED | Valid |
+| SIN11971P | AVELOX SOLUTION FOR INFUSION 400 mg/250 ml | INJECTION | Valid |
+| SIN12614P | VIGAMOX OPHTHALMIC SOLUTION 0.5% | SOLUTION | Valid |
+| SIN14899P | MO-FLOREN OPHTHALMIC SOLUTION 0.5% USP | SOLUTION, STERILE | Valid |
+| SIN14900P | MOXIFLOXACIN-TEVA F.C. TABLET 400 MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 15 HSA registrations.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Alprostadil"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Alprostadil: predicted new indication aortic malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,10 +82,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08097P | CAVERJECT POWDER FOR INJECTION 20 mcg/ml | Injection, powder, for solution | Not recorded in local data |
-| SIN02280P | PROSTIN VR PAEDIATRIC INJECTION 0.5 mg/ml | Injection | Not recorded in local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02280P | PROSTIN VR PAEDIATRIC INJECTION 0.5 mg/ml | INJECTION | Valid |
+| SIN08097P | CAVERJECT POWDER FOR INJECTION 20 mcg/ml | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

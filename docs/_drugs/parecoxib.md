@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 764
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 description: "Parecoxib: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -38,7 +38,7 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Parecoxib is an injectable COX-2 inhibitor (a prodrug of valdecoxib), marketed in Singapore with 6 valid registrations.
+Parecoxib is an injectable COX-2 inhibitor (a prodrug of valdecoxib), marketed in Singapore.
 The TxGNN model predicts it may be effective for **migraine disorder**.
 Support is limited: **no registered clinical trials** and **1 small pilot clinical comparison study** (with supporting preclinical papers) are currently available.
 
@@ -52,8 +52,8 @@ Support is limited: **no registered clinical trials** and **1 small pilot clinic
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L3 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -86,13 +86,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14149P | Dynastat Powder and Solvent for Solution for Injection 40mg | Lyophilised powder for injection | Not listed in the records |
-| SIN17079P | Paracox Powder for Solution for Injection 40mg/vial | Lyophilised powder for injection | Not listed in the records |
-| SIN16913P | Parecoxib WB Powder for Solution for Injection 40mg/vial | Lyophilised powder for injection | Not listed in the records |
-| SIN16721P | Parecoxib Sandoz Powder for Solution for Injection 40mg | Lyophilised powder for injection | Not listed in the records |
-| SIN17012P | Parecoxib-AFT Powder for Solution for Injection 40mg | Lyophilised powder for injection | Not listed in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14149P | Dynastat Powder and Solvent for Solution for Injection 40mg | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16666P | PARECOXIB MYLAN POWDER FOR SOLUTION FOR INJECTION 40MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16721P | PARECOXIB SANDOZ POWDER FOR SOLUTION FOR INJECTION 40MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16913P | Parecoxib WB Powder for Solution for Injection 40 mg/vial | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17012P | PARECOXIB-AFT POWDER FOR SOLUTION FOR INJECTION 40MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6. All are single-ingredient injectable products.
 

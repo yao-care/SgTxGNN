@@ -5,7 +5,7 @@ layout: default
 title: Erdosteine
 parent: Known Uses Only (No New Predictions)
 nav_order: 391
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Erdosteine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Erdosteine"
 predicted_indications: []
@@ -48,10 +48,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15826P | Erdomed Dispersible Tablets 300mg | Tablet, for solution | Not stated |
-| SIN15825P | Erdomed Hard Capsules 300mg | Capsule | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15825P | ERDOMED HARD CAPSULES 300MG | CAPSULE | Valid |
+| SIN15826P | ERDOMED DISPERSIBLE TABLETS 300MG | TABLET, FOR SOLUTION | Valid |
 
 Both licenses are valid, single-ingredient oral products from Edmond Pharma S.R.L.
 

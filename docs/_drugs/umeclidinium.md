@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 1039
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Umeclidinium: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Umeclidinium
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 
 ## Known uses recorded for this drug
 
@@ -75,8 +75,9 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Umeclidinium
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14853P | INCRUSE ELLIPTA INHALATION POWDER 62.5 MCG/DOSE | POWDER, METERED | Valid |
-| SIN15806P | TRELEGY ELLIPTA INHALATION POWDER 100 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
 | SIN14838P | ANORO ELLIPTA INHALATION POWDER 62.5 MCG/25 MCG | POWDER, METERED | Valid |
+| SIN15806P | TRELEGY ELLIPTA INHALATION POWDER 100 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
+| SIN16914P | TRELEGY ELLIPTA INHALATION POWDER 200 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
 
 ## Safety Considerations
 

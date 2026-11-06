@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Cabazitaxel"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cabazitaxel: predicted new indication female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -83,9 +83,9 @@ Currently no related clinical trials registered in the data compiled for this re
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14043P | Jevtana® Concentrate and Solvent for Solution for Infusion 60mg/1.5ml | Infusion, solution concentrate | Not recorded in local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14043P | Jevtana® Concentrate and Solvent for Solution for Infusion 60mg/1.5ml | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Cytotoxicity
 

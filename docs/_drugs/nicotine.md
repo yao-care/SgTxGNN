@@ -5,7 +5,7 @@ layout: default
 title: Nicotine
 parent: Known Uses Only (No New Predictions)
 nav_order: 711
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nicotine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Nicotine"
 predicted_indications: []
@@ -43,20 +43,20 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 10 of 10) |
-| Number of Registrations | 10 (valid: 10) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11732P | NICOTINELL MINT LOZENGE 1 mg | Lozenge | Not stated |
-| SIN16567P | NICORETTE QUICKMIST MOUTHSPRAY 1MG/SPRAY | Spray | Not stated |
-| SIN14296P | Nicorette Invisi Transdermal Patch 25mg/16 hours | Extended-release patch | Not stated |
-| SIN06529P | NICOTINELL TTS 30 TRANSDERMAL THERAPEUTIC SYSTEM 21 mg/24 hrs | Patch | Not stated |
-| SIN12570P | NICOTINELL MINT 4MG CHEWING GUM | Chewing gum | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06527P | NICOTINELL TTS 20 TRANSDERMAL THERAPEUTIC SYSTEM 14 mg/24 hrs | PATCH | Valid |
+| SIN06528P | NICOTINELL TTS 10 TRANSDERMAL THERAPEUTIC SYSTEM 7 mg/24 hrs | PATCH | Valid |
+| SIN06529P | NICOTINELL TTS 30 TRANSDERMAL THERAPEUTIC SYSTEM 21 mg/24 hrs | PATCH | Valid |
+| SIN11732P | NICOTINELL MINT LOZENGE 1 mg | LOZENGE | Valid |
+| SIN12569P | NICOTINELL MINT 2mg CHEWING-GUM | GUM, CHEWING | Valid |
 
-Ten valid single-ingredient licences are registered in total; the five above are shown.
+Showing 5 of 18 HSA registrations.
 
 ## Safety Considerations
 

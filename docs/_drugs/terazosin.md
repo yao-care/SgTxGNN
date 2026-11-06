@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 965
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
 description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,13 +86,13 @@ There is no literature for the top-ranked prediction (hypotrichosis simplex of t
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12672P | APO-TERAZOSIN TABLET 2 mg | Tablet | Not stated in the records |
-| SIN11676P | HYTRIN TABLET 5 mg | Tablet | Not stated in the records |
-| SIN11674P | HYTRIN TABLET 1 mg | Tablet | Not stated in the records |
-| SIN11675P | HYTRIN TABLET 2 mg | Tablet | Not stated in the records |
-| SIN11600P | TERASIN TABLET 2 mg | Tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11600P | TERASIN TABLET 2 mg | TABLET | Valid |
+| SIN11674P | HYTRIN TABLET 1 mg | TABLET | Valid |
+| SIN11675P | HYTRIN TABLET 2 mg | TABLET | Valid |
+| SIN11676P | HYTRIN TABLET 5 mg | TABLET | Valid |
+| SIN12672P | APO-TERAZOSIN TABLET 2 mg | TABLET | Valid |
 
 All five licences are valid single-ingredient oral tablets.
 

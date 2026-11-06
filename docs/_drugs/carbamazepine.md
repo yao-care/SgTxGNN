@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -84,13 +84,15 @@ No study directly examines carbamazepine as a treatment for trigeminal nerve neo
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02388P | TEGRETOL CR 400 TABLET 400 mg | Tablet, film coated | Not recorded |
-| SIN05735P | APO-CARBAMAZEPINE TABLET 200 mg | Tablet | Not recorded |
-| SIN00352P | TEGRETOL 200 TABLET 200 mg | Tablet | Not recorded |
-| SIN05583P | STORILAT 200 TABLET 200 mg | Tablet | Not recorded |
-| SIN02387P | TEGRETOL CR 200 TABLET 200 mg | Tablet, film coated | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00352P | TEGRETOL 200 TABLET 200 mg | TABLET | Valid |
+| SIN00510P | Tegretol Oral Suspension 2% | SUSPENSION | Valid |
+| SIN02387P | TEGRETOL CR 200 TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN02388P | TEGRETOL CR 400 TABLET 400 mg | TABLET, FILM COATED | Valid |
+| SIN05583P | STORILAT 200 TABLET 200 mg | TABLET | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 951
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tagraxofusp: predicted new indication Esotropia (evidence level L5). Approved use: CD4+/CD56+ hematodermic neoplasm"
 monitor_inn: "Tagraxofusp"
 predicted_indications: ["esotropia", "pre-malignant neoplasm", "inner ear neoplasm", "benign neoplasm of tongue", "chondroid hamartoma", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "cystic neoplasm", "thyroglossal duct cyst"]
@@ -63,9 +63,9 @@ Other top-ranked predictions are also weak or unsupported: pre-malignant neoplas
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17059P | ELZONRIS Concentrate for Solution for Infusion 1000 mcg/mL | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17059P | ELZONRIS CONCENTRATE FOR SOLUTION FOR INFUSION 1000 MCG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 The product is an injectable (intravenous infusion) with one valid single-ingredient licence and none cancelled.
 

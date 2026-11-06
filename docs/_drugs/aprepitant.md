@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Aprepitant: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not available"
 monitor_inn: "Aprepitant"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -73,11 +73,11 @@ Currently no related literature available for nephrogenic syndrome of inappropri
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12369P | EMEND CAPSULE 80 mg | Capsule | Not stated |
-| SIN12371P | EMEND TRI-PACK CAPSULE | Capsule | Not stated |
-| SIN16363P | INAPITANT TRI-PACK CAPSULE | Capsule | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12369P | EMEND CAPSULE 80 mg | CAPSULE | Valid |
+| SIN12371P | EMEND TRI-PACK CAPSULE | CAPSULE | Valid |
+| SIN16363P | INAPITANT TRI-PACK CAPSULE | CAPSULE | Valid |
 
 All three licences are valid single-ingredient products, and none is cancelled. The only route of administration is oral.
 

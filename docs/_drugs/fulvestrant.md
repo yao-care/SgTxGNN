@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 458
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Fulvestrant"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, but
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,15 +74,17 @@ Currently no related clinical trials registered for HIV infectious disease.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13216P | Faslodex Solution For Injection 250 mg/5ml | Injection, solution | Not listed |
-| SIN16154P | Fulvestrant-Teva Solution For Injection 250mg/5ml | Injection, solution | Not listed |
-| SIN16152P | Fulvestrant Sandoz Solution For Injection In Prefilled-Syringe 250mg/5ml | Injection, solution | Not listed |
-| SIN16163P | Femcord Solution For Injection 250 mg/5 ml | Injection, solution | Not listed |
-| SIN16780P | Fulvestrant-AFT Solution For Injection In Prefilled-Syringe 250mg/5ml | Injection, solution | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13216P | Faslodex Solution For Injection 250 mg/5ml | INJECTION, SOLUTION | Valid |
+| SIN16152P | FULVESTRANT SANDOZ SOLUTION FOR INJECTION IN PREFILLED-SYRINGE 250MG/5 | INJECTION, SOLUTION | Valid |
+| SIN16154P | FULVESTRANT-TEVA SOLUTION FOR INJECTION 250MG/5ML | INJECTION, SOLUTION | Valid |
+| SIN16163P | FEMCORD SOLUTION FOR INJECTION 250 MG/5 ML | INJECTION, SOLUTION | Valid |
+| SIN16780P | FULVESTRANT-AFT SOLUTION FOR INJECTION IN PREFILLED-SYRINGE 250MG/5ML | INJECTION, SOLUTION | Valid |
 
-Three further licences are valid (SIN17045P, SIN16848P, SIN16893P). All 8 are single-ingredient products, and none is cancelled.
+Showing 5 of 9 HSA registrations.
+
+Three further licences are valid (SIN17045P, SIN16848P, SIN16893P).
 
 ## Cytotoxicity
 

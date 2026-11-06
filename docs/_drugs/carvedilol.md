@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Carvedilol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,13 +69,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13155P | Carvedilol Sandoz 6.25mg | Tablet | Not recorded |
-| SIN13156P | Carvedilol Sandoz 25mg | Tablet | Not recorded |
-| SIN14643P | Vacodil 12.5 Film-coated Tablet 12.5 mg | Film-coated tablet | Not recorded |
-| SIN10335P | DILATREND TABLET 12.5 mg | Tablet | Not recorded |
-| SIN07421P | DILATREND TABLET 25 mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07421P | DILATREND TABLET 25 mg | TABLET | Valid |
+| SIN10335P | DILATREND TABLET 12.5 mg | TABLET | Valid |
+| SIN13155P | Carvedilol Sandoz 6.25mg | TABLET | Valid |
+| SIN13156P | Carvedilol Sandoz 25mg | TABLET | Valid |
+| SIN14642P | Vacodil 25 Film-coated Tablet 25 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 All seven licences in the data are valid single-ingredient products; the five above are the main ones shown.
 

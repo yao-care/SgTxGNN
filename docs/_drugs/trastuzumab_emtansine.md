@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 1013
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Trastuzumab Emtansine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -77,8 +77,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Trastuzum
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN14497P | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 | INJECTION, POWDER, FOR SOLUTION | Valid |
-| SIN14496P | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 160 | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14496P | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 160MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14497P | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

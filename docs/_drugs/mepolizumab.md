@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 650
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Mepolizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but the supporting evidence is thin: **0 clinical trials** and **1 publication**
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,6 @@ but the supporting evidence is thin: **0 clinical trials** and **1 publication**
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Mepolizumab is known to be an anti-IL-5 antibody that depletes eosinophils, which is why it fits eosinophil-driven diseases such as eosinophilic pneumonia and pulmonary eosinophilia.
 
 The link to immune thrombocytopenia is indirect. A single case report describes a patient with a steroid-resistant hypereosinophilic immune disorder and a mixed thrombotic microangiopathy who improved on mepolizumab. The benefit is plausibly due to controlling eosinophil-driven immune dysregulation, not to a direct effect on platelet autoimmunity (anti-platelet autoantibodies and Fc-gamma receptor-mediated platelet clearance). The high TxGNN score is a computational prediction and does not replace clinical evidence.
-
 
 ## Clinical Trial Evidence
 
@@ -75,13 +74,10 @@ A review of hypereosinophilic syndrome management including mepolizumab ([PMID 2
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16811P | NUCALA Solution for Injection in Pre-filled Syringe 40mg/0.4mL | Injection, solution | Not stated in the compiled data |
-| SIN16172P | NUCALA Solution for Injection in Pre-filled Pen 100mg/mL | Injection, solution | Not stated in the compiled data |
-| SIN16171P | NUCALA Solution for Injection in Pre-filled Syringe 100mg/mL | Injection, solution | Not stated in the compiled data |
-
-All three licences are valid single-ingredient products from Glaxo Operations UK Ltd.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16172P | NUCALA SOLUTION FOR INJECTION IN PRE-FILLED PEN 100MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16811P | NUCALA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 40MG/0.4ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

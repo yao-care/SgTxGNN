@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1055
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,13 +90,15 @@ Currently no related clinical trials registered.
 
 All 10 licences are valid single-ingredient products. No approved-indication text is recorded for them. The five main authorisations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08069P | Vancomycin HCl Injection 500 mg/vial | Powder for solution for injection | Not recorded |
-| SIN15417P | Vancosala powder for solution for injection or infusion 500 mg | Lyophilised powder for injection | Not recorded |
-| SIN16445P | Vancover Capsules 250 mg | Capsule | Not recorded |
-| SIN15070P | Vancomycin Kabi powder for concentrate for solution for infusion 500 mg | Lyophilised powder for infusion | Not recorded |
-| SIN16932P | Difforal Capsules 250 mg | Capsule | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08069P | VANCOMYCIN HCl INJECTION 500 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14527P | VANCOMYCIN POWDER FOR SOLUTION FOR INJECTION/INFUSION 500mg | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15070P | VANCOMYCIN KABI POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 500 M | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15417P | VANCOSALA POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500mg PER VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16013P | VANCONEX LYOPHILIZED POWDER FOR INJECTION 1G/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+Showing 5 of 10 HSA registrations.
 
 Both injectable and oral (capsule) forms are registered.
 

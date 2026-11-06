@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Calcitriol"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **obsolete vitamin D deficiency
 | Predicted New Indication | obsolete vitamin D deficiency |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,12 +69,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13449P | MEDITROL | Capsule, liquid filled | Not recorded |
-| SIN12258P | RASPUTIN SOFT CAPSULE 0.25 mcg | Capsule, liquid filled | Not recorded |
-| SIN03865P | ROCALTROL CAPSULE 0.25 mcg | Capsule, liquid filled | Not recorded |
-| SIN12160P | SILKIS OINTMENT 3 mcg/g | Ointment | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03865P | ROCALTROL CAPSULE 0.25 mcg | CAPSULE, LIQUID FILLED | Valid |
+| SIN12258P | RASPUTIN SOFT CAPSULE 0.25 mcg | CAPSULE, LIQUID FILLED | Valid |
+| SIN13449P | MEDITROL | CAPSULE, LIQUID FILLED | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 680
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,13 +79,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14012P | APO-Mirtazapine Tablet 30 mg | Film-coated tablet | Not listed |
-| SIN13644P | Mirtazapine Sandoz Orodispersible Tablets 30 mg | Orally disintegrating tablet | Not listed |
-| SIN13643P | Mirtazapine Sandoz Orodispersible Tablets 15 mg | Orally disintegrating tablet | Not listed |
-| SIN12527P | Remeron SolTab 30 mg | Tablet | Not listed |
-| SIN12526P | Remeron SolTab 15 mg | Tablet | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12526P | REMERON SOLTAB 15 mg | TABLET | Valid |
+| SIN12527P | REMERON SOLTAB 30 mg | TABLET | Valid |
+| SIN13643P | Mirtazapine Sandoz Orodispersible Tablets 15mg | TABLET, ORALLY DISINTEGRATING | Valid |
+| SIN13644P | Mirtazapine Sandoz Orodispersible Tablets 30mg | TABLET, ORALLY DISINTEGRATING | Valid |
+| SIN14012P | APO-MIRTAZAPINE TABLET 30MG | TABLET, FILM COATED | Valid |
 
 All five licences are valid single-ingredient oral products.
 

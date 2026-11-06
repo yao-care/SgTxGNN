@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Digoxin"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
 description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,13 +85,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01198P | LANOXIN TABLET 0.25 mg | Tablet | Not stated in the licence record |
-| SIN17078P | DIGOKERN TABLETS 0.25MG | Tablet | Not stated in the licence record |
-| SIN00544P | LANOXIN PAEDIATRIC/GERIATRIC ELIXIR 0.05 mg/ml | Elixir | Not stated in the licence record |
-| SIN01203P | LANOXIN-PG PAEDIATRIC/GERIATRIC TABLET 0.0625 mg | Tablet | Not stated in the licence record |
-| SIN00547P | LANOXIN INJECTION 0.5 mg/2 ml | Injection | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00544P | LANOXIN PAEDIATRIC/GERIATRIC ELIXIR 0.05 mg/ml | ELIXIR | Valid |
+| SIN00547P | LANOXIN INJECTION 0.5 mg/2 ml | INJECTION | Valid |
+| SIN01198P | LANOXIN TABLET 0.25 mg | TABLET | Valid |
+| SIN01203P | LANOXIN-PG PAEDIATRIC/GERIATRIC TABLET 0.0625 mg | TABLET | Valid |
+| SIN17078P | DIGOKERN TABLETS 0.25MG | TABLET | Valid |
 
 Available routes: oral (tablet), other (elixir), injectable.
 

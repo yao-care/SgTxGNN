@@ -5,7 +5,7 @@ layout: default
 title: Fosnetupitant
 parent: Known Uses Only (No New Predictions)
 nav_order: 455
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fosnetupitant: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Fosnetupitant"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16899P | Akynzeo® IV Concentrate for Solution for Infusion 235 mg/0.25 mg/vial (Baxter Oncology GmbH) | Infusion, solution concentrate | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16899P | Akynzeo® IV Concentrate for Solution for Infusion 235 mg/0.25 mg/vial | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Safety Considerations
 

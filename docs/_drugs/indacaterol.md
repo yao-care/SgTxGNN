@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the Singapore registration records"
 monitor_inn: "Indacaterol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -81,13 +81,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14539P | Ultibro Breezhaler Inhalation Powder Hard Capsule 110/50 mcg | Capsule | Not listed in the registration record |
-| SIN16148P | Atectura Breezhaler Inhalation Powder, Hard Capsule 150/160 mcg | Powder, metered | Not listed in the registration record |
-| SIN16149P | Atectura Breezhaler Inhalation Powder, Hard Capsule 150/80 mcg | Powder, metered | Not listed in the registration record |
-| SIN16147P | Atectura Breezhaler Inhalation Powder, Hard Capsule 150/320 mcg | Powder, metered | Not listed in the registration record |
-| SIN16153P | Enerzair Breezhaler Inhalation Powder, Hard Capsule 150/50/160 mcg | Powder, metered | Not listed in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14539P | ULTIBRO BREEZHALER INHALATION POWDER HARD CAPSULE 110/50 MCG | CAPSULE | Valid |
+| SIN16147P | ATECTURA BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG /320 MCG | POWDER, METERED | Valid |
+| SIN16148P | ATECTURA BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG /160 MCG | POWDER, METERED | Valid |
+| SIN16149P | ATECTURA BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG /80 MCG | POWDER, METERED | Valid |
+| SIN16153P | ENERZAIR BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG /50 MCG /1 | POWDER, METERED | Valid |
 
 ---
 

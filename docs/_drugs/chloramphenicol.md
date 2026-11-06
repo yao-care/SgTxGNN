@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Chloramphenicol"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
 description: "Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,11 +74,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00230P | Chloramphenicol Ear Drops 5% w/v | Solution | Not stated in the licence record |
-| SIN04574P | Chloramphenicol Ear Drops 5% w/v | Solution | Not stated in the licence record |
-| SIN00231P | Xepanicol Eye Drops 0.5% | Solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00230P | CHLORAMPHENICOL EAR DROPS 5% w/v | SOLUTION | Valid |
+| SIN00231P | XEPANICOL EYE DROPS 0.5% | SOLUTION | Valid |
+| SIN04574P | CHLORAMPHENICOL EAR DROPS 5% w/v | SOLUTION | Valid |
 
 ## Safety Considerations
 

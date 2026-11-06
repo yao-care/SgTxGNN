@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1015
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma, ocular hypertension"
 monitor_inn: "Travoprost"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
@@ -102,11 +102,11 @@ For reference, the literature below was retrieved for the related "vascular dise
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15446P | TRAVON EYE DROPS SOLUTION 0.004% | Sterile solution | Not specified in the data |
-| SIN15206P | TRAVATAN C EYE DROP SOLUTION 30MCG/ML | Sterile solution | Not specified in the data |
-| SIN13722P | DuoTrav Eye Drops, Solution (5mg/40mcg) per mL | Sterile solution | Not specified in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15206P | TRAVATAN C EYE DROP SOLUTION 30MCG/ML | SOLUTION, STERILE | Valid |
+| SIN15446P | TRAVON EYE DROPS SOLUTION 0.004% | SOLUTION, STERILE | Valid |
+| SIN13722P | DuoTrav Eye Drops, Solution (5mg/40mcg) per mL | SOLUTION, STERILE | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carbetocin: predicted new indication Isotretinoin-like syndrome (evidence level L5). Approved use: Prader-Willi syndrome, Noonan syndrome"
 monitor_inn: "Carbetocin"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
@@ -50,8 +50,8 @@ This is a model-only prediction (Evidence Level L5).
 | Predicted New Indication | Isotretinoin-like syndrome |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,10 @@ Currently no related literature available for isotretinoin-like syndrome.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15173P | DURATOCIN RTS SOLUTION FOR INJECTION 100 MCG/ML (Ferring GmbH) | Injection, solution | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15173P | DURATOCIN RTS SOLUTION FOR INJECTION 100 MCG/ML | INJECTION, SOLUTION | Valid |
+| SIN17464P | Obitocin Solution for Injection in Prefilled Syringe 100mcg/mL | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

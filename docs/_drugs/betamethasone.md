@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 153
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Support is thin: **no registered clinical trials** and **1 publication**, a 1964
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 54 of 54) |
+| Number of Registrations | 54 (valid: 54) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,15 +74,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Singapore has 20 valid single-ingredient betamethasone licences. The five below are a sample, and the approved indication text is not recorded in the local data.
+The five below are a sample, and the approved indication text is not recorded in the local data.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04025P | Diprosone Cream 0.05% | Cream | Not available |
-| SIN07714P | Betnovate Scalp Application 0.1% w/w | Solution | Not available |
-| SIN03842P | Diprocel Ointment 0.05% | Ointment | Not available |
-| SIN09789P | Dermasone Scalp Lotion 0.1% | Lotion | Not available |
-| SIN08515P | Temprosone Gel 0.05% | Gel | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02886P | BETAMETHASONE OINTMENT 0.05% | OINTMENT | Valid |
+| SIN02887P | BETAMETHASONE OINTMENT 0.025% | OINTMENT | Valid |
+| SIN03842P | DIPROCEL OINTMENT 0.05% | OINTMENT | Valid |
+| SIN03849P | UNIFLEX CREAM 0.1% w/w | CREAM | Valid |
+| SIN03867P | SW BETAMETHASONE CREAM 0.1% w/w | CREAM | Valid |
+
+Showing 5 of 54 HSA registrations.
 
 ## Safety Considerations
 

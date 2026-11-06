@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alverine: predicted new indication Dysthymic disorder (evidence level L5). Approved use: Not stated in the Singapore licence records. Reference sources descri…"
 monitor_inn: "Alverine"
 predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
@@ -79,10 +79,10 @@ Currently no related literature is available for dysthymic disorder itself. The 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17214P | ALMET CAPSULES | Capsule, liquid filled (oral) | Not recorded in the licence data |
-| SIN16773P | ALVERSIME SOFT CAPSULES | Capsule (oral) | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16773P | ALVERSIME SOFT CAPSULES | CAPSULE | Valid |
+| SIN17214P | ALMET CAPSULES | CAPSULE, LIQUID FILLED | Valid |
 
 Both licences are valid single-ingredient products. None are cancelled.
 

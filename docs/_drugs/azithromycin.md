@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -76,13 +76,15 @@ Currently no related literature available for hyperamylasemia.
 
 The licence records contain no approved indication text. The main authorizations are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10911P | ZITHROMAX TABLET 250 mg | Film-coated tablet | Not specified |
-| SIN07863P | ZITHROMAX POWDER FOR ORAL SUSPENSION 200 mg/5 ml | Powder for oral suspension | Not specified |
-| SIN12057P | ZITHROMAX IV POWDER FOR SOLUTION FOR INFUSION 500 mg/vial | Powder for solution for infusion | Not specified |
-| SIN14040P | AZmycin Tablet 500mg | Film-coated tablet | Not specified |
-| SIN16876P | ZITHROTEL POWDER FOR SOLUTION FOR INFUSION 500MG/VIAL | Powder for solution for infusion | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07863P | ZITHROMAX POWDER FOR ORAL SUSPENSION 200 mg/5 ml | POWDER, FOR SUSPENSION | Valid |
+| SIN10911P | ZITHROMAX TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN12057P | ZITHROMAX IV POWDER FOR SOLUTION FOR INFUSION 500 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13976P | AZITHROMYCIN KERN PHARMA 500MG FILM-COATED TABLETS | TABLET, FILM COATED | Valid |
+| SIN13977P | AZITHROMYCIN KERN PHARMA 200MG/5ML POWDER FOR ORAL SUSPENSION | POWDER, FOR SUSPENSION | Valid |
+
+Showing 5 of 16 HSA registrations.
 
 All 16 registrations are valid single-ingredient products, available as oral tablets, oral suspension powder and intravenous infusion powder.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cyclosporine: predicted new indication granulomatous disease, chronic, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The evidence does not directly address cyclosporine as a treatment for this dise
 | Predicted New Indication | granulomatous disease, chronic, autosomal recessive |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 10 of 10) |
-| Number of Registrations | 10 (valid: 10) |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,13 +74,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08179P | SANDIMMUN NEORAL CAPSULE 25 mg | Capsule, liquid filled | Not recorded |
-| SIN14048P | DEXIMUNE CAPSULES 50MG | Capsule, liquid filled | Not recorded |
-| SIN00520P | SANDIMMUN CONCENTRATE FOR INFUSION 50 mg/ml | Injection | Not recorded |
-| SIN15216P | IKERVIS EYE DROPS, EMULSION 1MG/ML | Emulsion | Not recorded |
-| SIN08176P | SANDIMMUN NEORAL DRINK SOLUTION 100 mg/ml | Solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00520P | SANDIMMUN CONCENTRATE FOR INFUSION 50 mg/ml | INJECTION | Valid |
+| SIN08176P | SANDIMMUN NEORAL DRINK SOLUTION 100 mg/ml | SOLUTION | Valid |
+| SIN08177P | SANDIMMUN NEORAL CAPSULE 100 mg | CAPSULE, LIQUID FILLED | Valid |
+| SIN08179P | SANDIMMUN NEORAL CAPSULE 25 mg | CAPSULE, LIQUID FILLED | Valid |
+| SIN09871P | SANDIMMUN NEORAL CAPSULE 10 mg | CAPSULE, LIQUID FILLED | Valid |
+
+Showing 5 of 12 HSA registrations.
 
 ## Safety Considerations
 

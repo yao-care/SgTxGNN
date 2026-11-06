@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 504
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Support is thin: **1 Phase 3 trial** (in which hydrocortisone was the low-potenc
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 16 of 16) |
-| Number of Registrations | 16 (valid: 16) |
+| Singapore Market Status | Marketed (valid licences: 29 of 29) |
+| Number of Registrations | 29 (valid: 29) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,15 +83,17 @@ Hydrocortisone is, however, a low-potency corticosteroid. In the only Phase 3 ra
 
 ## Singapore Market Information
 
-Hydrocortisone is marketed in Singapore. All 16 single-ingredient licences are valid, mostly creams and ointments, plus one oral tablet and one otic suspension. Five examples:
+Hydrocortisone is marketed in Singapore. Five examples:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07203P | Hydrocortison Tablet 10 mg | Tablet | Not stated in the records |
-| SIN05104P | Hydrocortisone Cream 1% w/w | Cream | Not stated in the records |
-| SIN12211P | H-Cort Cream 1% w/w | Cream | Not stated in the records |
-| SIN12212P | H-Cort Ointment 1% w/w | Ointment | Not stated in the records |
-| SIN11287P | Ciprobay HC Otic Suspension | Solution | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03781P | SW HYDROCORTISONE CREAM 1% w/w | CREAM | Valid |
+| SIN03897P | CORTISONE CREAM 1% | CREAM | Valid |
+| SIN04767P | HYDROCORTISONE CREAM 1% w/w | CREAM | Valid |
+| SIN04791P | SOLU-CORTEF FOR INJECTION 100 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN04792P | EGOCORT CREAM 1% | CREAM | Valid |
+
+Showing 5 of 29 HSA registrations.
 
 ## Safety Considerations
 

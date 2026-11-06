@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 175
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Brinzolamide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -76,8 +76,8 @@ The TxGNN model produced candidates for Brinzolamide with a score of 0.99 or hig
 |------|------|------|------|
 | SIN11029P | AZOPT OPHTHALMIC SUSPENSION 1% | SOLUTION | Valid |
 | SIN17215P | BRITIL EYE DROPS, SUSPENSION 1% w/v | SUSPENSION, STERILE | Valid |
-| SIN15085P | SIMBRINZA EYE DROPS, SUSPENSION 10 MG/ML + 2 MG/ML | SUSPENSION, STERILE | Valid |
 | SIN13802P | Azarga 10mg/mL + 5mg/mL eye drops, suspension | SUSPENSION, STERILE | Valid |
+| SIN15085P | SIMBRINZA EYE DROPS, SUSPENSION 10 MG/ML + 2 MG/ML | SUSPENSION, STERILE | Valid |
 
 ## Safety Considerations
 

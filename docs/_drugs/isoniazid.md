@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Isoniazid"
 predicted_indications: ["conjunctivitis"]
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,11 +83,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00373C | PDP-ISONIAZID TABLET 300 mg | Tablet | Not available |
-| SIN06651P | PDP-ISONIAZID TABLET 300 mg | Tablet | Not available |
-| SIN01302P | ISONIAZID TABLET 100 mg | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01302P | ISONIAZID TABLET 100 mg | TABLET | Valid |
+| SIN06651P | PDP-ISONIAZID TABLET 300 mg | TABLET | Valid |
 
 ## Safety Considerations
 

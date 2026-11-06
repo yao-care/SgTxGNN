@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Fremanezumab"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Fremanezumab: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,10 +84,10 @@ The compiled literature includes no RCTs. Below are the most relevant publicatio
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15937P | AJOVY solution for injection in pre-filled syringe 225 mg/1.5 mL | Injection, solution | Not stated in the available record |
-| SIN16344P | AJOVY solution for injection in pre-filled pen 225 mg/1.5 mL | Injection, solution | Not stated in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15937P | AJOVY SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 225 MG/1.5ML | INJECTION, SOLUTION | Valid |
+| SIN16344P | AJOVY SOLUTION FOR INJECTION IN PRE-FILLED PEN 225 MG/1.5ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

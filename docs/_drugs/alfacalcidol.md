@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Alfacalcidol"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alfacalcidol: predicted new indication Craniofacial conodysplasia (evidence level L5). Approved use: Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism…"
 ---
 
@@ -94,12 +94,12 @@ These reports are confounded by concurrent alkali and phosphate therapy, and non
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16483P | ALFOST CAPSULES 0.25MCG | Capsule, liquid filled | Not stated in the available record |
-| SIN05972P | ONE-ALPHA CAPSULE 0.25 mcg | Capsule, liquid filled | Not stated in the available record |
-| SIN06140P | ONE-ALPHA INJECTION 2 mcg/ml | Injection | Not stated in the available record |
-| SIN16484P | ALFOST CAPSULES 1.0MCG | Capsule, liquid filled | Not stated in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05972P | ONE-ALPHA CAPSULE 0.25 mcg | CAPSULE, LIQUID FILLED | Valid |
+| SIN06140P | ONE-ALPHA INJECTION 2 mcg/ml | INJECTION | Valid |
+| SIN16483P | ALFOST CAPSULES 0.25MCG | CAPSULE, LIQUID FILLED | Valid |
+| SIN16484P | ALFOST CAPSULES 1.0MCG | CAPSULE, LIQUID FILLED | Valid |
 
 Both oral and injectable forms are available.
 

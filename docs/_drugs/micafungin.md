@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 670
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Esophageal candidiasis, candidemia, disseminated candidiasis"
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **urinary tract infection**, an
 | Predicted New Indication | Urinary tract infection (disease) |
 | TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L3 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 Candida is a common cause of fungal urinary tract infection and candiduria. The prediction is therefore best read as an extension of micafungin's approved anti-Candida use to the urinary tract, not as a new mechanism. It applies to **Candida UTI only**, not to bacterial UTI.
 
 There is one pharmacokinetic caveat. Only a small fraction of micafungin is excreted in urine, and echinocandins are not routinely recommended for candiduria. However, a pharmacokinetic report (PMID 27424599) found urinary micafungin levels sufficient to treat Candida UTI in six patients, including four with fluconazole-resistant organisms. This partly addresses the concern, but the data are small-scale.
-
 
 ---
 
@@ -92,9 +91,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14464P | MYCAMINE POWDER FOR SOLUTION FOR INFUSION 50MG/VIAL | Lyophilised powder for injection (solution for infusion) | Approved indication text not available in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14464P | MYCAMINE POWDER FOR SOLUTION FOR INFUSION 50MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17264P | MICAFUNGIN PHARMAZAC POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION  | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17406P | MICAFUNGIN BIOCON POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50  | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17407P | MICAFUNGIN BIOCON POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17429P | MICAFUNGIN-AFT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/V | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ---
 

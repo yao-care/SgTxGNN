@@ -5,7 +5,7 @@ layout: default
 title: Aprotinin
 parent: Known Uses Only (No New Predictions)
 nav_order: 106
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Aprotinin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Aprotinin"
 predicted_indications: []
@@ -48,11 +48,11 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07805P | TRASYLOL INJECTION 500,000 kiu/50 ml | Injection | Not recorded |
-| SIN14719P | ARTISS SOLUTIONS FOR SEALANT, DEEP FROZEN | Solution | Not recorded |
-| SIN14707P | TISSEEL FIBRIN SEALANT VH S/D (FROZEN) | Solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07805P | TRASYLOL INJECTION 500,000 kiu/50 ml | INJECTION | Valid |
+| SIN14707P | TISSEEL FIBRIN SEALANT VH S/D (FROZEN) | SOLUTION | Valid |
+| SIN14719P | ARTISS SOLUTIONS FOR SEALANT, DEEP FROZEN | SOLUTION | Valid |
 
 ## Safety Considerations
 

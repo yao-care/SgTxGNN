@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "microcystic/reticular schwannoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Selumetinib: predicted new indication Familial generalized lentiginosis (evidence level L5). Approved use: Neurofibromatosis"
 ---
 
@@ -71,10 +71,10 @@ Currently no related literature available for familial generalized lentiginosis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16275P | KOSELUGO Hard Capsules 10 mg | Capsule | Not stated in the licence record |
-| SIN16276P | KOSELUGO Hard Capsules 25 mg | Capsule | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16275P | KOSELUGO HARD CAPSULES 10MG | CAPSULE | Valid |
+| SIN16276P | KOSELUGO HARD CAPSULES 25MG | CAPSULE | Valid |
 
 Both licences are for the oral route, and the manufacturer is Patheon Pharmaceuticals Inc.
 

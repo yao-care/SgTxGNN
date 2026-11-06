@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ebastine: predicted new indication Coronary artery disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, idiopathic urticaria"
 monitor_inn: "Ebastine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **coronary artery disease**, bu
 | Predicted New Indication | Coronary artery disease |
 | TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,16 +75,16 @@ Currently no related clinical trials registered.
 
 For the top-ranked prediction (coronary artery disease), currently no related literature is available.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [39230196](https://pubmed.ncbi.nlm.nih.gov/39230196/) | 2024 | Review | Expert Review of Clinical Pharmacology | Consensus statement on levocetirizine (a different antihistamine) in chronic spontaneous urticaria; second-generation antihistamines are first-line therapy for this condition. |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09435P | KESTINE TABLET 10 mg | Tablet, film coated (oral) | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09435P | KESTINE TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN15644P | KESTINE FILM-COATED TABLET 20MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

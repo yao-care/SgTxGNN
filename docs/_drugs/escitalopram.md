@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 398
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Escitalopram: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced candidate indications for Escitalopram, b
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 
 ## Known uses among the model's candidates
 
@@ -75,13 +75,15 @@ The TxGNN deep-learning model produced candidate indications for Escitalopram, b
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN17140P | CILENTRA 10 ESCITALOPRAM OXALATE TABLET USP 10MG | TABLET, FILM COATED | Valid |
-| SIN17139P | CILENTRA 20 ESCITALOPRAM OXALATE TABLET USP 20MG | TABLET, FILM COATED | Valid |
-| SIN13780P | Lepax Film-Coated Tablet 10mg | TABLET, COATED | Valid |
+| SIN12362P | LEXAPRO TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN12363P | LEXAPRO TABLET 10 mg | TABLET, FILM COATED | Valid |
 | SIN12364P | LEXAPRO TABLET 15 mg | TABLET, FILM COATED | Valid |
 | SIN12365P | LEXAPRO TABLET 5 mg | TABLET, FILM COATED | Valid |
-| SIN12363P | LEXAPRO TABLET 10 mg | TABLET, FILM COATED | Valid |
-| SIN12362P | LEXAPRO TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN13780P | Lepax Film-Coated Tablet 10mg | TABLET, COATED | Valid |
+| SIN16777P | S-OROPRAM FC TABLET 10MG | TABLET, FILM COATED | Valid |
+| SIN17139P | CILENTRA 20 ESCITALOPRAM OXALATE TABLET USP 20MG | TABLET, FILM COATED | Valid |
+
+Showing 7 of 8 HSA registrations.
 
 ## Safety Considerations
 

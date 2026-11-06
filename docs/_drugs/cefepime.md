@@ -5,7 +5,7 @@ layout: default
 title: Cefepime
 parent: Known Uses Only (No New Predictions)
 nav_order: 221
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cefepime: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Cefepime"
 predicted_indications: []
@@ -48,12 +48,12 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14658P | Cefepime-AFT Powder for Injection 1g/vial | Lyophilised powder for injection | Not stated in the compiled records |
-| SIN14156P | Cefevon powder for solution for injection 2g/vial | Powder for injection | Not stated in the compiled records |
-| SIN14988P | Cefepime Kabi powder for solution for injection or infusion 2g/vial | Powder for injection | Not stated in the compiled records |
-| SIN14987P | Cefepime Kabi powder for solution for injection or infusion 1g/vial | Powder for injection | Not stated in the compiled records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14156P | Cefevon powder for solution for injection 2g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14658P | CEFEPIME-AFT POWDER FOR INJECTION 1G/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN14987P | CEFEPIME KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14988P | CEFEPIME KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 2 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

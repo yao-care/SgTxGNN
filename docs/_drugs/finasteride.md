@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -81,13 +81,15 @@ For the closely related predicted indication of general hypertrichosis, four pub
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15733P | FINAREX FILM-COATED TABLET 5MG | Film-coated tablet | Not specified |
-| SIN16530P | FINAPECIA 1 FILM COATED TABLET 1 MG | Film-coated tablet | Not specified |
-| SIN09921P | PROPECIA TABLET 1 mg | Film-coated tablet | Not specified |
-| SIN14865P | STERCIA FILM-COATED TABLET 1MG | Film-coated tablet | Not specified |
-| SIN07513P | PROSCAR TABLET 5 mg | Film-coated tablet | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07513P | PROSCAR TABLET 5 mg | TABLET, FILM COATED | Valid |
+| SIN09921P | PROPECIA TABLET 1 mg | TABLET, FILM COATED | Valid |
+| SIN13869P | FINASTERIDE TABLETS USP 1mg (FINAS 1) | TABLET | Valid |
+| SIN14423P | FINAGEN 5 FILM-COATED TABLET 5 MG | TABLET, FILM COATED | Valid |
+| SIN14865P | STERCIA FILM-COATED TABLET 1MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 10 HSA registrations.
 
 Ten single-ingredient oral licences are valid in total; none are cancelled.
 

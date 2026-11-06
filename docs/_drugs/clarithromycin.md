@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clarithromycin: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but this is a model prediction only, with **no clinical trials** and **no public
 | Predicted New Indication | polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 21 of 21) |
+| Number of Registrations | 21 (valid: 21) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,15 +70,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Clarithromycin is marketed in Singapore. The data compiled for this report include 20 valid single-ingredient licences, and the list may be partial. No approved-indication text is recorded in the local data. Main authorisations:
+Clarithromycin is marketed in Singapore. No approved-indication text is recorded in the local data. Main authorisations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12333P | CLARI TABLET 500 mg | Film-coated tablet | Not recorded |
-| SIN11756P | K-MYCIN F.C. TABLET 250 mg | Film-coated tablet | Not recorded |
-| SIN09354P | KLACID GRANULES FOR ORAL SUSPENSION 125 mg/5 ml | Granules for oral suspension | Not recorded |
-| SIN09119P | KLACID IV FOR INJECTION 500 mg/vial | Powder for solution for injection | Not recorded |
-| SIN09884P | KLACID MR TABLET 500 mg | Extended-release tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07085P | KLACID TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN09119P | KLACID IV FOR INJECTION 500 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN09193P | KLACID FORTE TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN09354P | KLACID GRANULES FOR ORAL SUSPENSION 125 mg/5 ml | GRANULE, FOR SUSPENSION | Valid |
+| SIN09884P | KLACID MR TABLET 500 mg | TABLET, EXTENDED RELEASE | Valid |
+
+Showing 5 of 21 HSA registrations.
 
 ## Cytotoxicity
 

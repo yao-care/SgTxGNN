@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 699
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Among the other predictions, **inflammatory spondylopathy** (4 clinical trials, 
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 16 of 16) |
-| Number of Registrations | 16 (valid: 16) |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 Other predictions with evidence worth noting:
@@ -99,15 +99,17 @@ No publications are available for the top-ranked prediction. The publications be
 
 ## Singapore Market Information
 
-There are 16 valid single-ingredient registrations in Singapore; none are cancelled. The records contain no approved-indication text. Main authorisations:
+The records contain no approved-indication text. Main authorisations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08430P | SODEN TABLET 275 mg | Film-coated tablet | Not listed |
-| SIN16449P | PRONAXEN ORAL SUSPENSION 25 MG/ML | Suspension | Not listed |
-| SIN05295P | APO-NAPROXEN TABLET 250 mg | Tablet | Not listed |
-| SIN12440P | ALEVE TABLET 220 mg (OTC Pack) | Film-coated tablet | Not listed |
-| SIN09953P | SUNPROX 550 TABLET 550 mg | Film-coated tablet | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05294P | APO-NAPROXEN TABLET 500 mg | TABLET | Valid |
+| SIN05295P | APO-NAPROXEN TABLET 250 mg | TABLET | Valid |
+| SIN05596P | NAPROXEN TABLET 250 mg | TABLET | Valid |
+| SIN05621P | SYNFLEX TABLET 275 mg | TABLET, FILM COATED | Valid |
+| SIN07136P | APO-NAPRO-NA TABLET 275 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 13 HSA registrations.
 
 ## Safety Considerations
 

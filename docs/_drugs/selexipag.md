@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 901
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Selexipag: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,14 +74,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Selexipag, s
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15290P | UPTRAVI FILM-COATED TABLETS 1600MCG | TABLET, FILM COATED | Valid |
+| SIN15283P | UPTRAVI FILM-COATED TABLET 200MCG | TABLET, FILM COATED | Valid |
+| SIN15284P | UPTRAVI FILM-COATED TABLETS 400MCG | TABLET, FILM COATED | Valid |
+| SIN15285P | UPTRAVI FILM-COATED TABLETS 600MCG | TABLET, FILM COATED | Valid |
+| SIN15286P | UPTRAVI FILM-COATED TABLETS 800MCG | TABLET, FILM COATED | Valid |
 | SIN15287P | UPTRAVI FILM-COATED TABLETS 1000MCG | TABLET, FILM COATED | Valid |
 | SIN15288P | UPTRAVI FILM-COATED TABLETS 1200MCG | TABLET, FILM COATED | Valid |
-| SIN15283P | UPTRAVI FILM-COATED TABLET 200MCG | TABLET, FILM COATED | Valid |
 | SIN15289P | UPTRAVI FILM-COATED TABLETS 1400MCG | TABLET, FILM COATED | Valid |
-| SIN15285P | UPTRAVI FILM-COATED TABLETS 600MCG | TABLET, FILM COATED | Valid |
-| SIN15284P | UPTRAVI FILM-COATED TABLETS 400MCG | TABLET, FILM COATED | Valid |
-| SIN15286P | UPTRAVI FILM-COATED TABLETS 800MCG | TABLET, FILM COATED | Valid |
+| SIN15290P | UPTRAVI FILM-COATED TABLETS 1600MCG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

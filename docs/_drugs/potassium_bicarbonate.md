@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 811
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Potassium Bicarbonate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Peptic ulcer disease, potassium deficiency…"
 monitor_inn: "Potassium bicarbonate"
 predicted_indications: ["gastroduodenitis"]
@@ -71,10 +71,10 @@ Among the other lower-ranked predictions, the few papers retrieved were indirect
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12635P | Gaviscon Advance – Peppermint Flavour Suspension | Suspension | Not specified in registration record |
-| SIN16042P | Gascovid Advance Liquid | Suspension | Not specified in registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12635P | GAVISCON ADVANCE-PEPPERMINT FLAVOUR SUSPENSION | SUSPENSION | Valid |
+| SIN16042P | GASCOVID ADVANCE LIQUID | SUSPENSION | Valid |
 
 ## Safety Considerations
 

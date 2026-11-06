@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1036
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Turoctocog Alfa: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Hemophilia (including the symptomatic form of hemophilia in female ca…"
 monitor_inn: "Turoctocog alfa"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "thrombotic thrombocytopenic purpura", "hereditary thrombocytosis with transverse limb defect"]
@@ -80,12 +80,12 @@ Primary platelet release disorders arise from defects in platelet granule secret
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16111P | NOVOEIGHT Powder and Solvent for Solution for Injection 500IU/vial | Injection, powder, for solution | Not recorded in the data compiled for this report |
-| SIN16110P | NOVOEIGHT Powder and Solvent for Solution for Injection 1000IU/vial | Injection, powder, for solution | Not recorded in the data compiled for this report |
-| SIN16109P | NOVOEIGHT Powder and Solvent for Solution for Injection 250IU/vial | Injection, powder, for solution | Not recorded in the data compiled for this report |
-| SIN16713P | NOVOEIGHT Powder and Solvent for Solution for Injection 2000IU/vial | Injection, powder, for solution | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16109P | NOVOEIGHT POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250IU/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN16110P | NOVOEIGHT POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN16111P | NOVOEIGHT POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN16713P | NOVOEIGHT POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 2000IU/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 All four registrations are valid single-ingredient products, and none has been cancelled.
 

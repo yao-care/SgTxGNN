@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Captopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,13 +82,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08473P | DEXACAP TABLET 12.5 mg | Tablet | Not recorded |
-| SIN10401P | CATOPLIN-25 TABLETS 25 mg | Tablet | Not recorded |
-| SIN06666P | APO-CAPTO TABLET 25 mg | Tablet | Not recorded |
-| SIN06665P | APO-CAPTO TABLET 50 mg | Tablet | Not recorded |
-| SIN06667P | APO-CAPTO TABLET 12.5 mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06665P | APO-CAPTO TABLET 50 mg | TABLET | Valid |
+| SIN06666P | APO-CAPTO TABLET 25 mg | TABLET | Valid |
+| SIN06667P | APO-CAPTO TABLET 12.5 mg | TABLET | Valid |
+| SIN08473P | DEXACAP TABLET 12.5 mg | TABLET | Valid |
+| SIN08474P | DEXACAP TABLET 25 mg | TABLET | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ---
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 725
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -83,10 +83,10 @@ Currently no clinical trials registered for ADHD.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09253P | APO-NORTRIPTYLINE CAPSULE 25 mg | Capsule | Not available |
-| SIN09255P | APO-NORTRIPTYLINE CAPSULE 10 mg | Capsule | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09253P | APO-NORTRIPTYLINE CAPSULE 25 mg | CAPSULE | Valid |
+| SIN09255P | APO-NORTRIPTYLINE CAPSULE 10 mg | CAPSULE | Valid |
 
 Both products are single-ingredient oral capsules made by Apotex Inc and are currently valid.
 

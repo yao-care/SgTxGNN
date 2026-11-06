@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 694
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Naloxone: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -77,8 +77,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 |------|------|------|------|
 | SIN05964P | NALOXONE HYDROCHLORIDE INJECTION USP 0.4 mg/ml | INJECTION | Valid |
 | SIN10290P | MAPIN INJECTION 0.4 mg/ml | INJECTION | Valid |
-| SIN14032P | TARGIN® Prolonged Release Tablets 10mg/5mg | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN14031P | TARGIN® Prolonged Release Tablets 5mg/2.5mg | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN14032P | TARGIN® Prolonged Release Tablets 10mg/5mg | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 
 ## Safety Considerations
 

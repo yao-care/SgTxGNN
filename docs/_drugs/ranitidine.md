@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 853
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,13 +88,13 @@ Currently no related clinical trials are registered.
 
 Ranitidine is marketed in Singapore, and all 5 licences recorded are currently valid.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11750P | ACILOC 150 TABLET 150 mg | Film-coated tablet | Not stated |
-| SIN10248P | ZYNOL-150 TABLET 150 mg | Film-coated tablet | Not stated |
-| SIN05429P | APO-RANITIDINE TABLET 150 mg | Film-coated tablet | Not stated |
-| SIN10081P | GASTRIL INJECTION 50 mg/2 ml | Injection | Not stated |
-| SIN11751P | ACILOC 300 TABLET 300 mg | Film-coated tablet | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05429P | APO-RANITIDINE TABLET 150 mg | TABLET, FILM COATED | Valid |
+| SIN10081P | GASTRIL INJECTION 50 mg/2 ml | INJECTION | Valid |
+| SIN10248P | ZYNOL-150 TABLET 150 mg | TABLET, FILM COATED | Valid |
+| SIN11750P | ACILOC 150 TABLET 150 mg | TABLET, FILM COATED | Valid |
+| SIN11751P | ACILOC 300 TABLET 300 mg | TABLET, FILM COATED | Valid |
 
 Both oral (tablet) and injectable forms are available locally.
 

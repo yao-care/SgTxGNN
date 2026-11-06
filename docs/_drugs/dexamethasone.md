@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ No clinical trials or publications were found for this disease, so the predictio
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 21 of 21) |
+| Number of Registrations | 21 (valid: 21) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,15 +82,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Dexamethasone is currently marketed in Singapore. The data compiled for this report list 20 valid single-ingredient licences and no cancelled ones. The records may be partial. The licence records carry no approved-indication text. Five representative authorizations are shown below.
+Dexamethasone is currently marketed in Singapore. The records may be partial. The licence records carry no approved-indication text. Five representative authorizations are shown below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07155P | Dexamethasone Tablet 4 mg | Tablet | Not stated |
-| SIN04238P | Dexamethasone Tablet 0.5 mg | Tablet | Not stated |
-| SIN04295P | Dexamethasone Sodium Phosphate Injection USP | Injection | Not stated |
-| SIN16866P | Dexamethasone Kalceks Solution for Injection/Infusion 4 mg/ml | Infusion, solution | Not stated |
-| SIN14058P | Ozurdex Intravitreal Implant 0.7 mg | Implant | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04027P | DEXASONE INJECTION 5 mg/ml | INJECTION | Valid |
+| SIN04153P | MAXIDEX STERILE OPHTHALMIC OINTMENT 0.1% | OINTMENT | Valid |
+| SIN04238P | DEXAMETHASONE TABLET 0.5 mg | TABLET | Valid |
+| SIN04295P | DEXAMETHASONE SODIUM PHOSPHATE INJECTION USP | INJECTION | Valid |
+| SIN04840P | MAXIDEX STERILE OPHTHALMIC SUSPENSION 0.1% | SOLUTION | Valid |
+
+Showing 5 of 21 HSA registrations.
 
 ---
 

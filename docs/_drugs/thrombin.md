@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 983
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Thrombin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ## Known uses recorded for this drug
 
@@ -75,8 +75,6 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14707P | TISSEEL FIBRIN SEALANT VH S/D (FROZEN) | SOLUTION | Valid |
-| SIN16776P | BERIPLAST P COMBI-SET 3ML POWDERS AND SOLVENTS FOR SEALANT | OTHER | Valid |
-| SIN16775P | BERIPLAST P COMBI-SET 1ML POWDERS AND SOLVENTS FOR SEALANT | OTHER | Valid |
 
 ## Safety Considerations
 

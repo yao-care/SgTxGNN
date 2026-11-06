@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Doravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Doravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The high score most likely reflects ontology proximity to HIV rather than indepe
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,10 +80,9 @@ No literature directly supports the top prediction. The only publications linked
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15869P | PIFELTRO FILM-COATED TABLET 100MG | Tablet, film coated | Not stated in the available records |
-| SIN15909P | DELSTRIGO FILM COATED TABLET 100MG/300MG/300MG | Tablet, film coated | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15869P | PIFELTRO FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

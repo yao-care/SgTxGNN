@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Emtricitabine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection and AIDS"
 ---
 
@@ -79,13 +79,13 @@ Currently no related clinical trials registered.
 
 All five licences below are for products that contain emtricitabine as one ingredient, and the licence records compiled for this report give no approved indication text. This section therefore describes only the registrations; it does not establish how emtricitabine itself is approved or marketed as a single ingredient.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14147P | Truvada Tablet 200mg/300mg | Film-coated tablet | Not stated in records |
-| SIN15322P | Descovy Film Coated Tablet 200 mg/25 mg | Film-coated tablet | Not stated in records |
-| SIN15321P | Descovy Film Coated Tablet 200 mg/10 mg | Film-coated tablet | Not stated in records |
-| SIN16015P | Odefsey Film-Coated Tablet 200mg/25mg/25mg | Film-coated tablet | Not stated in records |
-| SIN15604P | Biktarvy Film-Coated Tablets 50mg/200mg/25mg | Film-coated tablet | Not stated in records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14147P | Truvada Tablet 200mg/300mg | TABLET, FILM COATED | Valid |
+| SIN15321P | DESCOVY FILM COATED TABLET 200 MG/10 MG | TABLET, FILM COATED | Valid |
+| SIN15322P | DESCOVY FILM COATED TABLET 200 MG/25 MG | TABLET, FILM COATED | Valid |
+| SIN15604P | BIKTARVY FILM-COATED TABLETS 50MG/200MG/25MG | TABLET, FILM COATED | Valid |
+| SIN16015P | ODEFSEY FILM-COATED TABLET 200MG/25MG/25MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Bromazepam"
 predicted_indications: ["migraine disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bromazepam: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -60,10 +60,10 @@ Any link to migraine is speculative. One possible argument is that anxiolysis or
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00382P | LEXOTAN TABLET 3 mg | Tablet | Not recorded in local data |
-| SIN00385P | LEXOTAN TABLET 1.5 mg | Tablet | Not recorded in local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00382P | LEXOTAN TABLET 3 mg | TABLET | Valid |
+| SIN00385P | LEXOTAN TABLET 1.5 mg | TABLET | Valid |
 
 ## Safety Considerations
 

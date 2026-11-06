@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ramipril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ramipril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension and stroke/cerebrovascular conditions"
 ---
 
@@ -80,13 +80,13 @@ Only one retrieved paper directly addresses this disease. The other items retrie
 
 The licence records compiled for this report contain no approved-indication text, so indications are not shown.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09592P | TRITACE 5 TABLET 5 mg | Tablet | Not stated in records |
-| SIN09591P | TRITACE 2.5 TABLET 2.5 mg | Tablet | Not stated in records |
-| SIN15646P | TRINOMIA HARD CAPSULES 100mg/20mg/10mg | Capsule | Not stated in records |
-| SIN15647P | TRINOMIA HARD CAPSULES 100mg/20mg/2.5mg | Capsule | Not stated in records |
-| SIN15648P | TRINOMIA HARD CAPSULES 100mg/20mg/5mg | Capsule | Not stated in records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09591P | TRITACE 2.5 TABLET 2.5 mg | TABLET | Valid |
+| SIN09592P | TRITACE 5 TABLET 5 mg | TABLET | Valid |
+| SIN15646P | TRINOMIA HARD CAPSULES 100mg/ 20mg/ 10mg | CAPSULE | Valid |
+| SIN15647P | TRINOMIA HARD CAPSULES 100mg/ 20mg/ 2.5mg | CAPSULE | Valid |
+| SIN15648P | TRINOMIA HARD CAPSULES 100mg/ 20mg/ 5mg | CAPSULE | Valid |
 
 ## Safety Considerations
 

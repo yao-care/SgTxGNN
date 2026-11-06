@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1042
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Upadacitinib"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Upadacitinib: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,11 +71,11 @@ Currently no related literature available for the top-ranked predicted indicatio
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16687P | RINVOQ Extended-Release Tablet 45 mg | Film-coated extended-release tablet | Not stated in the data compiled |
-| SIN16518P | RINVOQ Extended-Release Tablet 30 mg | Film-coated extended-release tablet | Not stated in the data compiled |
-| SIN15959P | RINVOQ Extended-Release Tablet 15 mg | Film-coated extended-release tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15959P | RINVOQ EXTENDED-RELEASE TABLET 15MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN16518P | RINVOQ EXTENDED-RELEASE TABLET 30MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN16687P | RINVOQ EXTENDED-RELEASE TABLET 45MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 
 All three are valid single-ingredient oral products from AbbVie.
 

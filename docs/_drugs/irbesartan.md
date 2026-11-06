@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 547
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
 monitor_inn: "Irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
@@ -50,8 +50,8 @@ but **no clinical trials** and **no publications** currently support this specif
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 20 of 20) |
+| Number of Registrations | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,13 +88,15 @@ For reference, the closest indirect evidence comes from the rank 4 prediction (p
 
 All 20 registrations are valid single-ingredient products (oral tablets). Approved indication text is not recorded for any of them. Five main authorizations are listed:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10861P | APROVEL Film-Coated Tablet 150 mg | Film-coated tablet | Not recorded |
-| SIN10862P | APROVEL Film-Coated Tablet 300 mg | Film-coated tablet | Not recorded |
-| SIN11646P | COAPROVEL Film-Coated Tablet 150/12.5 mg | Film-coated tablet | Not recorded |
-| SIN14137P | Tensiber Film Coated Tablet 150mg | Film-coated tablet | Not recorded |
-| SIN16193P | IRBETAS 150 Film Coated Tablet 150 mg | Film-coated tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10861P | APROVEL FILM-COATED TABLET 150 mg | TABLET, FILM COATED | Valid |
+| SIN10862P | APROVEL FILM-COATED TABLET 300 mg | TABLET, FILM COATED | Valid |
+| SIN14137P | Tensiber Film Coated Tablet 150mg | TABLET, FILM COATED | Valid |
+| SIN14138P | Tensiber Film Coated Tablet 300mg | TABLET, FILM COATED | Valid |
+| SIN14163P | Irprestan Tablet 150 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 20 HSA registrations.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "tetanic cataract", "nuclear senile cataract", "diabetic cataract"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence records"
 ---
 
@@ -48,8 +48,8 @@ Methionine is an essential amino acid, and in Singapore it is registered as an i
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 19 of 19) |
-| Number of Registrations | 19 (valid: 19) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 *Evidence level note:* the data compiled for this report assigned L4 to acne, but neither cited paper directly studies methionine for acne (one is a gene mutation case report, the other describes a side effect of isotretinoin). Under the evidence ceiling rule this is therefore L5.
@@ -73,15 +73,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-All 19 licences are valid single-ingredient entries; the licence records contain no approved indication text. The five below are examples.
+The five below are examples.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not stated in licence record |
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not stated in licence record |
-| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Not stated in licence record |
-| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not stated in licence record |
-| SIN14286P | SmofKabiven Emulsion for Infusion | Injection, emulsion | Not stated in licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
+
+Showing 5 of 18 HSA registrations.
 
 All registered forms are injectable or infusion products (plus one sterile peritoneal dialysis solution); no oral or topical methionine product is listed, so route compatibility for acne has not been assessed.
 

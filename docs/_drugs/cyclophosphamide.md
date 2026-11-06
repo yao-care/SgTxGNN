@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Cyclophosphamide"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,13 +72,13 @@ Currently no related literature available.
 
 Cyclophosphamide is marketed in Singapore, with five valid single-ingredient licences. The approved indication text is not recorded in the local data.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00929P | ENDOXAN TABLET 50 mg | Sugar-coated tablet | Not stated in available data |
-| SIN01747P | ENDOXAN FOR INJECTION 1 g/vial | Powder for injection solution | Not stated in available data |
-| SIN01748P | ENDOXAN FOR INJECTION 500 mg/vial | Powder for injection solution | Not stated in available data |
-| SIN00930P | ENDOXAN FOR INJECTION 200 mg/vial | Powder for injection solution | Not stated in available data |
-| SIN10355P | CYCRAM FOR INJECTION 1 g/vial | Powder for injection solution | Not stated in available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00929P | ENDOXAN TABLET 50 mg | TABLET, SUGAR COATED | Valid |
+| SIN00930P | ENDOXAN FOR INJECTION 200 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN01747P | ENDOXAN FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN01748P | ENDOXAN FOR INJECTION 500 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN10355P | CYCRAM FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Both oral (tablet) and injectable (powder for solution) forms are available.
 

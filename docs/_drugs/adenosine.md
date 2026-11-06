@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Adenosine"
 predicted_indications: ["obsolete bundle branch block"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Adenosine: predicted new indication obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **obsolete bundle branch block*
 | Predicted New Indication | obsolete bundle branch block |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,10 +69,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16391P | CADEN SOLUTION FOR INJECTION 6 MG / 2 ML | Injection, solution | Not recorded |
-| SIN07679P | ADENOCOR INJECTION 3MG/ML | Injection | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07679P | ADENOCOR INJECTION 3MG/ML | INJECTION | Valid |
+| SIN16391P | CADEN SOLUTION FOR INJECTION 6 MG / 2 ML | INJECTION, SOLUTION | Valid |
+| SIN17470P | Tachyban (Adenosine Injection USP) 3mg/ml | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

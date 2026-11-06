@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 873
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Risankizumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Risankizumab: predicted new indication Dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence is early-stage: the mechanistic fit is weaker than for psoriasis, a
 | Predicted New Indication | Dermatitis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -86,12 +86,13 @@ Case-level reports describe combined dupilumab plus risankizumab use in patients
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16869P | SKYRIZI Concentrate for Solution for Infusion 600mg/10ml | Infusion, solution concentrate | Not stated in the licence data |
-| SIN16339P | SKYRIZI Solution for Injection in Pre-filled Pen 150mg/ml | Injection, solution | Not stated in the licence data |
-| SIN16338P | SKYRIZI Solution for Injection in Pre-filled Syringe 150mg/ml | Injection, solution | Not stated in the licence data |
-| SIN16870P | SKYRIZI Solution for Injection in Pre-filled Cartridge with On-body Injector 360mg/2.4ml | Injection, solution | Not stated in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16338P | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16339P | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED PEN 150MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16869P | SKYRIZI CONCENTRATE FOR SOLUTION FOR INFUSION 600MG/10ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN16870P | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED CARTRIDGE WITH ON-BODY IN | INJECTION, SOLUTION | Valid |
+| SIN17326P | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED CARTRIDGE WITH ON-BODY IN | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 
@@ -111,7 +112,7 @@ A completed Phase 2 randomized controlled trial in atopic dermatitis supports an
 
 **To proceed, the following is needed:**
 - Efficacy and safety results from NCT03706040 and the full text of PMID 36588137
-- Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA), along with the approved indication text for the four licences
+- Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA), along with the approved indication text
 - Detailed mechanism-of-action data
 - A review of the eczematous and paradoxical reactions reported with IL-23 inhibitors
 - Comparison with established atopic dermatitis therapies, including type 2-targeted biologics, to define any niche (for example, patients with both psoriasis and eczema)

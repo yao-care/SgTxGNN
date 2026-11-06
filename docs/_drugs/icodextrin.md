@@ -5,7 +5,7 @@ layout: default
 title: Icodextrin
 parent: Known Uses Only (No New Predictions)
 nav_order: 515
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Icodextrin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Icodextrin"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11220P | EXTRANEAL Peritoneal Dialysis Solution 75 g/l | Sterile solution | Not stated in the license data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11220P | EXTRANEAL PERITONEAL DIALYSIS SOLUTION 75 g/l | SOLUTION, STERILE | Valid |
 
 ## Safety Considerations
 

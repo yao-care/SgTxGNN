@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 693
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mycophenolic Acid: predicted new indication Hemoglobinopathy (evidence level L3). Approved use: Not available"
 monitor_inn: "Mycophenolic acid"
 predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with brainstem aura", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "pyropoikilocytosis, hereditary", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells", "rheumatoid arthritis", "antithrombin deficiency type 2"]
@@ -50,8 +50,8 @@ The evidence is weak and mostly indirect, so this is best treated as a research 
 | Predicted New Indication | Hemoglobinopathy |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,15 +76,17 @@ The high TxGNN score is therefore best read as reflecting the transplant-related
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12377P | Myfortic Gastro-Resistant Tablet 360 mg | Tablet, film coated | Not stated in the data |
-| SIN12376P | Myfortic Gastro-Resistant Tablet 180 mg | Enteric coated tablet | Not stated in the data |
-| SIN16638P | Murest-DR 180 Delayed-Release Tablets 180 mg | Tablet, delayed release | Not stated in the data |
-| SIN16637P | Murest-DR 360 Delayed-Release Tablets 360 mg | Tablet, delayed release | Not stated in the data |
-| SIN16970P | Mofecon-GR 360 Gastro-Resistant Tablets 360 mg | Tablet, enteric coated | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12376P | MYFORTIC GASTRO-RESISTANT TABLET 180 mg | ENTERIC COATED TABLET | Valid |
+| SIN12377P | MYFORTIC GASTRO-RESISTANT TABLET 360 mg | TABLET, FILM COATED | Valid |
+| SIN16637P | MUREST-DR 360 DELAYED-RELEASE TABLETS 360MG | TABLET, DELAYED RELEASE | Valid |
+| SIN16638P | MUREST-DR 180 DELAYED-RELEASE TABLETS 180MG | TABLET, DELAYED RELEASE | Valid |
+| SIN16787P | ACCOCEPT 360 GASTRO-RESISTANT TABLET 360 MG | TABLET, ENTERIC COATED | Valid |
 
-One further registration, SIN16969P (Mofecon-GR 180), is also valid. All 6 registrations are single-ingredient oral products.
+Showing 5 of 8 HSA registrations.
+
+One further registration, SIN16969P (Mofecon-GR 180), is also valid.
 
 ## Safety Considerations
 

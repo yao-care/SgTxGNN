@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Albendazole"
 predicted_indications: ["coenurosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Albendazole: predicted new indication Coenurosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -95,11 +95,11 @@ The publications are reviews and descriptive reports on neurocysticercosis. No r
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07903P | ALZENTAL TABLET 400 mg | Film-coated tablet | Not recorded |
-| SIN09954P | ALBENDOL-400 TABLET 400 mg | Tablet | Not recorded |
-| SIN14030P | Zentel Tablet 400mg | Chewable tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07903P | ALZENTAL TABLET 400 mg | TABLET, FILM COATED | Valid |
+| SIN09954P | ALBENDOL-400 TABLET 400 mg | TABLET | Valid |
+| SIN14030P | Zentel Tablet 400mg | TABLET, CHEWABLE | Valid |
 
 All three licences are valid single-ingredient oral products.
 

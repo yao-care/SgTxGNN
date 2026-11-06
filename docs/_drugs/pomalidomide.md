@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 806
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Pomalidomide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,14 +74,14 @@ The TxGNN deep-learning model produced no candidate with a score of 0.99 or high
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16985P | POMAGEN CAPSULES 3MG | CAPSULE | Valid |
-| SIN16984P | POMAGEN CAPSULES 2MG | CAPSULE | Valid |
-| SIN14714P | POMALYST CAPSULE 2MG | CAPSULE | Valid |
 | SIN14713P | POMALYST CAPSULE 1MG | CAPSULE | Valid |
-| SIN16983P | POMAGEN CAPSULES 1MG | CAPSULE | Valid |
+| SIN14714P | POMALYST CAPSULE 2MG | CAPSULE | Valid |
+| SIN14715P | POMALYST CAPSULE 3MG | CAPSULE | Valid |
 | SIN14716P | POMALYST CAPSULE 4MG | CAPSULE | Valid |
 | SIN16982P | POMAGEN CAPSULES 4MG | CAPSULE | Valid |
-| SIN14715P | POMALYST CAPSULE 3MG | CAPSULE | Valid |
+| SIN16983P | POMAGEN CAPSULES 1MG | CAPSULE | Valid |
+| SIN16984P | POMAGEN CAPSULES 2MG | CAPSULE | Valid |
+| SIN16985P | POMAGEN CAPSULES 3MG | CAPSULE | Valid |
 
 ## Cytotoxicity
 

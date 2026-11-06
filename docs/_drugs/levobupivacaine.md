@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Levobupivacaine"
 predicted_indications: ["gastroduodenitis"]
 description: "Levobupivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -68,7 +68,6 @@ For gastroduodenitis, no mechanistic link could be identified.
 
 Currently no related clinical trials are registered for gastroduodenitis, the top-ranked prediction.
 
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT02699827](https://clinicaltrials.gov/study/NCT02699827) | Phase 4 | Completed | 60 | Magnesium sulphate added to epidural levobupivacaine for caesarean section in preeclampsia; endpoint is anaesthesia quality and pain relief |
@@ -91,9 +90,9 @@ For reference, selected publications for lower-ranked predictions (all indirect)
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16641P | L-ASCAIN SOLUTION FOR INJECTION 5MG/ML | Injection, solution | Not stated in the record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16641P | L-ASCAIN SOLUTION FOR INJECTION 5MG/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

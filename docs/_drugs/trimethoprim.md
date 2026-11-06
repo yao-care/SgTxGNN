@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1029
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection (other labelled uses: infectious otitis media…"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -50,8 +50,8 @@ The top-ranked prediction is therefore a model signal only. Among the other pred
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 12 of 12) |
-| Number of Registrations | 12 (valid: 12) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,15 +90,17 @@ No literature was found for punctate epithelial keratoconjunctivitis. The most r
 
 ## Singapore Market Information
 
-All 12 licences are valid single-ingredient registrations. The compiled data contain no approved-indication text for them. The first five are listed below.
+The compiled data contain no approved-indication text for them. The first five are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00508P | APO-SULFATRIM PEDIATRIC TABLET | Tablet | Not available |
-| SIN00435P | APO-SULFATRIM TABLET | Tablet | Not available |
-| SIN00526P | B.S. SUSPENSION | Suspension | Not available |
-| SIN02183P | DBL SULFAMETHOXAZOLE 400MG AND TRIMETHOPRIM 80MG CONCENTRATE INJECTION BP | Injection | Not available |
-| SIN00583P | CO-TRIMEXAZOLE SUSPENSION | Suspension | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00407P | TRIMAXAZOLE TABLETS | TABLET | Valid |
+| SIN00435P | APO-SULFATRIM TABLET | TABLET | Valid |
+| SIN00508P | APO-SULFATRIM PEDIATRIC TABLET | TABLET | Valid |
+| SIN00583P | CO-TRIMEXAZOLE SUSPENSION | SUSPENSION | Valid |
+| SIN00960P | B.S. TABLET | TABLET | Valid |
+
+Showing 5 of 10 HSA registrations.
 
 Available routes are oral (tablet), injectable and suspension. No topical ophthalmic product appears among the Singapore registrations, which matters for an eye indication.
 

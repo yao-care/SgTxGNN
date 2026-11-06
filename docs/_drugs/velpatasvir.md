@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1060
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Velpatasvir: predicted new indication Hepatitis B virus infection (evidence level L4). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "Velpatasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -102,10 +102,10 @@ All of these concern HCV treatment. None shows that velpatasvir is effective aga
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15351P | EPCLUSA TABLET 400MG/100MG | Film-coated tablet | Not specified in the data compiled |
-| SIN15705P | VOSEVI FILM-COATED TABLETS 400MG/100MG/100MG | Film-coated tablet | Not specified in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15351P | EPCLUSA TABLET 400MG/100MG | TABLET, FILM COATED | Valid |
+| SIN15705P | VOSEVI FILM-COATED TABLETS 400MG/100MG/100MG | TABLET, FILM COATED | Valid |
 
 ---
 

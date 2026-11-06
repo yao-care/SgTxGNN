@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 841
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This prediction largely overlaps with existing uses, so it is not a true repurpo
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 26 of 26) |
+| Number of Registrations | 26 (valid: 26) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -90,15 +90,17 @@ Currently no related clinical trials registered for nasal cavity disease.
 
 ## Singapore Market Information
 
-Pseudoephedrine has 20 valid single-ingredient registrations in Singapore, with no cancelled licences. The approved indication text is not available in the licence records. Examples:
+The approved indication text is not available in the licence records. Examples:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03178P | PSEUDORINE TABLETS 60 mg | Tablet | Not stated in the records |
-| SIN09453P | DECONDINE TABLET | Film-coated tablet | Not stated in the records |
-| SIN07282P | CLARITYN-D 12HOUR REPETABS | Sugar-coated tablet | Not stated in the records |
-| SIN13139P | ZYRTEC-D | Film-coated tablet | Not stated in the records |
-| SIN12071P | TELFAST D TABLET | Film-coated tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03116P | FEDAC TABLET | TABLET | Valid |
+| SIN03140P | BEACTAFED CO SYRUP | SYRUP | Valid |
+| SIN03181P | DECONDINE SYRUP | SYRUP | Valid |
+| SIN03182P | POLARINE SYRUP | SYRUP | Valid |
+| SIN03193P | FEDAC SYRUP | SYRUP | Valid |
+
+Showing 5 of 26 HSA registrations.
 
 Available forms include tablets, film-coated tablets, sugar-coated tablets, capsules and syrups.
 

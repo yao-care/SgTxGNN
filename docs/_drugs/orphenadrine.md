@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Parkinsonian disorder"
 monitor_inn: "Orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,15 +71,15 @@ Currently no related literature available for the primary predicted indication (
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07611P | ONADRINE TABLET 50 mg | Tablet | Not stated |
-| SIN05771P | CETAGESIC TABLET | Tablet | Not stated |
-| SIN05552P | NORGESIC TABLET | Tablet | Not stated |
-| SIN05937P | SUNITON TABLETS | Tablet | Not stated |
-| SIN09867P | CAMGESIC TABLET | Tablet | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07611P | ONADRINE TABLET 50 mg | TABLET | Valid |
+| SIN05552P | NORGESIC TABLET | TABLET | Valid |
+| SIN05584P | ANAREX TABLETS | TABLET | Valid |
+| SIN05771P | CETAGESIC TABLET | TABLET | Valid |
+| SIN07951P | ORPHENADOL TABLET | TABLET | Valid |
 
-Six further valid single-ingredient registrations exist (11 in total), covering tablets, film-coated tablets and capsules, all oral.
+Showing 5 of 8 HSA registrations.
 
 ## Safety Considerations
 

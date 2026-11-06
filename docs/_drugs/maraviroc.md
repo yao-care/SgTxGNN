@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Maraviroc: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the registration data"
 monitor_inn: "Maraviroc"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
@@ -81,9 +81,9 @@ For reference, the most mechanistically relevant item among the other predicted 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13640P | Celsentri Film-Coated Tablet 150mg | Tablet, film coated | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13640P | Celsentri Film-Coated Tablet 150mg | TABLET, FILM COATED | Valid |
 
 Manufacturer: Pfizer Manufacturing Deutschland GmbH. Route: oral.
 

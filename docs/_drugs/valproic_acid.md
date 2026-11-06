@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1053
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,15 +81,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-There are 11 valid single-ingredient registrations. The licence records do not include approved indication text. The five main authorisations are:
+The licence records do not include approved indication text. The five main authorisations are:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN05690P | Epilim 200 Tablet 200 mg | Enteric coated tablet |
-| SIN08537P | Epilim Chrono Tablet 200 mg | Film-coated tablet |
-| SIN05434P | Epilim Syrup 200 mg/5 ml | Syrup |
-| SIN05215P | Epilim 400 mg Powder for injection / infusion | Powder for solution for injection |
-| SIN16642P | Valproate-AFT Solution for Infusion/Injection 100 mg/ml | Solution for injection |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05215P | Epilim® 400 mg Powder for injection / infusion | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN05434P | EPILIM SYRUP 200 mg/5 ml | SYRUP | Valid |
+| SIN05690P | EPILIM 200 TABLET 200 mg | ENTERIC COATED TABLET | Valid |
+| SIN15343P | SODIUM VALPROATE WOCKHARDT SOLUTION FOR INJECTION OR INFUSION 100mg/ml | INJECTION, SOLUTION | Valid |
+| SIN15525P | SODIUM VALPROATE AGUETTANT SOLUTION FOR INJECTION 400MG/4ML | INJECTION, SOLUTION | Valid |
+
+Showing 5 of 11 HSA registrations.
 
 ---
 

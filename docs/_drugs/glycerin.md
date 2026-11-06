@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,11 +97,11 @@ For cauda equina syndrome, currently no related literature is available. Because
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02748P | Lemon Sweet Purgative Syrup | Syrup | Not stated in the data compiled for this report |
-| SIN02959P | Huachi Enema | Enema | Not stated in the data compiled for this report |
-| SIN03514P | Minica S Enema | Enema | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02748P | LEMON SWEET PURGATIVE SYRUP | SYRUP | Valid |
+| SIN02959P | HUACHI ENEMA | ENEMA | Valid |
+| SIN03514P | MINICA S ENEMA | ENEMA | Valid |
 
 All three licences are valid single-ingredient products. Only syrup and enema forms are registered in Singapore.
 

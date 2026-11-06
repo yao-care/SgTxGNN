@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 752
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Oxymetholone: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Diamond-Blackfan anemia, inherited aplastic anemia…"
 monitor_inn: "Oxymetholone"
 predicted_indications: ["seborrheic dermatitis"]
@@ -64,7 +64,6 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The data compiled for this report suggest that a connection to sebaceous gland or inflammatory modulation is speculative. Androgens typically increase sebum production, so the direction of effect may be unfavorable for seborrheic dermatitis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -81,9 +80,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09975P | HAN SEO OXYMETHOLONE TABLET 50 mg | Tablet (oral) | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09975P | HAN SEO OXYMETHOLONE TABLET 50 mg | TABLET | Valid |
 
 ---
 

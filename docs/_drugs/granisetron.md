@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Granisetron: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not listed in the Singapore licence records"
 monitor_inn: "Granisetron"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
@@ -64,13 +64,15 @@ Other lower-ranked predictions include Tourette syndrome, trichotillomania, angi
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16589P | Granodex Solution for Injection 1 mg/ml | Injection, solution | Not specified |
-| SIN07800P | Kytril Tablet 1 mg | Tablet, film coated | Not specified |
-| SIN15174P | Emenat Tablets 1 mg | Tablet | Not specified |
-| SIN14612P | Granisetron-AFT Solution for Injection 1 mg/ml | Injection, solution | Not specified |
-| SIN07089P | Kytril for Infusion 3 mg/3 ml | Injection | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07089P | KYTRIL FOR INFUSION 3 mg/3ml | INJECTION | Valid |
+| SIN07800P | KYTRIL TABLET 1 mg | TABLET, FILM COATED | Valid |
+| SIN13539P | KYTRIL FOR INFUSION 1MG/ML | INJECTION | Valid |
+| SIN14409P | Granisetron Kabi concentrate for solution for infusion 1mg/ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14612P | GRANISETRON-AFT SOLUTION FOR INJECTION 1MG/ML | INJECTION, SOLUTION | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 Seven valid single-ingredient licences exist in total. Both injectable and oral forms are available.
 

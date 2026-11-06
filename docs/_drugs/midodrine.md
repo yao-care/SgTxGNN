@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 673
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -98,9 +98,9 @@ Other predictions have little or no literature. For ADHD, the single paper (PMID
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11500P | GUTRON TABLET 5 mg (Takeda GmbH, Oranienburg plant) | Tablet (oral) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17279P | JAMP MIDODRINE TABLET 5 MG | TABLET | Valid |
 
 ## Safety Considerations
 
@@ -122,7 +122,7 @@ The top-ranked prediction, variably protease-sensitive prionopathy, has no trial
 **To proceed, the following is needed:**
 - Singapore package insert warnings and contraindications, which block safety screening
 - Detailed mechanism of action data from DrugBank
-- A defined approved-indication statement for licence SIN11500P
+- A defined approved-indication statement
 - For hypotensive disorder, confirmation of which specific populations (for example, spinal cord injury or hepatorenal syndrome) would be new relative to the approved use, together with a supine hypertension and bradycardia monitoring plan
 - For the other predictions, no further work is suggested unless new mechanistic or clinical evidence emerges
 ## Disclaimer

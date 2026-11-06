@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1068
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -92,10 +92,10 @@ Related predicted sub-types (prostate embryonal rhabdomyosarcoma, rank 5) rely o
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07944P | DBL™ Vinblastine Injection | Injection | Indication text not available |
-| SIN10987P | Velbastine for Injection 10 mg/vial | Injection, powder, for solution | Indication text not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07944P | DBL™ VINBLASTINE INJECTION | INJECTION | Valid |
+| SIN10987P | VELBASTINE FOR INJECTION 10 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ---
 

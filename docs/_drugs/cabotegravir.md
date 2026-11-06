@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cabotegravir: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: HIV-1 infection"
 monitor_inn: "Cabotegravir"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
@@ -72,11 +72,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16541P | VOCABRIA Film-Coated Tablets 30 mg | Tablet, film coated | Not recorded in the licence data |
-| SIN16543P | VOCABRIA Prolonged-Release Suspension for Injection 400 mg/2 mL | Injection, suspension | Not recorded in the licence data |
-| SIN16542P | VOCABRIA Prolonged-Release Suspension for Injection 600 mg/3 mL | Injection, suspension | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16541P | VOCABRIA FILM-COATED TABLETS 30MG | TABLET, FILM COATED | Valid |
+| SIN16542P | VOCABRIA PROLONGED-RELEASE SUSPENSION FOR INJECTION 600 MG/3 ML | INJECTION, SUSPENSION | Valid |
+| SIN16543P | VOCABRIA PROLONGED-RELEASE SUSPENSION FOR INJECTION 400 MG/ 2 ML | INJECTION, SUSPENSION | Valid |
 
 All three licences are valid single-ingredient products. Available routes are oral and injectable.
 

@@ -5,7 +5,7 @@ layout: default
 title: Dimethicone
 parent: Known Uses Only (No New Predictions)
 nav_order: 333
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dimethicone: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Dimethicone"
 predicted_indications: []
@@ -43,22 +43,18 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 19 of 19) |
-| Number of Registrations | 19 (valid: 19) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ---
 
 ## Singapore Market Information
 
-Dimethicone has 19 valid single-ingredient registrations in Singapore and none have been cancelled. The records contain no approved indication text. The main authorisations are listed below.
+The records contain no approved indication text. The main authorisations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09136P | RIDWIND BABY DROP | Emulsion | Not stated |
-| SIN02382P | MYLOM DROPS 40 mg/0.6 ml | Solution | Not stated |
-| SIN11621P | SIMCONE CHEWABLE TABLET 80 mg | Tablet | Not stated |
-| SIN03333P | COLIMIX SYRUP | Syrup | Not stated |
-| SIN16773P | ALVERSIME SOFT CAPSULES | Capsule | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02547P | VERAGEL-DMS TABLET | TABLET | Valid |
 
 ---
 

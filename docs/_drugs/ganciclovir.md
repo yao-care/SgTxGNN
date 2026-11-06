@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 467
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ganciclovir: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced no candidate indication with a score of 0
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -78,6 +78,7 @@ The TxGNN deep-learning model produced no candidate indication with a score of 0
 |------|------|------|------|
 | SIN05051P | CYMEVENE FOR INJECTION 500 mg | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN11778P | VIRGAN EYE GEL 1.5 mg/g | OINTMENT | Valid |
+| SIN17325P | Ganciclovir-AFT Powder for Solution for Injection 500mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

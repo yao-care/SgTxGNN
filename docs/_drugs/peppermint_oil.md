@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 778
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Peppermint oil"
 predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", "myocardial ischemia", "echinococcus granulosus infectious disease", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "cardiovascular disease", "polyp of frontal sinus"]
 description: "Peppermint Oil: predicted new indication Leprosy (evidence level L5)."
@@ -69,9 +69,9 @@ Currently no related literature available for leprosy.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13034P | COLPERMIN CAPSULE 187mg | Capsule, enteric coated (oral) | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13034P | COLPERMIN CAPSULE 187mg | CAPSULE, ENTERIC COATED | Valid |
 
 The product is a single-ingredient, currently valid registration. It is manufactured by Tillotts Pharma AG, with the capsule coating step also handled by SwissCo Services AG.
 

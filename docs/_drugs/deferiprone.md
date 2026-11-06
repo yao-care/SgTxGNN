@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 309
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "hepatopulmonary syndrome", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Not recorded in the local data"
@@ -84,10 +84,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13668P | FERRIPROX 100MG/ML ORAL SOLUTION | Solution | Not stated in the data |
-| SIN12083P | FERRIPROX FILM-COATED TABLET 500 mg | Film-coated tablet | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12083P | FERRIPROX FILM-COATED TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN13668P | FERRIPROX 100MG/ML ORAL SOLUTION | SOLUTION | Valid |
 
 ---
 

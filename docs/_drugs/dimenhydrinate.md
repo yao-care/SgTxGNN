@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dimenhydrinate: predicted new indication Allergic urticaria (evidence level L5). Approved use: Motion sickness"
 monitor_inn: "Dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
@@ -50,8 +50,8 @@ but currently there are **0 clinical trials** and only **1 publication** (a phar
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 (indirect, pharmacokinetic data only) |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,15 +76,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03013P | Dimenate Tablet 50 mg | Tablet | Not recorded |
-| SIN03403P | Novomin Tablet 50 mg | Tablet | Not recorded |
-| SIN02765P | Dimenhydrinate Tablets 50 mg (Beacons) | Tablet | Not recorded |
-| SIN03550P | Novomin Syrup 15 mg/5 ml | Syrup | Not recorded |
-| SIN02519P | Apo-Dimenhydrinate Tablet 50 mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02519P | APO-DIMENHYDRINATE TABLET 50 mg | TABLET | Valid |
+| SIN02765P | DIMENHYDRINATE TABLETS 50 mg | TABLET | Valid |
+| SIN02790P | SW DIMENHYDRINATE SYRUP 15 mg/5 ml | SYRUP | Valid |
+| SIN03403P | NOVOMIN TABLET 50 mg | TABLET | Valid |
+| SIN03550P | NOVOMIN SYRUP 15 mg/5 ml | SYRUP | Valid |
 
-There are 8 valid single-ingredient registrations in total (tablets, syrups and one injection, Votmine 50 mg/ml). The table lists the first 5.
+Showing 5 of 6 HSA registrations.
+
+The table lists the first 5.
 
 ## Safety Considerations
 

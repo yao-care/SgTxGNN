@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 756
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia, schizoaffective disorder, schizophreniform disorder…"
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
@@ -65,13 +65,11 @@ For the top prediction, retinal dystrophy, **no plausible mechanistic link is su
 
 The same applies to the other top-ranked predictions: several forms of myopia (X-linked, syndromic, female-limited), hydranencephaly, a congenital disorder of glycosylation, perisylvian polymicrogyria, Charcot-Marie-Tooth disease type 1G and atypical glycine encephalopathy. All have no trials or literature, and mostly involve structural, metabolic or genetic defects that a symptomatic antipsychotic is unlikely to modify. A speculative link between retinal dopamine signalling and myopia has been suggested, but it is unsupported here.
 
-
 ---
 
 ## Clinical Trial Evidence
 
 No clinical trials are registered for the top predicted indication (retinal dystrophy). Currently no related clinical trials registered.
-
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -98,13 +96,15 @@ For reference, literature found for treatment-refractory schizophrenia:
 
 Paliperidone has 17 valid single-ingredient registrations. The approved indication text is not recorded in the licence data. Five representative authorisations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13380P | Invega Extended-Release Tablet 3mg | Extended-release tablet | Not recorded |
-| SIN13969P | INVEGA Sustenna 50mg/0.5 ml | Extended-release IM injectable suspension | Not recorded |
-| SIN15186P | INVEGA TRINZA 175mg/0.875ml | Extended-release IM injectable suspension | Not recorded |
-| SIN16655P | INVEGA HAFYERA 1000mg/5ml | Extended-release IM injectable suspension | Not recorded |
-| SIN16781P | PARNIDO Prolonged-Release Tablets 3mg | Multilayer extended-release tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13380P | Invega Extended-Release Tablet 3mg | TABLET, EXTENDED RELEASE | Valid |
+| SIN13381P | Invega Extended-Release Tablet 6mg | TABLET, EXTENDED RELEASE | Valid |
+| SIN13382P | Invega Extended-Release Tablet 9mg | TABLET, EXTENDED RELEASE | Valid |
+| SIN13968P | INVEGA Sustenna Prolonged Release Suspension for IM Injection 25mg/0.2 | INJECTION, SUSPENSION, EXTENDED RELEASE | Valid |
+| SIN13969P | INVEGA Sustenna Prolonged Release Suspension for IM Injection 50mg/0.5 | INJECTION, SUSPENSION, EXTENDED RELEASE | Valid |
+
+Showing 5 of 17 HSA registrations.
 
 The remaining registrations cover other strengths of the same products (Invega tablets, Sustenna, Trinza, Hafyera and Parnido).
 

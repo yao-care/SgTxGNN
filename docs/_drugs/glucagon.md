@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Glucagon"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,9 +88,9 @@ All studies below concern GLP-1 or GLP-1 receptor agonists, or IBS in general. N
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09070P | GLUCAGEN FOR INJECTION 1 mg/ml | Injection, powder, for solution | Not available in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09070P | GLUCAGEN FOR INJECTION 1 mg/ml | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

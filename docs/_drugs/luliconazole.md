@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Luliconazole"
 predicted_indications: ["endothrix infectious disease", "ectothrix infectious disease"]
 description: "Luliconazole: predicted new indication Endothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,9 +78,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16428P | LUCONAC EXTERNAL SOLUTION FOR NAILS 5% w/w | Solution | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16428P | LUCONAC EXTERNAL SOLUTION FOR NAILS 5% w/w | SOLUTION | Valid |
 
 The one registration is valid and is for a single-ingredient product.
 

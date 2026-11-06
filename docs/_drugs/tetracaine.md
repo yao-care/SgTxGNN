@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 976
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
 description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,11 +90,11 @@ For reference, selected publications for other predictions:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04204P | Minims Tetracaine Hydrochloride Eye Drops 1% w/v | Solution | Not stated in the registration record |
-| SIN04188P | Minims Tetracaine Hydrochloride Eye Drops 0.5% w/v | Solution | Not stated in the registration record |
-| SIN14793P | Pliaglis Cream 70mg/g + 70mg/g | Cream | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04188P | MINIMS TETRACAINE HYDROCHLORIDE EYE DROPS 0.5% w/v | SOLUTION | Valid |
+| SIN04204P | MINIMS TETRACAINE HYDROCHLORIDE EYE DROPS 1% w/v | SOLUTION | Valid |
+| SIN14793P | PLIAGLIS CREAM 70mg/g + 70mg/g | CREAM | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Velaglucerase Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 1059
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Velaglucerase Alfa: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Velaglucerase alfa"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16107P | VPRIV Powder for Solution for Infusion 400 units/vial | Injection, powder, lyophilized, for solution | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16107P | VPRIV POWDER FOR SOLUTION FOR INFUSION 400 UNITS/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Leucovorin"
 predicted_indications: ["primary hyperoxaluria", "congenital intrinsic factor deficiency"]
 description: "Leucovorin: predicted new indication Primary hyperoxaluria (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **primary hyperoxaluria**, but 
 | Predicted New Indication | Primary hyperoxaluria |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,14 +89,15 @@ All are indirect, since leucovorin appears only as rescue or supportive therapy:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11058P | NYRIN INJECTION 50 mg/5 ml | Injection | Not specified |
-| SIN10318P | NYRIN INJ. 15 mg/ml | Injection | Not specified |
-| SIN11059P | NYRIN INJECTION 3 mg/ml | Injection | Not specified |
-| SIN10357P | NYRIN TABLET 15 mg | Tablet | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07916P | CALCIUM FOLINATE INJECTION 10 mg/ml | INJECTION | Valid |
+| SIN10318P | NYRIN INJ. 15 mg/ml | INJECTION | Valid |
+| SIN10357P | NYRIN TABLET 15 mg | TABLET | Valid |
+| SIN11058P | NYRIN INJECTION 50 mg/5 ml | INJECTION | Valid |
+| SIN11059P | NYRIN INJECTION 3 mg/ml | INJECTION | Valid |
 
-All four are single-ingredient products from Korea United Pharmaceutical Inc, and all are currently valid. Both injectable and oral forms are available.
+Both injectable and oral forms are available.
 
 ## Cytotoxicity
 

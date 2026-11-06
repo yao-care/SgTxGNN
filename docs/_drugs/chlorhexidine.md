@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 238
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Chlorhexidine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,10 +74,10 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Chlorhexidin
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN08671P | DIFFLAM-C ANTI-INFLAMMATORY ANTISEPTIC SOLUTION | MOUTHWASH | Valid |
-| SIN08535P | HORF LOZENGES | LOZENGE | Valid |
-| SIN08901P | SOOV CREAM | CREAM | Valid |
 | SIN04696P | ORAL AID LOTION | LOTION | Valid |
+| SIN08535P | HORF LOZENGES | LOZENGE | Valid |
+| SIN08671P | DIFFLAM-C ANTI-INFLAMMATORY ANTISEPTIC SOLUTION | MOUTHWASH | Valid |
+| SIN08901P | SOOV CREAM | CREAM | Valid |
 
 ## Safety Considerations
 

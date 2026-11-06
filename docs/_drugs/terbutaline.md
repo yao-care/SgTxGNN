@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 967
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Terbutaline is a beta-2 adrenergic agonist used as a bronchodilator. The TxGNN m
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9952 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,11 +81,10 @@ None of the publications below studies respiratory malformation as a treatment t
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08075P | BUTYLIN SYRUP 1.5 mg/5 ml | Syrup | Not stated in the licence record |
-| SIN07055P | ASMALIN SYRUP 1.5 mg/5 ml | Syrup | Not stated in the licence record |
-| SIN06420P | ASMALIN TABLET 2.5 mg | Tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07055P | ASMALIN SYRUP 1.5 mg/5 ml | SYRUP | Valid |
+| SIN08075P | BUTYLIN SYRUP 1.5 mg/5 ml | SYRUP | Valid |
 
 ## Safety Considerations
 

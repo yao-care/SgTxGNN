@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 731
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acromegaly, hyperpituitarism, carcinoid syndrome"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,6 @@ but **no clinical trials and no publications** currently support this prediction
 Currently, detailed mechanism of action data is not available. Octreotide is a somatostatin analogue, and its efficacy in acromegaly and carcinoid syndrome is established. Its known effects are mediated through somatostatin receptors, mainly in pituitary and neuroendocrine tissue.
 
 The data compiled for this report show no plausible link between somatostatin-receptor activity and vulvar inverted follicular keratosis. The very high TxGNN score (0.9958) is not backed by any trial or publication. The adjacent prediction, seborrheic keratosis (score 0.9955), is similarly unsupported, which suggests the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
-
 
 ## Clinical Trial Evidence
 
@@ -71,11 +70,15 @@ Currently no related literature available for the leading prediction, vulvar inv
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11638P | SANDOSTATIN LAR FOR INJECTION 30 mg | Injection | Not stated in the registration record |
-| SIN03808P | SANDOSTATIN INJECTION 0.1 mg/ml | Injection | Not stated in the registration record |
-| SIN11637P | SANDOSTATIN LAR FOR INJECTION 20 mg | Injection | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03808P | SANDOSTATIN INJECTION 0.1 mg/ml | INJECTION | Valid |
+| SIN11637P | SANDOSTATIN LAR FOR INJECTION 20 mg | INJECTION | Valid |
+| SIN11638P | SANDOSTATIN LAR FOR INJECTION 30 mg | INJECTION | Valid |
+| SIN17360P | OCTREOTIDE-TEVA POWDER AND SOLVENT FOR PR SUSPENSION FOR INJECTION 30M | INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION,EXTENDED RELEASE | Valid |
+| SIN17361P | OCTREOTIDE-TEVA POWDER AND SOLVENT FOR PR SUSPENSION FOR INJECTION 20M | INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION,EXTENDED RELEASE | Valid |
+
+Showing 5 of 8 HSA registrations.
 
 ## Safety Considerations
 

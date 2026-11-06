@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 418
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Febuxostat"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
@@ -87,10 +87,10 @@ The only plausible link is a case-level report on using non-purine xanthine oxid
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14959P | FEBURIC® FILM COATED TABLETS 80MG | Tablet, film coated | Not stated in the licence record |
-| SIN17054P | FEBUGOUT F.C. TABLETS 80MG | Tablet, film coated | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14959P | FEBURIC® FILM COATED TABLETS 80MG | TABLET, FILM COATED | Valid |
+| SIN17054P | FEBUGOUT F.C. TABLETS 80MG | TABLET, FILM COATED | Valid |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "Ipilimumab"
 predicted_indications: ["choroideremia"]
@@ -82,9 +82,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14598P | YERVOY INJECTION CONCENTRATE 5MG/ML | Injection, solution, concentrate |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14598P | YERVOY INJECTION CONCENTRATE 5MG/ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
 This is a single-ingredient product with a valid registration, and it is an injectable formulation. The approved indication text was not available in the data compiled for this report.
 

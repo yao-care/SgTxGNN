@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 617
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Losartan is an angiotensin II receptor blocker (ARB) originally used for hyperte
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 35 of 35) |
+| Number of Registrations | 35 (valid: 35) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,15 +77,17 @@ Currently no related clinical trials registered for malignant renovascular hyper
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08588P | COZAAR TABLET 50 mg | Film-coated tablet | Not listed in licence record |
-| SIN11614P | COZAAR TABLET 100 mg | Film-coated tablet | Not listed in licence record |
-| SIN14729P | LOSAGEN (Losartan Potassium) Tablets 100 mg | Tablet | Not listed in licence record |
-| SIN16973P | LOSARTAN-TEVA FC Tablet 100 mg | Film-coated tablet | Not listed in licence record |
-| SIN13851P | Losartan Hexal 100 mg film-coated tablets | Film-coated tablet | Not listed in licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08588P | COZAAR TABLET 50 mg | TABLET, FILM COATED | Valid |
+| SIN11614P | COZAAR TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN13572P | A-Losartan 50mg Tablets | TABLET, FILM COATED | Valid |
+| SIN13573P | A-Losartan 100mg Tablets | TABLET, FILM COATED | Valid |
+| SIN13720P | Angizaar-50mg Tablet | TABLET, FILM COATED | Valid |
 
-There are 20 valid single-ingredient registrations in total, all oral tablets or film-coated tablets. Only five are shown here.
+Showing 5 of 35 HSA registrations.
+
+Only five are shown here.
 
 ## Safety Considerations
 

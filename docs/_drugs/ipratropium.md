@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 546
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The data compiled for this report include **25 clinical trials** and **20 public
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -109,15 +109,13 @@ The table lists 10 of the 20 publications (reviews and systematic reviews first)
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10039P | STERI-NEB IPRATROPIUM NEBULISER SOLUTION 250 mcg/ml | Solution | Not listed in the data compiled |
-| SIN02815P | ATROVENT SOLUTION 0.025% | Solution | Not listed in the data compiled |
-| SIN07913P | DUOVENT UDVS NEBULISER SOLUTION | Solution | Not listed in the data compiled |
-| SIN02664P | BERODUAL SOLUTION | Solution | Not listed in the data compiled |
-| SIN11739P | BERODUAL N METERED DOSE INHALER | Aerosol, spray | Not listed in the data compiled |
-
-A sixth licence, SIN09558P (COMBIVENT UNIT DOSE VIAL FOR INHALATION, solution), is also valid.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02815P | ATROVENT SOLUTION 0.025% | SOLUTION | Valid |
+| SIN10039P | STERI-NEB IPRATROPIUM NEBULISER SOLUTION 250 mcg/ml | SOLUTION | Valid |
+| SIN14257P | IPROVENT INHALER 20 mcg/puff | AEROSOL, METERED | Valid |
+| SIN02664P | BERODUAL SOLUTION | SOLUTION | Valid |
+| SIN09558P | COMBIVENT UNIT DOSE VIAL FOR INHALATION | SOLUTION | Valid |
 
 ---
 

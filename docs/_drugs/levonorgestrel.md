@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 598
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Levonorgestrel"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -76,11 +76,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11836P | POSTINOR 2 TABLET 0.75 mg | Tablet | Not stated in the data compiled |
-| SIN07915P | MIRENA Levonorgestrel Intrauterine System 20 mcg/24 hr | Intrauterine device | Not stated in the data compiled |
-| SIN04834P | MICROGYNON 30 TABLET | Sugar-coated tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07915P | MIRENA LEVONORGESTREL INTRAUTERINE SYSTEM 20 mcg/24 hr | INTRAUTERINE DEVICE | Valid |
+| SIN11836P | POSTINOR 2 TABLET 0.75 mg | TABLET | Valid |
+| SIN04834P | MICROGYNON 30 TABLET | TABLET, SUGAR COATED | Valid |
 
 All three licences are valid, and all are single-ingredient products.
 

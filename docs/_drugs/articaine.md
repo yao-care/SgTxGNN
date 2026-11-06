@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 111
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Articaine: predicted new indication Gout (evidence level L5). Approved use: Not available"
 monitor_inn: "Articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
@@ -72,13 +72,13 @@ Currently no related literature available for gout.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05504P | UBISTESIN INJECTION | Injection | Not stated |
-| SIN12648P | CITOCARTIN 100 INJECTION 1.7 ml/cartridge | Injection | Not stated |
-| SIN05505P | UBISTESIN FORTE INJECTION | Injection | Not stated |
-| SIN15913P | ARTINIBSA 4% WITH EPINEPHRINE SOLUTION FOR INJECTION 1:100000 | Injection, solution | Not stated |
-| SIN14537P | Posicaine-100 Injection | Injection, solution | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05504P | UBISTESIN INJECTION | INJECTION | Valid |
+| SIN05505P | UBISTESIN FORTE INJECTION | INJECTION | Valid |
+| SIN12648P | CITOCARTIN 100 INJECTION 1.7 ml/cartridge | INJECTION | Valid |
+| SIN14537P | Posicaine-100 Injection | INJECTION, SOLUTION | Valid |
+| SIN15913P | ARTINIBSA 4% WITH EPINEPHRINE SOLUTION FOR INJECTION 1:100000 | INJECTION, SOLUTION | Valid |
 
 All five registrations are valid single-ingredient products.
 

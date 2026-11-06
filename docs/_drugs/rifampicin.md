@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 866
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -97,10 +97,10 @@ Literature for the top prediction (conjunctivitis), prioritised by study design:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16652P | ROYCE RIFAMPICIN CAPSULE 150MG | Capsule | Not stated in the registration record |
-| SIN16653P | ROYCE RIFAMPICIN CAPSULE 300MG | Capsule | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16652P | ROYCE RIFAMPICIN CAPSULE 150MG | CAPSULE | Valid |
+| SIN16653P | ROYCE RIFAMPICIN CAPSULE 300MG | CAPSULE | Valid |
 
 Both are valid single-ingredient oral products from Royce Pharma Manufacturing Sdn. Bhd. No topical or ophthalmic formulation is registered.
 

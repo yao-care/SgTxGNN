@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 4
 monitor_inn: "Ofatumumab"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ofatumumab: predicted new indication Follicular lymphoma (evidence level L5). Approved use: Acute lymphoblastic/lymphocytic leukemia and Richter syndrome"
 ---
 
@@ -95,10 +95,10 @@ Two further trials are not listed: NCT01263418 (withdrawn, 0 enrolled) and NCT01
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16100P | KESIMPTA Solution for Injection in Pre-filled Syringe 20mg/0.4ml | Injection, solution | Not stated in the licence record |
-| SIN16101P | KESIMPTA Solution for Injection in Pre-filled Pen 20mg/0.4ml | Injection, solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16100P | KESIMPTA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 20MG/0.4ML | INJECTION, SOLUTION | Valid |
+| SIN16101P | KESIMPTA SOLUTION FOR INJECTION IN PRE-FILLED PEN 20MG/0.4ML | INJECTION, SOLUTION | Valid |
 
 Both licences are valid single-ingredient products from Novartis Pharma Stein AG. The licence records contain no approved-indication text. The 20 mg pre-filled presentation is a subcutaneous formulation, which differs from the intravenous ofatumumab used in the lymphoma trials above.
 

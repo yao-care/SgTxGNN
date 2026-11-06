@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 896
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Evidence is thin: **2 loosely related clinical trials** and a handful of publica
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,15 +80,17 @@ No publication tests salmeterol in respiratory malformation.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11531P | SERETIDE EVOHALER 25/250 mcg | Aerosol, spray | Not recorded |
-| SIN11030P | SERETIDE 50/100 ACCUHALER | Powder, metered | Not recorded |
-| SIN16909P | SALFLUMIX EASYHALER 50µG/250µG/dose | Powder, metered | Not recorded |
-| SIN16910P | SALFLUMIX EASYHALER 50µG/500µG/dose | Powder, metered | Not recorded |
-| SIN11032P | SERETIDE 50/500 ACCUHALER | Powder, metered | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11030P | SERETIDE 50/100 ACCUHALER 50 mcg/100 mcg | POWDER, METERED | Valid |
+| SIN11031P | SERETIDE 50/250 ACCUHALER 50 mcg/250 mcg | POWDER, METERED | Valid |
+| SIN11032P | SERETIDE 50/500 ACCUHALER 50 mcg/500 mcg | POWDER, METERED | Valid |
+| SIN11529P | SERETIDE EVOHALER 25/50 mcg | AEROSOL, SPRAY | Valid |
+| SIN11530P | SERETIDE EVOHALER 25/125 mcg | AEROSOL, SPRAY | Valid |
 
-Eight licences are recorded locally and all are valid. The product names and dual strengths suggest fixed-dose inhaler products, so these licences should not be read as describing a single-ingredient salmeterol product.
+Showing 5 of 10 HSA registrations.
+
+The product names and dual strengths suggest fixed-dose inhaler products, so these licences should not be read as describing a single-ingredient salmeterol product.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Famotidine"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Support is thin: **0 registered clinical trials** and **2 publications**, both i
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,6 @@ Support is thin: **0 registered clinical trials** and **2 publications**, both i
 Detailed mechanism-of-action data are not available in the compiled data. Famotidine belongs to the H2-receptor antagonist class. It reduces gastric acid secretion, and its efficacy in acid-related upper gastrointestinal disease is established.
 
 Reducing acid load may ease symptoms and mucosal injury in mixed gastroduodenal reflux. This is the main reason the prediction is plausible, and it is only a partial fit. Famotidine does not address bile reflux directly, which is a central feature of duodenogastric reflux. It would act on the acid component only.
-
 
 ---
 
@@ -85,15 +84,17 @@ Both publications are small and indirect, and neither is a randomised controlled
 
 ## Singapore Market Information
 
-Famotidine has 11 valid single-ingredient registrations in Singapore, all oral tablets (film-coated or plain), in 20 mg and 40 mg strengths. Approved indication text is not listed for these licences. Five main authorisations:
+Approved indication text is not listed for these licences. Five main authorisations:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN10595P | SUNPEPCIN 20 TABLET 20 mg | Tablet, film coated |
-| SIN05641P | FAMOPSIN 20 TABLET 20 mg | Tablet, film coated |
-| SIN10470P | PHARMA FAMOTIDINE TABLET 20 mg | Tablet, film coated |
-| SIN05640P | FAMOPSIN 40 TABLET 40 mg | Tablet, film coated |
-| SIN07569P | FAMOTIN TABLET 20 mg | Tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05640P | FAMOPSIN 40 TABLET 40 mg | TABLET, FILM COATED | Valid |
+| SIN05641P | FAMOPSIN 20 TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN07568P | FAMOTIN TABLET 40 mg | TABLET | Valid |
+| SIN07569P | FAMOTIN TABLET 20 mg | TABLET | Valid |
+| SIN09129P | FAMODINE TABLET 20 mg | TABLET | Valid |
+
+Showing 5 of 9 HSA registrations.
 
 ---
 

@@ -5,7 +5,7 @@ layout: default
 title: Pentamidine
 parent: Known Uses Only (No New Predictions)
 nav_order: 775
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pentamidine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "pentamidine"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06766P | DBL Pentamidine Isethionate for Injection BP 300 mg/vial (Hospira Australia Pty Ltd) | Injection, powder, for solution | Not stated in the available licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06766P | DBL PENTAMIDINE ISETHIONATE FOR INJECTION BP 300 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

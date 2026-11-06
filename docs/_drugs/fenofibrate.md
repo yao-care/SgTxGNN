@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fenofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, hyperlipidaemia and familial hyperlipidaemia"
 ---
 
@@ -78,15 +78,17 @@ Currently no related clinical trials registered.
 
 The licence records contain no approved-indication text, so no indication is listed. Showing 5 of 13 authorisations.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13351P | Fenosup Lidose 160mg Capsule | Capsule | Not stated in the licence record |
-| SIN13615P | Lipanthyl Penta Film Coated Tablet 145 mg | Tablet, film coated | Not stated in the licence record |
-| SIN17013P | Tricor Tablet 160 mg | Tablet, film coated | Not stated in the licence record |
-| SIN11666P | AA-Feno Micro Capsule 200 mg | Capsule | Not stated in the licence record |
-| SIN16155P | EP-Feno Tablet 145mg | Tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10668P | TROLIP 300 CAPSULES 300 mg | CAPSULE | Valid |
+| SIN10669P | TROLIP CAPSULES 100 mg | CAPSULE | Valid |
+| SIN11612P | LIPANTHYL SUPRA 160 TABLET 160 mg | TABLET, FILM COATED | Valid |
+| SIN11666P | AA-FENO MICRO CAPSULE 200 mg | CAPSULE | Valid |
+| SIN11831P | FENOGAL Lidose 200 mg Capsule | CAPSULE | Valid |
 
-Number of approvals: 13 single-ingredient licences, all valid, none cancelled. Oral capsule and tablet forms are available.
+Showing 5 of 13 HSA registrations.
+
+Oral capsule and tablet forms are available.
 
 ## Safety Considerations
 

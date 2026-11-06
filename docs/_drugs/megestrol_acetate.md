@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Megestrol acetate"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
 description: "Megestrol Acetate: predicted new indication Hereditary breast ovarian cancer syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,10 +81,10 @@ Currently no related literature available for this predicted indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN10157P | APO-MEGESTROL TABLET 160 mg (Apotex Inc) | Tablet |
-| SIN10156P | APO-MEGESTROL TABLET 40 mg (Apotex Inc) | Tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10156P | APO-MEGESTROL TABLET 40 mg | TABLET | Valid |
+| SIN10157P | APO-MEGESTROL TABLET 160 mg | TABLET | Valid |
 
 Both are valid single-ingredient oral licences. Approved indication text is not recorded for either product.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dalteparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** directly support this direction, 
 | Predicted New Indication | thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,11 @@ Currently no related literature available for this predicted indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05249P | FRAGMIN INJECTION 2500 iu/ml | Injection | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05249P | FRAGMIN INJECTION 2500 iu/ml | INJECTION | Valid |
+| SIN17433P | FRAGMIN SOLUTION FOR INJECTION PREFILLED SYRINGE 2500 IU/0.2 ml | INJECTION, SOLUTION | Valid |
+| SIN17434P | FRAGMIN SOLUTION FOR INJECTION PREFILLED SYRINGE 5000 IU/0.2 ml | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

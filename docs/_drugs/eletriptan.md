@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 description: "Eletriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,9 +83,9 @@ None of the publications below is specific to brainstem aura.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11767P | RELPAX TABLET 40 mg (Pfizer Italia S.r.l.) | Film-coated tablet (oral) | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11767P | RELPAX TABLET 40 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

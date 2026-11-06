@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 355
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: predicted new indication Stroke disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -101,9 +101,9 @@ Additional literature found for the related prediction "cerebrovascular disorder
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13849P | MULTAQ® Film-coated Tablet 400mg | Film-coated tablet (oral) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13849P | MULTAQ® Film-coated Tablet 400mg | TABLET, FILM COATED | Valid |
 
 ---
 

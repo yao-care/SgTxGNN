@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Anastrozole: predicted new indication neuroblastoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,13 +70,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14864P | ANZONAT FILM-COATED TABLET 1 mg | Tablet, film coated | Not recorded |
-| SIN15280P | ANEXTROZOLE FILM-COATED TABLET 1 mg | Tablet, film coated | Not recorded |
-| SIN14796P | AROMATT 1 ANASTROZOLE TABLET 1 MG | Tablet | Not recorded |
-| SIN14627P | ANASTROZOLE SANDOZ FILM COATED TABLET 1MG | Tablet, film coated | Not recorded |
-| SIN09433P | ARIMIDEX TABLET 1 mg | Tablet, film coated | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09433P | ARIMIDEX TABLET 1 mg | TABLET, FILM COATED | Valid |
+| SIN14001P | AREMED 1 FILM-COATED TABLET 1MG | TABLET, FILM COATED | Valid |
+| SIN14627P | ANASTROZOLE SANDOZ FILM COATED TABLET 1MG | TABLET, FILM COATED | Valid |
+| SIN14796P | AROMATT 1 ANASTROZOLE TABLET 1 MG | TABLET | Valid |
+| SIN14864P | ANZONAT FILM-COATED TABLET 1 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 11 HSA registrations.
 
 All 11 licences are valid single-ingredient products. The table shows the first 5.
 

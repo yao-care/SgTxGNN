@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Degarelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not stated in the Singapore licence records compiled for this report"
 monitor_inn: "Degarelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -86,10 +86,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14350P | FIRMAGON Powder and Solvent for Solution for Injection 120 mg | Injection, powder, for solution | Not stated in the records compiled |
-| SIN14351P | FIRMAGON Powder and Solvent for Solution for Injection 80 mg | Injection, powder, for solution | Not stated in the records compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14350P | FIRMAGON Powder and Solvent for Solution for Injection 120 mg | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14351P | FIRMAGON Powder and Solvent for Solution for Injection 80 mg | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ---
 

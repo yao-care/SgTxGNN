@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 356
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Drospirenone: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Drospiren
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 
 ## Known uses among the model's candidates
 
@@ -75,11 +75,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Drospiren
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16354P | SLINDA FILM-COATED TABLETS 4MG | TABLET, FILM COATED | Valid |
-| SIN14996P | GVEZA FILM COATED TABLETS 3MG/ 0.03MG | TABLET, FILM COATED | Valid |
-| SIN14995P | JASTINDA FILM COATED TABLETS 3MG/ 0.02MG | TABLET, FILM COATED | Valid |
 | SIN12334P | YASMIN TABLET | TABLET, FILM COATED | Valid |
+| SIN13584P | YAZ Film-coated Tablet | TABLET, FILM COATED | Valid |
 | SIN14855P | DROSPERA FILM-COATED TABLETS 3 MG/0.02 MG | TABLET, FILM COATED | Valid |
 | SIN14894P | LIZA FILM-COATED TABLETS 3MG/0.03MG | TABLET, FILM COATED | Valid |
+| SIN14995P | JASTINDA FILM COATED TABLETS 3MG/ 0.02MG | TABLET, FILM COATED | Valid |
+
+Showing 6 of 7 HSA registrations.
 
 ## Safety Considerations
 

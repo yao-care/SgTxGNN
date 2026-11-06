@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Tenofovir alafenamide"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tenofovir Alafenamide: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease, AIDS"
 ---
 
@@ -74,13 +74,13 @@ For context, the second-ranked prediction, simian immunodeficiency virus infecti
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15392P | VEMLIDY Film Coated Tablet 25 mg | Film-coated tablet | Not stated in the records |
-| SIN15322P | DESCOVY Film Coated Tablet 200 mg/25 mg | Film-coated tablet | Not stated in the records |
-| SIN15321P | DESCOVY Film Coated Tablet 200 mg/10 mg | Film-coated tablet | Not stated in the records |
-| SIN16015P | ODEFSEY Film-Coated Tablet 200 mg/25 mg/25 mg | Film-coated tablet | Not stated in the records |
-| SIN15604P | BIKTARVY Film-Coated Tablets 50 mg/200 mg/25 mg | Film-coated tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15392P | VEMLIDY FILM COATED TABLET 25 MG | TABLET, FILM COATED | Valid |
+| SIN15321P | DESCOVY FILM COATED TABLET 200 MG/10 MG | TABLET, FILM COATED | Valid |
+| SIN15322P | DESCOVY FILM COATED TABLET 200 MG/25 MG | TABLET, FILM COATED | Valid |
+| SIN15604P | BIKTARVY FILM-COATED TABLETS 50MG/200MG/25MG | TABLET, FILM COATED | Valid |
+| SIN16015P | ODEFSEY FILM-COATED TABLET 200MG/25MG/25MG | TABLET, FILM COATED | Valid |
 
 Note: Several of these products (DESCOVY, ODEFSEY, BIKTARVY) contain TAF together with other active ingredients, although they are recorded as single licences in the data.
 

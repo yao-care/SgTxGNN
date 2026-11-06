@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 821
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **0 r
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 10 of 10) |
-| Number of Registrations | 10 (valid: 10) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -82,15 +82,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04845P | PRELONE SYRUP 3 mg/5 ml | Syrup | Not stated in the compiled data |
-| SIN04190P | XEPASONE TABLET 5 mg | Tablet | Not stated in the compiled data |
-| SIN04237P | PREDNISOLONE TABLET 5 mg | Tablet | Not stated in the compiled data |
-| SIN04726P | PREDNISOLONE TABLET 5 mg | Tablet | Not stated in the compiled data |
-| SIN07771P | YSP PREDNISOLONE TABLET 5 mg | Tablet | Not stated in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04190P | XEPASONE TABLET 5 mg | TABLET | Valid |
+| SIN04207P | DHASOLONE TABLET 5 mg | TABLET | Valid |
+| SIN04237P | PREDNISOLONE TABLET 5 mg | TABLET | Valid |
+| SIN04661P | PRED FORTE OPHTHALMIC SUSPENSION 1% | SOLUTION | Valid |
+| SIN04845P | PRELONE SYRUP 3 mg/5 ml | SYRUP | Valid |
 
-There are 10 valid single-ingredient licences in total, in tablet and syrup forms.
+Showing 5 of 9 HSA registrations.
 
 ## Safety Considerations
 

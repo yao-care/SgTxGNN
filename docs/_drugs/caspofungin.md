@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Caspofungin"
 predicted_indications: ["gastrin secretion abnormality"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Caspofungin: predicted new indication gastrin secretion abnormality (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Caspofungin is an echinocandin antifungal given by injection. The TxGNN model pr
 | Predicted New Indication | gastrin secretion abnormality |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,13 +68,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11762P | CANCIDAS Powder for Injection 50 mg/vial | Injection, powder, for solution | Not recorded |
-| SIN15857P | PERGILAS Powder for Concentrate for Solution for Infusion 50 mg/vial | Injection, powder, lyophilized, for solution | Not recorded |
-| SIN15856P | PERGILAS Powder for Concentrate for Solution for Infusion 70 mg/vial | Injection, powder, lyophilized, for solution | Not recorded |
-| SIN15686P | FUPASCIN Powder for Concentrate for Solution for Infusion 70 mg/vial | Injection, powder, lyophilized, for solution | Not recorded |
-| SIN15687P | FUPASCIN Powder for Concentrate for Solution for Infusion 50 mg/vial | Injection, powder, lyophilized, for solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15551P | DALVOCANS POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/ VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15552P | DALVOCANS POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 70MG/ VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15686P | FUPASCIN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 70MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15687P | FUPASCIN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15697P | CASPOCAN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50 MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+Showing 5 of 9 HSA registrations.
 
 ## Safety Considerations
 

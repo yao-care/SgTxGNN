@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Fluorometholone"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
 description: "Fluorometholone: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,9 +97,9 @@ Neither paper tests fluorometholone efficacy directly.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04347P | FML Liquifilm Ophthalmic Suspension 0.1% (Allergan Pharmaceuticals Ireland) | Solution | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04347P | FML LIQUIFILM OPHTHALMIC SUSPENSION 0.1% | SOLUTION | Valid |
 
 ---
 

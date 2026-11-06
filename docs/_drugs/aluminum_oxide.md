@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Aluminum Oxide: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Not stated in the Singapore licence records"
 monitor_inn: "Aluminum oxide"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "heparin cofactor 2 deficiency", "hemoglobinopathy", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombotic disease", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency"]
@@ -50,8 +50,8 @@ This is essentially a computational prediction with no real supporting evidence.
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,10 +74,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02614P | Aluminium Hydroxide Mixture BP 4% w/w | Suspension | Not stated |
-| SIN08783P | Alutacid Antacid Mixture 4% w/w | Suspension | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08783P | ALUTACID ANTACID MIXTURE 4% w/w | SUSPENSION | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lanreotide: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Acromegaly, hyperpituitarism, pituitary gigantism"
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
@@ -63,7 +63,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 For hypertrichosis, **no mechanistic link is established**. No known pathway connects somatostatin receptor signalling to hair growth disorders. The high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The top five predictions (hypertrichosis, a dental/periodontal malformation syndrome, a Dandy-Walker malformation syndrome, a genetic hair shaft abnormality and Ambras-type hypertrichosis) all have no trials or publications and no plausible mechanism.
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -94,11 +93,11 @@ For reference, the strongest evidence is for the rank-8 prediction (polycystic k
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14289P | Somatuline Autogel Prolonged Release Solution for Injection in a Pre-filled Syringe 120 mg | Injection, solution | Not stated in the licence records |
-| SIN14290P | Somatuline Autogel Prolonged Release Solution for Injection in a Pre-filled Syringe 90 mg | Injection, solution | Not stated in the licence records |
-| SIN14291P | Somatuline Autogel Prolonged Release Solution for Injection in a Pre-filled Syringe 60 mg | Injection, solution | Not stated in the licence records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14289P | Somatuline Autogel Prolonged Release Solution for Injection in a Pre-f | INJECTION, SOLUTION | Valid |
+| SIN14290P | Somatuline Autogel Prolonged Release Solution for Injection in a Pre-f | INJECTION, SOLUTION | Valid |
+| SIN14291P | Somatuline Autogel Prolonged Release Solution for Injection in a Pre-f | INJECTION, SOLUTION | Valid |
 
 All three licences are valid single-ingredient products (manufacturer: Ipsen Pharma Biotech). The only dosage form is an injectable.
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 925
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L2 (as assigned in the compiled data; see the caveat below) |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -107,13 +107,10 @@ The table lists the 10 trials judged most relevant to hepatitis B.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15351P | EPCLUSA TABLET 400MG/100MG | Film-coated tablet | Indication text not provided in the registration record |
-| SIN14920P | HARVONI TABLET 90MG/400MG | Film-coated tablet | Indication text not provided in the registration record |
-| SIN15705P | VOSEVI FILM-COATED TABLETS 400MG/100MG/100MG | Film-coated tablet | Indication text not provided in the registration record |
-
-All three licences are valid, and all are oral products.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15351P | EPCLUSA TABLET 400MG/100MG | TABLET, FILM COATED | Valid |
+| SIN15705P | VOSEVI FILM-COATED TABLETS 400MG/100MG/100MG | TABLET, FILM COATED | Valid |
 
 ---
 

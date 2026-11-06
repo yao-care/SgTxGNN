@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1005
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ Currently **no registered clinical trials** are linked to this exact indication,
 | Predicted New Indication | Renal-hepatic-pancreatic dysplasia |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (based on pivotal RCTs in ADPKD generally; none specific to PKD3) |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -82,11 +82,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15934P | SAMSCA TABLET 15MG | Tablet | Not stated in the licence data |
-| SIN16607P | JINARC TABLET 15MG | Tablet | Not stated in the licence data |
-| SIN16608P | JINARC TABLET 30MG | Tablet | Not stated in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15934P | SAMSCA TABLET 15MG | TABLET | Valid |
+| SIN16607P | JINARC TABLET 15MG | TABLET | Valid |
+| SIN16608P | JINARC TABLET 30MG | TABLET | Valid |
+| SIN16609P | JINARC TABLET 45MG/15MG | TABLET | Valid |
+| SIN16610P | JINARC TABLET 60MG/30MG | TABLET | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

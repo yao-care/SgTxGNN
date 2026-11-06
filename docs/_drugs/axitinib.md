@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Axitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Axitinib: predicted new indication liposarcoma (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **liposarcoma**, but there are 
 | Predicted New Indication | liposarcoma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,10 +71,12 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14321P | INLYTA TABLETS 1MG | Tablet, film coated | Not recorded in the local data |
-| SIN14322P | INLYTA TABLETS 5MG | Tablet, film coated | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14321P | INLYTA TABLETS 1MG | TABLET, FILM COATED | Valid |
+| SIN14322P | INLYTA TABLETS 5MG | TABLET, FILM COATED | Valid |
+| SIN17370P | AXITINIB SANDOZ FILM COATED TABLET 5 MG | TABLET, FILM COATED | Valid |
+| SIN17371P | AXITINIB SANDOZ FILM COATED TABLET 1 MG | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 193
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the Singapore licence records compiled for this report…"
 monitor_inn: "Calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -48,8 +48,8 @@ Calcipotriol is a topical vitamin D3 analogue, marketed in Singapore as ointment
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
@@ -73,11 +73,12 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06587P | DAIVONEX OINTMENT 50 mcg/g | Ointment | Not stated in available records |
-| SIN14318P | Daivobet Gel 50mcg/g + 0.5mg/g | Gel | Not stated in available records |
-| SIN12241P | DAIVOBET OINTMENT | Ointment | Not stated in available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06587P | DAIVONEX OINTMENT 50 mcg/g | OINTMENT | Valid |
+| SIN12241P | DAIVOBET OINTMENT | OINTMENT | Valid |
+| SIN14318P | Daivobet Gel 50mcg/g + 0.5mg/g | GEL | Valid |
+| SIN15892P | ENSTILAR® CUTANEOUS FOAM 50mcg/g + 0.5mg/g | AEROSOL, FOAM | Valid |
 
 ## Safety Considerations
 

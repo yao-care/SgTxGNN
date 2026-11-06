@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 506
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Hydrocortisone acetate"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -77,13 +77,15 @@ There are two caveats. Low-potency hydrocortisone is generally considered weak f
 
 Eight valid licences are recorded in Singapore, all single-ingredient topical creams. Five are shown below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08804P | HYDRODERM CREAM 1% | Cream | Not specified |
-| SIN11172P | YSP HYDROCORT CREAM 1% W/W | Cream | Not specified |
-| SIN04767P | HYDROCORTISONE CREAM 1% w/w | Cream | Not specified |
-| SIN03781P | SW HYDROCORTISONE CREAM 1% w/w | Cream | Not specified |
-| SIN08726P | UCORT CREAM | Cream | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03781P | SW HYDROCORTISONE CREAM 1% w/w | CREAM | Valid |
+| SIN04767P | HYDROCORTISONE CREAM 1% w/w | CREAM | Valid |
+| SIN08804P | HYDRODERM CREAM 1% | CREAM | Valid |
+| SIN11172P | YSP HYDROCORT CREAM 1% W/W | CREAM | Valid |
+| SIN06454P | MICON-H CREAM | CREAM | Valid |
+
+Showing 5 of 8 HSA registrations.
 
 ## Safety Considerations
 

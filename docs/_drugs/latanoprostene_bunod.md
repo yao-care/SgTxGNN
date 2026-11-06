@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Latanoprostene bunod"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "idiopathic spontaneous coronary artery dissection", "angiodysplasia of stomach", "lymphangiectasis", "hemangioendothelioma"]
 description: "Latanoprostene Bunod: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,9 +84,9 @@ For reference, publications retrieved for other predictions:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16214P | VYZULTA (Latanoprostene Bunod Ophthalmic Solution) 0.024% | Sterile solution | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16214P | VYZULTA (LATANOPROSTENE BUNOD OPHTHALMIC SOLUTION) 0.024% | SOLUTION, STERILE | Valid |
 
 ## Safety Considerations
 

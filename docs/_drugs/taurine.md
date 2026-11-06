@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 955
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Taurine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,16 +74,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Taurine, so 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
 | SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | INFUSION, SOLUTION | Valid |
-| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
-| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
-| SIN14292P | SmofKabiven Electrolyte Free Emulsion for Infusion | INJECTION, EMULSION | Valid |
-| SIN16136P | SMOFKABIVEN EXTRA NITROGEN ELECTROLYTE-FREE EMULSION FOR INF | INJECTION, EMULSION | Valid |
-| SIN14287P | SmofKabiven Peripheral Emulsion for Infusion | INJECTION, EMULSION | Valid |
 | SIN14286P | SmofKabiven Emulsion for Infusion | INJECTION, EMULSION | Valid |
+| SIN14287P | SmofKabiven Peripheral Emulsion for Infusion | INJECTION, EMULSION | Valid |
+| SIN14292P | SmofKabiven Electrolyte Free Emulsion for Infusion | INJECTION, EMULSION | Valid |
 | SIN16135P | SMOFKABIVEN EXTRA NITROGEN EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
+| SIN16136P | SMOFKABIVEN EXTRA NITROGEN ELECTROLYTE-FREE EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | INFUSION, SOLUTION | Valid |
 
 ## Safety Considerations
 

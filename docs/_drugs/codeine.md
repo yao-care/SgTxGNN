@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Codeine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but o
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,15 +73,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-There are 20 valid single-ingredient registrations. The five main ones are listed below. The records contain no approved-indication text.
+The five main ones are listed below. The records contain no approved-indication text.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03413P | COLINCTUS 10 MIXTURE 10 mg/5 ml | Elixir | Not stated in the records |
-| SIN03699P | L.T.R. COUGH LINCTUS 10 mg/5 ml | Elixir | Not stated in the records |
-| SIN07044P | CODEINE TABLETS 30 mg | Tablet | Not stated in the records |
-| SIN06330P | PARACETAMOL CODEINE TABLETS | Tablet | Not stated in the records |
-| SIN13319P | Codipront Capsule | Capsule, extended release | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07044P | CODEINE TABLETS 30 mg | TABLET | Valid |
+| SIN02838P | PROMEDYL-B LINCTUS | ELIXIR | Valid |
+| SIN02933P | CHLORSEDYL LINCTUS | ELIXIR | Valid |
+| SIN03100P | COUGHLAX FORTE SYRUP | SYRUP | Valid |
+| SIN03140P | BEACTAFED CO SYRUP | SYRUP | Valid |
+
+Showing 5 of 15 HSA registrations.
 
 ## Safety Considerations
 

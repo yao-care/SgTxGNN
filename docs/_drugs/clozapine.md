@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 274
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -85,12 +85,12 @@ The evidence is rated L2 because no Phase 3 trials in this indication are availa
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11384P | CLOZAPINE TABLET 100 mg | Tablet | Not stated in licence records |
-| SIN11497P | CLOZAPINE TABLET 25 mg | Tablet | Not stated in licence records |
-| SIN07235P | CLOZARIL TABLET 100 mg | Tablet, film coated | Not stated in licence records |
-| SIN07234P | CLOZARIL TABLET 25 mg | Tablet, film coated | Not stated in licence records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07234P | CLOZARIL TABLET 25 mg | TABLET, FILM COATED | Valid |
+| SIN07235P | CLOZARIL TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN11384P | CLOZAPINE TABLET 100 mg | TABLET | Valid |
+| SIN11497P | CLOZAPINE TABLET 25 mg | TABLET | Valid |
 
 All four licences are valid single-ingredient oral products.
 

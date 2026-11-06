@@ -5,7 +5,7 @@ layout: default
 title: Tafluprost
 parent: Known Uses Only (No New Predictions)
 nav_order: 950
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tafluprost: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Tafluprost"
 predicted_indications: []
@@ -48,11 +48,11 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13872P | Taflotan Ophthalmic Solution 0.0015% | Sterile solution | Not specified in the registration data |
-| SIN14856P | Taflotan-S Ophthalmic Solution 0.0015% | Sterile solution | Not specified in the registration data |
-| SIN15060P | Tapcom-S Ophthalmic Solution | Sterile solution | Not specified in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13872P | Taflotan Ophthalmic Solution 0.0015% | SOLUTION, STERILE | Valid |
+| SIN14856P | TAFLOTAN-S OPHTHALMIC SOLUTION 0.0015% | SOLUTION, STERILE | Valid |
+| SIN15060P | TAPCOM-S OPHTHALMIC SOLUTION | SOLUTION, STERILE | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Aminacrine
 parent: Known Uses Only (No New Predictions)
 nav_order: 85
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Aminacrine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Aminacrine"
 predicted_indications: []
@@ -43,16 +43,12 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04748P | MEDIJEL GEL | Gel | Not stated in the licence record |
-
-Aminacrine is available in Singapore only as a topical gel (single-ingredient product, valid licence).
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Mepivacaine"
 predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
 description: "Mepivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,7 +74,6 @@ Other predictions were checked for supporting evidence:
 
 Currently no related clinical trials are registered for gastroduodenitis.
 
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT03390426](https://clinicaltrials.gov/study/NCT03390426) | Phase 4 | Completed | 31 | Peri-arterial femoral local anaesthetic injection to reduce tourniquet-associated ischaemic hypertension (agent not confirmed as mepivacaine) |
@@ -104,12 +103,12 @@ Selected publications for the other predictions:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06179P | Mepivastesin Injection 30 mg/ml (3M Deutschland GmbH) | Injection | Not stated in the licence record |
-| SIN07075P | Scandonest Injection 3% (without vasoconstrictor) (Septodont) | Injection | Not stated in the licence record |
-| SIN14649P | Isocaine (Mepivacaine HCl) Injection 3% (Novocol Pharmaceutical of Canada) | Injection | Not stated in the licence record |
-| SIN07074P | Scandonest 2% Special Injection (Septodont) | Injection | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06179P | MEPIVASTESIN INJECTION 30 mg/ml | INJECTION | Valid |
+| SIN07075P | SCANDONEST INJECTION 3% (WITHOUT VASO-CONSTRICTOR) | INJECTION | Valid |
+| SIN14649P | ISOCAINE (MEPIVACAINE HCL) INJECTION 3% | INJECTION | Valid |
+| SIN07074P | SCANDONEST 2% SPECIAL INJECTION | INJECTION | Valid |
 
 ---
 

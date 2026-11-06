@@ -5,7 +5,7 @@ layout: default
 title: Dinoprostone
 parent: Known Uses Only (No New Predictions)
 nav_order: 335
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dinoprostone: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Dinoprostone"
 predicted_indications: []
@@ -50,10 +50,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13982P | Cervidil Vaginal Delivery System 10mg | Other (vaginal delivery system) | Not stated in the registration data |
-| SIN02520P | PROSTIN E2 VAGINAL TABLET 3 mg | Tablet | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02520P | PROSTIN E2 VAGINAL TABLET 3 mg | TABLET | Valid |
+| SIN13982P | Cervidil Vaginal Delivery System 10mg | OTHER | Valid |
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,12 +68,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11116P | DIFFERIN CREAM 0.1% | Cream | Not recorded |
-| SIN08957P | DIFFERIN GEL 0.1% | Gel | Not recorded |
-| SIN15460P | EPIDUO FORTE GEL 0.3%/2.5% | Gel | Not recorded |
-| SIN13789P | EPIDUO GEL 0.1%/2.5% | Gel | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08957P | DIFFERIN GEL 0.1% | GEL | Valid |
+| SIN11116P | DIFFERIN CREAM 0.1% | CREAM | Valid |
+| SIN13789P | EPIDUO GEL 0.1%/2.5% | GEL | Valid |
+| SIN15460P | EPIDUO FORTE GEL 0.3%/2.5% | GEL | Valid |
 
 ## Safety Considerations
 

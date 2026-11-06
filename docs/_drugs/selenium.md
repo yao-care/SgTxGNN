@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 899
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Selenium: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,7 +74,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Selenium, so
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16847P | SELENIUM AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 10  | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN16847P | SELENIUM AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 10 MCG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Safety Considerations
 

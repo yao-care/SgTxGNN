@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Darunavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Darunavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ There are **no clinical trials** and **no publications** that directly study thi
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,13 +95,15 @@ For the related simian immunodeficiency virus prediction, the following preclini
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13853P | PREZISTA™ Tablet 75 mg | Film-coated tablet | Not stated in the records |
-| SIN13854P | PREZISTA™ Tablet 150 mg | Film-coated tablet | Not stated in the records |
-| SIN13855P | PREZISTA™ Tablet 400 mg | Film-coated tablet | Not stated in the records |
-| SIN13856P | PREZISTA™ Tablet 600 mg | Film-coated tablet | Not stated in the records |
-| SIN14595P | PREZISTA™ Tablet 800 mg | Film-coated tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13853P | PREZISTA™ TABLET 75MG | TABLET, FILM COATED | Valid |
+| SIN13854P | PREZISTA™ TABLET 150MG | TABLET, FILM COATED | Valid |
+| SIN13855P | PREZISTA™ TABLET 400MG | TABLET, FILM COATED | Valid |
+| SIN14595P | PREZISTA™ TABLET 800MG | TABLET, FILM COATED | Valid |
+| SIN17329P | DARUNAVIR MEVON FILM-COATED TABLETS 800 MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ---
 

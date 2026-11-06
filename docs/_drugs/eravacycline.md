@@ -5,7 +5,7 @@ layout: default
 title: Eravacycline
 parent: Known Uses Only (No New Predictions)
 nav_order: 389
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Eravacycline: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Eravacycline"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15930P | XERAVA Powder for Concentrate for Solution for Infusion 50 mg per vial | Injection, powder, lyophilized, for solution | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15930P | XERAVA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG PER VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

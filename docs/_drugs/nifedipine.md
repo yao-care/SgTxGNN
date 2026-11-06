@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 711
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Nifedipine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -78,13 +78,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nifedipine, 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN11117P | DEPIN-E RETARD TABLETS 20 mg | TABLET | Valid |
-| SIN08776P | AA PHARMA NIFEDIPINE CAPSULE 10MG | CAPSULE | Valid |
-| SIN11671P | NIFEDIPINE LA TABLET 30 mg | TABLET, FILM COATED | Valid |
-| SIN07710P | ADALAT LA 30 TABLET 30 mg | TABLET, FILM COATED | Valid |
 | SIN07228P | NIFELAT TABLET 10 mg | TABLET, FILM COATED | Valid |
-| SIN11680P | NIFEDIPINE LA TABLET 60 mg | TABLET, FILM COATED | Valid |
+| SIN07710P | ADALAT LA 30 TABLET 30 mg | TABLET, FILM COATED | Valid |
+| SIN08776P | AA PHARMA NIFEDIPINE CAPSULE 10MG | CAPSULE | Valid |
 | SIN08777P | AA PHARMA NIFEDIPINE CAPSULE 5 mg | CAPSULE | Valid |
+| SIN11117P | DEPIN-E RETARD TABLETS 20 mg | TABLET | Valid |
+| SIN11671P | NIFEDIPINE LA TABLET 30 mg | TABLET, FILM COATED | Valid |
+| SIN11680P | NIFEDIPINE LA TABLET 60 mg | TABLET, FILM COATED | Valid |
 | SIN11720P | NIFECARD XL TABLET 30 mg | TABLET, FILM COATED | Valid |
 | SIN12483P | CALCIGARD RETARD TABLET 20 mg | TABLET, FILM COATED | Valid |
 | SIN07439P | NIFETEX-TR CAPSULE | CAPSULE | Valid |

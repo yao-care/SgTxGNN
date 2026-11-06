@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Empagliflozin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,15 +76,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14687P | JARDIANCE FILM-COATED TABLET 25MG | Film-coated tablet | Not stated in the records |
-| SIN14686P | JARDIANCE FILM-COATED TABLETS 10MG | Film-coated tablet | Not stated in the records |
-| SIN15061P | JARDIANCE DUO FILM COATED TABLET 12.5MG/1000MG | Film-coated tablet | Not stated in the records |
-| SIN15273P | GLYXAMBI FILM-COATED TABLETS 10 MG/5 MG | Film-coated tablet | Not stated in the records |
-| SIN15272P | GLYXAMBI FILM-COATED TABLETS 25 MG/5 MG | Film-coated tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14686P | JARDIANCE FILM-COATED TABLETS 10MG | TABLET, FILM COATED | Valid |
+| SIN14687P | JARDIANCE FILM-COATED TABLET 25MG | TABLET, FILM COATED | Valid |
+| SIN17547P | EMPAZOX 25 Empagliflozin Film Coated Tablets 25 mg | TABLET, FILM COATED | Valid |
+| SIN17548P | EMPAZOX 10 Empagliflozin Film Coated Tablets 10 mg | TABLET, FILM COATED | Valid |
+| SIN15061P | JARDIANCE DUO FILM COATED TABLET 12.5MG/1000MG | TABLET, FILM COATED | Valid |
 
-Eight valid registrations are on record in total; the table shows the first five. All are oral film-coated tablets. Some of these products are combination products (names such as Jardiance Duo and Glyxambi indicate combinations), so their licences do not describe the single-ingredient drug's approval on their own.
+Showing 5 of 10 HSA registrations.
+
+All are oral film-coated tablets. Some of these products are combination products (names such as Jardiance Duo and Glyxambi indicate combinations), so their licences do not describe the single-ingredient drug's approval on their own.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 827
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Procaine: predicted new indication Methemoglobinemia (evidence level L4). Approved use: Not stated in the Singapore licence record (a local anaesthetic by dr…"
 monitor_inn: "Procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
@@ -106,9 +106,9 @@ For the most relevant modern signal in a secondary prediction (tendinitis):
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09166P | PROCANOL LOTION 2% | Lotion | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09166P | PROCANOL LOTION 2% | LOTION | Valid |
 
 The licence is a valid single-ingredient product (manufacturer: ICM Pharma Pte. Ltd.).
 

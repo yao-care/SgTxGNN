@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1037
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the registration data (the products are amino acid infu…"
 monitor_inn: "Tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -52,8 +52,8 @@ Among the other top-ranked predictions, only hyperthyroidism has a registered tr
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 15 of 15) |
-| Number of Registrations | 15 (valid: 15) |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ---
@@ -103,15 +103,17 @@ The most relevant publications among the other predictions are listed below. Non
 
 ## Singapore Market Information
 
-All 15 registrations are valid single-ingredient products. The registration data contain no approved indication text. The five main authorizations are listed below.
+The registration data contain no approved indication text. The five main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not stated |
-| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Not stated |
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not stated |
-| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not stated |
-| SIN07846P | TROPHAMINE INJECTION 10% | Injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
+
+Showing 5 of 17 HSA registrations.
 
 The remaining 10 registrations include amino acid, peritoneal dialysis, and multi-chamber parenteral nutrition products (for example Nutrineal PD4, Vaminolact, Aminoplasmal B.Braun 10% E, Oliclinomel, and SmofKabiven variants).
 

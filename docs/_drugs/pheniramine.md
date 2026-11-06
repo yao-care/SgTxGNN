@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Pheniramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -87,9 +87,9 @@ None of these publications provides efficacy evidence for pheniramine in allergi
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04717P | NAPHCON-A STERILE OPHTHALMIC SOLUTION (Alcon Singapore Manufacturing Pte. Ltd.) | Solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04717P | NAPHCON-A STERILE OPHTHALMIC SOLUTION | SOLUTION | Valid |
 
 ---
 

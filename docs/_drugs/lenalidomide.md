@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 586
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **44 clinical trials** and **19 publications** currently linked to this dir
 | Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 29 of 29) |
+| Number of Registrations | 29 (valid: 29) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -100,15 +100,17 @@ No randomised trials in myeloid leukemia were retrieved for this prediction. The
 
 ## Singapore Market Information
 
-Twenty registrations are valid. All are single-ingredient oral capsules. No approved-indication text was available in the registration records. The five main registrations are listed below.
+All are single-ingredient oral capsules. No approved-indication text was available in the registration records. The five main registrations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13663P | Revlimid Capsules 10mg (Celgene) | Capsule | Not stated in the registration record |
-| SIN13662P | Revlimid Capsules 5mg (Celgene) | Capsule | Not stated in the registration record |
-| SIN13664P | Revlimid Capsules 15 mg (Celgene) | Capsule | Not stated in the registration record |
-| SIN13665P | Revlimid Capsules 25 mg (Celgene) | Capsule | Not stated in the registration record |
-| SIN16190P | LENLI Capsules 25MG (Lotus) | Capsule | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13662P | Revlimid Capsules 5mg | CAPSULE | Valid |
+| SIN13663P | Revlimid Capsules 10mg | CAPSULE | Valid |
+| SIN13664P | Revlimid Capsules 15 mg | CAPSULE | Valid |
+| SIN13665P | Revlimid Capsules 25 mg | CAPSULE | Valid |
+| SIN16187P | LENLI CAPSULES 5MG | CAPSULE | Valid |
+
+Showing 5 of 29 HSA registrations.
 
 Generic products are also registered, including Linadex (Hetero), Myolid (Biocon), Lenalidomide Grindeks and Lenalidomide-Teva.
 

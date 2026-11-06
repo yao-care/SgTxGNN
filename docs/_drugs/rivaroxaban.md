@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 878
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the Singapore licence records (anticoagulant"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 34 of 34) |
+| Number of Registrations | 34 (valid: 34) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,15 +78,17 @@ None of these studies tests rivaroxaban for rheumatoid arthritis disease control
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14118P | Xarelto Film-Coated Tablet 15 mg | Film-coated tablet | Not available |
-| SIN14119P | Xarelto Film-Coated Tablet 20 mg | Film-coated tablet | Not available |
-| SIN13567P | Xarelto Film-Coated Tablet 10 mg | Film-coated tablet | Not available |
-| SIN14455P | Xarelto Film-Coated Tablet 2.5 mg | Film-coated tablet | Not available |
-| SIN16487P | Xarelto Granules for Oral Suspension 1 mg/ml | Granules for suspension | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13567P | Xarelto Film Coated Tablet 10 mg | TABLET, FILM COATED | Valid |
+| SIN14118P | Xarelto Film-Coated Tablet 15 mg | TABLET, FILM COATED | Valid |
+| SIN14119P | Xarelto Film-Coated Tablet 20 mg | TABLET, FILM COATED | Valid |
+| SIN14455P | Xarelto Film Coated Tablet 2.5mg | TABLET, FILM COATED | Valid |
+| SIN16487P | XARELTO GRANULES FOR ORAL SUSPENSION 1MG/ML | GRANULE, FOR SUSPENSION | Valid |
 
-Six further licences cover generic or alternative brands (Invarox 2.5/10/15/20 mg and Rivason 15/20 mg). All 11 licences are valid single-ingredient products.
+Showing 5 of 34 HSA registrations.
+
+Six further licences cover generic or alternative brands (Invarox 2.5/10/15/20 mg and Rivason 15/20 mg).
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,13 +76,15 @@ Currently no related clinical trials registered.
 
 All 18 licences are valid single-ingredient registrations, with none cancelled. The licence records contain no approved indication text. Five main authorisations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08969P | Cough Relief Syrup 100 mg/5 ml | Syrup | Not stated in the licence record |
-| SIN08411P | Breacol Cough Syrup 100 mg/5 ml | Syrup | Not stated in the licence record |
-| SIN14588P | Mucinex Extended Release Tablets 600 mg | Tablet, extended release | Not stated in the licence record |
-| SIN14659P | Mucinex Extended Release Tablets 1200 mg | Tablet, multilayer, extended release | Not stated in the licence record |
-| SIN12140P | Robitussin EX Syrup 200 mg/10 ml | Syrup | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06725P | WOODS' PEPPERMINT COUGH SYRUP 100 mg/5 ml | SYRUP | Valid |
+| SIN07957P | COFEN 100 COUGH MIXTURE 100 mg/5 ml | SYRUP | Valid |
+| SIN08411P | BREACOL COUGH SYRUP 100 mg/5 ml | SYRUP | Valid |
+| SIN08785P | COFEN 50 COUGH MIXTURE 50 mg/5 ml | SYRUP | Valid |
+| SIN08969P | COUGH RELIEF SYRUP 100 mg/5 ml | SYRUP | Valid |
+
+Showing 5 of 18 HSA registrations.
 
 ## Safety Considerations
 

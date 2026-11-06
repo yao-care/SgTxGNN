@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Atenolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, myocardial infarction"
 ---
 
@@ -50,8 +50,8 @@ but **0 clinical trials** and **0 publications** currently support this specific
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 17 of 17) |
-| Number of Registrations | 17 (valid: 17) |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,17 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## Singapore Market Information
 
-All 17 licences are single-ingredient, valid products, and none includes approved-indication text. The table lists the first five.
+The table lists the first five.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10278P | PRENOLOL TABLET 100 mg | Film-coated tablet | Not stated in the licence record |
-| SIN07538P | TENOL TABLET 50 mg | Tablet | Not stated in the licence record |
-| SIN07161P | VASCOTEN 50 TABLET 50 mg | Tablet | Not stated in the licence record |
-| SIN02344P | TENOLOL TABLET 100 mg | Film-coated tablet | Not stated in the licence record |
-| SIN10391P | NORMATEN TABLET 100 mg | Film-coated tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02344P | TENOLOL TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN03630P | APO-ATENOL TABLET 50 mg | TABLET | Valid |
+| SIN03631P | APO-ATENOL TABLET 100 MG BP | TABLET | Valid |
+| SIN07538P | TENOL TABLET 50 mg | TABLET | Valid |
+| SIN07584P | NORMATEN TABLET 50 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 14 HSA registrations.
 
 ## Safety Considerations
 

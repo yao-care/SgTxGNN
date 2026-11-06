@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 498
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 description: "Histidine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The prediction currently rests almost entirely on the model score.
 | Predicted New Indication | Gastroparesis (disease) |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 17 of 17) |
-| Number of Registrations | 17 (valid: 17) |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -84,15 +84,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-All 17 valid registrations are single-ingredient licences. Five of them are listed below.
+Five of them are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11682P | AMINOVEN Solution for Infusion 5% | Injection | Not stated |
-| SIN11829P | AMINOVEN Solution for Infusion 10% | Injection | Not stated |
-| SIN16337P | AMINOVEN Solution for Infusion 15% | Infusion, solution | Not stated |
-| SIN06299P | NEPHROSTERIL for Intravenous Infusion | Injection | Not stated |
-| SIN08352P | AMINOPLASMAL-15% Infusion | Injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
+
+Showing 5 of 19 HSA registrations.
 
 ---
 

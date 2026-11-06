@@ -5,7 +5,7 @@ layout: default
 title: Zolbetuximab
 parent: Known Uses Only (No New Predictions)
 nav_order: 1087
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Zolbetuximab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Zolbetuximab"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17197P | VYLOY™ Powder for Concentrate for Solution for Infusion 100 mg/vial | Lyophilised powder for injection (solution for infusion) | Not listed in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17197P | VYLOY™ POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 The manufacturer is Baxter Oncology GmbH. The licence is valid and covers a single-ingredient product.
 

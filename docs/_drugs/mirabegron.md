@@ -5,7 +5,7 @@ layout: default
 title: Mirabegron
 parent: Known Uses Only (No New Predictions)
 nav_order: 679
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mirabegron: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Mirabegron"
 predicted_indications: []
@@ -50,10 +50,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14622P | BETMIGA Prolonged-Release Tablets 25 mg | Film-coated extended-release tablet | Not recorded in the licence data |
-| SIN14623P | BETMIGA Prolonged-Release Tablets 50 mg | Film-coated extended-release tablet | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14622P | BETMIGA ® PROLONGED-RELEASE TABLETS 25MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN14623P | BETMIGA ® PROLONGED-RELEASE TABLETS 50MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 
 Both licences are valid single-ingredient products, with no cancelled registrations. Both are oral formulations.
 

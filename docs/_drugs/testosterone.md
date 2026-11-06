@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 970
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Testosterone: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 15 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 
 ## Known uses recorded for this drug
 
@@ -88,9 +88,13 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN04518P | DEPO-TESTOSTERONE STERILE SOLUTION 100 mg/ml | INJECTION | Valid |
 | SIN13161P | Androgel 25mg | GEL | Valid |
-| SIN16857P | ANDROGEL GEL 16.2MG/G | GEL | Valid |
 | SIN13162P | Androgel 50mg | GEL | Valid |
+| SIN13281P | NEBIDO Solution | SOLUTION, STERILE | Valid |
+| SIN16857P | ANDROGEL GEL 16.2MG/G | GEL | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

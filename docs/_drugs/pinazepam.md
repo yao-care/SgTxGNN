@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 794
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Pinazepam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "hallucinogen abuse", "barbiturate abuse", "sleep disorder, initiating and maintaining sleep"]
 description: "Pinazepam: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -68,9 +68,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01038P | DOMAR CAPSULE 5 mg (Polipharm Co Ltd) | Capsule (oral) | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01038P | DOMAR CAPSULE 5 mg | CAPSULE | Valid |
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Vincristine: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -63,7 +63,6 @@ Detailed mechanism-of-action data are not available in the data compiled for thi
 
 "Retroperitoneal neoplasm" is a location-based umbrella term, not one disease. The literature shows vincristine used in multi-agent regimens for several tumour types that can occur in the retroperitoneum. Examples are malignant paraganglioma (cyclophosphamide, vincristine, dacarbazine), infantile fibrosarcoma (doxorubicin, vincristine, cyclophosphamide), rhabdomyosarcoma (VAC) and desmoplastic small round cell tumour. Vincristine is always combined with other drugs, so its individual contribution cannot be separated. Any benefit would depend on the tumour's histology.
 
-
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
@@ -88,9 +87,9 @@ Several other retrieved records concern unrelated or only loosely related condit
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10319P | VINRACINE INJ. 1 mg/ml (Korea United Pharmaceutical Inc) | Injection | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10319P | VINRACINE INJ. 1 mg/ml | INJECTION | Valid |
 
 ## Cytotoxicity
 

@@ -3,7 +3,7 @@ layout: default
 title: Manganese
 parent: Known Uses Only (No New Predictions)
 nav_order: 633
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Manganese: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -45,8 +45,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Manganese, s
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -72,7 +72,9 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Manganese, s
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN08899P | PEDITRACE CONCENTRATE FOR PARENTERAL INFUSION | INJECTION | Valid |
 | SIN14341P | Nutritrace Concentrate for solution for infusion | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Safety Considerations
 

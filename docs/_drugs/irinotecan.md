@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Irinotecan"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -104,13 +104,15 @@ Only trials with direct or partial relevance are listed first. Most of the other
 
 All 11 licences are single-ingredient products with valid status. Approved-indication text is not available in the licence records.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15612P | IRINOX 100 (irinotecan HCl) 100 mg/5 mL | Infusion, solution concentrate | Not stated |
-| SIN15397P | ONIVYDE pegylated liposomal irinotecan 4.3 mg/mL | Infusion, solution concentrate | Not stated |
-| SIN09428P | CAMPTO for infusion 20 mg/mL | Injection | Not stated |
-| SIN16797P | IRNIZET 100 100 mg/5 mL | Infusion, solution concentrate | Not stated |
-| SIN15613P | IRINOX 40 (irinotecan HCl) 40 mg/2 mL | Infusion, solution concentrate | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09428P | CAMPTO FOR INFUSION 20 mg/ml | INJECTION | Valid |
+| SIN13367P | DBL Irinotecan Injection Concentrate 20mg/ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN14373P | IRINO Solution for I.V Infusion 20mg/ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15397P | ONIVYDE PEGYLATED LIPOSOMAL (IRINOTECAN) CONCENTRATE FOR DISPERSION FO | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15612P | IRINOX 100 IRINOTECAN HYDROCHLORIDE CONCENTRATE FOR SOLUTION FOR INFUS | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+Showing 5 of 11 HSA registrations.
 
 Six further irinotecan licences are registered (SIN15734P, SIN14373P, SIN15735P, SIN13367P, SIN16266P, SIN15701P); all are injectable or infusion concentrates.
 

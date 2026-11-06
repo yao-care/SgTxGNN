@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Enfortumab Vedotin: predicted new indication Leprosy (evidence level L5). Approved use: Not stated in the Singapore licence records (the approved indication…"
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
@@ -103,10 +103,10 @@ Leprosy has no related literature. The publications below are those linked to HE
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16502P | PADCEV® 20 mg/vial powder for concentrate for solution for infusion | Lyophilised powder for injection | Not stated in the available records |
-| SIN16503P | PADCEV® 30 mg/vial powder for concentrate for solution for infusion | Lyophilised powder for injection | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16502P | PADCEV® POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16503P | PADCEV® POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 30MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ---
 

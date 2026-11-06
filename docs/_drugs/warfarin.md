@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1079
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Warfarin: predicted new indication Top-ranked: heparin cofactor 2 deficiency. Best-supported: thrombophilia (heparin cofactor 2 deficiency) (evidence level L5). Approved use: Not recorded in the loca…"
@@ -127,13 +127,15 @@ Other predictions (case-level evidence only):
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13517P | Apo-Warfarin 5mg Tablet | Tablet | Not listed in the data |
-| SIN13515P | Apo-Warfarin 1mg Tablet | Tablet | Not listed in the data |
-| SIN13516P | Apo-Warfarin 2mg Tablet | Tablet | Not listed in the data |
-| SIN08146P | Marevan Tablet 1 mg (New Zealand) | Tablet | Not listed in the data |
-| SIN08147P | Marevan Tablet 5 mg (New Zealand) | Tablet | Not listed in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08019P | MAREVAN TABLET 3 mg (NEW ZEALAND) | TABLET | Valid |
+| SIN08146P | MAREVAN TABLET 1 mg (NEW ZEALAND) | TABLET | Valid |
+| SIN08147P | MAREVAN TABLET 5 mg (NEW ZEALAND) | TABLET | Valid |
+| SIN13515P | Apo-Warfarin 1mg Tablet | TABLET | Valid |
+| SIN13516P | Apo-Warfarin 2mg Tablet | TABLET | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 Six single-ingredient oral tablet licences are valid in total; the Marevan 3 mg tablet (SIN08019P) is the one not shown above.
 

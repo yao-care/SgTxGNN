@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Evolocumab"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
 description: "Evolocumab: predicted new indication Symptomatic form of hemophilia in female carriers (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,10 +72,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15223P | REPATHA Solution for Injection in Pre-filled Syringe 140mg/mL | Injection, solution | Not stated in the data compiled |
-| SIN15224P | REPATHA Solution for Injection in Pre-filled Autoinjector 140mg/mL | Injection, solution | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15223P | REPATHA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 140MG/ML | INJECTION, SOLUTION | Valid |
+| SIN15224P | REPATHA SOLUTION FOR INJECTION IN PRE-FILLED AUTOINJECTOR 140MG/ML | INJECTION, SOLUTION | Valid |
 
 Both licences are valid single-ingredient products from Amgen Manufacturing Limited LLC.
 

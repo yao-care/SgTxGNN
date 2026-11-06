@@ -5,7 +5,7 @@ layout: default
 title: Filgotinib
 parent: Known Uses Only (No New Predictions)
 nav_order: 428
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Filgotinib: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Filgotinib"
 predicted_indications: []
@@ -50,10 +50,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16980P | JYSELECA FILM-COATED TABLET 100MG | Tablet, film coated | Not listed in licence data |
-| SIN16981P | JYSELECA FILM-COATED TABLET 200MG | Tablet, film coated | Not listed in licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16980P | JYSELECA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+| SIN16981P | JYSELECA FILM-COATED TABLET 200MG | TABLET, FILM COATED | Valid |
 
 ---
 

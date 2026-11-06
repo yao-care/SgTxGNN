@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "L-Lysine"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
 description: "L-Lysine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This prediction rests on the model score alone and should be treated as a hypoth
 | Predicted New Indication | Gastroparesis (disease) |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,15 +89,17 @@ Currently no related clinical trials registered.
 
 The approved indication text is not available in the licence records for any of these products.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16003P | LYSAKARE Solution for Infusion 25G/25G | Infusion, solution | Not stated |
-| SIN11682P | AMINOVEN Solution for Infusion 5% | Injection | Not stated |
-| SIN11829P | AMINOVEN Solution for Infusion 10% | Injection | Not stated |
-| SIN06299P | NEPHROSTERIL for Intravenous Infusion | Injection | Not stated |
-| SIN09353P | NUTRINEAL PD4 with 1.1% Amino Acid Solution | Solution, sterile | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
-All seven registrations are valid single-ingredient licences. Two further products are OLICLINOMEL N7-1000 E and N4-550 E emulsions for infusion.
+Showing 5 of 19 HSA registrations.
+
+Two further products are OLICLINOMEL N7-1000 E and N4-550 E emulsions for infusion.
 
 ---
 

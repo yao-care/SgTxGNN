@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ with **7 clinical trials** and **1 publication** currently listed for this direc
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -91,12 +91,11 @@ An important caveat: in the available trials melphalan is almost always given in
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11873P | ALKERAN FOR INJECTION 50 mg/vial | Injection | Not listed in the data |
-| SIN11822P | ALKERAN TABLET 2 mg (Revised formula) | Film-coated tablet | Not listed in the data |
-
-Both licences are valid single-ingredient products, covering injectable and oral routes.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11822P | ALKERAN TABLET 2 mg (Revised formula) | TABLET, FILM COATED | Valid |
+| SIN11873P | ALKERAN FOR INJECTION 50 mg/vial | INJECTION | Valid |
+| SIN17483P | MEGVAL™ Powder for Solution for Injection 50mg/vial | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ---
 
@@ -140,7 +139,7 @@ One completed Phase 2 trial (n=64) tests high-dose chemotherapy that includes me
 - Published results and outcomes of NCT00936936, and an assessment of melphalan's individual contribution within the combination
 - Package insert warnings and contraindications from the Singapore regulator (HSA), which are currently missing
 - Detailed mechanism of action data from DrugBank
-- Approved indication text for the two Singapore licences
+- Approved indication text
 - A haematological and organ-function monitoring plan, plus a transplant-capable setting for high-dose use
 - Comparison against current standard salvage regimens for germ cell tumours
 ## Disclaimer

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 994
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
 description: "Tipiracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -68,10 +68,10 @@ Currently no related literature available for cecum villous adenoma.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15491P | LONSURF FILM-COATED TABLET 15MG/6.14MG | Tablet, film coated | Not specified in the available records |
-| SIN15494P | LONSURF FILM-COATED TABLET 20MG/8.19MG | Tablet, film coated | Not specified in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15491P | LONSURF FILM-COATED TABLET 15MG/6.14MG | TABLET, FILM COATED | Valid |
+| SIN15494P | LONSURF FILM-COATED TABLET 20MG/8.19MG | TABLET, FILM COATED | Valid |
 
 Both authorizations are currently valid, are held by Taiho Pharmaceutical Co., Ltd. (Kitajima Plant) and are for oral use.
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 334
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Dimethyl Fumarate: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,8 +75,8 @@ The TxGNN deep-learning model has no candidate indication for Dimethyl Fumarate 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15054P | TECFIDERA GASTRO-RESISTANT HARD CAPSULES 240 MG | CAPSULE, ENTERIC COATED | Valid |
 | SIN15053P | TECFIDERA GASTRO-RESISTANT HARD CAPSULES 120 MG | CAPSULE, ENTERIC COATED | Valid |
+| SIN15054P | TECFIDERA GASTRO-RESISTANT HARD CAPSULES 240 MG | CAPSULE, ENTERIC COATED | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 640
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -79,11 +79,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04540P | Depo-Provera Sterile Aqueous Suspension 50 mg/ml | Injection | Not recorded |
-| SIN03841P | Provera Tablet 10 mg | Tablet | Not recorded |
-| SIN10513P | Provera Tablet 5 mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03841P | PROVERA TABLET 10 mg | TABLET | Valid |
+| SIN04540P | DEPO-PROVERA STERILE AQUEOUS SUSPENSION 50 mg/ml | INJECTION | Valid |
+| SIN10513P | PROVERA TABLET 5 mg | TABLET | Valid |
 
 All three licences are valid single-ingredient products. The approved indication text is not recorded in the local data.
 

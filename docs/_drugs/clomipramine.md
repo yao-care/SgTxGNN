@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 269
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L5). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
@@ -94,11 +94,11 @@ Most of the registered trials are OCD-focused (the original indication), so evid
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09611P | DEPRANIL TABLET 25 mg | Tablet | Not listed |
-| SIN09058P | APO-CLOMIPRAMINE TABLET 10 mg | Film-coated tablet | Not listed |
-| SIN09018P | APO-CLOMIPRAMINE TABLET 25 mg | Film-coated tablet | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09018P | APO-CLOMIPRAMINE TABLET 25 mg | TABLET, FILM COATED | Valid |
+| SIN09058P | APO-CLOMIPRAMINE TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN09611P | DEPRANIL TABLET 25 mg | TABLET | Valid |
 
 ## Safety Considerations
 

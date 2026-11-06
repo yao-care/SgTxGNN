@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Flavoxate: predicted new indication Attention deficit hyperactivity disorder, inattentive type (evidence level L5). Approved use: Not stated in the Singapore licence records"
 monitor_inn: "Flavoxate"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
@@ -75,12 +75,12 @@ The remaining predictions (cauda equina syndrome, gastroduodenitis, peptic ulcer
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12299P | LAVOXEN TABLET 200 mg | Tablet, film coated | Not stated |
-| SIN09677P | CLEANXATE TAB 200 mg | Tablet, sugar coated | Not stated |
-| SIN16400P | URIPAX FILM COATED TABLET 200MG | Tablet, film coated | Not stated |
-| SIN12007P | URISPAS 200 TABLET 200 mg | Tablet, film coated | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09677P | CLEANXATE TAB 200 mg | TABLET, SUGAR COATED | Valid |
+| SIN12007P | URISPAS 200 TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN12299P | LAVOXEN TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN16400P | URIPAX FILM COATED TABLET 200MG | TABLET, FILM COATED | Valid |
 
 All four licences are valid single-ingredient oral products.
 

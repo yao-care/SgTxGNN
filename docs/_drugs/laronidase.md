@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 579
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Laronidase"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: predicted new indication Sanfilippo syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,9 +85,9 @@ None of these publications studies laronidase in Sanfilippo syndrome. They conce
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13347P | ALDURAZYME | Injection, solution | Not stated in the available licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13347P | ALDURAZYME | INJECTION, SOLUTION | Valid |
 
 The one authorization on record is a valid single-ingredient licence (Vetter Pharma-Fertigung GmbH & Co. KG and BioMarin Pharmaceutical Inc).
 

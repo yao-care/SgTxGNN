@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Capmatinib: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the Singapore licence records compiled for this report"
 monitor_inn: "Capmatinib"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome"]
@@ -72,10 +72,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16351P | TABRECTA FILM-COATED TABLET 200mg | Film-coated tablet | Not available |
-| SIN16350P | TABRECTA FILM-COATED TABLET 150mg | Film-coated tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16350P | TABRECTA FILM-COATED TABLET 150mg | TABLET, FILM COATED | Valid |
+| SIN16351P | TABRECTA FILM-COATED TABLET 200mg | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

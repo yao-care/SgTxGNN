@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Anagrelide: predicted new indication reactive thrombocytosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,10 +82,10 @@ The retrieved publications mostly address essential thrombocythemia (a clonal di
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12525P | AGRYLIN CAPSULE 0.5 mg | Capsule | Not recorded |
-| SIN17118P | ANAGRELIDE MEVON CAPSULES 0.5 MG | Capsule | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12525P | AGRYLIN CAPSULE 0.5 mg | CAPSULE | Valid |
+| SIN17118P | ANAGRELIDE MEVON CAPSULES 0.5 MG | CAPSULE | Valid |
 
 ## Safety Considerations
 

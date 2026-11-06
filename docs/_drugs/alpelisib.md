@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 67
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alpelisib: predicted new indication Pulmonary hypertension (evidence level L4). Approved use: Not recorded in the Singapore licence data (the trials compiled point…"
 monitor_inn: "Alpelisib"
 predicted_indications: ["pulmonary hypertension"]
@@ -73,11 +73,11 @@ Currently no related clinical trials registered for pulmonary hypertension.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15917P | PIQRAY 300MG DAILY DOSE PACK (150mg + 150mg) | Film-coated tablet | Not recorded |
-| SIN15918P | PIQRAY 200MG DAILY DOSE PACK | Film-coated tablet | Not recorded |
-| SIN15916P | PIQRAY 250MG DAILY DOSE PACK (200mg + 50mg) | Film-coated tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15917P | PIQRAY 300MG DAILY DOSE PACK (150mg + 150mg) | TABLET, FILM COATED | Valid |
+| SIN15918P | PIQRAY 200MG DAILY DOSE PACK | TABLET, FILM COATED | Valid |
+| SIN15916P | PIQRAY 250MG DAILY DOSE PACK (200mg + 50mg) | TABLET, FILM COATED | Valid |
 
 All three licences are held by Novartis Pharma Stein AG and are currently valid.
 

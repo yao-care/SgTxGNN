@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 98
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Amylmetacresol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the Singapore registration record (the product is a thr…"
 monitor_inn: "Amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -72,9 +72,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08806P | STREPSILS MAX PLUS LOZENGES | Lozenge | Not stated in the record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08806P | STREPSILS MAX PLUS LOZENGES | LOZENGE | Valid |
 
 ## Safety Considerations
 

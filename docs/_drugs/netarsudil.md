@@ -87,7 +87,6 @@ Please refer to the package insert for safety information.
 - Conjunctival fragility
 - Punctal stenosis
 
-
 ---
 
 ## Disclaimer

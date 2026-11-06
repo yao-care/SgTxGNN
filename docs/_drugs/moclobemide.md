@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 684
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -81,9 +81,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13093P | MOCLOBEMIDE HEXAL TABLET 150mg | Tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13093P | MOCLOBEMIDE HEXAL TABLET 150mg | TABLET | Valid |
 
 ## Safety Considerations
 

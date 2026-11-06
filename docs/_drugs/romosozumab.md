@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 880
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Romosozumab: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,7 +74,7 @@ The TxGNN model produced candidates for Romosozumab with a score of 0.99 or high
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16208P | EVENITY SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 105 MG/ | INJECTION, SOLUTION | Valid |
+| SIN16208P | EVENITY SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 105 MG/1.17 ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

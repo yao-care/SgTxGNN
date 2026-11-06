@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,13 +80,15 @@ The publications retrieved concern breast or nipple-region tumours but none eval
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09915P | Femara Tablet 2.5 mg (Novartis) | Tablet, film coated | Not stated in licence record |
-| SIN14565P | Letrozole Sandoz Film Coated Tablets 2.5 mg | Tablet, film coated | Not stated in licence record |
-| SIN13916P | Letrozole Mevon Tablets 2.5 mg | Tablet, film coated | Not stated in licence record |
-| SIN14406P | Lotuserm Film-Coated Tablets 2.5 mg | Tablet, film coated | Not stated in licence record |
-| SIN15739P | Zatrolex Film-Coated Tablet 2.5 mg | Tablet, film coated | Not stated in licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09915P | FEMARA TABLET 2.5 mg | TABLET, FILM COATED | Valid |
+| SIN13916P | Letrozole Mevon Tablets 2.5mg | TABLET, FILM COATED | Valid |
+| SIN14406P | LOTUSERM FILM-COATED TABLETS 2.5 MG | TABLET, FILM COATED | Valid |
+| SIN14470P | Letara Film Coated Tablet 2.5mg | TABLET, FILM COATED | Valid |
+| SIN14565P | LETROZOLE SANDOZ FILM COATED TABLETS 2.5MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 11 HSA registrations.
 
 All 11 licences for single-ingredient letrozole products are valid, and none are cancelled. Only the first five are listed here.
 

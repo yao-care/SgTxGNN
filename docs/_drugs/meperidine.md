@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 648
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Meperidine"
 predicted_indications: ["Tourette syndrome", "trichotillomania"]
 description: "Meperidine: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,9 +94,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14662P | Pethidine-hameln Solution for Injection 50mg/ml | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14662P | Pethidine-hameln Solution for Injection 50mg/ml | INJECTION, SOLUTION | Valid |
 
 ---
 

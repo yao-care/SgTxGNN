@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ezetimibe"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia, familial hyperlipidaemia…"
 ---
 
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and **no publication that directly studies t
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 31 of 31) |
+| Number of Registrations | 31 (valid: 31) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,15 +75,17 @@ Two publications were retrieved, but neither studies CETP deficiency in patients
 
 ## Singapore Market Information
 
-At least 20 valid licences are listed (the list may be partial). Approved-indication text is not available in the data compiled for this report. The five main authorisations are:
+Approved-indication text is not available in the data compiled for this report. The five main authorisations are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12375P | Ezetrol Tablet 10 mg | Tablet | Not stated |
-| SIN15183P | Zimiex Tablet 10mg | Tablet | Not stated |
-| SIN15179P | Ezetimibe Sandoz Tablet 10mg | Tablet | Not stated |
-| SIN16441P | Ezetimibe Mevon Tablet 10 mg | Tablet | Not stated |
-| SIN16422P | Ezoleta Tablets 10mg | Tablet | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12375P | EZETROL TABLET 10 mg | TABLET | Valid |
+| SIN15179P | EZETIMIBE SANDOZ TABLET 10MG | TABLET | Valid |
+| SIN15183P | ZIMIEX TABLET 10MG | TABLET | Valid |
+| SIN15245P | ALVOTROL TABLETS 10 MG | TABLET | Valid |
+| SIN15740P | LIPEZ TABLET 10 MG | TABLET | Valid |
+
+Showing 5 of 31 HSA registrations.
 
 ## Safety Considerations
 

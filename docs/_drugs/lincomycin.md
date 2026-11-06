@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lincomycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Pneumococcal, staphylococcal and streptococcal infections"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but there 
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9914 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,10 +71,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01866P | LINCOMYCIN INJECTION 300 mg/ml (Shin Poong Pharmaceutical) | Injection | Not stated in the licence record |
-| SIN06683P | LINCOMYCIN INJECTION 300 mg/ml (Yung Shin Pharmaceutical) | Injection | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06683P | LINCOMYCIN INJECTION 300 mg/ml | INJECTION | Valid |
 
 ## Safety Considerations
 

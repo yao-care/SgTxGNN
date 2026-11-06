@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cetirizine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 24 of 24) |
+| Number of Registrations | 24 (valid: 24) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,13 +75,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15437P | ZYRTEC-R ORAL SOLUTION 1 MG/ML | Solution | Not recorded |
-| SIN15298P | ALNIX TABLET 10mg | Tablet | Not recorded |
-| SIN14890P | ZYRTEC-R FILM-COATED TABLET 10 MG | Film-coated tablet | Not recorded |
-| SIN14240P | SUNIZINE TABLET 10MG | Film-coated tablet | Not recorded |
-| SIN08756P | ALLERCET TABLET 10 mg | Film-coated tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03022P | ZYRTEC TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN08756P | ALLERCET TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN08945P | ZYRTEC ORAL DROPS 10 mg/ml | SOLUTION | Valid |
+| SIN10368P | CETRIZIN TABLETS 10 mg | TABLET, FILM COATED | Valid |
+| SIN10796P | ZYRTEC ORAL SOLUTION 1 mg/ml | SOLUTION | Valid |
+
+Showing 5 of 24 HSA registrations.
 
 The list is partial. Other cetirizine products are also valid in Singapore.
 

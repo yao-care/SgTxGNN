@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 930
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 description: "Sorafenib: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ No study has tested sorafenib in liposarcoma itself. The evidence consists of **
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,11 +84,12 @@ Detailed mechanism-of-action data from the drug database are not available. The 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13339P | NEXAVAR TABLET 200 mg | Film-coated tablet | Not recorded in the compiled data |
-| SIN16485P | INFENIB FILM COATED TABLET 200MG | Film-coated tablet | Not recorded in the compiled data |
-| SIN16774P | SORAVAR 200 FILM COATED TABLET 200 MG | Film-coated tablet | Not recorded in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13339P | NEXAVAR TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN16485P | INFENIB FILM COATED TABLET 200MG | TABLET, FILM COATED | Valid |
+| SIN16774P | SORAVAR 200 FILM COATED TABLET 200 MG | TABLET, FILM COATED | Valid |
+| SIN17486P | AIRKEFAY FILM-COATED TABLETS 200MG | TABLET, FILM COATED | Valid |
 
 All listed licences are currently valid, and the product is available as an oral tablet. The approved indication text is not recorded in the local data.
 

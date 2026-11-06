@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 977
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections (urinary tract infection, bronchitis, acne…"
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
@@ -74,11 +74,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00969P | TETRACYCLINE MC CAPSULE 250 mg | Capsule | Not recorded |
-| SIN02053P | BEATACYCLINE CAPSULE 250 mg | Capsule | Not recorded |
-| SIN08514P | BIOTINE OINTMENT 3% w/w | Ointment | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00969P | TETRACYCLINE MC CAPSULE 250 mg | CAPSULE | Valid |
+| SIN02053P | BEATACYCLINE CAPSULE 250 mg | CAPSULE | Valid |
+| SIN08514P | BIOTINE OINTMENT 3% w/w | OINTMENT | Valid |
 
 ## Safety Considerations
 

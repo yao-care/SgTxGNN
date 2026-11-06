@@ -6,7 +6,7 @@ title: ENALAPRIL MALEATE
 parent: Known Uses Only (No New Predictions)
 nav_order: 185
 last_modified_date: 2026-03-11
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -20,8 +20,8 @@ evidence_level: N/A
 
 | Property | Value |
 |----------|-------|
-| Singapore Market Status | Marketed (valid licences: 18 of 18) |
-| Number of Registrations | 18 (valid: 18) |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Drug Name | ENALAPRIL MALEATE |
 | DrugBank ID | [DB00584](https://go.drugbank.com/drugs/DB00584) |
 | HSA Status | Registered with Health Sciences Authority |

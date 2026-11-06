@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clioquinol"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clioquinol: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection…"
 ---
 
@@ -75,12 +75,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08790P | HYDRODERM-C CREAM 1% | Cream | Not stated in licence record |
-| SIN08795P | DERMANOL-C CREAM 0.1% | Cream | Not stated in licence record |
-| SIN08793P | DERMANOL-C CREAM 0.025% | Cream | Not stated in licence record |
-| SIN08796P | DERMANOL-C CREAM 0.05% | Cream | Not stated in licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08790P | HYDRODERM-C CREAM 1% | CREAM | Valid |
+| SIN08793P | DERMANOL-C CREAM 0.025% | CREAM | Valid |
+| SIN08795P | DERMANOL-C CREAM 0.1% | CREAM | Valid |
+| SIN08796P | DERMANOL-C CREAM 0.05% | CREAM | Valid |
 
 All four products are topical creams from ICM Pharma Pte. Ltd.
 

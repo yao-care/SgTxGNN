@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Ceftazidime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
 description: "Ceftazidime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **hyperamylasemia**, but there ar
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,12 +69,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15074P | Ceftazidime Kabi Powder for Solution for Injection 1g/vial | Injection, powder, for solution | Not available |
-| SIN14738P | Ceftazidime Mevon Powder for Solution for Injection or Infusion 1g/vial | Injection, powder, for solution | Not available |
-| SIN15075P | Ceftazidime Kabi Powder for Solution for Injection 2g/vial | Injection, powder, for solution | Not available |
-| SIN11470P | Cefazime for Injection 1g/vial | Injection | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12096P | TAZIME FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14738P | CEFTAZIDIME MEVON POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G/ VI | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15074P | CEFTAZIDIME KABI POWDER FOR SOLUTION FOR INJECTION 1G/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15075P | CEFTAZIDIME KABI POWDER FOR SOLUTION FOR INJECTION 2G/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN11470P | CEFAZIME FOR INJECTION 1 g/vial | INJECTION | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 All four licences are valid single-ingredient products.
 

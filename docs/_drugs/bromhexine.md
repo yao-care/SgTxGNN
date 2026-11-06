@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 177
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Bromhexine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 
 ## Known uses recorded for this drug
 
@@ -74,17 +74,15 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN02479P | BROMHEXINE TABLET 8 mg | TABLET | Valid |
-| SIN10906P | AXCEL BROMHEXINE TABLET 8 mg | TABLET | Valid |
 | SIN02468P | BROMHEXINE ELIXIR 4 mg/5 ml | ELIXIR | Valid |
-| SIN02846P | MUCOLIX ELIXIR 4 mg/5 ml | ELIXIR | Valid |
-| SIN10014P | DURO-TUSS CHESTY COUGH LIQUID | SOLUTION | Valid |
-| SIN09127P | BROMXINE TABLET 8 mg | TABLET | Valid |
 | SIN02528P | VASICAN TABLET 8 mg | TABLET | Valid |
+| SIN02846P | MUCOLIX ELIXIR 4 mg/5 ml | ELIXIR | Valid |
 | SIN02864P | VASICAN SYRUP 4 MG/5ML | SYRUP | Valid |
 | SIN05034P | HOSOLVON TABLET 8 mg | TABLET | Valid |
-| SIN03149P | MUCOSOL ELIXIR 4 mg/5 ml | ELIXIR | Valid |
+| SIN09127P | BROMXINE TABLET 8 mg | TABLET | Valid |
+| SIN10014P | DURO-TUSS CHESTY COUGH LIQUID | SOLUTION | Valid |
 | SIN10582P | BISLAN TABLET 8 mg | TABLET | Valid |
+| SIN10906P | AXCEL BROMHEXINE TABLET 8 mg | TABLET | Valid |
 
 ## Safety Considerations
 

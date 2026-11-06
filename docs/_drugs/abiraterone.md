@@ -5,7 +5,7 @@ layout: default
 title: Abiraterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 23
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Abiraterone: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Abiraterone"
 predicted_indications: []
@@ -43,20 +43,22 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 16 of 16) |
-| Number of Registrations | 16 (valid: 16) |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 
 ## Singapore Market Information
 
-There are 16 valid single-ingredient registrations. Approved indication text was not available for any of them. The main authorizations are:
+Approved indication text was not available for any of them. The main authorizations are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15345P | ZYTIGA Film-Coated Tablet 500 mg | Film-coated tablet | Not available |
-| SIN14146P | Zytiga Tablet 250 mg | Tablet | Not available |
-| SIN16002P | ABIRATRED Film-Coated Tablet USP 250 mg | Film-coated tablet | Not available |
-| SIN16416P | ABIRATERONE-TEVA FC Tablet 250 mg | Film-coated tablet | Not available |
-| SIN17110P | Akeega Film-coated Tablets 100 mg/500 mg | Film-coated tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14146P | Zytiga Tablet 250 mg | TABLET | Valid |
+| SIN15345P | ZYTIGA FILM-COATED TABLET 500MG | TABLET, FILM COATED | Valid |
+| SIN15833P | ABIRANAT TABLETS 250MG USP | TABLET | Valid |
+| SIN15933P | ONCOPROS - ABIRATERONE ACETATE TABLETS USP 250MG | TABLET | Valid |
+| SIN16002P | ABIRATRED ABIRATERONE ACETATE FILM COATED TABLET USP 250MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 17 HSA registrations.
 
 All forms are oral (tablet or film-coated tablet).
 

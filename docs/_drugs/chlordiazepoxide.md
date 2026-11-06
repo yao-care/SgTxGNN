@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "myofascial pain syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Chlordiazepoxide: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **0 registered clinical trials** and **5 retrieved publicati
 | Predicted New Indication | insomnia (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,11 +78,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01907P | BENPINE TABLET 5 mg | Tablet, sugar coated | Not recorded in the local data |
-| SIN08651P | CHLOBAX TABLET | Tablet, sugar coated | Not recorded in the local data |
-| SIN03049P | AA PHARMA CHLORAX CAPSULE | Capsule | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03049P | AA PHARMA CHLORAX CAPSULE | CAPSULE | Valid |
+| SIN08651P | CHLOBAX TABLET | TABLET, SUGAR COATED | Valid |
 
 ## Safety Considerations
 

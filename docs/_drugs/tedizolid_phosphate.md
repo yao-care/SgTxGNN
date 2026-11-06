@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 958
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tedizolid phosphate"
 predicted_indications: ["post-infectious syndrome", "post-bacterial disorder", "postinfectious vasculitis", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "conjunctivitis"]
 description: "Tedizolid Phosphate: predicted new indication Post-infectious syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,10 +84,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14851P | SIVEXTRO Lyophilized Powder for Solution for Infusion 200 mg per vial | Injection, powder, lyophilized, for solution | Not stated in the licence records |
-| SIN14850P | SIVEXTRO Film-Coated Tablet 200 mg | Tablet, film coated | Not stated in the licence records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14850P | SIVEXTRO FILM-COATED TABLET 200MG | TABLET, FILM COATED | Valid |
+| SIN14851P | SIVEXTRO LYOPHILIZED POWDER FOR SOLUTION FOR INFUSION 200MG PER VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 Both licences are valid, single-ingredient products. Injectable and oral routes are available.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 682
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L4). Approved use: Myeloid leukaemia / acute myeloid leukaemia"
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
@@ -89,9 +89,9 @@ For reference, the closely overlapping indication **head and neck cancer** has t
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11629P | MITOXANTRONE BAXTER INJECTION 2 mg/ml | Injection | Not stated in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11629P | MITOXANTRONE BAXTER INJECTION 2 mg/ml | INJECTION | Valid |
 
 ## Cytotoxicity
 

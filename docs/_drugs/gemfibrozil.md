@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 474
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Gemfibrozil: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Hypertriglyceridemia"
 monitor_inn: "Gemfibrozil"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
@@ -74,11 +74,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08467P | BROZIL CAPSULE 300 mg | Capsule | Not listed in the available data |
-| SIN04902P | IPOLIPID CAPSULE 300 mg | Capsule | Not listed in the available data |
-| SIN09167P | LIPISTOROL CAPSULE 300 mg | Capsule | Not listed in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04902P | IPOLIPID CAPSULE 300 mg | CAPSULE | Valid |
+| SIN08467P | BROZIL CAPSULE 300 mg | CAPSULE | Valid |
+| SIN09167P | LIPISTOROL CAPSULE 300 mg | CAPSULE | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Gadoteric Acid
 parent: Known Uses Only (No New Predictions)
 nav_order: 463
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Gadoteric Acid: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Gadoteric acid"
 predicted_indications: []
@@ -48,12 +48,12 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15973P | DOTAGRAF Solution for Injection 0.5 mmol/mL | Injection, solution | Not stated in the data |
-| SIN09008P | DOTAREM Injection 27.932 g/100 mL | Injection | Not stated in the data |
-| SIN15693P | CLARISCAN Solution for Injection in Vial 0.5 mmol/mL | Injection, solution | Not stated in the data |
-| SIN15694P | CLARISCAN Solution for Injection in Pre-filled Syringe 0.5 mmol/mL | Injection, solution | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09008P | DOTAREM INJECTION 27.932 g/ 100 ml | INJECTION | Valid |
+| SIN15693P | CLARISCAN SOLUTION FOR INJECTION IN VIAL 0.5 MMOL/ML | INJECTION, SOLUTION | Valid |
+| SIN15694P | CLARISCAN SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 0.5 MMOL/ML | INJECTION, SOLUTION | Valid |
+| SIN15973P | DOTAGRAF SOLUTION FOR INJECTION 0.5 MMOL/ML | INJECTION, SOLUTION | Valid |
 
 All four licences are valid single-ingredient injectable products.
 

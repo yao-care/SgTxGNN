@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 592
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Leuprolide"
 predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
 description: "Leuprolide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **osteoarthritis**, but there a
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,15 +73,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14512P | ELIGARD Powder and Solvent for Solution for Injection 22.5mg | Extended-release lyophilised powder for suspension, injection | Not stated in the data |
-| SIN14513P | ELIGARD Powder and Solvent for Solution for Injection 45mg | Extended-release lyophilised powder for suspension, injection | Not stated in the data |
-| SIN14511P | ELIGARD Powder and Solvent for Solution for Injection 7.5mg | Extended-release lyophilised powder for suspension, injection | Not stated in the data |
-| SIN10742P | Lucrin Depot for Injection PDS 11.25mg | Powder for solution, injection | Not stated in the data |
-| SIN08862P | Lucrin Depot for Injection PDS 3.75mg | Powder for solution, injection | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08862P | Lucrin Depot for Injection PDS 3.75mg | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN10742P | Lucrin Depot for Injection PDS 11.25mg | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14004P | Lucrin Depot for Injection PDS 30mg | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14512P | ELIGARD ® POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 22.5mg | INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION,EXTENDED RELEASE | Valid |
+| SIN14513P | ELIGARD ® POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 45mg | INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION,EXTENDED RELEASE | Valid |
 
-One further licence (SIN14004P, Lucrin Depot PDS 30mg) is also valid. All 6 licences are single-ingredient products and all are currently valid.
+Showing 5 of 8 HSA registrations.
+
+One further licence (SIN14004P, Lucrin Depot PDS 30mg) is also valid.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 35
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not stated in the Singapore licence data compiled for this report"
 monitor_inn: "Acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -87,13 +87,15 @@ The match with the TxGNN "acne" label is partly a nomenclature artefact. The cli
 
 The approved indication text is not recorded for any of the licences.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16829P | ACITRET CAPSULE 25MG | Capsule | Not recorded |
-| SIN08392P | NEOTIGASON CAPSULE 25 mg | Capsule | Not recorded |
-| SIN15271P | NOVATRETIN CAPSULE 10MG | Capsule | Not recorded |
-| SIN16830P | ACITRET CAPSULE 10MG | Capsule | Not recorded |
-| SIN08391P | NEOTIGASON CAPSULE 10 mg | Capsule | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08391P | NEOTIGASON CAPSULE 10 mg | CAPSULE | Valid |
+| SIN08392P | NEOTIGASON CAPSULE 25 mg | CAPSULE | Valid |
+| SIN15270P | NOVATRETIN CAPSULE 25MG | CAPSULE | Valid |
+| SIN15271P | NOVATRETIN CAPSULE 10MG | CAPSULE | Valid |
+| SIN16829P | ACITRET CAPSULE 25MG | CAPSULE | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 A sixth licence, SIN15270P (NOVATRETIN CAPSULE 25MG), is also valid. All six licences are for oral capsules.
 

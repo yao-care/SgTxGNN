@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 265
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Clobazam: predicted new indication Febrile infection-related epilepsy syndrome (evidence level L4). Approved use: Lennox-Gastaut syndrome"
 monitor_inn: "Clobazam"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "atypical childhood epilepsy with centrotemporal spikes", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
@@ -50,8 +50,8 @@ but there are **0 registered clinical trials** and only **2 publications** (a ca
 | Predicted New Indication | Febrile infection-related epilepsy syndrome |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01591P | FRISIUM 10 TABLET 10 mg (Opella Healthcare International SAS) | Tablet | Indication text not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01591P | FRISIUM 10 TABLET 10 mg | TABLET | Valid |
+| SIN17520P | CLOBAZEN TABLETS 10MG | TABLET | Valid |
 
 ## Safety Considerations
 

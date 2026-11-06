@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 405
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Etelcalcetide"
 predicted_indications: ["hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "varicose disease"]
 description: "Etelcalcetide: predicted new indication Hyperphosphatemia (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -89,11 +89,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15450P | PARSABIV Solution for Injection 2.5 mg/0.5 mL | Injection, solution | Not recorded |
-| SIN15452P | PARSABIV Solution for Injection 10 mg/2 mL | Injection, solution | Not recorded |
-| SIN15451P | PARSABIV Solution for Injection 5 mg/mL | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15450P | PARSABIV SOLUTION FOR INJECTION 2.5 mg/0.5 mL | INJECTION, SOLUTION | Valid |
+| SIN15451P | PARSABIV SOLUTION FOR INJECTION 5 mg/mL | INJECTION, SOLUTION | Valid |
+| SIN15452P | PARSABIV SOLUTION FOR INJECTION 10 mg/2 mL | INJECTION, SOLUTION | Valid |
 
 All three authorizations are currently valid. The manufacturers are Patheon Manufacturing Services LLC and Amgen Manufacturing Limited LLC.
 

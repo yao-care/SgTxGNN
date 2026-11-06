@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Magnesium trisilicate"
 predicted_indications: ["gastroduodenitis"]
 description: "Magnesium Trisilicate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ Evidence is limited to **0 clinical trials** and **2 publications** for this exa
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 9 of 9) |
-| Number of Registrations | 9 (valid: 9) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,6 @@ It is effectively an on-label use, not true repurposing.
 Other predictions from the model are less convincing. Gastroparesis is a delayed-emptying disorder that antacids do not address.
 
 ## Clinical Trial Evidence
-
 
 They are listed here as context only, because the effect of magnesium trisilicate cannot be isolated:
 
@@ -91,15 +90,15 @@ Two retrieved papers on norethisterone and phenytoin availability concern drug i
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03314P | SEMOR STOMACH TABLET | Tablet | Not stated in the compiled records |
-| SIN06599P | MAGNESIUM TRISILICATE COMPOUND TABLET BP | Tablet | Not stated in the compiled records |
-| SIN03159P | ALUMAG TABLETS | Tablet | Not stated in the compiled records |
-| SIN05336P | WELUSIL TABLET | Tablet | Not stated in the compiled records |
-| SIN08786P | MAGTASIL ANTACID MIXTURE | Suspension | Not stated in the compiled records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03159P | ALUMAG TABLETS | TABLET | Valid |
+| SIN03314P | SEMOR STOMACH TABLET | TABLET | Valid |
+| SIN05336P | WELUSIL TABLET | TABLET | Valid |
+| SIN08786P | MAGTASIL ANTACID MIXTURE | SUSPENSION | Valid |
+| SIN09497P | ALLUMAG MPS TABLET | TABLET | Valid |
 
-A further 4 valid licences exist (9 in total, all single-ingredient and valid, none cancelled).
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

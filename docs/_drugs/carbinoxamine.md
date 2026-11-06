@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Carbinoxamine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carbinoxamine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -61,9 +61,9 @@ Detailed mechanism of action data is not currently available. Carbinoxamine belo
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07964P | BECAME TABLET | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07964P | BECAME TABLET | TABLET | Valid |
 
 ## Safety Considerations
 

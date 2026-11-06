@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Palbociclib"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Palbociclib is a CDK4/6 inhibitor (Ibrance) that is marketed in Singapore as an 
 | Predicted New Indication | Hyperthyroidism (rank 1); the best-supported alternative is myeloid leukemia (hyperthyroidism) |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 for hyperthyroidism (model prediction only); L3 for myeloid leukemia |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold (hyperthyroidism); myeloid leukemia and rheumatoid arthritis are best treated as research questions |
 
 ## Why is This Prediction Reasonable?
@@ -68,7 +68,6 @@ There is no MEN-specific evidence.
 
 ## Clinical Trial Evidence
 
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT02310243](https://clinicaltrials.gov/study/NCT02310243) | Phase 1/2 | Unknown | 50 | Palbociclib in MLL-rearranged acute leukemias; no results provided |
@@ -81,7 +80,6 @@ NCT03355157 (Phase 4) and NCT02894398 (Phase 2) are breast cancer studies, and N
 No clinical trials are registered for hyperthyroidism, rheumatoid arthritis or thrombotic disease.
 
 ## Literature Evidence
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -112,13 +110,15 @@ No literature was found for hyperthyroidism, thyroid hormone resistance, hyperth
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16322P | IBRANCE Film Coated Tablet 75 mg | Tablet, film coated | Not stated in the licence record |
-| SIN16323P | IBRANCE Film Coated Tablet 100 mg | Tablet, film coated | Not stated in the licence record |
-| SIN16324P | IBRANCE Film Coated Tablet 125 mg | Tablet, film coated | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16322P | IBRANCE FILM COATED TABLET 75MG | TABLET, FILM COATED | Valid |
+| SIN16323P | IBRANCE FILM COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+| SIN16324P | IBRANCE FILM COATED TABLET 125MG | TABLET, FILM COATED | Valid |
+| SIN17420P | PALBONAT CAPSULES 125MG | CAPSULE | Valid |
+| SIN17421P | PALBONAT CAPSULES 100MG | CAPSULE | Valid |
 
-All three licences are valid single-ingredient products from Pfizer Manufacturing Deutschland GmbH, and the only route is oral.
+Showing 5 of 6 HSA registrations.
 
 ## Cytotoxicity
 

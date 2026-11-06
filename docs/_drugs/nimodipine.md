@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 714
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Nimodipine: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,10 +72,10 @@ Currently no related literature available for homozygous familial hypercholester
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06931P | NIMOTOP FOR INFUSION 0.02% | Injection | Not stated in the available record |
-| SIN09111P | NIMOTOP TABLET 30 mg | Film-coated tablet | Not stated in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06931P | NIMOTOP FOR INFUSION 0.02% | INJECTION | Valid |
+| SIN09111P | NIMOTOP TABLET 30 mg | TABLET, FILM COATED | Valid |
 
 Both are valid single-ingredient products (manufacturer: Bayer AG). Routes available: injectable and oral.
 

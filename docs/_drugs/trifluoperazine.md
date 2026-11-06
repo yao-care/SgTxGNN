@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1024
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Trifluoperazine"
 predicted_indications: ["manic bipolar affective disorder"]
 description: "Trifluoperazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,9 +95,9 @@ None of the publications below is a controlled trial of trifluoperazine in mania
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00289P | AA Pharma Trifluoperazine Tablet 5 mg (Apotex Inc) | Tablet, film coated | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00289P | AA PHARMA TRIFLUOPERAZINE TABLET 5 mg | TABLET, FILM COATED | Valid |
 
 ---
 

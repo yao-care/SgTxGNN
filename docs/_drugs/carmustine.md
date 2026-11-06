@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 215
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Carmustine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -87,8 +87,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Carmustine, 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15502P | BiCNU-100MG (CARMUSTINE FOR INJECTION USP 100MG) & DEHYDRATE | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN13348P | GLIADEL WAFER | IMPLANT | Valid |
+| SIN15502P | BiCNU-100MG (CARMUSTINE FOR INJECTION USP 100MG) & DEHYDRATED ALCOHOL  | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

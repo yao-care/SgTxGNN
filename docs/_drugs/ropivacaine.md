@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 884
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
 description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -89,13 +89,15 @@ Migraine involves trigeminovascular and autonomic pain signalling. Blocking the 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17164P | Ropivacaine B. Braun Solution for Injection and Infusion 2 mg/ml | Injection, solution | Not stated |
-| SIN09262P | Naropin Infusion 0.2% | Injection | Not stated |
-| SIN09264P | Naropin Injection 1% | Injection | Not stated |
-| SIN15264P | Ropivacaine-AFT Solution for Infusion 0.2% w/v | Infusion, solution | Not stated |
-| SIN15263P | Ropivacaine-AFT Solution for Injection 0.2% w/v | Injection, solution | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09262P | NAROPIN INFUSION 0.2% | INJECTION | Valid |
+| SIN09264P | NAROPIN INJECTION 1% | INJECTION | Valid |
+| SIN15261P | ROPIVACAINE-AFT SOLUTION FOR INJECTION 1% W/V | INJECTION, SOLUTION | Valid |
+| SIN15262P | ROPIVACAINE-AFT SOLUTION FOR INJECTION 0.75% W/V | INJECTION, SOLUTION | Valid |
+| SIN15263P | ROPIVACAINE-AFT SOLUTION FOR INJECTION 0.2% W/V | INJECTION, SOLUTION | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 Two further Ropivacaine-AFT injection licences (0.75% and 1%) are also valid, giving 7 registrations in total.
 
@@ -137,7 +139,6 @@ The migraine evidence consists of one 10-patient trial, one indirect headache st
 ---
 
 ## Other Predicted Indications (Brief Note)
-
 
 The remaining predictions (migraine with brainstem aura, nephrogenic syndrome of inappropriate antidiuresis and dysthymic disorder) have little or no direct evidence and are on **Hold**. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 ## Disclaimer

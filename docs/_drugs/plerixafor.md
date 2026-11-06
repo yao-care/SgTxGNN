@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 803
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Plerixafor"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: predicted new indication CMM7 (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,11 +78,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13894P | Mozobil Solution for Injection 20mg/ml (Genzyme Corporation) | Injection, solution | Not stated in the registration record |
-| SIN16879P | Pleristem Solution for Injection 20mg/ml (Eugia Pharma Specialities Limited) | Injection, solution | Not stated in the registration record |
-| SIN17147P | Plerixafor-AFT Solution for Injection 24 mg/1.2 mL (Sichuan Huiyu Pharmaceutical Co., Ltd.) | Injection, solution | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13894P | Mozobil Solution for Injection 20mg/ml | INJECTION, SOLUTION | Valid |
+| SIN16879P | PLERISTEM SOLUTION FOR INJECTION 20MG/ML | INJECTION, SOLUTION | Valid |
+| SIN17147P | Plerixafor-AFT solution for injection 24 mg/1.2 mL | INJECTION, SOLUTION | Valid |
 
 All three licences are valid single-ingredient products.
 

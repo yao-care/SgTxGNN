@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 917
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sodium Bicarbonate: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Bicar
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 5 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 23 of 23) |
+| Number of Registrations | 23 (valid: 23) |
 
 ## Known uses recorded for this drug
 
@@ -78,26 +78,28 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Bicar
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN13822P | BIBAG (5008 DESIGN) POWDER FOR HAEMODIALYSIS | POWDER, FOR SOLUTION | Valid |
+| SIN05414P | SODIUM BICARBONATE CAPSULE 500 mg | CAPSULE | Valid |
+| SIN05953P | SODIUM BICARBONATE INJECTION BP 8.4% | INJECTION | Valid |
+| SIN06382P | BICART POWDER FOR HAEMODIALYSIS | POWDER, FOR SOLUTION | Valid |
 | SIN09226P | SODIUM BICARBONATE INTRAVENOUS INFUSION 8.4% w/v | INJECTION | Valid |
 | SIN09851P | SODIUM BICARBONATE INTRAVENOUS INFUSION BP 4.2% w/v | INJECTION | Valid |
-| SIN06382P | BICART POWDER FOR HAEMODIALYSIS | POWDER, FOR SOLUTION | Valid |
 | SIN10583P | BIBAG POWDER FOR HAEMODIALYSIS | POWDER, FOR SOLUTION | Valid |
-| SIN05953P | SODIUM BICARBONATE INJECTION BP 8.4% | INJECTION | Valid |
-| SIN05414P | SODIUM BICARBONATE CAPSULE 500 mg | CAPSULE | Valid |
-| SIN08784P | AROMAG ANTACID MIXTURE | SUSPENSION | Valid |
-| SIN05820P | OHTA'S ISAN ANTACID POWDER | POWDER | Valid |
-| SIN14016P | GAVISCON DOUBLE ACTION LIQUID, SUSPENSION | SUSPENSION | Valid |
-| SIN13947P | GAVISCON PEPPERMINT TABLETS | TABLET, CHEWABLE | Valid |
-| SIN06442P | E-Z-GAS II GRANULES | GRANULE | Valid |
-| SIN09494P | GAVISCON LIQUID | SUSPENSION | Valid |
-| SIN16041P | GASCOVID LIQUID | SUSPENSION | Valid |
-| SIN14194P | GAVISCON DOUBLE ACTION TABLETS | TABLET, CHEWABLE | Valid |
-| SIN13738P | GAVISCON LIQUID SACHETS | SUSPENSION | Valid |
-| SIN08786P | MAGTASIL ANTACID MIXTURE | SUSPENSION | Valid |
+| SIN13822P | BIBAG (5008 DESIGN) POWDER FOR HAEMODIALYSIS | POWDER, FOR SOLUTION | Valid |
 | SIN03440P | INON GRANULES | GRANULE | Valid |
+| SIN05820P | OHTA'S ISAN ANTACID POWDER | POWDER | Valid |
+| SIN06442P | E-Z-GAS II GRANULES | GRANULE | Valid |
+| SIN08784P | AROMAG ANTACID MIXTURE | SUSPENSION | Valid |
+| SIN08786P | MAGTASIL ANTACID MIXTURE | SUSPENSION | Valid |
 | SIN08787P | KAOMIX ORAL MIXTURE | SUSPENSION | Valid |
-| SIN14374P | Ural Effervescent Granules | GRANULE, EFFERVESCENT | Valid |
+| SIN09494P | GAVISCON LIQUID | SUSPENSION | Valid |
+| SIN12435P | PHYSIONEAL 40 DEXTROSE SOLUTION 1.5% w/v/15.0 mg/ml | SOLUTION, STERILE | Valid |
+| SIN12436P | PHYSIONEAL 40 DEXTROSE SOLUTION 2.5% w/v/25.0 mg/ml | SOLUTION, STERILE | Valid |
+| SIN12437P | PHYSIONEAL 40 DEXTROSE SOLUTION 4.25% w/v/ 42.5 mg/ml | SOLUTION, STERILE | Valid |
+| SIN13738P | GAVISCON LIQUID SACHETS | SUSPENSION | Valid |
+| SIN13947P | GAVISCON PEPPERMINT TABLETS | TABLET, CHEWABLE | Valid |
+| SIN14016P | GAVISCON DOUBLE ACTION LIQUID, SUSPENSION | SUSPENSION | Valid |
+
+Showing 20 of 23 HSA registrations.
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

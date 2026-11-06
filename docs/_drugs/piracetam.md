@@ -5,7 +5,7 @@ layout: default
 title: Piracetam
 parent: Known Uses Only (No New Predictions)
 nav_order: 798
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Piracetam: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Piracetam"
 predicted_indications: []
@@ -43,20 +43,19 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16054P | CETAM INJECTION 200MG/ML | Injection | Not stated in the records |
-| SIN08477P | NEUROCETAM CAPSULE 400 mg | Capsule | Not stated in the records |
-| SIN10738P | RACETAM CAPSULE 400 mg (Orange/white) | Capsule | Not stated in the records |
-| SIN10602P | CETAM CAPSULE 400 mg | Capsule | Not stated in the records |
-| SIN06408P | CEBROTONIN TABLET 800 mg | Film-coated tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08477P | NEUROCETAM CAPSULE 400 mg | CAPSULE | Valid |
+| SIN10602P | CETAM CAPSULE 400 mg | CAPSULE | Valid |
+| SIN10738P | RACETAM CAPSULE 400 mg (Orange/white) | CAPSULE | Valid |
+| SIN16054P | CETAM INJECTION 200MG/ML | INJECTION | Valid |
 
-All five licences are valid single-ingredient products. Available routes are oral (capsule, film-coated tablet) and injectable.
+Available routes are oral (capsule, film-coated tablet) and injectable.
 
 ## Safety Considerations
 

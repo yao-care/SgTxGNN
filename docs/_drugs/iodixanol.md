@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Iodixanol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Iodixanol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the Singapore licence records"
 ---
 
@@ -50,8 +50,8 @@ This prediction is a computational signal only and is not supported by therapeut
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9907 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Number of Approvals | 2 (both single-ingredient licences) |
 | Recommended Decision | Hold |
 
@@ -81,10 +81,12 @@ None of the publications below studies iodixanol as a treatment for osteoarthrit
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08883P | VISIPAQUE INJECTION 320 mgI/ml | Injection | Not stated in the licence record |
-| SIN08882P | VISIPAQUE INJECTION 270 mgI/ml | Injection | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08882P | VISIPAQUE INJECTION 270 mgI/ml | INJECTION | Valid |
+| SIN08883P | VISIPAQUE INJECTION 320 mgI/ml | INJECTION | Valid |
+| SIN17550P | HENGRUI IODIXANOL SOLUTION FOR INJECTION 270 MG I/ML | INJECTION, SOLUTION | Valid |
+| SIN17551P | HENGRUI IODIXANOL SOLUTION FOR INJECTION 320 MG I/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

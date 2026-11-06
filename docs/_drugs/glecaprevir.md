@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Glecaprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,9 +89,9 @@ None of the trials below tests HIV treatment. They enrolled populations with HIV
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15603P | MAVIRET FILM-COATED TABLET 100MG/40MG | Film-coated tablet (oral) | Indication text not recorded in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15603P | MAVIRET FILM-COATED TABLET 100MG/40MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

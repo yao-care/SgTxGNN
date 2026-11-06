@@ -5,7 +5,7 @@ layout: default
 title: Tetanus Immune Globulin
 parent: Known Uses Only (No New Predictions)
 nav_order: 975
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tetanus Immune Globulin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Tetanus Immune Globulin"
 predicted_indications: []
@@ -43,14 +43,12 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09656P | HyperTET S/D Injection 250 units (Grifols Therapeutics LLC) | Injection | Not listed in the licence record |
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Safety Considerations
 

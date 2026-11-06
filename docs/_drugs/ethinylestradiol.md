@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The most evidence-backed candidate in the list is **amenorrhea** (11 publication
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,15 +87,15 @@ The top-ranked prediction (elevated plasma zinc) has no related literature. The 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14870P | BELARA film-coated tablet 0.03mg/2mg | Film-coated tablet | Not stated in the registry data |
-| SIN04784P | DIANE-35 TABLET | Sugar-coated tablet | Not stated in the registry data |
-| SIN12334P | YASMIN TABLET | Film-coated tablet | Not stated in the registry data |
-| SIN04834P | MICROGYNON 30 TABLET | Sugar-coated tablet | Not stated in the registry data |
-| SIN06136P | MERCILON TABLET | Tablet | Not stated in the registry data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04784P | DIANE-35 TABLET | TABLET, SUGAR COATED | Valid |
+| SIN04834P | MICROGYNON 30 TABLET | TABLET, SUGAR COATED | Valid |
+| SIN06136P | MERCILON TABLET | TABLET | Valid |
+| SIN12334P | YASMIN TABLET | TABLET, FILM COATED | Valid |
+| SIN12423P | EVRA TRANSDERMAL PATCH (6 mg/600 mcg) | PATCH | Valid |
 
-Two further registrations exist (SIN12423P, EVRA transdermal patch; SIN14894P, LIZA film-coated tablets), giving 7 valid single-ingredient licences in total.
+Showing 5 of 9 HSA registrations.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Abiraterone Acetate is a drug identified for drug repurposing evaluation, but the current Evidence Pack contains no predicted indications, no regulatory registration data, and no safety information. Without predicted indication targets or supporting evidence, a substantive repurposing evaluation cannot be conducted at this stage.
+Abiraterone Acetate is a drug identified for drug repurposing evaluation, but the current Evidence Pack contains no predicted indications, no safety information. Without predicted indication targets or supporting evidence, a substantive repurposing evaluation cannot be conducted at this stage.
 
 ---
 
@@ -50,8 +50,8 @@ Abiraterone Acetate is a drug identified for drug repurposing evaluation, but th
 | Predicted New Indication | None — TxGNN prediction results not included |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 (Model prediction only — no actual studies retrievable) |
-| Singapore Market Status | Marketed (valid licences: 16 of 16) |
-| Number of Registrations | 16 (valid: 16) |
+| Singapore Market Status | Marketed (valid licences: 17 of 17) |
+| Number of Registrations | 17 (valid: 17) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -80,8 +80,6 @@ Currently no related literature available (no predicted indications available to
 
 ## Singapore Market Information
 
-Abiraterone Acetate has **0 registered products** in Singapore. No license records are available in this Evidence Pack.
-
 ---
 
 ## Safety Considerations
@@ -100,14 +98,13 @@ No safety data is available in this Evidence Pack:
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack for Abiraterone Acetate is incomplete at multiple critical levels — no predicted indications, no MOA, no regulatory data, and no safety information — making it impossible to conduct a meaningful repurposing evaluation at this time.
+The Evidence Pack for Abiraterone Acetate is incomplete at multiple critical levels — no predicted indications, no MOA, and no safety information — making it impossible to conduct a meaningful repurposing evaluation at this time.
 
 **To proceed, the following is needed:**
 
 1. **Resolve DG001 (Blocking):** Retrieve prescribing information / package insert warnings and contraindications from the regulatory authority website to enable safety pre-screening
 2. **Resolve DG002 (High):** Query DrugBank API to populate MOA, pharmacological categories, and drug targets — the DrugBank query already returned 1 result and should be parsed
 3. **Re-run TxGNN pipeline:** Ensure the prediction pipeline completes and populates `predicted_indications` before re-evaluation
-4. **Verify Singapore registration search:** Confirm whether Abiraterone Acetate is marketed under any brand name (e.g., Zytiga) in Singapore and update `taiwan_regulatory`
 5. **Re-run DDI query:** Current DDI result is `not_found`; verify whether drug name normalisation or alternate spellings (e.g., "abiraterone") are needed
 ## Disclaimer
 

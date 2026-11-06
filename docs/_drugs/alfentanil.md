@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Alfentanil"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alfentanil: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -60,10 +60,10 @@ The mechanistic link to the predicted disease is weak. Opioids can influence vas
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17055P | ALFENTANIL KALCEKS SOLUTION FOR INJECTION/ INFUSION 0.5MG/ML | Injection, solution | Not recorded |
-| SIN04326P | RAPIFEN INJECTION 0.5 mg/ml | Injection | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04326P | RAPIFEN INJECTION 0.5 mg/ml | INJECTION | Valid |
+| SIN17055P | ALFENTANIL KALCEKS SOLUTION FOR INJECTION/ INFUSION 0.5MG/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

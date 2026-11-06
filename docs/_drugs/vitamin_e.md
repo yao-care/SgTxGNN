@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1074
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L4). Approved use: Cholestasis, benign recurrent intrahepatic cholestasis…"
 monitor_inn: "Vitamin E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
@@ -76,11 +76,11 @@ For the closely related "bilirubin metabolism disease" prediction, the most rele
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05207P | VITALIPID N INFANT INJECTION | Injection | Not listed in the data compiled for this report |
-| SIN08875P | NEUROGEN-E TABLET | Tablet, film coated | Not listed in the data compiled for this report |
-| SIN05208P | VITALIPID N ADULT INJECTION | Injection | Not listed in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05207P | VITALIPID N INFANT INJECTION | INJECTION | Valid |
+| SIN05208P | VITALIPID N ADULT INJECTION | INJECTION | Valid |
+| SIN08875P | NEUROGEN-E TABLET | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

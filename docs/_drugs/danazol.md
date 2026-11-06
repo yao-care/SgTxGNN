@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Danazol: predicted new indication Amenorrhea (disease) (evidence level L3). Approved use: Endometriosis"
 monitor_inn: "Danazol"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
@@ -85,9 +85,9 @@ The data compiled for this report contain no RCT for this indication. The table 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03932P | NAZOL CAPSULE 200 mg (Duopharma (M) Sdn Bhd) | Capsule (oral) | Not stated in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03932P | NAZOL CAPSULE 200 mg | CAPSULE | Valid |
 
 ## Safety Considerations
 

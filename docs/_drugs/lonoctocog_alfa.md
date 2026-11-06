@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 611
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Lonoctocog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
 description: "Lonoctocog Alfa: predicted new indication Pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,13 +74,13 @@ Currently no related literature available.
 
 All five licences are valid single-ingredient products from CSL Behring GmbH (brand AFSTYLA), supplied as lyophilised powder and solvent for injection. No approved indication text is recorded for them in the data compiled for this report.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15821P | AFSTYLA Powder and Solvent for Solution for Injection 250IU/vial | Injection, powder, lyophilised, for solution | Not stated |
-| SIN15822P | AFSTYLA Powder and Solvent for Solution for Injection 500IU/vial | Injection, powder, lyophilised, for solution | Not stated |
-| SIN15823P | AFSTYLA Powder and Solvent for Solution for Injection 1000IU/vial | Injection, powder, lyophilised, for solution | Not stated |
-| SIN15824P | AFSTYLA Powder and Solvent for Solution for Injection 2000IU/vial | Injection, powder, lyophilised, for solution | Not stated |
-| SIN15820P | AFSTYLA Powder and Solvent for Solution for Injection 3000IU/vial | Injection, powder, lyophilised, for solution | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15820P | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 3000IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15821P | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15822P | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15823P | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15824P | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 2000IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

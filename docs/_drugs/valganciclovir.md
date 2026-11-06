@@ -3,7 +3,7 @@ layout: default
 title: Valganciclovir
 parent: Known Uses Only (No New Predictions)
 nav_order: 1050
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Valganciclovir: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -72,8 +72,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15779P | VALGAN 450 VALGANCICLOVIR FILM-COATED TABLET 450 MG | TABLET, FILM COATED | Valid |
 | SIN12393P | VALCYTE TABLET 450 mg | TABLET, FILM COATED | Valid |
+| SIN15779P | VALGAN 450 VALGANCICLOVIR FILM-COATED TABLET 450 MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

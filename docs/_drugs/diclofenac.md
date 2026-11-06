@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 description: "Diclofenac: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,8 +54,8 @@ The highest-ranked prediction by the TxGNN model, **hypotrichosis simplex of the
 | TxGNN Prediction Score (rank 1) | 0.9969 |
 | Evidence Level (rank 1) | L5 |
 | Best-Supported Candidate | hypotrichosis simplex of the scalp |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 52 of 52) |
+| Number of Registrations | 52 (valid: 52) |
 | Recommended Decision | Rank 1: Hold. Juvenile idiopathic arthritis: Proceed with Guardrails |
 
 ---
@@ -100,15 +100,17 @@ Other retrieved papers (case series on JIA with alveolar haemorrhage, nabumetone
 
 ## Singapore Market Information
 
-Diclofenac holds 20 valid single-ingredient licences. Approved indication text is not recorded in the available data. The first five are shown below:
+Approved indication text is not recorded in the available data. The first five are shown below:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10523P | ULTRAFEN 12.5 SUPPOSITORY 12.5 mg | Suppository | Not stated |
-| SIN09088P | APO-DICLO SR TABLET 75 mg | Film-coated tablet | Not stated |
-| SIN09951P | RHEWLIN GEL 1% w/v | Gel | Not stated |
-| SIN06145P | APO-DICLO TABLET 50 mg | Enteric-coated tablet | Not stated |
-| SIN09672P | CLOFEC TABLET 25 mg | Film-coated tablet | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03962P | VOLTAREN EMULGEL 1% | GEL | Valid |
+| SIN05465P | VOLTAREN SR 100 TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN05466P | VOLTAREN 12.5 SUPPOSITORY 12.5 mg | SUPPOSITORY | Valid |
+| SIN05467P | VOLTAREN 25 SUPPOSITORY 25 mg | SUPPOSITORY | Valid |
+| SIN05468P | VOLTAREN 50 SUPPOSITORY 50 mg | SUPPOSITORY | Valid |
+
+Showing 5 of 52 HSA registrations.
 
 Available routes and forms across all licences include oral tablets, topical gel, suppositories, injections and patches.
 

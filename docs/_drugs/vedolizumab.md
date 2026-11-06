@@ -3,7 +3,7 @@ layout: default
 title: Vedolizumab
 parent: Known Uses Only (No New Predictions)
 nav_order: 1057
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Vedolizumab: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -74,8 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Vedolizumab,
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16673P | ENTYVIO SOLUTION FOR INJECTION IN PRE-FILLED PEN 108MG/0.68M | INJECTION, SOLUTION | Valid |
-| SIN14950P | ENTYVIO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 300 | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14950P | ENTYVIO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN16673P | ENTYVIO SOLUTION FOR INJECTION IN PRE-FILLED PEN 108MG/0.68ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

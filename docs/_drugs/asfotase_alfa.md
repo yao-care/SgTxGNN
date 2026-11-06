@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Asfotase alfa"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Asfotase Alfa: predicted new indication mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,10 +70,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17126P | STRENSIQ SOLUTION FOR INJECTION 100 MG/ML | Injection, solution | Not recorded in the local data |
-| SIN17127P | STRENSIQ SOLUTION FOR INJECTION 40 MG/ML | Injection, solution | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17126P | STRENSIQ SOLUTION FOR INJECTION 100 MG/ML | INJECTION, SOLUTION | Valid |
+| SIN17127P | STRENSIQ SOLUTION FOR INJECTION 40 MG/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

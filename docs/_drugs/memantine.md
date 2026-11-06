@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 647
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not stated in the HSA licence data (generally used for Alzheimer's de…"
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -83,13 +83,15 @@ Currently no related clinical trials registered.
 
 All 8 registrations are valid single-ingredient oral film-coated tablets (10 mg). The licence records contain no approved indication text. The five listed below are a selection.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12315P | Ebixa Tablet 10 mg | Tablet, film coated | Not stated in the licence record |
-| SIN15609P | Admenta 10 Film Coated Tablet 10 mg | Tablet, film coated | Not stated in the licence record |
-| SIN15599P | Avanten Film-Coated Tablets 10 mg | Tablet, film coated | Not stated in the licence record |
-| SIN15120P | Marixino Film-Coated Tablets 10 mg | Tablet, film coated | Not stated in the licence record |
-| SIN14801P | Nemdatine Film Coated Tablet 10 mg | Tablet, film coated | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12315P | EBIXA TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN14801P | NEMDATINE FILM COATED TABLET 10MG | TABLET, FILM COATED | Valid |
+| SIN15120P | MARIXINO FILM-COATED TABLETS 10 MG | TABLET, FILM COATED | Valid |
+| SIN15300P | MEMANTINE MEVON FILM-COATED TABLETS 10 MG | TABLET, FILM COATED | Valid |
+| SIN15489P | MEMANTINHYDROCHLORID STADA FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 8 HSA registrations.
 
 ---
 

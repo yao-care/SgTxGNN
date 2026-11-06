@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease (and related parkinsonian syndromes)"
 monitor_inn: "Entacapone"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -88,13 +88,15 @@ For the Lewy body dementia prediction, only preclinical work was found:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16544P | Encapia Film Coated Tablets 200mg | Film-coated tablet | Not specified |
-| SIN11234P | Comtan Tablet 200 mg | Film-coated tablet | Not specified |
-| SIN13142P | Stalevo Film Coated Tablets 100/25/200 mg | Film-coated tablet | Not specified |
-| SIN16957P | Antipar Film Coated Tablet 150 mg/37.5 mg/200 mg | Film-coated tablet | Not specified |
-| SIN13141P | Stalevo Film Coated Tablets 150/37.5/200 mg | Film-coated tablet | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11234P | COMTAN TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN16544P | ENCAPIA FILM COATED TABLETS 200MG | TABLET, FILM COATED | Valid |
+| SIN13141P | Stalevo Film Coated Tablets 150/37.5/200 mg | TABLET, FILM COATED | Valid |
+| SIN13142P | Stalevo Film Coated Tablets 100/25/200 mg | TABLET, FILM COATED | Valid |
+| SIN13143P | Stalevo Film Coated Tablets 50/12.5/200 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 8 HSA registrations.
 
 Three more valid registrations exist (Stalevo 50/12.5/200 mg, Stalevo 200/50/200 mg, Antipar 100/25/200 mg). All 8 are oral film-coated tablets.
 

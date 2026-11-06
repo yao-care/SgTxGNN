@@ -5,7 +5,7 @@ layout: default
 title: Choriogonadotropin Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 246
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Choriogonadotropin Alfa: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Choriogonadotropin alfa"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13015P | Ovidrel Solution for Injection 250 mcg (Merck Serono S.p.A.) | Injection, solution | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13015P | Ovidrel Solution for Injection 250 mcg | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

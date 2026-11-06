@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L4). Approved use: Crohn's disease, inflammatory bowel disease, asthma…"
 monitor_inn: "Budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -52,8 +52,8 @@ Of all the predictions, **bronchitis** has the strongest supporting evidence (10
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 15 of 15) |
-| Number of Registrations | 15 (valid: 15) |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -107,15 +107,17 @@ None of these is a human efficacy trial of budesonide in atopic eczema.
 
 ## Singapore Market Information
 
-Budesonide has 15 valid single-ingredient registrations, with no cancelled ones. The licence records contain no approved-indication text. The five main authorisations are:
+The licence records contain no approved-indication text. The five main authorisations are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16972P | NEFEGAN Modified Release Capsule 4 mg | Capsule | Not specified in the records |
-| SIN11588P | BUDENOFALK Capsule 3 mg | Capsule | Not specified in the records |
-| SIN14115P | Budenofalk Rectal Foam 2 mg/dose | Aerosol, foam | Not specified in the records |
-| SIN05043P | PULMICORT Turbuhaler 100 mcg/dose | Metered powder | Not specified in the records |
-| SIN14029P | Budesonide Nasal Spray Suspension 64 mcg | Suspension spray | Not specified in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05042P | PULMICORT TURBUHALER 200 mcg/dose | POWDER, METERED | Valid |
+| SIN07461P | PULMICORT RESPULES NEBULISING SUSPENSION FOR INHALATION 0.5 mg/ml | SOLUTION | Valid |
+| SIN07467P | PULMICORT RESPULES NEBULISING SUSPENSION FOR INHALATION 0.25 mg/ml | SOLUTION | Valid |
+| SIN11588P | BUDENOFALK CAPSULE 3 mg | CAPSULE | Valid |
+| SIN12031P | ESONIDE NASAL SPRAY 100 mcg/dose | SPRAY | Valid |
+
+Showing 5 of 19 HSA registrations.
 
 The other licences cover further inhaled, nasal-spray and combination products (for example Giona Easyhaler, Symbicort Turbuhaler, Duoresp Spiromax, Breztri Aerosphere, Budiair and Esonide). No topical skin formulation is registered, so any atopic eczema use would require a new dermal formulation or an off-label approach.
 

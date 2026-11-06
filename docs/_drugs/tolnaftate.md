@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 1002
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Tolnaftate: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tolnaftat
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 3 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 
 ## Known uses among the model's candidates
 
@@ -74,10 +74,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tolnaftat
 
 ## Singapore Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| SIN04473P | NAFTATE CREAM 1% w/w | CREAM | Valid |
-| SIN04429P | NAFTATE LOTION 1% w/v | LOTION | Valid |
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Cytotoxicity
 

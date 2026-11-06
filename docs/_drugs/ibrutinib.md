@@ -5,7 +5,7 @@ layout: default
 title: Ibrutinib
 parent: Known Uses Only (No New Predictions)
 nav_order: 513
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ibrutinib: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Ibrutinib"
 predicted_indications: []
@@ -43,21 +43,18 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16221P | IMBRUVICA Film-Coated Tablets 560 mg | Tablet, film coated |
-| SIN16218P | IMBRUVICA Film-Coated Tablets 140 mg | Tablet, film coated |
-| SIN16219P | IMBRUVICA Film-Coated Tablets 280 mg | Tablet, film coated |
-| SIN16220P | IMBRUVICA Film-Coated Tablets 420 mg | Tablet, film coated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16218P | IMBRUVICA FILM-COATED TABLETS 140MG | TABLET, FILM COATED | Valid |
 
-All four licences are valid single-ingredient oral products. Approved indication text is not available in the compiled data.
+Approved indication text is not available in the compiled data.
 
 ---
 

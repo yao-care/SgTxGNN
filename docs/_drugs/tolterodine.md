@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 1003
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Tolterodine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,16 +74,16 @@ The TxGNN model produced candidates for Tolterodine, but every candidate that ca
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16598P | TOLCORD 1 FILM COATED TABLET 1 MG | TABLET, FILM COATED | Valid |
-| SIN16433P | TOLTERODINE MEVON SR CAPSULE 2 MG | CAPSULE, EXTENDED RELEASE | Valid |
-| SIN16313P | TOLTERODINE MEVON IR FILM-COATED TABLET 2 MG | TABLET, FILM COATED | Valid |
+| SIN09911P | DETRUSITOL TABLET 1 mg | TABLET, FILM COATED | Valid |
 | SIN09912P | DETRUSITOL TABLET 2 mg | TABLET, FILM COATED | Valid |
-| SIN16597P | TOLCORD 2 FILM COATED TABLET 2 MG | TABLET, FILM COATED | Valid |
 | SIN11857P | DETRUSITOL SR CAPSULE 4 mg | CAPSULE, EXTENDED RELEASE | Valid |
 | SIN11859P | DETRUSITOL SR CAPSULE 2 mg | CAPSULE, EXTENDED RELEASE | Valid |
+| SIN16313P | TOLTERODINE MEVON IR FILM-COATED TABLET 2 MG | TABLET, FILM COATED | Valid |
 | SIN16314P | TOLTERODINE MEVON IR FILM-COATED TABLET 1 MG | TABLET, FILM COATED | Valid |
 | SIN16432P | TOLTERODINE MEVON SR CAPSULE 4 MG | CAPSULE, EXTENDED RELEASE | Valid |
-| SIN09911P | DETRUSITOL TABLET 1 mg | TABLET, FILM COATED | Valid |
+| SIN16433P | TOLTERODINE MEVON SR CAPSULE 2 MG | CAPSULE, EXTENDED RELEASE | Valid |
+| SIN16597P | TOLCORD 2 FILM COATED TABLET 2 MG | TABLET, FILM COATED | Valid |
+| SIN16598P | TOLCORD 1 FILM COATED TABLET 1 MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

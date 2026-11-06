@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 809
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Invasive and superficial fungal infections (e.g., aspergillosis…"
 monitor_inn: "Posaconazole"
 predicted_indications: ["pneumocystosis"]
@@ -52,8 +52,8 @@ The mechanistic review in the data compiled for this report points to a likely m
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,13 +88,15 @@ Pneumocystosis is a fungal-classified lung infection, which probably explains th
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13654P | NOXAFIL ORAL SUSPENSION 40 mg/ml | Suspension | Not specified in the available records |
-| SIN15045P | NOXAFIL TABLET 100MG | Delayed-release tablet | Not specified in the available records |
-| SIN15897P | POSACONAZOLE SANDOZ GASTRO-RESISTANT TABLETS 100MG | Delayed-release tablet | Not specified in the available records |
-| SIN16477P | SINOTRX POSACONAZOLE DELAYED RELEASE TABLET 100MG | Delayed-release tablet | Not specified in the available records |
-| SIN17200P | POSATIF POSACONAZOLE GASTRO-RESISTANT TABLETS 100MG | Delayed-release tablet | Not specified in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13654P | NOXAFIL ORAL SUSPENSION 40 mg/ml | SUSPENSION | Valid |
+| SIN15045P | NOXAFIL TABLET 100MG | TABLET, DELAYED RELEASE | Valid |
+| SIN15897P | POSACONAZOLE SANDOZ GASTRO-RESISTANT TABLETS 100MG | TABLET, DELAYED RELEASE | Valid |
+| SIN16477P | SINOTRX POSACONAZOLE DELAYED RELEASE TABLET 100MG | TABLET, DELAYED RELEASE | Valid |
+| SIN17200P | POSATIF POSACONAZOLE GASTRO-RESISTANT TABLETS 100MG | TABLET, DELAYED RELEASE | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ---
 

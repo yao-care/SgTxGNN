@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Gilteritinib"
 predicted_indications: ["bulbar polio"]
 description: "Gilteritinib: predicted new indication Bulbar polio (evidence level L5). Approved use: Not recorded in the local data"
@@ -70,9 +70,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16088P | XOSPATA® Film-Coated Tablets 40mg (Astellas Pharma Inc.) | Tablet, film coated (oral) | — |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16088P | XOSPATA® FILM-COATED TABLETS 40MG | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

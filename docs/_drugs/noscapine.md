@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 725
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Noscapine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,8 +74,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for N
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN09666P | TONIN COUGH SYRUP S | SYRUP | Valid |
 | SIN04537P | NEW TONIN TROCHE L | LOZENGE | Valid |
+| SIN09666P | TONIN COUGH SYRUP S | SYRUP | Valid |
 
 ## Safety Considerations
 

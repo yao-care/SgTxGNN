@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -54,8 +54,8 @@ Without a TxGNN score or supporting evidence, a formal repurposing evaluation ca
 | Predicted New Indication | None — TxGNN returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction only — not applicable; no prediction generated) |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 101 of 101) |
+| Number of Registrations | 101 (valid: 101) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -72,15 +72,13 @@ To unlock TxGNN predictions, the canonical DrugBank entry for acetaminophen (DB0
 
 ## Singapore Market Information
 
-This drug is currently **not registered** in Singapore under the Health Sciences Authority (HSA). No license records are available.
-
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information. No DDI records, contraindications, or key warnings were retrieved during the current data collection cycle.
 
-> **Note for reviewers:** The TFDA package insert (仿單) was flagged as a blocking data gap (DG001). Until this document is retrieved and parsed, a formal safety profile cannot be constructed.
+> Until this document is retrieved and parsed, a formal safety profile cannot be constructed.
 
 ---
 
@@ -89,12 +87,11 @@ Please refer to the package insert for safety information. No DDI records, contr
 **Decision: Hold**
 
 **Rationale:**
-The absence of TxGNN predictions, a missing DrugBank ID linkage, and zero Singapore regulatory registrations mean there is no actionable repurposing signal to evaluate at this time. The underlying active ingredient (acetaminophen) is well-characterised, but this specific formulation variant has not been processed through the full pipeline.
+The absence of TxGNN predictions, a missing DrugBank ID linkage mean there is no actionable repurposing signal to evaluate at this time. The underlying active ingredient (acetaminophen) is well-characterised, but this specific formulation variant has not been processed through the full pipeline.
 
 **To proceed, the following is needed:**
 
 1. **Resolve DrugBank ID mapping** — Explicitly assign DrugBank ID `DB00316` (acetaminophen) to this candidate and re-run the TxGNN prediction pipeline (`scripts/run_kg_prediction.py`)
-2. **Retrieve TFDA package insert** — Download and parse the TFDA 仿單 PDF to populate key warnings, contraindications, and MOA fields (Data Gap DG001, severity: Blocking)
 3. **Confirm formulation intent** — Clarify whether "micronized" is being evaluated as a standalone entity or as a formulation variant of standard acetaminophen; this determines whether a separate evidence collection run is warranted
 4. **Re-run evidence collection** — After DrugBank ID is resolved, re-run ClinicalTrials.gov and PubMed collectors to populate the evidence pack
 5. **HSA registration check** — Verify whether any acetaminophen micronized products are under pending HSA registration or are covered under existing acetaminophen monograph approvals in Singapore

@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 56
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Alectinib hydrochloride is a second-generation ALK (Anaplastic Lymphoma Kinase) tyrosine kinase inhibitor, internationally approved for ALK-positive non-small cell lung cancer (NSCLC).
-The current Evidence Pack contains **no TxGNN-predicted repurposing indications**, **zero Singapore regulatory registrations**, and **critical data gaps in MOA and safety**, making a standard repurposing evaluation impossible at this stage.
+The current Evidence Pack contains **no TxGNN-predicted repurposing indications**, **critical data gaps in MOA and safety**, making a standard repurposing evaluation impossible at this stage.
 This report documents the gap findings and outlines the remediation steps required before a full evaluation can proceed.
 
 ---
@@ -48,7 +48,7 @@ This report documents the gap findings and outlines the remediation steps requir
 
 | Item | Content |
 |------|---------|
-| Original Indication | ALK-positive NSCLC (identified from INN; not present in regulatory data) |
+| Original Indication | ALK-positive NSCLC (identified from INN) |
 | Predicted New Indication | Not available — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
@@ -82,9 +82,7 @@ Currently no related literature is available in this Evidence Pack.
 
 ## Singapore Market Information
 
-Alectinib is not currently registered with Singapore's HSA. No license records are available in the regulatory database extract.
-
-> **Note:** Alectinib (Alecensa®) has regulatory approval in the US (FDA, 2015/2017), EU (EMA), and Japan (PMDA). HSA Singapore approval status should be independently verified via the HSA PRISM portal before concluding "not registered."
+> **Note:** Alectinib (Alecensa®) has regulatory approval in the US (FDA, 2015/2017), EU (EMA), and Japan (PMDA).
 
 ---
 
@@ -115,14 +113,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack is structurally incomplete — no TxGNN predictions, no Singapore regulatory records, and two blocking data gaps (DG001, DG002) prevent any component of the standard evaluation from being completed. Proceeding to a repurposing decision without these inputs would be speculative.
+The Evidence Pack is structurally incomplete — no TxGNN predictions, two blocking data gaps (DG001, DG002) prevent any component of the standard evaluation from being completed. Proceeding to a repurposing decision without these inputs would be speculative.
 
 **To proceed, the following is needed:**
 
 - **Resolve DrugBank mapping** — re-run the pipeline with the clean INN `"alectinib"` (without dose quantity) to obtain a valid `drugbank_id` and trigger TxGNN prediction output
 - **Retrieve package insert** (DG001 — Blocking) — download and parse the approved SmPC/PI from FDA.gov, EMA, or PMDA to populate warnings and contraindications
 - **Populate MOA data** (DG002 — High) — query DrugBank API with the resolved ID to obtain mechanism of action, targets, and pharmacodynamic class
-- **Verify Singapore HSA registration** — cross-check HSA PRISM portal directly; the pipeline returned zero records but international approval is documented
 - **Re-run TxGNN pipeline** with corrected input string and confirm `predicted_indications` is populated before re-initiating this evaluation
 ## Disclaimer
 

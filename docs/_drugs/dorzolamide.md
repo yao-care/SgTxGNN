@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Dorzolamide is a topical carbonic anhydrase inhibitor originally used to lower e
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,15 +80,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN08880P | TRUSOPT OPHTHALMIC SOLUTION 2% | Solution | Santen Pharmaceutical Co., Ltd. Noto Plant |
-| SIN14985P | ZOLICHEK EYE DROPS SOLUTION 2% | Solution, sterile | Indoco Remedies Limited |
-| SIN14556P | DORZOLAMIDE AND TIMOLOL STADA EYE DROPS 20MG/5MG | Solution, sterile | Famar S.A. |
-| SIN15435P | COSOPT-S OPHTHALMIC SOLUTION | Solution, sterile | Santen Pharmaceutical Co., Ltd. Noto Plant |
-| SIN14984P | ZOLICHEK-T EYE DROPS SOLUTION | Solution, sterile | Indoco Remedies Limited |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08880P | TRUSOPT OPHTHALMIC SOLUTION 2% | SOLUTION | Valid |
+| SIN14985P | ZOLICHEK EYE DROPS SOLUTION 2% | SOLUTION, STERILE | Valid |
+| SIN11643P | COSOPT OPHTHALMIC SOLUTION | SOLUTION | Valid |
+| SIN14556P | DORZOLAMIDE AND TIMOLOL STADA EYE DROPS 20MG/5MG | SOLUTION, STERILE | Valid |
+| SIN14984P | ZOLICHEK-T EYE DROPS SOLUTION | SOLUTION, STERILE | Valid |
 
-All five registrations are currently valid. Approved indication text was not available for these products.
+Showing 5 of 6 HSA registrations.
+
+Approved indication text was not available for these products.
 
 ---
 

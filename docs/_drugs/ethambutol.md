@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ethambutol: predicted new indication Epiglottitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
@@ -49,11 +49,9 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
-
-*Note: The registered Singapore product labels in the data compiled for this report have no approved-indication text. The original indication is therefore given as pulmonary tuberculosis.*
 
 ## Why is This Prediction Reasonable?
 
@@ -75,12 +73,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03004P | EBUTOL-100 TABLET 100 mg | Film-coated tablet | Not stated in available data |
-| SIN03005P | EBUTOL-400 TABLET 400 mg | Film-coated tablet | Not stated in available data |
-
-Both products are single-ingredient, currently valid, oral tablets made by Sunward Pharmaceutical Private Limited.
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Safety Considerations
 

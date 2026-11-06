@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 740
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Animal data also raise a safety signal, so this is best treated as a research qu
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 20 of 20) |
+| Number of Registrations | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
 ---
@@ -97,13 +97,15 @@ No randomised controlled trials were found for this indication.
 
 Omeprazole has 20 valid single-ingredient registrations in Singapore, covering oral capsules and tablets and lyophilised powder for injection. The table shows 5 of them.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN10700P | LOSEC MUPS Tablet 20 mg | Tablet, film coated |
-| SIN14003P | Probitor Gastro-Resistant Capsule 20 mg | Capsule, delayed release |
-| SIN13358P | Omezol Lyo-Injection | Injection, powder, lyophilised, for solution |
-| SIN16330P | OMEPRO Powder for Solution for Injection 40 mg/vial | Injection, powder, lyophilised, for solution |
-| SIN14019P | OMEPRADEX EC Tablet 20 mg | Tablet, enteric coated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09987P | OMICAP CAPSULE 20 mg | CAPSULE | Valid |
+| SIN10186P | PROCEPTIN 20 CAPSULE 20 mg | CAPSULE | Valid |
+| SIN10700P | LOSEC MUPS TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN10746P | ZIMOR 20 CAPSULE 20 mg | CAPSULE | Valid |
+| SIN11202P | PUMPITOR CAPSULES 20 mg | CAPSULE | Valid |
+
+Showing 5 of 20 HSA registrations.
 
 ---
 

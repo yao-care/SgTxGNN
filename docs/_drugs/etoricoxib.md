@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence records. Published pharmacology s…"
 monitor_inn: "Etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -48,8 +48,8 @@ Etoricoxib is a selective COX-2 inhibitor marketed in Singapore as a painkiller 
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 57 of 57) |
+| Number of Registrations | 57 (valid: 57) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,15 +83,17 @@ For context, publications retrieved for related headache predictions (not for mi
 
 ## Singapore Market Information
 
-Twenty valid single-ingredient licences are registered, all oral film-coated tablets. The licence records do not include approved indication text. Five examples:
+The licence records do not include approved indication text. Five examples:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14943P | EXINEF TABLET 60 MG | Film-coated tablet | Not stated in the record |
-| SIN14944P | EXINEF TABLET 90 MG | Film-coated tablet | Not stated in the record |
-| SIN16426P | Arcoxib F.C. Tablet 60 mg | Film-coated tablet | Not stated in the record |
-| SIN16515P | ETOHOPE FILM-COATED TABLET 120 mg | Film-coated tablet | Not stated in the record |
-| SIN16234P | ETOSHINE FILM COATED TABLETS 90MG | Film-coated tablet | Not stated in the record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12103P | ARCOXIA TABLET 120 mg | TABLET, FILM COATED | Valid |
+| SIN12104P | ARCOXIA TABLET 60 mg | TABLET, FILM COATED | Valid |
+| SIN12444P | ARCOXIA TABLET 90 mg | TABLET, FILM COATED | Valid |
+| SIN13669P | ARCOXIA TABLET 30MG | TABLET, FILM COATED | Valid |
+| SIN14943P | EXINEF TABLET 60 MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 57 HSA registrations.
 
 ## Safety Considerations
 

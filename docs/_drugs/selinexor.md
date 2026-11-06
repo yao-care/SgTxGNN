@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 903
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Selinexor"
 predicted_indications: ["drug-induced osteoporosis"]
 description: "Selinexor: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,9 +92,9 @@ None of these publications provides breast cancer-specific or bone-related evide
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16434P | XPOVIO Film-Coated Tablets 20mg | Film-coated tablet (oral) | Not specified in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16434P | XPOVIO FILM-COATED TABLETS 20MG | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

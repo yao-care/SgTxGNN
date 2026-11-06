@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,12 +80,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN11076P | MANACE INJECTION 5 mg/ml | Injection | Duopharma (M) Sdn Bhd |
-| SIN12245P | MYUNG IN HALOPERIDOL TABLET 1.5 mg | Tablet | Myung In Pharm Co Ltd |
-| SIN11225P | MYUNG IN HALOPERIDOL INJECTION 5 mg/ml | Injection | Myung In Pharm Co Ltd |
-| SIN09918P | HALOXEN 5 TABLET 5 mg | Tablet | Remedica Ltd |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09918P | HALOXEN 5 TABLET 5 mg | TABLET | Valid |
+| SIN11076P | MANACE INJECTION 5 mg/ml | INJECTION | Valid |
+| SIN11225P | MYUNG IN HALOPERIDOL INJECTION 5 mg/ml | INJECTION | Valid |
+| SIN12245P | MYUNG IN HALOPERIDOL TABLET 1.5 mg | TABLET | Valid |
 
 All four registrations are valid single-ingredient products, available as oral tablets and injections.
 

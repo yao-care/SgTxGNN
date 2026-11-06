@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 301
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Dapoxetine"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
 description: "Dapoxetine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,10 +85,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13881P | Priligy Tablet 60mg | Film-coated tablet | Not recorded in the licence data |
-| SIN13880P | Priligy Tablet 30mg | Film-coated tablet | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13880P | Priligy Tablet 30mg | TABLET, FILM COATED | Valid |
+| SIN13881P | Priligy Tablet 60mg | TABLET, FILM COATED | Valid |
 
 Both licences are valid single-ingredient products from MENARINI - VON HEYDEN GmbH, oral route.
 

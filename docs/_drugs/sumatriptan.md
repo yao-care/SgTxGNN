@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 944
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sumatriptan: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced candidates for Sumatriptan with a score o
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Known uses among the model's candidates
 
@@ -74,10 +74,9 @@ The TxGNN deep-learning model produced candidates for Sumatriptan with a score o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN06744P | IMIGRAN INJECTION 6 mg/0.5 ml | INJECTION | Valid |
+| SIN08419P | IMIGRAN TABLET 50 mg | TABLET, FILM COATED | Valid |
 | SIN13667P | SUMATRAN TABLET 50MG | TABLET | Valid |
 | SIN17179P | SUMASON TABLETS 50MG | TABLET, FILM COATED | Valid |
-| SIN08419P | IMIGRAN TABLET 50 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

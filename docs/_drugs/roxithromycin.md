@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 886
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Roxithromycin: predicted new indication Leprosy (evidence level L3). Approved use: Not stated in the Singapore licence record (pharmacology sources desc…"
 monitor_inn: "Roxithromycin"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
@@ -78,9 +78,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11413P | UPLORES CAPSULE 150 mg | Capsule | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11413P | UPLORES CAPSULE 150 mg | CAPSULE | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 539
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Interferon Beta-1A: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,8 +74,8 @@ The TxGNN model's candidates for Interferon Beta-1A are all known uses. Every ca
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN13975P | Rebif Solution for Injection in Cartridge 44mcg/0.5ml | INJECTION, SOLUTION | Valid |
 | SIN13974P | Rebif Solution for Injection in Cartridge 22mcg/0.5ml | INJECTION, SOLUTION | Valid |
+| SIN13975P | Rebif Solution for Injection in Cartridge 44mcg/0.5ml | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

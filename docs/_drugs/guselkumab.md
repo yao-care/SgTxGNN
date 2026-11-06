@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Guselkumab"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
 description: "Guselkumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **drug-induced osteoporosis**, which 
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 **Other predictions in context**
@@ -60,7 +60,6 @@ The TxGNN model's top-ranked prediction is **drug-induced osteoporosis**, which 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision |
 |------|------|------|------|
 | Severe nonproliferative diabetic retinopathy, diabetic retinopathy, renal osteodystrophy, congenital hypotrichosis with juvenile macular dystrophy, primary release disorder of platelets, Glanzmann thrombasthenia, non-renal secondary hyperparathyroidism | 0.9955–0.9980 | L5 | Hold |
-
 
 ---
 
@@ -144,12 +143,13 @@ No publications were found for drug-induced osteoporosis. The tables below cover
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15876P | TREMFYA Solution for Injection in Pre-filled Pen 100mg/ml | Injection, solution | Not stated in the licence data |
-| SIN15508P | TREMFYA Solution for Injection in Pre-filled Syringe 100mg/1ml | Injection, solution | Not stated in the licence data |
-
-Both licences are valid single-ingredient products from Cilag AG.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15508P | TREMFYA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 100MG/1ML | INJECTION, SOLUTION | Valid |
+| SIN15876P | TREMFYA SOLUTION FOR INJECTION IN PRE-FILLED PEN 100MG/ML | INJECTION, SOLUTION | Valid |
+| SIN17285P | TREMFYA CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/20ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN17286P | TREMFYA PUSHPEN SOLUTION FOR INJECTION IN PRE-FILLED PEN 200MG/2ML | INJECTION, SOLUTION | Valid |
+| SIN17287P | TREMFYA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 200MG/2ML | INJECTION, SOLUTION | Valid |
 
 ---
 

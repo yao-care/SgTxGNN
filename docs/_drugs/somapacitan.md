@@ -5,7 +5,7 @@ layout: default
 title: Somapacitan
 parent: Known Uses Only (No New Predictions)
 nav_order: 927
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Somapacitan: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Somapacitan"
 predicted_indications: []
@@ -48,11 +48,11 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17216P | SOGROYA Solution for Injection in Pre-filled Pen 5mg/1.5ml | Injection, solution | Not listed in the compiled data |
-| SIN17217P | SOGROYA Solution for Injection in Pre-filled Pen 10mg/1.5ml | Injection, solution | Not listed in the compiled data |
-| SIN17218P | SOGROYA Solution for Injection in Pre-filled Pen 15mg/1.5ml | Injection, solution | Not listed in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17216P | SOGROYA SOLUTION FOR INJECTION IN PRE-FILLED PEN 5MG/1.5ML | INJECTION, SOLUTION | Valid |
+| SIN17217P | SOGROYA SOLUTION FOR INJECTION IN PRE-FILLED PEN 10MG/1.5ML | INJECTION, SOLUTION | Valid |
+| SIN17218P | SOGROYA SOLUTION FOR INJECTION IN PRE-FILLED PEN 15MG/1.5ML | INJECTION, SOLUTION | Valid |
 
 All three registrations are valid single-ingredient products from Novo Nordisk A/S.
 

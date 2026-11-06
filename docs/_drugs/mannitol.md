@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Mannitol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mannitol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Relations recorded in the knowledge graph: congestive heart failure…"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,10 +73,11 @@ No cited study directly examines mannitol in NSIAD, so the evidence level is L5.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10315P | Mannitol Intravenous Injection 20% | Injection | Not stated in the licence record |
-| SIN05957P | Osmofundin Injection 20% | Injection | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10315P | MANNITOL INTRAVENOUS INJECTION 20% | INJECTION | Valid |
+| SIN05957P | OSMOFUNDIN INJECTION 20% | INJECTION | Valid |
+| SIN17327P | Custodiol Solution | SOLUTION | Valid |
 
 ## Safety Considerations
 

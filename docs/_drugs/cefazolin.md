@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cefazolin: predicted new indication infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Cefazolin is an injectable first-generation cephalosporin antibiotic. The TxGNN 
 | Predicted New Indication | infectious otitis media |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,13 +71,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14846P | CEFAZOLIN MEVON POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G/VIAL | Injection, powder, for solution | Not recorded |
-| SIN12471P | CEZOLIN INJECTION 1 gm/vial | Injection, powder, for solution | Not recorded |
-| SIN07879P | CEFAZOLIN SANDOZ 1 g/vial | Injection, powder, for solution | Not recorded |
-| SIN14304P | Zepilen Powder for Injection 1g/vial | Injection, powder, for solution | Not recorded |
-| SIN15018P | CEFAZOLIN-AFT POWDER FOR INJECTION 500MG/VIAL | Injection, powder, lyophilized, for solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07879P | CEFAZOLIN SANDOZ 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN12471P | CEZOLIN INJECTION 1 gm/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14304P | Zepilen Powder for Injection 1g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14480P | CEFAZOLIN-AFT POWDER FOR INJECTION 1G/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN14846P | CEFAZOLIN MEVON POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ## Safety Considerations
 

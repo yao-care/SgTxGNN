@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 801
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Piroxicam"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,15 +82,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Seven valid single-ingredient licences are held, with no cancelled ones. Available forms are oral (tablet, capsule), injectable and topical (gel). The five main licences are listed below. The licence records contain no approved-indication text.
+Available forms are oral (tablet, capsule), injectable and topical (gel). The five main licences are listed below. The licence records contain no approved-indication text.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN07791P | BREXIN TABLET 20 mg | Tablet | Chiesi Farmaceutici SpA |
-| SIN06575P | ROSIDEN INJECTION 20 mg/ml | Injection | Shin Poong Pharmaceutical Co Ltd |
-| SIN06131P | ROSIDEN CAPSULE 20 mg | Capsule | Shin Poong Pharmaceutical Co Ltd |
-| SIN05491P | APO-PIROXICAM CAPSULE 10 mg | Capsule | Apotex Inc |
-| SIN05893P | APO-PIROXICAM CAPSULE 20 mg | Capsule | Apotex Inc |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05100P | ROSIDEN GEL | GEL | Valid |
+| SIN05491P | APO-PIROXICAM CAPSULE 10 mg | CAPSULE | Valid |
+| SIN05893P | APO-PIROXICAM CAPSULE 20 mg | CAPSULE | Valid |
+| SIN06575P | ROSIDEN INJECTION 20 mg/ml | INJECTION | Valid |
+| SIN10968P | ROXIFEN GEL 500 mg/100 g | GEL | Valid |
 
 The remaining two licences are ROXIFEN GEL 500 mg/100 g (SIN10968P) and ROSIDEN GEL (SIN05100P).
 

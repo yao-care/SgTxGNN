@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 785
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
 description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,11 +94,11 @@ The dry eye syndrome (20 papers) and diabetic retinopathy (4 papers) results wer
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02735P | HAEMOROL™, Oily Phenol Injection 250MG/5ML (PHEBRA PTY LTD) | Injection | Not stated in the data compiled |
-| SIN03372P | Castellani's Paint (Stainless) (ICM PHARMA PTE. LTD.) | Liquid | Not stated in the data compiled |
-| SIN05339P | Egopsoryl TA Gel (EGO PHARMACEUTICALS PTY LTD) | Ointment | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02735P | HAEMOROL™, OILY PHENOL INJECTION 250MG/5ML | INJECTION | Valid |
+| SIN03372P | CASTELLANI'S PAINT (STAINLESS) | LIQUID | Valid |
+| SIN05339P | EGOPSORYL TA GEL | OINTMENT | Valid |
 
 All three licences are valid single-ingredient products. None has been cancelled.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
 description: "Fenoterol: predicted new indication Multiple system atrophy (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction rests on the model score alone (evidence level L5), and the pharm
 | Predicted New Indication | Multiple system atrophy |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,11 +90,9 @@ No literature is available for multiple system atrophy. All of it is animal or t
 
 The licence records do not list approved indication text. The products are inhaled or nebulised forms.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07913P | DUOVENT UDVS NEBULISER SOLUTION | Solution | Not stated |
-| SIN11739P | BERODUAL N METERED DOSE INHALER | Aerosol, spray | Not stated |
-| SIN02664P | BERODUAL SOLUTION | Solution | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02664P | BERODUAL SOLUTION | SOLUTION | Valid |
 
 ## Safety Considerations
 

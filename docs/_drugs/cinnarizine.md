@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 253
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cinnarizine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,9 +75,9 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN10935P | AXCEL CINNARIZINE TABLETS 25 mg | TABLET | Valid |
 | SIN02924P | Cinnaron Tablets 25mg | TABLET | Valid |
 | SIN08482P | CINNA TABLET 25 mg | TABLET | Valid |
+| SIN10935P | AXCEL CINNARIZINE TABLETS 25 mg | TABLET | Valid |
 
 ## Safety Considerations
 

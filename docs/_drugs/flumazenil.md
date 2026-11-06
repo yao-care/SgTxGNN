@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 437
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Flumazenil: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,12 +74,12 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Flumazenil, 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15210P | FLUMAZENIL-BAXTER SOLUTION FOR INJECTION 1 MG/10 ML | INJECTION, SOLUTION | Valid |
 | SIN01509P | ANEXATE INJECTION 0.5 mg/5 ml | INJECTION | Valid |
-| SIN17223P | GP-FLUMAZENIL SOLUTION FOR I.V. INJECTION 0.5 MG/5 ML | INJECTION, SOLUTION | Valid |
-| SIN15750P | FLUMAZENIL-HAMELN INJECTION 0.1MG/ML | SOLUTION, STERILE | Valid |
-| SIN15610P | FLUMAZENIL KABI SOLUTION FOR INJECTION OR INFUSION 0.1MG/ML | INJECTION, SOLUTION | Valid |
 | SIN15209P | FLUMAZENIL-BAXTER SOLUTION FOR INJECTION 0.5 MG/5 ML | INJECTION, SOLUTION | Valid |
+| SIN15210P | FLUMAZENIL-BAXTER SOLUTION FOR INJECTION 1 MG/10 ML | INJECTION, SOLUTION | Valid |
+| SIN15610P | FLUMAZENIL KABI SOLUTION FOR INJECTION OR INFUSION 0.1MG/ML | INJECTION, SOLUTION | Valid |
+| SIN15750P | FLUMAZENIL-HAMELN INJECTION 0.1MG/ML | SOLUTION, STERILE | Valid |
+| SIN17223P | GP-FLUMAZENIL SOLUTION FOR I.V. INJECTION 0.5 MG/5 ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 863
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Revefenacin: predicted new indication Bronchitis (evidence level L5). Approved use: Chronic obstructive pulmonary disease (COPD)"
 monitor_inn: "Revefenacin"
 predicted_indications: ["bronchitis"]
@@ -83,9 +83,9 @@ Currently no related literature available for bronchitis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16336P | YUPELRI® Inhalation Solution 175mcg/3ml (The Ritedose Corporation) | Solution |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16336P | YUPELRI® INHALATION SOLUTION 175MCG/3ML | SOLUTION | Valid |
 
 The registration is a valid single-ingredient product. No approved indication text is recorded for it in the data compiled for this report.
 

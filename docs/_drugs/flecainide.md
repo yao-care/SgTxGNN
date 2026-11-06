@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). Approved use: Atrial fibrillation"
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -86,10 +86,10 @@ Most publications address atrial fibrillation or PVC management. None demonstrat
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01726P | TAMBOCOR TABLET 100 mg | Tablet | Not available |
-| SIN16823P | JAMP FLECAINIDE ACETATE TABLETS USP 100 MG | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01726P | TAMBOCOR TABLET 100 mg | TABLET | Valid |
+| SIN16823P | JAMP FLECAINIDE ACETATE TABLETS USP 100 MG | TABLET | Valid |
 
 ## Safety Considerations
 

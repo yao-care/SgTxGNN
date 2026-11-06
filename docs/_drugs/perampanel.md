@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 779
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ It is covered in the supplementary section below.
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,12 +82,11 @@ None of the retrieved publications is specific to visual epilepsy. The most rele
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14616P | FYCOMPA Film-Coated Tablet 2 mg | Tablet, film coated | Not stated in the available record |
-| SIN14617P | FYCOMPA Film-Coated Tablet 4 mg | Tablet, film coated | Not stated in the available record |
-| SIN14619P | FYCOMPA Film-Coated Tablet 8 mg | Tablet, film coated | Not stated in the available record |
-| SIN16512P | FYCOMPA Oral Suspension 0.5 mg/ml | Suspension | Not stated in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14616P | FYCOMPA FILM-COATED TABLET 2 MG | TABLET, FILM COATED | Valid |
+| SIN14617P | FYCOMPA FILM-COATED TABLET 4MG | TABLET, FILM COATED | Valid |
+| SIN14619P | FYCOMPA FILM-COATED TABLET 8MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 
@@ -128,7 +127,6 @@ Please refer to the package insert for warnings and contraindications.
 | [29663350](https://pubmed.ncbi.nlm.nih.gov/29663350/) | 2018 | Mechanistic review | Epilepsia | Role of AMPA receptors and antagonists in SE |
 
 ## Conclusion and Next Steps
-
 
 **Rationale:**
 Support rests on the shared AMPA-mediated mechanism and general epilepsy data (L4). Safety and labelling data are also incomplete.

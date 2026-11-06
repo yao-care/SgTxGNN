@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Esketamine"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Esketamine: predicted new indication Agoraphobia (evidence level L5). Approved use: Not recorded in the local data"
@@ -68,7 +68,6 @@ The top prediction should therefore be treated as a model output only. The data 
 
 **Neurotic depression and melancholia.** Esketamine's NMDA antagonism and downstream glutamatergic and synaptic plasticity effects underlie its rapid antidepressant action in treatment-resistant depression (TRD). These two predictions largely overlap with depressive disorders for which esketamine is already approved elsewhere, so they are closer to on-label use than true repurposing. Evidence is not specific to the melancholic subtype.
 
-
 **Insomnia.** The evidence comes from perioperative settings, often combined with dexmedetomidine, not from primary insomnia disorder.
 
 Several other predictions (benign paroxysmal torticollis of infancy, vitamin B12-responsive methylmalonic acidemia, Keppen-Lubinsky syndrome, congenital isolated ACTH deficiency, autosomal dominant slowed nerve conduction velocity) have no evidence and no identifiable mechanistic basis.
@@ -95,7 +94,6 @@ For reference, the trials found for the next-best-supported predictions are:
 | [NCT06300944](https://clinicaltrials.gov/study/NCT06300944) | N/A | Completed | 100 | Low-dose ketamine on postoperative pain and sleep quality (related compound) |
 | [NCT07610343](https://clinicaltrials.gov/study/NCT07610343) | Phase 4 | Not yet recruiting | 60 | Intranasal dexmedetomidine-esketamine in older adults with mild-to-moderate cognitive impairment |
 
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT04480918](https://clinicaltrials.gov/study/NCT04480918) | N/A | Recruiting | 1000 | Interventional psychiatry patient registry (ECT, TMS, ketamine, esketamine) for TRD and OCD. Observational, so it gives only indirect data |
@@ -119,7 +117,6 @@ For reference, key publications for the better-supported predictions:
 | [33726522](https://pubmed.ncbi.nlm.nih.gov/33726522/) | 2021 | Systematic review | Am J Psychiatry | International expert synthesis of ketamine and esketamine evidence in TRD |
 | [40319349](https://pubmed.ncbi.nlm.nih.gov/40319349/) | 2025 | Long-term extension | Int J Neuropsychopharmacol | Long-term safety and efficacy of esketamine in TRD |
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [38194244](https://pubmed.ncbi.nlm.nih.gov/38194244/) | 2024 | Retrospective chart review | Clin Neuropharmacol | Esketamine augmentation in treatment-resistant OCD |
@@ -139,9 +136,9 @@ For reference, key publications for the better-supported predictions:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16033P | SPRAVATO NASAL SPRAY 28MG/VIAL | Spray | Not specified in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16033P | SPRAVATO NASAL SPRAY 28MG/VIAL | SPRAY | Valid |
 
 ---
 

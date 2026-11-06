@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1019
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tretinoin"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
 description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,13 +74,15 @@ For osteoarthritis (rank 7), two items were retrieved, but neither supports tret
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16390P | Tretinon Cream 0.05% w/w | Cream | Not specified |
-| SIN08057P | Vesanoid Capsule 10 mg | Capsule | Not specified |
-| SIN12368P | Retrieve Cream 0.05% w/w | Cream | Not specified |
-| SIN08095P | Retacnyl 0.025 Cream 0.025% | Cream | Not specified |
-| SIN08098P | Retacnyl 0.05 Cream 0.05% | Cream | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08057P | VESANOID CAPSULE 10 mg | CAPSULE | Valid |
+| SIN08095P | RETACNYL 0.025 CREAM 0.025% | CREAM | Valid |
+| SIN08098P | RETACNYL 0.05 CREAM 0.05% | CREAM | Valid |
+| SIN12368P | RETRIEVE CREAM 0.05% w/w | CREAM | Valid |
+| SIN16390P | TRETINON CREAM 0.05% W/W | CREAM | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 A sixth licence, Tri-Luma Cream (SIN12607P), is also valid. All 6 registrations are single-ingredient and valid. Five are topical creams and one is an oral capsule (Vesanoid).
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 780
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The evidence rests on model prediction alone (Level L5).
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 23 of 23) |
+| Number of Registrations | 23 (valid: 23) |
 | Recommended Decision | Hold |
 
 *Note: The registered approved-indication text for the Singapore licences is blank in the data compiled for this report. The original indication is taken from the drug's known indication records.*
@@ -84,8 +84,6 @@ Currently no related clinical trials registered for malignant renovascular hyper
 
 ## Literature Evidence
 
-
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [11076421](https://pubmed.ncbi.nlm.nih.gov/11076421/) | 2000 | Clinical study | Terapevticheskii arkhiv | Efficacy and safety of perindopril in chronic cor pulmonale |
@@ -105,15 +103,17 @@ Many of the other retrieved papers (herbal formulas, hepatocellular carcinoma, i
 
 ## Singapore Market Information
 
-Perindopril is marketed in Singapore, with 20 valid registrations. All are combination products and none is cancelled. The approved-indication text is not available in the data compiled for this report. Main authorisations:
+All are combination products and none is cancelled. The approved-indication text is not available in the data compiled for this report. Main authorisations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13633P | COVERSYL PLUS Tablet 5 mg/1.25 mg | Film-coated tablet | Not available |
-| SIN13826P | COVERAM Tablet 5 mg/5 mg | Tablet | Not available |
-| SIN15400P | COSYREL Film-coated Tablet 10 mg/5 mg | Film-coated tablet | Not available |
-| SIN15013P | TRIPLIXAM Film-coated Tablet 10 mg/2.5 mg/5 mg | Film-coated tablet | Not available |
-| SIN15726P | AMLESSA Tablets 8 mg/10 mg | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13494P | COVERSYL 5mg tablet | TABLET, FILM COATED | Valid |
+| SIN13495P | COVERSYL 10mg tablet | TABLET, FILM COATED | Valid |
+| SIN13602P | PERINACE TABLET 4MG | TABLET | Valid |
+| SIN14563P | HITEN 4 TABLETS 4 MG | TABLET | Valid |
+| SIN14866P | PROVINACE TABLET 4mg | TABLET | Valid |
+
+Showing 5 of 23 HSA registrations.
 
 All products are oral formulations.
 

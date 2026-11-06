@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 671
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **acne (disease)**, but the eviden
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -86,15 +86,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-At least 20 valid single-ingredient licences are on record, and the list may be partial. Main examples:
+Main examples:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02028P | Daktarin Cream 20 mg/g (Janssen Pharmaceutica NV) | Cream | Not recorded |
-| SIN10561P | Decozol Cream 2% w/w | Cream | Not recorded |
-| SIN10022P | Fungitop Gel 2% w/w | Gel | Not recorded |
-| SIN10836P | Resolve Solution 2% w/w | Solution | Not recorded |
-| SIN11180P | Neo-Penotran Pessary | Suppository | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00962P | ZARIN CREAM 2% | CREAM | Valid |
+| SIN02028P | DAKTARIN CREAM 20 mg/g | CREAM | Valid |
+| SIN03904P | SW MICONAZOLE CREAM 2% w/w | CREAM | Valid |
+| SIN06453P | MICON CREAM 2% | CREAM | Valid |
+| SIN06466P | TINAZOL CREAM 2% w/w | CREAM | Valid |
+
+Showing 5 of 19 HSA registrations.
 
 ---
 

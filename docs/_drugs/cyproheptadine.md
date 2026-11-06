@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cyproheptadine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -61,9 +61,9 @@ Detailed mechanism of action data is not currently available for this report. Cy
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06637P | PILIAN TABLET 4 mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06637P | PILIAN TABLET 4 mg | TABLET | Valid |
 
 The product is an oral tablet made by Yung Shin Pharmaceutical Ind Co Ltd. It is a single-ingredient product with a valid licence.
 

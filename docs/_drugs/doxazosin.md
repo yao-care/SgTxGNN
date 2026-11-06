@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Doxazosin: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,9 +75,9 @@ This is a single, very small, uncontrolled report. It is hypothesis-generating o
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05014P | CARDURA TABLET 2 mg | Tablet (oral) | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05014P | CARDURA TABLET 2 mg | TABLET | Valid |
 
 Manufacturer: Pfizer Manufacturing Deutschland GmbH. This is the only valid single-ingredient registration.
 

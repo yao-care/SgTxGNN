@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acarbose: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Acarbose"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **focal stiff limb syndrome**, but th
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,13 +71,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN07861P | GLUCOBAY 50 TABLET 50 mg (Bayer AG) | Tablet |
-| SIN15816P | GARBOSE TABLET 50MG (Y.S.P. Industries) | Tablet |
-| SIN15815P | GARBOSE TABLET 100MG (Y.S.P. Industries) | Tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15815P | GARBOSE TABLET 100MG | TABLET | Valid |
+| SIN15816P | GARBOSE TABLET 50MG | TABLET | Valid |
 
-All three are valid single-ingredient oral tablet licences. Approved indication text was not available in the data compiled for this report.
+Approved indication text was not available in the data compiled for this report.
 
 ## Safety Considerations
 

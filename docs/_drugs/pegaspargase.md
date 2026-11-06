@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Pegaspargase"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pegaspargase: predicted new indication Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,9 +69,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16408P | ONCASPAR POWDER FOR SOLUTION FOR INJECTION/INFUSION 750 U/ML | Injection, powder, lyophilised, for solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16408P | ONCASPAR POWDER FOR SOLUTION FOR INJECTION/INFUSION 750 U/ML | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

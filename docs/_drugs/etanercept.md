@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Etanercept"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ Evidence for this top prediction is weak.
 | Predicted New Indication | Hypermobility of coccyx |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,15 +84,17 @@ The only listed trial concerns perioperative immunosuppressant management in rhe
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14440P | Enbrel Solution for Injection in a Pre-filled Pen 50mg | Injection, solution | Not available |
-| SIN13834P | Enbrel Solution for Injection in a Pre-Filled Syringe 25mg | Injection, solution | Not available |
-| SIN13835P | Enbrel Solution for Injection in a Pre-filled Syringe 50mg | Injection, solution | Not available |
-| SIN16532P | Nepexto Solution for Injection in Pre-filled Syringe 50 mg/ml | Injection, solution | Not available |
-| SIN16533P | Nepexto Solution for Injection in Pre-filled Pen 50mg/ml | Injection, solution | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11854P | ENBREL FOR INJECTION 25 mg/vial | INJECTION | Valid |
+| SIN13835P | Enbrel Solution for Injection in a Pre-filled Syringe 50mg | INJECTION, SOLUTION | Valid |
+| SIN14440P | Enbrel Solution for Injection in a Pre-filled Pen 50mg | INJECTION, SOLUTION | Valid |
+| SIN16531P | NEPEXTO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 25 MG/0.5 ML | INJECTION, SOLUTION | Valid |
+| SIN16532P | NEPEXTO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 50 MG/ML | INJECTION, SOLUTION | Valid |
 
-Two further licences are also valid: SIN16531P (Nepexto 25 mg/0.5 ml pre-filled syringe) and SIN11854P (Enbrel for Injection 25 mg/vial). All 7 are single-ingredient products with valid status.
+Showing 5 of 6 HSA registrations.
+
+Two further licences are also valid: SIN16531P (Nepexto 25 mg/0.5 ml pre-filled syringe) and SIN11854P (Enbrel for Injection 25 mg/vial).
 
 ## Safety Considerations
 

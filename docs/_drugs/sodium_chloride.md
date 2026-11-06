@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 919
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sodium Chloride: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced no candidate for Sodium Chloride with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 79 of 79) |
+| Number of Registrations | 79 (valid: 79) |
 
 ## Known uses recorded for this drug
 
@@ -74,26 +74,28 @@ The TxGNN model produced no candidate for Sodium Chloride with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN03517P | CENTA ENEMA | ENEMA | Valid |
+| SIN04089P | RINZ NORMAL SALINE EYE DROPS 0.9% w/v | SOLUTION | Valid |
 | SIN05951P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 0.9% | INJECTION | Valid |
-| SIN16603P | BAXTER-SODIUM CHLORIDE INJECTION USP 0.9% W/V | INFUSION, SOLUTION | Valid |
-| SIN09481P | SODIUM CHLORIDE INJECTION BP 0.9% | INJECTION | Valid |
+| SIN06126P | SODIUM CHLORIDE INJECTION USP 0.9% | INJECTION | Valid |
+| SIN06282P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 0.9% | INJECTION | Valid |
+| SIN06296P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 3% | INJECTION | Valid |
+| SIN06310P | SODIUM CHLORIDE INTRAVENOUS INFUSION 0.45% | INJECTION | Valid |
 | SIN06865P | SODIUM CHLORIDE INJECTION USP 0.45% | INJECTION | Valid |
-| SIN09858P | SODIUM CHLORIDE INJECTION BP 0.9% w/v | INJECTION | Valid |
+| SIN07992P | SODIUM CHLORIDE CONCENTRATE INJECTION BP 20% | INJECTION | Valid |
+| SIN09481P | SODIUM CHLORIDE INJECTION BP 0.9% | INJECTION | Valid |
+| SIN09600P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 0.9% | INJECTION | Valid |
 | SIN09640P | SALORIDE INFUSION 0.9% w/v | INJECTION | Valid |
+| SIN09858P | SODIUM CHLORIDE INJECTION BP 0.9% w/v | INJECTION | Valid |
 | SIN09976P | JEN SHENG TONBIEN SOLUTION 150 mg/ml | SOLUTION | Valid |
 | SIN10312P | SODIUM CHLORIDE PARENTERAL SOLUTION 0.9% | INJECTION | Valid |
 | SIN13052P | SODIUM CHLORIDE 0.9% SOLUTION FOR INTRAVENOUS INFUSION | SOLUTION, STERILE | Valid |
-| SIN04089P | RINZ NORMAL SALINE EYE DROPS 0.9% w/v | SOLUTION | Valid |
-| SIN03517P | CENTA ENEMA | ENEMA | Valid |
-| SIN09600P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 0.9% | INJECTION | Valid |
-| SIN07992P | SODIUM CHLORIDE CONCENTRATE INJECTION BP 20% | INJECTION | Valid |
-| SIN06126P | SODIUM CHLORIDE INJECTION USP 0.9% | INJECTION | Valid |
-| SIN06296P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 3% | INJECTION | Valid |
-| SIN15205P | SODIUM CHLORIDE KABI SOLUTION FOR INFUSION 0.9% | INFUSION, SOLUTION | Valid |
-| SIN06282P | SODIUM CHLORIDE INTRAVENOUS INFUSION BP 0.9% | INJECTION | Valid |
 | SIN13574P | Infusol NS | INFUSION, SOLUTION | Valid |
-| SIN06310P | SODIUM CHLORIDE INTRAVENOUS INFUSION 0.45% | INJECTION | Valid |
+| SIN16603P | BAXTER-SODIUM CHLORIDE INJECTION USP 0.9% W/V | INFUSION, SOLUTION | Valid |
 | SIN02959P | HUACHI ENEMA | ENEMA | Valid |
+| SIN04624P | DORAMA-NEO EYE DROPS | SOLUTION | Valid |
+
+Showing 20 of 79 HSA registrations.
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

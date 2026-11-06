@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Gemeprost"
 predicted_indications: ["atypical coarctation of aorta", "amenorrhea (disease)", "non-syndromic esophageal malformation", "aortic malformation", "pulmonary hypertension"]
 description: "Gemeprost: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not recorded in the local data"
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Gemeprost is a prostaglandin E1 (PGE1) analogue, supplied in Singapore as a vaginal pessary for obstetric use.
+Gemeprost is a prostaglandin E1 (PGE1) analogue, supplied as a vaginal pessary for obstetric use.
 The TxGNN model predicts it may be effective for **atypical coarctation of aorta**, but **no clinical trials and no publications** currently support this prediction.
 The top-ranked prediction is a network-based score only, and the evidence points to a recommendation to **hold**.
 
@@ -50,8 +50,8 @@ The top-ranked prediction is a network-based score only, and the evidence points
 | Predicted New Indication | Atypical coarctation of aorta |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -86,11 +86,7 @@ These studies concern pregnancy termination or cardiovascular adverse events. Th
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02475P | CERVAGEM VAGINAL PESSARY 1 mg | Suppository (vaginal pessary) | Not stated in the licence record |
-
-Manufacturer: Ono Pharmaceutical Co Ltd.
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Safety Considerations
 

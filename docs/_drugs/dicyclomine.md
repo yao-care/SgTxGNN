@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Dicyclomine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
 description: "Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The prediction is a computational signal only.
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,12 +73,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10344P | ACOLIC SYRUP | Syrup | Not stated |
-| SIN03333P | COLIMIX SYRUP | Syrup | Not stated |
-| SIN10845P | MECLOSIL TABLET | Tablet | Not stated |
-| SIN02547P | VERAGEL-DMS TABLET | Tablet | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02547P | VERAGEL-DMS TABLET | TABLET | Valid |
+| SIN03333P | COLIMIX SYRUP | SYRUP | Valid |
 
 ## Safety Considerations
 

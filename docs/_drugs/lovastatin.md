@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Lovastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lovastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia and related lipid disorders"
 ---
 
@@ -72,13 +72,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09664P | AA Pharma Lovastatin Tablet 20 mg | Tablet | Not stated in the records |
-| SIN09663P | AA Pharma Lovastatin Tablet 40 mg | Tablet | Not stated in the records |
-| SIN12329P | Lovastin Tablet 20 mg | Tablet | Not stated in the records |
-| SIN10073P | Lochol Tablet 20 mg | Tablet | Not stated in the records |
-| SIN10001P | Medostatin Tablet 20 mg | Tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09663P | AA PHARMA LOVASTATIN TABLET 40 mg | TABLET | Valid |
+| SIN09664P | AA PHARMA LOVASTATIN TABLET 20 mg | TABLET | Valid |
+| SIN10001P | MEDOSTATIN TABLET 20 mg | TABLET | Valid |
+| SIN10073P | LOCHOL TABLET 20 mg | TABLET | Valid |
+| SIN12329P | LOVASTIN TABLET 20 mg | TABLET | Valid |
 
 ## Safety Considerations
 

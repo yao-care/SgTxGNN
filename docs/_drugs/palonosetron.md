@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 758
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Palonosetron: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the registration records compiled for this report (the…"
 monitor_inn: "Palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -76,12 +76,12 @@ Related literature found for broader headache and migraine-susceptibility predic
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16959P | PALONOSETRON-AFT Solution for Injection 0.25mg/5ml | Injection, solution | Not listed in the compiled data |
-| SIN14038P | ALOXI® Solution for Injection 50mcg/ml | Injection, solution | Not listed in the compiled data |
-| SIN16899P | Akynzeo® IV Concentrate for Solution for Infusion 235 mg/0.25 mg/vial | Infusion, solution concentrate | Not listed in the compiled data |
-| SIN15031P | AKYNZEO Capsules 300mg/0.5mg | Capsule, gelatin coated | Not listed in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14038P | ALOXI® Solution for Injection 50mcg/ml | INJECTION, SOLUTION | Valid |
+| SIN16959P | PALONOSETRON-AFT SOLUTION FOR INJECTION 0.25MG/5ML | INJECTION, SOLUTION | Valid |
+| SIN15031P | AKYNZEO CAPSULES 300MG/0.5MG | CAPSULE, GELATIN COATED | Valid |
+| SIN16899P | Akynzeo® IV Concentrate for Solution for Infusion 235 mg/0.25 mg/vial | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Safety Considerations
 

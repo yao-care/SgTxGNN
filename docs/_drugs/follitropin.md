@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 449
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Follitropin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Follitropin,
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 
 ## Known uses recorded for this drug
 
@@ -74,17 +74,19 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Follitropin,
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN13023P | Gonal-f 300 iu/0.48 ml (22 mcg/0.48 ml) Solution for Injecti | INJECTION, SOLUTION | Valid |
-| SIN13022P | Gonal-f 450 iu/0.72 ml (33 mcg/0.72 ml) Solution for Injecti | INJECTION, SOLUTION | Valid |
-| SIN14474P | Puregon solution for injection 900IU/1.08ml | INJECTION | Valid |
-| SIN14473P | Puregon solution for injection 600IU/0.72ml | INJECTION | Valid |
 | SIN12185P | PUREGON SOLUTION FOR INJECTION 300 iu/0.36 ml | INJECTION | Valid |
-| SIN13024P | Gonal-f 900 iu/1.44 ml (66 mcg/1.44 ml) Solution for Injecti | INJECTION, SOLUTION | Valid |
-| SIN16473P | Gonal-f 150 IU/0.24 ml (11 micrograms/0.24 ml) Solution for  | INJECTION, SOLUTION | Valid |
-| SIN15713P | PERGOVERIS SOLUTION FOR INJECTION IN PRE-FILLED PEN (900 IU  | INJECTION, SOLUTION | Valid |
-| SIN15711P | PERGOVERIS SOLUTION FOR INJECTION IN PRE-FILLED PEN (300 IU  | INJECTION, SOLUTION | Valid |
-| SIN15712P | PERGOVERIS SOLUTION FOR INJECTION IN PRE-FILLED PEN (450 IU  | INJECTION, SOLUTION | Valid |
-| SIN13990P | Pergoveris Powder and Solvent for Solution for Injection 150 | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13022P | Gonal-f 450 IU/0.72 ml (33 mcg/0.72 ml) Solution for Injection in a pr | INJECTION, SOLUTION | Valid |
+| SIN13023P | Gonal-f 300 IU/0.48 ml (22 mcg/0.48 ml) Solution for Injection in a pr | INJECTION, SOLUTION | Valid |
+| SIN13024P | Gonal-f 900 IU/1.44 ml (66 mcg/1.44 ml) Solution for Injection in a pr | INJECTION, SOLUTION | Valid |
+| SIN14473P | Puregon solution for injection 600IU/0.72ml | INJECTION | Valid |
+| SIN14474P | Puregon solution for injection 900IU/1.08ml | INJECTION | Valid |
+| SIN15650P | REKOVELLE SOLUTION FOR INJECTION IN A PRE-FILLED PEN 12MCG/0.36ML | INJECTION, SOLUTION | Valid |
+| SIN15651P | REKOVELLE SOLUTION FOR INJECTION IN A PRE-FILLED PEN 72MCG/2.16ML | INJECTION, SOLUTION | Valid |
+| SIN15652P | REKOVELLE SOLUTION FOR INJECTION IN A PRE-FILLED PEN 36MCG/1.08ML | INJECTION, SOLUTION | Valid |
+| SIN16473P | Gonal-f 150 IU/0.24 ml (11 mcg/0.24 ml) Solution for Injection in pre- | INJECTION, SOLUTION | Valid |
+| SIN13990P | Pergoveris Powder and Solvent for Solution for Injection 150iu/75iu | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+Showing 11 of 14 HSA registrations.
 
 ## Safety Considerations
 

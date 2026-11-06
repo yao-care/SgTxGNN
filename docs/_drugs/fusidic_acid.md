@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 19 of 19) |
-| Number of Registrations | 19 (valid: 19) |
+| Singapore Market Status | Marketed (valid licences: 21 of 21) |
+| Number of Registrations | 21 (valid: 21) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,15 +73,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-The Singapore licence records contain no approved indication text. All 19 authorisations are valid single-ingredient products. The five main ones are listed below.
+The Singapore licence records contain no approved indication text. The five main ones are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00722P | Fucidin Ointment 2% | Ointment | Not stated in the records |
-| SIN01547P | Fucidin Cream 2% | Cream | Not stated in the records |
-| SIN00726P | Fucithalmic Eye Drops 1% | Solution | Not stated in the records |
-| SIN10834P | Fucidin H Cream | Cream | Not stated in the records |
-| SIN00723P | Fucicort Cream | Cream | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00722P | FUCIDIN OINTMENT 2% | OINTMENT | Valid |
+| SIN00726P | FUCITHALMIC EYE DROPS 1% | SOLUTION | Valid |
+| SIN01547P | FUCIDIN CREAM 2% | CREAM | Valid |
+| SIN08922P | BALAD OINTMENT 20 mg/g | OINTMENT | Valid |
+| SIN10706P | FORSUDERM OINTMENT 20 mg/g | OINTMENT | Valid |
+
+Showing 5 of 21 HSA registrations.
 
 The remaining products include generic fusidic acid creams and ointments (e.g. Defuzin, Duzen, Balad, Disuf, Foban) and fusidic acid–corticosteroid combinations (e.g. Fucicort Lipid Cream, Fobancort, Defuzin-B).
 

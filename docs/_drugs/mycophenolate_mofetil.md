@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 692
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -100,13 +100,15 @@ Other predictions in the list are weaker. Multiple sclerosis (score 0.9954) has 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09279P | CellCept Capsule 250 mg | Capsule | Not available |
-| SIN10032P | CellCept Tablet 500 mg | Film-coated tablet | Not available |
-| SIN11328P | CellCept for I.V. Infusion 500 mg/vial | Powder for solution for injection | Not available |
-| SIN13986P | Myfenax Film-Coated Tablets 500 mg | Film-coated tablet | Not available |
-| SIN15596P | Mycofit 250 Capsule 250 mg | Gelatin-coated capsule | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09279P | CELLCEPT CAPSULE 250 mg | CAPSULE | Valid |
+| SIN10032P | CELLCEPT TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN11328P | CELLCEPT FOR I.V. INFUSION 500 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13695P | REFRAT TABLET 500mg | TABLET, FILM COATED | Valid |
+| SIN13986P | MYFENAX FILM-COATED TABLETS 500MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 11 HSA registrations.
 
 All 11 licences are valid single-ingredient products. Oral (capsule and tablet) and injectable forms are available.
 

@@ -3,7 +3,7 @@ layout: default
 title: Ticlopidine
 parent: Known Uses Only (No New Predictions)
 nav_order: 988
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ticlopidine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -72,9 +72,9 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN11692P | APO-TICLOPIDINE TABLET 250 mg | TABLET, FILM COATED | Valid |
 | SIN10054P | TIPIDIN TABLET 250 mg | TABLET, FILM COATED | Valid |
 | SIN10367P | TIODIN TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN11692P | APO-TICLOPIDINE TABLET 250 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

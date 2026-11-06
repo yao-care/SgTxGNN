@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 885
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The better-supported predictions are **familial hypercholesterolaemia** (13 tria
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (for the top-ranked prediction) |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 52 of 52) |
+| Number of Registrations | 52 (valid: 52) |
 | Recommended Decision | Hold (for the top-ranked prediction); Proceed with Guardrails for familial hypercholesterolaemia, hyperlipidaemia and HIV |
 
 ---
@@ -112,15 +112,17 @@ Supporting systematic reviews for **HIV** include [26851703](https://pubmed.ncbi
 
 ## Singapore Market Information
 
-There are 20 valid single-ingredient licences, all film-coated oral tablets. None has approved indication text recorded. The main authorisations are:
+None has approved indication text recorded. The main authorisations are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12158P | CRESTOR TABLET 10 mg | Tablet, film coated | Not recorded |
-| SIN13154P | Crestor Tablet 5 mg | Tablet, film coated | Not recorded |
-| SIN12159P | CRESTOR TABLET 40 mg | Tablet, film coated | Not recorded |
-| SIN16226P | ROSUCCORD 20 FILM COATED TABLET 20 MG | Tablet, film coated | Not recorded |
-| SIN15636P | ROVAS-20 FILM-COATED TABLET 20MG | Tablet, film coated | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12157P | CRESTOR TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN12158P | CRESTOR TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN13154P | Crestor Tablet 5 mg | TABLET, FILM COATED | Valid |
+| SIN14953P | ROSUVASTATIN SANDOZ FILM COATED TABLET 20MG | TABLET, FILM COATED | Valid |
+| SIN14997P | ALVOSTAT FILM COATED TABLETS 20MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 52 HSA registrations.
 
 ---
 

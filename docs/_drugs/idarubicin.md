@@ -5,7 +5,7 @@ layout: default
 title: Idarubicin
 parent: Known Uses Only (No New Predictions)
 nav_order: 516
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Idarubicin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Idarubicin"
 predicted_indications: []
@@ -43,17 +43,12 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12455P | ZAVEDOS SOLUTION FOR INJECTION 10 mg/10 ml | Injection | Not stated in the licence data |
-| SIN12456P | ZAVEDOS SOLUTION FOR INJECTION 5 mg/5 ml | Injection | Not stated in the licence data |
-
-Both are valid single-ingredient licences. The manufacturers are Bridgewest Perth Pharma Pty Ltd and Zydus Hospira Oncology Private Limited.
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Cytotoxicity
 

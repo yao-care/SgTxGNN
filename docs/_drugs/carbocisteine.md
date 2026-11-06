@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carbocisteine: predicted new indication Gout (evidence level L5). Approved use: Mucus-related respiratory disorders (mucolytic). The Singapore regist…"
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
@@ -52,8 +52,8 @@ The prediction comes from the TxGNN model (deep learning) alone and may reflect 
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,15 +80,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-All 7 registrations are valid single-ingredient products. The 5 main ones are listed below.
+The 5 main ones are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02852P | SCMC Syrup 100 mg/5 ml | Syrup | Not listed in the registration record |
-| SIN10844P | Mucodin Tablet 375 mg | Tablet | Not listed in the registration record |
-| SIN02771P | Rhinathiol 2% Children Syrup | Syrup | Not listed in the registration record |
-| SIN03003P | Mucodin Syrup 250 mg/5 ml | Syrup | Not listed in the registration record |
-| SIN12251P | Solmux Paediatric Suspension 200 mg/5 ml | Suspension | Not listed in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02759P | RHINATHIOL ADULTS SYRUP 5% | SYRUP | Valid |
+| SIN02771P | RHINATHIOL 2% CHILDREN SYRUP | SYRUP | Valid |
+| SIN02852P | SCMC SYRUP 100 100 mg/5 ml | SYRUP | Valid |
+| SIN03003P | MUCODIN SYRUP 250 mg/5 ml | SYRUP | Valid |
+| SIN12251P | SOLMUX PAEDIATRIC SUSPENSION 200 mg/5 ml | SUSPENSION | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ---
 

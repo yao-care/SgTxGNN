@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 331
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Diltiazem: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,11 +74,11 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN00428P | HERBESSER TABLET 30 mg | TABLET | Valid |
+| SIN00430P | HERBESSER 60 TABLET 60 mg | TABLET | Valid |
 | SIN06791P | HERBESSER 90 SR CAPSULE 90 mg | CAPSULE | Valid |
 | SIN10061P | HERBESSER R200 CAPSULES 200 mg | CAPSULE | Valid |
-| SIN00428P | HERBESSER TABLET 30 mg | TABLET | Valid |
 | SIN10062P | HERBESSER R100 CAPSULES 100 mg | CAPSULE | Valid |
-| SIN00430P | HERBESSER 60 TABLET 60 mg | TABLET | Valid |
 
 ## Safety Considerations
 

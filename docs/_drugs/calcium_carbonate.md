@@ -3,7 +3,7 @@ layout: default
 title: Calcium Carbonate
 parent: Known Uses Only (No New Predictions)
 nav_order: 195
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Calcium Carbonate: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -82,11 +82,11 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 |------|------|------|------|
 | SIN05820P | OHTA'S ISAN ANTACID POWDER | POWDER | Valid |
 | SIN08733P | RENNIE TABLET | TABLET | Valid |
-| SIN14016P | GAVISCON DOUBLE ACTION LIQUID, SUSPENSION | SUSPENSION | Valid |
+| SIN09494P | GAVISCON LIQUID | SUSPENSION | Valid |
 | SIN13738P | GAVISCON LIQUID SACHETS | SUSPENSION | Valid |
 | SIN13947P | GAVISCON PEPPERMINT TABLETS | TABLET, CHEWABLE | Valid |
+| SIN14016P | GAVISCON DOUBLE ACTION LIQUID, SUSPENSION | SUSPENSION | Valid |
 | SIN14194P | GAVISCON DOUBLE ACTION TABLETS | TABLET, CHEWABLE | Valid |
-| SIN09494P | GAVISCON LIQUID | SUSPENSION | Valid |
 | SIN16041P | GASCOVID LIQUID | SUSPENSION | Valid |
 
 ## Safety Considerations

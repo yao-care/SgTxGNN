@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Desmopressin: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Hereditary von Willebrand disease, haemophilia, nocturnal enuresis"
 monitor_inn: "Desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
@@ -105,13 +105,15 @@ Most relevant literature across the other predictions:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15461P | NOCDURNA Oral Lyophilisate 25 mcg | Orally disintegrating tablet | Not available |
-| SIN15462P | NOCDURNA Oral Lyophilisate 50 mcg | Orally disintegrating tablet | Not available |
-| SIN14261P | MINIRIN Oral Lyophilisate 120 mcg | Orally disintegrating tablet | Not available |
-| SIN14260P | MINIRIN Oral Lyophilisate 60 mcg | Orally disintegrating tablet | Not available |
-| SIN11656P | MINIRIN Tablet 0.1 mg (Oval) | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03760P | MINIRIN NASAL SPRAY 10 mcg/dose | SPRAY | Valid |
+| SIN04482P | MINIRIN INJECTION 4 mcg/ml | INJECTION | Valid |
+| SIN11656P | MINIRIN TABLET 0.1 mg (Oval) | TABLET | Valid |
+| SIN14260P | MINIRIN Oral Lyophilisate 60 mcg | TABLET, ORALLY DISINTEGRATING | Valid |
+| SIN14261P | MINIRIN Oral Lyophilisate 120 mcg | TABLET, ORALLY DISINTEGRATING | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 Two further licences are valid: MINIRIN Nasal Spray 10 mcg/dose (SIN03760P, spray) and MINIRIN Injection 4 mcg/ml (SIN04482P, injection). All seven registrations are single-ingredient products. Oral, nasal and injectable routes are therefore all available in Singapore.
 

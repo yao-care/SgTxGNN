@@ -5,7 +5,7 @@ layout: default
 title: Pentetic Acid
 parent: Known Uses Only (No New Predictions)
 nav_order: 776
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pentetic Acid: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Pentetic acid"
 predicted_indications: []
@@ -50,9 +50,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12150P | Technescan DTPA for Injection 20.8 mg/vial (Curium Netherlands B.V.) | Injection, powder, for solution | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12150P | TECHNESCAN DTPA FOR INJECTION 20.8 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The prediction rests on model output alone.
 | Predicted New Indication | brain stem infarction |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 84 of 84) |
+| Number of Registrations | 84 (valid: 84) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Amlodipine is marketed in Singapore. All 20 listed licences are valid single-ingredient oral tablets, and the list may be partial. The licence records carry no approved-indication text. Five representative authorisations are shown below.
+Amlodipine is marketed in Singapore. The licence records carry no approved-indication text. Five representative authorisations are shown below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05277P | NORVASC TABLET 5 mg | Tablet | Not recorded in the local data |
-| SIN14756P | AMLODIPINE SANDOZ TABLETS 5MG | Tablet | Not recorded in the local data |
-| SIN14159P | APO-AMLODIPINE TABLET 5mg | Tablet | Not recorded in the local data |
-| SIN14548P | Tenox tablets 5 mg | Tablet | Not recorded in the local data |
-| SIN13538P | ACTAPIN TABLET 10MG | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05277P | NORVASC TABLET 5 mg | TABLET | Valid |
+| SIN05278P | NORVASC TABLET 10 mg | TABLET | Valid |
+| SIN11908P | AMTAS-10 TABLET 10 mg | TABLET | Valid |
+| SIN11909P | AMTAS-5 TABLET 5 mg | TABLET | Valid |
+| SIN13537P | ACTAPIN TABLET 5MG | TABLET | Valid |
+
+Showing 5 of 84 HSA registrations.
 
 ## Safety Considerations
 

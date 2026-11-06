@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Aspartic Acid: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "Aspartic acid"
 predicted_indications: ["renal tubular acidosis"]
@@ -50,8 +50,8 @@ This is a computational prediction with essentially no supporting clinical evide
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,18 +73,17 @@ Currently no related clinical trials registered.
 | [20068363](https://pubmed.ncbi.nlm.nih.gov/20068363/) | 2010 | Genetic study | Nephron Physiol | Distal RTA in Filipino children caused by SLC4A1 (AE1/Band 3) mutations |
 | [14301365](https://pubmed.ncbi.nlm.nih.gov/14301365/) | 1965 | Basic physiology | Am J Physiol | Relationship of tubular cell pNH3 to renal ammonia production |
 
-
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08352P | Aminoplasmal-15% Infusion | Injection | Not specified |
-| SIN07846P | Trophamine Injection 10% | Injection | Not specified |
-| SIN07428P | Vaminolact Intravenous Solution | Injection | Not specified |
-| SIN15411P | Aminoplasmal B.Braun 10% E Solution for Infusion | Infusion, solution | Not specified |
-| SIN16734P | Nutriflex Omega Special B. Braun Emulsion for Infusion | Injection, emulsion | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN15411P | AMINOPLASMAL B.BRAUN 10% E SOLUTION FOR INFUSION | INFUSION, SOLUTION | Valid |
+| SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
 
-Two further registrations (SIN15469P, SIN15468P) are Nutriflex Omega products. All 7 registrations are valid single-ingredient entries, all injectable or infusion forms.
+Showing 5 of 8 HSA registrations.
 
 ## Safety Considerations
 

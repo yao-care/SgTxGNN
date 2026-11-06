@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 593
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Levetiracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The retrieved **20 publications** cover general seizure populations only, so the
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 33 of 33) |
+| Number of Registrations | 33 (valid: 33) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,15 +84,17 @@ None of the publications below studies visual epilepsy directly.
 
 ## Singapore Market Information
 
-Twenty licences are valid; the five main ones are shown below. No approved indication text is recorded for these licences.
+No approved indication text is recorded for these licences.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11686P | Keppra Tablet 500 mg | Film-coated tablet | — |
-| SIN13730P | Keppra Concentrate for Solution for Infusion 100 mg/ml | Infusion concentrate | — |
-| SIN14905P | Levetiracetam Sandoz Film Coated Tablets 500 mg | Film-coated tablet | — |
-| SIN16254P | Intiracetam Oral Solution 100 mg/ml | Oral solution | — |
-| SIN16250P | Levipil Levetiracetam Injection USP 100 mg/ml | Injection | — |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11685P | KEPPRA TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN11686P | KEPPRA TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN13225P | Keppra Oral Solution 100 mg/ml | SOLUTION | Valid |
+| SIN13730P | Keppra Concentrate for Solution for Infusion 100 mg/ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14447P | Epivon film-coated tablets 250mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 33 HSA registrations.
 
 Oral, intravenous and oral-solution forms are all available.
 

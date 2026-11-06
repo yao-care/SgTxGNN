@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,12 +82,12 @@ Currently no related literature available.
 
 This drug is marketed in this country: 4 of 4 licences are valid.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14329P | Imipenem + Cilastatin Mevon Powder for Solution for Injection 500 mg + 500 mg | Powder for solution for injection | Not specified in the records |
-| SIN14589P | Imipenem/Cilastatin Labatec IV Powder for Injection 500 mg/500 mg | Powder for solution for injection | Not specified in the records |
-| SIN16280P | IMCIL Powder for Solution for Injection or Infusion 500 mg/500 mg per vial | Powder for solution for injection | Not specified in the records |
-| SIN14765P | Imipenem/Cilastatin Kabi Powder for Solution for Infusion 500 mg/500 mg | Powder for solution for infusion | Not specified in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14329P | Imipenem + Cilastatin Mevon Powder for solution for Injection 500 mg + | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14589P | Imipenem/Cilastatin Labatec IV powder for Injection 500mg/500mg | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14765P | IMIPENEM /CILASTATIN KABI POWDER FOR SOLUTION FOR INFUSION 500MG/500MG | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN16280P | IMCIL POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500MG/500MG PER VI | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 All products are injectable only.
 

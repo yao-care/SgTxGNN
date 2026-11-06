@@ -5,7 +5,7 @@ layout: default
 title: Lixisenatide
 parent: Known Uses Only (No New Predictions)
 nav_order: 609
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lixisenatide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Lixisenatide"
 predicted_indications: []
@@ -48,10 +48,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15540P | SOLIQUA Solution for Injection in a Pre-filled Pen 100 units/mL + 50 mcg/mL | Injection, solution | Not stated in the data compiled |
-| SIN15542P | SOLIQUA Solution for Injection in a Pre-filled Pen 100 units/mL + 33 mcg/mL | Injection, solution | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15540P | SOLIQUA SOLUTION FOR INJECTION IN A PRE-FILLED PEN 100UNITS/ML + 50MCG | INJECTION, SOLUTION | Valid |
+| SIN15542P | SOLIQUA SOLUTION FOR INJECTION IN A PRE-FILLED PEN 100UNITS/ML + 33MCG | INJECTION, SOLUTION | Valid |
 
 Both licences are held by Sanofi-Aventis Deutschland GmbH and are currently valid. The route of administration is injectable.
 

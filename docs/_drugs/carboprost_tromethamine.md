@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carboprost Tromethamine: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not stated in the Singapore registration record"
 monitor_inn: "Carboprost tromethamine"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "migraine with brainstem aura", "migraine disorder", "pulmonary hypertension", "non-syndromic esophageal malformation", "kyphoscoliotic heart disease", "amenorrhea (disease)", "esophageal disease", "primary hereditary glaucoma"]
@@ -79,9 +79,9 @@ Primary hereditary glaucoma is the most biologically plausible of the group, but
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06722P | HEMABATE INJECTION 250 mcg/ml | Injection | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06722P | HEMABATE INJECTION 250 mcg/ml | INJECTION | Valid |
 
 The product is a single-ingredient injection from Pharmacia & Upjohn Company LLC, and its registration is valid.
 

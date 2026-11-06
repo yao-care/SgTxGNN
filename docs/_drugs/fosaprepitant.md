@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fosaprepitant: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not available"
 monitor_inn: "Fosaprepitant"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "pneumocystosis", "leprosy", "Cryptococcal meningitis", "multiple endocrine neoplasia", "intracranial abscess", "retinitis", "Plasmodium falciparum malaria", "echinococcus granulosus infectious disease", "hyperargininemia"]
@@ -78,11 +78,11 @@ This is indirect, non-clinical evidence from a UV-induced ocular damage model, n
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14150P | Emend® I.V. Powder for Solution for Infusion 150mg | Lyophilised powder for injection | Not stated |
-| SIN16996P | APRITANT IV powder for solution for injection 150mg/vial | Lyophilised powder for injection | Not stated |
-| SIN16419P | FOSAPREPITANT-AFT POWDER FOR INJECTION 150MG/VIAL | Lyophilised powder for injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14150P | Emend® I.V. Powder for Solution for Infusion 150mg | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16419P | FOSAPREPITANT-AFT POWDER FOR INJECTION 150MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16996P | APRITANT IV powder for solution for injection 150mg/vial | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

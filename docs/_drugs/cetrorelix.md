@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cetrorelix: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Inhibition of premature LH surges in women undergoing controlled ovar…"
 monitor_inn: "Cetrorelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -76,9 +76,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11345P | CETROTIDE INJECTION 0.25 mg | Injection | Not stated in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11345P | CETROTIDE INJECTION 0.25 mg | INJECTION | Valid |
 
 ## Safety Considerations
 

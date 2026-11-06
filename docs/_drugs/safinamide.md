@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 892
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
 description: "Safinamide: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,13 +71,11 @@ However, Rasmussen encephalitis is mainly driven by T-cell-mediated autoimmune i
 | 2 | Myelitis | 0.9946 | L5 | No established role for MAO-B inhibition; speculative |
 | 3 | PLA2G6-associated neurodegeneration | 0.9922 | L5 | Overlapping parkinsonian features; symptomatic benefit only, if any |
 
-
 ---
 
 ## Literature Evidence
 
 For the top-ranked prediction (Rasmussen subacute encephalitis), no related literature is currently available.
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -87,9 +85,9 @@ For the top-ranked prediction (Rasmussen subacute encephalitis), no related lite
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16615P | EQUFINA FILM-COATED TABLET 50MG | Tablet, film coated | Not listed in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16615P | EQUFINA FILM-COATED TABLET 50MG | TABLET, FILM COATED | Valid |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 475
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Gentamicin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gentamicin, 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 2 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 20 of 20) |
-| Number of Registrations | 20 (valid: 20) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 
 ## Known uses recorded for this drug
 
@@ -76,25 +76,21 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gentamicin, 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01544P | GENTAMICIN SULFATE CREAM 1 mg/g | CREAM | Valid |
-| SIN10243P | HOE Gentamicin Cream 0.1% W/W | CREAM | Valid |
-| SIN01849P | MIRAMYCIN INJECTION 80 mg/2 ml | INJECTION | Valid |
-| SIN01848P | MIRAMYCIN INJECTION 280 mg/2 ml | INJECTION | Valid |
-| SIN05260P | GENTAMICIN INJECTION BP 80 mg/2 ml | INJECTION | Valid |
+| SIN04406P | GENTAMICIN CREAM 0.3% w/w | CREAM | Valid |
+| SIN09799P | GENTAMICIN-POS EYE DROPS 3 mg/ml | SOLUTION | Valid |
 | SIN09941P | GENTAMICIN INJECTION 80 mg/2 ml | INJECTION | Valid |
 | SIN11085P | GARASENT INJECTION 80 mg/2 ml | INJECTION | Valid |
-| SIN09799P | GENTAMICIN-POS EYE DROPS 3 mg/ml | SOLUTION | Valid |
-| SIN04406P | GENTAMICIN CREAM 0.3% w/w | CREAM | Valid |
 | SIN02144P | ANTASONE CREAM | CREAM | Valid |
-| SIN09020P | BEPROGENT CREAM | CREAM | Valid |
-| SIN14386P | B-MYCIN CREAM | CREAM | Valid |
-| SIN09718P | DEXA-GENTAMICIN EYE DROPS | SOLUTION | Valid |
 | SIN04424P | B-TASONE-G CREAM | CREAM | Valid |
-| SIN09755P | DEXA-GENTAMICIN EYE OINTMENT | OINTMENT | Valid |
-| SIN05109P | COMBIDERM CREAM | CREAM | Valid |
-| SIN10733P | GENTRIDERM CREAM | CREAM | Valid |
 | SIN04989P | GENTRISONE CREAM | CREAM | Valid |
-| SIN10705P | TRI-MICON CREAM | CREAM | Valid |
+| SIN05109P | COMBIDERM CREAM | CREAM | Valid |
+| SIN09020P | BEPROGENT CREAM | CREAM | Valid |
+| SIN09718P | DEXA-GENTAMICIN EYE DROPS | SOLUTION | Valid |
+| SIN09755P | DEXA-GENTAMICIN EYE OINTMENT | OINTMENT | Valid |
 | SIN10451P | NEODERM CREAM | CREAM | Valid |
+| SIN10705P | TRI-MICON CREAM | CREAM | Valid |
+| SIN10733P | GENTRIDERM CREAM | CREAM | Valid |
+| SIN14386P | B-MYCIN CREAM | CREAM | Valid |
 
 ## Safety Considerations
 

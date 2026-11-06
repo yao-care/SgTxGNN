@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 499
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Human Thrombin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,9 +74,9 @@ The TxGNN deep-learning model produced no candidate with a score of 0.99 or high
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16143P | VERASEAL SOLUTIONS FOR SEALANT, 80 mg/ml, 500 IU/ml | SOLUTION | Valid |
 | SIN14441P | TACHOSIL, MEDICATED SPONGE | SPONGE | Valid |
 | SIN14719P | ARTISS SOLUTIONS FOR SEALANT, DEEP FROZEN | SOLUTION | Valid |
+| SIN16143P | VERASEAL SOLUTIONS FOR SEALANT, 80 mg/ml, 500 IU/ml | SOLUTION | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 373
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Enalapril: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Enalapril
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 18 of 18) |
-| Number of Registrations | 18 (valid: 18) |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 
 ## Known uses among the model's candidates
 
@@ -74,24 +74,26 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Enalapril
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN07658P | KORANDIL 10 TABLET 10 mg | TABLET | Valid |
-| SIN11572P | ENAPRIL- 5 TABLET 5 mg | TABLET | Valid |
-| SIN11371P | ENAP TABLET 10 mg | TABLET | Valid |
-| SIN12412P | GLIOTEN 10 TABLET 10 mg | TABLET | Valid |
-| SIN08232P | APO-ENALAPRIL TABLET 5 mg | TABLET | Valid |
-| SIN11573P | ENAPRIL-10 TABLET 10 mg | TABLET | Valid |
-| SIN11065P | INVORIL-20 TABLETS 20 mg | TABLET | Valid |
-| SIN09293P | ECARIL TABLET 10 mg | TABLET | Valid |
-| SIN08830P | APO-ENALAPRIL TABLET 10 mg | TABLET | Valid |
-| SIN09877P | ANAPRIL 5 TABLET 5 mg | TABLET | Valid |
-| SIN12413P | GLIOTEN 20 TABLET 20 mg | TABLET | Valid |
-| SIN09878P | ANAPRIL 20 TABLET 20 mg | TABLET | Valid |
-| SIN11064P | INVORIL-10 TABLETS 10 mg | TABLET | Valid |
 | SIN07657P | KORANDIL 5 TABLET 5 mg | TABLET | Valid |
-| SIN11063P | INVORIL-5 TABLETS 5 mg | TABLET | Valid |
-| SIN11370P | ENAP TABLET 20 mg | TABLET | Valid |
+| SIN07658P | KORANDIL 10 TABLET 10 mg | TABLET | Valid |
+| SIN08232P | APO-ENALAPRIL TABLET 5 mg | TABLET | Valid |
 | SIN08829P | APO-ENALAPRIL TABLET 20 mg | TABLET | Valid |
-| SIN12641P | GLIOTENZIDE 20 TABLET | TABLET | Valid |
+| SIN08830P | APO-ENALAPRIL TABLET 10 mg | TABLET | Valid |
+| SIN09293P | ECARIL TABLET 10 mg | TABLET | Valid |
+| SIN09877P | ANAPRIL 5 TABLET 5 mg | TABLET | Valid |
+| SIN09878P | ANAPRIL 20 TABLET 20 mg | TABLET | Valid |
+| SIN11063P | INVORIL-5 TABLETS 5 mg | TABLET | Valid |
+| SIN11064P | INVORIL-10 TABLETS 10 mg | TABLET | Valid |
+| SIN11065P | INVORIL-20 TABLETS 20 mg | TABLET | Valid |
+| SIN11370P | ENAP TABLET 20 mg | TABLET | Valid |
+| SIN11371P | ENAP TABLET 10 mg | TABLET | Valid |
+| SIN11572P | ENAPRIL- 5 TABLET 5 mg | TABLET | Valid |
+| SIN11573P | ENAPRIL-10 TABLET 10 mg | TABLET | Valid |
+| SIN12412P | GLIOTEN 10 TABLET 10 mg | TABLET | Valid |
+| SIN12413P | GLIOTEN 20 TABLET 20 mg | TABLET | Valid |
+| SIN14265P | KORANDIL TABLET 20MG | TABLET | Valid |
+
+Showing 18 of 19 HSA registrations.
 
 ## Safety Considerations
 

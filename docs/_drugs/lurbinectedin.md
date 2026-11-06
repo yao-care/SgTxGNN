@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 622
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lurbinectedin: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not stated in the Singapore registration data compiled for this report"
 monitor_inn: "Lurbinectedin"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "cytomegalovirus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "malignant catarrh", "infectious bovine rhinotracheitis", "Mills syndrome"]
@@ -62,9 +62,9 @@ Other high-ranking predictions (HIV infection, rheumatoid arthritis, amyotrophic
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16327P | ZEPZELCA POWDER FOR SOLUTION FOR INFUSION 4MG/VIAL | Injection, powder, lyophilized, for solution | Not stated in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16327P | ZEPZELCA POWDER FOR SOLUTION FOR INFUSION 4MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

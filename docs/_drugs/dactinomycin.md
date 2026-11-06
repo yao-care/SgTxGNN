@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dactinomycin: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Ewing sarcoma, testicular germ cell tumours…"
 monitor_inn: "Dactinomycin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
@@ -102,9 +102,9 @@ Relapsing-remitting multiple sclerosis has no related literature. The table belo
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10989P | K. U. Dactinomycin for Injection 0.5 mg/vial | Injection, powder, for solution | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10989P | K. U. DACTINOMYCIN FOR INJECTION 0.5 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ---
 

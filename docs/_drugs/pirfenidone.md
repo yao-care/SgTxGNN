@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 799
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,10 +83,10 @@ This evidence is mostly preclinical, focused on benign disease, and partly contr
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15601P | ESBRIET FILM COATED TABLET 801MG | Tablet, film coated | Not stated in the data compiled |
-| SIN15600P | ESBRIET FILM COATED TABLET 267MG | Tablet, film coated | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15600P | ESBRIET FILM COATED TABLET 267MG | TABLET, FILM COATED | Valid |
+| SIN15601P | ESBRIET FILM COATED TABLET 801MG | TABLET, FILM COATED | Valid |
 
 Both licences are valid single-ingredient products (oral), manufactured by Delpharm Milano S.r.l.
 

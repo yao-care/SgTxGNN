@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 653
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,13 +88,15 @@ Currently no related literature available for the top-ranked prediction. The tab
 
 All 14 licences are valid single-ingredient products. Indication text is not recorded for any of them. The five main authorisations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09340P | Salofalk 500 Tablet 500 mg | Enteric coated tablet | Not recorded |
-| SIN07883P | Pentasa Prolonged Release Tablets 500 mg | Tablet | Not recorded |
-| SIN15137P | Pentasa Rectal Suspension 1 g | Suspension | Not recorded |
-| SIN14999P | Mezavant XL Gastro-resistant Prolonged Release Tablet 1200 mg | Tablet, delayed release | Not recorded |
-| SIN14275P | Asacol Tablet 800 mg | Tablet, enteric coated | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07740P | PENTASA SUPPOSITORIES 1 g | SUPPOSITORY | Valid |
+| SIN07883P | PENTASA PROLONGED RELEASE TABLETS 500 mg | TABLET | Valid |
+| SIN09296P | SALOFALK 500 SUPPOSITORIES 500 mg | SUPPOSITORY | Valid |
+| SIN09340P | SALOFALK 500 TABLET 500 mg | ENTERIC COATED TABLET | Valid |
+| SIN10918P | SALOFALK ENEMAS 4 g/60 ml | ENEMA | Valid |
+
+Showing 5 of 14 HSA registrations.
 
 The remaining nine licences cover Pentasa (suppositories, granules and 1 g tablets) and Salofalk (granules, enema and suppositories). Available forms include oral, rectal (suppository, enema, suspension) and granule presentations.
 

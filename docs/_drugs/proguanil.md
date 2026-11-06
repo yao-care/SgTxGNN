@@ -5,7 +5,7 @@ layout: default
 title: Proguanil
 parent: Known Uses Only (No New Predictions)
 nav_order: 830
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Proguanil: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Proguanil"
 predicted_indications: []
@@ -48,11 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09761P | MALARONE TABLET | Tablet, film coated | Not stated in the data compiled for this report |
-
-Proguanil is registered in Singapore under one single-ingredient licence, valid, for oral use.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09761P | MALARONE TABLET | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,13 +88,13 @@ For cold urticaria, the most relevant hydroxyzine-specific item is [PMID 6480953
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04142P | AA Pharma Hydroxyzine Capsule 25 mg | Capsule, liquid filled | Not stated in the licence record |
-| SIN09981P | Phymorax Tablet 10 mg | Tablet | Not stated in the licence record |
-| SIN16328P | Hydroxyzine Mevon Film-Coated Tablets 25 mg | Film-coated tablet | Not stated in the licence record |
-| SIN16329P | Hydroxyzine Mevon Film-Coated Tablets 10 mg | Film-coated tablet | Not stated in the licence record |
-| SIN04096P | AA Pharma Hydroxyzine Capsule 10 mg | Capsule | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04096P | AA PHARMA HYDROXYZINE CAPSULE 10 mg | CAPSULE | Valid |
+| SIN04142P | AA PHARMA HYDROXYZINE CAPSULE 25 mg | CAPSULE, LIQUID FILLED | Valid |
+| SIN09981P | PHYMORAX TABLET 10 mg | TABLET | Valid |
+| SIN16328P | HYDROXYZINE MEVON FILM-COATED TABLETS 25 MG | TABLET, FILM COATED | Valid |
+| SIN16329P | HYDROXYZINE MEVON FILM-COATED TABLETS 10 MG | TABLET, FILM COATED | Valid |
 
 All five are valid, single-ingredient oral products. None has been cancelled.
 

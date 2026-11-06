@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 814
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Potassium Iodide"
 predicted_indications: ["nasal cavity disease"]
 description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -64,7 +64,6 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The retrieved papers describe nasal or rhinofacial mycotic infections in sheep and horses, plus a single human case of nasofacial zygomycosis that responded rapidly to potassium iodide. This offers plausible, indirect support. However, it does not come from controlled human studies of nasal cavity disease in general. The very high TxGNN score is a model prediction only and is not proof of benefit.
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -88,11 +87,11 @@ All four are case reports. None is a controlled study.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08899P | PEDITRACE CONCENTRATE FOR PARENTERAL INFUSION | Injection | Not available |
-| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | Infusion, solution concentrate | Not available |
-| SIN14341P | Nutritrace Concentrate for solution for infusion | Infusion, solution concentrate | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08899P | PEDITRACE CONCENTRATE FOR PARENTERAL INFUSION | INJECTION | Valid |
+| SIN14341P | Nutritrace Concentrate for solution for infusion | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 The three registered products are injectable or infusion concentrates. Their forms are not suited to treating nasal disease, so route compatibility for the predicted indication has not been established.
 

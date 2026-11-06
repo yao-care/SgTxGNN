@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 891
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,11 +96,11 @@ The mechanistic link is therefore biologically plausible, but renal outcomes in 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16872P | MERAVO Film-Coated Tablets 50MG | Film-coated tablet | Not available |
-| SIN16873P | MERAVO Film-Coated Tablets 100MG | Film-coated tablet | Not available |
-| SIN16874P | MERAVO Film-Coated Tablets 200MG | Film-coated tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16872P | MERAVO FILM-COATED TABLETS 50MG | TABLET, FILM COATED | Valid |
+| SIN16873P | MERAVO FILM-COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
+| SIN16874P | MERAVO FILM-COATED TABLETS 200MG | TABLET, FILM COATED | Valid |
 
 All three licences are valid single-ingredient products (manufacturer: Biocon Pharma Limited), and none has been cancelled.
 

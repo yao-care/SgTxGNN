@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1031
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypertrichosis (disease)**, b
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,13 +71,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14323P | Pamorelin Powder for Suspension for Injection 3.75 mg per vial | Injection, lyophilised powder for suspension |
-| SIN14324P | Pamorelin Powder for Suspension for Injection 11.25 mg per vial | Injection, lyophilised powder for suspension |
-| SIN14325P | Pamorelin Powder for Suspension for Injection 22.5 mg per vial | Injection, lyophilised powder for suspension |
-| SIN14634P | Diphereline P.R. Powder and Solvent for Suspension for Injection 3.75 mg/vial | Injection, extended-release powder for suspension |
-| SIN08697P | Decapeptyl Injection 0.1 mg/ml | Injection |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08697P | DECAPEPTYL INJECTION 0.1 mg/ml | INJECTION | Valid |
+| SIN09105P | DECAPEPTYL CR FOR INJECTION 3.75 mg/syringe | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14323P | Pamorelin Powder for Suspension for Injection 3.75 mg per vial | INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION | Valid |
+| SIN14324P | Pamorelin Powder for Suspension for Injection 11.25 mg per vial | INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION | Valid |
+| SIN14325P | Pamorelin Powder for Suspension for Injection 22.5 mg per vial | INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ## Safety Considerations
 

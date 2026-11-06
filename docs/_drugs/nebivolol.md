@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 703
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,7 +81,6 @@ For reference, trials found for other predicted indications:
 
 Currently no related literature available for malignant hypertensive renal disease.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [29159953](https://pubmed.ncbi.nlm.nih.gov/29159953/) | 2018 | Cohort | Eur J Heart Fail | Danish nationwide cohort comparing carvedilol with metoprolol/bisoprolol/nebivolol in heart failure with COPD |
@@ -97,14 +96,15 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11728P | NEBILET TABLET 5 mg | Tablet | Not stated in the registration record |
-| SIN16446P | NEVODIO TABLET 5MG | Tablet | Not stated in the registration record |
-| SIN16481P | NEBIVOLOL STELLA TABLET 5MG | Tablet | Not stated in the registration record |
-| SIN15958P | NEVOPRES TABLET 5MG | Tablet | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11728P | NEBILET TABLET 5 mg | TABLET | Valid |
+| SIN15958P | NEVOPRES TABLET 5MG | TABLET | Valid |
+| SIN16446P | NEVODIO TABLET 5MG | TABLET | Valid |
+| SIN16481P | NEBIVOLOL STELLA TABLET 5MG | TABLET | Valid |
+| SIN16486P | NOXBETA TABLET 5 MG | TABLET | Valid |
 
-All four are valid single-ingredient oral tablet licences.
+Showing 5 of 7 HSA registrations.
 
 ## Safety Considerations
 

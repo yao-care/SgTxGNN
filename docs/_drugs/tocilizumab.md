@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 1000
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tocilizumab"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -88,10 +88,10 @@ However, the two placebo-controlled Phase 3 trials (BUILDER-1 and BUILDER-2 prog
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13723P | Actemra Concentrate for Solution for Infusion 20mg/ml | Infusion, solution concentrate | Not stated in the compiled records |
-| SIN14837P | Actemra 162mg Solution for Injection in Pre-filled Syringe 162mg/0.9ml | Injection, solution | Not stated in the compiled records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13723P | Actemra Concentrate for Solution for Infusion 20mg/ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14837P | Actemra 162mg Solution for Injection in Pre-filled Syringe 162mg/0.9ml | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

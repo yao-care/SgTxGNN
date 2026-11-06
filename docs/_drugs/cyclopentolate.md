@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cyclopentolate: predicted new indication cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,9 +69,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04201P | MINIMS CYCLOPENTOLATE HYDROCHLORIDE EYE DROPS 1% w/v | Solution | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04201P | MINIMS CYCLOPENTOLATE HYDROCHLORIDE EYE DROPS 1% w/v | SOLUTION | Valid |
 
 ## Safety Considerations
 

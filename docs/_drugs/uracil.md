@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Uracil"
 predicted_indications: ["lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Uracil: predicted new indication Lipoma of colon (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,9 +69,9 @@ Currently no related literature available for this disease.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03692P | UFT CAPSULE (Taiho Pharmaceutical) | Capsule | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03692P | UFT CAPSULE | CAPSULE | Valid |
 
 ## Cytotoxicity
 

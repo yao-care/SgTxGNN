@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 120
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Atracurium: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 
 ## Known uses recorded for this drug
 
@@ -74,7 +74,9 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN06058P | TRACRIUM INJECTION 10 mg/ml | INJECTION | Valid |
 | SIN14533P | Atracurium-hameln Injection 10mg/ml | INJECTION, SOLUTION | Valid |
+| SIN14836P | ATRACURIUM LABATEC IV SOLUTION FOR INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
 | SIN16945P | NOTRIXUM INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations

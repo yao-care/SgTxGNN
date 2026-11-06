@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **nephrogenic syndrome of inappropria
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 18 of 18) |
-| Number of Registrations | 18 (valid: 18) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,20 +94,21 @@ For NSIAD, currently no related literature is available. The most relevant publi
 | [12369265](https://pubmed.ncbi.nlm.nih.gov/12369265/) | 2002 | Small experimental study | Prog Neuropsychopharmacol Biol Psychiatry | Fentanyl-induced prolactin response used as an opiate sensitivity test in stereotypic movement disorder and trichotillomania; a diagnostic probe, not a therapeutic trial |
 | [15102255](https://pubmed.ncbi.nlm.nih.gov/15102255/) | 2001 | Case report | Pain Medicine | Limited transdermal fentanyl absorption in two patients with systemic sclerosis, one treated for deltoid tendinitis |
 
-
 ---
 
 ## Singapore Market Information
 
-Fentanyl holds 18 valid single-ingredient registrations in Singapore. The approved indication text is not available in the registration data. Main authorizations:
+The approved indication text is not available in the registration data. Main authorizations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08332P | DUROGESIC Transdermal System 75 mcg/hr | Patch | Not available |
-| SIN15148P | ABSTRAL Sublingual Tablet 200 mcg | Tablet | Not available |
-| SIN13621P | FANTAMAX TTS MATRIX 50 μg/h | Patch | Not available |
-| SIN15802P | Fentanyl Kalceks Solution for Injection 0.05 mg/ml | Injection, solution | Not available |
-| SIN01113P | Fentanyl Injection 0.1 mg/2 ml | Injection | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01113P | FENTANYL INJECTION 0.1 mg/2 ml | INJECTION | Valid |
+| SIN10358P | Fentanyl 50 micrograms/ml Solution for Injection | INJECTION | Valid |
+| SIN13542P | Fentanyl-hameln Injection 50 mcg/ml | INJECTION, SOLUTION | Valid |
+| SIN13620P | FANTAMAX TTS MATRIX 25μg/h | PATCH | Valid |
+| SIN13621P | FANTAMAX TTS MATRIX 50μg/h | PATCH | Valid |
+
+Showing 5 of 16 HSA registrations.
 
 ---
 

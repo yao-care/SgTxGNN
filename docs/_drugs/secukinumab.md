@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 897
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Secukinumab: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -76,10 +76,10 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Secukinumab,
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16359P | COSENTYX SOLUTION FOR INJECTION IN PRE-FILLED UNOREADY PEN 3 | INJECTION, SOLUTION | Valid |
-| SIN14751P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SYRINGE 150MG/M | INJECTION, SOLUTION | Valid |
-| SIN14750P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SENSOREADY PEN  | INJECTION, SOLUTION | Valid |
-| SIN16315P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SYRINGE 75MG/0. | INJECTION, SOLUTION | Valid |
+| SIN14750P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SENSOREADY PEN 150MG/ML | INJECTION, SOLUTION | Valid |
+| SIN14751P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SYRINGE 150MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16315P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SYRINGE 75MG/0.5ML | INJECTION, SOLUTION | Valid |
+| SIN16359P | COSENTYX SOLUTION FOR INJECTION IN PRE-FILLED UNOREADY PEN 300MG/2ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

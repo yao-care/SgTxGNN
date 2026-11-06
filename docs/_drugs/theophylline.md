@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Asthma, bronchitis, pulmonary emphysema and related airway diseases"
 ---
 
@@ -50,8 +50,8 @@ The prediction is therefore supported by the model score alone.
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,13 +83,15 @@ No retrieved paper directly studies theophylline for thrombotic disease. The clo
 
 The licence records contain no approved indication text.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11399P | NUELIN-SR 125 TABLET | Tablet | Not stated in the records |
-| SIN10679P | NUELIN-SR 250 TABLET | Tablet | Not stated in the records |
-| SIN03139P | THEOPHYLLINE TABLETS 100 mg | Tablet | Not stated in the records |
-| SIN09668P | APO-THEO LA TABLET 200 mg | Tablet | Not stated in the records |
-| SIN10158P | APO-THEO LA TABLET 100 mg | Tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02770P | NUELIN SYRUP 80 mg/15 ml | SYRUP | Valid |
+| SIN03139P | THEOPHYLLINE TABLETS 100 mg | TABLET | Valid |
+| SIN03147P | THEOLIN SR TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN03471P | AMINOPHYLLINE INJECTION 0.25 g/10 ml | INJECTION | Valid |
+| SIN09668P | APO-THEO LA TABLET 200 mg | TABLET | Valid |
+
+Showing 5 of 9 HSA registrations.
 
 Three further licences are held: APO-THEO LA 300 mg, THEOLIN SR 250 mg (film-coated tablet) and NUELIN syrup 80 mg/15 ml.
 

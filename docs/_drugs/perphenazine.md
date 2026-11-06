@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 781
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Perphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "atypical glycine encephalopathy"]
 description: "Perphenazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -63,7 +63,6 @@ Currently, detailed mechanism of action data is not available. Perphenazine is a
 
 **No credible mechanistic link to retinal dystrophy was identified.** The only literature item is a 1964 case report of pigmentary retinopathy caused by thioridazine, a related phenothiazine. That report describes drug-induced retinal toxicity, not therapeutic benefit. If anything, it is a safety signal against using this drug class in retinal disease. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -82,10 +81,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN00437P | APO-PERPHENAZINE TABLET 8 mg (Apotex Inc) | Film-coated tablet |
-| SIN00444P | APO-PERPHENAZINE TABLET 4 mg (Apotex Inc) | Film-coated tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00437P | APO-PERPHENAZINE TABLET 8 mg | TABLET, FILM COATED | Valid |
+| SIN00444P | APO-PERPHENAZINE TABLET 4 mg | TABLET, FILM COATED | Valid |
 
 Both licences are valid single-ingredient oral products. Approved indication text is not recorded for either.
 

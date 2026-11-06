@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 152
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Betahistine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,10 +74,10 @@ The TxGNN deep-learning model produced no candidate with a score of 0.99 or high
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN03047P | MERISLON TABLET 6 mg | TABLET | Valid |
 | SIN11365P | BETASERC TABLETS 16 mg | TABLET | Valid |
 | SIN12235P | BETASERC 24 TABLET 24 mg | TABLET | Valid |
 | SIN16812P | GP-BETAHISTINE TABLETS 24MG | TABLET | Valid |
-| SIN03047P | MERISLON TABLET 6 mg | TABLET | Valid |
 
 ## Safety Considerations
 

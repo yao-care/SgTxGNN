@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ceftolozane: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -77,11 +77,9 @@ For reference, the only publication retrieved across the predictions is a 2016 g
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15317P | ZERBAXA POWDER FOR SOLUTION FOR INJECTION 1G/0.5G | Injection, powder, for solution | Not stated in the licence record |
-
-This is one single-ingredient licence and its status is valid.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15317P | ZERBAXA POWDER FOR SOLUTION FOR INJECTION 1G/0.5G | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Thiamine: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not available"
 ---
 
@@ -88,13 +88,15 @@ These studies show associations between nutritional or metabolic status and glau
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12077P | DANEURON TABLET | Tablet, film coated | Not stated in the licence record |
-| SIN10891P | NEURO-B TABLET | Tablet, film coated | Not stated in the licence record |
-| SIN07635P | VITAMIN B FORTE TABLET | Tablet, film coated | Not stated in the licence record |
-| SIN06262P | NEUROBION INJECTION | Injection | Not stated in the licence record |
-| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN05447P | IBERET-FOLIC-500 TABLET | TABLET, FILM COATED | Valid |
+| SIN07635P | VITAMIN B FORTE TABLET | TABLET, FILM COATED | Valid |
+| SIN08700P | NEUROFORTE TABLET | TABLET, FILM COATED | Valid |
+| SIN08875P | NEUROGEN-E TABLET | TABLET, FILM COATED | Valid |
+
+Showing 5 of 10 HSA registrations.
 
 Five of the ten valid licences are shown. All ten are recorded as single-ingredient products, with oral film-coated tablets and injectable forms.
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 652
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The best-supported prediction in the data compiled for this report is actually *
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 17 of 17) |
-| Number of Registrations | 17 (valid: 17) |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -111,15 +111,17 @@ For urinary tract infection, higher-level evidence is available:
 
 ## Singapore Market Information
 
-Meropenem has 17 valid single-ingredient registrations, all injectable powders for solution. Approved indication text is not listed in the registration data. The main authorizations are:
+Approved indication text is not listed in the registration data. The main authorizations are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09033P | Meronem Powder for Solution for IV Injection or Infusion 1 g/vial | Injection, powder, for solution | Not listed |
-| SIN14471P | Meronem Powder for Solution for IV Injection or Infusion 500 mg | Injection, powder, for solution | Not listed |
-| SIN14039P | Meropenem Mevon 500 mg/vial | Injection, powder, for solution | Not listed |
-| SIN14660P | Meropenem Labatec IV 500 mg/vial | Injection, powder, for solution | Not listed |
-| SIN17224P | Vaborem Powder for Concentrate for Solution for Infusion 1 g/1 g (meropenem-vaborbactam) | Injection, powder, for solution | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09033P | Meronem Powder for Solution for Intravenous Injection or Infusion 1 g/ | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14014P | Meropenem Mevon Powder for Solution for Injection or Infusion 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14039P | Meropenem Mevon Powder for Solution for Injection or Infusion 500 mg/v | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14445P | ARCHIFAR POWDER FOR SOLUTION FOR INJECTION/INFUSION 500MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14471P | Meronem Powder for Solution for Intravenous Injection or Infusion 500m | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+Showing 5 of 19 HSA registrations.
 
 ## Safety Considerations
 

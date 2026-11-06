@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 446
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fluticasone Propionate: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced candidate indications for Fluticasone Pro
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 18 of 18) |
-| Number of Registrations | 18 (valid: 18) |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 
 ## Known uses among the model's candidates
 
@@ -75,24 +75,26 @@ The TxGNN deep-learning model produced candidate indications for Fluticasone Pro
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN11358P | FLIXOTIDE EVOHALER 50 mcg | AEROSOL, SPRAY | Valid |
 | SIN07090P | FLIXONASE AQUEOUS NASAL SPRAY 0.05% w/w | SPRAY | Valid |
-| SIN11347P | FLIXOTIDE EVOHALER 125 mcg | AEROSOL, SPRAY | Valid |
-| SIN13983P | APO-FLUTICASONE AQUEOUS NASAL SPRAY 50MCG/SPRAY | SPRAY, METERED | Valid |
 | SIN08628P | CUTIVATE CREAM 0.05% w/w | CREAM | Valid |
-| SIN11531P | SERETIDE EVOHALER 25/250 mcg | AEROSOL, SPRAY | Valid |
-| SIN14549P | FLUTIFORM® PRESSURISED INHALATION, SUSPENSION 50 MICROGRAM/5 | AEROSOL, METERED | Valid |
+| SIN11347P | FLIXOTIDE EVOHALER 125 mcg | AEROSOL, SPRAY | Valid |
+| SIN11358P | FLIXOTIDE EVOHALER 50 mcg | AEROSOL, SPRAY | Valid |
 | SIN11030P | SERETIDE 50/100 ACCUHALER 50 mcg/100 mcg | POWDER, METERED | Valid |
+| SIN11031P | SERETIDE 50/250 ACCUHALER 50 mcg/250 mcg | POWDER, METERED | Valid |
+| SIN11032P | SERETIDE 50/500 ACCUHALER 50 mcg/500 mcg | POWDER, METERED | Valid |
+| SIN11529P | SERETIDE EVOHALER 25/50 mcg | AEROSOL, SPRAY | Valid |
+| SIN11530P | SERETIDE EVOHALER 25/125 mcg | AEROSOL, SPRAY | Valid |
+| SIN11531P | SERETIDE EVOHALER 25/250 mcg | AEROSOL, SPRAY | Valid |
+| SIN14549P | FLUTIFORM® PRESSURISED INHALATION, SUSPENSION 50 MICROGRAM/5 MICROGRAM | AEROSOL, METERED | Valid |
+| SIN14550P | FLUTIFORM® PRESSURISED INHALATION, SUSPENSION 125 MICROGRAM/5 MICROGRA | AEROSOL, METERED | Valid |
+| SIN14551P | FLUTIFORM® PRESSURISED INHALATION, SUSPENSION 250 MICROGRAM/10 MICROGR | AEROSOL, METERED | Valid |
+| SIN15255P | DYMISTA NASAL SPRAY | SPRAY, METERED | Valid |
+| SIN15256P | SYNAZE NASAL SPRAY | SPRAY, METERED | Valid |
 | SIN16909P | SALFLUMIX EASYHALER INHALATION POWDER 50µG/250µG/DOSE | POWDER, METERED | Valid |
 | SIN16910P | SALFLUMIX EASYHALER INHALATION POWDER 50µG/500µG/DOSE | POWDER, METERED | Valid |
-| SIN11032P | SERETIDE 50/500 ACCUHALER 50 mcg/500 mcg | POWDER, METERED | Valid |
-| SIN14550P | FLUTIFORM® PRESSURISED INHALATION, SUSPENSION 125 MICROGRAM/ | AEROSOL, METERED | Valid |
-| SIN11529P | SERETIDE EVOHALER 25/50 mcg | AEROSOL, SPRAY | Valid |
-| SIN15256P | SYNAZE NASAL SPRAY | SPRAY, METERED | Valid |
-| SIN11031P | SERETIDE 50/250 ACCUHALER 50 mcg/250 mcg | POWDER, METERED | Valid |
-| SIN14551P | FLUTIFORM® PRESSURISED INHALATION, SUSPENSION 250 MICROGRAM/ | AEROSOL, METERED | Valid |
-| SIN11530P | SERETIDE EVOHALER 25/125 mcg | AEROSOL, SPRAY | Valid |
-| SIN15255P | DYMISTA NASAL SPRAY | SPRAY, METERED | Valid |
+| SIN17479P | RESPIRO AEROSOL INHALER 25MCG/250MCG PER DOSE | AEROSOL, METERED | Valid |
+
+Showing 18 of 19 HSA registrations.
 
 ## Safety Considerations
 

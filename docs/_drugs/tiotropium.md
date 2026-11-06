@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 993
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,10 +84,10 @@ None of these publications directly studies tiotropium in respiratory malformati
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15885P | SPIRIVA® RESPIMAT® Re-usable Solution for Inhalation 2.5 microgram | Solution | Not stated in the available data |
-| SIN15890P | SPIOLTO® RESPIMAT® Re-usable Solution for Inhalation 2.5 microgram / 2.5 microgram | Solution | Not stated in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15885P | SPIRIVA® RESPIMAT® RE-USABLE SOLUTION FOR INHALATION 2.5 MICROGRAM | SOLUTION | Valid |
+| SIN15890P | SPIOLTO® RESPIMAT® RE-USABLE SOLUTION FOR INHALATION 2.5 MICROGRAM / 2 | SOLUTION | Valid |
 
 Both licences are currently valid. SPIOLTO® is a two-ingredient inhalation product (2.5 µg / 2.5 µg), so its licence does not describe the single-ingredient drug.
 

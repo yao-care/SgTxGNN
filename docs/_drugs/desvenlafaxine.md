@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 318
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -91,9 +91,9 @@ None of these publications tests desvenlafaxine in OCD.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13859P | Pristiq Extended-Release Tablet 50mg (Pfizer Ireland Pharmaceuticals) | Extended-release tablet (oral) | Indication text not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13859P | Pristiq Extended-Release Tablet 50mg | TABLET, EXTENDED RELEASE | Valid |
 
 ---
 

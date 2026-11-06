@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 294
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Dabrafenib: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,9 +74,9 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN14830P | TAFINLAR HARD CAPSULE 50MG | CAPSULE | Valid |
 | SIN14831P | TAFINLAR HARD CAPSULE 75MG | CAPSULE | Valid |
 | SIN17019P | TAFINLAR DISPERSIBLE TABLET 10MG | TABLET, FOR SUSPENSION | Valid |
-| SIN14830P | TAFINLAR HARD CAPSULE 50MG | CAPSULE | Valid |
 
 ## Cytotoxicity
 

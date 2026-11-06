@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Panitumumab"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
 description: "Panitumumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,9 +72,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14498P | Vectibix Concentrate for Solution for Infusion 100 mg/vial (Amgen Manufacturing Limited LLC) | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14498P | Vectibix Concentrate for Solution for Infusion 100 mg/vial | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 914
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ This indication largely overlaps with simvastatin's existing lipid-lowering uses
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 27 of 27) |
+| Number of Registrations | 27 (valid: 27) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -94,15 +94,17 @@ The trials most directly relevant to simvastatin are NCT00552097 and NCT00129402
 
 ## Singapore Market Information
 
-All 20 registrations are single-ingredient, film-coated oral tablets and are currently valid. No approved indication text is recorded in the licence data. The main authorizations are listed below.
+No approved indication text is recorded in the licence data. The main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03789P | ZOCOR TABLET 10 mg | Film-coated tablet | Not recorded |
-| SIN08893P | ZOCOR TABLET 20 mg | Film-coated tablet | Not recorded |
-| SIN13482P | Apo-Simvastatin 10mg Tablet | Film-coated tablet | Not recorded |
-| SIN14454P | KARDAK 40 FILM-COATED TABLETS 40 MG | Film-coated tablet | Not recorded |
-| SIN12094P | COVASTIN TABLET 40 mg | Film-coated tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03789P | ZOCOR TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN08893P | ZOCOR TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN11809P | SIMVOR 10 TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN11815P | SIMVOR 20 TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN11888P | SIMLO-10 TABLET 10 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 27 HSA registrations.
 
 ## Safety Considerations
 

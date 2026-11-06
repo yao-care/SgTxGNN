@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 845
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The best-supported candidate in the data compiled for this report is **trichotil
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 26 of 26) |
+| Number of Registrations | 26 (valid: 26) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,15 +83,17 @@ Note that one report (PMID 11212595) describes quetiapine worsening obsessive-co
 
 ## Singapore Market Information
 
-Twenty valid single-ingredient registrations exist; five are shown below. The records contain no approved indication text.
+The records contain no approved indication text.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09767P | SEROQUEL TABLET 100 mg | Film-coated tablet | Not recorded |
-| SIN13502P | Seroquel XR Tablet 50mg | Extended-release tablet | Not recorded |
-| SIN13769P | Ketipinor Tablet 200 mg | Film-coated tablet | Not recorded |
-| SIN14342P | APO-QUETIAPINE TABLET 25MG | Film-coated tablet | Not recorded |
-| SIN16689P | SAQUIN SR PROLONGED-RELEASE TABLETS 50MG | Extended-release tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09766P | SEROQUEL TABLET 25 mg | TABLET, FILM COATED | Valid |
+| SIN09767P | SEROQUEL TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN09771P | SEROQUEL TABLET 200 mg | TABLET, FILM COATED | Valid |
+| SIN13236P | SEROQUEL TABLET 300mg | TABLET, FILM COATED | Valid |
+| SIN13502P | Seroquel XR Tablet 50mg | TABLET, EXTENDED RELEASE | Valid |
+
+Showing 5 of 26 HSA registrations.
 
 All products are oral formulations (immediate-release and extended-release tablets).
 

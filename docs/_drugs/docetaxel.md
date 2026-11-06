@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 342
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -90,13 +90,15 @@ Reported responses in Ewing sarcoma are modest and come from small studies, most
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14106P | Taxotere Concentrate for Solution for Infusion 20mg/ml | Infusion, solution concentrate | Not available |
-| SIN14107P | Taxotere Concentrate for Solution for Infusion 80mg/4ml | Infusion, solution concentrate | Not available |
-| SIN14218P | Hospira Docetaxel Concentrate for Solution for Infusion 20 mg / 2 ml | Infusion, solution | Not available |
-| SIN14564P | Docetaxel Sandoz Concentrate for Solution for Infusion 10mg/ml | Injection, solution, concentrate | Not available |
-| SIN15109P | Daxotel Concentrate for Solution for Infusion 20mg/ml | Injection, solution, concentrate | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14106P | Taxotere Concentrate for Solution for Infusion 20mg/ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14107P | Taxotere Concentrate for Solution for Infusion 80mg/4ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14218P | Hospira Docetaxel Concentrate for Solution for Infusion 20 mg / 2 ml | INFUSION, SOLUTION | Valid |
+| SIN14219P | Hospira Docetaxel Concentrate for Solution for Infusion 80 mg / 8 ml | INFUSION, SOLUTION | Valid |
+| SIN14564P | DOCETAXEL SANDOZ CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+
+Showing 5 of 12 HSA registrations.
 
 Twelve single-ingredient licences are valid in total; the five above are the main examples.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 608
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Lithium carbonate"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
 description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,9 +78,9 @@ For context, one general review is linked to a lower-ranked prediction, brachyol
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01305P | CAMCOLIT-400 TABLET 400 mg | Film-coated tablet (oral) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01305P | CAMCOLIT-400 TABLET 400 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

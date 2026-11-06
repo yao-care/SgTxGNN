@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cyanocobalamin: predicted new indication biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 | Predicted New Indication | biotin metabolic disease |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,15 +73,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07876P | VITAMIN B12 INJECTION 1000 mcg/ml | Injection | Not recorded |
-| SIN06258P | NEUROBION TABLET | Tablet, sugar coated | Not recorded |
-| SIN12077P | DANEURON TABLET | Tablet, film coated | Not recorded |
-| SIN15098P | NEUROBION TABLET (OTC) | Tablet, sugar coated | Not recorded |
-| SIN10891P | NEURO-B TABLET | Tablet, film coated | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07876P | VITAMIN B12 INJECTION 1000 mcg/ml | INJECTION | Valid |
+| SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN06258P | NEUROBION TABLET | TABLET, SUGAR COATED | Valid |
+| SIN07635P | VITAMIN B FORTE TABLET | TABLET, FILM COATED | Valid |
+| SIN08700P | NEUROFORTE TABLET | TABLET, FILM COATED | Valid |
 
-All 14 licences are valid. The five listed above are examples, not the full list.
+Showing 5 of 12 HSA registrations.
+
+The five listed above are examples, not the full list.
 
 ## Safety Considerations
 

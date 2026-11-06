@@ -3,7 +3,7 @@ layout: default
 title: Butylscopolamine
 parent: Known Uses Only (No New Predictions)
 nav_order: 187
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Butylscopolamine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Butylscopolamine"
 predicted_indications: []
@@ -41,20 +41,22 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10096P | COPAN INJECTION 20 mg/ml | Injection | Not listed |
-| SIN03553P | HYOSCINE BUTYLBROMIDE TABLET 10 mg | Tablet, film coated | Not listed |
-| SIN03082P | SPASMOLIV TABLET 10 mg | Tablet, film coated | Not listed |
-| SIN03574P | BUSCOPAN TABLET 10 mg | Tablet, sugar coated | Not listed |
-| SIN02575P | DHACOPAN TABLET 10 mg | Tablet, film coated | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02575P | DHACOPAN TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN02854P | HYOMIDE TABLET 10 mg | TABLET, SUGAR COATED | Valid |
+| SIN03082P | SPASMOLIV TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN03574P | BUSCOPAN TABLET 10 mg | TABLET, SUGAR COATED | Valid |
+| SIN03683P | COSPAN INJ. 20 mg/ml | INJECTION | Valid |
 
-A sixth authorization, SIN03683P (COSPAN INJ. 20 mg/ml, injection), is also valid. All 6 registrations are valid single-ingredient products.
+Showing 5 of 10 HSA registrations.
+
+A sixth authorization, SIN03683P (COSPAN INJ. 20 mg/ml, injection), is also valid.
 
 ## Safety Considerations
 

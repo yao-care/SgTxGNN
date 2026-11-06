@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Gimeracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
 description: "Gimeracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -87,10 +87,10 @@ No randomised trials or systematic reviews were identified. The available litera
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13672P | TS-ONE Capsule 20 | Capsule | Not stated in the available licence record |
-| SIN13673P | TS-ONE Capsule 25 | Capsule | Not stated in the available licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13672P | TS-ONE Capsule 20 | CAPSULE | Valid |
+| SIN13673P | TS-ONE Capsule 25 | CAPSULE | Valid |
 
 Both licences are valid single-ingredient registrations held by Taiho Pharmaceutical Co., Ltd. (Tokushima Plant), for oral use.
 

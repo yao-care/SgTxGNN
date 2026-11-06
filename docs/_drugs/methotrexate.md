@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 657
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,7 +91,6 @@ The top-ranked prediction (pulmonary blastoma) has no registered trials. The tri
 
 The remaining Hodgkin-listed trials are mostly NHL protocols, transplant studies and GVHD prophylaxis studies. None is a Hodgkin-specific trial of methotrexate as the antilymphoma agent.
 
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT03520842](https://clinicaltrials.gov/study/NCT03520842) | Phase 2 | Completed | 22 | Regorafenib plus oral methotrexate in KRAS-mutated NSCLC; the only anticancer methotrexate combination, but in NSCLC |
@@ -112,7 +111,6 @@ The remaining Hodgkin-listed trials are mostly NHL protocols, transplant studies
 | [15747120](https://pubmed.ncbi.nlm.nih.gov/15747120/) | 2005 | Clinical study | Ann Hematol | Modified ProMACE-MOPP with moderate-dose methotrexate in 32 primary CNS lymphoma patients |
 | [38720609](https://pubmed.ncbi.nlm.nih.gov/38720609/) | 2024 | Case report | Kyobu Geka | Primary pulmonary DLBCL arising from methotrexate-associated lymphoproliferative disorder (a safety signal) |
 | [32590768](https://pubmed.ncbi.nlm.nih.gov/32590768/) | 2020 | Case report | Medicine | Two cases of primary pulmonary NK/T-cell lymphoma plus literature review |
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -146,13 +144,15 @@ Pulmonary blastoma and the other L5 entries (fetal adenocarcinoma of the lung, C
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16395P | Methotrexate Orion Tablets 2.5 mg | Tablet | Not listed in the data |
-| SIN00260P | Methotrexate Tablet 2.5 mg | Tablet | Not listed in the data |
-| SIN16737P | Merex 2.5-Methotrexate Tablets USP 2.5 mg | Tablet | Not listed in the data |
-| SIN00758P | DBL Methotrexate Injection BP 50 mg/2 ml (without preservative) | Injection | Not listed in the data |
-| SIN12414P | Emthexate 2.5 Tablet 2.5 mg | Tablet | Not listed in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00242P | DBL METHOTREXATE INJECTION BP 1 g/10 ml | INJECTION | Valid |
+| SIN00260P | METHOTREXATE TABLET 2.5 mg | TABLET | Valid |
+| SIN00758P | DBL METHOTREXATE INJECTION BP 50 mg/2 ml (WITHOUT PRESERVATIVE) | INJECTION | Valid |
+| SIN12414P | EMTHEXATE 2.5 TABLET 2.5 mg | TABLET | Valid |
+| SIN16395P | METHOTREXATE ORION TABLETS 2.5 MG | TABLET | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 Two further licenses are valid: SIN00242P (DBL Methotrexate Injection BP 1 g/10 ml) and SIN17136P (Methotrexate Remedica film-coated tablet 2.5 mg). All 7 are single-ingredient products, and none is cancelled. Both oral and injectable routes are available.
 

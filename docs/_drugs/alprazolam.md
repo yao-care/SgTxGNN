@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 70
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Alprazolam"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
 description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -80,13 +80,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01984P | XANAX TABLET 0.25 mg | Tablet, film coated | Not recorded |
-| SIN01985P | XANAX TABLET 0.5 mg | Tablet, film coated | Not recorded |
-| SIN09173P | XANAX XR EXTENDED-RELEASE TABLET 0.5 mg | Tablet, sugar coated | Not recorded |
-| SIN09175P | XANAX XR EXTENDED-RELEASE TABLET 1 mg | Tablet, sugar coated | Not recorded |
-| SIN07871P | APO-ALPRAZ TABLET 0.5 mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01984P | XANAX TABLET 0.25 mg | TABLET, FILM COATED | Valid |
+| SIN01985P | XANAX TABLET 0.5 mg | TABLET, FILM COATED | Valid |
+| SIN07871P | APO-ALPRAZ TABLET 0.5 mg | TABLET | Valid |
+| SIN07872P | APO-ALPRAZ TABLET 0.25 mg | TABLET | Valid |
+| SIN09173P | XANAX XR EXTENDED-RELEASE TABLET 0.5 mg | TABLET, SUGAR COATED | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 All seven single-ingredient licences are valid.
 

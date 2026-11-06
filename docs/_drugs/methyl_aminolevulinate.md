@@ -5,7 +5,7 @@ layout: default
 title: Methyl Aminolevulinate
 parent: Known Uses Only (No New Predictions)
 nav_order: 660
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Methyl Aminolevulinate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "methyl aminolevulinate"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13410P | Metvix 160mg/g Cream (Laboratoires GALDERMA) | Cream (topical) | Not stated in the available license record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13410P | Metvix 160mg/g Cream | CREAM | Valid |
 
 ## Safety Considerations
 

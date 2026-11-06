@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1052
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
 description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This is a research question, not a therapeutic candidate.
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 19 of 19) |
-| Number of Registrations | 19 (valid: 19) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,15 +75,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-All 19 registrations are valid single-ingredient licences. The data compiled for this report contains no approved indication text. The five below are examples.
+The data compiled for this report contains no approved indication text. The five below are examples.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not available |
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not available |
-| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Not available |
-| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Not available |
-| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
+
+Showing 5 of 18 HSA registrations.
 
 The other registrations include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B.Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega (several variants). Dosage forms are infusion solutions, injections and emulsions.
 

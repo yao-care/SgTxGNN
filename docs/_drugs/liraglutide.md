@@ -5,7 +5,7 @@ layout: default
 title: Liraglutide
 parent: Known Uses Only (No New Predictions)
 nav_order: 605
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Liraglutide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Liraglutide"
 predicted_indications: []
@@ -43,17 +43,19 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13905P | Victoza® solution for injection in pre-filled pen 6mg/ml | Injection, solution | — |
-| SIN15338P | SAXENDA® solution for injection in pre-filled pen 6mg/ml | Injection, solution | — |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13905P | Victoza® solution for injection in pre-filled pen 6mg/ml | INJECTION, SOLUTION | Valid |
+| SIN15338P | SAXENDA® SOLUTION FOR INJECTION IN PRE-FILLED PEN 6MG/ML | INJECTION, SOLUTION | Valid |
+| SIN17341P | DIAGLUTIDE SOLUTION FOR INJECTION IN PRE-FILLED PEN 6MG/ML | INJECTION | Valid |
+| SIN17342P | OBETIDE SOLUTION FOR INJECTION IN PRE-FILLED PEN 6MG/ML | INJECTION | Valid |
 
-Both authorizations are valid single-ingredient products, and neither has been cancelled. Both are manufactured by Novo Nordisk. The data compiled for this report contain no approved-indication text for either.
+Both are manufactured by Novo Nordisk. The data compiled for this report contain no approved-indication text for either.
 
 ## Safety Considerations
 

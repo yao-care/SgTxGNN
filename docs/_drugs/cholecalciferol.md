@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cholecalciferol: predicted new indication Acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Vitamin D deficiency, rickets, osteomalacia, osteoporosis…"
 ---
 
@@ -50,8 +50,8 @@ However, there are **0 clinical trials** and **0 publications** supporting this 
 | Predicted New Indication | Acromesomelic dysplasia, Campailla Martinelli type |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,13 +70,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15254P | D-CURE ORAL SOLUTION 25000IU | Solution | Not listed in the licence record |
-| SIN17171P | GP CHOLECALCIFEROL SOFTGEL CAPSULE 25,000 IU | Capsule, liquid filled | Not listed in the licence record |
-| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution | Not listed in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15254P | D-CURE ORAL SOLUTION 25000IU | SOLUTION | Valid |
+| SIN17171P | GP CHOLECALCIFEROL SOFTGEL CAPSULE 25,000 IU | CAPSULE, LIQUID FILLED | Valid |
+| SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13152P | Fosamax Plus™ 70mg/2800IU Tablet | TABLET | Valid |
 
-All three licences are valid and recorded as single-ingredient products. The product name of SIN11975P suggests a multivitamin injection, so its details should be checked before it is treated as representative of cholecalciferol alone. Because no indication text is recorded, no approved use can be stated from the data compiled for this report.
+The product name of SIN11975P suggests a multivitamin injection, so its details should be checked before it is treated as representative of cholecalciferol alone. Because no indication text is recorded, no approved use can be stated from the data compiled for this report.
 
 ## Safety Considerations
 

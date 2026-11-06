@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Carboplatin"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carboplatin: predicted new indication rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,11 +70,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16203P | KEMOCARB CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/ML | Infusion, solution concentrate | Not recorded in the local data |
-| SIN02301P | DBL CARBOPLATIN INJECTION 10 mg/ml | Injection | Not recorded in the local data |
-| SIN10356P | CARBOTINOL INJECTION 50 mg/5 ml | Injection | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02301P | DBL CARBOPLATIN INJECTION 10 mg/ml | INJECTION | Valid |
+| SIN10356P | CARBOTINOL INJECTION 50 mg/5 ml | INJECTION | Valid |
+| SIN16203P | KEMOCARB CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Cytotoxicity
 

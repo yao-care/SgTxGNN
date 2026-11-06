@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 849
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Raltegravir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -85,9 +85,9 @@ The table lists the most relevant publications for SIV infection (all preclinica
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13568P | ISENTRESS® 400MG TABLET | Tablet, film coated | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13568P | ISENTRESS® 400MG TABLET | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

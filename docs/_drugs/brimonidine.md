@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 174
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Brimonidine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 5 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 9 of 9) |
-| Number of Registrations | 9 (valid: 9) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 
 ## Known uses recorded for this drug
 
@@ -77,15 +77,17 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN17198P | ALPHAGAN P OPHTHALMIC SOLUTION 0.1% w/v | SOLUTION, STERILE | Valid |
-| SIN12336P | ALPHAGAN P OPHTHALMIC SOLUTION 0.15% w/v | SOLUTION | Valid |
-| SIN17034P | RIMONAL EYE DROPS 0.15% w/v | SOLUTION, STERILE | Valid |
 | SIN09788P | ALPHAGAN OPHTHALMIC SOLUTION 0.2% | SOLUTION | Valid |
-| SIN15099P | BRIMOCHEK EYE DROPS 0.2% | SOLUTION, STERILE | Valid |
+| SIN12336P | ALPHAGAN P OPHTHALMIC SOLUTION 0.15% w/v | SOLUTION | Valid |
 | SIN14828P | MIRVASO GEL 3MG/G | GEL | Valid |
-| SIN15085P | SIMBRINZA EYE DROPS, SUSPENSION 10 MG/ML + 2 MG/ML | SUSPENSION, STERILE | Valid |
+| SIN15099P | BRIMOCHEK EYE DROPS 0.2% | SOLUTION, STERILE | Valid |
+| SIN17034P | RIMONAL EYE DROPS 0.15% w/v | SOLUTION, STERILE | Valid |
+| SIN17198P | ALPHAGAN P OPHTHALMIC SOLUTION 0.1% w/v | SOLUTION, STERILE | Valid |
 | SIN13406P | COMBIGAN® | SOLUTION, STERILE | Valid |
+| SIN15085P | SIMBRINZA EYE DROPS, SUSPENSION 10 MG/ML + 2 MG/ML | SUSPENSION, STERILE | Valid |
 | SIN15191P | BRIMOCHEK -T EYE DROPS SOLUTION | SOLUTION, STERILE | Valid |
+
+Showing 9 of 10 HSA registrations.
 
 ## Safety Considerations
 

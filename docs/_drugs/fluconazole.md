@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 9 of 9) |
-| Number of Registrations | 9 (valid: 9) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,6 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 Currently, detailed mechanism of action data is not available. Based on known information, fluconazole is an azole antifungal that is generally understood to inhibit fungal ergosterol synthesis. Its efficacy in superficial and invasive fungal infections is established, but this general knowledge is not supported by mechanism data compiled for this report.
 
 The link to the predicted indication is weak. Punctate epithelial keratoconjunctivitis is often viral or inflammatory in origin, so an antifungal rationale is not apparent. The high score (0.9924, rank 8,703) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This should be treated as a model prediction only.
-
 
 ---
 
@@ -80,15 +79,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06804P | DIFLUCAN CAPSULE 100 mg | Capsule | Not stated in licence record |
-| SIN04460P | DIFLUCAN CAPSULE 150 mg | Capsule | Not stated in licence record |
-| SIN05770P | DIFLUCAN FOR INFUSION 2 mg/ml | Injection | Not stated in licence record |
-| SIN15044P | FLUCONAZOLE KABI SOLUTION FOR INFUSION 2MG/ML | Infusion solution | Not stated in licence record |
-| SIN14781P | FLUCONAZOLE B.BRAUN SOLUTION FOR INFUSION 2MG/ML | Infusion solution | Not stated in licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04460P | DIFLUCAN CAPSULE 150 mg | CAPSULE | Valid |
+| SIN05770P | DIFLUCAN FOR INFUSION 2 mg/ml | INJECTION | Valid |
+| SIN06804P | DIFLUCAN CAPSULE 100 mg | CAPSULE | Valid |
+| SIN12599P | MEDOFLUCON 150 CAPSULE 150 mg | CAPSULE | Valid |
+| SIN12600P | MEDOFLUCON 50 CAPSULE 50 mg | CAPSULE | Valid |
 
-Nine valid single-ingredient licences exist in total. The remaining four are Apo-Fluconazole 150 mg (SIN13329P), Medoflucon 150 (SIN12599P), Medoflucon 50 (SIN12600P) and Omastin 50 mg (SIN13067P), all capsules. Available forms are oral (capsule) and injectable (infusion solution, injection). No topical or ophthalmic product is registered.
+Showing 5 of 10 HSA registrations.
+
+The remaining four are Apo-Fluconazole 150 mg (SIN13329P), Medoflucon 150 (SIN12599P), Medoflucon 50 (SIN12600P) and Omastin 50 mg (SIN13067P), all capsules. Available forms are oral (capsule) and injectable (infusion solution, injection). No topical or ophthalmic product is registered.
 
 ---
 

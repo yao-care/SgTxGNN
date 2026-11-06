@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1009
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,15 +72,17 @@ Currently no related literature available for the predicted indication.
 
 ## Singapore Market Information
 
-There are 13 valid single-ingredient registrations. The records contain no approved indication text. The 5 main authorizations are listed below.
+The records contain no approved indication text. The 5 main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10045P | ACUGESIC INJECTION 50 mg/ml (without preservative) | Injection | Not stated in the records |
-| SIN09131P | ACUGESIC TABLET 50 mg | Tablet | Not stated in the records |
-| SIN10057P | TRADOL INJECTION 50 mg/ml | Injection | Not stated in the records |
-| SIN08367P | TRAMADOL STADA INJECTION 100 mg/2 ml | Injection | Not stated in the records |
-| SIN08365P | TRAMADOL 50 STADA CAPSULE 50 mg | Capsule | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08114P | MABRON CAPSULE 50 mg | CAPSULE | Valid |
+| SIN08365P | TRAMADOL 50 STADA CAPSULE 50 mg | CAPSULE | Valid |
+| SIN08367P | TRAMADOL STADA INJECTION 100 mg/2 ml | INJECTION | Valid |
+| SIN08740P | MABRON INJECTION 100 mg/2 ml | INJECTION | Valid |
+| SIN08953P | ACUGESIC CAPSULE 50 mg | CAPSULE | Valid |
+
+Showing 5 of 13 HSA registrations.
 
 Available routes include oral (tablet, capsule, film-coated tablet) and injectable (injection, solution for injection).
 

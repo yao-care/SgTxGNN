@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Baricitinib"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Baricitinib: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,10 +69,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15505P | OLUMIANT FILM-COATED TABLET 4MG | Tablet, film coated | Not recorded in the local data |
-| SIN15504P | OLUMIANT FILM-COATED TABLET 2MG | Tablet, film coated | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15504P | OLUMIANT FILM-COATED TABLET 2MG | TABLET, FILM COATED | Valid |
+| SIN15505P | OLUMIANT FILM-COATED TABLET 4MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

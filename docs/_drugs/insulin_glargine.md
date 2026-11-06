@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 536
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -64,13 +64,15 @@ Other top-ranked predictions show similar patterns. Several (stiff person syndro
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16009P | Semglee Solution for Injection in a Prefilled Pen 100U/ml | Injection, solution | Not available |
-| SIN15138P | Toujeo SoloStar 300 units/ml solution for injection in a pre-filled pen | Injection, solution | Not available |
-| SIN11934P | Lantus 100 Units/ml Solution for injection in a vial | Injection | Not available |
-| SIN13426P | Lantus SoloStar 100 Units/ml Solution for injection in a pre-filled pen | Injection, solution | Not available |
-| SIN15540P | Soliqua Solution for Injection in a Pre-filled Pen 100 units/ml + 50 mcg/ml | Injection, solution | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11934P | LANTUS 100 Units/ml Solution for injection in a vial | INJECTION | Valid |
+| SIN13426P | Lantus SoloStar 100 Units/ml Solution for injection in a pre-filled pe | INJECTION, SOLUTION | Valid |
+| SIN15138P | Toujeo SoloStar 300 units/ml solution for injection in a pre-filled pe | INJECTION, SOLUTION | Valid |
+| SIN16009P | SEMGLEE™ SOLUTION FOR INJECTION IN A PREFILLED PEN 100U/ML | INJECTION, SOLUTION | Valid |
+| SIN15540P | SOLIQUA SOLUTION FOR INJECTION IN A PRE-FILLED PEN 100UNITS/ML + 50MCG | INJECTION, SOLUTION | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 One further registration, SIN15542P (Soliqua 100 units/ml + 33 mcg/ml pre-filled pen), is also valid. All six registrations are single-ingredient entries and none is cancelled.
 

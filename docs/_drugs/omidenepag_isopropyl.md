@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 741
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Omidenepag isopropyl"
 predicted_indications: ["pancreatitis", "hyperphosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding", "blepharospasm", "familial visceral myopathy", "alcoholic cardiomyopathy"]
 description: "Omidenepag Isopropyl: predicted new indication Pancreatitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,10 +81,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16150P | EYBELIS OPHTHALMIC SOLUTION 0.002% | Sterile solution | Not stated in the licence record |
-| SIN16951P | EYBELIS-S OPHTHALMIC SOLUTION 0.002% w/v | Sterile solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16150P | EYBELIS OPHTHALMIC SOLUTION 0.002% | SOLUTION, STERILE | Valid |
+| SIN16951P | EYBELIS-S OPHTHALMIC SOLUTION 0.002%w/v | SOLUTION, STERILE | Valid |
 
 Both licences are valid single-ingredient products manufactured by Santen Pharmaceutical Co., Ltd. (Shiga Plant and Noto Plant respectively).
 

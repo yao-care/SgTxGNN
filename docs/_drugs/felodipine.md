@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Felodipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -76,11 +76,11 @@ Currently no related literature available for the lead predicted indication (pul
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08768P | PLENDIL TABLET 10 mg | Tablet, extended release | Not stated in the records |
-| SIN07738P | PLENDIL TABLET 2.5 mg | Tablet, extended release | Not stated in the records |
-| SIN08781P | PLENDIL TABLET 5 mg | Tablet, extended release | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07738P | PLENDIL TABLET 2.5 mg | TABLET, EXTENDED RELEASE | Valid |
+| SIN08768P | PLENDIL TABLET 10 mg | TABLET, EXTENDED RELEASE | Valid |
+| SIN08781P | PLENDIL TABLET 5 mg | TABLET, EXTENDED RELEASE | Valid |
 
 All three are oral products from AstraZeneca Pharmaceutical Co. Ltd / Saneca Pharmaceuticals a.s.
 

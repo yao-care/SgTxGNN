@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Alfuzosin hydrochloride is a selective alpha-1 adrenergic receptor antagonist widely used internationally for benign prostatic hyperplasia (BPH) and lower urinary tract symptoms (LUTS).
-The current Evidence Pack contains **no TxGNN predicted indications** for this drug, and the drug has **no registered products in Singapore**, meaning a full repurposing evaluation cannot be completed at this stage.
+The current Evidence Pack contains **no TxGNN predicted indications** for this drug, meaning a full repurposing evaluation cannot be completed at this stage.
 This report documents existing data gaps and outlines the actions required before proceeding.
 
 ---
@@ -48,12 +48,12 @@ This report documents existing data gaps and outlines the actions required befor
 
 | Item | Content |
 |------|---------|
-| Original Indication | Not available (no Singapore registrations on record) |
+| Original Indication | Not available |
 | Predicted New Indication | None — TxGNN returned no predictions in this Evidence Pack |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -71,7 +71,7 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-This Evidence Pack is critically incomplete — TxGNN returned no predicted indications, no Singapore regulatory registrations exist, and key inputs (MOA, safety warnings, contraindications) are all absent. There is no repurposing signal to evaluate at this time.
+This Evidence Pack is critically incomplete — TxGNN returned no predicted indications, key inputs (MOA, safety warnings, contraindications) are all absent. There is no repurposing signal to evaluate at this time.
 
 **To proceed, the following is needed:**
 

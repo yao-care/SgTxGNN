@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alectinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung carcinoma / lung cancer"
 monitor_inn: "Alectinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
@@ -70,9 +70,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15220P | ALECENSA HARD CAPSULE 150MG | Capsule (oral) | Not stated in the available licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15220P | ALECENSA HARD CAPSULE 150MG | CAPSULE | Valid |
 
 ## Cytotoxicity
 

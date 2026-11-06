@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Atropine: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -84,13 +84,15 @@ None of these publications is a clinical trial of atropine in migraine. Most are
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07360P | Atropine Injection BP 600 mcg/ml | Injection | Not recorded |
-| SIN03441P | Atropine Sulphate Injection 0.6 mg/ml | Injection | Not recorded |
-| SIN15611P | Martindale Pharma Atropine Sulfate Solution for Injection 600 mcg/ml | Injection, solution | Not recorded |
-| SIN04140P | Alcon Atropine Sulfate Eye Drops 1% | Solution | Not recorded |
-| SIN05379P | Dhamotil Tablet | Tablet, film coated | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03441P | ATROPINE SULPHATE INJECTION 0.6 mg/ml | INJECTION | Valid |
+| SIN04140P | ALCON ATROPINE SULFATE EYE DROPS 1% | SOLUTION | Valid |
+| SIN07360P | ATROPINE INJECTION BP 600 mcg/ml | INJECTION | Valid |
+| SIN15611P | MARTINDALE PHARMA ATROPINE SULFATE SOLUTION FOR INJECTION 600 MCG/ML | INJECTION, SOLUTION | Valid |
+| SIN05379P | DHAMOTIL TABLET | TABLET, FILM COATED | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

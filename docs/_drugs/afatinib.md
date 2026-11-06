@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 42
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Afatinib: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,8 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Afatinib, so
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN14461P | GIOTRIF FILM-COATED TABLETS 30MG | TABLET, FILM COATED | Valid |
 | SIN14460P | GIOTRIF FILM-COATED TABLETS 20MG | TABLET, FILM COATED | Valid |
+| SIN14461P | GIOTRIF FILM-COATED TABLETS 30MG | TABLET, FILM COATED | Valid |
 | SIN14462P | GIOTRIF FILM-COATED TABLETS 40MG | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity

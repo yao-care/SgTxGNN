@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Fludrocortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
 description: "Fludrocortisone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,9 +94,9 @@ For reference, the closest literature for the eye disease prediction (rank 6) is
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10680P | FLORINEF TABLET 0.1 mg | Tablet | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10680P | FLORINEF TABLET 0.1 mg | TABLET | Valid |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1056
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Varenicline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence records compiled for this report"
 monitor_inn: "Varenicline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Varenicline is a nicotinic receptor partial agonist, marketed in Singapore as Champix. The TxGNN model predicts it may be effective for **migraine disorder**, but no clinical trials and no efficacy publications support this direction. The prediction is based on computational modelling only.
+Varenicline is a nicotinic receptor partial agonist. The TxGNN model predicts it may be effective for **migraine disorder**, but no clinical trials and no efficacy publications support this direction. The prediction is based on computational modelling only.
 
 ---
 
@@ -50,15 +50,15 @@ Varenicline is a nicotinic receptor partial agonist, marketed in Singapore as Ch
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. From the pharmacology of the drug class, varenicline is a partial agonist of α4β2 nicotinic acetylcholine receptors and a full agonist of α7 receptors. It is widely known as a smoking cessation aid, although the Singapore licence records do not state the indication text.
+Currently, detailed mechanism of action data is not available in the compiled data. From the pharmacology of the drug class, varenicline is a partial agonist of α4β2 nicotinic acetylcholine receptors and a full agonist of α7 receptors. It is widely known as a smoking cessation aid.
 
 Nicotinic cholinergic signalling has been loosely linked to trigeminovascular and cortical spreading depression pathways, both of which are involved in migraine. However, no direct evidence supports a therapeutic role in migraine. The high TxGNN score is a computational prediction only and should not be read as evidence of efficacy.
 
@@ -84,12 +84,7 @@ This is the only publication retrieved for migraine disorder. It describes an ad
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13323P | Champix Tablet 1mg | Film-coated tablet | Not stated in the compiled data |
-| SIN13322P | Champix Tablet Starter Pack | Film-coated tablet | Not stated in the compiled data |
-
-Both licences are valid single-ingredient products from Pfizer Italia S.r.l. and are oral formulations. No licences have been cancelled.
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ---
 

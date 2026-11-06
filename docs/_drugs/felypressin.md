@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Felypressin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the registration data"
 monitor_inn: "Felypressin"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "esotropia", "diabetic retinopathy", "chondroid hamartoma", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "tumor of testis and paratestis", "pre-malignant neoplasm"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Felypressin is a synthetic vasopressin analogue, marketed in Singapore as an injection (CITANEST OCTAPRESSIN), although the registered indication text is not recorded in the data compiled for this report.
+Felypressin is a synthetic vasopressin analogue.
 The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
 This is a model-only prediction with no mechanistic or clinical support.
 
@@ -52,8 +52,8 @@ This is a model-only prediction with no mechanistic or clinical support.
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06175P | CITANEST OCTAPRESSIN INJECTION | Injection | Not recorded |
-
-Manufacturer: Astra Pharmaceuticals Pty Ltd. This is the only registration, and it is a valid single-ingredient product.
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ---
 
@@ -108,9 +104,8 @@ The prediction rests only on a score from the TxGNN model (deep learning), which
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website
 - Mechanism of action data (for example, from DrugBank)
-- The approved indication text for the Singapore registration
 - A literature and trial search for a plausible biological link between V1a signalling and bone metabolism
-- Route and formulation compatibility assessment, since only an injectable dental product is registered
+- Route and formulation compatibility assessment
 - Review of the other predicted indications (for example, diabetic retinopathy) only if a credible mechanism and safety rationale emerge
 ## Disclaimer
 

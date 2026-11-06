@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 362
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Dydrogesterone: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Dydrogestero
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 
 ## Known uses recorded for this drug
 
@@ -75,6 +75,9 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Dydrogestero
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11255P | DUPHASTON TABLET 10 mg (Film-coated) | TABLET, FILM COATED | Valid |
+| SIN17500P | DYDROGESTERONE INTEGA FILM COATED TABLET 10MG | TABLET, FILM COATED | Valid |
+| SIN09530P | FEMOSTON 2/10 TABLET | TABLET, FILM COATED | Valid |
+| SIN11896P | FEMOSTON 1/10 TABLET | TABLET, FILM COATED | Valid |
 | SIN12121P | FEMOSTON CONTI 1/5 TABLET | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations

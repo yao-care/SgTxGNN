@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The evidence is indirect, based on extrapolation from the parent indication.
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 13 of 13) |
-| Number of Registrations | 13 (valid: 13) |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,15 +89,15 @@ For reference, the closest related signals among other predicted indications are
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12005P | NOPERTEN 5 | Tablet | Not stated |
-| SIN07870P | LISORIL 10 | Tablet | Not stated |
-| SIN11994P | DAPRIL 5 | Tablet | Not stated |
-| SIN07868P | LISORIL 5 | Tablet | Not stated |
-| SIN11996P | DAPRIL 20 | Tablet | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02369P | ZESTRIL TABLET 5 mg | TABLET, FILM COATED | Valid |
+| SIN02372P | ZESTRIL TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN07868P | LISORIL 5 TABLET 5 mg | TABLET | Valid |
+| SIN07870P | LISORIL 10 TABLET 10 mg | TABLET | Valid |
+| SIN11594P | LISINOPRIL STADA TABLET 5 mg | TABLET | Valid |
 
-All 13 registrations are valid single-ingredient oral tablets; none has been cancelled.
+Showing 5 of 14 HSA registrations.
 
 ---
 

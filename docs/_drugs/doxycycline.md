@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,13 +80,15 @@ Currently no related clinical trials are registered for this indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02205P | DOXYMYCIN-100 CAPSULES 100 mg | Capsule | Not stated in the available records |
-| SIN08536P | MICRODOX CAPSULE 100 mg | Capsule | Not stated in the available records |
-| SIN08101P | DOXYCAP CAPSULE U.S.P. 100 mg | Capsule | Not stated in the available records |
-| SIN08445P | APO-DOXY-TABS 100 mg | Film-coated tablet | Not stated in the available records |
-| SIN00968P | MEDOMYCIN CAPSULE 100 mg | Capsule | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00968P | MEDOMYCIN CAPSULE 100 mg | CAPSULE | Valid |
+| SIN02205P | DOXYMYCIN-100 CAPSULES 100 mg | CAPSULE | Valid |
+| SIN08101P | DOXYCAP CAPSULE U.S.P. 100 mg | CAPSULE | Valid |
+| SIN08388P | DOXYLINE ENTERIC COATED CAPSULE 100 mg | CAPSULE | Valid |
+| SIN08445P | APO-DOXY-TABS 100 mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 Seven valid single-ingredient licences are registered in total (none cancelled). The two not shown above are SIN08388P (Doxyline enteric-coated capsule 100 mg) and SIN10340P (Doxyline capsule 100 mg). All are oral products.
 

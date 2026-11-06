@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 172
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Brexpiprazole: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -77,12 +77,12 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15764P | REXULTI FILM-COATED TABLETS 3MG | TABLET, FILM COATED | Valid |
-| SIN15768P | REXULTI FILM-COATED TABLETS 0.25MG | TABLET, FILM COATED | Valid |
-| SIN15767P | REXULTI FILM-COATED TABLETS 0.5MG | TABLET, FILM COATED | Valid |
-| SIN15766P | REXULTI FILM-COATED TABLETS 1MG | TABLET, FILM COATED | Valid |
 | SIN15763P | REXULTI FILM-COATED TABLETS 4MG | TABLET, FILM COATED | Valid |
+| SIN15764P | REXULTI FILM-COATED TABLETS 3MG | TABLET, FILM COATED | Valid |
 | SIN15765P | REXULTI FILM-COATED TABLETS 2MG | TABLET, FILM COATED | Valid |
+| SIN15766P | REXULTI FILM-COATED TABLETS 1MG | TABLET, FILM COATED | Valid |
+| SIN15767P | REXULTI FILM-COATED TABLETS 0.5MG | TABLET, FILM COATED | Valid |
+| SIN15768P | REXULTI FILM-COATED TABLETS 0.25MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

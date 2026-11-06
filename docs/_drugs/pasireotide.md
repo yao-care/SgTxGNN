@@ -5,7 +5,7 @@ layout: default
 title: Pasireotide
 parent: Known Uses Only (No New Predictions)
 nav_order: 766
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pasireotide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Pasireotide"
 predicted_indications: []
@@ -48,11 +48,11 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15168P | SIGNIFOR LAR 20 mg powder and solvent for suspension for injection | Injection, powder, for suspension | Not stated in licence records |
-| SIN15169P | SIGNIFOR LAR 40 mg powder and solvent for suspension for injection | Injection, powder, for suspension | Not stated in licence records |
-| SIN15170P | SIGNIFOR LAR 60 mg powder and solvent for suspension for injection | Injection, powder, for suspension | Not stated in licence records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15168P | SIGNIFOR LAR POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION 20MG | INJECTION, POWDER, FOR SUSPENSION | Valid |
+| SIN15169P | SIGNIFOR LAR POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION 40MG | INJECTION, POWDER, FOR SUSPENSION | Valid |
+| SIN15170P | SIGNIFOR LAR POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION 60MG | INJECTION, POWDER, FOR SUSPENSION | Valid |
 
 All three licences are valid single-ingredient products, and none has been cancelled. Pasireotide is available only as an injectable in Singapore.
 

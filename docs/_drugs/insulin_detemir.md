@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Insulin detemir"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Detemir: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -99,10 +99,10 @@ The 10 most relevant of the 20 publications are listed below, with randomised tr
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13115P | LEVEMIR® FLEXPEN® 100U/ML, 3ML | Injection, solution | Not recorded in the licence data |
-| SIN15515P | LEVEMIR® PENFILL® 100 U/ML | Injection, solution | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13115P | LEVEMIR® FLEXPEN® 100U/ML, 3ML | INJECTION, SOLUTION | Valid |
+| SIN15515P | LEVEMIR® PENFILL® 100 U/ML | INJECTION, SOLUTION | Valid |
 
 Both licences are valid single-ingredient products from Novo Nordisk, and none has been cancelled.
 

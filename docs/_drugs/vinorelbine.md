@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 1070
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Vinorelbine"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "lung germ cell tumor", "pulmonary sulcus neoplasm", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **3 related clinical trials** (two Phase 2 studies in relapsed or refractor
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -83,11 +83,13 @@ Preclinical work also shows synergy between microtubule-interfering drugs, inclu
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06778P | NAVELBINE INJECTION 10 mg/ml | Injection | Not stated in the licence record |
-| SIN12547P | NAVELBINE SOFT CAPSULE 30 mg | Capsule, liquid filled | Not stated in the licence record |
-| SIN12546P | NAVELBINE SOFT CAPSULE 20 mg | Capsule, liquid filled | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12546P | NAVELBINE SOFT CAPSULE 20 mg | CAPSULE, LIQUID FILLED | Valid |
+| SIN12547P | NAVELBINE SOFT CAPSULE 30 mg | CAPSULE, LIQUID FILLED | Valid |
+| SIN16173P | RELVINCA SOFT CAPSULES 30MG | CAPSULE, LIQUID FILLED | Valid |
+| SIN16174P | RELVINCA SOFT CAPSULES 20MG | CAPSULE, LIQUID FILLED | Valid |
+| SIN17297P | RELVINCA SOFT CAPSULES 80MG | CAPSULE, LIQUID FILLED | Valid |
 
 Both an injectable and an oral route are available in Singapore.
 
@@ -121,7 +123,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 Ewing sarcoma has the strongest evidence among the predicted indications, with Phase 2 data for vinorelbine plus cyclophosphamide in relapsed or refractory paediatric solid tumours, a 2026 review and a supporting preclinical study. However, the clinical data come from mixed tumour populations, one key trial has unknown status, and no Ewing-specific randomised evidence is available. Other predicted indications, such as benign lung tumours and gingival fibromatosis, are not supported by evidence and are not recommended.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (not yet available), plus approved indication text for the three licences
+- Singapore package insert warnings and contraindications (not yet available), plus approved indication text
 - Detailed mechanism of action data
 - Ewing-specific efficacy data, for example results from INTER-EWING-1 or subgroup analyses of the Phase 2 trials
 - Dosing and route selection for paediatric and young adult patients (injectable versus oral metronomic regimens)

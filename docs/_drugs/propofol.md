@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 835
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Propofol: predicted new indication Migraine disorder (evidence level L2). Approved use: Not stated in the registration data compiled for this report (propofo…"
 monitor_inn: "Propofol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -89,13 +89,15 @@ Other predicted indications were also reviewed. Migraine with brainstem aura is 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12266P | Propofol-Lipuro Injection 1% w/v | Emulsion | Not stated in the available data |
-| SIN11577P | Propofol 1% MCT/LCT Fresenius Emulsion for Injection or Infusion | Injection | Not stated in the available data |
-| SIN15592P | Fresofol MCT/LCT Emulsion for Injection or Infusion in Pre-filled Syringe 2% | Injection, emulsion | Not stated in the available data |
-| SIN13622P | Propofol-Lipuro 2% (20 mg/ml) | Emulsion | Not stated in the available data |
-| SIN12472P | Fresofol MCT/LCT (Propofol) Emulsion for Injection or Infusion 2% | Emulsion | Not stated in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11577P | PROPOFOL 1% MCT/LCT FRESENIUS EMULSION FOR INJECTION OR INFUSION | INJECTION | Valid |
+| SIN12266P | PROPOFOL-LIPURO INJECTION 1% w/v | EMULSION | Valid |
+| SIN12472P | FRESOFOL MCT/LCT (PROPOFOL) EMULSION FOR INJECTION OR INFUSION 2% | EMULSION | Valid |
+| SIN13622P | Propofol-Lipuro 2% (20mg/ml) | EMULSION | Valid |
+| SIN15592P | FRESOFOL MCT/LCT EMULSION FOR INJECTION OR INFUSION IN PRE-FILLED SYRI | INJECTION, EMULSION | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 A sixth registration, SIN17047P (Baxter Propofol MCT-LCT Emulsion for Injection or Infusion 1% w/v, injection/emulsion), is also valid.
 

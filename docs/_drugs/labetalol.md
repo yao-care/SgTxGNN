@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -77,10 +77,10 @@ Currently no clinical trials are registered for malignant renovascular hypertens
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02281P | TRANDATE INJECTION 100 mg/20 ml | Injection | Not stated in the available record |
-| SIN05162P | TRANTALOL TABLET 100 mg | Tablet | Not stated in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02281P | TRANDATE INJECTION 100 mg/20 ml | INJECTION | Valid |
+| SIN05162P | TRANTALOL TABLET 100 mg | TABLET | Valid |
 
 ## Safety Considerations
 

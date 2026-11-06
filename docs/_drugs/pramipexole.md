@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 817
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -77,11 +77,11 @@ Currently no related clinical trials registered for ADHD.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13930P | Sifrol Extended Release Tablet 1.5mg | Extended-release tablet | Not stated in the data compiled |
-| SIN13928P | Sifrol Extended Release Tablet 0.375 mg | Extended-release tablet | Not stated in the data compiled |
-| SIN11253P | SIFROL TABLET 0.125 mg | Tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11253P | SIFROL TABLET 0.125 mg | TABLET | Valid |
+| SIN13928P | Sifrol Extended Release Tablet 0.375 mg | TABLET, EXTENDED RELEASE | Valid |
+| SIN13930P | Sifrol Extended Release Tablet 1.5mg | TABLET, EXTENDED RELEASE | Valid |
 
 All three licences are valid single-ingredient products, and none is cancelled.
 

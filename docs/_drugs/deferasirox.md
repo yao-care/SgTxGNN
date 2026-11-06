@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 308
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Deferasirox"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -92,13 +92,15 @@ No clinical trials are registered for this indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15213P | Jadenu Film Coated Tablet 90 mg | Film-coated tablet | Not stated in the licence record |
-| SIN15215P | Jadenu Film Coated Tablet 360 mg | Film-coated tablet | Not stated in the licence record |
-| SIN17174P | Desroxia Film-Coated Tablets 90 mg | Film-coated tablet | Not stated in the licence record |
-| SIN17173P | Desroxia Film-Coated Tablets 360 mg | Film-coated tablet | Not stated in the licence record |
-| SIN17088P | Ferasiro Film Coated Tablet 90 mg | Film-coated tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15213P | JADENU FILM COATED TABLET 90MG | TABLET, FILM COATED | Valid |
+| SIN15215P | JADENU FILM COATED TABLET 360MG | TABLET, FILM COATED | Valid |
+| SIN17087P | FERASIRO FILM COATED TABLET 360MG | TABLET, FILM COATED | Valid |
+| SIN17088P | FERASIRO FILM COATED TABLET 90MG | TABLET, FILM COATED | Valid |
+| SIN17173P | DESROXIA FILM-COATED TABLETS 360MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 A sixth licence, SIN17087P (Ferasiro 360 mg), is also valid. All six licences are single-ingredient oral products.
 

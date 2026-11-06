@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 141
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bendamustine: predicted new indication Mantle cell lymphoma (evidence level L1). Approved use: Follicular lymphoma, mature B-cell neoplasms…"
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
@@ -52,8 +52,8 @@ Currently **42 clinical trials** and **20 publications** support this direction,
 | Predicted New Indication | Mantle cell lymphoma |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L1 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -108,12 +108,12 @@ The 10 most relevant of the 20 publications are listed below.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15258P | BEMUNAT powder for concentrate for solution for infusion 100 mg/vial | Lyophilised powder for injection |
-| SIN15257P | BEMUNAT powder for concentrate for solution for infusion 25 mg/vial | Lyophilised powder for injection |
-
-Both licences are valid single-ingredient products from Natco Pharma Ltd. They are injectable (intravenous) formulations only.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15257P | BEMUNAT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 25 MG/VIAL US | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15258P | BEMUNAT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG/VIAL U | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17502P | Bendamustine Hydrochloride ADVAGEN Powder for Concentrate for Solution | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN17503P | Bendamustine Hydrochloride ADVAGEN Powder for Concentrate for Solution | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ---
 

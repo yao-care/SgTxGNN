@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 856
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Rasburicase: predicted new indication Hypouricemia, renal (evidence level L5). Approved use: Hyperuricemia"
 monitor_inn: "Rasburicase"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "primitive portal vein thrombosis", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
@@ -72,9 +72,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12055P | FASTURTEC Powder for Solution for Infusion 1.5 mg/vial | Injection, powder, for solution | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12055P | FASTURTEC POWDER FOR SOLUTION FOR INFUSION 1.5 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Avanafil
 parent: Known Uses Only (No New Predictions)
 nav_order: 123
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Avanafil: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Avanafil"
 predicted_indications: []
@@ -48,11 +48,11 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15880P | SPEDRA TABLET 50MG | Tablet | Not listed in the data |
-| SIN15879P | SPEDRA TABLET 100MG | Tablet | Not listed in the data |
-| SIN15881P | SPEDRA TABLET 200MG | Tablet | Not listed in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15879P | SPEDRA TABLET 100MG | TABLET | Valid |
+| SIN15880P | SPEDRA TABLET 50MG | TABLET | Valid |
+| SIN15881P | SPEDRA TABLET 200MG | TABLET | Valid |
 
 All three are single-ingredient products from MENARINI VON HEYDEN GmbH, and all are currently valid. Only the oral route is available.
 

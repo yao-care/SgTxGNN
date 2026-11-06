@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Larotrectinib: predicted new indication Multiple endocrine neoplasia (evidence level L3). Approved use: Not listed in the Singapore registration records (the drug is known a…"
 monitor_inn: "Larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
@@ -74,11 +74,11 @@ Multiple endocrine neoplasia type 2 (MEN2) is mainly driven by activating germli
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16827P | VITRAKVI ORAL SOLUTION 20MG/ML | Solution | Not stated in the records |
-| SIN15991P | VITRAKVI HARD CAPSULE 100MG | Capsule | Not stated in the records |
-| SIN15992P | VITRAKVI HARD CAPSULE 25MG | Capsule | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15991P | VITRAKVI HARD CAPSULE 100MG | CAPSULE | Valid |
+| SIN15992P | VITRAKVI HARD CAPSULE 25MG | CAPSULE | Valid |
+| SIN16827P | VITRAKVI ORAL SOLUTION 20MG/ML | SOLUTION | Valid |
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 289
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the Singapore licence records. Published pharmacology d…"
 monitor_inn: "Cyproterone acetate"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -50,8 +50,8 @@ This prediction is computational only and is not supported by direct evidence.
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,11 +78,10 @@ Currently no related clinical trials registered for migraine disorder.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13545P | PROCUR TABLETS 50MG | Tablet | Not stated in licence record |
-| SIN04784P | DIANE-35 TABLET | Tablet, sugar coated | Not stated in licence record |
-| SIN12117P | ESTELLE-35 TABLET | Tablet, film coated | Not stated in licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04784P | DIANE-35 TABLET | TABLET, SUGAR COATED | Valid |
+| SIN12117P | ESTELLE-35 TABLET | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 
@@ -112,7 +111,7 @@ The prediction rests on a computational score alone. There are no clinical trial
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
 - Detailed mechanism of action data
-- Original approved indication text for the three Singapore licences
+- Original approved indication text
 - Evidence of efficacy in migraine from controlled studies, and a benefit-risk assessment addressing thromboembolic and stroke risk
 - Route compatibility assessment (not yet completed)
 

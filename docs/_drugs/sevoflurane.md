@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 911
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sevoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: General anaesthesia"
 monitor_inn: "Sevoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,12 +83,13 @@ Currently no related literature is available for Prinzmetal angina.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16819P | NOREVELL Inhalation Anaesthetic Liquid 100% | Inhalant | Not stated in the licence record |
-| SIN14780P | SOJOURN Inhalation Anaesthetic Liquid 100% | Inhalant | Not stated in the licence record |
-| SIN08264P | SEVORANE Inhalation | Solution | Not stated in the licence record |
-| SIN13741P | Sevoflurane Inhalation Anaesthetic Liquid 100% | Inhalant | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08264P | SEVORANE INHALATION | SOLUTION | Valid |
+| SIN13741P | Sevoflurane Inhalation Anaesthetic Liquid 100% | INHALANT | Valid |
+| SIN14780P | SOJOURN INHALATION ANAESTHETIC LIQUID 100% | INHALANT | Valid |
+| SIN16819P | NOREVELL INHALATION ANAESTHETIC LIQUID 100% | INHALANT | Valid |
+| SIN17305P | HEAREM SEVOFLURANE INHALATION ANAESTHETIC LIQUID 100% | INHALANT | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 763
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Paraldehyde: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not stated in the registration data (approved indication text is blan…"
 monitor_inn: "Paraldehyde"
 predicted_indications: ["irritable bowel syndrome", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "neurocirculatory asthenia", "rhinitis", "insomnia (disease)"]
@@ -88,9 +88,9 @@ For the insomnia prediction, one indirect publication was found:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00325P | Paraldehyde Injection BP (Hospira Australia Pty Ltd) | Injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00325P | PARALDEHYDE INJECTION BP | INJECTION | Valid |
 
 ## Safety Considerations
 

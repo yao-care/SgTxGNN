@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Dipyridamole"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be effective for **sick sinus syndrome 2, autoso
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,13 +72,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Three valid single-ingredient licences are on record. The approved indication is not recorded in the local data.
+The approved indication is not recorded in the local data.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00470P | Perazodin 75 Tablet 75 mg | Tablet, sugar coated | Not specified in licence record |
-| SIN00739P | Perazodin 25 Tablet 25 mg | Tablet, sugar coated | Not specified in licence record |
-| SIN00206P | Persantin Injection 10 mg/2 ml | Injection | Not specified in licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00206P | PERSANTIN INJECTION 10 mg/2 ml | INJECTION | Valid |
+| SIN00470P | PERAZODIN 75 TABLET 75 mg | TABLET, SUGAR COATED | Valid |
 
 Both oral and injectable forms are available.
 

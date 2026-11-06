@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the approved licence data compiled for this report"
 monitor_inn: "Piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -50,8 +50,8 @@ This prediction is best viewed as a computational signal and not as supported ev
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,13 +85,15 @@ The 15 retrieved publications are case reports, reviews or retrospective cohorts
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13985P | Piperacillin/Tazobactam Sandoz Powder for solution for Injection/Infusion 4.5g vials | Powder, for solution | Not stated in the data compiled |
-| SIN13758P | TAZPEN FOR INJECTION 4.5g/VIAL | Injection, powder, for solution | Not stated in the data compiled |
-| SIN15299P | SALATAZ POWDER FOR SOLUTION FOR INJECTION/INFUSION 4.5G/VIAL | Injection, powder, for solution | Not stated in the data compiled |
-| SIN15482P | PIPTAZ-AFT POWDER FOR SOLUTION FOR INJECTION 4.5G/VIAL | Injection, powder, lyophilized, for solution | Not stated in the data compiled |
-| SIN08362P | TAZOCIN FOR INJECTION 4.5 g/vial | Injection, powder, for solution | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08362P | TAZOCIN FOR INJECTION 4.5 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13758P | TAZPEN FOR INJECTION 4.5g/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13985P | Piperacillin/Tazobactam Sandoz Powder for solution for Injection/Infus | POWDER, FOR SOLUTION | Valid |
+| SIN15299P | SALATAZ POWDER FOR SOLUTION FOR INJECTION/INFUSION 4.5G/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15308P | PIPERACILLIN/TAZOBACTAM KABI POWDER FOR SOLUTION FOR INFUSION 4G/0.5G | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

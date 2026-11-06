@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 528
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Indapamide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -76,17 +76,17 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Indapamide, 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN09074P | NATRILIX SR TABLET 1.5 mg | TABLET, FILM COATED | Valid |
 | SIN10161P | APO-INDAPAMIDE TABLET 2.5 mg | TABLET, FILM COATED | Valid |
 | SIN11664P | RINALIX TABLET 2.5 mg | TABLET, FILM COATED | Valid |
 | SIN16750P | SWILIX SR TABLET 1.5MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
-| SIN09074P | NATRILIX SR TABLET 1.5 mg | TABLET, FILM COATED | Valid |
-| SIN13823P | COVERSYL PLUS Tablet 10mg/2.5mg | TABLET, FILM COATED | Valid |
-| SIN14902P | NATRIXAM MODIFIED RELEASE TABLET 1.5 mg/10 mg | TABLET, MULTILAYER, EXTENDED RELEASE | Valid |
 | SIN13633P | COVERSYL PLUS TABLET 5mg/1.25mg | TABLET, FILM COATED | Valid |
+| SIN13823P | COVERSYL PLUS Tablet 10mg/2.5mg | TABLET, FILM COATED | Valid |
 | SIN14901P | NATRIXAM MODIFIED RELEASE TABLET 1.5 mg/5 mg | TABLET, MULTILAYER, EXTENDED RELEASE | Valid |
-| SIN15013P | TRIPLIXAM FILM COATED TABLET 10 mg/ 2.5 mg/ 5 mg | TABLET, FILM COATED | Valid |
+| SIN14902P | NATRIXAM MODIFIED RELEASE TABLET 1.5 mg/10 mg | TABLET, MULTILAYER, EXTENDED RELEASE | Valid |
 | SIN15011P | TRIPLIXAM FILM COATED TABLET 5 mg/ 1.25 mg/ 5 mg | TABLET, FILM COATED | Valid |
 | SIN15012P | TRIPLIXAM FILM COATED TABLET 5 mg/ 1.25 mg/ 10 mg | TABLET, FILM COATED | Valid |
+| SIN15013P | TRIPLIXAM FILM COATED TABLET 10 mg/ 2.5 mg/ 5 mg | TABLET, FILM COATED | Valid |
 | SIN15014P | TRIPLIXAM FILM COATED TABLET 10 mg/ 2.5 mg/ 10 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations

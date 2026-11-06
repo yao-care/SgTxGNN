@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 602
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Linezolid: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -78,13 +78,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Linezolid, s
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16950P | LINEZAN SOLUTION FOR INFUSION 2MG/ML | INFUSION, SOLUTION | Valid |
 | SIN11405P | ZYVOX TABLET 600 mg | TABLET, FILM COATED | Valid |
-| SIN15849P | LINEZOLID KABI SOLUTION FOR INFUSION 2MG/ML | INFUSION, SOLUTION | Valid |
+| SIN11407P | ZYVOX SOLUTION FOR INFUSION 2 mg/ml | INJECTION | Valid |
 | SIN11408P | ZYVOX GRANULES FOR ORAL SUSPENSION 20 mg/ml | GRANULE, FOR SUSPENSION | Valid |
 | SIN14946P | LINEZOLID SANDOZ FILM COATED TABLET 600MG | TABLET, FILM COATED | Valid |
 | SIN15762P | HETERO-LINEZOLID FILM COATED TABLETS 600 MG | TABLET, FILM COATED | Valid |
-| SIN11407P | ZYVOX SOLUTION FOR INFUSION 2 mg/ml | INJECTION | Valid |
+| SIN15849P | LINEZOLID KABI SOLUTION FOR INFUSION 2MG/ML | INFUSION, SOLUTION | Valid |
+| SIN16950P | LINEZAN SOLUTION FOR INFUSION 2MG/ML | INFUSION, SOLUTION | Valid |
 
 ## Safety Considerations
 

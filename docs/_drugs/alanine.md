@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alanine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not stated in the Singapore licence records (used in parenteral nutri…"
 monitor_inn: "Alanine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -48,8 +48,8 @@ Alanine is an amino acid used as a component of parenteral nutrition and amino a
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 19 of 19) |
-| Number of Registrations | 19 (valid: 19) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-All 19 licences are valid single-ingredient registrations; the approved indication text is not available in the licence records. Five main authorisations:
+Five main authorisations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16337P | AMINOVEN Solution for Infusion 15% | Infusion, solution | Not stated |
-| SIN11682P | AMINOVEN Solution for Infusion 5% | Injection | Not stated |
-| SIN11829P | AMINOVEN Solution for Infusion 10% | Injection | Not stated |
-| SIN06299P | NEPHROSTERIL for Intravenous Infusion | Injection | Not stated |
-| SIN08352P | AMINOPLASMAL-15% Infusion | Injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
+
+Showing 5 of 18 HSA registrations.
 
 Other registered products include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B.Braun 10% E, OliClinomel, SmofKabiven (several variants) and Nutriflex Omega (several variants).
 

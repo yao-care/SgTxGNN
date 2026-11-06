@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 91
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Amitriptyline: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Amitriptylin
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 6 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
 ## Known uses recorded for this drug
 
@@ -79,9 +79,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Amitriptylin
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00089P | APO-AMITRIPTYLINE TABLET 10 mg | TABLET, FILM COATED | Valid |
-| SIN00415P | TRIPTA TABLET 10 mg | TABLET, SUGAR COATED | Valid |
 | SIN00090P | APO-AMITRIPTYLINE TABLET 25 mg | TABLET, FILM COATED | Valid |
-| SIN00414P | TRIPTA TABLET 25 mg | TABLET, SUGAR COATED | Valid |
 
 ## Safety Considerations
 

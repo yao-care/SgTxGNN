@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Choline salicylate"
 predicted_indications: ["Prinzmetal angina", "hypertensive disorder", "migraine disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Raynaud disease", "pulmonary hypertension"]
 description: "Choline Salicylate: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Choline salicylate is a salicylate used in topical oral gels for pain relief. Th
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,13 +60,12 @@ A plausible but unproven link is that prostanoid modulation could influence the 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10428P | Soragel Antiseptic Pain Relieving Oral Gel | Gel | Not stated |
-| SIN04948P | Ora-Sed Jel | Gel | Not stated |
-| SIN04303P | Bonjela Gel | Gel | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04303P | BONJELA GEL | GEL | Valid |
+| SIN10428P | SORAGEL ANTISEPTIC PAIN RELIEVING ORAL GEL | GEL | Valid |
 
-All three licences are valid single-ingredient products, and all are topical gels. No systemic dosage form is registered locally, which matters because any cardiovascular use would require systemic exposure.
+No systemic dosage form is registered locally, which matters because any cardiovascular use would require systemic exposure.
 
 ## Safety Considerations
 

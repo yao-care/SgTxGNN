@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ However, there are **0 clinical trials** and **0 publications** supporting this 
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,13 +72,15 @@ Currently no related literature available.
 
 Six single-ingredient oral products hold valid registrations. The approved indication text is not listed in the registration records.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN13408P | CORALAN Tablet 5mg | Film-coated tablet | Les Laboratoires Servier Industrie |
-| SIN13409P | CORALAN Tablet 7.5 mg | Film-coated tablet | Les Laboratoires Servier Industrie |
-| SIN16202P | IVASWIFT Film-Coated Tablet 5MG | Film-coated tablet | Ind-Swift Limited |
-| SIN16201P | IVASWIFT Film-Coated Tablet 7.5MG | Film-coated tablet | Ind-Swift Limited |
-| SIN17221P | VARADIN Film-Coated Tablets 5MG | Film-coated tablet | GENEPHARM S.A |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13408P | CORALAN Tablet 5mg | TABLET, FILM COATED | Valid |
+| SIN13409P | CORALAN Tablet 7.5 mg | TABLET, FILM COATED | Valid |
+| SIN16201P | IVASWIFT FILM-COATED TABLET 7.5MG | TABLET, FILM COATED | Valid |
+| SIN16202P | IVASWIFT FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
+| SIN16726P | BRAVACOR FILM-COATED TABLETS 5MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 10 HSA registrations.
 
 A sixth registration, SIN17220P (VARADIN 7.5MG, GENEPHARM S.A), is also valid.
 

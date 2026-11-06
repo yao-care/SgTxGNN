@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 465
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Gallium Nitrate: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gallium Nitr
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 
 ## Known uses recorded for this drug
 
@@ -72,10 +72,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gallium Nitr
 
 ## Singapore Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| SIN09913P | GALLIUM CITRATE (Ga 67) INJECTION 37 MBq/ml | INJECTION | Valid |
-| SIN16844P | GALLIAPHARM RADIONUCLIDE GENERATOR 0.74 – 1.85 GBQ | INJECTION, SOLUTION (RADIOPHARMACEUTICAL | Valid |
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Cytotoxicity
 

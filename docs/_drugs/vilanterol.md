@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1066
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The data compiled for this report include **29 clinical trials** and **19 public
 | Predicted New Indication | Hyperlucent lung |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -95,13 +95,13 @@ Some other trials were withdrawn with no enrolment (NCT04671355, NCT01435902, NC
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14737P | RELVAR ELLIPTA INHALATION POWDER 200MCG/25MCG | Powder, metered | Not recorded in the data compiled for this report |
-| SIN14736P | RELVAR ELLIPTA INHALATION POWDER 100MCG/25MCG | Powder, metered | Not recorded in the data compiled for this report |
-| SIN14838P | ANORO ELLIPTA INHALATION POWDER 62.5 MCG/25 MCG | Powder, metered | Not recorded in the data compiled for this report |
-
-All three licences are valid and held by GlaxoSmithKline entities.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14736P | RELVAR ELLIPTA INHALATION POWDER 100MCG/25MCG | POWDER, METERED | Valid |
+| SIN14737P | RELVAR ELLIPTA INHALATION POWDER 200MCG/25MCG | POWDER, METERED | Valid |
+| SIN14838P | ANORO ELLIPTA INHALATION POWDER 62.5 MCG/25 MCG | POWDER, METERED | Valid |
+| SIN15806P | TRELEGY ELLIPTA INHALATION POWDER 100 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
+| SIN16914P | TRELEGY ELLIPTA INHALATION POWDER 200 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
 
 ## Safety Considerations
 

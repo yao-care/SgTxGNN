@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bupivacaine: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,12 +69,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05681P | MARCAIN SPINAL 0.5% HEAVY INJECTION | Injection | Not recorded |
-| SIN05679P | MARCAIN INJECTION 0.5% (POLYAMP DUOFIT) | Injection | Not recorded |
-| SIN13211P | Marcain Injection 0.5% (4ml) | Injection | Not recorded |
-| SIN14273P | SURGICAINE Injection | Injection | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05679P | MARCAIN INJECTION 0.5% (POLYAMP DUOFIT) | INJECTION | Valid |
+| SIN05681P | MARCAIN SPINAL 0.5% HEAVY INJECTION | INJECTION | Valid |
+| SIN13211P | Marcain Injection 0.5% (4ml) | INJECTION | Valid |
+| SIN16501P | REGIVELL SPINAL HEAVY INJECTION 0.5% W/V | INJECTION | Valid |
 
 ## Safety Considerations
 

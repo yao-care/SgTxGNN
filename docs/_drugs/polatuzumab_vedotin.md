@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 804
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Polatuzumab Vedotin: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Not stated in the Singapore licence records. Literature indicates dif…"
 monitor_inn: "Polatuzumab vedotin"
 predicted_indications: ["HER2 positive breast carcinoma"]
@@ -58,7 +58,6 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 CD79b is a B-cell marker and is not a recognised target in HER2-positive breast carcinoma. The only plausible link is the general cytotoxic activity of MMAE, which is already used in other breast cancer antibody-drug conjugates. That activity does not depend on CD79b. The high TxGNN score is therefore a computational prediction without a demonstrated mechanistic basis.
 
-
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
@@ -71,10 +70,10 @@ Nineteen publications were matched to a lower-ranked breast prediction (luminal 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16345P | POLIVY Powder for Concentrate for Solution for Infusion 30mg | Injection, powder, lyophilised, for solution | Not stated in the licence data |
-| SIN16007P | POLIVY Powder for Concentrate for Solution for Infusion 140mg | Injection, powder, lyophilised, for solution | Not stated in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16007P | POLIVY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 140MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16345P | POLIVY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 30MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

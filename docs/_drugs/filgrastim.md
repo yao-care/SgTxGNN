@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Filgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Constitutional neutropenia"
 monitor_inn: "Filgrastim"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -80,12 +80,12 @@ For reference, the only predicted indication with linked trials is platelet-type
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16267P | ACCOFIL 48 Solution for Injection or Infusion in a Pre-filled Syringe 48 MU/0.5 mL | Injection, solution | Not specified |
-| SIN14196P | Nivestim 300mcg/0.5mL Solution for Injection/Infusion | Infusion, solution | Not specified |
-| SIN10780P | NEUPOGEN Pre-filled Syringe 30 MU/0.5 mL | Injection | Not specified |
-| SIN16268P | ACCOFIL 30 Solution for Injection or Infusion in a Pre-filled Syringe 30 MU/0.5 mL | Injection, solution | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10780P | NEUPOGEN PRE-FILLED SYRINGE 30 mu/0.5 ml | INJECTION | Valid |
+| SIN14196P | Nivestim 300mcg/0.5mL Solution for Injection/Infusion | INFUSION, SOLUTION | Valid |
+| SIN16267P | ACCOFIL 48 SOLUTION FOR INJECTION OR INFUSION IN A PRE-FILLED SYRINGE  | INJECTION, SOLUTION | Valid |
+| SIN16268P | ACCOFIL 30 SOLUTION FOR INJECTION OR INFUSION IN A PRE-FILLED SYRINGE  | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

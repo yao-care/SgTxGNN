@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 824
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The literature found is only indirectly related, so this prediction rests mainly
 | Predicted New Indication | Tendinitis |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 63 of 63) |
+| Number of Registrations | 63 (valid: 63) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,15 +91,17 @@ None of these publications studies pregabalin in tendinitis itself. All are indi
 
 ## Singapore Market Information
 
-Pregabalin has 20 valid single-ingredient licences in Singapore, all oral capsules. The licence records contain no approved indication text. Five examples:
+The licence records contain no approved indication text. Five examples:
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN13097P | Lyrica Capsule 150mg | Capsule | Pfizer Manufacturing Deutschland GmbH |
-| SIN14488P | Brillior Capsule 75mg | Capsule | Pfizer Manufacturing Deutschland GmbH |
-| SIN14489P | Brillior Capsule 150mg | Capsule | Pfizer Manufacturing Deutschland GmbH |
-| SIN15777P | Regadex Capsule 150mg | Capsule | Dexcel Ltd. |
-| SIN15655P | Rewisca Hard Capsules 150mg | Capsule | Krka, d.d., Novo mesto |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13094P | Lyrica Capsule 25mg | CAPSULE | Valid |
+| SIN13095P | Lyrica Capsule 50mg | CAPSULE | Valid |
+| SIN13096P | Lyrica Capsule 75mg | CAPSULE | Valid |
+| SIN13097P | Lyrica Capsule 150mg | CAPSULE | Valid |
+| SIN13098P | Lyrica Capsule 100mg | CAPSULE | Valid |
+
+Showing 5 of 63 HSA registrations.
 
 ---
 

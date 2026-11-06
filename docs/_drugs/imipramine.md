@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 525
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -95,10 +95,10 @@ Of 20 publications retrieved, the most relevant are listed below. Study-design l
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04154P | AA PHARMA IMIPRAMINE TABLET 25MG | Film-coated tablet | Not listed in the registration record |
-| SIN04155P | AA PHARMA IMIPRAMINE TABLET 10MG | Film-coated tablet | Not listed in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04154P | APO-IMIPRAMINE TABLET 25MG | TABLET, FILM COATED | Valid |
+| SIN04155P | APO-IMIPRAMINE TABLET 10MG | TABLET, FILM COATED | Valid |
 
 Both are single-ingredient oral products from Apotex Inc and are currently valid.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 676
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Milrinone"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
 description: "Milrinone: predicted new indication Alopecia (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,9 +78,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15249P | Milrinone-Baxter Concentrated Solution for Injection 10mg/10ml (Baxter Pharmaceuticals India Private Limited) | Injection, solution, concentrate | Not listed in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15249P | MILRINONE-BAXTER CONCENTRATED SOLUTION FOR INJECTION 10MG/10ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
 The only registered product is an injectable. A systemic injection is a poor fit for a non-life-threatening condition like alopecia, so route compatibility would need to be addressed if this direction were pursued.
 

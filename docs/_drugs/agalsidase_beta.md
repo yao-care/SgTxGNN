@@ -5,7 +5,7 @@ layout: default
 title: Agalsidase Beta
 parent: Known Uses Only (No New Predictions)
 nav_order: 44
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Agalsidase Beta: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Agalsidase beta"
 predicted_indications: []
@@ -48,10 +48,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13609P | Fabrazyme 35mg (agalsidase beta) | Injection, powder, for solution | Not recorded in the licence data |
-| SIN13610P | Fabrazyme 5mg (agalsidase beta) | Injection, powder, for solution | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13609P | Fabrazyme ® 35mg (agalsidase beta) | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13610P | Fabrazyme ® 5mg (agalsidase beta) | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

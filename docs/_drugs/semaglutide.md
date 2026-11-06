@@ -5,7 +5,7 @@ layout: default
 title: Semaglutide
 parent: Known Uses Only (No New Predictions)
 nav_order: 906
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Semaglutide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Semaglutide"
 predicted_indications: []
@@ -50,13 +50,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 There are 15 valid single-ingredient registrations. The records compiled for this report include no approved indication text. Main authorizations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16164P | OZEMPIC 1MG/DOSE Solution for Injection in Pre-filled Pen | Injection, solution | Not available |
-| SIN16165P | OZEMPIC 0.25MG, 0.5MG/DOSE Solution for Injection in Pre-filled Pen | Injection, solution | Not available |
-| SIN16215P | RYBELSUS Tablet 3mg | Tablet | Not available |
-| SIN16216P | RYBELSUS Tablet 7mg | Tablet | Not available |
-| SIN16706P | WEGOVY Solution for Injection in Pre-filled Pen 0.25MG/0.5ML | Injection, solution | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16164P | OZEMPIC 1MG/DOSE SOLUTION FOR INJECTION IN PRE-FILLED PEN 1.34MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16165P | OZEMPIC 0.25MG, 0.5MG/DOSE SOLUTION FOR INJECTION IN PRE-FILLED PEN 1. | INJECTION, SOLUTION | Valid |
+| SIN16215P | RYBELSUS® TABLET 3mg | TABLET | Valid |
+| SIN16216P | RYBELSUS® TABLET 7MG | TABLET | Valid |
+| SIN16217P | RYBELSUS® TABLET 14MG | TABLET | Valid |
+
+Showing 5 of 15 HSA registrations.
 
 The remaining registrations are additional RYBELSUS (14 mg) and WEGOVY strengths. Available routes are injectable and oral.
 

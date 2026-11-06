@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 169
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bosentan: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Pulmonary arterial hypertension…"
 monitor_inn: "Bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -81,10 +81,10 @@ Only studies relevant to rheumatoid arthritis are listed; the remaining retrieve
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15132P | PROART FILM COATED TABLETS 125MG | Tablet, film coated | Not recorded |
-| SIN15133P | PROART FILM COATED TABLETS 62.5MG | Tablet, film coated | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15132P | PROART FILM COATED TABLETS 125MG | TABLET, FILM COATED | Valid |
+| SIN15133P | PROART FILM COATED TABLETS 62.5MG | TABLET, FILM COATED | Valid |
 
 Both products are single-ingredient, valid licences held by Sun Pharmaceutical Industries Limited, for oral use.
 

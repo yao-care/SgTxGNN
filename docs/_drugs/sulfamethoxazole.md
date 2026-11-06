@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 940
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Conjunctivitis is already among the drug's listed original indications, so this 
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 12 of 12) |
-| Number of Registrations | 12 (valid: 12) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,7 +79,6 @@ For other predicted indications, the trials found were consistent with existing 
 
 ## Literature Evidence
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [31788487](https://pubmed.ncbi.nlm.nih.gov/31788487/) | 2019 | Cohort | Med Hypothesis Discov Innov Ophthalmol J | Bacteriology and antibiotic susceptibility of childhood acute bacterial conjunctivitis in Western Greece (indirect evidence, not an efficacy trial) |
@@ -92,15 +91,17 @@ None of these tests sulfamethoxazole as treatment for the predicted conditions.
 
 ## Singapore Market Information
 
-All 12 licences are valid single-ingredient registrations. The licence records contain no approved indication text. Five main authorisations:
+The licence records contain no approved indication text. Five main authorisations:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00508P | APO-SULFATRIM PEDIATRIC TABLET | Tablet | Not stated in the licence record |
-| SIN00435P | APO-SULFATRIM TABLET | Tablet | Not stated in the licence record |
-| SIN00526P | B.S. SUSPENSION | Suspension | Not stated in the licence record |
-| SIN02183P | DBL SULFAMETHOXAZOLE 400MG AND TRIMETHOPRIM 80MG CONCENTRATE INJECTION BP | Injection | Not stated in the licence record |
-| SIN00583P | CO-TRIMEXAZOLE SUSPENSION | Suspension | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00407P | TRIMAXAZOLE TABLETS | TABLET | Valid |
+| SIN00435P | APO-SULFATRIM TABLET | TABLET | Valid |
+| SIN00508P | APO-SULFATRIM PEDIATRIC TABLET | TABLET | Valid |
+| SIN00583P | CO-TRIMEXAZOLE SUSPENSION | SUSPENSION | Valid |
+| SIN00960P | B.S. TABLET | TABLET | Valid |
+
+Showing 5 of 10 HSA registrations.
 
 Available forms cover oral tablets, suspensions and an injection. No ophthalmic formulation is registered.
 

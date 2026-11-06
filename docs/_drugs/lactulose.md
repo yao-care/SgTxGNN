@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 574
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -104,12 +104,12 @@ The table below shows the most relevant publications for the best-supported pred
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14720P | LACTUL SOLUTION 670MG/ML | Solution | Not stated in the licence record |
-| SIN02818P | DUPHALAC SYRUP | Syrup | Not stated in the licence record |
-| SIN11494P | DHACTULOSE SYRUP | Syrup | Not stated in the licence record |
-| SIN10132P | LACTUS SYRUP 66% w/v | Syrup | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02818P | DUPHALAC SYRUP | SYRUP | Valid |
+| SIN10132P | LACTUS SYRUP 66% w/v | SYRUP | Valid |
+| SIN11494P | DHACTULOSE SYRUP | SYRUP | Valid |
+| SIN14720P | LACTUL SOLUTION 670MG/ML | SOLUTION | Valid |
 
 All four licences are valid single-ingredient products, and none has been cancelled.
 

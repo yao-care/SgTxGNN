@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Enzalutamide: predicted new indication Prostate leiomyoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Broader related terms (such as "male reproductive organ cancer" and "prostate ne
 | Predicted New Indication | Prostate leiomyoma |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 (for the top prediction) |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -107,9 +107,15 @@ The top prediction has no related publications. The table below shows key public
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14829P | XTANDI™ Soft Capsules 40 mg | Capsule, liquid filled (oral) | Not stated in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14829P | XTANDI™ SOFT CAPSULES 40MG | CAPSULE, LIQUID FILLED | Valid |
+| SIN17368P | XTANDI™ FILM-COATED TABLETS 40MG | TABLET, FILM COATED | Valid |
+| SIN17369P | XTANDI™ FILM-COATED TABLETS 80MG | TABLET, FILM COATED | Valid |
+| SIN17513P | ENZALUDEZ SOFT CAPSULE 40MG | CAPSULE, LIQUID FILLED | Valid |
+| SIN17517P | ALLUTAMIDE SOFT CAPSULES 40mg | CAPSULE, LIQUID FILLED | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ---
 

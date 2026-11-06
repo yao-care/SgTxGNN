@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 819
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Prazosin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,10 +75,10 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Prazosin, so
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN07260P | APO-PRAZO TABLET 2 mg | TABLET | Valid |
+| SIN07263P | APO-PRAZO TABLET 5 mg | TABLET | Valid |
 | SIN07264P | APO-PRAZO TABLET 1 mg | TABLET | Valid |
 | SIN07529P | ATODEL 1 TABLET 1 mg | TABLET | Valid |
-| SIN07263P | APO-PRAZO TABLET 5 mg | TABLET | Valid |
-| SIN07260P | APO-PRAZO TABLET 2 mg | TABLET | Valid |
 | SIN16122P | MINISON TABLET 1MG | TABLET | Valid |
 
 ## Safety Considerations

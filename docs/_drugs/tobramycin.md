@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 999
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -83,13 +83,13 @@ None of these studies directly tests tobramycin in exposure keratitis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04451P | TOBREX Sterile Ophthalmic Solution 0.3% | Solution | Not available |
-| SIN04722P | TOBREX Sterile Ophthalmic Ointment 0.3% | Ointment | Not available |
-| SIN04309P | TOBRADEX Ophthalmic Ointment | Ointment | Not available |
-| SIN04438P | TOBRADEX Sterile Ophthalmic Suspension | Solution | Not available |
-| SIN13647P | ZYLET Sterile Ophthalmic Suspension | Suspension, sterile | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04451P | TOBREX STERILE OPHTHALMIC SOLUTION 0.3% | SOLUTION | Valid |
+| SIN04722P | TOBREX STERILE OPHTHALMIC OINTMENT 0.3% | OINTMENT | Valid |
+| SIN04309P | TOBRADEX OPHTHALMIC OINTMENT | OINTMENT | Valid |
+| SIN04438P | TOBRADEX STERILE OPHTHALMIC SUSPENSION | SOLUTION | Valid |
+| SIN13647P | ZYLET® STERILE OPHTHALMIC SUSPENSION | SUSPENSION, STERILE | Valid |
 
 All five registrations are valid single-ingredient licences (ophthalmic products).
 

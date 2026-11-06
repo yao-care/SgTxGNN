@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Fimasartan"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fimasartan: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension"
 ---
 
@@ -77,10 +77,10 @@ No publication directly studies the predicted disease. The one linked publicatio
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15221P | KANARB TABLET 60MG | Tablet | Not stated in the licence record |
-| SIN15222P | KANARB TABLET 120MG | Tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15221P | KANARB TABLET 60MG | TABLET | Valid |
+| SIN15222P | KANARB TABLET 120MG | TABLET | Valid |
 
 Both are valid single-ingredient licences held by Boryung Corporation (oral route).
 

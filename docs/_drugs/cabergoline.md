@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cabergoline: predicted new indication progeria-short stature-pigmented nevi syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -71,9 +71,9 @@ Currently no related literature available.
 
 One valid single-ingredient licence is recorded, and no licences are cancelled.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN09545P | DOSTINEX TABLET 0.5 mg | Tablet | Pfizer Italia S.r.l. |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09545P | DOSTINEX TABLET 0.5 mg | TABLET | Valid |
 
 The approved indication text is not recorded in the local data. The only registered route is oral.
 

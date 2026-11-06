@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 567
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ketoprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 description: "Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This prediction is model-only and should be treated as a computational signal, n
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 10 of 10) |
-| Number of Registrations | 10 (valid: 10) |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,15 +75,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-All 10 registrations are valid single-ingredient products. Approved indication text is not available in the records compiled for this report. The five listed here are representative of the main dosage forms.
+Approved indication text is not available in the records compiled for this report. The five listed here are representative of the main dosage forms.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN15748P | KETOFEN GEL 2.5% w/w | Gel | Hovid Bhd |
-| SIN06755P | FASTUM GEL 2.5% | Gel | A. Menarini Manufacturing Logistics and Services S.R.L. |
-| SIN12153P | PRONALGES 100 TABLET 100 mg | Enteric coated tablet | PT Dexa Medica |
-| SIN15832P | KETOTOP PAIN RELIEF PLASTER 30MG | Plaster | Handok Inc |
-| SIN10768P | KEFENTECH PLASTER 30 mg/sheet | Plaster | Jeil Health Science |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06755P | FASTUM GEL 2.5% | GEL | Valid |
+| SIN10768P | KEFENTECH PLASTER 30 mg/sheet | PLASTER | Valid |
+| SIN10769P | KENHANCER PLASTER 30 mg/sheet | PLASTER | Valid |
+| SIN12115P | PRONALGES 50 TABLET 50 mg | ENTERIC COATED TABLET | Valid |
+| SIN12153P | PRONALGES 100 TABLET 100 mg | ENTERIC COATED TABLET | Valid |
+
+Showing 5 of 12 HSA registrations.
 
 Available forms span topical (gel), plaster and oral (enteric coated tablet) routes.
 

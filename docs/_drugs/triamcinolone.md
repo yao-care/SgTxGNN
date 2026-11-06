@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1020
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -77,15 +77,15 @@ Neither publication evaluates triamcinolone directly.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07820P | TRIAMNONE CREAM 0.1% w/w | Cream | Not stated in the available records |
-| SIN11484P | ORREPASTE 0.1% w/w | Paste | Not stated in the available records |
-| SIN17090P | ARCATUS® Triamcinolone acetonide suspension for injection 40 mg/mL | Injection, suspension | Not stated in the available records |
-| SIN04004P | ORAMEDY PASTE 1 mg/g | Paste | Not stated in the available records |
-| SIN05787P | SHINCORT I.M. INJECTION 40 mg/ml | Injection | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04004P | ORAMEDY PASTE 1 mg/g | PASTE | Valid |
+| SIN05787P | SHINCORT I.M. INJECTION 40 mg/ml | INJECTION | Valid |
+| SIN06648P | TRIAMCINOLONE ACETONIDE 40 mg/ml | INJECTION | Valid |
+| SIN06709P | SHINCORT INJECTION 10 mg/ml | INJECTION | Valid |
+| SIN09801P | SHIN POONG TRIAMCINOLONE ACETONIDE INJECTION 40 mg/ml | INJECTION | Valid |
 
-There are 13 valid single-ingredient registrations in total, covering cream, paste, lotion and injectable forms.
+Showing 5 of 13 HSA registrations.
 
 ## Safety Considerations
 

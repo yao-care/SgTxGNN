@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 876
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ritonavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ There are **no clinical trials** and **11 publications** (all preclinical or lab
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,12 +90,13 @@ For context, the other predicted indications with clinical trial data are summar
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14288P | Norvir Tablets 100 mg | Film-coated tablet | Not available |
-| SIN16877P | Paxlovid Film-Coated Tablets | Film-coated tablet | Not available |
-| SIN13250P | Kaletra Tablet 200mg/50mg | Film-coated tablet | Not available |
-| SIN11492P | Kaletra Oral Solution | Syrup | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14288P | Norvir Tablets 100 mg | TABLET, FILM COATED | Valid |
+| SIN11492P | KALETRA ORAL SOLUTION | SYRUP | Valid |
+| SIN13250P | Kaletra Tablet 200mg/50mg | TABLET, FILM COATED | Valid |
+| SIN16877P | PAXLOVID FILM-COATED TABLETS | TABLET, FILM COATED | Valid |
+| SIN17428P | PAXLOVID (NIRMATRELVIR AND RITONAVIR) FILM-COATED TABLETS | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

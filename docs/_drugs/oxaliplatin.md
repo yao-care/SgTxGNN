@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 748
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Metastasis from malignant tumour of colon"
 monitor_inn: "Oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -52,8 +52,8 @@ with **2 directly relevant Phase 2 clinical trials** and **about 20 publications
 | Predicted New Indication | Malignant pleural mesothelioma |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 12 of 12) |
-| Number of Registrations | 12 (valid: 12) |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -97,15 +97,15 @@ The evidence has clear limits. No Phase 3 randomised trial shows oxaliplatin to 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13237P | Eloxatin 5mg/ml Concentrate for solution for infusion | Injection, solution, concentrate | Not available in the data |
-| SIN14231P | Oxitan Injection 5mg/ml | Injection | Not available in the data |
-| SIN14242P | Oliplat Injection 5 mg/ml | Injection, solution, concentrate | Not available in the data |
-| SIN14481P | Oxaliplatin Sandoz Concentrate for Solution for Infusion 5mg/ml | Infusion, solution concentrate | Not available in the data |
-| SIN16046P | Oxaccord Oxaliplatin Concentrate for Solution for Infusion USP 5 mg/ml | Infusion, solution concentrate | Not available in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13237P | Eloxatin 5mg/ml Concentrate for solution for infusion | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN13943P | Oxaliplatin Hospira 5mg/mL, 100mg/20mL | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14231P | Oxitan Injection 5mg/ml | INJECTION | Valid |
+| SIN14241P | OLIPLAT POWDER FOR SOLUTION FOR INJECTION 50 mg/vial | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN14242P | OLIPLAT INJECTION 5 MG/ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
-A further 7 valid licences are registered (12 in total), all single-ingredient injectable products.
+Showing 5 of 11 HSA registrations.
 
 ---
 

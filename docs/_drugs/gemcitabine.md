@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ with **34 clinical trials** and **20 publications** currently retrieved for this
 | Predicted New Indication | Rectum mucinous adenocarcinoma |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (see note below) |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Completed Phase 3 trials exist (NCT00006459, NCT00093795), which meets the L1 criterion by count. However, enrollment and results for NCT00006459 are not reported in the data compiled for this report. Several other Phase 3 trials have unknown status. The level should be confirmed against published trial results.
@@ -97,15 +97,17 @@ No randomised controlled trials were retrieved. The list below is mostly narrati
 
 ## Singapore Market Information
 
-All 11 licences are valid single-ingredient injectables, and none carries approved indication text in the data compiled for this report. The table lists 5 of them.
+The table lists 5 of them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09416P | GEMZAR 200mg Powder for Solution for Infusion | Injection, powder, for solution | Not recorded |
-| SIN13229P | GEMZAR 1gm Powder for Solution for Infusion | Injection, powder, for solution | Not recorded |
-| SIN14925P | GEMITA Lyophilised Powder for Solution for Injection 200 mg/vial | Injection, powder, lyophilised | Not recorded |
-| SIN15887P | GEMITA Concentrate for Solution for Infusion 38mg/ml | Infusion, solution concentrate | Not recorded |
-| SIN14444P | Gemcitabine Sandoz Concentrate for Solution for Infusion 40mg/ml | Infusion, solution concentrate | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09416P | GEMZAR 200mg Powder for Solution for Infusion | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13229P | GEMZAR 1gm POWDER FOR SOLUTION FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14444P | Gemcitabine Sandoz Concentrate for Solution for Infusion 40mg/ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14558P | GEMTERO (GEMCITABINE HYDROCHLORIDE) FOR INJECTION 1G/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN14559P | GEMTERO (GEMCITABINE HYDROCHLORIDE) FOR INJECTION 200MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+Showing 5 of 12 HSA registrations.
 
 ## Cytotoxicity
 

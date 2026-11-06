@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Benralizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benralizumab: predicted new indication thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,10 +70,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16043P | FASENRA SOLUTION FOR INJECTION 30MG/ML (AUTOINJECTOR PEN) | Injection, solution | Not recorded |
-| SIN15683P | FASENRA SOLUTION FOR INJECTION 30MG/ML (PRE-FILLED SYRINGE) | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15683P | FASENRA SOLUTION FOR INJECTION 30MG/ML (PRE-FILLED SYRINGE) | INJECTION, SOLUTION | Valid |
+| SIN16043P | FASENRA SOLUTION FOR INJECTION 30MG/ML (AUTOINJECTOR PEN) | INJECTION, SOLUTION | Valid |
 
 Both licences are currently valid and are for the single-ingredient product.
 

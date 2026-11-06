@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 889
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,12 +82,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14927P | JAKAVI TABLET 10MG | Tablet |
-| SIN14398P | JAKAVI TABLET 20MG | Tablet |
-| SIN14397P | JAKAVI TABLET 15MG | Tablet |
-| SIN14396P | JAKAVI TABLET 5MG | Tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14396P | JAKAVI TABLET 5MG | TABLET | Valid |
+| SIN14397P | JAKAVI TABLET 15MG | TABLET | Valid |
+| SIN14398P | JAKAVI TABLET 20MG | TABLET | Valid |
+| SIN14927P | JAKAVI TABLET 10MG | TABLET | Valid |
 
 All four registrations are valid single-ingredient oral products from Novartis Pharma Stein AG. No indication text is recorded for them in the registry data.
 

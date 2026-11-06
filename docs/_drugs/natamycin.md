@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 702
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Natamycin"
 predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
 description: "Natamycin: predicted new indication Vulvitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Natamycin is a polyene antifungal that acts on fungal cell membranes. The TxGNN 
 | Predicted New Indication | Vulvitis |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---
@@ -78,11 +78,9 @@ Currently no related literature available that directly studies natamycin in vul
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06719P | NATACYN 5% Sterile Ophthalmic Suspension (Alcon Research LLC) | Solution | Not stated in the data compiled for this report |
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
-The only registered product is a single-ingredient ophthalmic suspension. No vulvar or vaginal natamycin product is registered locally.
+No vulvar or vaginal natamycin product is registered locally.
 
 ---
 
@@ -97,7 +95,7 @@ No warning, contraindication or drug interaction data were found in the data com
 **Decision: Hold**
 
 **Rationale:**
-No cited study directly addresses vulvitis, so the evidence level is L5 and the prediction rests on the model score and indirect mechanistic reasoning. Vulvitis is also a heterogeneous condition, and natamycin could only plausibly work in the fungal subset. The only local product is an ophthalmic suspension, which is not suitable for vulvar use.
+No cited study directly addresses vulvitis, so the evidence level is L5 and the prediction rests on the model score and indirect mechanistic reasoning. Vulvitis is also a heterogeneous condition, and natamycin could only plausibly work in the fungal subset.
 
 **To proceed, the following is needed:**
 - Clinical or literature evidence that directly studies natamycin in vulvitis, with the cause defined (fungal versus non-fungal)

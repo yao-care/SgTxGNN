@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 597
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 12 of 12) |
-| Number of Registrations | 12 (valid: 12) |
+| Singapore Market Status | Marketed (valid licences: 19 of 19) |
+| Number of Registrations | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,15 +71,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-There are 12 valid single-ingredient registrations. The five below are representative. Approved indication text is not recorded for these registrations in the data compiled for this report.
+The five below are representative. Approved indication text is not recorded for these registrations in the data compiled for this report.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN15341P | AVATAC Film Coated Tablet 500 mg | Film-coated tablet | Meditop Pharmaceutical Ltd |
-| SIN13953P | LOCIKLINE Tablets 500 mg | Film-coated tablet | Dr. Reddy's Laboratories Limited |
-| SIN11632P | CRAVIT Tablet 500 mg | Film-coated tablet | PT Kalbe Farma Tbk |
-| SIN16966P | LEVORES Solution for Infusion 5 mg/ml | Infusion solution | PT Novell Pharmaceutical Laboratories |
-| SIN11883P | CRAVIT I.V. for Infusion 5 mg/ml | Injection | OLIC (Thailand) Limited |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11632P | CRAVIT TABLET 500 mg | TABLET, FILM COATED | Valid |
+| SIN11633P | CRAVIT TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN11826P | CRAVIT OPHTHALMIC SOLUTION 0.5% w/v | SOLUTION | Valid |
+| SIN11883P | CRAVIT I.V. For Infusion 5mg/ml | INJECTION | Valid |
+| SIN13953P | LOCIKLINE TABLETS 500MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 19 HSA registrations.
 
 Available routes are oral (film-coated tablets) and injectable (infusion solution and injection). No ophthalmic formulation appears among the registrations.
 

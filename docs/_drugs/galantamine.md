@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
 description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,11 +88,11 @@ No literature is available for psychogenic movement disorders. The most relevant
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13019P | REMINYL PROLONGED RELEASE CAPSULE 8 MG | Capsule, coated, extended release | Not recorded in the licence data |
-| SIN13020P | REMINYL PROLONGED RELEASE CAPSULE 16 MG | Capsule, coated, extended release | Not recorded in the licence data |
-| SIN13021P | REMINYL PROLONGED RELEASE CAPSULE 24 MG | Capsule, coated, extended release | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13019P | REMINYL PROLONGED RELEASE CAPSULE 8 MG | CAPSULE, COATED, EXTENDED RELEASE | Valid |
+| SIN13020P | REMINYL PROLONGED RELEASE CAPSULE 16 MG | CAPSULE, COATED, EXTENDED RELEASE | Valid |
+| SIN13021P | REMINYL PROLONGED RELEASE CAPSULE 24 MG | CAPSULE, COATED, EXTENDED RELEASE | Valid |
 
 All three licences are valid, single-ingredient, oral products from Janssen.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 851
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ramucirumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
 description: "Ramucirumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,10 +72,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15036P | CYRAMZA Concentrate for Solution for Infusion 500mg/50mL | Injection, solution, concentrate | Not stated in the available records |
-| SIN15035P | CYRAMZA Concentrate for Solution for Infusion 100mg/10mL | Injection, solution, concentrate | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15035P | CYRAMZA CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/10ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN15036P | CYRAMZA CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/50ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
 Both licences are valid single-ingredient products. The manufacturers are Eli Lilly and Company and Lilly France (Fegersheim).
 

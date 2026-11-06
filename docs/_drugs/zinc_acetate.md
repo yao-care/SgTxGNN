@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1084
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Zinc acetate"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "bronchitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "urinary tract infection (disease)"]
 description: "Zinc Acetate: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,13 +72,11 @@ Currently no related literature available for severe nonproliferative diabetic r
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | Injection, emulsion | Not stated |
-| SIN15468P | NUTRIFLEX® OMEGA PLUS EMULSION FOR INFUSION | Injection, emulsion | Not stated |
-| SIN15469P | NUTRIFLEX® OMEGA SPECIAL EMULSION FOR INFUSION | Injection, emulsion | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
 
-All three are single-ingredient registrations by B. Braun Melsungen AG and are valid. They are parenteral nutrition emulsions for infusion, not oral or topical zinc acetate products. No ophthalmic route is available.
+They are parenteral nutrition emulsions for infusion, not oral or topical zinc acetate products. No ophthalmic route is available.
 
 ## Safety Considerations
 

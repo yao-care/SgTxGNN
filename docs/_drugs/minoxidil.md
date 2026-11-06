@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "Minoxidil"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L4). Approved use: Hypertensive disorder, hypertension, alopecia"
 ---
 
@@ -48,8 +48,8 @@ Minoxidil is a potassium channel opener, with relations to hypertensive disorder
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,15 +76,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Eight single-ingredient registrations are listed. No approved indication text is available in the records.
+No approved indication text is available in the records.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08213P | REGAINE Extra Strength (5%) | Solution | Not stated in records |
-| SIN10301P | GROWELL SCALP LOTION 2% w/v | Lotion | Not stated in records |
-| SIN04399P | REGAINE Regular Strength (2%) | Solution | Not stated in records |
-| SIN09083P | GROWELL SCALP LOTION 3% w/v | Lotion | Not stated in records |
-| SIN08987P | REGRO LOTION 5% | Lotion | Not stated in records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04399P | REGAINE Regular Strength (2%) | SOLUTION | Valid |
+| SIN08213P | REGAINE Extra Strength (5%) | SOLUTION | Valid |
+| SIN08987P | REGRO LOTION 5% | LOTION | Valid |
+| SIN09083P | GROWELL SCALP LOTION 3% w/v | LOTION | Valid |
+| SIN09084P | GROWELL SCALP LOTION 5% w/v | LOTION | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ## Safety Considerations
 

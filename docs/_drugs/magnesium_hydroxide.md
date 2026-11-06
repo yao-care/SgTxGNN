@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Magnesium hydroxide"
 predicted_indications: ["stomach disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Magnesium Hydroxide: predicted new indication Stomach disease (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, dyspepsia…"
 ---
 
@@ -87,13 +87,13 @@ Selected from the 20 retrieved publications. Most abstracts are partial, and man
 
 The licence records contain no approved-indication text.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06592P | AXCEL EVILINE TABLET | Tablet | Not stated in the records |
-| SIN06400P | AXCEL EVILINE FORTE SUSPENSION | Suspension | Not stated in the records |
-| SIN03484P | HYDROSIL TABLET | Tablet | Not stated in the records |
-| SIN07376P | ACTAL PLUS TABLET | Tablet | Not stated in the records |
-| SIN08119P | MACGEL TABLET | Tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03484P | HYDROSIL TABLET | TABLET | Valid |
+| SIN06400P | AXCEL EVILINE FORTE SUSPENSION | SUSPENSION | Valid |
+| SIN06592P | AXCEL EVILINE TABLET | TABLET | Valid |
+| SIN07376P | ACTAL PLUS TABLET | TABLET | Valid |
+| SIN08119P | MACGEL TABLET | TABLET | Valid |
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bevacizumab"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bevacizumab: predicted new indication epiglottis neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,13 +70,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14097P | Avastin Concentrate for Solution for Infusion 400mg/16ml | Infusion, solution concentrate | Not recorded |
-| SIN13065P | Avastin Concentrate for Solution for Infusion 100mg/4ml | Infusion, solution concentrate | Not recorded |
-| SIN16287P | Zirabev Concentrate for Solution for Infusion 400 mg/16 ml | Infusion, solution concentrate | Not recorded |
-| SIN16286P | Zirabev Concentrate for Solution for Infusion 100 mg/4 ml | Infusion, solution concentrate | Not recorded |
-| SIN16583P | Abevmy Concentrate for Solution for Infusion 25mg/ml | Injection, solution, concentrate | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13065P | Avastin Concentrate for Solution for Infusion 100mg/4ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14097P | Avastin Concentrate for Solution for Infusion 400mg/16ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN16151P | MVASI CONCENTRATE FOR SOLUTION FOR INFUSION 25 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN16286P | ZIRABEV CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG/4 ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN16287P | ZIRABEV CONCENTRATE FOR SOLUTION FOR INFUSION 400 MG/16 ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+Showing 5 of 9 HSA registrations.
 
 All 9 licences in the local data are valid; only the first five are listed here.
 

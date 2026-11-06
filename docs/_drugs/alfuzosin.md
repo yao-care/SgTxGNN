@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but **no clinical trials and no publications** currently support this direction.
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,14 +82,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09546P | XATRAL SR TABLET 5 mg | Extended-release tablet | Not stated in the licence record |
-| SIN13984P | RANFUZOSIN MODIFIED RELEASE TABLETS 10MG | Extended-release tablet | Not stated in the licence record |
-| SIN15512P | APO-ALFUZOSIN PROLONGED RELEASE TABLET 10mg | Extended-release tablet | Not stated in the licence record |
-| SIN11579P | XATRAL XL TABLET 10 mg | Tablet | Not stated in the licence record |
-
-All four registrations are valid single-ingredient oral products.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11579P | XATRAL XL TABLET 10 mg | TABLET | Valid |
+| SIN13984P | RANFUZOSIN MODIFIED RELEASE TABLETS 10MG | TABLET, EXTENDED RELEASE | Valid |
+| SIN15512P | APO-ALFUZOSIN PROLONGED RELEASE TABLET 10mg | TABLET, EXTENDED RELEASE | Valid |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 450
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fondaparinux: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -77,10 +77,10 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Fondaparinux
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN13587P | Arixtra Solution for Injection 5.0 mg/0.4 ml | INJECTION, SOLUTION | Valid |
-| SIN16809P | DIVITI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 2.5MG/0. | INJECTION, SOLUTION | Valid |
 | SIN12059P | ARIXTRA SOLUTION FOR INJECTION 2.5 mg/0.5 ml | INJECTION | Valid |
 | SIN13586P | Arixtra Solution for Injection 7.5 mg/0.6 ml | INJECTION, SOLUTION | Valid |
+| SIN13587P | Arixtra Solution for Injection 5.0 mg/0.4 ml | INJECTION, SOLUTION | Valid |
+| SIN16809P | DIVITI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 2.5MG/0.5ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

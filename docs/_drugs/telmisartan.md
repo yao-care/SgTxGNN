@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 960
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 32 of 32) |
+| Number of Registrations | 32 (valid: 32) |
 | Recommended Decision | Hold |
 
 ---
@@ -81,15 +81,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-All 20 registrations are valid single-ingredient oral tablets (40 mg or 80 mg). Approved indication text was not available for these licences. The five below are examples:
+Approved indication text was not available for these licences. The five below are examples:
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN15447P | JUBITEL 40 Tablet 40 mg | Tablet | Jubilant Generics Limited |
-| SIN16850P | CORXEVA Tablet 40 mg | Tablet | Laboratorios Liconsa S.A. |
-| SIN16587P | TELFOCUS 80 Tablets 80 mg | Tablet | Aurobindo Pharma Limited - Unit VII |
-| SIN16640P | TELCORD 40 Tablet 40 mg | Tablet | Intas Pharmaceuticals Limited |
-| SIN14807P | ACTELSAR Tablet 40 mg | Tablet | Actavis Ltd. |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11072P | MICARDIS TABLET 40 mg | TABLET | Valid |
+| SIN11073P | MICARDIS TABLET 80 mg | TABLET | Valid |
+| SIN14568P | TELMISARTAN SANDOZ TABLETS 80MG | TABLET | Valid |
+| SIN14569P | TELMISARTAN SANDOZ TABLETS 40MG | TABLET | Valid |
+| SIN14806P | ACTELSAR TABLET 80 MG | TABLET | Valid |
+
+Showing 5 of 32 HSA registrations.
 
 ---
 

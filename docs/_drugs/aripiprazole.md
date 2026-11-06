@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ This is a computational prediction only: **0 clinical trials** and **0 publicati
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,13 +72,15 @@ Currently no related literature available.
 
 Aripiprazole has valid single-ingredient licences in Singapore, in tablet, oral solution and extended-release injectable forms. The approved indication text is not recorded in the local data. Five of the licences are shown below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17222P | ABILIFY ASIMTUFII Prolonged-Release Suspension for Injection 960mg/3.2ml | Extended-release injectable suspension | Not recorded |
-| SIN16832P | ABILIFY MAINTENA Powder and Solvent for Prolonged-Release Suspension 400mg | Extended-release injectable powder | Not recorded |
-| SIN16120P | ABILIFY Oral Solution 1mg/ml | Solution | Not recorded |
-| SIN16119P | ABILIFY Tablet 2mg | Tablet | Not recorded |
-| SIN13006P | ABILIFY Tablet 5mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13006P | ABILIFY TABLET 5 mg | TABLET | Valid |
+| SIN13007P | ABILIFY TABLET 10 mg | TABLET | Valid |
+| SIN13008P | ABILIFY TABLET 15 mg | TABLET | Valid |
+| SIN15192P | ABILIFY MAINTENA POWDER AND SOLVENT FOR PROLONGED RELEASE SUSPENSION F | INJECTION, POWDER, FOR SUSPENSION, EXTENDED RELEASE | Valid |
+| SIN16119P | ABILIFY TABLET 2MG | TABLET | Valid |
+
+Showing 5 of 18 HSA registrations.
 
 ## Safety Considerations
 

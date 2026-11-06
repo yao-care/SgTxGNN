@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 558
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Isotretinoin"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,13 +79,15 @@ No literature was found for the top-ranked prediction. They appear to be keyword
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13051P | ACNOTIN 20 | Capsule | Not stated in the data |
-| SIN14628P | ORATANE CAPSULE 5 mg | Capsule | Not stated in the data |
-| SIN11781P | ORATANE CAPSULE 20 mg | Capsule | Not stated in the data |
-| SIN13333P | ACNOTIN 10 | Capsule | Not stated in the data |
-| SIN11782P | ORATANE CAPSULE 10 mg | Capsule | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04920P | ROACCUTANE CAPSULE 10 mg | CAPSULE, LIQUID FILLED | Valid |
+| SIN04921P | ROACCUTANE CAPSULE 20 mg | CAPSULE, LIQUID FILLED | Valid |
+| SIN10767P | NIMEGEN SOFT CAP. 10 mg | CAPSULE, LIQUID FILLED | Valid |
+| SIN11781P | ORATANE CAPSULE 20 mg | CAPSULE | Valid |
+| SIN11782P | ORATANE CAPSULE 10 mg | CAPSULE | Valid |
+
+Showing 5 of 8 HSA registrations.
 
 Eight licences are valid in total (all single-ingredient oral capsules). The remaining three are ROACCUTANE 20 mg (SIN04921P), ROACCUTANE 10 mg (SIN04920P) and NIMEGEN SOFT CAP. 10 mg (SIN10767P).
 

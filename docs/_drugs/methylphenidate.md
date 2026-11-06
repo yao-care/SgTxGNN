@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 664
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -114,13 +114,15 @@ The closest literature relates to the rank 3 prediction (specific developmental 
 
 Methylphenidate has 15 valid single-ingredient registrations in Singapore, all oral. The licence records contain no approved indication text. The five main authorizations are listed below:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12098P | Concerta Extended-Release Tablet 36 mg | Film-coated tablet | Not stated in the records |
-| SIN17020P | Neurofind Prolonged Release Tablets 18 mg | Film-coated, extended-release tablet | Not stated in the records |
-| SIN14754P | Medikinet MR Capsules 10 mg | Delayed-release pellet capsule | Not stated in the records |
-| SIN12351P | Ritalin LA Capsule 20 mg | Capsule | Not stated in the records |
-| SIN03542P | Ritalin Tablet 10 mg | Tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03542P | RITALIN TABLET 10 mg | TABLET | Valid |
+| SIN12098P | CONCERTA EXTENDED-RELEASE TABLET 36 mg | TABLET, FILM COATED | Valid |
+| SIN12099P | CONCERTA EXTENDED-RELEASE TABLET 18 mg | TABLET, FILM COATED | Valid |
+| SIN12100P | CONCERTA EXTENDED-RELEASE TABLET 54 mg | TABLET, FILM COATED | Valid |
+| SIN12351P | RITALIN LA CAPSULE 20 mg | CAPSULE | Valid |
+
+Showing 5 of 15 HSA registrations.
 
 ---
 

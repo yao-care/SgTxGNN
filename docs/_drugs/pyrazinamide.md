@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 842
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Pyrazinamide"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
 description: "Pyrazinamide: predicted new indication Infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Related evidence exists only for tuberculous middle ear disease (a few case repo
 | Predicted New Indication | Infectious otitis media |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---
@@ -97,9 +97,7 @@ No literature was retrieved for infectious otitis media itself. The closest evid
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00900P | PYRAZINAMIDE TABLET 500 mg (Sunward Pharmaceutical Private Limited) | Tablet (oral) | Indication text not available |
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ---
 
@@ -127,7 +125,6 @@ The TxGNN score is very high, but there are no trials and no literature for infe
 **To proceed, the following is needed:**
 - Mechanism of action data
 - Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
-- Approved indication text for the Singapore licence
 - Confirmation that the target is tuberculous otitis media specifically, with pathogen-specific evidence (such as culture or PCR-confirmed cases)
 - Controlled or cohort data on anti-TB regimens that include pyrazinamide for tuberculous ear disease
 - Hepatotoxicity monitoring plan, given the liver-related contraindications

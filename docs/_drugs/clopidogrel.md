@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clopidogrel: predicted new indication migraine with brainstem aura (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The data compiled for this report show **no registered clinical trials** for thi
 | Predicted New Indication | migraine with brainstem aura |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 13 of 13) |
-| Number of Registrations | 13 (valid: 13) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,7 +93,7 @@ None of these publications studies migraine with brainstem aura itself. They con
 
 ## Singapore Market Information
 
-Clopidogrel is currently marketed in Singapore. All 13 single-ingredient licences are valid. Approved indication text is not recorded in the local data.
+Clopidogrel is currently marketed in Singapore. Approved indication text is not recorded in the local data.
 
 ---
 

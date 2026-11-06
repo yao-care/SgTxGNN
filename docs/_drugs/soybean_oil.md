@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 934
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Soybean oil"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Soybean Oil: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,9 +82,9 @@ They concern perioperative nutrition or animal models, and the n-6-rich oil may 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13246P | SMOFlipid 20% | Injection, emulsion | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13246P | SMOFlipid 20% | INJECTION, EMULSION | Valid |
 
 ## Safety Considerations
 

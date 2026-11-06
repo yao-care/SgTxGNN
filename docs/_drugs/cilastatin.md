@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "Cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cilastatin: predicted new indication staphylococcus aureus infection (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **staphylococcus aureus infection*
 | Predicted New Indication | staphylococcus aureus infection |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -81,10 +81,12 @@ Activity against *S. aureus* comes from imipenem, not cilastatin. Imipenem works
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16280P | IMCIL Powder for Solution for Injection or Infusion 500mg/500mg per vial | Injection, powder, for solution | Not recorded |
-| SIN14765P | Imipenem/Cilastatin Kabi Powder for Solution for Infusion 500mg/500mg | Injection, powder, for solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14329P | Imipenem + Cilastatin Mevon Powder for solution for Injection 500 mg + | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14589P | Imipenem/Cilastatin Labatec IV powder for Injection 500mg/500mg | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14765P | IMIPENEM /CILASTATIN KABI POWDER FOR SOLUTION FOR INFUSION 500MG/500MG | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN16280P | IMCIL POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500MG/500MG PER VI | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

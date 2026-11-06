@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ravulizumab: predicted new indication autosomal recessive severe congenital neutropenia due to G6PC3 deficiency (evidence level L5). Approved use: Paroxysmal nocturnal hemoglobinuria"
 monitor_inn: "Ravulizumab"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
@@ -72,9 +72,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17026P | ULTOMIRIS CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG/ML | Infusion, solution concentrate | Indication text not listed in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17026P | ULTOMIRIS CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Safety Considerations
 

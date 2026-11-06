@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Dexmedetomidine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The best-supported alternative is **headache disorder** (specifically post-dural
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -95,15 +95,17 @@ For reference, the main publications for headache disorder:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11333P | Precedex Concentrate for Solution for Infusion 100 mcg/ml (Vial) | Injection | Not available |
-| SIN16767P | Dexdor Concentrate for Solution for Infusion 100 micrograms/ml | Infusion, solution concentrate | Not available |
-| SIN16592P | Icunes Concentrate for Solution for Infusion 100mcg/ml | Infusion, solution concentrate | Not available |
-| SIN16554P | Dexmedetomidine Kalceks Concentrate for Solution for Infusion 100mcg/ml | Infusion, solution concentrate | Not available |
-| SIN16908P | Dexmedetomidine Fresenius Concentrate for Solution for Infusion 100mcg/ml | Injection | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11333P | PRECEDEX CONCENTRATE FOR SOLUTION FOR INFUSION 100 mcg/ml (Vial) | INJECTION | Valid |
+| SIN15269P | DEXMEDETOMIDINE KABI INJECTION 100MCG/ML | INJECTION | Valid |
+| SIN16089P | DEXMECCORD INJECTION 200 MCG/2 ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN16554P | DEXMEDETOMIDINE KALCEKS CONCENTRATE FOR SOLUTION FOR INFUSION 100MCG/M | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN16592P | ICUNES® CONCENTRATE FOR SOLUTION FOR INFUSION 100MCG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
-Eight valid single-ingredient registrations exist in total. All are injectable.
+Showing 5 of 9 HSA registrations.
+
+All are injectable.
 
 ## Safety Considerations
 

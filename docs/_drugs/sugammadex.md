@@ -3,7 +3,7 @@ layout: default
 title: Sugammadex
 parent: Known Uses Only (No New Predictions)
 nav_order: 937
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sugammadex: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -45,8 +45,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sugammadex, 
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 1 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 
 ## Known uses recorded for this drug
 
@@ -72,11 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sugammadex, 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16988P | SUGAMMADEX KABI SOLUTION FOR INJECTION 100 MG/ML | INJECTION, SOLUTION | Valid |
-| SIN16994P | ACCODEX SOLUTION FOR INJECTION 100MG/ML | INJECTION, SOLUTION | Valid |
-| SIN16880P | SUGAMMADEX SANDOZ SOLUTION FOR INJECTION 100MG / ML | INJECTION, SOLUTION | Valid |
 | SIN13812P | Bridion Solution For Injection 100mg/ml | INJECTION, SOLUTION | Valid |
+| SIN16880P | SUGAMMADEX SANDOZ SOLUTION FOR INJECTION 100MG / ML | INJECTION, SOLUTION | Valid |
 | SIN16933P | SUGAMMADEX SCIGEN SOLUTION FOR INJECTION 100MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16962P | SUGAMMADEX-TEVA SOLUTION FOR INJECTION 100MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16988P | SUGAMMADEX KABI SOLUTION FOR INJECTION 100 MG/ML | INJECTION, SOLUTION | Valid |
+
+Showing 5 of 11 HSA registrations.
 
 ## Safety Considerations
 

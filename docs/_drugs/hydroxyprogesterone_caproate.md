@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Hydroxyprogesterone caproate"
 predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral", "endometriosis in cutaneous scar", "endometriosis of rectovaginal septum and vagina", "renal hypoplasia (disease)", "cervix endometriosis", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
 description: "Hydroxyprogesterone Caproate: predicted new indication Endometriosis of uterus (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Hydroxyprogesterone caproate is a synthetic progestin given as an injection. The
 | Predicted New Indication | Endometriosis of uterus |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,9 +70,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14879P | PROLUTON DEPOT INJECTION 250MG/ML (Bayer AG) | Injection | Not available in the data compiled for this report |
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Safety Considerations
 

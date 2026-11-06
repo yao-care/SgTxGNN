@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 523
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Imiglucerase: predicted new indication Hurler syndrome (evidence level L4). Approved use: Gaucher disease"
 monitor_inn: "Imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
@@ -72,9 +72,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13842P | Cerezyme® (Imiglucerase) 400U Powder for solution for injection | Injection, powder, for solution | Not listed in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13842P | Cerezyme® (Imiglucerase) 400U Powder for solution for injection | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

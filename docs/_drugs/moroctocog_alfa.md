@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 688
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Moroctocog Alfa: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Hemophilia"
 monitor_inn: "Moroctocog alfa"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
@@ -76,12 +76,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13791P | Xyntha Powder and Solvent for Solution for Injection 250iu | Injection, powder, for solution | Not stated in the available data |
-| SIN13792P | Xyntha Powder and Solvent for Solution for Injection 500iu | Injection, powder, for solution | Not stated in the available data |
-| SIN13794P | Xyntha Powder and Solvent for Solution for Injection 1000iu | Injection, powder, for solution | Not stated in the available data |
-| SIN13793P | Xyntha Powder and Solvent for Solution for Injection 2000iu | Injection, powder, for solution | Not stated in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13791P | Xyntha Powder and Solvent for Solution for Injection 250iu | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13792P | Xyntha Powder and Solvent for Solution for Injection 500iu | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13793P | Xyntha Powder and Solvent for Solution for Injection 2000iu | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13794P | Xyntha Powder and Solvent for Solution for Injection 1000iu | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

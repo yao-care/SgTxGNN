@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 693
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Nadroparin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,14 +74,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nadroparin, 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15473P | FRAXIPARINE INJECTION 7600 IU AXA/0.8 mL | INJECTION | Valid |
-| SIN15472P | FRAXIPARINE INJECTION 1900 IU AXA/0.2 mL | INJECTION | Valid |
-| SIN14223P | FRAXIPARINE INJECTION 3800 IU AXA/0.4 mL | INJECTION | Valid |
-| SIN14222P | FRAXIPARINE INJECTION 5700 IU AXA/0.6 mL | INJECTION | Valid |
-| SIN15474P | FRAXIPARINE INJECTION 9500 IU AXA/1.0 mL | INJECTION | Valid |
-| SIN11872P | FRAXIPARINE MULTIDOSE INJECTION 9500 iu AXA/ml | INJECTION | Valid |
-| SIN11292P | FRAXIPARINE FORTE INJECTION 19,000 iu Axa/ml | INJECTION | Valid |
 | SIN02147P | FRAXIPARINE INJECTION 2850 IU AXA/0.3 mL | INJECTION | Valid |
+| SIN11292P | FRAXIPARINE FORTE INJECTION 19,000 iu Axa/ml | INJECTION | Valid |
+| SIN11872P | FRAXIPARINE MULTIDOSE INJECTION 9500 iu AXA/ml | INJECTION | Valid |
+| SIN14222P | FRAXIPARINE INJECTION 5700 IU AXA/0.6 mL | INJECTION | Valid |
+| SIN14223P | FRAXIPARINE INJECTION 3800 IU AXA/0.4 mL | INJECTION | Valid |
+| SIN15472P | FRAXIPARINE INJECTION 1900 IU AXA/0.2 mL | INJECTION | Valid |
+| SIN15473P | FRAXIPARINE INJECTION 7600 IU AXA/0.8 mL | INJECTION | Valid |
+| SIN15474P | FRAXIPARINE INJECTION 9500 IU AXA/1.0 mL | INJECTION | Valid |
 
 ## Safety Considerations
 

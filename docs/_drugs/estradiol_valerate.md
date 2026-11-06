@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Estradiol Valerate: predicted new indication symptomatic form of fragile X syndrome in female carrier (evidence level L5). Approved use: Primary ovarian failure"
 monitor_inn: "Estradiol valerate"
 predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "anovulation", "ovarian remnant syndrome", "luteoma of pregnancy", "ovarian dysfunction"]
@@ -88,10 +88,10 @@ For the lower-ranked predictions (anovulation and ovarian dysfunction), the lite
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04456P | PROGYNOVA TABLET 2 mg | Tablet, sugar coated | Not stated in the licence record |
-| SIN04778P | PROGYLUTON TABLET | Tablet, sugar coated | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04456P | PROGYNOVA TABLET 2 mg | TABLET, SUGAR COATED | Valid |
+| SIN04778P | PROGYLUTON TABLET | TABLET, SUGAR COATED | Valid |
 
 Both are valid single-ingredient oral products from Bayer Weimar GmbH und Co.
 

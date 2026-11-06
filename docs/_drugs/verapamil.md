@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1063
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,9 +101,9 @@ Most other retrieved papers were off-topic (for example migraine, retinal neurop
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00344P | ISOPTIN SR TABLET 240 mg | Tablet, film coated (oral) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00344P | ISOPTIN SR TABLET 240 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

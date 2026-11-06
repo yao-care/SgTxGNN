@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Caffeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, migraine, pharyngitis…"
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
@@ -52,8 +52,8 @@ The evidence is essentially a computational prediction.
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 20 of 20) |
-| Number of Registrations | 20 (valid: 20) |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 *Note: The approved indication text is not recorded in the Singapore licence data compiled for this report.*
@@ -88,15 +88,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Twenty valid single-ingredient registrations are on record. The approved indication text is not available for any of them. Five main authorisations are shown below.
+The approved indication text is not available for any of them. Five main authorisations are shown below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09110P | PANADOL EXTRA CAPLET | Tablet | Not recorded |
-| SIN14833P | PANADOL EXTRA EFFERVESCENT TABLET 500MG/65MG | Effervescent tablet | Not recorded |
-| SIN13452P | Panadol FluMax Caplets | Film-coated tablet | Not recorded |
-| SIN07778P | STONA COLD CAPLETS | Film-coated tablet | Not recorded |
-| SIN16929P | GENCEBOK SOLUTION FOR INFUSION 10MG/ML | Infusion solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16929P | GENCEBOK SOLUTION FOR INFUSION 10MG/ML | INFUSION, SOLUTION | Valid |
+| SIN06271P | PACOFEN TABLETS | TABLET | Valid |
+| SIN07102P | UNIFLU COLDS & FLU TABLETS | TABLET | Valid |
+| SIN07120P | STONA COLD TABLET | TABLET | Valid |
+| SIN07778P | STONA COLD CAPLETS | TABLET, FILM COATED | Valid |
+
+Showing 5 of 13 HSA registrations.
 
 Available dosage forms include oral capsules and tablets (plain, film-coated, sugar-coated, effervescent) and one injectable infusion solution.
 

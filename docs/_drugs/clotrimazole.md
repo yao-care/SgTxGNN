@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Clotrimazole: predicted new indication acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acne (disease)**, but only **
 | Predicted New Indication | acne (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 23 of 23) |
+| Number of Registrations | 23 (valid: 23) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,7 +73,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-At least 20 valid single-ingredient clotrimazole licences are recorded locally, and the list may be partial. The records cover creams, vaginal tablets, ear drops, spray, powder and lotion. The local records carry no approved-indication text, so no indication table is shown.
+The records cover creams, vaginal tablets, ear drops, spray, powder and lotion. The local records carry no approved-indication text, so no indication table is shown.
 
 ## Safety Considerations
 

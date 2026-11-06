@@ -5,7 +5,7 @@ layout: default
 title: Malathion
 parent: Known Uses Only (No New Predictions)
 nav_order: 633
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Malathion: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Malathion"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09320P | LICE CARE LOTION 0.5% w/v (ICM Pharma Pte. Ltd.) | Emulsion | Not stated in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09320P | LICE CARE LOTION 0.5% w/v | EMULSION | Valid |
 
 ## Safety Considerations
 

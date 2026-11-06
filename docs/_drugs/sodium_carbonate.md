@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 919
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sodium Carbonate: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated"
 monitor_inn: "Sodium carbonate"
 predicted_indications: ["cauda equina syndrome", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "obsolete neurogenic bladder (disease)", "dry eye syndrome", "ventricular tachycardia"]
@@ -52,8 +52,8 @@ The only direction with any indirect literature is **Sjögren syndrome / dry eye
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,9 +93,15 @@ One further paper, [34600046](https://pubmed.ncbi.nlm.nih.gov/34600046/) (2021, 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11470P | CEFAZIME FOR INJECTION 1 g/vial | Injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09234P | FORTRANS FOR ORAL SOLUTION | GRANULE, FOR SOLUTION | Valid |
+| SIN11470P | CEFAZIME FOR INJECTION 1 g/vial | INJECTION | Valid |
+| SIN11635P | PRISMASOL BO SOLUTION | SOLUTION | Valid |
+| SIN14061P | MULTIBIC POTASSIUM-FREE SOLUTION FOR HAEMODIALYSIS/HAEMOFILTRATION | SOLUTION, STERILE | Valid |
+| SIN15514P | BIPHOZYL SOLUTION FOR HAEMODIALYSIS / HAEMOFILTRATION | SOLUTION, STERILE | Valid |
+
+Showing 5 of 9 HSA registrations.
 
 Sodium carbonate appears here as a component of a single injectable product. In such products it typically serves as a buffer or excipient rather than as the active ingredient.
 
@@ -119,7 +125,7 @@ The top predictions have no clinical trials, no supporting literature, and no pl
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Singapore regulator (HSA), which are required before any safety screening
 - Mechanism of action data for sodium carbonate
-- Clarification of the original indication, since the sole license is for a combination injectable with no stated indication text
+- Clarification of the original indication
 - Verification of the design, population, and results of the Sjögren's syndrome oral spray study (PMID 27813150)
 - Prospective controlled studies if the Sjögren syndrome direction (symptomatic dry mouth relief) is pursued
 - Ocular safety data before any consideration of dry eye syndrome

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 838
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Protein C: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,7 +74,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Protein C, s
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN14933P | OCTAPLEX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500 I | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14933P | OCTAPLEX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500 IU | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

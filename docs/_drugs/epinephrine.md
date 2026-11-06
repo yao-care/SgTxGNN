@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Much of this prediction rediscovers an existing use, and the strongest evidence 
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 15 of 15) |
-| Number of Registrations | 15 (valid: 15) |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -94,15 +94,17 @@ Nebulised epinephrine reduces subglottic oedema, and this is established clinica
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16897P | Adrenaline Aguettant Solution for Injection in Pre-filled Syringe 0.1 mg/ml | Injection, solution | Not recorded |
-| SIN10017P | Adrenaline Injection 1:1000 | Injection | Not recorded |
-| SIN13290P | EpiPen Junior Auto-Injector 0.15 mg/dose | Injection | Not recorded |
-| SIN13288P | EpiPen Auto-Injector 0.3 mg/dose | Injection | Not recorded |
-| SIN15913P | Artinibsa 4% with Epinephrine 1:100000 | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10017P | ADRENALINE INJECTION 1:1000 | INJECTION | Valid |
+| SIN13288P | EpiPen (Epinephrine) Auto-Injector 0.3mg/dose (1mg/ml) | INJECTION | Valid |
+| SIN13290P | EpiPen Junior (Epinephrine) Auto-Injector 0.15mg/dose (0.5mg/ml) | INJECTION | Valid |
+| SIN16897P | ADRENALINE AGUETTANT SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 0.1  | INJECTION, SOLUTION | Valid |
+| SIN05504P | UBISTESIN INJECTION | INJECTION | Valid |
 
-Ten further licences cover local-anaesthetic injections combined with epinephrine. All 15 registrations are valid single-ingredient records, and all are injectable. No inhaled or nebulised epinephrine product appears among them.
+Showing 5 of 14 HSA registrations.
+
+Ten further licences cover local-anaesthetic injections combined with epinephrine. No inhaled or nebulised epinephrine product appears among them.
 
 ## Safety Considerations
 

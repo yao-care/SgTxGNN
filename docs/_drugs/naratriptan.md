@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 700
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Naratriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Naratriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,9 +86,9 @@ The table lists the most relevant publications, prioritising RCTs, then reviews.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14787P | Naratriptan Film-Coated Tablets 2.5 mg (Chanelle Medical Unlimited Company) | Film-coated tablet (oral) | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14787P | NARATRIPTAN FILM-COATED TABLETS 2.5MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

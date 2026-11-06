@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 22
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Abemaciclib: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced no candidate indication with a score of 0.99 or higher 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -74,12 +74,9 @@ The TxGNN model produced no candidate indication with a score of 0.99 or higher 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16576P | YULAREB FILM-COATED TABLET 150MG | TABLET, FILM COATED | Valid |
+| SIN15788P | VERZENIO FILM-COATED TABLET 50MG | TABLET, FILM COATED | Valid |
 | SIN15789P | VERZENIO FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
 | SIN15790P | VERZENIO FILM-COATED TABLET 150MG | TABLET, FILM COATED | Valid |
-| SIN16575P | YULAREB FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
-| SIN16574P | YULAREB FILM-COATED TABLET 50MG | TABLET, FILM COATED | Valid |
-| SIN15788P | VERZENIO FILM-COATED TABLET 50MG | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

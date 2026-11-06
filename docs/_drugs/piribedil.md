@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 800
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Piribedil"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "PLA2G6-associated neurodegeneration"]
 description: "Piribedil: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,9 +76,9 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09947P | TRIVASTAL RETARD 50 TABLET 50 mg | Film-coated tablet (oral) | Not listed in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09947P | TRIVASTAL RETARD 50 TABLET 50 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

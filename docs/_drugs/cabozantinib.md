@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cabozantinib: predicted new indication Liposarcoma (evidence level L3). Approved use: Renal cell carcinoma (clear cell and non-papillary types) and medulla…"
 monitor_inn: "Cabozantinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -73,11 +73,11 @@ Its efficacy in renal cell carcinoma is well established. Mechanistically, the s
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15606P | CABOMETYX Film Coated Tablet 20 mg | Film-coated tablet | Not specified in the available records |
-| SIN15607P | CABOMETYX Film Coated Tablet 40 mg | Film-coated tablet | Not specified in the available records |
-| SIN15608P | CABOMETYX Film Coated Tablet 60 mg | Film-coated tablet | Not specified in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15606P | CABOMETYX FILM COATED TABLET 20MG | TABLET, FILM COATED | Valid |
+| SIN15607P | CABOMETYX FILM COATED TABLET 40MG | TABLET, FILM COATED | Valid |
+| SIN15608P | CABOMETYX FILM COATED TABLET 60MG | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

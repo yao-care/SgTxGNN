@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 826
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Probenecid: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Gout"
 monitor_inn: "Probenecid"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
@@ -48,12 +48,12 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 
 | Item | Content |
 |------|------|
-| Original Indication | Gout; hyperuricemia (the Singapore licence has no approved indication text on file) |
+| Original Indication | Gout; hyperuricemia |
 | Predicted New Indication | Hypouricemia, renal |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,9 +93,7 @@ The 20 publications retrieved for renal hypouricemia cover the disease and its p
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07685P | Probenecid Tablet 500 mg (Sunward Pharmaceutical Private Limited) | Tablet (oral) | Not specified in the data compiled for this report |
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Diosmin"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Diosmin: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,7 +69,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for amenorrhea.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [33496999](https://pubmed.ncbi.nlm.nih.gov/33496999/) | 2021 | Cohort | Dermatologic Therapy | Single-centre series of 75 Brazilian patients with livedoid vasculopathy, a thrombo-occlusive skin condition; describes clinical, histopathological and treatment data |
@@ -77,13 +76,15 @@ Currently no related literature available for amenorrhea.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17191P | Vessosmin Film Coated Tablet 500mg | Tablet, film coated | Not stated |
-| SIN16068P | Ruventin Film Coated Tablet 500mg | Tablet, film coated | Not stated |
-| SIN01067P | Daflon Tablet 500 mg | Tablet, sugar coated | Not stated |
-| SIN15669P | Daflon Film-Coated Tablet 1000 mg | Tablet, film coated | Not stated |
-| SIN16960P | Davmorid Film Coated Tablet | Tablet, film coated | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01067P | DAFLON TABLET 500 mg | TABLET, SUGAR COATED | Valid |
+| SIN11942P | DIOSPER FILM COATED TABLET | TABLET, FILM COATED | Valid |
+| SIN15669P | DAFLON FILM-COATED TABLET 1000 mg | TABLET, FILM COATED | Valid |
+| SIN16068P | RUVENTIN FILM COATED TABLET 500MG | TABLET, FILM COATED | Valid |
+| SIN16960P | DAVMORID FILM COATED TABLET | TABLET, FILM COATED | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 A sixth registration, Diosper Film Coated Tablet (SIN11942P), is also valid. All six are single-ingredient oral products.
 

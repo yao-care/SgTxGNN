@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 352
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Not recorded in the local data"
@@ -110,13 +110,15 @@ Several other trials (for example NCT00949325, NCT00544778 and NCT01864109) are 
 
 There are 11 valid single-ingredient registrations. The records contain no approved-indication text. The table lists 5 of them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10992P | K. U. Doxorubicin HCl for Injection 10 mg/vial | Powder for injection solution | Not stated in the records |
-| SIN16102P | Chemodox Concentrate for Infusion 2 mg/ml | Solution for injection | Not stated in the records |
-| SIN13676P | Ebedoxo 2 mg/ml Injection | Concentrate for injection solution | Not stated in the records |
-| SIN10426P | Caelyx Concentrate for Infusion 2 mg/ml | Injection | Not stated in the records |
-| SIN10566P | Adriamycin Solution for Injection 2 mg/ml | Injection | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10426P | CAELYX CONCENTRATE FOR INFUSION 2 mg/ml | INJECTION | Valid |
+| SIN10566P | ADRIAMYCIN SOLUTION FOR INJECTION 2 mg/ml | INJECTION | Valid |
+| SIN10991P | K. U. DOXORUBICIN HCL FOR INJECTION 50 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN10992P | K. U. DOXORUBICIN HCL FOR INJECTION 10 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN12500P | DIOX POWDER FOR INJECTION 10 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+Showing 5 of 11 HSA registrations.
 
 All formulations are injectable (conventional and liposomal products).
 

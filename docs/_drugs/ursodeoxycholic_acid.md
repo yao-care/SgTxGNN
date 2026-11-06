@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1046
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ursodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
 description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,13 +88,13 @@ The only literature item for hypolipoproteinaemia (PMID 26176881) is a case repo
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05742P | URSOFALK CAPSULE 250 mg | Capsule | Not stated in the available data |
-| SIN16918P | URSOSAN FORTE FILM-COATED TABLETS 500MG | Film-coated tablet | Not stated in the available data |
-| SIN15883P | GRINTEROL HARD CAPSULE 250MG | Capsule | Not stated in the available data |
-| SIN16926P | URSOSAN HARD CAPSULES 250 MG | Capsule | Not stated in the available data |
-| SIN14545P | URSOFALK FILM-COATED TABLETS 500MG | Film-coated tablet | Not stated in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05742P | URSOFALK CAPSULE 250 mg | CAPSULE | Valid |
+| SIN14545P | URSOFALK FILM-COATED TABLETS 500MG | TABLET, FILM COATED | Valid |
+| SIN15883P | GRINTEROL HARD CAPSULE 250MG | CAPSULE | Valid |
+| SIN16918P | URSOSAN FORTE FILM-COATED TABLETS 500MG | TABLET, FILM COATED | Valid |
+| SIN16926P | URSOSAN HARD CAPSULES 250 MG | CAPSULE | Valid |
 
 All five registrations are single-ingredient products, valid, and oral.
 

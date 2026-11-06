@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Avibactam: predicted new indication Ureter tuberculosis (evidence level L5). Approved use: Pyelonephritis"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **ureter tuberculosis**, but **no 
 | Predicted New Indication | Ureter tuberculosis |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,11 +75,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15870P | ZAVICEFTA Powder for Concentrate for Solution for Infusion 2G/0.5G | Injection, powder, for solution | Not stated in the licence record |
-
-The number of approvals is 1 licence, which is valid and marketed.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15870P | ZAVICEFTA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 2G/0.5G | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN17438P | EMBLAVEO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1.5G/0.5G | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

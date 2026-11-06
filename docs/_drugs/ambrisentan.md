@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Ambrisentan"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ambrisentan: predicted new indication pulmonary arteriovenous malformation (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,10 +74,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15094P | VOLIBRIS FILM-COATED TABLET 10 MG | Tablet, film coated | Not recorded |
-| SIN15093P | VOLIBRIS FILM-COATED TABLET 5MG | Tablet, film coated | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15093P | VOLIBRIS FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
+| SIN15094P | VOLIBRIS FILM-COATED TABLET 10 MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 791
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Pilocarpine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,8 +74,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Pilocarpi
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN11683P | SALAGEN TABLET 5 mg | TABLET, FILM COATED | Valid |
 | SIN04712P | ISOPTO CARPINE STERILE OPHTHALMIC SOLUTION 2% | SOLUTION | Valid |
+| SIN11683P | SALAGEN TABLET 5 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

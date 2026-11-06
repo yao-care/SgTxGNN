@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Lipegfilgrastim"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
 description: "Lipegfilgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,9 +72,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16019P | LONQUEX SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML (Teva Pharmaceutical Industries Ltd.) | Injection, solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16019P | LONQUEX SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

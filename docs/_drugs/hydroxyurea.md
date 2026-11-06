@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L4). Approved use: Melanoma, sickle cell anaemia, ovarian cancer"
 monitor_inn: "Hydroxyurea"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
@@ -93,9 +93,9 @@ Currently no related clinical trials are registered for female breast carcinoma.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11083P | HYDRINE CAPSULES 500 mg | Capsule | Not recorded in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11083P | HYDRINE CAPSULES 500 mg | CAPSULE | Valid |
 
 The single licence is valid, covers a single-ingredient oral product, and is held by Korea United Pharm. Inc.
 

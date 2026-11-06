@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 879
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but the support is limited to **0 clinical trials** and **3 publications** (one 
 | Predicted New Indication | Glaucoma |
 | TxGNN Prediction Score | 0.9927 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,15 +76,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10035P | EXELON CAPSULE 1.5 mg | Capsule | Not stated in the records |
-| SIN10036P | EXELON CAPSULE 3 mg | Capsule | Not stated in the records |
-| SIN10037P | EXELON CAPSULE 4.5 mg | Capsule | Not stated in the records |
-| SIN10038P | EXELON CAPSULE 6 mg | Capsule | Not stated in the records |
-| SIN13450P | Exelon Patch 5 (4.6mg/24hr) | Patch, extended release | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10035P | EXELON CAPSULE 1.5 mg | CAPSULE | Valid |
+| SIN10036P | EXELON CAPSULE 3 mg | CAPSULE | Valid |
+| SIN10037P | EXELON CAPSULE 4.5 mg | CAPSULE | Valid |
+| SIN10038P | EXELON CAPSULE 6 mg | CAPSULE | Valid |
+| SIN13450P | Exelon Patch 5 (4.6mg/24hr) | PATCH, EXTENDED RELEASE | Valid |
 
-Two further registrations are also valid: SIN13451P (Exelon Patch 10, 9.5 mg/24 hr) and SIN14500P (Exelon Patch 15, 13.3 mg/24 hr). All 7 registrations are valid single-ingredient products, with no cancelled licences. Only oral capsule and transdermal patch forms are registered, with no ophthalmic formulation.
+Showing 5 of 9 HSA registrations.
+
+Two further registrations are also valid: SIN13451P (Exelon Patch 10, 9.5 mg/24 hr) and SIN14500P (Exelon Patch 15, 13.3 mg/24 hr). Only oral capsule and transdermal patch forms are registered, with no ophthalmic formulation.
 
 ## Safety Considerations
 

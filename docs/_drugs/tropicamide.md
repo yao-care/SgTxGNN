@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1032
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,10 +75,10 @@ Currently no related literature available for cauda equina syndrome.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04202P | MINIMS TROPICAMIDE EYE DROPS 1% w/v | Solution | Not stated in the licence record |
-| SIN04715P | MYDRIACYL STERILE OPHTHALMIC SOLUTION 1% | Solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04202P | MINIMS TROPICAMIDE EYE DROPS 1% w/v | SOLUTION | Valid |
+| SIN04715P | MYDRIACYL STERILE OPHTHALMIC SOLUTION 1% | SOLUTION | Valid |
 
 ## Safety Considerations
 

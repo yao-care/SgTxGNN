@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 718
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Nivolumab: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for N
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 13 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 
 ## Known uses recorded for this drug
 
@@ -86,7 +86,6 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for N
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14975P | OPDIVO CONCENTRATE FOR SOLUTION FOR INFUSION 10 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
-| SIN15117P | NIVOLUMAB BMS CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN16852P | OPDUALAG CONCENTRATE FOR SOLUTION FOR INFUSION 240MG/80MG | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Cytotoxicity

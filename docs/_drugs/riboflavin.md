@@ -3,7 +3,7 @@ layout: default
 title: Riboflavin
 parent: Known Uses Only (No New Predictions)
 nav_order: 864
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Riboflavin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -45,8 +45,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 8 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -78,6 +78,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN05447P | IBERET-FOLIC-500 TABLET | TABLET, FILM COATED | Valid |
 | SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations

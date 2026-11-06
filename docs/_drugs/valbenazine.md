@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1050
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Valbenazine"
 predicted_indications: ["psychogenic movement disorders", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "chronic tic disorder", "benign shuddering attacks"]
 description: "Valbenazine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,9 +69,9 @@ Currently no related literature available for this indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16198P | REMLEAS HARD CAPSULES 40 MG | Capsule, gelatin coated (oral) |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16198P | REMLEAS HARD CAPSULES 40 MG | CAPSULE, GELATIN COATED | Valid |
 
 The product is a single-ingredient, valid registration manufactured by Patheon France S.A.S.
 

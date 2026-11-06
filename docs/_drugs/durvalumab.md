@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Durvalumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Durvalumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -84,9 +84,9 @@ For reference, the neighbouring endocervical carcinoma prediction has these indi
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15569P | IMFINZI Concentrate for Solution for Infusion 50 mg/ml | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15569P | IMFINZI CONCENTRATE FOR SOLUTION FOR INFUSION 50 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Cytotoxicity
 

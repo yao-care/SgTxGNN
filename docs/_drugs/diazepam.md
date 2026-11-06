@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 325
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
 description: "Diazepam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **insomnia**. Support is thin: **n
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,13 +82,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08242P | Diazepam Lipuro Injection 10 mg/2 ml | Injection | Not available |
-| SIN00044P | AA Pharma Diazepam Tablet 5 mg | Tablet | Not available |
-| SIN02309P | Stesolid Enema 5 mg/2.5 ml | Enema | Not available |
-| SIN00042P | AA Pharma Diazepam Tablet 2 mg | Tablet | Not available |
-| SIN00421P | Diapine Injection 5 mg/ml | Injection | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00042P | AA PHARMA DIAZEPAM TABLET 2 mg | TABLET | Valid |
+| SIN00044P | AA PHARMA DIAZEPAM TABLET 5 mg | TABLET | Valid |
+| SIN00045P | AA PHARMA DIAZEPAM TABLET 10 mg | TABLET | Valid |
+| SIN00421P | DIAPINE INJECTION 5 mg/ml | INJECTION | Valid |
+| SIN02309P | STESOLID ENEMA 5 mg/2.5 ml | ENEMA | Valid |
+
+Showing 5 of 9 HSA registrations.
 
 ## Safety Considerations
 

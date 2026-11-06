@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 882
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ropeginterferon alfa-2b"
 predicted_indications: ["Laubry-Pezzi syndrome", "interventricular septum aneurysm", "genetic syndromic Pierre Robin syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "disorder of fucoglycosan synthesis", "Jeune syndrome situs inversus", "partial deletion of the long arm of chromosome 22", "orofacial clefting syndrome", "pulmonary valve disease"]
 description: "Ropeginterferon Alfa-2B: predicted new indication Laubry-Pezzi syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,9 +81,9 @@ The data compiled for this report did link five publications to a lower-ranked p
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17014P | Besremi Solution for Injection in Prefilled Syringe 500 micrograms/mL (PharmaEssentia Corporation, Taichung Plant) | Injection, solution | Not stated in the licence record compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17014P | Besremi Solution for Injection in Prefilled Syringe 500 micrograms/mL | INJECTION, SOLUTION | Valid |
 
 ## Cytotoxicity
 

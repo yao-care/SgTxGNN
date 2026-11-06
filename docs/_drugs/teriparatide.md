@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 969
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Teriparatide: predicted new indication duodenal ulcer (disease) (evidence level L5). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -81,13 +81,13 @@ Currently no related literature available.
 
 Teriparatide is registered in Singapore as five valid single-ingredient injectable products.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN12593P | FORTEO Injection 20 mcg/80 mcL | Injection, solution | Lilly France |
-| SIN17052P | MEGAPTH-G Solution for Injection 20 mcg/80 mcL, pen + cartridge pack | Injection, solution | Gedeon Richter Plc. |
-| SIN17051P | MEGAPTH-G Solution for Injection 20 mcg/80 mcL, cartridge pack | Injection, solution | Gedeon Richter Plc. |
-| SIN17077P | TERIPARATIDE-TEVA Solution for Injection in pre-filled pen 20 mcg/80 mcL | Injection, solution | PLIVA Croatia Ltd |
-| SIN16802P | SONDELBAY Injection 20 mcg/80 mcL | Injection, solution | Intas Pharmaceuticals Limited |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12593P | FORTEO INJECTION 20 mcg/80mcL | INJECTION, SOLUTION | Valid |
+| SIN16802P | SONDELBAY INJECTION 20 MCG/80 MCL | INJECTION, SOLUTION | Valid |
+| SIN17051P | MEGAPTH-G SOLUTION FOR INJECTION 20 MCG/80MCL CARTRIDGE PACK | INJECTION, SOLUTION | Valid |
+| SIN17052P | MEGAPTH-G SOLUTION FOR INJECTION 20 MCG/80MCL PEN + CARTRIDGE PACK | INJECTION, SOLUTION | Valid |
+| SIN17077P | TERIPARATIDE-TEVA SOLUTION FOR INJECTION IN PRE-FILLED PEN 20 MCG/80 M | INJECTION, SOLUTION | Valid |
 
 ---
 

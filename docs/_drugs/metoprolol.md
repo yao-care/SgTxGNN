@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, acute coronary syndrome and myocardial infarction"
 ---
 
@@ -69,11 +69,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00440P | APO-METOPROLOL TABLET 100 mg (Apotex Inc) | Tablet | Not stated in the records |
-| SIN00445P | APO-METOPROLOL TABLET 50 mg (Apotex Inc) | Tablet | Not stated in the records |
-| SIN01331P | DENEX TABLET 100 mg (Medochemie Ltd) | Tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00440P | APO-METOPROLOL TABLET 100 mg | TABLET | Valid |
+| SIN00445P | APO-METOPROLOL TABLET 50 mg | TABLET | Valid |
+| SIN01331P | DENEX TABLET 100 mg | TABLET | Valid |
 
 All three are valid single-ingredient registrations for oral use.
 

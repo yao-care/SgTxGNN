@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 537
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Glulisine: predicted new indication Thiamine-responsive dysfunction syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,9 +96,9 @@ The data include 30 registered trials. The 10 most relevant are listed below, fa
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13432P | Apidra SoloStar 100 Units/ml Solution for injection in a pre-filled pen | Injection, solution | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13432P | Apidra SoloStar 100 Units/ml Solution for injection in a pre-filled pe | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

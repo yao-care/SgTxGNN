@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1034
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not stated in the registration records"
 monitor_inn: "Tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -93,13 +93,15 @@ Currently no related clinical trials registered.
 
 All 19 licences are valid single-ingredient registrations. No approved indication text was recorded for any of them. The five main ones are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16337P | Aminoven Solution for Infusion 15% | Infusion, solution | Not recorded |
-| SIN11682P | Aminoven Solution for Infusion 5% | Injection | Not recorded |
-| SIN11829P | Aminoven Solution for Infusion 10% | Injection | Not recorded |
-| SIN06299P | Nephrosteril for Intravenous Infusion | Injection | Not recorded |
-| SIN08352P | Aminoplasmal-15% Infusion | Injection | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | INJECTION | Valid |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
+
+Showing 5 of 19 HSA registrations.
 
 The remaining registrations include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B. Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega products. All are injectable, emulsion or sterile-solution forms; no oral tryptophan product appears among them.
 

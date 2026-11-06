@@ -5,7 +5,7 @@ layout: default
 title: Gliclazide
 parent: Known Uses Only (No New Predictions)
 nav_order: 480
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Gliclazide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Gliclazide"
 predicted_indications: []
@@ -43,20 +43,22 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 17 of 17) |
-| Number of Registrations | 17 (valid: 17) |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 
 ## Singapore Market Information
 
-Gliclazide holds 17 valid single-ingredient licences in Singapore, with no cancelled licences. Approved indication text is not recorded in the licence data. The main authorizations are:
+Approved indication text is not recorded in the licence data. The main authorizations are:
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN04316P | DIAMICRON TABLET 80 mg | Tablet | Les Laboratoires Servier Industrie |
-| SIN11761P | DIAMICRON MR TABLET 30 mg | Tablet | Les Laboratoires Servier Industrie |
-| SIN13868P | DIAMICRON MR TABLET 60 mg | Film-coated extended-release tablet | Les Laboratoires Servier Industrie / Servier (Ireland) Industries / Kotra Pharma (M) |
-| SIN13468P | APO-GLICLAZIDE TABLET 80 mg | Tablet | Apotex Inc. |
-| SIN14258P | APO-GLICLAZIDE MR TABLET 30 mg | Extended-release tablet | Apotex Inc. |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04316P | DIAMICRON TABLET 80 mg | TABLET | Valid |
+| SIN08529P | GLYCLAZIDE TABLET 80 mg | TABLET | Valid |
+| SIN09302P | GLIMICRON TABLET 80 mg | TABLET | Valid |
+| SIN10123P | DIANORM TABLET 80 mg | TABLET | Valid |
+| SIN10996P | MEXAN TABLET 80 mg | TABLET | Valid |
+
+Showing 5 of 15 HSA registrations.
 
 All forms are oral tablets (standard, film-coated, extended-release).
 

@@ -5,7 +5,7 @@ layout: default
 title: Crotamiton
 parent: Known Uses Only (No New Predictions)
 nav_order: 282
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Crotamiton: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Crotamiton"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 
 *Note: The data compiled for this report labels this candidate L4 with a "Research Question" recommendation, based on indirect pharmacological reasoning. Under the standard evidence rules (no clinical trials, no literature), it falls at L5. The Hold decision reflects that gap, while the biological plausibility justifies keeping it as a research question.*
 
@@ -52,13 +52,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04958P | Crotamiton Lotion 10% v/v | Lotion | Not stated in the licence record |
-| SIN04689P | Crotamiton Cream 10% v/w | Cream | Not stated in the licence record |
-| SIN08812P | Guardian Anti-Itch Cream | Cream | Not stated in the licence record |
-
-All three licences are valid, single-ingredient products from Sunward Pharmaceutical Private Limited. Both products are topical (lotion and cream).
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ---
 

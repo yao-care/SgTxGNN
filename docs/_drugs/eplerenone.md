@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Eplerenone"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Eplerenone: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension (with 
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,14 +90,15 @@ Other retrieved papers (liver cirrhosis, choroidal blood flow, renal protection)
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13048P | INSPRA TABLETS 25mg (Viatris) | Tablet, coated | Not stated in the records |
-| SIN13049P | INSPRA TABLETS 50mg (Viatris) | Tablet, coated | Not stated in the records |
-| SIN16941P | EPLERENONE MEVON FILM-COATED TABLETS 25 MG (Pharmathen) | Tablet, film coated | Not stated in the records |
-| SIN16940P | EPLERENONE MEVON FILM-COATED TABLETS 50 MG (Pharmathen) | Tablet, film coated | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13048P | INSPRA TABLETS 25mg | TABLET, COATED | Valid |
+| SIN13049P | INSPRA TABLETS 50mg | TABLET, COATED | Valid |
+| SIN16940P | EPLERENONE MEVON FILM-COATED TABLETS 50 MG | TABLET, FILM COATED | Valid |
+| SIN16941P | EPLERENONE MEVON FILM-COATED TABLETS 25 MG | TABLET, FILM COATED | Valid |
+| SIN17518P | JAMP EPLERENONE TABLETS 50MG | TABLET, FILM COATED | Valid |
 
-All four licences are valid single-ingredient oral products, and none has been cancelled.
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

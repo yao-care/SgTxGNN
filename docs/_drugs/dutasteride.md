@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
 description: "Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 10 of 10) |
-| Number of Registrations | 10 (valid: 10) |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,15 +78,17 @@ Across the other ten predictions, one paper was retrieved. It relates to diffuse
 
 ## Singapore Market Information
 
-All 10 licences are valid single-ingredient registrations. The approved indication text is not recorded in the registration data. Product names containing "0.5/0.4" or "0.5mg/0.4mg" are dutasteride combined with tamsulosin pellets in the same capsule.
+The approved indication text is not recorded in the registration data. Product names containing "0.5/0.4" or "0.5mg/0.4mg" are dutasteride combined with tamsulosin pellets in the same capsule.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12434P | Avodart Soft Capsule 0.5 mg | Capsule, liquid filled | Not recorded |
-| SIN14181P | Duodart Capsules 0.5mg/0.4mg | Capsule | Not recorded |
-| SIN16448P | Dutabit 0.5 Soft Capsules 0.5mg | Capsule, liquid filled | Not recorded |
-| SIN16633P | Dutabit Plus 0.5/0.4 Capsules 0.5mg/0.4mg | Capsule | Not recorded |
-| SIN15882P | Rafuster Soft Capsules 0.5 mg | Capsule, liquid filled | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12434P | AVODART SOFT CAPSULE 0.5 mg | CAPSULE, LIQUID FILLED | Valid |
+| SIN15563P | INTASTERIDE SOFT CAPSULE 0.5MG | CAPSULE, LIQUID FILLED | Valid |
+| SIN15590P | DUTASVITAE SOFT CAPSULE 0.5MG | CAPSULE, LIQUID FILLED | Valid |
+| SIN15882P | DUTASTER SOFT CAPSULES 0.5 MG | CAPSULE, LIQUID FILLED | Valid |
+| SIN16448P | DUTABIT 0.5 SOFT CAPSULES 0.5MG | CAPSULE, LIQUID FILLED | Valid |
+
+Showing 5 of 11 HSA registrations.
 
 Five further registrations are not listed here: Intasteride, Aripsa, Dutasvitae, Lotuflo-D, and Duoflow.
 

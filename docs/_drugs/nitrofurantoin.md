@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 717
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the Singapore licence data (nitrofurantoin is generally…"
 monitor_inn: "Nitrofurantoin"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
@@ -82,10 +82,10 @@ None of these papers reports a therapeutic benefit of nitrofurantoin in rheumato
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00439P | AA PHARMA NITROFURANTOIN TABLET 50 mg | Tablet | Not stated in the data compiled |
-| SIN00290P | AA PHARMA NITROFURANTOIN TABLET 100 mg | Tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00290P | AA PHARMA NITROFURANTOIN TABLET 100 mg | TABLET | Valid |
+| SIN00439P | AA PHARMA NITROFURANTOIN TABLET 50 mg | TABLET | Valid |
 
 Both licences are valid single-ingredient oral tablets from Apotex Inc.
 

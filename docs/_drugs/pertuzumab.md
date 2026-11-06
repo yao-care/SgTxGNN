@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 782
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Pertuzumab"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: predicted new indication Ectomesenchymoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,11 +84,11 @@ Endocrine-therapy combinations are being explored in this subgroup. Examples are
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14501P | Perjeta Concentrate for Solution for Infusion 420 mg/14 mL | Concentrate for infusion solution | Not specified in the compiled data |
-| SIN16247P | Phesgo Solution for Subcutaneous Injection 1200 mg/600 mg / 15 mL | Injection solution | Not specified in the compiled data |
-| SIN16248P | Phesgo Solution for Subcutaneous Injection 600 mg/600 mg / 10 mL | Injection solution | Not specified in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14501P | PERJETA CONCENTRATE FOR SOLUTION FOR INFUSION 420MG/14ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN16247P | PHESGO SOLUTION FOR SUBCUTANEOUS INJECTION 1200 MG/600 MG / 15 ML | INJECTION, SOLUTION | Valid |
+| SIN16248P | PHESGO SOLUTION FOR SUBCUTANEOUS INJECTION 600 MG/600 MG / 10 ML | INJECTION, SOLUTION | Valid |
 
 ## Cytotoxicity
 

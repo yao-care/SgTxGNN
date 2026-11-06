@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 751
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
 description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,13 +91,15 @@ None of these studies is a randomized trial of oxymetazoline for nasal cavity di
 
 Ten valid single-ingredient licences are registered. The approved indication text is not available for any of them. The five main ones are:
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02674P | ILIADIN SPRAY 0.05% | Spray | Not specified |
-| SIN10520P | NAZOLIN NASAL SPRAY 0.05% | Spray | Not specified |
-| SIN02656P | CLARICLEAR NASAL SPRAY 0.05% | Spray | Not specified |
-| SIN03162P | ILIADIN SOLUTION 0.025% | Solution | Not specified |
-| SIN09618P | OXY-NASE NASAL DROPS 0.025% | Solution | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02656P | CLARICLEAR NASAL SPRAY 0.05% | SPRAY | Valid |
+| SIN02674P | ILIADIN SPRAY 0.05% | SPRAY | Valid |
+| SIN03162P | ILIADIN SOLUTION 0.025% | SOLUTION | Valid |
+| SIN03163P | ILIADIN SOLUTION 0.05% | SOLUTION | Valid |
+| SIN06533P | ILIADIN SOLUTION FOR NOSE 0.01% | SOLUTION | Valid |
+
+Showing 5 of 10 HSA registrations.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Beclomethasone dipropionate"
 predicted_indications: ["atopic eczema"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Beclomethasone Dipropionate: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but there ar
 | Predicted New Indication | atopic eczema |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,13 +81,12 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03597P | CLENIL 50 mcg Pressurised Inhalation Solution | Metered aerosol | Not recorded |
-| SIN08674P | BECLOMET EASYHALER 200 mcg/inhalation dose | Metered powder | Not recorded |
-| SIN12634P | BECLO-ASMA CFC-Free Inhaler 50 mcg | Metered aerosol | Not recorded |
-| SIN10521P | DECOMIT Nasal Spray 50 mcg/actuation | Spray | Not recorded |
-| SIN03941P | CANDID-B Cream | Cream | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08674P | BECLOMET EASYHALER 200 mcg/inhalation dose | POWDER, METERED | Valid |
+| SIN10521P | DECOMIT NASAL SPRAY 50 mcg/actuation | SPRAY | Valid |
+| SIN12634P | BECLO-ASMA CFC-FREE INHALER 50 mcg | AEROSOL, METERED | Valid |
+| SIN03941P | CANDID-B CREAM | CREAM | Valid |
 
 ## Safety Considerations
 

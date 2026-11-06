@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ Support comes from **1 completed Phase 3 trial specific to this indication** (pl
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 (see note below) |
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
+| Singapore Market Status | Marketed (valid licences: 18 of 18) |
+| Number of Registrations | 18 (valid: 18) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note: the compiled data labels this prediction L1. Within the evidence listed for the top prediction, only one completed Phase 3 randomized trial (NCT02084420) appears, which by the rules in this report fits L2. The closely related duodenal ulcer prediction (rank 6) does reach L1, with several Phase 3 trials and double-blind randomized comparisons.*
@@ -84,15 +84,15 @@ Other pantoprazole ulcer trials were found under related predictions (for exampl
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08843P | Controloc Tablet 40 mg | Enteric coated tablet | Not stated in the licence record |
-| SIN11170P | Controloc Tablet 20 mg | Enteric coated tablet | Not stated in the licence record |
-| SIN11165P | Controloc IV Injection 40 mg/vial | Injection | Not stated in the licence record |
-| SIN14775P | Pantoprazole Sandoz Gastro Resistant Tablets 40 mg | Enteric coated tablet | Not stated in the licence record |
-| SIN16905P | Pantoprazole-AFT Powder for Injection 40 mg/vial | Lyophilized powder for injection | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08843P | CONTROLOC TABLET 40 mg | ENTERIC COATED TABLET | Valid |
+| SIN11165P | CONTROLOC IV INJECTION 40 mg/vial | INJECTION | Valid |
+| SIN11170P | CONTROLOC TABLET 20 mg | ENTERIC COATED TABLET | Valid |
+| SIN12452P | PEPTAZOL 40 TABLET 40 mg | ENTERIC COATED TABLET | Valid |
+| SIN14467P | PANTONEX DR-40 TABLET 40MG | TABLET, DELAYED RELEASE | Valid |
 
-A total of 14 valid single-ingredient licences exist, covering oral enteric-coated or delayed-release tablets (20 mg and 40 mg) and intravenous injection.
+Showing 5 of 18 HSA registrations.
 
 ## Safety Considerations
 
@@ -106,7 +106,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Pantoprazole is already marketed in Singapore with 14 licences, and active peptic ulcer disease is essentially an on-label use. Phase 3 evidence and double-blind comparisons support acid suppression for ulcer healing.
+Pantoprazole is already marketed in Singapore, and active peptic ulcer disease is essentially an on-label use. Phase 3 evidence and double-blind comparisons support acid suppression for ulcer healing.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications, including the indication text for each Singapore licence (currently missing)

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,13 +79,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11704P | TELFAST TABLET 120 mg | Film-coated tablet | Not stated in the records |
-| SIN11699P | TELFAST TABLET 180 mg | Film-coated tablet | Not stated in the records |
-| SIN14591P | FEXODIN FILM COATED TABLET 180MG | Film-coated tablet | Not stated in the records |
-| SIN15714P | FEXODIN FILM COATED TABLET 120MG | Film-coated tablet | Not stated in the records |
-| SIN16296P | FEXOFEN FILM-COATED TABLET 180MG | Film-coated tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11699P | TELFAST TABLET 180 mg | TABLET, FILM COATED | Valid |
+| SIN11704P | TELFAST TABLET 120 mg | TABLET, FILM COATED | Valid |
+| SIN14199P | Telfast Oral Suspension 6 mg/ml | SUSPENSION | Valid |
+| SIN14591P | FEXODIN FILM COATED TABLET 180MG | TABLET, FILM COATED | Valid |
+| SIN15714P | FEXODIN FILM COATED TABLET 120MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 Two further single-ingredient registrations exist: Telfast Oral Suspension 6 mg/ml (SIN14199P) and Telfast D Tablet (SIN12071P). The drug is marketed, with 7 valid licences of 7 and none cancelled. Available forms are oral film-coated tablets and an oral suspension; no topical or ophthalmic formulation is registered.
 

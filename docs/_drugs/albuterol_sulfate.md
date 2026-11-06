@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -46,12 +46,12 @@ Albuterol Sulfate is a well-known short-acting beta-2 adrenergic agonist (SABA) 
 
 | Item | Content |
 |------|---------|
-| Original Indication | Not available (no Singapore registration records) |
+| Original Indication | Not available |
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — prediction pipeline did not produce output |
-| Singapore Market Status | Marketed (valid licences: 17 of 17) |
-| Number of Registrations | 17 (valid: 17) |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -84,13 +84,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Albuterol Sulfate has **no registered products** in the Singapore Health Sciences Authority (HSA) database as of the data cutoff (2026-04-19).
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00022P | ZENMOLIN SYRUP 2 mg/5 ml | SYRUP | Valid |
+| SIN02539P | VENTOLIN SOLUTION FOR INTRAVENOUS INFUSION 5 mg/5 ml | INJECTION | Valid |
+| SIN02687P | VENDEROL TABLET 2 mg | TABLET | Valid |
+| SIN02988P | VENTOLIN RESPIRATOR SOLUTION 0.5% w/v | SOLUTION | Valid |
+| SIN05762P | VENTAMOL SYRUP 2 mg/5 ml | SYRUP | Valid |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|-------------|-------------|---------------------|
-| — | — | — | No records found |
-
-> **Note:** Albuterol (also known internationally as Salbutamol) is widely registered in many markets under the INN "Salbutamol." It is possible that Singapore HSA records exist under the alternative INN. A cross-query using "Salbutamol" is recommended before concluding non-registration.
+Showing 5 of 13 HSA registrations.
 
 ---
 
@@ -99,12 +101,11 @@ Albuterol Sulfate has **no registered products** in the Singapore Health Science
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack for Albuterol Sulfate is critically incomplete — no predicted indications, no DrugBank ID linkage, no Singapore registration records, and no safety data are available. There is insufficient information to evaluate any repurposing hypothesis at this time.
+The Evidence Pack for Albuterol Sulfate is critically incomplete — no predicted indications, no DrugBank ID linkage, no safety data are available. There is insufficient information to evaluate any repurposing hypothesis at this time.
 
 **To proceed, the following is needed:**
 
 1. **Re-run TxGNN prediction pipeline** with a confirmed DrugBank ID for Albuterol Sulfate (DrugBank: DB01001 for Salbutamol) to obtain predicted indications
-2. **Cross-check Singapore HSA registry** using the alternative INN "Salbutamol" to determine true market status
 3. **Retrieve MOA from DrugBank API** using DB01001 to populate the mechanism of action field
 4. **Download and parse the product insert (PIL/SmPC)** from HSA or EMA to populate safety warnings and contraindications
 5. **Resubmit Evidence Pack** once the above data gaps (DG001, DG002) are resolved, then re-generate this report against the enriched pack

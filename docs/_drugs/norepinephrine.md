@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 721
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -96,12 +96,12 @@ No randomised controlled trial of norepinephrine in obstructive lung disease was
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16622P | Noradrenaline Sintetica Concentrate for Solution for Infusion 1 mg/ml | Infusion, solution concentrate | Not listed in the data compiled for this report |
-| SIN16733P | Norepinephrine Kalceks Concentrate for Solution for Infusion 1 mg/ml | Infusion, solution concentrate | Not listed in the data compiled for this report |
-| SIN05754P | Levophed Injection 1 mg/ml | Injection | Not listed in the data compiled for this report |
-| SIN15593P | Noradrenaline Aguettant 1 mg/ml Concentrate for Solution for Infusion | Infusion, solution concentrate | Not listed in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05754P | LEVOPHED INJECTION 1 mg/ml | INJECTION | Valid |
+| SIN15593P | NORADRENALINE AGUETTANT 1MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN16733P | NOREPINEPHRINE KALCEKS CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN17453P | Norepinephrine SciGen Concentrate for Solution for Infusion 4 mg/4mL | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 All four products are injectable single-ingredient products with valid status. There are no inhaled or oral formulations on the Singapore market.
 

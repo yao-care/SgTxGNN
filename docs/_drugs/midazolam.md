@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 672
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Midazolam: predicted new indication Insomnia (evidence level L2). Approved use: Anxiety"
 monitor_inn: "Midazolam"
 predicted_indications: ["insomnia (disease)"]
@@ -52,8 +52,8 @@ Evidence Level: **L2** | Predicted Indications: **1**
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,15 +93,17 @@ Its current relevance is limited by tolerance, dependence, next-day impairment, 
 
 ## Singapore Market Information
 
-There are 6 valid single-ingredient registrations. The five main ones are listed below. No approved-indication text is recorded for any of them, so that column is omitted.
+The five main ones are listed below. No approved-indication text is recorded for any of them, so that column is omitted.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN00476P | DORMICUM TABLET 15 mg | Film-coated tablet |
-| SIN03800P | DORMICUM INJECTION 5 mg/5 ml | Injection |
-| SIN00478P | DORMICUM INJECTION 15 mg/3 ml | Injection |
-| SIN11039P | DOMI INJECTION 5 mg/ml | Injection |
-| SIN12549P | MIDAZOLAM-HAMELN 1 MG/ML INJECTION | Injection |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00476P | DORMICUM TABLET 15 mg | TABLET, FILM COATED | Valid |
+| SIN00478P | DORMICUM INJECTION 15 mg/3 ml | INJECTION | Valid |
+| SIN03800P | DORMICUM INJECTION 5 mg/5 ml | INJECTION | Valid |
+| SIN11039P | DOMI INJECTION 5 mg/ml | INJECTION | Valid |
+| SIN12549P | MIDAZOLAM-HAMELN 1 MG/ML INJECTION | INJECTION | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 The only oral product is the 15 mg tablet. This is the form relevant to insomnia, since the other products are injections.
 

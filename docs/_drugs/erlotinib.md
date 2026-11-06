@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 395
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Erlotinib: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Erlotinib, s
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 6 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 
 ## Known uses recorded for this drug
 
@@ -78,20 +78,22 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Erlotinib, s
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16200P | INERLOTINIB FILM COATED TABLET 150MG | TABLET, FILM COATED | Valid |
-| SIN16238P | TARLONIB 25 FILM COATED TABLET 25MG | TABLET, FILM COATED | Valid |
-| SIN16236P | TARLONIB 150 FILM COATED TABLET 150MG | TABLET, FILM COATED | Valid |
-| SIN16137P | ERLONIB 150 FILM COATED TABLETS 150 mg | TABLET, FILM COATED | Valid |
-| SIN16489P | ERLOTIREL FILM COATED TABLETS 150 MG | TABLET, FILM COATED | Valid |
-| SIN16237P | TARLONIB 100 FILM COATED TABLET 100MG | TABLET, FILM COATED | Valid |
 | SIN13184P | Tarceva Tablet 150 mg | TABLET, FILM COATED | Valid |
+| SIN13185P | Tarceva Tablet 100 mg | TABLET, FILM COATED | Valid |
+| SIN16137P | ERLONIB 150 FILM COATED TABLETS 150 mg | TABLET, FILM COATED | Valid |
 | SIN16138P | ERLONIB 100 FILM COATED TABLETS 100 MG | TABLET, FILM COATED | Valid |
-| SIN17080P | LOTYRO 150 ERLOTINIB FILM COATED TABLETS 150MG | TABLET, FILM COATED | Valid |
-| SIN17082P | LOTYRO 25 ERLOTINIB FILM COATED TABLETS 25MG | TABLET, FILM COATED | Valid |
-| SIN16199P | INERLOTINIB FILM COATED TABLET 100MG | TABLET, FILM COATED | Valid |
-| SIN16488P | ERLOTIREL FILM COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
 | SIN16139P | ERLONIB 25 FILM COATED TABLETS 25 mg | TABLET, FILM COATED | Valid |
+| SIN16199P | INERLOTINIB FILM COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+| SIN16200P | INERLOTINIB FILM COATED TABLET 150MG | TABLET, FILM COATED | Valid |
+| SIN16236P | TARLONIB 150 FILM COATED TABLET 150MG | TABLET, FILM COATED | Valid |
+| SIN16237P | TARLONIB 100 FILM COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+| SIN16238P | TARLONIB 25 FILM COATED TABLET 25MG | TABLET, FILM COATED | Valid |
+| SIN16488P | ERLOTIREL FILM COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
+| SIN16489P | ERLOTIREL FILM COATED TABLETS 150 MG | TABLET, FILM COATED | Valid |
+| SIN17080P | LOTYRO 150 ERLOTINIB FILM COATED TABLETS 150MG | TABLET, FILM COATED | Valid |
 | SIN17081P | LOTYRO 100 ERLOTINIB FILM COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
+
+Showing 14 of 15 HSA registrations.
 
 ## Cytotoxicity
 

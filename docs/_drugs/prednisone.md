@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 823
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, adrenocortical insufficiency…"
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -87,9 +87,9 @@ Note that in the 2023 RCT, prednisone was tested as an add-on to methotrexate ra
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN04379P | APO-PREDNISONE TABLET 5 mg (Apotex Inc) | Tablet (oral) | Not specified in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04379P | APO-PREDNISONE TABLET 5 mg | TABLET | Valid |
 
 ## Safety Considerations
 

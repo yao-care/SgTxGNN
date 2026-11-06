@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
@@ -72,13 +72,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00720P | Heparin Injection 1,000 iu/ml (Vianex S.A.) | Injection | Not stated |
-| SIN11035P | Hanlim Heparin Sodium Injection 25,000 iu/5 ml | Injection | Not stated |
-| SIN00714P | Heparin Injection 5,000 iu/ml (Vianex S.A.) | Injection | Not stated |
-| SIN01768P | DBL Heparin Sodium Injection BP (Porcine) 1,000 iu/ml | Injection | Not stated |
-| SIN01766P | DBL Heparin Sodium Injection BP (Porcine) 5,000 iu/ml | Injection | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00714P | HEPARIN INJECTION 5,000 iu/ml | INJECTION | Valid |
+| SIN00720P | HEPARIN INJECTION 1,000 iu/ml | INJECTION | Valid |
+| SIN01766P | DBL HEPARIN SODIUM INJECTION BP (PORCINE) 5,000 iu/ml | INJECTION | Valid |
+| SIN01768P | DBL HEPARIN SODIUM INJECTION BP (PORCINE) 1,000 iu/ml | INJECTION | Valid |
+| SIN11035P | HANLIM HEPARIN SODIUM INJECTION 25,000 iu/5 ml | INJECTION | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 A sixth licence, SIN12253P (Heparinised Saline Injection 10 iu/ml, B. Braun), is also valid. All six licences are for single-ingredient injectable products.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Erdafitinib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not stated in the available licence records"
 monitor_inn: "Erdafitinib"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
@@ -72,11 +72,11 @@ Currently no related literature available for pulmonary hypertension.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15986P | BALVERSA FILM-COATED TABLETS 3MG | Tablet, film coated | Not stated in licence record |
-| SIN15987P | BALVERSA FILM-COATED TABLETS 4MG | Tablet, film coated | Not stated in licence record |
-| SIN15988P | BALVERSA FILM-COATED TABLETS 5MG | Tablet, film coated | Not stated in licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15986P | BALVERSA FILM-COATED TABLETS 3MG | TABLET, FILM COATED | Valid |
+| SIN15987P | BALVERSA FILM-COATED TABLETS 4MG | TABLET, FILM COATED | Valid |
+| SIN15988P | BALVERSA FILM-COATED TABLETS 5MG | TABLET, FILM COATED | Valid |
 
 All three licences are valid, held by Janssen Cilag SpA, and are for the oral route.
 

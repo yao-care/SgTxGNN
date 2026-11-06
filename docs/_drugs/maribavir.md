@@ -5,7 +5,7 @@ layout: default
 title: Maribavir
 parent: Known Uses Only (No New Predictions)
 nav_order: 637
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Maribavir: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Maribavir"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17208P | LIVTENCITY FILM-COATED TABLET 200MG | Tablet, film coated (oral) | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17208P | LIVTENCITY FILM-COATED TABLET 200MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

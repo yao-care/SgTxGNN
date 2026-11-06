@@ -5,7 +5,7 @@ layout: default
 title: Activated Charcoal
 parent: Known Uses Only (No New Predictions)
 nav_order: 36
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Activated Charcoal: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Activated charcoal"
 predicted_indications: []
@@ -48,11 +48,11 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05799P | NORIT CAPSULE 200 mg | Capsule | Not stated |
-| SIN10625P | CHARCOAL TABLET 200 mg | Tablet | Not stated |
-| SIN06063P | NORIT TABLET 125 mg | Tablet | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05799P | NORIT CAPSULE 200 mg | CAPSULE | Valid |
+| SIN06063P | NORIT TABLET 125 mg | TABLET | Valid |
+| SIN10625P | CHARCOAL TABLET 200 mg | TABLET | Valid |
 
 All three are valid, single-ingredient oral products.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 691
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mupirocin: predicted new indication pleural empyema (evidence level L5). Approved use: Impetigo, bullous impetigo"
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
@@ -79,13 +79,15 @@ Currently no related literature available.
 
 All six licences are valid single-ingredient 2% w/w ointments. The five main ones are listed below. No approved-indication text is recorded for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14421P | Muprin Ointment 2% w/w | Ointment | Not listed |
-| SIN05075P | Bactroban Nasal Ointment 2% w/w | Ointment | Not listed |
-| SIN13712P | Mupider Ointment 2% w/w | Ointment | Not listed |
-| SIN16306P | Epirozin Ointment 2% w/w | Ointment | Not listed |
-| SIN11895P | Supirocin Ointment 2% w/w | Ointment | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05075P | BACTROBAN NASAL OINTMENT 2% w/w | OINTMENT | Valid |
+| SIN10760P | MUPIRAX OINTMENT 2% w/w | OINTMENT | Valid |
+| SIN11895P | SUPIROCIN OINTMENT 2% w/w | OINTMENT | Valid |
+| SIN13712P | Mupider Ointment 2%w/w | OINTMENT | Valid |
+| SIN14421P | Muprin Ointment 2% w/w | OINTMENT | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 All registered products are ointments only. No injectable or other systemic form is registered in Singapore.
 

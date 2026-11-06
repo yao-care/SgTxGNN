@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Apixaban is a direct oral anticoagulant that blocks factor Xa. The TxGNN model p
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,10 +76,15 @@ However, the available case reports point the other way: migraine with aura wors
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14279P | Eliquis Tablet 2.5mg | Film-coated tablet | Not available |
-| SIN14407P | Eliquis Tablet 5mg | Film-coated tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14279P | Eliquis Tablet 2.5mg | TABLET, FILM COATED | Valid |
+| SIN14407P | ELIQUIS TABLET 5MG | TABLET, FILM COATED | Valid |
+| SIN17320P | HEMAPIX FILM COATED TABLET 2.5 MG | TABLET, FILM COATED | Valid |
+| SIN17321P | HEMAPIX FILM COATED TABLET 5 MG | TABLET, FILM COATED | Valid |
+| SIN17430P | APIGAT 5 FILM COATED TABLETS 5 MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

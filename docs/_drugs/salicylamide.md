@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 894
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Salicylamide"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
 description: "Salicylamide: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Pharyngitis**, but there are 
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---
@@ -83,14 +83,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08055P | Semor Pain and Fever Relief Capsules | Capsule | Not stated |
-| SIN05768P | Con-Z-Lin Tablet | Tablet, sugar coated | Not stated |
-| SIN02859P | Consu Capsule | Capsule | Not stated |
-| SIN03369P | Fongtit 600 Capsule | Capsule | Not stated |
-
-All four are valid single-ingredient licences held by Sunward Pharmaceutical Private Limited, with oral dosage forms.
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ---
 
@@ -123,9 +116,8 @@ Please refer to the package insert for label warnings.
 The high TxGNN score is not backed by modern evidence. The only pharyngitis publication is a 1953 combination-product report, there are no registered trials, and the safety signals, especially in children, are a concern. A symptomatic analgesic effect on sore throat is plausible, but it would not be a meaningful new indication beyond existing pain and fever relief.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications for the Singapore products (currently missing and blocking safety screening)
+- Package insert warnings and contraindications (currently missing and blocking safety screening)
 - Mechanism of action data
-- Approved indication text for the four Singapore licences, to confirm whether sore throat is already covered
 - Controlled clinical evidence for salicylamide alone in pharyngitis or sore throat
 - A paediatric safety assessment, given the infant population in the historical report and the haematological and hypersensitivity signals
 ## Disclaimer

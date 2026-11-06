@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 18
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 The entry "9.12MG DONEPEZIL FREE BASE" appears to encode a dosage specification within the drug name field rather than a clean INN, preventing proper DrugBank matching and TxGNN prediction.
-**No repurposing predictions were returned** for this entry, and the drug shows **zero Singapore registrations** under this name — making a full repurposing evaluation impossible at this stage.
+**No repurposing predictions were returned** for this entry.
 Resolving the naming issue and re-running the pipeline is required before any clinical assessment can proceed.
 
 ---
@@ -52,8 +52,8 @@ Resolving the naming issue and re-running the pipeline is required before any cl
 | Predicted New Indication | None — no TxGNN predictions returned |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (no predictions, no supporting studies available) |
-| Singapore Market Status | Marketed (valid licences: 13 of 13) |
-| Number of Registrations | 13 (valid: 13) |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -74,7 +74,6 @@ This format mismatch explains two downstream failures:
 |---------|-------|
 | `drugbank_id: null` | DrugBank lookup could not match the full string to donepezil |
 | `predicted_indications: []` | TxGNN received no valid drug node to generate predictions |
-| Singapore registrations: 0 | Regulatory lookup found no match for this non-standard name |
 
 ### What Is Known About Donepezil
 
@@ -95,7 +94,7 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The pipeline produced no usable output because the INN field encodes a dosage specification rather than a clean drug name, blocking DrugBank ID resolution, TxGNN prediction, regulatory lookup, and evidence collection simultaneously. There is nothing to evaluate clinically until the upstream data entry is corrected.
+The pipeline produced no usable output because the INN field encodes a dosage specification rather than a clean drug name, blocking DrugBank ID resolution, TxGNN prediction, and evidence collection simultaneously. There is nothing to evaluate clinically until the upstream data entry is corrected.
 
 **To proceed, the following is required:**
 
@@ -103,7 +102,6 @@ The pipeline produced no usable output because the INN field encodes a dosage sp
 2. **Confirm the DrugBank ID** — donepezil maps to DB00843; verify and populate `drugbank_id`
 3. **Re-run the full TxGNN pipeline** — with a clean INN, predictions and evidence collection should proceed normally
 4. **Retrieve MOA data** (Data Gap DG002) — query the DrugBank API for mechanism of action after the ID is confirmed
-5. **Retrieve Singapore regulatory data** — re-run the regulatory lookup for `donepezil` to identify all registered products
 6. **Retrieve safety data** (Data Gap DG001) — download and parse the approved package insert for warnings and contraindications
 7. **Generate a new Evidence Pack** — once all upstream issues are resolved, re-generate and resubmit for evaluation
 ## Disclaimer

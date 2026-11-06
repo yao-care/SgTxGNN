@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Brigatinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Brigatinib: predicted new indication fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,12 +70,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15659P | ALUNBRIG FILM-COATED TABLET 90mg | Film-coated tablet | Not recorded |
-| SIN15660P | ALUNBRIG FILM-COATED TABLET 180mg | Film-coated tablet | Not recorded |
-| SIN15658P | ALUNBRIG FILM-COATED TABLET 30mg | Film-coated tablet | Not recorded |
-| SIN15661P | ALUNBRIG INITIATION PACK | Film-coated tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15658P | ALUNBRIG FILM-COATED TABLET 30mg | TABLET, FILM COATED | Valid |
+| SIN15659P | ALUNBRIG FILM-COATED TABLET 90mg | TABLET, FILM COATED | Valid |
+| SIN15660P | ALUNBRIG FILM-COATED TABLET 180mg | TABLET, FILM COATED | Valid |
+| SIN15661P | ALUNBRIG INITIATION PACK | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

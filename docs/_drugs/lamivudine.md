@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Lamivudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 ---
 
@@ -50,8 +50,8 @@ This is a veterinary condition, so it does not point to a new human indication.
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 10 of 10) |
-| Number of Registrations | 10 (valid: 10) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 **Evidence level note:** The three publications study FIV-infected cats, but they are animal studies and do not show human clinical benefit. The disease here is a veterinary one, and no study in the data directly supports a human indication. Under the evidence rules, the level is therefore L5.
@@ -80,15 +80,15 @@ Currently no related clinical trials registered.
 
 The licence records contain no approved-indication text, so no approved uses can be stated from them. Four records are combination products (Dovato, Combivir, Kivexa/Abalam, Delstrigo, Triumeq) that are listed under single-ingredient entries in the data; their licences should not be read as describing lamivudine alone.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09134P | Epivir Tablet 150 mg | Film-coated tablet | Not stated in records |
-| SIN11152P | Zeffix Tablets 100 mg | Film-coated tablet | Not stated in records |
-| SIN09135P | Epivir Oral Solution 10 mg/ml | Solution | Not stated in records |
-| SIN15204P | Lavudin Standard F.C. Tablet 100 mg | Film-coated tablet | Not stated in records |
-| SIN10795P | Combivir Tablets | Film-coated tablet | Not stated in records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09134P | EPIVIR TABLET 150 mg | TABLET, FILM COATED | Valid |
+| SIN09135P | EPIVIR ORAL SOLUTION 10 mg/ml | SOLUTION | Valid |
+| SIN15204P | LAVUDIN STANDARD F.C. TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN17280P | STRUVIR LAMIVUDINE FILM COATED TABLETS 150MG | TABLET, FILM COATED | Valid |
+| SIN10795P | COMBIVIR TABLETS | TABLET, FILM COATED | Valid |
 
-Ten valid registrations are listed in total; only the first five are shown here.
+Showing 5 of 9 HSA registrations.
 
 ## Safety Considerations
 

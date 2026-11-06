@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -73,13 +73,15 @@ Currently no related clinical trials registered.
 
 Seven valid single-ingredient registrations are on record. No approved-indication text is listed in the records.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14790P | INOSERT 50 TABLET 50mg | Film-coated tablet |
-| SIN13467P | Apo-Sertraline 50mg Tablet | Film-coated tablet |
-| SIN16649P | SERNADE FILM-COATED TABLET 50 MG | Film-coated tablet |
-| SIN07301P | ZOLOFT TABLET 50 mg | Film-coated tablet |
-| SIN14789P | INOSERT 100 Tablet 100mg | Film-coated tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07301P | ZOLOFT TABLET 50 mg | TABLET, FILM COATED | Valid |
+| SIN13315P | Apo-Sertraline 50mg Capsule | CAPSULE | Valid |
+| SIN13467P | Apo-Sertraline 50mg Tablet | TABLET, FILM COATED | Valid |
+| SIN14221P | SETROF TABLET 50MG | TABLET, FILM COATED | Valid |
+| SIN14789P | INOSERT 100 Tablet 100mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ## Safety Considerations
 

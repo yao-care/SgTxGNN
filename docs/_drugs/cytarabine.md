@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 291
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Not recorded in the local data"
@@ -90,11 +90,11 @@ Currently no related clinical trials registered for small cell lung carcinoma.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17149P | CYTARINE KABI SOLUTION FOR INJECTION OR INFUSION 100MG/ML | Injection, solution | Not stated in the licence record |
-| SIN05521P | CYTARABINE SOLUTION FOR INJECTION 100 MG/ML | Injection | Not stated in the licence record |
-| SIN14293P | CYBIN INJECTION 100mg/ml | Injection, solution, concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05521P | CYTARABINE SOLUTION FOR INJECTION 100 MG/ML | INJECTION | Valid |
+| SIN14293P | CYBIN INJECTION 100mg/ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
+| SIN17149P | CYTARINE KABI SOLUTION FOR INJECTION OR INFUSION 100MG/ML | INJECTION, SOLUTION | Valid |
 
 All three registrations are valid single-ingredient injectable products.
 

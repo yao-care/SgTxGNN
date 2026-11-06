@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 1047
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). Approved use: Psoriatic arthritis, psoriasis, parapsoriasis"
 monitor_inn: "Ustekinumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -52,8 +52,8 @@ The direct evidence is limited to small Phase 2 studies that showed only modest 
 | Predicted New Indication | Dermatitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -100,15 +100,15 @@ The other top-ranked predictions (neonatal dermatomyositis, acne keloid, acroder
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13704P | Stelara Solution for Injection 45mg/0.5 ml | Injection, solution | Not recorded in the data compiled for this report |
-| SIN15438P | Stelara Concentrate for Solution for Infusion 130mg/26ml | Infusion, solution concentrate | Not recorded in the data compiled for this report |
-| SIN17103P | Stelara Solution for Injection in Pre-filled Pen 90mg/1ml | Injection, solution | Not recorded in the data compiled for this report |
-| SIN13995P | Stelara Solution for Injection in Pre-filled Syringe 45mg/0.5ml | Injection, solution | Not recorded in the data compiled for this report |
-| SIN13996P | Stelara Solution for Injection in Pre-filled Syringe 90mg/1ml | Injection, solution | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13704P | Stelara Solution for Injection 45mg/0.5 ml | INJECTION, SOLUTION | Valid |
+| SIN13995P | Stelara Solution for Injection in Pre-Filled Syringe 45 mg/0.5mL | INJECTION, SOLUTION | Valid |
+| SIN13996P | Stelara Solution for Injection in Pre-Filled Syringe 90 mg/1 mL | INJECTION, SOLUTION | Valid |
+| SIN15438P | STELARA CONCENTRATE FOR SOLUTION FOR INFUSION 130MG/26ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN17103P | STELARA SOLUTION FOR INJECTION IN PRE-FILLED PEN 90MG/1ML | INJECTION, SOLUTION | Valid |
 
-All five registrations are valid single-ingredient products from Cilag AG, and none has been cancelled.
+Showing 5 of 14 HSA registrations.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1075
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Vonoprazan"
 predicted_indications: ["peptic ulcer perforation", "hiatus hernia (disease)", "achlorhydria", "gastric dilatation", "pylorospasm", "cascade stomach", "Dieulafoy lesion", "hemorrhagic duodenitis"]
 description: "Vonoprazan: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,10 +85,10 @@ Other retrieved papers are narrative reviews of *H. pylori* resistance and eradi
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15444P | VOCINTI Film-Coated Tablet 20mg | Tablet, film coated | Not specified in the available data |
-| SIN15445P | VOCINTI Film-Coated Tablet 10mg | Tablet, film coated | Not specified in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15444P | VOCINTI FILM-COATED TABLET 20MG | TABLET, FILM COATED | Valid |
+| SIN15445P | VOCINTI FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
 
 Both licences are valid single-ingredient products from Takeda Pharmaceutical Company Limited (Hikari Plant), for oral use.
 

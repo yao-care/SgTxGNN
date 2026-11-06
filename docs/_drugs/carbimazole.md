@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Carbimazole"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carbimazole: predicted new indication resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **resistance to thyroid hormone
 | Predicted New Indication | resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,11 +73,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06923P | CARBIMAZOLE 5 TABLET 5 mg | Tablet, film coated | Not recorded |
-| SIN04453P | CARBIMAZOLE TABLET 5 mg | Tablet | Not recorded |
-| SIN04490P | CAMAZOL TABLET 5 mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04490P | CAMAZOL TABLET 5 mg | TABLET | Valid |
+| SIN06923P | CARBIMAZOLE 5 TABLET 5 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

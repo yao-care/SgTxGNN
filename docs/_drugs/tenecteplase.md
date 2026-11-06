@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 962
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase: predicted new indication Congenital coronary artery anomaly (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ There are currently **0 clinical trials** and **0 publications** specific to thi
 | Predicted New Indication | Congenital coronary artery anomaly |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,9 +85,10 @@ For context, literature on neighbouring predictions is indirect:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12015P | METALYSE FOR INJECTION 10,000 u/vial | Injection, powder, for solution | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12015P | METALYSE FOR INJECTION 10,000 u/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN17293P | METALYSE FOR INJECTION 5,000 u/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 The registration is valid and the product is a single-ingredient injectable.
 

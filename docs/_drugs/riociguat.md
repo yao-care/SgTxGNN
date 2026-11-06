@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 870
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Riociguat: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,9 +75,9 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN14678P | ADEMPAS FILM-COATED TABLET 0.5mg | TABLET, FILM COATED | Valid |
 | SIN14679P | ADEMPAS FILM-COATED TABLET 1.0mg | TABLET, FILM COATED | Valid |
 | SIN14680P | ADEMPAS FILM-COATED TABLET 1.5mg | TABLET, FILM COATED | Valid |
-| SIN14678P | ADEMPAS FILM-COATED TABLET 0.5mg | TABLET, FILM COATED | Valid |
 | SIN14681P | ADEMPAS FILM-COATED TABLET 2.0mg | TABLET, FILM COATED | Valid |
 | SIN14682P | ADEMPAS FILM-COATED TABLET 2.5mg | TABLET, FILM COATED | Valid |
 

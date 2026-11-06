@@ -5,7 +5,7 @@ layout: default
 title: Artesunate
 parent: Known Uses Only (No New Predictions)
 nav_order: 110
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Artesunate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Artesunate"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17135P | Artesunate Amivas Powder and Solvent for Solution for Injection 110mg/vial | Injection, powder, for solution | Not stated in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17135P | Artesunate Amivas Powder and Solvent for Solution for Injection 110mg/ | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 The only registered product is an injectable formulation, so any use in acne would need a route-compatibility assessment (for example, a topical or oral product).
 

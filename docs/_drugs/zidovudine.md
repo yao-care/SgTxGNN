@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Zidovudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -83,11 +83,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07438P | APO-ZIDOVUDINE CAPSULE 100 mg | Capsule | Not stated in the records |
-| SIN07527P | RETROVIR ORAL SOLUTION 10 mg/ml | Syrup | Not stated in the records |
-| SIN10795P | COMBIVIR TABLETS | Film-coated tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07438P | APO-ZIDOVUDINE CAPSULE 100 mg | CAPSULE | Valid |
+| SIN07527P | RETROVIR ORAL SOLUTION 10 mg/ml | SYRUP | Valid |
+| SIN10795P | COMBIVIR TABLETS | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

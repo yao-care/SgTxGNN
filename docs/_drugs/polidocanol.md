@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 805
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Polidocanol: predicted new indication Esophageal varices with bleeding (evidence level L5). Approved use: Varicose disease"
 monitor_inn: "Polidocanol"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "Immunoerythromyeloid hypoplasia", "pigmented paravenous retinochoroidal atrophy", "progressive bifocal chorioretinal atrophy", "X-linked retinal dysplasia", "monosomy X", "cone dystrophy", "oligocone trichromacy", "retinoschisis of fovea"]
@@ -87,9 +87,9 @@ The 10 most relevant publications are listed below, with randomized trials first
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15433P | VARITHENA Polidocanol Injectable Foam 10 mg/mL | Injection | Not stated in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15433P | VARITHENA POLIDOCANOL INJECTABLE FOAM 10MG/ML | INJECTION | Valid |
 
 ## Safety Considerations
 

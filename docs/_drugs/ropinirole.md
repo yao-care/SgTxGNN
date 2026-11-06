@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 883
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Restless legs syndrome, Parkinson disease"
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -79,13 +79,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13763P | Requip PD 24 Hour Prolonged Release Tablets (2mg) | Film-coated extended-release tablet | Not stated in the available records |
-| SIN13764P | Requip PD 24 Hour Prolonged Release Tablets (4mg) | Film-coated extended-release tablet | Not stated in the available records |
-| SIN10975P | REQUIP TABLET 2 mg | Film-coated tablet | Not stated in the available records |
-| SIN10976P | REQUIP TABLET 0.25 mg | Film-coated tablet | Not stated in the available records |
-| SIN11018P | REQUIP TABLET 1 mg | Film-coated tablet | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10975P | REQUIP TABLET 2 mg | TABLET, FILM COATED | Valid |
+| SIN10976P | REQUIP TABLET 0.25 mg | TABLET, FILM COATED | Valid |
+| SIN11018P | REQUIP TABLET 1 mg | TABLET, FILM COATED | Valid |
+| SIN13763P | Requip PD 24 Hour Prolonged Release Tablets (2mg) | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+| SIN13764P | Requip PD 24 Hour Prolonged Release Tablets (4mg) | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 
 ## Safety Considerations
 

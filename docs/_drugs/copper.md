@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 278
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Copper: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,8 +75,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Copper, so t
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08899P | PEDITRACE CONCENTRATE FOR PARENTERAL INFUSION | INJECTION | Valid |
-| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN14341P | Nutritrace Concentrate for solution for infusion | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Safety Considerations
 

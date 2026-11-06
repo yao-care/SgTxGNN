@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1006
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,13 +83,15 @@ Currently no related literature available.
 
 Topiramate has 10 valid single-ingredient registrations and none cancelled. The five main authorizations are below.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN09689P | TOPAMAX 50 Tablet 50 mg | Film-coated tablet |
-| SIN09687P | TOPAMAX 100 Tablet 100 mg | Film-coated tablet |
-| SIN09688P | TOPAMAX 25 Tablet 25 mg | Film-coated tablet |
-| SIN16662P | TROKENDI XR Extended-Release Capsule 25 mg | Extended-release capsule |
-| SIN14131P | Topiron film-coated tablets 50 mg | Film-coated tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09687P | TOPAMAX 100 TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN09688P | TOPAMAX 25 TABLET 25 mg | TABLET, FILM COATED | Valid |
+| SIN09689P | TOPAMAX 50 TABLET 50 mg | TABLET, FILM COATED | Valid |
+| SIN14131P | Topiron film-coated tablets 50mg | TABLET, FILM COATED | Valid |
+| SIN14132P | Topiron film-coated tablets 25mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 10 HSA registrations.
 
 The other five registrations are further strengths of Trokendi XR (50, 100 and 200 mg) and Topiron (25 and 100 mg). All forms are oral.
 

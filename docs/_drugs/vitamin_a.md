@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1072
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,11 +79,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05207P | VITALIPID N INFANT INJECTION | Injection | Not stated in the licence record |
-| SIN05208P | VITALIPID N ADULT INJECTION | Injection | Not stated in the licence record |
-| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05207P | VITALIPID N INFANT INJECTION | INJECTION | Valid |
+| SIN05208P | VITALIPID N ADULT INJECTION | INJECTION | Valid |
+| SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 All three licences are currently valid and for injectable products. No cancelled registrations were found.
 

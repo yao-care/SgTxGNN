@@ -5,7 +5,7 @@ layout: default
 title: Infliximab
 parent: Known Uses Only (No New Predictions)
 nav_order: 531
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Infliximab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Infliximab"
 predicted_indications: []
@@ -52,13 +52,13 @@ The Singapore licence records compiled for this report carry no approved-indicat
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16070P | Remsima Solution for Subcutaneous Injection 120 mg/mL (pre-filled pen) | Injection, solution | — |
-| SIN14972P | Remsima Powder for Concentrate for Solution for Infusion 100 mg/vial | Injection, powder, lyophilized, for suspension | — |
-| SIN16069P | Remsima Solution for Subcutaneous Injection 120 mg/mL (pre-filled syringe) | Injection, solution | — |
-| SIN12120P | Remicade Powder for Concentrate for Solution for Infusion 100 mg/vial | Injection, powder, for solution | — |
-| SIN15948P | Ixifi Powder for Concentrate for Solution for Infusion 100 mg/vial | Injection, powder, lyophilized, for solution | — |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12120P | REMICADE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14972P | REMSIMA® POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION | Valid |
+| SIN15948P | IXIFI POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG/ VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN16069P | REMSIMA SOLUTION FOR SUBCUTANEOUS INJECTION 120 MG/ML IN PRE-FILLED SY | INJECTION, SOLUTION | Valid |
+| SIN16070P | REMSIMA SOLUTION FOR SUBCUTANEOUS INJECTION 120 MG/ML IN PRE-FILLED PE | INJECTION, SOLUTION | Valid |
 
 All five registrations are valid single-ingredient products, and none is cancelled. All are injectable (intravenous infusion or subcutaneous).
 

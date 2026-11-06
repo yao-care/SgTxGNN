@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Abacavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Abacavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -86,13 +86,13 @@ This is indirect, preclinical evidence only. It does not show benefit in any liv
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16114P | ABACAR Abacavir Tablets USP 300 mg | Tablet, film coated |
-| SIN11098P | ZIAGEN Tablets 300 mg | Tablet, film coated |
-| SIN15864P | ABALAM Abacavir Sulfate & Lamivudine Tablets 600/300 mg | Tablet, film coated |
-| SIN13230P | Kivexa | Tablet |
-| SIN15100P | TRIUMEQ Film Coated Tablet 50 mg/600 mg/300 mg | Tablet, film coated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11098P | ZIAGEN TABLETS 300 mg | TABLET, FILM COATED | Valid |
+| SIN16114P | ABACAR ABACAVIR TABLETS USP 300 MG | TABLET, FILM COATED | Valid |
+| SIN13230P | Kivexa | TABLET | Valid |
+| SIN15100P | TRIUMEQ FILM COATED TABLET 50mg/600mg/300mg | TABLET, FILM COATED | Valid |
+| SIN15864P | ABALAM ABACAVIR SULFATE & LAMIVUDINE TABLETS 600/300 MG | TABLET, FILM COATED | Valid |
 
 All five registrations are currently valid, and all are oral tablets.
 

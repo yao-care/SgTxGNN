@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 998
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Titanium Dioxide: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the Singapore license data"
 monitor_inn: "Titanium dioxide"
 predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "immature cataract", "mature cataract", "nuclear senile cataract"]
@@ -72,9 +72,9 @@ Currently no related literature available for drug-induced osteoporosis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16547P | VEELANZ'S OINTMENT | Ointment | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16547P | VEELANZ'S OINTMENT | OINTMENT | Valid |
 
 ## Safety Considerations
 

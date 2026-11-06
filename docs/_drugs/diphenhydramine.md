@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Diphenhydramine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The better-supported candidates in the list are rhinitis (an on-label or near-la
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
+| Singapore Market Status | Marketed (valid licences: 10 of 10) |
+| Number of Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 **Note:** The top-ranked prediction has no supporting evidence. Among the 10 predictions, rhinitis has the strongest evidence (Level L1, Proceed with Guardrails), but it largely overlaps with an existing indication. It is covered in the sections below as the most actionable direction.
@@ -96,15 +96,17 @@ No literature was found for rosacea conjunctivitis. Selected publications for **
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00362P | BENOCTEN TABLET 50 mg | Tablet | Not stated in the registration record |
-| SIN10851P | PAXIDORM TABLETS 25 mg | Sugar-coated tablet | Not stated in the registration record |
-| SIN02839P | BEANAMINE EXPECTORANT | Solution | Not stated in the registration record |
-| SIN08782P | DIPHEN 5 EXPECTORANT | Syrup | Not stated in the registration record |
-| SIN08799P | DIPHEN 10 EXPECTORANT | Syrup | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10851P | PAXIDORM TABLETS 25 mg | TABLET, SUGAR COATED | Valid |
+| SIN02839P | BEANAMINE EXPECTORANT | SOLUTION | Valid |
+| SIN03251P | HOVA EXPECTORANT | SYRUP | Valid |
+| SIN03335P | XSP-BENA EXPECTORANT | SYRUP | Valid |
+| SIN03491P | SUNTUSS SYRUP | SYRUP | Valid |
 
-There are 14 valid single-ingredient licences in total (tablet, sugar-coated tablet, solution, syrup and elixir forms). Most are expectorant syrups.
+Showing 5 of 10 HSA registrations.
+
+Most are expectorant syrups.
 
 ## Safety Considerations
 

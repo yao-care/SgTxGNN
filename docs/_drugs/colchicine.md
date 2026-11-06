@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Gout, familial Mediterranean fever"
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
@@ -52,8 +52,8 @@ This is a model prediction with very limited supporting evidence.
 | Predicted New Indication | Plasmodium falciparum malaria |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,10 +87,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15572P | Colchicine Halewood Tablet 500 mcg | Tablet | Not stated in the available data |
-| SIN12301P | Colcitex Tablet 0.6 mg | Tablet | Not stated in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12301P | COLCITEX TABLET 0.6 mg | TABLET | Valid |
+| SIN15572P | COLCHICINE HALEWOOD TABLET 500 MCG | TABLET | Valid |
+| SIN17275P | XOLINE TABLET 500MCG | TABLET | Valid |
 
 ---
 

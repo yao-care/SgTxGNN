@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 698
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the Singapore license records (the product types are na…"
 monitor_inn: "Naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -81,11 +81,11 @@ Currently no related literature available for the top predicted indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03722P | NAZAL SPRAY | Spray | Not stated in records |
-| SIN07343P | FLUCUR NEBULISER | Spray | Not stated in records |
-| SIN04717P | NAPHCON-A STERILE OPHTHALMIC SOLUTION | Solution | Not stated in records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03722P | NAZAL SPRAY | SPRAY | Valid |
+| SIN04717P | NAPHCON-A STERILE OPHTHALMIC SOLUTION | SOLUTION | Valid |
+| SIN07343P | FLUCUR NEBULISER | SPRAY | Valid |
 
 All three licenses are valid single-ingredient products.
 

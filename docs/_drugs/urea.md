@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 1043
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Urea: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,10 +74,10 @@ All candidates produced by the TxGNN model for Urea (score ≥ 0.99) that can be
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN10864P | AXCEL UREA CREAM 10% w/w | CREAM | Valid |
 | SIN08347P | U O CREAM 10% | CREAM | Valid |
-| SIN08726P | UCORT CREAM | CREAM | Valid |
+| SIN10864P | AXCEL UREA CREAM 10% w/w | CREAM | Valid |
 | SIN02881P | HYDROCORTISONE 1% ET UREA 5% CREAM | CREAM | Valid |
+| SIN08726P | UCORT CREAM | CREAM | Valid |
 
 ## Safety Considerations
 

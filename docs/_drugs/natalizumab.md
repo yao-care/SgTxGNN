@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 701
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Crohn's disease, inflammatory bowel disease, Crohn's colitis…"
 monitor_inn: "Natalizumab"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
@@ -104,9 +104,9 @@ For the third-ranked prediction, psoriasis, the most relevant publications are s
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14408P | Tysabri Concentrate for Solution for Infusion 300mg/15ml | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14408P | Tysabri Concentrate for Solution for Infusion 300mg/15ml | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 752
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Oxytocin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,8 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oxytocin, so
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN17068P | OXYTOCIN GRINDEKS SOLUTION FOR INJECTION AND INFUSION 10 IU/ | INJECTION, SOLUTION | Valid |
 | SIN02496P | SYNTOCINON INJECTION 10 iu/ml | INJECTION | Valid |
+| SIN17068P | OXYTOCIN GRINDEKS SOLUTION FOR INJECTION AND INFUSION 10 IU/ML | INJECTION, SOLUTION | Valid |
 | SIN03588P | SYNTOMETRINE INJECTION | INJECTION | Valid |
 
 ## Safety Considerations

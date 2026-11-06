@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 565
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ketamine"
 predicted_indications: ["headache disorder"]
 description: "Ketamine: predicted new indication Headache disorder (evidence level L1). Approved use: Not recorded in the local data"
@@ -102,10 +102,10 @@ Other retrieved papers concern ketamine in depression, and they say little about
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05966P | Ketamine Hydrochloride Injection USP (PANPHARMA GmbH) | Injection | Not stated in the licence record |
-| SIN15402P | Ketamine Hameln Injection 50 mg/ml (Siegfried Hameln GmbH) | Injection, solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05966P | KETAMINE HYDROCHLORIDE INJECTION USP | INJECTION | Valid |
+| SIN15402P | KETAMINE HAMELN INJECTION 50 MG/ML | INJECTION, SOLUTION | Valid |
 
 Both are single-ingredient products with valid status. Only injectable forms are registered, so the intranasal and oral routes studied in some trials have no local product.
 

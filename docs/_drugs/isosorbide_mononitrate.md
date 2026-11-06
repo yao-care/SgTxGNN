@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 556
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Isosorbide Mononitrate: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,8 +74,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN10515P | IMDEX CR TABLET 60 mg | TABLET, FILM COATED | Valid |
 | SIN01996P | IMDUR DURULES TABLET 60 mg | TABLET, FILM COATED | Valid |
+| SIN10515P | IMDEX CR TABLET 60 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Gout"
 ---
 
@@ -48,8 +48,8 @@ Allopurinol is a xanthine oxidase inhibitor. The TxGNN model (deep learning) pre
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,15 +73,17 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05804P | Allopurinol Tablet 100 mg (Beacons Pharmaceuticals) | Tablet | Not stated in the records |
-| SIN07051P | YSP Allopurinol Tablet 100 mg | Tablet | Not stated in the records |
-| SIN06060P | Zyloric Tablet 100 mg | Tablet | Not stated in the records |
-| SIN06247P | Apo-Allopurinol Tablet 300 mg | Tablet | Not stated in the records |
-| SIN06248P | Apo-Allopurinol Tablet 100 mg | Tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05804P | ALLOPURINOL TABLET 100 mg | TABLET | Valid |
+| SIN06060P | ZYLORIC TABLET 100 mg | TABLET | Valid |
+| SIN06061P | ZYLORIC TABLET 300MG | TABLET | Valid |
+| SIN06219P | ALLOPURINOL TABLET BP 100 mg | TABLET | Valid |
+| SIN06247P | APO-ALLOPURINOL TABLET 300 mg | TABLET | Valid |
 
-Eight valid single-ingredient registrations exist in total, all oral tablets. The five above are shown.
+Showing 5 of 9 HSA registrations.
+
+The five above are shown.
 
 ## Safety Considerations
 

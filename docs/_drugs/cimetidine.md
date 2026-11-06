@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Cimetidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cimetidine: predicted new indication peptic ulcer perforation (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Cimetidine is an H2-receptor antagonist that reduces stomach acid. The TxGNN mod
 | Predicted New Indication | peptic ulcer perforation |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,7 +81,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Cimetidine is currently marketed in Singapore. The local records show 8 valid licences, all for single-ingredient oral tablet products (film-coated and plain tablets).
+Cimetidine is currently marketed in Singapore.
 
 ## Safety Considerations
 

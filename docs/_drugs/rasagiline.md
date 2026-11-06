@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 855
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
 description: "Rasagiline: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,7 +72,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for PLA2G6-associated neurodegeneration.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [33614888](https://pubmed.ncbi.nlm.nih.gov/33614888/) | 2021 | Phase II RCT (Alzheimer's, indirect) | Alzheimer's & Dementia (N Y) | Tested rasagiline 1 mg daily for 24 weeks versus placebo on brain glucose metabolism, cognition and tau in mild to moderate Alzheimer's disease |
@@ -85,9 +84,9 @@ Currently no related literature available for PLA2G6-associated neurodegeneratio
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15291P | AZILECT TABLET 1MG (Teva Pharmaceutical Industries, Ltd.) | Tablet | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15291P | AZILECT TABLET 1MG | TABLET | Valid |
 
 ## Safety Considerations
 

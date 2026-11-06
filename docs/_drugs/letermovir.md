@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Letermovir"
 predicted_indications: ["vulvovaginal candidiasis"]
 description: "Letermovir: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,11 +91,11 @@ They concern fungal infections in transplant recipients who receive letermovir p
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15757P | PREVYMIS FILM COATED TABLET 240MG | Tablet, film coated | Not available in the compiled data |
-| SIN15758P | PREVYMIS FILM COATED TABLET 480MG | Tablet, film coated | Not available in the compiled data |
-| SIN15759P | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/ML | Infusion, solution concentrate | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15757P | PREVYMIS FILM COATED TABLET 240MG | TABLET, FILM COATED | Valid |
+| SIN15758P | PREVYMIS FILM COATED TABLET 480MG | TABLET, FILM COATED | Valid |
+| SIN15759P | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Safety Considerations
 

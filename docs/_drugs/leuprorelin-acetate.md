@@ -6,7 +6,7 @@ title: LEUPRORELIN ACETATE
 parent: Known Uses Only (No New Predictions)
 nav_order: 2
 last_modified_date: 2026-03-11
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -20,8 +20,8 @@ evidence_level: N/A
 
 | Property | Value |
 |----------|-------|
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Drug Name | LEUPRORELIN ACETATE |
 | DrugBank ID | [DB00007](https://go.drugbank.com/drugs/DB00007) |
 | HSA Status | Registered with Health Sciences Authority |

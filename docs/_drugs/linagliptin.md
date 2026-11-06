@@ -5,7 +5,7 @@ layout: default
 title: Linagliptin
 parent: Known Uses Only (No New Predictions)
 nav_order: 601
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Linagliptin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Linagliptin"
 predicted_indications: []
@@ -48,13 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14101P | Trajenta Film-Coated Tablets 5mg | Film-coated tablet | Not specified in the data compiled |
-| SIN14377P | Trajenta Duo Film-Coated Tablets 2.5mg / 500mg | Film-coated tablet | Not specified in the data compiled |
-| SIN14378P | Trajenta Duo Film-Coated Tablets 2.5mg / 850mg | Film-coated tablet | Not specified in the data compiled |
-| SIN14379P | Trajenta Duo Film-Coated Tablets 2.5mg / 1000mg | Film-coated tablet | Not specified in the data compiled |
-| SIN15273P | Glyxambi Film-Coated Tablets 10 mg/5 mg | Film-coated tablet | Not specified in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14101P | Trajenta Film-Coated Tablets 5mg | TABLET, FILM COATED | Valid |
+| SIN14377P | TRAJENTA DUO FILM-COATED TABLETS 2.5MG / 500MG | TABLET, FILM COATED | Valid |
+| SIN14378P | TRAJENTA DUO FILM-COATED TABLETS 2.5MG /850MG | TABLET, FILM COATED | Valid |
+| SIN14379P | TRAJENTA DUO FILM-COATED TABLETS 2.5MG / 1000MG | TABLET, FILM COATED | Valid |
+| SIN15272P | GLYXAMBI FILM-COATED TABLETS 25 MG/5 MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 A sixth licence (SIN15272P, Glyxambi 25 mg/5 mg) is also valid.
 

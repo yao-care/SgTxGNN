@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Avelumab"
 predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Avelumab: predicted new indication human herpesvirus 8-related tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -62,9 +62,9 @@ Tumours linked to human herpesvirus 8 (HHV-8), such as Kaposi sarcoma, are drive
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15672P | BAVENCIO CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/10ML | Injection, solution, concentrate | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15672P | BAVENCIO CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/10ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
 ## Safety Considerations
 

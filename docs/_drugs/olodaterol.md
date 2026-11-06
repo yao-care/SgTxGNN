@@ -3,7 +3,7 @@ layout: default
 title: Olodaterol
 parent: Known Uses Only (No New Predictions)
 nav_order: 737
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Olodaterol"
 description: "Olodaterol: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15890P | SPIOLTO® RESPIMAT® Re-usable Solution for Inhalation 2.5 mcg / 2.5 mcg | Solution | Not stated in the available registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15890P | SPIOLTO® RESPIMAT® RE-USABLE SOLUTION FOR INHALATION 2.5 MICROGRAM / 2 | SOLUTION | Valid |
 
 ---
 

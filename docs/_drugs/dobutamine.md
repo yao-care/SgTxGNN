@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dobutamine: predicted new indication Alopecia (evidence level L5). Approved use: Not stated in the HSA licence data (injectable inotrope…"
 monitor_inn: "Dobutamine"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
@@ -86,9 +86,9 @@ This is the only publication retrieved for alopecia, and it does not support dob
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08702P | Dobutamine Injection 12.5 mg/ml (Hospira, Inc.) | Injection | Not stated in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN08702P | DOBUTAMINE INJECTION 12.5 mg/ml | INJECTION | Valid |
 
 ---
 

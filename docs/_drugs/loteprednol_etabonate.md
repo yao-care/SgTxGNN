@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Loteprednol etabonate"
 predicted_indications: ["parasitic conjunctivitis", "serous conjunctivitis except viral", "conjunctival folliculosis", "chronic follicular conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Loteprednol Etabonate: predicted new indication Parasitic conjunctivitis (evidence level L5). Approved use: Relations recorded in the knowledge graph: uveitis…"
 ---
 
@@ -48,8 +48,8 @@ Loteprednol etabonate is a topical corticosteroid. The TxGNN model predicts it m
 | Predicted New Indication | Parasitic conjunctivitis |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +84,10 @@ For a related prediction (pseudomembranous conjunctivitis), one 2025 paper was r
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12601P | LOTEMAX STERILE OPHTHALMIC SUSPENSION 0.5% (Bausch & Lomb Inc) | Solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12601P | LOTEMAX STERILE OPHTHALMIC SUSPENSION 0.5% | SOLUTION | Valid |
+| SIN13647P | ZYLET® STERILE OPHTHALMIC SUSPENSION | SUSPENSION, STERILE | Valid |
 
 ## Safety Considerations
 

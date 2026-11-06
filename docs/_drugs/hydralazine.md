@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 501
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Hydralazine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,11 +75,11 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN00211P | APO-HYDRALAZINE TABLET 10 mg | TABLET | Valid |
 | SIN00210P | APO-HYDRALAZINE TABLET 25 mg | TABLET, FILM COATED | Valid |
+| SIN00211P | APO-HYDRALAZINE TABLET 10 mg | TABLET | Valid |
 | SIN01086P | HYDRALAZINE TABLETS 10 mg | TABLET, FILM COATED | Valid |
-| SIN01148P | APO-HYDRALAZINE TABLET 50 mg | TABLET, FILM COATED | Valid |
 | SIN01089P | HYDRALAZINE TABLET 50 mg | TABLET, FILM COATED | Valid |
+| SIN01148P | APO-HYDRALAZINE TABLET 50 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

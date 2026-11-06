@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 326
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Dichlorobenzyl Alcohol: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Dichlorobenz
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -74,8 +74,9 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Dichlorobenz
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15584P | Difflam plus ANAESTHETIC Sore Throat Lozenges (Sugar Free) M | LOZENGE | Valid |
-| SIN15585P | Difflam plus ANAESTHETIC Sore Throat Lozenges (Sugar Free) H | LOZENGE | Valid |
+| SIN15584P | Difflam plus ANAESTHETIC Sore Throat Lozenges (Sugar Free) Menthol and | LOZENGE | Valid |
+| SIN15585P | Difflam plus ANAESTHETIC Sore Throat Lozenges (Sugar Free) Honey Lemon | LOZENGE | Valid |
+| SIN17493P | Difflam Plus Anaesthetic Sore Throat Spray | SPRAY | Valid |
 
 ## Safety Considerations
 

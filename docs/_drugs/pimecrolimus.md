@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 793
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Pimecrolimus"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
@@ -85,9 +85,9 @@ This is the only registered trial directly in seborrheic dermatitis. It is short
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12179P | ELIDEL CREAM 1% w/w | Cream | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12179P | ELIDEL CREAM 1% w/w | CREAM | Valid |
 
 Elidel is a single-ingredient topical cream. It is currently valid, and the Singapore register shows no cancelled registrations.
 

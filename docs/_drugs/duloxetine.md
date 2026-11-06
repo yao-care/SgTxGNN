@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence is mostly small studies, with no Phase 3 trial.
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -89,10 +89,7 @@ The evidence is weaker than for SSRIs. The available studies are small, and a me
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15282P | HOVID DULOXETINE DELAYED RELEASE CAPSULE 60MG | Capsule, delayed release | Not stated in the registration data |
-| SIN15281P | HOVID DULOXETINE DELAYED RELEASE CAPSULE 30MG | Capsule, delayed release | Not stated in the registration data |
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Safety Considerations
 
@@ -109,7 +106,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-OCD has the strongest support among the predictions. It has one double-blind controlled augmentation trial, a Phase 4 trial, an open-label study, several reviews and many case reports. Sample sizes are small and there is no Phase 3 RCT, so this is best treated as a research question rather than a ready-to-use indication. The drug is already marketed in Singapore, which lowers the access barrier.
+OCD has the strongest support among the predictions. It has one double-blind controlled augmentation trial, a Phase 4 trial, an open-label study, several reviews and many case reports. Sample sizes are small and there is no Phase 3 RCT, so this is best treated as a research question rather than a ready-to-use indication.
 
 The other predictions are weaker:
 - **Agoraphobia** (L3): only indirect panic-disorder data, so it remains a research question.
@@ -120,7 +117,6 @@ The other predictions are weaker:
 - An adequately powered, controlled trial in OCD, ideally against SSRI standard care
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications (not yet in the compiled data), plus a safety monitoring plan covering serotonin syndrome risk, blood pressure, liver function, and the major drug interactions above
-- Confirmation of the approved indications for the registered Singapore products, since the registration records give no indication text
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

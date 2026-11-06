@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 715
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Non-small cell lung carcinoma, lung cancer…"
 monitor_inn: "Nintedanib"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
@@ -74,10 +74,10 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14922P | OFEV Soft Capsules 150 mg | Capsule, liquid filled | Not available |
-| SIN14921P | OFEV Soft Capsules 100 mg | Capsule, liquid filled | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14921P | OFEV SOFT CAPSULES 100MG | CAPSULE, LIQUID FILLED | Valid |
+| SIN14922P | OFEV SOFT CAPSULES 150MG | CAPSULE, LIQUID FILLED | Valid |
 
 ## Cytotoxicity
 

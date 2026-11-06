@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Eculizumab: predicted new indication Cyclic hematopoiesis (evidence level L5). Approved use: Paroxysmal nocturnal hemoglobinuria"
 monitor_inn: "Eculizumab"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
@@ -74,9 +74,9 @@ No literature directly addresses eculizumab in cyclic hematopoiesis. Literature 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14226P | Soliris Concentrate for Solution for Infusion 300mg/vial | Infusion, solution concentrate | Not stated in the available registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14226P | Soliris Concentrate for Solution for Infusion 300mg/vial | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Cytotoxicity
 

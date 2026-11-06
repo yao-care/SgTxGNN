@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 818
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -96,11 +96,11 @@ Most of these publications concern other drugs or the heterozygous form; none is
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12671P | APO-PRAVASTATIN TABLET 10 mg | Tablet | Not stated in registration record |
-| SIN12670P | APO-PRAVASTATIN TABLET 20 mg | Tablet | Not stated in registration record |
-| SIN14508P | PRAVAFEN HARD CAPSULES 40mg/160mg | Capsule | Not stated in registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12670P | APO-PRAVASTATIN TABLET 20 mg | TABLET | Valid |
+| SIN12671P | APO-PRAVASTATIN TABLET 10 mg | TABLET | Valid |
+| SIN14508P | PRAVAFEN HARD CAPSULES 40mg/160mg | CAPSULE | Valid |
 
 All three are valid single-ingredient registrations (Pravafen is a pravastatin/fenofibrate product by its strengths, though the record lists it as single).
 

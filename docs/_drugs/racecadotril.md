@@ -5,7 +5,7 @@ layout: default
 title: Racecadotril
 parent: Known Uses Only (No New Predictions)
 nav_order: 847
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Racecadotril: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Racecadotril"
 predicted_indications: []
@@ -48,10 +48,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14413P | Hidrasec Children Granules for Oral Suspension 30mg | Granule, for suspension | Not stated in the data compiled |
-| SIN14412P | Hidrasec Infants Granules for Oral Suspension 10mg | Granule, for suspension | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14412P | Hidrasec Infants Granules for Oral Suspension 10mg | GRANULE, FOR SUSPENSION | Valid |
+| SIN14413P | Hidrasec Children Granules for Oral Suspension 30mg | GRANULE, FOR SUSPENSION | Valid |
 
 ## Safety Considerations
 

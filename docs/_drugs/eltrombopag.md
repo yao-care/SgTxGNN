@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Eltrombopag"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,10 +83,10 @@ These studies concern patients who happen to have HIV, not the treatment of HIV 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13909P | Revolade Tablet 25mg | Film-coated tablet | Not stated in the licence record |
-| SIN13910P | Revolade Tablet 50mg | Film-coated tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13909P | Revolade Tablet 25mg | TABLET, FILM COATED | Valid |
+| SIN13910P | Revolade Tablet 50mg | TABLET, FILM COATED | Valid |
 
 Both licences are valid single-ingredient products, with oral film-coated tablets as the only dosage form.
 

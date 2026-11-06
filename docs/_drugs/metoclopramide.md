@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 667
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but the supporting evidence is thin: **1 clinical trial** (a procedural, endosco
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 (observational/review-level evidence only; no completed Phase 3 or Phase 2/3 RCT for ulcer treatment) |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,15 +87,13 @@ For the other predicted indications, two recent RCT-type publications (PMIDs [38
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06638P | PULIN INJECTION 10 mg/2 ml | Injection | Not stated in the data |
-| SIN02804P | METOCLOPRAMIDE TABLET 10 mg | Tablet | Not stated in the data |
-| SIN03349P | METOCLOPRAMIDE SYRUP 5 mg/5 ml | Syrup | Not stated in the data |
-| SIN05202P | METOCLOPRAMIDE INJECTION BP 5 mg/ml | Injection | Not stated in the data |
-| SIN10581P | PULIN FILM-COATED TABLET 10 mg | Film-coated tablet | Not stated in the data |
-
-A sixth licence (SIN03350P, SW METOCLOPRAMIDE TABLET 10 mg) is also valid. All six are single-ingredient products.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02804P | METOCLOPRAMIDE TABLET 10 mg | TABLET | Valid |
+| SIN03349P | METOCLOPRAMIDE SYRUP 5 mg/5 ml | SYRUP | Valid |
+| SIN05202P | METOCLOPRAMIDE INJECTION BP 5 mg/ml | INJECTION | Valid |
+| SIN06638P | PULIN INJECTION 10 mg/2 ml | INJECTION | Valid |
+| SIN10581P | PULIN FILM-COATED TABLET 10 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

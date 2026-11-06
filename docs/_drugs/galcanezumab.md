@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Galcanezumab"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Galcanezumab: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,10 +72,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15919P | EMGALITY Solution for Injection in Pre-filled Pen 120 mg/mL | Injection, solution | — |
-| SIN16063P | EMGALITY Solution for Injection in Pre-filled Syringe 100 mg/mL | Injection, solution | — |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15919P | EMGALITY SOLUTION FOR INJECTION IN PRE-FILLED PEN 120 MG/ML | INJECTION, SOLUTION | Valid |
+| SIN16063P | EMGALITY SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 100 MG/ML | INJECTION, SOLUTION | Valid |
 
 Both licenses are valid single-ingredient products from Eli Lilly and Company. The registration data compiled for this report do not include the approved indication text.
 

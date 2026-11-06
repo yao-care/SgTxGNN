@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Amoxicillin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no c
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 47 of 47) |
+| Number of Registrations | 47 (valid: 47) |
 | Recommended Decision | Hold |
 
 ---
@@ -79,15 +79,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Licence records show 20 listed single-ingredient amoxicillin licences, all valid. The list may be partial, and the records contain no approved indication text. The first 5 are shown.
+The list may be partial, and the records contain no approved indication text. The first 5 are shown.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00213P | APO-AMOXI CAPSULE 250 mg | Capsule | Not stated in the records |
-| SIN06951P | MOXIPEN CAPSULE 250 mg | Capsule | Not stated in the records |
-| SIN11300P | PULMOXYL DRY SYRUP 125 mg/5ml | Syrup | Not stated in the records |
-| SIN03931P | BETAMOX GRANULES 250 mg/5 ml | Granules for suspension | Not stated in the records |
-| SIN01607P | AMOXAPEN 250 CAPSULE 250 mg | Capsule | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00213P | APO-AMOXI CAPSULE 250 mg | CAPSULE | Valid |
+| SIN00472P | AMOXAPEN 250 FOR ORAL SUSPENSION 250 mg/5 ml | POWDER, FOR SUSPENSION | Valid |
+| SIN00964P | MOXILEN 250 CAPSULE 250 mg | CAPSULE | Valid |
+| SIN01664P | APO-AMOXI FOR ORAL SUSPENSION 125 mg/5 ml | POWDER, FOR SUSPENSION | Valid |
+| SIN03931P | BETAMOX GRANULES 250 mg/5 ml | GRANULE, FOR SUSPENSION | Valid |
+
+Showing 5 of 47 HSA registrations.
 
 ---
 

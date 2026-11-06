@@ -5,7 +5,7 @@ layout: default
 title: Gemtuzumab Ozogamicin
 parent: Known Uses Only (No New Predictions)
 nav_order: 475
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Gemtuzumab Ozogamicin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Gemtuzumab ozogamicin"
 predicted_indications: []
@@ -50,9 +50,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16243P | MYLOTARG Powder for Concentrate for Solution for Infusion 5 mg/vial | Powder, for solution |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16243P | MYLOTARG POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 5MG/VIAL | POWDER, FOR SOLUTION | Valid |
 
 This is one valid single-ingredient license, held by Wyeth Pharmaceutical Division of Wyeth Holdings LLC. The record contains no approved-indication text.
 

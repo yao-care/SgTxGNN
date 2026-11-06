@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Amorolfine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Fungal nail infection (onychomycosis)"
 monitor_inn: "Amorolfine"
 predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "sacrum chordoma", "lymph node palisaded myofibroblastoma", "urethral disease"]
@@ -82,10 +82,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN07506P | LOCERYL NAIL LACQUER 5% | Solution | Not stated in licence record (nail lacquer for fungal nail infection) |
-| SIN14604P | AMOROLFINE NAIL LACQUER 5% W/V | Solution | Not stated in licence record (nail lacquer for fungal nail infection) |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07506P | LOCERYL NAIL LACQUER 5% | SOLUTION | Valid |
+| SIN14604P | AMOROLFINE NAIL LACQUER 5%W/V | SOLUTION | Valid |
 
 Both licences are valid single-ingredient products, and no licences have been cancelled.
 

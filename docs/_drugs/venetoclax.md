@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1061
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Venetoclax"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax: predicted new indication Hodgkins lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,11 +82,11 @@ Currently no related literature available for this specific indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15267P | VENCLEXTA film-coated tablet 100 mg | Tablet, film coated |
-| SIN15266P | VENCLEXTA film-coated tablet 50 mg | Tablet, film coated |
-| SIN15265P | VENCLEXTA film-coated tablet 10 mg | Tablet, film coated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15265P | VENCLEXTA FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
+| SIN15266P | VENCLEXTA FILM-COATED TABLET 50MG | TABLET, FILM COATED | Valid |
+| SIN15267P | VENCLEXTA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
 
 All three licences are valid single-ingredient products (oral route) held by AbbVie. Approved indication text is not recorded for these licences.
 

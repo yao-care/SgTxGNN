@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The next-ranked prediction, chronic tic disorder, has more support (5 publicatio
 | Predicted New Indication | Psychogenic movement disorders |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 13 of 13) |
-| Number of Registrations | 13 (valid: 13) |
+| Singapore Market Status | Marketed (valid licences: 15 of 15) |
+| Number of Registrations | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---
@@ -98,15 +98,17 @@ For reference, the most relevant publications for the second-ranked prediction (
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13645P | Aricept Evess 5mg orodispersible tablet | Orally disintegrating tablet | Not stated in the data |
-| SIN13646P | Aricept Evess 10mg orodispersible tablet | Orally disintegrating tablet | Not stated in the data |
-| SIN14575P | Aricept Film-coated Tablets 23mg | Film-coated tablet | Not stated in the data |
-| SIN15565P | Jubdozil Film Coated Tablet 5mg | Film-coated tablet | Not stated in the data |
-| SIN16006P | Alzer 10 Donepezil Hydrochloride Tablets USP 10 mg | Film-coated tablet | Not stated in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13645P | Aricept Evess 5mg orodispersible tablet | TABLET, ORALLY DISINTEGRATING | Valid |
+| SIN13646P | Aricept Evess 10mg orodispersible tablet | TABLET, ORALLY DISINTEGRATING | Valid |
+| SIN14389P | DOPEZIL TABLETS 10MG | TABLET, FILM COATED | Valid |
+| SIN14390P | DOPEZIL TABLETS 5MG | TABLET, FILM COATED | Valid |
+| SIN14575P | Aricept Film-coated Tablets 23mg | TABLET, FILM COATED | Valid |
 
-There are 13 valid single-ingredient registrations in total, all oral, with no cancelled licences. No topical or injectable forms are registered.
+Showing 5 of 15 HSA registrations.
+
+No topical or injectable forms are registered.
 
 ---
 

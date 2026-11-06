@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 639
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mecobalamin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not available"
 monitor_inn: "Mecobalamin"
 predicted_indications: ["sclerosing cholangitis", "multiple endocrine neoplasia", "bone Paget disease"]
@@ -78,7 +78,6 @@ Currently no related clinical trials registered.
 
 For sclerosing cholangitis, currently no related literature is available.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [2694825](https://pubmed.ncbi.nlm.nih.gov/2694825/) | 1989 | Clinical evaluation (likely uncontrolled or observational) | Hinyokika Kiyo (Acta Urologica Japonica) | In 17 patients after rectal cancer surgery, randomised to mecobalamin (500 µg i.m., 3 times weekly for 4 weeks) or no treatment (8 vs 9 patients), bladder function was assessed. This addresses postoperative micturition dysfunction (supportive care), not anti-tumour activity. |
@@ -87,12 +86,12 @@ For sclerosing cholangitis, currently no related literature is available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06291P | METHYCOBAL TABLET 500 mcg | Sugar-coated tablet | Not specified |
-| SIN06349P | METHYCOBAL INJECTION 500 mcg/ml | Injection | Not specified |
-| SIN10917P | NEUROMETHYN CAP. 500 mcg | Capsule | Not specified |
-| SIN16735P | MECONEURO CAPSULES 500 MCG | Capsule | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06291P | METHYCOBAL TABLET 500 mcg | TABLET, SUGAR COATED | Valid |
+| SIN06349P | METHYCOBAL INJECTION 500 mcg/ml | INJECTION | Valid |
+| SIN10917P | NEUROMETHYN CAP. 500 mcg | CAPSULE | Valid |
+| SIN16735P | MECONEURO CAPSULES 500 MCG | CAPSULE | Valid |
 
 ---
 

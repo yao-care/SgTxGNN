@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 791
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pibrentasvir: predicted new indication Hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "Pibrentasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -83,9 +83,9 @@ No hepatitis B-specific studies of pibrentasvir were found. The publications ret
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15603P | MAVIRET FILM-COATED TABLET 100MG/40MG | Film-coated tablet (oral) | Indication text not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15603P | MAVIRET FILM-COATED TABLET 100MG/40MG | TABLET, FILM COATED | Valid |
 
 ## Cytotoxicity
 

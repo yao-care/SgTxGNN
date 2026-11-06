@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -63,7 +63,6 @@ The retrieved literature touches the head and neck region only indirectly. It co
 
 Currently no related clinical trials registered for this predicted indication.
 
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -81,10 +80,10 @@ Currently no related clinical trials registered for this predicted indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12499P | DAC Powder for Injection 200 mg/vial | Injection, powder, for solution | Not stated in the licence record |
-| SIN06424P | DBL Dacarbazine for Injection 200 mg | Injection, powder, for solution | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06424P | DBL DACARBAZINE FOR INJECTION 200 mg | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN12499P | DAC POWDER FOR INJECTION 200 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

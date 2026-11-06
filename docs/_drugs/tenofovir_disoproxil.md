@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 964
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -52,8 +52,8 @@ This direction currently has **0 clinical trials** and **20 publications**, near
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 (preclinical studies only) |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,15 +95,17 @@ All entries below are animal studies or reviews. No human randomised trial is li
 
 ## Singapore Market Information
 
-All 7 licences are valid single-ingredient registrations. The five below are listed. The licence records contain no approved indication text.
+The five below are listed. The licence records contain no approved indication text.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15564P | TENOF Tenofovir Disoproxil Fumarate Film-Coated Tablets 300 mg | Film-coated tablet | — |
-| SIN16566P | HOVID Tenofovir Disoproxil Fumarate Film-Coated Tablet 300 mg | Film-coated tablet | — |
-| SIN15936P | VIRKIL Film-Coated Tablets 300 mg | Film-coated tablet | — |
-| SIN13938P | Viread Tablets 300 mg | Film-coated tablet | — |
-| SIN16078P | VIRCLEAN F.C. Tablets 300 mg | Film-coated tablet | — |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15564P | TENOF TENOFOVIR DISOPROXIL FUMARATE FILM-COATED TABLETS 300 MG | TABLET, FILM COATED | Valid |
+| SIN15936P | VIRKIL FILM-COATED TABLETS 300 MG | TABLET, FILM COATED | Valid |
+| SIN16078P | VIRCLEAN F.C. TABLETS 300MG | TABLET, FILM COATED | Valid |
+| SIN16566P | HOVID TENOFOVIR DISOPROXIL FUMARATE FILM COATED TABLET 300MG | TABLET, FILM COATED | Valid |
+| SIN17328P | ALBIVIR FILM-COATED TABLETS 300MG | TABLET, FILM COATED | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ---
 

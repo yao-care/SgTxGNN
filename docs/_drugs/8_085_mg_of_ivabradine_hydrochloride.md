@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 17
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -41,7 +41,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 The Evidence Pack submitted contains a malformed drug entry ("8.085 MG OF IVABRADINE HYDROCHLORIDE)"), which appears to be a dosage descriptor incorrectly captured as an INN — the actual active ingredient is **ivabradine** (a selective funny current Ih inhibitor used in heart failure and stable angina).
-No TxGNN-predicted indications were returned for this entry, and Singapore regulatory registration records are absent.
+No TxGNN-predicted indications were returned for this entry.
 As a result, **a full repurposing evaluation cannot be completed**; the data gaps below must be resolved before assessment can proceed.
 
 ---
@@ -54,8 +54,8 @@ As a result, **a full repurposing evaluation cannot be completed**; the data gap
 | Predicted New Indication | None returned by TxGNN |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction only — and none present) |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -80,9 +80,7 @@ Because `predicted_indications` is empty, the sections for **Why is This Predict
 
 ## Singapore Market Information
 
-No registered products found for this entry.
-
-> Based on international data, ivabradine is marketed globally as **Procoralan** (Servier) and **Corlanor** (Amgen/US). If ivabradine is correctly identified and re-queried, Singapore HSA registration records should be searched under the INN `ivabradine` or brand name `Procoralan`.
+> Based on international data, ivabradine is marketed globally as **Procoralan** (Servier) and **Corlanor** (Amgen/US).
 
 ---
 
@@ -104,7 +102,6 @@ The drug entry is structurally invalid — the INN field contains a dosage strin
 - **Fix the data pipeline** — identify the upstream parsing step that merged dosage text into the INN field, and correct the record so that `drug.inn = "ivabradine"` (or `"ivabradine hydrochloride"`)
 - **Re-run TxGNN prediction** against the corrected INN to obtain `predicted_indications`
 - **Re-query DrugBank** with `ivabradine` to retrieve `drugbank_id`, `original_moa`, and toxicity data
-- **Re-query Singapore HSA** with the corrected drug name to populate `taiwan_regulatory` fields
 - **Re-query DDI database** with `ivabradine` to retrieve interaction data
 - Once all above are resolved, resubmit a corrected Evidence Pack for a complete L1–L5 repurposing evaluation
 

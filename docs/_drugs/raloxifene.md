@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 848
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Raloxifene: predicted new indication duodenal ulcer (disease) (evidence level L5). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
@@ -69,10 +69,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14013P | Raloxon Film-coated Tablets 60 mg | Film-coated tablet | Not stated in the available records |
-| SIN10872P | EVISTA Tablet 60 mg | Film-coated tablet | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10872P | EVISTA TABLET 60 mg | TABLET, FILM COATED | Valid |
+| SIN14013P | Raloxon Film-coated Tablets 60 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

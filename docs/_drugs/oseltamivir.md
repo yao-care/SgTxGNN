@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 744
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Oseltamivir: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -76,17 +76,17 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oseltamivir,
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16242P | NATFLU OSELTAMIVIR PHOSPHATE USP CAPSULES 75 MG | CAPSULE | Valid |
-| SIN16667P | SELTAVIR CAPSULE 75MG | CAPSULE | Valid |
 | SIN11403P | TAMIFLU CAPSULE 75 mg | CAPSULE | Valid |
-| SIN16669P | SELTAVIR 30 CAPSULE 30MG | CAPSULE | Valid |
-| SIN16307P | FLUVIR OSELTAMIVIR PHOSPHATE CAPSULES 75MG | CAPSULE | Valid |
-| SIN16241P | NATFLU OSELTAMIVIR PHOPHATE USP CAPSULES 45 MG | CAPSULE | Valid |
-| SIN16240P | NATFLU OSELTAMIVIR PHOSPHATE USP CAPSULES 30 MG | CAPSULE | Valid |
 | SIN13506P | Tamiflu capsule 30mg | CAPSULE | Valid |
-| SIN15685P | STARFLU-75 CAPSULES 75 MG | CAPSULE | Valid |
-| SIN16668P | SELTAVIR 45 CAPSULE 45MG | CAPSULE | Valid |
 | SIN13507P | Tamiflu capsule 45mg | CAPSULE | Valid |
+| SIN15685P | STARFLU-75 CAPSULES 75 MG | CAPSULE | Valid |
+| SIN16240P | NATFLU OSELTAMIVIR PHOSPHATE USP CAPSULES 30 MG | CAPSULE | Valid |
+| SIN16241P | NATFLU OSELTAMIVIR PHOPHATE USP CAPSULES 45 MG | CAPSULE | Valid |
+| SIN16242P | NATFLU OSELTAMIVIR PHOSPHATE USP CAPSULES 75 MG | CAPSULE | Valid |
+| SIN16307P | FLUVIR OSELTAMIVIR PHOSPHATE CAPSULES 75MG | CAPSULE | Valid |
+| SIN16667P | SELTAVIR CAPSULE 75MG | CAPSULE | Valid |
+| SIN16668P | SELTAVIR 45 CAPSULE 45MG | CAPSULE | Valid |
+| SIN16669P | SELTAVIR 30 CAPSULE 30MG | CAPSULE | Valid |
 
 ## Safety Considerations
 

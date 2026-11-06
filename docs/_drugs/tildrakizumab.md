@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 991
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tildrakizumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not listed in the Singapore registration data"
 monitor_inn: "Tildrakizumab"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
@@ -84,9 +84,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17076P | ILUMYA Solution for Injection in Pre-filled Syringe 100 mg/mL | Injection, solution | Not listed in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17076P | ILUMYA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 100MG/ML | INJECTION, SOLUTION | Valid |
 
 The manufacturer is Vetter Pharma-Fertigung GmbH & Co. Kommanditgesellschaft. The product is an injectable only, and the licence is valid.
 

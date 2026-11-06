@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 970
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
 description: "Terlipressin: predicted new indication Open-angle glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,7 +78,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for open-angle glaucoma.
 
-
 ---
 
 ## Other Prediction with Supporting Literature: Pulmonary Hypertension
@@ -102,10 +101,10 @@ Pulmonary hypertension (TxGNN score 0.9956) is the only prediction in the top 10
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17190P | TERLIPRESSIN-AFT Solution for Injection 0.85 mg/8.5 mL | Injection, solution | Not listed in the record |
-| SIN14244P | GLYPRESSIN Solution for Injection 1 mg/8.5 mL | Injection, solution | Not listed in the record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14244P | GLYPRESSIN solution for injection, 1 mg/8.5 ml | INJECTION, SOLUTION | Valid |
+| SIN17190P | TERLIPRESSIN-AFT SOLUTION FOR INJECTION 0.85MG/8.5ML | INJECTION, SOLUTION | Valid |
 
 Both are valid single-ingredient licences, and neither is cancelled.
 

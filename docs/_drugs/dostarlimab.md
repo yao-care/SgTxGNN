@@ -5,7 +5,7 @@ layout: default
 title: Dostarlimab
 parent: Known Uses Only (No New Predictions)
 nav_order: 349
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dostarlimab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Dostarlimab"
 predicted_indications: []
@@ -50,9 +50,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16623P | JEMPERLI Concentrate for Solution for Infusion 500mg/10mL | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16623P | JEMPERLI CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/10ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 The product is an injectable (intravenous infusion) and is currently valid.
 

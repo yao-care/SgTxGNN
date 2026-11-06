@@ -5,7 +5,7 @@ layout: default
 title: Toripalimab
 parent: Known Uses Only (No New Predictions)
 nav_order: 1007
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Toripalimab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Toripalimab"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN17212P | LOQTORZI Concentrate for Solution for Infusion 240mg/6ml | Infusion, solution concentrate | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN17212P | LOQTORZI CONCENTRATE FOR SOLUTION FOR INFUSION 240MG/6ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 ## Safety Considerations
 

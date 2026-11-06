@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1018
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Treosulfan: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not stated in the Singapore licence records (the drug is known to be…"
 monitor_inn: "Treosulfan"
 predicted_indications: ["diabetic cataract"]
@@ -80,10 +80,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16922P | TRECONDI Powder for Solution for Infusion 5 g per vial | Injection, powder, for solution | Not listed in the licence record |
-| SIN16923P | TRECONDI Powder for Solution for Infusion 1 g per vial | Injection, powder, for solution | Not listed in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16922P | TRECONDI POWDER FOR SOLUTION FOR INFUSION 5 G PER VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN16923P | TRECONDI POWDER FOR SOLUTION FOR INFUSION 1 G PER VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Both licences are valid single-ingredient products from Oncotec Pharma Produktion GmbH. Only injectable forms are registered.
 

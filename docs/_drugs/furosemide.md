@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 458
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Furosemide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 6 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 10 of 10) |
-| Number of Registrations | 10 (valid: 10) |
+| Singapore Market Status | Marketed (valid licences: 9 of 9) |
+| Number of Registrations | 9 (valid: 9) |
 
 ## Known uses recorded for this drug
 
@@ -78,16 +78,15 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN00064P | FURMIDE TABLETS 40 mg | TABLET | Valid |
+| SIN00088P | APO-FUROSEMIDE TABLET 40 mg | TABLET | Valid |
+| SIN00239P | DIRINE INJECTION 20 mg/2 ml | INJECTION | Valid |
+| SIN11748P | FUSIX TABLET 40 mg | TABLET | Valid |
 | SIN14074P | RASITOL TABLET 40MG | TABLET | Valid |
 | SIN15131P | FUROSEMIDE FRESENIUS KABI SOLUTION FOR INJECTION 20MG/2ML | INJECTION, SOLUTION | Valid |
-| SIN00239P | DIRINE INJECTION 20 mg/2 ml | INJECTION | Valid |
 | SIN16712P | FUSETIC SOLUTION FOR INJECTION 20MG/2ML | INJECTION, SOLUTION | Valid |
-| SIN00199P | LASIX TABLET 40 mg | TABLET | Valid |
-| SIN11748P | FUSIX TABLET 40 mg | TABLET | Valid |
-| SIN00088P | APO-FUROSEMIDE TABLET 40 mg | TABLET | Valid |
-| SIN08109P | SUNMIDE TABLET 40 mg | TABLET | Valid |
 | SIN16784P | FUROSEMIDE-AFT SOLUTION FOR INJECTION 20MG/2ML | INJECTION, SOLUTION | Valid |
-| SIN00064P | FURMIDE TABLETS 40 mg | TABLET | Valid |
+| SIN17312P | FUROSEMIDE KALCEKS SOLUTION FOR INJECTION/ INFUSION 10MG/ML | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

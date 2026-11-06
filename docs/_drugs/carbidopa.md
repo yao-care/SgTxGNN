@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 207
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Carbidopa: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,15 +74,15 @@ The TxGNN model's candidates for Carbidopa (score ≥ 0.99) are all known uses, 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN10285P | CREDANIL 25/100 TABLET | TABLET | Valid |
 | SIN10286P | CREDANIL 25/250 TABLET | TABLET | Valid |
 | SIN12575P | TIDOMET FORTE TABLET | TABLET | Valid |
-| SIN10285P | CREDANIL 25/100 TABLET | TABLET | Valid |
+| SIN13141P | Stalevo Film Coated Tablets 150/37.5/200 mg | TABLET, FILM COATED | Valid |
 | SIN13142P | Stalevo Film Coated Tablets 100/25/200 mg | TABLET, FILM COATED | Valid |
-| SIN16957P | ANTIPAR FILM COATED TABLET 150 mg/37.5 mg/200 mg | TABLET, FILM COATED | Valid |
 | SIN13143P | Stalevo Film Coated Tablets 50/12.5/200 mg | TABLET, FILM COATED | Valid |
 | SIN13566P | Stalevo Film Coated Tablet 200/50/200mg | TABLET, FILM COATED | Valid |
-| SIN13141P | Stalevo Film Coated Tablets 150/37.5/200 mg | TABLET, FILM COATED | Valid |
 | SIN16956P | ANTIPAR FILM COATED TABLET 100 mg/25 mg/200 mg | TABLET, FILM COATED | Valid |
+| SIN16957P | ANTIPAR FILM COATED TABLET 150 mg/37.5 mg/200 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

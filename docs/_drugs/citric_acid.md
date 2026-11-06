@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Citric Acid: predicted new indication Stomach disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Citric acid is an organic acid used in oral solutions, powders and effervescent 
 | Predicted New Indication | Stomach disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,13 +80,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05148P | POTCIT MIXTURE | Solution | – |
-| SIN06732P | POTASSIUM CITRATE MIXTURE BP | Solution | – |
-| SIN17163P | PICO-SWIFT POWDER FOR ORAL SOLUTION | Powder, for solution | – |
-| SIN06442P | E-Z-GAS II GRANULES | Granule | – |
-| SIN14374P | Ural Effervescent Granules | Granule, effervescent | – |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05148P | POTCIT MIXTURE | SOLUTION | Valid |
+| SIN06442P | E-Z-GAS II GRANULES | GRANULE | Valid |
+| SIN06732P | POTASSIUM CITRATE MIXTURE BP | SOLUTION | Valid |
+| SIN14303P | PICOPREP Powder for Oral Solution | POWDER, FOR SOLUTION | Valid |
+| SIN14374P | Ural Effervescent Granules | GRANULE, EFFERVESCENT | Valid |
+
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

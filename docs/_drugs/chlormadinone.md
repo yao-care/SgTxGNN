@@ -3,7 +3,7 @@ layout: default
 title: Chlormadinone
 parent: Known Uses Only (No New Predictions)
 nav_order: 239
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Chlormadinone: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -45,8 +45,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| Singapore Market Status | Marketed (valid licences: 1 of 1) |
-| Number of Registrations | 1 (valid: 1) |
+| Singapore Market Status | Not marketed (no licence on record) |
+| Number of Registrations | 0 (valid: 0) |
 
 ## Known uses recorded for this drug
 
@@ -70,9 +70,7 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| SIN14870P | BELARA film-coated tablet 0.03mg/2mg | TABLET, FILM COATED | Valid |
+No registration was found in the HSA listing of registered therapeutic products used for this report.
 
 ## Safety Considerations
 

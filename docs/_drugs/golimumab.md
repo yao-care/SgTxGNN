@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 489
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Golimumab"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,12 +80,12 @@ However, the retrieved evidence is only indirect. It contains no study of golimu
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14734P | Simponi® I.V. Concentrate for Solution for Infusion 12.5mg/1 ml | Infusion, solution concentrate |
-| SIN16118P | Simponi Solution for Injection in Pre-filled Pen 45mg/0.45ml | Injection, solution |
-| SIN14735P | Simponi Solution for Injection in Pre-filled Syringe 100 mg/1.0 ml (Smartject Injector) | Injection, solution |
-| SIN14105P | Simponi Solution for Injection in Pre-filled Syringe 50 mg/0.5 ml (Smartject Injector) | Injection, solution |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14105P | Simponi Solution for Injection in Pre-filled Syringe 50 mg/0.5 ml (Sma | INJECTION, SOLUTION | Valid |
+| SIN14734P | Simponi® I.V. Concentrate for Solution for Infusion 12.5mg/1 ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+| SIN14735P | Simponi Solution for Injection in Pre-filled Syringe 100 mg/1.0 ml (Sm | INJECTION, SOLUTION | Valid |
+| SIN16118P | SIMPONI SOLUTION FOR INJECTION IN PRE-FILLED PEN 45MG/0.45ML | INJECTION, SOLUTION | Valid |
 
 All four licences are valid single-ingredient products. The records contain no approved-indication text.
 

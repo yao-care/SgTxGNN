@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 359
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Dupilumab"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence is indirect and should be treated as a research question rather tha
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 Note: The Singapore registration records compiled for this report do not include approved-indication text.
@@ -89,10 +89,12 @@ No trial tests dupilumab directly in bronchitis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15675P | DUPIXENT solution for injection in a pre-filled syringe 300 mg/2 ml | Injection, solution | Not available in the registration record |
-| SIN16121P | DUPIXENT solution for injection in a pre-filled syringe 200 mg/1.14 ml | Injection, solution | Not available in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15675P | DUPIXENT SOLUTION FOR INJECTION IN A PRE-FILLED SYRINGE 300 mg/2ml | INJECTION, SOLUTION | Valid |
+| SIN16121P | DUPIXENT SOLUTION FOR INJECTION IN A PRE-FILLED SYRINGE 200 mg/1.14ml | INJECTION, SOLUTION | Valid |
+| SIN17291P | DUPIXENT SOLUTION FOR INJECTION IN A PRE‐FILLED PEN 200 mg/1.14ml | INJECTION, SOLUTION | Valid |
+| SIN17292P | DUPIXENT SOLUTION FOR INJECTION IN A PRE‐FILLED PEN 300 mg/2ml | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

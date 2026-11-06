@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1012
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -99,13 +99,15 @@ Other predicted indications in the same analysis:
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14867P | Herceptin Solution for Injection 600mg/5ml | Injection, solution | Not stated in the licence records |
-| SIN11028P | Herceptin Powder for Injection 440 mg/vial | Injection, powder, for solution | Not stated in the licence records |
-| SIN15839P | Herzuma 440mg | Lyophilised powder for infusion | Not stated in the licence records |
-| SIN16206P | Kanjinti 150 mg/vial | Injection, powder, for solution | Not stated in the licence records |
-| SIN16247P | Phesgo 1200 mg/600 mg / 15 ml | Injection, solution (subcutaneous) | Not stated in the licence records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11028P | HERCEPTIN POWDER FOR INJECTION 440 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN14867P | HERCEPTIN SOLUTION FOR INJECTION 600MG/5ML | INJECTION, SOLUTION | Valid |
+| SIN15838P | HERZUMA® 150MG POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15839P | HERZUMA® 440MG POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+| SIN15850P | OGIVRI™ LYOPHILIZED POWDER FOR INJECTION 440MG PER VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+Showing 5 of 11 HSA registrations.
 
 There are 11 valid registrations in total, all single-ingredient products. They include the originator and several biosimilars (Herzuma, Kanjinti, Trazimera, Trazher) as well as the Phesgo subcutaneous formulation.
 

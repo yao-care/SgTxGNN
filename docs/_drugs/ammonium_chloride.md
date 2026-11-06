@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ammonium chloride"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ammonium Chloride: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
 ---
 
@@ -50,8 +50,8 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 17 of 17) |
-| Number of Registrations | 17 (valid: 17) |
+| Singapore Market Status | Marketed (valid licences: 13 of 13) |
+| Number of Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,15 +70,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-All 17 licences are single-ingredient records and valid. The records contain no approved indication text. The first five are listed below.
+The records contain no approved indication text. The first five are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02839P | BEANAMINE EXPECTORANT | Solution | Not stated in the licence record |
-| SIN08782P | DIPHEN 5 EXPECTORANT | Syrup | Not stated in the licence record |
-| SIN08799P | DIPHEN 10 EXPECTORANT | Syrup | Not stated in the licence record |
-| SIN09014P | PHENEXPECT SYRUP | Syrup | Not stated in the licence record |
-| SIN03335P | XSP-BENA EXPECTORANT | Syrup | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02839P | BEANAMINE EXPECTORANT | SOLUTION | Valid |
+| SIN02936P | DECOFAM COUGH SYRUP | SYRUP | Valid |
+| SIN03100P | COUGHLAX FORTE SYRUP | SYRUP | Valid |
+| SIN03251P | HOVA EXPECTORANT | SYRUP | Valid |
+| SIN03335P | XSP-BENA EXPECTORANT | SYRUP | Valid |
+
+Showing 5 of 13 HSA registrations.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 526
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Common wart, anogenital HPV infection…"
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -86,9 +86,9 @@ Other predictions in the list (for example benign neoplasm of the buccal mucosa 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10105P | ALDARA CREAM 5% | Cream (topical) | Not stated in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10105P | ALDARA CREAM 5% | CREAM | Valid |
 
 ## Safety Considerations
 

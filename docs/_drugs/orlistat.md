@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 743
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Orlistat"
 predicted_indications: ["hypervitaminosis"]
 description: "Orlistat: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,10 +69,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15312P | OBELIT 120 CAPSULE 120MG (Intas Pharmaceuticals Limited) | Capsule, gelatin coated | Not specified in registry data |
-| SIN13046P | XENICAL CAPSULE 120MG (F. Hoffmann-La Roche Ltd / Delpharm Milano S.R.L.) | Capsule | Not specified in registry data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN13046P | XENICAL CAPSULE 120MG | CAPSULE | Valid |
+| SIN15312P | OBELIT 120 CAPSULE 120MG | CAPSULE, GELATIN COATED | Valid |
 
 Both products are single-ingredient, valid, oral formulations.
 

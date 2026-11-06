@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 739
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Omalizumab"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The data compiled for this report contain **2 clinical trials** and **7 publicat
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,13 +78,15 @@ The link to bronchitis is indirect. Some patients with chronic bronchitis or eos
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16115P | Xolair solution for injection, pre-filled syringe 75 mg/0.5 mL | Injection, solution | Not available |
-| SIN16116P | Xolair solution for injection, pre-filled syringe 150 mg/1.0 mL | Injection, solution | Not available |
-| SIN17029P | Xolair solution for injection, pre-filled syringe 300 mg/2.0 mL | Injection, solution | Not available |
-| SIN17030P | Xolair solution for injection, pre-filled pen 75 mg/0.5 mL | Injection, solution | Not available |
-| SIN17031P | Xolair solution for injection, pre-filled pen 150 mg/1.0 mL | Injection, solution | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16115P | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 75MG/0.5ML | INJECTION, SOLUTION | Valid |
+| SIN16116P | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/1.0ML | INJECTION, SOLUTION | Valid |
+| SIN17029P | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 300MG/2.0ML | INJECTION, SOLUTION | Valid |
+| SIN17031P | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED PEN 150MG/1.0ML | INJECTION, SOLUTION | Valid |
+| SIN17032P | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED PEN 300MG/2.0ML | INJECTION, SOLUTION | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Dolutegravir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dolutegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease, AIDS"
 ---
 
@@ -76,12 +76,12 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16504P | TIVICAY DISPERSIBLE TABLET 5 MG | Tablet, for suspension | Not stated in the records |
-| SIN14579P | TIVICAY TABLET 50MG | Tablet, film coated | Not stated in the records |
-| SIN15989P | DOVATO FILM-COATED TABLET 50MG/300MG | Tablet, film coated | Not stated in the records |
-| SIN15100P | TRIUMEQ FILM COATED TABLET 50mg/600mg/300mg | Tablet, film coated | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14579P | TIVICAY TABLET 50MG | TABLET, FILM COATED | Valid |
+| SIN16504P | TIVICAY DISPERSIBLE TABLET 5 MG | TABLET, FOR SUSPENSION | Valid |
+| SIN15100P | TRIUMEQ FILM COATED TABLET 50mg/600mg/300mg | TABLET, FILM COATED | Valid |
+| SIN15989P | DOVATO FILM-COATED TABLET 50MG/300MG | TABLET, FILM COATED | Valid |
 
 Note: DOVATO and TRIUMEQ are fixed-dose combination products. Their licences are not evidence of how single-ingredient dolutegravir is approved.
 

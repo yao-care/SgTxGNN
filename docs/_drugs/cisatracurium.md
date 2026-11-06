@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cisatracurium: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the Singapore registration data compiled for this repor…"
 monitor_inn: "Cisatracurium"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]
@@ -85,10 +85,10 @@ For other predicted indications, a few publications were retrieved. None shows t
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14310P | Nimbex Forte Injection 150 mg/30 ml | Injection, solution | Not stated in the data compiled |
-| SIN14309P | Nimbex Injection 2 mg/ml | Injection, solution | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14309P | Nimbex Injection 2 mg/ml | INJECTION, SOLUTION | Valid |
+| SIN14310P | Nimbex Forte Injection 150 mg/30 ml | INJECTION, SOLUTION | Valid |
 
 Both products are valid single-ingredient registrations, manufactured by GlaxoSmithKline Manufacturing S.p.A.
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 229
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cephalexin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidates for Cephalexin, but every candidate that can
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 11 of 11) |
-| Number of Registrations | 11 (valid: 11) |
+| Singapore Market Status | Marketed (valid licences: 12 of 12) |
+| Number of Registrations | 12 (valid: 12) |
 
 ## Known uses among the model's candidates
 
@@ -74,17 +74,19 @@ The TxGNN model produced candidates for Cephalexin, but every candidate that can
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| SIN00449P | FELEXIN 500 CAPSULE 500 mg | CAPSULE | Valid |
 | SIN08381P | APO-CEPHALEX TABLET 500 mg | TABLET, FILM COATED | Valid |
-| SIN11397P | CEFALEXIN CAPSULE 250 mg | CAPSULE | Valid |
-| SIN16644P | AXCEL CEPHALEXIN-250 CAPSULE 250MG | CAPSULE | Valid |
+| SIN08382P | APO-CEPHALEX TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN09472P | FELEXIN 250 FOR ORAL SUSPENSION 250 mg/5 ml | POWDER, FOR SUSPENSION | Valid |
 | SIN09477P | FELEXIN 250 CAPSULE 250 mg | CAPSULE | Valid |
 | SIN10378P | SOFILEX CAPSULE 250 mg | CAPSULE | Valid |
-| SIN16584P | UPHALEXIN CAPSULE 250 MG | CAPSULE | Valid |
-| SIN00449P | FELEXIN 500 CAPSULE 500 mg | CAPSULE | Valid |
-| SIN11396P | CEFALEXIN CAPSULE 500 mg | CAPSULE | Valid |
-| SIN16585P | AXCEL CEPHALEXIN-500 CAPSULE 500MG | CAPSULE | Valid |
 | SIN10419P | SOFILEX FOR ORAL SUSPENSION 125 mg/5 ml | POWDER, FOR SUSPENSION | Valid |
-| SIN08382P | APO-CEPHALEX TABLET 250 mg | TABLET, FILM COATED | Valid |
+| SIN11396P | CEFALEXIN CAPSULE 500 mg | CAPSULE | Valid |
+| SIN11397P | CEFALEXIN CAPSULE 250 mg | CAPSULE | Valid |
+| SIN16584P | UPHALEXIN CAPSULE 250 MG | CAPSULE | Valid |
+| SIN16585P | AXCEL CEPHALEXIN-500 CAPSULE 500MG | CAPSULE | Valid |
+
+Showing 11 of 12 HSA registrations.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "Clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clobetasol: predicted new indication primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Currently there are **no registered clinical trials**, but **16 publications** (
 | Predicted New Indication | primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L3 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 16 of 16) |
+| Number of Registrations | 16 (valid: 16) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -79,11 +79,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09156P | CLODERM SCALP APPLICATION 0.05% | Lotion | Not recorded |
-| SIN10241P | CLODERM CREAM 0.05% w/w | Cream | Not recorded |
-| SIN09101P | CLODERM OINTMENT 0.05% | Ointment | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04499P | DERMOVATE SCALP APPLICATION 0.05% w/w | LOTION | Valid |
+| SIN04933P | DERMOVATE OINTMENT 0.05% w/w | OINTMENT | Valid |
+| SIN04934P | DERMOVATE CREAM 0.05% w/w | CREAM | Valid |
+| SIN06530P | MEDODERMONE OINTMENT 0.05% | OINTMENT | Valid |
+| SIN06586P | MEDODERMONE CREAM 0.05% | CREAM | Valid |
+
+Showing 5 of 16 HSA registrations.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Crizotinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Crizotinib: predicted new indication Gingival fibromatosis (fibromatosis, gingival) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,10 +69,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14248P | Xalkori Capsules 250mg | Capsule | Not recorded |
-| SIN14247P | Xalkori Capsules 200mg | Capsule | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14247P | Xalkori Capsules 200mg | CAPSULE | Valid |
+| SIN14248P | Xalkori Capsules 250mg | CAPSULE | Valid |
 
 Both licences are single-ingredient products, valid, and made by Pfizer Manufacturing Deutschland GmbH. The route of administration is oral.
 

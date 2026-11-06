@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 531
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Inotuzumab Ozogamicin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,7 +74,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Inotuzumab O
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15747P | BESPONSA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1M | POWDER, FOR SOLUTION | Valid |
+| SIN15747P | BESPONSA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/VIAL | POWDER, FOR SOLUTION | Valid |
 
 ## Cytotoxicity
 

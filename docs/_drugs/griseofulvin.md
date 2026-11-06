@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 492
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Griseofulvin"
 predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wound myiasis", "echinococcus granulosus infectious disease"]
 description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ It is a model-only signal (evidence level L5), and the mechanistic rationale is 
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -83,13 +83,11 @@ Currently no related literature available for myiasis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00899P | HEXENE-FORTE TABLET 500 mg | Tablet | Not stated in registration record |
-| SIN07993P | HOVID-GRISEOFULVIN 500 TABLET B.P. 500mg | Tablet, film coated | Not stated in registration record |
-| SIN00896P | HEXENE TABLET 125 mg | Tablet | Not stated in registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07993P | HOVID-GRISEOFULVIN 500 TABLET B.P. 500mg | TABLET, FILM COATED | Valid |
 
-All three licences are valid single-ingredient oral products. No topical formulation is registered.
+No topical formulation is registered.
 
 ---
 

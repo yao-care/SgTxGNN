@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 916
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the registration records (no approved indication text i…"
 monitor_inn: "Sodium acetate"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
@@ -50,8 +50,8 @@ This is a model-only prediction, and no plausible mechanistic link has been iden
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 11 of 11) |
+| Number of Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,15 +64,17 @@ Other top-ranked predictions are also unsupported. These include epiglottitis, u
 
 ## Singapore Market Information
 
-Singapore has 20 valid single-ingredient registrations and no cancelled ones. The registration records do not include approved indication text. The main authorizations are listed below.
+The registration records do not include approved indication text. The main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN06392P | Compound Sodium Lactate Intravenous Infusion BP | Injection | Not stated |
-| SIN05592P | Lactated Ringer's Injection USP | Injection | Not stated |
-| SIN06523P | Plasma-Lyte A Injection | Injection | Not stated |
-| SIN13890P | Sterofundin ISO solution for infusion | Infusion, solution | Not stated |
-| SIN11635P | Prismasol BO Solution | Solution | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN06523P | PLASMA-LYTE A INJECTION | INJECTION | Valid |
+| SIN13890P | Sterofundin ISO solution for infusion | INFUSION, SOLUTION | Valid |
+| SIN14286P | SmofKabiven Emulsion for Infusion | INJECTION, EMULSION | Valid |
+| SIN14287P | SmofKabiven Peripheral Emulsion for Infusion | INJECTION, EMULSION | Valid |
+| SIN15336P | GELASPAN SOLUTION FOR INFUSION | INFUSION, SOLUTION | Valid |
+
+Showing 5 of 11 HSA registrations.
 
 The remaining registrations include peritoneal dialysis solutions (Dianeal, Physioneal, Extraneal, Europersol), Lactoride 500 Infusion, and Gelaspan.
 

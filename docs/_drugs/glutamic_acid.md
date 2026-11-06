@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 484
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the licence data"
 monitor_inn: "Glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -52,8 +52,8 @@ The high model score is a prediction, not clinical evidence.
 | Predicted New Indication | Postmenopausal osteoporosis |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L4 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,17 +92,19 @@ No randomized trial of glutamic acid in osteoporosis was found. The most relevan
 
 ## Singapore Market Information
 
-All 7 authorizations are single-ingredient, valid licences. The data compiled for this report contain no approved-indication text for them.
+The data compiled for this report contain no approved-indication text for them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN08352P | Aminoplasmal-15% Infusion | Injection | Not stated |
-| SIN07846P | Trophamine Injection 10% | Injection | Not stated |
-| SIN07428P | Vaminolact Intravenous Solution | Injection | Not stated |
-| SIN15411P | Aminoplasmal B.Braun 10% E Solution for Infusion | Infusion, solution | Not stated |
-| SIN16734P | Nutriflex Omega Special B. Braun Emulsion for Infusion | Injection, emulsion | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
+| SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
+| SIN15411P | AMINOPLASMAL B.BRAUN 10% E SOLUTION FOR INFUSION | INFUSION, SOLUTION | Valid |
+| SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
 
-Two further licences are registered: SIN15469P (Nutriflex Omega Special) and SIN15468P (Nutriflex Omega Plus). All are injectable or infusion forms.
+Showing 5 of 8 HSA registrations.
+
+All are injectable or infusion forms.
 
 ---
 

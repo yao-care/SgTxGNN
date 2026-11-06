@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 273
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cloxacillin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -78,11 +78,11 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for C
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15834P | MEIXAM POWDER FOR SOLUTION FOR INJECTION 500MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
-| SIN09934P | OXACIL GRANULES 125MG/5ML | GRANULE, FOR SUSPENSION | Valid |
 | SIN05036P | CLOXACAP 250 CAPSULE 250 mg | CAPSULE | Valid |
 | SIN07168P | CLOXACILLIN PANPHARMA FOR INJECTION 500 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN08889P | CLOXACAP 500 CAPSULE 500 mg | CAPSULE | Valid |
+| SIN09934P | OXACIL GRANULES 125MG/5ML | GRANULE, FOR SUSPENSION | Valid |
+| SIN15834P | MEIXAM POWDER FOR SOLUTION FOR INJECTION 500MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

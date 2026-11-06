@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 953
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Taliglucerase alfa"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,9 +88,9 @@ These papers support the drug in its approved indication only. They do not provi
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16770P | ELELYSO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 200 UNITS/ VIAL | Injection, powder, lyophilized, for solution | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16770P | ELELYSO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 200 UNITS/ VI | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ---
 

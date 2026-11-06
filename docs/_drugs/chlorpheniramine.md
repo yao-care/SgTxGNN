@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 23 of 23) |
+| Number of Registrations | 23 (valid: 23) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,13 +80,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10511P | AXCEL CHLORPHENIRAMINE TABLETS 4 mg | Tablet | Not recorded |
-| SIN02632P | CHLORAMINE TABLET 4 mg | Tablet | Not recorded |
-| SIN10028P | PIRIMAT INJECTION 10 mg/ml | Injection | Not recorded |
-| SIN03348P | ALLERSIN SYRUP 4 mg/5 ml | Syrup | Not recorded |
-| SIN07343P | FLUCUR NEBULISER | Spray | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02527P | CHLORMINE SYRUP 4 mg/5 ml | SYRUP | Valid |
+| SIN02533P | CHLORPHENIRAMINE TABLET 4 mg | TABLET | Valid |
+| SIN02587P | HORAMINE SYRUP 4 mg/5 ml | SYRUP | Valid |
+| SIN02632P | CHLORAMINE TABLET 4 mg | TABLET | Valid |
+| SIN02658P | ANTAMIN TABLET 4 mg | TABLET | Valid |
+
+Showing 5 of 23 HSA registrations.
 
 The list shows five of the registered products; the local records may be partial.
 

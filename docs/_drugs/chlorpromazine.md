@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Chlorpromazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Chlorpromazine: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -71,13 +71,13 @@ No clinical trials are registered for this prediction.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00095P | LARGO TABLETS 25 mg | Film-coated tablet | Not recorded in local data |
-| SIN07528P | CHLORPROMAZINE 100 TABLET 100 mg | Film-coated tablet | Not recorded in local data |
-| SIN07195P | CHLORPROMAZINE 25 TABLET 25 mg | Film-coated tablet | Not recorded in local data |
-| SIN00096P | LARGO TABLET 100 mg | Film-coated tablet | Not recorded in local data |
-| SIN06832P | CHLORPROMAZINE HYDROCHLORIDE TABLET 50 mg | Film-coated tablet | Not recorded in local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00095P | LARGO TABLETS 25 mg | TABLET, FILM COATED | Valid |
+| SIN00096P | LARGO TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN06832P | CHLORPROMAZINE HYDROCHLORIDE TABLET 50 mg | TABLET, FILM COATED | Valid |
+| SIN07195P | CHLORPROMAZINE 25 TABLET 25 mg | TABLET, FILM COATED | Valid |
+| SIN07528P | CHLORPROMAZINE 100 TABLET 100 mg | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations
 

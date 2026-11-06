@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 921
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 5 of 5) |
+| Number of Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,17 +71,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Seven valid single-ingredient licences are registered. Approved indication text was not available in the records.
+Approved indication text was not available in the records.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15513P | REGIOCIT SOLUTION FOR HAEMOFILTRATION | Solution, sterile | Not available |
-| SIN03335P | XSP-BENA EXPECTORANT | Syrup | Not available |
-| SIN07609P | SW-BENA PAEDIATRIC EXPECTORANT | Syrup | Not available |
-| SIN03251P | HOVA EXPECTORANT | Syrup | Not available |
-| SIN03526P | SEMERIN COUGH SYRUP | Syrup | Not available |
-
-Two further licences are also valid: SW BENA-EXPECTORANT (SIN02911P, syrup) and Ural Effervescent Granules (SIN14374P, effervescent granule).
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03251P | HOVA EXPECTORANT | SYRUP | Valid |
+| SIN03335P | XSP-BENA EXPECTORANT | SYRUP | Valid |
+| SIN03514P | MINICA S ENEMA | ENEMA | Valid |
+| SIN14374P | Ural Effervescent Granules | GRANULE, EFFERVESCENT | Valid |
+| SIN15513P | REGIOCIT SOLUTION FOR HAEMOFILTRATION | SOLUTION, STERILE | Valid |
 
 No eye-drop or ophthalmic formulation is registered, so route compatibility with a conjunctival indication has not been established.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Glimepiride"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Glimepiride: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,11 @@ Currently no related literature available for classic stiff person syndrome. The
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN13674P | DIALOSA TABLET 3MG | Tablet | Not stated in the available records |
-| SIN10459P | AMARYL 2.0 TABLETS 2 mg | Tablet | Not stated in the available records |
-| SIN10460P | AMARYL 1.0 TABLETS 1 mg | Tablet | Not stated in the available records |
-| SIN10462P | AMARYL 3.0 TABLETS 3 mg | Tablet | Not stated in the available records |
-| SIN13675P | DIALOSA TABLET 2MG | Tablet | Not stated in the available records |
-
-All five registrations are valid, single-ingredient oral tablets.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN10459P | AMARYL 2.0 TABLETS 2 mg | TABLET | Valid |
+| SIN13674P | DIALOSA TABLET 3MG | TABLET | Valid |
+| SIN13675P | DIALOSA TABLET 2MG | TABLET | Valid |
 
 ## Safety Considerations
 

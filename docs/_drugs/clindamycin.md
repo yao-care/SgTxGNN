@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clindamycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections (streptococcal, staphylococcal, anaerobic), acne…"
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
@@ -72,15 +72,17 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## Singapore Market Information
 
-Seventeen valid single-ingredient licences are listed. The five main ones are shown below. Approved indication text is not recorded for any of them.
+The five main ones are shown below. Approved indication text is not recorded for any of them.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02170P | DALACIN C CAPSULE 150 mg | Capsule | Not recorded |
-| SIN09496P | DALACIN C CAPSULE 300 mg | Capsule | Not recorded |
-| SIN01502P | DALACIN C INJECTION 150 mg/ml | Injection | Not recorded |
-| SIN09700P | DALACIN T TOPICAL GEL 1% | Gel | Not recorded |
-| SIN07338P | DALACIN T LOTION 1% | Lotion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01502P | DALACIN C INJECTION 150 mg/ml | INJECTION | Valid |
+| SIN02170P | DALACIN C CAPSULE 150 mg | CAPSULE | Valid |
+| SIN07338P | DALACIN T LOTION 1% | LOTION | Valid |
+| SIN07759P | TIDACT INJECTION 300mg/2ml | INJECTION | Valid |
+| SIN09496P | DALACIN C CAPSULE 300 mg | CAPSULE | Valid |
+
+Showing 5 of 17 HSA registrations.
 
 Available forms across all licences are oral capsules, injections and solutions for injection, topical gels and lotions. No ophthalmic formulation is listed.
 

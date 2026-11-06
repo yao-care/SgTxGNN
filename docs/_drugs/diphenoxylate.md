@@ -5,7 +5,7 @@ layout: default
 title: Diphenoxylate
 parent: Known Uses Only (No New Predictions)
 nav_order: 338
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Diphenoxylate: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Diphenoxylate"
 predicted_indications: []
@@ -50,10 +50,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05379P | DHAMOTIL TABLET | Film-coated tablet | Not stated |
-| SIN09095P | SUN-DIANOX TABLET | Tablet | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05379P | DHAMOTIL TABLET | TABLET, FILM COATED | Valid |
+| SIN09095P | SUN-DIANOX TABLET | TABLET | Valid |
 
 ---
 

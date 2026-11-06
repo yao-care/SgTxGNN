@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Gefitinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
 description: "Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,13 +81,13 @@ Currently no related literature available for gingival fibromatosis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16722P | GEFITINIB-TEVA FC TABLET 250MG | Film-coated tablet | Not specified in the data |
-| SIN16030P | VEIASU FILM-COATED TABLETS 250 MG | Film-coated tablet | Not specified in the data |
-| SIN16055P | INGEFITINIB FILM COATED TABLET 250MG | Film-coated tablet | Not specified in the data |
-| SIN16130P | GEFTINAT FILM COATED TABLETS 250 MG | Film-coated tablet | Not specified in the data |
-| SIN15984P | HOVID GEFITINIB TABLETS 250 MG | Film-coated tablet | Not specified in the data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15984P | HOVID GEFITINIB TABLETS 250 MG | TABLET, FILM COATED | Valid |
+| SIN16030P | VEIASU FILM-COATED TABLETS 250 MG | TABLET, FILM COATED | Valid |
+| SIN16055P | INGEFITINIB FILM COATED TABLET 250MG | TABLET, FILM COATED | Valid |
+| SIN16130P | GEFTINAT FILM COATED TABLETS 250 MG | TABLET, FILM COATED | Valid |
+| SIN16722P | GEFITINIB-TEVA FC TABLET 250MG | TABLET, FILM COATED | Valid |
 
 All five registrations are valid single-ingredient oral products.
 

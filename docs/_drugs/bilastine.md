@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 160
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Bilastine: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bilastine, s
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 4 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 8 of 8) |
+| Number of Registrations | 8 (valid: 8) |
 
 ## Known uses recorded for this drug
 
@@ -77,11 +77,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bilastine, s
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN17104P | BILAXTEN TABLET 20 MG (PHARMACY ONLY) | TABLET | Valid |
 | SIN14661P | BILAXTEN TABLET 20 mg | TABLET | Valid |
-| SIN15963P | BILAXTEN ORAL SOLUTION 2.5MG/ML | SOLUTION | Valid |
 | SIN15874P | BILAXTEN ORODISPERSIBLE TABLET 10MG | TABLET, ORALLY DISINTEGRATING | Valid |
+| SIN15963P | BILAXTEN ORAL SOLUTION 2.5MG/ML | SOLUTION | Valid |
 | SIN16474P | ALIGRIN TABLET 20MG | TABLET | Valid |
+| SIN17104P | BILAXTEN TABLET 20 MG (PHARMACY ONLY) | TABLET | Valid |
+
+Showing 5 of 8 HSA registrations.
 
 ## Safety Considerations
 

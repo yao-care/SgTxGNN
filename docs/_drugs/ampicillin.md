@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ampicillin: predicted new indication laryngitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -84,12 +84,12 @@ None of the publications below studies ampicillin for laryngitis itself. They ad
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00680P | STANDACILLIN FOR INJECTION 0.5 g/vial | Injection, powder, for solution | Not recorded |
-| SIN01949P | UNASYN 3000 FOR INJECTION | Injection, powder, for solution | Not recorded |
-| SIN01948P | UNASYN 1500 FOR INJECTION | Injection, powder, for solution | Not recorded |
-| SIN01950P | UNASYN 750 FOR INJECTION | Injection, powder, for solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00680P | STANDACILLIN FOR INJECTION 0.5 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN01948P | UNASYN 1500 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN01949P | UNASYN 3000 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN01950P | UNASYN 750 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ## Safety Considerations
 

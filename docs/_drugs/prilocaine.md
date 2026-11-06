@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 825
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,13 +80,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16326P | TAKIPRIL Solution for Injection 20 mg/ml | Injection, solution |
-| SIN16538P | FORTACIN Cutaneous Spray Solution 7.5 mg/dose + 2.5 mg/dose | Spray, metered |
-| SIN14852P | RACSER Cream 5% | Cream |
-| SIN06443P | EMLA Cream 5% | Cream |
-| SIN06175P | CITANEST OCTAPRESSIN Injection | Injection |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN16326P | TAKIPRIL SOLUTION FOR INJECTION 20MG/ML | INJECTION, SOLUTION | Valid |
+| SIN06443P | EMLA CREAM 5% | CREAM | Valid |
+| SIN14852P | RACSER CREAM 5% | CREAM | Valid |
+| SIN16538P | FORTACIN CUTANEOUS SPRAY SOLUTION 7.5MG/dose + 2.5MG/dose | SPRAY, METERED | Valid |
+| SIN17501P | XYLOCREAM 5% W/W | CREAM | Valid |
 
 All five licences are valid single-ingredient registrations, and none has been cancelled. No licence is for an ophthalmic dosage form.
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 502
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Hydrochlorothiazide: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for H
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 5 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 30 of 30) |
+| Number of Registrations | 30 (valid: 30) |
 
 ## Known uses recorded for this drug
 
@@ -77,26 +77,28 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for H
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN01959P | HYDROZIDE TABLET 50 mg | TABLET | Valid |
 | SIN00108P | DI-ERTRIDE TABLET 25 mg | TABLET | Valid |
-| SIN03676P | APO-HYDROCHLOROTHIAZDE TABLET 25 mg | TABLET | Valid |
 | SIN03675P | APO-HYDROCHLOROTHIAZIDE TABLET 50 mg | TABLET | Valid |
-| SIN14570P | PRESARTAN H 50/12.5 FILM COATED TABLET | TABLET | Valid |
-| SIN09429P | HYZAAR TABLET | TABLET, FILM COATED | Valid |
-| SIN11383P | ATACAND PLUS TABLET | TABLET | Valid |
-| SIN14466P | LOSARB PLUS FILM-COATED TABLET 100 MG/25 MG | TABLET, FILM COATED | Valid |
+| SIN03676P | APO-HYDROCHLOROTHIAZDE TABLET 25 mg | TABLET | Valid |
 | SIN06538P | AA-AMILZIDE TABLET | TABLET | Valid |
-| SIN12641P | GLIOTENZIDE 20 TABLET | TABLET | Valid |
-| SIN12011P | CO-DIOVAN 160/25 TABLET | TABLET, FILM COATED | Valid |
-| SIN15617P | TOLUCOMBI TABLET 40MG/12.5MG | TABLET | Valid |
-| SIN14465P | LOSARB PLUS FILM-COATED TABLET 50MG/12.5 MG | TABLET, FILM COATED | Valid |
-| SIN15421P | SARTOCAD H 50/12.5 FILM COATED TABLET 50MG/12.5MG | TABLET, FILM COATED | Valid |
-| SIN13778P | Losartan+HCT Mevon Tablet 100/25mg | TABLET, FILM COATED | Valid |
-| SIN15158P | ROSART HCT FILM COATED TABLETS 50MG/12.5MG | TABLET, FILM COATED | Valid |
+| SIN06552P | APO-TRIAZIDE TABLET | TABLET | Valid |
+| SIN09429P | HYZAAR TABLET | TABLET, FILM COATED | Valid |
 | SIN10538P | CO-DIOVAN 80/12.5 TABLET | TABLET, FILM COATED | Valid |
-| SIN13777P | Losartan+HCT Mevon Tablet 50/12.5mg | TABLET, FILM COATED | Valid |
-| SIN12394P | MICARDIS PLUS TABLET 40/12.5 mg | TABLET | Valid |
+| SIN11339P | CO-DIOVAN 160/12.5 TABLET | TABLET, FILM COATED | Valid |
+| SIN11383P | ATACAND PLUS TABLET | TABLET | Valid |
+| SIN11462P | HYZAAR FORTE TABLET 100/25 mg | TABLET, FILM COATED | Valid |
 | SIN11646P | COAPROVEL FILM-COATED TABLET 150/12.5 mg | TABLET, FILM COATED | Valid |
+| SIN11647P | COAPROVEL FILM-COATED TABLET 300/12.5 mg | TABLET, FILM COATED | Valid |
+| SIN12011P | CO-DIOVAN 160/25 TABLET | TABLET, FILM COATED | Valid |
+| SIN12394P | MICARDIS PLUS TABLET 40/12.5 mg | TABLET | Valid |
+| SIN12395P | MICARDIS PLUS TABLET 80/12.5 mg | TABLET | Valid |
+| SIN12641P | GLIOTENZIDE 20 TABLET | TABLET | Valid |
+| SIN13419P | Hyzaar® Plus 100/12.5mg Tablet | TABLET, FILM COATED | Valid |
+| SIN13777P | Losartan+HCT Mevon Tablet 50/12.5mg | TABLET, FILM COATED | Valid |
+| SIN13778P | Losartan+HCT Mevon Tablet 100/25mg | TABLET, FILM COATED | Valid |
+| SIN13899P | Exforge HCT Tablet 10mg/160mg/12.5mg | TABLET, FILM COATED | Valid |
+
+Showing 20 of 30 HSA registrations.
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

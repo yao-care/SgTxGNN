@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 936
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Streptomycin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis, plague, tularemia…"
 monitor_inn: "Streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
@@ -94,9 +94,9 @@ The most relevant publications are listed below. Study-type labels follow the cl
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01388P | Streptomycin Sulfate for Injection 1 g/vial | Injection, powder, for solution | Not stated in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01388P | STREPTOMYCIN SULFATE FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 ---
 

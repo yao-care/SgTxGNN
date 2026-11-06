@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,10 +70,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11034P | Haemodialysis Concentrate NKFS-04 (Acid) for Bicarbonate Dialysis | Solution | Not recorded |
-| SIN11033P | Haemodialysis Concentrate NKFS-03 (Acid) for Bicarbonate Dialysis | Solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11033P | HAEMODIALYSIS CONCENTRATE NKFS-03 (ACID) FOR BICARBONATE DIALYSIS | SOLUTION | Valid |
+| SIN11034P | HAEMODIALYSIS CONCENTRATE NKFS-04 (ACID) FOR BICARBONATE DIALYSIS | SOLUTION | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Lorlatinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Lorlatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,10 +90,10 @@ The literature found for lower-ranked predictions does not support them as new i
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15830P | LORVIQUA FILM-COATED TABLET 25MG | Film-coated tablet | Not available in the compiled data |
-| SIN15831P | LORVIQUA FILM-COATED TABLET 100MG | Film-coated tablet | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15830P | LORVIQUA FILM-COATED TABLET 25MG | TABLET, FILM COATED | Valid |
+| SIN15831P | LORVIQUA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
 
 Both registrations are valid single-agent licences held by Pfizer Manufacturing Deutschland GmbH, and the route is oral.
 

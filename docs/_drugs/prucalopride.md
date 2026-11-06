@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 840
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
 description: "Prucalopride: predicted new indication Hypoalphalipoproteinemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,10 +78,10 @@ For reference, the two papers retrieved for the amyloidosis predictions (rank 6 
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14103P | Resolor Film-coated Tablet 1 mg | Tablet, film coated | Not available in the compiled data |
-| SIN14104P | Resolor Film-coated Tablet 2 mg | Tablet, film coated | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN14103P | Resolor Film-coated Tablet 1 mg | TABLET, FILM COATED | Valid |
+| SIN14104P | Resolor Film-coated Tablet 2 mg | TABLET, FILM COATED | Valid |
 
 Both licences are valid single-ingredient oral products from Janssen Cilag S.p.A.
 

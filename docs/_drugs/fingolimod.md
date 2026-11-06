@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 431
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fingolimod: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Fingolimod, 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 2 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -77,6 +77,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Fingolimod, 
 |------|------|------|------|
 | SIN14153P | Gilenya Capsule 0.5mg | CAPSULE | Valid |
 | SIN15761P | GILENYA CAPSULE 0.25mg | CAPSULE | Valid |
+| SIN16528P | FINCORD CAPSULES 0.5 MG | CAPSULE, GELATIN COATED | Valid |
 
 ## Safety Considerations
 

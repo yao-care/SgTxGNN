@@ -5,7 +5,7 @@ layout: default
 title: Glipizide
 parent: Known Uses Only (No New Predictions)
 nav_order: 482
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Glipizide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Glipizide"
 predicted_indications: []
@@ -43,20 +43,22 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Singapore Market Status | Marketed (valid licences: 8 of 8) |
-| Number of Registrations | 8 (valid: 8) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 
 ## Singapore Market Information
 
-Glipizide has 8 valid single-ingredient registrations, all oral tablets. No approved indication text is recorded in the licence data.
+No approved indication text is recorded in the licence data.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN10183P | DIBIZIDE TABLETS 5 mg | Tablet | Not recorded |
-| SIN13084P | DIACTIN TABLET 5 MG | Tablet | Not recorded |
-| SIN08508P | GLYNASE TABLET 5 mg | Tablet | Not recorded |
-| SIN04059P | MINIDIAB TABLET 5 mg | Tablet | Not recorded |
-| SIN10724P | SUNGLUCON TABLET 5 mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04059P | MINIDIAB TABLET 5 mg | TABLET | Valid |
+| SIN08508P | GLYNASE TABLET 5 mg | TABLET | Valid |
+| SIN10183P | DIBIZIDE TABLETS 5 mg | TABLET | Valid |
+| SIN10237P | GLIPIZIDE TABLET 5 mg | TABLET | Valid |
+| SIN10440P | BEAPIZIDE TABLETS 5mg | TABLET | Valid |
+
+Showing 5 of 7 HSA registrations.
 
 ## Cytotoxicity
 

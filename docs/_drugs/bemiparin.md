@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 140
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Bemiparin: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,8 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bemiparin, s
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN16463P | HIBOR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGES 2,500 IU | INJECTION, SOLUTION | Valid |
-| SIN16462P | HIBOR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGES 3,500 IU | INJECTION, SOLUTION | Valid |
+| SIN16462P | HIBOR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGES 3,500 IU ANTI-XA/0 | INJECTION, SOLUTION | Valid |
+| SIN16463P | HIBOR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGES 2,500 IU ANTI-XA/0 | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

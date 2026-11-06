@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 88
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded in the Singapore license data"
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -77,9 +77,9 @@ Currently no related clinical trials registered for migraine.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03471P | Aminophylline Injection 0.25 g/10 ml (Atlantic Laboratories Corpn Ltd) | Injection | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03471P | AMINOPHYLLINE INJECTION 0.25 g/10 ml | INJECTION | Valid |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Exemestane"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
 description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Evidence is limited to **0 clinical trials** and **5 indirect publications**, so
 | Predicted New Indication | Antithrombin deficiency type 2 |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 5 of 5) |
-| Number of Registrations | 5 (valid: 5) |
+| Singapore Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 The top-ranked prediction was antithrombin deficiency type 2 (0.9983). It has no supporting evidence and no plausible mechanism, so this report focuses on the second-ranked prediction, amenorrhea, which is the first with any literature. The other predictions are summarised at the end.
@@ -90,15 +90,12 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11398P | AROMASIN TABLET 25mg (Pfizer Italia S.r.l.) | Tablet, sugar coated | Not available |
-| SIN15232P | AROMASTAN F.C. TABLET 25MG (S.C. Sindan-Pharma S.R.L.) | Tablet, film coated | Not available |
-| SIN14757P | EXEMESTANE STADA FILM COATED TABLET 25mg (EirGen Pharma Ltd.) | Tablet, film coated | Not available |
-| SIN16646P | EXEDRAL 25 FILM-COATED TABLET 25MG (Remedica Ltd) | Tablet, film coated | Not available |
-| SIN16062P | EXACCORD 25 FILM COATED TABLET 25 MG (Intas Pharmaceuticals Limited) | Tablet, film coated | Not available |
-
-All five licences are valid single-ingredient oral products.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11398P | AROMASIN TABLET 25mg | TABLET, SUGAR COATED | Valid |
+| SIN14757P | EXEMESTANE STADA FILM COATED TABLET 25mg | TABLET, FILM COATED | Valid |
+| SIN16062P | EXACCORD 25 FILM COATED TABLET 25 MG | TABLET, FILM COATED | Valid |
+| SIN16646P | EXEDRAL 25 FILM-COATED TABLET 25MG | TABLET, FILM COATED | Valid |
 
 ---
 

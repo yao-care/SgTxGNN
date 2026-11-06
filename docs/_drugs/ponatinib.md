@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 808
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Ponatinib"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
 description: "Ponatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,10 +69,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15581P | ICLUSIG TABLET 15 MG | Film-coated tablet | Not stated in the licence record |
-| SIN15582P | ICLUSIG TABLET 45 MG | Film-coated tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15581P | ICLUSIG TABLET 15 MG | TABLET, FILM COATED | Valid |
+| SIN15582P | ICLUSIG TABLET 45 MG | TABLET, FILM COATED | Valid |
 
 Both licences are single-ingredient products, currently valid, and manufactured by Patheon Inc. and Takeda Ireland Limited.
 

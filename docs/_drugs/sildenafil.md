@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 911
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sildenafil: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced no candidate indication with a score of 0
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 6 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences on record: at least 20) |
-| Number of Registrations | at least 20 |
+| Singapore Market Status | Marketed (valid licences: 23 of 23) |
+| Number of Registrations | 23 (valid: 23) |
 
 ## Known uses recorded for this drug
 
@@ -78,26 +78,28 @@ The TxGNN deep-learning model produced no candidate indication with a score of 0
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN10805P | VIAGRA TABLET 50 mg | TABLET, FILM COATED | Valid |
-| SIN16024P | SILCAP® 50 CAPSULE 50MG | CAPSULE | Valid |
-| SIN15090P | SILDENAFIL STADA® FILM COATED TABLET 100MG | TABLET, FILM COATED | Valid |
-| SIN14151P | Ernafil Tablet 100 mg | TABLET, FILM COATED | Valid |
-| SIN15367P | VIVIC TABLET 100MG | TABLET, FILM COATED | Valid |
-| SIN14188P | Sildegra Tablet 100mg | TABLET | Valid |
 | SIN10804P | VIAGRA TABLET 25 mg | TABLET, FILM COATED | Valid |
-| SIN14845P | OLVION FILM COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
-| SIN15676P | SIFE 50 SILDENAFIL CITRATE FILM COATED TABLETS 50 MG | TABLET, FILM COATED | Valid |
-| SIN16684P | MAXIGRA 100 FILM-COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
-| SIN14557P | OLVION FILM COATED TABLETS 50MG | TABLET, FILM COATED | Valid |
-| SIN14152P | Ernafil Tablet 50 mg | TABLET, FILM COATED | Valid |
-| SIN14355P | ANDROZ 50 TABLETS 50MG | TABLET, FILM COATED | Valid |
+| SIN10805P | VIAGRA TABLET 50 mg | TABLET, FILM COATED | Valid |
+| SIN10806P | VIAGRA TABLET 100 mg | TABLET, FILM COATED | Valid |
 | SIN13244P | Revatio Film-Coated Tablets 20mg | TABLET, FILM COATED | Valid |
-| SIN16066P | SYNERRV SILDENAFIL FILM-COATED TABLETS 50MG | TABLET, FILM COATED | Valid |
-| SIN14491P | REMENAFIL TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN14188P | Sildegra Tablet 100mg | TABLET | Valid |
+| SIN14355P | ANDROZ 50 TABLETS 50MG | TABLET, FILM COATED | Valid |
 | SIN14356P | ANDROZ 100 TABLET 100MG | TABLET, FILM COATED | Valid |
 | SIN14394P | A-Sildenafil Tablets 100mg | TABLET, FILM COATED | Valid |
+| SIN14491P | REMENAFIL TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN14557P | OLVION FILM COATED TABLETS 50MG | TABLET, FILM COATED | Valid |
+| SIN14845P | OLVION FILM COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
+| SIN15090P | SILDENAFIL STADA® FILM COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+| SIN15367P | VIVIC TABLET 100MG | TABLET, FILM COATED | Valid |
+| SIN15676P | SIFE 50 SILDENAFIL CITRATE FILM COATED TABLETS 50 MG | TABLET, FILM COATED | Valid |
+| SIN15677P | SIFE 100 SILDENAFIL CITRATE FILM COATED TABLETS 100 MG | TABLET, FILM COATED | Valid |
+| SIN16024P | SILCAP® 50 CAPSULE 50MG | CAPSULE | Valid |
 | SIN16025P | SILCAP® 25 CAPSULE 25MG | CAPSULE | Valid |
-| SIN10806P | VIAGRA TABLET 100 mg | TABLET, FILM COATED | Valid |
+| SIN16066P | SYNERRV SILDENAFIL FILM-COATED TABLETS 50MG | TABLET, FILM COATED | Valid |
+| SIN16067P | SYNERRV SILDENAFIL FILM-COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
+| SIN16406P | SEDEOGRA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+
+Showing 20 of 23 HSA registrations.
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

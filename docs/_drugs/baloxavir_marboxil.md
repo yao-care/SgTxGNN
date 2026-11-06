@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 135
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Baloxavir Marboxil: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Baloxavir Ma
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
+| Singapore Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
 ## Known uses recorded for this drug
 
@@ -75,7 +75,6 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Baloxavir Ma
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| SIN15679P | XOFLUZA FILM COATED TABLETS 20MG | TABLET, FILM COATED | Valid |
 | SIN15680P | XOFLUZA FILM COATED TABLETS 40MG | TABLET, FILM COATED | Valid |
 
 ## Safety Considerations

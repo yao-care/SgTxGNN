@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Fluoxetine: predicted new indication Schizotypal personality disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **分裂型人格障礙 (schizo
 | Predicted New Indication | Schizotypal personality disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| Singapore Market Status | Marketed (valid licences: 7 of 7) |
-| Number of Registrations | 7 (valid: 7) |
+| Singapore Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,15 +78,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03027P | PROZAC CAPSULE 20 mg | Capsule | Not stated in the records |
-| SIN09317P | APO-FLUOXETINE CAPSULE 10 mg | Capsule | Not stated in the records |
-| SIN09318P | APO-FLUOXETINE CAPSULE 20 mg | Capsule | Not stated in the records |
-| SIN12311P | FLUOXETINE-TEVA 20 MG CAPSULES | Capsule | Not stated in the records |
-| SIN11954P | PROCTIN CAPSULE 20 mg | Capsule | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05766P | MAGRILAN CAPSULE 20 mg | CAPSULE | Valid |
+| SIN09317P | APO-FLUOXETINE CAPSULE 10 mg (Grey/Green) | CAPSULE | Valid |
+| SIN09318P | APO-FLUOXETINE CAPSULE 20 mg (Ivory/Green) | CAPSULE | Valid |
+| SIN11954P | PROCTIN CAPSULE 20 mg | CAPSULE | Valid |
+| SIN12311P | FLUOXETINE-TEVA 20 MG CAPSULES | CAPSULE | Valid |
 
-All 7 registrations are single-ingredient products and currently valid; the five above are a selection.
+Showing 5 of 6 HSA registrations.
 
 ## Safety Considerations
 

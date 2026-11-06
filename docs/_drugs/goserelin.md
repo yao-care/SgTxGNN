@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,10 +80,10 @@ This is why the prediction should be read with care. Amenorrhea here is an expec
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01506P | ZOLADEX DEPOT INJECTION 3.6 mg/syringe | Injection | Not stated in the licence record |
-| SIN09793P | ZOLADEX LA DEPOT INJECTION 10.8 mg/syringe | Injection | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01506P | ZOLADEX DEPOT INJECTION 3.6 mg/syringe | INJECTION | Valid |
+| SIN09793P | ZOLADEX LA DEPOT INJECTION 10.8 mg/syringe | INJECTION | Valid |
 
 ## Cytotoxicity
 

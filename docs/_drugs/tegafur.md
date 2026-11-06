@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 959
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Tegafur"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
 description: "Tegafur: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -61,11 +61,11 @@ The high TxGNN score most likely reflects how closely this disease sits to cance
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN03692P | UFT CAPSULE | Capsule | Not listed in the licence record |
-| SIN13672P | TS-ONE Capsule 20 | Capsule | Not listed in the licence record |
-| SIN13673P | TS-ONE Capsule 25 | Capsule | Not listed in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN03692P | UFT CAPSULE | CAPSULE | Valid |
+| SIN13672P | TS-ONE Capsule 20 | CAPSULE | Valid |
+| SIN13673P | TS-ONE Capsule 25 | CAPSULE | Valid |
 
 All three licences are currently valid, and all are oral capsules.
 

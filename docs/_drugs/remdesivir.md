@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 859
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Remdesivir: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available"
 monitor_inn: "Remdesivir"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
@@ -84,9 +84,9 @@ Currently no related literature available for multiple endocrine neoplasia.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15950P | VEKLURY® Lyophilized Powder for IV Infusion 100 mg/vial | Injection, powder, lyophilized, for solution | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN15950P | VEKLURY® LYOPHILIZED POWDER FOR IV INFUSION 100MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 ---
 

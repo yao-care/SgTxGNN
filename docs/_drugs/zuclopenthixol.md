@@ -5,7 +5,7 @@ layout: default
 title: Zuclopenthixol
 parent: Known Uses Only (No New Predictions)
 nav_order: 1091
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Zuclopenthixol: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "zuclopenthixol"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN01365P | CLOPIXOL DEPOT INJECTION 200 mg/ml (H Lundbeck A/S) | Injection | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01365P | CLOPIXOL DEPOT INJECTION 200 mg/ml | INJECTION | Valid |
 
 ## Safety Considerations
 

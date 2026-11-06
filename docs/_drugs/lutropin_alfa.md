@@ -5,7 +5,7 @@ layout: default
 title: Lutropin Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 624
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lutropin Alfa: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Lutropin alfa"
 predicted_indications: []
@@ -48,13 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12507P | Luveris for Injection 75 iu/vial (Revised formula) | Injection, powder, for solution | Not available |
-| SIN15713P | Pergoveris Solution for Injection in Pre-filled Pen (900 IU + 450 IU)/1.44 mL | Injection, solution | Not available |
-| SIN15711P | Pergoveris Solution for Injection in Pre-filled Pen (300 IU + 150 IU)/0.48 mL | Injection, solution | Not available |
-| SIN15712P | Pergoveris Solution for Injection in Pre-filled Pen (450 IU + 225 IU)/0.72 mL | Injection, solution | Not available |
-| SIN13990P | Pergoveris Powder and Solvent for Solution for Injection 150iu/75iu | Injection, powder, for solution | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12507P | LUVERIS FOR INJECTION 75 iu/vial (Revised formula) | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN13990P | Pergoveris Powder and Solvent for Solution for Injection 150iu/75iu | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN15711P | PERGOVERIS SOLUTION FOR INJECTION IN PRE-FILLED PEN (300 IU + 150 IU)/ | INJECTION, SOLUTION | Valid |
+| SIN15712P | PERGOVERIS SOLUTION FOR INJECTION IN PRE-FILLED PEN (450 IU + 225 IU)/ | INJECTION, SOLUTION | Valid |
+| SIN15713P | PERGOVERIS SOLUTION FOR INJECTION IN PRE-FILLED PEN (900 IU + 450 IU)/ | INJECTION, SOLUTION | Valid |
 
 ## Safety Considerations
 

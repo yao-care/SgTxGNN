@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 615
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Lorazepam"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -62,7 +62,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 For the top-ranked prediction, trigeminal nerve neoplasm, **no mechanistic rationale is evident**. Enhanced GABAergic inhibition has no known antitumour activity. At most, lorazepam could play a supportive role, such as managing anxiety or procedural sedation in patients with this tumour. That would not be a new disease-modifying indication. The high TxGNN score (0.9987) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -90,11 +89,11 @@ These studies are small and old, and they concern a different indication from th
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00967P | LORANS 1 TABLET 1 mg | Tablet | Not stated in the compiled records |
-| SIN03452P | APO-LORAZEPAM TABLET 1 mg | Tablet | Not stated in the compiled records |
-| SIN03708P | APO-LORAZEPAM TABLET 0.5 mg | Tablet | Not stated in the compiled records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00967P | LORANS 1 TABLET 1 mg | TABLET | Valid |
+| SIN03452P | APO-LORAZEPAM TABLET 1 mg | TABLET | Valid |
+| SIN03708P | APO-LORAZEPAM TABLET 0.5 mg | TABLET | Valid |
 
 All three are valid single-ingredient oral tablet licences.
 

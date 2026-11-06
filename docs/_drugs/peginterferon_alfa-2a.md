@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 770
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Peginterferon alfa-2a"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: predicted new indication Hepatitis E virus infection (evidence level L1). Approved use: Not recorded in the local data"
@@ -93,10 +93,10 @@ Other predictions (hepatitis E, hepatitis A, tick-borne flavivirus diseases, and
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12313P | PEGASYS Pre-filled Syringe for Injection 180 mcg/0.5 ml | Injection | Not recorded in the licence data |
-| SIN12314P | PEGASYS Pre-filled Syringe for Injection 135 mcg/0.5 ml | Injection | Not recorded in the licence data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN12313P | PEGASYS PRE-FILLED SYRINGE FOR INJECTION 180 mcg/0.5 ml | INJECTION | Valid |
+| SIN12314P | PEGASYS PRE-FILLED SYRINGE FOR INJECTION 135 mcg/0.5 ml | INJECTION | Valid |
 
 Both licences are valid, single-ingredient products held by F. Hoffmann-La Roche Ltd.
 

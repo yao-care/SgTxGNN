@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "myopathic intestinal pseudoobstruction"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acetazolamide: predicted new indication exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,10 +70,10 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16860P | GP-ACETAZOLAMIDE TABLET 250MG | Tablet | Not recorded |
-| SIN01140P | AA PHARMA ACETAZOLAMIDE TABLET 250 mg | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN01140P | AA PHARMA ACETAZOLAMIDE TABLET 250 mg | TABLET | Valid |
+| SIN16860P | GP-ACETAZOLAMIDE TABLET 250MG | TABLET | Valid |
 
 Both authorizations are single-ingredient products and currently valid. Only oral tablets are registered.
 

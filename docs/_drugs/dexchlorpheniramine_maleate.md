@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Dexchlorpheniramine maleate"
 predicted_indications: ["acute intermittent porphyria"]
 description: "Dexchlorpheniramine Maleate: predicted new indication Acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Dexchlorpheniramine maleate is a first-generation H1 antihistamine marketed in S
 | Predicted New Indication | Acute intermittent porphyria |
 | TxGNN Prediction Score | 0.9912 |
 | Evidence Level | L5 |
-| Singapore Market Status | Marketed (valid licences: 10 of 10) |
-| Number of Registrations | 10 (valid: 10) |
+| Singapore Market Status | Marketed (valid licences: 7 of 7) |
+| Number of Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,7 +67,6 @@ The prediction is **not** mechanistically supported. The high score therefore re
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -80,7 +79,6 @@ Currently no related clinical trials registered.
 
 For the top prediction (acute intermittent porphyria), currently no related literature available.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [39803](https://pubmed.ncbi.nlm.nih.gov/39803/) | 1979 | Clinical/immunological study (likely case series) | Dermatologica | Describes a single case of acquired heat contact urticaria in a young woman. The title does not show that dexchlorpheniramine was evaluated, and this is not a controlled trial. |
@@ -89,17 +87,17 @@ For the top prediction (acute intermittent porphyria), currently no related lite
 
 ## Singapore Market Information
 
-All 10 licences are valid single-ingredient products. Approved indication text is not recorded for any of them. The table lists five main authorisations.
+Approved indication text is not recorded for any of them. The table lists five main authorisations.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN09373P | DEXTRAMINE TABLET 2 mg | Tablet | Not recorded |
-| SIN02655P | DEXCHLORAMINE TABLET 2 mg | Tablet | Not recorded |
-| SIN02491P | POLARAX SYRUP 2 mg/5 ml | Syrup | Not recorded |
-| SIN09916P | SOMIN TAB 2 mg | Tablet | Not recorded |
-| SIN10542P | AXCEL DEXCHLORPHENIRAMINE FORTE SYRUP 2 mg/5 ml | Syrup | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN02655P | DEXCHLORAMINE TABLET 2 mg | TABLET | Valid |
+| SIN09125P | POLARAX TABLET 2 mg | TABLET | Valid |
+| SIN09373P | DEXTRAMINE TABLET 2 mg | TABLET | Valid |
+| SIN09916P | SOMIN TAB 2 mg | TABLET | Valid |
+| SIN10542P | AXCEL DEXCHLORPHENIRAMINE FORTE SYRUP 2 mg/5 ml | SYRUP | Valid |
 
-The remaining five licences are POLARAX TABLET (SIN09125P), POLARINE TABLET (SIN07612P), POLARINE SYRUP (SIN03182P), MENDICOF SYRUP (SIN11516P) and PAEDICOF SYRUP (SIN11515P).
+Showing 5 of 7 HSA registrations.
 
 ---
 
@@ -108,7 +106,6 @@ The remaining five licences are POLARAX TABLET (SIN09125P), POLARINE TABLET (SIN
 Please refer to the package insert for safety information.
 
 Package insert warnings and contraindications could not be retrieved for this report. This is a blocking gap for safety screening. No drug interaction records were found, and the knowledge graph lists no contraindicated diseases for this drug.
-
 
 ---
 

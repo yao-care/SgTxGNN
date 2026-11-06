@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 837
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Propylthiouracil"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
@@ -73,7 +73,6 @@ Among the other predictions, only a few have a plausible link:
 
 For the top-ranked prediction (resistance to thyroid hormone), currently no related clinical trials are registered.
 
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT05118542](https://clinicaltrials.gov/study/NCT05118542) | Phase 3 | Completed | 36 | PTU vs methimazole in Graves' disease; effect on early atherosclerosis markers |
@@ -95,7 +94,6 @@ Publications for the top-ranked prediction (resistance to thyroid hormone):
 | [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Mouse model | Endocrinology | Role of TSH in thyroid carcinoma in TRβ-mutant mice |
 | [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Mouse model | Oncogene | Thyroid hormone activates tumour cell proliferation in a mouse model of follicular thyroid carcinoma |
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [30283735](https://pubmed.ncbi.nlm.nih.gov/30283735/) | 2018 | Guideline | Eur Thyroid J | European Thyroid Association guideline for Graves' hyperthyroidism |
@@ -107,10 +105,10 @@ Publications for the top-ranked prediction (resistance to thyroid hormone):
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN00772P | PROPYLTHIOURACIL TABLETS BP 50 mg | Tablet | Not stated in the licence record |
-| SIN11695P | PROPYL TABLET 50 mg | Tablet | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN00772P | PROPYLTHIOURACIL TABLETS BP 50 mg | TABLET | Valid |
+| SIN11695P | PROPYL TABLET 50 mg | TABLET | Valid |
 
 ---
 

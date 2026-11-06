@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Nutritional biotin deficiency"
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -98,10 +98,10 @@ Currently no related clinical trials are registered for dyspepsia.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN05209P | SOLUVIT N FOR INFUSION | Injection, powder, for solution | Not stated in the data compiled |
-| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
+| SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Both products are injectable, multi-vitamin preparations. Neither is an oral form, which would matter for any dyspepsia use.
 
