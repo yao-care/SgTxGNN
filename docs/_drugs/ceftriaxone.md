@@ -73,7 +73,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-At least 20 valid single-ingredient injectable (powder for solution) licences are recorded, and the list may be partial. Examples include Rocephin (F. Hoffmann-La Roche), Ceftriaxone Kabi, Ceftriaxone-AFT, Ceftriaxone Advagen, Cyrosef, Medaxone, Cefaxone and Tricefin. Indication text is not recorded in the local data for these licences.
+Examples include Rocephin (F. Hoffmann-La Roche), Ceftriaxone Kabi, Ceftriaxone-AFT, Ceftriaxone Advagen, Cyrosef, Medaxone, Cefaxone and Tricefin. Indication text is not recorded in the local data for these licences.
 
 ## Safety Considerations
 

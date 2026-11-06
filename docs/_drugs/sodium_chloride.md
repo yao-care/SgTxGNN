@@ -97,8 +97,6 @@ The TxGNN model produced no candidate for Sodium Chloride with a score of 0.99 o
 
 Showing 20 of 79 HSA registrations.
 
-Only part of the licence list is held in the data; the list may be incomplete.
-
 ## Safety Considerations
 
 - **Drug Interactions**: Two moderate-level interactions were identified (DDInter):

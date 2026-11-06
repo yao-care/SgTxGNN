@@ -85,7 +85,7 @@ Currently no related clinical trials registered.
 
 Showing 5 of 25 HSA registrations.
 
-The list above shows 5 of the licences; the licence records may be partial.
+The list above shows 5 of the licences.
 
 ## Safety Considerations
 

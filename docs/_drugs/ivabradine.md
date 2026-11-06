@@ -70,7 +70,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Six single-ingredient oral products hold valid registrations. The approved indication text is not listed in the registration records.
+The approved indication text is not listed in the registration records.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

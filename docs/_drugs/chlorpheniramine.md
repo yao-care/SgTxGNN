@@ -90,7 +90,7 @@ Currently no related clinical trials registered.
 
 Showing 5 of 23 HSA registrations.
 
-The list shows five of the registered products; the local records may be partial.
+The list shows five of the registered products.
 
 ## Safety Considerations
 

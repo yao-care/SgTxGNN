@@ -97,8 +97,6 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 Showing 20 of 34 HSA registrations.
 
-Only part of the licence list is held in the data; the list may be incomplete.
-
 ## Safety Considerations
 
 Please refer to the package insert for label warnings and contraindications, which are not available in the data compiled for this report.

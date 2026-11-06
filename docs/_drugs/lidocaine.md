@@ -73,7 +73,7 @@ For context, other predicted ocular and related conditions have some literature,
 
 ## Singapore Market Information
 
-At least 20 single-ingredient licences are listed, all valid. The list may be partial. The licence records contain no approved-indication text, so no indications are shown here.
+At least 20 single-ingredient licences are listed, all valid. The licence records contain no approved-indication text, so no indications are shown here.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

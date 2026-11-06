@@ -97,8 +97,6 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 Showing 20 of 58 HSA registrations.
 
-Only part of the licence list is held in the data; the list may be incomplete.
-
 ## Safety Considerations
 
 Please refer to the package insert for safety information.

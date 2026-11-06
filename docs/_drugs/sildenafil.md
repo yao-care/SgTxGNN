@@ -101,8 +101,6 @@ The TxGNN deep-learning model produced no candidate indication with a score of 0
 
 Showing 20 of 23 HSA registrations.
 
-Only part of the licence list is held in the data; the list may be incomplete.
-
 ## Safety Considerations
 
 Package insert warnings and contraindications were not available, so please refer to the package insert for them.

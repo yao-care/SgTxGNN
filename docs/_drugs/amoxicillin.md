@@ -79,7 +79,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-The list may be partial, and the records contain no approved indication text. The first 5 are shown.
+The records contain no approved indication text. The first 5 are shown.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

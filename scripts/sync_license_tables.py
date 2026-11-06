@@ -5,6 +5,8 @@
   單方產品在前；列數＝原表列數與 min(5, 總數) 取大（最多 20）；總數多於列數時表後加一句「Showing N of M HSA registrations.」。
   HSA 清單只有現行註冊，Status 一律 Valid。
 - 新資料沒有任何註冊時拿掉表，改一句「No registration was found in the HSA listing of registered therapeutic products used for this report.」
+- 表後 known_use_pages 寫的「Only part of the licence list is held in the data; the list may be incomplete.」（原本是部分紀錄才加）：
+  重建後的紀錄是完整清單（total_matches＝紀錄數），這句跟事實矛盾，一併拿掉；仍是部分紀錄的證據包保留。
 - 段落裡沒有表的頁不新增；表以外的文字不動（跟新事實矛盾的句子由 tools/txgnn/.claude/delete_license_sentences.py 處理）。
 用法（repo 根目錄）：python3 scripts/sync_license_tables.py [--dry-run] [頁 ...]
 """
@@ -19,6 +21,7 @@ HEAD = ["| Licence | Product | Dosage form | Status |", "|------|------|------|-
 NONE_LINE = "No registration was found in the HSA listing of registered therapeutic products used for this report."
 SHOW = "Showing {n} of {m} HSA registrations."
 SHOW_RX = re.compile(r"^Showing \d+ of \d+ HSA registrations\.$")
+PART_NOTE = "Only part of the licence list is held in the data; the list may be incomplete."
 
 
 def cell(x):
@@ -36,7 +39,7 @@ def table_rows(recs):
     return rows
 
 
-def process(text, recs):
+def process(text, recs, partial=False):
     lines = text.split("\n")
     if SEC not in lines:
         return None
@@ -48,7 +51,7 @@ def process(text, recs):
     x, y = tb[0], tb[0]
     while y + 1 < b and lines[y + 1].startswith("|"):
         y += 1
-    rest = [l for l in lines[y + 1:b] if not SHOW_RX.match(l.strip())]
+    rest = [l for l in lines[y + 1:b] if not SHOW_RX.match(l.strip()) and (partial or l.strip() != PART_NOTE)]
     rows = table_rows(recs)
     if rows:
         n = min(20, max(y - x - 1, min(5, len(rows))))
@@ -80,8 +83,9 @@ def main(argv):
         if "layout: id_redirect" in raw[:3000] or 'http-equiv="refresh"' in raw[:3000]:
             continue
         crlf = "\r\n" in raw[:500]
-        recs = (json.loads(bf.read_text(encoding="utf-8")).get("tfda") or {}).get("records") or []
-        new = process(raw.replace("\r\n", "\n"), recs)
+        reg = json.loads(bf.read_text(encoding="utf-8")).get("tfda") or {}
+        recs = reg.get("records") or []
+        new = process(raw.replace("\r\n", "\n"), recs, int(reg.get("total_matches") or 0) > len(recs))
         if new is None:
             continue
         n += 1

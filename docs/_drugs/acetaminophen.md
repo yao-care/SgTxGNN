@@ -97,8 +97,6 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetamino
 
 Showing 20 of 101 HSA registrations.
 
-Only part of the licence list is held in the data; the list may be incomplete.
-
 ## Safety Considerations
 
 - **Contraindications (from the knowledge graph, not label text)**: liver failure, liver disease, cirrhosis of the liver, hepatic encephalopathy, hepatic coma, gallbladder disease.

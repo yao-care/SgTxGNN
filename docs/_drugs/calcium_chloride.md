@@ -98,8 +98,6 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 Showing 20 of 45 HSA registrations.
 
-Only part of the licence list is held in the data; the list may be incomplete.
-
 ## Safety Considerations
 
 - **Contraindications suggested by the knowledge graph** (not taken from label text): hypercalcemia, nephrocalcinosis, nephrolithiasis, kidney disease, anuria, heart disease and coronary artery disease, myocardial infarction, hypertension, peptic ulcer and gastric ulcer, pancreatitis, liver disease, sarcoidosis, and others.

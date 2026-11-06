@@ -70,7 +70,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Bisoprolol is marketed in Singapore, and the compiled data show valid licences with no cancelled ones. The licence records may be partial. The detailed licence table is added by the site program.
+Bisoprolol is marketed in Singapore, and the compiled data show valid licences with no cancelled ones. The detailed licence table is added by the site program.
 
 ## Safety Considerations
 

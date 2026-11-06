@@ -82,7 +82,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Dexamethasone is currently marketed in Singapore. The records may be partial. The licence records carry no approved-indication text. Five representative authorizations are shown below.
+Dexamethasone is currently marketed in Singapore. The licence records carry no approved-indication text. Five representative authorizations are shown below.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

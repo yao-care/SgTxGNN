@@ -221,6 +221,12 @@
  ],
  "amoxicillin": [
   {
+   "sentence": "The list may be partial, and the records contain no approved indication text.",
+   "cut": "The list may be partial, and ",
+   "capitalize": true,
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥的註冊紀錄是完整清單（不再是部分紀錄），句中「紀錄可能不完整」與事實矛盾；只刪這個片段，適應症文字缺漏的說明保留"
+  },
+  {
    "sentence": "Licence records show 20 listed single-ingredient amoxicillin licences, all valid.",
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 47 張（單方 21），句中「20 listed single-ingredient amoxicillin licences」與事實不符；句子只有許可說法，整句刪"
   }
@@ -322,6 +328,12 @@
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 9 張（單方 9），句中「11 valid single-ingredient registrations」與事實不符；句子只有許可說法，整句刪"
   }
  ],
+ "bisoprolol": [
+  {
+   "sentence": "The licence records may be partial.",
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥的註冊紀錄是完整清單（不再是部分紀錄），句中「紀錄可能不完整」與事實矛盾"
+  }
+ ],
  "bortezomib": [
   {
    "sentence": "Twelve single-ingredient registrations are valid, and none has been cancelled.",
@@ -358,10 +370,23 @@
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 1 張（單方 0），句中「one single-ingredient licence」與事實不符；句子只有許可說法，整句刪"
   }
  ],
+ "ceftriaxone": [
+  {
+   "sentence": "At least 20 valid single-ingredient injectable (powder for solution) licences are recorded, and the list may be partial.",
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥的註冊紀錄是完整清單（不再是部分紀錄），句中「紀錄可能不完整」與事實矛盾（現行註冊 22 張）；句子只有許可說法，整句刪"
+  }
+ ],
  "cefuroxime": [
   {
    "sentence": "Cefuroxime is marketed in Singapore, with 8 valid single-ingredient licences.",
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 12 張（單方 12），句中「8 valid single-ingredient licences」與事實不符；句子只有許可說法，整句刪"
+  }
+ ],
+ "chlorpheniramine": [
+  {
+   "sentence": "The list shows five of the registered products; the local records may be partial.",
+   "cut": "; the local records may be partial",
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥的註冊紀錄是完整清單（不再是部分紀錄），句中「紀錄可能不完整」與事實矛盾；只刪這個片段"
   }
  ],
  "cholecalciferol": [
@@ -380,6 +405,13 @@
   {
    "sentence": "The local records show 8 valid licences, all for single-ingredient oral tablet products (film-coated and plain tablets).",
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 3 張（單方 3），句中「8 valid licences」與事實不符；句子只有許可說法，整句刪"
+  }
+ ],
+ "ciprofloxacin": [
+  {
+   "sentence": "The list above shows 5 of the licences; the licence records may be partial.",
+   "cut": "; the licence records may be partial",
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥的註冊紀錄是完整清單（不再是部分紀錄），句中「紀錄可能不完整」與事實矛盾；只刪這個片段"
   }
  ],
  "clarithromycin": [
@@ -467,6 +499,10 @@
   }
  ],
  "dexamethasone": [
+  {
+   "sentence": "The records may be partial.",
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥的註冊紀錄是完整清單（不再是部分紀錄），句中「紀錄可能不完整」與事實矛盾"
+  },
   {
    "sentence": "The data compiled for this report list 20 valid single-ingredient licences and no cancelled ones.",
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 21 張（單方 14），句中「20 valid single-ingredient licences」與事實不符；句子只有許可說法，整句刪"
@@ -863,6 +899,12 @@
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 18 張（單方 0），句中「19 registrations」；「All 19」與事實不符；句子只有許可說法，整句刪"
   }
  ],
+ "ivabradine": [
+  {
+   "sentence": "Six single-ingredient oral products hold valid registrations.",
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 10 張（單方 10），句中「Six」與事實不符；句子只有許可說法，整句刪"
+  }
+ ],
  "ketoconazole": [
   {
    "sentence": "There are 20 valid registrations, all single-ingredient products.",
@@ -960,6 +1002,12 @@
   {
    "sentence": "All 15 licences are valid single-ingredient products.",
    "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 16 張（單方 16），句中「15 licences」；「All 15」與事實不符；句子只有許可說法，整句刪"
+  }
+ ],
+ "lidocaine": [
+  {
+   "sentence": "The list may be partial.",
+   "reason": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥的註冊紀錄是完整清單（不再是部分紀錄），句中「紀錄可能不完整」與事實矛盾"
   }
  ],
  "liraglutide": [

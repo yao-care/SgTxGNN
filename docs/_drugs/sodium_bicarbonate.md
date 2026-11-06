@@ -101,8 +101,6 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Bicar
 
 Showing 20 of 23 HSA registrations.
 
-Only part of the licence list is held in the data; the list may be incomplete.
-
 ## Safety Considerations
 
 **Drug Interactions** (100 interactions recorded; examples):

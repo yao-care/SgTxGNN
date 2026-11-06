@@ -94,8 +94,6 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Promethaz
 | SIN09071P | COPHADYL COUGH LINCTUS | ELIXIR | Valid |
 | SIN09104P | COPHADYL-E COUGH LINCTUS | ELIXIR | Valid |
 
-Only part of the licence list is held in the data; the list may be incomplete.
-
 ## Safety Considerations
 
 **Drug Interactions:** A total of 100 interactions were identified. Among those listed, the major-level interactions are:

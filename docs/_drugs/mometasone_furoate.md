@@ -98,8 +98,6 @@ All candidates produced by the TxGNN model for Mometasone Furoate (score ≥ 0.9
 
 Showing 20 of 24 HSA registrations.
 
-Only part of the licence list is held in the data; the list may be incomplete.
-
 ## Cytotoxicity
 
 Not applicable. Mometasone furoate is a corticosteroid, not an antineoplastic drug. (Cutaneous T-cell lymphoma appears among its original indications, but only as symptomatic or adjunctive use.)

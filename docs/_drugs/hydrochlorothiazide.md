@@ -100,8 +100,6 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for H
 
 Showing 20 of 30 HSA registrations.
 
-Only part of the licence list is held in the data; the list may be incomplete.
-
 ## Safety Considerations
 
 - **Contraindication signals from the knowledge graph** (not label text): liver failure, liver disease, cirrhosis, kidney disease, pancreatitis, gallbladder disease, porphyria, systemic lupus erythematosus, angioedema (including hereditary and RAAS-blocker-induced), autoimmune hemolytic anemia, peptic ulcer disease, myopathy, familial periodic paralysis, epilepsy, asthma, bronchitis, anxiety and neurotic disorders.
