@@ -92,8 +92,6 @@ Currently no related clinical trials registered.
 
 Showing 5 of 19 HSA registrations.
 
-A further 15 valid single-ingredient registrations exist, mainly parenteral nutrition emulsions and amino acid infusions (for example SmofKabiven, Nutriflex Omega, Oliclinomel, Aminoplasmal and Nutrineal PD4).
-
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
