@@ -37,9 +37,21 @@ The following predictions scored 0.99 or higher in the deep learning model (the 
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  fetch('{{ "/data/drugs-by-level.json" | relative_url }}')
-    .then(response => response.json())
-    .then(data => {
+  // 2026-11-06：藥物連結改用 /data/drugs.json 的 url（依藥名對應），直接連到藥物頁；
+  // 舊版用 drugbank_id 拼 /drugs/dbXXXXX/，會先經過舊 ID 的轉址頁。drugs.json 沒有的藥只顯示名稱、不連結。
+  const base = '{{ "/" | relative_url }}'.replace(/\/$/, '');
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  Promise.all([
+    fetch('{{ "/data/drugs-by-level.json" | relative_url }}').then(r => r.json()),
+    fetch('{{ "/data/drugs.json" | relative_url }}').then(r => r.json())
+  ])
+    .then(([data, drugsData]) => {
+      const urlByName = {};
+      (drugsData.drugs || []).forEach(x => { if (x.name && x.url) urlByName[String(x.name).toLowerCase()] = x.url; });
+      const drugLink = d => {
+        const u = urlByName[String(d.drug_name).toLowerCase()];
+        return u ? `<a href="${esc(base + u)}">${esc(d.drug_name)}</a>` : esc(d.drug_name);
+      };
       const container = document.getElementById('medium-evidence-list');
       const highScore = data.high_score || [];
 
@@ -61,8 +73,8 @@ document.addEventListener('DOMContentLoaded', function() {
           <tbody>
             ${highScore.slice(0, 50).map(d => `
               <tr>
-                <td><a href="/drugs/${d.drugbank_id.toLowerCase()}/">${d.drug_name}</a></td>
-                <td>${d.disease_name}</td>
+                <td>${drugLink(d)}</td>
+                <td>${esc(d.disease_name)}</td>
                 <td>${d.score.toFixed(4)}</td>
                 <td><span class="badge ${d.source === 'KG+DL' ? 'kgdl' : 'dl'}">${d.source}</span></td>
               </tr>

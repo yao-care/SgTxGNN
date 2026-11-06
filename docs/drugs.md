@@ -65,6 +65,14 @@ document.addEventListener('DOMContentLoaded', function() {
     (index.drugs || []).forEach(d => {
       top[d.slug] = Math.max(0, ...(d.indications || []).map(i => Number(i.score) || 0));
     });
+    // Statistics 表「分數 > 0.99」列：只數 drugs.json 裡（公開藥物頁）的藥的預測。
+    const listed = new Set((data.drugs || []).map(d => d.slug));
+    const statHs = document.getElementById('stat-highscore-pairs');
+    if (statHs && (index.drugs || []).length) {
+      const n = (index.drugs || []).filter(d => listed.has(d.slug))
+        .reduce((s, d) => s + (d.indications || []).filter(i => Number(i.score) > 99).length, 0);
+      statHs.textContent = n.toLocaleString('en-US');
+    }
     const all = (data.drugs || []).map(d => Object.assign({}, d, {top_score: top[d.slug] || 0}))
       .sort((a, b) => String(a.name).localeCompare(String(b.name)));
     const container = document.getElementById('drug-list');
@@ -190,12 +198,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ## Statistics
 
+{%- comment -%}2026-11-06：數字改由資料算，口徑＝本站公開的藥物頁（同 docs/_data/drug_stats.json、/data/drugs.json）。
+舊版寫死 31,543／1,217／6,361，是 drugs-by-level.json 的全量預測（含沒有公開頁的藥、含 KG 已知用途），口徑不同。
+公開資料沒有每筆預測的 KG／DL 來源，所以拿掉 KG+DL 列。分數 > 0.99 這列由下方 JS 讀 /data/search-index.json 算。{%- endcomment -%}
+{%- assign stat_pairs = 0 -%}
+{%- for d in site.data.drug_stats.all_drugs -%}{%- assign stat_pairs = stat_pairs | plus: d.indication_count -%}{%- endfor -%}
+{%- assign stat_with_pred = site.data.drug_stats.all_drugs | where_exp: "d", "d.indication_count > 0" | size -%}
+{%- capture stat_pairs_fmt -%}{%- if stat_pairs >= 1000 -%}{{ stat_pairs | divided_by: 1000 }},{{ stat_pairs | modulo: 1000 | prepend: '00' | slice: -3, 3 }}{%- else -%}{{ stat_pairs }}{%- endif -%}{%- endcapture %}
+
 | Metric | Value |
 |--------|-------|
-| Total Drugs | {{ site.data.site_stats.drugs }} |
-| Total Predictions | 31,543 |
-| KG+DL (known uses) | 1,217 |
-| High Score (>0.99) | 6,361 |
+| Drugs with a public page on this site | {{ site.data.drug_stats.total_drugs }} |
+| Of these, drugs with at least one predicted new indication | {{ stat_with_pred }} |
+| Predicted new indications listed on these drug pages (drug–indication pairs) | {{ stat_pairs_fmt }} |
+| Of these pairs, TxGNN model score above 0.99 | <span id="stat-highscore-pairs">—</span> |
 
 ---
 
