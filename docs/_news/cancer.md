@@ -13,7 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
+**3 articles** related to cancer.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/cancer/
 2026-11-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
+
+---
+
+### [NUS launches professorship in breast cancer genomics, named after late patient](https://www.straitstimes.com/singapore/health/nus-launches-professorship-in-breast-cancer-genomics-named-after-late-patient)
+
+2026-11-07
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-launches-professorship-in-breast-cancer-genomics-named-after-late-patient)
 
 ---
 
