@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Comfortable in her own skin: How a 12-year-old embraces her rare birthmark](https://www.straitstimes.com/singapore/health/comfortable-in-her-own-skin-how-a-12-year-old-embraces-her-rare-birthmark)
 
-2026-11-09
+2026-11-10
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/comfortable-in-her-own-skin-how-a-12-year-old-embraces-her-rare-birthmark)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/comfortabl
 
 ### [Her paycheck stopped when cancer hit, her insurance payout didn’t](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
 
-2026-11-09
+2026-11-10
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/cancer-ins
 
 ### [Brain fog isn’t just forgetfulness: What causes it? Is it linked to dementia? When should you worry?](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
-2026-11-09
+2026-11-10
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
@@ -43,7 +43,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms
 
 ### [How drinking affects your dementia risk – and what studies say about moderate alcohol use](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
-2026-11-09
+2026-11-10
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
