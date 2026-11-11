@@ -19,7 +19,7 @@ permalink: /news/depression/
 
 ### [From IMH to the National Centre for Mental Health, and what the new name means for Singapore](https://www.straitstimes.com/singapore/health/from-imh-to-the-national-centre-for-mental-health-and-what-the-new-name-means-for-singapore)
 
-2026-11-10
+2026-11-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/from-imh-to-the-national-centre-for-mental-health-and-what-the-new-name-means-for-singapore)
 
