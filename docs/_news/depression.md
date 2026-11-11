@@ -13,7 +13,7 @@ permalink: /news/depression/
 
 ---
 
-**1 articles** related to depression.
+**2 articles** related to depression.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/depression/
 2026-11-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/from-imh-to-the-national-centre-for-mental-health-and-what-the-new-name-means-for-singapore)
+
+---
+
+### [Proposed guidelines aim to ease parental consent rules for youth seeking mental health care](https://www.straitstimes.com/singapore/health/feedback-needed-on-moves-to-help-young-people-better-access-mental-health-support)
+
+2026-11-11
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/feedback-needed-on-moves-to-help-young-people-better-access-mental-health-support)
 
 ---
 

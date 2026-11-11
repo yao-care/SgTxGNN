@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**4 articles** related to arthritis.
-
----
-
-### [Comfortable in her own skin: How a 12-year-old embraces her rare birthmark](https://www.straitstimes.com/singapore/health/comfortable-in-her-own-skin-how-a-12-year-old-embraces-her-rare-birthmark)
-
-2026-11-11
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/comfortable-in-her-own-skin-how-a-12-year-old-embraces-her-rare-birthmark)
+**3 articles** related to arthritis.
 
 ---
 
