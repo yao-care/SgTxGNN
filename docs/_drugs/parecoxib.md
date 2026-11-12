@@ -106,7 +106,13 @@ Showing 5 of 7 HSA registrations.
 
 <!-- licenses:end -->
 
-One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6. All are single-ingredient injectable products.
+All are single-ingredient injectable products.
+
+<!-- review:begin sg-lic-20261112-parecoxib-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current, and SIN16666P is already in the table above; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261112-parecoxib-1 -->
 
 ---
 
@@ -149,6 +155,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "with 6 valid registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-12 | Removed: "One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

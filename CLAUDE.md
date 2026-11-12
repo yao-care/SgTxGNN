@@ -517,3 +517,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-10-31～11-06 許可證修正時直接刪掉的矛盾子句（10-31 cf6f7083b、11-06 c5383d8fd／454913d87／2a67edbd9／ce4c83d64／de5ee6aba／9fc1fd322），2026-11-12 由 scripts/reviews_from_edits.py 依 git 前後版本轉入（336 筆、278 頁）。
 程式許可證表的列數依原表列數（5～20 列），快照存最多 20 列可列的列，gate 比頁面上的前 N 列；表下「Showing N of M HSA registrations.」的 N 隨頁不同，gate 不比這句。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時會重套紀錄，notes 裡的舊錯句會被紀錄再更正一次。
+2026-11-12 正文張數對事實層再掃一次：parecoxib（「另有 1 張、總數 6」，實際 7 張且 SIN16666P 已在表內）、isoleucine（19→18）、trimethoprim（12→10）以 `sg-lic-20261112-*` 更正；其餘命中都是交互作用筆數或表格顯示列數。

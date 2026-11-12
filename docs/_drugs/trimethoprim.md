@@ -131,8 +131,14 @@ The top prediction, punctate epithelial keratoconjunctivitis, rests only on a mo
 **To proceed, the following is needed:**
 - Evidence that punctate epithelial keratoconjunctivitis cases with a bacterial component respond to trimethoprim, or a clear mechanistic rationale
 - Mechanism of action data and the package insert warnings and contraindications from the HSA website
-- Confirmation of whether a topical ophthalmic formulation can be supplied in Singapore, since none of the 12 registrations is an eye product
+- Confirmation of whether a topical ophthalmic formulation can be supplied in Singapore, since none of the 10 registrations is an eye product
 - A review of the safety associations above (blood disorders, kidney and liver disease, G6PD deficiency) and of the potassium-related interactions
+
+<!-- review:begin sg-lic-20261112-trimethoprim-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "none of the 12 registrations is an eye product" Corrected: the HSA register (the HSA register of therapeutic products as of 2026-11-06) lists 10 registrations for this drug, all current; none of them is an eye product (tablets, suspensions and one injection). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261112-trimethoprim-1 -->
 
 <!-- review:begin log -->
 
@@ -143,6 +149,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 12 licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-12 | Number of registrations: 12 → 10 | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

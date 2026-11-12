@@ -75,7 +75,13 @@ Currently no related literature available for gastroparesis.
 
 ## Singapore Market Information
 
-Approved indication text is blank in the registration records. Five of the 19 authorizations are listed:
+Approved indication text is blank in the registration records. Five of the 18 authorizations are listed:
+
+<!-- review:begin sg-lic-20261112-isoleucine-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "Five of the 19 authorizations are listed:" Corrected: the HSA register (the HSA register of therapeutic products as of 2026-11-06) lists 18 registrations for this drug, all current. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261112-isoleucine-1 -->
 
 <!-- licenses:begin -->
 
@@ -129,6 +135,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 19 registrations are valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-12 | Number of authorizations: 19 → 18 | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 
