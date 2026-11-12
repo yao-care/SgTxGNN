@@ -13,7 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**3 articles** related to cancer.
+**4 articles** related to cancer.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/cancer-ins
 2026-11-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-launches-professorship-in-breast-cancer-genomics-named-after-late-patient)
+
+---
+
+### [Stool tests, blood tests or colonoscopy: Which colorectal cancer screening method is right for you?](https://www.straitstimes.com/singapore/health/stool-tests-blood-tests-colonoscopy-which-colorectal-cancer-screening-method-alpine-surgical)
+
+2026-11-12
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/stool-tests-blood-tests-colonoscopy-which-colorectal-cancer-screening-method-alpine-surgical)
 
 ---
 
