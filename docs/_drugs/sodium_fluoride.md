@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 922
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sodium fluoride"
 predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
 description: "Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,8 @@ For reference, the closest-ranked laryngeal prediction (laryngitis, rank 7) retu
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07802P | DURAPHAT 50mg/ml DENTAL SUSPENSION | LIQUID | Valid |
@@ -81,7 +83,15 @@ For reference, the closest-ranked laryngeal prediction (laryngitis, rank 7) retu
 | SIN14341P | Nutritrace Concentrate for solution for infusion | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 
+<!-- licenses:end -->
+
 All four registrations are valid licences. The available forms are a dental liquid and injectable or infusion concentrates. Epiglottitis is an acute airway infection, and none of these forms is an established route for treating it.
+
+<!-- review:begin sg-lic-20261106-sodium_fluoride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four registrations are valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sodium_fluoride-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +112,19 @@ The prediction is computational only. There are no clinical trials or relevant p
 - Evidence of in vitro or preclinical activity against the relevant pathogens
 - Confirmation of the original approved indication, since the licence records contain no indication text
 - Assessment of route and formulation compatibility with the proposed use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

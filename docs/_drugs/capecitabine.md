@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10677P | XELODA TABLETS 500 mg | TABLET, FILM COATED | Valid |
@@ -81,6 +83,8 @@ Currently no related literature available.
 | SIN15368P | KAPETRAL FILM-COATED TABLET 150MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 These are 5 of 10 valid single-ingredient registrations. The others are CAPETERO (150 mg and 500 mg), INTACAPE 150 mg, and INCITABINE (150 mg and 500 mg).
 

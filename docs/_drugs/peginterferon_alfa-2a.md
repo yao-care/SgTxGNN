@@ -93,10 +93,14 @@ Other predictions (hepatitis E, hepatitis A, tick-borne flavivirus diseases, and
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12313P | PEGASYS PRE-FILLED SYRINGE FOR INJECTION 180 mcg/0.5 ml | INJECTION | Valid |
 | SIN12314P | PEGASYS PRE-FILLED SYRINGE FOR INJECTION 135 mcg/0.5 ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid, single-ingredient products held by F. Hoffmann-La Roche Ltd.
 

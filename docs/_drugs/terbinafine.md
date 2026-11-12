@@ -72,6 +72,8 @@ All candidates that the TxGNN model produced for Terbinafine (score ≥ 0.99) an
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07623P | LAMISIL CREAM 1% | CREAM | Valid |
@@ -81,6 +83,8 @@ All candidates that the TxGNN model produced for Terbinafine (score ≥ 0.99) an
 | SIN15413P | DERMAFIN CREAM 10MG/G | CREAM | Valid |
 | SIN16896P | FINAB CREAM 1% W/W | CREAM | Valid |
 | SIN16925P | FUNGIFEX TABLET 250MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -74,6 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tirzepatide,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16714P | MOUNJARO INJECTION 5MG/0.5ML | INJECTION, SOLUTION | Valid |
@@ -84,6 +86,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tirzepatide,
 | SIN16720P | MOUNJARO INJECTION 15MG/0.5ML | INJECTION, SOLUTION | Valid |
 
 Showing 6 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

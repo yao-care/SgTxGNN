@@ -69,10 +69,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13672P | TS-ONE Capsule 20 | CAPSULE | Valid |
 | SIN13673P | TS-ONE Capsule 25 | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 Both authorizations are currently valid, and the product is supplied as an oral capsule (manufacturer: Taiho Pharmaceutical Co., Ltd., Tokushima Plant).
 

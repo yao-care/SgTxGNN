@@ -84,10 +84,14 @@ These are the same catecholaminergic pathways targeted by established ADHD treat
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10983P | WELLBUTRIN SR TABLETS 150 mg | TABLET, FILM COATED | Valid |
 | SIN16411P | CONTRAVE PROLONGED RELEASE TABLET 8MG/90MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -83,10 +83,14 @@ These studies concern patients who happen to have HIV, not the treatment of HIV 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13909P | Revolade Tablet 25mg | TABLET, FILM COATED | Valid |
 | SIN13910P | Revolade Tablet 50mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products, with oral film-coated tablets as the only dosage form.
 

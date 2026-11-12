@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,11 +91,15 @@ An important caveat: in the available trials melphalan is almost always given in
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11822P | ALKERAN TABLET 2 mg (Revised formula) | TABLET, FILM COATED | Valid |
 | SIN11873P | ALKERAN FOR INJECTION 50 mg/vial | INJECTION | Valid |
 | SIN17483P | MEGVAL™ Powder for Solution for Injection 50mg/vial | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -115,6 +119,12 @@ An important caveat: in the available trials melphalan is almost always given in
 - **Disease-level contraindication signals (knowledge graph, not label text)**: kidney disease, thrombocytopenia, anaemia, leukopenia, neutropenia and agranulocytosis, hemolytic anemia, interstitial lung disease, pulmonary fibrosis, drug-induced liver injury, and vasculitis.
 - **Drug Interactions**: 100 interactions were found in total. The listed ones include moderate interactions with amphotericin B (conventional and lipid formulations) and minor interactions with cimetidine, levofloxacin and zinc salts. Several others, such as proton pump inhibitors, metformin, prednisone and simvastatin, have an unclassified severity.
 - **Long-term risk**: The literature notes that alkylating agents such as melphalan carry a high rate of second malignancies, mostly acute leukaemias.
+
+<!-- review:begin sg-lic-20261106-melphalan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products, covering injectable and oral routes." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-melphalan-1 -->
 
 Please refer to the package insert for full warnings and contraindications.
 
@@ -142,6 +152,26 @@ One completed Phase 2 trial (n=64) tests high-dose chemotherapy that includes me
 - Approved indication text
 - A haematological and organ-function monitoring plan, plus a transplant-capable setting for high-dose use
 - Comparison against current standard salvage regimens for germ cell tumours
+
+<!-- review:begin sg-lic-20261106-melphalan-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Approved indication text for the two Singapore licences" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-melphalan-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are valid single-ingredient products, covering injectable and oral routes" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "for the two Singapore licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

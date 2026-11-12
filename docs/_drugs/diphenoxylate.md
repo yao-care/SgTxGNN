@@ -50,10 +50,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05379P | DHAMOTIL TABLET | TABLET, FILM COATED | Valid |
 | SIN09095P | SUN-DIANOX TABLET | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

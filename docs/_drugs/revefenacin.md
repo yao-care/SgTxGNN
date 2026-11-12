@@ -83,9 +83,13 @@ Currently no related literature available for bronchitis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16336P | YUPELRI® INHALATION SOLUTION 175MCG/3ML | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 The registration is a valid single-ingredient product. No approved indication text is recorded for it in the data compiled for this report.
 

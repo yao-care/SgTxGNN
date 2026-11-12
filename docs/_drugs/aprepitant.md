@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Aprepitant: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not available"
 monitor_inn: "Aprepitant"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -73,13 +73,23 @@ Currently no related literature available for nephrogenic syndrome of inappropri
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12369P | EMEND CAPSULE 80 mg | CAPSULE | Valid |
 | SIN12371P | EMEND TRI-PACK CAPSULE | CAPSULE | Valid |
 | SIN16363P | INAPITANT TRI-PACK CAPSULE | CAPSULE | Valid |
 
+<!-- licenses:end -->
+
 All three licences are valid products, and none is cancelled. The only route of administration is oral.
+
+<!-- review:begin sg-lic-20261106-aprepitant-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient products, and none is cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-aprepitant-1 -->
 
 ## Safety Considerations
 
@@ -107,6 +117,19 @@ The prediction score is high, but the evidence level is L5. There are no clinica
 - Preclinical or literature evidence showing NK1 antagonism affects water balance or V2 receptor signalling
 - A review of the major drug interactions (opioids, CYP3A4-related drugs) and of the liver failure signal for the target population
 - Route compatibility and similarity-to-original assessments, which are still pending
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

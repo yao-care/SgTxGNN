@@ -75,12 +75,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08790P | HYDRODERM-C CREAM 1% | CREAM | Valid |
 | SIN08793P | DERMANOL-C CREAM 0.025% | CREAM | Valid |
 | SIN08795P | DERMANOL-C CREAM 0.1% | CREAM | Valid |
 | SIN08796P | DERMANOL-C CREAM 0.05% | CREAM | Valid |
+
+<!-- licenses:end -->
 
 All four products are topical creams from ICM Pharma Pte. Ltd.
 

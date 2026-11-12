@@ -70,11 +70,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Manganese, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08899P | PEDITRACE CONCENTRATE FOR PARENTERAL INFUSION | INJECTION | Valid |
 | SIN14341P | Nutritrace Concentrate for solution for infusion | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

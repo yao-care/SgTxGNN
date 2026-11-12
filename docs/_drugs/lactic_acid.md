@@ -95,11 +95,15 @@ No literature was retrieved for atypical coarctation of aorta. The closest relat
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04047P | DUOFILM COLLODION | TINCTURE | Valid |
 | SIN04987P | SATO UONOME SOLUTION | SOLUTION | Valid |
 | SIN06281P | COMPOUND SODIUM LACTATE INTRAVENOUS INFUSION BP | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

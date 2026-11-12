@@ -79,10 +79,14 @@ Current guidance is cautious. Dopamine agonists, alpha-2-delta ligands and iron 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06410P | CLONOTRIL 0.5 TABLET 0.5 mg | TABLET | Valid |
 | SIN17075P | CLONAZEPAM MEVON TABLETS 0.5 MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

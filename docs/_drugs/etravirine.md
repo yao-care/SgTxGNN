@@ -89,9 +89,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14535P | INTELENCE TABLET 200 MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

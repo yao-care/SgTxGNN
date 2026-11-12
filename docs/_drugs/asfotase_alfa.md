@@ -70,10 +70,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17126P | STRENSIQ SOLUTION FOR INJECTION 100 MG/ML | INJECTION, SOLUTION | Valid |
 | SIN17127P | STRENSIQ SOLUTION FOR INJECTION 40 MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1085
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Zinc chloride"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
 description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,13 +75,23 @@ This is animal data only. No human studies were compiled.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08899P | PEDITRACE CONCENTRATE FOR PARENTERAL INFUSION | INJECTION | Valid |
 | SIN14341P | Nutritrace Concentrate for solution for infusion | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 
+<!-- licenses:end -->
+
 All three registrations are valid licences, and none has been cancelled. All are injectable forms.
+
+<!-- review:begin sg-lic-20261106-zinc_chloride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three registrations are valid single-ingredient licences, and none has been cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-zinc_chloride-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +112,19 @@ The prediction score is high, but there are no clinical trials and no human lite
 - Mechanism of action data from DrugBank
 - A route compatibility assessment: the registered products are intravenous infusions, while the predicted eye conditions might need other routes, such as oral or topical delivery
 - A review of the other predictions with a more plausible rationale, such as diabetic retinopathy (preclinical evidence), dry eye syndrome and acne.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

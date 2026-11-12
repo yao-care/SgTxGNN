@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17135P | Artesunate Amivas Powder and Solvent for Solution for Injection 110mg/ | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 The only registered product is an injectable formulation, so any use in acne would need a route-compatibility assessment (for example, a topical or oral product).
 

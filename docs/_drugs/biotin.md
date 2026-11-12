@@ -98,10 +98,14 @@ Currently no related clinical trials are registered for dyspepsia.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both products are injectable, multi-vitamin preparations. Neither is an oral form, which would matter for any dyspepsia use.
 

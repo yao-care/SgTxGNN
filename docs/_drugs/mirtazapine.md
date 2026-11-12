@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12526P | REMERON SOLTAB 15 mg | TABLET | Valid |
@@ -86,6 +88,8 @@ Currently no related literature available.
 | SIN13643P | Mirtazapine Sandoz Orodispersible Tablets 15mg | TABLET, ORALLY DISINTEGRATING | Valid |
 | SIN13644P | Mirtazapine Sandoz Orodispersible Tablets 30mg | TABLET, ORALLY DISINTEGRATING | Valid |
 | SIN14012P | APO-MIRTAZAPINE TABLET 30MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All five licences are valid single-ingredient oral products.
 

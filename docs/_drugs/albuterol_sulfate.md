@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -80,9 +80,23 @@ Currently no related literature available.
 
 *(No predicted indication target exists from which to derive a literature search context.)*
 
+<!-- review:begin sg-lic-20261106-albuterol_sulfate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Albuterol Sulfate has **no registered products** in the Singapore Health Sciences Authority (HSA) database as of the data cutoff (2026-04-19)." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-albuterol_sulfate-1 -->
+
+<!-- review:begin sg-lic-20261106-albuterol_sulfate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "> **Note:** Albuterol (also known internationally as Salbutamol) is widely registered in many markets under the INN "Salbutamol." It is possible that Singapore HSA records exist under the alternative INN. A cross-query using "Salbutamol" is recommended before concluding non-registration." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-albuterol_sulfate-2 -->
+
 ---
 
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -94,6 +108,8 @@ Currently no related literature available.
 
 Showing 5 of 13 HSA registrations.
 
+<!-- licenses:end -->
+
 ---
 
 ## Conclusion and Next Steps
@@ -103,12 +119,40 @@ Showing 5 of 13 HSA registrations.
 **Rationale:**
 The Evidence Pack for Albuterol Sulfate is critically incomplete — no predicted indications, no DrugBank ID linkage, no safety data are available. There is insufficient information to evaluate any repurposing hypothesis at this time.
 
+<!-- review:begin sg-lic-20261106-albuterol_sulfate-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Evidence Pack for Albuterol Sulfate is critically incomplete — no predicted indications, no DrugBank ID linkage, no Singapore registration records, and no safety data are available." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-albuterol_sulfate-3 -->
+
 **To proceed, the following is needed:**
 
 1. **Re-run TxGNN prediction pipeline** with a confirmed DrugBank ID for Albuterol Sulfate (DrugBank: DB01001 for Salbutamol) to obtain predicted indications
 3. **Retrieve MOA from DrugBank API** using DB01001 to populate the mechanism of action field
 4. **Download and parse the product insert (PIL/SmPC)** from HSA or EMA to populate safety warnings and contraindications
 5. **Resubmit Evidence Pack** once the above data gaps (DG001, DG002) are resolved, then re-generate this report against the enriched pack
+
+<!-- review:begin sg-lic-20261106-albuterol_sulfate-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Re-run TxGNN prediction pipeline** with a confirmed DrugBank ID for Albuterol Sulfate (DrugBank: DB01001 for Salbutamol) to obtain predicted indications / **Cross-check Singapore HSA registry** using the alternative INN "Salbutamol" to determine true market status" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-albuterol_sulfate-4 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Albuterol Sulfate has **no registered products** in the Singapore Health Sciences Authority (HSA) database as of the data cutoff (2026-04-19" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "> **Note:** Albuterol (also known internationally as Salbutamol) is widely registered in many markets under the INN "Salbutamol." It is poss" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Singapore registration records, and no" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "2. **Cross-check Singapore HSA registry** using the alternative INN "Salbutamol" to determine true market status" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

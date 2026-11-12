@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -61,6 +61,8 @@ Alopecia mucinosa is an inflammatory hair follicle disorder. The model's high sc
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04683P | SOLU-MEDROL FOR INJECTION 500 mg/8 ml | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -71,7 +73,15 @@ Alopecia mucinosa is an inflammatory hair follicle disorder. The model's high sc
 
 Showing 5 of 6 HSA registrations.
 
+<!-- licenses:end -->
+
 No topical formulation is registered locally, which matters because alopecia mucinosa is a skin and hair-follicle condition.
+
+<!-- review:begin sg-lic-20261106-methylprednisolone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are currently valid, and both are for injectable formulations. No topical formulation is registered locally, which matters because alopecia mucinosa is a skin and hair-follicle condition." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-methylprednisolone-1 -->
 
 ## Safety Considerations
 
@@ -96,6 +106,18 @@ The prediction score is high, but there is no clinical trial or literature evide
 - Detailed mechanism of action data
 - Case series, observational data or clinical trials in alopecia mucinosa
 - An assessment of route suitability (topical or intralesional versus systemic) and of the risk–benefit balance for this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are currently valid, and both are for injectable formulations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

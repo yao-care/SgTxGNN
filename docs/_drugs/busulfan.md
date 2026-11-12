@@ -98,10 +98,14 @@ Many other trials in the compiled set test graft-versus-host disease prevention 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11001P | MYRAN TABLETS 2 mg | TABLET | Valid |
 | SIN13260P | BUSULFEX® INJECTION 60 mg/vial | INJECTION, SOLUTION, CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 Both are single-ingredient products with valid status.
 

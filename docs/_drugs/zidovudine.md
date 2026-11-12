@@ -83,11 +83,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07438P | APO-ZIDOVUDINE CAPSULE 100 mg | CAPSULE | Valid |
 | SIN07527P | RETROVIR ORAL SOLUTION 10 mg/ml | SYRUP | Valid |
 | SIN10795P | COMBIVIR TABLETS | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -86,9 +86,13 @@ This is the only publication retrieved for alopecia, and it does not support dob
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08702P | DOBUTAMINE INJECTION 12.5 mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Gemeprost"
 predicted_indications: ["atypical coarctation of aorta", "amenorrhea (disease)", "non-syndromic esophageal malformation", "aortic malformation", "pulmonary hypertension"]
 description: "Gemeprost: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not recorded in the local data"
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **5**
 Gemeprost is a prostaglandin E1 (PGE1) analogue, supplied as a vaginal pessary for obstetric use.
 The TxGNN model predicts it may be effective for **atypical coarctation of aorta**, but **no clinical trials and no publications** currently support this prediction.
 The top-ranked prediction is a network-based score only, and the evidence points to a recommendation to **hold**.
+
+<!-- review:begin sg-lic-20261106-gemeprost-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Gemeprost is a prostaglandin E1 (PGE1) analogue, supplied in Singapore as a vaginal pessary for obstetric use." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-gemeprost-1 -->
 
 ## Quick Overview
 
@@ -84,9 +90,19 @@ The literature found for other predictions is context only. The most relevant it
 
 These studies concern pregnancy termination or cardiovascular adverse events. They do not support a new indication. The amenorrhoea literature refers to gestational age in early pregnancy, not amenorrhea as a disease.
 
+<!-- review:begin sg-lic-20261106-gemeprost-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Manufacturer: Ono Pharmaceutical Co Ltd." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-gemeprost-2 -->
+
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -109,6 +125,20 @@ The top prediction, atypical coarctation of aorta, has no trials or literature a
 - Any preclinical or clinical evidence specific to the predicted indication
 - A route and formulation rationale, since a vaginal pessary is not suited to a cardiovascular indication
 - A cardiovascular safety assessment before any vascular indication is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "in Singapore" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Manufacturer: Ono Pharmaceutical Co Ltd" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

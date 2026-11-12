@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Methylthioni
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16319P | PROVEBLUE SOLUTION FOR INJECTION 5MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,6 +72,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09663P | AA PHARMA LOVASTATIN TABLET 40 mg | TABLET | Valid |
@@ -79,6 +81,8 @@ Currently no related clinical trials registered.
 | SIN10001P | MEDOSTATIN TABLET 20 mg | TABLET | Valid |
 | SIN10073P | LOCHOL TABLET 20 mg | TABLET | Valid |
 | SIN12329P | LOVASTIN TABLET 20 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

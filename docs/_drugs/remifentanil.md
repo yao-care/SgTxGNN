@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Remifentanil
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09542P | ULTIVA FOR INJECTION 1 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

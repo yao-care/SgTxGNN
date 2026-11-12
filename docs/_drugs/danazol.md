@@ -85,9 +85,13 @@ The data compiled for this report contain no RCT for this indication. The table 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03932P | NAZOL CAPSULE 200 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

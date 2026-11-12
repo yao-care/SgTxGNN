@@ -50,6 +50,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 There are 15 valid single-ingredient registrations. The records compiled for this report include no approved indication text. Main authorizations:
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16164P | OZEMPIC 1MG/DOSE SOLUTION FOR INJECTION IN PRE-FILLED PEN 1.34MG/ML | INJECTION, SOLUTION | Valid |
@@ -59,6 +61,8 @@ There are 15 valid single-ingredient registrations. The records compiled for thi
 | SIN16217P | RYBELSUS® TABLET 14MG | TABLET | Valid |
 
 Showing 5 of 15 HSA registrations.
+
+<!-- licenses:end -->
 
 The remaining registrations are additional RYBELSUS (14 mg) and WEGOVY strengths. Available routes are injectable and oral.
 

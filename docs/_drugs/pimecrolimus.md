@@ -85,9 +85,13 @@ This is the only registered trial directly in seborrheic dermatitis. It is short
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12179P | ELIDEL CREAM 1% w/w | CREAM | Valid |
+
+<!-- licenses:end -->
 
 Elidel is a single-ingredient topical cream. It is currently valid, and the Singapore register shows no cancelled registrations.
 

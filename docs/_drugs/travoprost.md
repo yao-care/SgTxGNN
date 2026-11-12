@@ -102,11 +102,15 @@ For reference, the literature below was retrieved for the related "vascular dise
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15206P | TRAVATAN C EYE DROP SOLUTION 30MCG/ML | SOLUTION, STERILE | Valid |
 | SIN15446P | TRAVON EYE DROPS SOLUTION 0.004% | SOLUTION, STERILE | Valid |
 | SIN13722P | DuoTrav Eye Drops, Solution (5mg/40mcg) per mL | SOLUTION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

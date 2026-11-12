@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 586
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
@@ -102,6 +102,14 @@ No randomised trials in myeloid leukemia were retrieved for this prediction. The
 
 All are single-ingredient oral capsules. No approved-indication text was available in the registration records. The five main registrations are listed below.
 
+<!-- review:begin sg-lic-20261106-lenalidomide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Twenty registrations are valid. All are single-ingredient oral capsules." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 29 registrations for this drug, 29 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-lenalidomide-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13662P | Revlimid Capsules 5mg | CAPSULE | Valid |
@@ -111,6 +119,8 @@ All are single-ingredient oral capsules. No approved-indication text was availab
 | SIN16187P | LENLI CAPSULES 5MG | CAPSULE | Valid |
 
 Showing 5 of 29 HSA registrations.
+
+<!-- licenses:end -->
 
 Generic products are also registered, including Linadex (Hetero), Myolid (Biocon), Lenalidomide Grindeks and Lenalidomide-Teva.
 
@@ -161,6 +171,18 @@ Many phase 1 and 2 studies, including the larger randomised azacitidine ± lenal
 | Severe congenital hypochromic anemia with ringed sideroblasts | L5 | Hold |
 | Partial deletion of the long arm of chromosome 5 | L5 | Hold (largely covered by the approved del(5q) MDS use) |
 | Ganglioneuroblastoma | L5 | Hold |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Twenty registrations are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

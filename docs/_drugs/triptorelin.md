@@ -71,6 +71,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08697P | DECAPEPTYL INJECTION 0.1 mg/ml | INJECTION | Valid |
@@ -80,6 +82,8 @@ Currently no related clinical trials registered.
 | SIN14325P | Pamorelin Powder for Suspension for Injection 22.5 mg per vial | INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

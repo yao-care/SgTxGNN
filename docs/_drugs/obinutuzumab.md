@@ -73,9 +73,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Obinutuzu
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14827P | GAZYVA CONCENTRATE FOR SOLUTION FOR INFUSION 1000MG/40ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

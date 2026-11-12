@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -100,6 +100,14 @@ For NSIAD, currently no related literature is available. The most relevant publi
 
 The approved indication text is not available in the registration data. Main authorizations:
 
+<!-- review:begin sg-lic-20261106-fentanyl-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Fentanyl holds 18 valid single-ingredient registrations in Singapore. The approved indication text is not available in the registration data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 16 registrations for this drug, 16 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-fentanyl-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01113P | FENTANYL INJECTION 0.1 mg/2 ml | INJECTION | Valid |
@@ -109,6 +117,8 @@ The approved indication text is not available in the registration data. Main aut
 | SIN13621P | FANTAMAX TTS MATRIX 50μg/h | PATCH | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -132,6 +142,19 @@ The top prediction (NSIAD) is purely computational, with no trials, no literatur
 - Detailed mechanism of action data
 - For myofascial pain: confirmation of the condition and intervention in NCT00343733, and a risk-benefit assessment of long-term opioid use
 - For NSIAD and the other predictions: no action recommended unless new mechanistic or clinical evidence emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Fentanyl holds 18 valid single-ingredient registrations in Singapore" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

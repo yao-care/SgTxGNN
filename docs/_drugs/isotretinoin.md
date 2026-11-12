@@ -79,6 +79,8 @@ No literature was found for the top-ranked prediction. They appear to be keyword
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04920P | ROACCUTANE CAPSULE 10 mg | CAPSULE, LIQUID FILLED | Valid |
@@ -88,6 +90,8 @@ No literature was found for the top-ranked prediction. They appear to be keyword
 | SIN11782P | ORATANE CAPSULE 10 mg | CAPSULE | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 Eight licences are valid in total (all single-ingredient oral capsules). The remaining three are ROACCUTANE 20 mg (SIN04921P), ROACCUTANE 10 mg (SIN04920P) and NIMEGEN SOFT CAP. 10 mg (SIN10767P).
 

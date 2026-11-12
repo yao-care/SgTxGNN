@@ -70,9 +70,13 @@ Currently no related literature available for dermatofibrosarcoma protuberans.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13366P | Tykerb tablet 250mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

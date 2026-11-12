@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
 description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,8 @@ Currently no related clinical trials registered for punctate epithelial keratoco
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00126P | ERYSOL FOR ORAL SUSPENSION 200 mg/5 ml | GRANULE, FOR SUSPENSION | Valid |
@@ -95,7 +97,15 @@ Currently no related clinical trials registered for punctate epithelial keratoco
 
 Showing 5 of 6 HSA registrations.
 
+<!-- licenses:end -->
+
 No ophthalmic formulation is listed among the Singapore products, which matters for an ocular indication.
+
+<!-- review:begin sg-lic-20261106-erythromycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two more valid licences are registered (7 in total): EROGRAN for Oral Suspension (SIN08042P) and ERYSON Lotion 2% (SIN10446P). All 7 are single-ingredient products, and none is cancelled. No ophthalmic formulation is listed among the Singapore products, which matters for an ocular indication." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-erythromycin-1 -->
 
 ---
 
@@ -133,6 +143,19 @@ The prediction score is very high (0.9989), but there are no clinical trials and
 - Confirmation of an ophthalmic formulation or route, since the current Singapore products are oral or topical skin lotion
 - Comparison with existing standard therapy for this condition
 - If a more actionable candidate is wanted, consider reviewing **lymphogranuloma venereum**, which has the strongest mechanistic rationale but still lacks trial evidence and is behind doxycycline as first-line treatment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Two more valid licences are registered (7 in total): EROGRAN for Oral Suspension (SIN08042P) and ERYSON Lotion 2% (SIN10446P). All 7 are sin" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

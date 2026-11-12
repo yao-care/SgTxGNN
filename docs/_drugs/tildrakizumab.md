@@ -84,9 +84,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17076P | ILUMYA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 100MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 The manufacturer is Vetter Pharma-Fertigung GmbH & Co. Kommanditgesellschaft. The product is an injectable only, and the licence is valid.
 

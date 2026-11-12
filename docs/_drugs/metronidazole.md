@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,6 +93,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01260P | METRONIDAZOLE INTRAVENOUS INFUSION 500 mg/100 ml | INJECTION | Valid |
@@ -103,7 +105,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 9 HSA registrations.
 
+<!-- licenses:end -->
+
 The others include further oral tablets, a topical gel and two vaginal suppository products. Available routes are oral, injectable, topical and vaginal.
+
+<!-- review:begin sg-lic-20261106-metronidazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eleven valid single-ingredient licences are registered in total. The others include further oral tablets, a topical gel and two vaginal suppository products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-metronidazole-1 -->
 
 ---
 
@@ -128,6 +138,19 @@ The pneumocystosis prediction is purely computational (L5). There are no clinica
 - Package insert warnings and contraindications from the HSA website, which is a blocking gap for safety screening
 - For cap polyposis, a structured review of case reports and, if justified, a small controlled study
 - Re-evaluation of the model's predictions after removing associations driven by general anti-infective similarity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Eleven valid single-ingredient licences are registered in total" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -82,10 +82,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07506P | LOCERYL NAIL LACQUER 5% | SOLUTION | Valid |
 | SIN14604P | AMOROLFINE NAIL LACQUER 5%W/V | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products, and no licences have been cancelled.
 

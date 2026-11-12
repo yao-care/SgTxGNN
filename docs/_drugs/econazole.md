@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Econazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 ---
 
@@ -81,12 +81,22 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06601P | ECONAZINE CREAM | CREAM | Valid |
 | SIN10246P | ECOCORT CREAM | CREAM | Valid |
 
+<!-- licenses:end -->
+
 Both licences are valid topical cream products. Only the cream form is available locally.
+
+<!-- review:begin sg-lic-20261106-econazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient topical cream products." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-econazole-1 -->
 
 ---
 
@@ -111,6 +121,19 @@ The prediction is supported only by the model score and general mechanistic plau
 - Official mechanism of action data
 - Package insert warnings and contraindications from the Singapore regulator
 - Approved indication wording for the two local licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

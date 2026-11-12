@@ -88,6 +88,8 @@ Currently no related clinical trials are registered.
 
 Ranitidine is marketed in Singapore, and all 5 licences recorded are currently valid.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05429P | APO-RANITIDINE TABLET 150 mg | TABLET, FILM COATED | Valid |
@@ -95,6 +97,8 @@ Ranitidine is marketed in Singapore, and all 5 licences recorded are currently v
 | SIN10248P | ZYNOL-150 TABLET 150 mg | TABLET, FILM COATED | Valid |
 | SIN11750P | ACILOC 150 TABLET 150 mg | TABLET, FILM COATED | Valid |
 | SIN11751P | ACILOC 300 TABLET 300 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both oral (tablet) and injectable forms are available locally.
 

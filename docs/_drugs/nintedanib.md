@@ -74,10 +74,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14921P | OFEV SOFT CAPSULES 100MG | CAPSULE, LIQUID FILLED | Valid |
 | SIN14922P | OFEV SOFT CAPSULES 150MG | CAPSULE, LIQUID FILLED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -72,9 +72,13 @@ A second retrieved publication (PMID 41641105, a 2026 vulvar adenocarcinoma case
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15407P | KISQALI FILM-COATED TABLET 200MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

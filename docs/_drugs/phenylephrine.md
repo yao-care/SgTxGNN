@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 788
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -78,6 +78,14 @@ Currently no related clinical trials registered for nasal cavity disease.
 
 The approved indication text is not available for any of them. Five main authorizations:
 
+<!-- review:begin sg-lic-20261106-phenylephrine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 19 valid single-ingredient licences. The approved indication text is not available for any of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 16 registrations for this drug, 16 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-phenylephrine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04319P | MINIMS PHENYLEPHRINE HYDROCHLORIDE EYE DROPS 10% w/v | SOLUTION | Valid |
@@ -87,6 +95,8 @@ The approved indication text is not available for any of them. Five main authori
 | SIN15896P | PHENYLALPHA SOLUTION FOR INJECTION 50mcg/ml | INJECTION, SOLUTION | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 Other licences cover eye drops, injection, nasal/throat spray, tablets, capsules and powder for cold and flu products.
 
@@ -110,6 +120,19 @@ The mechanism is plausible and the drug is widely marketed in Singapore, but the
 - Detailed mechanism of action data (MOA)
 - Definition of a specific nasal condition (for example acute rhinosinusitis) and controlled trials of phenylephrine alone against placebo or standard care
 - Safety review for patients with hypertension, cardiovascular disease and diabetes, and for paediatric use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 19 valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -80,6 +80,8 @@ Currently no related clinical trials are registered for this indication.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00968P | MEDOMYCIN CAPSULE 100 mg | CAPSULE | Valid |
@@ -89,6 +91,8 @@ Currently no related clinical trials are registered for this indication.
 | SIN08445P | APO-DOXY-TABS 100 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 Seven valid single-ingredient licences are registered in total (none cancelled). The two not shown above are SIN08388P (Doxyline enteric-coated capsule 100 mg) and SIN10340P (Doxyline capsule 100 mg). All are oral products.
 

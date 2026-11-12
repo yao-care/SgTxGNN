@@ -73,6 +73,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11232P | PARIET TABLET 10 mg | TABLET, FILM COATED | Valid |
@@ -80,6 +82,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazo
 | SIN14319P | Rabeprazole Sandoz Gastro Resistant Tablet 20mg | TABLET, ENTERIC COATED | Valid |
 | SIN14910P | ACILESOL GASTRO- RESISTANT TABLET 20MG | TABLET, ENTERIC COATED | Valid |
 | SIN15259P | BEPRAZ GASTRO RESISTANT TABLETS 20MG | TABLET, DELAYED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -84,9 +84,13 @@ For reference, the neighbouring endocervical carcinoma prediction has these indi
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15569P | IMFINZI CONCENTRATE FOR SOLUTION FOR INFUSION 50 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -73,6 +73,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04624P | DORAMA-NEO EYE DROPS | SOLUTION | Valid |
@@ -97,6 +99,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | SIN11220P | EXTRANEAL PERITONEAL DIALYSIS SOLUTION 75 g/l | SOLUTION, STERILE | Valid |
 
 Showing 20 of 45 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

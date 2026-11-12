@@ -98,9 +98,13 @@ Ifosfamide is not a standard breast cancer agent, and most of this evidence is f
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01699P | HOLOXAN FOR INJECTION 1 g/25 ml | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

@@ -114,6 +114,8 @@ The closest literature relates to the rank 3 prediction (specific developmental 
 
 Methylphenidate has 15 valid single-ingredient registrations in Singapore, all oral. The licence records contain no approved indication text. The five main authorizations are listed below:
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03542P | RITALIN TABLET 10 mg | TABLET | Valid |
@@ -123,6 +125,8 @@ Methylphenidate has 15 valid single-ingredient registrations in Singapore, all o
 | SIN12351P | RITALIN LA CAPSULE 20 mg | CAPSULE | Valid |
 
 Showing 5 of 15 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

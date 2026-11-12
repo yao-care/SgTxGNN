@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Arsenic Trioxide: predicted new indication Unclassified myelodysplastic syndrome (evidence level L5). Approved use: Acute promyelocytic leukaemia (also myelomonocytic leukaemia and AML…"
 monitor_inn: "Arsenic trioxide"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
@@ -112,11 +112,15 @@ No publications were found for unclassified myelodysplastic syndrome itself. The
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16634P | ASADIN INJECTION 1MG/ML | INJECTION | Valid |
 | SIN16961P | ARSENIC TRIOXIDE-AFT CONCENTRATED SOLUTION FOR INJECTION FOR INFUSION  | INJECTION, SOLUTION, CONCENTRATE | Valid |
 | SIN17447P | PHENASEN CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/10ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -159,6 +163,25 @@ The top-ranked prediction, unclassified myelodysplastic syndrome, rests only on 
 - Mechanism of action data
 - A cardiac and electrolyte monitoring plan (QT prolongation risk and interacting drugs)
 - Singapore-approved indication text
+
+<!-- review:begin sg-lic-20261106-arsenic_trioxide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Singapore-approved indication text, which is missing from both licences" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-arsenic_trioxide-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "which is missing from both licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -75,6 +75,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09788P | ALPHAGAN OPHTHALMIC SOLUTION 0.2% | SOLUTION | Valid |
@@ -88,6 +90,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | SIN15191P | BRIMOCHEK -T EYE DROPS SOLUTION | SOLUTION, STERILE | Valid |
 
 Showing 9 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1029
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection (other labelled uses: infectious otitis media…"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -92,6 +92,14 @@ No literature was found for punctate epithelial keratoconjunctivitis. The most r
 
 The compiled data contain no approved-indication text for them. The first five are listed below.
 
+<!-- review:begin sg-lic-20261106-trimethoprim-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 12 licences are valid single-ingredient registrations. The compiled data contain no approved-indication text for them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 10 registrations for this drug, 10 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-trimethoprim-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00407P | TRIMAXAZOLE TABLETS | TABLET | Valid |
@@ -101,6 +109,8 @@ The compiled data contain no approved-indication text for them. The first five a
 | SIN00960P | B.S. TABLET | TABLET | Valid |
 
 Showing 5 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 Available routes are oral (tablet), injectable and suspension. No topical ophthalmic product appears among the Singapore registrations, which matters for an eye indication.
 
@@ -123,6 +133,19 @@ The top prediction, punctate epithelial keratoconjunctivitis, rests only on a mo
 - Mechanism of action data and the package insert warnings and contraindications from the HSA website
 - Confirmation of whether a topical ophthalmic formulation can be supplied in Singapore, since none of the 12 registrations is an eye product
 - A review of the safety associations above (blood disorders, kidney and liver disease, G6PD deficiency) and of the potassium-related interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 12 licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

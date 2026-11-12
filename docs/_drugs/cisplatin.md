@@ -86,10 +86,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cisplatin, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00762P | DBL CISPLATIN INJECTION 1 mg/ml | INJECTION | Valid |
 | SIN05418P | CISPLATIN INJECTION 1 mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

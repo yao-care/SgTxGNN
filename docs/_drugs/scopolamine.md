@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 897
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Scopolamine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis"]
 description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,6 +84,8 @@ No literature directly supports the lead prediction (cauda equina syndrome).
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02575P | DHACOPAN TABLET 10 mg | TABLET, FILM COATED | Valid |
@@ -94,7 +96,15 @@ No literature directly supports the lead prediction (cauda equina syndrome).
 
 Showing 5 of 10 HSA registrations.
 
+<!-- licenses:end -->
+
 A sixth licence, SIN07433P (HYOSUN SYRUP 5mg/5 ml), is also valid.
+
+<!-- review:begin sg-lic-20261106-scopolamine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence, SIN07433P (HYOSUN SYRUP 5mg/5 ml), is also valid. All six are single-ingredient products and none is cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 10 registrations for this drug, 10 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-scopolamine-1 -->
 
 ## Safety Considerations
 
@@ -127,6 +137,19 @@ The prediction for cauda equina syndrome is supported only by the model score (E
 - Approved indication text for the Singapore licences
 - Assessment of route compatibility (injectable, oral and syrup forms are available locally)
 - Comparison against established treatments, including bladder-selective antimuscarinics
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All six are single-ingredient products and none is cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

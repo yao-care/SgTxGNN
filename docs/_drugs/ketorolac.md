@@ -75,10 +75,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Ketorolac, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11189P | ACULAR OPHTHALMIC SOLUTION 0.5% | SOLUTION | Valid |
 | SIN16401P | XEVOLAC SOLUTION FOR INJECTION 30 MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

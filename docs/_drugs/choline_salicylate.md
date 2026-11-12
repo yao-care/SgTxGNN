@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Choline salicylate"
 predicted_indications: ["Prinzmetal angina", "hypertensive disorder", "migraine disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Raynaud disease", "pulmonary hypertension"]
 description: "Choline Salicylate: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,12 +60,22 @@ A plausible but unproven link is that prostanoid modulation could influence the 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04303P | BONJELA GEL | GEL | Valid |
 | SIN10428P | SORAGEL ANTISEPTIC PAIN RELIEVING ORAL GEL | GEL | Valid |
 
+<!-- licenses:end -->
+
 No systemic dosage form is registered locally, which matters because any cardiovascular use would require systemic exposure.
+
+<!-- review:begin sg-lic-20261106-choline_salicylate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient products, and all are topical gels. No systemic dosage form is registered locally, which matters because any cardiovascular use would require systemic exposure." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 2 registrations for this drug, 2 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-choline_salicylate-1 -->
 
 ## Safety Considerations
 
@@ -86,6 +96,18 @@ The prediction rests on a model score alone, with no clinical trials or literatu
 - Package insert warnings and contraindications
 - Assessment of whether a systemic formulation and route would be feasible
 - Review of cardiovascular safety, including the reported risk of worsening vasospasm with salicylates
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid single-ingredient products, and all are topical gels" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

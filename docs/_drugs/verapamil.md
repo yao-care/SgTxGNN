@@ -101,9 +101,13 @@ Most other retrieved papers were off-topic (for example migraine, retinal neurop
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00344P | ISOPTIN SR TABLET 240 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

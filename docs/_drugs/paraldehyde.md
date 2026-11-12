@@ -88,9 +88,13 @@ For the insomnia prediction, one indirect publication was found:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00325P | PARALDEHYDE INJECTION BP | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

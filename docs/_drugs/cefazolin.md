@@ -71,6 +71,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07879P | CEFAZOLIN SANDOZ 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -80,6 +82,8 @@ Currently no related clinical trials registered.
 | SIN14846P | CEFAZOLIN MEVON POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1G/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

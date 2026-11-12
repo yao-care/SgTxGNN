@@ -72,10 +72,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Entrectinib,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16086P | ROZLYTREK HARD CAPSULE 100MG | CAPSULE | Valid |
 | SIN16087P | ROZLYTREK HARD CAPSULE 200MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

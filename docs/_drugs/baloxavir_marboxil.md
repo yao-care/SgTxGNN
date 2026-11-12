@@ -73,9 +73,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Baloxavir Ma
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15680P | XOFLUZA FILM COATED TABLETS 40MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

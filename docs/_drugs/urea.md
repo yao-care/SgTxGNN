@@ -72,12 +72,16 @@ All candidates produced by the TxGNN model for Urea (score ≥ 0.99) that can be
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08347P | U O CREAM 10% | CREAM | Valid |
 | SIN10864P | AXCEL UREA CREAM 10% w/w | CREAM | Valid |
 | SIN02881P | HYDROCORTISONE 1% ET UREA 5% CREAM | CREAM | Valid |
 | SIN08726P | UCORT CREAM | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

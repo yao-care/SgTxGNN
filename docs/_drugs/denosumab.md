@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Denosumab"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 description: "Denosumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -98,6 +98,8 @@ The most relevant publications for the next-ranked predictions are listed below 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14024P | Prolia Solution for Injection 60 mg/ml (Prefilled Syringe) | INJECTION, SOLUTION | Valid |
@@ -107,6 +109,8 @@ The most relevant publications for the next-ranked predictions are listed below 
 | SIN17388P | Osenvelt® solution for injection 120mg/1.7mL | INJECTION, SOLUTION | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -135,6 +139,25 @@ The top predictions rest almost entirely on model scores. There are no clinical 
 - Approved indication text
 - Preclinical or observational studies that directly examine denosumab and retinopathy outcomes
 - A review of whether the ocular-outcome cohort data (cataract, AMD) offer any relevant safety or efficacy signals
+
+<!-- review:begin sg-lic-20261106-denosumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Approved indication text for the two Singapore registrations" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-denosumab-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "for the two Singapore registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

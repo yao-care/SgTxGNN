@@ -90,11 +90,15 @@ Currently no related clinical trials registered for small cell lung carcinoma.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05521P | CYTARABINE SOLUTION FOR INJECTION 100 MG/ML | INJECTION | Valid |
 | SIN14293P | CYBIN INJECTION 100mg/ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
 | SIN17149P | CYTARINE KABI SOLUTION FOR INJECTION OR INFUSION 100MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All three registrations are valid single-ingredient injectable products.
 

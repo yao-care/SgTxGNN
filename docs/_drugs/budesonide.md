@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Crohn's disease, inflammatory bowel disease, asthma…"
 monitor_inn: "Budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -109,6 +109,14 @@ None of these is a human efficacy trial of budesonide in atopic eczema.
 
 The licence records contain no approved-indication text. The five main authorisations are:
 
+<!-- review:begin sg-lic-20261106-budesonide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Budesonide has 15 valid single-ingredient registrations, with no cancelled ones. The licence records contain no approved-indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 19 registrations for this drug, 19 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-budesonide-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05042P | PULMICORT TURBUHALER 200 mcg/dose | POWDER, METERED | Valid |
@@ -118,6 +126,8 @@ The licence records contain no approved-indication text. The five main authorisa
 | SIN12031P | ESONIDE NASAL SPRAY 100 mcg/dose | SPRAY | Valid |
 
 Showing 5 of 19 HSA registrations.
+
+<!-- licenses:end -->
 
 The other licences cover further inhaled, nasal-spray and combination products (for example Giona Easyhaler, Symbicort Turbuhaler, Duoresp Spiromax, Breztri Aerosphere, Budiair and Esonide). No topical skin formulation is registered, so any atopic eczema use would require a new dermal formulation or an off-label approach.
 
@@ -146,6 +156,19 @@ The TxGNN score for atopic eczema is very high (0.9996), and the glucocorticoid 
 - Human clinical data on budesonide in atopic eczema (for example a Phase 2 trial with a dermal formulation).
 - Assessment of a suitable topical formulation and its skin-sensitisation risk, including contact allergy and growth or adrenal effects in children.
 - Comparison with existing topical corticosteroids and other approved atopic dermatitis therapies.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Budesonide has 15 valid single-ingredient registrations, with no cancelled ones" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

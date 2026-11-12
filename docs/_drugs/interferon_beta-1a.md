@@ -72,10 +72,14 @@ The TxGNN model's candidates for Interferon Beta-1A are all known uses. Every ca
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13974P | Rebif Solution for Injection in Cartridge 22mcg/0.5ml | INJECTION, SOLUTION | Valid |
 | SIN13975P | Rebif Solution for Injection in Cartridge 44mcg/0.5ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

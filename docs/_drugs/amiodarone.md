@@ -81,11 +81,15 @@ None of the publications below tests amiodarone in CPVT. They are listed for dis
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00852P | CORDARONE INJECTION 150 mg/3 ml | INJECTION | Valid |
 | SIN09784P | CORDARONE TABLET 200 mg | TABLET | Valid |
 | SIN15782P | DIOLUX CONCENTRATE FOR SOLUTION FOR INJECTION 50MG/ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

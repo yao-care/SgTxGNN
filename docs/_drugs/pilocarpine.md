@@ -72,10 +72,14 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Pilocarpi
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04712P | ISOPTO CARPINE STERILE OPHTHALMIC SOLUTION 2% | SOLUTION | Valid |
 | SIN11683P | SALAGEN TABLET 5 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -87,9 +87,13 @@ The 10 most relevant publications are listed below, with randomized trials first
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15433P | VARITHENA POLIDOCANOL INJECTABLE FOAM 10MG/ML | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

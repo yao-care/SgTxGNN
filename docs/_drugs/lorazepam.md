@@ -89,11 +89,15 @@ These studies are small and old, and they concern a different indication from th
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00967P | LORANS 1 TABLET 1 mg | TABLET | Valid |
 | SIN03452P | APO-LORAZEPAM TABLET 1 mg | TABLET | Valid |
 | SIN03708P | APO-LORAZEPAM TABLET 0.5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All three are valid single-ingredient oral tablet licences.
 

@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Proparacaine
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04718P | ALCAINE STERILE OPHTHALMIC SOLUTION 0.5% | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

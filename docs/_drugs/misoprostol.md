@@ -80,9 +80,13 @@ All of these papers concern pregnancy termination or related conditions. None sh
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03501P | CYTOTEC TABLET 200 mcg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

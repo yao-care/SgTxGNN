@@ -95,10 +95,14 @@ Two further trials are not listed: NCT01263418 (withdrawn, 0 enrolled) and NCT01
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16100P | KESIMPTA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 20MG/0.4ML | INJECTION, SOLUTION | Valid |
 | SIN16101P | KESIMPTA SOLUTION FOR INJECTION IN PRE-FILLED PEN 20MG/0.4ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products from Novartis Pharma Stein AG. The licence records contain no approved-indication text. The 20 mg pre-filled presentation is a subcutaneous formulation, which differs from the intravenous ofatumumab used in the lymphoma trials above.
 

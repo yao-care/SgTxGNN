@@ -72,12 +72,16 @@ The TxGNN deep-learning model produced no candidate with a score of 0.99 or high
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03047P | MERISLON TABLET 6 mg | TABLET | Valid |
 | SIN11365P | BETASERC TABLETS 16 mg | TABLET | Valid |
 | SIN12235P | BETASERC 24 TABLET 24 mg | TABLET | Valid |
 | SIN16812P | GP-BETAHISTINE TABLETS 24MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Felypressin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the registration data"
 monitor_inn: "Felypressin"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "esotropia", "diabetic retinopathy", "chondroid hamartoma", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "tumor of testis and paratestis", "pre-malignant neoplasm"]
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 Felypressin is a synthetic vasopressin analogue.
 The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
 This is a model-only prediction with no mechanistic or clinical support.
+
+<!-- review:begin sg-lic-20261106-felypressin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Felypressin is a synthetic vasopressin analogue, marketed in Singapore as an injection (CITANEST OCTAPRESSIN), although the registered indication text is not recorded in the data compiled for this report." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-felypressin-1 -->
 
 ---
 
@@ -78,11 +84,21 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin sg-lic-20261106-felypressin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Manufacturer: Astra Pharmaceuticals Pty Ltd. This is the only registration, and it is a valid single-ingredient product." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-felypressin-2 -->
+
 ---
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ---
 
@@ -107,6 +123,34 @@ The prediction rests only on a score from the TxGNN model (deep learning), which
 - A literature and trial search for a plausible biological link between V1a signalling and bone metabolism
 - Route and formulation compatibility assessment
 - Review of the other predicted indications (for example, diabetic retinopathy) only if a credible mechanism and safety rationale emerge
+
+<!-- review:begin sg-lic-20261106-felypressin-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Mechanism of action data (for example, from DrugBank) / The approved indication text for the Singapore registration" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-felypressin-3 -->
+
+<!-- review:begin sg-lic-20261106-felypressin-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Route and formulation compatibility assessment, since only an injectable dental product is registered" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-felypressin-4 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "marketed in Singapore as an injection (CITANEST OCTAPRESSIN), although the registered indication text is not recorded in the data compiled f" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Manufacturer: Astra Pharmaceuticals Pty Ltd. This is the only registration, and it is a valid single-ingredient product" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "The approved indication text for the Singapore registration" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "since only an injectable dental product is registered" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

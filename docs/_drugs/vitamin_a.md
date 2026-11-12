@@ -79,11 +79,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05207P | VITALIPID N INFANT INJECTION | INJECTION | Valid |
 | SIN05208P | VITALIPID N ADULT INJECTION | INJECTION | Valid |
 | SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All three licences are currently valid and for injectable products. No cancelled registrations were found.
 

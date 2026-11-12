@@ -69,11 +69,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00440P | APO-METOPROLOL TABLET 100 mg | TABLET | Valid |
 | SIN00445P | APO-METOPROLOL TABLET 50 mg | TABLET | Valid |
 | SIN01331P | DENEX TABLET 100 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All three are valid single-ingredient registrations for oral use.
 

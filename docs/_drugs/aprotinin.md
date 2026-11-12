@@ -48,11 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07805P | TRASYLOL INJECTION 500,000 kiu/50 ml | INJECTION | Valid |
 | SIN14707P | TISSEEL FIBRIN SEALANT VH S/D (FROZEN) | SOLUTION | Valid |
 | SIN14719P | ARTISS SOLUTIONS FOR SEALANT, DEEP FROZEN | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

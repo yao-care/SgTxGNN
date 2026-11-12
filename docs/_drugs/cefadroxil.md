@@ -76,9 +76,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefadroxil, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11665P | SOFIDROX CAPSULE 500 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

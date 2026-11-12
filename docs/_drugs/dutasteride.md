@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
 description: "Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,14 @@ Across the other ten predictions, one paper was retrieved. It relates to diffuse
 
 The approved indication text is not recorded in the registration data. Product names containing "0.5/0.4" or "0.5mg/0.4mg" are dutasteride combined with tamsulosin pellets in the same capsule.
 
+<!-- review:begin sg-lic-20261106-dutasteride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 10 licences are valid single-ingredient registrations. The approved indication text is not recorded in the registration data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 11 registrations for this drug, 11 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-dutasteride-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12434P | AVODART SOFT CAPSULE 0.5 mg | CAPSULE, LIQUID FILLED | Valid |
@@ -89,6 +97,8 @@ The approved indication text is not recorded in the registration data. Product n
 | SIN16448P | DUTABIT 0.5 SOFT CAPSULES 0.5MG | CAPSULE, LIQUID FILLED | Valid |
 
 Showing 5 of 11 HSA registrations.
+
+<!-- licenses:end -->
 
 Five further registrations are not listed here: Intasteride, Aripsa, Dutasvitae, Lotuflo-D, and Duoflow.
 
@@ -113,6 +123,19 @@ The prediction has no supporting trials or literature (evidence level L5). The m
 - Preclinical or case-level evidence connecting 5-alpha-reductase inhibition to TRPS1-related hair growth
 - Consideration of whether a better-supported hair-related prediction (such as hypotrichosis simplex of the scalp) should be prioritised instead
 - A safety plan for the pregnancy and pediatric exposure risk if any developmental or congenital condition is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 10 licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

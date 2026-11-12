@@ -84,9 +84,13 @@ These are not evidence for the top-ranked indication, and several are adverse-ev
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16352P | ENHERTU POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/VIAL | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ---
 

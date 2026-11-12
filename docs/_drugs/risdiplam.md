@@ -70,10 +70,14 @@ The high TxGNN score (0.9945, rank 6885) is therefore best read as a possible Tx
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16349P | EVRYSDI POWDER FOR ORAL SOLUTION 0.75 MG/ML | POWDER, FOR SOLUTION | Valid |
 | SIN17484P | EVRYSDI FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

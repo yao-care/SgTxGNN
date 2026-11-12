@@ -52,6 +52,8 @@ The Singapore licence records compiled for this report carry no approved-indicat
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12120P | REMICADE POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -59,6 +61,8 @@ The Singapore licence records compiled for this report carry no approved-indicat
 | SIN15948P | IXIFI POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG/ VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN16069P | REMSIMA SOLUTION FOR SUBCUTANEOUS INJECTION 120 MG/ML IN PRE-FILLED SY | INJECTION, SOLUTION | Valid |
 | SIN16070P | REMSIMA SOLUTION FOR SUBCUTANEOUS INJECTION 120 MG/ML IN PRE-FILLED PE | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All five registrations are valid single-ingredient products, and none is cancelled. All are injectable (intravenous infusion or subcutaneous).
 

@@ -78,9 +78,13 @@ Because the study is a laboratory comparison and does not clearly establish acti
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15719P | EFAVIRENZ SANDOZ FILM COATED TABLET 600MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

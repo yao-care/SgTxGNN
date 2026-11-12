@@ -96,6 +96,8 @@ For reference, literature found for treatment-refractory schizophrenia:
 
 Paliperidone has 17 valid single-ingredient registrations. The approved indication text is not recorded in the licence data. Five representative authorisations:
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13380P | Invega Extended-Release Tablet 3mg | TABLET, EXTENDED RELEASE | Valid |
@@ -105,6 +107,8 @@ Paliperidone has 17 valid single-ingredient registrations. The approved indicati
 | SIN13969P | INVEGA Sustenna Prolonged Release Suspension for IM Injection 50mg/0.5 | INJECTION, SUSPENSION, EXTENDED RELEASE | Valid |
 
 Showing 5 of 17 HSA registrations.
+
+<!-- licenses:end -->
 
 The remaining registrations cover other strengths of the same products (Invega tablets, Sustenna, Trinza, Hafyera and Parnido).
 

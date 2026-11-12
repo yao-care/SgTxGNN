@@ -104,6 +104,8 @@ Only trials with direct or partial relevance are listed first. Most of the other
 
 All 11 licences are single-ingredient products with valid status. Approved-indication text is not available in the licence records.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09428P | CAMPTO FOR INFUSION 20 mg/ml | INJECTION | Valid |
@@ -113,6 +115,8 @@ All 11 licences are single-ingredient products with valid status. Approved-indic
 | SIN15612P | IRINOX 100 IRINOTECAN HYDROCHLORIDE CONCENTRATE FOR SOLUTION FOR INFUS | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 Showing 5 of 11 HSA registrations.
+
+<!-- licenses:end -->
 
 Six further irinotecan licences are registered (SIN15734P, SIN14373P, SIN15735P, SIN13367P, SIN16266P, SIN15701P); all are injectable or infusion concentrates.
 

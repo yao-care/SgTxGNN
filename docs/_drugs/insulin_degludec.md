@@ -97,11 +97,15 @@ Note: Phase 3 trials with faster-acting aspart, LY900014 or other insulins use d
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15703P | TRESIBA® FLEXTOUCH® SOLUTION FOR INJECTION IN PRE-FILLED PEN 100 U/ML | INJECTION, SOLUTION | Valid |
 | SIN15704P | TRESIBA® FLEXTOUCH® SOLUTION FOR INJECTION IN PRE-FILLED PEN 200 U/ML | INJECTION, SOLUTION | Valid |
 | SIN15706P | RYZODEG® FLEXTOUCH® SOLUTION FOR INJECTION IN PRE-FILLED PEN 100 U/ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,11 +72,15 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Zopiclone
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05047P | IMOVANE TABLET 7.5 mg | TABLET, FILM COATED | Valid |
 | SIN09355P | APO-ZOPICLONE TABLET 7.5 mg | TABLET, FILM COATED | Valid |
 | SIN11416P | ZOPICLONE TABLET 7.5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

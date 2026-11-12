@@ -72,11 +72,15 @@ Currently no related literature available for pulmonary hypertension.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15986P | BALVERSA FILM-COATED TABLETS 3MG | TABLET, FILM COATED | Valid |
 | SIN15987P | BALVERSA FILM-COATED TABLETS 4MG | TABLET, FILM COATED | Valid |
 | SIN15988P | BALVERSA FILM-COATED TABLETS 5MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid, held by Janssen Cilag SpA, and are for the oral route.
 

@@ -86,9 +86,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Amphotericin
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12021P | AMBISOME FOR INJECTION 50 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

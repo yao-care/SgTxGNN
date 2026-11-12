@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Flurbiprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 description: "Flurbiprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12090P | ACUSTOP CATAPLASMA PLASTER 40 mg/sheet | PATCH | Valid |
@@ -87,7 +89,15 @@ Currently no related literature available.
 | SIN15370P | STREPSILS MAX PRO DIRECT SPRAY 8.75MG PER DOSE | SPRAY | Valid |
 | SIN17495P | STREPSILS MAX PRO DIRECT SPRAY HONEY AND LEMON 8.75MG PER DOSE | SPRAY | Valid |
 
+<!-- licenses:end -->
+
 The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment.
+
+<!-- review:begin sg-lic-20261106-flurbiprofen-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are for single-ingredient products and are currently valid. The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-flurbiprofen-1 -->
 
 ---
 
@@ -115,6 +125,18 @@ The prediction has no supporting clinical trials or publications (evidence level
 - Detailed mechanism-of-action data for flurbiprofen
 - Package insert warnings and contraindications from the HSA records, to allow safety screening
 - A route-of-administration assessment, since the registered Singapore forms are non-oral (lozenge, spray, patch)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are for single-ingredient products and are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

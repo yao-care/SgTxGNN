@@ -48,6 +48,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12507P | LUVERIS FOR INJECTION 75 iu/vial (Revised formula) | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -55,6 +57,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | SIN15711P | PERGOVERIS SOLUTION FOR INJECTION IN PRE-FILLED PEN (300 IU + 150 IU)/ | INJECTION, SOLUTION | Valid |
 | SIN15712P | PERGOVERIS SOLUTION FOR INJECTION IN PRE-FILLED PEN (450 IU + 225 IU)/ | INJECTION, SOLUTION | Valid |
 | SIN15713P | PERGOVERIS SOLUTION FOR INJECTION IN PRE-FILLED PEN (900 IU + 450 IU)/ | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

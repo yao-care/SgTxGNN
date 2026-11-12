@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Ripretinib, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16769P | QINLOCK TABLET 50 MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

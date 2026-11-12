@@ -73,6 +73,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gentamicin, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01544P | GENTAMICIN SULFATE CREAM 1 mg/g | CREAM | Valid |
@@ -91,6 +93,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gentamicin, 
 | SIN10705P | TRI-MICON CREAM | CREAM | Valid |
 | SIN10733P | GENTRIDERM CREAM | CREAM | Valid |
 | SIN14386P | B-MYCIN CREAM | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

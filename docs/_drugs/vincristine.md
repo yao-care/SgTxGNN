@@ -87,9 +87,13 @@ Several other retrieved records concern unrelated or only loosely related condit
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10319P | VINRACINE INJ. 1 mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

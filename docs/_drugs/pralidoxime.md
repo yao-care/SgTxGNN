@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05412P | PAM-A INJECTION 500 mg/ampoule | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

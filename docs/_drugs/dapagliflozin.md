@@ -76,6 +76,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14541P | FORXIGA TABLET 5MG | TABLET, FILM COATED | Valid |
@@ -88,6 +90,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | SIN17469P | DAFASGLIT 10 FILM-COATED TABLETS 10MG | TABLET, FILM COATED | Valid |
 
 Showing 8 of 12 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

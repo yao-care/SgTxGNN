@@ -70,9 +70,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01481P | SYMMETREL 100 CAPSULE 100 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

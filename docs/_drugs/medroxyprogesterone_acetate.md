@@ -79,11 +79,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03841P | PROVERA TABLET 10 mg | TABLET | Valid |
 | SIN04540P | DEPO-PROVERA STERILE AQUEOUS SUSPENSION 50 mg/ml | INJECTION | Valid |
 | SIN10513P | PROVERA TABLET 5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products. The approved indication text is not recorded in the local data.
 

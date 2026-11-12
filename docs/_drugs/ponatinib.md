@@ -69,10 +69,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15581P | ICLUSIG TABLET 15 MG | TABLET, FILM COATED | Valid |
 | SIN15582P | ICLUSIG TABLET 45 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both licences are single-ingredient products, currently valid, and manufactured by Patheon Inc. and Takeda Ireland Limited.
 

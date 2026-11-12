@@ -82,9 +82,13 @@ However, the efficacy signal in liposarcoma appears **weaker** than in other sar
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14360P | Stivarga Tablet 40mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

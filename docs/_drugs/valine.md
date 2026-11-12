@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1052
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
 description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -77,6 +77,14 @@ Currently no related clinical trials registered.
 
 The data compiled for this report contains no approved indication text. The five below are examples.
 
+<!-- review:begin sg-lic-20261106-valine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 19 registrations are valid single-ingredient licences. The data compiled for this report contains no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-valine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -86,6 +94,8 @@ The data compiled for this report contains no approved indication text. The five
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
 Showing 5 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 The other registrations include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B.Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega (several variants). Dosage forms are infusion solutions, injections and emulsions.
 
@@ -114,6 +124,19 @@ The sclerosing cholangitis prediction rests on two papers showing a metabolic as
 - Preclinical studies, or prospective studies of BCAA supplementation in primary sclerosing cholangitis
 - Package insert warnings and contraindications, including safety in liver impairment, since amino acid loads can be hazardous in hepatic dysfunction
 - Approved indication text for the Singapore registrations, and a check that the infusion routes suit the target patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 19 registrations are valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

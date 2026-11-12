@@ -74,9 +74,13 @@ The TxGNN deep-learning model produced no candidate with a score of 0.99 or high
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15698P | ERLEADA FILM-COATED TABLET 60MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

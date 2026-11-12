@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 824
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,6 +93,14 @@ None of these publications studies pregabalin in tendinitis itself. All are indi
 
 The licence records contain no approved indication text. Five examples:
 
+<!-- review:begin sg-lic-20261106-pregabalin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Pregabalin has 20 valid single-ingredient licences in Singapore, all oral capsules. The licence records contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 63 registrations for this drug, 63 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-pregabalin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13094P | Lyrica Capsule 25mg | CAPSULE | Valid |
@@ -102,6 +110,8 @@ The licence records contain no approved indication text. Five examples:
 | SIN13098P | Lyrica Capsule 100mg | CAPSULE | Valid |
 
 Showing 5 of 63 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,6 +141,19 @@ The 0.9971 TxGNN score is a computational prediction only. No clinical trials ex
 - A defined patient population (for example, tendon pain with neuropathic or centrally sensitized features) and a safety plan covering sedation, dizziness, falls, renal dosing and opioid co-use
 
 **Note:** Two other TxGNN predictions for pregabalin have much stronger supporting evidence than tendinitis. They may be better candidates to evaluate first.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Pregabalin has 20 valid single-ingredient licences in Singapore, all oral capsules" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

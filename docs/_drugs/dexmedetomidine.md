@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Dexmedetomidine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,6 +95,8 @@ For reference, the main publications for headache disorder:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11333P | PRECEDEX CONCENTRATE FOR SOLUTION FOR INFUSION 100 mcg/ml (Vial) | INJECTION | Valid |
@@ -105,7 +107,15 @@ For reference, the main publications for headache disorder:
 
 Showing 5 of 9 HSA registrations.
 
+<!-- licenses:end -->
+
 All are injectable.
+
+<!-- review:begin sg-lic-20261106-dexmedetomidine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight valid single-ingredient registrations exist in total. All are injectable." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-dexmedetomidine-1 -->
 
 ## Safety Considerations
 
@@ -127,6 +137,19 @@ The top-ranked prediction (NSIAD) rests on the model score alone. It has no tria
 - For NSIAD: a mechanistic justification and any preclinical data, or deprioritization in favor of better-supported indications
 - For PDPH: larger multicenter RCTs, ideally placebo-controlled, plus evidence for the Singapore-registered injectable forms (the studies used nebulized administration, and route compatibility has not been assessed)
 - A safety plan for hemodynamic effects (bradycardia, hypotension), given the knowledge-graph contraindication signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Eight valid single-ingredient registrations exist in total" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

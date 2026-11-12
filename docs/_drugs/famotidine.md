@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Famotidine"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,6 +86,14 @@ Both publications are small and indirect, and neither is a randomised controlled
 
 Approved indication text is not listed for these licences. Five main authorisations:
 
+<!-- review:begin sg-lic-20261106-famotidine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Famotidine has 11 valid single-ingredient registrations in Singapore, all oral tablets (film-coated or plain), in 20 mg and 40 mg strengths. Approved indication text is not listed for these licences." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-famotidine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05640P | FAMOPSIN 40 TABLET 40 mg | TABLET, FILM COATED | Valid |
@@ -95,6 +103,8 @@ Approved indication text is not listed for these licences. Five main authorisati
 | SIN09129P | FAMODINE TABLET 20 mg | TABLET | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -121,6 +131,19 @@ Evidence is limited to two indirect publications and no registered trials. Famot
 - Evidence on whether acid suppression alone is clinically meaningful when bile reflux is the main driver.
 - Singapore package insert warnings, contraindications and approved indication text.
 - Detailed mechanism-of-action data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Famotidine has 11 valid single-ingredient registrations in Singapore, all oral tablets (film-coated or plain), in 20 mg and 40 mg strengths" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

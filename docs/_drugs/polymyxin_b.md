@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 806
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -103,6 +103,8 @@ Publications most relevant to the top prediction (bronchitis), plus the key conj
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04358P | MAXITROL STERILE OPHTHALMIC SUSPENSION | SOLUTION | Valid |
@@ -110,7 +112,15 @@ Publications most relevant to the top prediction (bronchitis), plus the key conj
 | SIN04945P | POLYDEXA EAR DROPS | SOLUTION | Valid |
 | SIN07745P | POLYGYNAX VAGINAL CAPSULE | CAPSULE | Valid |
 
+<!-- licenses:end -->
+
 All four licences are valid. The registered products are for ear, eye, skin and vaginal use, and none is an inhaled or injectable respiratory product.
+
+<!-- review:begin sg-lic-20261106-polymyxin_b-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid, single-ingredient registrations." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-polymyxin_b-1 -->
 
 ---
 
@@ -148,6 +158,19 @@ The bronchitis prediction has a very high model score but no registered trials. 
 - A defined target population, such as bacterial tracheobronchitis from multidrug-resistant Gram-negative organisms rather than bronchitis in general
 - Phase 2/3 efficacy and safety data for aerosolized polymyxin B, including bronchospasm monitoring and a plan for patients with asthma or COPD
 - An assessment of route compatibility, since no inhaled or injectable product is currently registered in Singapore
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

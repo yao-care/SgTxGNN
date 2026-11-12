@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 379
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -96,6 +96,14 @@ The prediction looks like a network association rather than a true pharmacologic
 
 Approved indication text is not available for these registrations. Five of them are listed below.
 
+<!-- review:begin sg-lic-20261106-entecavir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Entecavir has 17 valid single-ingredient registrations in Singapore, all film-coated oral tablets. Approved indication text is not available for these registrations." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 19 registrations for this drug, 19 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-entecavir-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13165P | BARACLUDE TABLET 0.5mg | TABLET, FILM COATED | Valid |
@@ -105,6 +113,8 @@ Approved indication text is not available for these registrations. Five of them 
 | SIN16034P | ENTEVIR FILM-COATED TABLET 1MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 19 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -133,6 +143,19 @@ Entecavir has no recognised activity against HCV. The retrieved trials and publi
 - Mechanism of action data and in vitro evidence of anti-HCV activity, if any exists.
 - Package insert warnings and contraindications from the Singapore regulator, for a full safety review.
 - A controlled study with an HCV efficacy endpoint (for example, sustained virological response) showing an effect from entecavir itself.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Entecavir has 17 valid single-ingredient registrations in Singapore, all film-coated oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

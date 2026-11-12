@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,6 +72,14 @@ Currently no related literature available.
 
 The approved indication text is not listed in the registration records.
 
+<!-- review:begin sg-lic-20261106-ivabradine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Six single-ingredient oral products hold valid registrations. The approved indication text is not listed in the registration records." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 10 registrations for this drug, 10 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ivabradine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13408P | CORALAN Tablet 5mg | TABLET, FILM COATED | Valid |
@@ -81,6 +89,8 @@ The approved indication text is not listed in the registration records.
 | SIN16726P | BRAVACOR FILM-COATED TABLETS 5MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 A sixth registration, SIN17220P (VARADIN 7.5MG, GENEPHARM S.A), is also valid.
 
@@ -114,6 +124,19 @@ The prediction has no clinical trials or literature behind it, and no plausible 
 - animal studies showing improved right ventricular function and less fibrosis
 
 No registered trials exist, and the safety of heart rate reduction in patients whose cardiac output depends on the right ventricle remains uncertain. It is best framed as a research question that needs randomized, adequately powered confirmation. If the team wants to pursue a repurposing direction for ivabradine, this indication is a more sensible starting point than hypertrichosis.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Six single-ingredient oral products hold valid registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

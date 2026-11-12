@@ -89,11 +89,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14363P | EDURANT FILM-COATED TABLET 25 MG | TABLET, FILM COATED | Valid |
 | SIN16568P | REKAMBYS PROLONGED-RELEASE SUSPENSION FOR INJECTION 300MG/ML | INJECTION, SUSPENSION, EXTENDED RELEASE | Valid |
 | SIN16015P | ODEFSEY FILM-COATED TABLET 200MG/25MG/25MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

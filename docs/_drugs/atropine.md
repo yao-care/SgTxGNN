@@ -84,6 +84,8 @@ None of these publications is a clinical trial of atropine in migraine. Most are
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03441P | ATROPINE SULPHATE INJECTION 0.6 mg/ml | INJECTION | Valid |
@@ -93,6 +95,8 @@ None of these publications is a clinical trial of atropine in migraine. Most are
 | SIN05379P | DHAMOTIL TABLET | TABLET, FILM COATED | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

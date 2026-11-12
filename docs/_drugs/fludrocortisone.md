@@ -94,9 +94,13 @@ For reference, the closest literature for the eye disease prediction (rank 6) is
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10680P | FLORINEF TABLET 0.1 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

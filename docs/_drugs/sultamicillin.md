@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sultamicilli
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04892P | UNASYN ORAL TABLET 375 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

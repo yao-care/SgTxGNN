@@ -81,9 +81,13 @@ The data compiled for this report did link five publications to a lower-ranked p
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17014P | Besremi Solution for Injection in Prefilled Syringe 500 micrograms/mL | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

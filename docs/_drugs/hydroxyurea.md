@@ -93,9 +93,13 @@ Currently no related clinical trials are registered for female breast carcinoma.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11083P | HYDRINE CAPSULES 500 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 The single licence is valid, covers a single-ingredient oral product, and is held by Korea United Pharm. Inc.
 

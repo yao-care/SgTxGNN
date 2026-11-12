@@ -50,10 +50,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14622P | BETMIGA ® PROLONGED-RELEASE TABLETS 25MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN14623P | BETMIGA ® PROLONGED-RELEASE TABLETS 50MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products, with no cancelled registrations. Both are oral formulations.
 

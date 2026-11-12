@@ -72,11 +72,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Dichlorobenz
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15584P | Difflam plus ANAESTHETIC Sore Throat Lozenges (Sugar Free) Menthol and | LOZENGE | Valid |
 | SIN15585P | Difflam plus ANAESTHETIC Sore Throat Lozenges (Sugar Free) Honey Lemon | LOZENGE | Valid |
 | SIN17493P | Difflam Plus Anaesthetic Sore Throat Spray | SPRAY | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

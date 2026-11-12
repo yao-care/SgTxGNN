@@ -69,9 +69,13 @@ Currently no related literature available for this disease.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03692P | UFT CAPSULE | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

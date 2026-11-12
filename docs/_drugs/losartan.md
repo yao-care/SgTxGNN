@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 617
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -77,6 +77,8 @@ Currently no related clinical trials registered for malignant renovascular hyper
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08588P | COZAAR TABLET 50 mg | TABLET, FILM COATED | Valid |
@@ -87,7 +89,15 @@ Currently no related clinical trials registered for malignant renovascular hyper
 
 Showing 5 of 35 HSA registrations.
 
+<!-- licenses:end -->
+
 Only five are shown here.
+
+<!-- review:begin sg-lic-20261106-losartan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 20 valid single-ingredient registrations in total, all oral tablets or film-coated tablets. Only five are shown here." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 35 registrations for this drug, 35 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-losartan-1 -->
 
 ## Safety Considerations
 
@@ -110,6 +120,19 @@ The TxGNN score is high (0.9973), but human evidence is limited to one case repo
 - Clinical data on losartan in renovascular hypertension, ideally controlled studies with renal function monitoring
 - A risk plan for bilateral renal artery stenosis, solitary kidney and acute hypertensive emergency settings
 - A comparison with existing standard therapy (ACE inhibitors, calcium channel blockers, revascularisation) to define any added value
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 20 valid single-ingredient registrations in total, all oral tablets or film-coated tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

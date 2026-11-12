@@ -76,10 +76,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Amitriptylin
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00089P | APO-AMITRIPTYLINE TABLET 10 mg | TABLET, FILM COATED | Valid |
 | SIN00090P | APO-AMITRIPTYLINE TABLET 25 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

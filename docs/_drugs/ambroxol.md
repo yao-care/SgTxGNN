@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ambroxol: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -64,6 +64,12 @@ The only linked publication is a review on treating acute cough in respiratory v
 
 Currently no related clinical trials registered.
 
+<!-- review:begin sg-lic-20261106-ambroxol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 10 single-ingredient licences are valid; the table lists the first five." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ambroxol-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -71,6 +77,8 @@ Currently no related clinical trials registered.
 | [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Review | Vestnik otorinolaringologii | Discusses new options for treating acute cough associated with influenza and acute respiratory viral infection; it does not directly address nasal cavity disease |
 
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -81,6 +89,8 @@ Currently no related clinical trials registered.
 | SIN08999P | AXOL LIQUID 3 mg/ml | SOLUTION | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -101,6 +111,19 @@ No clinical trial or publication directly studies nasal cavity disease, so the e
 - Package insert warnings and contraindications from the HSA
 - Confirmation of the approved indication text in local licence records
 - Route and formulation compatibility assessment for nasal or upper airway use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 10 single-ingredient licences are valid; the table lists the first five" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

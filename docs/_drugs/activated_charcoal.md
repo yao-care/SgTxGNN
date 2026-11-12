@@ -48,11 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05799P | NORIT CAPSULE 200 mg | CAPSULE | Valid |
 | SIN06063P | NORIT TABLET 125 mg | TABLET | Valid |
 | SIN10625P | CHARCOAL TABLET 200 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All three are valid, single-ingredient oral products.
 

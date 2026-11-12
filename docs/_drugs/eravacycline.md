@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15930P | XERAVA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG PER VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

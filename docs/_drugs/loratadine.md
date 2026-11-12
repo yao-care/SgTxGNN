@@ -72,6 +72,8 @@ The TxGNN deep-learning model produced candidates for Loratadine, but every cand
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10351P | HALODIN TABLETS 10 mg | TABLET | Valid |
@@ -91,6 +93,8 @@ The TxGNN deep-learning model produced candidates for Loratadine, but every cand
 | SIN07282P | CLARITYN-D 12HOUR REPETABS | TABLET, SUGAR COATED | Valid |
 | SIN12246P | CLARITYN-D 24HOUR EXTENDED RELEASE TABLET | TABLET, SUGAR COATED | Valid |
 | SIN12470P | DE-COLD S.R.F.C TABLETS | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

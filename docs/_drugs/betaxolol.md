@@ -72,9 +72,13 @@ The TxGNN deep-learning model produced candidate indications for Betaxolol, but 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12621P | BETAC FILM COATED TABLET 20 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

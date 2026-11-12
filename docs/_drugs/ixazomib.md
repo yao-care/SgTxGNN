@@ -72,11 +72,15 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for I
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15162P | NINLARO CAPSULE 2.3mg | CAPSULE | Valid |
 | SIN15163P | NINLARO CAPSULE 3mg | CAPSULE | Valid |
 | SIN15164P | NINLARO CAPSULE 4mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

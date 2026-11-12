@@ -101,9 +101,13 @@ Additional literature found for the related prediction "cerebrovascular disorder
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13849P | MULTAQ® Film-coated Tablet 400mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

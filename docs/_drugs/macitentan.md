@@ -73,11 +73,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Macitentan, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14809P | OPSUMIT FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
 | SIN17241P | Opsynvi Film-coated Tablets 10mg/20mg | TABLET, FILM COATED | Valid |
 | SIN17242P | Opsynvi Film-coated Tablets 10mg/40mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

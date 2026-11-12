@@ -83,10 +83,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Kanamycin, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01963P | KANAMYCIN SULFATE INJECTION 1 g/3 ml | INJECTION | Valid |
 | SIN02356P | KANAMYCIN MEIJI FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -68,12 +68,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08957P | DIFFERIN GEL 0.1% | GEL | Valid |
 | SIN11116P | DIFFERIN CREAM 0.1% | CREAM | Valid |
 | SIN13789P | EPIDUO GEL 0.1%/2.5% | GEL | Valid |
 | SIN15460P | EPIDUO FORTE GEL 0.3%/2.5% | GEL | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

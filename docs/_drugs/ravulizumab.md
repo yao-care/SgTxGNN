@@ -72,9 +72,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17026P | ULTOMIRIS CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

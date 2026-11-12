@@ -48,12 +48,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09008P | DOTAREM INJECTION 27.932 g/ 100 ml | INJECTION | Valid |
 | SIN15693P | CLARISCAN SOLUTION FOR INJECTION IN VIAL 0.5 MMOL/ML | INJECTION, SOLUTION | Valid |
 | SIN15694P | CLARISCAN SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 0.5 MMOL/ML | INJECTION, SOLUTION | Valid |
 | SIN15973P | DOTAGRAF SOLUTION FOR INJECTION 0.5 MMOL/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All four licences are valid single-ingredient injectable products.
 

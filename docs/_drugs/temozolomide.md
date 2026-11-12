@@ -77,6 +77,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11706P | TEMODAL CAPSULE 20 mg | CAPSULE | Valid |
@@ -86,6 +88,8 @@ Currently no related clinical trials registered.
 | SIN15641P | GLIOTEM 20 CAPSULE 20 MG | CAPSULE | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 Three further single-ingredient licences are also valid: SIN15642P and SIN15641P (Gliotem 100 mg and 20 mg) and SIN11706P (Temodal 20 mg). All 8 licences are oral capsules.
 

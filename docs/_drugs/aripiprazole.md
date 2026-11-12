@@ -72,6 +72,8 @@ Currently no related literature available.
 
 Aripiprazole has valid single-ingredient licences in Singapore, in tablet, oral solution and extended-release injectable forms. The approved indication text is not recorded in the local data. Five of the licences are shown below.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13006P | ABILIFY TABLET 5 mg | TABLET | Valid |
@@ -81,6 +83,8 @@ Aripiprazole has valid single-ingredient licences in Singapore, in tablet, oral 
 | SIN16119P | ABILIFY TABLET 2MG | TABLET | Valid |
 
 Showing 5 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 939
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sulbactam"
 predicted_indications: ["bacterial arthritis"]
 description: "Sulbactam: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,13 +81,23 @@ The most relevant publications for bacterial arthritis (clinical studies priorit
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01948P | UNASYN 1500 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN01949P | UNASYN 3000 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN01950P | UNASYN 750 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
+<!-- licenses:end -->
+
 All three are valid licences, manufactured by Haupt Pharma Latina S.r.L. The only registered route is injectable.
+
+<!-- review:begin sg-lic-20261106-sulbactam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three are valid single-ingredient licences, manufactured by Haupt Pharma Latina S.r.L." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sulbactam-1 -->
 
 ## Safety Considerations
 
@@ -109,6 +119,19 @@ The mechanistic link is plausible, but the evidence for bacterial arthritis is l
 - Approved indication text for the Singapore licences
 - Prospective or well-designed comparative data in bone and joint infection, and comparison with current standard-of-care regimens
 - Local susceptibility data for the relevant pathogens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

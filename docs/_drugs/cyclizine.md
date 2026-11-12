@@ -71,10 +71,14 @@ Currently no related literature available for allergic urticaria.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15193P | NAUSICALM TABLET 50MG | TABLET | Valid |
 | SIN15353P | NAUSICALM TABLET 50MG (PHARMACY ONLY) | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

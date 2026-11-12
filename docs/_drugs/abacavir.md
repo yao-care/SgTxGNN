@@ -86,6 +86,8 @@ This is indirect, preclinical evidence only. It does not show benefit in any liv
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11098P | ZIAGEN TABLETS 300 mg | TABLET, FILM COATED | Valid |
@@ -93,6 +95,8 @@ This is indirect, preclinical evidence only. It does not show benefit in any liv
 | SIN13230P | Kivexa | TABLET | Valid |
 | SIN15100P | TRIUMEQ FILM COATED TABLET 50mg/600mg/300mg | TABLET, FILM COATED | Valid |
 | SIN15864P | ABALAM ABACAVIR SULFATE & LAMIVUDINE TABLETS 600/300 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All five registrations are currently valid, and all are oral tablets.
 

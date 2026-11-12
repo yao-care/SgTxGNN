@@ -79,9 +79,13 @@ Primary hereditary glaucoma is the most biologically plausible of the group, but
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06722P | HEMABATE INJECTION 250 mcg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 The product is a single-ingredient injection from Pharmacia & Upjohn Company LLC, and its registration is valid.
 

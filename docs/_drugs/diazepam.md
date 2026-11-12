@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00042P | AA PHARMA DIAZEPAM TABLET 2 mg | TABLET | Valid |
@@ -91,6 +93,8 @@ Currently no related clinical trials registered.
 | SIN02309P | STESOLID ENEMA 5 mg/2.5 ml | ENEMA | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

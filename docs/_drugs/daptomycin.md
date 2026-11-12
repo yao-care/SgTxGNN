@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Daptomycin: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the Singapore licence records . The drug is generally k…"
 monitor_inn: "Daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -93,6 +93,8 @@ Ten publications were retrieved for osteoarthritis. All concern bone and joint *
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16071P | DAPTOCCORD 500 POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500 MG/VI | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
@@ -103,7 +105,15 @@ Ten publications were retrieved for osteoarthritis. All concern bone and joint *
 
 Showing 5 of 7 HSA registrations.
 
+<!-- licenses:end -->
+
 In total there are 7 valid single-ingredient licences, all injectable.
+
+<!-- review:begin sg-lic-20261106-daptomycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further licences are valid: SIN16071P (Daptoccord 500) and SIN13501P (Cubicin 500 mg). In total there are 7 valid single-ingredient licences, all injectable." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-daptomycin-1 -->
 
 ---
 
@@ -134,6 +144,19 @@ The osteoarthritis prediction has no clinical trials, and all retrieved literatu
 - Approved-indication text for the Singapore licences
 - For rheumatoid arthritis: replication of the animal findings, dose and exposure assessment, and a human-relevant safety evaluation, particularly of muscle toxicity
 - Confirmation that route compatibility (injectable only) is acceptable for any chronic joint disease use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Two further licences are valid: SIN16071P (Daptoccord 500) and SIN13501P (Cubicin 500 mg)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

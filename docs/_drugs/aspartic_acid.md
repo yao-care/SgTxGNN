@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Aspartic Acid: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "Aspartic acid"
 predicted_indications: ["renal tubular acidosis"]
@@ -64,6 +64,12 @@ However, the link is weak. None of the retrieved papers tests aspartic acid as a
 
 Currently no related clinical trials registered.
 
+<!-- review:begin sg-lic-20261106-aspartic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further registrations (SIN15469P, SIN15468P) are Nutriflex Omega products. All 7 registrations are valid single-ingredient entries, all injectable or infusion forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-aspartic_acid-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -75,6 +81,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -84,6 +92,8 @@ Currently no related clinical trials registered.
 | SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -103,6 +113,19 @@ The prediction rests solely on a model score. There are no clinical trials, and 
 - Detailed mechanism of action data
 - Preclinical or clinical evidence that aspartic acid affects acid-base handling in RTA
 - Clarification of the approved indication text for the Singapore licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Two further registrations (SIN15469P, SIN15468P) are Nutriflex Omega products. All 7 registrations are valid single-ingredient entries, all " | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

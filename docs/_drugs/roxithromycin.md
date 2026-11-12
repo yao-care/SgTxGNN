@@ -78,9 +78,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11413P | UPLORES CAPSULE 150 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

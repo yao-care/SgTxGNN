@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 290
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L4). Approved use: Bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis…"
 monitor_inn: "Cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
@@ -82,13 +82,23 @@ No randomised trials or clinical studies were found. The most relevant publicati
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
 | SIN07846P | TROPHAMINE INJECTION 10% | INJECTION | Valid |
 | SIN08352P | AMINOPLASMAL-15% INFUSION | INJECTION | Valid |
 
+<!-- licenses:end -->
+
 No ophthalmic (eye-drop) cysteine product is registered, so the injectable forms do not match the route a dry eye treatment would need.
+
+<!-- review:begin sg-lic-20261106-cysteine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four registrations are valid, single-ingredient injectable amino acid products. No ophthalmic (eye-drop) cysteine product is registered, so the injectable forms do not match the route a dry eye treatment would need." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-cysteine-1 -->
 
 ## Safety Considerations
 
@@ -110,6 +120,19 @@ The TxGNN score is very high, but support is limited to preclinical and formulat
 - Direct preclinical evidence testing cysteine itself (not derivatives or conjugates) in dry eye models
 - Assessment of a suitable ophthalmic formulation and route, plus ocular safety and tolerability data
 - Evidence-based comparison against established dry eye therapies before any clinical study is designed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four registrations are valid, single-ingredient injectable amino acid products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -86,9 +86,13 @@ Other predictions in the list (for example benign neoplasm of the buccal mucosa 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10105P | ALDARA CREAM 5% | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 549
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Iron"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 description: "Iron: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05699P | MALTOFER DROPS 50 mg/ml | SOLUTION | Valid |
@@ -90,7 +92,15 @@ Currently no related literature available.
 
 Showing 5 of 7 HSA registrations.
 
+<!-- licenses:end -->
+
 A sixth authorization, SIN14341P (Nutritrace Concentrate for solution for infusion), is also valid. The drug is marketed in this country; none is cancelled. Approved indication text was not available for these products. The list covers oral and injectable routes, and some products (for example Velphoro and Nutritrace) are likely to serve purposes other than treating iron deficiency anemia.
+
+<!-- review:begin sg-lic-20261106-iron-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in this country, and all 6 of 6 licences are valid single-ingredient registrations; none is cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-iron-1 -->
 
 ---
 
@@ -121,6 +131,19 @@ The prediction has no supporting trials or literature (L5). Megaloblastic anemia
 
 **Other predicted indications in the same analysis:**
 - These trials largely address anemia in trauma, hip fracture or pregnancy, or test multi-nutrient supplements, so they overlap with the original anemia indication. They would be better framed as extensions of anemia treatment than as new disease indications.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and all 6 of 6 licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

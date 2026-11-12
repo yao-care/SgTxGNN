@@ -80,6 +80,8 @@ Only one retrieved paper directly addresses this disease. The other items retrie
 
 The licence records compiled for this report contain no approved-indication text, so indications are not shown.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09591P | TRITACE 2.5 TABLET 2.5 mg | TABLET | Valid |
@@ -87,6 +89,8 @@ The licence records compiled for this report contain no approved-indication text
 | SIN15646P | TRINOMIA HARD CAPSULES 100mg/ 20mg/ 10mg | CAPSULE | Valid |
 | SIN15647P | TRINOMIA HARD CAPSULES 100mg/ 20mg/ 2.5mg | CAPSULE | Valid |
 | SIN15648P | TRINOMIA HARD CAPSULES 100mg/ 20mg/ 5mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

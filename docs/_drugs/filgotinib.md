@@ -50,10 +50,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16980P | JYSELECA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
 | SIN16981P | JYSELECA FILM-COATED TABLET 200MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

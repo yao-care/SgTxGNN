@@ -85,9 +85,13 @@ Supporting publications for the related myocardial ischemia prediction:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00396P | CAVINTON TABLET 5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Manufacturer: Chemical Works of Gedeon Richter Plc. Route: oral.
 

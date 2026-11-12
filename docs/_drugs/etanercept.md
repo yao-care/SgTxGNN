@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Etanercept"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,6 +84,8 @@ The only listed trial concerns perioperative immunosuppressant management in rhe
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11854P | ENBREL FOR INJECTION 25 mg/vial | INJECTION | Valid |
@@ -94,7 +96,15 @@ The only listed trial concerns perioperative immunosuppressant management in rhe
 
 Showing 5 of 6 HSA registrations.
 
+<!-- licenses:end -->
+
 Two further licences are also valid: SIN16531P (Nepexto 25 mg/0.5 ml pre-filled syringe) and SIN11854P (Enbrel for Injection 25 mg/vial).
+
+<!-- review:begin sg-lic-20261106-etanercept-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further licences are also valid: SIN16531P (Nepexto 25 mg/0.5 ml pre-filled syringe) and SIN11854P (Enbrel for Injection 25 mg/vial). All 7 are single-ingredient products with valid status." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-etanercept-1 -->
 
 ## Safety Considerations
 
@@ -120,6 +130,19 @@ No trial tests etanercept in rheumatoid vasculitis, and the literature includes 
 - The package insert warnings, contraindications and approved-indication text from the Singapore licences
 - Detailed mechanism of action data
 - Clarification of whether the better-supported predictions (spondyloarthritis, JIA) are already covered by existing Singapore labelling, since they would then not be new indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 7 are single-ingredient products with valid status" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

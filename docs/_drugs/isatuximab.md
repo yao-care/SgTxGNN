@@ -72,9 +72,13 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16630P | SARCLISA CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -83,11 +83,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09489P | FAVERIN TABLET 50 mg (WHITE) | TABLET, FILM COATED | Valid |
 | SIN09491P | FAVERIN TABLET 100 mg (WHITE) | TABLET, FILM COATED | Valid |
 | SIN13559P | APO-FLUVOXAMINE 100MG TABLET | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All three products are oral, single-ingredient and currently valid.
 

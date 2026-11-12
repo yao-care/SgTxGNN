@@ -78,9 +78,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13543P | Myozyme® (Alglucosidase alfa) 50mg Powder for Solution for Infusion | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 The product is a single-ingredient injectable (manufacturer: Genzyme Ireland Limited) with a valid status. There are no cancelled registrations.
 

@@ -83,10 +83,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08252P | DESOWEN CREAM 0.05% | CREAM | Valid |
 | SIN08572P | DESOWEN LOTION 0.05% | LOTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products from Laboratoires Galderma. The available formulations are topical (cream and lotion).
 

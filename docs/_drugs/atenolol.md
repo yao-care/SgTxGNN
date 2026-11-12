@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Atenolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, myocardial infarction"
 ---
 
@@ -74,6 +74,14 @@ Currently no related literature available for malignant hypertensive renal disea
 
 The table lists the first five.
 
+<!-- review:begin sg-lic-20261106-atenolol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 17 licences are single-ingredient, valid products, and none includes approved-indication text. The table lists the first five." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 14 registrations for this drug, 14 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-atenolol-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02344P | TENOLOL TABLET 100 mg | TABLET, FILM COATED | Valid |
@@ -83,6 +91,8 @@ The table lists the first five.
 | SIN07584P | NORMATEN TABLET 50 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 14 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The prediction rests only on model scoring and proximity to the hypertension ind
 - Mechanism of action data
 - Clinical or observational evidence of atenolol in malignant hypertensive renal disease
 - A clinical assessment of whether an oral beta-blocker has any role in a setting normally treated with intravenous agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 17 licences are single-ingredient, valid products, and none includes approved-indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,10 +72,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gadobutrol, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12399P | GADOVIST INJECTION 1.0 mmol/ml | INJECTION | Valid |
 | SIN13807P | GADOVIST 1MMOL/ML PREFILLED SYRINGE | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

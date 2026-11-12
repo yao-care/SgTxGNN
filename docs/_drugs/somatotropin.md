@@ -5,7 +5,7 @@ layout: default
 title: Somatotropin
 parent: Known Uses Only (No New Predictions)
 nav_order: 929
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Somatotropin: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Somatotropin"
 predicted_indications: []
@@ -35,6 +35,12 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 </div>
 
+<!-- review:begin sg-lic-20261106-somatotropin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence, SIN12219P (NORDITROPIN FLEXPRO Injection 5 mg/1.5 ml), is also valid. All six registrations are single-ingredient products, and none is cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-somatotropin-1 -->
+
 ## Somatotropin
 {: .text-alpha }
 
@@ -50,6 +56,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12215P | NORDITROPIN FLEXPRO INJECTION 10 mg/1.5 ml | INJECTION | Valid |
@@ -57,6 +65,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | SIN14425P | Saizen solution for injection 8.00mg/ml (12mg in 1.50ml) | INJECTION, SOLUTION | Valid |
 | SIN14432P | Saizen solution for injection 5.83mg/ml (6mg in 1.03ml) | INJECTION, SOLUTION | Valid |
 | SIN14433P | Saizen solution for injection 8.00mg/ml (20mg in 2.50ml) | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -73,6 +83,18 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 Please refer to the package insert for warnings and contraindications.
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A sixth licence, SIN12219P (NORDITROPIN FLEXPRO Injection 5 mg/1.5 ml), is also valid. All six registrations are single-ingredient products," | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

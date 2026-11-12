@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Avibactam: predicted new indication Ureter tuberculosis (evidence level L5). Approved use: Pyelonephritis"
 ---
 
@@ -73,12 +73,22 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin sg-lic-20261106-avibactam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The number of approvals is 1 licence, which is valid and marketed." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 2 registrations for this drug, 2 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-avibactam-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15870P | ZAVICEFTA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 2G/0.5G | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN17438P | EMBLAVEO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1.5G/0.5G | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -96,6 +106,19 @@ The prediction rests only on a model score, with no clinical trials or publicati
 - Obtain detailed mechanism of action data from DrugBank
 - Preclinical or clinical evidence of activity against *M. tuberculosis* in the urinary tract
 - Dosing, penetration and safety data for this use, and a comparison against standard anti-tuberculosis therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The number of approvals is 1 licence, which is valid and marketed" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

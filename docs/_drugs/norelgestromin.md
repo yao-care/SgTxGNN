@@ -73,9 +73,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12423P | EVRA TRANSDERMAL PATCH (6 mg/600 mcg) | PATCH | Valid |
+
+<!-- licenses:end -->
 
 Manufacturer: LTS Lohmann Therapie-Systeme AG. The registration is valid and is a single-ingredient listing.
 

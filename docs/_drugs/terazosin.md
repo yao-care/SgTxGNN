@@ -86,6 +86,8 @@ There is no literature for the top-ranked prediction (hypotrichosis simplex of t
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11600P | TERASIN TABLET 2 mg | TABLET | Valid |
@@ -93,6 +95,8 @@ There is no literature for the top-ranked prediction (hypotrichosis simplex of t
 | SIN11675P | HYTRIN TABLET 2 mg | TABLET | Valid |
 | SIN11676P | HYTRIN TABLET 5 mg | TABLET | Valid |
 | SIN12672P | APO-TERAZOSIN TABLET 2 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All five licences are valid single-ingredient oral tablets.
 

@@ -69,9 +69,13 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04413P | POLYBAMYCIN OINT. | OINTMENT | Valid |
+
+<!-- licenses:end -->
 
 This is a single-ingredient licence and it is currently valid.
 

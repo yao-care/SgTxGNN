@@ -89,10 +89,14 @@ For reference, the most relevant publications found for the rank 4 prediction (s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09139P | APO-SOTALOL TABLET 160 mg | TABLET | Valid |
 | SIN13311P | SotaHexal 80mg Tablet | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

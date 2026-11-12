@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 153
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -76,6 +76,14 @@ Currently no related clinical trials registered.
 
 The five below are a sample, and the approved indication text is not recorded in the local data.
 
+<!-- review:begin sg-lic-20261106-betamethasone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Singapore has 20 valid single-ingredient betamethasone licences. The five below are a sample, and the approved indication text is not recorded in the local data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 54 registrations for this drug, 54 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-betamethasone-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02886P | BETAMETHASONE OINTMENT 0.05% | OINTMENT | Valid |
@@ -85,6 +93,8 @@ The five below are a sample, and the approved indication text is not recorded in
 | SIN03867P | SW BETAMETHASONE CREAM 0.1% w/w | CREAM | Valid |
 
 Showing 5 of 54 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -107,6 +117,18 @@ The model score is very high (0.9997), but the only evidence for alopecia mucino
 - Mechanism of action data for betamethasone
 - Package insert warnings and contraindications from the HSA
 - Assessment of which routes and formulations suit the condition (topical, intralesional, systemic) and of the safety profile for prolonged scalp or facial use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Singapore has 20 valid single-ingredient betamethasone licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

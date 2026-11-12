@@ -90,9 +90,13 @@ For reference, selected publications for lower-ranked predictions (all indirect)
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16641P | L-ASCAIN SOLUTION FOR INJECTION 5MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

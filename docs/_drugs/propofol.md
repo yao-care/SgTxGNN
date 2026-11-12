@@ -89,6 +89,8 @@ Other predicted indications were also reviewed. Migraine with brainstem aura is 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11577P | PROPOFOL 1% MCT/LCT FRESENIUS EMULSION FOR INJECTION OR INFUSION | INJECTION | Valid |
@@ -98,6 +100,8 @@ Other predicted indications were also reviewed. Migraine with brainstem aura is 
 | SIN15592P | FRESOFOL MCT/LCT EMULSION FOR INJECTION OR INFUSION IN PRE-FILLED SYRI | INJECTION, EMULSION | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 A sixth registration, SIN17047P (Baxter Propofol MCT-LCT Emulsion for Injection or Infusion 1% w/v, injection/emulsion), is also valid.
 

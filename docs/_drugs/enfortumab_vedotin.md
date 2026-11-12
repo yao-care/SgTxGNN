@@ -103,10 +103,14 @@ Leprosy has no related literature. The publications below are those linked to HE
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16502P | PADCEV® POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN16503P | PADCEV® POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 30MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

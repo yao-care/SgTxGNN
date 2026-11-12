@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 689
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -68,6 +68,12 @@ Currently no related clinical trials registered.
 
 None of these studies directly tests morphine for myofascial pain syndrome.
 
+<!-- review:begin sg-lic-20261106-morphine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid single-ingredient products, available as oral tablets and injectables." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-morphine-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [41664327](https://pubmed.ncbi.nlm.nih.gov/41664327/) | 2026 | RCT | Asian Spine J | Double-blind trial of dexmedetomidine plus morphine versus plain ropivacaine for myofascial infiltration in spinal fusion. This concerns postoperative pain, not myofascial pain syndrome. |
@@ -81,6 +87,8 @@ None of these studies directly tests morphine for myofascial pain syndrome.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00757P | DBL MORPHINE SULFATE INJECTION 10 mg/ml | INJECTION | Valid |
@@ -90,6 +98,8 @@ None of these studies directly tests morphine for myofascial pain syndrome.
 | SIN16036P | ORAMORPH SYRUP 2MG/ML | SYRUP | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -109,6 +119,18 @@ No study tests morphine in myofascial pain syndrome, so the evidence level is L5
 - Comparison against current standard treatments, with a risk-benefit assessment covering dependence and opioid-related adverse effects
 - Package insert warnings and contraindications from the HSA
 - Mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five licences are valid single-ingredient products, available as oral tablets and injectables" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

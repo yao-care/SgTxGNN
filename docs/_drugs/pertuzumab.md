@@ -84,11 +84,15 @@ Endocrine-therapy combinations are being explored in this subgroup. Examples are
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14501P | PERJETA CONCENTRATE FOR SOLUTION FOR INFUSION 420MG/14ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN16247P | PHESGO SOLUTION FOR SUBCUTANEOUS INJECTION 1200 MG/600 MG / 15 ML | INJECTION, SOLUTION | Valid |
 | SIN16248P | PHESGO SOLUTION FOR SUBCUTANEOUS INJECTION 600 MG/600 MG / 10 ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

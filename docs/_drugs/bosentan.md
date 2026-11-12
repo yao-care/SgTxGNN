@@ -81,10 +81,14 @@ Only studies relevant to rheumatoid arthritis are listed; the remaining retrieve
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15132P | PROART FILM COATED TABLETS 125MG | TABLET, FILM COATED | Valid |
 | SIN15133P | PROART FILM COATED TABLETS 62.5MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both products are single-ingredient, valid licences held by Sun Pharmaceutical Industries Limited, for oral use.
 

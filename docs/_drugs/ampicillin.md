@@ -84,12 +84,16 @@ None of the publications below studies ampicillin for laryngitis itself. They ad
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00680P | STANDACILLIN FOR INJECTION 0.5 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN01948P | UNASYN 1500 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN01949P | UNASYN 3000 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN01950P | UNASYN 750 FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

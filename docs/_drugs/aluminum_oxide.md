@@ -74,9 +74,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08783P | ALUTACID ANTACID MIXTURE 4% w/w | SUSPENSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

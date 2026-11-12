@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01365P | CLOPIXOL DEPOT INJECTION 200 mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

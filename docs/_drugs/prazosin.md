@@ -73,6 +73,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Prazosin, so
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07260P | APO-PRAZO TABLET 2 mg | TABLET | Valid |
@@ -80,6 +82,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Prazosin, so
 | SIN07264P | APO-PRAZO TABLET 1 mg | TABLET | Valid |
 | SIN07529P | ATODEL 1 TABLET 1 mg | TABLET | Valid |
 | SIN16122P | MINISON TABLET 1MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Glycine"
 predicted_indications: ["nasal cavity disease"]
 description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,6 +76,14 @@ The very high score (0.9985) most likely reflects overlap with those original in
 
 No approved indication text is recorded for these products. Most are parenteral nutrition or amino acid infusion products. Five representative authorizations:
 
+<!-- review:begin sg-lic-20261106-glycine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Glycine has 19 valid single-ingredient registrations, with no cancelled ones. No approved indication text is recorded for these products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 19 registrations for this drug, 19 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-glycine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -85,6 +93,8 @@ No approved indication text is recorded for these products. Most are parenteral 
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
 Showing 5 of 19 HSA registrations.
+
+<!-- licenses:end -->
 
 The registered dosage forms are an oral tablet, injectables, a sterile solution and emulsions. No nasal or topical formulation appears among them, so route compatibility with a nasal indication has not been established.
 
@@ -107,6 +117,19 @@ The prediction rests on a model score that mostly reflects overlap with glycine'
 - Mechanism of action data (for example from DrugBank) to assess biological plausibility
 - Clarification of the approved indications for the registered products
 - Direct preclinical or clinical studies of glycine in nasal cavity disease, plus a feasibility assessment of a nasal or topical route, since current formulations are oral and parenteral
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Glycine has 19 valid single-ingredient registrations, with no cancelled ones" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

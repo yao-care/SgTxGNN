@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 276
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Codeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
@@ -75,6 +75,14 @@ Currently no related clinical trials registered.
 
 The five main ones are listed below. The records contain no approved-indication text.
 
+<!-- review:begin sg-lic-20261106-codeine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 20 valid single-ingredient registrations. The five main ones are listed below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 15 registrations for this drug, 15 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-codeine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07044P | CODEINE TABLETS 30 mg | TABLET | Valid |
@@ -84,6 +92,8 @@ The five main ones are listed below. The records contain no approved-indication 
 | SIN03140P | BEACTAFED CO SYRUP | SYRUP | Valid |
 
 Showing 5 of 15 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The prediction rests on a single case report in which codeine caused the nasal p
 - The package insert warnings and contraindications from the Singapore regulator (HSA), which are required before safety screening can proceed
 - Clinical evidence of benefit in nasal cavity disease, which is currently absent
 - A risk-benefit review covering the contraindication signals and interactions above, before any further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 20 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

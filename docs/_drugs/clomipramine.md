@@ -94,11 +94,15 @@ Most of the registered trials are OCD-focused (the original indication), so evid
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09018P | APO-CLOMIPRAMINE TABLET 25 mg | TABLET, FILM COATED | Valid |
 | SIN09058P | APO-CLOMIPRAMINE TABLET 10 mg | TABLET, FILM COATED | Valid |
 | SIN09611P | DEPRANIL TABLET 25 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

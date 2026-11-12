@@ -76,11 +76,15 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN05447P | IBERET-FOLIC-500 TABLET | TABLET, FILM COATED | Valid |
 | SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

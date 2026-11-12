@@ -82,6 +82,8 @@ Currently no related clinical trials registered for sclerosing cholangitis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13697P | Pradaxa 75mg, hard capsules | CAPSULE | Valid |
@@ -91,6 +93,8 @@ Currently no related clinical trials registered for sclerosing cholangitis.
 | SIN17425P | LEAXOLAR CAPSULES 110 mg | CAPSULE | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

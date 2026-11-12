@@ -70,10 +70,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11033P | HAEMODIALYSIS CONCENTRATE NKFS-03 (ACID) FOR BICARBONATE DIALYSIS | SOLUTION | Valid |
 | SIN11034P | HAEMODIALYSIS CONCENTRATE NKFS-04 (ACID) FOR BICARBONATE DIALYSIS | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

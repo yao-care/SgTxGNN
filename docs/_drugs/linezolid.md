@@ -76,6 +76,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Linezolid, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11405P | ZYVOX TABLET 600 mg | TABLET, FILM COATED | Valid |
@@ -85,6 +87,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Linezolid, s
 | SIN15762P | HETERO-LINEZOLID FILM COATED TABLETS 600 MG | TABLET, FILM COATED | Valid |
 | SIN15849P | LINEZOLID KABI SOLUTION FOR INFUSION 2MG/ML | INFUSION, SOLUTION | Valid |
 | SIN16950P | LINEZAN SOLUTION FOR INFUSION 2MG/ML | INFUSION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

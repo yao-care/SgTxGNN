@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -102,6 +102,14 @@ For heart fibrosarcoma, only one publication is available. Key publications for 
 
 Approved indication text is not recorded in the licence data. The main authorisations are:
 
+<!-- review:begin sg-lic-20261106-imatinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Imatinib has 13 valid single-ingredient registrations in Singapore, with no cancelled licences. Approved indication text is not recorded in the licence data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 16 registrations for this drug, 16 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-imatinib-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13279P | Glivec Film Coated Tablet 100mg | TABLET, FILM COATED | Valid |
@@ -111,6 +119,8 @@ Approved indication text is not recorded in the licence data. The main authorisa
 | SIN15306P | VEENAT FILM COATED TABLETS 400 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 Other registered products include Veenat (100 mg and 400 mg), Hetero Imatinib (100 mg and 400 mg), Imatiqual (100 mg and 400 mg), Neopax 400 mg and Imatinib-AFT 400 mg capsules. All are oral formulations.
 
@@ -151,6 +161,19 @@ The heart fibrosarcoma prediction has a very high model score, but it rests on o
 - Subtype-level results from the mixed-histology sarcoma trials (NCT00031915, NCT00006357, NCT00154388)
 - A cardiac safety assessment, given the cardiac cautions listed above
 - Registration and approved-indication wording for the Singapore licences, which is not recorded in the current data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Imatinib has 13 valid single-ingredient registrations in Singapore, with no cancelled licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

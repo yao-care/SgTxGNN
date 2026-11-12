@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clindamycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections (streptococcal, staphylococcal, anaerobic), acne…"
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
@@ -74,6 +74,14 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 The five main ones are shown below. Approved indication text is not recorded for any of them.
 
+<!-- review:begin sg-lic-20261106-clindamycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Seventeen valid single-ingredient licences are listed. The five main ones are shown below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 17 registrations for this drug, 17 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-clindamycin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01502P | DALACIN C INJECTION 150 mg/ml | INJECTION | Valid |
@@ -83,6 +91,8 @@ The five main ones are shown below. Approved indication text is not recorded for
 | SIN09496P | DALACIN C CAPSULE 300 mg | CAPSULE | Valid |
 
 Showing 5 of 17 HSA registrations.
+
+<!-- licenses:end -->
 
 Available forms across all licences are oral capsules, injections and solutions for injection, topical gels and lotions. No ophthalmic formulation is listed.
 
@@ -109,6 +119,19 @@ The prediction has no clinical trials or literature behind it (L5), and the mech
 - Evidence that bacterial infection plays a role in punctate epithelial keratoconjunctivitis, or any clinical data on clindamycin in this condition
 - An assessment of route and formulation feasibility, since only systemic and dermatological products are marketed
 - A review of whether another prediction, such as exposure keratitis with secondary bacterial infection, is more tractable
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Seventeen valid single-ingredient licences are listed" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -76,12 +76,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13791P | Xyntha Powder and Solvent for Solution for Injection 250iu | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN13792P | Xyntha Powder and Solvent for Solution for Injection 500iu | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN13793P | Xyntha Powder and Solvent for Solution for Injection 2000iu | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN13794P | Xyntha Powder and Solvent for Solution for Injection 1000iu | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -76,6 +76,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02395P | ACTRAPID INJECTION 100 IU/ml | INJECTION | Valid |
@@ -85,6 +87,8 @@ Currently no related literature available.
 | SIN08200P | MIXTARD 30 PENFILL INJECTION 100 iu/ml | INJECTION | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

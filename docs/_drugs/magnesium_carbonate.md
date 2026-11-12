@@ -82,9 +82,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03440P | INON GRANULES | GRANULE | Valid |
+
+<!-- licenses:end -->
 
 ---
 

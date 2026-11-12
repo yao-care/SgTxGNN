@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 687
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -100,6 +100,14 @@ The literature is mostly reviews and guidelines, and none of the retrieved paper
 
 The five main ones are listed below. The registration records do not contain approved-indication text.
 
+<!-- review:begin sg-lic-20261106-montelukast-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Montelukast has 20 valid registrations in Singapore, all single-ingredient oral tablets. The five main ones are listed below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 26 registrations for this drug, 26 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-montelukast-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09768P | SINGULAIR CHEWABLE TABLET 5 mg | TABLET | Valid |
@@ -109,6 +117,8 @@ The five main ones are listed below. The registration records do not contain app
 | SIN14071P | Montelukast Mevon Film-coated Tablets 10mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 26 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -131,6 +141,19 @@ The one completed Phase 3 RCT is in RSV bronchiolitis, not bronchitis, and the o
 - Obtain the Singapore package insert warnings and contraindications
 - Detailed mechanism of action data (MOA)
 - A neuropsychiatric safety monitoring plan, especially for children
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Montelukast has 20 valid registrations in Singapore, all single-ingredient oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

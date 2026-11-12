@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Melitracen, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00913P | DEANXIT TABLET | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

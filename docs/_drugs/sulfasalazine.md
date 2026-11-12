@@ -86,10 +86,14 @@ No literature was found for the top-ranked prediction (brachydactyly-syndactyly 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01589P | SALAZOPYRIN EN-TABLET 500 mg | ENTERIC COATED TABLET | Valid |
 | SIN06512P | PMS-SULFASALAZINE E.C.TABLET 500 mg | ENTERIC COATED TABLET | Valid |
+
+<!-- licenses:end -->
 
 The only available route is oral. The product is a valid single-ingredient licence.
 

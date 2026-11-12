@@ -96,10 +96,14 @@ The data include 31 trials linked to plasma cell myeloma. The 10 most relevant a
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11143P | FLUDARA FOR INTRAVENOUS INJECTION 50 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN15030P | FLUDARABINE PHOSPHATE POWDER FOR SOLUTION FOR INJECTION/ INFUSION USP | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

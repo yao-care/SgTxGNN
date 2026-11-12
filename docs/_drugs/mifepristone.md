@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15583P | MIFEGYNE TABLETS 200MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

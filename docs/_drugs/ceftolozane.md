@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ceftolozane: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -75,11 +75,21 @@ Currently no related literature available for Ureaplasma urethritis.
 
 For reference, the only publication retrieved across the predictions is a 2016 general review of febrile urinary tract infections and pyelonephritis (PMID [26658652](https://pubmed.ncbi.nlm.nih.gov/26658652/), Current Opinion in Infectious Diseases). It relates to xanthogranulomatous pyelonephritis, not to the lead prediction.
 
+<!-- review:begin sg-lic-20261106-ceftolozane-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is one single-ingredient licence and its status is valid." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 1 registration for this drug, 1 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ceftolozane-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15317P | ZERBAXA POWDER FOR SOLUTION FOR INJECTION 1G/0.5G | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -102,6 +112,19 @@ The prediction rests on model output alone (L5). Ureaplasma lacks a cell wall, s
 - Mechanism of action data
 - In vitro susceptibility data for ceftolozane against Ureaplasma, which would be needed before any clinical interest
 - If a related direction is pursued, consider the more plausible xanthogranulomatous pyelonephritis, supported by a targeted literature review and clinical data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is one single-ingredient licence and its status is valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -136,9 +136,13 @@ For reference, key publications for the better-supported predictions:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16033P | SPRAVATO NASAL SPRAY 28MG/VIAL | SPRAY | Valid |
+
+<!-- licenses:end -->
 
 ---
 

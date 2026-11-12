@@ -88,9 +88,13 @@ All studies below concern GLP-1 or GLP-1 receptor agonists, or IBS in general. N
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09070P | GLUCAGEN FOR INJECTION 1 mg/ml | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

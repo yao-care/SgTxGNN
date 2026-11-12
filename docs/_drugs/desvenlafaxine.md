@@ -91,9 +91,13 @@ None of these publications tests desvenlafaxine in OCD.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13859P | Pristiq Extended-Release Tablet 50mg | TABLET, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ---
 

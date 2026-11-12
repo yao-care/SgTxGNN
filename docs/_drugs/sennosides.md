@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 907
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sennosides: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the registration data (sennosides are generally used as…"
 monitor_inn: "Sennosides"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia"]
@@ -72,13 +72,23 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin sg-lic-20261106-sennosides-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both registrations are valid single-ingredient oral products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sennosides-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02550P | SENNA TABLET 7.5 mg | TABLET | Valid |
 | SIN04731P | SENOKOT TABLET 7.5 mg | TABLET | Valid |
 | SIN17578P | LAX-TAB SENNA TABLET 7.5MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -97,6 +107,26 @@ The prediction is supported only by a score from the TxGNN model (deep learning)
 - Any preclinical or clinical evidence linking sennosides to hair follicle biology
 - Confirmation of the approved indication text
 - Route compatibility analysis (the available oral route versus the likely topical or other route needed for hair or eye conditions)
+
+<!-- review:begin sg-lic-20261106-sennosides-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of the approved indication text for the two Singapore registrations" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sennosides-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both registrations are valid single-ingredient oral products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "for the two Singapore registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -81,12 +81,16 @@ None of the publications below studies iodixanol as a treatment for osteoarthrit
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08882P | VISIPAQUE INJECTION 270 mgI/ml | INJECTION | Valid |
 | SIN08883P | VISIPAQUE INJECTION 320 mgI/ml | INJECTION | Valid |
 | SIN17550P | HENGRUI IODIXANOL SOLUTION FOR INJECTION 270 MG I/ML | INJECTION, SOLUTION | Valid |
 | SIN17551P | HENGRUI IODIXANOL SOLUTION FOR INJECTION 320 MG I/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

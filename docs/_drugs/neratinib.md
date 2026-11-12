@@ -75,9 +75,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Neratinib
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15861P | NERLYNX FILM-COATED TABLETS 40 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

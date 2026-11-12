@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 504
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -85,6 +85,14 @@ Hydrocortisone is, however, a low-potency corticosteroid. In the only Phase 3 ra
 
 Hydrocortisone is marketed in Singapore. Five examples:
 
+<!-- review:begin sg-lic-20261106-hydrocortisone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Hydrocortisone is marketed in Singapore. All 16 single-ingredient licences are valid, mostly creams and ointments, plus one oral tablet and one otic suspension." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 29 registrations for this drug, 29 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-hydrocortisone-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03781P | SW HYDROCORTISONE CREAM 1% w/w | CREAM | Valid |
@@ -94,6 +102,8 @@ Hydrocortisone is marketed in Singapore. Five examples:
 | SIN04792P | EGOCORT CREAM 1% | CREAM | Valid |
 
 Showing 5 of 29 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -113,6 +123,18 @@ The one Phase 3 trial used hydrocortisone 1% only as a low-potency comparator ag
 - Mechanism of action data
 - Package insert warnings and contraindications from the Singapore regulator
 - A comparison with the established higher-potency corticosteroid options for this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 16 single-ingredient licences are valid, mostly creams and ointments, plus one oral tablet and one otic suspension" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

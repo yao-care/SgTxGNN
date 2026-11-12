@@ -104,9 +104,13 @@ For the third-ranked prediction, psoriasis, the most relevant publications are s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14408P | Tysabri Concentrate for Solution for Infusion 300mg/15ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ---
 

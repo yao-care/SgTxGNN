@@ -75,9 +75,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Testosterone
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13281P | NEBIDO Solution | SOLUTION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -81,6 +81,8 @@ Currently no related literature available.
 
 Teriparatide is registered in Singapore as five valid single-ingredient injectable products.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12593P | FORTEO INJECTION 20 mcg/80mcL | INJECTION, SOLUTION | Valid |
@@ -88,6 +90,8 @@ Teriparatide is registered in Singapore as five valid single-ingredient injectab
 | SIN17051P | MEGAPTH-G SOLUTION FOR INJECTION 20 MCG/80MCL CARTRIDGE PACK | INJECTION, SOLUTION | Valid |
 | SIN17052P | MEGAPTH-G SOLUTION FOR INJECTION 20 MCG/80MCL PEN + CARTRIDGE PACK | INJECTION, SOLUTION | Valid |
 | SIN17077P | TERIPARATIDE-TEVA SOLUTION FOR INJECTION IN PRE-FILLED PEN 20 MCG/80 M | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

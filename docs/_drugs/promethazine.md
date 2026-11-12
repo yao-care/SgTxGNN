@@ -74,6 +74,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Promethaz
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02707P | DBL PROMETHAZINE HYDROCHLORIDE INJECTION BP 50 mg/2 ml | INJECTION | Valid |
@@ -93,6 +95,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Promethaz
 | SIN08748P | DHASEDYL DM SYRUP | SYRUP | Valid |
 | SIN09071P | COPHADYL COUGH LINCTUS | ELIXIR | Valid |
 | SIN09104P | COPHADYL-E COUGH LINCTUS | ELIXIR | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

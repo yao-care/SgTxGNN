@@ -72,10 +72,14 @@ The TxGNN model produced candidate indications for Lemborexant with high confide
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16320P | DAYVIGO FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
 | SIN16321P | DAYVIGO FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

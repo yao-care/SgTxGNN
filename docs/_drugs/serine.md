@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 908
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
 description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -73,6 +73,14 @@ Currently no related literature available for familial visceral myopathy.
 
 Serine is marketed in Singapore. The approved indication text is not available. The five main authorizations are listed below.
 
+<!-- review:begin sg-lic-20261106-serine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Serine is marketed in Singapore as an ingredient of 19 valid single-ingredient registrations. The approved indication text is not available for these products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-serine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -82,6 +90,8 @@ Serine is marketed in Singapore. The approved indication text is not available. 
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
 Showing 5 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 The other registrations include amino acid infusions, a peritoneal dialysis solution (Nutrineal) and lipid-containing parenteral nutrition emulsions (SmofKabiven, Nutriflex Omega, Oliclinomel). All are injectable or sterile solution forms, so the route of administration would need to be considered for any new indication.
 
@@ -110,6 +120,19 @@ The prediction rests only on a high model score. There are no clinical trials, n
 - Singapore-approved indication text for the registered products
 - Disease-specific preclinical or clinical evidence for serine in familial visceral myopathy
 - A route and formulation compatibility assessment, because the registered products are all injectable or sterile solutions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "as an ingredient of 19 valid single-ingredient registrations for these products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

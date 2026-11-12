@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 873
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Risankizumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Risankizumab: predicted new indication Dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -86,6 +86,8 @@ Case-level reports describe combined dupilumab plus risankizumab use in patients
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16338P | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 150MG/ML | INJECTION, SOLUTION | Valid |
@@ -93,6 +95,8 @@ Case-level reports describe combined dupilumab plus risankizumab use in patients
 | SIN16869P | SKYRIZI CONCENTRATE FOR SOLUTION FOR INFUSION 600MG/10ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN16870P | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED CARTRIDGE WITH ON-BODY IN | INJECTION, SOLUTION | Valid |
 | SIN17326P | SKYRIZI SOLUTION FOR INJECTION IN PRE-FILLED CARTRIDGE WITH ON-BODY IN | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -116,6 +120,25 @@ A completed Phase 2 randomized controlled trial in atopic dermatitis supports an
 - Detailed mechanism-of-action data
 - A review of the eczematous and paradoxical reactions reported with IL-23 inhibitors
 - Comparison with established atopic dermatitis therapies, including type 2-targeted biologics, to define any niche (for example, patients with both psoriasis and eczema)
+
+<!-- review:begin sg-lic-20261106-risankizumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA), along with the approved indication text for the four licences" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-risankizumab-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "for the four licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

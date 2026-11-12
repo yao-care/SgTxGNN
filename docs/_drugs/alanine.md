@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Alanine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not stated in the Singapore licence records (used in parenteral nutri…"
 monitor_inn: "Alanine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -74,6 +74,14 @@ Currently no related clinical trials registered.
 
 Five main authorisations:
 
+<!-- review:begin sg-lic-20261106-alanine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 19 licences are valid single-ingredient registrations; the approved indication text is not available in the licence records. Five main authorisations:" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-alanine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -83,6 +91,8 @@ Five main authorisations:
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
 Showing 5 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 Other registered products include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B.Braun 10% E, OliClinomel, SmofKabiven (several variants) and Nutriflex Omega (several variants).
 
@@ -109,6 +119,19 @@ The prediction rests only on a model score. There are no clinical trials, the re
 - Package insert warnings and contraindications for the Singapore-registered products
 - Preclinical or early clinical data on alanine in gastroparesis
 - Assessment of route and formulation suitability, since current products are intravenous nutrition solutions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 19 licences are valid single-ingredient registrations; the approved indication text is not available in the licence records" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

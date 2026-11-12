@@ -70,9 +70,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Protamine Su
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03696P | PROSULF INJECTION 1% | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

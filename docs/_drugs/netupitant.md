@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15031P | AKYNZEO CAPSULES 300MG/0.5MG | CAPSULE, GELATIN COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

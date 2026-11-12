@@ -74,11 +74,15 @@ The TxGNN deep-learning model produced no candidate indication with a score of 0
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05051P | CYMEVENE FOR INJECTION 500 mg | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN11778P | VIRGAN EYE GEL 1.5 mg/g | OINTMENT | Valid |
 | SIN17325P | Ganciclovir-AFT Powder for Solution for Injection 500mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

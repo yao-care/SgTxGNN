@@ -76,6 +76,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Bicar
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05414P | SODIUM BICARBONATE CAPSULE 500 mg | CAPSULE | Valid |
@@ -100,6 +102,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Bicar
 | SIN14016P | GAVISCON DOUBLE ACTION LIQUID, SUSPENSION | SUSPENSION | Valid |
 
 Showing 20 of 23 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

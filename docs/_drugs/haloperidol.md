@@ -80,12 +80,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09918P | HALOXEN 5 TABLET 5 mg | TABLET | Valid |
 | SIN11076P | MANACE INJECTION 5 mg/ml | INJECTION | Valid |
 | SIN11225P | MYUNG IN HALOPERIDOL INJECTION 5 mg/ml | INJECTION | Valid |
 | SIN12245P | MYUNG IN HALOPERIDOL TABLET 1.5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All four registrations are valid single-ingredient products, available as oral tablets and injections.
 

@@ -92,9 +92,13 @@ None of these publications provides breast cancer-specific or bone-related evide
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16434P | XPOVIO FILM-COATED TABLETS 20MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -71,9 +71,13 @@ Currently no related literature available for Prinzmetal angina.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08670P | AERRANE INHALATION ANAESTHETIC | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

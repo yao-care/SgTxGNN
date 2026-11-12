@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,6 +76,14 @@ Currently no related clinical trials registered.
 
 All 18 licences are valid registrations, with none cancelled. The licence records contain no approved indication text. Five main authorisations are listed below.
 
+<!-- review:begin sg-lic-20261106-guaifenesin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 18 licences are valid single-ingredient registrations, with none cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-guaifenesin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06725P | WOODS' PEPPERMINT COUGH SYRUP 100 mg/5 ml | SYRUP | Valid |
@@ -85,6 +93,8 @@ All 18 licences are valid registrations, with none cancelled. The licence record
 | SIN08969P | COUGH RELIEF SYRUP 100 mg/5 ml | SYRUP | Valid |
 
 Showing 5 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +124,18 @@ The prediction score is high, but the evidence is limited to a single narrative 
 | 3 | Faucial diphtheria | 0.9954 | L5 | No plausible mechanism; likely a false positive |
 | 4 | Cervical disc degenerative disorder | 0.9950 | L5 | No plausible mechanism; likely a model artifact |
 | 5 | Papillary conjunctivitis | 0.9927 | L5 | No known anti-allergic mechanism |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

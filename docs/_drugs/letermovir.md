@@ -91,11 +91,15 @@ They concern fungal infections in transplant recipients who receive letermovir p
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15757P | PREVYMIS FILM COATED TABLET 240MG | TABLET, FILM COATED | Valid |
 | SIN15758P | PREVYMIS FILM COATED TABLET 480MG | TABLET, FILM COATED | Valid |
 | SIN15759P | PREVYMIS CONCENTRATE FOR SOLUTION FOR INFUSION 20MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

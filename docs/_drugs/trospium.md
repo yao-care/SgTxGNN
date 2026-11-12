@@ -72,9 +72,13 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13312P | Spasmolyt Tablet 20mg | TABLET, COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

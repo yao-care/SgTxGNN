@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Idursulfase,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13902P | Elaprase (TM) Solution for Intravenous Infusion 2mg/ ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

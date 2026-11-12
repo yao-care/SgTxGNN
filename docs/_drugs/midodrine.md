@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 673
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -98,9 +98,13 @@ Other predictions have little or no literature. For ADHD, the single paper (PMID
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17279P | JAMP MIDODRINE TABLET 5 MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -125,6 +129,25 @@ The top-ranked prediction, variably protease-sensitive prionopathy, has no trial
 - A defined approved-indication statement
 - For hypotensive disorder, confirmation of which specific populations (for example, spinal cord injury or hepatorenal syndrome) would be new relative to the approved use, together with a supine hypertension and bradycardia monitoring plan
 - For the other predictions, no further work is suggested unless new mechanistic or clinical evidence emerges
+
+<!-- review:begin sg-lic-20261106-midodrine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A defined approved-indication statement for licence SIN11500P" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 1 registration for this drug, 1 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-midodrine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "for licence SIN11500P" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

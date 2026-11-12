@@ -72,12 +72,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Chlorhexidin
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04696P | ORAL AID LOTION | LOTION | Valid |
 | SIN08535P | HORF LOZENGES | LOZENGE | Valid |
 | SIN08671P | DIFFLAM-C ANTI-INFLAMMATORY ANTISEPTIC SOLUTION | MOUTHWASH | Valid |
 | SIN08901P | SOOV CREAM | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

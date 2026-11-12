@@ -91,9 +91,13 @@ Most of this literature is old (1962–1991), narrative or descriptive, and does
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01559P | CHLOROQUINE TABLETS 250 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,6 +72,8 @@ The TxGNN model produced candidates for Zoledronic Acid, but every candidate tha
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13050P | Zometa Concentrate for Solution for Infusion 4 mg/5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
@@ -87,6 +89,8 @@ The TxGNN model produced candidates for Zoledronic Acid, but every candidate tha
 | SIN15982P | ZOLETEM CONCENTRATE FOR SOLUTION FOR INFUSION 4MG/5ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15983P | BONETEM-Z SOLUTION FOR INFUSION 5MG/100ML | INFUSION, SOLUTION | Valid |
 | SIN16482P | ZOLEDRONIC ACID ADVAGEN SOLUTION FOR INFUSION 5MG/100ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

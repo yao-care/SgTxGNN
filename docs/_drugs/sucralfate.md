@@ -104,9 +104,13 @@ Currently no related literature available for duodenogastric reflux.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08585P | APO-SUCRALFATE TABLET 1 g | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

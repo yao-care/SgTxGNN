@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 698
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the Singapore license records (the product types are na…"
 monitor_inn: "Naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -81,13 +81,23 @@ Currently no related literature available for the top predicted indication.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03722P | NAZAL SPRAY | SPRAY | Valid |
 | SIN04717P | NAPHCON-A STERILE OPHTHALMIC SOLUTION | SOLUTION | Valid |
 | SIN07343P | FLUCUR NEBULISER | SPRAY | Valid |
 
+<!-- licenses:end -->
+
 All three licenses are valid products.
+
+<!-- review:begin sg-lic-20261106-naphazoline-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licenses are valid single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-naphazoline-1 -->
 
 ---
 
@@ -116,6 +126,19 @@ The prediction is computational only (L5), with no clinical trials or relevant p
 - Mechanism of action data from DrugBank
 - Approved indication text for the three Singapore licenses
 - Any direct preclinical or clinical evidence of naphazoline in hair disorders or glaucoma; without it, the prediction should not advance
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

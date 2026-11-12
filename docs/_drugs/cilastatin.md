@@ -81,12 +81,16 @@ Activity against *S. aureus* comes from imipenem, not cilastatin. Imipenem works
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14329P | Imipenem + Cilastatin Mevon Powder for solution for Injection 500 mg + | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN14589P | Imipenem/Cilastatin Labatec IV powder for Injection 500mg/500mg | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN14765P | IMIPENEM /CILASTATIN KABI POWDER FOR SOLUTION FOR INFUSION 500MG/500MG | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN16280P | IMCIL POWDER FOR SOLUTION FOR INJECTION OR INFUSION 500MG/500MG PER VI | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

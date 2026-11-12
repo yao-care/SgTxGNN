@@ -74,11 +74,15 @@ Multiple endocrine neoplasia type 2 (MEN2) is mainly driven by activating germli
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15991P | VITRAKVI HARD CAPSULE 100MG | CAPSULE | Valid |
 | SIN15992P | VITRAKVI HARD CAPSULE 25MG | CAPSULE | Valid |
 | SIN16827P | VITRAKVI ORAL SOLUTION 20MG/ML | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

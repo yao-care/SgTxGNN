@@ -70,6 +70,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sugammadex, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13812P | Bridion Solution For Injection 100mg/ml | INJECTION, SOLUTION | Valid |
@@ -79,6 +81,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sugammadex, 
 | SIN16988P | SUGAMMADEX KABI SOLUTION FOR INJECTION 100 MG/ML | INJECTION, SOLUTION | Valid |
 
 Showing 5 of 11 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

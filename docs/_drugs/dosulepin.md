@@ -73,9 +73,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Dosulepin
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10607P | ESPIN CAPSULE 25 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -101,9 +101,13 @@ It includes a report of **no response** to hydroquinone, so it does not support 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12607P | TRI-LUMA CREAM | CREAM | Valid |
+
+<!-- licenses:end -->
 
 Hydroquinone is currently available in Singapore only as a topical cream.
 

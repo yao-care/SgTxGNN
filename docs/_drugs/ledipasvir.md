@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 583
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Ledipasvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Not recorded in the local data"
@@ -101,7 +101,11 @@ The other predicted indications (hepatitis E, hepatitis A, flavivirus diseases, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ---
 
@@ -130,6 +134,25 @@ Ledipasvir has no expected direct anti-HBV mechanism. The only directly relevant
 - Mechanism of action data
 - Package insert warnings and contraindications, since these are currently missing from the data compiled for this report
 - An HBV reactivation monitoring plan for any co-infected population
+
+<!-- review:begin sg-lic-20261106-ledipasvir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "An HBV reactivation monitoring plan for any co-infected population / Clarification of the approved indication text in the Singapore registration record" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ledipasvir-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clarification of the approved indication text in the Singapore registration record" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -93,11 +93,15 @@ For reference, the strongest evidence is for the rank-8 prediction (polycystic k
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14289P | Somatuline Autogel Prolonged Release Solution for Injection in a Pre-f | INJECTION, SOLUTION | Valid |
 | SIN14290P | Somatuline Autogel Prolonged Release Solution for Injection in a Pre-f | INJECTION, SOLUTION | Valid |
 | SIN14291P | Somatuline Autogel Prolonged Release Solution for Injection in a Pre-f | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products (manufacturer: Ipsen Pharma Biotech). The only dosage form is an injectable.
 

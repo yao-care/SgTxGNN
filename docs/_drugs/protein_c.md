@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Protein C, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14933P | OCTAPLEX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500 IU | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

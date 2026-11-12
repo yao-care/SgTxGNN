@@ -72,11 +72,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08620P | APO-ACEBUTOLOL TABLET 200 mg | TABLET, FILM COATED | Valid |
 | SIN08621P | APO-ACEBUTOLOL TABLET 100 mg | TABLET, FILM COATED | Valid |
 | SIN08636P | APO-ACEBUTOLOL TABLET 400 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All three are single-ingredient products from Apotex Inc and are currently valid. The number of registrations is 3 (all licences, none partial).
 

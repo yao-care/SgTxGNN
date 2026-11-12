@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Leucine, so 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -92,6 +94,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Leucine, so 
 | SIN16888P | PERIOLIMEL N4E Emulsion for Infusion | EMULSION | Valid |
 | SIN16889P | OLIMEL N7E Emulsion for Infusion | EMULSION | Valid |
 | SIN16890P | OLIMEL N9E Emulsion for Infusion | EMULSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

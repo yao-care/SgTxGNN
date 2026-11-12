@@ -73,9 +73,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02898P | MESTINON TABLET 60 mg | TABLET, SUGAR COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -80,10 +80,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13917P | Halaven Solution for Injection 0.5mg/mL | INJECTION, SOLUTION | Valid |
 | SIN17432P | Ebunat Solution for Injection 0.5mg/ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 The product is a valid single-ingredient registration.
 

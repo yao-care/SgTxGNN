@@ -78,9 +78,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15249P | MILRINONE-BAXTER CONCENTRATED SOLUTION FOR INJECTION 10MG/10ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 The only registered product is an injectable. A systemic injection is a poor fit for a non-life-threatening condition like alopecia, so route compatibility would need to be addressed if this direction were pursued.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ethambutol: predicted new indication Epiglottitis (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **5**
 Ethambutol is an anti-tuberculosis drug originally used to treat pulmonary tuberculosis.
 The TxGNN model predicts it may be effective for **epiglottitis**, but there are currently **0 clinical trials** and only **1 publication** (a case series on laryngeal tuberculosis), so the supporting evidence is very weak.
 
+<!-- review:begin sg-lic-20261106-ethambutol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "*Note: The registered Singapore product labels in the data compiled for this report have no approved-indication text. The original indication is therefore given as pulmonary tuberculosis.*" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ethambutol-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -65,6 +71,12 @@ Other top-ranked predictions show the same pattern. Laryngitis, peritonitis, end
 
 Currently no related clinical trials registered.
 
+<!-- review:begin sg-lic-20261106-ethambutol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both products are single-ingredient, currently valid, oral tablets made by Sunward Pharmaceutical Private Limited." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ethambutol-2 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -73,7 +85,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -94,6 +110,20 @@ Epiglottitis has no registered trials and only one case series, which concerns t
 - Confirmed mechanism of action data
 - Evidence that ethambutol has activity in a non-tuberculous form of epiglottitis, or a narrower focus on tuberculous laryngeal and epiglottic disease, which falls under the existing anti-TB indication
 - A review of the other predicted indications for any with genuine non-TB evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "*Note: The registered Singapore product labels in the data compiled for this report have no approved-indication text. The original indicatio" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Both products are single-ingredient, currently valid, oral tablets made by Sunward Pharmaceutical Private Limited" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,11 +72,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Dacomitinib,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15965P | VIZIMPRO FILM-COATED TABLET 45MG | TABLET, FILM COATED | Valid |
 | SIN15966P | VIZIMPRO FILM-COATED TABLET 15MG | TABLET, FILM COATED | Valid |
 | SIN15967P | VIZIMPRO FILM-COATED TABLET 30MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

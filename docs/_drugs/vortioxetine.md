@@ -74,6 +74,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14665P | BRINTELLIX FILM-COATED TABLETS 5MG | TABLET, FILM COATED | Valid |
@@ -83,6 +85,8 @@ Currently no related clinical trials registered.
 | SIN16556P | VORTIOSON FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

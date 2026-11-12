@@ -73,9 +73,13 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10441P | SIMULECT FOR INJECTION 20 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

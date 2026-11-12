@@ -78,11 +78,15 @@ Currently no related literature available for nephrogenic syndrome of inappropri
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14861P | RANEXA PROLONGED-RELEASE TABLET 375 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN14862P | RANEXA PROLONGED-RELEASE TABLET 500 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN14863P | RANEXA PROLONGED-RELEASE TABLET 750 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products from Menarini-Von Heyden GmbH, administered orally.
 

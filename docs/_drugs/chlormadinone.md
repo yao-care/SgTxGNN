@@ -70,7 +70,11 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

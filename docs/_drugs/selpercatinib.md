@@ -74,12 +74,16 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16990P | TANSTRIVE HARD CAPSULES 40MG | CAPSULE | Valid |
 | SIN16991P | TANSTRIVE HARD CAPSULES 80MG | CAPSULE | Valid |
 | SIN17487P | TANSTRIVE TABLETS 40MG | TABLET, FILM COATED | Valid |
 | SIN17488P | TANSTRIVE TABLETS 80MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,14 @@ Currently no related literature available.
 
 Approved indication text is not listed for these licences. The main authorisations are:
 
+<!-- review:begin sg-lic-20261106-latanoprost-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Thirteen valid licences are registered in Singapore, none cancelled. Approved indication text is not listed for these licences." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 12 registrations for this drug, 12 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-latanoprost-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09549P | XALATAN EYE DROPS 0.005% | SOLUTION | Valid |
@@ -83,6 +91,8 @@ Approved indication text is not listed for these licences. The main authorisatio
 | SIN16849P | LATANO SANTEN OPHTHALMIC SOLUTION, 0.005%w/v | SOLUTION, STERILE | Valid |
 
 Showing 5 of 12 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The prediction is supported only by a model score, with no trials or literature.
 - Literature and trial searches for paediatric or congenital glaucoma, and for prostaglandin analogues in hypotrichosis
 - Assessment of safety in children and of the knowledge-graph contraindicated conditions
 - Review of the interaction severity levels
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Thirteen valid licences are registered in Singapore, none cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

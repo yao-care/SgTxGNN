@@ -95,11 +95,15 @@ The publications are reviews and descriptive reports on neurocysticercosis. No r
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07903P | ALZENTAL TABLET 400 mg | TABLET, FILM COATED | Valid |
 | SIN09954P | ALBENDOL-400 TABLET 400 mg | TABLET | Valid |
 | SIN14030P | Zentel Tablet 400mg | TABLET, CHEWABLE | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient oral products.
 

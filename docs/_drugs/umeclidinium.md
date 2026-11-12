@@ -72,12 +72,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Umeclidinium
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14853P | INCRUSE ELLIPTA INHALATION POWDER 62.5 MCG/DOSE | POWDER, METERED | Valid |
 | SIN14838P | ANORO ELLIPTA INHALATION POWDER 62.5 MCG/25 MCG | POWDER, METERED | Valid |
 | SIN15806P | TRELEGY ELLIPTA INHALATION POWDER 100 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
 | SIN16914P | TRELEGY ELLIPTA INHALATION POWDER 200 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

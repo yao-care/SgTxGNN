@@ -50,9 +50,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04555P | SUSTANON 250 INJECTION | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 The product is a valid single-ingredient registration, manufactured by EVER Pharma Jena GmbH.
 

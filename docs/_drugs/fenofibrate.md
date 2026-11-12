@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fenofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, hyperlipidaemia and familial hyperlipidaemia"
 ---
 
@@ -78,6 +78,8 @@ Currently no related clinical trials registered.
 
 The licence records contain no approved-indication text, so no indication is listed. Showing 5 of 13 authorisations.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10668P | TROLIP 300 CAPSULES 300 mg | CAPSULE | Valid |
@@ -88,7 +90,15 @@ The licence records contain no approved-indication text, so no indication is lis
 
 Showing 5 of 13 HSA registrations.
 
+<!-- licenses:end -->
+
 Oral capsule and tablet forms are available.
+
+<!-- review:begin sg-lic-20261106-fenofibrate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Number of approvals: 13 single-ingredient licences, all valid, none cancelled. Oral capsule and tablet forms are available." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-fenofibrate-1 -->
 
 ## Safety Considerations
 
@@ -113,6 +123,19 @@ The TxGNN score is high (0.9961), but no clinical trial or publication directly 
 - Mechanism of action data (MOA)
 - Package insert warnings and contraindications from the HSA to complete safety screening
 - Any human studies of fenofibrate in CETP-deficient patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Number of approvals: 13 single-ingredient licences, all valid, none cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

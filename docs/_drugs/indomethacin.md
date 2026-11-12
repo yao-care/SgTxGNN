@@ -80,11 +80,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05375P | INDO CAPSULES 25 mg | CAPSULE | Valid |
 | SIN08624P | INDOMEN CAPSULE 25 mg | CAPSULE | Valid |
 | SIN09699P | HD-METHACIN CAPSULE 25 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 All three are valid single-ingredient oral products, and none has been cancelled.
 

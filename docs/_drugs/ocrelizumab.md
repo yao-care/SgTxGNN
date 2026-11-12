@@ -71,10 +71,14 @@ Currently no related literature available for HER2-positive breast carcinoma.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16871P | OCREVUS CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/10ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
 | SIN17390P | OCREVUS SOLUTION FOR INJECTION 920MG/23ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

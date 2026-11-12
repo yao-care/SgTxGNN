@@ -97,10 +97,14 @@ Literature for the top prediction (conjunctivitis), prioritised by study design:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16652P | ROYCE RIFAMPICIN CAPSULE 150MG | CAPSULE | Valid |
 | SIN16653P | ROYCE RIFAMPICIN CAPSULE 300MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 Both are valid single-ingredient oral products from Royce Pharma Manufacturing Sdn. Bhd. No topical or ophthalmic formulation is registered.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 593
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Levetiracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,6 +86,14 @@ None of the publications below studies visual epilepsy directly.
 
 No approved indication text is recorded for these licences.
 
+<!-- review:begin sg-lic-20261106-levetiracetam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Twenty licences are valid; the five main ones are shown below. No approved indication text is recorded for these licences." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 33 registrations for this drug, 33 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-levetiracetam-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11685P | KEPPRA TABLET 250 mg | TABLET, FILM COATED | Valid |
@@ -95,6 +103,8 @@ No approved indication text is recorded for these licences.
 | SIN14447P | Epivon film-coated tablets 250mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 33 HSA registrations.
+
+<!-- licenses:end -->
 
 Oral, intravenous and oral-solution forms are all available.
 
@@ -120,6 +130,19 @@ It has several completed Phase 3 trials, including a 478-patient randomized comp
 - Package insert warnings and contraindications from the Singapore regulator (HSA)
 - Mechanism of action data confirmed from a primary source
 - Comparison with established first-line options for photosensitive epilepsy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Twenty licences are valid; the five main ones are shown below" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

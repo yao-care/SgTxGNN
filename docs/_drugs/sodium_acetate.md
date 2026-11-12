@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 916
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the registration records (no approved indication text i…"
 monitor_inn: "Sodium acetate"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
@@ -66,6 +66,14 @@ Other top-ranked predictions are also unsupported. These include epiglottitis, u
 
 The registration records do not include approved indication text. The main authorizations are listed below.
 
+<!-- review:begin sg-lic-20261106-sodium_acetate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Singapore has 20 valid single-ingredient registrations and no cancelled ones. The registration records do not include approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 11 registrations for this drug, 11 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sodium_acetate-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06523P | PLASMA-LYTE A INJECTION | INJECTION | Valid |
@@ -75,6 +83,8 @@ The registration records do not include approved indication text. The main autho
 | SIN15336P | GELASPAN SOLUTION FOR INFUSION | INFUSION, SOLUTION | Valid |
 
 Showing 5 of 11 HSA registrations.
+
+<!-- licenses:end -->
 
 The remaining registrations include peritoneal dialysis solutions (Dianeal, Physioneal, Extraneal, Europersol), Lactoride 500 Infusion, and Gelaspan.
 
@@ -104,6 +114,19 @@ The prediction rests on model score alone (Evidence Level L5). There are no clin
 - Mechanism of action data from DrugBank
 - Any preclinical or clinical evidence linking sodium acetate to the predicted indication
 - Approved indication text for the Singapore registrations, to confirm the original use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Singapore has 20 valid single-ingredient registrations and no cancelled ones" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

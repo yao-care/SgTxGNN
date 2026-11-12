@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1037
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the registration data (the products are amino acid infu…"
 monitor_inn: "Tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -105,6 +105,14 @@ The most relevant publications among the other predictions are listed below. Non
 
 The registration data contain no approved indication text. The five main authorizations are listed below.
 
+<!-- review:begin sg-lic-20261106-tyrosine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 15 registrations are valid single-ingredient products. The registration data contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 17 registrations for this drug, 17 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-tyrosine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -114,6 +122,8 @@ The registration data contain no approved indication text. The five main authori
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
 Showing 5 of 17 HSA registrations.
+
+<!-- licenses:end -->
 
 The remaining 10 registrations include amino acid, peritoneal dialysis, and multi-chamber parenteral nutrition products (for example Nutrineal PD4, Vaminolact, Aminoplasmal B.Braun 10% E, Oliclinomel, and SmofKabiven variants).
 
@@ -141,6 +151,19 @@ The prediction for cauda equina syndrome rests only on a TxGNN model (deep learn
 - A targeted literature and trial search on tyrosine itself for the predicted indications, excluding tyrosine kinase inhibitor papers
 - Mapping of the obsolete neurogenic bladder term to a current ontology term
 - Route and formulation compatibility assessment, since current products are all parenteral nutrition formulations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 15 registrations are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

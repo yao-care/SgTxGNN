@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluticasone Furoate: predicted new indication Atopic eczema (evidence level L5). Approved use: Asthma, allergic asthma, allergic rhinitis, vasomotor rhinitis"
 monitor_inn: "Fluticasone furoate"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
@@ -84,6 +84,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13666P | Avamys Nasal Spray 27.5 mcg/spray | SPRAY, SUSPENSION | Valid |
@@ -92,7 +94,15 @@ Currently no related clinical trials registered.
 | SIN15806P | TRELEGY ELLIPTA INHALATION POWDER 100 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
 | SIN16914P | TRELEGY ELLIPTA INHALATION POWDER 200 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
 
+<!-- licenses:end -->
+
 None is for a skin (topical) formulation.
+
+<!-- review:begin sg-lic-20261106-fluticasone_furoate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are currently valid. None is for a skin (topical) formulation." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-fluticasone_furoate-1 -->
 
 ---
 
@@ -120,6 +130,19 @@ The prediction score is very high, but there are no clinical trials and no liter
 - A route and formulation assessment, including systemic exposure and adrenal suppression risk
 
 **Note on other predictions:** Among the other predicted indications, only obstructive lung disease (including COPD) has substantial support, including several Phase 3 trials and large RCTs of fluticasone furoate combination inhalers. This is closely related to the existing asthma use rather than a novel repurposing, and it would warrant "Proceed with Guardrails" in its own right. The evidence is for fixed-dose combinations rather than monotherapy, and the pneumonia risk of inhaled corticosteroids in COPD needs managing through patient selection.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

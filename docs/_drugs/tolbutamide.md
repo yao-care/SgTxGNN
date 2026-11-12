@@ -73,9 +73,13 @@ The TxGNN model produced no candidate indication for Tolbutamide with a score of
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04257P | TOLMIDE TABLET 500 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

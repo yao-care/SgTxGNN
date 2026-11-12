@@ -85,10 +85,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13880P | Priligy Tablet 30mg | TABLET, FILM COATED | Valid |
 | SIN13881P | Priligy Tablet 60mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products from MENARINI - VON HEYDEN GmbH, oral route.
 

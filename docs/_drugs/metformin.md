@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,6 +78,14 @@ Among the lower-ranked predictions, the only evidence was indirect:
 
 Approved indication text is not recorded in the licence data. The five main authorizations are listed below.
 
+<!-- review:begin sg-lic-20261106-metformin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Metformin has 20 valid single-ingredient registrations in Singapore. Approved indication text is not recorded in the licence data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 65 registrations for this drug, 65 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-metformin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04249P | GLUCOPHAGE TABLET 500 mg | TABLET, FILM COATED | Valid |
@@ -87,6 +95,8 @@ Approved indication text is not recorded in the licence data. The five main auth
 | SIN06937P | GLYFORMIN 500 TABLET 500 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 65 HSA registrations.
+
+<!-- licenses:end -->
 
 All products are oral tablets (immediate-release, film-coated or extended-release).
 
@@ -126,6 +136,19 @@ The prediction rests only on a model score. There are no clinical trials or lite
 - Preclinical or clinical evidence linking metformin to stiff-person-spectrum disorders
 - Review of the knowledge-graph contraindication signals against the label, particularly renal, hepatic and cardiac conditions
 - Consideration of other high-scoring candidates only if direct supporting evidence emerges (none was found for the top ten predictions)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Metformin has 20 valid single-ingredient registrations in Singapore" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

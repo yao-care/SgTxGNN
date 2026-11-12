@@ -76,12 +76,16 @@ Related literature found for broader headache and migraine-susceptibility predic
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14038P | ALOXI® Solution for Injection 50mcg/ml | INJECTION, SOLUTION | Valid |
 | SIN16959P | PALONOSETRON-AFT SOLUTION FOR INJECTION 0.25MG/5ML | INJECTION, SOLUTION | Valid |
 | SIN15031P | AKYNZEO CAPSULES 300MG/0.5MG | CAPSULE, GELATIN COATED | Valid |
 | SIN16899P | Akynzeo® IV Concentrate for Solution for Infusion 235 mg/0.25 mg/vial | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

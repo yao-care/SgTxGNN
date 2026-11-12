@@ -62,9 +62,13 @@ Tumours linked to human herpesvirus 8 (HHV-8), such as Kaposi sarcoma, are drive
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15672P | BAVENCIO CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/10ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

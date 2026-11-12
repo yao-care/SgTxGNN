@@ -74,6 +74,8 @@ The TxGNN deep-learning model produced candidate indications for Aluminum Hydrox
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02930P | ALU-TAB TABLET 600 mg | TABLET, FILM COATED | Valid |
@@ -92,6 +94,8 @@ The TxGNN deep-learning model produced candidate indications for Aluminum Hydrox
 | SIN07893P | GERSKIN TABLET | TABLET | Valid |
 
 Showing 14 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

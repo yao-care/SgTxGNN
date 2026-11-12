@@ -79,6 +79,8 @@ Currently no related clinical trials registered.
 
 All five licences below are for products that contain emtricitabine as one ingredient, and the licence records compiled for this report give no approved indication text. This section therefore describes only the registrations; it does not establish how emtricitabine itself is approved or marketed as a single ingredient.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14147P | Truvada Tablet 200mg/300mg | TABLET, FILM COATED | Valid |
@@ -86,6 +88,8 @@ All five licences below are for products that contain emtricitabine as one ingre
 | SIN15322P | DESCOVY FILM COATED TABLET 200 MG/25 MG | TABLET, FILM COATED | Valid |
 | SIN15604P | BIKTARVY FILM-COATED TABLETS 50MG/200MG/25MG | TABLET, FILM COATED | Valid |
 | SIN16015P | ODEFSEY FILM-COATED TABLET 200MG/25MG/25MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

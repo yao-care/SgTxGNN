@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Cimetidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cimetidine: predicted new indication peptic ulcer perforation (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -81,13 +81,23 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07835P | CIMETIDINE TABLETS 200 mg | TABLET, FILM COATED | Valid |
 | SIN08468P | SHINTAMET FILM COATED TABLET 400 mg | TABLET, FILM COATED | Valid |
 | SIN09571P | CIMETIDINE TABLET 200 mg | TABLET | Valid |
 
+<!-- licenses:end -->
+
 Cimetidine is currently marketed in Singapore.
+
+<!-- review:begin sg-lic-20261106-cimetidine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Cimetidine is currently marketed in Singapore. The local records show 8 valid licences, all for single-ingredient oral tablet products (film-coated and plain tablets)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-cimetidine-1 -->
 
 ## Safety Considerations
 
@@ -106,6 +116,19 @@ No clinical trial addresses cimetidine for peptic ulcer perforation. The literat
 - Controlled or comparative studies showing a benefit of cimetidine in preventing or managing perforation, as distinct from treating the underlying ulcer
 - Mechanism of action data and package-insert warnings and contraindications
 - A comparison with current standard acid-suppressive and ulcer-eradication therapies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local records show 8 valid licences, all for single-ingredient oral tablet products (film-coated and plain tablets)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

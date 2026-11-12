@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 790
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,12 +83,16 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06056P | DILANTIN CAPSULE 30 mg | CAPSULE | Valid |
 | SIN09208P | DILANTIN CAPSULE 100 mg | CAPSULE | Valid |
 | SIN13114P | Dilantin 125® (Phenytoin Oral Suspension, USP) 125mg/5ml | SUSPENSION | Valid |
 | SIN16560P | PHARMANIAGA PHENYTOIN SODIUM SOLUTION FOR INJECTION 250MG/5ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -102,6 +106,12 @@ Currently no related clinical trials registered.
 - Metabolic: hyperglycemia, diabetes mellitus, diabetic ketoacidosis, porphyria and other porphyrin metabolism diseases
 - Autoimmune: systemic lupus erythematosus (including paediatric)
 - Other: hypotensive disorder, anxiety and neurotic disorders, dysthymic disorder, substance abuse/dependence, sleep apnea syndromes, congenital central hypoventilation syndrome
+
+<!-- review:begin sg-lic-20261106-phenytoin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid single-ingredient products, covering oral and injectable routes." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-phenytoin-1 -->
 
 **Drug Interactions:** 100 interactions were found. The 20 shown in the data are mostly Moderate, with one Minor (acetylsalicylic acid). Moderate-level examples include:
 - Antidiabetic drugs: acarbose, metformin, pioglitazone, alogliptin, albiglutide
@@ -137,6 +147,18 @@ The other predictions offer a more credible path than the top-ranked one:
 |---|---|---|---|---|
 | 9 | Trigeminal neuralgia | 0.9997 | L4 | Most clinically credible. Phenytoin acts on the same sodium channel mechanism as carbamazepine (first-line). Evidence includes IV phenytoin retrospective cohorts (PMID 32981076, PMID 35469475) and a Cochrane review on neuropathic pain (PMID 22592741). Guidelines favour carbamazepine/oxcarbazepine, so it is at best second-line or rescue. Suggested as a research question. |
 | 10 | Beta-ketothiolase deficiency | 0.9995 | L5 | No mechanistic rationale or literature. Hold. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five licences are valid single-ingredient products, covering oral and injectable routes" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

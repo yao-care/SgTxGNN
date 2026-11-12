@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Diosmin"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Diosmin: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,6 +76,8 @@ Currently no related literature available for amenorrhea.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01067P | DAFLON TABLET 500 mg | TABLET, SUGAR COATED | Valid |
@@ -86,7 +88,15 @@ Currently no related literature available for amenorrhea.
 
 Showing 5 of 6 HSA registrations.
 
+<!-- licenses:end -->
+
 A sixth registration, Diosper Film Coated Tablet (SIN11942P), is also valid. All six are oral products.
+
+<!-- review:begin sg-lic-20261106-diosmin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All six are single-ingredient oral products." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-diosmin-1 -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The amenorrhea prediction has no supporting trials or literature, and no plausib
 - Package insert warnings and contraindications from the Singapore regulator, to complete the safety screening
 - The approved indication text for the Singapore registrations
 - Any preclinical or clinical evidence on diosmin in amenorrhea, which does not exist in the compiled data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

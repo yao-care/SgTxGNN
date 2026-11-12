@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acetylcysteine: predicted new indication Thrombotic disease (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -91,6 +91,14 @@ An important caveat: the Phase 3 TA-TMA trial is listed as completed, but no out
 
 The approved indication is not recorded in the local data.
 
+<!-- review:begin sg-lic-20261106-acetylcysteine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Acetylcysteine is marketed in Singapore as single-ingredient products (16 valid licences in the local records), including granules, powder for solution, effervescent tablets and capsules. The approved indication is not recorded in the local data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-acetylcysteine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03414P | FLUIMUCIL GRANULES 100 mg/sachet | GRANULE | Valid |
@@ -100,6 +108,8 @@ The approved indication is not recorded in the local data.
 | SIN14392P | TREBON-N GRANULES FOR ORAL SUSPENSION 100MG/SACHET | GRANULE, FOR SUSPENSION | Valid |
 
 Showing 5 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -119,6 +129,19 @@ The predicted indication is supported by a completed Phase 3 trial and an active
 - Package insert warnings and contraindications for the Singapore products
 - Mechanism-of-action data from DrugBank
 - A clear definition of the target population (TA-TMA or TTP rather than thrombosis in general)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Acetylcysteine is marketed in Singapore as single-ingredient products (16 valid licences in the local records), including granules, powder f" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

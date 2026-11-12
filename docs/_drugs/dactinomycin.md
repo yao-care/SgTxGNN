@@ -102,9 +102,13 @@ Relapsing-remitting multiple sclerosis has no related literature. The table belo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10989P | K. U. DACTINOMYCIN FOR INJECTION 0.5 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

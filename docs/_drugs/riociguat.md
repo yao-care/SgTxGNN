@@ -73,6 +73,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14678P | ADEMPAS FILM-COATED TABLET 0.5mg | TABLET, FILM COATED | Valid |
@@ -80,6 +82,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | SIN14680P | ADEMPAS FILM-COATED TABLET 1.5mg | TABLET, FILM COATED | Valid |
 | SIN14681P | ADEMPAS FILM-COATED TABLET 2.0mg | TABLET, FILM COATED | Valid |
 | SIN14682P | ADEMPAS FILM-COATED TABLET 2.5mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

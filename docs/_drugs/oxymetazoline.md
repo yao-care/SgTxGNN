@@ -91,6 +91,8 @@ None of these studies is a randomized trial of oxymetazoline for nasal cavity di
 
 Ten valid single-ingredient licences are registered. The approved indication text is not available for any of them. The five main ones are:
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02656P | CLARICLEAR NASAL SPRAY 0.05% | SPRAY | Valid |
@@ -100,6 +102,8 @@ Ten valid single-ingredient licences are registered. The approved indication tex
 | SIN06533P | ILIADIN SOLUTION FOR NOSE 0.01% | SOLUTION | Valid |
 
 Showing 5 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

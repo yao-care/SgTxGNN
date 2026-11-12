@@ -97,9 +97,13 @@ Neither paper tests fluorometholone efficacy directly.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04347P | FML LIQUIFILM OPHTHALMIC SUSPENSION 0.1% | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

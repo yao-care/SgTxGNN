@@ -82,12 +82,16 @@ Currently no related literature available for the predicted indication.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14365P | LUMIGAN (BIMATOPROST OPHTHALMIC SOLUTION) 0.01% | SOLUTION, STERILE | Valid |
 | SIN16938P | LUMIGAN PF (BIMATOPROST OPHTHALMIC SOLUTION) 0.03% | SOLUTION, STERILE | Valid |
 | SIN13589P | Ganfort Eye Drops | SOLUTION, STERILE | Valid |
 | SIN14966P | GANFORT PF EYE DROPS (Bimatoprost 0.3mg/ml, Timolol 5.0mg/ml) | SOLUTION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 All four registrations are valid and held by Allergan Pharmaceuticals Ireland. The data compiled for this report do not include approved indication text. The Ganfort products contain bimatoprost combined with timolol.
 

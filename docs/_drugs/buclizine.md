@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Buclizine, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02652P | BUCLIZINE TABLET 25 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

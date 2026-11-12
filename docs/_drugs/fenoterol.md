@@ -90,9 +90,13 @@ No literature is available for multiple system atrophy. All of it is animal or t
 
 The licence records do not list approved indication text. The products are inhaled or nebulised forms.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02664P | BERODUAL SOLUTION | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

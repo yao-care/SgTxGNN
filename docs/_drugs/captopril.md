@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06665P | APO-CAPTO TABLET 50 mg | TABLET | Valid |
@@ -91,6 +93,8 @@ Currently no related clinical trials registered.
 | SIN08474P | DEXACAP TABLET 25 mg | TABLET | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

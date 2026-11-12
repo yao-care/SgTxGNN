@@ -105,9 +105,13 @@ None of these supports a therapeutic benefit in mania.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00395P | RYTMONORM TABLET 150 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

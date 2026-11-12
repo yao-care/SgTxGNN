@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 893
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Asthma, bronchial disease"
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
@@ -120,6 +120,14 @@ For reference, key publications for the other top predictions:
 
 The approved indication text is not recorded for these licences.
 
+<!-- review:begin sg-lic-20261106-salbutamol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Salbutamol has 17 valid single-ingredient registrations. The approved indication text is not recorded for these licences." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 14 registrations for this drug, 14 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-salbutamol-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00022P | ZENMOLIN SYRUP 2 mg/5 ml | SYRUP | Valid |
@@ -129,6 +137,8 @@ The approved indication text is not recorded for these licences.
 | SIN05762P | VENTAMOL SYRUP 2 mg/5 ml | SYRUP | Valid |
 
 Showing 5 of 14 HSA registrations.
+
+<!-- licenses:end -->
 
 Available forms include oral (tablet, syrup, suspension), inhaled (aerosol, powder, solution) and injectable products. No ophthalmic formulation is registered, which matters for any conjunctivitis indication.
 
@@ -158,6 +168,19 @@ The top-ranked prediction, papillary conjunctivitis, has a very high model score
 - For anaphylaxis: results or a re-powered trial of inhaled salbutamol as an adjunct to epinephrine
 - For bronchiolitis: a review of whether new evidence would overturn guideline recommendations against routine bronchodilator use
 - Safety review of the cardiovascular, metabolic and glaucoma-related cautions for any new population or route
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Salbutamol has 17 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -74,11 +74,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Burosumab, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16176P | CRYSVITA® SOLUTION FOR INJECTION 20 MG/ML | INJECTION, SOLUTION | Valid |
 | SIN16177P | CRYSVITA® SOLUTION FOR INJECTION 30 MG/ML | INJECTION, SOLUTION | Valid |
 | SIN16178P | CRYSVITA® SOLUTION FOR INJECTION 10 MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

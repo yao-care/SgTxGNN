@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Darbepoetin 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14739P | NESP INJECTION PLASTIC SYRINGE 10 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
@@ -81,6 +83,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Darbepoetin 
 | SIN14743P | NESP INJECTION PLASTIC SYRINGE 60 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
 | SIN14744P | NESP INJECTION PLASTIC SYRINGE 120 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
 | SIN14745P | NESP INJECTION PLASTIC SYRINGE 180 μg/0.5 ml | INJECTION, SOLUTION, CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

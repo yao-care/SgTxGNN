@@ -50,9 +50,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16623P | JEMPERLI CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/10ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 The product is an injectable (intravenous infusion) and is currently valid.
 

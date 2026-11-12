@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15934P | SAMSCA TABLET 15MG | TABLET | Valid |
@@ -91,6 +93,8 @@ Currently no related clinical trials registered.
 | SIN16610P | JINARC TABLET 60MG/30MG | TABLET | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

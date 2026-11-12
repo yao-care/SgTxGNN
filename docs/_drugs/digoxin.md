@@ -85,6 +85,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00544P | LANOXIN PAEDIATRIC/GERIATRIC ELIXIR 0.05 mg/ml | ELIXIR | Valid |
@@ -92,6 +94,8 @@ Currently no related clinical trials registered.
 | SIN01198P | LANOXIN TABLET 0.25 mg | TABLET | Valid |
 | SIN01203P | LANOXIN-PG PAEDIATRIC/GERIATRIC TABLET 0.0625 mg | TABLET | Valid |
 | SIN17078P | DIGOKERN TABLETS 0.25MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Available routes: oral (tablet), other (elixir), injectable.
 

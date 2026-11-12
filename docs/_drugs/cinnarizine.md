@@ -73,11 +73,15 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02924P | Cinnaron Tablets 25mg | TABLET | Valid |
 | SIN08482P | CINNA TABLET 25 mg | TABLET | Valid |
 | SIN10935P | AXCEL CINNARIZINE TABLETS 25 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

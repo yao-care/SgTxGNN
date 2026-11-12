@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 592
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Leuprolide"
 predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
 description: "Leuprolide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -73,6 +73,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08862P | Lucrin Depot for Injection PDS 3.75mg | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -83,7 +85,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 8 HSA registrations.
 
+<!-- licenses:end -->
+
 One further licence (SIN14004P, Lucrin Depot PDS 30mg) is also valid.
+
+<!-- review:begin sg-lic-20261106-leuprolide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One further licence (SIN14004P, Lucrin Depot PDS 30mg) is also valid. All 6 licences are single-ingredient products and all are currently valid." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-leuprolide-1 -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The prediction is computational only (L5). There are no trials, the single retri
 - Preclinical or observational evidence in osteoarthritis
 - Package insert warnings and contraindications from HSA, to complete safety screening
 - Review of the cardiometabolic and bone-loss risks relative to any proposed osteoarthritis population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 6 licences are single-ingredient products and all are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

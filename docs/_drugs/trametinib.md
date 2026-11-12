@@ -109,11 +109,15 @@ For context, the highest-ranked literature relates to **malignant melanoma of th
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15181P | MEKINIST FILM-COATED TABLETS 0.5MG | TABLET, FILM COATED | Valid |
 | SIN15182P | MEKINIST FILM-COATED TABLETS 2MG | TABLET, FILM COATED | Valid |
 | SIN17018P | MEKINIST® POWDER FOR ORAL SOLUTION 4.7 MG | POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

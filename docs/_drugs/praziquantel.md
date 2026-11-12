@@ -75,9 +75,13 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Praziqu
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06822P | DISTOCIDE TABLET 600 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

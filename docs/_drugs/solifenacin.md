@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Solifenac
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13702P | Vesicare Tablet 5mg | TABLET, FILM COATED | Valid |
@@ -83,6 +85,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Solifenac
 | SIN16679P | DALISOON F.C. TABLETS 5MG | TABLET, FILM COATED | Valid |
 
 Showing 7 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

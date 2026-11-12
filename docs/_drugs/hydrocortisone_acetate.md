@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 506
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Hydrocortisone acetate"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -77,6 +77,14 @@ There are two caveats. Low-potency hydrocortisone is generally considered weak f
 
 Eight valid licences are recorded in Singapore, all topical creams. Five are shown below.
 
+<!-- review:begin sg-lic-20261106-hydrocortisone_acetate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight valid licences are recorded in Singapore, all single-ingredient topical creams." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-hydrocortisone_acetate-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03781P | SW HYDROCORTISONE CREAM 1% w/w | CREAM | Valid |
@@ -86,6 +94,8 @@ Eight valid licences are recorded in Singapore, all topical creams. Five are sho
 | SIN06454P | MICON-H CREAM | CREAM | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,6 +114,18 @@ One completed Phase 3 randomized trial in children with alopecia areata included
 - Package-insert warnings and contraindications from the Singapore regulator
 - Mechanism of action data
 - A safety plan for long-term or scalp use, including skin atrophy and systemic absorption in children
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

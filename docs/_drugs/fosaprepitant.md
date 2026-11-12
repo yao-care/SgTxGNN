@@ -78,11 +78,15 @@ This is indirect, non-clinical evidence from a UV-induced ocular damage model, n
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14150P | Emend® I.V. Powder for Solution for Infusion 150mg | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN16419P | FOSAPREPITANT-AFT POWDER FOR INJECTION 150MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN16996P | APRITANT IV powder for solution for injection 150mg/vial | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

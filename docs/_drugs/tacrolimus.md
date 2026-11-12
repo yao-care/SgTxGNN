@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 947
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -90,6 +90,14 @@ Results of these trials were not included in the compiled data.
 
 The licence records contain no approved indication text. Five main authorisations are shown below, including the topical ointments most relevant to this prediction.
 
+<!-- review:begin sg-lic-20261106-tacrolimus-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 20 valid single-ingredient licences. The licence records contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 26 registrations for this drug, 26 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-tacrolimus-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09639P | PROGRAF CONCENTRATE FOR INFUSION 5 mg/ml | INJECTION | Valid |
@@ -99,6 +107,8 @@ The licence records contain no approved indication text. Five main authorisation
 | SIN12523P | PROTOPIC OINTMENT 0.03% | OINTMENT | Valid |
 
 Showing 5 of 26 HSA registrations.
+
+<!-- licenses:end -->
 
 Only the two Protopic ointments are topical. The remaining licences are oral or injectable systemic products.
 
@@ -130,6 +140,18 @@ A completed Phase 3 trial and a completed Phase 4 trial directly address tacroli
 | Indication | Score | Evidence Level | Recommendation | Comment |
 |------|------|------|------|------|
 | Parapsoriasis | 0.9924 | L5 | Research Question | Case reports only |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 20 valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

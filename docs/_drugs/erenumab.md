@@ -72,12 +72,16 @@ The TxGNN model produced candidates for Erenumab with a score of 0.99 or higher.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15543P | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED PEN 70MG/ML | INJECTION, SOLUTION | Valid |
 | SIN15545P | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 70MG/ML | INJECTION, SOLUTION | Valid |
 | SIN15925P | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED PEN 140MG/ML | INJECTION, SOLUTION | Valid |
 | SIN15926P | AIMOVIG SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 140MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

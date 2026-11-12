@@ -73,11 +73,15 @@ No cited study directly examines mannitol in NSIAD, so the evidence level is L5.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10315P | MANNITOL INTRAVENOUS INJECTION 20% | INJECTION | Valid |
 | SIN05957P | OSMOFUNDIN INJECTION 20% | INJECTION | Valid |
 | SIN17327P | Custodiol Solution | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

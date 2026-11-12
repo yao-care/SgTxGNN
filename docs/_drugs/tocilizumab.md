@@ -88,10 +88,14 @@ However, the two placebo-controlled Phase 3 trials (BUILDER-1 and BUILDER-2 prog
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13723P | Actemra Concentrate for Solution for Infusion 20mg/ml | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN14837P | Actemra 162mg Solution for Injection in Pre-filled Syringe 162mg/0.9ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

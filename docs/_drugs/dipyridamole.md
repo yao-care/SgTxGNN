@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Dipyridamole"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,10 +74,20 @@ Currently no related literature available.
 
 The approved indication is not recorded in the local data.
 
+<!-- review:begin sg-lic-20261106-dipyridamole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Three valid single-ingredient licences are on record. The approved indication is not recorded in the local data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 2 registrations for this drug, 2 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-dipyridamole-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00206P | PERSANTIN INJECTION 10 mg/2 ml | INJECTION | Valid |
 | SIN00470P | PERAZODIN 75 TABLET 75 mg | TABLET, SUGAR COATED | Valid |
+
+<!-- licenses:end -->
 
 Both oral and injectable forms are available.
 
@@ -99,6 +109,18 @@ The prediction has a very high model score but no trials, no publications and no
 - Mechanism-of-action data and an analysis of whether a mechanistic link to the predicted disease exists
 - Any preclinical or clinical studies addressing the predicted disease directly
 - A cardiac safety assessment, with attention to sinus node and atrioventricular conduction effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Three valid single-ingredient licences are on record" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence records. Published pharmacology s…"
 monitor_inn: "Etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -85,6 +85,14 @@ For context, publications retrieved for related headache predictions (not for mi
 
 The licence records do not include approved indication text. Five examples:
 
+<!-- review:begin sg-lic-20261106-etoricoxib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Twenty valid single-ingredient licences are registered, all oral film-coated tablets. The licence records do not include approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 57 registrations for this drug, 57 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-etoricoxib-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12103P | ARCOXIA TABLET 120 mg | TABLET, FILM COATED | Valid |
@@ -94,6 +102,8 @@ The licence records do not include approved indication text. Five examples:
 | SIN14943P | EXINEF TABLET 60 MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 57 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -115,6 +125,19 @@ The migraine prediction is supported only by a model score and a mechanistic arg
 - Controlled clinical evidence of etoricoxib in migraine, or a systematic review of COX-2 inhibitors in migraine
 - A cardiovascular, renal and cerebrovascular risk assessment for headache patients
 - Consideration of a narrower, better-supported target such as indomethacin-responsive headache disorders
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Twenty valid single-ingredient licences are registered, all oral film-coated tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

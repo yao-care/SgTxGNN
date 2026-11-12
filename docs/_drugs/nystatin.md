@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00378C | PMS-NYSTATIN SUSPENSION 500,000 u/5 ml | SUSPENSION | Valid |
@@ -79,6 +81,8 @@ Currently no related literature available.
 | SIN06750P | NYSTATIN VAGINAL TABLET 100,000 units | TABLET | Valid |
 | SIN03798P | FLAGYSTATIN VAGINAL OVULE | SUPPOSITORY | Valid |
 | SIN07745P | POLYGYNAX VAGINAL CAPSULE | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

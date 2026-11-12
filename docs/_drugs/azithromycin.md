@@ -76,6 +76,8 @@ Currently no related literature available for hyperamylasemia.
 
 The licence records contain no approved indication text. The main authorizations are:
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07863P | ZITHROMAX POWDER FOR ORAL SUSPENSION 200 mg/5 ml | POWDER, FOR SUSPENSION | Valid |
@@ -85,6 +87,8 @@ The licence records contain no approved indication text. The main authorizations
 | SIN13977P | AZITHROMYCIN KERN PHARMA 200MG/5ML POWDER FOR ORAL SUSPENSION | POWDER, FOR SUSPENSION | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 All 16 registrations are valid single-ingredient products, available as oral tablets, oral suspension powder and intravenous infusion powder.
 

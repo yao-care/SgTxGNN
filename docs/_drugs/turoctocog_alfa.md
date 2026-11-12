@@ -80,12 +80,16 @@ Primary platelet release disorders arise from defects in platelet granule secret
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16109P | NOVOEIGHT POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 250IU/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN16110P | NOVOEIGHT POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN16111P | NOVOEIGHT POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN16713P | NOVOEIGHT POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 2000IU/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All four registrations are valid single-ingredient products, and none has been cancelled.
 

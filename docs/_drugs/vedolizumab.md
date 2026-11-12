@@ -72,10 +72,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Vedolizumab,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14950P | ENTYVIO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN16673P | ENTYVIO SOLUTION FOR INJECTION IN PRE-FILLED PEN 108MG/0.68ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

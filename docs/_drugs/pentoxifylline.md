@@ -74,9 +74,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10727P | TRENLIN 400 SR TABLET 400 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

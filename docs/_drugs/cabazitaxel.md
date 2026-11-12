@@ -83,9 +83,13 @@ Currently no related clinical trials registered in the data compiled for this re
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14043P | Jevtana® Concentrate and Solvent for Solution for Infusion 60mg/1.5ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

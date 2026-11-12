@@ -81,10 +81,14 @@ None of the publications below studies respiratory malformation as a treatment t
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07055P | ASMALIN SYRUP 1.5 mg/5 ml | SYRUP | Valid |
 | SIN08075P | BUTYLIN SYRUP 1.5 mg/5 ml | SYRUP | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

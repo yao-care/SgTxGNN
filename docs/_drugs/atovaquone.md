@@ -74,9 +74,13 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09761P | MALARONE TABLET | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

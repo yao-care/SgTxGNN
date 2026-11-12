@@ -98,9 +98,13 @@ Note: none of these publications directly tests daunorubicin in Hodgkin's lympho
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11002P | DAUNOCIN FOR INJECTION 20 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

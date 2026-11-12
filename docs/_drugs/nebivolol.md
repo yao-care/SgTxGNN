@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 703
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,6 +81,12 @@ For reference, trials found for other predicted indications:
 
 Currently no related literature available for malignant hypertensive renal disease.
 
+<!-- review:begin sg-lic-20261106-nebivolol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four are valid single-ingredient oral tablet licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-nebivolol-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [29159953](https://pubmed.ncbi.nlm.nih.gov/29159953/) | 2018 | Cohort | Eur J Heart Fail | Danish nationwide cohort comparing carvedilol with metoprolol/bisoprolol/nebivolol in heart failure with COPD |
@@ -96,6 +102,8 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11728P | NEBILET TABLET 5 mg | TABLET | Valid |
@@ -105,6 +113,8 @@ Currently no related literature available for malignant hypertensive renal disea
 | SIN16486P | NOXBETA TABLET 5 MG | TABLET | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -125,6 +135,19 @@ The predicted indication has no clinical trials or publications (L5, model predi
 - Package insert warnings and contraindications from the HSA website (a blocking data gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Clinical or observational evidence of oral nebivolol in malignant hypertension with renal involvement, or a clear rationale for its role relative to standard intravenous therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four are valid single-ingredient oral tablet licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

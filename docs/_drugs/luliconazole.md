@@ -78,9 +78,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16428P | LUCONAC EXTERNAL SOLUTION FOR NAILS 5% w/w | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 The one registration is valid and is for a single-ingredient product.
 

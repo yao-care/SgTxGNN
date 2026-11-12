@@ -50,6 +50,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Timolol has 20 valid registrations in Singapore, all ophthalmic solutions or suspensions and none cancelled. Five are shown below. The remaining 15 are mostly fixed-dose combinations with other glaucoma drugs, such as latanoprost, travoprost, bimatoprost, brimonidine, dorzolamide and brinzolamide. Approved indication text is not recorded in the licence data.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04135P | TIMOPTOL OPHTHALMIC SOLUTION 0.5% | SOLUTION | Valid |
@@ -59,6 +61,8 @@ Timolol has 20 valid registrations in Singapore, all ophthalmic solutions or sus
 | SIN11643P | COSOPT OPHTHALMIC SOLUTION | SOLUTION | Valid |
 
 Showing 5 of 20 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -78,9 +78,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Aminolevulin
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15244P | GLIOLAN, POWDER FOR ORAL SOLUTION, 30 MG/ML | POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

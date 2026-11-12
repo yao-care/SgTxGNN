@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 896
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ No publication tests salmeterol in respiratory malformation.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11030P | SERETIDE 50/100 ACCUHALER 50 mcg/100 mcg | POWDER, METERED | Valid |
@@ -90,7 +92,15 @@ No publication tests salmeterol in respiratory malformation.
 
 Showing 5 of 10 HSA registrations.
 
+<!-- licenses:end -->
+
 The product names and dual strengths suggest fixed-dose inhaler products, so these licences should not be read as describing a single-ingredient salmeterol product.
+
+<!-- review:begin sg-lic-20261106-salmeterol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight licences are recorded locally and all are valid. The product names and dual strengths suggest fixed-dose inhaler products, so these licences should not be read as describing a single-ingredient salmeterol product." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 10 registrations for this drug, 10 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-salmeterol-1 -->
 
 ## Safety Considerations
 
@@ -114,6 +124,18 @@ The TxGNN score is very high, but no cited study addresses respiratory malformat
 - Mechanism of action data
 - Package insert warnings and contraindications from HSA
 - A safety assessment for paediatric use, since malformation-related conditions mostly present early in life
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Eight licences are recorded locally and all are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

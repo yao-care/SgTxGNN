@@ -80,10 +80,14 @@ This is why the prediction should be read with care. Amenorrhea here is an expec
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01506P | ZOLADEX DEPOT INJECTION 3.6 mg/syringe | INJECTION | Valid |
 | SIN09793P | ZOLADEX LA DEPOT INJECTION 10.8 mg/syringe | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

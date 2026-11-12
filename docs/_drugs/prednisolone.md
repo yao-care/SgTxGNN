@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 821
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -65,6 +65,12 @@ There are limits. Hair loss often returns after the drug is withdrawn, and long-
 
 Currently no related clinical trials registered.
 
+<!-- review:begin sg-lic-20261106-prednisolone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 10 valid single-ingredient licences in total, in tablet and syrup forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-prednisolone-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -82,6 +88,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04190P | XEPASONE TABLET 5 mg | TABLET | Valid |
@@ -91,6 +99,8 @@ Currently no related clinical trials registered.
 | SIN04845P | PRELONE SYRUP 3 mg/5 ml | SYRUP | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -122,6 +132,19 @@ Alopecia areata is an autoimmune disease, and the mechanism fits prednisolone. S
 - **Idiopathic steroid-sensitive nephrotic syndrome** (L1, Proceed with Guardrails): prednisolone is already first-line therapy for childhood steroid-sensitive nephrotic syndrome, supported by Cochrane-level evidence and RCT data. This is effectively an established use rather than a novel repurposing. Several retrieved articles concern steroid-resistant disease and are less relevant.
 - **Alopecia mucinosa, Quinquaud's folliculitis decalvans, alopecia antibody deficiency** (L4, Hold): only indirect or weak case-level evidence for prednisolone itself.
 - **Telogen effluvium, hereditary hypotrichosis with recurrent skin vesicles, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome, atrichia with papular lesions, prolapse of lacrimal gland** (L5, Hold): model prediction only, with no trials or literature.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 10 valid single-ingredient licences in total, in tablet and syrup forms" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

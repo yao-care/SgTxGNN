@@ -72,12 +72,16 @@ The TxGNN model produced candidates for Brinzolamide with a score of 0.99 or hig
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11029P | AZOPT OPHTHALMIC SUSPENSION 1% | SOLUTION | Valid |
 | SIN17215P | BRITIL EYE DROPS, SUSPENSION 1% w/v | SUSPENSION, STERILE | Valid |
 | SIN13802P | Azarga 10mg/mL + 5mg/mL eye drops, suspension | SUSPENSION, STERILE | Valid |
 | SIN15085P | SIMBRINZA EYE DROPS, SUSPENSION 10 MG/ML + 2 MG/ML | SUSPENSION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

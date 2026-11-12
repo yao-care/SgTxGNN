@@ -79,10 +79,14 @@ The mechanistic reasoning above is inferred rather than drawn from recorded mech
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14982P | LENVIMA HARD CAPSULE 4MG | CAPSULE | Valid |
 | SIN14983P | LENVIMA HARD CAPSULES 10 MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -85,10 +85,14 @@ For other predicted indications, a few publications were retrieved. None shows t
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14309P | Nimbex Injection 2 mg/ml | INJECTION, SOLUTION | Valid |
 | SIN14310P | Nimbex Forte Injection 150 mg/30 ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both products are valid single-ingredient registrations, manufactured by GlaxoSmithKline Manufacturing S.p.A.
 

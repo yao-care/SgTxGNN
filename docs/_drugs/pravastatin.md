@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 818
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -96,13 +96,23 @@ Most of these publications concern other drugs or the heterozygous form; none is
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12670P | APO-PRAVASTATIN TABLET 20 mg | TABLET | Valid |
 | SIN12671P | APO-PRAVASTATIN TABLET 10 mg | TABLET | Valid |
 | SIN14508P | PRAVAFEN HARD CAPSULES 40mg/160mg | CAPSULE | Valid |
 
+<!-- licenses:end -->
+
 All three are valid registrations (Pravafen is a pravastatin/fenofibrate product by its strengths).
+
+<!-- review:begin sg-lic-20261106-pravastatin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three are valid single-ingredient registrations (Pravafen is a pravastatin/fenofibrate product by its strengths, though the record lists it as single)." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-pravastatin-1 -->
 
 ---
 
@@ -127,6 +137,19 @@ The prediction score is very high, but there is no pravastatin-specific trial in
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from the HSA, with official approved indications for the three Singapore registrations
 - Comparison against, or add-on assessment with, PCSK9 inhibitors and other agents used in homozygous FH
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient , though the record lists it as single" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

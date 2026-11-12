@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 940
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,6 +93,14 @@ None of these tests sulfamethoxazole as treatment for the predicted conditions.
 
 The licence records contain no approved indication text. Five main authorisations:
 
+<!-- review:begin sg-lic-20261106-sulfamethoxazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 12 licences are valid single-ingredient registrations. The licence records contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 10 registrations for this drug, 10 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sulfamethoxazole-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00407P | TRIMAXAZOLE TABLETS | TABLET | Valid |
@@ -102,6 +110,8 @@ The licence records contain no approved indication text. Five main authorisation
 | SIN00960P | B.S. TABLET | TABLET | Valid |
 
 Showing 5 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 Available forms cover oral tablets, suspensions and an injection. No ophthalmic formulation is registered.
 
@@ -127,6 +137,19 @@ The top prediction, acute contagious conjunctivitis, overlaps with an existing i
 - Mechanism of action data from DrugBank
 - Confirmation of the approved indications for the Singapore licences
 - Clinical efficacy data for sulfamethoxazole in bacterial conjunctivitis, and a decision on whether an ocular formulation is relevant, since none is registered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 12 licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

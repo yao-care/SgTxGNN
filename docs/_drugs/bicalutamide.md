@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 157
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bicalutamide: predicted new indication Hypertrichosis (evidence level L4). Approved use: Not stated in the Singapore licence records compiled for this report.…"
 monitor_inn: "Bicalutamide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -86,12 +86,28 @@ Currently no related clinical trials registered.
 
 Approved-indication text was not available in the data compiled for this report.
 
+<!-- review:begin sg-lic-20261106-bicalutamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All six registrations are valid, single-ingredient oral film-coated or plain tablets. Approved-indication text was not available in the data compiled for this report." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-bicalutamide-1 -->
+
+<!-- review:begin sg-lic-20261106-bicalutamide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth registration, SIN14824P (BICAMED 50, Hetero Labs Limited, plain tablet), is not shown." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-bicalutamide-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09772P | CASODEX TABLET 50 mg | TABLET, FILM COATED | Valid |
 | SIN14824P | BICAMED 50 BICALUTAMIDE TABLETS 50mg | TABLET | Valid |
 | SIN15134P | BICALUTAMIDE STADA FILM COATED TABLET 50MG | TABLET, FILM COATED | Valid |
 | SIN15695P | CALUMEX FILM-COATED TABLETS 50MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -119,6 +135,20 @@ The only evidence for hypertrichosis is one comment letter on a small retrospect
 - Detailed mechanism-of-action data
 
 **Note on other predictions:** Among the other predicted indications, **female breast carcinoma** has the strongest support (L2). It has a Phase 2 trial (NCT03650894, bicalutamide with nivolumab and ipilimumab in metastatic HER2-negative breast cancer, n=30, active, not recruiting) and substantial preclinical and review literature on AR-positive triple-negative breast cancer. A single-arm phase II study of bicalutamide plus an aromatase inhibitor (PMID 31434793) showed no synergistic activity. That indication is more suitable for a separate evaluation, with AR-expression-based patient selection as the key guardrail.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All six registrations are valid, single-ingredient oral film-coated or plain tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "A sixth registration, SIN14824P (BICAMED 50, Hetero Labs Limited, plain tablet), is not shown" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

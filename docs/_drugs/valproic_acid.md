@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1053
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,6 +83,14 @@ Currently no related clinical trials registered.
 
 The licence records do not include approved indication text. The five main authorisations are:
 
+<!-- review:begin sg-lic-20261106-valproic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 11 valid single-ingredient registrations. The licence records do not include approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 11 registrations for this drug, 11 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-valproic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05215P | Epilim® 400 mg Powder for injection / infusion | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -92,6 +100,8 @@ The licence records do not include approved indication text. The five main autho
 | SIN15525P | SODIUM VALPROATE AGUETTANT SOLUTION FOR INJECTION 400MG/4ML | INJECTION, SOLUTION | Valid |
 
 Showing 5 of 11 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -118,6 +128,19 @@ The prediction has no supporting clinical trials and no relevant literature, so 
 - Tumour-specific preclinical evidence, such as HDAC-inhibition studies in relevant cranial nerve tumour models
 - Mechanism of action data
 - Package insert warnings and contraindications from the Singapore regulator
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 11 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

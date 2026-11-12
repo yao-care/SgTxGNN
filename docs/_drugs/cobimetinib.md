@@ -50,9 +50,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15219P | COTELLIC FILM-COATED TABLET 20 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

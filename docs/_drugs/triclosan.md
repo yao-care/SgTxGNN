@@ -72,9 +72,13 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for T
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11468P | QV FLARE UP BATH OIL | LOTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

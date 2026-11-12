@@ -72,6 +72,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05589P | DIANEAL PD-2 PERITONEAL DIALYSIS SOLUTION WITH 4.25% DEXTROSE | SOLUTION, STERILE | Valid |
@@ -96,6 +98,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | SIN13265P | BALANCE 1.5% GLUCOSE 1.25 MMOL/L CALCIUM PERITONEAL DIALYSIS SOLUTION  | SOLUTION, STERILE | Valid |
 
 Showing 20 of 34 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

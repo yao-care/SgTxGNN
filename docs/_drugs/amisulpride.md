@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Amisulpride,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09773P | SOLIAN TABLET 200 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

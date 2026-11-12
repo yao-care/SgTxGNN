@@ -73,10 +73,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10933P | ZALAIN CREAM 2% | CREAM | Valid |
 | SIN11905P | ZALAIN VAGINAL SUPPOSITORY 300 mg | SUPPOSITORY | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products. The data compiled for this report contains no approved indication text for either one. Only the cream is a topical skin formulation.
 

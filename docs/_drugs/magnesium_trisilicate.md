@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Magnesium trisilicate"
 predicted_indications: ["gastroduodenitis"]
 description: "Magnesium Trisilicate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,7 +88,15 @@ Publications retrieved for active peptic ulcer disease, plus the most relevant i
 
 Two retrieved papers on norethisterone and phenytoin availability concern drug interactions, not efficacy. Most of the evidence is decades old, involves combination products and does not isolate magnesium trisilicate.
 
+<!-- review:begin sg-lic-20261106-magnesium_trisilicate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A further 4 valid licences exist (9 in total, all single-ingredient and valid, none cancelled)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-magnesium_trisilicate-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -99,6 +107,8 @@ Two retrieved papers on norethisterone and phenytoin availability concern drug i
 | SIN09497P | ALLUMAG MPS TABLET | TABLET | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -123,6 +133,19 @@ The predicted indication is essentially already covered by the drug's existing u
 - Detailed mechanism of action data
 - Modern controlled evidence for magnesium trisilicate alone, if a formal claim is desired
 - A review of renal function and magnesium accumulation risk in vulnerable patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A further 4 valid licences exist (9 in total, all single-ingredient and valid, none cancelled)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

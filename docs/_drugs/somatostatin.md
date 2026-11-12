@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Somatostatin
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06135P | STILAMIN 3000 FOR INJECTION 3 mg/ampoule | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -97,10 +97,14 @@ Of 20 publications, the 10 most relevant are listed. Prospective studies are lis
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15576P | HEMLIBRA SOLUTION FOR INJECTION 150MG/ML | INJECTION, SOLUTION | Valid |
 | SIN15577P | HEMLIBRA SOLUTION FOR INJECTION 30MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both products are valid single-ingredient registrations, manufactured by Chugai Pharma Manufacturing and Samsung Biologics.
 

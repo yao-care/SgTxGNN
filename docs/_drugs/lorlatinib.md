@@ -90,10 +90,14 @@ The literature found for lower-ranked predictions does not support them as new i
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15830P | LORVIQUA FILM-COATED TABLET 25MG | TABLET, FILM COATED | Valid |
 | SIN15831P | LORVIQUA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both registrations are valid single-agent licences held by Pfizer Manufacturing Deutschland GmbH, and the route is oral.
 

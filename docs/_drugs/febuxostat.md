@@ -87,10 +87,14 @@ The only plausible link is a case-level report on using non-purine xanthine oxid
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14959P | FEBURIC® FILM COATED TABLETS 80MG | TABLET, FILM COATED | Valid |
 | SIN17054P | FEBUGOUT F.C. TABLETS 80MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

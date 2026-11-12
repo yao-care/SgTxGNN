@@ -75,6 +75,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for H
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00108P | DI-ERTRIDE TABLET 25 mg | TABLET | Valid |
@@ -99,6 +101,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for H
 | SIN13899P | Exforge HCT Tablet 10mg/160mg/12.5mg | TABLET, FILM COATED | Valid |
 
 Showing 20 of 30 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

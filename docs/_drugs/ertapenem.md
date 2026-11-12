@@ -81,12 +81,16 @@ Currently no related clinical trials registered for bacterial arthritis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11855P | INVANZ FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN15602P | ERTAPENEM MEVON POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G/VI | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN16008P | ERTAPIK FOR INJECTION 1G/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN16029P | ERTAPENEM KABI POWDER FOR INJECTION 1G/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Crotamiton
 parent: Known Uses Only (No New Predictions)
 nav_order: 282
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Crotamiton: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Crotamiton"
 predicted_indications: []
@@ -48,11 +48,21 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 *Note: The data compiled for this report labels this candidate L4 with a "Research Question" recommendation, based on indirect pharmacological reasoning. Under the standard evidence rules (no clinical trials, no literature), it falls at L5. The Hold decision reflects that gap, while the biological plausibility justifies keeping it as a research question.*
 
+<!-- review:begin sg-lic-20261106-crotamiton-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid, single-ingredient products from Sunward Pharmaceutical Private Limited. Both products are topical (lotion and cream)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-crotamiton-1 -->
+
 ---
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ---
 
@@ -64,6 +74,18 @@ No registration was found in the HSA listing of registered therapeutic products 
 For other safety information, please refer to the package insert.
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid, single-ingredient products from Sunward Pharmaceutical Private Limited. Both products are topical (lotion and " | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

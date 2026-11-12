@@ -71,11 +71,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13200P | Neulastim Pre-filled Syringe 6mg/0.6ml | INJECTION, SOLUTION | Valid |
 | SIN16012P | FULPHILA™ SOLUTION FOR INJECTION IN PREFILLED SYRINGE 6MG/0.6ML | INJECTION, SOLUTION | Valid |
 | SIN16249P | Pelgraz Solution for Injection in pre-filled syringe 6mg/0.6mL | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

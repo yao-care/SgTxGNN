@@ -74,11 +74,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13529P | Mircera Solution for Injection 100mcg/0.3ml (Pre-filled Syringe) | INJECTION, SOLUTION | Valid |
 | SIN13530P | Mircera Solution for Injection 75mcg/0.3ml (Pre-filled Syringe) | INJECTION, SOLUTION | Valid |
 | SIN13535P | Mircera Solution for Injection 50mcg/0.3ml (Pre-filled Syringe) | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid, held by F. Hoffmann-La Roche AG, and are for the injectable route only.
 

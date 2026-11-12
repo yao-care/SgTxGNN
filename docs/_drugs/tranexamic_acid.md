@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1011
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,8 @@ Neither article studies tranexamic acid for treating amenorrhea.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02487P | CYKLOKAPRON TABLET 500 mg | TABLET, FILM COATED | Valid |
@@ -95,7 +97,15 @@ Neither article studies tranexamic acid for treating amenorrhea.
 
 Showing 5 of 7 HSA registrations.
 
+<!-- licenses:end -->
+
 A sixth licence, Cyklokapron Tablet 500 mg (SIN02487P, film-coated tablet), is also valid. Both injectable and oral forms are available.
+
+<!-- review:begin sg-lic-20261106-tranexamic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence, Cyklokapron Tablet 500 mg (SIN02487P, film-coated tablet), is also valid. All six licences are single-ingredient products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-tranexamic_acid-1 -->
 
 ---
 
@@ -124,6 +134,19 @@ The prediction rests on model score alone plus two indirect reviews, and there a
 - Clarification of the clinical question: whether the goal is menstrual suppression or prophylaxis (a plausible but different use) rather than treatment of amenorrhea
 - Direct clinical evidence, such as trials or comparative studies, in the relevant population
 - A thrombotic risk assessment, especially for patients on oestrogen or progestogen therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All six licences are single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

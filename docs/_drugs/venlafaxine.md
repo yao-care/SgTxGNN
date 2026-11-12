@@ -52,6 +52,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Venlafaxine has 7 valid single-ingredient registrations in Singapore, all oral. The first 5 are listed below. Approved indication text is not available in the licence records.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11435P | EFEXOR XR CAPSULE 75 mg | CAPSULE | Valid |
@@ -61,6 +63,8 @@ Venlafaxine has 7 valid single-ingredient registrations in Singapore, all oral. 
 | SIN15520P | DEPREVIX MODIFIED RELEASE HARD CAPSULE 75MG | CAPSULE, DELAYED RELEASE | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

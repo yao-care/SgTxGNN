@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Potassium citrate"
 predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,13 +69,23 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08734P | UROCIT-K TABLET 1080 mg | TABLET | Valid |
 | SIN05148P | POTCIT MIXTURE | SOLUTION | Valid |
 | SIN06732P | POTASSIUM CITRATE MIXTURE BP | SOLUTION | Valid |
 
+<!-- licenses:end -->
+
 All three are currently valid. The records contain no approved indication text.
+
+<!-- review:begin sg-lic-20261106-potassium_citrate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three are single-ingredient products and currently valid." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-potassium_citrate-1 -->
 
 ## Safety Considerations
 
@@ -106,6 +116,19 @@ It is, however, close to the drug's existing uses and arguably not true repurpos
 - A biological rationale connecting potassium or citrate handling to visceral smooth muscle disease
 - Any case-level or preclinical evidence in familial visceral myopathy
 - Package insert warnings and contraindications from the HSA records
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient products and" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

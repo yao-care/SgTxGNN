@@ -88,11 +88,15 @@ No literature is available for psychogenic movement disorders. The most relevant
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13019P | REMINYL PROLONGED RELEASE CAPSULE 8 MG | CAPSULE, COATED, EXTENDED RELEASE | Valid |
 | SIN13020P | REMINYL PROLONGED RELEASE CAPSULE 16 MG | CAPSULE, COATED, EXTENDED RELEASE | Valid |
 | SIN13021P | REMINYL PROLONGED RELEASE CAPSULE 24 MG | CAPSULE, COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid, single-ingredient, oral products from Janssen.
 

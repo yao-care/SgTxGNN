@@ -74,6 +74,8 @@ Currently no related literature available.
 
 All five licences are valid single-ingredient products from CSL Behring GmbH (brand AFSTYLA), supplied as lyophilised powder and solvent for injection. No approved indication text is recorded for them in the data compiled for this report.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15820P | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 3000IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
@@ -81,6 +83,8 @@ All five licences are valid single-ingredient products from CSL Behring GmbH (br
 | SIN15822P | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN15823P | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 1000IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN15824P | AFSTYLA POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 2000IU/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

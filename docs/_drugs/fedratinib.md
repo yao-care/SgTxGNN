@@ -77,9 +77,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16617P | INREBIC CAPSULES 100 MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

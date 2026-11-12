@@ -89,6 +89,8 @@ Migraine involves trigeminovascular and autonomic pain signalling. Blocking the 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09262P | NAROPIN INFUSION 0.2% | INJECTION | Valid |
@@ -98,6 +100,8 @@ Migraine involves trigeminovascular and autonomic pain signalling. Blocking the 
 | SIN15263P | ROPIVACAINE-AFT SOLUTION FOR INJECTION 0.2% W/V | INJECTION, SOLUTION | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 Two further Ropivacaine-AFT injection licences (0.75% and 1%) are also valid, giving 7 registrations in total.
 

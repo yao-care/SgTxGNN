@@ -105,10 +105,14 @@ Publications for the top-ranked prediction (resistance to thyroid hormone):
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00772P | PROPYLTHIOURACIL TABLETS BP 50 mg | TABLET | Valid |
 | SIN11695P | PROPYL TABLET 50 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

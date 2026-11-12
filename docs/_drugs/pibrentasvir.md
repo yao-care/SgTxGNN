@@ -83,9 +83,13 @@ No hepatitis B-specific studies of pibrentasvir were found. The publications ret
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15603P | MAVIRET FILM-COATED TABLET 100MG/40MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

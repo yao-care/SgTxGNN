@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 107
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not stated in the licence data compiled for this report (products are…"
 monitor_inn: "Arginine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -66,6 +66,12 @@ This reasoning rests on animal data only. No human trial has tested arginine sup
 
 Currently no related clinical trials registered.
 
+<!-- review:begin sg-lic-20261106-arginine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A further 15 valid single-ingredient registrations exist, mainly parenteral nutrition emulsions and amino acid infusions (for example SmofKabiven, Nutriflex Omega, Oliclinomel, Aminoplasmal and Nutrineal PD4)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 19 registrations for this drug, 19 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-arginine-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -82,6 +88,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -91,6 +99,8 @@ Currently no related clinical trials registered.
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
 Showing 5 of 19 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -121,6 +131,18 @@ The TxGNN score is high (0.9942), but the supporting evidence is limited to anim
 
 | Rank | Predicted Indication | Score | Evidence Level | Suggested Action |
 |------|------|------|------|------|
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A further 15 valid single-ingredient registrations exist, mainly parenteral nutrition emulsions and amino acid infusions (for example SmofKa" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

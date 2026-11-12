@@ -72,6 +72,8 @@ The TxGNN model produced candidates for Voriconazole, but every candidate that c
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12378P | VFEND FILM-COATED TABLET 50 mg | TABLET, FILM COATED | Valid |
@@ -85,6 +87,8 @@ The TxGNN model produced candidates for Voriconazole, but every candidate that c
 | SIN16509P | VORICONAZOLE KABI POWDER FOR SOLUTION FOR INFUSION 200MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN16656P | VORICONAZOLE MYLAN POWDER FOR SOLUTION FOR INJECTION 200 MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN16906P | VORICONAZOLE – AFT POWDER FOR INJECTION 200MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -74,9 +74,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tafamidis, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15894P | VYNDAMAX SOFT GELATIN CAPSULE 61MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

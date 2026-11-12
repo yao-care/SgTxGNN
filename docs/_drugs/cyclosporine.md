@@ -74,6 +74,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00520P | SANDIMMUN CONCENTRATE FOR INFUSION 50 mg/ml | INJECTION | Valid |
@@ -83,6 +85,8 @@ Currently no related clinical trials registered.
 | SIN09871P | SANDIMMUN NEORAL CAPSULE 10 mg | CAPSULE, LIQUID FILLED | Valid |
 
 Showing 5 of 12 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -69,9 +69,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16408P | ONCASPAR POWDER FOR SOLUTION FOR INJECTION/INFUSION 750 U/ML | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

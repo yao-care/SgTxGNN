@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 650
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Mepolizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,12 +72,22 @@ Currently no related clinical trials registered.
 
 A review of hypereosinophilic syndrome management including mepolizumab ([PMID 20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/), 2010) was linked to the second-ranked prediction (primary release disorder of platelets), but it does not address platelet disorders directly.
 
+<!-- review:begin sg-lic-20261106-mepolizumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient products from Glaxo Operations UK Ltd." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 2 registrations for this drug, 2 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-mepolizumab-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16172P | NUCALA SOLUTION FOR INJECTION IN PRE-FILLED PEN 100MG/ML | INJECTION, SOLUTION | Valid |
 | SIN16811P | NUCALA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 40MG/0.4ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -97,6 +107,19 @@ The top prediction rests on a single case report in a different condition (hyper
 - Package insert warnings and contraindications from the HSA, so safety screening can be done
 - Controlled or at least larger observational data in immune thrombocytopenia
 - Approved indication text for the Singapore licences, to confirm the original-indication link
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid single-ingredient products from Glaxo Operations UK Ltd" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

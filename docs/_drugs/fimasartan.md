@@ -77,10 +77,14 @@ No publication directly studies the predicted disease. The one linked publicatio
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15221P | KANARB TABLET 60MG | TABLET | Valid |
 | SIN15222P | KANARB TABLET 120MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Both are valid single-ingredient licences held by Boryung Corporation (oral route).
 

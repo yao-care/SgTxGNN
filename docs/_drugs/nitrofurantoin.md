@@ -82,10 +82,14 @@ None of these papers reports a therapeutic benefit of nitrofurantoin in rheumato
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00290P | AA PHARMA NITROFURANTOIN TABLET 100 mg | TABLET | Valid |
 | SIN00439P | AA PHARMA NITROFURANTOIN TABLET 50 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient oral tablets from Apotex Inc.
 

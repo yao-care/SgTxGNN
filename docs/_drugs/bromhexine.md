@@ -72,6 +72,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02468P | BROMHEXINE ELIXIR 4 mg/5 ml | ELIXIR | Valid |
@@ -83,6 +85,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | SIN10014P | DURO-TUSS CHESTY COUGH LIQUID | SOLUTION | Valid |
 | SIN10582P | BISLAN TABLET 8 mg | TABLET | Valid |
 | SIN10906P | AXCEL BROMHEXINE TABLET 8 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

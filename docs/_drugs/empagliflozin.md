@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Empagliflozin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -76,6 +76,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14686P | JARDIANCE FILM-COATED TABLETS 10MG | TABLET, FILM COATED | Valid |
@@ -86,7 +88,15 @@ Currently no related literature available.
 
 Showing 5 of 10 HSA registrations.
 
+<!-- licenses:end -->
+
 All are oral film-coated tablets. Some of these products are combination products (names such as Jardiance Duo and Glyxambi indicate combinations), so their licences do not describe the single-ingredient drug's approval on their own.
+
+<!-- review:begin sg-lic-20261106-empagliflozin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight valid registrations are on record in total; the table shows the first five. All are oral film-coated tablets." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 10 registrations for this drug, 10 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-empagliflozin-1 -->
 
 ## Safety Considerations
 
@@ -115,6 +125,19 @@ The prediction rests only on a model score. There are no clinical trials or publ
 - Preclinical or case-level evidence in stiff person syndrome or related autoimmune neurological conditions
 - Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
 - Review of the interaction profile in the context of the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Eight valid registrations are on record in total; the table shows the first five" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

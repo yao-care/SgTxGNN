@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 925
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L2). Approved use: Not recorded in the local data"
@@ -107,10 +107,14 @@ The table lists the 10 trials judged most relevant to hepatitis B.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15351P | EPCLUSA TABLET 400MG/100MG | TABLET, FILM COATED | Valid |
 | SIN15705P | VOSEVI FILM-COATED TABLETS 400MG/100MG/100MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -121,6 +125,12 @@ The table lists the 10 trials judged most relevant to hepatitis B.
   - **Moderate:** fostamatinib, warfarin, dicoumarol, encorafenib
   - **Minor:** cyclosporine
 - **HBV reactivation:** The literature repeatedly reports HBV reactivation in HBV/HCV co-infected patients receiving sofosbuvir-based regimens. This is directly relevant to any use in HBV, and monitoring and prophylaxis need to be considered.
+
+<!-- review:begin sg-lic-20261106-sofosbuvir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid, and all are oral products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 2 registrations for this drug, 2 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sofosbuvir-1 -->
 
 For warnings and contraindications, please refer to the package insert.
 
@@ -140,6 +150,19 @@ The prediction score is very high, but it is not backed by a plausible direct me
 - An HBV reactivation monitoring and prophylaxis plan
 
 **Other predicted indications (for reference):** Hepatitis E virus infection (rank 2) has the most direct evidence. A completed phase 2 pilot (NCT03282474, n=10) and in vitro work support activity, but the pilot showed only a transient viral load decline without sustained clearance. This may be a more promising research direction than hepatitis B. The remaining predictions (hepatitis A, Kyasanur forest disease, Omsk hemorrhagic fever, HIV, and animal or other retroviral conditions) have only in vitro evidence or no evidence, and the retroviral ones have no plausible mechanism.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid, and all are oral products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

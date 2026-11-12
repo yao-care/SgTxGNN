@@ -101,10 +101,14 @@ Pulmonary hypertension (TxGNN score 0.9956) is the only prediction in the top 10
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14244P | GLYPRESSIN solution for injection, 1 mg/8.5 ml | INJECTION, SOLUTION | Valid |
 | SIN17190P | TERLIPRESSIN-AFT SOLUTION FOR INJECTION 0.85MG/8.5ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both are valid single-ingredient licences, and neither is cancelled.
 

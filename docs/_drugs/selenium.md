@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Selenium, so
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16847P | SELENIUM AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 10 MCG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

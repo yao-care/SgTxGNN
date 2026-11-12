@@ -72,9 +72,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06538P | AA-AMILZIDE TABLET | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

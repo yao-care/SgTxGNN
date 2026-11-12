@@ -90,6 +90,8 @@ Reported responses in Ewing sarcoma are modest and come from small studies, most
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14106P | Taxotere Concentrate for Solution for Infusion 20mg/ml | INFUSION, SOLUTION CONCENTRATE | Valid |
@@ -99,6 +101,8 @@ Reported responses in Ewing sarcoma are modest and come from small studies, most
 | SIN14564P | DOCETAXEL SANDOZ CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
 
 Showing 5 of 12 HSA registrations.
+
+<!-- licenses:end -->
 
 Twelve single-ingredient licences are valid in total; the five above are the main examples.
 

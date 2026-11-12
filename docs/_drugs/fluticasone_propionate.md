@@ -73,6 +73,8 @@ The TxGNN deep-learning model produced candidate indications for Fluticasone Pro
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07090P | FLIXONASE AQUEOUS NASAL SPRAY 0.05% w/w | SPRAY | Valid |
@@ -95,6 +97,8 @@ The TxGNN deep-learning model produced candidate indications for Fluticasone Pro
 | SIN17479P | RESPIRO AEROSOL INHALER 25MCG/250MCG PER DOSE | AEROSOL, METERED | Valid |
 
 Showing 18 of 19 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

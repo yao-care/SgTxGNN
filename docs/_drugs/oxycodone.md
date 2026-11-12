@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oxycodone, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13079P | OXYNORM 10MG CAPSULE | CAPSULE | Valid |
@@ -83,6 +85,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oxycodone, s
 | SIN16635P | OXYCODONE KALCEKS SOLUTION FOR INJECTION OR INFUSION 10 MG/ML | INJECTION, SOLUTION | Valid |
 | SIN14031P | TARGIN® Prolonged Release Tablets 5mg/2.5mg | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN14032P | TARGIN® Prolonged Release Tablets 10mg/5mg | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

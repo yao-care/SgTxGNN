@@ -80,6 +80,8 @@ The publications retrieved concern breast or nipple-region tumours but none eval
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09915P | FEMARA TABLET 2.5 mg | TABLET, FILM COATED | Valid |
@@ -89,6 +91,8 @@ The publications retrieved concern breast or nipple-region tumours but none eval
 | SIN14565P | LETROZOLE SANDOZ FILM COATED TABLETS 2.5MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 11 HSA registrations.
+
+<!-- licenses:end -->
 
 All 11 licences for single-ingredient letrozole products are valid, and none are cancelled. Only the first five are listed here.
 

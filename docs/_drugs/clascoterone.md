@@ -50,9 +50,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17072P | Winlevi Cream 1% w/w | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ---
 

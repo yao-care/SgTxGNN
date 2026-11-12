@@ -72,9 +72,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07748P | OPTIRAY 350 INJECTION 74% | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

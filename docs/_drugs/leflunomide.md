@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -99,10 +99,20 @@ Both rheumatoid arthritis and myeloma involve over-active immune-lineage cells, 
 
 The registration records list no approved-indication text.
 
+<!-- review:begin sg-lic-20261106-leflunomide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four registrations are valid single-ingredient oral film-coated tablets. The registration records list no approved-indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 2 registrations for this drug, 2 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-leflunomide-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15252P | LEFLUNOMIDE MEVON FILM-COATED TABLETS 20 MG | TABLET, FILM COATED | Valid |
 | SIN17108P | BAGEDA FILM-COATED TABLET 20MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -138,6 +148,19 @@ Package-insert warnings and contraindications were not available in the compiled
 - A review of the interaction between leflunomide and dexamethasone-containing regimens
 - A confirmed mechanism-of-action record for the drug
 - A clear view of the preclinical counter-signal in leukaemia cells (PMID 16927021, low-dose leflunomide activating PI3K/Akt signalling), to check it does not apply to myeloma
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four registrations are valid single-ingredient oral film-coated tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

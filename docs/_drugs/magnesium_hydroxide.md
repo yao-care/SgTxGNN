@@ -87,6 +87,8 @@ Selected from the 20 retrieved publications. Most abstracts are partial, and man
 
 The licence records contain no approved-indication text.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03484P | HYDROSIL TABLET | TABLET | Valid |
@@ -94,6 +96,8 @@ The licence records contain no approved-indication text.
 | SIN06592P | AXCEL EVILINE TABLET | TABLET | Valid |
 | SIN07376P | ACTAL PLUS TABLET | TABLET | Valid |
 | SIN08119P | MACGEL TABLET | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

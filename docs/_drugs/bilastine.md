@@ -75,6 +75,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bilastine, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14661P | BILAXTEN TABLET 20 mg | TABLET | Valid |
@@ -84,6 +86,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bilastine, s
 | SIN17104P | BILAXTEN TABLET 20 MG (PHARMACY ONLY) | TABLET | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -100,12 +100,16 @@ The most relevant items for pneumocystosis (none shows itraconazole activity aga
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08206P | SPORANOX CAPSULE 100 mg | CAPSULE | Valid |
 | SIN11355P | CANDITRAL CAPSULE 100 mg | CAPSULE | Valid |
 | SIN12459P | UNITRAC CAPSULE 100 mg | CAPSULE | Valid |
 | SIN16379P | JAMP ITRACONAZOLE ORAL SOLUTION 10MG/ML | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

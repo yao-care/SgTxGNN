@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluoxetine: predicted new indication Schizotypal personality disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -63,6 +63,12 @@ The supporting literature is limited. A 12-week, non-blind prospective study of 
 
 Currently no related clinical trials registered.
 
+<!-- review:begin sg-lic-20261106-fluoxetine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 7 registrations are single-ingredient products and currently valid; the five above are a selection." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-fluoxetine-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -78,6 +84,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05766P | MAGRILAN CAPSULE 20 mg | CAPSULE | Valid |
@@ -87,6 +95,8 @@ Currently no related clinical trials registered.
 | SIN12311P | FLUOXETINE-TEVA 20 MG CAPSULES | CAPSULE | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -106,6 +116,18 @@ The TxGNN score is very high, but the evidence is at level L3. It rests on a sin
 - A controlled trial of fluoxetine specifically in schizotypal personality disorder
 - Mechanism-of-action data and package-insert warnings and contraindications
 - Assessment of the psychosis-related safety signal and of the interaction profile in this population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 7 registrations are single-ingredient products and currently valid; the five above are a selection" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -89,6 +89,8 @@ The evidence is still early. The one directly relevant trial is a single-arm Pha
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13194P | CERTICAN TABLETS 0.25 MG | TABLET | Valid |
@@ -96,6 +98,8 @@ The evidence is still early. The one directly relevant trial is a single-arm Pha
 | SIN13196P | CERTICAN TABLETS 0.5 MG | TABLET | Valid |
 | SIN13749P | Afinitor Tablet 10mg | TABLET | Valid |
 | SIN13750P | Afinitor Tablet 5mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All five registrations are valid single-ingredient oral tablets from Novartis.
 

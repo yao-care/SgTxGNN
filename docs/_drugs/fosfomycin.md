@@ -73,9 +73,13 @@ Uterine inflammatory conditions such as endometritis or pelvic inflammatory dise
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11013P | MONUROL SACHET 3 g/sachet | GRANULE, FOR SUSPENSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

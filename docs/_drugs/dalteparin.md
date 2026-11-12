@@ -72,11 +72,15 @@ Currently no related literature available for this predicted indication.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05249P | FRAGMIN INJECTION 2500 iu/ml | INJECTION | Valid |
 | SIN17433P | FRAGMIN SOLUTION FOR INJECTION PREFILLED SYRINGE 2500 IU/0.2 ml | INJECTION, SOLUTION | Valid |
 | SIN17434P | FRAGMIN SOLUTION FOR INJECTION PREFILLED SYRINGE 5000 IU/0.2 ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

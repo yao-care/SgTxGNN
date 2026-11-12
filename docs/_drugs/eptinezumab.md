@@ -72,9 +72,13 @@ The TxGNN model produced candidates for Eptinezumab, but every candidate that ca
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16325P | VYEPTI CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

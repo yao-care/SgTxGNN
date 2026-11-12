@@ -75,10 +75,14 @@ Currently no related literature available for cauda equina syndrome.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04202P | MINIMS TROPICAMIDE EYE DROPS 1% w/v | SOLUTION | Valid |
 | SIN04715P | MYDRIACYL STERILE OPHTHALMIC SOLUTION 1% | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

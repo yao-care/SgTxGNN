@@ -89,9 +89,13 @@ None of the trials below tests HIV treatment. They enrolled populations with HIV
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15603P | MAVIRET FILM-COATED TABLET 100MG/40MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

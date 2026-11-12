@@ -72,6 +72,8 @@ Currently no related literature available.
 
 Cyclophosphamide is marketed in Singapore, with five valid single-ingredient licences. The approved indication text is not recorded in the local data.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00929P | ENDOXAN TABLET 50 mg | TABLET, SUGAR COATED | Valid |
@@ -79,6 +81,8 @@ Cyclophosphamide is marketed in Singapore, with five valid single-ingredient lic
 | SIN01747P | ENDOXAN FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN01748P | ENDOXAN FOR INJECTION 500 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN10355P | CYCRAM FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both oral (tablet) and injectable (powder for solution) forms are available.
 

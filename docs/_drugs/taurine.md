@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Taurine, so 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -84,6 +86,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Taurine, so 
 | SIN16135P | SMOFKABIVEN EXTRA NITROGEN EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
 | SIN16136P | SMOFKABIVEN EXTRA NITROGEN ELECTROLYTE-FREE EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
 | SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | INFUSION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

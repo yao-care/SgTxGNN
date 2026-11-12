@@ -82,10 +82,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefotaxime, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16367P | CYTAXIN POWDER FOR SOLUTION FOR INJECTION 0.5G/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN16368P | CYTAXIN POWDER FOR SOLUTION FOR INJECTION 1G/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

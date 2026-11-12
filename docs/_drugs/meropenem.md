@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 652
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
@@ -113,6 +113,14 @@ For urinary tract infection, higher-level evidence is available:
 
 Approved indication text is not listed in the registration data. The main authorizations are:
 
+<!-- review:begin sg-lic-20261106-meropenem-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Meropenem has 17 valid single-ingredient registrations, all injectable powders for solution. Approved indication text is not listed in the registration data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 19 registrations for this drug, 19 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-meropenem-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09033P | Meronem Powder for Solution for Intravenous Injection or Infusion 1 g/ | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -122,6 +130,8 @@ Approved indication text is not listed in the registration data. The main author
 | SIN14471P | Meronem Powder for Solution for Intravenous Injection or Infusion 500m | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Showing 5 of 19 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -144,6 +154,19 @@ The prediction is mechanistically plausible, but there are no registered trials 
 - Mechanism of action data from DrugBank
 - Prospective or comparative clinical data for bone and joint infection, particularly for multidrug-resistant or melioidosis cases
 - Guardrails for any use: carbapenem stewardship (reserve for ESBL or multidrug-resistant pathogens), renal dose adjustment, monitoring for seizure risk, and review of interactions with bupropion and iodinated contrast agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Meropenem has 17 valid single-ingredient registrations, all injectable powders for solution" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

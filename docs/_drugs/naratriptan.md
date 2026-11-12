@@ -86,9 +86,13 @@ The table lists the most relevant publications, prioritising RCTs, then reviews.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14787P | NARATRIPTAN FILM-COATED TABLETS 2.5MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

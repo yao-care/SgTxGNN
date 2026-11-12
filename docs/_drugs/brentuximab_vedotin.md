@@ -85,9 +85,13 @@ None of these publications directly studies brentuximab vedotin as treatment for
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14477P | ADCETRIS® POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

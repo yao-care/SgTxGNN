@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -39,6 +39,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Abiraterone Acetate is a drug identified for drug repurposing evaluation, but the current Evidence Pack contains no predicted indications, no safety information. Without predicted indication targets or supporting evidence, a substantive repurposing evaluation cannot be conducted at this stage.
+
+<!-- review:begin sg-lic-20261106-abiraterone_acetate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Abiraterone Acetate is a drug identified for drug repurposing evaluation, but the current Evidence Pack contains no predicted indications, no regulatory registration data, and no safety information." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 17 registrations for this drug, 17 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-abiraterone_acetate-1 -->
 
 ---
 
@@ -76,9 +82,17 @@ Currently no related clinical trials registered under any predicted indication (
 
 Currently no related literature available (no predicted indications available to anchor a literature search).
 
+<!-- review:begin sg-lic-20261106-abiraterone_acetate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Abiraterone Acetate has **0 registered products** in Singapore. No license records are available in this Evidence Pack." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 17 registrations for this drug, 17 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-abiraterone_acetate-2 -->
+
 ---
 
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -89,6 +103,8 @@ Currently no related literature available (no predicted indications available to
 | SIN16002P | ABIRATRED ABIRATERONE ACETATE FILM COATED TABLET USP 250MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 17 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -110,12 +126,40 @@ No safety data is available in this Evidence Pack:
 **Rationale:**
 The Evidence Pack for Abiraterone Acetate is incomplete at multiple critical levels — no predicted indications, no MOA, and no safety information — making it impossible to conduct a meaningful repurposing evaluation at this time.
 
+<!-- review:begin sg-lic-20261106-abiraterone_acetate-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Evidence Pack for Abiraterone Acetate is incomplete at multiple critical levels — no predicted indications, no MOA, no regulatory data, and no safety information — making it impossible to conduct a meaningful repurposing evaluation at this time." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 17 registrations for this drug, 17 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-abiraterone_acetate-3 -->
+
 **To proceed, the following is needed:**
 
 1. **Resolve DG001 (Blocking):** Retrieve prescribing information / package insert warnings and contraindications from the regulatory authority website to enable safety pre-screening
 2. **Resolve DG002 (High):** Query DrugBank API to populate MOA, pharmacological categories, and drug targets — the DrugBank query already returned 1 result and should be parsed
 3. **Re-run TxGNN pipeline:** Ensure the prediction pipeline completes and populates `predicted_indications` before re-evaluation
 5. **Re-run DDI query:** Current DDI result is `not_found`; verify whether drug name normalisation or alternate spellings (e.g., "abiraterone") are needed
+
+<!-- review:begin sg-lic-20261106-abiraterone_acetate-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Re-run TxGNN pipeline:** Ensure the prediction pipeline completes and populates `predicted_indications` before re-evaluation / **Verify Singapore registration search:** Confirm whether Abiraterone Acetate is marketed under any brand name (e.g., Zytiga) in Singapore and update `taiwan_regulatory`" Removed: leftover template text about Taiwan's TFDA, which does not apply to this Singapore page. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-abiraterone_acetate-4 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "regulatory registration data, and no" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Abiraterone Acetate has **0 registered products** in Singapore. No license records are available in this Evidence Pack" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "no regulatory data" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "4. **Verify Singapore registration search:** Confirm whether Abiraterone Acetate is marketed under any brand name (e.g., Zytiga) in Singapor" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

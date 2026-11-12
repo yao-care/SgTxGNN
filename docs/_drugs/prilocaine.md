@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 825
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16326P | TAKIPRIL SOLUTION FOR INJECTION 20MG/ML | INJECTION, SOLUTION | Valid |
@@ -88,7 +90,15 @@ Currently no related literature available.
 | SIN16538P | FORTACIN CUTANEOUS SPRAY SOLUTION 7.5MG/dose + 2.5MG/dose | SPRAY, METERED | Valid |
 | SIN17501P | XYLOCREAM 5% W/W | CREAM | Valid |
 
+<!-- licenses:end -->
+
 All five licences are valid registrations, and none has been cancelled. No licence is for an ophthalmic dosage form.
+
+<!-- review:begin sg-lic-20261106-prilocaine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid single-ingredient registrations, and none has been cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-prilocaine-1 -->
 
 ---
 
@@ -126,6 +136,19 @@ Among the other predictions in the same analysis, **neuralgia** (including posth
 - Package insert warnings and contraindications from the Singapore regulator
 - An ophthalmic formulation and its ocular safety and tolerability data
 - A comparison against existing treatments for papillary conjunctivitis, such as antihistamines and mast-cell stabilisers
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

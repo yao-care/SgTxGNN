@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Diphenhydramine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,6 +96,8 @@ No literature was found for rosacea conjunctivitis. Selected publications for **
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10851P | PAXIDORM TABLETS 25 mg | TABLET, SUGAR COATED | Valid |
@@ -106,7 +108,15 @@ No literature was found for rosacea conjunctivitis. Selected publications for **
 
 Showing 5 of 10 HSA registrations.
 
+<!-- licenses:end -->
+
 Most are expectorant syrups.
+
+<!-- review:begin sg-lic-20261106-diphenhydramine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 14 valid single-ingredient licences in total (tablet, sugar-coated tablet, solution, syrup and elixir forms). Most are expectorant syrups." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 10 registrations for this drug, 10 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-diphenhydramine-1 -->
 
 ## Safety Considerations
 
@@ -134,6 +144,19 @@ The model score is high (0.9920), but there are no trials or publications, and t
 - For rosacea conjunctivitis: any clinical or mechanistic evidence of benefit, plus a review of whether the prediction is an artefact of the allergic conjunctivitis indications
 - For urticaria: head-to-head data against second-generation antihistamines
 - Route and formulation compatibility assessment for the target indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 14 valid single-ingredient licences in total (tablet, sugar-coated tablet, solution, syrup and elixir forms)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

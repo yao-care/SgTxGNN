@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14506P | INVOKANA™ FILM-COATED TABLETS 100 MG | TABLET, FILM COATED | Valid |
 | SIN14507P | INVOKANA™ FILM-COATED TABLETS 300 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both registrations are valid single-ingredient products for oral use, with no cancelled licences.
 

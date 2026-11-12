@@ -72,6 +72,8 @@ The TxGNN model produced candidates for Cephalexin, but every candidate that can
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00449P | FELEXIN 500 CAPSULE 500 mg | CAPSULE | Valid |
@@ -87,6 +89,8 @@ The TxGNN model produced candidates for Cephalexin, but every candidate that can
 | SIN16585P | AXCEL CEPHALEXIN-500 CAPSULE 500MG | CAPSULE | Valid |
 
 Showing 11 of 12 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

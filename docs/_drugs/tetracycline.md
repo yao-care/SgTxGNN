@@ -74,11 +74,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00969P | TETRACYCLINE MC CAPSULE 250 mg | CAPSULE | Valid |
 | SIN02053P | BEATACYCLINE CAPSULE 250 mg | CAPSULE | Valid |
 | SIN08514P | BIOTINE OINTMENT 3% w/w | OINTMENT | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

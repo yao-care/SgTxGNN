@@ -79,12 +79,16 @@ A small cohort report (PMID 39658130) describes ticagrelor 60 mg twice daily plu
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14120P | Brilinta Tablet 90 mg | TABLET, FILM COATED | Valid |
 | SIN15294P | BRILINTA TABLET 60 MG | TABLET, FILM COATED | Valid |
 | SIN17211P | TICASPAN 90 FILM-COATED TABLETS 90MG | TABLET, FILM COATED | Valid |
 | SIN17266P | RECLOVAC 90 FILM COATED TABLETS 90MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

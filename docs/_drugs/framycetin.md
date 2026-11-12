@@ -81,9 +81,13 @@ No literature is available for the top predicted indication (sclerosing cholangi
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01718P | PROCTOSEDYL OINTMENT | OINTMENT | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,7 +89,11 @@ The evidence is weaker than for SSRIs. The available studies are small, and a me
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +112,12 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Rationale:**
 OCD has the strongest support among the predictions. It has one double-blind controlled augmentation trial, a Phase 4 trial, an open-label study, several reviews and many case reports. Sample sizes are small and there is no Phase 3 RCT, so this is best treated as a research question rather than a ready-to-use indication.
 
+<!-- review:begin sg-lic-20261106-duloxetine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Sample sizes are small and there is no Phase 3 RCT, so this is best treated as a research question rather than a ready-to-use indication. The drug is already marketed in Singapore, which lowers the access barrier." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-duloxetine-1 -->
+
 The other predictions are weaker:
 - **Agoraphobia** (L3): only indirect panic-disorder data, so it remains a research question.
 - **Benign paroxysmal torticollis of infancy, histrionic, schizotypal, schizoid and paranoid personality disorders, Ohdo syndrome and variants, ligneous conjunctivitis**: model prediction only (L5), so Hold.
@@ -117,6 +127,26 @@ The other predictions are weaker:
 - An adequately powered, controlled trial in OCD, ideally against SSRI standard care
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications (not yet in the compiled data), plus a safety monitoring plan covering serotonin syndrome risk, blood pressure, liver function, and the major drug interactions above
+
+<!-- review:begin sg-lic-20261106-duloxetine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications (not yet in the compiled data), plus a safety monitoring plan covering serotonin syndrome risk, blood pressure, liver function, and the major drug interactions above / Confirmation of the approved indications for the registered Singapore products, since the registration records give no indication text" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-duloxetine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The drug is already marketed in Singapore, which lowers the access barrier" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Confirmation of the approved indications for the registered Singapore products, since the registration records give no indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

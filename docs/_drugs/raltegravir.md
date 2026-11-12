@@ -85,9 +85,13 @@ The table lists the most relevant publications for SIV infection (all preclinica
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13568P | ISENTRESS® 400MG TABLET | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Benzoyl peroxide"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Benzoyl Peroxide: predicted new indication vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,13 +68,23 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13332P | CLINDOXYL Once Daily Gel | GEL | Valid |
 | SIN13789P | EPIDUO GEL 0.1%/2.5% | GEL | Valid |
 | SIN15460P | EPIDUO FORTE GEL 0.3%/2.5% | GEL | Valid |
 
+<!-- licenses:end -->
+
 These are fixed-dose combination gels with another active ingredient, so they do not describe how benzoyl peroxide alone is approved.
+
+<!-- review:begin sg-lic-20261106-benzoyl_peroxide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorizations are valid. These are fixed-dose combination gels with another active ingredient, so they do not describe how benzoyl peroxide alone is approved. Both are topical gels." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-benzoyl_peroxide-1 -->
 
 ## Safety Considerations
 
@@ -95,6 +105,19 @@ The prediction has a very high model score (0.9992) but no clinical trials or pu
 - Detailed mechanism of action data
 - Assessment of tolerability and irritation risk at the vulvar site
 - Confirmation of dosage form and route suitability for the intended site
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorizations are valid. Both are topical gels" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

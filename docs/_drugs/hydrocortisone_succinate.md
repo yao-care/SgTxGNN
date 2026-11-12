@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Hydrocortiso
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04791P | SOLU-CORTEF FOR INJECTION 100 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

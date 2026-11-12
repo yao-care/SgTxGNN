@@ -72,6 +72,8 @@ The TxGNN model produced candidates for Gabapentin, but every candidate that can
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08302P | NEURONTIN CAPSULE 400 mg | CAPSULE | Valid |
@@ -86,6 +88,8 @@ The TxGNN model produced candidates for Gabapentin, but every candidate that can
 | SIN16294P | GABAPIN 100-GABAPENTIN CAPSULES USP 100 MG | CAPSULE, GELATIN COATED | Valid |
 | SIN16697P | ALPENTIN CAPSULE 300MG | CAPSULE | Valid |
 | SIN16698P | ALPENTIN CAPSULE 100MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 716
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Malignant epithelial tumour of ovary"
 monitor_inn: "Niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "pre-malignant neoplasm", "inner ear neoplasm", "schwannoma of jugular foramen"]
@@ -69,12 +69,22 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16459P | ZEJULA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
 | SIN16460P | ZEJULA FILM-COATED TABLET 200MG | TABLET, FILM COATED | Valid |
 
+<!-- licenses:end -->
+
 The approved indication text was not available in the registration records compiled for this report.
+
+<!-- review:begin sg-lic-20261106-niraparib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four registrations are valid and oral. The approved indication text was not available in the registration records compiled for this report." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 2 registrations for this drug, 2 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-niraparib-1 -->
 
 ## Cytotoxicity
 
@@ -112,6 +122,19 @@ For context, the second-ranked prediction, cystic neoplasm, has a different evid
 - Detailed mechanism of action data (MOA)
 - Package insert warnings and contraindications, so a safety screen can be completed
 - A review of the predicted disease's histology, since benign or non-specific categories would not justify systemic oncology treatment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four registrations are valid and oral" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

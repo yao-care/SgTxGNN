@@ -69,12 +69,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05679P | MARCAIN INJECTION 0.5% (POLYAMP DUOFIT) | INJECTION | Valid |
 | SIN05681P | MARCAIN SPINAL 0.5% HEAVY INJECTION | INJECTION | Valid |
 | SIN13211P | Marcain Injection 0.5% (4ml) | INJECTION | Valid |
 | SIN16501P | REGIVELL SPINAL HEAVY INJECTION 0.5% W/V | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

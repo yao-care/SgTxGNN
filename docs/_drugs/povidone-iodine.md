@@ -72,11 +72,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Povidone-Iod
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15313P | BETADINE SORE THROAT SPRAY 0.45% W/V | SPRAY | Valid |
 | SIN15344P | BETADINE VAGINAL GEL 10% W/W | GEL | Valid |
 | SIN15699P | BETADINE® ANTISEPTIC LIQUID 10% W/V | LIQUID | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

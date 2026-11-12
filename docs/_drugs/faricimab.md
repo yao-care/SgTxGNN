@@ -74,10 +74,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Faricimab, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16514P | VABYSMO SOLUTION FOR INJECTION 6MG/0.05ML | INJECTION, SOLUTION | Valid |
 | SIN17245P | VABYSMO SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.05ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

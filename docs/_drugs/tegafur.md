@@ -61,11 +61,15 @@ The high TxGNN score most likely reflects how closely this disease sits to cance
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03692P | UFT CAPSULE | CAPSULE | Valid |
 | SIN13672P | TS-ONE Capsule 20 | CAPSULE | Valid |
 | SIN13673P | TS-ONE Capsule 25 | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 All three licences are currently valid, and all are oral capsules.
 

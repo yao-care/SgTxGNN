@@ -73,9 +73,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Idarucizumab
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15083P | PRAXBIND SOLUTION FOR INJECTION/INFUSION 50 MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

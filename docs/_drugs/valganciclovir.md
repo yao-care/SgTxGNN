@@ -70,10 +70,14 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12393P | VALCYTE TABLET 450 mg | TABLET, FILM COATED | Valid |
 | SIN15779P | VALGAN 450 VALGANCICLOVIR FILM-COATED TABLET 450 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

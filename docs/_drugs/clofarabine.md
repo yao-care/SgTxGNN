@@ -107,9 +107,13 @@ The available publications are mainly reviews and smaller clinical reports. No r
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14026P | Evoltra Concentrate Solution for Infusion 1mg/ml | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ---
 

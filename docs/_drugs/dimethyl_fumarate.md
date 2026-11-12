@@ -73,10 +73,14 @@ The TxGNN deep-learning model has no candidate indication for Dimethyl Fumarate 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15053P | TECFIDERA GASTRO-RESISTANT HARD CAPSULES 120 MG | CAPSULE, ENTERIC COATED | Valid |
 | SIN15054P | TECFIDERA GASTRO-RESISTANT HARD CAPSULES 240 MG | CAPSULE, ENTERIC COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

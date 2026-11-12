@@ -127,6 +127,8 @@ Other predictions (case-level evidence only):
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08019P | MAREVAN TABLET 3 mg (NEW ZEALAND) | TABLET | Valid |
@@ -136,6 +138,8 @@ Other predictions (case-level evidence only):
 | SIN13516P | Apo-Warfarin 2mg Tablet | TABLET | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 Six single-ingredient oral tablet licences are valid in total; the Marevan 3 mg tablet (SIN08019P) is the one not shown above.
 

@@ -90,9 +90,13 @@ No literature was found for the top-ranked prediction (polymicrogyria). The tabl
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09426P | RILUTEK TABLET 50 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Manufacturer: Opella Healthcare International SAS.
 

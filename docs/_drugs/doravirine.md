@@ -80,9 +80,13 @@ No literature directly supports the top prediction. The only publications linked
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15869P | PIFELTRO FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

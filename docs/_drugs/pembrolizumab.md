@@ -84,10 +84,14 @@ Currently no related literature available for the predicted indication.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14881P | KEYTRUDA SOLUTION FOR INFUSION 25MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN16677P | Pembrolizumab Solution for Infusion 25mg/mL | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products, and both are injectable (intravenous infusion) only.
 

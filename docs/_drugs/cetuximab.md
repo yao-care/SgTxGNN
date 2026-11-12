@@ -80,9 +80,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cetuximab, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13629P | Erbitux 5mg/ml | INFUSION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

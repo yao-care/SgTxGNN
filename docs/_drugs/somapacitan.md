@@ -48,11 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17216P | SOGROYA SOLUTION FOR INJECTION IN PRE-FILLED PEN 5MG/1.5ML | INJECTION, SOLUTION | Valid |
 | SIN17217P | SOGROYA SOLUTION FOR INJECTION IN PRE-FILLED PEN 10MG/1.5ML | INJECTION, SOLUTION | Valid |
 | SIN17218P | SOGROYA SOLUTION FOR INJECTION IN PRE-FILLED PEN 15MG/1.5ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All three registrations are valid single-ingredient products from Novo Nordisk A/S.
 

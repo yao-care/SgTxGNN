@@ -77,11 +77,15 @@ Currently no related clinical trials registered for ADHD.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11253P | SIFROL TABLET 0.125 mg | TABLET | Valid |
 | SIN13928P | Sifrol Extended Release Tablet 0.375 mg | TABLET, EXTENDED RELEASE | Valid |
 | SIN13930P | Sifrol Extended Release Tablet 1.5mg | TABLET, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products, and none is cancelled.
 

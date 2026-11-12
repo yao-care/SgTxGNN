@@ -81,6 +81,8 @@ Currently no related literature available for gingival fibromatosis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15984P | HOVID GEFITINIB TABLETS 250 MG | TABLET, FILM COATED | Valid |
@@ -88,6 +90,8 @@ Currently no related literature available for gingival fibromatosis.
 | SIN16055P | INGEFITINIB FILM COATED TABLET 250MG | TABLET, FILM COATED | Valid |
 | SIN16130P | GEFTINAT FILM COATED TABLETS 250 MG | TABLET, FILM COATED | Valid |
 | SIN16722P | GEFITINIB-TEVA FC TABLET 250MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All five registrations are valid single-ingredient oral products.
 

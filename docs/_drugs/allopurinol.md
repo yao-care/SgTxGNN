@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Gout"
 ---
 
@@ -73,6 +73,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05804P | ALLOPURINOL TABLET 100 mg | TABLET | Valid |
@@ -83,7 +85,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 9 HSA registrations.
 
+<!-- licenses:end -->
+
 The five above are shown.
+
+<!-- review:begin sg-lic-20261106-allopurinol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight valid single-ingredient registrations exist in total, all oral tablets. The five above are shown." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-allopurinol-1 -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The prediction has a high model score but no clinical trials, no allopurinol-spe
 - Preclinical studies of allopurinol directly in porphyria models
 - Package insert warnings and contraindications from the HSA, particularly regarding hepatic safety
 - Review of the approved indication wording for the Singapore licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Eight valid single-ingredient registrations exist in total, all oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

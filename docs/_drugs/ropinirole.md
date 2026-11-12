@@ -79,6 +79,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10975P | REQUIP TABLET 2 mg | TABLET, FILM COATED | Valid |
@@ -86,6 +88,8 @@ Currently no related clinical trials registered.
 | SIN11018P | REQUIP TABLET 1 mg | TABLET, FILM COATED | Valid |
 | SIN13763P | Requip PD 24 Hour Prolonged Release Tablets (2mg) | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN13764P | Requip PD 24 Hour Prolonged Release Tablets (4mg) | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

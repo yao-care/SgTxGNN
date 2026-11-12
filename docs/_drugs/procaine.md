@@ -106,9 +106,13 @@ For the most relevant modern signal in a secondary prediction (tendinitis):
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09166P | PROCANOL LOTION 2% | LOTION | Valid |
+
+<!-- licenses:end -->
 
 The licence is a valid single-ingredient product (manufacturer: ICM Pharma Pte. Ltd.).
 

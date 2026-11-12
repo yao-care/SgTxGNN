@@ -88,6 +88,8 @@ For cold urticaria, the most relevant hydroxyzine-specific item is [PMID 6480953
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04096P | AA PHARMA HYDROXYZINE CAPSULE 10 mg | CAPSULE | Valid |
@@ -95,6 +97,8 @@ For cold urticaria, the most relevant hydroxyzine-specific item is [PMID 6480953
 | SIN09981P | PHYMORAX TABLET 10 mg | TABLET | Valid |
 | SIN16328P | HYDROXYZINE MEVON FILM-COATED TABLETS 25 MG | TABLET, FILM COATED | Valid |
 | SIN16329P | HYDROXYZINE MEVON FILM-COATED TABLETS 10 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All five are valid, single-ingredient oral products. None has been cancelled.
 

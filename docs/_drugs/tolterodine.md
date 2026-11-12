@@ -72,6 +72,8 @@ The TxGNN model produced candidates for Tolterodine, but every candidate that ca
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09911P | DETRUSITOL TABLET 1 mg | TABLET, FILM COATED | Valid |
@@ -84,6 +86,8 @@ The TxGNN model produced candidates for Tolterodine, but every candidate that ca
 | SIN16433P | TOLTERODINE MEVON SR CAPSULE 2 MG | CAPSULE, EXTENDED RELEASE | Valid |
 | SIN16597P | TOLCORD 2 FILM COATED TABLET 2 MG | TABLET, FILM COATED | Valid |
 | SIN16598P | TOLCORD 1 FILM COATED TABLET 1 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 862
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Resorcinol"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
 description: "Resorcinol: predicted new indication Acne keloid (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,12 +71,22 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03372P | CASTELLANI'S PAINT (STAINLESS) | LIQUID | Valid |
 | SIN06396P | WILISAN RINGWORM COMPOUND LOTION | LOTION | Valid |
 
+<!-- licenses:end -->
+
 Both licences are valid products for topical use.
+
+<!-- review:begin sg-lic-20261106-resorcinol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products for topical use." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-resorcinol-1 -->
 
 ## Cytotoxicity
 
@@ -104,6 +114,19 @@ The prediction score for acne keloid is very high (0.9983), but no clinical tria
 - Confirmation of the approved indications for the two Singapore licences
 - Route and formulation compatibility review (topical lotion or liquid for follicular scalp and neck lesions)
 - A systemic absorption and safety assessment, especially for patients with G6PD deficiency, methemoglobinemia or renal disease, and for paediatric use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

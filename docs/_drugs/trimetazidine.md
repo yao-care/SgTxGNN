@@ -72,6 +72,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01673P | VASTAREL TABLET 20 mg | TABLET, FILM COATED | Valid |
@@ -80,6 +82,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | SIN15092P | MAXCARD MODIFIED RELEASE TABLETS 35MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN15877P | VASTAREL XR EXTENDED-RELEASE HARD CAPSULE 80 mg | CAPSULE, EXTENDED RELEASE | Valid |
 | SIN16614P | TRIMEZEN MODIFIED-RELEASE TABLETS 35MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 458
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Fulvestrant"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -74,6 +74,8 @@ Currently no related clinical trials registered for HIV infectious disease.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13216P | Faslodex Solution For Injection 250 mg/5ml | INJECTION, SOLUTION | Valid |
@@ -84,7 +86,15 @@ Currently no related clinical trials registered for HIV infectious disease.
 
 Showing 5 of 9 HSA registrations.
 
+<!-- licenses:end -->
+
 Three further licences are valid (SIN17045P, SIN16848P, SIN16893P).
+
+<!-- review:begin sg-lic-20261106-fulvestrant-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Three further licences are valid (SIN17045P, SIN16848P, SIN16893P). All 8 are single-ingredient products, and none is cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-fulvestrant-1 -->
 
 ## Cytotoxicity
 
@@ -115,6 +125,19 @@ The HIV prediction has a high model score but only one indirect laboratory study
 - Further preclinical work showing whether fulvestrant promotes or suppresses HIV latency reversal in CD4+ T cells, and in which direction
 - A rationale for anti-estrogen therapy in people living with HIV, including interactions with antiretroviral regimens
 - An assessment of the safety of long-term estrogen blockade in this population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 8 are single-ingredient products, and none is cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

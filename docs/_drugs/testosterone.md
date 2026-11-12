@@ -86,6 +86,8 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04518P | DEPO-TESTOSTERONE STERILE SOLUTION 100 mg/ml | INJECTION | Valid |
@@ -95,6 +97,8 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 | SIN16857P | ANDROGEL GEL 16.2MG/G | GEL | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

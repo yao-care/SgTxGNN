@@ -96,6 +96,8 @@ Other predictions have no literature.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02500P | MOTILIUM TABLET 10 mg | TABLET, FILM COATED | Valid |
@@ -105,6 +107,8 @@ Other predictions have no literature.
 | SIN09583P | DOMPER SUPPOSITORY 10 mg | SUPPOSITORY | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 There are 9 valid single-ingredient registrations in total. Available forms include oral tablets, suspension and suppository.
 

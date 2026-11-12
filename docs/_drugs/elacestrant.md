@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17096P | ORSERDU FILM-COATED TABLET 345 MG | TABLET, FILM COATED | Valid |
 | SIN17097P | ORSERDU FILM-COATED TABLET 86 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products (oral route), manufactured by Catalent Greenville, Inc.
 

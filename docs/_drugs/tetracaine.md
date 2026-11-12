@@ -90,11 +90,15 @@ For reference, selected publications for other predictions:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04188P | MINIMS TETRACAINE HYDROCHLORIDE EYE DROPS 0.5% w/v | SOLUTION | Valid |
 | SIN04204P | MINIMS TETRACAINE HYDROCHLORIDE EYE DROPS 1% w/v | SOLUTION | Valid |
 | SIN14793P | PLIAGLIS CREAM 70mg/g + 70mg/g | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

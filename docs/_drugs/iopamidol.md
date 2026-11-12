@@ -70,10 +70,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Iopamidol, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05906P | IOPAMIRO 300 INJECTION 6.12 g/10 ml | INJECTION | Valid |
 | SIN05907P | IOPAMIRO 370 INJECTION 7.55 g/10 ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

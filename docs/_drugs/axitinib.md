@@ -71,12 +71,16 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14321P | INLYTA TABLETS 1MG | TABLET, FILM COATED | Valid |
 | SIN14322P | INLYTA TABLETS 5MG | TABLET, FILM COATED | Valid |
 | SIN17370P | AXITINIB SANDOZ FILM COATED TABLET 5 MG | TABLET, FILM COATED | Valid |
 | SIN17371P | AXITINIB SANDOZ FILM COATED TABLET 1 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

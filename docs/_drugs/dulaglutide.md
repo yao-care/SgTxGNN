@@ -50,10 +50,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14967P | TRULICITY INJECTION 1.5MG/0.5ML | INJECTION, SOLUTION | Valid |
 | SIN14968P | TRULICITY INJECTION 0.75MG/0.5ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products from Eli Lilly and Company (Vetter Pharma-Fertigung as co-manufacturer).
 

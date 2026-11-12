@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 566
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Superficial fungal infections and related skin conditions (tinea pedi…"
 monitor_inn: "Ketoconazole"
 predicted_indications: ["acne (disease)"]
@@ -98,6 +98,14 @@ Much of the remaining retrieved literature is tangential (polycystic ovary syndr
 
 Approved indication text is not available in the registration records. Main authorisations:
 
+<!-- review:begin sg-lic-20261106-ketoconazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 20 valid registrations, all single-ingredient products. Approved indication text is not available in the registration records." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 21 registrations for this drug, 21 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ketoconazole-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01117P | NIZORAL CREAM 2% | CREAM | Valid |
@@ -107,6 +115,8 @@ Approved indication text is not available in the registration records. Main auth
 | SIN07997P | ANTANAZOL CREAM 2% | CREAM | Valid |
 
 Showing 5 of 21 HSA registrations.
+
+<!-- licenses:end -->
 
 Available forms include creams, shampoos, ointments and 200 mg tablets. A topical cream is therefore already available for the route used in the acne trial.
 
@@ -134,6 +144,19 @@ The acne prediction score is very high (0.9980), but the evidence is L4. There i
 - Package insert warnings and contraindications from HSA
 - A formal mechanism of action record (from DrugBank)
 - For any vulvovaginal candidiasis follow-up: confirm the ketoconazole arm of NCT01293643, and use topical or vaginal routes with attention to non-albicans Candida resistance
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 20 valid registrations, all single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

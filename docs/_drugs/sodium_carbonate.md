@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 919
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sodium Carbonate: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated"
 monitor_inn: "Sodium carbonate"
 predicted_indications: ["cauda equina syndrome", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "obsolete neurogenic bladder (disease)", "dry eye syndrome", "ventricular tachycardia"]
@@ -93,6 +93,8 @@ One further paper, [34600046](https://pubmed.ncbi.nlm.nih.gov/34600046/) (2021, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09234P | FORTRANS FOR ORAL SOLUTION | GRANULE, FOR SOLUTION | Valid |
@@ -102,6 +104,8 @@ One further paper, [34600046](https://pubmed.ncbi.nlm.nih.gov/34600046/) (2021, 
 | SIN15514P | BIPHOZYL SOLUTION FOR HAEMODIALYSIS / HAEMOFILTRATION | SOLUTION, STERILE | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 Sodium carbonate appears here as a component of a single injectable product. In such products it typically serves as a buffer or excipient rather than as the active ingredient.
 
@@ -130,6 +134,25 @@ The top predictions have no clinical trials, no supporting literature, and no pl
 - Prospective controlled studies if the Sjögren syndrome direction (symptomatic dry mouth relief) is pursued
 - Ocular safety data before any consideration of dry eye syndrome
 - Route compatibility assessment, since the only licensed product is an injection and the plausible uses are local (oral)
+
+<!-- review:begin sg-lic-20261106-sodium_carbonate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original indication, since the sole license is for a combination injectable with no stated indication text" Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sodium_carbonate-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "since the sole license is for a combination injectable with no stated indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

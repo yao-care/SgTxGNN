@@ -70,6 +70,8 @@ Currently no related literature available for the leading prediction, vulvar inv
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03808P | SANDOSTATIN INJECTION 0.1 mg/ml | INJECTION | Valid |
@@ -79,6 +81,8 @@ Currently no related literature available for the leading prediction, vulvar inv
 | SIN17361P | OCTREOTIDE-TEVA POWDER AND SOLVENT FOR PR SUSPENSION FOR INJECTION 20M | INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION,EXTENDED RELEASE | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

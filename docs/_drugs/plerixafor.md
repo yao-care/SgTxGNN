@@ -78,11 +78,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13894P | Mozobil Solution for Injection 20mg/ml | INJECTION, SOLUTION | Valid |
 | SIN16879P | PLERISTEM SOLUTION FOR INJECTION 20MG/ML | INJECTION, SOLUTION | Valid |
 | SIN17147P | Plerixafor-AFT solution for injection 24 mg/1.2 mL | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products.
 

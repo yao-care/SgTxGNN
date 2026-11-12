@@ -103,12 +103,16 @@ Selected publications for the other predictions:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06179P | MEPIVASTESIN INJECTION 30 mg/ml | INJECTION | Valid |
 | SIN07075P | SCANDONEST INJECTION 3% (WITHOUT VASO-CONSTRICTOR) | INJECTION | Valid |
 | SIN14649P | ISOCAINE (MEPIVACAINE HCL) INJECTION 3% | INJECTION | Valid |
 | SIN07074P | SCANDONEST 2% SPECIAL INJECTION | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

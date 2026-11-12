@@ -68,10 +68,14 @@ Currently no related literature available for cecum villous adenoma.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15491P | LONSURF FILM-COATED TABLET 15MG/6.14MG | TABLET, FILM COATED | Valid |
 | SIN15494P | LONSURF FILM-COATED TABLET 20MG/8.19MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both authorizations are currently valid, are held by Taiho Pharmaceutical Co., Ltd. (Kitajima Plant) and are for oral use.
 

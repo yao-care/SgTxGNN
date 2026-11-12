@@ -5,7 +5,7 @@ layout: default
 title: Dimethicone
 parent: Known Uses Only (No New Predictions)
 nav_order: 333
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dimethicone: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Dimethicone"
 predicted_indications: []
@@ -52,9 +52,19 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 The records contain no approved indication text. The main authorisations are listed below.
 
+<!-- review:begin sg-lic-20261106-dimethicone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Dimethicone has 19 valid single-ingredient registrations in Singapore and none have been cancelled. The records contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 1 registration for this drug, 1 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-dimethicone-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02547P | VERAGEL-DMS TABLET | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -63,6 +73,18 @@ The records contain no approved indication text. The main authorisations are lis
 Please refer to the package insert for safety information.
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Dimethicone has 19 valid single-ingredient registrations in Singapore and none have been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

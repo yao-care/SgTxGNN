@@ -73,10 +73,14 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Azelastin
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15255P | DYMISTA NASAL SPRAY | SPRAY, METERED | Valid |
 | SIN15256P | SYNAZE NASAL SPRAY | SPRAY, METERED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

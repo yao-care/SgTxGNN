@@ -83,6 +83,8 @@ Currently no related literature is available for Prinzmetal angina.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08264P | SEVORANE INHALATION | SOLUTION | Valid |
@@ -90,6 +92,8 @@ Currently no related literature is available for Prinzmetal angina.
 | SIN14780P | SOJOURN INHALATION ANAESTHETIC LIQUID 100% | INHALANT | Valid |
 | SIN16819P | NOREVELL INHALATION ANAESTHETIC LIQUID 100% | INHALANT | Valid |
 | SIN17305P | HEAREM SEVOFLURANE INHALATION ANAESTHETIC LIQUID 100% | INHALANT | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

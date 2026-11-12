@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Gimeracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
 description: "Gimeracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -87,12 +87,22 @@ No randomised trials or systematic reviews were identified. The available litera
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13672P | TS-ONE Capsule 20 | CAPSULE | Valid |
 | SIN13673P | TS-ONE Capsule 25 | CAPSULE | Valid |
 
+<!-- licenses:end -->
+
 Both licences are valid registrations held by Taiho Pharmaceutical Co., Ltd. (Tokushima Plant), for oral use.
+
+<!-- review:begin sg-lic-20261106-gimeracil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient registrations held by Taiho Pharmaceutical Co., Ltd." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-gimeracil-1 -->
 
 ## Cytotoxicity
 
@@ -123,6 +133,19 @@ One completed Phase 3 trial (NCT00660894, n=1535) tests S-1 directly in stage II
 - Published results of the completed Phase 3 trial (NCT00660894) and the SOX trial (NCT03448549)
 - The approved indication text for the Singapore licences, to confirm the original indication
 - A safety monitoring plan covering haematological toxicity, hand-foot syndrome and DPD-related risks
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

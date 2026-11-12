@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cetylpyridin
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04042P | DENTINOX TEETHING GEL | GEL | Valid |
@@ -80,6 +82,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cetylpyridin
 | SIN12320P | DIFFLAM ANTI-INFLAMMATORY LOZENGE (WITH ANTIBACTERIAL) (HONEY LEMON) | LOZENGE | Valid |
 | SIN12321P | DIFFLAM ANTI-INFLAMMATORY LOZENGE (WITH ANTIBACTERIAL) (RASPBERRY RELI | LOZENGE | Valid |
 | SIN13591P | Difflam™ Anti-inflammatory Lozenge (with antibacterial) (Eucalyptus an | LOZENGE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

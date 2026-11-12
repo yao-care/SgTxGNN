@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 All 8 registrations are valid single-ingredient oral film-coated tablets (10 mg). The licence records contain no approved indication text. The five listed below are a selection.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12315P | EBIXA TABLET 10 mg | TABLET, FILM COATED | Valid |
@@ -92,6 +94,8 @@ All 8 registrations are valid single-ingredient oral film-coated tablets (10 mg)
 | SIN15489P | MEMANTINHYDROCHLORID STADA FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

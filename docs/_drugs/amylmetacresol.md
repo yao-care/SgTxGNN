@@ -72,9 +72,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08806P | STREPSILS MAX PLUS LOZENGES | LOZENGE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

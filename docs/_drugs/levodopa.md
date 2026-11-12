@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 596
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -115,6 +115,14 @@ Trials were found only for two lower-ranked candidates:
 
 The licence records contain no approved indication text. The main five are:
 
+<!-- review:begin sg-lic-20261106-levodopa-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 13 valid single-ingredient registrations. The licence records contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-levodopa-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05195P | MADOPAR HBS 125 CAPSULE | CAPSULE | Valid |
@@ -124,6 +132,8 @@ The licence records contain no approved indication text. The main five are:
 | SIN10286P | CREDANIL 25/250 TABLET | TABLET | Valid |
 
 Showing 5 of 13 HSA registrations.
+
+<!-- licenses:end -->
 
 All available forms are oral (tablet, capsule, film-coated tablet).
 
@@ -158,6 +168,19 @@ The top-ranked prediction, Rasmussen subacute encephalitis, has a high model sco
 - Package insert warnings and contraindications from the Singapore regulator (HSA), which are currently missing and are a blocking gap for safety screening
 - Mechanism of action data for levodopa
 - Review of the knowledge graph contraindications (psychosis, cardiovascular disease, glaucoma) for the target populations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 13 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -75,10 +75,14 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Trastuzum
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14496P | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 160MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN14497P | KADCYLA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

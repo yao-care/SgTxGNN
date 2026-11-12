@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 914
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,6 +96,14 @@ The trials most directly relevant to simvastatin are NCT00552097 and NCT00129402
 
 No approved indication text is recorded in the licence data. The main authorizations are listed below.
 
+<!-- review:begin sg-lic-20261106-simvastatin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 20 registrations are single-ingredient, film-coated oral tablets and are currently valid. No approved indication text is recorded in the licence data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 27 registrations for this drug, 27 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-simvastatin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03789P | ZOCOR TABLET 10 mg | TABLET, FILM COATED | Valid |
@@ -105,6 +113,8 @@ No approved indication text is recorded in the licence data. The main authorizat
 | SIN11888P | SIMLO-10 TABLET 10 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 27 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -135,6 +145,19 @@ Several completed Phase 3 trials, Cochrane reviews and current guidelines suppor
 - Autosomal dominant hypercholesterolemia has the same L1 evidence and decision (Proceed with Guardrails), with the same overlap with existing indications.
 - HIV infectious disease is a research question only (L3). The trials are drug-interaction studies, not efficacy studies, and safety is the main concern.
 - All other predictions (brain stem infarction, CETP deficiency, CYP7A1 deficiency, ABri amyloidosis, a rare neurodevelopmental disorder, fibroma of prostate, feline AIDS) rest on model prediction alone (L5) and should be on Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 20 registrations are single-ingredient, film-coated oral tablets and are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

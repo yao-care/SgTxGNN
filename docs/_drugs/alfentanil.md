@@ -60,10 +60,14 @@ The mechanistic link to the predicted disease is weak. Opioids can influence vas
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04326P | RAPIFEN INJECTION 0.5 mg/ml | INJECTION | Valid |
 | SIN17055P | ALFENTANIL KALCEKS SOLUTION FOR INJECTION/ INFUSION 0.5MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

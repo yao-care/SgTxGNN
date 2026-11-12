@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tyrothricin,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04392P | DORITHRICIN THROAT LOZENGES | LOZENGE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 667
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,7 +85,15 @@ Other predictions follow the same pattern. Peptic ulcer perforation and duodenal
 
 For the other predicted indications, two recent RCT-type publications (PMIDs [38059896](https://pubmed.ncbi.nlm.nih.gov/38059896/) and [42259699](https://pubmed.ncbi.nlm.nih.gov/42259699/)) evaluate metoclopramide for gastric visualisation in acute upper GI bleeding. Both concern a procedural use, not treatment of ulcer or gastroduodenitis. A rat study (PMID [2730234](https://pubmed.ncbi.nlm.nih.gov/2730234/), 1989) reported ulcer-protective and antisecretory effects of metoclopramide in aspirin-induced and pylorus-ligated models. This is preclinical only.
 
+<!-- review:begin sg-lic-20261106-metoclopramide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence (SIN03350P, SW METOCLOPRAMIDE TABLET 10 mg) is also valid. All six are single-ingredient products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-metoclopramide-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -94,6 +102,8 @@ For the other predicted indications, two recent RCT-type publications (PMIDs [38
 | SIN05202P | METOCLOPRAMIDE INJECTION BP 5 mg/ml | INJECTION | Valid |
 | SIN06638P | PULIN INJECTION 10 mg/2 ml | INJECTION | Valid |
 | SIN10581P | PULIN FILM-COATED TABLET 10 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -118,6 +128,19 @@ The TxGNN score is very high, but the only registered trial tests endoscopy prem
 - Clarification of the contraindication on active peptic ulcer disease
 - A clinical question restricted to a defined subpopulation (for example ulcer with delayed gastric emptying), supported by controlled trial data
 - A clear plan for how metoclopramide would fit alongside standard acid-suppressive therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A sixth licence (SIN03350P, SW METOCLOPRAMIDE TABLET 10 mg) is also valid. All six are single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Relations recorded in the knowledge graph: dermatitis, neuralgia…"
 ---
 
@@ -75,6 +75,14 @@ For context, other predicted ocular and related conditions have some literature,
 
 At least 20 single-ingredient licences are listed, all valid. The licence records contain no approved-indication text, so no indications are shown here.
 
+<!-- review:begin sg-lic-20261106-lidocaine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "At least 20 single-ingredient licences are listed, all valid. The list may be partial." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 40 registrations for this drug, 40 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-lidocaine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05616P | XYLOCAINE INJECTION 1% (5ML) | INJECTION | Valid |
@@ -84,6 +92,8 @@ At least 20 single-ingredient licences are listed, all valid. The licence record
 | SIN05684P | XYLOCAINE JELLY 2% | GEL | Valid |
 
 Showing 5 of 40 HSA registrations.
+
+<!-- licenses:end -->
 
 Available forms include gel, injection, ointment, spray and patch. No ophthalmic-specific product appears in the listed licences.
 
@@ -107,6 +117,19 @@ The prediction score is very high, but no trial or publication studies lidocaine
 - A review of corneal toxicity and epithelial healing risks with ocular lidocaine
 - The Singapore package insert warnings and contraindications
 - Mechanism of action data and a route and formulation assessment for ophthalmic use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The list may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

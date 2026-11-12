@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Follitropin,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12185P | PUREGON SOLUTION FOR INJECTION 300 iu/0.36 ml | INJECTION | Valid |
@@ -87,6 +89,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Follitropin,
 | SIN13990P | Pergoveris Powder and Solvent for Solution for Injection 150iu/75iu | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Showing 11 of 14 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

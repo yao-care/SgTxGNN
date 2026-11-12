@@ -48,11 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13872P | Taflotan Ophthalmic Solution 0.0015% | SOLUTION, STERILE | Valid |
 | SIN14856P | TAFLOTAN-S OPHTHALMIC SOLUTION 0.0015% | SOLUTION, STERILE | Valid |
 | SIN15060P | TAPCOM-S OPHTHALMIC SOLUTION | SOLUTION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

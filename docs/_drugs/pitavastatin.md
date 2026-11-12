@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Pitavastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pitavastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not stated in the Singapore licence records. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence."
 ---
 
@@ -67,7 +67,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin sg-lic-20261106-pitavastatin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid, single-ingredient oral products from Kowa Company, Ltd." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-pitavastatin-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -75,6 +83,8 @@ Currently no related literature available.
 | SIN15860P | LIVALO FILM-COATED TABLETS 4MG | TABLET, FILM COATED | Valid |
 | SIN17394P | LIVAZEBE Film-coated Tablets 2 mg/10 mg | TABLET, FILM COATED | Valid |
 | SIN17395P | LIVAZEBE Film-coated Tablets 4 mg/10 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -99,6 +109,19 @@ The TxGNN score is very high, but there are no trials or publications for CETP d
 - Package insert warnings and contraindications from the HSA, and the approved indication text for the two Singapore licences
 
 **Note on other predictions:** The second-ranked prediction, HIV infectious disease, has far stronger support, including a Phase 3 trial (NCT06317051) and the REPRIEVE trial publications (e.g. PMID 37486775). That evidence concerns cardiovascular prevention in people with HIV, not treatment of HIV infection itself. It could be assessed as a separate candidate.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are valid, single-ingredient oral products from Kowa Company, Ltd" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

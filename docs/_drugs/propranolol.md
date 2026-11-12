@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 836
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,6 +97,8 @@ Currently no related literature available for distal myopathy, Tateyama type. Th
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00041P | APO-PROPRANOLOL TABLET 40 mg | TABLET | Valid |
@@ -105,7 +107,15 @@ Currently no related literature available for distal myopathy, Tateyama type. Th
 | SIN00094P | PROPANOL TABLET 10 mg | TABLET | Valid |
 | SIN01621P | PROPANOL TABLETS 40 mg | TABLET, FILM COATED | Valid |
 
+<!-- licenses:end -->
+
 All are oral tablets.
+
+<!-- review:begin sg-lic-20261106-propranolol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Three further registrations (APO-PROPRANOLOL 10 mg and 40 mg, PROPANOL 10 mg) are also valid, giving 8 valid single-ingredient licences in total. All are oral tablets." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-propranolol-1 -->
 
 ---
 
@@ -139,12 +149,32 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The top-ranked prediction, distal myopathy, Tateyama type, is supported only by a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no literature and no plausible mechanism. The knowledge graph also lists myopathy as a contraindication. Propranolol is widely marketed in Singapore, but the better-supported candidate (intramuscular hemangioma) relies on indirect evidence, so it is better treated as a research question than as a new-indication opportunity.
 
+<!-- review:begin sg-lic-20261106-propranolol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Propranolol is widely marketed in Singapore (8 valid licences of 8), but the better-supported candidate (intramuscular hemangioma) relies on indirect evidence, so it is better treated as a research question than as a new-indication opportunity." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-propranolol-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Health Sciences Authority (HSA) website, and approved indication text for the Singapore licences
 - Mechanism-of-action data from DrugBank
 - For intramuscular hemangioma: direct evidence in that subtype, such as case series or a registered trial
 - For cirrhotic cardiomyopathy: controlled studies resolving the conflicting benefit-risk signals
 - Review of the knowledge-graph contraindication against any myopathy indication before further work
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Three further registrations (APO-PROPRANOLOL 10 mg and 40 mg, PROPANOL 10 mg) are also valid, giving 8 valid single-ingredient licences in t" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "(8 valid licences of 8)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

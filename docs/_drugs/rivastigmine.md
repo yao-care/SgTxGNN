@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 879
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,6 +76,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10035P | EXELON CAPSULE 1.5 mg | CAPSULE | Valid |
@@ -86,7 +88,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 9 HSA registrations.
 
+<!-- licenses:end -->
+
 Two further registrations are also valid: SIN13451P (Exelon Patch 10, 9.5 mg/24 hr) and SIN14500P (Exelon Patch 15, 13.3 mg/24 hr). Only oral capsule and transdermal patch forms are registered, with no ophthalmic formulation.
+
+<!-- review:begin sg-lic-20261106-rivastigmine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further registrations are also valid: SIN13451P (Exelon Patch 10, 9.5 mg/24 hr) and SIN14500P (Exelon Patch 15, 13.3 mg/24 hr). All 7 registrations are valid single-ingredient products, with no cancelled licences." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-rivastigmine-1 -->
 
 ## Safety Considerations
 
@@ -113,6 +123,19 @@ Glaucoma is the best-supported prediction, but the evidence is one rabbit study 
 - Confirmation of the approved indication text for the Singapore registrations
 - Further preclinical work on IOP lowering (for example, other species and dose-response), followed by an ocular safety assessment for a topical formulation (miosis, ocular surface effects, systemic cholinergic effects)
 - A plan for early-phase human studies, if the preclinical work is supportive
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 7 registrations are valid single-ingredient products, with no cancelled licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

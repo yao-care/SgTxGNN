@@ -83,12 +83,16 @@ Mammary Paget disease is usually associated with underlying ductal carcinoma in 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00794P | NOLVADEX TABLET 10 mg | TABLET, FILM COATED | Valid |
 | SIN00796P | NOLVADEX-D TABLET 20 mg | TABLET, FILM COATED | Valid |
 | SIN06409P | NOVOFEN 20 TABLET 20 mg | TABLET | Valid |
 | SIN07094P | TAMOXIFEN TABLET 20 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -80,9 +80,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09975P | HAN SEO OXYMETHOLONE TABLET 50 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

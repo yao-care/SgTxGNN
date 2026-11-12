@@ -81,10 +81,14 @@ For the top-ranked prediction (coronary artery disease), currently no related li
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09435P | KESTINE TABLET 10 mg | TABLET, FILM COATED | Valid |
 | SIN15644P | KESTINE FILM-COATED TABLET 20MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15551P | DALVOCANS POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50MG/ VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -77,6 +79,8 @@ Currently no related literature available.
 | SIN15697P | CASPOCAN POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 50 MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

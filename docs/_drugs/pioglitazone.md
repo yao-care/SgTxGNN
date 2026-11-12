@@ -64,11 +64,15 @@ Other top-ranked predictions are also supported only by model scores. They inclu
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12441P | ACTOS TABLET 15 mg | TABLET | Valid |
 | SIN12442P | ACTOS TABLET 30 mg | TABLET | Valid |
 | SIN16882P | DECULIN TABLET 30MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All three registrations are valid single-ingredient oral products.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Palbociclib"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). Approved use: Not recorded in the local data"
@@ -108,7 +108,15 @@ No clinical trials are registered for hyperthyroidism, rheumatoid arthritis or t
 
 No literature was found for hyperthyroidism, thyroid hormone resistance, hyperthyroxinemia, Prinzmetal angina, or the two congenital syndromes.
 
+<!-- review:begin sg-lic-20261106-palbociclib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient products from Pfizer Manufacturing Deutschland GmbH, and the only route is oral." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-palbociclib-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -119,6 +127,8 @@ No literature was found for hyperthyroidism, thyroid hormone resistance, hyperth
 | SIN17421P | PALBONAT CAPSULES 100MG | CAPSULE | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -155,6 +165,19 @@ Please refer to the package insert for warnings and contraindications, as label-
 - Results from the Phase 1/2 leukemia trials (NCT02310243, NCT03132454, NCT05627232)
 - A prospective clinical study for rheumatoid arthritis, with a myelosuppression and thromboembolism risk assessment
 - Review of the major interacting drugs (for example clarithromycin and cobicistat) before any combination use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid single-ingredient products from Pfizer Manufacturing Deutschland GmbH, and the only route is oral" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

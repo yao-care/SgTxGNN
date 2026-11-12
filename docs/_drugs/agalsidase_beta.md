@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13609P | Fabrazyme ® 35mg (agalsidase beta) | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN13610P | Fabrazyme ® 5mg (agalsidase beta) | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

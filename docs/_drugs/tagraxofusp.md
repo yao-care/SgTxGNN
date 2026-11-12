@@ -63,9 +63,13 @@ Other top-ranked predictions are also weak or unsupported: pre-malignant neoplas
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17059P | ELZONRIS CONCENTRATE FOR SOLUTION FOR INFUSION 1000 MCG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 The product is an injectable (intravenous infusion) with one valid single-ingredient licence and none cancelled.
 

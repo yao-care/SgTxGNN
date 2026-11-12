@@ -72,12 +72,16 @@ The TxGNN model's candidates for Cariprazine (score ≥ 0.99) are all already kn
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15743P | SYMVENU HARD CAPSULES 1.5MG | CAPSULE, GELATIN COATED | Valid |
 | SIN15744P | SYMVENU HARD CAPSULES 3MG | CAPSULE, GELATIN COATED | Valid |
 | SIN15745P | SYMVENU HARD CAPSULES 4.5MG | CAPSULE, GELATIN COATED | Valid |
 | SIN15746P | SYMVENU HARD CAPSULES 6MG | CAPSULE, GELATIN COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

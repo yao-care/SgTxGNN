@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 983
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Threonine"
 predicted_indications: ["gastroparesis (disease)"]
 description: "Threonine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,6 +76,14 @@ Currently no related literature available for gastroparesis.
 
 Approved indication text is not available in the registration records. The main ones are:
 
+<!-- review:begin sg-lic-20261106-threonine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Approved indication text is not available in the registration records. The 19 valid single-ingredient registrations are all infusion or injection products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-threonine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -85,6 +93,8 @@ Approved indication text is not available in the registration records. The main 
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
 Showing 5 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -106,6 +116,19 @@ There are no clinical trials or literature, and no plausible mechanism. The same
 - Package insert warnings and contraindications from HSA
 - Assessment of route compatibility, since current products are intravenous nutrition formulations and not oral or enteral products suited to gastric disorders
 - Preclinical or early human studies (for example, gastric emptying measurements) before further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The 19 valid single-ingredient registrations are all infusion or injection products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

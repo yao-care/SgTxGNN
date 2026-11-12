@@ -97,9 +97,13 @@ None of the publications below directly studies zanubrutinib in myeloid leukemia
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16341P | BRUKINSA™ CAPSULE 80MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ---
 

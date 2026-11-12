@@ -99,10 +99,14 @@ The 10 most relevant of the 20 publications are listed below, with randomised tr
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13115P | LEVEMIR® FLEXPEN® 100U/ML, 3ML | INJECTION, SOLUTION | Valid |
 | SIN15515P | LEVEMIR® PENFILL® 100 U/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products from Novo Nordisk, and none has been cancelled.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -73,6 +73,14 @@ Currently no related literature available.
 
 The approved indication text is not recorded in the local data. Five main authorisations are listed below.
 
+<!-- review:begin sg-lic-20261106-cefuroxime-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Cefuroxime is marketed in Singapore, with 8 valid single-ingredient licences. The approved indication text is not recorded in the local data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 12 registrations for this drug, 12 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-cefuroxime-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02364P | ZINNAT TABLET 500 mg | TABLET, FILM COATED | Valid |
@@ -82,6 +90,8 @@ The approved indication text is not recorded in the local data. Five main author
 | SIN10947P | SHINCEF FOR INJECTION 1.5 g/ vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Showing 5 of 12 HSA registrations.
+
+<!-- licenses:end -->
 
 Available routes are oral (film-coated tablets) and injectable (powder for solution).
 
@@ -106,6 +116,18 @@ Please refer to the package insert for warnings and contraindications.
 - Mechanism-of-action data and a credible biological rationale for hyperamylasemia
 - Any clinical or observational data directly studying cefuroxime in hyperamylasemia
 - Package insert warnings and contraindications from the regulator to complete the safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Cefuroxime is marketed in Singapore, with 8 valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

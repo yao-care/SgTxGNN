@@ -72,9 +72,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16019P | LONQUEX SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 6MG/0.6ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

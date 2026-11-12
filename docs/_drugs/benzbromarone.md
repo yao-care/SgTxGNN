@@ -82,9 +82,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06371P | NARCARICIN MITE TABLET 50 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

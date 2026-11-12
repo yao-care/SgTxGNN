@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,6 +74,14 @@ Currently no related literature available.
 
 Amlodipine is marketed in Singapore. The licence records carry no approved-indication text. Five representative authorisations are shown below.
 
+<!-- review:begin sg-lic-20261106-amlodipine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Amlodipine is marketed in Singapore. All 20 listed licences are valid single-ingredient oral tablets, and the list may be partial." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 84 registrations for this drug, 84 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-amlodipine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05277P | NORVASC TABLET 5 mg | TABLET | Valid |
@@ -83,6 +91,8 @@ Amlodipine is marketed in Singapore. The licence records carry no approved-indic
 | SIN13537P | ACTAPIN TABLET 5MG | TABLET | Valid |
 
 Showing 5 of 84 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The prediction score is very high (0.9994). However, there are no trials or publ
 - Mechanism of action data
 - Package insert warnings and contraindications from the HSA, to complete the safety screening
 - A review of how blood pressure targets and hypotension risk apply in acute and post-stroke settings
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 20 listed licences are valid single-ingredient oral tablets, and the list may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -73,9 +73,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Calfactant, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14333P | Infasurf Intratracheal Suspension 35mg/mL | SUSPENSION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

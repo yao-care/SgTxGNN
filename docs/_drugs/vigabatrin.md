@@ -72,9 +72,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Vigabatri
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07955P | SABRIL TABLET 500 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

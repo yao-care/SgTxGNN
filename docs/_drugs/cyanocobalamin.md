@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cyanocobalamin: predicted new indication biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -73,6 +73,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07876P | VITAMIN B12 INJECTION 1000 mcg/ml | INJECTION | Valid |
@@ -83,7 +85,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 12 HSA registrations.
 
+<!-- licenses:end -->
+
 The five listed above are examples, not the full list.
+
+<!-- review:begin sg-lic-20261106-cyanocobalamin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 14 licences are valid. The five listed above are examples, not the full list." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 12 registrations for this drug, 12 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-cyanocobalamin-1 -->
 
 ## Safety Considerations
 
@@ -103,6 +113,19 @@ The prediction rests on a high model score (0.9960) alone. No clinical trial or 
 - Detailed mechanism of action data (MOA)
 - Package insert warnings and contraindications from the HSA
 - A review of whether any added benefit over standard biotin therapy is plausible
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 14 licences are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

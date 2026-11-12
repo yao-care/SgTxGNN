@@ -73,9 +73,13 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05423P | LIVIAL TABLET 2.5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

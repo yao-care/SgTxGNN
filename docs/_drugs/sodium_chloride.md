@@ -72,6 +72,8 @@ The TxGNN model produced no candidate for Sodium Chloride with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03517P | CENTA ENEMA | ENEMA | Valid |
@@ -96,6 +98,8 @@ The TxGNN model produced no candidate for Sodium Chloride with a score of 0.99 o
 | SIN04624P | DORAMA-NEO EYE DROPS | SOLUTION | Valid |
 
 Showing 20 of 79 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

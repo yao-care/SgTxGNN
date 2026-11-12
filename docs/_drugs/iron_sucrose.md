@@ -72,9 +72,13 @@ The TxGNN model produced candidates for Iron Sucrose with a score of 0.99 or hig
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11354P | VENOFER SOLUTION FOR INJECTION 100 mg/5 ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -84,12 +84,16 @@ Detailed mechanism-of-action data from the drug database are not available. The 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13339P | NEXAVAR TABLET 200 mg | TABLET, FILM COATED | Valid |
 | SIN16485P | INFENIB FILM COATED TABLET 200MG | TABLET, FILM COATED | Valid |
 | SIN16774P | SORAVAR 200 FILM COATED TABLET 200 MG | TABLET, FILM COATED | Valid |
 | SIN17486P | AIRKEFAY FILM-COATED TABLETS 200MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All listed licences are currently valid, and the product is available as an oral tablet. The approved indication text is not recorded in the local data.
 

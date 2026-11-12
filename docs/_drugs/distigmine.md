@@ -87,9 +87,13 @@ One paper was found for a lower-ranked prediction (rank 5, "disease of receptor 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02915P | UBRETID TABLET 5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

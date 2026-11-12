@@ -93,9 +93,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16295P | LEQVIO SOLUTION FOR INJECTION IN PREFILLED SYRINGE 284 MG/1.5 ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

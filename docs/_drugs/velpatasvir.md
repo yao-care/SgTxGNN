@@ -102,10 +102,14 @@ All of these concern HCV treatment. None shows that velpatasvir is effective aga
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15351P | EPCLUSA TABLET 400MG/100MG | TABLET, FILM COATED | Valid |
 | SIN15705P | VOSEVI FILM-COATED TABLETS 400MG/100MG/100MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

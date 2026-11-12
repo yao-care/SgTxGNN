@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
 description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -99,6 +99,14 @@ No randomised controlled trials were retrieved. The list below is mostly narrati
 
 The table lists 5 of them.
 
+<!-- review:begin sg-lic-20261106-gemcitabine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 11 licences are valid single-ingredient injectables, and none carries approved indication text in the data compiled for this report. The table lists 5 of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 12 registrations for this drug, 12 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-gemcitabine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09416P | GEMZAR 200mg Powder for Solution for Infusion | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -108,6 +116,8 @@ The table lists 5 of them.
 | SIN14559P | GEMTERO (GEMCITABINE HYDROCHLORIDE) FOR INJECTION 200MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 Showing 5 of 12 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -145,6 +155,19 @@ Completed Phase 3 and several completed Phase 2 trials in breast cancer, support
 **Other predicted indications** (all lower priority):
 - Endometrial mixed adenocarcinoma and endometrial mucinous adenocarcinoma have limited supporting evidence (L3, "Research Question"). That evidence concerns endometrial or ovarian cancer in general, not these subtypes.
 - Rectum mucinous, colon mucinous, villoglandular endometrioid, cervical mucinous, gallbladder mucinous, rete ovarii, and mucin-rich endometrioid adenocarcinoma have no direct evidence (L4–L5, Hold).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 11 licences are valid single-ingredient injectables, and none carries approved indication text in the data compiled for this report" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

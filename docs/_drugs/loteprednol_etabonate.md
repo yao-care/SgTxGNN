@@ -84,10 +84,14 @@ For a related prediction (pseudomembranous conjunctivitis), one 2025 paper was r
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12601P | LOTEMAX STERILE OPHTHALMIC SUSPENSION 0.5% | SOLUTION | Valid |
 | SIN13647P | ZYLET® STERILE OPHTHALMIC SUSPENSION | SUSPENSION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

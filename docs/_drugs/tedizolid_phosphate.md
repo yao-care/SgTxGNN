@@ -84,10 +84,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14850P | SIVEXTRO FILM-COATED TABLET 200MG | TABLET, FILM COATED | Valid |
 | SIN14851P | SIVEXTRO LYOPHILIZED POWDER FOR SOLUTION FOR INFUSION 200MG PER VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid, single-ingredient products. Injectable and oral routes are available.
 

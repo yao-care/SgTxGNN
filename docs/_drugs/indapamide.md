@@ -74,6 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Indapamide, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09074P | NATRILIX SR TABLET 1.5 mg | TABLET, FILM COATED | Valid |
@@ -88,6 +90,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Indapamide, 
 | SIN15012P | TRIPLIXAM FILM COATED TABLET 5 mg/ 1.25 mg/ 10 mg | TABLET, FILM COATED | Valid |
 | SIN15013P | TRIPLIXAM FILM COATED TABLET 10 mg/ 2.5 mg/ 5 mg | TABLET, FILM COATED | Valid |
 | SIN15014P | TRIPLIXAM FILM COATED TABLET 10 mg/ 2.5 mg/ 10 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

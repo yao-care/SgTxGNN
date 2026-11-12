@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1066
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Vilanterol"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,6 +78,12 @@ Of the 29 trials, the 10 most relevant are listed below (completed Phase 3 trial
 
 Some other trials were withdrawn with no enrolment (NCT04671355, NCT01435902, NCT02731846), and several are Phase 1 pharmacokinetic studies that provide no efficacy data. One trial of perioperative dual bronchodilators in lung cancer patients with COPD ([NCT04536675](https://clinicaltrials.gov/study/NCT04536675), Phase 3, 204 participants) is still active and not yet reported, and it may not contain vilanterol.
 
+<!-- review:begin sg-lic-20261106-vilanterol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid and held by GlaxoSmithKline entities." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-vilanterol-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -95,6 +101,8 @@ Some other trials were withdrawn with no enrolment (NCT04671355, NCT01435902, NC
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14736P | RELVAR ELLIPTA INHALATION POWDER 100MCG/25MCG | POWDER, METERED | Valid |
@@ -102,6 +110,8 @@ Some other trials were withdrawn with no enrolment (NCT04671355, NCT01435902, NC
 | SIN14838P | ANORO ELLIPTA INHALATION POWDER 62.5 MCG/25 MCG | POWDER, METERED | Valid |
 | SIN15806P | TRELEGY ELLIPTA INHALATION POWDER 100 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
 | SIN16914P | TRELEGY ELLIPTA INHALATION POWDER 200 MCG/62.5 MCG/25 MCG | POWDER, METERED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -123,6 +133,19 @@ Multiple completed Phase 3 RCTs and large pivotal trials (IMPACT, FULFIL, CAPTAI
 - Detailed mechanism-of-action data
 - Confirmation that the Singapore labelled indications match the evidence (COPD and asthma, by product)
 - Review of the moderate interactions, especially with other sympathomimetics and clarithromycin, which may need monitoring
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid and held by GlaxoSmithKline entities" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -69,12 +69,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01255P | DUROMINE CAPSULE 15 mg | CAPSULE | Valid |
 | SIN01256P | DUROMINE CAPSULE 30 mg | CAPSULE | Valid |
 | SIN05113P | PANBESY CAPSULE 30 mg | CAPSULE | Valid |
 | SIN05315P | PANBESY CAPSULE 15 MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 All four are valid single-ingredient oral products. The approved indication text is not available for them.
 

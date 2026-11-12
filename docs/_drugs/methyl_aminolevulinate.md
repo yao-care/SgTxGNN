@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13410P | Metvix 160mg/g Cream | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

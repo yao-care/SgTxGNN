@@ -72,10 +72,14 @@ The TxGNN deep-learning model produced candidates for Netarsudil, but every cand
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16816P | RHOPRESSA OPHTHALMIC SOLUTION, 0.02% w/v | SOLUTION, STERILE | Valid |
 | SIN16818P | ROCKLATAN OPHTHALMIC SOLUTION, 0.02% W/V / 0.005% W/V | SOLUTION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -46,12 +46,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03934P | NORCUTIN TABLETS 5 mg | TABLET | Valid |
 | SIN06679P | NORCOLUT TABLET 5 mg | TABLET | Valid |
 | SIN06011P | TRISEQUENS TABLET | TABLET, FILM COATED | Valid |
 | SIN10960P | ACTIVELLE TABLET | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

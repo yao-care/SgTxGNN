@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05894P | APO-BENZTROPINE TABLET 2 mg | TABLET | Valid |
 | SIN16222P | BENZATROPINE PHEBRA SOLUTION FOR INJECTION 2 MG/2 ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

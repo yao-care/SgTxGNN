@@ -71,9 +71,13 @@ Currently no related literature available.
 
 One valid single-ingredient licence is recorded, and no licences are cancelled.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09545P | DOSTINEX TABLET 0.5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 The approved indication text is not recorded in the local data. The only registered route is oral.
 

@@ -78,6 +78,8 @@ The publications below concern urethritis in general. None evaluates clavulanic 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08956P | AUGMENTIN TABLET 1 g | TABLET, FILM COATED | Valid |
@@ -87,6 +89,8 @@ The publications below concern urethritis in general. None evaluates clavulanic 
 | SIN10604P | CURAM POWDER FOR ORAL SUSPENSION 312.5 mg/5 ml | POWDER, FOR SUSPENSION | Valid |
 
 Showing 5 of 26 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

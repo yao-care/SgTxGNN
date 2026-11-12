@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ezetimibe"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia, familial hyperlipidaemia…"
 ---
 
@@ -77,6 +77,14 @@ Two publications were retrieved, but neither studies CETP deficiency in patients
 
 Approved-indication text is not available in the data compiled for this report. The five main authorisations are:
 
+<!-- review:begin sg-lic-20261106-ezetimibe-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "At least 20 valid licences are listed (the list may be partial). Approved-indication text is not available in the data compiled for this report." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 31 registrations for this drug, 31 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ezetimibe-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12375P | EZETROL TABLET 10 mg | TABLET | Valid |
@@ -86,6 +94,8 @@ Approved-indication text is not available in the data compiled for this report. 
 | SIN15740P | LIPEZ TABLET 10 MG | TABLET | Valid |
 
 Showing 5 of 31 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -106,6 +116,19 @@ The prediction rests on a model score alone. There are no clinical trials and no
 - Direct clinical or genetic studies of ezetimibe in CETP deficiency
 - Mechanism-of-action data and package insert warnings and contraindications
 - Review of the interaction profile (especially with statins) and the knowledge-graph safety signals (liver, muscle, gallbladder, pancreas)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "At least 20 valid licences are listed (the list may be partial)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

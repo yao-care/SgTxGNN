@@ -88,9 +88,13 @@ These papers support the drug in its approved indication only. They do not provi
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16770P | ELELYSO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 200 UNITS/ VI | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

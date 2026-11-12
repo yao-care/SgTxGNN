@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 289
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the Singapore licence records. Published pharmacology d…"
 monitor_inn: "Cyproterone acetate"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -78,10 +78,14 @@ Currently no related clinical trials registered for migraine disorder.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04784P | DIANE-35 TABLET | TABLET, SUGAR COATED | Valid |
 | SIN12117P | ESTELLE-35 TABLET | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -115,7 +119,26 @@ The prediction rests on a computational score alone. There are no clinical trial
 - Evidence of efficacy in migraine from controlled studies, and a benefit-risk assessment addressing thromboembolic and stroke risk
 - Route compatibility assessment (not yet completed)
 
+<!-- review:begin sg-lic-20261106-cyproterone_acetate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Original approved indication text for the three Singapore licences" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 2 registrations for this drug, 2 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-cyproterone_acetate-1 -->
+
 **Note on other predictions:** Amenorrhea (L3) is the only other prediction with a clinical trial: NCT01103518, a Phase 4 trial of ethinyl estradiol and cyproterone acetate preparations in irregular menstruation of hyperandrogenic origin (n=100, status unknown, no results). It is better supported mechanistically and is worth pursuing as a research question. Thrombophilia and related coagulation predictions should be treated as safety signals and excluded from repurposing consideration.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "for the three Singapore licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

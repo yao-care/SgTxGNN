@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,6 +69,12 @@ Peptic ulcers form when acid overwhelms the protective mucosal barrier. Reducing
 
 Other pantoprazole ulcer trials were found under related predictions (for example duodenal and gastric ulcer): NCT02551744 (pantoprazole vs famotidine for ulcer recurrence prevention, n=101), NCT00843063 (famotidine vs pantoprazole for aspirin-related ulcers, n=161) and NCT00374101 (PPI doses in bleeding peptic ulcers, Phase 3, n=450).
 
+<!-- review:begin sg-lic-20261106-pantoprazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A total of 14 valid single-ingredient licences exist, covering oral enteric-coated or delayed-release tablets (20 mg and 40 mg) and intravenous injection." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-pantoprazole-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -84,6 +90,8 @@ Other pantoprazole ulcer trials were found under related predictions (for exampl
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08843P | CONTROLOC TABLET 40 mg | ENTERIC COATED TABLET | Valid |
@@ -93,6 +101,8 @@ Other pantoprazole ulcer trials were found under related predictions (for exampl
 | SIN14467P | PANTONEX DR-40 TABLET 40MG | TABLET, DELAYED RELEASE | Valid |
 
 Showing 5 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +118,12 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 Pantoprazole is already marketed in Singapore, and active peptic ulcer disease is essentially an on-label use. Phase 3 evidence and double-blind comparisons support acid suppression for ulcer healing.
 
+<!-- review:begin sg-lic-20261106-pantoprazole-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Pantoprazole is already marketed in Singapore with 14 licences, and active peptic ulcer disease is essentially an on-label use." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-pantoprazole-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications, including the indication text for each Singapore licence (currently missing)
 - Detailed mechanism of action data
@@ -118,6 +134,20 @@ Pantoprazole is already marketed in Singapore, and active peptic ulcer disease i
 - Duodenal ulcer and gastric ulcer: on-label, L1, Proceed with Guardrails.
 - Peptic ulcer perforation, gastrojejunal ulcer and duodenogastric reflux: only indirect or limited evidence, so research questions at most.
 - Duodenal obstruction, acne, smouldering systemic mastocytosis and lymphoadenopathic mastocytosis with eosinophilia: model prediction only, with no supporting evidence, so Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A total of 14 valid single-ingredient licences exist, covering oral enteric-coated or delayed-release tablets (20 mg and 40 mg) and intraven" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "with 14 licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,9 +72,13 @@ Currently no related literature available for gingival fibromatosis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14776P | ZYKADIA CAPSULE 150mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -72,10 +72,14 @@ The TxGNN model produced candidates for Flunarizine with a score of 0.99 or high
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08250P | FORKNOW TABLET 10 mg | TABLET | Valid |
 | SIN09449P | POLI-FLUNARIN CAPSULE 5 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

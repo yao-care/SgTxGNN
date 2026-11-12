@@ -81,10 +81,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefaclor, so
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09294P | CLEANCEF CAPSULE 250 mg | CAPSULE | Valid |
 | SIN11733P | SOFICLOR FOR ORAL SUSPENSION 125 mg/5 ml | GRANULE, FOR SUSPENSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

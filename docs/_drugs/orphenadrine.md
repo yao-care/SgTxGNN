@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Parkinsonian disorder"
 monitor_inn: "Orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
@@ -69,7 +69,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for the primary predicted indication (retinal dystrophy).
 
+<!-- review:begin sg-lic-20261106-orphenadrine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Six further valid single-ingredient registrations exist (11 in total), covering tablets, film-coated tablets and capsules, all oral." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-orphenadrine-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -80,6 +88,8 @@ Currently no related literature available for the primary predicted indication (
 | SIN07951P | ORPHENADOL TABLET | TABLET | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -101,6 +111,19 @@ The retinal dystrophy prediction rests only on a TxGNN model (deep learning) sco
 - HSA package insert warnings and contraindications (a blocking data gap for safety screening)
 - Approved indication text for the Singapore registrations, which is currently blank
 - If pursuing the better-supported schizophrenia direction, a systematic review of the benefit-risk balance, given the old and low-quality evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Six further valid single-ingredient registrations exist (11 in total), covering tablets, film-coated tablets and capsules, all oral" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

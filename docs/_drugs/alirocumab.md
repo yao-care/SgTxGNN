@@ -70,10 +70,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15228P | PRALUENT SOLUTION FOR INJECTION IN A PRE-FILLED PEN 75MG/ML | INJECTION, SOLUTION | Valid |
 | SIN15229P | PRALUENT SOLUTION FOR INJECTION IN A PRE-FILLED PEN 150 MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products.
 

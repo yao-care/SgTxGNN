@@ -73,6 +73,8 @@ Currently no related literature available.
 
 Six valid single-ingredient licences, all oral film-coated tablets. Approved indication text was not available for any of them.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08409P | FUGACIN TABLET 200 mg | TABLET, FILM COATED | Valid |
@@ -82,6 +84,8 @@ Six valid single-ingredient licences, all oral film-coated tablets. Approved ind
 | SIN11433P | OFLOX TABLET 200 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 A sixth licence, SIN13219P (FLOVID 200, HOVID Bhd., film-coated tablet), is also valid.
 

@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Mometasone, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07564P | ELOMET CREAM 0.1% | CREAM | Valid |
@@ -81,6 +83,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Mometasone, 
 | SIN11277P | ASMANEX TWISTHALER 200 mcg/inhalation | POWDER, METERED | Valid |
 
 Showing 5 of 24 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

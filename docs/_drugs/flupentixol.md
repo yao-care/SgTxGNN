@@ -93,9 +93,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00913P | DEANXIT TABLET | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

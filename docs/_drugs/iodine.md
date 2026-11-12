@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Iodine, so t
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05841P | ULTRAVIST 300 INJECTION 300 mg Iodine/ml | INJECTION | Valid |
@@ -83,6 +85,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Iodine, so t
 | SIN08462P | IOMERON 350 INJECTION 350 mg/ml | INJECTION | Valid |
 
 Showing 7 of 11 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

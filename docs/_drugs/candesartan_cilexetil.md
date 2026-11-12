@@ -70,6 +70,8 @@ Currently no related literature available. The publications retrieved in the dat
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10878P | ATACAND TABLET 8 mg | TABLET | Valid |
@@ -77,6 +79,8 @@ Currently no related literature available. The publications retrieved in the dat
 | SIN14301P | Candesartan Sandoz Tablet 16mg | TABLET | Valid |
 | SIN14302P | Candesartan Sandoz Tablet 8mg | TABLET | Valid |
 | SIN11383P | ATACAND PLUS TABLET | TABLET | Valid |
+
+<!-- licenses:end -->
 
 The drug is currently marketed in Singapore. All registered products are oral tablets, and all registrations are currently valid.
 

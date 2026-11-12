@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dienogest: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not stated in the licence data (the literature describes dienogest as…"
 monitor_inn: "Dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -86,9 +86,17 @@ Currently no related clinical trials registered.
 
 None of these studies tests dienogest as a treatment for amenorrhea. For the rank-3 prediction (breast fibrocystic disease), one small 2009 pilot study ([19499407](https://pubmed.ncbi.nlm.nih.gov/19499407/)) in 21 women with endometriosis, given high-dose dienogest, reported reduced mammary gland size and regression of mastopathic changes.
 
+<!-- review:begin sg-lic-20261106-dienogest-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four registrations are valid single-ingredient oral tablets." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-dienogest-1 -->
+
 ---
 
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -97,6 +105,8 @@ None of these studies tests dienogest as a treatment for amenorrhea. For the ran
 | SIN16681P | VIENOMET TABLETS 2MG | TABLET | Valid |
 | SIN16682P | DIMETRUM TABLET 2MG | TABLET | Valid |
 | SIN16854P | DIENOMET TABLET 2MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,6 +133,19 @@ The prediction score is very high, but there are no clinical trials and no liter
 - Direct clinical evidence of dienogest treating (not causing) amenorrhea, or clarification of the intended use
 - A safety review of the knowledge-graph contraindications, especially cardiovascular, hepatic and calcium-metabolism concerns
 - Reassessment of other predicted indications, of which breast fibrocystic disease has the only (weak) supporting signal
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four registrations are valid single-ingredient oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -69,10 +69,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13046P | XENICAL CAPSULE 120MG | CAPSULE | Valid |
 | SIN15312P | OBELIT 120 CAPSULE 120MG | CAPSULE, GELATIN COATED | Valid |
+
+<!-- licenses:end -->
 
 Both products are single-ingredient, valid, oral formulations.
 

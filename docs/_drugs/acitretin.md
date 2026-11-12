@@ -87,6 +87,8 @@ The match with the TxGNN "acne" label is partly a nomenclature artefact. The cli
 
 The approved indication text is not recorded for any of the licences.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08391P | NEOTIGASON CAPSULE 10 mg | CAPSULE | Valid |
@@ -96,6 +98,8 @@ The approved indication text is not recorded for any of the licences.
 | SIN16829P | ACITRET CAPSULE 25MG | CAPSULE | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 A sixth licence, SIN15270P (NOVATRETIN CAPSULE 25MG), is also valid. All six licences are for oral capsules.
 

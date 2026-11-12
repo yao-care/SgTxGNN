@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 description: "Diclofenac: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -102,6 +102,14 @@ Other retrieved papers (case series on JIA with alveolar haemorrhage, nabumetone
 
 Approved indication text is not recorded in the available data. The first five are shown below:
 
+<!-- review:begin sg-lic-20261106-diclofenac-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Diclofenac holds 20 valid single-ingredient licences. Approved indication text is not recorded in the available data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 52 registrations for this drug, 52 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-diclofenac-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03962P | VOLTAREN EMULGEL 1% | GEL | Valid |
@@ -111,6 +119,8 @@ Approved indication text is not recorded in the available data. The first five a
 | SIN05468P | VOLTAREN 50 SUPPOSITORY 50 mg | SUPPOSITORY | Valid |
 
 Showing 5 of 52 HSA registrations.
+
+<!-- licenses:end -->
 
 Available routes and forms across all licences include oral tablets, topical gel, suppositories, injections and patches.
 
@@ -143,6 +153,19 @@ Please also refer to the package insert for safety information, as label-based w
 - Paediatric dosing and safety review, including GI, renal and cardiovascular monitoring and NSAID class precautions
 - Confirmation of the Singapore paediatric labelling status
 - More recent or higher-quality evidence (e.g., registered trials or modern comparative studies) for JIA
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Diclofenac holds 20 valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

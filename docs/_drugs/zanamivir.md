@@ -72,9 +72,13 @@ Currently no related literature available for pyelonephritis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11199P | RELENZA ROTADISK 5 mg/dose | POWDER, METERED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

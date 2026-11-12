@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00714P | HEPARIN INJECTION 5,000 iu/ml | INJECTION | Valid |
@@ -82,7 +84,15 @@ Currently no related literature available.
 
 Showing 5 of 6 HSA registrations.
 
+<!-- licenses:end -->
+
 A sixth licence, SIN12253P (Heparinised Saline Injection 10 iu/ml, B. Braun), is also valid. All six licences are for injectable products.
+
+<!-- review:begin sg-lic-20261106-heparin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All six licences are for single-ingredient injectable products." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-heparin-1 -->
 
 ## Safety Considerations
 
@@ -111,6 +121,18 @@ The prediction is biologically plausible, because protein C deficiency is a hype
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
 | 2 | Primary release disorder of platelets | 0.9906 | L5 | No mechanistic rationale for heparin; the literature is only thematically adjacent; bleeding risk could increase |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

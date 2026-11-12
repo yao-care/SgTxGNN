@@ -84,10 +84,14 @@ The compiled literature includes no RCTs. Below are the most relevant publicatio
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15937P | AJOVY SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 225 MG/1.5ML | INJECTION, SOLUTION | Valid |
 | SIN16344P | AJOVY SOLUTION FOR INJECTION IN PRE-FILLED PEN 225 MG/1.5ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

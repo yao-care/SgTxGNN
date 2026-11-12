@@ -72,9 +72,13 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08849P | ETOMIDATE-LIPURO INJECTION 20 mg/10 ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -89,12 +89,16 @@ No publications were found for the migraine prediction itself. The only literatu
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09479P | ESMERON INJECTION 50 mg/5ml | INJECTION | Valid |
 | SIN15106P | ROCURONIUM KABI SOLUTION FOR INJECTION/INFUSION 10MG/ML | INJECTION, SOLUTION | Valid |
 | SIN15237P | ROCURONIUM-HAMELN INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
 | SIN17025P | NOVERON SOLUTION FOR INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All four registrations are valid, single-ingredient injectable products.
 

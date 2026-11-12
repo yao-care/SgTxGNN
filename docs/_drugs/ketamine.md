@@ -102,10 +102,14 @@ Other retrieved papers concern ketamine in depression, and they say little about
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05966P | KETAMINE HYDROCHLORIDE INJECTION USP | INJECTION | Valid |
 | SIN15402P | KETAMINE HAMELN INJECTION 50 MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both are single-ingredient products with valid status. Only injectable forms are registered, so the intranasal and oral routes studied in some trials have no local product.
 

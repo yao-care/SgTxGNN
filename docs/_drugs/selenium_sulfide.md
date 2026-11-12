@@ -75,10 +75,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Selenium Sul
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05069P | SELSUN SUSPENSION 2.5% | SHAMPOO | Valid |
 | SIN10324P | SELDRON CLEANING LOTION 2.5% w/v | LOTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

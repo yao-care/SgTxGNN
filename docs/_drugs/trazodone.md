@@ -83,9 +83,13 @@ The table lists the most relevant publications, prioritising controlled studies,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10777P | TRITTICO TABLETS 50 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

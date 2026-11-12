@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
 description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08880P | TRUSOPT OPHTHALMIC SOLUTION 2% | SOLUTION | Valid |
@@ -90,7 +92,15 @@ Currently no related literature available.
 
 Showing 5 of 6 HSA registrations.
 
+<!-- licenses:end -->
+
 Approved indication text was not available for these products.
+
+<!-- review:begin sg-lic-20261106-dorzolamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five registrations are currently valid. Approved indication text was not available for these products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-dorzolamide-1 -->
 
 ---
 
@@ -115,6 +125,19 @@ The prediction score is high and the IOP-lowering mechanism is plausible for her
 - Detailed mechanism of action data (MOA)
 - Clinical input on whether hereditary glaucoma subtypes respond to aqueous suppressants, and on pediatric safety
 - A prospective study design, if the clinical rationale holds
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five registrations are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -85,9 +85,13 @@ None of these publications studies laronidase in Sanfilippo syndrome. They conce
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13347P | ALDURAZYME | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 The one authorization on record is a valid single-ingredient licence (Vetter Pharma-Fertigung GmbH & Co. KG and BioMarin Pharmaceutical Inc).
 

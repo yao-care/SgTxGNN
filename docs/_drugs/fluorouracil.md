@@ -74,11 +74,15 @@ For context, the closest disease-level prediction, rhabdomyosarcoma (general), h
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05050P | DBL Fluorouracil Injection BP 50mg/mL | INJECTION | Valid |
 | SIN09904P | FLUOROURACIL INJECTION 50 mg/ml | INJECTION | Valid |
 | SIN04266P | VERRUMAL SOLUTION | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

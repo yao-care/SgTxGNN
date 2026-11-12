@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Nilotinib"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
 description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,12 @@ DFSP is driven by the COL1A1-PDGFB fusion, which causes constitutive activation 
 
 No clinical trials are registered for dermatofibrosarcoma protuberans.
 
+<!-- review:begin sg-lic-20261106-nilotinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient oral products (manufacturers: Novartis Pharma Stein AG and Novartis Pharmaceutical Manufacturing LLC)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-nilotinib-1 -->
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT02587169](https://clinicaltrials.gov/study/NCT02587169) | Phase 1/2 | Unknown | 40 | GEIS-27: nilotinib plus doxorubicin as neoadjuvant treatment in retroperitoneal liposarcoma and leiomyosarcoma. No efficacy results are available in the data provided. |
@@ -96,11 +102,15 @@ No clinical trials are registered for dermatofibrosarcoma protuberans.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13498P | Tasigna Capsule 200mg | CAPSULE | Valid |
 | SIN13959P | Tasigna Capsule 150mg | CAPSULE | Valid |
 | SIN15837P | TASIGNA CAPSULE 50MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -137,6 +147,19 @@ The DFSP prediction has a plausible PDGFR-based mechanism, but its only support 
 - Mechanism of action data from DrugBank
 - Case series or trial data for nilotinib in DFSP, including head-to-head or post-imatinib comparisons
 - A QT, hepatic and drug-interaction monitoring plan for any sarcoma population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are valid single-ingredient oral products (manufacturers: Novartis Pharma Stein AG and Novartis Pharmaceutical Manufacturing L" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

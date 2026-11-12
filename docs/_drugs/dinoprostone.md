@@ -50,10 +50,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02520P | PROSTIN E2 VAGINAL TABLET 3 mg | TABLET | Valid |
 | SIN13982P | Cervidil Vaginal Delivery System 10mg | OTHER | Valid |
+
+<!-- licenses:end -->
 
 ---
 

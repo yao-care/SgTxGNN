@@ -84,6 +84,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Rituximab, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09946P | MABTHERA CONCENTRATE FOR SOLUTION FOR INFUSION 500 mg/50ml | INJECTION | Valid |
@@ -92,6 +94,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Rituximab, s
 | SIN15671P | TRUXIMA® CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15969P | RIXATHON CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/50ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15970P | RIXATHON CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/10ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -74,11 +74,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04902P | IPOLIPID CAPSULE 300 mg | CAPSULE | Valid |
 | SIN08467P | BROZIL CAPSULE 300 mg | CAPSULE | Valid |
 | SIN09167P | LIPISTOROL CAPSULE 300 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

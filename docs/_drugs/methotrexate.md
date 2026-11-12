@@ -144,6 +144,8 @@ Pulmonary blastoma and the other L5 entries (fetal adenocarcinoma of the lung, C
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00242P | DBL METHOTREXATE INJECTION BP 1 g/10 ml | INJECTION | Valid |
@@ -153,6 +155,8 @@ Pulmonary blastoma and the other L5 entries (fetal adenocarcinoma of the lung, C
 | SIN16395P | METHOTREXATE ORION TABLETS 2.5 MG | TABLET | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 Two further licenses are valid: SIN00242P (DBL Methotrexate Injection BP 1 g/10 ml) and SIN17136P (Methotrexate Remedica film-coated tablet 2.5 mg). All 7 are single-ingredient products, and none is cancelled. Both oral and injectable routes are available.
 

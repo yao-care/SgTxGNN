@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ALBUTEROL B.P. (albuterol per British Pharmacopoeia specification) is a well-known beta-2 adrenergic agonist bronchodilator, widely used internationally for asthma and COPD management.
 However, the current Evidence Pack contains **no TxGNN repurposing predictions**, no retrievable safety data — meaning a substantive repurposing evaluation cannot be completed at this time.
 This report documents the data gaps and recommends a **Hold** decision pending remediation.
+
+<!-- review:begin sg-lic-20261106-albuterol_b_p-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, the current Evidence Pack contains **no TxGNN repurposing predictions**, no Singapore regulatory registrations, and no retrievable safety data — meaning a substantive repurposing evaluation cannot be completed at this time." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 14 registrations for this drug, 14 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-albuterol_b_p-1 -->
 
 ---
 
@@ -80,6 +86,12 @@ Please refer to the package insert for safety information.
 
 > Drug-drug interaction query returned **not found**. Key warnings and contraindications were not retrievable from the current data pipeline.
 
+<!-- review:begin sg-lic-20261106-albuterol_b_p-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Key warnings and contraindications were not retrievable from the current data pipeline. TFDA package insert parsing is listed as a **Blocking** data gap (DG001) and must be resolved before any safety-dependent decisions can be made." Removed: leftover template text about Taiwan's TFDA, which does not apply to this Singapore page. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-albuterol_b_p-2 -->
+
 ---
 
 ## Conclusion and Next Steps
@@ -89,12 +101,40 @@ Please refer to the package insert for safety information.
 **Rationale:**
 The Evidence Pack for ALBUTEROL B.P. is critically incomplete — no TxGNN repurposing predictions were generated, both safety data and mechanism of action are flagged as unresolved data gaps. Without a predicted indication, no meaningful repurposing analysis can be conducted.
 
+<!-- review:begin sg-lic-20261106-albuterol_b_p-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Evidence Pack for ALBUTEROL B.P. is critically incomplete — no TxGNN repurposing predictions were generated, the drug carries no Singapore HSA registrations, and both safety data and mechanism of action are flagged as unresolved data gaps." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 14 registrations for this drug, 14 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-albuterol_b_p-3 -->
+
 **To proceed, the following is needed:**
 
 - **[DG001 — Blocking]** Retrieve TFDA/HSA package insert PDF and parse warnings, contraindications, and approved indications
 - **[DG002 — High]** Query DrugBank API to obtain mechanism of action (MOA), pharmacological category, and DrugBank ID — the query log shows 1 result was returned but the `drugbank_id` field remains null; confirm and populate this field
 - **Re-run TxGNN pipeline** after DrugBank ID is confirmed — the empty `predicted_indications` array indicates the prediction step did not execute or matched no candidates; investigate whether the non-standard suffix "B.P." caused a normalisation failure
 - **Confirm drug scope** — verify whether "ALBUTEROL B.P." should be mapped to the INN "salbutamol" (the WHO INN), as HSA/international databases may catalogue this drug under the salbutamol entry
+
+<!-- review:begin sg-lic-20261106-albuterol_b_p-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Confirm drug scope** — verify whether "ALBUTEROL B.P." should be mapped to the INN "salbutamol" (the WHO INN), as HSA/international databases may catalogue this drug under the salbutamol entry, which may explain the zero-registration result" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 14 registrations for this drug, 14 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-albuterol_b_p-4 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "no Singapore regulatory registrations, and" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "TFDA package insert parsing is listed as a **Blocking** data gap (DG001) and must be resolved before any safety-dependent decisions can be m" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "the drug carries no Singapore HSA registrations, and" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "which may explain the zero-registration result" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

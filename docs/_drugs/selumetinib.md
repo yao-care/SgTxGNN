@@ -71,10 +71,14 @@ Currently no related literature available for familial generalized lentiginosis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16275P | KOSELUGO HARD CAPSULES 10MG | CAPSULE | Valid |
 | SIN16276P | KOSELUGO HARD CAPSULES 25MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 Both licences are for the oral route, and the manufacturer is Patheon Pharmaceuticals Inc.
 

@@ -48,11 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15879P | SPEDRA TABLET 100MG | TABLET | Valid |
 | SIN15880P | SPEDRA TABLET 50MG | TABLET | Valid |
 | SIN15881P | SPEDRA TABLET 200MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All three are single-ingredient products from MENARINI VON HEYDEN GmbH, and all are currently valid. Only the oral route is available.
 

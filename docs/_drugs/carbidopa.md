@@ -72,6 +72,8 @@ The TxGNN model's candidates for Carbidopa (score ≥ 0.99) are all known uses, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10285P | CREDANIL 25/100 TABLET | TABLET | Valid |
@@ -83,6 +85,8 @@ The TxGNN model's candidates for Carbidopa (score ≥ 0.99) are all known uses, 
 | SIN13566P | Stalevo Film Coated Tablet 200/50/200mg | TABLET, FILM COATED | Valid |
 | SIN16956P | ANTIPAR FILM COATED TABLET 100 mg/25 mg/200 mg | TABLET, FILM COATED | Valid |
 | SIN16957P | ANTIPAR FILM COATED TABLET 150 mg/37.5 mg/200 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "alpha-Tocopherol acetate"
 predicted_indications: ["drug-induced osteoporosis", "diabetic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "diabetic retinopathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Alpha-Tocopherol Acetate: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the licence record"
 ---
 
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 Alpha-tocopherol acetate is a form of vitamin E.
 The TxGNN model predicts it may be useful for **drug-induced osteoporosis**, but **no clinical trials and no publications** were found for this disease, so the prediction rests on the model score alone.
 Among the other predicted diseases, the strongest signals are indirect preclinical studies in diabetic cataract and diabetic retinopathy.
+
+<!-- review:begin sg-lic-20261106-alpha-tocopherol_acetate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Alpha-tocopherol acetate is a form of vitamin E, and in Singapore it is registered as a component of an injectable multivitamin product (the licence record carries no indication text)." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-alpha-tocopherol_acetate-1 -->
 
 ---
 
@@ -80,6 +86,12 @@ Currently no related literature available for drug-induced osteoporosis.
 
 For context, the following publications were found for other predicted diseases. They do not study drug-induced osteoporosis and do not change its evidence level.
 
+<!-- review:begin sg-lic-20261106-alpha-tocopherol_acetate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Note that this is a multivitamin injection and only the injectable form is registered. The licence record does not list an approved indication, so none is claimed here." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-alpha-tocopherol_acetate-2 -->
+
 | PMID | Year | Type | Journal | Relevant Disease | Key Findings |
 |------|-----|------|------|------|---------|
 | [12770645](https://pubmed.ncbi.nlm.nih.gov/12770645/) | 2003 | Animal study | J Nutr Biochem | Diabetic cataract (indirect) | Vitamin E (dl-alpha-tocopherol acetate) in rats given carbon tetrachloride to induce oxidative stress. This is not a diabetic or cataract model. |
@@ -90,7 +102,11 @@ For context, the following publications were found for other predicted diseases.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ---
 
@@ -113,6 +129,27 @@ No clinical trial or publication addresses drug-induced osteoporosis, so the pre
 - The package insert's warnings and contraindications for safety screening
 - Confirmation of the approved indication and the route of administration
 - If the eye-disease predictions are pursued, direct human studies in diabetic retinopathy or cataract. The current animal data are indirect.
+
+<!-- review:begin sg-lic-20261106-alpha-tocopherol_acetate-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of the approved indication and the route of administration, since only an injectable multivitamin is registered in Singapore" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-alpha-tocopherol_acetate-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and in Singapore it is registered as a component of an injectable multivitamin product (the licence record carries no indication text)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Note that this is a multivitamin injection and only the injectable form is registered. The licence record does not list an approved indicati" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "since only an injectable multivitamin is registered in Singapore" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

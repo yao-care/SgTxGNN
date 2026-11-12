@@ -95,6 +95,8 @@ In pulmonary hypertension the same pathway can lower pulmonary vascular resistan
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09161P | GLYTRIN SPRAY | SPRAY | Valid |
@@ -102,6 +104,8 @@ In pulmonary hypertension the same pathway can lower pulmonary vascular resistan
 | SIN15105P | GLYCERYL TRINITRATE-HAMELN INJECTION 1MG/ML | INFUSION, SOLUTION | Valid |
 | SIN15510P | GLYDEX IV Solution for Injection 1mg/ml | INJECTION | Valid |
 | SIN15702P | MYONIT INSTA NITROGLYCERIN SUBLINGUAL TABLETS USP 0.5MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All five registrations are valid single-ingredient products. No inhaled or nebulized product is registered, so the route studied for pulmonary hypertension would be off-label in Singapore.
 

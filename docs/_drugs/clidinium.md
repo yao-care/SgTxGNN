@@ -69,10 +69,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03049P | AA PHARMA CHLORAX CAPSULE | CAPSULE | Valid |
 | SIN08651P | CHLOBAX TABLET | TABLET, SUGAR COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

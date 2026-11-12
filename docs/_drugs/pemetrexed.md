@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 772
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pemetrexed"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -61,6 +61,12 @@ Its efficacy in malignant pleural mesothelioma is established. A Phase 3 RCT of 
 
 Peritoneal disease is typically treated with cytoreductive surgery plus hyperthermic intraperitoneal chemotherapy (HIPEC) when the patient is suitable. For advanced disease, pemetrexed-platinum is already the commonly used systemic regimen. However, peritoneal-specific prospective evidence is scarce, and recommendations are mostly extrapolated from pleural trials.
 
+<!-- review:begin sg-lic-20261106-pemetrexed-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 13 valid single-ingredient licences in total, all for injectable forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 16 registrations for this drug, 16 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-pemetrexed-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -90,6 +96,8 @@ Peritoneal disease is typically treated with cytoreductive surgery plus hyperthe
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13042P | Alimta 500mg Powder for Solution for Infusion | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
@@ -99,6 +107,8 @@ Peritoneal disease is typically treated with cytoreductive surgery plus hyperthe
 | SIN15466P | Pemcord 100 Powder for Solution for infusion 100mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -130,6 +140,19 @@ Pemetrexed-platinum has Phase 3 evidence in pleural mesothelioma and is already 
 - Confirmation of the approved indication text for the Singapore licences
 - Results from the ongoing randomized peritoneal trials (NCT05001880, NCT03875144, NCT06057935)
 - Renal function and blood count monitoring plan, with vitamin supplementation and interaction review (especially NSAIDs and nephrotoxic drugs)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 13 valid single-ingredient licences in total, all for injectable forms" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

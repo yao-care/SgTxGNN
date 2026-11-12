@@ -70,12 +70,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15658P | ALUNBRIG FILM-COATED TABLET 30mg | TABLET, FILM COATED | Valid |
 | SIN15659P | ALUNBRIG FILM-COATED TABLET 90mg | TABLET, FILM COATED | Valid |
 | SIN15660P | ALUNBRIG FILM-COATED TABLET 180mg | TABLET, FILM COATED | Valid |
 | SIN15661P | ALUNBRIG INITIATION PACK | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

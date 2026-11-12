@@ -61,12 +61,16 @@ Esotropia is an inward deviation of the eye caused mainly by neuromuscular or re
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14345P | EYLEA SOLUTION FOR INJECTION IN VIAL 2MG | INJECTION, SOLUTION | Valid |
 | SIN14380P | EYLEA SOLUTION FOR INJECTION IN PREFILLED SYRINGE 40 mg/ml | INJECTION, SOLUTION | Valid |
 | SIN14592P | ZALTRAP CONCENTRATE FOR SOLUTION FOR INFUSION 25 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN17040P | EYLEA SOLUTION FOR INJECTION IN VIAL 8MG | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

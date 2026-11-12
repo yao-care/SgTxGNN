@@ -82,11 +82,15 @@ Currently no related literature available for this specific indication.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15265P | VENCLEXTA FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
 | SIN15266P | VENCLEXTA FILM-COATED TABLET 50MG | TABLET, FILM COATED | Valid |
 | SIN15267P | VENCLEXTA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products (oral route) held by AbbVie. Approved indication text is not recorded for these licences.
 

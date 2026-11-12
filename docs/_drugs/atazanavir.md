@@ -97,9 +97,13 @@ No literature is available for the top-ranked prediction. The table below shows 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13560P | REYATAZ CAPSULE 300MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ---
 

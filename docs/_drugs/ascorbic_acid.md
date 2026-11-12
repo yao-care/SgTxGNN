@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 112
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected"]
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,6 +69,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05858P | ASCORBIC ACID INJECTION USP 500 mg/5 ml | INJECTION | Valid |
@@ -77,7 +79,15 @@ Currently no related literature available.
 | SIN11609P | PANADOL COLD & FLU HOT REMEDY | POWDER | Valid |
 | SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 
+<!-- licenses:end -->
+
 Panadol Cold & Flu Hot Remedy and Cernevit are multi-ingredient preparations, so their licences do not describe how ascorbic acid alone is approved.
+
+<!-- review:begin sg-lic-20261106-ascorbic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three authorizations are currently valid. Panadol Cold & Flu Hot Remedy and Cernevit are multi-ingredient preparations, so their licences do not describe how ascorbic acid alone is approved." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ascorbic_acid-1 -->
 
 ## Safety Considerations
 
@@ -96,6 +106,18 @@ The prediction rests only on a model score. There are no trials or publications 
 - Any clinical or preclinical study that directly addresses this condition
 - A plausible mechanistic hypothesis for a role in esophageal development
 - Mechanism-of-action data and package insert safety information (warnings, contraindications)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three authorizations are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

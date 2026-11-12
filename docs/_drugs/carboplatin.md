@@ -70,11 +70,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02301P | DBL CARBOPLATIN INJECTION 10 mg/ml | INJECTION | Valid |
 | SIN10356P | CARBOTINOL INJECTION 50 mg/5 ml | INJECTION | Valid |
 | SIN16203P | KEMOCARB CONCENTRATE FOR SOLUTION FOR INFUSION 10MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

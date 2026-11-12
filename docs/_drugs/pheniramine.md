@@ -87,9 +87,13 @@ None of these publications provides efficacy evidence for pheniramine in allergi
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04717P | NAPHCON-A STERILE OPHTHALMIC SOLUTION | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

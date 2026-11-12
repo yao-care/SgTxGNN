@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 449
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -92,6 +92,8 @@ The most relevant publications are listed below. All are reviews or general pape
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -99,7 +101,15 @@ The most relevant publications are listed below. All are reviews or general pape
 | SIN11975P | CERNEVIT FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN12633P | EUROFER CHEW TABLETS | TABLET | Valid |
 
+<!-- licenses:end -->
+
 Routes available are oral and injectable.
+
+<!-- review:begin sg-lic-20261106-folic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient registrations. Routes available are oral and injectable." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-folic_acid-1 -->
 
 ---
 
@@ -123,6 +133,19 @@ The TxGNN score is high (0.9949), but the evidence level is L4: no trials exist,
 - Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
 - Detailed mechanism of action data (for example from DrugBank)
 - Direct evidence, such as case series or controlled studies, of folic acid in biotin-related disorders
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

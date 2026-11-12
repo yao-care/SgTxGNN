@@ -78,6 +78,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05820P | OHTA'S ISAN ANTACID POWDER | POWDER | Valid |
@@ -88,6 +90,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | SIN14016P | GAVISCON DOUBLE ACTION LIQUID, SUSPENSION | SUSPENSION | Valid |
 | SIN14194P | GAVISCON DOUBLE ACTION TABLETS | TABLET, CHEWABLE | Valid |
 | SIN16041P | GASCOVID LIQUID | SUSPENSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -76,9 +76,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tigecycline,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16104P | TIGECCORD TIGECYCLINE FOR INJECTION USP 50 MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

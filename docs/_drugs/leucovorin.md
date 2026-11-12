@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Leucovorin"
 predicted_indications: ["primary hyperoxaluria", "congenital intrinsic factor deficiency"]
 description: "Leucovorin: predicted new indication Primary hyperoxaluria (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,6 +89,8 @@ All are indirect, since leucovorin appears only as rescue or supportive therapy:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07916P | CALCIUM FOLINATE INJECTION 10 mg/ml | INJECTION | Valid |
@@ -97,7 +99,15 @@ All are indirect, since leucovorin appears only as rescue or supportive therapy:
 | SIN11058P | NYRIN INJECTION 50 mg/5 ml | INJECTION | Valid |
 | SIN11059P | NYRIN INJECTION 3 mg/ml | INJECTION | Valid |
 
+<!-- licenses:end -->
+
 Both injectable and oral forms are available.
+
+<!-- review:begin sg-lic-20261106-leucovorin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four are single-ingredient products from Korea United Pharmaceutical Inc, and all are currently valid. Both injectable and oral forms are available." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-leucovorin-1 -->
 
 ## Cytotoxicity
 
@@ -127,6 +137,19 @@ The prediction for primary hyperoxaluria rests on the model score alone (L5). No
 - A mechanistic or preclinical study linking folate metabolism to oxalate handling in primary hyperoxaluria
 - Consideration of re-prioritising congenital intrinsic factor deficiency, which has the more coherent biological rationale, though it requires careful B12 co-management
 - Route and formulation compatibility assessment for any new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four are single-ingredient products from Korea United Pharmaceutical Inc, and all are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

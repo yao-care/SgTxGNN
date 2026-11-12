@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 690
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (streptococcal and staphylococcal infections…"
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -83,6 +83,14 @@ Currently no related literature available.
 
 They cover oral tablets, intravenous infusions and ophthalmic solutions. The five main ones are:
 
+<!-- review:begin sg-lic-20261106-moxifloxacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Moxifloxacin has 14 valid single-ingredient registrations in Singapore and none cancelled. They cover oral tablets, intravenous infusions and ophthalmic solutions." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 15 registrations for this drug, 15 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-moxifloxacin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11351P | AVELOX TABLET 400 mg | TABLET, FILM COATED | Valid |
@@ -92,6 +100,8 @@ They cover oral tablets, intravenous infusions and ophthalmic solutions. The fiv
 | SIN14900P | MOXIFLOXACIN-TEVA F.C. TABLET 400 MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 15 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,6 +133,18 @@ The prediction has no supporting trials or publications and no plausible mechani
 - Mechanism of action data and a mechanistic rationale
 - Package insert warnings and contraindications for Singapore-registered products
 - A review of the safety profile, especially QT prolongation, tendon and neuropathy risks, and the major corticosteroid interactions, before any new use is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Moxifloxacin has 14 valid single-ingredient registrations in Singapore and none cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

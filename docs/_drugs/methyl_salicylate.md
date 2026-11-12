@@ -75,9 +75,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Methyl Salic
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08677P | ROBINSON RINGWORM AND WHITESPOT LOTION | LOTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

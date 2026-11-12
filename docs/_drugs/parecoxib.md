@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 764
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 description: "Parecoxib: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -41,6 +41,12 @@ Evidence Level: **L3** | Predicted Indications: **3**
 Parecoxib is an injectable COX-2 inhibitor (a prodrug of valdecoxib), marketed in Singapore.
 The TxGNN model predicts it may be effective for **migraine disorder**.
 Support is limited: **no registered clinical trials** and **1 small pilot clinical comparison study** (with supporting preclinical papers) are currently available.
+
+<!-- review:begin sg-lic-20261106-parecoxib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Parecoxib is an injectable COX-2 inhibitor (a prodrug of valdecoxib), marketed in Singapore with 6 valid registrations." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-parecoxib-1 -->
 
 ---
 
@@ -86,6 +92,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14149P | Dynastat Powder and Solvent for Solution for Injection 40mg | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
@@ -95,6 +103,8 @@ Currently no related clinical trials registered.
 | SIN17012P | PARECOXIB-AFT POWDER FOR SOLUTION FOR INJECTION 40MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6. All are single-ingredient injectable products.
 
@@ -129,6 +139,19 @@ The model score is high and the COX-2/CGRP mechanism is biologically plausible, 
 ---
 
 Migraine with brainstem aura, trigeminal autonomic cephalalgia, kyphoscoliotic heart disease, atrophoderma vermiculata and ulerythema ophryogenesis have no supporting evidence. Pulmonary hypertension is supported only by a piglet sepsis study in which parecoxib did not suppress thromboxane synthesis. These are not recommended for advancement at this time.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "with 6 valid registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

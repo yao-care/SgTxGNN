@@ -72,10 +72,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15223P | REPATHA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 140MG/ML | INJECTION, SOLUTION | Valid |
 | SIN15224P | REPATHA SOLUTION FOR INJECTION IN PRE-FILLED AUTOINJECTOR 140MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products from Amgen Manufacturing Limited LLC.
 

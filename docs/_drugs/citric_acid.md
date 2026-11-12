@@ -80,6 +80,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05148P | POTCIT MIXTURE | SOLUTION | Valid |
@@ -89,6 +91,8 @@ Currently no related clinical trials registered.
 | SIN14374P | Ural Effervescent Granules | GRANULE, EFFERVESCENT | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

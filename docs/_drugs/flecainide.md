@@ -86,10 +86,14 @@ Most publications address atrial fibrillation or PVC management. None demonstrat
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01726P | TAMBOCOR TABLET 100 mg | TABLET | Valid |
 | SIN16823P | JAMP FLECAINIDE ACETATE TABLETS USP 100 MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

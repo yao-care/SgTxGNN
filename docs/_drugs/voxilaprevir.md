@@ -94,9 +94,13 @@ None of the publications below tests voxilaprevir against HBV. They are HCV stud
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15705P | VOSEVI FILM-COATED TABLETS 400MG/100MG/100MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

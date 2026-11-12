@@ -97,6 +97,8 @@ No randomised controlled trials were found for this indication.
 
 Omeprazole has 20 valid single-ingredient registrations in Singapore, covering oral capsules and tablets and lyophilised powder for injection. The table shows 5 of them.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09987P | OMICAP CAPSULE 20 mg | CAPSULE | Valid |
@@ -106,6 +108,8 @@ Omeprazole has 20 valid single-ingredient registrations in Singapore, covering o
 | SIN11202P | PUMPITOR CAPSULES 20 mg | CAPSULE | Valid |
 
 Showing 5 of 20 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

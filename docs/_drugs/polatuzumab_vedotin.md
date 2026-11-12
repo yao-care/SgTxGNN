@@ -70,10 +70,14 @@ Nineteen publications were matched to a lower-ranked breast prediction (luminal 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16007P | POLIVY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 140MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN16345P | POLIVY POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 30MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

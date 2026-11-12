@@ -76,11 +76,15 @@ Currently no related literature available for the predicted indication, multiple
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17042P | PEMAZYRE TABLETS 4.5 MG | TABLET | Valid |
 | SIN17043P | PEMAZYRE TABLETS 9 MG | TABLET | Valid |
 | SIN17044P | PEMAZYRE TABLETS 13.5 MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products (oral tablets) from Lonza Tampa LLC.
 

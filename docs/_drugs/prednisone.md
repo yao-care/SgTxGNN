@@ -87,9 +87,13 @@ Note that in the 2023 RCT, prednisone was tested as an add-on to methotrexate ra
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04379P | APO-PREDNISONE TABLET 5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

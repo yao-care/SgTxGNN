@@ -71,11 +71,15 @@ Currently no related literature available for the top-ranked predicted indicatio
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15959P | RINVOQ EXTENDED-RELEASE TABLET 15MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN16518P | RINVOQ EXTENDED-RELEASE TABLET 30MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
 | SIN16687P | RINVOQ EXTENDED-RELEASE TABLET 45MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 All three are valid single-ingredient oral products from AbbVie.
 

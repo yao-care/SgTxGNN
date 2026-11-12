@@ -86,12 +86,16 @@ Liposarcoma is a soft tissue sarcoma, so a shared pathway is plausible. The evid
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14022P | Votrient Tablet 200 mg | TABLET, FILM COATED | Valid |
 | SIN14023P | Votrient Tablet 400 mg | TABLET, FILM COATED | Valid |
 | SIN16736P | TYROKA FILM-COATED TABLETS 200 MG | TABLET, FILM COATED | Valid |
 | SIN17000P | PAZOPANIB-TEVA FC TABLETS 200 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -69,11 +69,15 @@ Currently no related literature available for this disease.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15425P | TECENTRIQ CONCENTRATE FOR SOLUTION FOR INFUSION 1200 MG/ 20 ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15964P | TECENTRIQ CONCENTRATE FOR SOLUTION FOR INFUSION 840MG/14ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN17033P | TECENTRIQ SOLUTION FOR INJECTION 1875MG/15ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All three licences are single-ingredient products and currently valid.
 

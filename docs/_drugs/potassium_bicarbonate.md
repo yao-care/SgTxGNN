@@ -71,10 +71,14 @@ Among the other lower-ranked predictions, the few papers retrieved were indirect
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12635P | GAVISCON ADVANCE-PEPPERMINT FLAVOUR SUSPENSION | SUSPENSION | Valid |
 | SIN16042P | GASCOVID ADVANCE LIQUID | SUSPENSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

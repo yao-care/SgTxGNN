@@ -88,6 +88,8 @@ For the Lewy body dementia prediction, only preclinical work was found:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11234P | COMTAN TABLET 200 mg | TABLET, FILM COATED | Valid |
@@ -97,6 +99,8 @@ For the Lewy body dementia prediction, only preclinical work was found:
 | SIN13143P | Stalevo Film Coated Tablets 50/12.5/200 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 Three more valid registrations exist (Stalevo 50/12.5/200 mg, Stalevo 200/50/200 mg, Antipar 100/25/200 mg). All 8 are oral film-coated tablets.
 

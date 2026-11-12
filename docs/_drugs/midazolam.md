@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 672
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Midazolam: predicted new indication Insomnia (evidence level L2). Approved use: Anxiety"
 monitor_inn: "Midazolam"
 predicted_indications: ["insomnia (disease)"]
@@ -95,6 +95,14 @@ Its current relevance is limited by tolerance, dependence, next-day impairment, 
 
 The five main ones are listed below. No approved-indication text is recorded for any of them, so that column is omitted.
 
+<!-- review:begin sg-lic-20261106-midazolam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 6 valid single-ingredient registrations. The five main ones are listed below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-midazolam-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00476P | DORMICUM TABLET 15 mg | TABLET, FILM COATED | Valid |
@@ -104,6 +112,8 @@ The five main ones are listed below. No approved-indication text is recorded for
 | SIN12549P | MIDAZOLAM-HAMELN 1 MG/ML INJECTION | INJECTION | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 The only oral product is the 15 mg tablet. This is the form relevant to insomnia, since the other products are injections.
 
@@ -138,6 +148,19 @@ Oral midazolam has historical evidence as a hypnotic, including a 14-day RCT in 
 - A risk-management plan covering dose and duration limits, dependence monitoring, and respiratory and renal/hepatic precautions.
 
 **Related note:** among the other predictions, **anxiety disorder** has much stronger evidence (L1, with Phase 3 and Phase 4 trials). That evidence is mainly for acute procedural or preoperative anxiety, so it is closer to on-label use than to true repurposing. It may be a more productive direction for further evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 6 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

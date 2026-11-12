@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07624P | MIVACRON INJECTION 10 mg/5 ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -73,10 +73,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tucatinib, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15942P | TUKYSA (TUCATINIB) FILM-COATED TABLETS 150 mg | TABLET, FILM COATED | Valid |
 | SIN15943P | TUKYSA (TUCATINIB) FILM-COATED TABLETS 50 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

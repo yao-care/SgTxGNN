@@ -80,11 +80,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12583P | SEROXAT CR TABLET 25 mg | TABLET, EXTENDED RELEASE | Valid |
 | SIN12584P | SEROXAT CR TABLET 12.5 mg | TABLET, EXTENDED RELEASE | Valid |
 | SIN13485P | Apo-Paroxetine 20mg Tablet | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

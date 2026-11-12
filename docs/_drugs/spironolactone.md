@@ -84,6 +84,8 @@ Currently no related literature available.
 
 Seven oral spironolactone products hold valid single-ingredient licences in Singapore, and none are cancelled. The licence records contain no approved indication text. The five listed below are a selection of the seven.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00664P | URACTONUM TABLET 25 mg | TABLET | Valid |
@@ -93,6 +95,8 @@ Seven oral spironolactone products hold valid single-ingredient licences in Sing
 | SIN16709P | SPIRIDON TABLETS 100MG | TABLET | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

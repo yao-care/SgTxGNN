@@ -69,11 +69,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03865P | ROCALTROL CAPSULE 0.25 mcg | CAPSULE, LIQUID FILLED | Valid |
 | SIN12258P | RASPUTIN SOFT CAPSULE 0.25 mcg | CAPSULE, LIQUID FILLED | Valid |
 | SIN13449P | MEDITROL | CAPSULE, LIQUID FILLED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

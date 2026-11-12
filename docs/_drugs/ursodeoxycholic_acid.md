@@ -88,6 +88,8 @@ The only literature item for hypolipoproteinaemia (PMID 26176881) is a case repo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05742P | URSOFALK CAPSULE 250 mg | CAPSULE | Valid |
@@ -95,6 +97,8 @@ The only literature item for hypolipoproteinaemia (PMID 26176881) is a case repo
 | SIN15883P | GRINTEROL HARD CAPSULE 250MG | CAPSULE | Valid |
 | SIN16918P | URSOSAN FORTE FILM-COATED TABLETS 500MG | TABLET, FILM COATED | Valid |
 | SIN16926P | URSOSAN HARD CAPSULES 250 MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 All five registrations are single-ingredient products, valid, and oral.
 

@@ -5,7 +5,7 @@ layout: default
 title: Gliclazide
 parent: Known Uses Only (No New Predictions)
 nav_order: 480
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Gliclazide: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Gliclazide"
 predicted_indications: []
@@ -50,6 +50,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Approved indication text is not recorded in the licence data. The main authorizations are:
 
+<!-- review:begin sg-lic-20261106-gliclazide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Gliclazide holds 17 valid single-ingredient licences in Singapore, with no cancelled licences. Approved indication text is not recorded in the licence data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 15 registrations for this drug, 15 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-gliclazide-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04316P | DIAMICRON TABLET 80 mg | TABLET | Valid |
@@ -60,11 +68,25 @@ Approved indication text is not recorded in the licence data. The main authoriza
 
 Showing 5 of 15 HSA registrations.
 
+<!-- licenses:end -->
+
 All forms are oral tablets (standard, film-coated, extended-release).
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Gliclazide holds 17 valid single-ingredient licences in Singapore, with no cancelled licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

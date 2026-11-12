@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1030
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,6 +93,14 @@ Literature for other predicted indications is also indirect:
 
 The approved indication text is not recorded for any of them. The five main ones are listed below.
 
+<!-- review:begin sg-lic-20261106-triprolidine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eleven valid single-ingredient registrations are on file. The approved indication text is not recorded for any of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-triprolidine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03116P | FEDAC TABLET | TABLET | Valid |
@@ -102,6 +110,8 @@ The approved indication text is not recorded for any of them. The five main ones
 | SIN03195P | FEDAC COMPOUND LINCTUS | ELIXIR | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 Other registrations include syrups (BEACTAFED, PEACEF, FEDAC, BEACTAFED CO) and elixir-type linctuses (FEDAC COMPOUND, COUGH-EN). Available forms are oral tablets, syrups and elixirs.
 
@@ -128,6 +138,19 @@ No clinical trials exist, and the available literature is indirect (a class revi
 - Detailed mechanism of action data from DrugBank
 - Approved indication text for the Singapore registrations, to confirm whether urticaria is already on-label
 - Direct clinical evidence of triprolidine in urticaria, or a decision that the prediction is already covered by the existing indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Eleven valid single-ingredient registrations are on file" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

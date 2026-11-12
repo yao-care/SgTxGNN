@@ -84,9 +84,13 @@ For reference, publications retrieved for other predictions:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16214P | VYZULTA (LATANOPROSTENE BUNOD OPHTHALMIC SOLUTION) 0.024% | SOLUTION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

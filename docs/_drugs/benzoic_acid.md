@@ -74,6 +74,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04418P | NIXODERM OINTMENT | OINTMENT | Valid |
@@ -81,6 +83,8 @@ Currently no related clinical trials registered.
 | SIN09544P | ROBINSON RINGWORM & WHITESPOT OINTMENT | OINTMENT | Valid |
 | SIN09830P | SAW HONG CHOON SKIN OINTMENT | OINTMENT | Valid |
 | SIN16547P | VEELANZ'S OINTMENT | OINTMENT | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

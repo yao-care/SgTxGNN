@@ -75,10 +75,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01591P | FRISIUM 10 TABLET 10 mg | TABLET | Valid |
 | SIN17520P | CLOBAZEN TABLETS 10MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 383
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -86,6 +86,14 @@ Both publications are low-tier and give little information about ephedrine's own
 
 No approved indication text is recorded for any of them. The main authorisations are:
 
+<!-- review:begin sg-lic-20261106-ephedrine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 20 valid licences, all single-ingredient products and none cancelled. No approved indication text is recorded for any of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 16 registrations for this drug, 16 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ephedrine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02734P | DBL EPHEDRINE SULFATE INJECTION 30 mg/ml | INJECTION | Valid |
@@ -95,6 +103,8 @@ No approved indication text is recorded for any of them. The main authorisations
 | SIN16846P | EPHEDRINE AGUETTANT SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 30 MG | INJECTION, SOLUTION | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 The remaining licences are mostly oral cough linctuses, syrups and mixtures (elixir, syrup and solution forms). The nasal drops (SIN04850P) are the only nasal product listed.
 
@@ -123,6 +133,19 @@ The prediction scores very high, but it largely restates ephedrine's existing rh
 - Approved indication text for the Singapore licences, to confirm whether nasal cavity disease is already covered
 - Controlled clinical evidence that separates ephedrine's effect from that of combination products
 - A comparison against current standard decongestants and intranasal therapies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 20 valid licences, all single-ingredient products and none cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -70,6 +70,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Alendroni
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11446P | FOSAMAX TABLET 70 mg | TABLET, FILM COATED | Valid |
@@ -79,6 +81,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Alendroni
 | SIN15268P | BUFFERED BINOSTO EFFERVESCENT TABLET 70MG | TABLET, EFFERVESCENT | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,9 +72,13 @@ The TxGNN model produced candidates for Romosozumab with a score of 0.99 or high
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16208P | EVENITY SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 105 MG/1.17 ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

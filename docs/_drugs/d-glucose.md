@@ -72,6 +72,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05728P | DEXTROSE INJECTION USP 5% | INJECTION | Valid |
@@ -96,6 +98,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | SIN06626P | DIANEAL LOW CALCIUM (2.5 mEq/l) PERITONEAL DIALYSIS SOLUTION WITH 2.5% | SOLUTION, STERILE | Valid |
 
 Showing 20 of 58 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

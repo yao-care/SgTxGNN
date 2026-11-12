@@ -48,11 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15168P | SIGNIFOR LAR POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION 20MG | INJECTION, POWDER, FOR SUSPENSION | Valid |
 | SIN15169P | SIGNIFOR LAR POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION 40MG | INJECTION, POWDER, FOR SUSPENSION | Valid |
 | SIN15170P | SIGNIFOR LAR POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION 60MG | INJECTION, POWDER, FOR SUSPENSION | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products, and none has been cancelled. Pasireotide is available only as an injectable in Singapore.
 

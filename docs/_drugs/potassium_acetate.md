@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 810
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "Potassium acetate"
 predicted_indications: ["renal tubular acidosis"]
@@ -72,13 +72,23 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05868P | DBL POTASSIUM ACETATE CONCENTRATED INJECTION 2.45 g/5 ml | INJECTION | Valid |
 | SIN15411P | AMINOPLASMAL B.BRAUN 10% E SOLUTION FOR INFUSION | INFUSION, SOLUTION | Valid |
 | SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | INJECTION, EMULSION | Valid |
 
+<!-- licenses:end -->
+
 Oral forms were not identified.
+
+<!-- review:begin sg-lic-20261106-potassium_acetate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five registrations are injectable or infusion products. Oral forms were not identified." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-potassium_acetate-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +112,19 @@ The mechanistic rationale is plausible, but it is indirect and no trials or lite
 - A targeted literature search on potassium and alkali therapy in renal tubular acidosis
 - Assessment of route and formulation suitability, since the registered products are injectable
 - A potassium and acid-base monitoring plan, including for patients on potassium-raising drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five registrations are injectable or infusion products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

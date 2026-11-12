@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Levocetirizine: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -70,6 +70,12 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for rheumatoid arthritis.
 
+<!-- review:begin sg-lic-20261106-levocetirizine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence (SIN14505P, Levozine F.C. Tablet 5mg) is also valid. All six are single-ingredient oral products and none has been cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-levocetirizine-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | Causes, management and treatment options for chronic urticaria |
@@ -78,6 +84,8 @@ Currently no related literature available for rheumatoid arthritis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14505P | Levozine F.C. Tablet 5mg | TABLET, FILM COATED | Valid |
@@ -85,6 +93,8 @@ Currently no related literature available for rheumatoid arthritis.
 | SIN16028P | XYZAL FILM-COATED TABLET 5 MG | TABLET, FILM COATED | Valid |
 | SIN16312P | ALERINIT FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
 | SIN16480P | STADELTINE FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -110,6 +120,19 @@ The prediction for rheumatoid arthritis scores highly (0.9973) but has no suppor
 - A systematic literature search on antihistamines and H1/mast-cell involvement in rheumatoid arthritis
 - Preclinical or exploratory evidence (for example synovial histamine signalling) to raise the evidence level above L5
 - Dosing and renal-safety considerations for any new use, given the kidney-related contraindication associations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A sixth licence (SIN14505P, Levozine F.C. Tablet 5mg) is also valid. All six are single-ingredient oral products and none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

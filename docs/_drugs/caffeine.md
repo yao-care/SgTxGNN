@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Caffeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, migraine, pharyngitis…"
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
@@ -90,6 +90,14 @@ Currently no related clinical trials registered.
 
 The approved indication text is not available for any of them. Five main authorisations are shown below.
 
+<!-- review:begin sg-lic-20261106-caffeine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Twenty valid single-ingredient registrations are on record. The approved indication text is not available for any of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-caffeine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16929P | GENCEBOK SOLUTION FOR INFUSION 10MG/ML | INFUSION, SOLUTION | Valid |
@@ -99,6 +107,8 @@ The approved indication text is not available for any of them. Five main authori
 | SIN07778P | STONA COLD CAPLETS | TABLET, FILM COATED | Valid |
 
 Showing 5 of 13 HSA registrations.
+
+<!-- licenses:end -->
 
 Available dosage forms include oral capsules and tablets (plain, film-coated, sugar-coated, effervescent) and one injectable infusion solution.
 
@@ -141,6 +151,19 @@ The prediction is supported only by model similarity to existing rhinitis indica
 | 10 | Vein disease | 0.9906 | L4 | Hold | Only indirect, mostly off-target evidence |
 
 Among these, **hypnic headache** has the strongest supporting evidence (case series and narrative reviews recommending caffeine, with no randomised trials) and may be the more promising candidate for further evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Twenty valid single-ingredient registrations are on record" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

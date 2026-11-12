@@ -95,9 +95,13 @@ None of the publications below is a controlled trial of trifluoperazine in mania
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00289P | AA PHARMA TRIFLUOPERAZINE TABLET 5 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

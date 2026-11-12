@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 891
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,13 +96,23 @@ The mechanistic link is therefore biologically plausible, but renal outcomes in 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16872P | MERAVO FILM-COATED TABLETS 50MG | TABLET, FILM COATED | Valid |
 | SIN16873P | MERAVO FILM-COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
 | SIN16874P | MERAVO FILM-COATED TABLETS 200MG | TABLET, FILM COATED | Valid |
 
+<!-- licenses:end -->
+
 All three licences are valid products (manufacturer: Biocon Pharma Limited), and none has been cancelled.
+
+<!-- review:begin sg-lic-20261106-sacubitril-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient products (manufacturer: Biocon Pharma Limited), and none has been cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sacubitril-1 -->
 
 ---
 
@@ -127,6 +137,19 @@ Diabetic nephropathy is the only predicted indication with a plausible mechanism
 - Detailed mechanism of action data
 - Approved indication text for the Singapore licences
 - A safety monitoring plan (e.g., blood pressure, renal function, potassium) for diabetic patients with renal impairment, and a review of the listed drug interactions (notably statins)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

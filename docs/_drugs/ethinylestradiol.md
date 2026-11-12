@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,6 +72,12 @@ Currently no related clinical trials registered.
 
 The top-ranked prediction (elevated plasma zinc) has no related literature. The table below shows the literature for the best-supported candidate, **amenorrhea** (rank 5). Most items concern ethinylestradiol-containing contraceptives rather than treatment of amenorrhea.
 
+<!-- review:begin sg-lic-20261106-ethinylestradiol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further registrations exist (SIN12423P, EVRA transdermal patch; SIN14894P, LIZA film-coated tablets), giving 7 valid single-ingredient licences in total." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ethinylestradiol-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Review | Drugs | Ethinylestradiol/chlormadinone acetate (0.03/2 mg) is an effective contraceptive with antiandrogenic properties, and was more effective than EE/levonorgestrel for mild-to-moderate facial acne |
@@ -87,6 +93,8 @@ The top-ranked prediction (elevated plasma zinc) has no related literature. The 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04784P | DIANE-35 TABLET | TABLET, SUGAR COATED | Valid |
@@ -96,6 +104,8 @@ The top-ranked prediction (elevated plasma zinc) has no related literature. The 
 | SIN12423P | EVRA TRANSDERMAL PATCH (6 mg/600 mcg) | PATCH | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -116,6 +126,19 @@ The top-ranked prediction (elevated plasma zinc) has no trials, no literature an
 - Detailed mechanism of action data
 - For amenorrhea: targeted literature review or trials of ethinylestradiol-based therapy in hypoestrogenic amenorrhea, and confirmation that the approved Singapore indications cover it
 - Review of the knowledge-graph contraindications (e.g., hypertension, liver disease, diabetes) against the label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Two further registrations exist (SIN12423P, EVRA transdermal patch; SIN14894P, LIZA film-coated tablets), giving 7 valid single-ingredient l" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

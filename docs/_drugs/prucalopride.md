@@ -78,10 +78,14 @@ For reference, the two papers retrieved for the amyloidosis predictions (rank 6 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14103P | Resolor Film-coated Tablet 1 mg | TABLET, FILM COATED | Valid |
 | SIN14104P | Resolor Film-coated Tablet 2 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient oral products from Janssen Cilag S.p.A.
 

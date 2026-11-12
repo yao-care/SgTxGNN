@@ -73,6 +73,8 @@ All candidates produced by the TxGNN model for Mometasone Furoate (score ≥ 0.9
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07564P | ELOMET CREAM 0.1% | CREAM | Valid |
@@ -97,6 +99,8 @@ All candidates produced by the TxGNN model for Mometasone Furoate (score ≥ 0.9
 | SIN16147P | ATECTURA BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG /320 MCG | POWDER, METERED | Valid |
 
 Showing 20 of 24 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

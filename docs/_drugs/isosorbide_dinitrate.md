@@ -69,10 +69,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00055P | AA PHARMA ISDN TABLET 10 mg | TABLET | Valid |
 | SIN01139P | APO-ISDN TABLET 5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Both are single-ingredient oral products from Apotex Inc and are currently valid.
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,6 +75,14 @@ Currently no related clinical trials registered.
 
 The Singapore licence records contain no approved indication text. The five main ones are listed below.
 
+<!-- review:begin sg-lic-20261106-fusidic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Singapore licence records contain no approved indication text. All 19 authorisations are valid single-ingredient products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 21 registrations for this drug, 21 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-fusidic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00722P | FUCIDIN OINTMENT 2% | OINTMENT | Valid |
@@ -84,6 +92,8 @@ The Singapore licence records contain no approved indication text. The five main
 | SIN10706P | FORSUDERM OINTMENT 20 mg/g | OINTMENT | Valid |
 
 Showing 5 of 21 HSA registrations.
+
+<!-- licenses:end -->
 
 The remaining products include generic fusidic acid creams and ointments (e.g. Defuzin, Duzen, Balad, Disuf, Foban) and fusidic acid–corticosteroid combinations (e.g. Fucicort Lipid Cream, Fobancort, Defuzin-B).
 
@@ -112,6 +122,19 @@ The prediction rests on a high model score and a plausible antistaphylococcal me
 **Other predicted indications:** None of the other nine predictions has clinical trial support.
 - Otitis externa (rank 3, L4) has only indirect microbiology and resistance papers, mostly canine, and is a research question rather than a candidate.
 - The remaining eight are non-specific categories (e.g. non-human animal disease, post-infectious syndromes) or mechanistically implausible (e.g. Chagas cardiomyopathy, infection-related hemolytic uremic syndrome, where antibiotics are generally avoided). All are at L5 with a Hold recommendation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 19 authorisations are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,10 +72,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Isavuconazol
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15716P | CRESEMBA CAPSULES 100MG | CAPSULE | Valid |
 | SIN15717P | CRESEMBA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 200MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,10 +72,14 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01996P | IMDUR DURULES TABLET 60 mg | TABLET, FILM COATED | Valid |
 | SIN10515P | IMDEX CR TABLET 60 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

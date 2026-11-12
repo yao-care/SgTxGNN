@@ -92,9 +92,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16702P | NURTEC ORALLY DISINTEGRATING TABLET 75MG | TABLET, ORALLY DISINTEGRATING | Valid |
+
+<!-- licenses:end -->
 
 ---
 

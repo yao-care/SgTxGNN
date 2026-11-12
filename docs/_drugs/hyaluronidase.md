@@ -84,9 +84,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10302P | HYALASE POWDER FOR INJECTION 1500 iu/ampoule | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All registered forms are injectable. The license is valid, and it is a single-ingredient product.
 

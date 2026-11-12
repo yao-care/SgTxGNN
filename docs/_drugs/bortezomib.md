@@ -5,7 +5,7 @@ layout: default
 title: Bortezomib
 parent: Known Uses Only (No New Predictions)
 nav_order: 168
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bortezomib: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Bortezomib"
 predicted_indications: []
@@ -50,6 +50,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 All are injectable powders for solution (3.5 mg/vial). Approved indication text was not provided for any of them. The five main authorizations are listed below.
 
+<!-- review:begin sg-lic-20261106-bortezomib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Twelve single-ingredient registrations are valid, and none has been cancelled. All are injectable powders for solution (3.5 mg/vial)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-bortezomib-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13064P | VELCADE 3.5mg FOR INJECTION | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -59,6 +67,8 @@ All are injectable powders for solution (3.5 mg/vial). Approved indication text 
 | SIN15900P | PFIZER BORTEZOMIB POWDER FOR INJECTION 3.5MG | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Showing 5 of 13 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -85,6 +95,18 @@ Please also refer to the package insert warnings and precautions.
   - Dexamethasone and esomeprazole are Minor.
 
 Label-based warnings and contraindications were not available. Please refer to the package insert for the authoritative safety information.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Twelve single-ingredient registrations are valid, and none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

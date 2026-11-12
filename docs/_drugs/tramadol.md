@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1009
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,14 @@ Currently no related literature available for the predicted indication.
 
 The records contain no approved indication text. The 5 main authorizations are listed below.
 
+<!-- review:begin sg-lic-20261106-tramadol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 13 valid single-ingredient registrations. The records contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-tramadol-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08114P | MABRON CAPSULE 50 mg | CAPSULE | Valid |
@@ -83,6 +91,8 @@ The records contain no approved indication text. The 5 main authorizations are l
 | SIN08953P | ACUGESIC CAPSULE 50 mg | CAPSULE | Valid |
 
 Showing 5 of 13 HSA registrations.
+
+<!-- licenses:end -->
 
 Available routes include oral (tablet, capsule, film-coated tablet) and injectable (injection, solution for injection).
 
@@ -107,6 +117,19 @@ The prediction has no clinical or literature support (Evidence Level L5) and no 
 - Any clinical or preclinical evidence for tramadol in this condition
 - If symptomatic pain relief is the goal, a reframed question, such as pain management in skeletal dysplasia with joint pain, with a dedicated evidence search
 - A pediatric safety assessment, given the young patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 13 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

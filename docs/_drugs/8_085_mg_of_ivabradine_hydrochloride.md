@@ -7,7 +7,7 @@ parent: Low Evidence (L5)
 nav_order: 17
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -43,6 +43,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 The Evidence Pack submitted contains a malformed drug entry ("8.085 MG OF IVABRADINE HYDROCHLORIDE)"), which appears to be a dosage descriptor incorrectly captured as an INN — the actual active ingredient is **ivabradine** (a selective funny current Ih inhibitor used in heart failure and stable angina).
 No TxGNN-predicted indications were returned for this entry.
 As a result, **a full repurposing evaluation cannot be completed**; the data gaps below must be resolved before assessment can proceed.
+
+<!-- review:begin sg-lic-20261106-8_085_mg_of_ivabradine_hydrochloride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No TxGNN-predicted indications were returned for this entry, and Singapore regulatory registration records are absent." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-8_085_mg_of_ivabradine_hydrochloride-1 -->
 
 ---
 
@@ -80,6 +86,8 @@ Because `predicted_indications` is empty, the sections for **Why is This Predict
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13408P | CORALAN Tablet 5mg | TABLET, FILM COATED | Valid |
@@ -90,7 +98,21 @@ Because `predicted_indications` is empty, the sections for **Why is This Predict
 
 Showing 5 of 8 HSA registrations.
 
+<!-- licenses:end -->
+
 > Based on international data, ivabradine is marketed globally as **Procoralan** (Servier) and **Corlanor** (Amgen/US).
+
+<!-- review:begin sg-lic-20261106-8_085_mg_of_ivabradine_hydrochloride-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No registered products found for this entry." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-8_085_mg_of_ivabradine_hydrochloride-2 -->
+
+<!-- review:begin sg-lic-20261106-8_085_mg_of_ivabradine_hydrochloride-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "> Based on international data, ivabradine is marketed globally as **Procoralan** (Servier) and **Corlanor** (Amgen/US). If ivabradine is correctly identified and re-queried, Singapore HSA registration records should be searched under the INN `ivabradine` or brand name `Procoralan`." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-8_085_mg_of_ivabradine_hydrochloride-3 -->
 
 ---
 
@@ -115,9 +137,31 @@ The drug entry is structurally invalid — the INN field contains a dosage strin
 - **Re-query DDI database** with `ivabradine` to retrieve interaction data
 - Once all above are resolved, resubmit a corrected Evidence Pack for a complete L1–L5 repurposing evaluation
 
+<!-- review:begin sg-lic-20261106-8_085_mg_of_ivabradine_hydrochloride-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Re-query DrugBank** with `ivabradine` to retrieve `drugbank_id`, `original_moa`, and toxicity data / **Re-query Singapore HSA** with the corrected drug name to populate `taiwan_regulatory` fields" Removed: leftover template text about Taiwan's TFDA, which does not apply to this Singapore page. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-8_085_mg_of_ivabradine_hydrochloride-4 -->
+
 ---
 
 > ⚠️ **Data Quality Note:** This report was generated from an Evidence Pack with a Blocking data gap (DG001) and a High-severity gap (DG002). The drug INN field contains a dosage descriptor rather than a valid drug name, rendering all downstream predictions and safety lookups invalid. No clinical or regulatory conclusions should be drawn from this report.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and Singapore regulatory registration records are absent" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "No registered products found for this entry" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "If ivabradine is correctly identified and re-queried, Singapore HSA registration records should be searched under the INN `ivabradine` or br" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "**Re-query Singapore HSA** with the corrected drug name to populate `taiwan_regulatory` fields" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

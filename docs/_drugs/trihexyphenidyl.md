@@ -71,9 +71,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05827P | AA PHARMA TRIHEXYPHENIDYL TABLET 2 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

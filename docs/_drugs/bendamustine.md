@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 141
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bendamustine: predicted new indication Mantle cell lymphoma (evidence level L1). Approved use: Follicular lymphoma, mature B-cell neoplasms…"
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
@@ -91,6 +91,12 @@ The 10 most relevant of the 42 registered trials are listed below.
 
 The 10 most relevant of the 20 publications are listed below.
 
+<!-- review:begin sg-lic-20261106-bendamustine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products from Natco Pharma Ltd. They are injectable (intravenous) formulations only." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-bendamustine-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [23433739](https://pubmed.ncbi.nlm.nih.gov/23433739/) | 2013 | RCT | Lancet | Open-label Phase 3 non-inferiority trial of BR vs R-CHOP as first-line treatment in indolent lymphoma and MCL |
@@ -108,12 +114,16 @@ The 10 most relevant of the 20 publications are listed below.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15257P | BEMUNAT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 25 MG/VIAL US | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN15258P | BEMUNAT POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG/VIAL U | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN17502P | Bendamustine Hydrochloride ADVAGEN Powder for Concentrate for Solution | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN17503P | Bendamustine Hydrochloride ADVAGEN Powder for Concentrate for Solution | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -153,6 +163,19 @@ At least three completed Phase 3 randomised trials (including the BRIGHT study, 
 - A safety monitoring plan for myelosuppression and infection, with extra attention to patients with liver or kidney impairment
 - A check of concomitant medications against the major and moderate interaction list
 - Confirmation of whether the current Singapore labelling covers MCL, or whether a new-indication application is required
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are valid single-ingredient products from Natco Pharma Ltd. They are injectable (intravenous) formulations only" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

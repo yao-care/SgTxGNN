@@ -73,6 +73,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Thiotepa,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16552P | TEPADINA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
@@ -80,6 +82,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Thiotepa,
 | SIN17027P | THIOTEPA RIEMSER POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 15MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN17028P | THIOTEPA RIEMSER POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100M | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN17095P | TEPADINA POWDER AND SOLVENT FOR SOLUTION FOR INFUSION 400MG | POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

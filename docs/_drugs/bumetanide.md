@@ -77,10 +77,14 @@ None of the publications below studies bumetanide in acute pulmonary heart disea
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00718P | BURINEX TABLET 1 mg | TABLET | Valid |
 | SIN01421P | BURINEX INJECTION 0.5 mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

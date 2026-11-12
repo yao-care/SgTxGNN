@@ -70,9 +70,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15220P | ALECENSA HARD CAPSULE 150MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

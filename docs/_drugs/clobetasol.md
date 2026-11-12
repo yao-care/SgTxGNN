@@ -79,6 +79,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04499P | DERMOVATE SCALP APPLICATION 0.05% w/w | LOTION | Valid |
@@ -88,6 +90,8 @@ Currently no related clinical trials registered.
 | SIN06586P | MEDODERMONE CREAM 0.05% | CREAM | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

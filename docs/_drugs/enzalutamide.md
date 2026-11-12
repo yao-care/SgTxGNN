@@ -107,6 +107,8 @@ The top prediction has no related publications. The table below shows key public
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14829P | XTANDI™ SOFT CAPSULES 40MG | CAPSULE, LIQUID FILLED | Valid |
@@ -116,6 +118,8 @@ The top prediction has no related publications. The table below shows key public
 | SIN17517P | ALLUTAMIDE SOFT CAPSULES 40mg | CAPSULE, LIQUID FILLED | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

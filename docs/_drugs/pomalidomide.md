@@ -72,6 +72,8 @@ The TxGNN deep-learning model produced no candidate with a score of 0.99 or high
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14713P | POMALYST CAPSULE 1MG | CAPSULE | Valid |
@@ -82,6 +84,8 @@ The TxGNN deep-learning model produced no candidate with a score of 0.99 or high
 | SIN16983P | POMAGEN CAPSULES 1MG | CAPSULE | Valid |
 | SIN16984P | POMAGEN CAPSULES 2MG | CAPSULE | Valid |
 | SIN16985P | POMAGEN CAPSULES 3MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

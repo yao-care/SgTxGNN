@@ -72,6 +72,8 @@ Currently no related literature available.
 
 Risperidone has 16 valid licences in Singapore, covering oral tablets, oral solutions and injectable products. The main ones are listed below.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08058P | RISPERDAL TABLET 2 mg | TABLET, FILM COATED | Valid |
@@ -81,6 +83,8 @@ Risperidone has 16 valid licences in Singapore, covering oral tablets, oral solu
 | SIN12355P | RISPERDAL CONSTA FOR INJECTION 25 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

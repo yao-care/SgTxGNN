@@ -70,9 +70,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Botulinum To
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14203P | Botox® Powder for Solution for Injection 200 Units/Vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

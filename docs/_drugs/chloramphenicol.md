@@ -74,11 +74,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00230P | CHLORAMPHENICOL EAR DROPS 5% w/v | SOLUTION | Valid |
 | SIN00231P | XEPANICOL EYE DROPS 0.5% | SOLUTION | Valid |
 | SIN04574P | CHLORAMPHENICOL EAR DROPS 5% w/v | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

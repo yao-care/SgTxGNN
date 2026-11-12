@@ -96,9 +96,13 @@ The data include 30 registered trials. The 10 most relevant are listed below, fa
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13432P | Apidra SoloStar 100 Units/ml Solution for injection in a pre-filled pe | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

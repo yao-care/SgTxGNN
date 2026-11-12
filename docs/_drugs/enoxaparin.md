@@ -74,6 +74,8 @@ Currently no related literature available.
 
 Twelve valid single-ingredient registrations exist. The five main ones are listed below. No approved indication text is recorded for these licences.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07668P | CLEXANE INJECTION 2000 IU (20mg)/0.2 ml | INJECTION | Valid |
@@ -83,6 +85,8 @@ Twelve valid single-ingredient registrations exist. The five main ones are liste
 | SIN16331P | INHIXA SOLUTION FOR INJECTION 8,000IU (80MG)/0.8ML | INJECTION, SOLUTION | Valid |
 
 Showing 5 of 12 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

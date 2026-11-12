@@ -76,6 +76,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for C
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05036P | CLOXACAP 250 CAPSULE 250 mg | CAPSULE | Valid |
@@ -83,6 +85,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for C
 | SIN08889P | CLOXACAP 500 CAPSULE 500 mg | CAPSULE | Valid |
 | SIN09934P | OXACIL GRANULES 125MG/5ML | GRANULE, FOR SUSPENSION | Valid |
 | SIN15834P | MEIXAM POWDER FOR SOLUTION FOR INJECTION 500MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

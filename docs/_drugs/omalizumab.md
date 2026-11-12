@@ -78,6 +78,8 @@ The link to bronchitis is indirect. Some patients with chronic bronchitis or eos
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16115P | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 75MG/0.5ML | INJECTION, SOLUTION | Valid |
@@ -87,6 +89,8 @@ The link to bronchitis is indirect. Some patients with chronic bronchitis or eos
 | SIN17032P | XOLAIR SOLUTION FOR INJECTION IN PRE-FILLED PEN 300MG/2.0ML | INJECTION, SOLUTION | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

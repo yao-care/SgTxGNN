@@ -72,11 +72,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oxytocin, so
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02496P | SYNTOCINON INJECTION 10 iu/ml | INJECTION | Valid |
 | SIN17068P | OXYTOCIN GRINDEKS SOLUTION FOR INJECTION AND INFUSION 10 IU/ML | INJECTION, SOLUTION | Valid |
 | SIN03588P | SYNTOMETRINE INJECTION | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

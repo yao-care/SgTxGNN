@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ceftazidime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
 description: "Ceftazidime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -67,7 +67,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin sg-lic-20261106-ceftazidime-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid single-ingredient products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ceftazidime-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -78,6 +86,8 @@ Currently no related literature available.
 | SIN11470P | CEFAZIME FOR INJECTION 1 g/vial | INJECTION | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -96,6 +106,18 @@ The prediction is supported only by a model score (0.9951), with no trials, no l
 - A credible mechanistic hypothesis linking ceftazidime to hyperamylasemia
 - Any direct clinical or preclinical study of this use
 - Package insert safety data (warnings and contraindications) and mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four licences are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

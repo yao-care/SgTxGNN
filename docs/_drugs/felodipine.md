@@ -76,11 +76,15 @@ Currently no related literature available for the lead predicted indication (pul
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07738P | PLENDIL TABLET 2.5 mg | TABLET, EXTENDED RELEASE | Valid |
 | SIN08768P | PLENDIL TABLET 10 mg | TABLET, EXTENDED RELEASE | Valid |
 | SIN08781P | PLENDIL TABLET 5 mg | TABLET, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 All three are oral products from AstraZeneca Pharmaceutical Co. Ltd / Saneca Pharmaceuticals a.s.
 

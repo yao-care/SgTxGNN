@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acyclovir: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -109,6 +109,14 @@ For the best-supported prediction, **common wart**, the main publications are:
 
 The records compiled for this report contain no approved indication text. The main ones are listed below.
 
+<!-- review:begin sg-lic-20261106-acyclovir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Twenty valid single-ingredient registrations are on record. The records compiled for this report contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 34 registrations for this drug, 34 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-acyclovir-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01191P | ZOVIRAX CREAM 5% w/w | CREAM | Valid |
@@ -118,6 +126,8 @@ The records compiled for this report contain no approved indication text. The ma
 | SIN08640P | ZORAL 400 TABLET 400 mg | TABLET | Valid |
 
 Showing 5 of 34 HSA registrations.
+
+<!-- licenses:end -->
 
 Available dosage forms cover oral (tablet, film-coated tablet), topical (cream), suspension and injectable (powder for infusion) routes.
 
@@ -143,6 +153,19 @@ The prediction has only a model score behind it (L5). The two retrieved papers a
 - For common wart, results of the Phase 2/3 RCT and larger multi-centre, blinded trials
 - For common wart, a decision on formulation and route, since intralesional use of the injectable powder would be outside the registered labelling
 - For punctate epithelial keratoconjunctivitis, evidence that the condition is herpetic, or abandon this prediction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Twenty valid single-ingredient registrations are on record" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

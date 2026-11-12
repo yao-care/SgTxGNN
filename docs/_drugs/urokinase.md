@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Urokinase, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11140P | UROKINASE-GREEN CROSS INJ. 60,000 iu/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

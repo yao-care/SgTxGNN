@@ -69,10 +69,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14247P | Xalkori Capsules 200mg | CAPSULE | Valid |
 | SIN14248P | Xalkori Capsules 250mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 Both licences are single-ingredient products, valid, and made by Pfizer Manufacturing Deutschland GmbH. The route of administration is oral.
 

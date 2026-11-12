@@ -72,11 +72,15 @@ The TxGNN deep-learning model produced no candidate with a score of 0.99 or high
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14441P | TACHOSIL, MEDICATED SPONGE | SPONGE | Valid |
 | SIN14719P | ARTISS SOLUTIONS FOR SEALANT, DEEP FROZEN | SOLUTION | Valid |
 | SIN16143P | VERASEAL SOLUTIONS FOR SEALANT, 80 mg/ml, 500 IU/ml | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

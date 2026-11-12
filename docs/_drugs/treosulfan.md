@@ -80,10 +80,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16922P | TRECONDI POWDER FOR SOLUTION FOR INFUSION 5 G PER VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN16923P | TRECONDI POWDER FOR SOLUTION FOR INFUSION 1 G PER VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products from Oncotec Pharma Produktion GmbH. Only injectable forms are registered.
 

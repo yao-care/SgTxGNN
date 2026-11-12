@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 111
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Articaine: predicted new indication Gout (evidence level L5). Approved use: Not available"
 monitor_inn: "Articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
@@ -72,6 +72,8 @@ Currently no related literature available for gout.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05504P | UBISTESIN INJECTION | INJECTION | Valid |
@@ -80,7 +82,15 @@ Currently no related literature available for gout.
 | SIN14537P | Posicaine-100 Injection | INJECTION, SOLUTION | Valid |
 | SIN15913P | ARTINIBSA 4% WITH EPINEPHRINE SOLUTION FOR INJECTION 1:100000 | INJECTION, SOLUTION | Valid |
 
+<!-- licenses:end -->
+
 All five registrations are valid products.
+
+<!-- review:begin sg-lic-20261106-articaine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five registrations are valid single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-articaine-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +112,19 @@ The prediction rests on model output alone (L5). There are no clinical trials or
 - Approved indication text and package insert warnings and contraindications from the Singapore regulator
 - Route-of-administration compatibility assessment, since all registered products are injectables for local anaesthesia
 - Review of the knowledge-graph contraindication signals, particularly cardiovascular, renal and hepatic conditions, which are common in gout patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

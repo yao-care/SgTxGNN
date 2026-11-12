@@ -82,9 +82,13 @@ There are important limits. The Phase 3 trial (NCT00946192) studies fat-mediated
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06136P | MERCILON TABLET | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -85,9 +85,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Midostaurin,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15518P | RYDAPT SOFT CAPSULE 25MG | CAPSULE, LIQUID FILLED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

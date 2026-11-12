@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 621
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -39,6 +39,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 ## One-Sentence Summary
 
 Lurasidone is an atypical antipsychotic originally used to treat bipolar disorder (bipolar depression) and schizophrenia.
+
+<!-- review:begin sg-lic-20261031-lurasidone-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Lurasidone is an atypical antipsychotic originally used to treat bipolar disorder (bipolar depression) and schizophrenia. but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications**, mostly general reviews and guidelines, are currently linked to this direction." Removed: it said the product registrations were cancelled, discontinued, or not current, which did not match the HSA register data (the HSA register of therapeutic products as of 2026-10-31). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261031-lurasidone-1 -->
 
 ## Quick Overview
 
@@ -81,6 +87,8 @@ The predicted indication overlaps heavily with the original use. Lurasidone is a
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15088P | LATUDA TABLET 40MG | TABLET, COATED | Valid |
@@ -88,6 +96,8 @@ The predicted indication overlaps heavily with the original use. Lurasidone is a
 | SIN16346P | LATUDA TABLET 20MG | TABLET, FILM COATED | Valid |
 | SIN17318P | LURAMAX 80 Film Coated Tablet 80mg | TABLET, FILM COATED | Valid |
 | SIN17319P | LURAMAX 40 Film Coated Tablet 40mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The only trial directly addressing mania was withdrawn with no participants, and
 - Detailed mechanism of action data (MOA)
 - Review of the Singapore licensed indication wording, since the licence records contain no indication text
 - A safety plan covering metabolic risk, extrapyramidal symptoms and the major drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications**, mostly general reviews and guidelines, are" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

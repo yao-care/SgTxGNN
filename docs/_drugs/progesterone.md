@@ -81,6 +81,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03626P | CYCLOGEST PESSARY 400 mg | SUPPOSITORY | Valid |
@@ -90,6 +92,8 @@ Currently no related clinical trials registered.
 | SIN15475P | UTROGESTAN CAPSULE 200mg | CAPSULE, LIQUID FILLED | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

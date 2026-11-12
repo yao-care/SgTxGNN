@@ -89,12 +89,16 @@ Publications retrieved for ADHD (none test baclofen in ADHD patients):
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05330P | LIORESAL 10 TABLET 10 mg | TABLET | Valid |
 | SIN06831P | COLMIFEN 10 TABLET 10 mg | TABLET | Valid |
 | SIN09087P | APO-BACLOFEN TABLET 10 mg | TABLET | Valid |
 | SIN10026P | PMS-BACLOFEN TABLET 10 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

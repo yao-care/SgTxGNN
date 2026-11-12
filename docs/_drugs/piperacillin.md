@@ -85,6 +85,8 @@ The 15 retrieved publications are case reports, reviews or retrospective cohorts
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08362P | TAZOCIN FOR INJECTION 4.5 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -94,6 +96,8 @@ The 15 retrieved publications are case reports, reviews or retrospective cohorts
 | SIN15308P | PIPERACILLIN/TAZOBACTAM KABI POWDER FOR SOLUTION FOR INFUSION 4G/0.5G | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

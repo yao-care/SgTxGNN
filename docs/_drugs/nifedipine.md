@@ -76,6 +76,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nifedipine, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07228P | NIFELAT TABLET 10 mg | TABLET, FILM COATED | Valid |
@@ -89,6 +91,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nifedipine, 
 | SIN12483P | CALCIGARD RETARD TABLET 20 mg | TABLET, FILM COATED | Valid |
 | SIN07439P | NIFETEX-TR CAPSULE | CAPSULE | Valid |
 | SIN12389P | BETA - NICARDIA CAPSULE | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

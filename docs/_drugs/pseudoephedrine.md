@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 841
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,6 +92,14 @@ Currently no related clinical trials registered for nasal cavity disease.
 
 The approved indication text is not available in the licence records. Examples:
 
+<!-- review:begin sg-lic-20261106-pseudoephedrine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Pseudoephedrine has 20 valid single-ingredient registrations in Singapore, with no cancelled licences. The approved indication text is not available in the licence records." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 26 registrations for this drug, 26 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-pseudoephedrine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03116P | FEDAC TABLET | TABLET | Valid |
@@ -101,6 +109,8 @@ The approved indication text is not available in the licence records. Examples:
 | SIN03193P | FEDAC SYRUP | SYRUP | Valid |
 
 Showing 5 of 26 HSA registrations.
+
+<!-- licenses:end -->
 
 Available forms include tablets, film-coated tablets, sugar-coated tablets, capsules and syrups.
 
@@ -127,6 +137,19 @@ The predicted indication, nasal cavity disease, is essentially the same as pseud
 - Approved indication text for the Singapore licences
 - Clinical (ideally randomised) evidence for specific nasal conditions beyond those already labelled
 - A cardiovascular and drug-interaction risk review for patients with hypertension, heart disease or diabetes
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Pseudoephedrine has 20 valid single-ingredient registrations in Singapore, with no cancelled licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

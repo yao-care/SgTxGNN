@@ -72,9 +72,13 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14707P | TISSEEL FIBRIN SEALANT VH S/D (FROZEN) | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

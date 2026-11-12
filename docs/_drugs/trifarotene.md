@@ -86,9 +86,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16571P | AKLIEF CREAM 50mcg/g | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ---
 

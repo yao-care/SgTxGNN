@@ -69,11 +69,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07679P | ADENOCOR INJECTION 3MG/ML | INJECTION | Valid |
 | SIN16391P | CADEN SOLUTION FOR INJECTION 6 MG / 2 ML | INJECTION, SOLUTION | Valid |
 | SIN17470P | Tachyban (Adenosine Injection USP) 3mg/ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

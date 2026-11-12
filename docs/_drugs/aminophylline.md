@@ -77,9 +77,13 @@ Currently no related clinical trials registered for migraine.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03471P | AMINOPHYLLINE INJECTION 0.25 g/10 ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -76,6 +76,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Erlotinib, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13184P | Tarceva Tablet 150 mg | TABLET, FILM COATED | Valid |
@@ -94,6 +96,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Erlotinib, s
 | SIN17081P | LOTYRO 100 ERLOTINIB FILM COATED TABLETS 100MG | TABLET, FILM COATED | Valid |
 
 Showing 14 of 15 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

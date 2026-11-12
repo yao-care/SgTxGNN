@@ -76,9 +76,13 @@ Currently no related literature available for hypertrichosis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03588P | SYNTOMETRINE INJECTION | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

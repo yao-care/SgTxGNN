@@ -82,6 +82,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Hydroxychlor
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11874P | HALOXIN TABLET 100 mg | TABLET, SUGAR COATED | Valid |
@@ -91,6 +93,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Hydroxychlor
 | SIN16632P | HCQS HYDROXYCHLOROQUINE TABLET BP 200 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

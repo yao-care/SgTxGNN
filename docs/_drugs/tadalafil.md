@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 948
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Erectile dysfunction, benign prostatic hyperplasia…"
 monitor_inn: "Tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -92,6 +92,14 @@ For context, the only tadalafil-specific publication found among the lower-ranke
 
 Five main authorizations are listed below. The licence records contain no approved indication text.
 
+<!-- review:begin sg-lic-20261106-tadalafil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Twenty valid single-ingredient registrations exist. Five main authorizations are listed below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 32 registrations for this drug, 32 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-tadalafil-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12181P | CIALIS TABLET 20 mg | TABLET, FILM COATED | Valid |
@@ -101,6 +109,8 @@ Five main authorizations are listed below. The licence records contain no approv
 | SIN15899P | CALIBERI ORODISPERSIBLE FILM 5MG | FILM, SOLUBLE | Valid |
 
 Showing 5 of 32 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -128,6 +138,19 @@ The prediction is supported only by a score from the TxGNN model (deep learning)
 - Mechanism of action data from DrugBank
 - Clarification of the direction of effect for the hair-related predictions (whether tadalafil would increase or decrease hair growth)
 - If any prediction is pursued, kyphoscoliotic heart disease is the most plausible candidate, and it would require preclinical or clinical data on PDE5 inhibition in hypoxic pulmonary hypertension
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Twenty valid single-ingredient registrations exist" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

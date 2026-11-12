@@ -74,6 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Glycopyrroni
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14431P | SEEBRI BREEZHALER INHALATION POWDER, HARD CAPSULE 50MCG | CAPSULE | Valid |
@@ -82,6 +84,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Glycopyrroni
 | SIN16153P | ENERZAIR BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG /50 MCG /1 | POWDER, METERED | Valid |
 | SIN16723P | BREZTRI AEROSPHERE PRESSURISED INHALATION SUSPENSION 160 MCG/7.2 MCG/5 | AEROSOL, METERED | Valid |
 | SIN17226P | TRIMBOW PRESSURISED INHALATION SOLUTION 200/6/12.5 μg PER ACTUATION | AEROSOL, METERED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

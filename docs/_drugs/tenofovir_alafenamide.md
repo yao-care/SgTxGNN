@@ -74,6 +74,8 @@ For context, the second-ranked prediction, simian immunodeficiency virus infecti
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15392P | VEMLIDY FILM COATED TABLET 25 MG | TABLET, FILM COATED | Valid |
@@ -81,6 +83,8 @@ For context, the second-ranked prediction, simian immunodeficiency virus infecti
 | SIN15322P | DESCOVY FILM COATED TABLET 200 MG/25 MG | TABLET, FILM COATED | Valid |
 | SIN15604P | BIKTARVY FILM-COATED TABLETS 50MG/200MG/25MG | TABLET, FILM COATED | Valid |
 | SIN16015P | ODEFSEY FILM-COATED TABLET 200MG/25MG/25MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Note: Several of these products (DESCOVY, ODEFSEY, BIKTARVY) contain TAF together with other active ingredients, although they are recorded as single licences in the data.
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 1047
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). Approved use: Psoriatic arthritis, psoriasis, parapsoriasis"
 monitor_inn: "Ustekinumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -100,6 +100,8 @@ The other top-ranked predictions (neonatal dermatomyositis, acne keloid, acroder
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13704P | Stelara Solution for Injection 45mg/0.5 ml | INJECTION, SOLUTION | Valid |
@@ -110,6 +112,8 @@ The other top-ranked predictions (neonatal dermatomyositis, acne keloid, acroder
 
 Showing 5 of 14 HSA registrations.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
@@ -117,6 +121,12 @@ Showing 5 of 14 HSA registrations.
 - **Drug Interactions**: 100 interactions were identified, with the following examples listed.
   - **Moderate**: corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisone, prednisolone); anticoagulants (warfarin, apixaban, rivaroxaban, dicoumarol); simvastatin; radiopharmaceuticals and radioimmunotherapies (iobenguane I-131, ibritumomab tiuxetan, tositumomab).
   - **Minor**: zinc salts (sulfate, acetate, gluconate, chloride).
+
+<!-- review:begin sg-lic-20261106-ustekinumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five registrations are valid single-ingredient products from Cilag AG, and none has been cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 14 registrations for this drug, 14 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ustekinumab-1 -->
 
 Package insert warnings and contraindications are not available in the compiled data. Please refer to the package insert for these.
 
@@ -135,6 +145,19 @@ The evidence level is L2, based on small Phase 2 randomised trials in atopic der
 - Adequately powered Phase 3 evidence, or identification of a responsive atopic dermatitis subgroup (for example, Asian or intrinsic phenotypes)
 - A review of how ustekinumab compares with currently approved atopic dermatitis therapies
 - A safety assessment covering the interactions listed above, particularly with corticosteroids and anticoagulants
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five registrations are valid single-ingredient products from Cilag AG, and none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,9 +72,13 @@ All candidates produced by the TxGNN model for Binimetinib that can be traced to
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16826P | MEKTOVI FILM-COATED TABLET 15MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

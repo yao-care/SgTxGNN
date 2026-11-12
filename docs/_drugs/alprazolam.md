@@ -80,6 +80,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01984P | XANAX TABLET 0.25 mg | TABLET, FILM COATED | Valid |
@@ -89,6 +91,8 @@ Currently no related clinical trials registered.
 | SIN09173P | XANAX XR EXTENDED-RELEASE TABLET 0.5 mg | TABLET, SUGAR COATED | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 All seven single-ingredient licences are valid.
 

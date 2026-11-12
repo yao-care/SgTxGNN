@@ -82,9 +82,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14598P | YERVOY INJECTION CONCENTRATE 5MG/ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 This is a single-ingredient product with a valid registration, and it is an injectable formulation. The approved indication text was not available in the data compiled for this report.
 

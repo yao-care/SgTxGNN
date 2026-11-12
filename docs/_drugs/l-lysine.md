@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "L-Lysine"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
 description: "L-Lysine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,6 +89,8 @@ Currently no related clinical trials registered.
 
 The approved indication text is not available in the licence records for any of these products.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -99,7 +101,15 @@ The approved indication text is not available in the licence records for any of 
 
 Showing 5 of 19 HSA registrations.
 
+<!-- licenses:end -->
+
 Two further products are OLICLINOMEL N7-1000 E and N4-550 E emulsions for infusion.
+
+<!-- review:begin sg-lic-20261106-l-lysine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All seven registrations are valid single-ingredient licences. Two further products are OLICLINOMEL N7-1000 E and N4-550 E emulsions for infusion." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 19 registrations for this drug, 19 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-l-lysine-1 -->
 
 ---
 
@@ -130,6 +140,19 @@ The prediction is supported only by a model score. There are no clinical trials,
 - Direct preclinical or clinical evidence that L-lysine affects gastric motility or gastroparesis
 - Route compatibility assessment: current products are intravenous or parenteral, and the suitability of this route for gastroparesis has not been evaluated
 - Review of the renal and cardiac contraindication associations before any further work
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All seven registrations are valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -69,10 +69,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15504P | OLUMIANT FILM-COATED TABLET 2MG | TABLET, FILM COATED | Valid |
 | SIN15505P | OLUMIANT FILM-COATED TABLET 4MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

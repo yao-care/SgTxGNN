@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 801
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Piroxicam"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,6 +84,14 @@ Currently no related literature available.
 
 Available forms are oral (tablet, capsule), injectable and topical (gel). The five main licences are listed below. The licence records contain no approved-indication text.
 
+<!-- review:begin sg-lic-20261106-piroxicam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Seven valid single-ingredient licences are held, with no cancelled ones. Available forms are oral (tablet, capsule), injectable and topical (gel)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-piroxicam-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05100P | ROSIDEN GEL | GEL | Valid |
@@ -91,6 +99,8 @@ Available forms are oral (tablet, capsule), injectable and topical (gel). The fi
 | SIN05893P | APO-PIROXICAM CAPSULE 20 mg | CAPSULE | Valid |
 | SIN06575P | ROSIDEN INJECTION 20 mg/ml | INJECTION | Valid |
 | SIN10968P | ROXIFEN GEL 500 mg/100 g | GEL | Valid |
+
+<!-- licenses:end -->
 
 The remaining two licences are ROXIFEN GEL 500 mg/100 g (SIN10968P) and ROSIDEN GEL (SIN05100P).
 
@@ -123,6 +133,19 @@ The prediction has no trials, no literature and no plausible mechanism. It is mo
 - Any supporting biological or clinical evidence linking COX inhibition to this syndrome; without it, further work is not justified.
 - Detailed mechanism of action data and the full package insert warnings and contraindications.
 - Further review of the rank 10 prediction, **juvenile idiopathic arthritis**, which has far better support (Evidence Level L3, score 0.9993). It rests on older piroxicam studies in children (a 1986 multicentre piroxicam vs naproxen study, a 1987 randomised comparison and a 1991 paediatric pharmacokinetic study) plus recent NSAID network meta-analyses. Study designs were not verified from full text, and no trials are registered. This indication is a more sensible research question than the top-ranked one.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Seven valid single-ingredient licences are held, with no cancelled ones" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

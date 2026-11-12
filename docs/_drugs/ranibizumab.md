@@ -79,10 +79,14 @@ Both publications concern diabetic macular edema, not cataract.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13411P | Lucentis 10mg/ml Solution for Injection | INJECTION, SOLUTION | Valid |
 | SIN14772P | LUCENTIS SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 1.65mg/0.165ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

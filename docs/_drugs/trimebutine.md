@@ -84,9 +84,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02931P | DEBRIDAT TABLET 100 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

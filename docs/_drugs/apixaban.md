@@ -76,6 +76,8 @@ However, the available case reports point the other way: migraine with aura wors
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14279P | Eliquis Tablet 2.5mg | TABLET, FILM COATED | Valid |
@@ -85,6 +87,8 @@ However, the available case reports point the other way: migraine with aura wors
 | SIN17430P | APIGAT 5 FILM COATED TABLETS 5 MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -91,9 +91,13 @@ Please refer to the package insert for full warnings, as label-based warnings we
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06552P | APO-TRIAZIDE TABLET | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

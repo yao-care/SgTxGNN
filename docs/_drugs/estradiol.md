@@ -72,6 +72,8 @@ The TxGNN model's candidates for Estradiol are all known uses, so there is curre
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04456P | PROGYNOVA TABLET 2 mg | TABLET, SUGAR COATED | Valid |
@@ -86,6 +88,8 @@ The TxGNN model's candidates for Estradiol are all known uses, so there is curre
 | SIN09530P | FEMOSTON 2/10 TABLET | TABLET, FILM COATED | Valid |
 
 Showing 10 of 13 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -70,9 +70,13 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16362P | DOMIDE CAPSULES 50mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

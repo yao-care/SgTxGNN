@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 546
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,6 +92,12 @@ Some of these trials are indirect: they use ipratropium as a comparator or backg
 
 The table lists 10 of the 20 publications (reviews and systematic reviews first).
 
+<!-- review:begin sg-lic-20261106-ipratropium-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence, SIN09558P (COMBIVENT UNIT DOSE VIAL FOR INHALATION, solution), is also valid." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ipratropium-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Systematic review | Cochrane Database Syst Rev | Tiotropium vs ipratropium bromide in stable COPD |
@@ -109,6 +115,8 @@ The table lists 10 of the 20 publications (reviews and systematic reviews first)
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02815P | ATROVENT SOLUTION 0.025% | SOLUTION | Valid |
@@ -116,6 +124,8 @@ The table lists 10 of the 20 publications (reviews and systematic reviews first)
 | SIN14257P | IPROVENT INHALER 20 mcg/puff | AEROSOL, METERED | Valid |
 | SIN02664P | BERODUAL SOLUTION | SOLUTION | Valid |
 | SIN09558P | COMBIVENT UNIT DOSE VIAL FOR INHALATION | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -143,6 +153,19 @@ Ipratropium's anticholinergic bronchodilator mechanism fits obstructive lung dis
 - Attention to ocular, urinary and cardiac cautions and to anticholinergic interactions
 
 Other predicted indications should stay on **Hold**, or be treated as research questions: nasal cavity disease and respiratory malformation have limited or indirect evidence, and the others have little or no supporting evidence. Anaphylaxis carries a safety signal.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A sixth licence, SIN09558P (COMBIVENT UNIT DOSE VIAL FOR INHALATION, solution), is also valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

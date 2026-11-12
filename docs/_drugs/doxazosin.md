@@ -75,9 +75,13 @@ This is a single, very small, uncontrolled report. It is hypothesis-generating o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05014P | CARDURA TABLET 2 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Manufacturer: Pfizer Manufacturing Deutschland GmbH. This is the only valid single-ingredient registration.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Thiamine: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not available"
 ---
 
@@ -88,6 +88,8 @@ These studies show associations between nutritional or metabolic status and glau
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -98,7 +100,15 @@ These studies show associations between nutritional or metabolic status and glau
 
 Showing 5 of 10 HSA registrations.
 
+<!-- licenses:end -->
+
 Five of the ten valid licences are shown. All ten are oral film-coated tablets and injectable forms.
+
+<!-- review:begin sg-lic-20261106-thiamine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All ten are recorded as single-ingredient products, with oral film-coated tablets and injectable forms." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-thiamine-1 -->
 
 ## Safety Considerations
 
@@ -116,6 +126,19 @@ The top prediction rests only on a model score, with no trials, no literature an
 - Mechanism of action data for thiamine from DrugBank
 - A mechanistic rationale and preclinical evidence for any of the predicted diseases
 - For glaucoma, if pursued as a research question, interventional or well-designed prospective studies testing thiamine supplementation against outcomes
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "recorded as single-ingredient products, with" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

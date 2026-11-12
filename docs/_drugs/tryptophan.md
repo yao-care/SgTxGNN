@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1034
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not stated in the registration records"
 monitor_inn: "Tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -93,6 +93,14 @@ Currently no related clinical trials registered.
 
 All 19 licences are valid registrations. No approved indication text was recorded for any of them. The five main ones are:
 
+<!-- review:begin sg-lic-20261106-tryptophan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 19 licences are valid single-ingredient registrations." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-tryptophan-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -102,6 +110,8 @@ All 19 licences are valid registrations. No approved indication text was recorde
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
 Showing 5 of 19 HSA registrations.
+
+<!-- licenses:end -->
 
 The remaining registrations include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B. Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega products. All are injectable, emulsion or sterile-solution forms; no oral tryptophan product appears among them.
 
@@ -146,6 +156,19 @@ Restless legs syndrome has a high model score but only two small 1980s clinical 
 - Modern, adequately powered randomised controlled trials in RLS (or, with higher priority, insomnia), with a defined oral formulation and dose
 - A serotonin-syndrome risk management plan covering the interacting drugs listed above
 - Route compatibility assessment, since all registered Singapore products are parenteral while an RLS or insomnia use would most likely require an oral product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

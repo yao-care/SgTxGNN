@@ -89,12 +89,16 @@ No trial tests dupilumab directly in bronchitis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15675P | DUPIXENT SOLUTION FOR INJECTION IN A PRE-FILLED SYRINGE 300 mg/2ml | INJECTION, SOLUTION | Valid |
 | SIN16121P | DUPIXENT SOLUTION FOR INJECTION IN A PRE-FILLED SYRINGE 200 mg/1.14ml | INJECTION, SOLUTION | Valid |
 | SIN17291P | DUPIXENT SOLUTION FOR INJECTION IN A PRE‐FILLED PEN 200 mg/1.14ml | INJECTION, SOLUTION | Valid |
 | SIN17292P | DUPIXENT SOLUTION FOR INJECTION IN A PRE‐FILLED PEN 300 mg/2ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Selexipag, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15283P | UPTRAVI FILM-COATED TABLET 200MCG | TABLET, FILM COATED | Valid |
@@ -82,6 +84,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Selexipag, s
 | SIN15288P | UPTRAVI FILM-COATED TABLETS 1200MCG | TABLET, FILM COATED | Valid |
 | SIN15289P | UPTRAVI FILM-COATED TABLETS 1400MCG | TABLET, FILM COATED | Valid |
 | SIN15290P | UPTRAVI FILM-COATED TABLETS 1600MCG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

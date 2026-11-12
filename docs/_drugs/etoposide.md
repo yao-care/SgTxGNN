@@ -135,9 +135,13 @@ For primary pulmonary lymphoma, the retrieved literature is mostly about SCLC, g
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10059P | ETOPOSIDE-TEVA INJECTION 20 mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

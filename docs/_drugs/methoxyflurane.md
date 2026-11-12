@@ -72,9 +72,13 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14854P | PENTHROX INHALATION LIQUID 99.9% | INHALANT | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -79,9 +79,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15146P | INOVELON FILM-COATED TABLET 200 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

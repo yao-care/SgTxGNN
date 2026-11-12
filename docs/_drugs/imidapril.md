@@ -103,10 +103,14 @@ Currently no related literature available for the primary predicted indication (
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10614P | TANATRIL TABLETS 10 mg | TABLET | Valid |
 | SIN10615P | TANATRIL TABLETS 5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Both are single-ingredient, valid licences held by PT Mitsubishi Tanabe Pharma Indonesia, for oral use.
 

@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09320P | LICE CARE LOTION 0.5% w/v | EMULSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

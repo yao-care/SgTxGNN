@@ -72,11 +72,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Afatinib, so
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14460P | GIOTRIF FILM-COATED TABLETS 20MG | TABLET, FILM COATED | Valid |
 | SIN14461P | GIOTRIF FILM-COATED TABLETS 30MG | TABLET, FILM COATED | Valid |
 | SIN14462P | GIOTRIF FILM-COATED TABLETS 40MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

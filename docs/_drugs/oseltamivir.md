@@ -74,6 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oseltamivir,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11403P | TAMIFLU CAPSULE 75 mg | CAPSULE | Valid |
@@ -87,6 +89,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oseltamivir,
 | SIN16667P | SELTAVIR CAPSULE 75MG | CAPSULE | Valid |
 | SIN16668P | SELTAVIR 45 CAPSULE 45MG | CAPSULE | Valid |
 | SIN16669P | SELTAVIR 30 CAPSULE 30MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

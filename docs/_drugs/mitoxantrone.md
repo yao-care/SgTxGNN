@@ -89,9 +89,13 @@ For reference, the closely overlapping indication **head and neck cancer** has t
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11629P | MITOXANTRONE BAXTER INJECTION 2 mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

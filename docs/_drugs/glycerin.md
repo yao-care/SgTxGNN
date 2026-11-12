@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,13 +97,23 @@ For cauda equina syndrome, currently no related literature is available. Because
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02748P | LEMON SWEET PURGATIVE SYRUP | SYRUP | Valid |
 | SIN02959P | HUACHI ENEMA | ENEMA | Valid |
 | SIN03514P | MINICA S ENEMA | ENEMA | Valid |
 
+<!-- licenses:end -->
+
 All three licences are valid products. Only syrup and enema forms are registered in Singapore.
+
+<!-- review:begin sg-lic-20261106-glycerin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-glycerin-1 -->
 
 ---
 
@@ -132,6 +142,19 @@ The top prediction, cauda equina syndrome, has no clinical trials, no literature
 - Controlled clinical evidence in a prioritised indication (for example, constipation-predominant IBS or short-term intraocular pressure control)
 - Assessment of route compatibility, since only syrup and enema forms are registered in Singapore
 - Review of the drug interactions and systemic risks (hyperglycaemia, dehydration) for any proposed new use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

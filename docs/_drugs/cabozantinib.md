@@ -73,11 +73,15 @@ Its efficacy in renal cell carcinoma is well established. Mechanistically, the s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15606P | CABOMETYX FILM COATED TABLET 20MG | TABLET, FILM COATED | Valid |
 | SIN15607P | CABOMETYX FILM COATED TABLET 40MG | TABLET, FILM COATED | Valid |
 | SIN15608P | CABOMETYX FILM COATED TABLET 60MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -73,6 +73,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04206P | GLIMIDE TABLET 5 mg | TABLET | Valid |
@@ -80,6 +82,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | SIN07380P | CLAMIDE TABLET 5 mg | TABLET | Valid |
 | SIN10998P | T.O.NIL TABLET 5 mg | TABLET | Valid |
 | SIN12322P | GLUCOVANCE TABLET 500 mg/5 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

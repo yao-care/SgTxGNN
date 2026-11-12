@@ -86,9 +86,13 @@ For reference, the following publications relate to the Paget disease of bone pr
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11543P | PAMISOL CONCENTRATED INJECTION 30 mg/10 ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
@@ -98,6 +98,8 @@ For reference, the most relevant publications for the second-ranked prediction (
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13645P | Aricept Evess 5mg orodispersible tablet | TABLET, ORALLY DISINTEGRATING | Valid |
@@ -108,7 +110,15 @@ For reference, the most relevant publications for the second-ranked prediction (
 
 Showing 5 of 15 HSA registrations.
 
+<!-- licenses:end -->
+
 No topical or injectable forms are registered.
+
+<!-- review:begin sg-lic-20261106-donepezil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 13 valid single-ingredient registrations in total, all oral, with no cancelled licences. No topical or injectable forms are registered." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 15 registrations for this drug, 15 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-donepezil-1 -->
 
 ---
 
@@ -142,6 +152,19 @@ The psychogenic movement disorders prediction rests on a high model score alone,
 - A targeted literature search on cholinergic mechanisms in functional or psychogenic movement disorders
 - If a movement-disorder direction is pursued, consider **chronic tic disorder** first. It has the strongest direct clinical signal (a pediatric open-label study and case reports), but the study designs should be verified and a controlled trial would be needed.
 - A safety review of donepezil in patients with movement disorders, given the reported tremor, dystonia, and parkinsonism signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 13 valid single-ingredient registrations in total, all oral, with no cancelled licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

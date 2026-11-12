@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 693
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Mycophenolic Acid: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not available"
 monitor_inn: "Mycophenolic acid"
 predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with brainstem aura", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "pyropoikilocytosis, hereditary", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells", "rheumatoid arthritis", "antithrombin deficiency type 2"]
@@ -76,6 +76,8 @@ The high TxGNN score is therefore best read as reflecting the transplant-related
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12376P | MYFORTIC GASTRO-RESISTANT TABLET 180 mg | ENTERIC COATED TABLET | Valid |
@@ -86,7 +88,15 @@ The high TxGNN score is therefore best read as reflecting the transplant-related
 
 Showing 5 of 8 HSA registrations.
 
+<!-- licenses:end -->
+
 One further registration, SIN16969P (Mofecon-GR 180), is also valid.
+
+<!-- review:begin sg-lic-20261106-mycophenolic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One further registration, SIN16969P (Mofecon-GR 180), is also valid. All 6 registrations are single-ingredient oral products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-mycophenolic_acid-1 -->
 
 ## Safety Considerations
 
@@ -112,6 +122,19 @@ For warnings and contraindications, please refer to the package insert.
 - Mechanism of action data from DrugBank
 - Prospective or comparative clinical data on mycophenolate in thalassemia or sickle cell disease, particularly GVHD prophylaxis in HSCT
 - A decision on whether the question should be reframed as transplant-related GVHD prophylaxis rather than hemoglobinopathy treatment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 6 registrations are single-ingredient oral products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

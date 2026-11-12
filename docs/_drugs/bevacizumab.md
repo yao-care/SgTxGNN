@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13065P | Avastin Concentrate for Solution for Infusion 100mg/4ml | INFUSION, SOLUTION CONCENTRATE | Valid |
@@ -79,6 +81,8 @@ Currently no related literature available.
 | SIN16287P | ZIRABEV CONCENTRATE FOR SOLUTION FOR INFUSION 400 MG/16 ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 All 9 licences in the local data are valid; only the first five are listed here.
 

@@ -70,9 +70,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Vitamin D, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13152P | Fosamax Plus™ 70mg/2800IU Tablet | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,10 +72,14 @@ All of the TxGNN model's candidates for Olaparib (score ≥ 0.99) that can be tr
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15662P | LYNPARZA FILM-COATED TABLET 150MG | TABLET, FILM COATED | Valid |
 | SIN15663P | LYNPARZA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

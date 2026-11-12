@@ -100,9 +100,13 @@ Other predictions have little or no direct literature. For connective-tissue-dis
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13140P | VENTAVIS SOLUTION FOR INHALATION | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

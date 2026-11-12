@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,6 +101,14 @@ Several of these trials address reflux esophagitis or NSAID-associated ulcers ra
 
 Five main authorizations are listed below. No approved-indication text is recorded for any of them.
 
+<!-- review:begin sg-lic-20261106-esomeprazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Sixteen valid single-ingredient licences are registered, and none has been cancelled. Five main authorizations are listed below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-esomeprazole-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11498P | NEXIUM MUPS TABLET 20 mg | TABLET, FILM COATED | Valid |
@@ -110,6 +118,8 @@ Five main authorizations are listed below. No approved-indication text is record
 | SIN14633P | ESOZ TABLETS 40MG | TABLET, ENTERIC COATED | Valid |
 
 Showing 5 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 Available forms include oral capsules and tablets and injectable powders, so both oral and intravenous routes are marketed in Singapore.
 
@@ -135,6 +145,19 @@ Please refer to the package insert for full warnings and contraindications.
 - Mechanism of action data
 - Package insert warnings and contraindications from the Singapore regulator
 - For the ulcer indications, guardrails: confirm H. pylori status, review CYP2C19 and clopidogrel interactions, and limit therapy duration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Sixteen valid single-ingredient licences are registered, and none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

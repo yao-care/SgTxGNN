@@ -84,6 +84,8 @@ No study directly examines carbamazepine as a treatment for trigeminal nerve neo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00352P | TEGRETOL 200 TABLET 200 mg | TABLET | Valid |
@@ -93,6 +95,8 @@ No study directly examines carbamazepine as a treatment for trigeminal nerve neo
 | SIN05583P | STORILAT 200 TABLET 200 mg | TABLET | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

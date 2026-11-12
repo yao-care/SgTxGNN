@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Estradiol Valerate: predicted new indication symptomatic form of fragile X syndrome in female carrier (evidence level L5). Approved use: Primary ovarian failure"
 monitor_inn: "Estradiol valerate"
 predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "anovulation", "ovarian remnant syndrome", "luteoma of pregnancy", "ovarian dysfunction"]
@@ -88,12 +88,22 @@ For the lower-ranked predictions (anovulation and ovarian dysfunction), the lite
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04456P | PROGYNOVA TABLET 2 mg | TABLET, SUGAR COATED | Valid |
 | SIN04778P | PROGYLUTON TABLET | TABLET, SUGAR COATED | Valid |
 
+<!-- licenses:end -->
+
 Both are valid oral products from Bayer Weimar GmbH und Co.
+
+<!-- review:begin sg-lic-20261106-estradiol_valerate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both are valid single-ingredient oral products from Bayer Weimar GmbH und Co." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-estradiol_valerate-1 -->
 
 ## Safety Considerations
 
@@ -123,6 +133,19 @@ The top prediction has no clinical trials or publications behind it (Level L5), 
 - Clarification of the approved indication text for the two Singapore licences
 - Results or a status update for NCT02186782 if anovulation is pursued as an alternative direction
 - Route and formulation compatibility assessment for the proposed indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

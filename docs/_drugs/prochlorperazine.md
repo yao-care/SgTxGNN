@@ -82,9 +82,13 @@ No literature is available for the top-ranked prediction (retinal dystrophy). Th
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02049P | PROCHLOR TABLETS 5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

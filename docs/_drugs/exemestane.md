@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Exemestane"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
 description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,12 @@ The retrieved papers concern ovarian suppression and recovery of ovarian functio
 
 Currently no related clinical trials registered.
 
+<!-- review:begin sg-lic-20261106-exemestane-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid single-ingredient oral products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-exemestane-1 -->
+
 ---
 
 ## Literature Evidence
@@ -90,12 +96,16 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11398P | AROMASIN TABLET 25mg | TABLET, SUGAR COATED | Valid |
 | SIN14757P | EXEMESTANE STADA FILM COATED TABLET 25mg | TABLET, FILM COATED | Valid |
 | SIN16062P | EXACCORD 25 FILM COATED TABLET 25 MG | TABLET, FILM COATED | Valid |
 | SIN16646P | EXEDRAL 25 FILM-COATED TABLET 25MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -136,6 +146,19 @@ The amenorrhea prediction has a high model score but no clinical trials, and the
 - Registered indication text for the Singapore licences
 - A targeted literature review of aromatase inhibitors in fibrocystic breast disease
 - Clinical rationale for any therapeutic use of amenorrhea, or confirmation that this prediction should be dismissed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five licences are valid single-ingredient oral products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -105,6 +105,8 @@ Most relevant literature across the other predictions:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03760P | MINIRIN NASAL SPRAY 10 mcg/dose | SPRAY | Valid |
@@ -114,6 +116,8 @@ Most relevant literature across the other predictions:
 | SIN14261P | MINIRIN Oral Lyophilisate 120 mcg | TABLET, ORALLY DISINTEGRATING | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 Two further licences are valid: MINIRIN Nasal Spray 10 mcg/dose (SIN03760P, spray) and MINIRIN Injection 4 mcg/ml (SIN04482P, injection). All seven registrations are single-ingredient products. Oral, nasal and injectable routes are therefore all available in Singapore.
 

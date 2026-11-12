@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Dopamine, so
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11216P | TROPIN 200 INJECTION 200 mg/5 ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

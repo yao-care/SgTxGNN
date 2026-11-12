@@ -96,12 +96,16 @@ No randomised controlled trial of norepinephrine in obstructive lung disease was
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05754P | LEVOPHED INJECTION 1 mg/ml | INJECTION | Valid |
 | SIN15593P | NORADRENALINE AGUETTANT 1MG/ML CONCENTRATE FOR SOLUTION FOR INFUSION | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN16733P | NOREPINEPHRINE KALCEKS CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN17453P | Norepinephrine SciGen Concentrate for Solution for Infusion 4 mg/4mL | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 All four products are injectable single-ingredient products with valid status. There are no inhaled or oral formulations on the Singapore market.
 

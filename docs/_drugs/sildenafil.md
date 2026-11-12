@@ -76,6 +76,8 @@ The TxGNN deep-learning model produced no candidate indication with a score of 0
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10804P | VIAGRA TABLET 25 mg | TABLET, FILM COATED | Valid |
@@ -100,6 +102,8 @@ The TxGNN deep-learning model produced no candidate indication with a score of 0
 | SIN16406P | SEDEOGRA FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
 
 Showing 20 of 23 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

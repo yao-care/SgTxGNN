@@ -89,9 +89,13 @@ The abstracts compiled for this report do not report efficacy figures for these 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13661P | YONDELIS Powder for Injection 1mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

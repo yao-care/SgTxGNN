@@ -74,12 +74,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Secukinumab,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14750P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SENSOREADY PEN 150MG/ML | INJECTION, SOLUTION | Valid |
 | SIN14751P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SYRINGE 150MG/ML | INJECTION, SOLUTION | Valid |
 | SIN16315P | COSENTYX SOLUTION FOR INJECTION IN PREFILLED SYRINGE 75MG/0.5ML | INJECTION, SOLUTION | Valid |
 | SIN16359P | COSENTYX SOLUTION FOR INJECTION IN PRE-FILLED UNOREADY PEN 300MG/2ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nadroparin, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02147P | FRAXIPARINE INJECTION 2850 IU AXA/0.3 mL | INJECTION | Valid |
@@ -82,6 +84,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nadroparin, 
 | SIN15472P | FRAXIPARINE INJECTION 1900 IU AXA/0.2 mL | INJECTION | Valid |
 | SIN15473P | FRAXIPARINE INJECTION 7600 IU AXA/0.8 mL | INJECTION | Valid |
 | SIN15474P | FRAXIPARINE INJECTION 9500 IU AXA/1.0 mL | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

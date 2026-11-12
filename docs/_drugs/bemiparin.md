@@ -72,10 +72,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bemiparin, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16462P | HIBOR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGES 3,500 IU ANTI-XA/0 | INJECTION, SOLUTION | Valid |
 | SIN16463P | HIBOR SOLUTION FOR INJECTION IN PRE-FILLED SYRINGES 2,500 IU ANTI-XA/0 | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

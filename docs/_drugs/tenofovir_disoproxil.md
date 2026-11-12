@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 964
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -97,6 +97,14 @@ All entries below are animal studies or reviews. No human randomised trial is li
 
 The five below are listed. The licence records contain no approved indication text.
 
+<!-- review:begin sg-lic-20261106-tenofovir_disoproxil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 7 licences are valid single-ingredient registrations. The five below are listed." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-tenofovir_disoproxil-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15564P | TENOF TENOFOVIR DISOPROXIL FUMARATE FILM-COATED TABLETS 300 MG | TABLET, FILM COATED | Valid |
@@ -106,6 +114,8 @@ The five below are listed. The licence records contain no approved indication te
 | SIN17328P | ALBIVIR FILM-COATED TABLETS 300MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -130,6 +140,19 @@ The SIV prediction has a very high model score, but the evidence consists only o
 - Mechanism of action data from DrugBank.
 - Package insert warnings and contraindications from the HSA, so that safety screening can proceed.
 - A renal and bone safety monitoring plan, and consideration of tenofovir alafenamide for at-risk patients.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 7 licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

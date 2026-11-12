@@ -79,9 +79,13 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Penicil
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08173P | CUPRIPEN 250 CAPSULE 250 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

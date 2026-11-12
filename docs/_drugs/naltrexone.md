@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10002P | NARPAN TABLET 50 mg | TABLET | Valid |
 | SIN16411P | CONTRAVE PROLONGED RELEASE TABLET 8MG/90MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

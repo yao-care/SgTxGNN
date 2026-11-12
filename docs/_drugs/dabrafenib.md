@@ -72,11 +72,15 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14830P | TAFINLAR HARD CAPSULE 50MG | CAPSULE | Valid |
 | SIN14831P | TAFINLAR HARD CAPSULE 75MG | CAPSULE | Valid |
 | SIN17019P | TAFINLAR DISPERSIBLE TABLET 10MG | TABLET, FOR SUSPENSION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

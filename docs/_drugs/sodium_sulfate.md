@@ -86,9 +86,13 @@ None of these publications evaluates sodium sulfate for dyspepsia.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09234P | FORTRANS FOR ORAL SOLUTION | GRANULE, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

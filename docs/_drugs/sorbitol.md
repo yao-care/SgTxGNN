@@ -83,9 +83,13 @@ Currently no related literature available for exercise-induced malignant hyperth
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05957P | OSMOFUNDIN INJECTION 20% | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

@@ -81,9 +81,13 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12612P | ZYMAR OPHTHALMIC SOLUTION 0.3% | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

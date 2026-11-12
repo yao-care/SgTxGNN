@@ -72,10 +72,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15035P | CYRAMZA CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/10ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
 | SIN15036P | CYRAMZA CONCENTRATE FOR SOLUTION FOR INFUSION 500MG/50ML | INJECTION, SOLUTION, CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products. The manufacturers are Eli Lilly and Company and Lilly France (Fegersheim).
 

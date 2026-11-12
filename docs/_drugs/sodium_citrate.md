@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 921
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -73,6 +73,20 @@ Currently no related literature available.
 
 Approved indication text was not available in the records.
 
+<!-- review:begin sg-lic-20261106-sodium_citrate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Seven valid single-ingredient licences are registered. Approved indication text was not available in the records." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sodium_citrate-1 -->
+
+<!-- review:begin sg-lic-20261106-sodium_citrate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further licences are also valid: SW BENA-EXPECTORANT (SIN02911P, syrup) and Ural Effervescent Granules (SIN14374P, effervescent granule)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sodium_citrate-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03251P | HOVA EXPECTORANT | SYRUP | Valid |
@@ -80,6 +94,8 @@ Approved indication text was not available in the records.
 | SIN03514P | MINICA S ENEMA | ENEMA | Valid |
 | SIN14374P | Ural Effervescent Granules | GRANULE, EFFERVESCENT | Valid |
 | SIN15513P | REGIOCIT SOLUTION FOR HAEMOFILTRATION | SOLUTION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 No eye-drop or ophthalmic formulation is registered, so route compatibility with a conjunctival indication has not been established.
 
@@ -112,6 +128,20 @@ The prediction rests only on a TxGNN model (deep learning) score. There are no c
 - Package insert warnings and contraindications from the HSA records
 - Preclinical or clinical evidence in conjunctivitis, and an ophthalmic formulation and route assessment
 - Consideration of the better-supported predictions (stomach disease, gastroduodenitis) as alternative research questions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Seven valid single-ingredient licences are registered" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Two further licences are also valid: SW BENA-EXPECTORANT (SIN02911P, syrup) and Ural Effervescent Granules (SIN14374P, effervescent granule)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -84,9 +84,13 @@ Currently no related literature available for multiple endocrine neoplasia.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15950P | VEKLURY® LYOPHILIZED POWDER FOR IV INFUSION 100MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

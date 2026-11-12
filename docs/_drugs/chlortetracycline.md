@@ -70,9 +70,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04539P | CHLORTRALIM OPHTHALMIC OINTMENT 1% | OINTMENT | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

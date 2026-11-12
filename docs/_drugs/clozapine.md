@@ -85,12 +85,16 @@ The evidence is rated L2 because no Phase 3 trials in this indication are availa
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07234P | CLOZARIL TABLET 25 mg | TABLET, FILM COATED | Valid |
 | SIN07235P | CLOZARIL TABLET 100 mg | TABLET, FILM COATED | Valid |
 | SIN11384P | CLOZAPINE TABLET 100 mg | TABLET | Valid |
 | SIN11497P | CLOZAPINE TABLET 25 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All four licences are valid single-ingredient oral products.
 

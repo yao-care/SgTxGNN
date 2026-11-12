@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1054
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
@@ -90,6 +90,14 @@ Related indirect evidence for the second-ranked prediction, malignant renovascul
 
 The approved indication text was not available for these licences. Five main authorizations:
 
+<!-- review:begin sg-lic-20261106-valsartan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 20 registrations are valid single-ingredient licences in oral film-coated tablet form. The approved indication text was not available for these licences." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 32 registrations for this drug, 32 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-valsartan-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11554P | DIOVAN TABLET 160 mg | TABLET, FILM COATED | Valid |
@@ -99,6 +107,8 @@ The approved indication text was not available for these licences. Five main aut
 | SIN14777P | STARVAL FILM COATED TABLET 160 MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 32 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -123,6 +133,19 @@ The TxGNN score is very high (0.9997), and blocking the renin-angiotensin system
 - Approved indication text for the Singapore licences
 - A renal safety assessment (renal artery stenosis, impaired renal function, hyperkalaemia risk)
 - Consideration of chronic pulmonary heart disease as a secondary research question, since it has the most indirect clinical data (largely from sacubitril/valsartan)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 20 registrations are valid single-ingredient licences in oral film-coated tablet form" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 812
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Potassium chloride"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
@@ -87,6 +87,14 @@ The retrieved literature consists of case reports, cohort studies and reviews. N
 
 The following are five main ones, covering the different dosage forms. The data compiled for this report contain no approved indication text for any of them.
 
+<!-- review:begin sg-lic-20261106-potassium_chloride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 20 valid single-ingredient licences. The following are five main ones, covering the different dosage forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 44 registrations for this drug, 44 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-potassium_chloride-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07447P | POTASSIUM CHLORIDE TABLETS (SLOW-RELEASE) 600 mg (YELLOW) | TABLET | Valid |
@@ -96,6 +104,8 @@ The following are five main ones, covering the different dosage forms. The data 
 | SIN11566P | POTASSIUM CHLORIDE INJECTION - HIGHLY CONCENTRATED (400 mEq/l) | INJECTION | Valid |
 
 Showing 5 of 44 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -129,6 +139,19 @@ The only supporting evidence is case reports, small cohorts and old reviews, and
 All other predictions have evidence level L5 and a **Hold** recommendation.
 
 - This is a safety signal against these uses, not supporting evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 20 valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

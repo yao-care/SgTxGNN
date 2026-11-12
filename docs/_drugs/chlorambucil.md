@@ -82,9 +82,13 @@ Currently no related literature available for this specific subtype.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11696P | LEUKERAN TABLET 2 mg (Revised Formula) | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

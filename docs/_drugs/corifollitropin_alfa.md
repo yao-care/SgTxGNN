@@ -62,10 +62,14 @@ Other top-ranked predictions show the same pattern. They include migraine disord
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13939P | Elonva Solution for Injection 100mcg/0.5ml | INJECTION, SOLUTION | Valid |
 | SIN13940P | Elonva Solution for Injection 150mcg/0.5ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products from Vetter Pharma-Fertigung GmbH & Co.
 

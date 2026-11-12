@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Insulin lispro"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,11 +83,19 @@ Currently no related clinical trials registered.
 
 No literature is available for the top-ranked prediction (autoimmune oophoritis). One publication is linked to the rank 7 prediction (pancreatic agenesis):
 
+<!-- review:begin sg-lic-20261106-insulin_lispro-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three registrations are valid single-ingredient products, available as injectables only." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-insulin_lispro-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/) | 2002 | Review | J Am Pharm Assoc | General review of insulin therapy in type 2 diabetes and practical aspects of starting it; indirect evidence only |
 
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -95,6 +103,8 @@ No literature is available for the top-ranked prediction (autoimmune oophoritis)
 | SIN11171P | HUMALOG MIX25 KWIKPEN 100 units/ml | INJECTION | Valid |
 | SIN11227P | HUMALOG MIX 25 SUSPENSION FOR INJECTION 100 iu/ml | INJECTION | Valid |
 | SIN14025P | Humalog Mix50 Kwikpen 100 units/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -122,6 +132,26 @@ The top prediction, autoimmune oophoritis, has no clinical trials or literature,
 - A targeted literature search on insulin and autoimmune ovarian disease
 - Consideration of pancreatic agenesis (L4) as a separate research question, given the physiological rationale for insulin replacement
 - Exclusion of the lipodystrophy-related predictions, since insulin can cause these conditions
+
+<!-- review:begin sg-lic-20261106-insulin_lispro-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from the HSA, and approved indication text for the three Singapore licences" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-insulin_lispro-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three registrations are valid single-ingredient products, available as injectables only" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "for the three Singapore licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

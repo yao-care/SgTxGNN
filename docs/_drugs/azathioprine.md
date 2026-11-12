@@ -72,11 +72,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02082P | IMURAN TABLET 50 mg | TABLET, FILM COATED | Valid |
 | SIN10165P | AZATHIOPRINE PCH TABLET 50 mg | TABLET | Valid |
 | SIN11000P | AZAFRINE TABS. 50 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Azathioprine is marketed in Singapore as single-ingredient oral tablets (plain and film-coated), and all of its registrations are currently valid. The local records do not carry indication text for these products.
 

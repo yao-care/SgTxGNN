@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 955
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -74,6 +74,14 @@ Currently no related literature available for the predicted indication.
 
 The approved indication text is not recorded in the data compiled for this report. Five are shown below.
 
+<!-- review:begin sg-lic-20261106-tamsulosin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight valid single-ingredient registrations are listed. The approved indication text is not recorded in the data compiled for this report." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-tamsulosin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13696P | Harnal OCAS Prolonged Release Film-coated Tablet 400mcg | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
@@ -83,6 +91,8 @@ The approved indication text is not recorded in the data compiled for this repor
 | SIN14181P | Duodart Capsules 0.5mg/0.4mg | CAPSULE | Valid |
 
 Showing 5 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,6 +115,19 @@ The prediction has a very high model score, but there are no clinical trials or 
 - Preclinical or mechanistic studies supporting the prediction
 - Package insert warnings and contraindications from HSA for safety screening
 - A review of whether other predicted indications, such as hypertrichosis and alopecia, have stronger supporting evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Eight valid single-ingredient registrations are listed" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

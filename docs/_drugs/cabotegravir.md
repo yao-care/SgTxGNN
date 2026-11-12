@@ -72,11 +72,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16541P | VOCABRIA FILM-COATED TABLETS 30MG | TABLET, FILM COATED | Valid |
 | SIN16542P | VOCABRIA PROLONGED-RELEASE SUSPENSION FOR INJECTION 600 MG/3 ML | INJECTION, SUSPENSION | Valid |
 | SIN16543P | VOCABRIA PROLONGED-RELEASE SUSPENSION FOR INJECTION 400 MG/ 2 ML | INJECTION, SUSPENSION | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products. Available routes are oral and injectable.
 

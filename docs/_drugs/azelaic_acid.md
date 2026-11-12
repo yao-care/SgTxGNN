@@ -70,9 +70,13 @@ The TxGNN model's candidates for Azelaic Acid are all known uses, so there is cu
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07138P | SKINOREN CREAM 20% | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

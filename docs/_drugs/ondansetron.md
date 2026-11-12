@@ -73,6 +73,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05133P | ZOFRAN TABLET 8 mg | TABLET, FILM COATED | Valid |
@@ -93,6 +95,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | SIN16791P | PREZINTON SOLUTION FOR INJECTION 4 MG/2ML | INJECTION, SOLUTION | Valid |
 
 Showing 16 of 17 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

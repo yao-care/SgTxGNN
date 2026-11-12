@@ -80,12 +80,16 @@ However, the retrieved evidence is only indirect. It contains no study of golimu
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14105P | Simponi Solution for Injection in Pre-filled Syringe 50 mg/0.5 ml (Sma | INJECTION, SOLUTION | Valid |
 | SIN14734P | Simponi® I.V. Concentrate for Solution for Infusion 12.5mg/1 ml | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN14735P | Simponi Solution for Injection in Pre-filled Syringe 100 mg/1.0 ml (Sm | INJECTION, SOLUTION | Valid |
 | SIN16118P | SIMPONI SOLUTION FOR INJECTION IN PRE-FILLED PEN 45MG/0.45ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All four licences are valid single-ingredient products. The records contain no approved-indication text.
 

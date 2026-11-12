@@ -85,10 +85,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Carmustine, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13348P | GLIADEL WAFER | IMPLANT | Valid |
 | SIN15502P | BiCNU-100MG (CARMUSTINE FOR INJECTION USP 100MG) & DEHYDRATED ALCOHOL  | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -72,9 +72,13 @@ The TxGNN model's candidates for Crisaborole in Singapore are all known uses, so
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16613P | Staquis Ointment 2% w/w | OINTMENT | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

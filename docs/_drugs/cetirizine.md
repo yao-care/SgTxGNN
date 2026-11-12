@@ -75,6 +75,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03022P | ZYRTEC TABLET 10 mg | TABLET, FILM COATED | Valid |
@@ -84,6 +86,8 @@ Currently no related clinical trials registered.
 | SIN10796P | ZYRTEC ORAL SOLUTION 1 mg/ml | SOLUTION | Valid |
 
 Showing 5 of 24 HSA registrations.
+
+<!-- licenses:end -->
 
 The list is partial. Other cetirizine products are also valid in Singapore.
 

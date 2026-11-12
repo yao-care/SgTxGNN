@@ -80,10 +80,14 @@ Currently no related clinical trials registered for this predicted indication.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06424P | DBL DACARBAZINE FOR INJECTION 200 mg | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN12499P | DAC POWDER FOR INJECTION 200 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

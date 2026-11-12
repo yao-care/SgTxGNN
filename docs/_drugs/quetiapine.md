@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 845
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,14 @@ Note that one report (PMID 11212595) describes quetiapine worsening obsessive-co
 
 The records contain no approved indication text.
 
+<!-- review:begin sg-lic-20261106-quetiapine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Twenty valid single-ingredient registrations exist; five are shown below. The records contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 26 registrations for this drug, 26 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-quetiapine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09766P | SEROQUEL TABLET 25 mg | TABLET, FILM COATED | Valid |
@@ -94,6 +102,8 @@ The records contain no approved indication text.
 | SIN13502P | Seroquel XR Tablet 50mg | TABLET, EXTENDED RELEASE | Valid |
 
 Showing 5 of 26 HSA registrations.
+
+<!-- licenses:end -->
 
 All products are oral formulations (immediate-release and extended-release tablets).
 
@@ -116,6 +126,19 @@ The top-ranked prediction, retinal dystrophy, has no clinical trials, no literat
 - Mechanism of action data from DrugBank
 - For trichotillomania: a full-text review of the quetiapine-specific case reports and a search for controlled trials, including a benefit-risk comparison against established treatments
 - For the top-ranked rare genetic conditions: a mechanistic rationale and preclinical data before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Twenty valid single-ingredient registrations exist; five are shown below" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

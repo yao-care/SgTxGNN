@@ -83,10 +83,14 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for N
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14975P | OPDIVO CONCENTRATE FOR SOLUTION FOR INFUSION 10 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN16852P | OPDUALAG CONCENTRATE FOR SOLUTION FOR INFUSION 240MG/80MG | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

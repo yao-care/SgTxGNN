@@ -94,9 +94,13 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14662P | Pethidine-hameln Solution for Injection 50mg/ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,6 +79,12 @@ Currently no related literature available for posterolateral myocardial infarcti
 
 For reference, the closest related signals among other predicted indications are:
 
+<!-- review:begin sg-lic-20261106-lisinopril-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 13 registrations are valid single-ingredient oral tablets; none has been cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 14 registrations for this drug, 14 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-lisinopril-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [17047621](https://pubmed.ncbi.nlm.nih.gov/17047621/) | 2006 | Clinical study (design unconfirmed) | Kardiologiia | Lisinopril 10 mg/day attenuated pulmonary hypertension and improved right ventricular function in heart failure with ischaemic heart disease and COPD (chronic pulmonary heart disease) |
@@ -89,6 +95,8 @@ For reference, the closest related signals among other predicted indications are
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02369P | ZESTRIL TABLET 5 mg | TABLET, FILM COATED | Valid |
@@ -98,6 +106,8 @@ For reference, the closest related signals among other predicted indications are
 | SIN11594P | LISINOPRIL STADA TABLET 5 mg | TABLET | Valid |
 
 Showing 5 of 14 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -137,6 +147,19 @@ There are no trials or literature specific to it, so this is not a new repurposi
 - Confirmation of the approved indication text for Singapore licences, to check whether MI is already covered
 - Separate evaluation of **chronic pulmonary heart disease**, the only prediction with lisinopril-specific clinical publications, including confirmation of study design and quality
 - Safety review for the renal and hypotension-related predictions (malignant renovascular hypertension, malignant hypertensive renal disease)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 13 registrations are valid single-ingredient oral tablets; none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

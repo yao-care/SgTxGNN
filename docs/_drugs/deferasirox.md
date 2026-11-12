@@ -92,6 +92,8 @@ No clinical trials are registered for this indication.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15213P | JADENU FILM COATED TABLET 90MG | TABLET, FILM COATED | Valid |
@@ -101,6 +103,8 @@ No clinical trials are registered for this indication.
 | SIN17173P | DESROXIA FILM-COATED TABLETS 360MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 A sixth licence, SIN17087P (Ferasiro 360 mg), is also valid. All six licences are single-ingredient oral products.
 

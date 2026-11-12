@@ -101,6 +101,8 @@ The literature is mostly older reviews and early-phase studies, plus preclinical
 
 Paclitaxel has 14 valid single-ingredient registrations in Singapore and no cancelled ones. All are injectable forms. Approved indication text is not recorded for any of them. The table lists 5 of the 14.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09539P | ANZATAX INJECTION CONCENTRATE 6 mg/ml | INJECTION | Valid |
@@ -110,6 +112,8 @@ Paclitaxel has 14 valid single-ingredient registrations in Singapore and no canc
 | SIN13752P | Aclipak Concentrate for Solution for Infusion 6mg/ ml | INFUSION, SOLUTION CONCENTRATE | Valid |
 
 Showing 5 of 14 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

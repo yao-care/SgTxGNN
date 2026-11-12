@@ -72,10 +72,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Hydrocortiso
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08555P | EFFICORT LIPOCREAM 0.127% | CREAM | Valid |
 | SIN08556P | EFFICORT CREAM 0.127% | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -88,6 +88,8 @@ Currently no related literature available for the top-ranked prediction. The tab
 
 All 14 licences are valid single-ingredient products. Indication text is not recorded for any of them. The five main authorisations are listed below.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07740P | PENTASA SUPPOSITORIES 1 g | SUPPOSITORY | Valid |
@@ -97,6 +99,8 @@ All 14 licences are valid single-ingredient products. Indication text is not rec
 | SIN10918P | SALOFALK ENEMAS 4 g/60 ml | ENEMA | Valid |
 
 Showing 5 of 14 HSA registrations.
+
+<!-- licenses:end -->
 
 The remaining nine licences cover Pentasa (suppositories, granules and 1 g tablets) and Salofalk (granules, enema and suppositories). Available forms include oral, rectal (suppository, enema, suspension) and granule presentations.
 

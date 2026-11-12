@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 842
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pyrazinamide"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
 description: "Pyrazinamide: predicted new indication Infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,7 +97,11 @@ No literature was retrieved for infectious otitis media itself. The closest evid
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ---
 
@@ -128,6 +132,25 @@ The TxGNN score is very high, but there are no trials and no literature for infe
 - Confirmation that the target is tuberculous otitis media specifically, with pathogen-specific evidence (such as culture or PCR-confirmed cases)
 - Controlled or cohort data on anti-TB regimens that include pyrazinamide for tuberculous ear disease
 - Hepatotoxicity monitoring plan, given the liver-related contraindications
+
+<!-- review:begin sg-lic-20261106-pyrazinamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from the HSA (a blocking gap for safety screening) / Approved indication text for the Singapore licence" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-pyrazinamide-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Approved indication text for the Singapore licence" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

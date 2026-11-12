@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Drospiren
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16354P | SLINDA FILM-COATED TABLETS 4MG | TABLET, FILM COATED | Valid |
@@ -82,6 +84,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Drospiren
 | SIN14995P | JASTINDA FILM COATED TABLETS 3MG/ 0.02MG | TABLET, FILM COATED | Valid |
 
 Showing 6 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

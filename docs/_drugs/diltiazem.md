@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00428P | HERBESSER TABLET 30 mg | TABLET | Valid |
@@ -79,6 +81,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 | SIN06791P | HERBESSER 90 SR CAPSULE 90 mg | CAPSULE | Valid |
 | SIN10061P | HERBESSER R200 CAPSULES 200 mg | CAPSULE | Valid |
 | SIN10062P | HERBESSER R100 CAPSULES 100 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

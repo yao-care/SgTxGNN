@@ -78,9 +78,13 @@ For context, one general review is linked to a lower-ranked prediction, brachyol
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01305P | CAMCOLIT-400 TABLET 400 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

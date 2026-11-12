@@ -81,6 +81,8 @@ For the closely related predicted indication of general hypertrichosis, four pub
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07513P | PROSCAR TABLET 5 mg | TABLET, FILM COATED | Valid |
@@ -90,6 +92,8 @@ For the closely related predicted indication of general hypertrichosis, four pub
 | SIN14865P | STERCIA FILM-COATED TABLET 1MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 Ten single-ingredient oral licences are valid in total; none are cancelled.
 

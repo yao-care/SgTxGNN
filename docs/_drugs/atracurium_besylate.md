@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 121
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Atracurium Besylate: predicted new indication Preeclampsia (evidence level L5). Approved use: Not stated in the Singapore licence records (the mechanism points to…"
 monitor_inn: "Atracurium besylate"
 predicted_indications: ["preeclampsia", "cauda equina syndrome", "blepharospasm", "migraine disorder", "obsolete neurogenic bladder (disease)", "thrombotic disease", "migraine with brainstem aura", "severe pre-eclampsia", "mild pre-eclampsia", "irritable bowel syndrome"]
@@ -83,7 +83,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin sg-lic-20261106-atracurium_besylate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both are valid single-ingredient licences and both are injectable products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-atracurium_besylate-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -91,6 +99,8 @@ Currently no related literature available.
 | SIN14533P | Atracurium-hameln Injection 10mg/ml | INJECTION, SOLUTION | Valid |
 | SIN14836P | ATRACURIUM LABATEC IV SOLUTION FOR INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
 | SIN16945P | NOTRIXUM INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -111,6 +121,19 @@ The prediction has no clinical trials, no literature and no mechanistic basis. I
 - Mechanism of action data from DrugBank.
 - Any preclinical or clinical evidence linking atracurium to the predicted disease. If the evaluation is redirected, blepharospasm is the only candidate with a plausible mechanism, but it would need to be compared against botulinum toxin.
 - Route and formulation compatibility assessment for the predicted indication.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both are valid single-ingredient licences and both are injectable products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

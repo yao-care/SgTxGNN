@@ -85,10 +85,14 @@ Other retrieved papers are narrative reviews of *H. pylori* resistance and eradi
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15444P | VOCINTI FILM-COATED TABLET 20MG | TABLET, FILM COATED | Valid |
 | SIN15445P | VOCINTI FILM-COATED TABLET 10MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products from Takeda Pharmaceutical Company Limited (Hikari Plant), for oral use.
 

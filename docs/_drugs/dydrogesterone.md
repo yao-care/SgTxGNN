@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Dydrogestero
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11255P | DUPHASTON TABLET 10 mg (Film-coated) | TABLET, FILM COATED | Valid |
@@ -79,6 +81,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Dydrogestero
 | SIN09530P | FEMOSTON 2/10 TABLET | TABLET, FILM COATED | Valid |
 | SIN11896P | FEMOSTON 1/10 TABLET | TABLET, FILM COATED | Valid |
 | SIN12121P | FEMOSTON CONTI 1/5 TABLET | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

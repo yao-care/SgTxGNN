@@ -92,9 +92,13 @@ Currently no related clinical trials registered for migraine with brainstem aura
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11816P | ZOMIG RAPIMELT TABLET 2.5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

@@ -70,9 +70,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tofacitin
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14664P | XELJANZ TABLET 5MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

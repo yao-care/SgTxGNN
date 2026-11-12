@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1056
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Varenicline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence records compiled for this report"
 monitor_inn: "Varenicline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Varenicline is a nicotinic receptor partial agonist. The TxGNN model predicts it may be effective for **migraine disorder**, but no clinical trials and no efficacy publications support this direction. The prediction is based on computational modelling only.
 
+<!-- review:begin sg-lic-20261106-varenicline-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Varenicline is a nicotinic receptor partial agonist, marketed in Singapore as Champix." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-varenicline-1 -->
+
 ---
 
 ## Quick Overview
@@ -59,6 +65,12 @@ Varenicline is a nicotinic receptor partial agonist. The TxGNN model predicts it
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. From the pharmacology of the drug class, varenicline is a partial agonist of α4β2 nicotinic acetylcholine receptors and a full agonist of α7 receptors. It is widely known as a smoking cessation aid.
+
+<!-- review:begin sg-lic-20261106-varenicline-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "It is widely known as a smoking cessation aid, although the Singapore licence records do not state the indication text." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-varenicline-2 -->
 
 Nicotinic cholinergic signalling has been loosely linked to trigeminovascular and cortical spreading depression pathways, both of which are involved in migraine. However, no direct evidence supports a therapeutic role in migraine. The high TxGNN score is a computational prediction only and should not be read as evidence of efficacy.
 
@@ -80,11 +92,21 @@ Currently no related clinical trials registered.
 
 This is the only publication retrieved for migraine disorder. It describes an adverse event and provides no support for efficacy.
 
+<!-- review:begin sg-lic-20261106-varenicline-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products from Pfizer Italia S.r.l. and are oral formulations. No licences have been cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-varenicline-3 -->
+
 ---
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ---
 
@@ -111,6 +133,21 @@ The prediction rests on a model score alone (evidence level L5). There are no cl
 - Preclinical or mechanistic studies supporting nicotinic receptor modulation in migraine
 - A literature review specifically on migraine treatment, with adverse-event reports excluded
 - A safety assessment for populations with psychiatric or cardiovascular conditions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "marketed in Singapore as Champix" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "although the Singapore licence records do not state the indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Both licences are valid single-ingredient products from Pfizer Italia S.r.l. and are oral formulations. No licences have been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

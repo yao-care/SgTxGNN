@@ -62,9 +62,13 @@ Other high-ranking predictions (HIV infection, rheumatoid arthritis, amyotrophic
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16327P | ZEPZELCA POWDER FOR SOLUTION FOR INFUSION 4MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

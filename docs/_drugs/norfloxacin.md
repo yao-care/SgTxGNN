@@ -85,9 +85,13 @@ Currently no related literature available for hyperamylasemia.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08998P | LOXONE-400 TABLET 400 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

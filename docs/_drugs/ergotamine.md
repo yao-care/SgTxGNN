@@ -76,9 +76,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Ergotamine, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11746P | CAFFOX TABLET | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

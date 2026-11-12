@@ -72,10 +72,14 @@ The TxGNN model's candidates for Calcium Gluconate are all known uses, so there 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05221P | HYDROFLUORIC ACID ANTIDOTE GEL 2.5% w/w | GEL | Valid |
 | SIN05659P | CALCIUM GLUCONATE INJECTION 10% | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Guselkumab"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
 description: "Guselkumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -114,6 +114,12 @@ No clinical trials are registered for drug-induced osteoporosis, and none for th
 
 No publications were found for drug-induced osteoporosis. The tables below cover psoriasis and ulcerative colitis.
 
+<!-- review:begin sg-lic-20261106-guselkumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products from Cilag AG." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-guselkumab-1 -->
+
 ### Psoriasis
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -143,6 +149,8 @@ No publications were found for drug-induced osteoporosis. The tables below cover
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15508P | TREMFYA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 100MG/1ML | INJECTION, SOLUTION | Valid |
@@ -150,6 +158,8 @@ No publications were found for drug-induced osteoporosis. The tables below cover
 | SIN17285P | TREMFYA CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/20ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN17286P | TREMFYA PUSHPEN SOLUTION FOR INJECTION IN PRE-FILLED PEN 200MG/2ML | INJECTION, SOLUTION | Valid |
 | SIN17287P | TREMFYA SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 200MG/2ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 
@@ -175,6 +185,19 @@ The top prediction is supported only by a model score of 0.9984. It has no trial
 - For drug-induced osteoporosis: preclinical or mechanistic evidence on IL-23 and bone loss, and then a pilot study if that evidence supports one
 - For ulcerative colitis: confirmation of Singapore regulatory status for this indication, and a monitoring plan for infection and liver safety
 - A review of co-medications, especially concomitant adalimumab use (Major interaction)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both licences are valid single-ingredient products from Cilag AG" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

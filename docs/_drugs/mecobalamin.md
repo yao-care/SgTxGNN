@@ -86,12 +86,16 @@ For sclerosing cholangitis, currently no related literature is available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06291P | METHYCOBAL TABLET 500 mcg | TABLET, SUGAR COATED | Valid |
 | SIN06349P | METHYCOBAL INJECTION 500 mcg/ml | INJECTION | Valid |
 | SIN10917P | NEUROMETHYN CAP. 500 mcg | CAPSULE | Valid |
 | SIN16735P | MECONEURO CAPSULES 500 MCG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ---
 

@@ -84,9 +84,13 @@ Currently no related literature available for PLA2G6-associated neurodegeneratio
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15291P | AZILECT TABLET 1MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -76,10 +76,14 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15491P | LONSURF FILM-COATED TABLET 15MG/6.14MG | TABLET, FILM COATED | Valid |
 | SIN15494P | LONSURF FILM-COATED TABLET 20MG/8.19MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

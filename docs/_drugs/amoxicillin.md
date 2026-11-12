@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amoxicillin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections"
 ---
 
@@ -81,6 +81,14 @@ Currently no related literature available.
 
 The records contain no approved indication text. The first 5 are shown.
 
+<!-- review:begin sg-lic-20261106-amoxicillin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Licence records show 20 listed single-ingredient amoxicillin licences, all valid. The list may be partial, and the records contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 47 registrations for this drug, 47 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-amoxicillin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00213P | APO-AMOXI CAPSULE 250 mg | CAPSULE | Valid |
@@ -90,6 +98,8 @@ The records contain no approved indication text. The first 5 are shown.
 | SIN03931P | BETAMOX GRANULES 250 mg/5 ml | GRANULE, FOR SUSPENSION | Valid |
 
 Showing 5 of 47 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,6 +127,19 @@ The prediction has a high model score but no trials, no literature, and no plaus
 - Mechanism of action data for amoxicillin
 - Package insert warnings and contraindications from the HSA to complete safety screening
 - Any clinical or observational evidence directly studying amoxicillin in hyperamylasemia
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Licence records show 20 listed single-ingredient amoxicillin licences, all valid. he list may be partial, and t" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

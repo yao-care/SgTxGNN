@@ -82,9 +82,13 @@ Currently no related literature available for vulvovaginal candidiasis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15197P | SOOLANTRA CREAM 10MG/G | CREAM | Valid |
+
+<!-- licenses:end -->
 
 Ivermectin is registered in Singapore as a single-ingredient topical cream. The oral formulations used for strongyloidiasis and onchocerciasis are not among the registrations in the data compiled for this report.
 

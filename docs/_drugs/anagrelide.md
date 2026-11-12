@@ -82,10 +82,14 @@ The retrieved publications mostly address essential thrombocythemia (a clonal di
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12525P | AGRYLIN CAPSULE 0.5 mg | CAPSULE | Valid |
 | SIN17118P | ANAGRELIDE MEVON CAPSULES 0.5 MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

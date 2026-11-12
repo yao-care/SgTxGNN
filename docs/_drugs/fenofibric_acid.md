@@ -77,10 +77,14 @@ The TxGNN model (deep learning) has no candidate with a score of 0.99 or higher 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14375P | Trilipix Modified Release Capsules 45mg | CAPSULE, DELAYED RELEASE PELLETS | Valid |
 | SIN14376P | Trilipix Modified Release Capsules 135mg | CAPSULE, DELAYED RELEASE PELLETS | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

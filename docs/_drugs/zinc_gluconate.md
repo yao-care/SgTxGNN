@@ -72,9 +72,13 @@ Currently no related literature available for anemia of prematurity.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16768P | ZINC AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 1 MG/ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 The only registered product is an injectable (infusion) formulation made by Laboratoire AGUETTANT.
 

@@ -87,11 +87,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12301P | COLCITEX TABLET 0.6 mg | TABLET | Valid |
 | SIN15572P | COLCHICINE HALEWOOD TABLET 500 MCG | TABLET | Valid |
 | SIN17275P | XOLINE TABLET 500MCG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

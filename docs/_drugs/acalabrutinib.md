@@ -74,10 +74,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Acalabrutini
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15753P | CALQUENCE HARD CAPSULES 100MG | CAPSULE | Valid |
 | SIN16875P | CALQUENCE FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

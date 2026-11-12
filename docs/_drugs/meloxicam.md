@@ -72,11 +72,15 @@ Currently no related literature available for the lead prediction.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09554P | MOBIC TABLET 7.5 mg | TABLET | Valid |
 | SIN12127P | MELOX TABLET 7.5 mg | TABLET | Valid |
 | SIN14305P | Arrox Tablet 7.5mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient oral tablets.
 

@@ -72,9 +72,13 @@ The TxGNN model produced candidates for Teriflunomide, but every candidate that 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14841P | AUBAGIO FILM-COATED TABLETS 14mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

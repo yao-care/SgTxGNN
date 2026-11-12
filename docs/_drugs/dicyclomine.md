@@ -73,10 +73,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02547P | VERAGEL-DMS TABLET | TABLET | Valid |
 | SIN03333P | COLIMIX SYRUP | SYRUP | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

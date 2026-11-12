@@ -74,10 +74,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15093P | VOLIBRIS FILM-COATED TABLET 5MG | TABLET, FILM COATED | Valid |
 | SIN15094P | VOLIBRIS FILM-COATED TABLET 10 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

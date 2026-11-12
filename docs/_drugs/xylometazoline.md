@@ -87,11 +87,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11622P | OTRIVIN NASAL DROPS 0.05% | SOLUTION | Valid |
 | SIN11624P | OTRIVIN NASAL SPRAY 0.1% | SPRAY | Valid |
 | SIN15198P | SNUP STADA® SPRAY 0.1% | SPRAY | Valid |
+
+<!-- licenses:end -->
 
 ---
 

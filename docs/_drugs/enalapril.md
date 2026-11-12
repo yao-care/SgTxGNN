@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Enalapril
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07657P | KORANDIL 5 TABLET 5 mg | TABLET | Valid |
@@ -94,6 +96,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Enalapril
 | SIN14265P | KORANDIL TABLET 20MG | TABLET | Valid |
 
 Showing 18 of 19 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

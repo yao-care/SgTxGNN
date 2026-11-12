@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ciprofloxacin: predicted new indication diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -75,6 +75,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03028P | CIPROBAY 250 TABLET 250 mg | TABLET, FILM COATED | Valid |
@@ -85,7 +87,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 25 HSA registrations.
 
+<!-- licenses:end -->
+
 The list above shows 5 of the licences.
+
+<!-- review:begin sg-lic-20261106-ciprofloxacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The list above shows 5 of the licences; the licence records may be partial." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 25 registrations for this drug, 25 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ciprofloxacin-1 -->
 
 ## Safety Considerations
 
@@ -107,6 +117,19 @@ The prediction score is high (0.9987), but no registered trial studies ciproflox
 - Mechanism of action data and preclinical evidence of an antifibrotic effect
 - Package insert warnings and contraindications, with particular attention to the interaction with corticosteroids often used in scleroderma
 - A properly powered, registered clinical trial if the early signal is confirmed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the licence records may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

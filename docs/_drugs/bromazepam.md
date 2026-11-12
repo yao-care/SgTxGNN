@@ -60,10 +60,14 @@ Any link to migraine is speculative. One possible argument is that anxiolysis or
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00382P | LEXOTAN TABLET 3 mg | TABLET | Valid |
 | SIN00385P | LEXOTAN TABLET 1.5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

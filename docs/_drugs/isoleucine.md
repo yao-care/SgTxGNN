@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 554
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Isoleucine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not available"
 monitor_inn: "Isoleucine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -77,6 +77,8 @@ Currently no related literature available for gastroparesis.
 
 Approved indication text is blank in the registration records. Five of the 19 authorizations are listed:
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -87,7 +89,15 @@ Approved indication text is blank in the registration records. Five of the 19 au
 
 Showing 5 of 18 HSA registrations.
 
+<!-- licenses:end -->
+
 Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4).
+
+<!-- review:begin sg-lic-20261106-isoleucine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 19 registrations are valid single-ingredient licences. Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-isoleucine-1 -->
 
 ## Safety Considerations
 
@@ -109,6 +119,19 @@ The gastroparesis prediction has a high model score but no clinical trials, no l
 - A systematic literature search on branched-chain amino acids and gastric emptying or motility in gastroparesis
 - Preclinical or early clinical studies to test the hypothesis
 - Assessment of route and formulation compatibility, since current products are intravenous nutrition formulations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 19 registrations are valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

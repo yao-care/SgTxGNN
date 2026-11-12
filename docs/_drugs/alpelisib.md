@@ -73,11 +73,15 @@ Currently no related clinical trials registered for pulmonary hypertension.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15917P | PIQRAY 300MG DAILY DOSE PACK (150mg + 150mg) | TABLET, FILM COATED | Valid |
 | SIN15918P | PIQRAY 200MG DAILY DOSE PACK | TABLET, FILM COATED | Valid |
 | SIN15916P | PIQRAY 250MG DAILY DOSE PACK (200mg + 50mg) | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All three licences are held by Novartis Pharma Stein AG and are currently valid.
 

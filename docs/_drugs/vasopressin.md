@@ -78,9 +78,13 @@ None of these studies involves vasopressin in prothrombin deficiency.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08350P | VASOPRESSIN INJECTION USP 20 u/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

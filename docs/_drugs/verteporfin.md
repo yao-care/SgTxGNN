@@ -82,9 +82,13 @@ For reference, the lower-ranked predictions have only the following publications
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11608P | VISUDYNE FOR INJECTION 15 mg/vial | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

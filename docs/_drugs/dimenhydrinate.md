@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dimenhydrinate: predicted new indication Allergic urticaria (evidence level L5). Approved use: Motion sickness"
 monitor_inn: "Dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
@@ -76,6 +76,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02519P | APO-DIMENHYDRINATE TABLET 50 mg | TABLET | Valid |
@@ -86,7 +88,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 6 HSA registrations.
 
+<!-- licenses:end -->
+
 The table lists the first 5.
+
+<!-- review:begin sg-lic-20261106-dimenhydrinate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 8 valid single-ingredient registrations in total (tablets, syrups and one injection, Votmine 50 mg/ml). The table lists the first 5." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-dimenhydrinate-1 -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The mechanism (H1 blockade) is plausible, but the only supporting study is a vet
 - Mechanism of action data from DrugBank
 - Human clinical evidence (trials or comparative studies) of dimenhydrinate or diphenhydramine in urticaria, compared against second-generation antihistamines
 - Assessment of whether any approved indication for urticaria would add value beyond existing options in Singapore
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 8 valid single-ingredient registrations in total (tablets, syrups and one injection, Votmine 50 mg/ml)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

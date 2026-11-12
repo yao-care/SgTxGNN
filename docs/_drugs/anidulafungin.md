@@ -48,11 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13585P | Eraxis 100mg For Injection | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN16106P | ANIDACCORD 100 POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100 MG | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN17508P | ANICURA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All three are single-ingredient, valid registrations, and all are injectable.
 

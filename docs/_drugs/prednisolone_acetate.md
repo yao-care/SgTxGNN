@@ -81,9 +81,13 @@ Currently no related literature available for conjunctival folliculosis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04661P | PRED FORTE OPHTHALMIC SUSPENSION 1% | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

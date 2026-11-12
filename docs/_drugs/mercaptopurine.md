@@ -92,9 +92,13 @@ Several Phase 3 leukemia trials appear in the data, but mercaptopurine was not a
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10810P | PURINETONE TABLETS 50 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

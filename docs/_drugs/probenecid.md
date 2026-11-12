@@ -93,7 +93,11 @@ The 20 publications retrieved for renal hypouricemia cover the disease and its p
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ---
 

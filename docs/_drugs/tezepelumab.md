@@ -50,10 +50,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16815P | TEZSPIRE SOLUTION FOR INJECTION 210 MG IN PRE-FILLED SYRINGE | INJECTION, SOLUTION | Valid |
 | SIN16817P | TEZSPIRE SOLUTION FOR INJECTION 210 MG IN PRE-FILLED PEN | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both authorizations are valid single-ingredient products from Amgen Manufacturing Limited LLC.
 

@@ -73,10 +73,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Encorafenib,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16824P | BRAFTOVI HARD CAPSULE 75MG | CAPSULE | Valid |
 | SIN16825P | BRAFTOVI HARD CAPSULE 50MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

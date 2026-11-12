@@ -95,10 +95,14 @@ Of 20 publications retrieved, the most relevant are listed below. Study-design l
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04154P | APO-IMIPRAMINE TABLET 25MG | TABLET, FILM COATED | Valid |
 | SIN04155P | APO-IMIPRAMINE TABLET 10MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both are single-ingredient oral products from Apotex Inc and are currently valid.
 

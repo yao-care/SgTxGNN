@@ -75,10 +75,14 @@ Currently no related literature available for isotretinoin-like syndrome.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15173P | DURATOCIN RTS SOLUTION FOR INJECTION 100 MCG/ML | INJECTION, SOLUTION | Valid |
 | SIN17464P | Obitocin Solution for Injection in Prefilled Syringe 100mcg/mL | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

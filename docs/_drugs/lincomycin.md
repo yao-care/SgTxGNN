@@ -71,9 +71,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06683P | LINCOMYCIN INJECTION 300 mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

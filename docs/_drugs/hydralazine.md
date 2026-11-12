@@ -73,6 +73,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00210P | APO-HYDRALAZINE TABLET 25 mg | TABLET, FILM COATED | Valid |
@@ -80,6 +82,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | SIN01086P | HYDRALAZINE TABLETS 10 mg | TABLET, FILM COATED | Valid |
 | SIN01089P | HYDRALAZINE TABLET 50 mg | TABLET, FILM COATED | Valid |
 | SIN01148P | APO-HYDRALAZINE TABLET 50 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -61,9 +61,13 @@ Detailed mechanism of action data is not currently available. Carbinoxamine belo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07964P | BECAME TABLET | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

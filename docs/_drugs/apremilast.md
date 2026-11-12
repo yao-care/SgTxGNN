@@ -75,10 +75,14 @@ The TxGNN deep-learning model produced no candidate indication for Apremilast wi
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15203P | OTEZLA TABLET 30 MG | TABLET, FILM COATED | Valid |
 | SIN15202P | OTEZLA TABLET STARTER PACK | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

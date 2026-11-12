@@ -95,9 +95,13 @@ Several other retrieved papers concern antipsychotic-induced sexual dysfunction 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08681P | SELEGOS TABLET 5 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ---
 

@@ -73,6 +73,8 @@ The TxGNN deep-learning model produced candidate indications for Escitalopram, b
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12362P | LEXAPRO TABLET 20 mg | TABLET, FILM COATED | Valid |
@@ -84,6 +86,8 @@ The TxGNN deep-learning model produced candidate indications for Escitalopram, b
 | SIN17139P | CILENTRA 20 ESCITALOPRAM OXALATE TABLET USP 20MG | TABLET, FILM COATED | Valid |
 
 Showing 7 of 8 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

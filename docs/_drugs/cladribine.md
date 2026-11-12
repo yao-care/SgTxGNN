@@ -69,9 +69,13 @@ Currently no related literature available for the main prediction.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15691P | MAVENCLAD TABLET 10MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

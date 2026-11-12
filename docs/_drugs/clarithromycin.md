@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clarithromycin: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,6 +72,14 @@ Currently no related literature available.
 
 Clarithromycin is marketed in Singapore. No approved-indication text is recorded in the local data. Main authorisations:
 
+<!-- review:begin sg-lic-20261106-clarithromycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarithromycin is marketed in Singapore. The data compiled for this report include 20 valid single-ingredient licences, and the list may be partial." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 21 registrations for this drug, 21 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-clarithromycin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07085P | KLACID TABLET 250 mg | TABLET, FILM COATED | Valid |
@@ -81,6 +89,8 @@ Clarithromycin is marketed in Singapore. No approved-indication text is recorded
 | SIN09884P | KLACID MR TABLET 500 mg | TABLET, EXTENDED RELEASE | Valid |
 
 Showing 5 of 21 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -108,6 +118,19 @@ The main prediction, polyclonal hyperviscosity syndrome, has a high TxGNN score 
 - Preclinical or case-level evidence directly studying this disease
 - Package-insert warnings and contraindications from HSA for safety screening
 - Review of QT-prolongation risk and major drug interactions before any clinical consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report include 20 valid single-ingredient licences, and the list may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

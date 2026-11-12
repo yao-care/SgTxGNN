@@ -84,10 +84,14 @@ None of these publications directly studies tiotropium in respiratory malformati
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15885P | SPIRIVA® RESPIMAT® RE-USABLE SOLUTION FOR INHALATION 2.5 MICROGRAM | SOLUTION | Valid |
 | SIN15890P | SPIOLTO® RESPIMAT® RE-USABLE SOLUTION FOR INHALATION 2.5 MICROGRAM / 2 | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are currently valid. SPIOLTO® is a two-ingredient inhalation product (2.5 µg / 2.5 µg), so its licence does not describe the single-ingredient drug.
 

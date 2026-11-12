@@ -72,10 +72,14 @@ Currently no related literature available for homozygous familial hypercholester
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06931P | NIMOTOP FOR INFUSION 0.02% | INJECTION | Valid |
 | SIN09111P | NIMOTOP TABLET 30 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both are valid single-ingredient products (manufacturer: Bayer AG). Routes available: injectable and oral.
 

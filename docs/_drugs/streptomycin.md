@@ -94,9 +94,13 @@ The most relevant publications are listed below. Study-type labels follow the cl
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01388P | STREPTOMYCIN SULFATE FOR INJECTION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

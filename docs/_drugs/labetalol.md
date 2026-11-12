@@ -77,10 +77,14 @@ Currently no clinical trials are registered for malignant renovascular hypertens
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02281P | TRANDATE INJECTION 100 mg/20 ml | INJECTION | Valid |
 | SIN05162P | TRANTALOL TABLET 100 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

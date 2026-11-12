@@ -82,11 +82,15 @@ None of the retrieved publications is specific to visual epilepsy. The most rele
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14616P | FYCOMPA FILM-COATED TABLET 2 MG | TABLET, FILM COATED | Valid |
 | SIN14617P | FYCOMPA FILM-COATED TABLET 4MG | TABLET, FILM COATED | Valid |
 | SIN14619P | FYCOMPA FILM-COATED TABLET 8MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

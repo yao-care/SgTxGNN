@@ -78,9 +78,13 @@ The TxGNN model (deep learning) produced no new predicted indication for Testost
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04518P | DEPO-TESTOSTERONE STERILE SOLUTION 100 mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

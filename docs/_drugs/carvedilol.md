@@ -69,6 +69,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07421P | DILATREND TABLET 25 mg | TABLET | Valid |
@@ -78,6 +80,8 @@ Currently no related literature available.
 | SIN14642P | Vacodil 25 Film-coated Tablet 25 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 All seven licences in the data are valid single-ingredient products; the five above are the main ones shown.
 

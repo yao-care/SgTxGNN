@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,6 +76,8 @@ It is PMID [22606467](https://pubmed.ncbi.nlm.nih.gov/22606467/) (2011, *Case Re
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10485P | PATANOL STERILE OPHTHALMIC SOLUTION 0.1% | SOLUTION | Valid |
@@ -86,7 +88,15 @@ It is PMID [22606467](https://pubmed.ncbi.nlm.nih.gov/22606467/) (2011, *Case Re
 
 Showing 5 of 7 HSA registrations.
 
+<!-- licenses:end -->
+
 The two others are PATANOL Sterile Ophthalmic Solution 0.1% (SIN10485P) and RYALTRIS Nasal Spray 600/25 mcg (SIN16523P).
+
+<!-- review:begin sg-lic-20261106-olopatadine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Seven valid single-ingredient licences are registered, and none are cancelled. The two others are PATANOL Sterile Ophthalmic Solution 0.1% (SIN10485P) and RYALTRIS Nasal Spray 600/25 mcg (SIN16523P)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-olopatadine-1 -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The prediction rests only on model similarity (L5). There are no trials or liter
 - Clinical or observational evidence of olopatadine in ocular rosacea, ideally in patients with a coexisting allergic component
 - Confirmation of the approved indication text for each Singapore licence
 - Review of whether any of the other predicted conjunctival conditions with an allergic subset has stronger support
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Seven valid single-ingredient licences are registered, and none are cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

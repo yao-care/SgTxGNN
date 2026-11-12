@@ -72,10 +72,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12650P | KETESSE TABLET 25 mg | TABLET, FILM COATED | Valid |
 | SIN15394P | SKUDEXA FILM-COATED TABLET 75 MG/25 MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

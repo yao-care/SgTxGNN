@@ -69,9 +69,13 @@ Currently no related literature available for leprosy.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13034P | COLPERMIN CAPSULE 187mg | CAPSULE, ENTERIC COATED | Valid |
+
+<!-- licenses:end -->
 
 The product is a single-ingredient, currently valid registration. It is manufactured by Tillotts Pharma AG, with the capsule coating step also handled by SwissCo Services AG.
 

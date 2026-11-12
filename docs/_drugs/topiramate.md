@@ -83,6 +83,8 @@ Currently no related literature available.
 
 Topiramate has 10 valid single-ingredient registrations and none cancelled. The five main authorizations are below.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09687P | TOPAMAX 100 TABLET 100 mg | TABLET, FILM COATED | Valid |
@@ -92,6 +94,8 @@ Topiramate has 10 valid single-ingredient registrations and none cancelled. The 
 | SIN14132P | Topiron film-coated tablets 25mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 The other five registrations are further strengths of Trokendi XR (50, 100 and 200 mg) and Topiron (25 and 100 mg). All forms are oral.
 

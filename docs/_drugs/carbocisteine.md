@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Carbocisteine: predicted new indication Gout (evidence level L5). Approved use: Mucus-related respiratory disorders (mucolytic). The Singapore regist…"
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
@@ -82,6 +82,14 @@ Currently no related literature available.
 
 The 5 main ones are listed below.
 
+<!-- review:begin sg-lic-20261106-carbocisteine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 7 registrations are valid single-ingredient products. The 5 main ones are listed below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-carbocisteine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02759P | RHINATHIOL ADULTS SYRUP 5% | SYRUP | Valid |
@@ -91,6 +99,8 @@ The 5 main ones are listed below.
 | SIN12251P | SOLMUX PAEDIATRIC SUSPENSION 200 mg/5 ml | SUSPENSION | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -116,6 +126,19 @@ The gout prediction has a very high model score, but there are no trials or publ
 - Confirmation of approved indications for the registered Singapore products
 
 **Note:** Among the other predictions, **bronchitis** has more supporting evidence, at L3. It includes a long-term double-blind placebo-controlled trial (1985) and a 2024 systematic review of mucolytics in stable COPD. It is closer to an on-label use than a true repurposing, and it is the more practical direction to evaluate.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 7 registrations are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

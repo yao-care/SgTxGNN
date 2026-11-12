@@ -83,10 +83,14 @@ This evidence is mostly preclinical, focused on benign disease, and partly contr
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15600P | ESBRIET FILM COATED TABLET 267MG | TABLET, FILM COATED | Valid |
 | SIN15601P | ESBRIET FILM COATED TABLET 801MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products (oral), manufactured by Delpharm Milano S.r.l.
 

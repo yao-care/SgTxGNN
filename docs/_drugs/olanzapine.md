@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 734
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Schizophrenia, bipolar disorder, major depressive disorder…"
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -110,6 +110,14 @@ Several retrieved items are off-target (rapid-cycling bipolar disorder, valproat
 
 The registration records provide no approved indication text. Five main authorizations are listed.
 
+<!-- review:begin sg-lic-20261106-olanzapine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Olanzapine has 19 valid single-ingredient registrations, with no cancelled ones. The registration records provide no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 21 registrations for this drug, 21 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-olanzapine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09410P | ZYPREXA TABLET 10 mg | TABLET, FILM COATED | Valid |
@@ -119,6 +127,8 @@ The registration records provide no approved indication text. Five main authoriz
 | SIN13955P | Onzapin Tablet 5 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 21 HSA registrations.
+
+<!-- licenses:end -->
 
 All available forms are oral (film-coated tablets, orally disintegrating tablets and plain tablets).
 
@@ -148,6 +158,19 @@ The top prediction has only a computational score, with no trials or literature 
 - For agoraphobia: controlled trials in agoraphobia or panic disorder, with a metabolic and sedation monitoring plan
 - For depression-related predictions: confirmation that the use falls outside existing major depressive disorder indications, and registered trial evidence
 - For the genetic and developmental predictions (rank 1, 4, 8, 9, 10): no further work unless a credible mechanistic rationale emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Olanzapine has 19 valid single-ingredient registrations, with no cancelled ones" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

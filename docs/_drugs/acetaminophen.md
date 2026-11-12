@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetamino
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05323P | PROGESIC TABLET 500 mg | TABLET | Valid |
@@ -96,6 +98,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Acetamino
 | SIN08788P | PAXIMOL ORAL MIXTURE FOR CHILDREN 120 mg/5 ml | SUSPENSION | Valid |
 
 Showing 20 of 101 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

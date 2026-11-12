@@ -79,6 +79,8 @@ Currently no related literature available.
 
 All six licences are valid single-ingredient 2% w/w ointments. The five main ones are listed below. No approved-indication text is recorded for any of them.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05075P | BACTROBAN NASAL OINTMENT 2% w/w | OINTMENT | Valid |
@@ -88,6 +90,8 @@ All six licences are valid single-ingredient 2% w/w ointments. The five main one
 | SIN14421P | Muprin Ointment 2% w/w | OINTMENT | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 All registered products are ointments only. No injectable or other systemic form is registered in Singapore.
 

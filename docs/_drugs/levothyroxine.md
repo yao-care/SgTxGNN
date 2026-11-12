@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism"
 ---
 
@@ -73,6 +73,14 @@ Currently no related literature available.
 
 The licence records contain no approved-indication text. The main authorisations are listed below.
 
+<!-- review:begin sg-lic-20261106-levothyroxine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 15 licences are valid single-ingredient products. The licence records contain no approved-indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 16 registrations for this drug, 16 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-levothyroxine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09739P | EUTHYROX TABLET 25 mcg | TABLET | Valid |
@@ -82,6 +90,8 @@ The licence records contain no approved-indication text. The main authorisations
 | SIN11536P | EUTHYROX TABLET 75 mcg | TABLET | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 Products are available as oral tablets and as an injectable.
 
@@ -108,6 +118,19 @@ The prediction has a high model score but no trials, no publications and no plau
 - Any preclinical or clinical study directly addressing renal hypodysplasia/aplasia
 - Package insert warnings and contraindications from the HSA
 - A biological rationale showing why thyroid hormone could change the course of a structural kidney defect
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 15 licences are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

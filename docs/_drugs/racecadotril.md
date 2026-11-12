@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14412P | Hidrasec Infants Granules for Oral Suspension 10mg | GRANULE, FOR SUSPENSION | Valid |
 | SIN14413P | Hidrasec Children Granules for Oral Suspension 30mg | GRANULE, FOR SUSPENSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

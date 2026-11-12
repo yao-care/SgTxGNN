@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ammonium chloride"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ammonium Chloride: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
 ---
 
@@ -72,6 +72,14 @@ Currently no related literature available.
 
 The records contain no approved indication text. The first five are listed below.
 
+<!-- review:begin sg-lic-20261106-ammonium_chloride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 17 licences are single-ingredient records and valid. The records contain no approved indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ammonium_chloride-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02839P | BEANAMINE EXPECTORANT | SOLUTION | Valid |
@@ -81,6 +89,8 @@ The records contain no approved indication text. The first five are listed below
 | SIN03335P | XSP-BENA EXPECTORANT | SYRUP | Valid |
 
 Showing 5 of 13 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -101,6 +111,19 @@ The prediction rests only on a model score. No clinical trial or publication dir
 - Mechanism of action data for ammonium chloride
 - Literature and trial searches specific to nasal cavity disease, and clarification of which conditions are meant by "nasal cavity disease"
 - A review of the knowledge-graph contraindications against the label text, and of the route and dosage form suitable for nasal conditions (route compatibility has not been assessed)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 17 licences are single-ingredient records and valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

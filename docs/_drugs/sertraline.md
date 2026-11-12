@@ -73,6 +73,8 @@ Currently no related clinical trials registered.
 
 Seven valid single-ingredient registrations are on record. No approved-indication text is listed in the records.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07301P | ZOLOFT TABLET 50 mg | TABLET, FILM COATED | Valid |
@@ -82,6 +84,8 @@ Seven valid single-ingredient registrations are on record. No approved-indicatio
 | SIN14789P | INOSERT 100 Tablet 100mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

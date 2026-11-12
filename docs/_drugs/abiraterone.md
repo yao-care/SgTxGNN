@@ -5,7 +5,7 @@ layout: default
 title: Abiraterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 23
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Abiraterone: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Abiraterone"
 predicted_indications: []
@@ -50,6 +50,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Approved indication text was not available for any of them. The main authorizations are:
 
+<!-- review:begin sg-lic-20261106-abiraterone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 16 valid single-ingredient registrations. Approved indication text was not available for any of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 17 registrations for this drug, 17 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-abiraterone-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14146P | Zytiga Tablet 250 mg | TABLET | Valid |
@@ -59,6 +67,8 @@ Approved indication text was not available for any of them. The main authorizati
 | SIN16002P | ABIRATRED ABIRATERONE ACETATE FILM COATED TABLET USP 250MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 17 HSA registrations.
+
+<!-- licenses:end -->
 
 All forms are oral (tablet or film-coated tablet).
 
@@ -76,6 +86,18 @@ All forms are oral (tablet or film-coated tablet).
 
 - **Drug Interactions**: A screen returned 100 interacting drugs. Major-level interactions in the listed results include cisapride, dolasetron, eliglustat and loperamide. Moderate interactions include clarithromycin, levofloxacin, granisetron, metoclopramide, famotidine and several laxatives (bisacodyl, lactulose, magnesium citrate). One minor interaction is metronidazole. Several of these are QT-prolongation or CYP-related concerns and need review before any new use.
 - **Other safety considerations**: The package insert warnings and contraindications were not available. Please refer to the package insert for them. Abiraterone is known to carry risks of hypertension, hypokalaemia and fluid retention, and it is given with a corticosteroid.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 16 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

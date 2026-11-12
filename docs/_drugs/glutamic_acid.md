@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 484
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the licence data"
 monitor_inn: "Glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -94,6 +94,14 @@ No randomized trial of glutamic acid in osteoporosis was found. The most relevan
 
 The data compiled for this report contain no approved-indication text for them.
 
+<!-- review:begin sg-lic-20261106-glutamic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 7 authorizations are single-ingredient, valid licences. The data compiled for this report contain no approved-indication text for them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-glutamic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -104,7 +112,15 @@ The data compiled for this report contain no approved-indication text for them.
 
 Showing 5 of 8 HSA registrations.
 
+<!-- licenses:end -->
+
 All are injectable or infusion forms.
+
+<!-- review:begin sg-lic-20261106-glutamic_acid-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further licences are registered: SIN15469P (Nutriflex Omega Special) and SIN15468P (Nutriflex Omega Plus). All are injectable or infusion forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-glutamic_acid-2 -->
 
 ---
 
@@ -134,6 +150,20 @@ The other predicted indications (pregnancy-associated osteoporosis, glaucoma, ga
 - Preclinical confirmation of a bone benefit from glutamic acid itself, in bone density and bone turnover models
 - Assessment of whether an injectable nutrition product is a suitable route for chronic osteoporosis treatment
 - A clinical safety review of the renal, calcium-metabolism and cardiac flags before any human study
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 7 authorizations are single-ingredient, valid licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Two further licences are registered: SIN15469P (Nutriflex Omega Special) and SIN15468P (Nutriflex Omega Plus)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

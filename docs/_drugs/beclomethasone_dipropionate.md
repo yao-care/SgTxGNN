@@ -81,12 +81,16 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08674P | BECLOMET EASYHALER 200 mcg/inhalation dose | POWDER, METERED | Valid |
 | SIN10521P | DECOMIT NASAL SPRAY 50 mcg/actuation | SPRAY | Valid |
 | SIN12634P | BECLO-ASMA CFC-FREE INHALER 50 mcg | AEROSOL, METERED | Valid |
 | SIN03941P | CANDID-B CREAM | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

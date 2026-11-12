@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 description: "Dextromethorphan: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,6 +96,14 @@ Currently no related literature available for nasal cavity disease.
 
 Approved indication text is not available in the licence records. Five main authorisations are listed below.
 
+<!-- review:begin sg-lic-20261106-dextromethorphan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 18 licences are valid single-ingredient registrations with no cancellations. Approved indication text is not available in the licence records." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 16 registrations for this drug, 16 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-dextromethorphan-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02653P | BEATHORPHAN TABLETS 15 mg | TABLET, FILM COATED | Valid |
@@ -105,6 +113,8 @@ Approved indication text is not available in the licence records. Five main auth
 | SIN08789P | METOPHAN COUGH SYRUP 15 mg/5 ml | SYRUP | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 Available forms include elixir, syrup, lozenge, tablet (plain, sugar-coated and film-coated) and gelatin-coated capsule.
 
@@ -135,6 +145,19 @@ The prediction rests only on a high model score, probably driven by proximity to
 - A literature and trial search specific to nasal cavity disease, to look for any clinical signal
 - Safety review of the knowledge-graph contraindication signals and major interactions (serotonergic and QT-prolonging drugs)
 - Consideration of whether a more plausible candidate merits evaluation first
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 18 licences are valid single-ingredient registrations with no cancellations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

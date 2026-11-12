@@ -64,6 +64,8 @@ Other lower-ranked predictions include Tourette syndrome, trichotillomania, angi
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07089P | KYTRIL FOR INFUSION 3 mg/3ml | INJECTION | Valid |
@@ -73,6 +75,8 @@ Other lower-ranked predictions include Tourette syndrome, trichotillomania, angi
 | SIN14612P | GRANISETRON-AFT SOLUTION FOR INJECTION 1MG/ML | INJECTION, SOLUTION | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 Seven valid single-ingredient licences exist in total. Both injectable and oral forms are available.
 

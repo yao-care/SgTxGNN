@@ -75,12 +75,16 @@ The remaining predictions (cauda equina syndrome, gastroduodenitis, peptic ulcer
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09677P | CLEANXATE TAB 200 mg | TABLET, SUGAR COATED | Valid |
 | SIN12007P | URISPAS 200 TABLET 200 mg | TABLET, FILM COATED | Valid |
 | SIN12299P | LAVOXEN TABLET 200 mg | TABLET, FILM COATED | Valid |
 | SIN16400P | URIPAX FILM COATED TABLET 200MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 All four licences are valid single-ingredient oral products.
 

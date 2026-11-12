@@ -85,6 +85,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15840P | VYVANSE CAPSULES 20 mg | CAPSULE | Valid |
@@ -94,6 +96,8 @@ Currently no related clinical trials registered.
 | SIN15844P | VYVANSE CAPSULES 60 mg | CAPSULE | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 A sixth licence, SIN15845P (70 mg), is also valid. All six are single-ingredient oral capsules, made by Patheon Pharmaceuticals Inc. (bulk production) and Takeda GmbH.
 

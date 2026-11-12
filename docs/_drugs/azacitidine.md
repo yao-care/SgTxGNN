@@ -5,7 +5,7 @@ layout: default
 title: Azacitidine
 parent: Known Uses Only (No New Predictions)
 nav_order: 127
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Azacitidine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Azacitidine"
 predicted_indications: []
@@ -52,6 +52,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 The registration records do not include approved indication text, so that column is omitted. The first 5 registrations are shown below.
 
+<!-- review:begin sg-lic-20261106-azacitidine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Azacitidine is marketed in Singapore under 7 valid single-ingredient registrations (injectable and oral forms). The registration records do not include approved indication text, so that column is omitted." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 8 registrations for this drug, 8 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-azacitidine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13801P | Vidaza powder for suspension for injection 100mg/vial | INJECTION, POWDER, FOR SUSPENSION | Valid |
@@ -62,7 +70,21 @@ The registration records do not include approved indication text, so that column
 
 Showing 5 of 8 HSA registrations.
 
+<!-- licenses:end -->
+
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Azacitidine is marketed in Singapore under 7 valid single-ingredient registrations (injectable and oral forms)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

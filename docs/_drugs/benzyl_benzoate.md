@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Benzyl Benzo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06735P | BENZYL BENZOATE APPLICATION BP 25% w/v | EMULSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

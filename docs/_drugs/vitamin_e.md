@@ -76,11 +76,15 @@ For the closely related "bilirubin metabolism disease" prediction, the most rele
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05207P | VITALIPID N INFANT INJECTION | INJECTION | Valid |
 | SIN05208P | VITALIPID N ADULT INJECTION | INJECTION | Valid |
 | SIN08875P | NEUROGEN-E TABLET | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

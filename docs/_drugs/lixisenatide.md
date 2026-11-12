@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15540P | SOLIQUA SOLUTION FOR INJECTION IN A PRE-FILLED PEN 100UNITS/ML + 50MCG | INJECTION, SOLUTION | Valid |
 | SIN15542P | SOLIQUA SOLUTION FOR INJECTION IN A PRE-FILLED PEN 100UNITS/ML + 33MCG | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are held by Sanofi-Aventis Deutschland GmbH and are currently valid. The route of administration is injectable.
 

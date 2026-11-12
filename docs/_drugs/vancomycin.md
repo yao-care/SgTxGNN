@@ -90,6 +90,8 @@ Currently no related clinical trials registered.
 
 All 10 licences are valid single-ingredient products. No approved-indication text is recorded for them. The five main authorisations are listed below.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08069P | VANCOMYCIN HCl INJECTION 500 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -99,6 +101,8 @@ All 10 licences are valid single-ingredient products. No approved-indication tex
 | SIN16013P | VANCONEX LYOPHILIZED POWDER FOR INJECTION 1G/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 
 Showing 5 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 Both injectable and oral (capsule) forms are registered.
 

@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tazobacta
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08362P | TAZOCIN FOR INJECTION 4.5 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -82,6 +84,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tazobacta
 | SIN15317P | ZERBAXA POWDER FOR SOLUTION FOR INJECTION 1G/0.5G | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Showing 6 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

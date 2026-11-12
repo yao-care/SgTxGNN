@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bifonazole, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15415P | CANESPRO ONCE DAILY CREAM 1% | CREAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

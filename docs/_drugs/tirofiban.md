@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tirofiban, s
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10931P | AGGRASTAT CONCENTRATE FOR INFUSION 0.25 mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

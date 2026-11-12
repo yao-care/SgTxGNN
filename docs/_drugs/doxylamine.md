@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
 description: "Doxylamine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,11 +81,21 @@ No literature is available for allergic urticaria.
 
 These studies involve combination products, a PK/PD study, a review and a misuse survey. None shows an independent effect of doxylamine on headache.
 
+<!-- review:begin sg-lic-20261106-doxylamine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both products are oral, single-ingredient registrations (listed as valid) from Duchesnay Inc." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 1 registration for this drug, 1 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-doxylamine-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16865P | BONJESTA EXTENDED-RELEASE TABLETS 20 MG/20 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +124,19 @@ The prediction is supported only by the model score (L5). It largely duplicates 
 - Mechanism of action data
 - Doxylamine-specific clinical evidence in urticaria, and a comparison with second-generation antihistamines
 - If the headache direction is pursued, independent evidence of a doxylamine effect, since the current studies involve combination products. This is a research question rather than a decision candidate.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both products are oral, single-ingredient registrations (listed as valid) from Duchesnay Inc" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

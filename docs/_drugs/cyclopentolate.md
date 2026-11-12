@@ -69,9 +69,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04201P | MINIMS CYCLOPENTOLATE HYDROCHLORIDE EYE DROPS 1% w/v | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

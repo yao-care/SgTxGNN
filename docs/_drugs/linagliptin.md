@@ -48,6 +48,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14101P | Trajenta Film-Coated Tablets 5mg | TABLET, FILM COATED | Valid |
@@ -57,6 +59,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | SIN15272P | GLYXAMBI FILM-COATED TABLETS 25 MG/5 MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 A sixth licence (SIN15272P, Glyxambi 25 mg/5 mg) is also valid.
 

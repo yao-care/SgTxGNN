@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16470P | REBLOZYL POWDER FOR SOLUTION FOR INJECTION 25 MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN16471P | REBLOZYL POWDER FOR SOLUTION FOR INJECTION 75 MG/VIAL | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

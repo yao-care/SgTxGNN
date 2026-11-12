@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 960
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
@@ -83,6 +83,14 @@ Currently no related literature available.
 
 Approved indication text was not available for these licences. The five below are examples:
 
+<!-- review:begin sg-lic-20261106-telmisartan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 20 registrations are valid single-ingredient oral tablets (40 mg or 80 mg). Approved indication text was not available for these licences." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 32 registrations for this drug, 32 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-telmisartan-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11072P | MICARDIS TABLET 40 mg | TABLET | Valid |
@@ -92,6 +100,8 @@ Approved indication text was not available for these licences. The five below ar
 | SIN14806P | ACTELSAR TABLET 80 MG | TABLET | Valid |
 
 Showing 5 of 32 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,6 +133,19 @@ The prediction for Prinzmetal angina is supported only by the model score (L5), 
 - A review of the comparison with standard vasospastic angina therapy (e.g., calcium channel blockers) and of safety in patients with low blood pressure, kidney disease or electrolyte disturbances
 
 **Note on other predictions:** Among the other predicted indications for telmisartan, **intracerebral hemorrhage** has the strongest support. It rests on a completed Phase 3 trial (TRIDENT, NCT02699645, n=1671) of a triple low-dose antihypertensive pill that includes telmisartan. It is rated L1 with a "Proceed with Guardrails" recommendation. The benefit cannot be attributed to telmisartan alone, and the trial results should be verified. This indication may merit its own evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 20 registrations are valid single-ingredient oral tablets (40 mg or 80 mg)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

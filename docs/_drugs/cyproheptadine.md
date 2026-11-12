@@ -61,9 +61,13 @@ Detailed mechanism of action data is not currently available for this report. Cy
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06637P | PILIAN TABLET 4 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 The product is an oral tablet made by Yung Shin Pharmaceutical Ind Co Ltd. It is a single-ingredient product with a valid licence.
 

@@ -73,12 +73,16 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06587P | DAIVONEX OINTMENT 50 mcg/g | OINTMENT | Valid |
 | SIN12241P | DAIVOBET OINTMENT | OINTMENT | Valid |
 | SIN14318P | Daivobet Gel 50mcg/g + 0.5mg/g | GEL | Valid |
 | SIN15892P | ENSTILAR® CUTANEOUS FOAM 50mcg/g + 0.5mg/g | AEROSOL, FOAM | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

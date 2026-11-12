@@ -72,10 +72,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16350P | TABRECTA FILM-COATED TABLET 150mg | TABLET, FILM COATED | Valid |
 | SIN16351P | TABRECTA FILM-COATED TABLET 200mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Flumazenil, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01509P | ANEXATE INJECTION 0.5 mg/5 ml | INJECTION | Valid |
@@ -80,6 +82,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Flumazenil, 
 | SIN15610P | FLUMAZENIL KABI SOLUTION FOR INJECTION OR INFUSION 0.1MG/ML | INJECTION, SOLUTION | Valid |
 | SIN15750P | FLUMAZENIL-HAMELN INJECTION 0.1MG/ML | SOLUTION, STERILE | Valid |
 | SIN17223P | GP-FLUMAZENIL SOLUTION FOR I.V. INJECTION 0.5 MG/5 ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

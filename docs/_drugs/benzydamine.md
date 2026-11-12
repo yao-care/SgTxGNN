@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Benzydamine"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Benzydamine: predicted new indication benign prostatic hyperplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,6 +82,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04232P | DIFFLAM SOLUTION 22.5 mg/15 ml | MOUTHWASH | Valid |
@@ -92,7 +94,15 @@ Currently no related literature available.
 
 Showing 5 of 14 HSA registrations.
 
+<!-- licenses:end -->
+
 The list above shows only five of them.
+
+<!-- review:begin sg-lic-20261106-benzydamine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 13 licences are for single-ingredient products and are currently valid. The list above shows only five of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 14 registrations for this drug, 14 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-benzydamine-1 -->
 
 ---
 
@@ -115,6 +125,19 @@ The prediction has a high model score but no supporting trials or publications, 
 - A literature and trial search for benzydamine in prostatic inflammation or benign prostatic hyperplasia
 - Assessment of route and formulation feasibility for reaching prostate tissue
 - Preclinical or mechanistic evidence linking the drug's anti-inflammatory action to this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 13 licences are for single-ingredient products and are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

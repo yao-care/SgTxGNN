@@ -90,6 +90,8 @@ For context, the other predicted indications with clinical trial data are summar
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14288P | Norvir Tablets 100 mg | TABLET, FILM COATED | Valid |
@@ -97,6 +99,8 @@ For context, the other predicted indications with clinical trial data are summar
 | SIN13250P | Kaletra Tablet 200mg/50mg | TABLET, FILM COATED | Valid |
 | SIN16877P | PAXLOVID FILM-COATED TABLETS | TABLET, FILM COATED | Valid |
 | SIN17428P | PAXLOVID (NIRMATRELVIR AND RITONAVIR) FILM-COATED TABLETS | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

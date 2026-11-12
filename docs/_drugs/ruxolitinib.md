@@ -82,12 +82,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14396P | JAKAVI TABLET 5MG | TABLET | Valid |
 | SIN14397P | JAKAVI TABLET 15MG | TABLET | Valid |
 | SIN14398P | JAKAVI TABLET 20MG | TABLET | Valid |
 | SIN14927P | JAKAVI TABLET 10MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 All four registrations are valid single-ingredient oral products from Novartis Pharma Stein AG. No indication text is recorded for them in the registry data.
 

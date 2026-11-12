@@ -76,9 +76,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11345P | CETROTIDE INJECTION 0.25 mg | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

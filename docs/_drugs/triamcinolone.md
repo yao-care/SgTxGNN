@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1020
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -75,7 +75,15 @@ Intralesional or topical corticosteroids are commonly used in follicular mucinos
 
 Neither publication evaluates triamcinolone directly.
 
+<!-- review:begin sg-lic-20261106-triamcinolone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 13 valid single-ingredient registrations in total, covering cream, paste, lotion and injectable forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-triamcinolone-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -86,6 +94,8 @@ Neither publication evaluates triamcinolone directly.
 | SIN09801P | SHIN POONG TRIAMCINOLONE ACETONIDE INJECTION 40 mg/ml | INJECTION | Valid |
 
 Showing 5 of 13 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -107,6 +117,19 @@ The prediction score is high, but there are no registered clinical trials, and t
 - Triamcinolone-specific clinical evidence in follicular mucinosis (e.g. case series or controlled studies of intralesional/topical use)
 - Approved indication text for the Singapore licences, and confirmation that an appropriate route/formulation is available (topical and injectable forms are registered)
 - Consider prioritising **folliculitis decalvans** for further review, since it has the strongest evidence level (L3) among the model's predictions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 13 valid single-ingredient registrations in total, covering cream, paste, lotion and injectable forms" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

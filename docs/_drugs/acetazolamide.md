@@ -70,10 +70,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01140P | AA PHARMA ACETAZOLAMIDE TABLET 250 mg | TABLET | Valid |
 | SIN16860P | GP-ACETAZOLAMIDE TABLET 250MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Both authorizations are single-ingredient products and currently valid. Only oral tablets are registered.
 

@@ -74,10 +74,14 @@ For context, three preclinical macaque studies were found for the related predic
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11492P | KALETRA ORAL SOLUTION | SYRUP | Valid |
 | SIN13250P | Kaletra Tablet 200mg/50mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

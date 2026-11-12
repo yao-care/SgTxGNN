@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 567
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ketoprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 description: "Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -77,6 +77,14 @@ Currently no related literature available.
 
 Approved indication text is not available in the records compiled for this report. The five listed here are representative of the main dosage forms.
 
+<!-- review:begin sg-lic-20261106-ketoprofen-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 10 registrations are valid single-ingredient products. Approved indication text is not available in the records compiled for this report." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 12 registrations for this drug, 12 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-ketoprofen-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06755P | FASTUM GEL 2.5% | GEL | Valid |
@@ -86,6 +94,8 @@ Approved indication text is not available in the records compiled for this repor
 | SIN12153P | PRONALGES 100 TABLET 100 mg | ENTERIC COATED TABLET | Valid |
 
 Showing 5 of 12 HSA registrations.
+
+<!-- licenses:end -->
 
 Available forms span topical (gel), plaster and oral (enteric coated tablet) routes.
 
@@ -110,6 +120,19 @@ The prediction rests only on the model score. There are no clinical trials or pu
 - Mechanism of action data for ketoprofen (e.g., from DrugBank)
 - Targeted literature and trial searches, prioritising **spondyloarthropathy** and **LACC1-related juvenile arthritis**, which have more plausible NSAID-based rationales and may qualify as research questions
 - For any paediatric or rare-disease use, a separate assessment of dosing and safety, and of route compatibility with the available gel, plaster and oral forms
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 10 registrations are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

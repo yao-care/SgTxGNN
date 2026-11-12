@@ -76,12 +76,16 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14579P | TIVICAY TABLET 50MG | TABLET, FILM COATED | Valid |
 | SIN16504P | TIVICAY DISPERSIBLE TABLET 5 MG | TABLET, FOR SUSPENSION | Valid |
 | SIN15100P | TRIUMEQ FILM COATED TABLET 50mg/600mg/300mg | TABLET, FILM COATED | Valid |
 | SIN15989P | DOVATO FILM-COATED TABLET 50MG/300MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Note: DOVATO and TRIUMEQ are fixed-dose combination products. Their licences are not evidence of how single-ingredient dolutegravir is approved.
 

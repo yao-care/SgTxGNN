@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 641
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -86,6 +86,14 @@ Currently no related clinical trials registered.
 
 The approved indication text is not recorded in the local data. The main authorizations are listed below.
 
+<!-- review:begin sg-lic-20261106-mefenamic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Mefenamic acid is marketed in Singapore, and all 11 single-ingredient licences in the local records are valid. The approved indication text is not recorded in the local data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-mefenamic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05376P | BEAFEMIC CAPSULES 250 mg | CAPSULE | Valid |
@@ -95,6 +103,8 @@ The approved indication text is not recorded in the local data. The main authori
 | SIN10125P | MEFRIL-250 CAPSULE 250 mg | CAPSULE | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -128,6 +138,18 @@ The mechanism is plausible, and three small double-blind trials in migraine plus
 - Detailed mechanism-of-action data from DrugBank.
 - Current, adequately powered trials of mefenamic acid in headache types beyond migraine, such as tension-type headache.
 - A safety plan covering duration limits, renal, gastrointestinal and cardiovascular screening, and monitoring for medication-overuse headache.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Mefenamic acid is marketed in Singapore, and all 11 single-ingredient licences in the local records are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

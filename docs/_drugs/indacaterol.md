@@ -81,6 +81,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14539P | ULTIBRO BREEZHALER INHALATION POWDER HARD CAPSULE 110/50 MCG | CAPSULE | Valid |
@@ -88,6 +90,8 @@ Currently no related literature available.
 | SIN16148P | ATECTURA BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG /160 MCG | POWDER, METERED | Valid |
 | SIN16149P | ATECTURA BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG /80 MCG | POWDER, METERED | Valid |
 | SIN16153P | ENERZAIR BREEZHALER INHALATION POWDER, HARD CAPSULE 150 MCG /50 MCG /1 | POWDER, METERED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

@@ -90,10 +90,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN03627P | COCOIS CO. OINTMENT | OINTMENT | Valid |
 | SIN16082P | PINEAPPLE BRAND LOTION | LOTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

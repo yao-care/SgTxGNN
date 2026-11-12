@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 498
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 description: "Histidine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,6 +86,14 @@ Currently no related clinical trials registered.
 
 Five of them are listed below.
 
+<!-- review:begin sg-lic-20261106-histidine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 17 valid registrations are single-ingredient licences. Five of them are listed below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 19 registrations for this drug, 19 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-histidine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -95,6 +103,8 @@ Five of them are listed below.
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
 Showing 5 of 19 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 
@@ -119,6 +129,19 @@ The prediction rests on a model score only. There are no clinical trials, the si
 - Mechanistic or preclinical studies testing histidine directly in gastric motility models
 - Review of the knowledge-graph contraindication signals (renal, cardiac, calcium disorders, phenylketonuria) against the label
 - Route and formulation compatibility assessment, since current products are intravenous nutrition formulations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 17 valid registrations are single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

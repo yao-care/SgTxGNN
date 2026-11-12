@@ -70,9 +70,13 @@ The TxGNN deep-learning model has no candidate indication for Alemtuzumab with a
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14919P | LEMTRADA CONCENTRATE FOR SOLUTION FOR INFUSION 12 MG/ 1.2 ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

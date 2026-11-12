@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09433P | ARIMIDEX TABLET 1 mg | TABLET, FILM COATED | Valid |
@@ -79,6 +81,8 @@ Currently no related literature available.
 | SIN14864P | ANZONAT FILM-COATED TABLET 1 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 11 HSA registrations.
+
+<!-- licenses:end -->
 
 All 11 licences are valid single-ingredient products. The table shows the first 5.
 

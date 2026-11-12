@@ -81,10 +81,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00437P | APO-PERPHENAZINE TABLET 8 mg | TABLET, FILM COATED | Valid |
 | SIN00444P | APO-PERPHENAZINE TABLET 4 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient oral products. Approved indication text is not recorded for either.
 

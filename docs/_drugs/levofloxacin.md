@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 597
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -73,6 +73,14 @@ Currently no related clinical trials registered.
 
 The five below are representative. Approved indication text is not recorded for these registrations in the data compiled for this report.
 
+<!-- review:begin sg-lic-20261106-levofloxacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 12 valid single-ingredient registrations. The five below are representative." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 19 registrations for this drug, 19 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-levofloxacin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11632P | CRAVIT TABLET 500 mg | TABLET, FILM COATED | Valid |
@@ -82,6 +90,8 @@ The five below are representative. Approved indication text is not recorded for 
 | SIN13953P | LOCIKLINE TABLETS 500MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 19 HSA registrations.
+
+<!-- licenses:end -->
 
 Available routes are oral (film-coated tablets) and injectable (infusion solution and injection). No ophthalmic formulation appears among the registrations.
 
@@ -113,6 +123,19 @@ The prediction rests on a model score alone (L5). No clinical trials exist, and 
 - An assessment of route and formulation, since an ophthalmic preparation would be needed for ocular use.
 
 It rests on animal-model evidence, including cure of experimental pneumonic plague in African green monkeys, and no human RCTs exist. It may be a better lead to evaluate, with guardrails such as confirming local susceptibility, monitoring for resistance and using expert infectious disease guidance.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 12 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

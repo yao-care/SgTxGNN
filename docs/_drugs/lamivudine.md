@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Lamivudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 ---
 
@@ -80,6 +80,14 @@ Currently no related clinical trials registered.
 
 The licence records contain no approved-indication text, so no approved uses can be stated from them. Four records are combination products (Dovato, Combivir, Kivexa/Abalam, Delstrigo, Triumeq) that are listed under single-ingredient entries in the data; their licences should not be read as describing lamivudine alone.
 
+<!-- review:begin sg-lic-20261106-lamivudine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ten valid registrations are listed in total; only the first five are shown here." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-lamivudine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09134P | EPIVIR TABLET 150 mg | TABLET, FILM COATED | Valid |
@@ -89,6 +97,8 @@ The licence records contain no approved-indication text, so no approved uses can
 | SIN10795P | COMBIVIR TABLETS | TABLET, FILM COATED | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -110,6 +120,19 @@ The predicted indication is a veterinary disease supported only by animal studie
 - Mechanism of action data
 - Package insert warnings and contraindications from the HSA, needed before any safety screening
 - Indication text for the Singapore licences, to confirm the approved uses
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Ten valid registrations are listed in total; only the first five are shown here" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

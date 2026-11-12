@@ -72,9 +72,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Bezafibra
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10217P | ZAFIBRAL TABLET 200 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

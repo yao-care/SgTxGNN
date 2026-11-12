@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 894
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Salicylamide"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
 description: "Salicylamide: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,7 +83,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ---
 
@@ -104,6 +108,12 @@ No registration was found in the HSA listing of registered therapeutic products 
   - Salicylates carry safety concerns in neonates and young children, which matters for the infant tonsillitis evidence.
 - **Drug Interactions**: No interaction data were found.
 
+<!-- review:begin sg-lic-20261106-salicylamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four are valid single-ingredient licences held by Sunward Pharmaceutical Private Limited, with oral dosage forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-salicylamide-1 -->
+
 Please refer to the package insert for label warnings.
 
 ---
@@ -120,6 +130,33 @@ The high TxGNN score is not backed by modern evidence. The only pharyngitis publ
 - Mechanism of action data
 - Controlled clinical evidence for salicylamide alone in pharyngitis or sore throat
 - A paediatric safety assessment, given the infant population in the historical report and the haematological and hypersensitivity signals
+
+<!-- review:begin sg-lic-20261106-salicylamide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications for the Singapore products (currently missing and blocking safety screening)" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-salicylamide-2 -->
+
+<!-- review:begin sg-lic-20261106-salicylamide-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Mechanism of action data / Approved indication text for the four Singapore licences, to confirm whether sore throat is already covered" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-salicylamide-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four are valid single-ingredient licences held by Sunward Pharmaceutical Private Limited, with oral dosage forms" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "s for the Singapore product" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "Approved indication text for the four Singapore licences, to confirm whether sore throat is already covered" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

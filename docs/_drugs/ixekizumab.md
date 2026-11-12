@@ -75,9 +75,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Ixekizumab, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15501P | TALTZ SOLUTION FOR INJECTION IN PRE-FILLED PEN 80 mg/ml | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

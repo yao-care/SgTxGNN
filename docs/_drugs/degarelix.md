@@ -86,10 +86,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14350P | FIRMAGON Powder and Solvent for Solution for Injection 120 mg | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN14351P | FIRMAGON Powder and Solvent for Solution for Injection 80 mg | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

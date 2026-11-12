@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Inotuzumab O
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15747P | BESPONSA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1MG/VIAL | POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

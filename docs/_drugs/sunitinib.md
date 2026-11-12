@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 946
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sunitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -59,6 +59,12 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Soft tissue sarcomas, including liposarcoma, can depend on angiogenesis and PDGFR-driven signalling, so mechanistically the drug could be applicable. However, the available studies pool several sarcoma subtypes. Activity in liposarcoma specifically appears limited. Current literature also notes that other agents, such as trabectedin, show stronger histology-specific activity in liposarcoma.
 
+<!-- review:begin sg-lic-20261106-sunitinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further INSUNITINIB strengths (12.5 mg, 25 mg) are also registered, giving 7 valid single-ingredient registrations in total." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-sunitinib-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -79,6 +85,8 @@ Soft tissue sarcomas, including liposarcoma, can depend on angiogenesis and PDGF
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16269P | INSUNITINIB CAPSULE 12.5MG | CAPSULE, GELATIN COATED | Valid |
@@ -88,6 +96,8 @@ Soft tissue sarcomas, including liposarcoma, can depend on angiogenesis and PDGF
 | SIN16578P | ALSUNI CAPSULES 50MG | CAPSULE | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -131,6 +141,19 @@ Only two small, single-arm, mixed-histology Phase 2 trials support the predictio
 - **Dermatofibrosarcoma protuberans** has a strong mechanistic basis (COL1A1-PDGFB fusion drives PDGFRB activation). Evidence is limited to a small retrospective series and case reports, and imatinib remains the standard targeted option.
 - **Renal carcinoma** is the already approved original indication, so it serves as confirmation rather than repurposing.
 - **Several other predictions** (ovarian myxoid liposarcoma, angiolipoma, heart fibrosarcoma, renal cell carcinoma associated with neuroblastoma) have little or no supporting evidence and are rated Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Two further INSUNITINIB strengths (12.5 mg, 25 mg) are also registered, giving 7 valid single-ingredient registrations in total" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

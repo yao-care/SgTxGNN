@@ -108,6 +108,8 @@ Preclinical publications for pulmonary hypertension:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13016P | Olmetec Tablet 20mg | TABLET, FILM COATED | Valid |
@@ -117,6 +119,8 @@ Preclinical publications for pulmonary hypertension:
 | SIN13964P | Azoren Film-Coated Tablet 20mg/5mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 All 7 licenses are valid (oral film-coated tablets). Two more Azoren strengths (SIN13966P, SIN13965P) are not shown here.
 

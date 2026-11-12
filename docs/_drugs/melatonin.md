@@ -72,9 +72,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Melatonin
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13954P | CIRCADIN™ PROLONGED RELEASE TABLETS 2MG | TABLET, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

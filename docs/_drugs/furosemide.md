@@ -76,6 +76,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00064P | FURMIDE TABLETS 40 mg | TABLET | Valid |
@@ -87,6 +89,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | SIN16712P | FUSETIC SOLUTION FOR INJECTION 20MG/2ML | INJECTION, SOLUTION | Valid |
 | SIN16784P | FUROSEMIDE-AFT SOLUTION FOR INJECTION 20MG/2ML | INJECTION, SOLUTION | Valid |
 | SIN17312P | FUROSEMIDE KALCEKS SOLUTION FOR INJECTION/ INFUSION 10MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

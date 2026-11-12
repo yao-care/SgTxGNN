@@ -73,10 +73,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04490P | CAMAZOL TABLET 5 mg | TABLET | Valid |
 | SIN06923P | CARBIMAZOLE 5 TABLET 5 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -74,9 +74,13 @@ No literature directly addresses eculizumab in cyclic hematopoiesis. Literature 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14226P | Soliris Concentrate for Solution for Infusion 300mg/vial | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 612
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Diarrheal disease, dysentery"
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
@@ -84,6 +84,8 @@ For other predicted indications, the following publications were found. They bea
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05587P | VACONTIL CAPSULE 2 mg | CAPSULE | Valid |
@@ -94,7 +96,15 @@ For other predicted indications, the following publications were found. They bea
 
 Showing 5 of 7 HSA registrations.
 
+<!-- licenses:end -->
+
 All are oral forms; no ophthalmic formulation is registered.
+
+<!-- review:begin sg-lic-20261106-loperamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 10 valid single-ingredient registrations in total (9 capsule and syrup products beyond those above include ABYDIUM, COLODIUM, LORAMIDE, ELDOPER, and DIATROL SYRUP). All are oral forms; no ophthalmic formulation is registered." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-loperamide-1 -->
 
 ## Safety Considerations
 
@@ -116,6 +126,19 @@ The prediction has no clinical, literature, or plausible mechanistic support. Th
 - Package insert warnings and contraindications from the HSA
 - Any preclinical or clinical evidence in ocular conditions (none currently exists)
 - Evaluation of whether an ophthalmic route would even be feasible, as only oral forms are registered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 10 valid single-ingredient registrations in total (9 capsule and syrup products beyond those above include ABYDIUM, COLODIUM, LORA" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

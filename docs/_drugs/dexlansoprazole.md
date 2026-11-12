@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
 description: "Dexlansoprazole: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -67,6 +67,12 @@ Other predictions for this drug follow the same pattern:
 - **Achlorhydria** is a probable false positive, because an acid suppressant has no rationale in a condition with no acid.
 - **Peptic ulcer perforation, gastroduodenitis, duodenal obstruction, duodenogastric reflux and leather-bottle stomach** have no clinical evidence. They should stay on Hold.
 
+<!-- review:begin sg-lic-20261031-dexlansoprazole-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "**Gastrojejunal ulcer** (marginal ulcer after gastric bypass) is a research question. The only trial was withdrawn with no participants." Removed: it said the product registrations were cancelled, discontinued, or not current, which did not match the HSA register data (the HSA register of therapeutic products as of 2026-10-31). The HSA register lists 2 registrations for this drug, 2 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261031-dexlansoprazole-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -84,10 +90,14 @@ Other predictions for this drug follow the same pattern:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14485P | DEXILANT DELAYED RELEASE CAPSULE 30mg | CAPSULE, DELAYED RELEASE | Valid |
 | SIN14486P | DEXILANT DELAYED RELEASE CAPSULE 60mg | CAPSULE, DELAYED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -110,6 +120,19 @@ Dexlansoprazole is an established PPI already marketed in Singapore. Acid suppre
 - Detailed mechanism of action data
 - Direct ulcer-healing evidence, for example results from the recruiting Phase 4 trial [NCT07344506](https://clinicaltrials.gov/study/NCT07344506) (H. pylori eradication, n=942)
 - Review of the knowledge-graph contraindications (liver disease, bone fracture or osteoporosis) and of the major interactions (acalabrutinib, atazanavir)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only trial was withdrawn with no participants" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

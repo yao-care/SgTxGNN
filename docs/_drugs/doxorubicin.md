@@ -110,6 +110,8 @@ Several other trials (for example NCT00949325, NCT00544778 and NCT01864109) are 
 
 There are 11 valid single-ingredient registrations. The records contain no approved-indication text. The table lists 5 of them.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10426P | CAELYX CONCENTRATE FOR INFUSION 2 mg/ml | INJECTION | Valid |
@@ -119,6 +121,8 @@ There are 11 valid single-ingredient registrations. The records contain no appro
 | SIN12500P | DIOX POWDER FOR INJECTION 10 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 
 Showing 5 of 11 HSA registrations.
+
+<!-- licenses:end -->
 
 All formulations are injectable (conventional and liposomal products).
 

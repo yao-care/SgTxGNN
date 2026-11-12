@@ -70,10 +70,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Osimertinib,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15139P | TAGRISSO TABLET 80MG | TABLET, FILM COATED | Valid |
 | SIN15140P | TAGRISSO TABLET 40MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

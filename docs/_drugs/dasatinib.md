@@ -83,6 +83,8 @@ The clinical picture is less encouraging. A review notes that single-agent dasat
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13352P | SPRYCEL TABLETS 70MG | TABLET, FILM COATED | Valid |
@@ -92,6 +94,8 @@ The clinical picture is less encouraging. A review notes that single-agent dasat
 | SIN16730P | DASATINIB-TEVA FC TABLET 50MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 The list above shows 5 of them.
 

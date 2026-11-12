@@ -70,10 +70,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15683P | FASENRA SOLUTION FOR INJECTION 30MG/ML (PRE-FILLED SYRINGE) | INJECTION, SOLUTION | Valid |
 | SIN16043P | FASENRA SOLUTION FOR INJECTION 30MG/ML (AUTOINJECTOR PEN) | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licences are currently valid and are for the single-ingredient product.
 

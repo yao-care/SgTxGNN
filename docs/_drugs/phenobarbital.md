@@ -100,10 +100,14 @@ These papers concern general or neonatal seizures, animal models, or carbamazepi
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02457P | PHENOBARBITONE TABLET 10 mg | TABLET | Valid |
 | SIN03709P | PHENOBARBITONE TABLET 60 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Both authorizations are valid single-ingredient oral tablets.
 

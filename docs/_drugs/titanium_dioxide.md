@@ -72,9 +72,13 @@ Currently no related literature available for drug-induced osteoporosis.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16547P | VEELANZ'S OINTMENT | OINTMENT | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

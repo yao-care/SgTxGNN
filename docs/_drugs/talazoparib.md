@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Talazoparib,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15944P | TALZENNA CAPSULE 0.25MG | CAPSULE | Valid |
@@ -79,6 +81,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Talazoparib,
 | SIN17238P | TALZENNA CAPSULE 0.1MG | CAPSULE | Valid |
 | SIN17239P | TALZENNA CAPSULE 0.35MG | CAPSULE | Valid |
 | SIN17240P | TALZENNA CAPSULE 0.5MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

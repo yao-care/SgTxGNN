@@ -75,6 +75,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15763P | REXULTI FILM-COATED TABLETS 4MG | TABLET, FILM COATED | Valid |
@@ -83,6 +85,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | SIN15766P | REXULTI FILM-COATED TABLETS 1MG | TABLET, FILM COATED | Valid |
 | SIN15767P | REXULTI FILM-COATED TABLETS 0.5MG | TABLET, FILM COATED | Valid |
 | SIN15768P | REXULTI FILM-COATED TABLETS 0.25MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

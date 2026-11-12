@@ -80,6 +80,8 @@ These findings are early. They show feasibility and biological plausibility, not
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05860P | DBL Magnesium Sulfate Concentrated Injection 49.3% | INJECTION | Valid |
@@ -89,6 +91,8 @@ These findings are early. They show feasibility and biological plausibility, not
 | SIN14287P | SmofKabiven Peripheral Emulsion for Infusion | INJECTION, EMULSION | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

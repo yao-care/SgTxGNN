@@ -81,10 +81,14 @@ Currently no related literature available for this predicted indication.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10156P | APO-MEGESTROL TABLET 40 mg | TABLET | Valid |
 | SIN10157P | APO-MEGESTROL TABLET 160 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 Both are valid single-ingredient oral licences. Approved indication text is not recorded for either product.
 

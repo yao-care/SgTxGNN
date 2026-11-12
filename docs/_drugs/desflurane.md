@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Desflurane, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08818P | SUPRANE INHALATION ANAESTHETIC | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

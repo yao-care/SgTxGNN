@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Deoxycholic acid"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy"]
 description: "Deoxycholic Acid: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -39,6 +39,12 @@ description: "Deoxycholic Acid: predicted new indication Autosomal dominant fami
 
 Deoxycholic acid is a secondary bile acid, known for its cell-membrane-disrupting (cytolytic) action in fat reduction. The TxGNN model predicts it may be effective for **diabetic nephropathy**, the highest-ranked prediction that has any literature support. This direction is supported by **0 clinical trials** and **4 publications**, all indirect (preclinical or observational bile acid studies).
 
+<!-- review:begin sg-lic-20261106-deoxycholic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Deoxycholic acid is a secondary bile acid, marketed in Singapore as an injectable (BELKYRA) and known for its cell-membrane-disrupting (cytolytic) action in fat reduction." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-deoxycholic_acid-1 -->
+
 Note: the top-ranked TxGNN predictions (a COL4A1-related syndrome and brain small vessel disease) have no supporting evidence of any kind. Diabetic nephropathy is featured here because it is the highest-ranked prediction with any supporting literature.
 
 ## Quick Overview
@@ -65,6 +71,12 @@ None of this shows that giving deoxycholic acid treats the disease. The nanopart
 
 Currently no related clinical trials registered.
 
+<!-- review:begin sg-lic-20261106-deoxycholic_acid-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The manufacturer is Hospira, Inc. This is a single-ingredient product with valid status." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-deoxycholic_acid-2 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -76,7 +88,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 No registration was found in the HSA listing of registered therapeutic products used for this report.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -97,6 +113,20 @@ The supporting literature shows that bile acid metabolism changes in diabetic ki
 - Mechanistic studies testing whether deoxycholic acid acts through FXR/TGR5 in kidney disease models
 - Assessment of route and dosage-form feasibility for a systemic or renal indication
 - Preclinical efficacy data in a diabetic nephropathy model before any clinical trial is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "marketed in Singapore as an injectable (BELKYRA) and" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-06 | Removed: "The manufacturer is Hospira, Inc. This is a single-ingredient product with valid status" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -89,11 +89,15 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15450P | PARSABIV SOLUTION FOR INJECTION 2.5 mg/0.5 mL | INJECTION, SOLUTION | Valid |
 | SIN15451P | PARSABIV SOLUTION FOR INJECTION 5 mg/mL | INJECTION, SOLUTION | Valid |
 | SIN15452P | PARSABIV SOLUTION FOR INJECTION 10 mg/2 mL | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All three authorizations are currently valid. The manufacturers are Patheon Manufacturing Services LLC and Amgen Manufacturing Limited LLC.
 

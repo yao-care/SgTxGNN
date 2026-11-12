@@ -48,12 +48,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14156P | Cefevon powder for solution for injection 2g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN14658P | CEFEPIME-AFT POWDER FOR INJECTION 1G/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN14987P | CEFEPIME KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN14988P | CEFEPIME KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 2 g/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

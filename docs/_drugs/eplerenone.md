@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Eplerenone"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Eplerenone: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,7 +88,15 @@ No publications were retrieved for the exact predicted indication. The table bel
 
 Other retrieved papers (liver cirrhosis, choroidal blood flow, renal protection) are off-target and are not listed.
 
+<!-- review:begin sg-lic-20261106-eplerenone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid single-ingredient oral products, and none has been cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-eplerenone-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -99,6 +107,8 @@ Other retrieved papers (liver cirrhosis, choroidal blood flow, renal protection)
 | SIN17518P | JAMP EPLERENONE TABLETS 50MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -126,6 +136,19 @@ The prediction score is very high and the mechanism is biologically plausible. H
 - Human clinical data for eplerenone in pulmonary hypertension, such as pilot trials or case series
 - A safety plan covering hyperkalaemia and renal function monitoring, given the major potassium and CYP3A4-inhibitor interactions
 - Clarification of the approved indication text for the Singapore licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four licences are valid single-ingredient oral products, and none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

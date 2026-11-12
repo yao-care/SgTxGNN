@@ -72,6 +72,8 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10155P | AA PHARMA MINOCYCLINE CAPSULE 100 mg | CAPSULE | Valid |
@@ -79,6 +81,8 @@ Currently no related literature available for punctate epithelial keratoconjunct
 | SIN10266P | BORYMYCIN CAPSULE 100 mg | CAPSULE | Valid |
 | SIN15172P | PERIOCLINE PERIODONTAL OINTMENT 2% W/W | OINTMENT | Valid |
 | SIN15432P | BORYMYCIN CAPSULE 50MG | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 All five registrations are valid single-ingredient products. Four are oral capsules, and one is a periodontal ointment. No ophthalmic formulation is registered, so a new route of administration would likely be needed for an eye indication.
 

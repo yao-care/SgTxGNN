@@ -94,12 +94,16 @@ These reports are confounded by concurrent alkali and phosphate therapy, and non
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05972P | ONE-ALPHA CAPSULE 0.25 mcg | CAPSULE, LIQUID FILLED | Valid |
 | SIN06140P | ONE-ALPHA INJECTION 2 mcg/ml | INJECTION | Valid |
 | SIN16483P | ALFOST CAPSULES 0.25MCG | CAPSULE, LIQUID FILLED | Valid |
 | SIN16484P | ALFOST CAPSULES 1.0MCG | CAPSULE, LIQUID FILLED | Valid |
+
+<!-- licenses:end -->
 
 Both oral and injectable forms are available.
 

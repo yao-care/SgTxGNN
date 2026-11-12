@@ -88,6 +88,8 @@ Pneumocystosis is a fungal-classified lung infection, which probably explains th
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13654P | NOXAFIL ORAL SUSPENSION 40 mg/ml | SUSPENSION | Valid |
@@ -97,6 +99,8 @@ Pneumocystosis is a fungal-classified lung infection, which probably explains th
 | SIN17200P | POSATIF POSACONAZOLE GASTRO-RESISTANT TABLETS 100MG | TABLET, DELAYED RELEASE | Valid |
 
 Showing 5 of 6 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

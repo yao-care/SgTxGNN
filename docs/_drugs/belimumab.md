@@ -70,10 +70,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14211P | Benlysta Powder for Solution for Infusion 120mg | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN14212P | Benlysta Powder for Solution for Infusion 400mg | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,10 +72,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15919P | EMGALITY SOLUTION FOR INJECTION IN PRE-FILLED PEN 120 MG/ML | INJECTION, SOLUTION | Valid |
 | SIN16063P | EMGALITY SOLUTION FOR INJECTION IN PRE-FILLED SYRINGE 100 MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licenses are valid single-ingredient products from Eli Lilly and Company. The registration data compiled for this report do not include the approved indication text.
 

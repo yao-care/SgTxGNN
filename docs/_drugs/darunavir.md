@@ -95,6 +95,8 @@ For the related simian immunodeficiency virus prediction, the following preclini
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13853P | PREZISTA™ TABLET 75MG | TABLET, FILM COATED | Valid |
@@ -104,6 +106,8 @@ For the related simian immunodeficiency virus prediction, the following preclini
 | SIN17329P | DARUNAVIR MEVON FILM-COATED TABLETS 800 MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

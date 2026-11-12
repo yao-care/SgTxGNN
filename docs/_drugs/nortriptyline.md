@@ -83,10 +83,14 @@ Currently no clinical trials registered for ADHD.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09253P | APO-NORTRIPTYLINE CAPSULE 25 mg | CAPSULE | Valid |
 | SIN09255P | APO-NORTRIPTYLINE CAPSULE 10 mg | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 Both products are single-ingredient oral capsules made by Apotex Inc and are currently valid.
 

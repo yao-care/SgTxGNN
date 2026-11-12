@@ -81,9 +81,13 @@ For reference, the most mechanistically relevant item among the other predicted 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13640P | Celsentri Film-Coated Tablet 150mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 Manufacturer: Pfizer Manufacturing Deutschland GmbH. Route: oral.
 

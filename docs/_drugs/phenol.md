@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 785
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
 description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,13 +94,23 @@ The dry eye syndrome (20 papers) and diabetic retinopathy (4 papers) results wer
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02735P | HAEMOROL™, OILY PHENOL INJECTION 250MG/5ML | INJECTION | Valid |
 | SIN03372P | CASTELLANI'S PAINT (STAINLESS) | LIQUID | Valid |
 | SIN05339P | EGOPSORYL TA GEL | OINTMENT | Valid |
 
+<!-- licenses:end -->
+
 All three licences are valid products. None has been cancelled.
+
+<!-- review:begin sg-lic-20261106-phenol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-phenol-1 -->
 
 ## Safety Considerations
 
@@ -132,6 +142,19 @@ The high TxGNN score (0.9995) is not supported by any clinical trial or publicat
 - Detailed mechanism of action data (for example from DrugBank)
 - If pursuing acne keloid: confirmation of the design of PMID 17204096 and a targeted review of phenol peel safety in keloid-prone patients
 - Route and formulation compatibility assessment for any proposed new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

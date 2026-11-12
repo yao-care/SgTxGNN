@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN17089P | TEVIMBRA CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/10ML | INFUSION, SOLUTION CONCENTRATE | Valid |
+
+<!-- licenses:end -->
 
 Manufacturer: Boehringer Ingelheim Biopharmaceuticals (China) Ltd. The single licence is valid and the product is a single-ingredient injectable.
 

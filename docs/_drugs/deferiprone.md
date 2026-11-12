@@ -84,10 +84,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12083P | FERRIPROX FILM-COATED TABLET 500 mg | TABLET, FILM COATED | Valid |
 | SIN13668P | FERRIPROX 100MG/ML ORAL SOLUTION | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

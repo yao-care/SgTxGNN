@@ -72,12 +72,16 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN06058P | TRACRIUM INJECTION 10 mg/ml | INJECTION | Valid |
 | SIN14533P | Atracurium-hameln Injection 10mg/ml | INJECTION, SOLUTION | Valid |
 | SIN14836P | ATRACURIUM LABATEC IV SOLUTION FOR INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
 | SIN16945P | NOTRIXUM INJECTION 10MG/ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

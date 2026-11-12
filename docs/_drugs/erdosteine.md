@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15825P | ERDOMED HARD CAPSULES 300MG | CAPSULE | Valid |
 | SIN15826P | ERDOMED DISPERSIBLE TABLETS 300MG | TABLET, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 Both licenses are valid, single-ingredient oral products from Edmond Pharma S.R.L.
 

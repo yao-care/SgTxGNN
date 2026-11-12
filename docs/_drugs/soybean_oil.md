@@ -82,9 +82,13 @@ They concern perioperative nutrition or animal models, and the n-6-rich oil may 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13246P | SMOFlipid 20% | INJECTION, EMULSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

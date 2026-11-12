@@ -83,6 +83,8 @@ No retrieved paper directly studies theophylline for thrombotic disease. The clo
 
 The licence records contain no approved indication text.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02770P | NUELIN SYRUP 80 mg/15 ml | SYRUP | Valid |
@@ -92,6 +94,8 @@ The licence records contain no approved indication text.
 | SIN09668P | APO-THEO LA TABLET 200 mg | TABLET | Valid |
 
 Showing 5 of 9 HSA registrations.
+
+<!-- licenses:end -->
 
 Three further licences are held: APO-THEO LA 300 mg, THEOLIN SR 250 mg (film-coated tablet) and NUELIN syrup 80 mg/15 ml.
 

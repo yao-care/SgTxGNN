@@ -72,11 +72,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Daratumumab,
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15110P | DARZALEX CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/5ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN15111P | DARZALEX CONCENTRATE FOR SOLUTION FOR INFUSION 400MG/20ML | INFUSION, SOLUTION CONCENTRATE | Valid |
 | SIN16032P | DARZALEX SC SOLUTION FOR INJECTION 1800MG/15ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

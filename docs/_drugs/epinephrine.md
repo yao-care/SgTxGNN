@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,6 +94,8 @@ Nebulised epinephrine reduces subglottic oedema, and this is established clinica
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10017P | ADRENALINE INJECTION 1:1000 | INJECTION | Valid |
@@ -104,7 +106,15 @@ Nebulised epinephrine reduces subglottic oedema, and this is established clinica
 
 Showing 5 of 14 HSA registrations.
 
+<!-- licenses:end -->
+
 Ten further licences cover local-anaesthetic injections combined with epinephrine. No inhaled or nebulised epinephrine product appears among them.
+
+<!-- review:begin sg-lic-20261106-epinephrine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ten further licences cover local-anaesthetic injections combined with epinephrine. All 15 registrations are valid single-ingredient records, and all are injectable." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 14 registrations for this drug, 14 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-epinephrine-1 -->
 
 ## Safety Considerations
 
@@ -126,6 +136,19 @@ Several completed Phase 3 trials of inhaled epinephrine in asthma, in adults and
 - A regulatory assessment of whether an inhaled epinephrine product could be registered in Singapore, since current licences are injectable only
 - A review of the interaction and contraindication burden, especially cardiovascular disease and use with beta-blockers or tricyclic antidepressants
 - Treatment of bronchiolitis and croup as separate sub-questions with their own evidence reviews
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 15 registrations are valid single-ingredient records, and all are injectable" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

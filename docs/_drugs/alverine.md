@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Alverine: predicted new indication Dysthymic disorder (evidence level L5). Approved use: Not stated in the Singapore licence records. Reference sources descri…"
 monitor_inn: "Alverine"
 predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
@@ -79,12 +79,22 @@ Currently no related literature is available for dysthymic disorder itself. The 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16773P | ALVERSIME SOFT CAPSULES | CAPSULE | Valid |
 | SIN17214P | ALMET CAPSULES | CAPSULE, LIQUID FILLED | Valid |
 
+<!-- licenses:end -->
+
 Both licences are valid products. None are cancelled.
+
+<!-- review:begin sg-lic-20261106-alverine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-alverine-1 -->
 
 ## Safety Considerations
 
@@ -105,6 +115,19 @@ The prediction for dysthymic disorder is supported only by a high model score (0
 - Confirmation of the approved indications for the two Singapore licences
 - Human clinical or mechanistic evidence for dysthymia. A more promising near-term direction is anxiety disorder, where preclinical data exist, and this could be framed as a research question.
 - Assessment of whether the doses and formulations used in gastrointestinal care are suitable for a psychiatric indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Glimepiride"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Glimepiride: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -70,13 +70,23 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for classic stiff person syndrome. The only publication found across the top predictions (PMID [12720536](https://pubmed.ncbi.nlm.nih.gov/12720536/), 2003, European Journal of Endocrinology) concerns endosonographic imaging pitfalls in suspected insulinomas. It was linked to pancreatic agenesis and is not relevant to treating this or any predicted condition.
 
+<!-- review:begin sg-lic-20261106-glimepiride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five registrations are valid, single-ingredient oral tablets." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-glimepiride-1 -->
+
 ## Singapore Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10459P | AMARYL 2.0 TABLETS 2 mg | TABLET | Valid |
 | SIN13674P | DIALOSA TABLET 3MG | TABLET | Valid |
 | SIN13675P | DIALOSA TABLET 2MG | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -97,6 +107,19 @@ The prediction is supported only by a model score. No clinical trials or relevan
 - Mechanism of action data and a plausible biological rationale
 - Package insert warnings and contraindications from HSA for safety screening
 - Review of whether the score reflects disease co-occurrence (stiff person syndrome with type 1 diabetes) rather than a therapeutic effect
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All five registrations are valid, single-ingredient oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

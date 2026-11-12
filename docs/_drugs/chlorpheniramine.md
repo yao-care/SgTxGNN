@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,6 +80,8 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02527P | CHLORMINE SYRUP 4 mg/5 ml | SYRUP | Valid |
@@ -90,7 +92,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 23 HSA registrations.
 
+<!-- licenses:end -->
+
 The list shows five of the registered products.
+
+<!-- review:begin sg-lic-20261106-chlorpheniramine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The list shows five of the registered products; the local records may be partial." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 23 registrations for this drug, 23 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-chlorpheniramine-1 -->
 
 ## Safety Considerations
 
@@ -112,6 +122,19 @@ No cited study directly addresses nasal cavity disease in patients treated with 
 - Human clinical data (trials or observational studies) for chlorpheniramine in that condition
 - Package insert warnings and contraindications for the Singapore products, which are not yet available
 - Mechanism-of-action data and a check of route and formulation suitability (oral, injectable, nasal spray)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the local records may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

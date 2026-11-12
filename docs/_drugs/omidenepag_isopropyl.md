@@ -81,10 +81,14 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16150P | EYBELIS OPHTHALMIC SOLUTION 0.002% | SOLUTION, STERILE | Valid |
 | SIN16951P | EYBELIS-S OPHTHALMIC SOLUTION 0.002%w/v | SOLUTION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products manufactured by Santen Pharmaceutical Co., Ltd. (Shiga Plant and Noto Plant respectively).
 

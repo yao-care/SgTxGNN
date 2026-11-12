@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 692
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not available"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -79,6 +79,12 @@ Other predictions in the list are weaker. Multiple sclerosis (score 0.9954) has 
 
 **Note on evidence level:** The compiled data assign L2, but none of these trials provides direct, informative efficacy data for MMF in HIV. In practice the evidence is weaker than L2 suggests.
 
+<!-- review:begin sg-lic-20261031-mycophenolate_mofetil-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "**Note on evidence level:** The compiled data assign L2, but none of these trials provides direct, informative efficacy data for MMF in HIV. The only directly relevant trial was withdrawn, and the completed Phase 2 trial focused on a different agent." Removed: it said the product registrations were cancelled, discontinued, or not current, which did not match the HSA register data (the HSA register of therapeutic products as of 2026-10-31). The HSA register lists 11 registrations for this drug, 11 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261031-mycophenolate_mofetil-1 -->
+
 ---
 
 ## Literature Evidence
@@ -100,6 +106,8 @@ Other predictions in the list are weaker. Multiple sclerosis (score 0.9954) has 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN09279P | CELLCEPT CAPSULE 250 mg | CAPSULE | Valid |
@@ -109,6 +117,8 @@ Other predictions in the list are weaker. Multiple sclerosis (score 0.9954) has 
 | SIN13986P | MYFENAX FILM-COATED TABLETS 500MG | TABLET, FILM COATED | Valid |
 
 Showing 5 of 11 HSA registrations.
+
+<!-- licenses:end -->
 
 All 11 licences are valid single-ingredient products. Oral (capsule and tablet) and injectable forms are available.
 
@@ -136,12 +146,32 @@ Please refer to the package insert for label warnings and contraindications.
 **Rationale:**
 Immunosuppression in HIV carries safety concerns, and the Singapore licence indication text and package insert safety data are missing.
 
+<!-- review:begin sg-lic-20261031-mycophenolate_mofetil-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The mechanistic link (IMPDH inhibition and potentiation of nucleoside analogues) is plausible, but the clinical data are small, the only directly relevant trial was withdrawn, and no clear virologic benefit has been shown. Immunosuppression in HIV carries safety concerns, and the Singapore licence indication text and package insert safety data are missing." Removed: it said the product registrations were cancelled, discontinued, or not current, which did not match the HSA register data (the HSA register of therapeutic products as of 2026-10-31). The HSA register lists 11 registrations for this drug, 11 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261031-mycophenolate_mofetil-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA, and the approved indication text
 - Detailed mechanism of action data
 - Review of the randomized evidence (PMID 15353978) and any newer controlled data on virologic and reservoir outcomes
 - Assessment of interactions with current antiretroviral regimens and infection risk in people with HIV
 - Consideration of multiple sclerosis as an alternative lead, since it has Phase 2 data, while recognising that existing reviews do not show clear superiority over established therapies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only directly relevant trial was withdrawn, and the completed Phase 2 trial focused on a different agent" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-10-31 | Removed: "The mechanistic link (IMPDH inhibition and potentiation of nucleoside analogues) is plausible, but the clinical data are small, the only dir" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

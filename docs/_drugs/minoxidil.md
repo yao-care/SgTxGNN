@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "Minoxidil"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L4). Approved use: Hypertensive disorder, hypertension, alopecia"
 ---
 
@@ -78,6 +78,14 @@ Currently no related clinical trials registered.
 
 No approved indication text is available in the records.
 
+<!-- review:begin sg-lic-20261106-minoxidil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight single-ingredient registrations are listed. No approved indication text is available in the records." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-minoxidil-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04399P | REGAINE Regular Strength (2%) | SOLUTION | Valid |
@@ -87,6 +95,8 @@ No approved indication text is available in the records.
 | SIN09084P | GROWELL SCALP LOTION 5% w/v | LOTION | Valid |
 
 Showing 5 of 7 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -119,6 +129,19 @@ The TxGNN score is very high, but the supporting evidence is limited to three ca
 - Mechanism of action data and package insert warnings and contraindications from HSA
 - Confirmation of approved indications on Singapore labels
 - A safety review for oral use, given the cardiovascular contraindication relations above (topical products carry lower systemic exposure)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Eight single-ingredient registrations are listed" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

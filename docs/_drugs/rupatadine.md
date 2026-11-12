@@ -75,11 +75,15 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14087P | Rupafin Tablet 10mg | TABLET | Valid |
 | SIN14868P | RUPAFIN ORAL SOLUTION 1mg/ml | SOLUTION | Valid |
 | SIN17107P | ZEALARGY TABLET 10mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

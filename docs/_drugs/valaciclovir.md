@@ -75,11 +75,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Valaciclovir
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08229P | VALTREX TABLET 500 mg | TABLET, FILM COATED | Valid |
 | SIN14207P | Vaciclor Tablet 500 mg | TABLET, FILM COATED | Valid |
 | SIN14878P | VALOVIR 500 VALACYCLOVIR TABLETS 500 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -85,10 +85,14 @@ For context, literature on neighbouring predictions is indirect:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN12015P | METALYSE FOR INJECTION 10,000 u/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
 | SIN17293P | METALYSE FOR INJECTION 5,000 u/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 The registration is valid and the product is a single-ingredient injectable.
 

@@ -71,6 +71,8 @@ No clinical trials are registered for this prediction.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00095P | LARGO TABLETS 25 mg | TABLET, FILM COATED | Valid |
@@ -78,6 +80,8 @@ No clinical trials are registered for this prediction.
 | SIN06832P | CHLORPROMAZINE HYDROCHLORIDE TABLET 50 mg | TABLET, FILM COATED | Valid |
 | SIN07195P | CHLORPROMAZINE 25 TABLET 25 mg | TABLET, FILM COATED | Valid |
 | SIN07528P | CHLORPROMAZINE 100 TABLET 100 mg | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

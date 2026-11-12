@@ -80,10 +80,14 @@ None of the retrieved papers evaluates amikacin as a treatment for paratyphoid f
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11944P | ILDONG AMIKACIN INJECTION 500 mg/2 ml | INJECTION | Valid |
 | SIN15908P | AKACIN INJECTION 500MG/2ML | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

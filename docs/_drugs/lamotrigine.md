@@ -86,6 +86,8 @@ Currently no related clinical trials registered for trigeminal nerve neoplasm.
 
 All 10 licences are valid single-ingredient oral tablets. The licence records contain no approved-indication text. The 5 main authorizations are listed below.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07497P | LAMICTAL TABLET 50 mg | TABLET | Valid |
@@ -95,6 +97,8 @@ All 10 licences are valid single-ingredient oral tablets. The licence records co
 | SIN13365P | Lamitor - 50 | TABLET | Valid |
 
 Showing 5 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 ---
 

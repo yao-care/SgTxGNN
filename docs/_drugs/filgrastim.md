@@ -80,12 +80,16 @@ For reference, the only predicted indication with linked trials is platelet-type
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN10780P | NEUPOGEN PRE-FILLED SYRINGE 30 mu/0.5 ml | INJECTION | Valid |
 | SIN14196P | Nivestim 300mcg/0.5mL Solution for Injection/Infusion | INFUSION, SOLUTION | Valid |
 | SIN16267P | ACCOFIL 48 SOLUTION FOR INJECTION OR INFUSION IN A PRE-FILLED SYRINGE  | INJECTION, SOLUTION | Valid |
 | SIN16268P | ACCOFIL 30 SOLUTION FOR INJECTION OR INFUSION IN A PRE-FILLED SYRINGE  | INJECTION, SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

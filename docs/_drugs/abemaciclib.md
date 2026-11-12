@@ -72,11 +72,15 @@ The TxGNN model produced no candidate indication with a score of 0.99 or higher 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15788P | VERZENIO FILM-COATED TABLET 50MG | TABLET, FILM COATED | Valid |
 | SIN15789P | VERZENIO FILM-COATED TABLET 100MG | TABLET, FILM COATED | Valid |
 | SIN15790P | VERZENIO FILM-COATED TABLET 150MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -72,10 +72,14 @@ Currently no related literature available for CMM7.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15184P | KYPROLIS POWDER FOR SOLUTION FOR INFUSION 60MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
 | SIN15414P | KYPROLIS POWDER FOR SOLUTION FOR INFUSION 30 MG/VIAL | INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

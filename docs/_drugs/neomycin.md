@@ -70,6 +70,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Neomycin, so
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN00678P | BANEOCIN POWDER | POWDER | Valid |
@@ -81,6 +83,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Neomycin, so
 | SIN04413P | POLYBAMYCIN OINT. | OINTMENT | Valid |
 | SIN04945P | POLYDEXA EAR DROPS | SOLUTION | Valid |
 | SIN07745P | POLYGYNAX VAGINAL CAPSULE | CAPSULE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

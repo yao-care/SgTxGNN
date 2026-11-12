@@ -69,9 +69,13 @@ Currently no related literature available for this indication.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16198P | REMLEAS HARD CAPSULES 40 MG | CAPSULE, GELATIN COATED | Valid |
+
+<!-- licenses:end -->
 
 The product is a single-ingredient, valid registration manufactured by Patheon France S.A.S.
 

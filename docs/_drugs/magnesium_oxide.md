@@ -83,10 +83,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Magnesium Ox
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07893P | GERSKIN TABLET | TABLET | Valid |
 | SIN14303P | PICOPREP Powder for Oral Solution | POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

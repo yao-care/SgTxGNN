@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 699
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,6 +101,14 @@ No publications are available for the top-ranked prediction. The publications be
 
 The records contain no approved-indication text. Main authorisations:
 
+<!-- review:begin sg-lic-20261106-naproxen-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 16 valid single-ingredient registrations in Singapore; none are cancelled. The records contain no approved-indication text." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-naproxen-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05294P | APO-NAPROXEN TABLET 500 mg | TABLET | Valid |
@@ -110,6 +118,8 @@ The records contain no approved-indication text. Main authorisations:
 | SIN07136P | APO-NAPRO-NA TABLET 275 mg | TABLET, FILM COATED | Valid |
 
 Showing 5 of 13 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -140,6 +150,19 @@ Showing 5 of 13 HSA registrations.
 - For the rare skeletal syndromes, any preclinical or mechanistic evidence before further consideration
 - A paediatric dosing and safety monitoring plan for juvenile arthritis
 - Confirmation of the approved indications on the Singapore licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "There are 16 valid single-ingredient registrations in Singapore; none are cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

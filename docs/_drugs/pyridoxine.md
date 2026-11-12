@@ -73,6 +73,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05209P | SOLUVIT N FOR INFUSION | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -88,6 +90,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | SIN12077P | DANEURON TABLET | TABLET, FILM COATED | Valid |
 | SIN15098P | NEUROBION TABLET (OTC) | TABLET, SUGAR COATED | Valid |
 | SIN16865P | BONJESTA EXTENDED-RELEASE TABLETS 20 MG/20 MG | TABLET, FILM COATED, EXTENDED RELEASE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

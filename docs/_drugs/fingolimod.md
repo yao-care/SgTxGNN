@@ -73,11 +73,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Fingolimod, 
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN14153P | Gilenya Capsule 0.5mg | CAPSULE | Valid |
 | SIN15761P | GILENYA CAPSULE 0.25mg | CAPSULE | Valid |
 | SIN16528P | FINCORD CAPSULES 0.5 MG | CAPSULE, GELATIN COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

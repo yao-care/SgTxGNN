@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN05313P | CARDIPRIN 100 TABLET 100 mg | TABLET | Valid |
@@ -77,6 +79,8 @@ Currently no related literature available.
 | SIN09770P | THREE LEGS BRAND MEDICINAL POWDER ASPIRIN 600 mg/sachet | POWDER | Valid |
 
 Showing 5 of 10 HSA registrations.
+
+<!-- licenses:end -->
 
 Aspirin is marketed in Singapore, and all local licences in the data compiled for this report are valid. Products are oral forms (enteric-coated tablets, plain tablets and capsules), several as single-ingredient aspirin.
 

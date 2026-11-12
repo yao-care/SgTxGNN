@@ -83,10 +83,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN01302P | ISONIAZID TABLET 100 mg | TABLET | Valid |
 | SIN06651P | PDP-ISONIAZID TABLET 300 mg | TABLET | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

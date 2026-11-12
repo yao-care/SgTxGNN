@@ -72,10 +72,14 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for N
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN04537P | NEW TONIN TROCHE L | LOZENGE | Valid |
 | SIN09666P | TONIN COUGH SYRUP S | SYRUP | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

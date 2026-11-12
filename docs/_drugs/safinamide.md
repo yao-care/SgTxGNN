@@ -85,9 +85,13 @@ For the top-ranked prediction (Rasmussen subacute encephalitis), no related lite
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16615P | EQUFINA FILM-COATED TABLET 50MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ---
 

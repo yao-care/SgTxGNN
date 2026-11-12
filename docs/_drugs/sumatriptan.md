@@ -72,11 +72,15 @@ The TxGNN deep-learning model produced candidates for Sumatriptan with a score o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08419P | IMIGRAN TABLET 50 mg | TABLET, FILM COATED | Valid |
 | SIN13667P | SUMATRAN TABLET 50MG | TABLET | Valid |
 | SIN17179P | SUMASON TABLETS 50MG | TABLET, FILM COATED | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

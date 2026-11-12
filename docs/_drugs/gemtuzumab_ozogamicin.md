@@ -50,9 +50,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16243P | MYLOTARG POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 5MG/VIAL | POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 This is one valid single-ingredient license, held by Wyeth Pharmaceutical Division of Wyeth Holdings LLC. The record contains no approved-indication text.
 

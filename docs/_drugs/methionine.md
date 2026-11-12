@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "tetanic cataract", "nuclear senile cataract", "diabetic cataract"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence records"
 ---
 
@@ -75,6 +75,14 @@ Currently no related clinical trials registered.
 
 The five below are examples.
 
+<!-- review:begin sg-lic-20261106-methionine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 19 licences are valid single-ingredient entries; the licence records contain no approved indication text. The five below are examples." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-methionine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | INJECTION | Valid |
@@ -84,6 +92,8 @@ The five below are examples.
 | SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | INJECTION | Valid |
 
 Showing 5 of 18 HSA registrations.
+
+<!-- licenses:end -->
 
 All registered forms are injectable or infusion products (plus one sterile peritoneal dialysis solution); no oral or topical methionine product is listed, so route compatibility for acne has not been assessed.
 
@@ -110,6 +120,19 @@ The TxGNN score is very high, but no clinical trial exists and neither retrieved
 - Preclinical or clinical evidence that methionine, rather than its metabolites, affects acne
 - Homocysteine safety assessment and clarification of a suitable (non-parenteral) route
 - Review of the other lower-ranked predictions: diabetic cataract has the most relevant mechanistic literature (methionine sulfoxide reductase in lens cells), but it is preclinical, concerns the endogenous repair enzyme rather than methionine supplementation, and has no clinical trials; it is best treated as a research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 19 licences are valid single-ingredient entries; the licence records contain no approved indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

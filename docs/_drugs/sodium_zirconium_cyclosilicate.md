@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15961P | LOKELMA POWDER FOR ORAL SUSPENSION 5G | POWDER, FOR SUSPENSION | Valid |
 | SIN15962P | LOKELMA POWDER FOR ORAL SUSPENSION 10G | POWDER, FOR SUSPENSION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

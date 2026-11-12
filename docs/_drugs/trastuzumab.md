@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1012
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -99,6 +99,8 @@ Other predicted indications in the same analysis:
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN11028P | HERCEPTIN POWDER FOR INJECTION 440 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
@@ -109,7 +111,15 @@ Other predicted indications in the same analysis:
 
 Showing 5 of 11 HSA registrations.
 
+<!-- licenses:end -->
+
 There are 11 valid registrations in total. They include the originator and several biosimilars (Herzuma, Kanjinti, Trazimera, Trazher) as well as the Phesgo subcutaneous formulation.
+
+<!-- review:begin sg-lic-20261106-trastuzumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 11 valid registrations in total, all single-ingredient products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 11 registrations for this drug, 11 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-trastuzumab-1 -->
 
 ## Cytotoxicity
 
@@ -144,6 +154,19 @@ Large Phase 3 and Phase 2 trials support trastuzumab in HER2-positive breast can
 - Mechanism of action data to be added.
 - Cardiac monitoring and drug interaction review, especially for co-medications with major interactions.
 - Confirmation of the approved indication wording on the Singapore licences.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "all single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -82,10 +82,14 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02280P | PROSTIN VR PAEDIATRIC INJECTION 0.5 mg/ml | INJECTION | Valid |
 | SIN08097P | CAVERJECT POWDER FOR INJECTION 20 mcg/ml | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

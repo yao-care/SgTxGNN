@@ -104,12 +104,16 @@ The table below shows the most relevant publications for the best-supported pred
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN02818P | DUPHALAC SYRUP | SYRUP | Valid |
 | SIN10132P | LACTUS SYRUP 66% w/v | SYRUP | Valid |
 | SIN11494P | DHACTULOSE SYRUP | SYRUP | Valid |
 | SIN14720P | LACTUL SOLUTION 670MG/ML | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 All four licences are valid single-ingredient products, and none has been cancelled.
 

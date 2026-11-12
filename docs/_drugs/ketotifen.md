@@ -73,11 +73,15 @@ All candidates produced by the TxGNN deep-learning model (score ≥ 0.99) for Ke
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08766P | KETOTIFEN SYRUP 1 mg/5 ml | SYRUP | Valid |
 | SIN09651P | TOFEN TABLET 1 mg | TABLET | Valid |
 | SIN10107P | ASUMALIFE SYRUP 1 mg/5 ml | SYRUP | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

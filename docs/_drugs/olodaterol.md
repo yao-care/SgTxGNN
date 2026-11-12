@@ -48,9 +48,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15890P | SPIOLTO® RESPIMAT® RE-USABLE SOLUTION FOR INHALATION 2.5 MICROGRAM / 2 | SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

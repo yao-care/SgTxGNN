@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acarbose: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Acarbose"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -71,12 +71,22 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN15815P | GARBOSE TABLET 100MG | TABLET | Valid |
 | SIN15816P | GARBOSE TABLET 50MG | TABLET | Valid |
 
+<!-- licenses:end -->
+
 Approved indication text was not available in the data compiled for this report.
+
+<!-- review:begin sg-lic-20261106-acarbose-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three are valid single-ingredient oral tablet licences. Approved indication text was not available in the data compiled for this report." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-acarbose-1 -->
 
 ## Safety Considerations
 
@@ -110,6 +120,19 @@ The prediction rests only on a model score. There are no registered trials or pu
 - Confirmation of the mechanism of action from DrugBank.
 
 **Side note on a more credible prediction:** Among the lower-ranked predictions, **type 1 diabetes mellitus** has a plausible mechanism, as adjunct therapy to insulin that blunts post-meal glucose spikes. It also has controlled-study literature, including a double-blind placebo-controlled study ([PMID 10227568](https://pubmed.ncbi.nlm.nih.gov/10227568/)), a multicentre study ([PMID 9051366](https://pubmed.ncbi.nlm.nih.gov/9051366/)) and a network meta-analysis ([PMID 33300282](https://pubmed.ncbi.nlm.nih.gov/33300282/)). Reported benefits appear modest and gastrointestinal side effects are a concern. If a diabetes-related repurposing direction is of interest, this indication should be evaluated as a separate candidate.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All three are valid single-ingredient oral tablet licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

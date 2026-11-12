@@ -99,9 +99,13 @@ Of the 40 trials linked to this prediction, the 10 most relevant are listed here
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN13759P | Nevanac® Eye Drops Suspension 1 mg/ml | SUSPENSION, STERILE | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

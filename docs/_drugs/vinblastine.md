@@ -92,10 +92,14 @@ Related predicted sub-types (prostate embryonal rhabdomyosarcoma, rank 5) rely o
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN07944P | DBL™ VINBLASTINE INJECTION | INJECTION | Valid |
 | SIN10987P | VELBASTINE FOR INJECTION 10 mg/vial | INJECTION, POWDER, FOR SOLUTION | Valid |
+
+<!-- licenses:end -->
 
 ---
 

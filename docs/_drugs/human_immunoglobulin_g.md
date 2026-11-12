@@ -64,9 +64,13 @@ Other top predictions from the model include diabetic retinopathy (0.9963) and d
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN16766P | IMMUNOGLOBULINS SG INJECTION 50mg/ml | INJECTION | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 1019
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tretinoin"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
 description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,8 @@ For osteoarthritis (rank 7), two items were retrieved, but neither supports tret
 
 ## Singapore Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | SIN08057P | VESANOID CAPSULE 10 mg | CAPSULE | Valid |
@@ -84,7 +86,15 @@ For osteoarthritis (rank 7), two items were retrieved, but neither supports tret
 
 Showing 5 of 6 HSA registrations.
 
+<!-- licenses:end -->
+
 A sixth licence, Tri-Luma Cream (SIN12607P), is also valid. All 6 registrations are valid. Five are topical creams and one is an oral capsule (Vesanoid).
+
+<!-- review:begin sg-lic-20261106-tretinoin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 6 registrations are single-ingredient and valid." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261106-tretinoin-1 -->
 
 ## Cytotoxicity
 
@@ -133,6 +143,19 @@ The prediction rests only on a model score, with no clinical trials or relevant 
 - A targeted literature search on retinoids in rheumatoid nodulosis and related arthritis
 - Consideration of dermatological predictions, such as folliculitis decalvans, which may be more plausible than the arthritis and skeletal ones
 - Evaluation of route compatibility (topical vs oral) and a risk assessment for systemic exposure
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient and" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
