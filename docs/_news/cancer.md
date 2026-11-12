@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Her paycheck stopped when cancer hit, her insurance payout didn’t](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
 
-2026-11-11
+2026-11-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/cancer-ins
 
 ### [NUS launches professorship in breast cancer genomics, named after late patient](https://www.straitstimes.com/singapore/health/nus-launches-professorship-in-breast-cancer-genomics-named-after-late-patient)
 
-2026-11-11
+2026-11-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-launches-professorship-in-breast-cancer-genomics-named-after-late-patient)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-launch
 
 ### [How Stage 4 lung cancer changed this former nightlife boss: From 5 litres of beer a night to Everest Base Camp](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
 
-2026-11-11
+2026-11-12
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
 
