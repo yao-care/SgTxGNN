@@ -7,7 +7,7 @@
   "title": "SgTxGNN FHIR Server",
   "status": "active",
   "experimental": true,
-  "date": "2026-11-06",
+  "date": "2026-11-13",
   "publisher": "SgTxGNN",
   "contact": [
     {
@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "SgTxGNN drug repurposing prediction data exposed as static FHIR resources. Contains 999 MedicationKnowledge and 4189 ClinicalUseDefinition resources.",
+  "description": "SgTxGNN drug repurposing prediction data exposed as static FHIR resources. Contains 999 drugs and 4189 predicted indications.",
   "kind": "instance",
   "software": {
     "name": "SgTxGNN Static FHIR API",
@@ -55,6 +55,25 @@
               "code": "read"
             }
           ]
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://yao.care/fhir/StructureDefinition/txgnn-resource-counts",
+      "extension": [
+        {
+          "url": "MedicationKnowledge",
+          "valueInteger": 999
+        },
+        {
+          "url": "ClinicalUseDefinition",
+          "valueInteger": 4189
+        },
+        {
+          "url": "countedAt",
+          "valueDate": "2026-11-13"
         }
       ]
     }
