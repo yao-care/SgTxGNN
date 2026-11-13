@@ -30,8 +30,22 @@ These predictions represent research hypotheses that require validation.
 
 Drugs on this site whose evidence level (shown at the top of each drug page) is L5. The score is the TxGNN model score of the drug's top-scoring predicted indication — a ranking value, not a probability.
 
+{% comment %}2026-11-14：本等級藥物清單在建置時就輸出成 HTML（無 JS 也看得到、爬得到藥物頁連結）；口徑同 /data/drugs-by-level.json（公開藥物頁、依頁首等級）。下方 JS 載入後換成含最高分適應症的表。{%- endcomment -%}
+{%- assign lv_levels = "L5" | split: "," -%}
+{%- assign lv_listed = site.drugs | where_exp: "d", "d.layout != 'id_redirect'" | where_exp: "d", "d.noindex != true" | sort: "title" -%}
+{%- assign lv_drugs = "" | split: "" -%}
+{%- for lv in lv_levels -%}{%- assign lv_part = lv_listed | where: "evidence_level", lv -%}{%- assign lv_drugs = lv_drugs | concat: lv_part -%}{%- endfor -%}
+{%- assign lv_L5 = lv_drugs | where: "evidence_level", "L5" | size -%}
 <div id="low-evidence-stats">
-  Loading drugs...
+<p><em>{{ lv_drugs.size }} drugs (L5: {{ lv_L5 }}).</em></p>
+<table>
+<thead><tr><th>Drug</th><th>Level</th><th>Predicted indications</th></tr></thead>
+<tbody>
+{%- for d in lv_drugs %}
+<tr><td><a href="{{ d.url | relative_url }}">{{ d.title | escape }}</a></td><td>{{ d.evidence_level | escape }}</td><td>{{ d.indication_count | default: 0 }}</td></tr>
+{%- endfor %}
+</tbody>
+</table>
 </div>
 
 <script>
@@ -77,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
       `;
     })
     .catch(err => {
-      document.getElementById('low-evidence-stats').innerHTML = '<p>Failed to load data.</p>';
+      // 讀不到 JSON 時保留建置時輸出的清單
     });
 });
 </script>

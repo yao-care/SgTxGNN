@@ -44,10 +44,14 @@ Shortlist: [Singapore medicines with clinical-trial evidence for a new indicatio
   </div>
 </div>
 
-<p id="drug-count" class="drug-count"></p>
+{% comment %}2026-11-14：清單在建置時就輸出成 HTML（無 JS 也看得到、爬得到全部藥物頁連結）；下方 JS 只做搜尋／篩選並補上最高分。{%- endcomment -%}
+{%- assign list_drugs = gate_listed | sort: "title" %}
+<p id="drug-count" class="drug-count">Showing {{ list_drugs.size }} of {{ list_drugs.size }} drugs</p>
 
 <div id="drug-list" class="drug-list">
-  Loading drugs...
+{%- for drug in list_drugs %}
+<div class="drug-card"><a href="{{ drug.url | relative_url }}" class="drug-name">{{ drug.title | escape }}</a><div class="drug-meta"><span class="drug-id">{{ drug.evidence_level | escape }}</span><span class="drug-predictions">{{ drug.indication_count | default: 0 }} predicted indications</span></div></div>
+{%- endfor %}
 </div>
 
 <script>
@@ -116,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
     filterHighscore.checked = false;
     renderDrugs(all);
   }).catch(err => {
-    document.getElementById('drug-list').innerHTML = '<p class="error">Failed to load drug data.</p>';
+    // 讀不到 JSON 時保留建置時輸出的清單
   });
 });
 </script>
