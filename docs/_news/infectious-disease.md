@@ -13,15 +13,23 @@ permalink: /news/infectious-disease/
 
 ---
 
-**1 articles** related to infectious disease.
+**2 articles** related to infectious disease.
 
 ---
 
 ### [Singapore launches Asia-Pacific initiative to identify next big infectious disease threat earlier](https://www.straitstimes.com/singapore/health/singapore-launches-asia-pacific-initiative-to-earlier-identify-next-big-infectious-disease-threat)
 
-2026-11-13
+2026-11-14
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-launches-asia-pacific-initiative-to-earlier-identify-next-big-infectious-disease-threat)
+
+---
+
+### [Singapore start-up taps peptide power to tackle pet infections, seeks to replace chemical preservatives](https://www.straitstimes.com/singapore/health/singapore-start-up-taps-peptide-power-to-tackle-pet-infections-seeks-to-replace-chemical)
+
+2026-11-14
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-start-up-taps-peptide-power-to-tackle-pet-infections-seeks-to-replace-chemical)
 
 ---
 

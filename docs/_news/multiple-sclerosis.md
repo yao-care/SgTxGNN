@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Small steps, big pay-off: KKH aims to get critically ill children back on their feet faster](https://www.straitstimes.com/singapore/health/small-steps-big-pay-off-getting-critically-ill-children-back-on-their-feet-faster)
 
-2026-11-13
+2026-11-14
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/small-steps-big-pay-off-getting-critically-ill-children-back-on-their-feet-faster)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/small-step
 
 ### [How ADHD symptoms change from childhood through adulthood](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-6381941)
 
-2026-11-13
+2026-11-14
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-6381941)
 
@@ -35,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-
 
 ### [5 gastrointestinal symptoms you should never ignore, according to doctors](https://www.channelnewsasia.com/wellness/gastrointestinal-symptoms-gut-health-6436716)
 
-2026-11-13
+2026-11-14
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/gastrointestinal-symptoms-gut-health-6436716)
 
