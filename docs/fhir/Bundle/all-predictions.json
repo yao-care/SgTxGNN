@@ -2,8 +2,8 @@
   "resourceType": "Bundle",
   "id": "all-predictions",
   "type": "collection",
-  "timestamp": "2026-11-06T14:00:46.685175",
-  "total": 999,
+  "timestamp": "2026-11-15T13:02:55.262512",
+  "total": 993,
   "link": [
     {
       "relation": "self",
@@ -1886,7 +1886,7 @@
         "extension": [
           {
             "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
+            "valueCode": "N/A"
           }
         ]
       }
@@ -20046,7 +20046,7 @@
         "extension": [
           {
             "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
+            "valueCode": "N/A"
           }
         ]
       }
@@ -20111,46 +20111,6 @@
             }
           ],
           "text": "FOSAPREPITANT"
-        },
-        "intendedJurisdiction": [
-          {
-            "coding": [
-              {
-                "system": "urn:iso:std:iso:3166",
-                "code": "SG",
-                "display": "Singapore"
-              }
-            ]
-          }
-        ],
-        "extension": [
-          {
-            "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://sgtxgnn.yao.care/fhir/MedicationKnowledge/framycetin-sulfate",
-      "resource": {
-        "resourceType": "MedicationKnowledge",
-        "id": "framycetin-sulfate",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
-          ]
-        },
-        "status": "active",
-        "code": {
-          "coding": [
-            {
-              "system": "https://sgtxgnn.yao.care/drugs",
-              "code": "framycetin-sulfate",
-              "display": "FRAMYCETIN SULFATE"
-            }
-          ],
-          "text": "FRAMYCETIN SULFATE"
         },
         "intendedJurisdiction": [
           {
@@ -21006,7 +20966,7 @@
         "extension": [
           {
             "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
+            "valueCode": "N/A"
           }
         ]
       }
@@ -24572,46 +24532,6 @@
       }
     },
     {
-      "fullUrl": "https://sgtxgnn.yao.care/fhir/MedicationKnowledge/miconazole-nitrate",
-      "resource": {
-        "resourceType": "MedicationKnowledge",
-        "id": "miconazole-nitrate",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
-          ]
-        },
-        "status": "active",
-        "code": {
-          "coding": [
-            {
-              "system": "https://sgtxgnn.yao.care/drugs",
-              "code": "miconazole-nitrate",
-              "display": "MICONAZOLE NITRATE"
-            }
-          ],
-          "text": "MICONAZOLE NITRATE"
-        },
-        "intendedJurisdiction": [
-          {
-            "coding": [
-              {
-                "system": "urn:iso:std:iso:3166",
-                "code": "SG",
-                "display": "Singapore"
-              }
-            ]
-          }
-        ],
-        "extension": [
-          {
-            "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://sgtxgnn.yao.care/fhir/MedicationKnowledge/midazolam",
       "resource": {
         "resourceType": "MedicationKnowledge",
@@ -24831,46 +24751,6 @@
             }
           ],
           "text": "MITOXANTRONE"
-        },
-        "intendedJurisdiction": [
-          {
-            "coding": [
-              {
-                "system": "urn:iso:std:iso:3166",
-                "code": "SG",
-                "display": "Singapore"
-              }
-            ]
-          }
-        ],
-        "extension": [
-          {
-            "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://sgtxgnn.yao.care/fhir/MedicationKnowledge/mivacurium-chloride",
-      "resource": {
-        "resourceType": "MedicationKnowledge",
-        "id": "mivacurium-chloride",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
-          ]
-        },
-        "status": "active",
-        "code": {
-          "coding": [
-            {
-              "system": "https://sgtxgnn.yao.care/drugs",
-              "code": "mivacurium-chloride",
-              "display": "MIVACURIUM CHLORIDE"
-            }
-          ],
-          "text": "MIVACURIUM CHLORIDE"
         },
         "intendedJurisdiction": [
           {
@@ -25126,7 +25006,7 @@
         "extension": [
           {
             "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
+            "valueCode": "N/A"
           }
         ]
       }
@@ -25406,7 +25286,7 @@
         "extension": [
           {
             "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
+            "valueCode": "N/A"
           }
         ]
       }
@@ -28526,7 +28406,7 @@
         "extension": [
           {
             "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
+            "valueCode": "N/A"
           }
         ]
       }
@@ -30412,46 +30292,6 @@
       }
     },
     {
-      "fullUrl": "https://sgtxgnn.yao.care/fhir/MedicationKnowledge/sodium-sulfate-anhydrous",
-      "resource": {
-        "resourceType": "MedicationKnowledge",
-        "id": "sodium-sulfate-anhydrous",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
-          ]
-        },
-        "status": "active",
-        "code": {
-          "coding": [
-            {
-              "system": "https://sgtxgnn.yao.care/drugs",
-              "code": "sodium-sulfate-anhydrous",
-              "display": "SODIUM SULFATE ANHYDROUS"
-            }
-          ],
-          "text": "SODIUM SULFATE ANHYDROUS"
-        },
-        "intendedJurisdiction": [
-          {
-            "coding": [
-              {
-                "system": "urn:iso:std:iso:3166",
-                "code": "SG",
-                "display": "Singapore"
-              }
-            ]
-          }
-        ],
-        "extension": [
-          {
-            "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://sgtxgnn.yao.care/fhir/MedicationKnowledge/sofosbuvir",
       "resource": {
         "resourceType": "MedicationKnowledge",
@@ -31286,7 +31126,7 @@
         "extension": [
           {
             "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
+            "valueCode": "L4"
           }
         ]
       }
@@ -31652,46 +31492,6 @@
       }
     },
     {
-      "fullUrl": "https://sgtxgnn.yao.care/fhir/MedicationKnowledge/tianeptine-sodium",
-      "resource": {
-        "resourceType": "MedicationKnowledge",
-        "id": "tianeptine-sodium",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
-          ]
-        },
-        "status": "active",
-        "code": {
-          "coding": [
-            {
-              "system": "https://sgtxgnn.yao.care/drugs",
-              "code": "tianeptine-sodium",
-              "display": "TIANEPTINE SODIUM"
-            }
-          ],
-          "text": "TIANEPTINE SODIUM"
-        },
-        "intendedJurisdiction": [
-          {
-            "coding": [
-              {
-                "system": "urn:iso:std:iso:3166",
-                "code": "SG",
-                "display": "Singapore"
-              }
-            ]
-          }
-        ],
-        "extension": [
-          {
-            "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
-          }
-        ]
-      }
-    },
-    {
       "fullUrl": "https://sgtxgnn.yao.care/fhir/MedicationKnowledge/tibolone",
       "resource": {
         "resourceType": "MedicationKnowledge",
@@ -31926,7 +31726,7 @@
         "extension": [
           {
             "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
+            "valueCode": "N/A"
           }
         ]
       }
@@ -31951,46 +31751,6 @@
             }
           ],
           "text": "TITANIUM DIOXIDE"
-        },
-        "intendedJurisdiction": [
-          {
-            "coding": [
-              {
-                "system": "urn:iso:std:iso:3166",
-                "code": "SG",
-                "display": "Singapore"
-              }
-            ]
-          }
-        ],
-        "extension": [
-          {
-            "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
-            "valueCode": "L5"
-          }
-        ]
-      }
-    },
-    {
-      "fullUrl": "https://sgtxgnn.yao.care/fhir/MedicationKnowledge/to-methotrexate",
-      "resource": {
-        "resourceType": "MedicationKnowledge",
-        "id": "to-methotrexate",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
-          ]
-        },
-        "status": "active",
-        "code": {
-          "coding": [
-            {
-              "system": "https://sgtxgnn.yao.care/drugs",
-              "code": "to-methotrexate",
-              "display": "TO METHOTREXATE"
-            }
-          ],
-          "text": "TO METHOTREXATE"
         },
         "intendedJurisdiction": [
           {
