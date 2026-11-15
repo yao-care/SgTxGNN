@@ -13,7 +13,15 @@ permalink: /news/aging/
 
 ---
 
-**3 articles** related to aging.
+**4 articles** related to aging.
+
+---
+
+### [Rethinking the three spaces for a longevity society](https://www.straitstimes.com/singapore/health/rethinking-the-three-spaces-for-a-longevity-society)
+
+2026-11-15
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/rethinking-the-three-spaces-for-a-longevity-society)
 
 ---
 

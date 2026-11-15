@@ -13,15 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**3 articles** related to stroke.
-
----
-
-### [Singapore launches Asia-Pacific initiative to identify next big infectious disease threat earlier](https://www.straitstimes.com/singapore/health/singapore-launches-asia-pacific-initiative-to-earlier-identify-next-big-infectious-disease-threat)
-
-2026-11-15
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-launches-asia-pacific-initiative-to-earlier-identify-next-big-infectious-disease-threat)
+**2 articles** related to stroke.
 
 ---
 
