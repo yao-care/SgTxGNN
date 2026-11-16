@@ -1,28 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/phenylephrine-hcl/
 sitemap: false
-layout: default
-title: PHENYLEPHRINE HCL
-parent: Known Uses Only (No New Predictions)
-nav_order: 114
-last_modified_date: 2026-03-11
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# PHENYLEPHRINE HCL
-
-{: .warning }
-
-## Overview
-
-| Property | Value |
-|----------|-------|
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
-| Drug Name | PHENYLEPHRINE HCL |
-| DrugBank ID | [DB00388](https://go.drugbank.com/drugs/DB00388) |
-| HSA Status | Registered with Health Sciences Authority |
-| DL Predictions (≥0.7) | 38 |
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/phenylephrine/">
+<meta http-equiv="refresh" content="0; url=/drugs/phenylephrine/">
+<script>location="/drugs/phenylephrine/"</script>
+<a href="/drugs/phenylephrine/">/drugs/phenylephrine/</a>
+</html>

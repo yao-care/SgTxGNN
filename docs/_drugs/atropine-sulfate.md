@@ -1,28 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/atropine-sulfate/
 sitemap: false
-layout: default
-title: ATROPINE SULFATE
-parent: Known Uses Only (No New Predictions)
-nav_order: 182
-last_modified_date: 2026-03-11
-last_modified_at: 2026-10-29
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# ATROPINE SULFATE
-
-{: .warning }
-
-## Overview
-
-| Property | Value |
-|----------|-------|
-| Singapore Market Status | Marketed (valid licences: 6 of 6) |
-| Number of Registrations | 6 (valid: 6) |
-| Drug Name | ATROPINE SULFATE |
-| DrugBank ID | [DB00572](https://go.drugbank.com/drugs/DB00572) |
-| HSA Status | Registered with Health Sciences Authority |
-| DL Predictions (≥0.7) | 50 |
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/atropine/">
+<meta http-equiv="refresh" content="0; url=/drugs/atropine/">
+<script>location="/drugs/atropine/"</script>
+<a href="/drugs/atropine/">/drugs/atropine/</a>
+</html>

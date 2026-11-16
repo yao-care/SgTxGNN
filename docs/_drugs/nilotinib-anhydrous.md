@@ -1,28 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/nilotinib-anhydrous/
 sitemap: false
-layout: default
-title: NILOTINIB ANHYDROUS
-parent: Known Uses Only (No New Predictions)
-nav_order: 505
-last_modified_date: 2026-03-11
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# NILOTINIB ANHYDROUS
-
-{: .warning }
-
-## Overview
-
-| Property | Value |
-|----------|-------|
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
-| Drug Name | NILOTINIB ANHYDROUS |
-| DrugBank ID | [DB04868](https://go.drugbank.com/drugs/DB04868) |
-| HSA Status | Registered with Health Sciences Authority |
-| DL Predictions (≥0.7) | 50 |
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/nilotinib/">
+<meta http-equiv="refresh" content="0; url=/drugs/nilotinib/">
+<script>location="/drugs/nilotinib/"</script>
+<a href="/drugs/nilotinib/">/drugs/nilotinib/</a>
+</html>

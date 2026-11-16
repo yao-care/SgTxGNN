@@ -1,28 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/eribulin-mesylate/
 sitemap: false
-layout: default
-title: ERIBULIN MESYLATE
-parent: Known Uses Only (No New Predictions)
-nav_order: 570
-last_modified_date: 2026-03-11
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# ERIBULIN MESYLATE
-
-{: .warning }
-
-## Overview
-
-| Property | Value |
-|----------|-------|
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
-| Drug Name | ERIBULIN MESYLATE |
-| DrugBank ID | [DB08871](https://go.drugbank.com/drugs/DB08871) |
-| HSA Status | Registered with Health Sciences Authority |
-| DL Predictions (≥0.7) | 50 |
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/eribulin/">
+<meta http-equiv="refresh" content="0; url=/drugs/eribulin/">
+<script>location="/drugs/eribulin/"</script>
+<a href="/drugs/eribulin/">/drugs/eribulin/</a>
+</html>

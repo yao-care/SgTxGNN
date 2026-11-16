@@ -121,6 +121,8 @@ This platform integrates multiple authoritative public data sources including AI
 
 Browse the full [Drug List](/drugs/), or filter candidates by evidence tier: [High](/evidence-high/), [Medium](/evidence-medium/), [Low](/evidence-low/). Example reports: [Temozolomide](/drugs/temozolomide/), [Vonoprazan](/drugs/vonoprazan/).
 
+The complete dataset behind these predictions — along with the source code used to generate it — is free and openly downloadable from the public GitHub repository listed under Contact & Feedback below.
+
 ---
 
 ## How to Cite
