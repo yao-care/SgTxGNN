@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [Singapore start-up taps peptide power to tackle pet infections, seeks to replace chemical preservatives](https://www.straitstimes.com/singapore/health/singapore-start-up-taps-peptide-power-to-tackle-pet-infections-seeks-to-replace-chemical)
 
-2026-11-15
+2026-11-16
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-start-up-taps-peptide-power-to-tackle-pet-infections-seeks-to-replace-chemical)
 
