@@ -1,28 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/levothyroxine-sodium/
 sitemap: false
-layout: default
-title: LEVOTHYROXINE SODIUM
-parent: Known Uses Only (No New Predictions)
-nav_order: 137
-last_modified_date: 2026-03-11
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# LEVOTHYROXINE SODIUM
-
-{: .warning }
-
-## Overview
-
-| Property | Value |
-|----------|-------|
-| Singapore Market Status | Marketed (valid licences: 16 of 16) |
-| Number of Registrations | 16 (valid: 16) |
-| Drug Name | LEVOTHYROXINE SODIUM |
-| DrugBank ID | [DB00451](https://go.drugbank.com/drugs/DB00451) |
-| HSA Status | Registered with Health Sciences Authority |
-| DL Predictions (≥0.7) | 50 |
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/levothyroxine/">
+<meta http-equiv="refresh" content="0; url=/drugs/levothyroxine/">
+<script>location="/drugs/levothyroxine/"</script>
+<a href="/drugs/levothyroxine/">/drugs/levothyroxine/</a>
+</html>

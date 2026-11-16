@@ -1,28 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/pitavastatin-calcium/
 sitemap: false
-layout: default
-title: PITAVASTATIN CALCIUM
-parent: Known Uses Only (No New Predictions)
-nav_order: 565
-last_modified_date: 2026-03-11
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# PITAVASTATIN CALCIUM
-
-{: .warning }
-
-## Overview
-
-| Property | Value |
-|----------|-------|
-| Singapore Market Status | Marketed (valid licences: 4 of 4) |
-| Number of Registrations | 4 (valid: 4) |
-| Drug Name | PITAVASTATIN CALCIUM |
-| DrugBank ID | [DB08860](https://go.drugbank.com/drugs/DB08860) |
-| HSA Status | Registered with Health Sciences Authority |
-| DL Predictions (≥0.7) | 50 |
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/pitavastatin/">
+<meta http-equiv="refresh" content="0; url=/drugs/pitavastatin/">
+<script>location="/drugs/pitavastatin/"</script>
+<a href="/drugs/pitavastatin/">/drugs/pitavastatin/</a>
+</html>

@@ -1,115 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/alfuzosin-hydrochloride/
 sitemap: false
-layout: default
-title: Alfuzosin Hydrochloride
-parent: Low Evidence (L5)
-nav_order: 63
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+search_exclude: true
+nav_exclude: true
 ---
-
-# Alfuzosin Hydrochloride
-{: .fs-9 }
-
-Evidence Level: **L5** | Predicted Indications: **0** 
-{: .fs-6 .fw-300 }
-
----
-
-## Table of Contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-<div id="pharmacist" markdown="1">
-
-## Pharmacist Assessment Report
-
-</div>
-
-## Alfuzosin Hydrochloride: Repurposing Evaluation — Insufficient Data to Complete Assessment
-{: .text-alpha }
-
-## One-Sentence Summary
-
-Alfuzosin hydrochloride is a selective alpha-1 adrenergic receptor antagonist widely used internationally for benign prostatic hyperplasia (BPH) and lower urinary tract symptoms (LUTS).
-The current Evidence Pack contains **no TxGNN predicted indications** for this drug, meaning a full repurposing evaluation cannot be completed at this stage.
-This report documents existing data gaps and outlines the actions required before proceeding.
-
-<!-- review:begin sg-lic-20261106-alfuzosin_hydrochloride-1 -->
-
-> **Review correction (2026-11-06)**: Originally stated: "The current Evidence Pack contains **no TxGNN predicted indications** for this drug, and the drug has **no registered products in Singapore**, meaning a full repurposing evaluation cannot be completed at this stage." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
-
-<!-- review:end sg-lic-20261106-alfuzosin_hydrochloride-1 -->
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available |
-| Predicted New Indication | None — TxGNN returned no predictions in this Evidence Pack |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Singapore Market Status | Marketed (valid licences: 3 of 3) |
-| Number of Registrations | 3 (valid: 3) |
-| Recommended Decision | **Hold** |
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> No safety data (warnings, contraindications, or drug interactions) is available in this Evidence Pack. All safety fields are marked as data gaps, and the DDI query returned zero results.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-This Evidence Pack is critically incomplete — TxGNN returned no predicted indications, key inputs (MOA, safety warnings, contraindications) are all absent. There is no repurposing signal to evaluate at this time.
-
-<!-- review:begin sg-lic-20261106-alfuzosin_hydrochloride-2 -->
-
-> **Review correction (2026-11-06)**: Originally stated: "This Evidence Pack is critically incomplete — TxGNN returned no predicted indications, no Singapore regulatory registrations exist, and key inputs (MOA, safety warnings, contraindications) are all absent." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
-
-<!-- review:end sg-lic-20261106-alfuzosin_hydrochloride-2 -->
-
-**To proceed, the following is needed:**
-
-- **TxGNN predictions**: Re-run the repurposing pipeline with the correct DrugBank ID for Alfuzosin Hydrochloride to generate candidate indications and confidence scores
-- **DrugBank ID resolution**: The `drugbank_id` field is null — retrieve the correct ID (likely DB00346) and re-query to populate MOA, categories, and toxicity data
-- **Safety data**: Download and parse the prescribing information PDF to extract key warnings, contraindications, and drug interaction profiles
-- **Regulatory verification**: Confirm whether Alfuzosin Hydrochloride has any pending or historical registrations in Singapore through the HSA product registry
-- **Original indication documentation**: Record the approved indication (BPH / LUTS) as baseline context for any future mechanistic cross-indication analysis
-
-<!-- review:begin log -->
-
-## Review Log
-
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
-
-| Review date | Item | Action | Source |
-|------|------|------|------|
-| 2026-11-06 | Removed: "and the drug has **no registered products in Singapore**" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "no Singapore regulatory registrations exist, and" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-
-<!-- review:end log -->
-
-## Disclaimer
-
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
-
----
-
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/alfuzosin/">
+<meta http-equiv="refresh" content="0; url=/drugs/alfuzosin/">
+<script>location="/drugs/alfuzosin/"</script>
+<a href="/drugs/alfuzosin/">/drugs/alfuzosin/</a>
+</html>

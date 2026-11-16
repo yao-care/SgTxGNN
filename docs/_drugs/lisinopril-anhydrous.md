@@ -1,28 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/lisinopril-anhydrous/
 sitemap: false
-layout: default
-title: LISINOPRIL (ANHYDROUS)
-parent: Known Uses Only (No New Predictions)
-nav_order: 232
-last_modified_date: 2026-03-11
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# LISINOPRIL (ANHYDROUS)
-
-{: .warning }
-
-## Overview
-
-| Property | Value |
-|----------|-------|
-| Singapore Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
-| Drug Name | LISINOPRIL (ANHYDROUS) |
-| DrugBank ID | [DB00722](https://go.drugbank.com/drugs/DB00722) |
-| HSA Status | Registered with Health Sciences Authority |
-| DL Predictions (≥0.7) | 50 |
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/lisinopril/">
+<meta http-equiv="refresh" content="0; url=/drugs/lisinopril/">
+<script>location="/drugs/lisinopril/"</script>
+<a href="/drugs/lisinopril/">/drugs/lisinopril/</a>
+</html>

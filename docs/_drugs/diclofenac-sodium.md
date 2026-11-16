@@ -1,28 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/diclofenac-sodium/
 sitemap: false
-layout: default
-title: DICLOFENAC SODIUM
-parent: Known Uses Only (No New Predictions)
-nav_order: 186
-last_modified_date: 2026-03-11
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# DICLOFENAC SODIUM
-
-{: .warning }
-
-## Overview
-
-| Property | Value |
-|----------|-------|
-| Singapore Market Status | Marketed (valid licences: 48 of 48) |
-| Number of Registrations | 48 (valid: 48) |
-| Drug Name | DICLOFENAC SODIUM |
-| DrugBank ID | [DB00586](https://go.drugbank.com/drugs/DB00586) |
-| HSA Status | Registered with Health Sciences Authority |
-| DL Predictions (≥0.7) | 50 |
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/diclofenac/">
+<meta http-equiv="refresh" content="0; url=/drugs/diclofenac/">
+<script>location="/drugs/diclofenac/"</script>
+<a href="/drugs/diclofenac/">/drugs/diclofenac/</a>
+</html>
