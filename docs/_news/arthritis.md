@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**3 articles** related to arthritis.
+**4 articles** related to arthritis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/arthritis/
 2026-11-16
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
+
+---
+
+### [S’pore’s CDA designated a WHO collaborating centre for infection prevention and control](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
+
+2026-11-16
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
 
 ---
 

@@ -1,28 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/amitriptyline-hcl/
 sitemap: false
-layout: default
-title: AMITRIPTYLINE HCL
-parent: Known Uses Only (No New Predictions)
-nav_order: 86
-last_modified_date: 2026-03-11
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# AMITRIPTYLINE HCL
-
-{: .warning }
-
-## Overview
-
-| Property | Value |
-|----------|-------|
-| Singapore Market Status | Marketed (valid licences: 2 of 2) |
-| Number of Registrations | 2 (valid: 2) |
-| Drug Name | AMITRIPTYLINE HCL |
-| DrugBank ID | [DB00321](https://go.drugbank.com/drugs/DB00321) |
-| HSA Status | Registered with Health Sciences Authority |
-| DL Predictions (≥0.7) | 42 |
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/amitriptyline/">
+<meta http-equiv="refresh" content="0; url=/drugs/amitriptyline/">
+<script>location="/drugs/amitriptyline/"</script>
+<a href="/drugs/amitriptyline/">/drugs/amitriptyline/</a>
+</html>
