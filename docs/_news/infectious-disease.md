@@ -13,7 +13,7 @@ permalink: /news/infectious-disease/
 
 ---
 
-**1 articles** related to infectious disease.
+**2 articles** related to infectious disease.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/infectious-disease/
 2026-11-16
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-start-up-taps-peptide-power-to-tackle-pet-infections-seeks-to-replace-chemical)
+
+---
+
+### [S’pore’s CDA designated a WHO collaborating centre for infection prevention and control](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
+
+2026-11-16
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
 
 ---
 
