@@ -1,28 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/promethazine-hcl/
 sitemap: false
-layout: default
-title: PROMETHAZINE HCL
-parent: Known Uses Only (No New Predictions)
-nav_order: 363
-last_modified_date: 2026-03-11
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# PROMETHAZINE HCL
-
-{: .warning }
-
-## Overview
-
-| Property | Value |
-|----------|-------|
-| Singapore Market Status | Marketed (valid licences: 17 of 17) |
-| Number of Registrations | 17 (valid: 17) |
-| Drug Name | PROMETHAZINE HCL |
-| DrugBank ID | [DB01069](https://go.drugbank.com/drugs/DB01069) |
-| HSA Status | Registered with Health Sciences Authority |
-| DL Predictions (≥0.7) | 32 |
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/promethazine/">
+<meta http-equiv="refresh" content="0; url=/drugs/promethazine/">
+<script>location="/drugs/promethazine/"</script>
+<a href="/drugs/promethazine/">/drugs/promethazine/</a>
+</html>
