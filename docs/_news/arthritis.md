@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**4 articles** related to arthritis.
-
----
-
-### [Her paycheck stopped when cancer hit, her insurance payout didn’t](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
-
-2026-11-17
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential)
+**3 articles** related to arthritis.
 
 ---
 
