@@ -121,6 +121,10 @@ This platform integrates multiple authoritative public data sources including AI
 
 Browse the full [Drug List](/drugs/), or filter candidates by evidence tier: [High](/evidence-high/), [Medium](/evidence-medium/), [Low](/evidence-low/). Example reports: [Temozolomide](/drugs/temozolomide/), [Vonoprazan](/drugs/vonoprazan/).
 
+<p class="key-answer" data-question="Which medicines approved by HSA in Singapore have clinical trial evidence for a new indication?">
+Start with the <a href="/evidence-high/">High evidence tier</a> — these are HSA-registered medicines whose TxGNN-predicted new indication is already backed by ClinicalTrials.gov trial records and PubMed literature, not AI prediction alone. Each report's Clinical Trial Evidence and Literature Evidence tables link directly to the underlying trial registration and paper.
+</p>
+
 The complete dataset behind these predictions — along with the source code used to generate it — is free and openly downloadable from the public GitHub repository listed under Contact & Feedback below.
 
 ---
