@@ -13,21 +13,13 @@ permalink: /news/depression/
 
 ---
 
-**2 articles** related to depression.
-
----
-
-### [From IMH to the National Centre for Mental Health, and what the new name means for Singapore](https://www.straitstimes.com/singapore/health/from-imh-to-the-national-centre-for-mental-health-and-what-the-new-name-means-for-singapore)
-
-2026-11-17
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/from-imh-to-the-national-centre-for-mental-health-and-what-the-new-name-means-for-singapore)
+**1 articles** related to depression.
 
 ---
 
 ### [Proposed guidelines aim to ease parental consent rules for youth seeking mental health care](https://www.straitstimes.com/singapore/health/feedback-needed-on-moves-to-help-young-people-better-access-mental-health-support)
 
-2026-11-17
+2026-11-18
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/feedback-needed-on-moves-to-help-young-people-better-access-mental-health-support)
 
