@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**3 articles** related to arthritis.
+**4 articles** related to arthritis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/arthritis/
 2026-11-18
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
+
+---
+
+### [Dancing to be prescribed for Parkinson’s disease patients at Alexandra Hospital](https://www.straitstimes.com/singapore/health/dancing-will-be-prescribed-for-parkinsons-disease-patients-at-alexandra-hospital)
+
+2026-11-18
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/dancing-will-be-prescribed-for-parkinsons-disease-patients-at-alexandra-hospital)
 
 ---
 

@@ -17,11 +17,11 @@ permalink: /news/depression/
 
 ---
 
-### [Proposed guidelines aim to ease parental consent rules for youth seeking mental health care](https://www.straitstimes.com/singapore/health/feedback-needed-on-moves-to-help-young-people-better-access-mental-health-support)
+### [New name for IMH is the first step towards fighting mental health stigma](https://www.straitstimes.com/singapore/health/new-name-for-imh-is-the-first-step-towards-fighting-mental-health-stigma)
 
 2026-11-18
 
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/feedback-needed-on-moves-to-help-young-people-better-access-mental-health-support)
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-name-for-imh-is-the-first-step-towards-fighting-mental-health-stigma)
 
 ---
 

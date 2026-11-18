@@ -13,15 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**4 articles** related to multiple sclerosis.
-
----
-
-### [Small steps, big pay-off: KKH aims to get critically ill children back on their feet faster](https://www.straitstimes.com/singapore/health/small-steps-big-pay-off-getting-critically-ill-children-back-on-their-feet-faster)
-
-2026-11-18
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/small-steps-big-pay-off-getting-critically-ill-children-back-on-their-feet-faster)
+**3 articles** related to multiple sclerosis.
 
 ---
 
