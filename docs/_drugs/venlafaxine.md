@@ -5,7 +5,7 @@ layout: default
 title: Venlafaxine
 parent: Known Uses Only (No New Predictions)
 nav_order: 1062
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Venlafaxine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Venlafaxine"
 predicted_indications: []

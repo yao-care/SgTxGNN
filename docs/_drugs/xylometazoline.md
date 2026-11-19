@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1080
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Xylometazoline"
 predicted_indications: ["nasal cavity disease"]
 description: "Xylometazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Not recorded in the local data"

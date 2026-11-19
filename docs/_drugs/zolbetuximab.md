@@ -5,7 +5,7 @@ layout: default
 title: Zolbetuximab
 parent: Known Uses Only (No New Predictions)
 nav_order: 1087
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Zolbetuximab: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Zolbetuximab"
 predicted_indications: []

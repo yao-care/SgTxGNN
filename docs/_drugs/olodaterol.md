@@ -3,7 +3,7 @@ layout: default
 title: Olodaterol
 parent: Known Uses Only (No New Predictions)
 nav_order: 737
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Olodaterol"
 description: "Olodaterol: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []

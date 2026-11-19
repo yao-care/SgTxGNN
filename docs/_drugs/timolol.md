@@ -5,7 +5,7 @@ layout: default
 title: Timolol
 parent: Known Uses Only (No New Predictions)
 nav_order: 992
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Timolol: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Timolol"
 predicted_indications: []

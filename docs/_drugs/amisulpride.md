@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 90
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Amisulpride: known uses and market status in Singapore; currently no new candidate indication"
 predicted_indications: []
 ---

@@ -5,7 +5,7 @@ layout: default
 title: Cefepime
 parent: Known Uses Only (No New Predictions)
 nav_order: 221
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cefepime: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Cefepime"
 predicted_indications: []

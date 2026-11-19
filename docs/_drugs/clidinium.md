@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Clidinium"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clidinium: predicted new indication cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

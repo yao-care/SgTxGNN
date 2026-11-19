@@ -5,7 +5,7 @@ layout: default
 title: Benzatropine
 parent: Known Uses Only (No New Predictions)
 nav_order: 144
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Benzatropine: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "benzatropine"
 predicted_indications: []

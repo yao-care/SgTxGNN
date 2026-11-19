@@ -5,7 +5,7 @@ layout: default
 title: Dinoprostone
 parent: Known Uses Only (No New Predictions)
 nav_order: 335
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dinoprostone: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Dinoprostone"
 predicted_indications: []

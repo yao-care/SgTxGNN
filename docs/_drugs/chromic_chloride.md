@@ -5,7 +5,7 @@ layout: default
 title: Chromic Chloride
 parent: Known Uses Only (No New Predictions)
 nav_order: 247
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Chromic Chloride: known uses and market status in Singapore; currently no new candidate indication"
 monitor_inn: "Chromic chloride"
 predicted_indications: []
