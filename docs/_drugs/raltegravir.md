@@ -56,7 +56,7 @@ This is a model organism analogue of the approved indication, not a distinct new
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Raltegravir is a known HIV-1 integrase strand transfer inhibitor. It blocks the step in which viral DNA is inserted into the host genome.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for raltegravir: "Raltegravir is an HIV-1 antiviral drug. […] Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus." ([DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2), label version 2026-09-16; accessed 2026-11-19.) Raltegravir is a known HIV-1 integrase strand transfer inhibitor. It blocks the step in which viral DNA is inserted into the host genome.
 
 SIV integrase is closely related to HIV-1 integrase. Raltegravir has shown activity against SIVmac251 in vitro and in macaque models (PMID 20233398). Macaque studies of topical integrase inhibitors for post-exposure protection (PMID 24622515) and resistance profiling add preclinical support.
 
@@ -114,6 +114,19 @@ The predicted indications are either veterinary or animal-model versions of the 
 - Approved indication text for the Singapore licence
 - A clearly defined human indication, since the highest-scoring predictions are not new human uses
 - For any candidate, clinical evidence beyond model predictions and animal studies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **hyperamylasemia**, but there ar
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Ceftazidime belongs to the cephalosporin class, which kills bacteria by binding penicillin-binding proteins and blocking cell wall synthesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ceftazidime: "Ceftazidime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftazidime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: ceftazidime prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=112c5457-8d71-49f5-b531-9761d7d38c93), label version 2026-08-03; accessed 2026-11-19.) Ceftazidime belongs to the cephalosporin class, which kills bacteria by binding penicillin-binding proteins and blocking cell wall synthesis.
 
 Hyperamylasemia is a laboratory finding (raised blood amylase), not an infectious disease. No plausible antibacterial mechanism links ceftazidime to it, and the high model score appears to be a computational artefact rather than a pharmacological signal. The prediction is therefore not considered mechanistically supported.
 
@@ -111,11 +111,12 @@ The prediction is supported only by a model score (0.9951), with no trials, no l
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four licences are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ceftazidime prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=112c5457-8d71-49f5-b531-9761d7d38c93) |
 
 <!-- review:end log -->
 

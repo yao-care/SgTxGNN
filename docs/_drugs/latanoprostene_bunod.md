@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, latanoprostene bunod is converted into two active parts: latanoprost acid (a prostaglandin F2-alpha analogue acting on the FP receptor) and nitric oxide (NO). Together these increase fluid drainage from the eye and lower intraocular pressure. Laboratory data also show that it increases guanylyl cyclase activity (NO-mediated cGMP formation).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for latanoprostene bunod: "Latanoprostene bunod is thought to lower intraocular pressure by increasing outflow of aqueous humor through both the trabecular meshwork and uveoscleral routes. Intraocular pressure is a major modifiable risk factor for glaucoma progression." ([DailyMed: Vyzulta (latanoprostene bunod) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60ce7900-a677-4fc2-88d0-1603baa9dbd4), label version 2024-02-27; accessed 2026-11-19.) Based on known pharmacology, latanoprostene bunod is converted into two active parts: latanoprost acid (a prostaglandin F2-alpha analogue acting on the FP receptor) and nitric oxide (NO). Together these increase fluid drainage from the eye and lower intraocular pressure. Laboratory data also show that it increases guanylyl cyclase activity (NO-mediated cGMP formation).
 
 The link to visceral calciphylaxis is weak. NO-mediated vasodilation could theoretically relate to calcific vasculopathy. However, calciphylaxis involves widespread vascular calcification and clotting, and an eye drop gives minimal systemic exposure. The prediction is therefore best viewed as a hypothesis from the model, not a mechanistically supported finding.
 
@@ -112,6 +112,19 @@ The prediction for visceral calciphylaxis is supported only by the model score (
 - Evidence that clinically relevant systemic or local exposure can be reached by a suitable route and formulation
 - Preclinical or mechanistic studies linking NO or FP-receptor signalling to calcific vasculopathy
 - For primary hereditary glaucoma, targeted studies in paediatric or developmental glaucoma, which could be pursued as a separate research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vyzulta (latanoprostene bunod) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60ce7900-a677-4fc2-88d0-1603baa9dbd4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

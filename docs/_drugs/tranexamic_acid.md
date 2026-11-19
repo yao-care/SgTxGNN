@@ -60,7 +60,7 @@ The prediction is best treated as a research question rather than an actionable 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tranexamic acid is a lysine analogue that blocks plasminogen binding to fibrin, which reduces fibrinolysis. It is established for heavy menstrual bleeding.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tranexamic acid: "Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure." ([DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5), label version 2025-09-03; accessed 2026-11-19.) Based on known pharmacology, tranexamic acid is a lysine analogue that blocks plasminogen binding to fibrin, which reduces fibrinolysis. It is established for heavy menstrual bleeding.
 
 The high TxGNN score for amenorrhea probably reflects the drug's close association with menstrual disorders. However, amenorrhea means the absence of menses, so a drug that reduces bleeding does not treat it. The biological link is indirect. At most, tranexamic acid might play a role in menstrual suppression or prophylaxis, for example in women with haematological cancers, but that is not treatment of amenorrhea as a condition.
 
@@ -139,11 +139,12 @@ The prediction rests on model score alone plus two indirect reviews, and there a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All six licences are single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
 
 <!-- review:end log -->
 

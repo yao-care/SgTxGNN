@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **osteoarthritis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, leuprolide is a GnRH agonist that ultimately suppresses gonadal sex steroids. This effect explains its use in endometriosis and precocious puberty.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for leuprolide: "Leuprolide acetate, a gonadotropin releasing hormone (GnRH) agonist, acts as an inhibitor of gonadotropin secretion when given continuously in therapeutic doses. Animal and human studies indicate that after an initial stimulation, chronic administration of leuprolide acetate results in suppression of testicular and ovarian steroidogenesis." ([DailyMed: Vabrinty (leuprolide acetate) prescribing information, URONOVA PHARMACEUTICALS, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=008776cc-83f1-4f8c-819b-6471425da15f), label version 2026-04-30; accessed 2026-11-19.) Based on known information, leuprolide is a GnRH agonist that ultimately suppresses gonadal sex steroids. This effect explains its use in endometriosis and precocious puberty.
 
 For osteoarthritis, however, no credible mechanistic link has been identified. Sex hormone depletion is generally associated with bone loss and joint pain (arthralgia), not cartilage protection. The high TxGNN score therefore looks like a TxGNN model (deep learning) artifact rather than a true therapeutic signal.
 
@@ -119,11 +119,12 @@ The prediction is computational only (L5). There are no trials, the single retri
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 6 licences are single-ingredient products and all are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vabrinty (leuprolide acetate) prescribing information, URONOVA PHARMACEUTICALS, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=008776cc-83f1-4f8c-819b-6471425da15f) |
 
 <!-- review:end log -->
 

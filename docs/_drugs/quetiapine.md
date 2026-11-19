@@ -56,7 +56,7 @@ The best-supported candidate in the data compiled for this report is **trichotil
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, quetiapine is an atypical antipsychotic that mainly acts on dopamine and serotonin receptors. Its efficacy in schizophrenia and bipolar disorder is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for quetiapine: "The mechanism of action of quetiapine in the listed indications is unclear. However, the efficacy of quetiapine in these indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2A (5HT 2A ) antagonism." ([DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933), label version 2026-10-08; accessed 2026-11-19.) Based on known information, quetiapine is an atypical antipsychotic that mainly acts on dopamine and serotonin receptors. Its efficacy in schizophrenia and bipolar disorder is established.
 
 For the top-ranked prediction, retinal dystrophy, no mechanistic link is established in the data compiled for this report. The high score is a computational prediction only. The same applies to the other top-ranked candidates (congenital disorder of glycosylation, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria, X-linked myopia, Charcot-Marie-Tooth type 1G). These are genetic or structural conditions with no apparent connection to quetiapine's receptor pharmacology.
 
@@ -131,11 +131,12 @@ The top-ranked prediction, retinal dystrophy, has no clinical trials, no literat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Twenty valid single-ingredient registrations exist; five are shown below" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->
 

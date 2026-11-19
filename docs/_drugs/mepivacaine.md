@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **gastroduodenitis**, but this 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mepivacaine is a sodium channel blocker local anaesthetic. It blocks nerve conduction to produce temporary loss of sensation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for mepivacaine: "Local anesthetics block the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Polocaine-Mpf (mepivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a27d0815-ae6b-4a21-a8f5-564c01e83814), label version 2022-10-01; accessed 2026-11-19.) Based on known information, mepivacaine is a sodium channel blocker local anaesthetic. It blocks nerve conduction to produce temporary loss of sensation.
 
 For gastroduodenitis, the data compiled for this report do not support a mechanistic rationale. No trials or publications link mepivacaine to this condition. Local anaesthesia would also not address the underlying causes of gastroduodenal inflammation.
 
@@ -141,6 +141,19 @@ The prediction for gastroduodenitis rests on a model score alone, with no clinic
 - Approved indication text for the Singapore licences
 - Confirmation of which anaesthetic agent was used in the tourniquet-hypertension trials
 - Route compatibility and similarity-to-original-indication assessments, which have not yet been done
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polocaine-Mpf (mepivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a27d0815-ae6b-4a21-a8f5-564c01e83814) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

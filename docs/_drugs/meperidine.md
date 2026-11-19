@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **headache disorder** (the high
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, meperidine is a mu-opioid agonist with analgesic effects (and weak serotonergic and anticholinergic activity). Its efficacy for pain has long been established, and mechanistically it may be applicable to severe headache pain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for meperidine: "Meperidine hydrochloride is an opioid agonist with multiple actions qualitatively similar to those of morphine; the most prominent of these involve the central nervous system and organs composed of smooth muscle. The principal actions of therapeutic value are analgesia and sedation." ([DailyMed: Demerol (meperidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b31d1308-28c3-43f4-e0a6-2f3ed76b8975), label version 2026-07-20; accessed 2026-11-19.) Based on known information, meperidine is a mu-opioid agonist with analgesic effects (and weak serotonergic and anticholinergic activity). Its efficacy for pain has long been established, and mechanistically it may be applicable to severe headache pain.
 
 Historically, meperidine has been given by injection for acute migraine in emergency departments, and North American emergency departments have used it widely. This is the main reason the prediction is plausible: the link is analgesic rather than disease-modifying.
 
@@ -127,6 +127,19 @@ Guidelines discourage opioids for migraine because of dependence, medication-ove
 - Full-text review of the key RCTs and the meta-analysis (PMID 18632186) to extract effect sizes versus non-opioid comparators
 - Confirmation of the approved indication for the Singapore licence
 - Assessment of whether any benefit outweighs dependence, medication-overuse headache and normeperidine neurotoxicity risks, compared with guideline-recommended first-line agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Demerol (meperidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b31d1308-28c3-43f4-e0a6-2f3ed76b8975) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

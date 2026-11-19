@@ -60,7 +60,7 @@ The literature found is only indirectly related, so this prediction rests mainly
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Pregabalin is known to bind the alpha2-delta subunit of voltage-gated calcium channels. This reduces the release of excitatory neurotransmitters, which may help the neuropathic or centrally sensitized components of pain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pregabalin: "Pregabalin binds with high affinity to the alpha 2 ‑delta site (an auxiliary subunit of voltage‑gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 ‑delta subunit may be involved in pregabalin’s anti‑nociceptive and antiseizure effects in animals." ([DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd), label version 2026-03-12; accessed 2026-11-19.) Pregabalin is known to bind the alpha2-delta subunit of voltage-gated calcium channels. This reduces the release of excitatory neurotransmitters, which may help the neuropathic or centrally sensitized components of pain.
 
 Its original indications (fibromyalgia, myofascial pain, postherpetic neuralgia) are all chronic pain conditions. Tendinitis is a musculoskeletal pain condition, so the model may be picking up this shared pain pathway. Pregabalin could plausibly help where tendon pain has a nerve-related or centrally amplified component.
 
@@ -146,11 +146,12 @@ The 0.9971 TxGNN score is a computational prediction only. No clinical trials ex
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Pregabalin has 20 valid single-ingredient licences in Singapore, all oral capsules" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
 
 <!-- review:end log -->
 

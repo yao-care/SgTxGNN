@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and only **1 publication** (a ca
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ambrisentan is known as an endothelin type A receptor antagonist, which reduces vasoconstriction and vascular proliferation in the pulmonary circulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ambrisentan: "Endothelin-1 (ET-1) is a potent autocrine and paracrine peptide. Two receptor subtypes, ET A and ET B, mediate the effects of ET-1 in the vascular smooth muscle and endothelium. […] Ambrisentan is a high-affinity (K i =0.011 nM) ET A receptor antagonist with a high selectivity for the ET A versus ET B receptor (>4000-fold)." ([DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844), label version 2026-06-22; accessed 2026-11-19.) Ambrisentan is known as an endothelin type A receptor antagonist, which reduces vasoconstriction and vascular proliferation in the pulmonary circulation.
 
 Pulmonary arteriovenous malformations (commonly seen in hereditary hemorrhagic telangiectasia, HHT) involve abnormal vascular remodelling, which is the plausible reason the model links the two. However, the only linked publication describes pulmonary arterial hypertension coexisting with HHT, not treatment of the malformation itself.
 
@@ -102,6 +102,19 @@ The prediction score is high, but no trial directly studies this disease, and th
 - Mechanism of action data and a safety assessment, particularly regarding shunting
 - Package insert warnings and contraindications from the regulator
 - Clarification of the approved indication text for the local licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -57,7 +57,7 @@ The evidence level is L5 because the only cited study is a feline antiretroviral
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) that acts against HIV-1 reverse transcriptase. Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and also depends on reverse transcriptase, so activity against it is biologically plausible.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for emtricitabine: "Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ." ([DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f), label version 2026-11-06; accessed 2026-11-19.) Based on known pharmacology, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) that acts against HIV-1 reverse transcriptase. Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and also depends on reverse transcriptase, so activity against it is biologically plausible.
 
 The single publication (PMID 37112803, 2023) tested a combination antiretroviral regimen in FIV-infected cats. According to the abstract excerpt, the regimen included dolutegravir, tenofovir and emtricitabine. The excerpt is truncated, so the outcomes cannot be confirmed here.
 
@@ -114,6 +114,19 @@ The prediction is for a veterinary condition, supported by no clinical trials an
 - Package insert warnings and contraindications from HSA
 - Mechanism of action data from DrugBank
 - A decision on whether a veterinary indication falls within the programme's scope
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

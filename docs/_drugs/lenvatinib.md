@@ -56,7 +56,7 @@ No randomised trial exists yet.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, lenvatinib inhibits several receptor tyrosine kinases (VEGFR1-3, FGFR1-4, PDGFRα, RET, KIT). This suppresses tumour angiogenesis and proliferative signalling, which are relevant in many solid tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lenvatinib: "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET." ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e), label version 2026-10-14; accessed 2026-11-19.) Based on general knowledge, lenvatinib inhibits several receptor tyrosine kinases (VEGFR1-3, FGFR1-4, PDGFRα, RET, KIT). This suppresses tumour angiogenesis and proliferative signalling, which are relevant in many solid tumours.
 
 Liposarcoma is a soft tissue sarcoma that depends on blood supply and growth-factor signalling. Combined with eribulin, a microtubule inhibitor, lenvatinib showed activity in advanced liposarcoma and leiomyosarcoma in a clinical study. CDK4 amplification, common in well-differentiated and dedifferentiated liposarcoma, is discussed in the literature as a context for synergistic inhibition.
 
@@ -117,6 +117,18 @@ The evidence level is L3. It rests on one completed single-arm phase Ib/II study
 - Package insert warnings and contraindications, which are not available in the data compiled for this report
 - A review of the Major-level interactions, particularly QT-prolonging agents such as dolasetron and cisapride, before any use
 - A safety monitoring plan for the lenvatinib plus eribulin combination
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -60,7 +60,7 @@ The more credible related directions are **respiratory tract infection** (5 clin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, polymyxin B binds lipopolysaccharide on the outer membrane of Gram-negative bacteria and disrupts it, which is bactericidal. It is often a last-line option for multidrug-resistant organisms such as *Pseudomonas aeruginosa*, *Acinetobacter baumannii* and carbapenem-resistant *Klebsiella pneumoniae*.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for polymyxin b: "Polymyxin B sulfate has a bactericidal action against almost all gram-negative bacilli except the Proteus group. Polymyxins increase the permeability of bacterial cell membrane leading to death of the cell. All gram positive bacteria, fungi, and gram-negative cocci are resistant to polymyxin B. For specific information regarding susceptibility test criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: www.fda.gov/STIC." ([DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6), label version 2026-06-22; accessed 2026-11-19.) From general knowledge, polymyxin B binds lipopolysaccharide on the outer membrane of Gram-negative bacteria and disrupts it, which is bactericidal. It is often a last-line option for multidrug-resistant organisms such as *Pseudomonas aeruginosa*, *Acinetobacter baumannii* and carbapenem-resistant *Klebsiella pneumoniae*.
 
 This makes bacterial infections of the airways a plausible target. One cohort study reported inhaled polymyxin B for salvage treatment of pneumonia and initial treatment of tracheobronchitis caused by multidrug-resistant Gram-negative bacilli, and a comparison study looked at ventilator-associated pneumonia and tracheobronchitis.
 
@@ -163,11 +163,12 @@ The bronchitis prediction has a very high model score but no registered trials. 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
 
 <!-- review:end log -->
 

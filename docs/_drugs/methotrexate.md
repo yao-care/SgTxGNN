@@ -66,7 +66,7 @@ The better-supported predicted directions are **Hodgkin lymphoma** (45 trials, 2
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, methotrexate is an antifolate that inhibits dihydrofolate reductase (DHFR). This suppresses purine and pyrimidine synthesis and therefore DNA synthesis in rapidly dividing cells. Its efficacy in lymphoid malignancies (acute lymphoblastic leukemia, non-Hodgkin lymphoma) is established, and at lower doses it also acts as an anti-inflammatory and immunomodulatory agent in rheumatoid arthritis and psoriasis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methotrexate: "Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate." ([DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e), label version 2026-11-05; accessed 2026-11-19.) Based on general pharmacology, methotrexate is an antifolate that inhibits dihydrofolate reductase (DHFR). This suppresses purine and pyrimidine synthesis and therefore DNA synthesis in rapidly dividing cells. Its efficacy in lymphoid malignancies (acute lymphoblastic leukemia, non-Hodgkin lymphoma) is established, and at lower doses it also acts as an anti-inflammatory and immunomodulatory agent in rheumatoid arthritis and psoriasis.
 
 For the top-ranked prediction, pulmonary blastoma, the link is only a general one: an antiproliferative drug acting on a proliferative lung malignancy. No study supports it. The predictions for lymphoid and sarcoma diseases (primary pulmonary lymphoma, Hodgkin lymphoma, rhabdomyosarcoma) are more plausible because methotrexate is already used in related cancers, and some historical studies exist. For small cell lung carcinoma, methotrexate was used in older combination regimens, but the data do not show a methotrexate-specific benefit.
 
@@ -194,6 +194,19 @@ The top-ranked prediction, pulmonary blastoma, rests on the model score alone (L
 - For rhabdomyosarcoma: confirmation of whether NCT00357084 concerns this disease, and a comparison with current standard regimens
 - Route compatibility and similarity-to-original analyses, which are still pending
 - A safety plan covering hepatic, renal, pulmonary and hematologic toxicity, and the interaction risks above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

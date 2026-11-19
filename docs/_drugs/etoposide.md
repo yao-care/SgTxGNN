@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **well-differentiated fetal adenocarc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Etoposide is known as a topoisomerase II inhibitor: it causes DNA strand breaks that kill rapidly dividing cells. It is established in small cell lung cancer and germ cell tumours, and mechanistically may be applicable to other fast-growing tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etoposide: "Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death." ([DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059), label version 2026-10-07; accessed 2026-11-19.) Etoposide is known as a topoisomerase II inhibitor: it causes DNA strand breaks that kill rapidly dividing cells. It is established in small cell lung cancer and germ cell tumours, and mechanistically may be applicable to other fast-growing tumours.
 
 For the rank 1 prediction, well-differentiated fetal adenocarcinoma is one component of pulmonary blastoma, a rare lung malignancy. Etoposide is already used in lung cancer, and platinum/etoposide regimens are applied to pulmonary blastoma by analogy. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -180,6 +180,19 @@ The Singapore package insert warnings and contraindications were not available f
 - Detailed mechanism of action data from DrugBank
 - Confirmation of whether the Singapore licence covers sarcoma use, and any route or formulation requirements (route compatibility has not yet been assessed)
 - A myelosuppression monitoring plan and review of interacting drugs for the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

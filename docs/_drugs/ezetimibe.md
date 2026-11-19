@@ -56,7 +56,7 @@ but there are **0 clinical trials** and **no publication that directly studies t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general pharmacology, ezetimibe inhibits NPC1L1-mediated intestinal cholesterol absorption and thereby lowers LDL-C. CETP deficiency affects lipoprotein cholesterol metabolism by impairing cholesteryl ester transfer, which raises HDL-C and lowers LDL-C.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ezetimibe: "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), label version 2026-10-08; accessed 2026-11-19.) Based on general pharmacology, ezetimibe inhibits NPC1L1-mediated intestinal cholesterol absorption and thereby lowers LDL-C. CETP deficiency affects lipoprotein cholesterol metabolism by impairing cholesteryl ester transfer, which raises HDL-C and lowers LDL-C.
 
 The link between the two is plausible only in a general sense: both involve lipoprotein cholesterol handling. The very high TxGNN score is a computational output and does not by itself show clinical benefit. CETP deficiency is typically a benign or even favourable lipid phenotype (high HDL-C) that does not usually require LDL-lowering therapy, so the clinical rationale for treatment is weak.
 
@@ -121,11 +121,12 @@ The prediction rests on a model score alone. There are no clinical trials and no
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "At least 20 valid licences are listed (the list may be partial)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
 
 <!-- review:end log -->
 

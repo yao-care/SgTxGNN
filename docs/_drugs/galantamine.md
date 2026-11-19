@@ -56,7 +56,7 @@ The strongest related evidence (**20 publications**, no registered trials) is fo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, galantamine is an acetylcholinesterase inhibitor that also modulates nicotinic receptors. It has an established role in Alzheimer disease, where cholinergic signalling is reduced.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for galantamine: "Although the etiology of cognitive impairment in Alzheimer’s disease (AD) is not fully understood, it has been reported that acetylcholine-producing neurons degenerate in the brains of patients with Alzheimer’s disease. The degree of this cholinergic loss has been correlated with degree of cognitive impairment and density of amyloid plaques (a neuropathological hallmark of Alzheimer’s disease). […] Galantamine, a tertiary alkaloid, is a competitive and reversible inhibitor of acetylcholinesterase." ([DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1), label version 2026-07-02; accessed 2026-11-19.) From general pharmacology, galantamine is an acetylcholinesterase inhibitor that also modulates nicotinic receptors. It has an established role in Alzheimer disease, where cholinergic signalling is reduced.
 
 For psychogenic movement disorders, the link is weak. A link through cholinergic or nicotinic modulation of motor circuits is speculative, and a functional disorder has no established cholinesterase-inhibitor target. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -123,6 +123,19 @@ The top prediction, psychogenic movement disorders, rests on the model score alo
 - A direct literature and trial search for galantamine in psychogenic movement disorders.
 - If a movement-disorder direction is pursued, tardive dyskinesia is the more evidence-supported candidate (L4, "Research Question"). It would need a review of the existing galantamine crossover trial (PMID 17388711) and of the class-level Cochrane findings.
 - A safety review of the QT, cardiac conduction, and anticholinergic interactions, plus the movement-disorder adverse-effect signal.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

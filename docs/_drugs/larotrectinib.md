@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, larotrectinib is a selective inhibitor of the TRK receptor kinases (TRKA, TRKB and TRKC). It works against tumours driven by NTRK gene fusions, regardless of where in the body the tumour began.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for larotrectinib: "Larotrectinib is an inhibitor of the tropomyosin receptor kinases (TRK), TRKA, TRKB, and TRKC. In a broad panel of purified enzyme assays, larotrectinib inhibited TRKA, TRKB, and TRKC with IC 50 values between 5-11 nM. One other kinase TNK2 was inhibited at approximately 100-fold higher concentration." ([DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd), label version 2026-05-22; accessed 2026-11-19.) Based on known information, larotrectinib is a selective inhibitor of the TRK receptor kinases (TRKA, TRKB and TRKC). It works against tumours driven by NTRK gene fusions, regardless of where in the body the tumour began.
 
 Multiple endocrine neoplasia type 2 (MEN2) is mainly driven by activating germline mutations in the RET gene, not by TRK signalling. The link between the drug and this disease is therefore indirect. Any benefit would probably depend on a co-occurring NTRK fusion or on bypass-pathway signalling, not on the RET lesion that defines the condition. The available literature discusses kinase inhibitors in thyroid cancer and resistance to RET inhibitors, which gives context but does not show that larotrectinib works in this disease.
 
@@ -118,6 +118,19 @@ The TxGNN score is high, but the only trial is a broad basket study with no resu
 - Evidence that NTRK fusions or TRK-dependent signalling occur in multiple endocrine neoplasia
 - Clinical data (case series or trial arms) in NTRK fusion-positive patients with this disease
 - Review of the clarithromycin interaction and other CYP-related interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

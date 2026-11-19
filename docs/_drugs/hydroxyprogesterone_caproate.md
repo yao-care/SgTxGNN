@@ -54,7 +54,7 @@ Hydroxyprogesterone caproate is a synthetic progestin given as an injection. The
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Based on general pharmacology, hydroxyprogesterone caproate is a progestin. Progestins suppress the growth of both normal and ectopic endometrial tissue, so a biological rationale exists for endometriosis. Uterine involvement is essentially adenomyosis.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for hydroxyprogesterone caproate: "Hydroxyprogesterone is a potent, long-acting, progestational steroid ester which transforms proliferative endothelium into secretory endothelium, induces mammary gland duct development, and inhibits the production and/or release of gonadotropic hormone; it also shows slight estrogenic, androgenic, or corticoid effects as well, but should not be relied upon for these effects. In advanced adenocarcinoma of the uterine corpus, Hydroxyprogesterone Caproate Injection, USP in a dosage of 1,000 mg or more, one or more times each week, often induces regressive changes." ([DailyMed: hydroxyprogesterone caproate prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=687bcf42-f437-42c7-8909-a91f621f55df), label version 2026-06-12; accessed 2026-11-19.) Based on general pharmacology, hydroxyprogesterone caproate is a progestin. Progestins suppress the growth of both normal and ectopic endometrial tissue, so a biological rationale exists for endometriosis. Uterine involvement is essentially adenomyosis.
 
 This rationale is general to the progestin class. No data specific to hydroxyprogesterone caproate support the use. The single linked publication describes a complication of endometriosis (bleeding in pregnancy), not a treatment effect. The high score is a computational prediction and should not be read as proof of efficacy.
 
@@ -92,6 +92,18 @@ The prediction is supported only by the model score and a general progestin rati
 - Mechanism of action data for this drug
 - Clinical or observational studies of hydroxyprogesterone caproate in endometriosis or adenomyosis
 - Assessment of whether the injectable route and dosing suit long-term treatment of this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: hydroxyprogesterone caproate prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=687bcf42-f437-42c7-8909-a91f621f55df) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -56,7 +56,7 @@ Support is thin: **no registered clinical trials** and **1 publication**, a 1964
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Betamethasone belongs to the corticosteroid class, which broadly suppresses inflammation and immune activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for betamethasone: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of SERNIVO Spray in psoriasis is unknown." ([DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66), label version 2026-04-22; accessed 2026-11-19.) Betamethasone belongs to the corticosteroid class, which broadly suppresses inflammation and immune activity.
 
 Alopecia mucinosa (follicular mucinosis) is a hair-follicle disorder in which mucin builds up in the follicles, usually with an inflammatory component. Because of this inflammation, an anti-inflammatory corticosteroid could plausibly help, and corticosteroids are among the treatments discussed for the condition.
 
@@ -122,11 +122,12 @@ The model score is very high (0.9997), but the only evidence for alopecia mucino
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Singapore has 20 valid single-ingredient betamethasone licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
 
 <!-- review:end log -->
 

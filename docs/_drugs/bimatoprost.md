@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is a **malformation syndrome with odonta
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, bimatoprost is a prostamide/prostaglandin F2-alpha analog. It lowers intraocular pressure in glaucoma, and it also prolongs the hair growth (anagen) phase, which explains its use for eyelash hypotrichosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bimatoprost: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), label version 2024-10-16; accessed 2026-11-19.) Based on known information, bimatoprost is a prostamide/prostaglandin F2-alpha analog. It lowers intraocular pressure in glaucoma, and it also prolongs the hair growth (anagen) phase, which explains its use for eyelash hypotrichosis.
 
 For this top-ranked prediction, **no identifiable mechanistic link** was found. The score is very high, but a developmental malformation syndrome with a dental or periodontal component has no known connection to prostaglandin analog activity. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Without supporting trials or literature, it should not be treated as a credible repurposing lead.
 
@@ -118,6 +118,19 @@ The top-ranked prediction is supported only by a model score (L5), with no trial
 - If the goal is hair-related repurposing, redirect to **alopecia**, the best-supported candidate (evidence level L2, "Research Question"). Completed Phase 2 trials include NCT01325337 (307 men with androgenetic alopecia), NCT01325350 (306 women with female pattern hair loss) and NCT01904721 (244 men). However, they are not Phase 3 and the scalp efficacy evidence is mixed.
 - Obtain the Singapore package insert (warnings, contraindications, approved indications) and detailed mechanism of action data.
 - Note that the Ambras-type hypertrichosis prediction (rank 4) is mechanistically opposed, because bimatoprost promotes hair growth, and treatment could worsen that condition.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

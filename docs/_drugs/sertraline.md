@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **schizoid personality disorder**,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug in the data compiled for this report. The predicted disease comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sertraline: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7), label version 2023-08-08; accessed 2026-11-19.) The predicted disease comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Schizoid personality disorder is characterised by social withdrawal and restricted emotional expression. Any benefit would be speculative and would most likely come from easing co-occurring anxiety, social withdrawal or depressive symptoms, not from treating the core personality traits. The model score is very high, but no study has tested this idea directly.
 
@@ -108,6 +108,19 @@ The prediction score is very high, but there are no clinical trials and no publi
 - Review of the interaction profile, especially the Major interactions listed above
 
 It is better treated as an extension of existing anxiety-related uses than as a true repurposing, and it could be assessed separately.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for this drug in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

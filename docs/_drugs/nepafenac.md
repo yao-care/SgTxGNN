@@ -54,7 +54,7 @@ Nepafenac is a topical NSAID prodrug eye drop, marketed in Singapore as NevanacÂ
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in DrugBank. Based on the published literature, nepafenac is a prodrug. Corneal and ocular tissue enzymes convert it to amfenac, which inhibits COX-1 and COX-2. This lowers prostaglandin synthesis, and so reduces ocular inflammation, pain and breakdown of the blood-retinal barrier.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nepafenac: "After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production." ([DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547), label version 2026-04-01; accessed 2026-11-19.) Based on the published literature, nepafenac is a prodrug. Corneal and ocular tissue enzymes convert it to amfenac, which inhibits COX-1 and COX-2. This lowers prostaglandin synthesis, and so reduces ocular inflammation, pain and breakdown of the blood-retinal barrier.
 
 Its use after cataract surgery is well established, and pharmacokinetic work shows that topical dosing delivers amfenac to the back of the eye. The same mechanism supports its use for cystoid and diabetic macular edema. Animal studies also suggest it may inhibit retinal neovascularisation and diabetes-induced retinal microvascular disease.
 
@@ -131,6 +131,19 @@ Multiple completed Phase 3 trials, including large randomised trials after catar
 - A corneal safety monitoring plan for high-risk patients.
 - Mechanism of action data from DrugBank.
 - Hold on the other predicted indications. Optic papillitis has indirect evidence only, vitreous detachment awaits results of the biomarker trial, and the remainder have no supporting evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in DrugBank" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

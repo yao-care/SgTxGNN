@@ -56,7 +56,7 @@ with **1 clinical trial** (a QT-interval safety study, not an efficacy trial) an
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. The following comes from the literature compiled for this report. Trabectedin binds the DNA minor groove and causes DNA double-strand breaks that depend on transcription-coupled nucleotide excision repair. Tumours with BRCA or other homologous recombination deficiencies are therefore especially sensitive. It also reduces tumour-associated macrophages, which changes the tumour microenvironment.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trabectedin: "Trabectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea), label version 2026-06-29; accessed 2026-11-19.) The following comes from the literature compiled for this report. Trabectedin binds the DNA minor groove and causes DNA double-strand breaks that depend on transcription-coupled nucleotide excision repair. Tumours with BRCA or other homologous recombination deficiencies are therefore especially sensitive. It also reduces tumour-associated macrophages, which changes the tumour microenvironment.
 
 Ovarian and breast cancers share a biological link through BRCA1/2 deficiency. A phase 2 study in germline BRCA1/2-mutated metastatic breast cancer was built on this reasoning. Preclinical work also shows that trabectedin enhances IL-12 antitumour effects in triple-negative breast cancer.
 
@@ -127,6 +127,19 @@ The only registered trial is a QT safety study, and published phase 2 breast can
 - Verification of NCT00786838 against the registry record
 - A biomarker-selected study design (for example, BRCA-deficient breast cancer) before any further development
 - A DDI management plan, particularly for strong CYP3A4 inhibitors such as clarithromycin
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

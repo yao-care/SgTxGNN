@@ -61,7 +61,7 @@ This prediction mostly restates the drug's existing HIV use in an animal model, 
 
 ## Why is This Prediction Reasonable?
 
-Rilpivirine is an NNRTI, a class of drugs that blocks the reverse transcriptase enzyme HIV-1 uses to copy its genetic material. Detailed mechanism of action data is not currently available in the compiled data, but this class mechanism is well established.
+Rilpivirine is an NNRTI, a class of drugs that blocks the reverse transcriptase enzyme HIV-1 uses to copy its genetic material. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for rilpivirine: "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), label version 2025-08-28; accessed 2026-11-19.) This class mechanism is well established.
 
 Simian immunodeficiency virus (SIV) and the chimeric SHIV/RT-SHIV used in macaque studies are the animal counterparts of HIV-1. RT-SHIV carries the HIV-1 reverse transcriptase, so it is a plausible target for rilpivirine. Macaque studies of long-acting rilpivirine, alone or with cabotegravir, report sustained virologic remission, a low frequency of drug-resistant variants and post-exposure prophylaxis activity.
 
@@ -124,6 +124,19 @@ The only supporting evidence is preclinical macaque data on a virus closely rela
 - Mechanism of action data from DrugBank
 - Clarification of whether a new human indication is actually being sought, or whether the goal is formulation or regimen expansion within HIV (for example long-acting use or pregnancy)
 - If so, human clinical evidence beyond the macaque studies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the compiled data, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension (with 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, eplerenone is a selective mineralocorticoid receptor antagonist. It blocks the effects of aldosterone, which promotes sodium retention, vascular tone, inflammation and fibrosis. Its efficacy in hypertension is established, and mechanistically the same pathway may apply to pulmonary vascular disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eplerenone: "Eplerenone binds to the mineralocorticoid receptor and blocks the binding of aldosterone, a component of the renin-angiotensin-aldosterone-system (RAAS). Aldosterone synthesis, which occurs primarily in the adrenal gland, is modulated by multiple factors, including angiotensin II and non-RAAS mediators such as adrenocorticotropic hormone (ACTH) and potassium." ([DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a), label version 2025-06-23; accessed 2026-11-19.) Based on known information, eplerenone is a selective mineralocorticoid receptor antagonist. It blocks the effects of aldosterone, which promotes sodium retention, vascular tone, inflammation and fibrosis. Its efficacy in hypertension is established, and mechanistically the same pathway may apply to pulmonary vascular disease.
 
 A plausible link to pulmonary vascular remodelling exists through MR-mediated fibrosis, inflammation and vascular tone. Preclinical work in the related hypoxia-associated category supports this idea:
 
@@ -141,11 +141,12 @@ The prediction score is very high and the mechanism is biologically plausible. H
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four licences are valid single-ingredient oral products, and none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
 
 <!-- review:end log -->
 

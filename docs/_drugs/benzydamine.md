@@ -60,7 +60,7 @@ At present there are **no clinical trials and no publications** supporting this 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Benzydamine is generally described as a locally acting NSAID-like agent with anti-inflammatory, local anaesthetic and membrane-stabilising properties.
+ChEMBL (EMBL-EBI) records the mechanism of action of benzydamine as: Cyclooxygenase inhibitor ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0; accessed 2026-11-19.) Benzydamine is generally described as a locally acting NSAID-like agent with anti-inflammatory, local anaesthetic and membrane-stabilising properties.
 
 A speculative link could be drawn to inflammation in the prostate, which is thought to play a role in benign prostatic hyperplasia. However, no clinical or literature evidence was compiled to support this, and the similarity between the drug's current uses and the predicted indication has not been assessed. The high score is a computational prediction only and should not be read as evidence of efficacy.
 
@@ -130,11 +130,12 @@ The prediction has a high model score but no supporting trials or publications, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 13 licences are for single-ingredient products and are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
 
 <!-- review:end log -->
 

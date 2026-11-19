@@ -56,7 +56,7 @@ but there are currently **0 registered clinical trials** and only **1 general re
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, imiglucerase is a recombinant form of human glucocerebrosidase. It replaces the deficient enzyme in Gaucher disease, where glucosylceramide accumulates in lysosomes.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imiglucerase: "Gaucher disease is characterized by a deficiency of β-glucocerebrosidase activity, which results in accumulation of glucocerebroside in various tissues including liver, spleen, and bone marrow. The mannose sugars on imiglucerase mediate binding to and internalization by cells including macrophages." ([DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38), label version 2026-08-27; accessed 2026-11-19.) Based on known information, imiglucerase is a recombinant form of human glucocerebrosidase. It replaces the deficient enzyme in Gaucher disease, where glucosylceramide accumulates in lysosomes.
 
 Hurler syndrome is a lysosomal storage disease caused by alpha-L-iduronidase deficiency. It therefore shares the broad context of lysosomal enzyme replacement with Gaucher disease. However, the link is categorical rather than mechanistic. Imiglucerase acts on glucosylceramide and has no known activity on glycosaminoglycan substrates. The high TxGNN score most likely reflects network proximity among lysosomal disorders. A specific enzyme therapy for MPS I (laronidase) already exists.
 
@@ -98,6 +98,19 @@ The prediction is supported only by a class-level link among lysosomal storage d
 - Preclinical evidence (for example, cell or animal models of MPS I) showing any effect of imiglucerase
 - Package insert warnings and contraindications from the HSA
 - A comparison against the existing standard of care for MPS I
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

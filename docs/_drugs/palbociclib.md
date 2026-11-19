@@ -54,7 +54,7 @@ Palbociclib is a CDK4/6 inhibitor (Ibrance) that is marketed in Singapore as an 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Palbociclib is known as a CDK4/6 inhibitor used in hormone receptor-positive, HER2-negative breast cancer. It blocks cell-cycle progression by inhibiting CDK4/6.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for palbociclib: "Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle." ([DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792), label version 2026-07-06; accessed 2026-11-19.) Palbociclib is known as a CDK4/6 inhibitor used in hormone receptor-positive, HER2-negative breast cancer. It blocks cell-cycle progression by inhibiting CDK4/6.
 
 **Hyperthyroidism (rank 1):** There is no clear mechanistic link. CDK4/6 inhibition has no established role in thyroid hormone excess.
 
@@ -170,11 +170,12 @@ Please refer to the package insert for warnings and contraindications, as label-
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three licences are valid single-ingredient products from Pfizer Manufacturing Deutschland GmbH, and the only route is oral" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
 
 <!-- review:end log -->
 

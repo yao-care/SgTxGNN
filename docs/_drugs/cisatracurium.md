@@ -56,7 +56,7 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, cisatracurium is a non-depolarising neuromuscular blocker. It antagonises nicotinic acetylcholine receptors at the neuromuscular junction, producing skeletal muscle relaxation during surgery and mechanical ventilation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cisatracurium: "Cisatracurium besylate binds competitively to cholinergic receptors on the motor end-plate to antagonize the action of acetylcholine, resulting in blockade of neuromuscular transmission. This action is antagonized by acetylcholinesterase inhibitors such as neostigmine." ([DailyMed: cisatracurium besylate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67908e20-044d-454d-9c51-bf106e817bd0), label version 2026-10-14; accessed 2026-11-19.) Based on known pharmacology, cisatracurium is a non-depolarising neuromuscular blocker. It antagonises nicotinic acetylcholine receptors at the neuromuscular junction, producing skeletal muscle relaxation during surgery and mechanical ventilation.
 
 The cauda equina syndrome prediction (score 0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should be regarded as **weak and unsupported**.
 
@@ -119,6 +119,19 @@ The TxGNN score is very high, but it is not backed by any clinical trial or rele
 - Detailed mechanism-of-action data and a pharmacological rationale for the predicted indication
 - Any preclinical or clinical studies of cisatracurium in the predicted conditions
 - A review of route and setting compatibility, since the drug is an injectable used under anaesthetic supervision
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cisatracurium besylate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67908e20-044d-454d-9c51-bf106e817bd0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

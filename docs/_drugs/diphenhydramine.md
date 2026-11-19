@@ -58,7 +58,7 @@ The better-supported candidates in the list are rhinitis (an on-label or near-la
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, diphenhydramine blocks the histamine H1 receptor and has anticholinergic and sedative effects. Its efficacy in allergic conjunctivitis and allergic rhinitis is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for diphenhydramine: "Diphenhydramine hydrochloride is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells. Diphenhydramine hydrochloride in the injectable form has a rapid onset of action." ([DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4), label version 2026-10-28; accessed 2026-11-19.) Based on known pharmacology, diphenhydramine blocks the histamine H1 receptor and has anticholinergic and sedative effects. Its efficacy in allergic conjunctivitis and allergic rhinitis is established.
 
 The model's high score for rosacea conjunctivitis probably reflects its similarity to the approved allergic eye indications and to H1 antagonism. However, rosacea-associated eye disease is driven mainly by meibomian gland dysfunction and inflammation rather than histamine, so the mechanistic rationale is **weak**. No trials or literature were found.
 
@@ -149,11 +149,12 @@ The model score is high (0.9920), but there are no trials or publications, and t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 14 valid single-ingredient licences in total (tablet, sugar-coated tablet, solution, syrup and elixir forms)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4) |
 
 <!-- review:end log -->
 

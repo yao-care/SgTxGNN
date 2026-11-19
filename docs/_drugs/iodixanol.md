@@ -57,7 +57,7 @@ This prediction is a computational signal only and is not supported by therapeut
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Iodixanol is an iodinated, non-ionic, iso-osmolar contrast agent. It has no known disease-modifying pharmacology, since it works by absorbing X-rays and so makes tissues visible on imaging.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for iodixanol: "Intravascular injection of iodixanol opacifies vessels in the path of flow of the contrast agent, permitting visualization of internal structures. In imaging of the body, iodinated contrast agents diffuse from the vascular into the extravascular space." ([DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e), label version 2026-10-16; accessed 2026-11-19.) Iodixanol is an iodinated, non-ionic, iso-osmolar contrast agent. It has no known disease-modifying pharmacology, since it works by absorbing X-rays and so makes tissues visible on imaging.
 
 The link to osteoarthritis appears to be an artifact. The retrieved publications use iodixanol to image articular cartilage and subchondral bone (contrast-enhanced CT and solute-transport modelling), and one checks its compatibility with platelet-rich plasma in vitro. None of these studies shows a therapeutic effect on osteoarthritis. The high TxGNN score most likely reflects co-occurrence of the drug and joint tissue in imaging research, not a repurposing signal.
 
@@ -113,6 +113,19 @@ The prediction rests only on a model score. No clinical trial exists, and the pu
 - Preclinical studies showing disease-modifying activity, not just imaging or diffusion behaviour
 - The Singapore package insert warnings and contraindications, which are not yet available for safety screening
 - A review of the route and dose, since the current products are intravascular injections and not intended as joint therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

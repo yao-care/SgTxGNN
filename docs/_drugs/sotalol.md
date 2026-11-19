@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **sick sinus syndrome 2, autosomal do
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sotalol is a class III antiarrhythmic and beta-blocker. It blocks the hERG (IKr) potassium channel, prolongs repolarisation, and slows sinus rate and atrioventricular conduction. Its efficacy in atrial fibrillation rhythm control is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sotalol: "Sotalol has both beta-adrenoreceptor blocking (Vaughan Williams Class II) and cardiac action potential duration prolongation (Vaughan Williams Class III) antiarrhythmic properties. The two isomers of sotalol have similar Class III antiarrhythmic effects, while the l-isomer is responsible for virtually all of the beta-blocking activity." ([DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee), label version 2024-12-16; accessed 2026-11-19.) Based on known pharmacology, sotalol is a class III antiarrhythmic and beta-blocker. It blocks the hERG (IKr) potassium channel, prolongs repolarisation, and slows sinus rate and atrioventricular conduction. Its efficacy in atrial fibrillation rhythm control is established.
 
 The predicted link to sick sinus syndrome is probably an artefact of the model. Both conditions involve cardiac rhythm, which probably explains the high score. Pharmacologically, however, slowing the sinus rate and AV conduction is likely to worsen sinus node dysfunction (bradycardia, sinus arrest). Sick sinus syndrome is a known contraindication for sotalol unless a pacemaker is in place. The prediction therefore most likely reflects a safety signal rather than a therapeutic opportunity.
 
@@ -124,6 +124,19 @@ The top prediction has no clinical or literature support (L5, model prediction o
 - Mechanism of action data from DrugBank
 - A review of whether the prediction reflects a model artefact from the contraindication relationship
 - For stroke, direct outcome evidence showing a benefit beyond AF rhythm control and anticoagulation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

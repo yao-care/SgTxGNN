@@ -56,7 +56,7 @@ Support is thin: **1 Phase 3 trial** (in which hydrocortisone was the low-potenc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Hydrocortisone is a glucocorticoid, and drugs in this class suppress inflammation and immune activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydrocortisone: "Hydrocortisone is a glucocorticoid. Glucocorticoids, adrenocortical steroids, cause varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli.." ([DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682), label version 2026-04-21; accessed 2026-11-19.) Hydrocortisone is a glucocorticoid, and drugs in this class suppress inflammation and immune activity.
 
 Alopecia areata is a T-cell-mediated autoimmune disease in which the immune system attacks hair follicles and causes patchy, non-scarring hair loss. Dampening that immune attack with a corticosteroid is biologically plausible, and corticosteroids are a standard approach for the condition.
 
@@ -128,11 +128,12 @@ The one Phase 3 trial used hydrocortisone 1% only as a low-potency comparator ag
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 16 single-ingredient licences are valid, mostly creams and ointments, plus one oral tablet and one otic suspension" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
 
 <!-- review:end log -->
 

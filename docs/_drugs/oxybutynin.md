@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known information, oxybutynin is an antimuscarinic agent whose efficacy in overactive bladder is well established. It acts by relaxing the bladder detrusor muscle.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxybutynin: "Oxybutynin relaxes bladder smooth muscle. Oxybutynin chloride exerts a direct antispasmodic effect on smooth muscle and inhibits the muscarinic action of acetylcholine on smooth muscle. No blocking effects occur at skeletal neuromuscular junctions or autonomic ganglia (antinicotinic effects)." ([DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67), label version 2026-11-11; accessed 2026-11-19.) Based on known information, oxybutynin is an antimuscarinic agent whose efficacy in overactive bladder is well established. It acts by relaxing the bladder detrusor muscle.
 
 The link to restless legs syndrome is speculative. A possible route is central or peripheral anticholinergic modulation, but nothing in the data compiled for this report supports it. Oxybutynin's anticholinergic burden could even aggravate sleep-related symptoms. The high score of 0.9974 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -115,6 +115,18 @@ Other predictions were also reviewed. None is stronger than the leading one as a
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
 | Peptic ulcer disease | 0.9931 | L5 | Only 1960s descriptive evaluations, plus a 1990 report of oxybutynin-induced reflux esophagitis. Hold. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

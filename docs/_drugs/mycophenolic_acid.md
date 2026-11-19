@@ -56,7 +56,7 @@ The evidence is weak and mostly indirect, so this is best treated as a research 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the drug record. From the literature compiled for this report, mycophenolic acid is known to inhibit inosine monophosphate dehydrogenase (IMPDH), an enzyme essential for guanine nucleotide synthesis. This suppresses the proliferation of T and B lymphocytes. Its prodrug, mycophenolate mofetil, is widely used to prevent rejection after organ transplantation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mycophenolic acid: "Mycophenolic acid (MPA), an immunosuppressant, is an uncompetitive and reversible inhibitor of inosine monophosphate dehydrogenase (IMPDH), and therefore inhibits the de novo pathway of guanosine nucleotide synthesis without incorporation to DNA. T- and B-lymphocytes are critically dependent for their proliferation on de novo synthesis of purines, whereas other cell types can utilize salvage pathways." ([DailyMed: Myfortic (mycophenolic acid) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eed26501-890d-4ff6-88e7-6dbea4726e53), label version 2026-07-29; accessed 2026-11-19.) From the literature compiled for this report, mycophenolic acid is known to inhibit inosine monophosphate dehydrogenase (IMPDH), an enzyme essential for guanine nucleotide synthesis. This suppresses the proliferation of T and B lymphocytes. Its prodrug, mycophenolate mofetil, is widely used to prevent rejection after organ transplantation.
 
 In hemoglobinopathies such as thalassemia, mycophenolic acid is not expected to correct the underlying globin chain imbalance. Its plausible role is in the allogeneic hematopoietic stem cell transplant (HSCT) setting, where it is used to prevent graft-versus-host disease (GVHD), and possibly for immune-mediated complications. A 2025 pediatric study of mycophenolate mofetil dosing in thalassemia patients undergoing HSCT suggests this off-label use is already being considered clinically.
 
@@ -127,11 +127,12 @@ For warnings and contraindications, please refer to the package insert.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 6 registrations are single-ingredient oral products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the drug record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myfortic (mycophenolic acid) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eed26501-890d-4ff6-88e7-6dbea4726e53) |
 
 <!-- review:end log -->
 

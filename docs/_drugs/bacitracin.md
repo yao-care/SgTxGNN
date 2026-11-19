@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, bacitracin is a polypeptide antibiotic that acts mainly against gram-positive bacteria, and it is used topically in eye and skin products. Mechanistically, it could be applicable to bacterial surface eye conditions.
+ChEMBL (EMBL-EBI) records the mechanism of action of bacitracin as: C55-isoprenyl pyrophosphate inhibitor ([ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, bacitracin is a polypeptide antibiotic that acts mainly against gram-positive bacteria, and it is used topically in eye and skin products. Mechanistically, it could be applicable to bacterial surface eye conditions.
 
 The prediction is only partly plausible. Punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious, and an antibacterial would not be expected to help in those cases. The very high TxGNN score most likely reflects how close this disease sits to other eye conditions in the model, not independent evidence of benefit.
 
@@ -102,6 +102,19 @@ The prediction has no supporting trials or literature (evidence level L5). Many 
 - Package insert warnings and contraindications from the Singapore regulator
 - Mechanism of action data
 - Confirmation of the approved indication on the local licence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

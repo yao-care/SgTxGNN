@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Levofloxacin belongs to the fluoroquinolone class, which generally acts by inhibiting bacterial DNA gyrase and topoisomerase IV. It has an established role in bacterial infections, including bacterial conjunctivitis. That gives a plausible link to infections of the ocular surface.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for levofloxacin: "Levofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] Levofloxacin is the L-isomer of the racemate, ofloxacin, a quinolone antimicrobial agent. The antibacterial activity of ofloxacin resides primarily in the L-isomer. The mechanism of action of levofloxacin and other fluoroquinolone antimicrobials involves inhibition of bacterial topoisomerase IV and DNA gyrase (both of which are type II topoisomerases), enzymes required for DNA replication, transcription, repair and recombination." ([DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5), label version 2026-11-05; accessed 2026-11-19.) Levofloxacin belongs to the fluoroquinolone class, which generally acts by inhibiting bacterial DNA gyrase and topoisomerase IV. It has an established role in bacterial infections, including bacterial conjunctivitis. That gives a plausible link to infections of the ocular surface.
 
 The prediction is weaker than the score suggests. Punctate epithelial keratoconjunctivitis is not only a bacterial disease. It is often associated with viral or other non-bacterial causes, and an antibacterial would help only if a susceptible bacterial pathogen were involved. The single retrieved paper describes microsporidial keratoconjunctivitis. Microsporidia are not targeted by fluoroquinolones, so this paper gives no support for efficacy. The high TxGNN score is therefore not backed by clinical evidence.
 
@@ -128,11 +128,12 @@ It rests on animal-model evidence, including cure of experimental pneumonic plag
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 12 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5) |
 
 <!-- review:end log -->
 

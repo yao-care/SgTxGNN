@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Nitrofurantoin is a urinary antibacterial, and its efficacy in urinary tract infection is established. No anti-rheumatic mechanism is known.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for nitrofurantoin: "Nitrofurantoin is an antibacterial drug. […] Nitrofurantoin is reduced by a wide range of enzymes including bacterial flavoproteins to reactive intermediates which are damaging to macromolecules such as DNA and proteins." ([DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5), label version 2026-01-22; accessed 2026-11-19.) Nitrofurantoin is a urinary antibacterial, and its efficacy in urinary tract infection is established. No anti-rheumatic mechanism is known.
 
 The high score (0.9989) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not driven by evidence of efficacy. The retrieved papers describe nitrofurantoin- and methotrexate-associated pulmonary fibrosis, drug-induced interstitial lung disease, and a study of antibiotic exposure and RA flares. They show harm or confounding in RA patients, not benefit. The prediction should be treated as a hypothesis only.
 
@@ -119,6 +119,19 @@ The prediction is supported only by a model score. There are no clinical trials,
 - Preclinical evidence of efficacy in an RA model
 - The Singapore package insert, to confirm the approved indication, warnings and contraindications
 - A benefit-risk assessment addressing pulmonary toxicity and the interaction with methotrexate before any clinical study is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

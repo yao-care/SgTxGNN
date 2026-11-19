@@ -60,7 +60,7 @@ That publication describes strabismus as a *complication* after eye anaesthesia,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug. Hyaluronidase is an enzyme that breaks down hyaluronan, a component of tissue "scaffolding". In ophthalmic practice it is used as an additive to local anaesthetic injections to help the anaesthetic spread.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hyaluronidase: "Hyaluronidase is a dispersion agent, which modifies the permeability of connective tissue through the hydrolysis of hyaluronic acid, a polysaccharide found in the intercellular ground substance of connective tissue, and of certain specialized tissues, such as the umbilical cord and vitreous humor. Hyaluronic acid is also present in the capsules of type A and C hemolytic streptococci." ([DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658), label version 2024-11-11; accessed 2026-11-19.) Hyaluronidase is an enzyme that breaks down hyaluronan, a component of tissue "scaffolding". In ophthalmic practice it is used as an additive to local anaesthetic injections to help the anaesthetic spread.
 
 The only publication linked to esotropia (PMID 16934027) reports persistent double vision and strabismus after cataract surgery under local anaesthesia. Hyaluronidase appears there as part of the anaesthetic block, and the strabismus is a possible complication of that block. It is not a condition the drug treats.
 
@@ -118,6 +118,19 @@ There are no trials, and the only publication describes strabismus as a complica
 - Any evidence that hyaluronidase has a therapeutic role in esotropia, which currently does not exist
 
 **Note on other predictions:** Among the other indications predicted for this drug, **diabetic retinopathy** has far stronger support. It has two completed Phase 3 trials of intravitreal hyaluronidase for vitreous haemorrhage (NCT00198497, n=510; NCT00198510, n=750) and a Phase 2 study (NCT00198471, n=10). However, outcome data were not available, and the indication was reportedly not ultimately approved. It would be a more sensible candidate for further review than esotropia, once published results are retrieved and benefit-risk is checked.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -65,7 +65,7 @@ For reference, the other predictions, ranked by evidence:
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Midodrine is a prodrug whose active metabolite, desglymidodrine, selectively activates peripheral alpha-1 adrenergic receptors. This increases vascular tone and raises blood pressure, which is why it is used for orthostatic hypotension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for midodrine: "Midodrine hydrochloride forms an active metabolite, desglymidodrine, that is an alpha 1 -agonist, and exerts its actions via activation of the alpha-adrenergic receptors of the arteriolar and venous vasculature, producing an increase in vascular tone and elevation of blood pressure. Desglymidodrine does not stimulate cardiac beta-adrenergic receptors." ([DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba), label version 2026-11-12; accessed 2026-11-19.) Midodrine is a prodrug whose active metabolite, desglymidodrine, selectively activates peripheral alpha-1 adrenergic receptors. This increases vascular tone and raises blood pressure, which is why it is used for orthostatic hypotension.
 
 **For the top-ranked prediction (variably protease-sensitive prionopathy), no plausible mechanistic link was identified.** Midodrine does not appreciably cross the blood-brain barrier, and prion pathology is not known to respond to alpha-1 agonism. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to faciodigitogenital syndrome, monogenic obesity, specific developmental disorder and the obsolete hypertelorism term, which is likely a model artefact and should be excluded.
 
@@ -140,11 +140,12 @@ The top-ranked prediction, variably protease-sensitive prionopathy, has no trial
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "for licence SIN11500P" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba) |
 
 <!-- review:end log -->
 

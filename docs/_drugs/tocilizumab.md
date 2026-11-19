@@ -56,7 +56,7 @@ but the two Phase 3 placebo-controlled trials in this disease were **both termin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Tocilizumab is known as a humanised monoclonal antibody against the interleukin-6 receptor (IL-6R). It is established in rheumatoid arthritis and juvenile idiopathic arthritis, and the literature describes use in giant cell arteritis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tocilizumab: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), label version 2026-10-20; accessed 2026-11-19.) Tocilizumab is known as a humanised monoclonal antibody against the interleukin-6 receptor (IL-6R). It is established in rheumatoid arthritis and juvenile idiopathic arthritis, and the literature describes use in giant cell arteritis.
 
 IL-6 signalling contributes to inflammation and bone remodelling in axial spondyloarthritis, so blocking the IL-6 receptor is biologically plausible. The ankylosing spondylitis prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -125,6 +125,19 @@ The biological rationale for IL-6 blockade in AS is plausible, and the TxGNN sco
 - **Rheumatoid vasculitis** (L4, research question): Only case reports exist, and paradoxical vasculitis-like reactions to tocilizumab have been described.
 - **Mendelian susceptibility to mycobacterial diseases (IL12B deficiency)** (L5, Hold): No clinical evidence, and IL-6 blockade raises a safety concern because of mycobacterial infection susceptibility.
 - **Spondyloarthropathy susceptibility, vertebral disease, hypermobility of coccyx, Kummell disease** (L5, Hold): Predictions are computational only, with no supportive clinical evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

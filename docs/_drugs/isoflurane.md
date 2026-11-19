@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Isoflurane is a volatile anaesthetic used to induce and maintain general anaesthesia. Its anaesthetic use is established, but the compiled data do not describe a mechanism.
+ChEMBL (EMBL-EBI) records the mechanism of action of isoflurane as: Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener ([ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256), CC BY-SA 3.0; accessed 2026-11-19.) Isoflurane is a volatile anaesthetic used to induce and maintain general anaesthesia. Its anaesthetic use is established, but the compiled data do not describe a mechanism.
 
 A plausible but unverified link is the vasodilation of vascular smooth muscle that volatile anaesthetics can cause (possibly through calcium channel modulation). Prinzmetal angina is driven by coronary vasospasm, so relaxation of vascular smooth muscle is conceptually related. However, isoflurane can also cause coronary steal and haemodynamic instability. The link is therefore not a supportable therapeutic rationale at this point.
 
@@ -102,6 +102,19 @@ The Prinzmetal angina prediction has no trials or publications behind it. Isoflu
 - Preclinical or clinical evidence on coronary vasospasm
 - Assessment of whether a hospital-only anaesthetic could realistically serve this indication
 - Separately, a focused review of the migraine and status migrainosus signal, which is the only area with indirect supporting data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

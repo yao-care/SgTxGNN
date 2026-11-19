@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Laubry-Pezzi syndrome** (a ve
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ropeginterferon alfa-2b is an immunomodulatory and antiproliferative interferon used in myeloproliferative neoplasms. Its efficacy in polycythaemia vera is established, and it is thought to act by suppressing the abnormal JAK2-mutated blood-cell clone.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ropeginterferon alfa-2b: "Interferon alfa belongs to the class of type I interferons, which exhibit their cellular effects in polycythemia vera and essential thrombocythemia in the bone marrow by binding to a transmembrane receptor termed interferon alfa receptor (IFNAR). Binding to IFNAR initiates a downstream signaling cascade through the activation of kinases, in particular Janus kinase 1 (JAK1) and tyrosine kinase 2 (TYK2) and activator of transcription (STAT) proteins." ([DailyMed: Besremi (ropeginterferon alfa-2b) prescribing information, PharmaEssentia USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9583405d-53a0-49dc-88eb-5e6384ebabcb), label version 2026-08-25; accessed 2026-11-19.) Based on known information, ropeginterferon alfa-2b is an immunomodulatory and antiproliferative interferon used in myeloproliferative neoplasms. Its efficacy in polycythaemia vera is established, and it is thought to act by suppressing the abnormal JAK2-mutated blood-cell clone.
 
 Laubry-Pezzi syndrome is a structural heart defect (ventricular septal defect with aortic regurgitation). It is not a blood cancer and has no known interferon-responsive pathway. The review found **no plausible mechanistic link** between the drug and this condition. The high TxGNN score most likely reflects a TxGNN model (deep learning) artifact, such as proximity among related nodes, rather than a real biological rationale.
 
@@ -118,6 +118,19 @@ The prediction rests only on a model score. There are no clinical trials or rele
 - The Singapore package insert (warnings and contraindications), which is needed before any safety screening
 - A check of whether the high scores for structural and congenital conditions reflect a model artifact
 - Possibly a focus on its established indication, polycythaemia vera, where the evidence is much stronger
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Besremi (ropeginterferon alfa-2b) prescribing information, PharmaEssentia USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9583405d-53a0-49dc-88eb-5e6384ebabcb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

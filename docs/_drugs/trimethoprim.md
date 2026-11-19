@@ -56,7 +56,7 @@ The top-ranked prediction is therefore a model signal only. Among the other pred
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Trimethoprim is generally known as an antibacterial that inhibits bacterial dihydrofolate reductase (a folate pathway enzyme). Its efficacy in bacterial eye and urinary infections is established, and mechanistically it may be applicable to infectious surface eye disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trimethoprim: "Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. This binding is very much stronger for the bacterial enzyme than for the corresponding mammalian enzyme." ([DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597), label version 2026-11-15; accessed 2026-11-19.) Trimethoprim is generally known as an antibacterial that inhibits bacterial dihydrofolate reductase (a folate pathway enzyme). Its efficacy in bacterial eye and urinary infections is established, and mechanistically it may be applicable to infectious surface eye disease.
 
 Trimethoprim is already used topically (combined with polymyxin B) for bacterial conjunctivitis, so a link to ocular surface disease is plausible. However, punctate epithelial keratoconjunctivitis is often viral or toxic/inflammatory in origin, and trimethoprim has no antiviral activity. The high score (0.9957) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; nothing in the compiled data supports it.
 
@@ -144,12 +144,13 @@ The top prediction, punctate epithelial keratoconjunctivitis, rests only on a mo
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 12 licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-12 | Number of registrations: 12 → 10 | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->
 

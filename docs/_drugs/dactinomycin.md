@@ -60,7 +60,7 @@ The better-supported predictions are rhabdomyosarcoma subtypes and sites, which 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Dactinomycin is generally known as a DNA-intercalating agent that inhibits transcription. This produces strong cytotoxic effects in rapidly dividing cells, and it also has immunosuppressive potential.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dactinomycin: "Dactinomycin is a cytotoxic actinomycin that binds DNA and inhibits RNA synthesis. The cytotoxic activity of dactinomycin has been demonstrated in animal models of different human cancers." ([DailyMed: dactinomycin prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5da55538-2602-4704-a9da-603c9f7ff7dc), label version 2024-06-18; accessed 2026-11-19.) Dactinomycin is generally known as a DNA-intercalating agent that inhibits transcription. This produces strong cytotoxic effects in rapidly dividing cells, and it also has immunosuppressive potential.
 
 For **relapsing-remitting multiple sclerosis**, the mechanistic link is weak. Dactinomycin has no established role in MS, and its toxicity profile (myelosuppression, hepatic toxicity) is unfavourable for a chronic autoimmune disease that needs long-term treatment. The very high score (0.9958) is best read as a computational artefact, not a clinical lead.
 
@@ -150,6 +150,19 @@ Relapsing-remitting multiple sclerosis has no related literature. The table belo
 - Indication text for the Singapore licence SIN10989P
 - For rhabdomyosarcoma extensions, confirmation of whether the sites and subtypes are already covered by the approved rhabdomyosarcoma indication
 - For any adult or non-sarcoma indication, dedicated efficacy evidence that includes dactinomycin as an investigated agent
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dactinomycin prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5da55538-2602-4704-a9da-603c9f7ff7dc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

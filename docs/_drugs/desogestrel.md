@@ -56,7 +56,7 @@ with **1 clinical trial** and **11 publications** currently linked to this direc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, desogestrel is a progestin that suppresses gonadotropin secretion. In combination with ethinylestradiol it can provide hormone replacement and endometrial support in hypothalamic oligo/amenorrhea.
+ChEMBL (EMBL-EBI) records the mechanism of action of desogestrel as: Progesterone receptor agonist ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, desogestrel is a progestin that suppresses gonadotropin secretion. In combination with ethinylestradiol it can provide hormone replacement and endometrial support in hypothalamic oligo/amenorrhea.
 
 The link between contraception and amenorrhea is mainly endocrine. Both involve regulation of the reproductive hormone axis. A cohort study of young women with hypothalamic oligoamenorrhea treated with oral contraceptives (PMID 11725730) examined bone mineral density, which supports biological plausibility.
 
@@ -113,6 +113,19 @@ Amenorrhea has a very high model score and plausible hormonal biology. However, 
 - A safety review for women with the contraindication signals listed above, including cardiovascular, metabolic and thromboembolic risk
 
 **Other predicted indications (for reference):** Acne has the next strongest support (evidence level L2). Supporting studies (PMIDs 8894800, 8689881) compare desogestrel-containing combined pills with cyproterone acetate or gestodene, but the registered trial (NCT01466673) focuses on a norgestimate pill, and the effect is shared across combined oral contraceptives. Lactation disease (L4) reflects contraceptive use during lactation rather than treatment of a disease. The remaining predictions (benign breast conditions, breast abscess, primary ovarian failure, fragile X carrier symptoms) rest on model prediction alone, and several have no plausible mechanism.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

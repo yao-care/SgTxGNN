@@ -58,7 +58,7 @@ Dorzolamide is a topical carbonic anhydrase inhibitor originally used to lower e
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for dorzolamide were not available in the data compiled for this report. Based on known pharmacology, dorzolamide inhibits carbonic anhydrase II in the ciliary body. This reduces aqueous humor secretion and lowers intraocular pressure (IOP). Pharmacology data also list carbonic anhydrase 1, 7, 12 and 14 as targets.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dorzolamide: "Carbonic anhydrase (CA) is an enzyme found in many tissues of the body including the eye. It catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. […] Dorzolamide hydrochloride ophthalmic solution contains dorzolamide hydrochloride, an inhibitor of human carbonic anhydrase II." ([DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea), label version 2026-11-14; accessed 2026-11-19.) Based on known pharmacology, dorzolamide inhibits carbonic anhydrase II in the ciliary body. This reduces aqueous humor secretion and lowers intraocular pressure (IOP). Pharmacology data also list carbonic anhydrase 1, 7, 12 and 14 as targets.
 
 Primary hereditary glaucoma is a genetically determined form of glaucoma in which elevated IOP drives optic nerve damage. Because the drug lowers IOP by reducing aqueous humor production, it is mechanistically plausible for this condition. The link is theoretical: the underlying cause of the hereditary form may differ from that of common open-angle glaucoma, and no study specific to this condition was found.
 
@@ -130,11 +130,12 @@ The prediction score is high and the IOP-lowering mechanism is plausible for her
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five registrations are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for dorzolamide were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
 
 <!-- review:end log -->
 

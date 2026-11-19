@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **hyperamylasemia**, but **no cli
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Ceftriaxone is generally known as a third-generation cephalosporin that inhibits bacterial cell wall synthesis, so its activity is directed at bacteria rather than at enzyme metabolism.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ceftriaxone: "Ceftriaxone is an antibacterial drug. […] Ceftriaxone is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftriaxone has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467), label version 2022-01-13; accessed 2026-11-19.) Ceftriaxone is generally known as a third-generation cephalosporin that inhibits bacterial cell wall synthesis, so its activity is directed at bacteria rather than at enzyme metabolism.
 
 The link to hyperamylasemia is weak. The retrieved literature mentions ceftriaxone only as infection prophylaxis after endoscopic papillosphincterotomy (a procedure that can itself raise pancreatic enzymes) and as part of treatment in a case report of Weil syndrome. In both settings the drug addresses infection, not the raised amylase. Ceftriaxone is also known to cause biliary sludge, which could in principle contribute to pancreatic enzyme elevation, so the safety direction is arguably the opposite of a therapeutic claim. The high TxGNN score is therefore not supported by clinical data.
 
@@ -119,11 +119,12 @@ The prediction is computational only. No cited study evaluates ceftriaxone as a 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "At least 20 valid single-ingredient injectable (powder for solution) licences are recorded, and the list may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **colobomatous microphthalmia-r
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for azathioprine is not available in the data compiled for this report. Azathioprine is generally known as an immunosuppressive purine antimetabolite. It is used where an overactive immune response drives disease.
+ChEMBL (EMBL-EBI) records the mechanism of action of azathioprine as: Amidophosphoribosyltransferase inhibitor; DNA inhibitor ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; accessed 2026-11-19.) Azathioprine is generally known as an immunosuppressive purine antimetabolite. It is used where an overactive immune response drives disease.
 
 The predicted condition is a rare developmental syndrome affecting the eye and skeleton (coloboma, microphthalmia and shortened proximal limb segments). No inflammatory or immune-mediated driver has been identified that azathioprine's immunosuppression would plausibly address. No mechanistic link could be established, and no similarity to the drug's existing use has been assessed.
 
@@ -106,6 +106,19 @@ There are no clinical trials or publications for this disease, and no plausible 
 - Package insert warnings and contraindications from the HSA
 - Preclinical or clinical evidence showing an immune-mediated component in this syndrome
 - Assessment of the similarity between this condition and the drug's current uses
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data for azathioprine is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

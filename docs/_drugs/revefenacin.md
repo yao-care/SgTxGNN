@@ -63,7 +63,7 @@ Revefenacin is a lung-selective LAMA. By blocking M3 muscarinic receptors, it re
 
 Chronic bronchitis and COPD overlap clinically, and chronic bronchitis is one of the main COPD phenotypes. The high score (0.9961) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence for bronchitis. The one linked trial (NCT01704404) enrolled COPD patients, so it does not show efficacy in a bronchitis-specific population.
 
-Detailed mechanism-of-action data from DrugBank is currently unavailable. The mechanistic reasoning above is therefore based on the drug's known pharmacological class.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for revefenacin: "Revefenacin is a long-acting muscarinic antagonist, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors M1 to M5. In the airways, it exhibits pharmacological effects through inhibition of M3 receptor at the smooth muscle leading to bronchodilation." ([DailyMed: Yupelri (revefenacin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dfebf04-7c90-436a-9b16-750d3c1ee0a6), label version 2022-05-03; accessed 2026-11-19.) The mechanistic reasoning above is therefore based on the drug's known pharmacological class.
 
 ---
 
@@ -120,6 +120,19 @@ The bronchitis prediction rests on one early-phase trial in COPD patients, with 
 - Package insert warnings and contraindications from the HSA record, to enable safety screening
 - Detailed mechanism-of-action data (MOA)
 - Confirmation of the approved indication wording for the Singapore registration (SIN16336P)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data from DrugBank is currently unavailable" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Yupelri (revefenacin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dfebf04-7c90-436a-9b16-750d3c1ee0a6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

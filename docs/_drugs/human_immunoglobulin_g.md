@@ -56,7 +56,7 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Human immunoglobulin G is a pooled plasma-derived antibody product. Its original approved indication could not be identified from the Singapore registration record, so the link between its established use and the predicted new indication cannot be assessed.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for human immunoglobulin g: "ASCENIV is a replacement therapy for patients with primary humoral immunodeficiency (PI). ASCENIV provides a broad spectrum of opsonizing and neutralizing IgG antibodies against bacterial and viral pathogens and their toxins." ([DailyMed: Asceniv (human immunoglobulin g) prescribing information, ADMA Biologics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d74f4360-3b51-496c-96fb-84c3976958d2), label version 2026-09-29; accessed 2026-11-19.) Human immunoglobulin G is a pooled plasma-derived antibody product. Its original approved indication could not be identified from the Singapore registration record, so the link between its established use and the predicted new indication cannot be assessed.
 
 One speculative idea is that immunoglobulin may modulate inflammatory pathways involved in diabetic microvascular disease. No trial or publication in the data compiled for this report supports this, and the high TxGNN score reflects a computational prediction only.
 
@@ -89,6 +89,19 @@ The prediction is supported only by the TxGNN model score. There are no clinical
 - A literature and trial search specific to immunoglobulin in diabetic retinopathy
 - An assessment of route compatibility, since the product is a systemic injection and eye disease may need a different route of delivery
 - A review of whether the predicted indications are plausible
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Asceniv (human immunoglobulin g) prescribing information, ADMA Biologics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d74f4360-3b51-496c-96fb-84c3976958d2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ The best-supported of the model's ten predictions is **obstructive jaundice** (a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available for this report. Based on known information, lactulose is a non-absorbed osmotic disaccharide that acts in the colon. Its efficacy in hepatic encephalopathy and constipation is established, but nothing in the compiled data offers a plausible route from this action to acute urate nephropathy.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for lactulose: "Lactulose causes a decrease in blood ammonia concentration and reduces the degree of portalsystemic encephalopathy. These actions are considered to be results of the following: Bacterial degradation of lactulose in the colon acidifies the colonic contents." ([DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5), label version 2024-12-18; accessed 2026-11-19.) Based on known information, lactulose is a non-absorbed osmotic disaccharide that acts in the colon. Its efficacy in hepatic encephalopathy and constipation is established, but nothing in the compiled data offers a plausible route from this action to acute urate nephropathy.
 
 The very high TxGNN score (0.9989) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The data show no trials, no literature, and no mechanistic link. For this top-ranked prediction, the rationale is therefore weak.
 
@@ -145,6 +145,19 @@ The top-ranked prediction, acute urate nephropathy, rests only on a model score,
 - Package insert warnings and contraindications from the HSA website, which are needed for safety screening.
 - Full-text review of the 1986 and 1991 obstructive jaundice studies to confirm effect direction and design, and a targeted literature search before any further work on obstructive jaundice, which is a better candidate than acute urate nephropathy.
 - A review of the knowledge-graph contraindications against the intended patient population, especially diabetes.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

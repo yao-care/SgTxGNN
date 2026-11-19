@@ -60,7 +60,7 @@ This prediction rests on model output alone and is not supported by direct evide
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, folic acid is a B-vitamin cofactor in one-carbon metabolism. Its efficacy in folate-deficiency anaemia is established, and it may be mechanistically related to other vitamin-responsive disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for folic acid: "Folic acid acts on megaloblastic bone marrow to produce a normoblastic marrow. In man, an exogenous source of folate is required for nucleoprotein synthesis and the maintenance of normal erythropoiesis. Folic acid is the precursor of tetrahydrofolic acid, which is involved as a cofactor for transformylation reactions in the biosynthesis of purines and thymidylates of nucleic acids." ([DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1), label version 2026-10-05; accessed 2026-11-19.) Based on known information, folic acid is a B-vitamin cofactor in one-carbon metabolism. Its efficacy in folate-deficiency anaemia is established, and it may be mechanistically related to other vitamin-responsive disorders.
 
 Folate and biotin are both B-vitamin cofactors, and vitamin-responsive disorders are often reviewed together. This is probably why the model links them. However, the link is indirect. Folic acid does not replace biotin, and biotinidase or holocarboxylase synthetase deficiencies are treated with biotin itself. The retrieved literature consists of general vitamin reviews with no direct evidence for folic acid in this condition.
 
@@ -138,11 +138,12 @@ The TxGNN score is high (0.9949), but the evidence level is L4: no trials exist,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1) |
 
 <!-- review:end log -->
 

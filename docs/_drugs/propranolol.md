@@ -60,7 +60,7 @@ Better-supported candidates lower in the ranking are **intramuscular hemangioma*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, propranolol is a non-selective beta-adrenergic blocker. It lowers heart rate and myocardial oxygen demand, and has anti-angiogenic and vasoconstrictive effects in hemangioma. Its efficacy in cardiovascular conditions and infantile hemangioma is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for propranolol: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), label version 2026-08-27; accessed 2026-11-19.) Based on known information, propranolol is a non-selective beta-adrenergic blocker. It lowers heart rate and myocardial oxygen demand, and has anti-angiogenic and vasoconstrictive effects in hemangioma. Its efficacy in cardiovascular conditions and infantile hemangioma is well established.
 
 For distal myopathy, Tateyama type (a rare caveolin-3-related muscle disease), no plausible beta-adrenergic mechanism is evident. The high score of 0.9940 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to the second-ranked prediction, congenital myopathy with excess of thin filaments (0.9930).
 
@@ -166,12 +166,13 @@ The top-ranked prediction, distal myopathy, Tateyama type, is supported only by 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Three further registrations (APO-PROPRANOLOL 10 mg and 40 mg, PROPANOL 10 mg) are also valid, giving 8 valid single-ingredient licences in t" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "(8 valid licences of 8)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
 
 <!-- review:end log -->
 

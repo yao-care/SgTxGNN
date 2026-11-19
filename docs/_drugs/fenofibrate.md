@@ -56,7 +56,7 @@ but the data compiled for this report contain **0 clinical trials** and only **3
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on the literature compiled for this report, fenofibrate is a PPARalpha agonist that raises HDL cholesterol and lowers triglycerides. One mouse study (PMID 11342537) shows it induces the phospholipid transfer protein gene, which accounts for HDL enlargement.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fenofibrate: "The active moiety of Antara is fenofibric acid. The pharmacological effects of fenofibric acid in both animals and humans have been studied through oral administration of fenofibrate. The lipid-modifying effects of fenofibric acid seen in clinical practice have been explained in vivo in transgenic mice and in vitro in human hepatocyte cultures by the activation of PPAR alpha receptor." ([DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce), label version 2025-10-01; accessed 2026-11-19.) Based on the literature compiled for this report, fenofibrate is a PPARalpha agonist that raises HDL cholesterol and lowers triglycerides. One mouse study (PMID 11342537) shows it induces the phospholipid transfer protein gene, which accounts for HDL enlargement.
 
 CETP deficiency is a genetic condition characterised by high HDL cholesterol and reduced CETP activity. The link to fenofibrate is indirect: both act on HDL and lipid-transfer pathways. A preclinical study (PMID 20332533) examined CETP inhibition combined with PPARalpha agonism in transgenic mice.
 
@@ -128,11 +128,12 @@ The TxGNN score is high (0.9961), but no clinical trial or publication directly 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Number of approvals: 13 single-ingredient licences, all valid, none cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
 
 <!-- review:end log -->
 

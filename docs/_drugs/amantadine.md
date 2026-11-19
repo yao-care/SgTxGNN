@@ -56,7 +56,7 @@ However, **no clinical trials and no publications** currently support this speci
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Amantadine is generally understood to act through NMDA receptor antagonism and modulation of dopaminergic transmission, but this is background knowledge rather than a finding from the supplied data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amantadine: "The mechanism by which amantadine exerts efficacy in the treatment of dyskinesia in patients with Parkinson's disease or as adjunctive treatment to levodopa/carbidopa in patients with Parkinson's disease experiencing 'off' episodes is unknown. Amantadine is a weak uncompetitive antagonist of the NMDA receptor." ([DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28), label version 2026-10-05; accessed 2026-11-19.) Amantadine is generally understood to act through NMDA receptor antagonism and modulation of dopaminergic transmission, but this is background knowledge rather than a finding from the supplied data.
 
 A theoretical link may exist because glutamate receptor-mediated excitotoxicity and autoimmune mechanisms are discussed in Rasmussen encephalitis, and NMDA antagonism could in principle touch on the former. This remains a hypothesis. No data compiled for this report supports it, and no similarity analysis between the original and predicted indications has been completed.
 
@@ -97,6 +97,19 @@ The prediction score is very high (0.9948), but there are no clinical trials or 
 - Package insert warnings and contraindications from HSA, which is a blocking gap for safety screening
 - Assessment of route and formulation suitability for the target condition
 - Review of drug interactions relevant to likely co-medications, such as antiepileptic and immunotherapy regimens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

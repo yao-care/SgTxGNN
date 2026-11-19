@@ -54,7 +54,7 @@ Polatuzumab vedotin is an anti-CD79b antibody-drug conjugate carrying the microt
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From the published literature, polatuzumab vedotin is an antibody-drug conjugate. Its antibody targets CD79b, a component of the B-cell receptor. After binding, it is internalised and releases MMAE, which blocks cell division and induces apoptosis. Its established use is in diffuse large B-cell lymphoma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for polatuzumab vedotin: "Polatuzumab vedotin-piiq is a CD79b-directed antibody-drug conjugate with activity against dividing B cells. The small molecule, MMAE, is an anti-mitotic agent covalently attached to the antibody via a cleavable linker. The monoclonal antibody binds to CD79b, a B-cell specific surface protein, which is a component of the B-cell receptor." ([DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc), label version 2026-08-24; accessed 2026-11-19.) From the published literature, polatuzumab vedotin is an antibody-drug conjugate. Its antibody targets CD79b, a component of the B-cell receptor. After binding, it is internalised and releases MMAE, which blocks cell division and induces apoptosis. Its established use is in diffuse large B-cell lymphoma.
 
 CD79b is a B-cell marker and is not a recognised target in HER2-positive breast carcinoma. The only plausible link is the general cytotoxic activity of MMAE, which is already used in other breast cancer antibody-drug conjugates. That activity does not depend on CD79b. The high TxGNN score is therefore a computational prediction without a demonstrated mechanistic basis.
 
@@ -109,6 +109,19 @@ The prediction is supported only by a model score. There are no trials or releva
 - Warnings and contraindications from the HSA package insert, and approved indication text for the Singapore licences
 - A systematic literature and trial search specific to breast cancer, since the retrieved publications are all lymphoma-related
 - A safety assessment of the drug interactions, especially the Major-level ones
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

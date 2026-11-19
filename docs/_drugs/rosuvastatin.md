@@ -60,7 +60,7 @@ The better-supported predictions are **familial hypercholesterolaemia** (13 tria
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, rosuvastatin is a statin that inhibits HMG-CoA reductase, which lowers hepatic cholesterol synthesis, raises LDL receptor expression and lowers LDL-C. Its efficacy in lipid disorders is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rosuvastatin: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), label version 2026-09-23; accessed 2026-11-19.) Based on known pharmacology, rosuvastatin is a statin that inhibits HMG-CoA reductase, which lowers hepatic cholesterol synthesis, raises LDL receptor expression and lowers LDL-C. Its efficacy in lipid disorders is well established.
 
 CETP deficiency raises HDL-C and alters LDL metabolism, so it sits in the same lipid pathway that rosuvastatin acts on. This gives a plausible mechanistic link. However, no trials or literature were found, and whether rosuvastatin benefits these patients is unproven.
 
@@ -167,11 +167,12 @@ Please refer to the package insert for formal warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 20 valid single-ingredient licences, all film-coated oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
 
 <!-- review:end log -->
 

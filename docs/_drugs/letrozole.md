@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nipple carcinoma**, but the e
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Letrozole belongs to the aromatase inhibitor class, which reduces estrogen synthesis. If a tumour is hormone receptor-positive, this approach is plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for letrozole: "The growth of some cancers of the breast is stimulated or maintained by estrogens. Treatment of breast cancer thought to be hormonally responsive (i.e., estrogen and/or progesterone receptor positive or receptor unknown) has included a variety of efforts to decrease estrogen levels (ovariectomy, adrenalectomy, hypophysectomy) or inhibit estrogen effects (antiestrogens and progestational agents). […] Letrozole is a nonsteroidal competitive inhibitor of the aromatase enzyme system; it inhibits the conversion of androgens to estrogens." ([DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406), label version 2026-06-11; accessed 2026-11-19.) Letrozole belongs to the aromatase inhibitor class, which reduces estrogen synthesis. If a tumour is hormone receptor-positive, this approach is plausible.
 
 Nipple carcinoma is a breast cancer subtype, and hormone-driven growth is a common feature of breast cancers. This is the basis for the mechanistic link. However, it is a hypothesis: receptor status of nipple tumours is not established in the available data, and no study has tested letrozole for this specific site.
 
@@ -125,6 +125,18 @@ The prediction score is high (0.9976), but the evidence level is L5. No study te
 - Clinical studies or well-documented case series of letrozole specifically in nipple carcinoma
 - Mechanism of action data and the package insert warnings and contraindications from the Singapore regulator
 - A safety monitoring plan covering bone health and liver function
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

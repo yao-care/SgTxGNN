@@ -60,7 +60,7 @@ There are currently **0 clinical trials** and **0 publications** for this specif
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Spironolactone is known to block the mineralocorticoid (aldosterone) receptor, which explains its use in hypertension and heart failure. It also has anti-androgenic activity, meaning it blocks the androgen receptor and reduces androgen synthesis. This is the most plausible link to hair loss, because it is the basis for using spironolactone in androgen-driven hair loss such as female pattern hair loss.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for spironolactone: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), label version 2025-11-28; accessed 2026-11-19.) Spironolactone is known to block the mineralocorticoid (aldosterone) receptor, which explains its use in hypertension and heart failure. It also has anti-androgenic activity, meaning it blocks the androgen receptor and reduces androgen synthesis. This is the most plausible link to hair loss, because it is the basis for using spironolactone in androgen-driven hair loss such as female pattern hair loss.
 
 The mechanistic fit for this particular prediction is **weak**. Hypotrichosis simplex is a hereditary disorder linked to gene variants (for example CDSN, APCDD1 and RPL21), not to androgen activity. It should be treated as a hypothesis, not a finding.
 
@@ -126,6 +126,19 @@ The prediction has no supporting trials or literature, and the mechanism is a po
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for Singapore-registered products
 - A safety plan covering potassium and kidney function monitoring and key drug interactions, especially in women of childbearing potential given the anti-androgenic effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

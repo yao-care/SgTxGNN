@@ -54,7 +54,7 @@ Corifollitropin alfa is a long-acting recombinant follicle-stimulating hormone (
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, corifollitropin alfa is a long-acting FSH analogue (an FSH beta-subunit fused with the C-terminal peptide of hCG). It acts on FSH receptors in the gonads.
+ChEMBL (EMBL-EBI) records the mechanism of action of corifollitropin alfa as: Follicle stimulating hormone receptor agonist ([ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, corifollitropin alfa is a long-acting FSH analogue (an FSH beta-subunit fused with the C-terminal peptide of hCG). It acts on FSH receptors in the gonads.
 
 No plausible mechanistic link to inflammation of the stomach and duodenal lining is evident. FSH receptor agonism has no known effect on gastric mucosal defence or acid-related injury. The high score (0.9965) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -90,6 +90,19 @@ The prediction is supported only by a model score. There are no clinical trials 
 - The approved indication text for the Singapore licences
 - Any preclinical or clinical evidence linking FSH receptor signalling to gastroduodenal disease
 - A route and formulation compatibility assessment, since the product is an injectable intended for reproductive use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

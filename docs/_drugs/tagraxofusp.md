@@ -55,7 +55,7 @@ The TxGNN model (deep learning) predicts it may be effective for **esotropia**, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug, tagraxofusp is a CD123-directed cytotoxin (interleukin-3 fused to a truncated diphtheria toxin). It kills cells that express CD123, which is why it is effective in BPDCN, a CD123-positive neoplasm.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tagraxofusp: "Tagraxofusp-erzs is a CD123-directed cytotoxin composed of recombinant human interleukin-3 (IL-3) and truncated diphtheria toxin (DT) fusion protein that inhibits protein synthesis and causes cell death in CD123-expressing cells." ([DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8), label version 2024-12-09; accessed 2026-11-19.) Based on general knowledge of the drug, tagraxofusp is a CD123-directed cytotoxin (interleukin-3 fused to a truncated diphtheria toxin). It kills cells that express CD123, which is why it is effective in BPDCN, a CD123-positive neoplasm.
 
 Esotropia is an eye-muscle misalignment disorder. No CD123-expressing pathogenic cell population is known in this condition, so **no credible mechanistic link** was identified between the original indication and the predicted one. The very high TxGNN score (0.9973, rank 4210) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not supported by any trial or literature.
 
@@ -111,6 +111,19 @@ The prediction has no supporting clinical trials or literature (evidence level L
 - Approved-indication text for the Singapore licence
 - A risk-benefit justification for systemic use, given capillary leak syndrome and hepatotoxicity
 - Consideration of the more mechanistically plausible hematologic hypotheses, such as CD123-positive clonal precursor conditions, instead of esotropia
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elzonris (tagraxofusp) prescribing information, Stemline Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80eb1080-fe20-4af0-b2a5-a67999923fa8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

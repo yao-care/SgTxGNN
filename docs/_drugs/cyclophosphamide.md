@@ -56,7 +56,7 @@ This is a computational prediction only: **no clinical trials** and **no publica
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Cyclophosphamide is a DNA-alkylating agent, and its cytotoxic and immunosuppressive properties are well established in other settings. Because the predicted condition involves T-cell dysfunction, an immune-modulating drug could in theory be relevant.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cyclophosphamide: "The mechanism of action has not been fully characterized. However, cross-linking of tumor cell DNA may be involved. The active alkylating metabolites of cyclophosphamide interfere with the growth of susceptible rapidly proliferating malignant cells." ([DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e), label version 2026-08-26; accessed 2026-11-19.) Cyclophosphamide is a DNA-alkylating agent, and its cytotoxic and immunosuppressive properties are well established in other settings. Because the predicted condition involves T-cell dysfunction, an immune-modulating drug could in theory be relevant.
 
 The link is weak and may point the wrong way. Further immune suppression could be harmful in a patient whose T-cell function is already impaired. The high TxGNN score is a model output only. It is not supported by any trial, case series or mechanistic study, so the biological rationale remains unproven.
 
@@ -122,6 +122,18 @@ The prediction rests on a model score alone (Evidence Level L5), with no trials 
 - Any case reports, preclinical studies or clinical data directly addressing this condition
 - Review of the full package insert warnings and contraindications
 - A risk-benefit assessment for patients with impaired T-cell function
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

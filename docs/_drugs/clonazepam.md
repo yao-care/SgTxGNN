@@ -56,7 +56,7 @@ and the data compiled for this report include **no registered clinical trials** 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Clonazepam is a benzodiazepine and, as a class, acts as a positive allosteric modulator of the GABA-A receptor. Through this action it may dampen sensory-motor arousal and reduce sleep fragmentation and periodic limb movements, which are central problems in restless legs syndrome (RLS).
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clonazepam: "The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system." ([DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1), label version 2025-12-01; accessed 2026-11-19.) Clonazepam is a benzodiazepine and, as a class, acts as a positive allosteric modulator of the GABA-A receptor. Through this action it may dampen sensory-motor arousal and reduce sleep fragmentation and periodic limb movements, which are central problems in restless legs syndrome (RLS).
 
 Clinical use supports the plausibility: clonazepam is cited in reviews as a medication used for RLS symptoms, particularly in some Asian countries, and a survey of 16,694 people treated for RLS reported that about 25% received benzodiazepines alone or in combination. A small randomised, double-blind, placebo-controlled crossover study in 6 patients (1984) reported improved subjective sleep quality and leg dysaesthesia, and a placebo-controlled sleep laboratory study (2001) tested a single 1 mg dose.
 
@@ -111,6 +111,19 @@ The Cochrane review, the 2025 AASM guideline and small placebo-controlled studie
 - Detailed mechanism of action data
 - Review of the 2025 AASM guideline's specific position on benzodiazepines in RLS
 - Prospective, adequately powered controlled data in RLS, and a plan for monitoring dependence, sedation and respiratory risk, particularly with opioid co-prescription
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

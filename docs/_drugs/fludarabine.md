@@ -56,7 +56,7 @@ Most of this evidence concerns fludarabine as a supporting agent (transplant con
 
 ## Why is This Prediction Reasonable?
 
-Fludarabine is a purine nucleoside analog that inhibits DNA synthesis and depletes lymphocytes. Detailed mechanism of action data from DrugBank are not available in the data compiled for this report, so this description relies on the general pharmacology summarised in the repurposing analysis.
+Fludarabine is a purine nucleoside analog that inhibits DNA synthesis and depletes lymphocytes. According to the Mechanism of Action section of the US FDA-approved prescribing information for fludarabine: "Fludarabine phosphate is rapidly converted to active 2-fluoro-ara-ATP, which appears to inhibit DNA synthesis through inhibition of DNA polymerase alpha, ribonucleotide reductase and DNA primase." ([DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951), label version 2026-09-20; accessed 2026-11-19.) This description relies on the general pharmacology summarised in the repurposing analysis.
 
 In myeloma, fludarabine plays an enabling role rather than a direct antimyeloma one. It is used with busulfan, melphalan or cyclophosphamide as conditioning before allogeneic stem cell transplant. It is also the standard lymphodepletion backbone (with cyclophosphamide) before BCMA-directed CAR-T therapy. Preclinical work reports some direct in vitro and in vivo activity against myeloma cells.
 
@@ -143,6 +143,19 @@ Fludarabine is established practice as a conditioning and lymphodepletion agent 
 - **Myelodysplastic syndrome** (evidence L1, Proceed with Guardrails): fludarabine-based conditioning before allogeneic transplant is established practice, including randomized comparisons (PMID 31606445), but the benefit comes from the transplant platform.
 - **Unclassified myelodysplastic syndrome**: research question only.
 - **Hyperthyroidism, diabetic nephropathy and several rare genetic disorders**: Hold. There is no plausible mechanistic link and no supporting trials. The high scores are likely model artifacts.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data from DrugBank are not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

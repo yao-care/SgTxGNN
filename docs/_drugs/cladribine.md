@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **parameningeal embryonal rhabd
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cladribine is generally described as a purine nucleoside analogue that resists breakdown by adenosine deaminase. It causes DNA strand breaks and apoptosis, mainly in lymphocytes and monocytes that have high deoxycytidine kinase activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cladribine: "The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes." ([DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144), label version 2026-05-27; accessed 2026-11-19.) Cladribine is generally described as a purine nucleoside analogue that resists breakdown by adenosine deaminase. It causes DNA strand breaks and apoptosis, mainly in lymphocytes and monocytes that have high deoxycytidine kinase activity.
 
 Parameningeal embryonal rhabdomyosarcoma is a solid mesenchymal tumour. No specific mechanistic rationale or supporting data link cladribine's activity in lymphoid cells to this tumour type. The high score (0.9977) most likely reflects the way related rhabdomyosarcoma subtypes cluster together in the model, not drug-specific evidence. The same pattern applies to the other rhabdomyosarcoma-family predictions, which also have no trials or literature behind them.
 
@@ -112,6 +112,19 @@ The prediction rests only on a model score. No trials or publications address pa
 - Detailed mechanism of action data and a rationale specific to this tumour type
 - Package insert warnings and contraindications from the Singapore regulator
 - A safety and monitoring plan covering myelosuppression, infection risk and the listed interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

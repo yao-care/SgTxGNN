@@ -56,7 +56,7 @@ The data compiled for this report include **14 clinical trials** and **20 public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Atorvastatin is known to inhibit HMG-CoA reductase, and statins have anti-inflammatory and immune-modulating effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atorvastatin: "LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. In animal models, LIPITOR lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; LIPITOR also reduces LDL production and the number of LDL particles." ([DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65), label version 2024-04-15; accessed 2026-11-19.) Atorvastatin is known to inhibit HMG-CoA reductase, and statins have anti-inflammatory and immune-modulating effects.
 
 These effects may matter in treated HIV. Chronic immune activation persists even when the virus is suppressed. Activated monocytes and macrophages are thought to drive inflammation, including HIV-associated neurocognitive problems. Several of the trials below test whether atorvastatin dampens this activation.
 
@@ -117,6 +117,19 @@ Trials in people with HIV are small (5 to 56 participants, apart from one larger
 - Package insert warnings and contraindications from the regulator
 - A dosing and monitoring plan for use with protease inhibitors and boosters (CYP3A4 interactions)
 - A clear definition of the target use, such as HIV-associated dyslipidaemia, cardiovascular risk or immune activation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -57,7 +57,7 @@ Support comes from **1 completed Phase 3 trial specific to this indication** (pl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on the literature retrieved, pantoprazole irreversibly inhibits the gastric H+/K+ ATPase (the "proton pump") in parietal cells. This blocks the final step of acid secretion. The drug accumulates in the acidic compartment of the parietal cell and must be acid-activated before it acts, which gives it selectivity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pantoprazole: "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), label version 2026-11-06; accessed 2026-11-19.) Based on the literature retrieved, pantoprazole irreversibly inhibits the gastric H+/K+ ATPase (the "proton pump") in parietal cells. This blocks the final step of acid secretion. The drug accumulates in the acidic compartment of the parietal cell and must be acid-activated before it acts, which gives it selectivity.
 
 Peptic ulcers form when acid overwhelms the protective mucosal barrier. Reducing acid lets the ulcer heal. This directly matches pantoprazole's known uses in peptic ulcer disease and reflux disease. The prediction is therefore consistent with existing practice and is not a new therapeutic direction.
 
@@ -139,12 +139,13 @@ Pantoprazole is already marketed in Singapore, and active peptic ulcer disease i
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "A total of 14 valid single-ingredient licences exist, covering oral enteric-coated or delayed-release tablets (20 mg and 40 mg) and intraven" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "with 14 licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->
 

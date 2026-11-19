@@ -54,7 +54,7 @@ Laronidase is a recombinant human alpha-L-iduronidase enzyme replacement therapy
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Laronidase is a recombinant alpha-L-iduronidase. This enzyme removes iduronide residues from the glycosaminoglycans heparan sulfate and dermatan sulfate.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for laronidase: "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60), label version 2026-09-11; accessed 2026-11-19.) Laronidase is a recombinant alpha-L-iduronidase. This enzyme removes iduronide residues from the glycosaminoglycans heparan sulfate and dermatan sulfate.
 
 The model's high score most likely reflects shared biology: Sanfilippo syndrome (MPS III) also involves accumulation of heparan sulfate. The mechanistic fit is weak, though, for three reasons:
 
@@ -114,6 +114,18 @@ The prediction score is high, but the evidence level is L5. No trial or publicat
 - Mechanism-of-action data for laronidase
 - Package insert warnings and contraindications, to support safety screening
 - Any registered or published clinical studies in Sanfilippo syndrome, if they exist
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

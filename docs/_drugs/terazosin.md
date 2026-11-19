@@ -56,7 +56,7 @@ Other predictions in the list, notably **migraine** and **Raynaud disease**, hav
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Terazosin is known as a selective alpha-1 adrenergic receptor blocker. It relaxes vascular and prostatic smooth muscle, which explains its use in hypertension and benign prostatic hyperplasia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for terazosin: "Benign Prostatic Hyperplasia The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part by a proliferation of smooth muscle cells in the prostatic stroma. […] Blockade of the alpha-1 receptor decreases urethral resistance and may relieve the obstruction of BPH symptoms and improve urine flow Hypertension The mechanism of action of terazosin is selective blockade of the alpha-1 subtype of adrenergic receptors." ([DailyMed: Tezruly (terazosin) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f), label version 2025-04-18; accessed 2026-11-19.) Terazosin is known as a selective alpha-1 adrenergic receptor blocker. It relaxes vascular and prostatic smooth muscle, which explains its use in hypertension and benign prostatic hyperplasia.
 
 The link to hair loss is speculative. One plausible but unproven idea is that vasodilation could improve scalp perfusion and follicle function, similar to minoxidil, another vasodilating antihypertensive. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It does not reflect any observed clinical effect.
 
@@ -128,6 +128,19 @@ The top-ranked prediction, hypotrichosis simplex of the scalp, rests only on a s
 - Any preclinical or clinical data on terazosin in hair-growth disorders, to test the speculative perfusion hypothesis
 - For a more promising direction, a focused evidence review and a well-designed controlled study for migraine prophylaxis or Raynaud's phenomenon, with attention to hypotension and dizziness
 - Assessment of route compatibility and formulation, since only oral tablets are registered in Singapore
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tezruly (terazosin) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

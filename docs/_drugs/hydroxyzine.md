@@ -55,7 +55,7 @@ with **no registered clinical trials** and **20 publications** retrieved, most o
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, hydroxyzine is a first-generation H1-receptor inverse agonist. In allergic urticaria, histamine released from mast cells causes the wheal-and-flare response, so H1 blockade is mechanistically direct.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for hydroxyzine: "Hydroxyzine is not a cortical depressant, but its action may be due to a suppression of activity in certain key regions of the subcortical area of the central nervous system. Primary skeletal muscle relaxation has been demonstrated experimentally." ([DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1), label version 2026-11-12; accessed 2026-11-19.) Based on known pharmacology, hydroxyzine is a first-generation H1-receptor inverse agonist. In allergic urticaria, histamine released from mast cells causes the wheal-and-flare response, so H1 blockade is mechanistically direct.
 
 Urticaria and angioedema are already among hydroxyzine's original indications. Allergic urticaria is therefore largely a sub-type of an existing use, not a true repurposing. This limits the novelty of the prediction, although it also makes the prediction biologically sensible.
 
@@ -123,6 +123,19 @@ Allergic urticaria is mechanistically plausible but largely falls within hydroxy
 - Hydroxyzine-specific trials or comparative data in allergic or cold urticaria, ideally against second-generation antihistamines
 - A benefit-risk assessment for older patients and those with cardiovascular, QT-related or anticholinergic-sensitive conditions
 - Confirmation of the design of the 1984 cold urticaria study (PMID 6480953)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

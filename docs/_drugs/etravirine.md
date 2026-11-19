@@ -60,7 +60,7 @@ The prediction is best treated as a research question, not an actionable repurpo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, etravirine is an NNRTI that inhibits HIV-1 reverse transcriptase, and its efficacy in HIV infection is established. Simian immunodeficiency virus (SIV) is a closely related lentivirus. The score for it comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for etravirine: "Etravirine is an antiretroviral drug. […] Etravirine is an NNRTI of HIV-1. Etravirine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site. Etravirine does not inhibit the human DNA polymerases α, β, and γ." ([DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d), label version 2023-08-15; accessed 2026-11-19.) Based on known information, etravirine is an NNRTI that inhibits HIV-1 reverse transcriptase, and its efficacy in HIV infection is established. Simian immunodeficiency virus (SIV) is a closely related lentivirus. The score for it comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 However, the mechanistic link is weak. SIV and HIV-2 are intrinsically resistant to most NNRTIs, so activity of etravirine against SIV is not expected from its class mechanism. The high TxGNN score most likely reflects network proximity to the HIV indication rather than a demonstrated pharmacological effect.
 
@@ -125,6 +125,19 @@ The prediction rests on network proximity to the HIV indication. There are no cl
 - Direct in vitro or animal data on etravirine activity against SIV
 - A decision on whether a non-human indication is within the scope of this programme
 - For HIV-related labels (AIDS related complex, congenital HIV), treat them as existing on-label use and assess them within the current HIV indication, with dedicated pregnancy safety data where relevant
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Intelence (etravirine) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a9cbc29-9f15-4b24-8d86-206b82887f3d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

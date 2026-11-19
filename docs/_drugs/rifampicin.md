@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and the literature (**19 publica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rifampicin is a broad-spectrum antibiotic that inhibits bacterial RNA polymerase. It is active against Gram-positive bacteria, *Chlamydia* and some other ocular pathogens.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rifampicin: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), label version 2026-05-05; accessed 2026-11-19.) Based on known pharmacology, rifampicin is a broad-spectrum antibiotic that inhibits bacterial RNA polymerase. It is active against Gram-positive bacteria, *Chlamydia* and some other ocular pathogens.
 
 Infectious conjunctivitis is commonly caused by bacteria such as *Staphylococcus*, *Streptococcus* and *Chlamydia trachomatis*. Because rifampicin acts against several of these organisms, antibacterial activity in infectious conjunctivitis is plausible. The old trials used **topical 1% rifampicin ointment**, whereas the Singapore products are oral capsules, so route compatibility has not been established.
 
@@ -129,6 +129,19 @@ The conjunctivitis prediction is biologically plausible, but the evidence is lim
 - A comparison against current standard topical antibiotics for bacterial conjunctivitis and trachoma
 - Assessment of whether an ophthalmic formulation is feasible, since only oral capsules are registered in Singapore
 - A modern, controlled trial or a systematic review of rifampicin in chlamydial and other bacterial eye infections
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

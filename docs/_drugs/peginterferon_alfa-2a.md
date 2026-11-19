@@ -55,7 +55,7 @@ Note that hepatitis B is already listed among the drug's original indications, s
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, peginterferon alfa-2a is a pegylated interferon with immunomodulatory and antiviral effects. Its efficacy in chronic hepatitis C and chronic hepatitis B is established, and it is mechanistically applicable to hepatitis B virus infection.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for peginterferon alfa-2a: "Pegylated recombinant human interferon alfa-2a is an inducer of the innate antiviral immune response. […] The biological activity of PEGASYS is derived from its recombinant human interferon α-2a moiety. Peginterferon α-2a binds to the human type 1 interferon receptor leading to receptor dimerization. Receptor dimerization activates multiple intracellular signal transduction pathways initially mediated by the JAK/STAT pathway." ([DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916), label version 2026-10-16; accessed 2026-11-19.) Based on known information, peginterferon alfa-2a is a pegylated interferon with immunomodulatory and antiviral effects. Its efficacy in chronic hepatitis C and chronic hepatitis B is established, and it is mechanistically applicable to hepatitis B virus infection.
 
 The literature describes induction of interferon-stimulated genes and enhanced HBV-specific T-cell responses as the basis for its activity against HBV. Because hepatitis B is already among the drug's original indications, the high prediction score (rank 1323 of the model's ranking) is consistent with an established use. The prediction therefore mostly validates the model rather than pointing to a new therapeutic area.
 
@@ -130,6 +130,19 @@ Multiple randomized and controlled studies, including a large NEJM trial and sev
 - Mechanism of action data
 - The approved indication text for the two Singapore licences, to confirm whether hepatitis B is on the local label
 - Application of stopping rules (PMID 30865588) and monitoring for interferon-related adverse events, noting that HBeAg status, genotype and baseline HBsAg influence response
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

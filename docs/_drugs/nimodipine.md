@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, nimodipine is an L-type calcium channel blocker with selectivity for cerebral blood vessels. Its efficacy in subarachnoid hemorrhage (preventing vasospasm and delayed cerebral ischemia) is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nimodipine: "Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents." ([DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10), label version 2024-08-30; accessed 2026-11-19.) Based on known information, nimodipine is an L-type calcium channel blocker with selectivity for cerebral blood vessels. Its efficacy in subarachnoid hemorrhage (preventing vasospasm and delayed cerebral ischemia) is established.
 
 For homozygous familial hypercholesterolemia, the data compiled for this report identify **no plausible mechanistic link**. The condition is caused by defects in LDL receptor pathways, and calcium channel blockade has no established role in lipid metabolism. The high TxGNN score is therefore best treated as a model output that needs independent validation rather than as supporting evidence.
 
@@ -103,6 +103,19 @@ The prediction rests on a model score alone (Evidence Level L5). There are no tr
 - Mechanism of action data (e.g., from DrugBank)
 - Preclinical or mechanistic evidence linking calcium channel blockade to lipid metabolism or LDL receptor function
 - If pursuing other predictions, consider prioritising Moyamoya angiopathy as a research question, given its cerebrovascular rationale. This would still require a literature search and a hemodynamic safety assessment.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

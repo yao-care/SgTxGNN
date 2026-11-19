@@ -58,7 +58,7 @@ Enfortumab vedotin is a Nectin-4-directed antibody-drug conjugate (ADC) carrying
 
 ## Why is This Prediction Reasonable?
 
-Enfortumab vedotin is an antibody-drug conjugate. The antibody binds Nectin-4, a cell-surface protein, and delivers the cytotoxic payload MMAE into the cell. Detailed mechanism-of-action data were not available in the data compiled for this report, so the description above is based on the drug class.
+Enfortumab vedotin is an antibody-drug conjugate. The antibody binds Nectin-4, a cell-surface protein, and delivers the cytotoxic payload MMAE into the cell. According to the Mechanism of Action section of the US FDA-approved prescribing information for enfortumab vedotin: "Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker." ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), label version 2026-08-04; accessed 2026-11-19.) The description above is based on the drug class.
 
 **Leprosy.** No mechanistic link has been established. The high score is a computational output only, and nothing in the data connects a Nectin-4-targeted cytotoxic ADC to a bacterial infection such as leprosy.
 
@@ -147,6 +147,19 @@ The top-ranked prediction, leprosy, rests on a computational score alone. There 
 - Package insert warnings and contraindications, which are required for safety screening
 - Route and formulation compatibility assessment
 - Review of the full interaction list, particularly the major interaction with clarithromycin
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

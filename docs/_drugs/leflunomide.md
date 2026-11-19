@@ -61,7 +61,7 @@ Leflunomide is also known to be teratogenic, which argues against use in congeni
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the compiled drug record. Based on the published literature, leflunomide is a prodrug. Its active metabolite, teriflunomide (A771726), inhibits **dihydroorotate dehydrogenase (DHODH)**, an enzyme needed to make pyrimidine nucleotides. In rheumatoid arthritis, this slows the proliferation of activated lymphocytes.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for leflunomide: "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), label version 2025-06-04; accessed 2026-11-19.) Based on the published literature, leflunomide is a prodrug. Its active metabolite, teriflunomide (A771726), inhibits **dihydroorotate dehydrogenase (DHODH)**, an enzyme needed to make pyrimidine nucleotides. In rheumatoid arthritis, this slows the proliferation of activated lymphocytes.
 
 Myeloma cells are rapidly dividing plasma cells with a high demand for nucleotides. Laboratory studies show that DHODH is expressed in myeloma cell lines and primary myeloma cells, and that blocking it causes apoptosis and reduced proliferation. Teriflunomide also lowers c-Myc expression by targeting PIM kinases. In a mouse model, leflunomide combined with lenalidomide extended survival. Other work suggests a mitochondria-independent cytotoxic effect and a possible link to mitochondrial fusion pathways.
 
@@ -153,11 +153,12 @@ Package-insert warnings and contraindications were not available in the compiled
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four registrations are valid single-ingredient oral film-coated tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the compiled drug record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 
 <!-- review:end log -->
 

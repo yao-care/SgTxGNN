@@ -56,7 +56,7 @@ with **no registered clinical trials** but **20 publications** currently support
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, prednisone is a systemic glucocorticoid, its efficacy in autoimmune and inflammatory disease has been established, and mechanistically it may be applicable to alopecia areata.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisone: "Naturally occurring corticosteroids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs, such as prednisone, are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a), label version 2026-09-23; accessed 2026-11-19.) Based on known information, prednisone is a systemic glucocorticoid, its efficacy in autoimmune and inflammatory disease has been established, and mechanistically it may be applicable to alopecia areata.
 
 Alopecia areata is a T-cell mediated autoimmune attack on hair follicles, with collapse of the follicle's immune privilege. Prednisone suppresses T-cell activation and the production of pro-inflammatory cytokines, which is biologically consistent with this disease mechanism. Many of prednisone's original indications are also autoimmune or inflammatory, so the prediction fits its established pharmacological profile.
 
@@ -133,6 +133,19 @@ The mechanism is biologically coherent and systemic steroids are already used fo
 - Controlled trial data on prednisone alone, including relapse rates after withdrawal
 - A safety monitoring plan for long-term steroid exposure, particularly for patients with hypertension, hyperglycaemia or heart failure
 - Review of interactions with concurrent therapies such as JAK inhibitors (e.g. baricitinib) used in severe disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

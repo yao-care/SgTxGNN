@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **colobomatous microphthalmia-r
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, upadacitinib is a JAK1-preferential inhibitor of JAK-STAT signalling. Its efficacy in rheumatoid arthritis, an inflammatory autoimmune disease, has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for upadacitinib: "Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095), label version 2026-06-30; accessed 2026-11-19.) Based on known information, upadacitinib is a JAK1-preferential inhibitor of JAK-STAT signalling. Its efficacy in rheumatoid arthritis, an inflammatory autoimmune disease, has been established.
 
 For this predicted indication, no mechanistic link could be identified. Colobomatous microphthalmia-rhizomelic dysplasia syndrome is an ultra-rare developmental malformation syndrome with no known involvement of JAK-STAT signalling. The prediction should be treated as a hypothesis, not as evidence of benefit.
 
@@ -106,6 +106,19 @@ The prediction is supported only by a model score. There are no clinical trials 
 - Biological evidence linking JAK-STAT signalling to the predicted disease, such as preclinical or genetic data
 - Approved indication text for the Singapore licences
 - Review of whether a better-supported candidate indication exists, given that the top-ranked predictions are mostly ultra-rare genetic conditions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

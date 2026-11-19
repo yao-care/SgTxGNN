@@ -55,7 +55,7 @@ The TxGNN model ranks **hypervitaminosis** as its top predicted new indication, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Phentermine is known as a sympathomimetic anorectic that releases norepinephrine, which suppresses appetite. This explains its use in obesity, and it could in theory raise blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for phentermine: "Phentermine is a sympathomimetic amine with pharmacologic activity similar to the prototype drugs of this class used in obesity, amphetamine (d- and dll-amphetamine). Drugs of this class used in obesity are commonly known as “anorectics” or “anorexigenics.” It has not been established that the primary action of such drugs in treating obesity is one of appetite suppression since other central nervous system actions, or metabolic effects, may also be involved." ([DailyMed: Lomaira (phentermine hydrochloride) prescribing information, Calvin Scott & Co., Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0718f0f3-77f2-45d7-be12-1ed718c8b806), label version 2026-05-21; accessed 2026-11-19.) Phentermine is known as a sympathomimetic anorectic that releases norepinephrine, which suppresses appetite. This explains its use in obesity, and it could in theory raise blood pressure.
 
 Obesity and hypervitaminosis have no clear pharmacological connection. Hypervitaminosis results from excess vitamin intake, and nothing in phentermine's mechanism would treat or prevent it. The high score (0.9957) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so this prediction should be treated as a model artifact.
 
@@ -100,6 +100,19 @@ The top-ranked prediction has only model-based support (L5), with no trials, no 
 - Mechanism of action data
 - Package insert warnings and contraindications from the Singapore regulator (HSA)
 - A cardiovascular and psychiatric safety plan, given the contraindications and the major drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lomaira (phentermine hydrochloride) prescribing information, Calvin Scott & Co., Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0718f0f3-77f2-45d7-be12-1ed718c8b806) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

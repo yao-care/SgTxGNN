@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **schizoid personality disorder**,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Fluvoxamine is known as an SSRI, and its use in OCD and social phobia is recorded in the knowledge graph. Mechanistically, a serotonergic drug could plausibly be considered for related psychiatric conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluvoxamine: "The mechanism of action of fluvoxamine maleate in obsessive compulsive disorder is presumed to be linked to its specific serotonin reuptake inhibition in brain neurons. Fluvoxamine has been shown to be a potent inhibitor of the serotonin reuptake transporter in preclinical studies, both in vitro and in vivo." ([DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c), label version 2026-10-26; accessed 2026-11-19.) Fluvoxamine is known as an SSRI, and its use in OCD and social phobia is recorded in the knowledge graph. Mechanistically, a serotonergic drug could plausibly be considered for related psychiatric conditions.
 
 No direct mechanistic link to schizoid personality disorder has been established. The high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same score of 1.0000 is also given to several other personality disorders (histrionic, schizotypal, paranoid), which suggests a general similarity effect between related disorders.
 
@@ -125,6 +125,19 @@ The prediction is model-only. There are no registered trials, and the single lin
 - A defined mechanism of action and a rationale specific to this condition
 - Package insert warnings and contraindications for the registered Singapore products
 - An interaction management plan, given the major interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ The evidence is essentially model prediction only, and the prediction is not sup
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rocuronium is a non-depolarising neuromuscular blocker. It competitively antagonises nicotinic acetylcholine receptors at the neuromuscular junction, producing temporary skeletal muscle paralysis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rocuronium: "Rocuronium bromide injection is a nondepolarizing neuromuscular blocking agent with a rapid to intermediate onset depending on dose and intermediate duration. It acts by competing for cholinergic receptors at the motor end-plate." ([DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147), label version 2026-10-01; accessed 2026-11-19.) Based on known pharmacology, rocuronium is a non-depolarising neuromuscular blocker. It competitively antagonises nicotinic acetylcholine receptors at the neuromuscular junction, producing temporary skeletal muscle paralysis.
 
 The review of this prediction found **no credible mechanistic link** to migraine. Migraine involves CGRP signalling, trigeminovascular activation and cortical spreading depression, which are central and neurovascular processes. Peripheral muscle relaxation does not address them. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -129,6 +129,19 @@ The prediction rests only on a high model score. There is no mechanistic link, n
 - Preclinical or clinical efficacy data specific to migraine
 - Full mechanism of action data and package insert warnings and contraindications
 - Evaluation of safe routes and settings of administration, since the current use is limited to supervised anaesthesia
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

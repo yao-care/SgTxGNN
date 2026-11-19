@@ -56,7 +56,7 @@ This is a near-label extension of its existing anxiety use rather than a true re
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled record. Based on known pharmacology, moclobemide is a reversible inhibitor of MAO-A (the compiled data also list MAO-B as a target). This raises serotonin, norepinephrine and dopamine levels. The same monoaminergic mechanism is shared by antidepressants used in panic disorder with agoraphobia.
+ChEMBL (EMBL-EBI) records the mechanism of action of moclobemide as: Monoamine oxidase A inhibitor ([ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, moclobemide is a reversible inhibitor of MAO-A (the compiled data also list MAO-B as a target). This raises serotonin, norepinephrine and dopamine levels. The same monoaminergic mechanism is shared by antidepressants used in panic disorder with agoraphobia.
 
 Agoraphobia usually occurs together with panic disorder, and anxiety disorders are already among moclobemide's original indications. Randomised trials in panic disorder (with or without agoraphobia) support the link. One placebo-controlled trial tested moclobemide, cognitive-behavioural therapy and their combination, and another compared moclobemide with clomipramine. The exact population of the first trial is not stated in its title, so its fit to agoraphobia is inferred.
 
@@ -119,6 +119,18 @@ Two randomised trials in panic disorder with or without agoraphobia, together wi
 | 7 | Migraine disorder | L4 | Only small, unclear-design prophylaxis reports; most papers concern triptan interaction hazards. Research Question |
 | 9 | Obsessive-compulsive disorder | L3 | Only small clinical data; guidelines favour SSRIs and clomipramine. Research Question |
 | 2, 5, 6, 8, 10 | Benign paroxysmal torticollis of infancy, Keppen-Lubinsky syndrome, vitamin B12-responsive methylmalonic acidemia, migraine with brainstem aura, autosomal dominant slowed nerve conduction velocity | L5 | High model scores only, with no trials, no literature and no plausible mechanism. Hold |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

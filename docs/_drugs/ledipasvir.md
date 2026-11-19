@@ -60,7 +60,7 @@ but the supporting evidence is thin: **5 related clinical trials** (only 1 direc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ledipasvir is an inhibitor of the HCV NS5A protein and is used together with sofosbuvir, an NS5B polymerase inhibitor, for chronic hepatitis C.
+ChEMBL (EMBL-EBI) records the mechanism of action of ledipasvir as: Nonstructural protein 5A inhibitor ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, ledipasvir is an inhibitor of the HCV NS5A protein and is used together with sofosbuvir, an NS5B polymerase inhibitor, for chronic hepatitis C.
 
 The mechanistic case for HBV is weak. HBV has no NS5A homologue, so direct anti-HBV activity is not expected. The high TxGNN score probably reflects shared viral hepatitis network features (the two viruses infect the same organ and often co-occur) rather than a true antiviral mechanism.
 
@@ -145,11 +145,12 @@ Ledipasvir has no expected direct anti-HBV mechanism. The only directly relevant
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of the approved indication text in the Singapore registration record" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
 
 <!-- review:end log -->
 

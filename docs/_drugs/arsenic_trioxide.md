@@ -62,7 +62,7 @@ The closest, better-supported prediction is **myelodysplastic syndrome (MDS)** i
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, arsenic trioxide is a cytotoxic and differentiating agent. Its efficacy in acute promyelocytic leukaemia is well established, and mechanistically it may be applicable to myelodysplastic syndromes.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for arsenic trioxide: "The mechanism of action of TRISENOX is not completely understood. Arsenic trioxide causes morphological changes and DNA fragmentation characteristic of apoptosis in NB4 human promyelocytic leukemia cells in vitro. Arsenic trioxide also causes damage or degradation of the fusion protein promyelocytic leukemia (PML)-retinoic acid receptor (RAR)-alpha." ([DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741), label version 2022-06-30; accessed 2026-11-19.) Based on known information, arsenic trioxide is a cytotoxic and differentiating agent. Its efficacy in acute promyelocytic leukaemia is well established, and mechanistically it may be applicable to myelodysplastic syndromes.
 
 Published studies describe several effects that make this plausible. Arsenic trioxide induces apoptosis (including through NF-κB/FLIP and BCL2-family modulation), promotes cell differentiation, and has epigenetic and immunomodulatory effects. MDS is a clonal bone marrow disorder that often progresses to acute myeloid leukaemia, so it shares biology with the myeloid leukaemias for which the drug is used.
 
@@ -174,11 +174,12 @@ The top-ranked prediction, unclassified myelodysplastic syndrome, rests only on 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "which is missing from both licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741) |
 
 <!-- review:end log -->
 

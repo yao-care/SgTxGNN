@@ -56,7 +56,7 @@ but **no clinical trials and no publications** directly support this prediction,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. From the pharmacology data, alirocumab binds PCSK9 (proprotein convertase subtilisin/kexin type 9). Blocking PCSK9 increases recycling of LDL receptors and lowers circulating LDL cholesterol.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alirocumab: "Alirocumab is a human monoclonal antibody that binds to proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein (LDL) receptors (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172), label version 2026-07-16; accessed 2026-11-19.) From the pharmacology data, alirocumab binds PCSK9 (proprotein convertase subtilisin/kexin type 9). Blocking PCSK9 increases recycling of LDL receptors and lowers circulating LDL cholesterol.
 
 X-linked ichthyosis is associated with cholesterol sulfate accumulation and disrupted skin-barrier lipids. The connection to PCSK9 inhibition and LDL-receptor-mediated cholesterol clearance is only speculative. No trials, literature or direct mechanistic evidence support it. The high score reflects model output, not a validated biological link.
 
@@ -99,6 +99,19 @@ The prediction has no supporting trials or publications, and the mechanistic lin
 - Preclinical or case-level evidence of an effect in this condition
 - Mechanism-of-action data and package insert warnings and contraindications from HSA
 - A safety review for the affected population, including skin disease and paediatric patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Levonorgestrel is a synthetic progestin that is currently marketed in Singapore 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for levonorgestrel are not available in the data compiled for this report. Levonorgestrel is a progestin, and acne is a hormone-sensitive condition of the sebaceous glands. Androgens drive sebum production, and hormonal products that lower bioavailable androgens can improve acne.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levonorgestrel: "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), label version 2026-03-04; accessed 2026-11-19.) Levonorgestrel is a progestin, and acne is a hormone-sensitive condition of the sebaceous glands. Androgens drive sebum production, and hormonal products that lower bioavailable androgens can improve acne.
 
 The mechanistic link is not straightforward, however. Levonorgestrel is derived from the 19-nortestosterone family and retains some androgenic activity. This could in principle worsen acne rather than treat it. The dermatological benefits described in the retrieved reviews are tied mainly to combined products containing anti-androgenic progestins, such as chlormadinone acetate. They are not tied to levonorgestrel alone.
 
@@ -118,11 +118,12 @@ The evidence level is L2, based on one randomized placebo-controlled trial of a 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and all are single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data for levonorgestrel are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
 
 <!-- review:end log -->
 

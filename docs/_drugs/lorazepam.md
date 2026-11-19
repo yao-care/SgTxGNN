@@ -58,7 +58,7 @@ Lorazepam is a benzodiazepine originally used for anxiety disorders and seizure 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, lorazepam is a positive allosteric modulator of the GABA-A receptor. It enhances inhibitory signalling, which produces anxiolytic, sedative and anticonvulsant effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lorazepam: "Lorazepam exerts its effect for the treatment of anxiety disorders through binding to the benzodiazepine site of the gamma-aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9), label version 2025-10-08; accessed 2026-11-19.) Based on general pharmacology, lorazepam is a positive allosteric modulator of the GABA-A receptor. It enhances inhibitory signalling, which produces anxiolytic, sedative and anticonvulsant effects.
 
 For the top-ranked prediction, trigeminal nerve neoplasm, **no mechanistic rationale is evident**. Enhanced GABAergic inhibition has no known antitumour activity. At most, lorazepam could play a supportive role, such as managing anxiety or procedural sedation in patients with this tumour. That would not be a new disease-modifying indication. The high TxGNN score (0.9987) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -129,6 +129,19 @@ The top prediction, trigeminal nerve neoplasm, has a score of 0.9987 from the Tx
 - Detailed mechanism of action data
 - Singapore approved-indication text for the three licences
 - A clear statement of whether any seizure-type prediction is a true new indication or falls under the existing seizure label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

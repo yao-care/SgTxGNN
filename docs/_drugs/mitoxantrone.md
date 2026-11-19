@@ -56,7 +56,7 @@ The evidence for this specific prediction is therefore weak, although the closel
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mitoxantrone is an anthraquinone antineoplastic agent that is structurally similar to doxorubicin and acts like the anthracyclines. It works as a topoisomerase II inhibitor and DNA intercalator, causing DNA damage in rapidly dividing cells. Its efficacy in acute myeloid leukaemia is established, and mechanistically it may be applicable to other cancers.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mitoxantrone: "Mitoxantrone, a DNA-reactive agent that intercalates into deoxyribonucleic acid (DNA) through hydrogen bonding, causes crosslinks and strand breaks. Mitoxantrone also interferes with ribonucleic acid (RNA) and is a potent inhibitor of topoisomerase II, an enzyme responsible for uncoiling and repairing damaged DNA." ([DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae), label version 2026-09-01; accessed 2026-11-19.) Based on known information, mitoxantrone is an anthraquinone antineoplastic agent that is structurally similar to doxorubicin and acts like the anthracyclines. It works as a topoisomerase II inhibitor and DNA intercalator, causing DNA damage in rapidly dividing cells. Its efficacy in acute myeloid leukaemia is established, and mechanistically it may be applicable to other cancers.
 
 Older studies reported some activity in head and neck cancer. Phase II studies in head and neck squamous cell carcinoma and adenoid cystic carcinoma showed limited activity, and a small series combining mitoxantrone with cisplatin in salivary gland malignancies is also available. Studies in nasopharyngeal carcinoma, including a pharmacokinetic study and a multicentre Southeast Asian phase II trial, add indirect support. Overall, the evidence is indirect and heterogeneous, and the prediction remains largely computational.
 
@@ -133,6 +133,19 @@ The prediction for upper aerodigestive tract neoplasm rests on a high model scor
 - Results of the ongoing head and neck and nasopharyngeal carcinoma trials, especially the Phase 3 trial NCT05717764
 - A decision on whether to pursue the better-supported **head and neck cancer** indication (evidence level L2, assessed as "Proceed with Guardrails") instead, with attention to cardiotoxicity and cumulative dose
 - Evaluation of whether the conventional injection formulation is appropriate, given that the recent evidence is for the liposomal form
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

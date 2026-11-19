@@ -57,7 +57,7 @@ with **34 clinical trials** and **20 publications** currently retrieved for this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled data. Based on known information, gemcitabine is a nucleoside analog that inhibits DNA synthesis and ribonucleotide reductase. It is a cytotoxic drug that acts on rapidly dividing cells, so its action is not specific to one tumour type.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for gemcitabine: "Gemcitabine kills cells undergoing DNA synthesis and blocks the progression of cells through the G1/S-phase boundary. Gemcitabine is metabolized by nucleoside kinases to diphosphate (dFdCDP) and triphosphate (dFdCTP) nucleosides." ([DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84), label version 2026-07-27; accessed 2026-11-19.) Based on known information, gemcitabine is a nucleoside analog that inhibits DNA synthesis and ribonucleotide reductase. It is a cytotoxic drug that acts on rapidly dividing cells, so its action is not specific to one tumour type.
 
 Its efficacy in ovarian cancer is established, and the same mechanism can plausibly apply to breast cancer. Reviews in the retrieved literature describe single-agent response rates of 16% to 37% in metastatic breast cancer. They also describe complementary activity with taxanes, platinum agents, anthracyclines and trastuzumab. The very high TxGNN score is consistent with this clinical picture.
 
@@ -160,11 +160,12 @@ Completed Phase 3 and several completed Phase 2 trials in breast cancer, support
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 11 licences are valid single-ingredient injectables, and none carries approved indication text in the data compiled for this report" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84) |
 
 <!-- review:end log -->
 

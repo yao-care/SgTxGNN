@@ -54,7 +54,7 @@ Etoricoxib is a selective COX-2 inhibitor marketed in Singapore as a painkiller 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, etoricoxib is a selective COX-2 inhibitor (target: PTGS2). It reduces the synthesis of prostaglandin E2 (PGE2), a mediator of pain and inflammation.
+ChEMBL (EMBL-EBI) records the mechanism of action of etoricoxib as: Cyclooxygenase-2 inhibitor ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, etoricoxib is a selective COX-2 inhibitor (target: PTGS2). It reduces the synthesis of prostaglandin E2 (PGE2), a mediator of pain and inflammation.
 
 PGE2 and neurogenic inflammation are thought to contribute to migraine, so the link is biologically plausible. NSAIDs are already widely used for migraine. However, the only publication retrieved for migraine disorder is a scoping review of fasting-induced headache during Ramadan, which does not test etoricoxib. The high score is therefore a computational prediction, not a clinical finding.
 
@@ -130,11 +130,12 @@ The migraine prediction is supported only by a model score and a mechanistic arg
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Twenty valid single-ingredient licences are registered, all oral film-coated tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
 
 <!-- review:end log -->
 

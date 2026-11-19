@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, fluconazole is an azole antifungal that is generally understood to inhibit fungal ergosterol synthesis. Its efficacy in superficial and invasive fungal infections is established, but this general knowledge is not supported by mechanism data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluconazole: "Fluconazole is a highly selective inhibitor of fungal cytochrome P450 dependent enzyme lanosterol 14-α-demethylase. This enzyme functions to convert lanosterol to ergosterol. The subsequent loss of normal sterols correlates with the accumulation of 14-α-methyl sterols in fungi and may be responsible for the fungistatic activity of fluconazole." ([DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204), label version 2026-04-02; accessed 2026-11-19.) Based on known information, fluconazole is an azole antifungal that is generally understood to inhibit fungal ergosterol synthesis. Its efficacy in superficial and invasive fungal infections is established, but this general knowledge is not supported by mechanism data compiled for this report.
 
 The link to the predicted indication is weak. Punctate epithelial keratoconjunctivitis is often viral or inflammatory in origin, so an antifungal rationale is not apparent. The high score (0.9924, rank 8,703) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This should be treated as a model prediction only.
 
@@ -134,11 +134,12 @@ The prediction rests on the model score alone. There are no trials or publicatio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Nine valid single-ingredient licences exist in total" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204) |
 
 <!-- review:end log -->
 

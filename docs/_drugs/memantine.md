@@ -58,7 +58,7 @@ Memantine is an NMDA receptor antagonist. The Singapore registration data compil
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, memantine is a non-competitive NMDA receptor antagonist. Its efficacy in its original use is established, and mechanistically it may be applicable to pulmonary hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for memantine: "Persistent activation of central nervous system N-methyl-D-aspartate (NMDA) receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open-channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels." ([DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e), label version 2026-11-11; accessed 2026-11-19.) Based on known information, memantine is a non-competitive NMDA receptor antagonist. Its efficacy in its original use is established, and mechanistically it may be applicable to pulmonary hypertension.
 
 Some preclinical work links the glutamate/NMDA receptor axis to pulmonary arterial hypertension, acute lung injury and metabolic regulation. NMDA receptors are also expressed in the pulmonary vasculature. However, the retrieved literature does not test memantine in pulmonary hypertension, so the link is plausible but unproven. The high TxGNN score is a computational prediction only.
 
@@ -139,6 +139,19 @@ The pulmonary hypertension prediction scores very high (0.9954), but there are n
 - Detailed mechanism of action data (MOA)
 - Review of progress on MN-08 as a possible route to this indication
 - Consideration of migraine, where trial and meta-analysis evidence already exists, as a more evidence-backed repurposing direction. A larger, adequately powered trial would be needed to confirm it.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

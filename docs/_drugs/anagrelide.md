@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **reactive thrombocytosis**, bu
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, anagrelide lowers platelet counts by inhibiting megakaryocyte maturation, reducing platelet production.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for anagrelide: "The precise mechanism by which anagrelide reduces blood platelet count is unknown. In cell culture studies, anagrelide suppressed expression of transcription factors including GATA-1 and FOG-1 required for megakaryocytopoiesis, ultimately leading to reduced platelet production." ([DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219), label version 2026-04-08; accessed 2026-11-19.) Based on general knowledge, anagrelide lowers platelet counts by inhibiting megakaryocyte maturation, reducing platelet production.
 
 The model most likely scores this prediction highly because reactive thrombocytosis closely overlaps in presentation with primary (clonal) thrombocytosis, the condition anagrelide is known for. However, reactive thrombocytosis is driven by an underlying cause such as inflammation, iron deficiency, or splenectomy, and it is usually managed by treating that cause. Platelet-lowering therapy is rarely needed, so the mechanistic fit does not translate into a clear clinical rationale.
 
@@ -109,6 +109,19 @@ The prediction rests on a model score alone. No clinical trials exist, and no ci
 - Package insert warnings and contraindications from the HSA
 - Detailed mechanism of action data
 - A safety assessment covering cardiovascular, hepatic and renal risks, as well as the interaction profile above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

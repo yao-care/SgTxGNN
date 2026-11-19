@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **2 compl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sunitinib is a multi-targeted receptor tyrosine kinase inhibitor acting on VEGFR, PDGFR, KIT, RET and FLT3. It blocks signals that drive tumour blood-vessel growth and cell proliferation. Its efficacy in renal cell carcinoma and in imatinib-resistant GIST is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sunitinib: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), label version 2026-02-20; accessed 2026-11-19.) Based on known information, sunitinib is a multi-targeted receptor tyrosine kinase inhibitor acting on VEGFR, PDGFR, KIT, RET and FLT3. It blocks signals that drive tumour blood-vessel growth and cell proliferation. Its efficacy in renal cell carcinoma and in imatinib-resistant GIST is established.
 
 Soft tissue sarcomas, including liposarcoma, can depend on angiogenesis and PDGFR-driven signalling, so mechanistically the drug could be applicable. However, the available studies pool several sarcoma subtypes. Activity in liposarcoma specifically appears limited. Current literature also notes that other agents, such as trabectedin, show stronger histology-specific activity in liposarcoma.
 
@@ -146,11 +146,12 @@ Only two small, single-arm, mixed-histology Phase 2 trials support the predictio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Two further INSUNITINIB strengths (12.5 mg, 25 mg) are also registered, giving 7 valid single-ingredient registrations in total" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
 
 <!-- review:end log -->
 

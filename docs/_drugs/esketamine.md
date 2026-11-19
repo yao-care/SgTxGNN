@@ -58,7 +58,7 @@ The TxGNN model's top-ranked prediction is **agoraphobia**, but this prediction 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Esketamine is generally known as an NMDA receptor antagonist. Agoraphobia is an anxiety-related condition and is conceptually close to the anxiety disorders listed as esketamine's original indications. However, this link is indirect, and no trials or publications were retrieved to support it.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for esketamine: "Esketamine, the S-enantiomer of racemic ketamine, is a non-selective, non-competitive antagonist of the N -methyl- D -aspartate (NMDA) receptor, an ionotropic glutamate receptor. The mechanism by which esketamine exerts its antidepressant effect is unknown." ([DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed), label version 2026-09-22; accessed 2026-11-19.) Esketamine is generally known as an NMDA receptor antagonist. Agoraphobia is an anxiety-related condition and is conceptually close to the anxiety disorders listed as esketamine's original indications. However, this link is indirect, and no trials or publications were retrieved to support it.
 
 The top prediction should therefore be treated as a model output only. The data show that other predictions have much stronger support:
 
@@ -171,6 +171,19 @@ Agoraphobia has a high model score but no trials or literature, so it is support
 - For OCD: controlled trials, since current evidence is only a registry, a chart review and case reports
 - For insomnia: trials in primary insomnia using esketamine alone, since current trials are perioperative and mostly combined with dexmedetomidine
 - A safety monitoring plan covering blood pressure, dissociation, abuse potential and interaction management, plus a check of the Singapore licence's approved indication wording
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Spravato (esketamine hydrochloride) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

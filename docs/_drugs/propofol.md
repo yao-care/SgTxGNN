@@ -56,7 +56,7 @@ Currently **3 clinical trials** (1 completed Phase 2/3) and **20 publications**,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in the data compiled for this report. Based on known pharmacology, propofol is a GABA-A receptor positive allosteric modulator. Enhanced GABAergic inhibition may dampen trigeminovascular and cortical hyperexcitability, both of which are involved in migraine.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for propofol: "The mechanism of action, like all general anesthetics, is poorly understood. However, propofol is thought to produce its sedative/anesthetic effects by the positive modulation of the inhibitory function of the neurotransmitter GABA through the ligand-gated GABA A receptors." ([DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538), label version 2025-09-11; accessed 2026-11-19.) Based on known pharmacology, propofol is a GABA-A receptor positive allosteric modulator. Enhanced GABAergic inhibition may dampen trigeminovascular and cortical hyperexcitability, both of which are involved in migraine.
 
 Preclinical work (PMID 22390898) shows that propofol hemisuccinate suppresses cortical spreading depression. This is the proposed substrate of migraine aura and a possible trigger of headache pain. This supports a plausible mechanism for an abortive effect in refractory migraine.
 
@@ -134,6 +134,19 @@ One completed Phase 2/3 trial in paediatric migraine, several randomised trials 
 - A guardrail protocol limited to monitored hospital or emergency settings, with trained staff, airway and haemodynamic monitoring, and dose limited to sub-anaesthetic levels
 - A review of the disease associations from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence (epilepsy, hypotension, respiratory failure and lipid disorders), and of concurrent QT-prolonging drugs before use
 - Confirmation of whether the sub-anaesthetic migraine dose falls outside the approved labelling, and whether a new indication application would be required in Singapore
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

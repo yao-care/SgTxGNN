@@ -60,7 +60,7 @@ This top-ranked prediction therefore rests on model output alone, and other lowe
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, metronidazole is a nitroimidazole antimicrobial. Its efficacy in anaerobic bacterial and protozoal infections is established, and it is also used topically for rosacea. It is activated by nitroreduction in anaerobic organisms.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metronidazole: "Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical." ([DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255), label version 2026-11-02; accessed 2026-11-19.) Based on known information, metronidazole is a nitroimidazole antimicrobial. Its efficacy in anaerobic bacterial and protozoal infections is established, and it is also used topically for rosacea. It is activated by nitroreduction in anaerobic organisms.
 
 For pneumocystosis, this link is weak. Pneumocystis is a fungus that lacks the nitroreduction pathway metronidazole depends on, so no plausible mechanism is evident. The high model score appears to reflect general anti-infective associations. The retrieved literature consists of general antiparasitic reviews and HIV opportunistic infection case reports. In those reports, metronidazole was given for a co-existing infection such as amoebiasis, not for Pneumocystis.
 
@@ -143,11 +143,12 @@ The pneumocystosis prediction is purely computational (L5). There are no clinica
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Eleven valid single-ingredient licences are registered in total" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
 
 <!-- review:end log -->
 

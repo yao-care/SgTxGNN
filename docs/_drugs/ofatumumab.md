@@ -55,7 +55,7 @@ Ofatumumab is an anti-CD20 monoclonal antibody. The TxGNN model (deep learning) 
 
 ## Why is This Prediction Reasonable?
 
-Ofatumumab is a fully human anti-CD20 monoclonal antibody. It binds a distinct epitope on CD20 (the small and large loops) and kills cells through complement-dependent cytotoxicity and antibody-dependent cellular cytotoxicity. Detailed mechanism of action data is not available in the drug record, so this description comes from the mechanistic analysis compiled for this report.
+Ofatumumab is a fully human anti-CD20 monoclonal antibody. It binds a distinct epitope on CD20 (the small and large loops) and kills cells through complement-dependent cytotoxicity and antibody-dependent cellular cytotoxicity. According to the Mechanism of Action section of the US FDA-approved prescribing information for ofatumumab: "The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3), label version 2026-04-01; accessed 2026-11-19.) This description comes from the mechanistic analysis compiled for this report.
 
 Follicular lymphoma is a CD20-positive B-cell malignancy, so the target is directly expressed on the tumour cells. This is the same target biology that underlies ofatumumab's activity in B-cell leukemias. Its distinct epitope binding and stronger complement activation also make activity plausible in rituximab-refractory disease. In practice, the clinical data show only modest activity in that setting (see below).
 
@@ -134,6 +134,19 @@ Multiple Phase 2 trials and publications study ofatumumab directly in follicular
 - Package insert warnings and contraindications (not yet available)
 - Confirmation of the approved indications for the two Singapore licences, and of whether an intravenous formulation suitable for lymphoma is available locally
 - A safety monitoring plan covering infections, B-cell depletion and the interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the drug record, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

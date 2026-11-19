@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials**, and the support rests
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for trazodone is not available in the data compiled for this report. Based on general pharmacology, trazodone acts on serotonin pathways: it blocks 5-HT2A receptors and weakly inhibits serotonin reuptake. Serotonin is central to the pathophysiology of OCD, and the established OCD drugs (clomipramine, fluoxetine, fluvoxamine, paroxetine) are all serotonin reuptake inhibitors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trazodone: "The mechanism of trazodone’s antidepressant action is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS. Trazodone is both a selective serotonin reuptake inhibitor (SSRI) and a 5HT2 receptor antagonist and the net result of this action on serotonergic transmission and its role in trazodone’s antidepressant effect is unknown." ([DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768), label version 2026-11-13; accessed 2026-11-19.) Based on general pharmacology, trazodone acts on serotonin pathways: it blocks 5-HT2A receptors and weakly inhibits serotonin reuptake. Serotonin is central to the pathophysiology of OCD, and the established OCD drugs (clomipramine, fluoxetine, fluvoxamine, paroxetine) are all serotonin reuptake inhibitors.
 
 Depression and OCD often occur together and respond to overlapping serotonergic treatments, which makes the prediction biologically plausible. There is an important caveat: trazodone's active metabolite m-CPP has been reported to worsen OCD symptoms in some studies, so the net effect is uncertain. Review articles position trazodone as an adjunct or off-label option for OCD, not an established treatment.
 
@@ -111,6 +111,19 @@ The OCD prediction has a high model score and some biological plausibility, but 
 - Full review of the 1992 double-blind study (design, sample size, results) and a systematic literature review, with comparison against first-line serotonin reuptake inhibitors
 - A cardiac safety plan (QT risk, interacting drugs) and a defined role, such as add-on use in treatment-resistant OCD
 - Registration of a properly controlled trial if development is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for trazodone is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

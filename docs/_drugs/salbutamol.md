@@ -60,7 +60,7 @@ Among the other top-ranked predictions, **obstructive lung disease** has the str
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known pharmacology, salbutamol is a selective beta-2 adrenergic receptor agonist. It relaxes airway smooth muscle, which explains its efficacy in asthma and bronchial disease. Beta-2 agonism may also reduce mast cell mediator release and vascular permeability.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for salbutamol: "Albuterol sulfate is a beta 2 -adrenergic agonist. The pharmacologic effects of albuterol sulfate are attributable to activation of beta 2 -adrenergic receptors on airway smooth muscle. Activation of beta 2 -adrenergic receptors leads to the activation of adenylcyclase and to an increase in the intracellular concentration of cyclic-3', 5’-adenosine monophosphate (cyclic AMP)." ([DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d), label version 2024-12-20; accessed 2026-11-19.) Based on known pharmacology, salbutamol is a selective beta-2 adrenergic receptor agonist. It relaxes airway smooth muscle, which explains its efficacy in asthma and bronchial disease. Beta-2 agonism may also reduce mast cell mediator release and vascular permeability.
 
 For papillary conjunctivitis, this offers only a speculative link, through possible suppression of allergic mediator release in the eye. Papillary conjunctivitis is often mechanically or contact-lens induced, so the benefit of a bronchodilator is uncertain. Preclinical work in other conjunctival models (guinea-pig allergic conjunctivitis and topical conjunctival anti-inflammatory activity of beta-2 agonists) is listed under the related prediction "atopic conjunctivitis", not papillary conjunctivitis itself.
 
@@ -173,11 +173,12 @@ The top-ranked prediction, papillary conjunctivitis, has a very high model score
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Salbutamol has 17 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
 
 <!-- review:end log -->
 

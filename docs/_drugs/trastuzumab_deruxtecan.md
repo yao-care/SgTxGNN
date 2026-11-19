@@ -60,7 +60,7 @@ This is a model-only prediction (Evidence Level L5) with no identifiable mechani
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate with a topoisomerase I inhibitor payload, designed to deliver cytotoxic therapy to HER2-expressing tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trastuzumab deruxtecan: "Fam-trastuzumab deruxtecan-nxki is a HER2-directed antibody-drug conjugate. The antibody is a humanized anti-HER2 IgG1. The small molecule, DXd, is a topoisomerase I inhibitor attached to the antibody by a cleavable linker." ([DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6), label version 2026-05-15; accessed 2026-11-19.) Based on known information, trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate with a topoisomerase I inhibitor payload, designed to deliver cytotoxic therapy to HER2-expressing tumours.
 
 On review, the prediction is **not mechanistically reasonable**. HER2-targeted cytotoxic delivery has no known connection to bone metabolism or osteoporosis.
 
@@ -129,6 +129,19 @@ Using a toxic oncology agent in a non-oncologic bone condition would also raise 
 - Any preclinical or mechanistic evidence linking the drug to bone metabolism, which does not currently exist
 - A risk-benefit justification for cytotoxic therapy in a non-oncologic indication
 - Evaluation of the approved HER2 oncology uses separately from this repurposing question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Verteporfin is known as a light-activated photosensitizer that occludes abnormal blood vessels in neovascular macular degeneration. It is also known experimentally as an inhibitor of the YAP-TEAD interaction.
+ChEMBL (EMBL-EBI) records the mechanism of action of verteporfin as: DNA inhibitor ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; accessed 2026-11-19.) Verteporfin is known as a light-activated photosensitizer that occludes abnormal blood vessels in neovascular macular degeneration. It is also known experimentally as an inhibitor of the YAP-TEAD interaction.
 
 Neither mechanism is clearly linked to oxidative phosphorylation defects caused by nuclear DNA anomalies. These are inherited disorders of cellular energy production, and no plausible connection is evident from the available data. The prediction is therefore best treated as a hypothesis-generating signal from the model, not as a mechanistically supported finding.
 
@@ -112,6 +112,19 @@ The prediction for mitochondrial oxidative phosphorylation disorder is supported
 - Verteporfin mechanism of action data (for example from DrugBank)
 - Mechanistic or preclinical evidence linking verteporfin to nuclear-DNA-related oxidative phosphorylation defects
 - Safety assessment of the KG-listed contraindications (porphyria, liver and gallbladder disease) in any new patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

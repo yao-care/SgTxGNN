@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but there ar
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Beclomethasone dipropionate is a corticosteroid, a class with broad anti-inflammatory and immunosuppressive activity. Topical corticosteroids are standard therapy for atopic dermatitis, so a mechanistic fit with atopic eczema is plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for beclomethasone dipropionate: "Beclomethasone dipropionate is a prodrug that is extensively converted to the active metabolite, beclomethasone-17-monopropionate. The precise mechanism through which beclomethasone dipropionate affects rhinitis symptoms is unknown." ([DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5), label version 2020-02-29; accessed 2026-11-19.) Beclomethasone dipropionate is a corticosteroid, a class with broad anti-inflammatory and immunosuppressive activity. Topical corticosteroids are standard therapy for atopic dermatitis, so a mechanistic fit with atopic eczema is plausible.
 
 The literature supports this only indirectly. One small study in children (14 patients) used oral beclomethasone for severe atopic dermatitis and reported stable disease control in 10 of 14, but it also saw slowing of linear growth. Other papers are reviews on allergic disease, studies of systemic absorption and adrenal suppression, a formulation study in an animal dermatitis model, and one in vitro study in which topical steroids enhanced spontaneous IgE production, which is a mechanistic caveat.
 
@@ -113,6 +113,19 @@ The mechanism is plausible and the TxGNN score is high, but there are no registe
 - Controlled efficacy data for beclomethasone dipropionate in atopic eczema, and a comparison with existing topical corticosteroids
 - Route and formulation compatibility assessment (inhaled, nasal and topical products are all registered; the relevant route for eczema must be defined)
 - Pediatric safety assessment (growth, HPA axis suppression)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

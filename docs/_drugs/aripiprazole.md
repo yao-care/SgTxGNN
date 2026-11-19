@@ -56,7 +56,7 @@ This is a computational prediction only: **0 clinical trials** and **0 publicati
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for this drug is not available in the compiled data. Aripiprazole is generally described as a dopamine D2 partial agonist. That pharmacology is not known to relate to this condition.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aripiprazole: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), label version 2025-04-04; accessed 2026-11-19.) Aripiprazole is generally described as a dopamine D2 partial agonist. That pharmacology is not known to relate to this condition.
 
 The predicted condition is a rare inherited neurodevelopmental disorder. It affects axon guidance, the way nerve fibres find their targets during development. The review of the data found no mechanistic link between aripiprazole's receptor pharmacology and this condition. The high score reflects a pattern found by the computational model and is not backed by trials, publications or biological evidence. The prediction should be treated as a hypothesis only.
 
@@ -112,6 +112,18 @@ The prediction rests on a model score alone (0.9960), with no clinical trials, n
 - Package insert warnings and contraindications for the Singapore-registered products
 - A literature and case-series search specific to this condition, to check for any clinical signal
 - A route-of-administration and population suitability assessment, if a signal emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data for this drug is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

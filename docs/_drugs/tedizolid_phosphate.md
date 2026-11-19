@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, tedizolid is an oxazolidinone antibacterial. It inhibits bacterial protein synthesis by binding the 23S rRNA of the 50S ribosomal subunit, and it is active against Gram-positive organisms. Its efficacy in infection-related skin disease is the basis for its original use.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tedizolid phosphate: "Tedizolid is an antibacterial drug. […] The antibacterial activity of tedizolid is mediated by binding to the 50S subunit of the bacterial ribosome resulting in inhibition of protein synthesis. Tedizolid inhibits bacterial protein synthesis through a mechanism of action different from that of other non-oxazolidinone class antibacterial drugs; therefore, cross-resistance between tedizolid and other classes of antibacterial drugs is unlikely." ([DailyMed: Sivextro (tedizolid phosphate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75672079-589f-451a-bdbf-eaebcfcc80a9), label version 2026-02-27; accessed 2026-11-19.) Based on general pharmacology, tedizolid is an oxazolidinone antibacterial. It inhibits bacterial protein synthesis by binding the 23S rRNA of the 50S ribosomal subunit, and it is active against Gram-positive organisms. Its efficacy in infection-related skin disease is the basis for its original use.
 
 The link to the predicted indication is weak. Post-infectious syndromes are generally immune-mediated sequelae that appear after the pathogen has been cleared, so an antibacterial offers no clear mechanistic rationale. The high score (0.9942) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A plausible role would exist only if a persistent Gram-positive trigger were identified.
 
@@ -115,6 +115,19 @@ The prediction rests on model output alone (L5), with no clinical trials or publ
 - Preclinical or in vitro data supporting any new use
 - If pursuing a more plausible candidate (otitis externa or conjunctivitis), a review of the pathogen spectrum, formulation (topical or ophthalmic) and tissue penetration
 - A haematological safety assessment, given the neutropenia and agranulocytosis signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sivextro (tedizolid phosphate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75672079-589f-451a-bdbf-eaebcfcc80a9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

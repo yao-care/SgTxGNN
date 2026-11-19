@@ -65,7 +65,7 @@ The TxGNN model's top-ranked prediction is **drug-induced osteoporosis**, which 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled data. Based on known information, guselkumab is a monoclonal antibody that selectively blocks the p19 subunit of IL-23. This cytokine drives the Th17 pathway, which underlies several chronic inflammatory diseases.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for guselkumab: "Guselkumab is a human monoclonal IgG1λ antibody that selectively binds to the p19 subunit of interleukin 23 (IL-23) and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in normal inflammatory and immune responses." ([DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56), label version 2026-10-20; accessed 2026-11-19.) Based on known information, guselkumab is a monoclonal antibody that selectively blocks the p19 subunit of IL-23. This cytokine drives the Th17 pathway, which underlies several chronic inflammatory diseases.
 
 **Drug-induced osteoporosis (top-ranked prediction).** IL-23/IL-17 signalling has been linked to inflammatory bone loss. However, there is no direct connection to drug-induced osteoporosis, such as glucocorticoid-induced bone loss. No trials or literature were found, so this prediction rests on the model score alone.
 
@@ -190,11 +190,12 @@ The top prediction is supported only by a model score of 0.9984. It has no trial
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are valid single-ingredient products from Cilag AG" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56) |
 
 <!-- review:end log -->
 

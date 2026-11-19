@@ -60,7 +60,7 @@ Of the 10 predicted indications, none has direct therapeutic evidence, so this i
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Lactic acid is an endogenous metabolite (the end product of glycolysis) and is used as a topical and pH-adjusting agent. It also appears as lactate in intravenous fluid.
+ChEMBL (EMBL-EBI) records the mechanism of action of lactic acid as: pH lowering agent ([ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559), CC BY-SA 3.0; accessed 2026-11-19.) Lactic acid is an endogenous metabolite (the end product of glycolysis) and is used as a topical and pH-adjusting agent. It also appears as lactate in intravenous fluid.
 
 For atypical coarctation of aorta, no mechanistic link was identified. This is a structural developmental anomaly of the aorta, and lactic acid has no known role in aortic development or in treating vascular malformations. The high TxGNN score (0.9959) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -132,6 +132,19 @@ The prediction rests only on a TxGNN model (deep learning) score. There are no t
 - A plausible pharmacological rationale for the predicted indication, and preclinical evidence supporting it
 - Route compatibility assessment, since the available forms (topical and intravenous) have not been matched to what the condition would require
 - If any indication is pursued, dry eye is the only one with some (indirect) evidence at L4, and it would first need direct tests of lactic acid itself rather than probiotics
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

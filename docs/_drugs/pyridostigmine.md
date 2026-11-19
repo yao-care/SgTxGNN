@@ -55,7 +55,7 @@ Currently there are **0 clinical trials** and **3 publications** (a review, a ca
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pyridostigmine is a reversible acetylcholinesterase inhibitor. It slows the breakdown of acetylcholine, so more acetylcholine is available at the neuromuscular junction. This is the established symptomatic mechanism in myasthenia gravis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pyridostigmine: "Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects." ([DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780), label version 2022-09-07; accessed 2026-11-19.) Based on known pharmacology, pyridostigmine is a reversible acetylcholinesterase inhibitor. It slows the breakdown of acetylcholine, so more acetylcholine is available at the neuromuscular junction. This is the established symptomatic mechanism in myasthenia gravis.
 
 Thymic hyperplasia is common in myasthenia gravis with acetylcholine receptor (AChR) antibodies. The predicted indication is therefore a subtype of the original one, and the same mechanism applies. The supplied literature (a review of MG genomics, a MuSK-positive case report, and a thymectomy outcome cohort) does not directly test pyridostigmine in this subgroup. The prediction is mechanistically reasonable, but the benefit over the current indication is unproven.
 
@@ -103,6 +103,19 @@ The predicted indication is a subtype of the established use of pyridostigmine i
 - Detailed mechanism of action data from DrugBank
 - Subgroup data on pyridostigmine response in AChR-positive MG with thymic hyperplasia, including patients before and after thymectomy
 - A review of the interaction and disease-contraindication list (especially asthma, urinary obstruction and kidney disease) in patient selection
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ There are currently **0 registered clinical trials** and **5 retrieved publicati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Chlordiazepoxide is a member of the benzodiazepine class. These drugs positively modulate GABA-A receptors, which dampens neuronal excitability and produces anxiolytic and sedative-hypnotic effects.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for chlordiazepoxide: "Chlordiazepoxide HCl has antianxiety, sedative, appetite-stimulating and weak analgesic actions. The precise mechanism of action is not known. The drug blocks EEG arousal from stimulation of the brain stem reticular formation." ([DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937), label version 2026-11-05; accessed 2026-11-19.) Chlordiazepoxide is a member of the benzodiazepine class. These drugs positively modulate GABA-A receptors, which dampens neuronal excitability and produces anxiolytic and sedative-hypnotic effects.
 
 Sedation and sleep promotion are plausible consequences of this mechanism, and other benzodiazepines are used as hypnotics. This is why the model links the drug to insomnia.
 
@@ -108,6 +108,19 @@ The model score is very high, but no clinical trial or publication directly stud
 - Direct clinical evidence (controlled trials) of chlordiazepoxide in insomnia
 - Mechanism of action data and package insert warnings and contraindications
 - A comparison against established hypnotics, with a dependence and elderly-safety risk assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

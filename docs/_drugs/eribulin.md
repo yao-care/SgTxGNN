@@ -60,7 +60,7 @@ However, **no clinical trials and no publications** currently support this predi
 
 ## Why is This Prediction Reasonable?
 
-Eribulin inhibits microtubule dynamics, which blocks cell division. This makes it useful against rapidly proliferating tumours such as soft tissue sarcoma. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description is based on the drug's known pharmacology.
+Eribulin inhibits microtubule dynamics, which blocks cell division. This makes it useful against rapidly proliferating tumours such as soft tissue sarcoma. According to the Mechanism of Action section of the US FDA-approved prescribing information for eribulin: "Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage." ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), label version 2025-11-07; accessed 2026-11-19.) This description is based on the drug's known pharmacology.
 
 FMF is a hereditary autoinflammatory disease. It is driven by dysregulation of the MEFV/pyrin inflammasome, not by uncontrolled cell growth. The only loose conceptual link is that colchicine, the standard FMF therapy, also acts on microtubules. That is a weak parallel. A cytotoxic chemotherapy is not a plausible treatment for a chronic, non-malignant inflammatory condition. The high TxGNN score (0.9982) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -139,6 +139,19 @@ The prediction is supported only by the model score. There are no trials or publ
 - Approved indication text for the Singapore registration
 
 **Note on other candidates:** Among the other predicted indications, **fibroblastic neoplasm** (rank 8) has the strongest support. It has a completed Phase 2 trial in advanced solitary fibrous tumour ([NCT03840772](https://clinicaltrials.gov/study/NCT03840772), n=16, no results in the data compiled), plus supporting preclinical literature. This direction is a more sensible research question than FMF and may deserve priority review.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

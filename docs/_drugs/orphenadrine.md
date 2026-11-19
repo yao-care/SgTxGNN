@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, orphenadrine is an anticholinergic/antihistaminic agent with NMDA-antagonist activity. Its efficacy in parkinsonian disorders is established, but nothing in the data compiled for this report connects these actions to inherited retinal degeneration.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for orphenadrine: "The mode of action has not been clearly identified but may be related to analgesic properties. Orphenadrine citrate possesses anticholinergic actions." ([DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a), label version 2016-07-20; accessed 2026-11-19.) Based on known information, orphenadrine is an anticholinergic/antihistaminic agent with NMDA-antagonist activity. Its efficacy in parkinsonian disorders is established, but nothing in the data compiled for this report connects these actions to inherited retinal degeneration.
 
 Retinal dystrophy is a hereditary degenerative condition. Orphenadrine's pharmacology (muscarinic and H1 antagonism, NMDA channel block) has no known disease-modifying link to it. The high TxGNN score reflects a TxGNN model (deep learning) prediction only, so this should be treated as a hypothesis, not a supported finding.
 
@@ -116,11 +116,12 @@ The retinal dystrophy prediction rests only on a TxGNN model (deep learning) sco
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Six further valid single-ingredient registrations exist (11 in total), covering tablets, film-coated tablets and capsules, all oral" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **gastroduodenitis**, but there
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, potassium bicarbonate is an alkalinising agent that can neutralise gastric acid. In Singapore it is marketed as a component of alginate/antacid suspensions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for potassium bicarbonate: "Intravenous sodium bicarbonate therapy increases plasma bicarbonate, buffers excess hydrogen ion concentration, raises blood pH." ([DailyMed: sodium bicarbonate prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50c858a-00c8-4cb2-ad73-8797f19e656d), label version 2026-08-14; accessed 2026-11-19.) Based on known information, potassium bicarbonate is an alkalinising agent that can neutralise gastric acid. In Singapore it is marketed as a component of alginate/antacid suspensions.
 
 Gastroduodenitis is an acid-related inflammation of the stomach and duodenal lining, so acid neutralisation is mechanistically plausible. However, the high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the drug's existing indications (peptic ulcer disease, esophagitis, dyspepsia), not biological evidence. It is not evidence of independent efficacy. The new indication is therefore largely an extension of the existing acid-related use rather than a distinct repurposing opportunity.
 
@@ -106,6 +106,19 @@ The prediction has no supporting clinical trials or literature (L5, model predic
 - Clinical or observational evidence specific to gastroduodenitis and potassium bicarbonate
 - Clarification of whether gastroduodenitis falls within the existing approved acid-related indications, which would make this less a true repurposing case
 - A hyperkalaemia risk-management plan for patients on interacting drugs or with renal impairment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sodium bicarbonate prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50c858a-00c8-4cb2-ad73-8797f19e656d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

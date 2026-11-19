@@ -54,7 +54,7 @@ Docetaxel is an antimitotic taxane chemotherapy drug that is already marketed in
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for docetaxel is not available in the data compiled for this report. Based on its known drug class, docetaxel is a taxane with antimitotic activity: it acts against rapidly proliferating tumour cells by interfering with cell division.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for docetaxel: "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly." ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b), label version 2025-12-17; accessed 2026-11-19.) Based on its known drug class, docetaxel is a taxane with antimitotic activity: it acts against rapidly proliferating tumour cells by interfering with cell division.
 
 Ewing sarcoma is an aggressive bone and soft-tissue tumour of children and young adults, and relapsed disease has few treatment options. Docetaxel has been used together with gemcitabine in relapsed paediatric sarcomas, where giving gemcitabine first may add synergy. Docetaxel has also been studied with irinotecan in recurrent or refractory Ewing sarcoma family tumours.
 
@@ -135,6 +135,18 @@ Several completed Phase 2 studies in recurrent Ewing sarcoma include docetaxel, 
 - Detailed mechanism of action data
 - Comparison against current standard relapsed Ewing sarcoma regimens, and a randomised or larger prospective study to isolate docetaxel's contribution
 - A safety monitoring plan for myelosuppression, hepatic impairment and CYP3A4 interactions, especially in paediatric and young adult patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for docetaxel is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -54,7 +54,7 @@ Fosfomycin is an antibiotic. The TxGNN model (deep learning) predicts it may hel
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not included in the data compiled for this report. Fosfomycin is generally known to inhibit MurA (UDP-N-acetylglucosamine enolpyruvyl transferase). This blocks an early step of bacterial cell wall (peptidoglycan) synthesis and gives broad activity against Gram-negative and Gram-positive urinary pathogens.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for fosfomycin: "CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales." ([DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94), label version 2025-11-04; accessed 2026-11-19.) Fosfomycin is generally known to inhibit MurA (UDP-N-acetylglucosamine enolpyruvyl transferase). This blocks an early step of bacterial cell wall (peptidoglycan) synthesis and gives broad activity against Gram-negative and Gram-positive urinary pathogens.
 
 Uterine inflammatory conditions such as endometritis or pelvic inflammatory disease are often bacterial. A drug with broad antibacterial activity could therefore plausibly act on them. This is a mechanistic guess only. No cited study tests fosfomycin for endometritis or pelvic inflammatory disease. The only linked paper concerns cystitis, which is a urinary condition and not uterine disease.
 
@@ -104,6 +104,19 @@ The model score is very high, but no cited study directly examines fosfomycin in
 - Detailed mechanism-of-action data
 - A review of whether the available dosage form and route suit the target condition
 - Comparison against standard regimens for uterine infections
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not included in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

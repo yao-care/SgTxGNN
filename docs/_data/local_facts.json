@@ -21,11 +21,12 @@
   "items_current": 5969
  },
  "reviews": {
-  "records": 339,
-  "pages": 278,
-  "public_pages_with_records": 245,
+  "records": 950,
+  "pages": 696,
+  "public_pages_with_records": 663,
   "by_action": {
-   "correct": 339
+   "correct": 339,
+   "mechanism": 611
   }
  },
  "fhir": {
@@ -48,7 +49,7 @@
    "l": "L5",
    "lt": 84,
    "lv": 84,
-   "r": 1,
+   "r": 2,
    "i": "brain stem infarction"
   },
   {
@@ -66,7 +67,7 @@
    "l": "L5",
    "lt": 65,
    "lv": 65,
-   "r": 1,
+   "r": 2,
    "i": "focal stiff limb syndrome"
   },
   {
@@ -75,7 +76,7 @@
    "l": "L5",
    "lt": 63,
    "lv": 63,
-   "r": 1,
+   "r": 2,
    "i": "tendinitis"
   },
   {
@@ -84,7 +85,7 @@
    "l": "L2",
    "lt": 58,
    "lv": 58,
-   "r": 0,
+   "r": 1,
    "i": "HIV infectious disease"
   },
   {
@@ -102,7 +103,7 @@
    "l": "L5",
    "lt": 57,
    "lv": 57,
-   "r": 1,
+   "r": 2,
    "i": "migraine disorder"
   }
  ],
@@ -119,6 +120,15 @@
    "i": "drug-induced osteoporosis"
   },
   {
+   "t": "Varenicline",
+   "u": "/drugs/varenicline/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 0,
+   "r": 4,
+   "i": "migraine disorder"
+  },
+  {
    "t": "Alpha-Tocopherol Acetate",
    "u": "/drugs/alpha-tocopherol-acetate/",
    "l": "L5",
@@ -128,30 +138,12 @@
    "i": "drug-induced osteoporosis"
   },
   {
-   "t": "Salicylamide",
-   "u": "/drugs/salicylamide/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 0,
-   "r": 3,
-   "i": "pharyngitis"
-  },
-  {
-   "t": "Varenicline",
-   "u": "/drugs/varenicline/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 0,
-   "r": 3,
-   "i": "migraine disorder"
-  },
-  {
    "t": "Bicalutamide",
    "u": "/drugs/bicalutamide/",
    "l": "L4",
    "lt": 4,
    "lv": 4,
-   "r": 2,
+   "r": 3,
    "i": "hypertrichosis (disease)"
   },
   {
@@ -160,8 +152,17 @@
    "l": "L5",
    "lt": 0,
    "lv": 0,
-   "r": 2,
+   "r": 3,
    "i": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+  },
+  {
+   "t": "Dexchlorpheniramine Maleate",
+   "u": "/drugs/dexchlorpheniramine-maleate/",
+   "l": "L5",
+   "lt": 7,
+   "lv": 7,
+   "r": 3,
+   "i": "acute intermittent porphyria"
   }
  ],
  "example": {
@@ -170,7 +171,7 @@
   "l": "L1",
   "lt": 26,
   "lv": 26,
-  "r": 1,
+  "r": 2,
   "i": "seborrheic dermatitis"
  },
  "recent_reviews": [

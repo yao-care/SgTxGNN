@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, scopolamine is a non-selective muscarinic antagonist (anticholinergic). Its efficacy in conditions such as motion sickness, gastrointestinal spasm and uveitis is established, and mechanistically it may be applicable to bladder and bowel dysfunction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for scopolamine: "Scopolamine, a belladonna alkaloid, is an anticholinergic. Scopolamine acts: i) as a competitive inhibitor at postganglionic muscarinic receptor sites of the parasympathetic nervous system, and ii) on smooth muscles that respond to acetylcholine but lack cholinergic innervation." ([DailyMed: Transderm Scop (scopolamine) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b877a694-a1d0-4280-937a-a06820b12a88), label version 2025-06-10; accessed 2026-11-19.) Based on known information, scopolamine is a non-selective muscarinic antagonist (anticholinergic). Its efficacy in conditions such as motion sickness, gastrointestinal spasm and uveitis is established, and mechanistically it may be applicable to bladder and bowel dysfunction.
 
 Cauda equina syndrome causes bladder and bowel dysfunction. Antimuscarinics can relieve detrusor overactivity and so may offer symptomatic relief. However, scopolamine would not treat the underlying compressive nerve injury, and the data do not support a direct link. The high TxGNN score is a computational prediction only.
 
@@ -142,11 +142,12 @@ The prediction for cauda equina syndrome is supported only by the model score (E
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All six are single-ingredient products and none is cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Transderm Scop (scopolamine) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b877a694-a1d0-4280-937a-a06820b12a88) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ Animal data also raise a safety signal, so this is best treated as a research qu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Omeprazole belongs to the proton pump inhibitor class, which suppresses gastric acid. Its efficacy in acid-related diseases such as ulcers and reflux disease is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for omeprazole: "Omeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H + /K + ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the gastric mucosa, omeprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179), label version 2024-03-19; accessed 2026-11-19.) Omeprazole belongs to the proton pump inhibitor class, which suppresses gastric acid. Its efficacy in acid-related diseases such as ulcers and reflux disease is well established.
 
 Duodenogastric reflux is the backflow of bile and duodenal contents into the stomach. It is closely related to the approved reflux and ulcer indications and can damage the mucosa. Acid suppression may ease acid-related injury and symptoms. However, omeprazole does not stop bile or duodenal contents from refluxing, so any benefit would be indirect.
 
@@ -135,6 +135,19 @@ The prediction score is high, but the only trial is a non-interventional diagnos
 - Safety evaluation of long-term acid suppression in patients with duodenogastric reflux, given the carcinogenesis signal in animals
 - Detailed mechanism-of-action data and the Singapore package insert warnings and contraindications
 - Assessment of the knowledge-graph contraindication signals (liver, bone, heart failure and atrophic gastritis) in the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **obsolete bundle branch block*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, adenosine slows conduction through the AV node, which is the basis of its use as an injectable antiarrhythmic.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for adenosine: "Adenosine Injection slows conduction time through the A-V node, can interrupt the reentry pathways through the A-V node, and can restore normal sinus rhythm in patients with paroxysmal supraventricular tachycardia (PSVT), including PSVT associated with Wolff-Parkinson-White Syndrome. Adenosine Injection is antagonized competitively by methylxanthines such as caffeine and theophylline, and potentiated by blockers of nucleoside transport such as dipyridamole." ([DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30), label version 2026-08-31; accessed 2026-11-19.) From general pharmacology, adenosine slows conduction through the AV node, which is the basis of its use as an injectable antiarrhythmic.
 
 The mechanistic fit with bundle branch block is weak. Bundle branch block is a conduction defect located below the AV node, so slowing AV nodal conduction does not clearly address it. The disease term is also marked as obsolete, which suggests the high score (0.9994) may reflect an ontology artifact rather than a true therapeutic signal. The prediction should be treated as a model output only.
 
@@ -103,6 +103,19 @@ The prediction has no supporting trials or publications (evidence level L5). The
 - Mechanism of action data
 - Confirmation of a current, valid disease term to replace the obsolete one
 - Any clinical or preclinical studies that directly address this disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

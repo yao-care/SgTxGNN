@@ -55,7 +55,7 @@ Currently, **1 clinical trial** and **20 publications** support this direction, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pertuzumab binds the extracellular dimerisation domain of HER2 and blocks HER2/HER3 heterodimerisation. This dampens downstream PI3K/AKT signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pertuzumab: "Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4. As a result, pertuzumab inhibits ligand-initiated intracellular signaling through two major signal pathways, mitogen-activated protein (MAP) kinase, and phosphoinositide 3-kinase (PI3K)." ([DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff), label version 2026-04-30; accessed 2026-11-19.) Based on known information, pertuzumab binds the extracellular dimerisation domain of HER2 and blocks HER2/HER3 heterodimerisation. This dampens downstream PI3K/AKT signalling.
 
 Many HER2-positive tumours also express progesterone receptor (the HR+/HER2+ subtype). In these tumours the HER2-driven mechanism is the same as in the approved indication. The prediction is therefore better seen as a receptor-defined subset of the labelled disease than as a true repurposing. The trials and publications are driven by HER2 status, and PR status is a co-existing tumour characteristic.
 
@@ -125,6 +125,19 @@ PR-positive breast cancer is largely a receptor-defined subset of the approved H
 - Approved indication text for the Singapore registrations, to confirm how the current labels define the HER2-positive population
 - Subgroup efficacy data by PR status, and confirmation of HER2 positivity in the target patients
 - A cardiac safety monitoring plan (LVEF), particularly with anthracycline-containing regimens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

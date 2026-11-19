@@ -56,7 +56,7 @@ Conjunctivitis is already among the drug's listed original indications, so this 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sulfamethoxazole is a sulfonamide that blocks bacterial folate synthesis by inhibiting dihydropteroate synthase. It is commonly used together with trimethoprim, and its efficacy in several bacterial and protozoal infections is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of sulfamethoxazole as: Bacterial dihydropteroate synthase inhibitor ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, sulfamethoxazole is a sulfonamide that blocks bacterial folate synthesis by inhibiting dihydropteroate synthase. It is commonly used together with trimethoprim, and its efficacy in several bacterial and protozoal infections is established.
 
 Acute contagious conjunctivitis is usually bacterial, so an antibacterial folate-pathway mechanism is biologically plausible. Conjunctivitis is already listed as an original indication, so the prediction mostly restates existing use rather than proposing a new one.
 
@@ -142,11 +142,12 @@ The top prediction, acute contagious conjunctivitis, overlaps with an existing i
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 12 licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
 
 <!-- review:end log -->
 

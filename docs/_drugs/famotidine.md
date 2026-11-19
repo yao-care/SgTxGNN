@@ -59,7 +59,7 @@ Support is thin: **0 registered clinical trials** and **2 publications**, both i
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the compiled data. Famotidine belongs to the H2-receptor antagonist class. It reduces gastric acid secretion, and its efficacy in acid-related upper gastrointestinal disease is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for famotidine: "Famotidine is a competitive inhibitor of histamine-2 (H2) receptors. The primary clinically important pharmacologic activity of famotidine is inhibition of gastric secretion. Both the acid concentration and volume of gastric secretion are suppressed by famotidine, while changes in pepsin secretion are proportional to volume output." ([DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def), label version 2024-06-01; accessed 2026-11-19.) Famotidine belongs to the H2-receptor antagonist class. It reduces gastric acid secretion, and its efficacy in acid-related upper gastrointestinal disease is established.
 
 Reducing acid load may ease symptoms and mucosal injury in mixed gastroduodenal reflux. This is the main reason the prediction is plausible, and it is only a partial fit. Famotidine does not address bile reflux directly, which is a central feature of duodenogastric reflux. It would act on the acid component only.
 
@@ -136,11 +136,12 @@ Evidence is limited to two indirect publications and no registered trials. Famot
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Famotidine has 11 valid single-ingredient registrations in Singapore, all oral tablets (film-coated or plain), in 20 mg and 40 mg strengths" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def) |
 
 <!-- review:end log -->
 

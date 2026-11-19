@@ -56,7 +56,7 @@ The prediction is best regarded as a model-derived hypothesis rather than a ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on general knowledge, insulin lispro is a rapid-acting insulin analogue that binds the insulin receptor to regulate glucose metabolism. Its efficacy in diabetes is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin lispro: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0), label version 2026-09-03; accessed 2026-11-19.) Based on general knowledge, insulin lispro is a rapid-acting insulin analogue that binds the insulin receptor to regulate glucose metabolism. Its efficacy in diabetes is well established.
 
 Autoimmune oophoritis is an immune-mediated ovarian disorder. It often occurs within autoimmune polyendocrine syndromes, which can include type 1 diabetes. No direct mechanistic link between insulin lispro and this condition has been established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a therapeutic effect.
 
@@ -143,12 +143,13 @@ The top prediction, autoimmune oophoritis, has no clinical trials or literature,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three registrations are valid single-ingredient products, available as injectables only" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "for the three Singapore licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
 
 <!-- review:end log -->
 

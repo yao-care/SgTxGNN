@@ -56,7 +56,7 @@ but **no clinical trials and no publications** were found for this disease, so t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for benralizumab is not available in the data compiled for this report. From its known class, benralizumab binds the IL-5 receptor alpha subunit (IL5RA) and depletes eosinophils and basophils through antibody-dependent cell-mediated cytotoxicity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for benralizumab: "Benralizumab is a humanized afucosylated, monoclonal antibody (IgG1, kappa) that directly binds to the alpha subunit of the human interleukin-5 receptor (IL-5Rα) with a dissociation constant of 11 pM. The IL-5 receptor is expressed on the surface of eosinophils and basophils." ([DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784), label version 2026-05-13; accessed 2026-11-19.) From its known class, benralizumab binds the IL-5 receptor alpha subunit (IL5RA) and depletes eosinophils and basophils through antibody-dependent cell-mediated cytotoxicity.
 
 No clear mechanistic route from this eosinophil and basophil depletion to immune thrombocytopenia has been established in the supplied data. Immune thrombocytopenia is driven mainly by autoantibody-mediated platelet destruction and impaired platelet production, which is not primarily an IL-5 pathway process. The high TxGNN score is therefore a computational signal only and should be treated as a hypothesis, not as evidence of benefit.
 
@@ -99,6 +99,19 @@ The prediction has a high model score but no supporting trials or publications f
 - A systematic search for case reports, preclinical work or trials in immune thrombocytopenia
 - Package insert warnings and contraindications from the HSA
 - Detailed mechanism-of-action data from DrugBank
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for benralizumab is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

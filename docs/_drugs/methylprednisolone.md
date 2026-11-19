@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general knowledge, methylprednisolone belongs to the glucocorticoid class, which broadly dampens inflammatory and immune responses.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methylprednisolone: "Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4), label version 2026-07-01; accessed 2026-11-19.) Based on general knowledge, methylprednisolone belongs to the glucocorticoid class, which broadly dampens inflammatory and immune responses.
 
 Alopecia mucinosa is an inflammatory hair follicle disorder. The model's high score likely reflects network proximity to other inflammatory alopecias, so an anti-inflammatory drug is conceptually plausible. However, no clinical trials or literature were found for this specific disease, so any benefit remains a computational inference and has not been tested in patients.
 
@@ -111,11 +111,12 @@ The prediction score is high, but there is no clinical trial or literature evide
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are currently valid, and both are for injectable formulations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
 
 <!-- review:end log -->
 

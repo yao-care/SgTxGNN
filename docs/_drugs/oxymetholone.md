@@ -60,7 +60,7 @@ This is a computational prediction only, and the direction of effect may even be
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, oxymetholone is an anabolic androgenic steroid. Its efficacy in bone marrow failure and anemias is the basis of its original use, but a mechanistic link to seborrheic dermatitis has not been established.
+ChEMBL (EMBL-EBI) records the mechanism of action of oxymetholone as: Androgen Receptor agonist ([ChEMBL CHEMBL1200585 (oxymetholone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200585), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, oxymetholone is an anabolic androgenic steroid. Its efficacy in bone marrow failure and anemias is the basis of its original use, but a mechanistic link to seborrheic dermatitis has not been established.
 
 The data compiled for this report suggest that a connection to sebaceous gland or inflammatory modulation is speculative. Androgens typically increase sebum production, so the direction of effect may be unfavorable for seborrheic dermatitis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -121,6 +121,19 @@ The prediction rests only on a model score, with no clinical trials or publicati
 - Preclinical or clinical evidence linking oxymetholone to seborrheic dermatitis
 - Assessment of route compatibility and of the direction of effect on sebum production
 - Review of the other predicted indications, which currently have no supporting evidence either
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200585 (oxymetholone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200585) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

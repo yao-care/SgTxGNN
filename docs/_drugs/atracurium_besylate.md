@@ -54,7 +54,7 @@ Atracurium besylate is a non-depolarizing neuromuscular blocker, used as an adju
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Atracurium is known to be a non-depolarizing neuromuscular blocker that acts at nicotinic acetylcholine receptors at the motor endplate. This is the basis of its use for muscle relaxation during surgery and ventilation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for atracurium besylate: "Atracurium besylate is a nondepolarizing skeletal muscle relaxant. Nondepolarizing agents antagonize the neurotransmitter action of acetylcholine by binding competitively with cholinergic receptor sites on the motor end-plate." ([DailyMed: atracurium besylate prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efe90ee2-fe9e-421f-9e54-2961085d3b12), label version 2024-12-04; accessed 2026-11-19.) Atracurium is known to be a non-depolarizing neuromuscular blocker that acts at nicotinic acetylcholine receptors at the motor endplate. This is the basis of its use for muscle relaxation during surgery and ventilation.
 
 There is no established link between this mechanism and preeclampsia. Preeclampsia involves placental dysfunction, endothelial injury and angiogenic imbalance, none of which atracurium targets. The standard agent for seizure prevention in preeclampsia is magnesium sulfate, not atracurium. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -126,11 +126,12 @@ The prediction has no clinical trials, no literature and no mechanistic basis. I
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both are valid single-ingredient licences and both are injectable products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: atracurium besylate prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efe90ee2-fe9e-421f-9e54-2961085d3b12) |
 
 <!-- review:end log -->
 

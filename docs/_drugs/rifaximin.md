@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **oral candidiasis**, but there
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, rifaximin is a non-absorbable, gut-targeted antibiotic. Its efficacy in hepatic encephalopathy is thought to come from reducing gut bacteria that produce toxins. Mechanistically, there is no clear reason it would apply to oral candidiasis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for rifaximin: "Rifaximin is an antibacterial drug. […] Rifaximin is a semi-synthetic derivative of rifampin and acts by binding to the beta-subunit of bacterial DNA-dependent RNA polymerase blocking one of the steps in transcription. This results in inhibition of bacterial protein synthesis and consequently inhibits the growth of bacteria." ([DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b), label version 2025-08-27; accessed 2026-11-19.) Based on known information, rifaximin is a non-absorbable, gut-targeted antibiotic. Its efficacy in hepatic encephalopathy is thought to come from reducing gut bacteria that produce toxins. Mechanistically, there is no clear reason it would apply to oral candidiasis.
 
 The only available publication (PMID 34180023) suggests the opposite of a benefit. In patients receiving allogeneic stem cell transplants, rifaximin use favoured infections with micafungin-resistant *Candida* species. A likely explanation is that disrupting gut bacteria allows yeast to overgrow. Rifaximin has no known antifungal activity.
 
@@ -101,6 +101,19 @@ There are no clinical trials, and the only study on oral candidiasis suggests ri
 - Mechanism of action data
 - Evidence that rifaximin has a therapeutic effect on oral candidiasis, which currently appears unlikely
 - Among the other predictions, HIV infection is the only one with some indirect evidence. It is worth tracking as a research question, but the evidence is marginal or negative (PMIDs 25214516 and 31583331), and the only registered trial (NCT01654939) was withdrawn with no participants enrolled.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

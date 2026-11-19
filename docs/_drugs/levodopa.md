@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is Rasmussen subacute encephalitis, but 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Levodopa is widely known as the metabolic precursor of dopamine. It is converted to dopamine in the brain and replaces the dopamine lost when nigrostriatal neurons degenerate. It is the most established symptomatic therapy for parkinsonian disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levodopa: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), label version 2026-07-20; accessed 2026-11-19.) Levodopa is widely known as the metabolic precursor of dopamine. It is converted to dopamine in the brain and replaces the dopamine lost when nigrostriatal neurons degenerate. It is the most established symptomatic therapy for parkinsonian disorders.
 
 **Rank 1, Rasmussen subacute encephalitis:** This is a chronic, likely T-cell-mediated inflammatory epileptic encephalopathy affecting one hemisphere. No mechanistic link to dopamine replacement can be supported from the available data. No trials or literature were retrieved.
 
@@ -173,11 +173,12 @@ The top-ranked prediction, Rasmussen subacute encephalitis, has a high model sco
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 13 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ but **no clinical trials** and only **20 publications** (almost all about hepati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pibrentasvir is an NS5A inhibitor. It is used with glecaprevir (an NS3/4A protease inhibitor) in the fixed-dose combination marketed as Maviret/Mavyret. Its efficacy in hepatitis C is well established.
+ChEMBL (EMBL-EBI) records the mechanism of action of pibrentasvir as: Nonstructural protein 5A inhibitor ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, pibrentasvir is an NS5A inhibitor. It is used with glecaprevir (an NS3/4A protease inhibitor) in the fixed-dose combination marketed as Maviret/Mavyret. Its efficacy in hepatitis C is well established.
 
 The mechanistic case for hepatitis B is weak. HBV has no NS5A protein. It is a DNA virus that replicates through reverse transcription and a cccDNA intermediate, which is very different from HCV replication. The high TxGNN score (0.9984) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No direct antiviral mechanism against HBV is supported.
 
@@ -111,6 +111,19 @@ The high TxGNN score for hepatitis B is not backed by any clinical trial, hepati
 - Mechanism of action data (MOA) from DrugBank
 - HSA package insert warnings and contraindications for safety screening
 - Review of HBV reactivation risk when direct-acting antivirals are used in HBV/HCV co-infected patients, which is a safety issue rather than a repurposing signal
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

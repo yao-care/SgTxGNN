@@ -56,7 +56,7 @@ with **1 completed Phase 2 clinical trial** and **19 publications** (including 2
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From the published literature, pimecrolimus is a topical calcineurin inhibitor. It blocks T-cell activation, reduces release of inflammatory cytokines (IL-2, IL-4, interferon-gamma, TNF-alpha), and inhibits mast cell degranulation. It is designed for skin application, with low systemic absorption.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pimecrolimus: "The mechanism of action of pimecrolimus in atopic dermatitis is not known. While the following have been observed, the clinical significance of these observations in atopic dermatitis is not known. It has been demonstrated that pimecrolimus binds with high affinity to macrophilin-12 (FKBP-12) and inhibits the calcium-dependent phosphatase, calcineurin." ([DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06), label version 2026-04-30; accessed 2026-11-19.) From the published literature, pimecrolimus is a topical calcineurin inhibitor. It blocks T-cell activation, reduces release of inflammatory cytokines (IL-2, IL-4, interferon-gamma, TNF-alpha), and inhibits mast cell degranulation. It is designed for skin application, with low systemic absorption.
 
 Atopic dermatitis and seborrheic dermatitis are both chronic, relapsing inflammatory skin diseases that affect areas such as the face. Seborrheic dermatitis is also linked to an inflammatory response to *Malassezia* yeast on the skin. Because pimecrolimus suppresses T-cell-driven inflammation, it is mechanistically reasonable for this condition. It also avoids the long-term adverse effects of topical corticosteroids, which limit their use on the face. Systematic reviews of randomized trials report that pimecrolimus 1% cream is well tolerated and effective for facial seborrheic dermatitis, with efficacy comparable to the comparators examined.
 
@@ -117,6 +117,19 @@ A completed Phase 2 randomized trial and two systematic reviews of randomized tr
 - Review of Phase 2 trial results and the primary RCT data underlying the systematic reviews
 - A confirmatory, longer-duration controlled study, with a plan for limiting duration of use, avoiding infants, and monitoring for infection and malignancy
 - Interaction severity grading for the co-medications flagged
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

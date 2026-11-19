@@ -54,7 +54,7 @@ Soybean oil is a lipid source used in injectable lipid emulsions for nutrition, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, soybean oil is a lipid source (an omega-6 rich vegetable oil) used in injectable lipid emulsions. Its established role is as a source of calories and essential fatty acids, not as a treatment for a gynaecological condition.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for soybean oil: "Nutrilipid 20% administered intravenously provides biologically utilizable source of calories and essential fatty acids. Fatty acids serve as an important substrate for energy production. The most common mechanism of action for energy production derived from fatty acid metabolism is beta oxidation." ([DailyMed: Nutrilipid I.V. Fat Emulsion (soybean oil) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=193290b1-a0a1-4054-a22a-de5c9e7a8b73), label version 2026-07-10; accessed 2026-11-19.) Based on known information, soybean oil is a lipid source (an omega-6 rich vegetable oil) used in injectable lipid emulsions. Its established role is as a source of calories and essential fatty acids, not as a treatment for a gynaecological condition.
 
 Some soybean preparations contain phytoestrogen-related constituents, which could in theory touch on hormonal pathways. However, the data compiled for this report do not support a mechanism linking soybean oil to the treatment of amenorrhea. This prediction should be treated as a hypothesis only.
 
@@ -109,6 +109,19 @@ The amenorrhea prediction rests only on a model score, with no trials, no public
 - The approved indication text for SMOFlipid 20%
 - A targeted literature search linking lipid or soybean-derived components to amenorrhea or menstrual function
 - Confirmation of route compatibility, since the only available product is an intravenous emulsion
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nutrilipid I.V. Fat Emulsion (soybean oil) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=193290b1-a0a1-4054-a22a-de5c9e7a8b73) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Phenytoin is generally known as an antiseizure drug that blocks voltage-gated sodium channels, which reduces repetitive high-frequency neuronal firing. This general pharmacology is not drawn from the compiled data, so it should be verified.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for phenytoin: "The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges." ([DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353), label version 2026-06-25; accessed 2026-11-19.) Phenytoin is generally known as an antiseizure drug that blocks voltage-gated sodium channels, which reduces repetitive high-frequency neuronal firing. This general pharmacology is not drawn from the compiled data, so it should be verified.
 
 The link between epilepsy and a trigeminal nerve neoplasm is weak. The retrieved literature concerns trigeminal neuralgia (a pain syndrome) and Sturge-Weber syndrome, not tumours. Sodium channel blockade might relieve neoplasm-associated neuropathic pain or seizures, but that would be symptomatic relief, not an anti-tumour effect. The prediction is probably explained by the ontology's proximity to trigeminal neuralgia, where phenytoin has genuine, though second-line, use.
 
@@ -152,11 +152,12 @@ The other predictions offer a more credible path than the top-ranked one:
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five licences are valid single-ingredient products, covering oral and injectable routes" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
 
 <!-- review:end log -->
 

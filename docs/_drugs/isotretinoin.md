@@ -54,7 +54,7 @@ This listing is questionable, because isotretinoin is a retinoid marketed in Sin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Isotretinoin is a retinoid (a vitamin A–related compound). Nothing in the data compiled for this report establishes a link between retinoid activity and blood pressure control, and isotretinoin is not a recognised antihypertensive.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for isotretinoin: "The exact mechanism of action of Zenatane in the treatment of severe recalcitrant nodular acne in nonpregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater who are unresponsive to conventional therapy, including systemic antibiotics is unknown. Isotretinoin, a retinoid, inhibits sebaceous gland function and keratinization." ([DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee), label version 2026-09-20; accessed 2026-11-19.) Isotretinoin is a retinoid (a vitamin A–related compound). Nothing in the data compiled for this report establishes a link between retinoid activity and blood pressure control, and isotretinoin is not a recognised antihypertensive.
 
 The next-ranked prediction, malignant hypertensive renal disease, has an identical score. This suggests the two share a neighbourhood in the ontology rather than representing independent signals. Retinoid effects on the renin-angiotensin system or on renal fibrosis are hypothetical and unsupported by the data compiled here.
 
@@ -122,6 +122,19 @@ The stated original indication of hypertension is doubtful, no mechanism of acti
 - HSA package insert warnings and contraindications, which block safety screening
 - Preclinical or mechanistic evidence linking retinoid activity to blood pressure regulation or renal and pulmonary vascular disease
 - A teratogenicity risk assessment and a review of the knowledge graph contraindications against the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

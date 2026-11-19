@@ -58,7 +58,7 @@ with **no registered clinical trials** but **20 publications** currently support
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, polidocanol is a sclerosing agent that damages the vascular endothelium, leading to thrombosis and fibrosis of the treated vessel.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for polidocanol: "The active ingredient of Asclera is polidocanol. Polidocanol is a sclerosing agent that locally damages the endothelium of blood vessels. When injected intravenously, polidocanol induces endothelial damage. Platelets then aggregate at the site of damage and attach to the venous wall." ([DailyMed: Asclera (polidocanol) prescribing information, Methapharm, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb1f342b-5352-4059-a0b2-e60fd652fd28), label version 2025-07-16; accessed 2026-11-19.) Based on known pharmacology, polidocanol is a sclerosing agent that damages the vascular endothelium, leading to thrombosis and fibrosis of the treated vessel.
 
 Varicose veins and esophageal varices are both abnormally dilated veins, and closing the affected vessel is the treatment goal in each. Polidocanol is already used in endoscopic injection sclerotherapy for esophageal and gastric varices, and as foam in balloon-occluded retrograde transvenous obliteration (BRTO) for gastric varices. This shared pathophysiology supports the model's prediction.
 
@@ -119,6 +119,19 @@ Several randomized and comparative studies support polidocanol sclerotherapy for
 **Other predicted indications:**
 - *Esophageal varices without bleeding* (score 0.9995): Proceed with Guardrails. A meta-analysis of prophylactic sclerotherapy exists (PMID 7942715), but it is dated and not specific to polidocanol. Beta-blockers and band ligation have largely superseded this use, so it should be limited to patients who cannot use the standard options.
 - *Eight other predictions* (for example immunoerythromyeloid hypoplasia, retinal and cone disorders, and monosomy X): Hold. They rest on model prediction alone, with no trials, no literature and no plausible mechanistic link to a local sclerosant.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Asclera (polidocanol) prescribing information, Methapharm, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb1f342b-5352-4059-a0b2-e60fd652fd28) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

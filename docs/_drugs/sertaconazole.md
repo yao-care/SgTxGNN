@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **ectothrix infectious disease** (
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for sertaconazole is not available in the data compiled for this report. As an imidazole antifungal, it is generally understood to block fungal ergosterol synthesis by inhibiting lanosterol 14-alpha-demethylase. Its benzothiophene group may also disrupt the fungal membrane directly.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for sertaconazole: "Sertaconazole nitrate is an azole antifungal. […] Sertaconazole, an azole antifungal agent, inhibits fungal cytochrome P-450-mediated 14 alpha-lanosterol demethylase enzyme. This enzyme functions to convert lanosterol to ergosterol. Ergosterol is a key component of fungal cell membranes and lack of this component leads to fungal cell injury by leakage of key constituents in the cytoplasm from the cell." ([DailyMed: Ertaczo (sertaconazole nitrate) prescribing information, Coral Way Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6fa8dc4-2620-474e-a9b4-6657d9cbfa96), label version 2026-04-07; accessed 2026-11-19.) As an imidazole antifungal, it is generally understood to block fungal ergosterol synthesis by inhibiting lanosterol 14-alpha-demethylase. Its benzothiophene group may also disrupt the fungal membrane directly.
 
 Tinea pedis and ectothrix infections are both caused by dermatophytes, for example *Microsporum* and *Trichophyton* species. Activity against these fungi on the skin makes it biologically plausible that the drug could act on dermatophytes growing on the hair shaft.
 
@@ -100,6 +100,19 @@ The only support for this indication is the model prediction, with no trials or 
 - Evidence on whether the cream can reach infected hair shafts, or whether a systemic route would be required
 - The package insert, to confirm the approved indications, warnings and contraindications
 - Detailed mechanism-of-action data from DrugBank
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for sertaconazole is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ertaczo (sertaconazole nitrate) prescribing information, Coral Way Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6fa8dc4-2620-474e-a9b4-6657d9cbfa96) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

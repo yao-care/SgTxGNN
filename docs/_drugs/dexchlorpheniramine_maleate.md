@@ -58,7 +58,7 @@ Dexchlorpheniramine maleate is a first-generation H1 antihistamine marketed in S
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Dexchlorpheniramine is known to be a first-generation H1 antihistamine, but the data compiled for this report contain no mechanism entry and no stated original indication.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for dexchlorpheniramine maleate: "Dexchlorpheniramine maleate is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells." ([DailyMed: Corphena (dexchlorpheniramine maleate) prescribing information, BluCrest Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4694616b-4ef4-28a4-e063-6394a90ac5f6), label version 2026-10-15; accessed 2026-11-19.) Dexchlorpheniramine is known to be a first-generation H1 antihistamine, but the data compiled for this report contain no mechanism entry and no stated original indication.
 
 The prediction is **not** mechanistically supported. The high score therefore reflects the model's pattern-matching alone.
 
@@ -142,12 +142,13 @@ The top prediction, acute intermittent porphyria, rests on a model score alone, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 10 licences are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "The remaining five licences are POLARAX TABLET (SIN09125P), POLARINE TABLET (SIN07612P), POLARINE SYRUP (SIN03182P), MENDICOF SYRUP (SIN1151" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Corphena (dexchlorpheniramine maleate) prescribing information, BluCrest Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4694616b-4ef4-28a4-e063-6394a90ac5f6) |
 
 <!-- review:end log -->
 

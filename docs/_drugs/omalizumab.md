@@ -56,7 +56,7 @@ The data compiled for this report contain **2 clinical trials** and **7 publicat
 
 ## Why is This Prediction Reasonable?
 
-Omalizumab binds free IgE and prevents it from engaging the high-affinity IgE receptor (FcεRI) on mast cells and basophils. It also lowers FcεRI expression on several cell types. Through this mechanism it can dampen allergic airway inflammation. Detailed mechanism-of-action text is not available in the data compiled for this report, so the description above rests on the known anti-IgE pharmacology and the recorded target, immunoglobulin heavy constant epsilon (IGHE).
+Omalizumab binds free IgE and prevents it from engaging the high-affinity IgE receptor (FcεRI) on mast cells and basophils. It also lowers FcεRI expression on several cell types. Through this mechanism it can dampen allergic airway inflammation. According to the Mechanism of Action section of the US FDA-approved prescribing information for omalizumab: "Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13." ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84), label version 2026-10-06; accessed 2026-11-19.) The description above rests on the known anti-IgE pharmacology and the recorded target, immunoglobulin heavy constant epsilon (IGHE).
 
 The link to bronchitis is indirect. Some patients with chronic bronchitis or eosinophilic airway inflammation have allergic features, and IgE blockade could in principle help that subgroup. However, the studies found concern other airway populations or are reviews and case reports. The high model score therefore reflects a computational association, not demonstrated clinical benefit in bronchitis.
 
@@ -110,6 +110,18 @@ Please refer to the package insert for warnings and contraindications.
 - Controlled clinical data in that population, or a properly powered exploratory trial.
 - Package insert warnings and contraindications from the HSA record, which are currently missing.
 - Detailed mechanism-of-action data to support the biological rationale.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action text is not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

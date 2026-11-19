@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **liposarcoma**, but the eviden
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cabozantinib inhibits several receptor tyrosine kinases, including VEGFR2, MET and AXL. These pathways are involved in tumour angiogenesis, invasion and immune evasion, and they are also implicated in sarcoma biology.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cabozantinib: "In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment." ([DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5), label version 2025-10-19; accessed 2026-11-19.) Based on known pharmacology, cabozantinib inhibits several receptor tyrosine kinases, including VEGFR2, MET and AXL. These pathways are involved in tumour angiogenesis, invasion and immune evasion, and they are also implicated in sarcoma biology.
 
 Its efficacy in renal cell carcinoma is well established. Mechanistically, the same pathways could plausibly apply to soft tissue sarcomas, of which liposarcoma is one subtype. However, the available clinical signals come from general sarcoma studies, not liposarcoma-specific ones. The very high TxGNN score is therefore not yet backed by liposarcoma-specific efficacy data.
 
@@ -123,6 +123,19 @@ The model's other top predictions fall into three groups:
   - **Childhood kidney cell carcinoma** (L2, Research Question) has one Phase 2 pediatric trial of 109 patients with mixed tumour types and no results available.
 - **Renal carcinoma (general):** Rated L1 with Phase 3 RCTs (METEOR, CheckMate 9ER, COSMIC-313). It is an established indication, so it validates the model rather than offering new repurposing evidence.
 - **Unsupported predictions (Hold, L5):** Ovarian myxoid liposarcoma, amyotrophic lateral sclerosis, bilateral parasagittal parieto-occipital polymicrogyria and angiolipoma have no trials or literature. The last three have no plausible mechanistic rationale; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ Among the other top-ranked predictions, only a few have any indirect evidence, a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known information, methylphenidate blocks the dopamine and norepinephrine transporters, which raises these neurotransmitters in the brain. This is the basis of its effect in ADHD and narcolepsy. Recent imaging studies in adults with ADHD support its action on both transporters.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methylphenidate: "Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action of METADATE CD in the treatment of ADHD in pediatric patients 6 years of age and older is not known. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space." ([DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4), label version 2026-10-21; accessed 2026-11-19.) Based on known information, methylphenidate blocks the dopamine and norepinephrine transporters, which raises these neurotransmitters in the brain. This is the basis of its effect in ADHD and narcolepsy. Recent imaging studies in adults with ADHD support its action on both transporters.
 
 Faciodigitogenital syndrome is a rare developmental disorder. No plausible mechanistic link to dopamine/norepinephrine reuptake inhibition is supported by the data. At most, methylphenidate might offer symptomatic help for co-occurring ADHD-like features, and this is not evidenced. The high score is best read as a model association and not as a biological rationale.
 
@@ -153,6 +153,19 @@ Please refer to the package insert for the official warnings, as these were not 
 - The HSA package insert, including approved indications, warnings, and contraindications
 - Direct clinical studies in the predicted condition (none exist at present)
 - Route and formulation compatibility assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

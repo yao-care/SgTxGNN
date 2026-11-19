@@ -55,7 +55,7 @@ The retrieved **20 publications** cover general seizure populations only, so the
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Published literature describes levetiracetam as binding synaptic vesicle protein 2A (SV2A), which alters neurotransmitter release and reduces seizure frequency. Its efficacy in partial epilepsy is established, and it is widely used as an antiseizure medication.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levetiracetam: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), label version 2026-11-11; accessed 2026-11-19.) Published literature describes levetiracetam as binding synaptic vesicle protein 2A (SV2A), which alters neurotransmitter release and reduces seizure frequency. Its efficacy in partial epilepsy is established, and it is widely used as an antiseizure medication.
 
 Visual epilepsy is a reflex (photosensitive) epilepsy, in which seizures are triggered by a specific visual stimulus. Partial epilepsy and reflex epilepsies share a hyperexcitable-network basis. A drug that dampens excessive synaptic release could therefore plausibly reduce stimulus-triggered seizures.
 
@@ -135,11 +135,12 @@ It has several completed Phase 3 trials, including a 478-patient randomized comp
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Twenty licences are valid; the five main ones are shown below" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
 
 <!-- review:end log -->
 

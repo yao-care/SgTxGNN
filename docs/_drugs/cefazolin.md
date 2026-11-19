@@ -54,7 +54,7 @@ Cefazolin is an injectable first-generation cephalosporin antibiotic. The TxGNN 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cefazolin is a first-generation cephalosporin, a class that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It is active against Gram-positive organisms such as *Staphylococcus aureus* and streptococci.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for cefazolin: "Cefazolin is an antibacterial drug. […] Cefazolin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis." ([DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4), label version 2026-08-31; accessed 2026-11-19.) Cefazolin is a first-generation cephalosporin, a class that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It is active against Gram-positive organisms such as *Staphylococcus aureus* and streptococci.
 
 Some of these organisms can cause middle ear infections, so an antibacterial mechanism is biologically plausible. There are important limits, however. Cefazolin has limited activity against *Haemophilus influenzae* and *Moraxella catarrhalis*, the most common causes of acute otitis media. The model score therefore reflects computational proximity rather than demonstrated clinical benefit.
 
@@ -109,6 +109,19 @@ The prediction score is high, but no clinical trials exist and no cited study di
 - Detailed mechanism of action data
 - Direct clinical evidence for cefazolin in otitis media, such as a controlled study in the relevant pathogen setting
 - Review of pathogen coverage and local resistance patterns, including *H. influenzae* and *Moraxella catarrhalis*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

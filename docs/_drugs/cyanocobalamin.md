@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, cyanocobalamin is a water-soluble B vitamin that serves as a cofactor for cobalamin-dependent enzymes, including methylmalonyl-CoA mutase.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyanocobalamin: "CLINICAL PHAMRACOLOGY Vitamin B12 is essential to growth, cell reproduction, hematopoiesis, and nucleoprotein and myelin synthesis." ([DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d), label version 2025-12-08; accessed 2026-11-19.) Based on general knowledge, cyanocobalamin is a water-soluble B vitamin that serves as a cofactor for cobalamin-dependent enzymes, including methylmalonyl-CoA mutase.
 
 Biotin is also a water-soluble B vitamin and a cofactor for carboxylases, including propionyl-CoA carboxylase. The two vitamins therefore touch neighbouring steps of propionyl-CoA and methylmalonyl-CoA metabolism. This is a plausible overlap at pathway level.
 
@@ -118,11 +118,12 @@ The prediction rests on a high model score (0.9960) alone. No clinical trial or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 14 licences are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
 
 <!-- review:end log -->
 

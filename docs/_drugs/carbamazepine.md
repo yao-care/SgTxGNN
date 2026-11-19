@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant for **trigeminal nerve neoplasm**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for carbamazepine are not available in the data compiled for this report. Carbamazepine is generally known to act by blocking voltage-gated sodium channels, which reduces abnormal nerve firing. This is the basis for its use in nerve-pain conditions such as trigeminal neuralgia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carbamazepine: "Tegretol has demonstrated anticonvulsant properties in rats and mice with electrically and chemically induced seizures. It appears to act by reducing polysynaptic responses and blocking the post-tetanic potentiation. […] The principal metabolite of Tegretol, carbamazepine-10,11-epoxide, has anticonvulsant activity as demonstrated in several in vivo animal models of seizures." ([DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053), label version 2026-08-20; accessed 2026-11-19.) Carbamazepine is generally known to act by blocking voltage-gated sodium channels, which reduces abnormal nerve firing. This is the basis for its use in nerve-pain conditions such as trigeminal neuralgia.
 
 The retrieved publications mostly describe trigeminal neuralgia that is *caused by* a tumour or other lesion (schwannoma, meningioma, lipoma, dermoid cyst, lymphoma, melanoma, pituitary adenoma). In these reports carbamazepine was used for pain relief, and in several cases it failed or was poorly tolerated, which led to surgery or to the discovery of the lesion. Nothing indicates that carbamazepine acts on the tumour itself.
 
@@ -116,6 +116,19 @@ The prediction score is very high, but no clinical trials exist and no cited stu
 - Mechanism-of-action data linking carbamazepine to the tumour biology
 - Package-insert warnings and contraindications from the Singapore regulator, since these are currently missing
 - Clarification of whether the intended use is tumour treatment or pain control in patients with tumour-related neuralgia
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for carbamazepine are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

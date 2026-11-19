@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that vildagliptin binds dipeptidyl peptidase 4 (DPP-4), and also DPP-8, DPP-9 and TRPV4. DPP-4 inhibition enhances incretin-dependent insulin secretion and suppresses glucagon, which is the basis of its use in type 2 diabetes.
+ChEMBL (EMBL-EBI) records the mechanism of action of vildagliptin as: Dipeptidyl peptidase IV inhibitor ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; accessed 2026-11-19.) Pharmacology records show that vildagliptin binds dipeptidyl peptidase 4 (DPP-4), and also DPP-8, DPP-9 and TRPV4. DPP-4 inhibition enhances incretin-dependent insulin secretion and suppresses glucagon, which is the basis of its use in type 2 diabetes.
 
 Stiff person syndrome is an autoimmune neurological disorder, often associated with anti-GAD65 antibodies and impaired GABAergic signalling. No clear mechanistic link to DPP-4 inhibition is supported by the available data. A possible connection through a shared GAD65 autoimmunity axis seen in diabetes is speculative. The high score (0.9988) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The second-ranked prediction, focal stiff limb syndrome, has an identical score, which supports this reading.
 
@@ -114,11 +114,12 @@ The prediction rests on a model score alone. No clinical trial or publication st
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four are valid registrations, and all are for oral use" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
 

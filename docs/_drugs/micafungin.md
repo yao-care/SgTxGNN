@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **urinary tract infection**, an
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Micafungin belongs to the echinocandin class, which inhibits 1,3-beta-D-glucan synthase, an enzyme essential for building the fungal cell wall. It has established activity against Candida species.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for micafungin: "Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis." ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), label version 2025-11-08; accessed 2026-11-19.) Micafungin belongs to the echinocandin class, which inhibits 1,3-beta-D-glucan synthase, an enzyme essential for building the fungal cell wall. It has established activity against Candida species.
 
 Candida is a common cause of fungal urinary tract infection and candiduria. The prediction is therefore best read as an extension of micafungin's approved anti-Candida use to the urinary tract, not as a new mechanism. It applies to **Candida UTI only**, not to bacterial UTI.
 
@@ -127,6 +127,19 @@ The Candida UTI signal is mechanistically plausible and is supported by several 
 - Prospective or comparative clinical data on Candida UTI, ideally including urinary pharmacokinetics and microbiological cure rates
 - A patient-selection policy that separates symptomatic Candida UTI from asymptomatic candiduria, which generally should not be treated
 - Renal function assessment and a drug-interaction review before use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

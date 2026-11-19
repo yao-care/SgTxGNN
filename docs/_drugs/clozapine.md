@@ -56,7 +56,7 @@ The data compiled for this report include **1 completed Phase 2 trial** and **20
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not currently available in the compiled data. Clozapine is known pharmacologically for its broad receptor profile, with antagonism at dopamine D2/D4, serotonin 5-HT2A, muscarinic, adrenergic and histaminergic receptors. This broad activity plausibly explains antimanic and mood-stabilising effects, especially in patients whose mania has not responded to conventional treatment.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clozapine: "The mechanism of action of clozapine is unknown. However, it has been proposed that the therapeutic efficacy of clozapine in schizophrenia is mediated through antagonism of the dopamine type 2 (D 2 ) and the serotonin type 2A (5-HT 2A ) receptors." ([DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355), label version 2026-09-06; accessed 2026-11-19.) Clozapine is known pharmacologically for its broad receptor profile, with antagonism at dopamine D2/D4, serotonin 5-HT2A, muscarinic, adrenergic and histaminergic receptors. This broad activity plausibly explains antimanic and mood-stabilising effects, especially in patients whose mania has not responded to conventional treatment.
 
 The prediction is consistent with the clinical literature. A systematic review and meta-analysis of clozapine in bipolar disorder (PMID 32182485) pooled three small comparative studies. It found clozapine similar to other antipsychotics in manic episodes and better in treatment-resistant bipolar disorder. A completed double-blind Phase 2 trial in treatment-resistant mania (NCT00029458, n=42) points the same way, though its results are not summarised in the available data.
 
@@ -121,6 +121,18 @@ Clozapine has a plausible mechanism, a completed Phase 2 trial and a systematic 
 - Detailed mechanism-of-action data.
 - Published results of NCT00029458, or a larger confirmatory randomised trial in mania.
 - A monitoring plan covering absolute neutrophil count, cardiac, metabolic and seizure risk, plus an interaction review for co-prescribed medicines.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not currently available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

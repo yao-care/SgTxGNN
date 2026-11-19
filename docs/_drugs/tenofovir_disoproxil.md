@@ -60,7 +60,7 @@ This direction currently has **0 clinical trials** and **20 publications**, near
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Tenofovir disoproxil is the oral prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. Based on known pharmacology, tenofovir diphosphate is incorporated into viral DNA and terminates chain elongation. Its efficacy in HIV-1 and hepatitis B is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tenofovir disoproxil: "Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator." ([DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418), label version 2025-02-18; accessed 2026-11-19.) Tenofovir disoproxil is the oral prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. Based on known pharmacology, tenofovir diphosphate is incorporated into viral DNA and terminates chain elongation. Its efficacy in HIV-1 and hepatitis B is established.
 
 SIV is the monkey counterpart of HIV-1. Both are lentiviruses with similar reverse transcriptases, so activity in macaque models is biologically consistent. The literature shows tenofovir-based regimens being used in macaques for pre-exposure prophylaxis and for long-term antiretroviral therapy.
 
@@ -145,11 +145,12 @@ The SIV prediction has a very high model score, but the evidence consists only o
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 7 licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
 
 <!-- review:end log -->
 

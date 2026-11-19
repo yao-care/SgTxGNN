@@ -59,7 +59,7 @@ There are currently **0 clinical trials** and **0 publications** specific to thi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tenecteplase is a fibrin-specific tissue plasminogen activator. It converts plasminogen to plasmin at the clot surface, which dissolves fibrin in blocked coronary arteries.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tenecteplase: "Tenecteplase is a modified form of human tissue plasminogen activator (tPA) that binds to fibrin and converts plasminogen to plasmin. In the presence of fibrin, in vitro studies demonstrate that tenecteplase-mediated conversion of plasminogen to plasmin is increased relative to its conversion in the absence of fibrin." ([DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84), label version 2025-12-15; accessed 2026-11-19.) Based on known pharmacology, tenecteplase is a fibrin-specific tissue plasminogen activator. It converts plasminogen to plasmin at the clot surface, which dissolves fibrin in blocked coronary arteries.
 
 Posterolateral myocardial infarction is a regional subtype of acute myocardial infarction, which is already an original indication. The mechanistic link is therefore direct. In practice, this is largely covered by the existing indication and is not a true repurposing. The prediction is supported by reasoning from the parent condition (ST-elevation MI), not by subtype-specific studies.
 
@@ -120,6 +120,19 @@ The predicted indication is a subtype of an indication tenecteplase already cove
 - Mechanism of action data from DrugBank
 - Confirmation of whether posterolateral MI falls within the existing STEMI indication, which would make a separate repurposing case unnecessary
 - A review of bleeding-related interactions (anticoagulants, antiplatelets, NSAIDs) for any proposed use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

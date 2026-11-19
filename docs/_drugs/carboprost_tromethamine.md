@@ -56,7 +56,7 @@ The prediction rests on the model alone and has no biological or clinical backin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled record. Based on known pharmacology, carboprost is a 15-methyl PGF2α analogue that acts as an FP receptor agonist, causing smooth muscle contraction and vasoconstriction. It is known clinically for its action on the uterus (myometrial contraction).
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for carboprost tromethamine: "Carboprost tromethamine administered intramuscularly stimulates in the gravid uterus myometrial contractions similar to labor contractions at the end of a full term pregnancy. Whether or not these contractions result from a direct effect of carboprost on the myometrium has not been determined." ([DailyMed: Hemabate (carboprost tromethamine) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d282998-ff0c-480a-bd80-155606ef0a65), label version 2026-03-30; accessed 2026-11-19.) Based on known pharmacology, carboprost is a 15-methyl PGF2α analogue that acts as an FP receptor agonist, causing smooth muscle contraction and vasoconstriction. It is known clinically for its action on the uterus (myometrial contraction).
 
 That mechanism does not fit this prediction. Atypical coarctation of aorta is a structural congenital defect of the vessel, and a drug would not correct an anatomical narrowing. Vasoconstriction offers no therapeutic rationale here. The high TxGNN score is best read as a model artefact, not a signal of real benefit.
 
@@ -108,6 +108,19 @@ The prediction has no clinical trials or literature behind it. The drug's vasoco
 - The approved indication text for the registered product
 - Detailed mechanism of action data
 - If any indication is pursued, glaucoma is the only one with a class-level rationale, and it would need a dedicated ocular formulation and direct preclinical or clinical data. Established FP agonists already serve that need, so added value is likely small.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hemabate (carboprost tromethamine) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d282998-ff0c-480a-bd80-155606ef0a65) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

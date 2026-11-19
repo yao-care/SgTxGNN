@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pericoronitis**, but this is 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Benzylpenicillin is a penicillin-class antibiotic, and penicillins are generally active against susceptible Gram-positive bacteria such as streptococci.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for benzylpenicillin: "Penicillins bind to serum proteins, mainly albumin. Therapeutic levels of the penicillins are easily achieved under normal circumstances in extracellular fluid and most other body tissues. Penicillins are distributed in varying degrees into pleural, pericardial, peritoneal, ascitic, synovial, and interstitial fluids." ([DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2), label version 2026-11-04; accessed 2026-11-19.) Benzylpenicillin is a penicillin-class antibiotic, and penicillins are generally active against susceptible Gram-positive bacteria such as streptococci.
 
 Pericoronitis is a polymicrobial infection (streptococci and anaerobes) around a partially erupted tooth. Because benzylpenicillin is active against many of these organisms, the prediction is biologically plausible. However, the data compiled for this report contain no trials or literature on this disease, and the high score is a model output only.
 
@@ -102,6 +102,19 @@ The prediction is biologically plausible for a bacterial dental infection, but i
 - Assessment of route suitability, since only an injectable form is registered locally
 - Package insert warnings and contraindications from the HSA
 - Detailed mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

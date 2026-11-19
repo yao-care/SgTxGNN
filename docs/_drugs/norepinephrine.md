@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **obstructive lung disease**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, norepinephrine acts on adrenergic receptors: alpha-1 receptors drive vasoconstriction, and beta receptors contribute to cardiac stimulation and some airway effects. It also takes part in airway sympathetic and neuroimmune signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for norepinephrine: "Norepinephrine is a peripheral vasoconstrictor (alpha-adrenergic action) and an inotropic stimulator of the heart and dilator of coronary arteries (beta-adrenergic action)." ([DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396), label version 2026-10-27; accessed 2026-11-19.) From general pharmacology, norepinephrine acts on adrenergic receptors: alpha-1 receptors drive vasoconstriction, and beta receptors contribute to cardiac stimulation and some airway effects. It also takes part in airway sympathetic and neuroimmune signalling.
 
 The model likely links the drug to obstructive lung disease because its listed indications (asthma, bronchitis, emphysema, bronchiectasis) are all airway or lung conditions. The retrieved literature describes airway innervation, adrenergic signalling in asthma and COPD, and norepinephrine as a stress or prognostic marker. None of it shows norepinephrine working as a treatment.
 
@@ -137,6 +137,19 @@ The prediction score is very high (0.9984), but the evidence is only indirect: r
 - **Obstructive lung disease** (score 0.9984, L4): the evidence is indirect and observational, with no therapeutic support.
 - **Respiratory malformation, Rienhoff syndrome, asthma-related traits, food-dependent exercise-induced anaphylaxis, tracheal stenosis, interstitial emphysema** (L5): no credible mechanistic or clinical support.
 - **Transient ischaemic attack** (L5): only animal and pathophysiology studies, and induced vasoconstriction or hypertension could be harmful in cerebrovascular disease.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

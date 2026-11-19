@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacological knowledge, phenobarbital is a barbiturate that enhances GABA-A receptor-mediated inhibition in the brain. This explains its antiseizure activity.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phenobarbital: "The precise mechanism of action for phenobarbital for the treatment of neonatal seizures is not fully understood, but it is thought to involve potentiation of synaptic inhibition through an action on the GABA A receptor." ([DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a), label version 2026-10-23; accessed 2026-11-19.) Based on general pharmacological knowledge, phenobarbital is a barbiturate that enhances GABA-A receptor-mediated inhibition in the brain. This explains its antiseizure activity.
 
 For the top-ranked prediction, **trigeminal nerve neoplasm**, there is no plausible mechanistic link. Phenobarbital has no known antineoplastic activity. The only retrieved paper describes Sturge-Weber syndrome, a neurocutaneous vascular disorder with seizures, not a trigeminal tumour. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to **beta-ketothiolase deficiency** (rank 10), an inborn error of metabolism with no rationale for phenobarbital.
 
@@ -138,6 +138,19 @@ The top-ranked prediction, trigeminal nerve neoplasm, has no trials, no relevant
 - Confirmation of the approved indications for the two Singapore licences
 - For any seizure-related prediction, direct clinical evidence of phenobarbital efficacy in that specific condition
 - Review of the major interactions (opioids and others) and the safety signals in specific populations (neonates, hepatic or renal impairment, porphyria)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

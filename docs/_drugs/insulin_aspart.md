@@ -56,7 +56,7 @@ This is an established, labelled use of the drug rather than a true repurposing,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, insulin aspart is a rapid-acting human insulin analogue. It is absorbed faster than regular human insulin after subcutaneous injection, and its efficacy in diabetes mellitus is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin aspart: "The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85), label version 2026-05-18; accessed 2026-11-19.) Based on known information, insulin aspart is a rapid-acting human insulin analogue. It is absorbed faster than regular human insulin after subcutaneous injection, and its efficacy in diabetes mellitus is well established.
 
 Type 1 diabetes is characterised by absolute insulin deficiency, so replacing insulin is mechanistically direct. Insulin aspart is widely used as the mealtime (bolus) insulin in basal-bolus regimens, in insulin pumps (CSII), and in closed-loop systems. The link between the original indication and the predicted indication is therefore very close. The high TxGNN score is consistent with the extensive clinical evidence, and this should be viewed as confirmation of an existing use, not a new therapeutic discovery.
 
@@ -143,11 +143,12 @@ Multiple completed Phase 3 trials and several systematic reviews support insulin
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report list 8 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
 
 <!-- review:end log -->
 

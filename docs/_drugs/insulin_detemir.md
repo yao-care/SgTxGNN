@@ -55,7 +55,7 @@ The data compiled for this report include **39 clinical trials** and **20 public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, insulin detemir is a soluble, long-acting human insulin analogue. It binds to the insulin receptor and replaces deficient endogenous insulin. A fatty acid (myristic acid) modification allows it to bind reversibly to albumin, which gives slow absorption and an effect lasting up to 24 hours. The published reviews in the evidence set describe this profile.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin detemir: "The primary activity of insulin, including LEVEMIR, is regulation of glucose metabolism. Insulins and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c), label version 2024-10-09; accessed 2026-11-19.) Based on known information, insulin detemir is a soluble, long-acting human insulin analogue. It binds to the insulin receptor and replaces deficient endogenous insulin. A fatty acid (myristic acid) modification allows it to bind reversibly to albumin, which gives slow absorption and an effect lasting up to 24 hours. The published reviews in the evidence set describe this profile.
 
 Type 1 diabetes is a form of diabetes mellitus, the drug's original indication, and it is defined by absolute insulin deficiency. This makes it the classic setting for basal insulin replacement. The prediction is therefore reasonable, but it largely **confirms existing on-label use** rather than identifying a new therapeutic opportunity.
 
@@ -134,6 +134,19 @@ Multiple completed Phase 3 trials and several systematic reviews support insulin
 - The approved indication wording for the two Singapore licences
 - Confirmation that the Singapore labelled indication explicitly covers type 1 diabetes
 - For any rare-disease use such as pancreatic agenesis, a case series or other supporting clinical data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

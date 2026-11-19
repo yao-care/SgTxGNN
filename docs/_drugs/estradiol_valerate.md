@@ -56,7 +56,7 @@ The prediction currently rests on model output and a plausible mechanistic link 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, estradiol valerate is an ester prodrug of estradiol, used as estrogen replacement. Its efficacy in primary ovarian failure rests on correcting a low-estrogen state, and mechanistically it may be applicable to other conditions that share this feature.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for estradiol valerate: "Although circulating estrogens exist in a dynamic equilibrium of metabolic interconversions, estradiol is the principal intracellular human estrogen and is substantially more potent than its metabolites, estrone and estriol, at the receptor level. The primary source of estrogen in normally cycling adult women is the ovarian follicle, which secretes 70 to 500 mcg of estradiol daily, depending on the phase of the menstrual cycle." ([DailyMed: Delestrogen (estradiol valerate) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8f94df9-0692-4462-a7f0-fe019a0a3f07), label version 2026-05-13; accessed 2026-11-19.) Based on known information, estradiol valerate is an ester prodrug of estradiol, used as estrogen replacement. Its efficacy in primary ovarian failure rests on correcting a low-estrogen state, and mechanistically it may be applicable to other conditions that share this feature.
 
 Female carriers of an FMR1 premutation can develop fragile X-associated primary ovarian insufficiency (FXPOI). This overlaps with the original indication, so estrogen replacement is plausible for the low-estrogen part of the condition. It would not be expected to treat other features of fragile X carrier syndrome. The high TxGNN score is a prediction only, with no supporting studies retrieved.
 
@@ -138,11 +138,12 @@ The top prediction has no clinical trials or publications behind it (Level L5), 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Delestrogen (estradiol valerate) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8f94df9-0692-4462-a7f0-fe019a0a3f07) |
 
 <!-- review:end log -->
 

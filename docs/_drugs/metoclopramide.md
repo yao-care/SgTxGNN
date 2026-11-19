@@ -56,7 +56,7 @@ but the supporting evidence is thin: **1 clinical trial** (a procedural, endosco
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist that increases upper gastrointestinal motility, raises lower oesophageal sphincter tone and speeds gastric emptying. This is how it helps in reflux disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metoclopramide: "Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established." ([DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397), label version 2026-02-09; accessed 2026-11-19.) Based on known pharmacology, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist that increases upper gastrointestinal motility, raises lower oesophageal sphincter tone and speeds gastric emptying. This is how it helps in reflux disease.
 
 Gastric ulcer is a neighbouring upper-GI condition. Delayed gastric emptying and duodenogastric (bile) reflux often accompany it, so a motility-based benefit is plausible. However, metoclopramide does not suppress acid or promote mucosal healing. At best it offers symptomatic support alongside standard ulcer therapy, not direct ulcer treatment. The high TxGNN score likely reflects network proximity between reflux and ulcer diseases rather than demonstrated efficacy.
 
@@ -133,11 +133,12 @@ The TxGNN score is very high, but the only registered trial tests endoscopy prem
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "A sixth licence (SIN03350P, SW METOCLOPRAMIDE TABLET 10 mg) is also valid. All six are single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
 
 <!-- review:end log -->
 

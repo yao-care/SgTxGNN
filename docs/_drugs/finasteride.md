@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, finasteride is a type II 5-alpha-reductase inhibitor that lowers dihydrotestosterone (DHT). Its efficacy in BPH is established, and DHT suppression is also the basis for its use in androgen-driven hair conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for finasteride: "The development and enlargement of the prostate gland is dependent on the potent androgen, 5α-dihydrotestosterone (DHT). Type II 5α-reductase metabolizes testosterone to DHT in the prostate gland, liver and skin. […] Finasteride is a competitive and specific inhibitor of Type II 5α-reductase with which it slowly forms a stable enzyme complex." ([DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b), label version 2026-03-18; accessed 2026-11-19.) Based on general pharmacological knowledge, finasteride is a type II 5-alpha-reductase inhibitor that lowers dihydrotestosterone (DHT). Its efficacy in BPH is established, and DHT suppression is also the basis for its use in androgen-driven hair conditions.
 
 The mechanistic link to the predicted indication is weak. Ambras syndrome is a congenital generalised hypertrichosis caused by genomic rearrangements affecting regulation of the TRPS1 gene. It is not primarily androgen-driven, so DHT suppression is not expected to address its underlying cause. The very high TxGNN score reflects a model output, not supporting experimental or clinical data.
 
@@ -119,6 +119,19 @@ The prediction rests on model output alone (L5). There are no clinical trials or
 - Any case reports or early-phase studies of finasteride in congenital hypertrichosis
 - Review of the pregnancy and teratogenicity risk for the intended patient population
 - Consideration of other predictions with more plausible links
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Telmisartan belongs to the angiotensin receptor blocker class. Its efficacy in hypertension and stroke-related conditions is established, and mechanistically it may be applicable to Prinzmetal angina.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for telmisartan: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the reninangiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Telmisartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10), label version 2026-11-02; accessed 2026-11-19.) Telmisartan belongs to the angiotensin receptor blocker class. Its efficacy in hypertension and stroke-related conditions is established, and mechanistically it may be applicable to Prinzmetal angina.
 
 Prinzmetal (vasospastic) angina is caused by episodic spasm of the coronary arteries. The plausible links are blockade of the renin-angiotensin system, vasodilation, and the partial PPAR-gamma-mediated effects on the vascular lining described for telmisartan. These links are theoretical. No trials or publications were found to show that they translate into benefit in this condition.
 
@@ -138,11 +138,12 @@ The prediction for Prinzmetal angina is supported only by the model score (L5), 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 20 registrations are valid single-ingredient oral tablets (40 mg or 80 mg)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **acrodermatitis chronica atrophi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Bupivacaine is generally understood to be a local anaesthetic that blocks sodium channels in nerve fibres, which interrupts pain signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bupivacaine: "Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66), label version 2026-11-09; accessed 2026-11-19.) Bupivacaine is generally understood to be a local anaesthetic that blocks sodium channels in nerve fibres, which interrupts pain signalling.
 
 Acrodermatitis chronica atrophicans is a late-stage skin infection caused by Borrelia. A sodium channel blocker has no plausible disease-modifying action against this infection. At most, it could offer symptomatic relief of pain or neuropathy. The high score is therefore best read as a computational signal and not as a mechanistic rationale.
 
@@ -98,6 +98,19 @@ The prediction rests only on a model score, with no trials or publications on th
 - Mechanism-of-action data from DrugBank
 - Any clinical or preclinical evidence directly studying bupivacaine in this disease
 - A defined route and use case (for example, symptomatic pain relief only) with route compatibility assessed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

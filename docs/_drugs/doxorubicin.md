@@ -60,7 +60,7 @@ Doxorubicin is already a backbone drug in standard Ewing sarcoma regimens, so th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the drug record. In general, doxorubicin is a topoisomerase II inhibitor and DNA intercalator. It damages DNA and kills rapidly dividing tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxorubicin: "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), label version 2026-11-12; accessed 2026-11-19.) In general, doxorubicin is a topoisomerase II inhibitor and DNA intercalator. It damages DNA and kills rapidly dividing tumour cells.
 
 Its original indications are haematological cancers, in which doxorubicin is already a standard component of regimens such as CHOP and ABVD. Ewing sarcoma is a fast-growing bone and soft-tissue cancer that mainly affects children, adolescents and young adults. It is treated with multi-agent chemotherapy, and doxorubicin is a core drug in the VDC/IE and VAC/VAI regimens (vincristine, doxorubicin, cyclophosphamide, alternating with ifosfamide and etoposide). Because both diseases respond to DNA-damaging chemotherapy, the model's prediction is mechanistically plausible.
 
@@ -171,6 +171,19 @@ Several completed randomised Phase 3 trials and large literature reports support
 - Confirmation of which regimen and dose would be used in Singapore practice
 
 **Other predicted indications (for reference):** soft-tissue sarcoma and rhabdomyosarcoma carry L1 evidence (Phase 3 trials NCT00003052 and NCT00003212), with a Proceed with Guardrails recommendation, although those trials mainly involved adult soft-tissue sarcoma and doxorubicin is not part of the current standard regimens for paediatric rhabdomyosarcoma. Pleuropulmonary blastoma and chronic myelogenous leukaemia are research questions with limited or indirect evidence. The remaining predictions (primary pulmonary lymphoma, monocytic leukaemia, rare rhabdomyosarcoma subtypes, ganglioneuroblastoma and fetal adenocarcinoma of the lung) are on Hold because of very limited direct evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the drug record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

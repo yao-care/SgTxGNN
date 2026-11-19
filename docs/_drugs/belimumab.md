@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for belimumab are not available in the data compiled for this report. From general knowledge of the drug, it neutralises soluble BLyS/BAFF and so reduces the survival of B cells, including autoreactive B cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for belimumab: "BENLYSTA is a BLyS-specific inhibitor that blocks the binding of soluble BLyS, a B-cell survival factor, to its receptors on B cells. BENLYSTA does not bind B cells directly, but by binding BLyS, BENLYSTA inhibits the survival of B cells, including autoreactive B cells, and reduces the differentiation of B cells into immunoglobulin-producing plasma cells." ([DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3), label version 2026-10-30; accessed 2026-11-19.) From general knowledge of the drug, it neutralises soluble BLyS/BAFF and so reduces the survival of B cells, including autoreactive B cells.
 
 Primary release disorders of platelets are inherited functional platelet defects. They are not driven by B-cell activity, and no mechanistic link to BAFF inhibition has been established. The high TxGNN score is a pattern-based model output and is not backed by any clinical or literature data. At this stage the prediction should be treated as a hypothesis with low biological plausibility.
 
@@ -97,6 +97,19 @@ The prediction is supported only by the model score. There are no trials or publ
 - Preclinical or case-level data on belimumab in platelet function disorders
 - The package insert warnings and contraindications from HSA, for the safety screening
 - Detailed mechanism-of-action data for belimumab
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for belimumab are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

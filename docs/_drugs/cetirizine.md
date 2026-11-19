@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Cetirizine belongs to the H1-receptor antagonist class. Blocking H1 receptors reduces histamine-mediated sneezing, itching and watery nasal discharge, which is the basis on which antihistamines are used in nasal conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cetirizine: "Cetirizine hydrochloride, a human metabolite of hydroxyzine, is an antihistamine; its principal effects are mediated via selective inhibition of peripheral H 1 -receptors. The antihistaminic activity of cetirizine hydrochloride has been clearly documented in a variety of animal and human models." ([DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d), label version 2026-09-22; accessed 2026-11-19.) Cetirizine belongs to the H1-receptor antagonist class. Blocking H1 receptors reduces histamine-mediated sneezing, itching and watery nasal discharge, which is the basis on which antihistamines are used in nasal conditions.
 
 "Nasal cavity disease" is a very broad category. The high prediction score is probably driven largely by cetirizine's existing use in nasal allergic conditions, so the prediction adds little new information by itself. Any genuine new value would depend on a more specific subtype, for example rhinitis with a comorbid acute respiratory infection. Such a subtype would need to be defined precisely before it could be studied.
 
@@ -109,6 +109,19 @@ The category is too broad to be a meaningful new indication, and the high score 
 - Clinical studies of cetirizine directly in that subtype
 - Package insert warnings and contraindications from the HSA records
 - Mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

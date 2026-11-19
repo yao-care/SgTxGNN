@@ -56,7 +56,7 @@ with **3 related clinical trials** (two Phase 2 studies in relapsed or refractor
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source database. Based on known pharmacology, vinorelbine is a vinca alkaloid that inhibits microtubule polymerisation. This causes mitotic arrest and apoptosis in rapidly dividing cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vinorelbine: "Vinorelbine is a vinca alkaloid that interferes with microtubule assembly. The antitumor activity of vinorelbine is thought to be due primarily to inhibition of mitosis at metaphase through its interaction with tubulin. Vinorelbine may also interfere with: 1) amino acid, cyclic AMP and glutathione metabolism, 2) calmodulin-dependent Ca++-transport ATPase activity, 3) cellular respiration, and 4) nucleic acid and lipid biosynthesis." ([DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397), label version 2024-08-16; accessed 2026-11-19.) Based on known pharmacology, vinorelbine is a vinca alkaloid that inhibits microtubule polymerisation. This causes mitotic arrest and apoptosis in rapidly dividing cells.
 
 Ewing sarcoma is a rapidly proliferating small round cell sarcoma with high relapse rates, especially in multi-metastatic disease. Vinorelbine's efficacy in lung cancer is established, and its antimitotic action is not specific to one tumour type. When combined with low-dose metronomic cyclophosphamide, it has shown activity in relapsed or refractory Ewing sarcoma and other paediatric solid tumours.
 
@@ -143,11 +143,12 @@ Ewing sarcoma has the strongest evidence among the predicted indications, with P
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "for the three licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the source database" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
 
 <!-- review:end log -->
 

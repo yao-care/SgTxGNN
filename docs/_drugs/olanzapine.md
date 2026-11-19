@@ -67,7 +67,7 @@ The table reflects the top-ranked prediction. Other predictions in the top 10 ha
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Olanzapine is known as an atypical antipsychotic that blocks dopamine and serotonin (5-HT2A/5-HT2C) receptors. Its efficacy in psychotic and mood disorders is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olanzapine: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), label version 2026-10-26; accessed 2026-11-19.) Olanzapine is known as an atypical antipsychotic that blocks dopamine and serotonin (5-HT2A/5-HT2C) receptors. Its efficacy in psychotic and mood disorders is established.
 
 **Top-ranked prediction (benign paroxysmal torticollis of infancy).** This is a self-limiting childhood disorder related to the migraine spectrum and often linked to CACNA1A. Any link to olanzapine's receptor pharmacology is speculative. Giving an antipsychotic to infants for a condition that resolves on its own would also raise substantial safety concerns. The high score is a computational prediction only.
 
@@ -163,11 +163,12 @@ The top prediction has only a computational score, with no trials or literature 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Olanzapine has 19 valid single-ingredient registrations, with no cancelled ones" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ The best-supported prediction in the data compiled for this report is actually *
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, meropenem is a carbapenem that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It has broad activity against Gram-negative and anaerobic bacteria, and its efficacy in serious bacterial infections such as meningitis and peritonitis is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for meropenem: "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), label version 2026-11-02; accessed 2026-11-19.) Based on known information, meropenem is a carbapenem that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It has broad activity against Gram-negative and anaerobic bacteria, and its efficacy in serious bacterial infections such as meningitis and peritonitis is established.
 
 Bone and joint infections are caused by many of the same organisms. The retrieved literature includes a retrospective cohort of osteoarticular melioidosis (all isolates were meropenem-susceptible) and a case of ESBL-producing *Klebsiella pneumoniae* septic arthritis treated successfully with meropenem plus amikacin. These are indirect and low-level evidence. Mechanistically the prediction is plausible, but it has not been tested in trials.
 
@@ -159,11 +159,12 @@ The prediction is mechanistically plausible, but there are no registered trials 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Meropenem has 17 valid single-ingredient registrations, all injectable powders for solution" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
 
 <!-- review:end log -->
 

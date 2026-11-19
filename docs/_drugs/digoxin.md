@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Digoxin is generally known as a Na+/K+-ATPase inhibitor. This raises intracellular calcium and produces a vagotonic effect, which is the basis of its use for rate control in atrial fibrillation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for digoxin: "All of digoxin’s actions are mediated through its effects on Na-K ATPase. This enzyme, the “sodium pump,” is responsible for maintaining the intracellular milieu throughout the body by moving sodium ions out of and potassium ions into cells." ([DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707), label version 2025-10-17; accessed 2026-11-19.) Digoxin is generally known as a Na+/K+-ATPase inhibitor. This raises intracellular calcium and produces a vagotonic effect, which is the basis of its use for rate control in atrial fibrillation.
 
 The link to Prinzmetal (vasospastic) angina is weak. Standard therapy for vasospastic angina relies on calcium channel blockers and nitrates. Digoxin raises intracellular calcium, which could in theory promote vasospasm rather than relieve it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -126,6 +126,19 @@ The Prinzmetal angina prediction rests only on a high model score (L5). There ar
 - Mechanism of action data (e.g., from DrugBank) to support a mechanistic analysis
 - Preclinical or clinical data showing a benefit of digoxin in vasospastic angina
 - A comparison against standard therapy (calcium channel blockers, nitrates) and a safety assessment for coronary disease populations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

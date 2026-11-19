@@ -60,7 +60,7 @@ Currently **0 registered clinical trials** and **6 publications** touch on this 
 
 ## Why is This Prediction Reasonable?
 
-Etelcalcetide activates the calcium-sensing receptor (CaSR) and lowers parathyroid hormone (PTH). Detailed mechanism-of-action text is not available in the data compiled for this report. The mechanistic rationale below comes from the evidence review.
+Etelcalcetide activates the calcium-sensing receptor (CaSR) and lowers parathyroid hormone (PTH). According to the Mechanism of Action section of the US FDA-approved prescribing information for etelcalcetide: "Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion." ([DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c), label version 2026-03-08; accessed 2026-11-19.) The mechanistic rationale below comes from the evidence review.
 
 Lower PTH can indirectly improve mineral metabolism, including calcium, phosphate and FGF23. Hyperphosphatemia is closely tied to the disturbances this drug already addresses, so the biological link is plausible.
 
@@ -128,6 +128,18 @@ The prediction score is high (0.9942), and the biological rationale is plausible
 - Analysis of whether any phosphate effect is independent of PTH and calcium changes
 - Package insert warnings and contraindications from the HSA for a safety review
 - Review of the interaction profile, especially with other calcium-lowering agents, in the intended population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action text is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

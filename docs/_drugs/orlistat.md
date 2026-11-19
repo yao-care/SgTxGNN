@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but there
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Orlistat is, however, a well-known inhibitor of gastrointestinal lipases. By blocking the breakdown of dietary fat, it reduces fat absorption, and with it the absorption of fat-soluble vitamins (A, D, E and K).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for orlistat: "Orlistat is a reversible inhibitor of gastrointestinal lipases. It exerts its therapeutic activity in the lumen of the stomach and small intestine by forming a covalent bond with the active serine residue site of gastric and pancreatic lipases." ([DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e), label version 2026-09-30; accessed 2026-11-19.) Orlistat is, however, a well-known inhibitor of gastrointestinal lipases. By blocking the breakdown of dietary fat, it reduces fat absorption, and with it the absorption of fat-soluble vitamins (A, D, E and K).
 
 This gives a purely theoretical rationale: if less vitamin is absorbed, vitamin excess could in principle be lowered. But this is the opposite of orlistat's known adverse effect, vitamin deficiency, and vitamin deficiency disorder is even listed among its knowledge-graph contraindications. Most hypervitaminosis cases come from over-supplementation and are managed by stopping the supplement. No clinical data support using a lipase inhibitor as a treatment. The high TxGNN score should therefore be treated as a computational signal only.
 
@@ -99,6 +99,18 @@ The prediction has no clinical trials or literature behind it (L5). Its only mec
 - Package insert warnings and contraindications from the HSA website (a blocking data gap for safety screening)
 - Mechanism of action data from DrugBank
 - Any preclinical or clinical signal that orlistat can lower vitamin levels in a therapeutic setting, together with a plan for managing vitamin depletion
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

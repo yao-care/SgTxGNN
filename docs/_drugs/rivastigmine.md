@@ -56,7 +56,7 @@ but the support is limited to **0 clinical trials** and **3 publications** (one 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rivastigmine inhibits both acetylcholinesterase and butyrylcholinesterase. This raises acetylcholine levels and strengthens cholinergic signalling, which is how it helps cognition in Alzheimer's disease and Parkinson's disease dementia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rivastigmine: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), label version 2025-11-11; accessed 2026-11-19.) Based on known pharmacology, rivastigmine inhibits both acetylcholinesterase and butyrylcholinesterase. This raises acetylcholine levels and strengthens cholinergic signalling, which is how it helps cognition in Alzheimer's disease and Parkinson's disease dementia.
 
 Glaucoma is a different kind of disease, but cholinergic tone in the eye matters. Stronger cholinergic activity at the ciliary muscle and trabecular meshwork can increase aqueous humour outflow and lower intraocular pressure (IOP). Cholinergic agents such as pilocarpine already work this way. A 2000 rabbit study found that topical rivastigmine lowered IOP, and a 2024 review of cholinergic agents for IOP reduction supports the idea that this approach is plausible.
 
@@ -128,11 +128,12 @@ Glaucoma is the best-supported prediction, but the evidence is one rabbit study 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 7 registrations are valid single-ingredient products, with no cancelled licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->
 

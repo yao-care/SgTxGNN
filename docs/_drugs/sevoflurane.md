@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, sevoflurane is a volatile anaesthetic that enhances GABA-A receptor activity and inhibits NMDA and nicotinic receptors. Volatile anaesthetics also have vasodilatory effects on vascular smooth muscle, partly through calcium channel modulation.
+ChEMBL (EMBL-EBI) records the mechanism of action of sevoflurane as: Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener ([ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, sevoflurane is a volatile anaesthetic that enhances GABA-A receptor activity and inhibits NMDA and nicotinic receptors. Volatile anaesthetics also have vasodilatory effects on vascular smooth muscle, partly through calcium channel modulation.
 
 Prinzmetal angina is caused by coronary artery vasospasm. A vasodilatory effect could therefore, in theory, relate to this condition. However, no clinical or literature support was found for this link. Sevoflurane is given only in a controlled perioperative setting, so chronic or preventive use for vasospastic angina is not plausible. The prediction should be treated as a hypothesis, not as evidence of benefit.
 
@@ -118,6 +118,19 @@ The prediction rests on model score alone (L5), with no clinical trials or suppo
 - Preclinical or clinical evidence of an effect on coronary vasospasm
 - A feasibility assessment of a practical route and setting of use, given that sevoflurane is an inhaled agent used only under controlled anaesthesia
 - A review of the knowledge-graph contraindication signals, including hypotension and malignant hyperthermia, against the label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

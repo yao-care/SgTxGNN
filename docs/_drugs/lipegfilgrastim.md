@@ -56,7 +56,7 @@ but **0 clinical trials** and **0 publications** currently support this directio
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lipegfilgrastim is a pegylated G-CSF analog. It acts on the neutrophil lineage through the G-CSF receptor.
+ChEMBL (EMBL-EBI) records the mechanism of action of lipegfilgrastim as: Granulocyte colony stimulating factor receptor agonist ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, lipegfilgrastim is a pegylated G-CSF analog. It acts on the neutrophil lineage through the G-CSF receptor.
 
 Primary release disorder of platelets is a qualitative platelet function defect, in which platelets fail to secrete their granule contents properly. G-CSF has no established mechanism for correcting such a defect. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature were available to support it.
 
@@ -96,6 +96,19 @@ The prediction rests only on a model score. There are no clinical trials or publ
 - Detailed mechanism of action data, for example from DrugBank
 - Preclinical or clinical evidence linking G-CSF receptor signalling to platelet release function
 - A review of whether any of the other predicted indications has stronger biological support, since none currently does
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

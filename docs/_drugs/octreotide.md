@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Octreotide is a somatostatin analogue, and its efficacy in acromegaly and carcinoid syndrome is established. Its known effects are mediated through somatostatin receptors, mainly in pituitary and neuroendocrine tissue.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for octreotide: "Sandostatin Injection exerts pharmacologic actions similar to the natural hormone, somatostatin. It is an even more potent inhibitor of GH, glucagon, and insulin than somatostatin. […] By virtue of these pharmacological actions, octreotide has been used to treat the symptoms associated with metastatic carcinoid tumors (flushing and diarrhea), and VIP secreting adenomas (watery diarrhea)." ([DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39), label version 2026-07-22; accessed 2026-11-19.) Octreotide is a somatostatin analogue, and its efficacy in acromegaly and carcinoid syndrome is established. Its known effects are mediated through somatostatin receptors, mainly in pituitary and neuroendocrine tissue.
 
 The data compiled for this report show no plausible link between somatostatin-receptor activity and vulvar inverted follicular keratosis. The very high TxGNN score (0.9958) is not backed by any trial or publication. The adjacent prediction, seborrheic keratosis (score 0.9955), is similarly unsupported, which suggests the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -109,6 +109,19 @@ The prediction is supported only by the model score, with no trials, no literatu
 - Mechanism of action data (e.g. from DrugBank) to assess any somatostatin-receptor link to the predicted condition
 - Any preclinical or clinical evidence on somatostatin-receptor expression or octreotide activity in the predicted skin condition
 - Review of the other top-ranked predictions for better-supported candidates, since none currently has trial support
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

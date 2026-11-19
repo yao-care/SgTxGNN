@@ -58,7 +58,7 @@ Hydroquinone is a topical depigmenting agent that inhibits melanin production, a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Hydroquinone is generally known to inhibit tyrosinase, the enzyme that drives melanin synthesis, and so it lightens pigmented skin.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for hydroquinone: "Topical application of hydroquinone produces a reversible depigmentation of the skin by inhibition of the enzymatic oxidation of tyrosine to 3,4-dihydroxyphenylalanine (dopa) (Denton, C. et al., 1952)1 and suppression of other melanocyte metabolic processes (Jimbow, K. et al., 1974)2. Exposure to sunlight or ultraviolet light will cause repigmentation of bleached areas (Parrish, L.A. et al., 1978)3." ([DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b), label version 2026-07-10; accessed 2026-11-19.) Hydroquinone is generally known to inhibit tyrosinase, the enzyme that drives melanin synthesis, and so it lightens pigmented skin.
 
 Seborrheic keratosis is a benign overgrowth of epidermal cells that is often pigmented. A link therefore exists only through pigment reduction. Hydroquinone would not be expected to affect the growth of the lesion itself. The single supporting article is a prospective observational study of combination treatment for facial pigmentary disorders in Asian patients, which is only indirect evidence for this indication.
 
@@ -134,6 +134,19 @@ The prediction score is very high (0.9973), but the supporting evidence is a sin
 - Package insert warnings and contraindications from the HSA, and the licensed indication for TRI-LUMA CREAM
 - Mechanism of action data (for example from DrugBank)
 - Direct clinical evidence in seborrheic keratosis, such as a small controlled study
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

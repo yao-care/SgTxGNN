@@ -58,7 +58,7 @@ Flurbiprofen is a non-steroidal anti-inflammatory drug (NSAID) that works by inh
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Flurbiprofen belongs to the NSAID class, whose members reduce prostaglandin production through COX inhibition. This gives the drug anti-inflammatory and analgesic effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for flurbiprofen: "Flurbiprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of flurbiprofen, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763), label version 2026-10-05; accessed 2026-11-19.) Flurbiprofen belongs to the NSAID class, whose members reduce prostaglandin production through COX inhibition. This gives the drug anti-inflammatory and analgesic effects.
 
 The predicted disease is a rare genetic skeletal dysplasia linked to the CDMP1/GDF5 pathway, which governs bone and cartilage development. No plausible mechanistic link between COX inhibition and this developmental genetic basis was identified. An NSAID would not be expected to modify the underlying disease. At most it could offer symptomatic pain relief, and no data support even that.
 
@@ -130,11 +130,12 @@ The prediction has no supporting clinical trials or publications (evidence level
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three licences are for single-ingredient products and are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763) |
 
 <!-- review:end log -->
 

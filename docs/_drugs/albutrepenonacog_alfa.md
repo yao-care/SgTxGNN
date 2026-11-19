@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pseudo-von Willebrand disease
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on its known class, albutrepenonacog alfa is a recombinant factor IX fused to albumin, which extends its half-life. It supplies factor IX, which acts in the intrinsic coagulation pathway.
+ChEMBL (EMBL-EBI) records the mechanism of action of albutrepenonacog alfa as: Coagulation factor IX exogenous protein ([ChEMBL CHEMBL5315076 (albutrepenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315076), CC BY-SA 3.0; accessed 2026-11-19.) Based on its known class, albutrepenonacog alfa is a recombinant factor IX fused to albumin, which extends its half-life. It supplies factor IX, which acts in the intrinsic coagulation pathway.
 
 Pseudo-von Willebrand disease is a platelet-type disorder caused by gain-of-function of platelet GPIbα, which increases binding to von Willebrand factor (VWF). The defect lies in the platelet–VWF interaction, not in factor IX deficiency, so there is no clear mechanistic rationale for factor IX replacement. The high TxGNN score most likely reflects a network-level association with bleeding disorders rather than a demonstrated mechanism. This prediction should therefore be treated as a hypothesis only.
 
@@ -96,6 +96,19 @@ No clinical trial or publication studies this drug in pseudo-von Willebrand dise
 - Preclinical or clinical studies directly in pseudo-von Willebrand disease
 - Package insert warnings and contraindications from the HSA, to enable safety screening
 - Mechanism of action data for the drug
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL5315076 (albutrepenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315076) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

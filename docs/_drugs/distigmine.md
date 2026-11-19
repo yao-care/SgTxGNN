@@ -55,7 +55,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, distigmine is a long-acting acetylcholinesterase inhibitor. Its efficacy in myasthenia gravis is established, and mechanistically it may be applicable to this subtype. By slowing the breakdown of acetylcholine, it enhances cholinergic transmission at the neuromuscular junction.
+ChEMBL (EMBL-EBI) records the mechanism of action of distigmine as: Acetylcholinesterase inhibitor ([ChEMBL CHEMBL1199307 (distigmine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1199307), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, distigmine is a long-acting acetylcholinesterase inhibitor. Its efficacy in myasthenia gravis is established, and mechanistically it may be applicable to this subtype. By slowing the breakdown of acetylcholine, it enhances cholinergic transmission at the neuromuscular junction.
 
 Myasthenia gravis with thymus hyperplasia is a variant of the already approved indication. The underlying problem, reduced functional acetylcholine receptors at the neuromuscular junction, is the same, so symptomatic cholinesterase inhibition is plausible.
 
@@ -117,6 +117,19 @@ The top prediction is a subtype of an indication distigmine already treats, so i
 - A targeted literature and trial search on distigmine in thymic hyperplasia-associated myasthenia gravis
 - Dosing and safety data for neonatal or paediatric use before considering those predictions
 - Optional research question: distigmine in detrusor underactivity, supported by the 2010 receptor-binding study
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1199307 (distigmine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1199307) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

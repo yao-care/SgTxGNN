@@ -60,7 +60,7 @@ There are **no clinical trials** and **no publications** that directly study thi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Darunavir is known as an HIV-1 protease inhibitor, a class of drugs that blocks the enzyme the virus needs to mature into infectious particles.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for darunavir: "Darunavir is an HIV-1 antiviral drug. […] Darunavir is an inhibitor of the HIV-1 protease. It selectively inhibits the cleavage of HIV-1 encoded Gag-Pol polyproteins in infected cells, thereby preventing the formation of mature virus particles." ([DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f), label version 2025-08-29; accessed 2026-11-19.) Darunavir is known as an HIV-1 protease inhibitor, a class of drugs that blocks the enzyme the virus needs to mature into infectious particles.
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, so a mechanistic rationale is plausible. However, FIV protease differs structurally from HIV-1 protease, and darunavir's activity against it is not established in the data compiled for this report. The high score is a computational prediction only.
 
@@ -134,6 +134,19 @@ The top prediction is a veterinary disease with no trials or publications, so th
 - Confirmation that a veterinary indication falls within the scope of this human repurposing programme
 - Package insert warnings and contraindications from the HSA, and mechanism of action data
 - Mapping of the obsolete hyperlipidemia term to its current ontology term, if that prediction is to be pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

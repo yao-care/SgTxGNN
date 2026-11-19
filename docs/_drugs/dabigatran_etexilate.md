@@ -58,7 +58,7 @@ Dabigatran etexilate is an oral direct thrombin inhibitor (marketed in Singapore
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From general pharmacology, dabigatran is a direct thrombin (factor IIa) inhibitor, and it is used as an anticoagulant.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dabigatran etexilate: "Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus." ([DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901), label version 2026-11-02; accessed 2026-11-19.) From general pharmacology, dabigatran is a direct thrombin (factor IIa) inhibitor, and it is used as an anticoagulant.
 
 The link to sclerosing cholangitis is speculative. Thrombin and PAR signalling may contribute to liver fibrosis and inflammation, but this has not been established for bile duct diseases such as sclerosing cholangitis. The only linked paper concerns drug-drug interaction testing of a different compound, not dabigatran efficacy.
 
@@ -120,6 +120,19 @@ The prediction rests only on a model score, with no trials and no efficacy liter
 - Preclinical evidence on thrombin/PAR signalling in cholangiopathy models
 - A review of bleeding risk and dosing in patients with hepatobiliary disease
 - Any registered or published studies of dabigatran in sclerosing cholangitis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The evidence is indirect, based on extrapolation from the parent indication.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, lisinopril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension and myocardial infarction is established, and mechanistically it may be applicable to subtypes of myocardial infarction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lisinopril: "Lisinopril inhibits angiotensin-converting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c), label version 2025-12-16; accessed 2026-11-19.) Based on known information, lisinopril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension and myocardial infarction is established, and mechanistically it may be applicable to subtypes of myocardial infarction.
 
 Posterolateral myocardial infarction is an anatomical subtype of myocardial infarction, which is already a listed indication for lisinopril. The expected ACE inhibitor benefits after infarction (reduced adverse ventricular remodelling and lower mortality) plausibly apply across subtypes. The prediction is therefore best viewed as an ontology-level duplicate of the existing indication, not a distinct repurposing signal.
 
@@ -152,11 +152,12 @@ There are no trials or literature specific to it, so this is not a new repurposi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 13 registrations are valid single-ingredient oral tablets; none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c) |
 
 <!-- review:end log -->
 

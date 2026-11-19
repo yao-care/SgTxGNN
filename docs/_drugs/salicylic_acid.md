@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, salicylic acid is thought to act through inhibition of COX enzymes, reducing prostaglandin synthesis, and has anti-inflammatory and keratolytic (skin-softening) effects. Public bioactivity data to confirm this at a specific molecular target could not be found, so this mechanism remains unconfirmed.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for salicylic acid: "Although the exact mode of action for salicylic acid in the treatment of warts is unknown, its activity appears to be associated with its keratolytic action, which results in mechanical removal of epidermal cells infected with wart viruses." ([DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b), label version 2025-10-15; accessed 2026-11-19.) Based on known information, salicylic acid is thought to act through inhibition of COX enzymes, reducing prostaglandin synthesis, and has anti-inflammatory and keratolytic (skin-softening) effects. Public bioactivity data to confirm this at a specific molecular target could not be found, so this mechanism remains unconfirmed.
 
 Papillary conjunctivitis is an inflammatory, often allergic, condition of the eye surface. Salicylic acid's anti-inflammatory activity, and its use in related conditions such as allergic rhinitis, offer a theoretical link. However, this link is speculative. The drug is marketed in Singapore only as skin-applied products (lotions, ointments, solutions, creams, a shampoo), and application near the eye raises concerns about irritation and corneal toxicity.
 
@@ -131,11 +131,12 @@ The prediction is supported only by the model score, with no clinical trials or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Twenty valid single-ingredient licences are registered" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
 
 <!-- review:end log -->
 

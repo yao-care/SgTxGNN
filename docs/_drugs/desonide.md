@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **polyp of vocal cord**, but **
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, desonide is a low-potency topical glucocorticoid with anti-inflammatory activity. Its efficacy in inflammatory skin disease is established, and mechanistically an anti-inflammatory effect could reduce swelling in inflammatory lesions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desonide: "The mechanism of action of desonide is unknown." ([DailyMed: desonide prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6192416-09b4-47fa-e053-2a95a90add96), label version 2020-07-31; accessed 2026-11-19.) Based on known information, desonide is a low-potency topical glucocorticoid with anti-inflammatory activity. Its efficacy in inflammatory skin disease is established, and mechanistically an anti-inflammatory effect could reduce swelling in inflammatory lesions.
 
 The link to vocal cord polyps is weak, however. These lesions are mainly mechanical or related to voice trauma, and are typically managed by voice therapy or surgery. A topical dermatologic cream or lotion has no established route of delivery to the larynx. The prediction therefore rests only on the model score.
 
@@ -113,6 +113,19 @@ The prediction is supported only by the model score, with no clinical trials or 
 - Detailed mechanism of action data (MOA)
 - Route-of-administration compatibility assessment for the target site, and a clear rationale for why a corticosteroid would act on polyp tissue
 - Any preclinical or clinical studies of desonide or related corticosteroids in polypoid lesions, to move beyond L5
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: desonide prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6192416-09b4-47fa-e053-2a95a90add96) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

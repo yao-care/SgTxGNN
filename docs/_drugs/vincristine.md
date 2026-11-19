@@ -59,7 +59,7 @@ The data compiled for this report assigned L4 to this prediction. I lowered it t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. From general pharmacology, vincristine binds tubulin, blocks microtubule formation and arrests dividing cells in metaphase. This action is biologically plausible against rapidly proliferating tumours.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vincristine: "The mechanisms of action of vincristine sulfate remain under investigation. The mechanism of action of vincristine sulfate has been related to the inhibition of microtubule formation in mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c), label version 2026-02-17; accessed 2026-11-19.) From general pharmacology, vincristine binds tubulin, blocks microtubule formation and arrests dividing cells in metaphase. This action is biologically plausible against rapidly proliferating tumours.
 
 "Retroperitoneal neoplasm" is a location-based umbrella term, not one disease. The literature shows vincristine used in multi-agent regimens for several tumour types that can occur in the retroperitoneum. Examples are malignant paraganglioma (cyclophosphamide, vincristine, dacarbazine), infantile fibrosarcoma (doxorubicin, vincristine, cyclophosphamide), rhabdomyosarcoma (VAC) and desmoplastic small round cell tumour. Vincristine is always combined with other drugs, so its individual contribution cannot be separated. Any benefit would depend on the tumour's histology.
 
@@ -129,6 +129,19 @@ The prediction score is high, but no trial studies this indication and the liter
 - The Singapore package insert, including approved indications, warnings and contraindications
 - Mechanism of action data from DrugBank
 - A safety monitoring plan covering neurotoxicity, hepatic impairment, myelosuppression and the interaction with clarithromycin
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **small cell lung carcinoma**, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Cytarabine is, however, a well-known pyrimidine nucleoside analogue that inhibits DNA synthesis in cells in S-phase. This makes a rapidly dividing tumour such as small cell lung carcinoma a plausible target in principle.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cytarabine: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), label version 2026-10-19; accessed 2026-11-19.) Cytarabine is, however, a well-known pyrimidine nucleoside analogue that inhibits DNA synthesis in cells in S-phase. This makes a rapidly dividing tumour such as small cell lung carcinoma a plausible target in principle.
 
 The original indications are acute leukaemias, where cytarabine is among the most effective agents. The literature compiled here also notes that many solid tumours are insensitive to it. This is partly attributed to high levels of cytidine deaminase, which breaks the drug down, and low levels of the activating enzyme.
 
@@ -152,6 +152,19 @@ The prediction score is very high, but no clinical trials exist for small cell l
 - Retroperitoneal neoplasm (L4, 0.9923): case reports of myeloid sarcoma and lymphoma only.
 - Neuroblastoma (L4, 0.9919; Research Question): preclinical sensitivity data. The three listed trials do not test cytarabine for this disease.
 - CLL/SLL with somatic hypermutation (L5, 98.96%): prediction only.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ The prediction is purely computational and has no direct clinical or literature 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Sodium fluoride is a fluoride salt used in dental products and as a trace-element component of parenteral nutrition. Its role in vitamin deficiency disorder comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not confirmed by Singapore labelling.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for sodium fluoride: "Fluoride delivered from Clinpro 5000 inhibits the demineralization of sound teeth and enhances the remineralization (i.e., repair) of demineralized teeth. During tooth brushing, fluoride is taken up by teeth and dental plaque." ([DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580), label version 2024-08-01; accessed 2026-11-19.) Sodium fluoride is a fluoride salt used in dental products and as a trace-element component of parenteral nutrition. Its role in vitamin deficiency disorder comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not confirmed by Singapore labelling.
 
 The predicted indication, epiglottitis, is an acute airway infection usually caused by bacteria such as *Haemophilus influenzae* type b. It is treated with antibiotics and airway management. No mechanistic link between sodium fluoride and this condition has been established, and the drug has no known antibacterial activity relevant to it.
 
@@ -117,11 +117,12 @@ The prediction is computational only. There are no clinical trials or relevant p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580) |
 
 <!-- review:end log -->
 

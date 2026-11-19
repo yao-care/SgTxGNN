@@ -60,7 +60,7 @@ Among the other top-ranked predictions, only liposarcoma has relevant Phase 2 tr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on published literature, imatinib inhibits the tyrosine kinases BCR-ABL, KIT and PDGFR. Its efficacy in GIST (KIT-driven) and dermatofibrosarcoma protuberans (DFSP, driven by the COL1A1-PDGFB fusion that activates PDGFRB) is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imatinib: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), label version 2026-07-13; accessed 2026-11-19.) Based on published literature, imatinib inhibits the tyrosine kinases BCR-ABL, KIT and PDGFR. Its efficacy in GIST (KIT-driven) and dermatofibrosarcoma protuberans (DFSP, driven by the COL1A1-PDGFB fusion that activates PDGFRB) is established.
 
 Fibrosarcoma is a fibroblast-derived sarcoma, which is biologically close to DFSP. In DFSP, the fibrosarcomatous variant is driven by the same PDGFB/PDGFRB signalling that imatinib blocks. This offers a plausible but **indirect** link to fibrosarcoma at other sites.
 
@@ -166,11 +166,12 @@ The heart fibrosarcoma prediction has a very high model score, but it rests on o
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Imatinib has 13 valid single-ingredient registrations in Singapore, with no cancelled licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->
 

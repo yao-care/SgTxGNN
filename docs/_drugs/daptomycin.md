@@ -58,7 +58,7 @@ Daptomycin is a cyclic lipopeptide antibiotic registered in Singapore as an inje
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Daptomycin is a cyclic lipopeptide antibiotic with activity against Gram-positive bacteria. Published work cited here describes its use in osteoarticular and prosthetic joint infections caused by organisms such as *Staphylococcus*.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for daptomycin: "Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death." ([DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8), label version 2022-01-25; accessed 2026-11-19.) Daptomycin is a cyclic lipopeptide antibiotic with activity against Gram-positive bacteria. Published work cited here describes its use in osteoarticular and prosthetic joint infections caused by organisms such as *Staphylococcus*.
 
 For osteoarthritis, **no mechanistic link has been established**. The publications retrieved concern infection of bones and joints, which is a different disease from degenerative osteoarthritis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of benefit in osteoarthritis.
 
@@ -149,11 +149,12 @@ The osteoarthritis prediction has no clinical trials, and all retrieved literatu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Two further licences are valid: SIN16071P (Daptoccord 500) and SIN13501P (Cubicin 500 mg)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ However, there are **0 clinical trials** and **0 publications** supporting this 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, gilteritinib is a FLT3/AXL kinase inhibitor. Its efficacy in FLT3-mutated AML is the basis of its use, but there is no evident mechanistic link to bulbar polio.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for gilteritinib: "Gilteritinib is a small molecule that inhibits multiple receptor tyrosine kinases, including FMS-like tyrosine kinase 3 (FLT3). Gilteritinib demonstrated the ability to inhibit FLT3 receptor signaling and proliferation in cells exogenously expressing FLT3 including FLT3-ITD, tyrosine kinase domain mutations (TKD) FLT3-D835Y and FLT3-ITD-D835Y, and it induced apoptosis in leukemic cells expressing FLT3-ITD." ([DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383), label version 2026-10-01; accessed 2026-11-19.) Based on known information, gilteritinib is a FLT3/AXL kinase inhibitor. Its efficacy in FLT3-mutated AML is the basis of its use, but there is no evident mechanistic link to bulbar polio.
 
 Bulbar polio is a viral infection in which poliovirus attacks motor neurons in the brainstem. Nothing in the available data connects inhibition of FLT3 or AXL to poliovirus infection or to protection of motor neurons. The high score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A high score with no supporting studies should not be read as evidence of efficacy.
 
@@ -110,6 +110,19 @@ The prediction rests on the model score alone. There are no trials or publicatio
 - Redirecting attention to better-supported candidates from the same prediction list:
   - This includes a Phase 1/2 trial of azacitidine, venetoclax and gilteritinib in FLT3-mutated AML or high-risk MDS ([NCT04140487](https://clinicaltrials.gov/study/NCT04140487)), plus a case report of an FLT3-fusion neoplasm ([PMID 33792628](https://pubmed.ncbi.nlm.nih.gov/33792628/)).
   - **Therapy-related AML/MDS** (alkylating agent- or radiation-related) is biologically plausible but overlaps closely with the approved AML indications, so it is not a true repurposing candidate.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

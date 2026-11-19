@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **paratyphoid fever**, but **no cl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, amikacin is an aminoglycoside that binds the bacterial 30S ribosomal subunit and has broad Gram-negative activity. That makes it plausible against *Salmonella* Paratyphi, the cause of paratyphoid fever.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amikacin: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), label version 2026-07-27; accessed 2026-11-19.) Based on general pharmacology, amikacin is an aminoglycoside that binds the bacterial 30S ribosomal subunit and has broad Gram-negative activity. That makes it plausible against *Salmonella* Paratyphi, the cause of paratyphoid fever.
 
 There are important reasons for caution. *Salmonella* is a facultative intracellular pathogen, and aminoglycosides penetrate cells poorly. Standard enteric fever treatment relies on fluoroquinolones, azithromycin, or third-generation cephalosporins, so amikacin has no established role. The prediction therefore rests on antibacterial plausibility rather than on demonstrated clinical benefit.
 
@@ -111,6 +111,19 @@ The prediction score is high (0.9982), but there are no clinical trials, and no 
 - Package insert warnings and contraindications from HSA
 - Mechanism of action data
 - A comparison against current standard therapy (fluoroquinolones, azithromycin, third-generation cephalosporins) showing an unmet need
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

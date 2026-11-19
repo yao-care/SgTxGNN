@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **cauda equina syndrome**, but **
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cyclopentolate belongs to the antimuscarinic class, which blocks muscarinic receptors. Related agents in this class are used to reduce bladder and bowel muscle overactivity.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyclopentolate: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine." ([DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e), label version 2024-06-25; accessed 2026-11-19.) Cyclopentolate belongs to the antimuscarinic class, which blocks muscarinic receptors. Related agents in this class are used to reduce bladder and bowel muscle overactivity.
 
 A plausible but unverified link is antimuscarinic modulation of bladder and bowel function that is disturbed by nerve damage. However, this link is weak. Cyclopentolate is formulated only as a topical eye drop and has no documented systemic use for this condition. Cauda equina syndrome is a surgical emergency caused by nerve root compression, and an anticholinergic cannot treat that underlying compression. The high score therefore should be read as a computational signal, not as clinical support.
 
@@ -95,6 +95,19 @@ The prediction rests on the model score alone (evidence level L5). No trials or 
 - Mechanism of action data
 - Any clinical or preclinical study that directly examines cyclopentolate in cauda equina syndrome
 - Evaluation of whether a suitable route of administration and formulation exist, since only a topical ocular product is currently available
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

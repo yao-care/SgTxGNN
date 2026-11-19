@@ -56,7 +56,7 @@ Evidence for this specific prediction is therefore weak (model prediction plus c
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tamoxifen is a selective estrogen receptor modulator (SERM) that blocks estrogen signalling in breast tissue. Its efficacy in hormone receptor-positive breast cancer is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tamoxifen: "Tamoxifen is an estrogen agonist/antagonist. Tamoxifen competes with estrogen for binding to the estrogen receptor, which can result in a decrease in estrogen receptor signaling-dependent growth in breast tissue. Tamoxifen has demonstrated antitumor activity against human breast cancer cell lines xenografted in mice." ([DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02), label version 2021-11-29; accessed 2026-11-19.) Based on known information, tamoxifen is a selective estrogen receptor modulator (SERM) that blocks estrogen signalling in breast tissue. Its efficacy in hormone receptor-positive breast cancer is well established.
 
 Mammary Paget disease is usually associated with underlying ductal carcinoma in situ or invasive breast cancer, which is often hormone receptor-positive. Estrogen receptor blockade is therefore plausible. However, this is an extension of tamoxifen's existing breast cancer use, not independent repurposing evidence. Case reports suggest responses (a case of extramammary Paget disease and an extensive nipple Paget case), but these are isolated observations.
 
@@ -131,6 +131,19 @@ The prediction is biologically plausible because Paget disease of the breast is 
 - **Hormone-resistant breast carcinoma:** Research question only, as tamoxifen alone is unlikely to help.
 - **Invasive tubular breast carcinoma:** Hold, with indirect evidence only.
 - **Basal-like breast carcinoma, Ehrlich tumor carcinoma, intraductal cribriform breast adenocarcinoma, sebaceous breast carcinoma and botryoid-type embryonal rhabdomyosarcoma of the vagina:** Hold, with no clinical support or an unfavourable mechanism.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

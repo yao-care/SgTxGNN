@@ -61,7 +61,7 @@ Other predictions with evidence worth noting:
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, naproxen is a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin production and so lowers inflammation, pain and fever.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for naproxen: "Naproxen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of NAPRELAN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893), label version 2026-01-08; accessed 2026-11-19.) Based on known pharmacology, naproxen is a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin production and so lowers inflammation, pain and fever.
 
 **Top-ranked prediction (brachydactyly-syndactyly syndrome):** This is a rare congenital skeletal malformation. There is no plausible link between COX inhibition and its underlying pathology. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top-ranked predictions (ranks 2–4, such as acromesomelic dysplasia) follow the same pattern: rare genetic skeletal disorders with no mechanistic support and no studies. At most, naproxen might give symptomatic pain relief in some of them.
 
@@ -155,11 +155,12 @@ Showing 5 of 13 HSA registrations.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 16 valid single-ingredient registrations in Singapore; none are cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893) |
 
 <!-- review:end log -->
 

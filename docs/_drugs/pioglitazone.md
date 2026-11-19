@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, pioglitazone is a thiazolidinedione that acts on PPAR-gamma, and its efficacy in type 2 diabetes has been established through its insulin-sensitising effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pioglitazone: "ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue." ([DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c), label version 2025-03-28; accessed 2026-11-19.) Based on known information, pioglitazone is a thiazolidinedione that acts on PPAR-gamma, and its efficacy in type 2 diabetes has been established through its insulin-sensitising effects.
 
 Opsismodysplasia is a rare skeletal dysplasia caused by mutations in INPPL1 (SHIP2), a negative regulator of PI3K/insulin signalling. This gives a theoretical link to insulin signalling and PPAR-gamma biology. However, no trials or literature support it, and the mechanism has not been verified. At this stage the prediction cannot be considered supported.
 
@@ -96,6 +96,19 @@ The prediction is supported only by a model score (L5). There are no clinical tr
 - Preclinical or mechanistic studies linking PPAR-gamma agonism and INPPL1/SHIP2 signalling to skeletal development
 - Case reports or clinical studies in opsismodysplasia, or a re-evaluation of lower-ranked predictions with more plausible mechanisms (such as the lipodystrophies)
 - A safety assessment for use in children and in patients with heart failure, liver or kidney disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

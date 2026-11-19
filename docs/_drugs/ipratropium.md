@@ -59,7 +59,7 @@ The data compiled for this report include **25 clinical trials** and **20 public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ipratropium is a muscarinic antagonist. It blocks M3 receptor-mediated bronchoconstriction in airway smooth muscle by interrupting vagally mediated cholinergic signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ipratropium: "Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle." ([DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884), label version 2025-11-05; accessed 2026-11-19.) Based on known pharmacology, ipratropium is a muscarinic antagonist. It blocks M3 receptor-mediated bronchoconstriction in airway smooth muscle by interrupting vagally mediated cholinergic signalling.
 
 This matches the pathophysiology of obstructive lung disease directly. The predicted indication overlaps with the already-established COPD and bronchial disease uses. It is therefore closer to an on-label or near-label use than to true repurposing. The high TxGNN score reflects this overlap.
 
@@ -158,11 +158,12 @@ Other predicted indications should stay on **Hold**, or be treated as research q
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "A sixth licence, SIN09558P (COMBIVENT UNIT DOSE VIAL FOR INHALATION, solution), is also valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
 
 <!-- review:end log -->
 

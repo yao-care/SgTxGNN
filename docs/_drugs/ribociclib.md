@@ -54,7 +54,7 @@ Ribociclib is an oral CDK4/6 inhibitor marketed in Singapore as Kisqali. It is u
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ribociclib is a selective CDK4/6 inhibitor. CDK4/6 drives cell-cycle progression, and blocking it halts proliferation in tumour cells that depend on this pathway. Its efficacy in HR+/HER2- breast cancer has been shown in large Phase 3 trials.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ribociclib: "Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation." ([DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8), label version 2026-07-01; accessed 2026-11-19.) Ribociclib is a selective CDK4/6 inhibitor. CDK4/6 drives cell-cycle progression, and blocking it halts proliferation in tumour cells that depend on this pathway. Its efficacy in HR+/HER2- breast cancer has been shown in large Phase 3 trials.
 
 Because CDK4/6 also drives the cell cycle in leukemic cells, the prediction is biologically plausible. One 2020 preclinical study (PMID 32560251) reports that CDK4/6 inhibitors can target pharmacokinetic drug resistance in acute myeloid leukemia (AML) cells. That resistance involves overexpression of the ABCB1 and ABCG2 transporters. The finding is indirect and in vitro, and it does not show that ribociclib treats AML in patients.
 
@@ -110,6 +110,19 @@ The only support for myeloid leukemia is a high model score plus one indirect pr
 - In vivo and in vitro studies of ribociclib in AML and other myeloid leukemia models
 - A review of haematological safety in leukemia patients, given the myelosuppression risk
 - A CYP3A4 interaction and QT risk assessment for any leukemia treatment regimen
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

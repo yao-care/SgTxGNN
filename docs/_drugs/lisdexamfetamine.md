@@ -60,7 +60,7 @@ The high prediction score most likely reflects the clinical closeness of this co
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, lisdexamfetamine is an inactive prodrug that is converted in the body to d-amphetamine. d-Amphetamine increases dopamine and norepinephrine signalling, and its efficacy in ADHD has been established. Mechanistically, it may be applicable to attention-related symptoms in other neurodevelopmental conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lisdexamfetamine: "Lisdexamfetamine is a prodrug of dextroamphetamine. Amphetamines are non-catecholamine sympathomimetic amines with CNS stimulant activity. The exact mode of therapeutic action in ADHD and BED is not known." ([DailyMed: Vyvanse (lisdexamfetamine dimesylate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=704e4378-ca83-445c-8b45-3cfa51c1ecad), label version 2026-04-30; accessed 2026-11-19.) Based on known information, lisdexamfetamine is an inactive prodrug that is converted in the body to d-amphetamine. d-Amphetamine increases dopamine and norepinephrine signalling, and its efficacy in ADHD has been established. Mechanistically, it may be applicable to attention-related symptoms in other neurodevelopmental conditions.
 
 Specific developmental disorders (for example, learning or attention-related neurodevelopmental conditions) overlap clinically with ADHD. The very high TxGNN score is therefore probably driven by this proximity to the approved indication, not by independent evidence for the new condition.
 
@@ -135,6 +135,19 @@ The prediction has no registered trials and no literature that tests lisdexamfet
 - Detailed mechanism of action data (MOA)
 - The Singapore package insert warnings and contraindications, and the approved indication text for the local licences
 - A cardiovascular, psychiatric and abuse-liability risk review, especially for paediatric use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vyvanse (lisdexamfetamine dimesylate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=704e4378-ca83-445c-8b45-3cfa51c1ecad) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

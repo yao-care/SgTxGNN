@@ -55,7 +55,7 @@ Evidence for this top prediction is weak.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known information, etanercept is a soluble TNF receptor–Fc fusion protein that binds TNF-alpha and blocks its inflammatory activity. Its efficacy in rheumatoid arthritis is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etanercept: "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f), label version 2026-05-11; accessed 2026-11-19.) Based on known information, etanercept is a soluble TNF receptor–Fc fusion protein that binds TNF-alpha and blocks its inflammatory activity. Its efficacy in rheumatoid arthritis is well established.
 
 Rheumatoid vasculitis is a severe extra-articular complication of rheumatoid arthritis, so TNF blockade is mechanistically plausible. However, the literature also contains reports of etanercept-associated cutaneous vasculitis, leukocytoclastic vasculitis and nephropathy. This suggests etanercept may paradoxically induce vasculitis in some patients, which weakens the therapeutic hypothesis.
 
@@ -135,11 +135,12 @@ No trial tests etanercept in rheumatoid vasculitis, and the literature includes 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 7 are single-ingredient products with valid status" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
 
 <!-- review:end log -->
 

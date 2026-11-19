@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **duodenal ulcer**, but this is
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, raloxifene is a selective estrogen receptor modulator. Its efficacy in postmenopausal osteoporosis is established, mainly through reducing bone resorption.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for raloxifene: "Raloxifene is an estrogen agonist/antagonist, commonly referred to as a selective estrogen receptor modulator (SERM). The biological actions of raloxifene are largely mediated through binding to estrogen receptors. This binding results in activation of estrogenic pathways in some tissues (agonism) and blockade of estrogenic pathways in others (antagonism)." ([DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9), label version 2026-02-11; accessed 2026-11-19.) Based on known information, raloxifene is a selective estrogen receptor modulator. Its efficacy in postmenopausal osteoporosis is established, mainly through reducing bone resorption.
 
 The data compiled for this report do not establish a plausible mechanistic link between estrogen receptor modulation and duodenal ulcer. The high score (0.9972) is a computational output only. Several of the other top predictions are also duodenal or gastrointestinal terms (duodenal obstruction, duodenogastric reflux), which suggests the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should be treated as a hypothesis only.
 
@@ -98,6 +98,19 @@ The prediction is supported only by the model score, with no clinical trials, no
 - A literature search and trial registry search specific to raloxifene and peptic or duodenal ulcer disease
 - A biological rationale connecting estrogen receptor modulation to duodenal ulcer, or a decision to deprioritise this prediction
 - A review of other predictions for stronger evidence. Pregnancy-associated osteoporosis has some literature, but it is not supportive, and raloxifene is contraindicated in pregnancy.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

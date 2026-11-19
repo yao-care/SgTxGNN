@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, entacapone is a catechol-O-methyltransferase (COMT) inhibitor. It extends the effect of levodopa, and its efficacy in Parkinson disease is established. Mechanistically, it may be applicable to neurodegenerative conditions that include parkinsonian features.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for entacapone: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), label version 2026-02-16; accessed 2026-11-19.) Based on known information, entacapone is a catechol-O-methyltransferase (COMT) inhibitor. It extends the effect of levodopa, and its efficacy in Parkinson disease is established. Mechanistically, it may be applicable to neurodegenerative conditions that include parkinsonian features.
 
 PLA2G6-associated neurodegeneration includes dystonia-parkinsonism phenotypes, so a dopaminergic or COMT-inhibitor rationale is conceivable. However, entacapone has no known effect on the underlying PLA2G6 lipid-metabolism defect. It only prolongs levodopa action, so any benefit would at most be symptomatic. The high score (0.9976) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -131,6 +131,19 @@ The prediction for PLA2G6-associated neurodegeneration has a high model score bu
 - Published case series or preclinical data on COMT inhibition or levodopa adjuncts in PLA2G6-associated neurodegeneration
 - Interventional trials of entacapone, or levodopa with a COMT inhibitor, in Lewy body dementia, if that direction is pursued
 - A review of the knowledge-graph contraindication signals, especially cardiovascular, hepatic and psychiatric conditions, against the product label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

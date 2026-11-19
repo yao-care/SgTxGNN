@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **gaze palsy, familial horizont
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for risperidone is not available in the data compiled for this report. It is generally understood as an antagonist of dopamine D2 and serotonin 5-HT2A receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for risperidone: "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), label version 2026-10-23; accessed 2026-11-19.) It is generally understood as an antagonist of dopamine D2 and serotonin 5-HT2A receptors.
 
 The predicted condition is a rare genetic disorder linked to ROBO3, with a structural neurodevelopmental basis (abnormal wiring of brainstem pathways controlling eye movement) and progressive scoliosis. We found no plausible mechanistic link. D2/5-HT2A receptor blockade would not be expected to correct this underlying defect. The high score is a model-derived signal with no clinical or literature support, so the prediction should be treated with caution.
 
@@ -103,6 +103,18 @@ The prediction has no supporting clinical trials or publications, so its evidenc
 - Any clinical or preclinical study that directly addresses this disease
 - A credible mechanistic rationale, supported by detailed mechanism of action data for risperidone
 - Package insert warnings and contraindications from the Singapore regulator, for safety screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for risperidone is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

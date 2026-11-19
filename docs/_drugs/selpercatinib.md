@@ -54,7 +54,7 @@ Selpercatinib is a selective RET kinase inhibitor, marketed in Singapore as TANS
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Selpercatinib is known to be a selective RET kinase inhibitor, and the publications retrieved concern RET-driven cancers (RET fusion-positive non-small-cell lung cancer and RET-mutated medullary thyroid carcinoma).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selpercatinib: "Selpercatinib is a kinase inhibitor. Selpercatinib inhibited wild-type RET and multiple mutated RET isoforms as well as VEGFR1 and VEGFR3 with IC 50 values ranging from 0.92 nM to 67.8 nM. In other enzyme assays, selpercatinib also inhibited FGFR 1, 2, and 3 at higher concentrations that were still clinically achievable." ([DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828), label version 2026-09-11; accessed 2026-11-19.) Selpercatinib is known to be a selective RET kinase inhibitor, and the publications retrieved concern RET-driven cancers (RET fusion-positive non-small-cell lung cancer and RET-mutated medullary thyroid carcinoma).
 
 The analysis found no established mechanistic link between RET inhibition and pulmonary hypertension. RET signalling has no well-validated role in pulmonary vascular remodelling. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any plausible link, such as off-target kinase effects on vascular signalling, would be speculative and is not supported by the data.
 
@@ -121,6 +121,19 @@ The prediction rests only on a model score (L5). There are no clinical trials, n
 - Preclinical or mechanistic evidence that RET inhibition affects pulmonary vascular remodelling
 - Literature or trial evidence specific to pulmonary hypertension
 - A review of the major drug interactions, particularly acid-suppressing agents, if any clinical use is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **nephrogenic syndrome of inappropria
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fentanyl is known to be a potent mu-opioid receptor agonist. It is used for analgesia and anaesthesia, and its effect in pain has been established clinically.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fentanyl: "Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation." ([DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11), label version 2026-10-23; accessed 2026-11-19.) Fentanyl is known to be a potent mu-opioid receptor agonist. It is used for analgesia and anaesthesia, and its effect in pain has been established clinically.
 
 For the top prediction, NSIAD, the mechanistic link is weak. NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2). Opioids can influence vasopressin release, but this does not address a receptor-level defect. There is no plausible therapeutic rationale, and the high score should be read as a computational artefact.
 
@@ -147,11 +147,12 @@ The top prediction (NSIAD) is purely computational, with no trials, no literatur
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Fentanyl holds 18 valid single-ingredient registrations in Singapore" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 
 <!-- review:end log -->
 

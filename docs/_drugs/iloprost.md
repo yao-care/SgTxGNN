@@ -61,7 +61,7 @@ Note: the top-scoring prediction (rank 1) has no trials or literature. This repo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, iloprost is a prostacyclin analogue that activates IP receptors, producing vasodilation and inhibiting platelet aggregation and vascular smooth muscle proliferation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for iloprost: "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4), label version 2026-08-13; accessed 2026-11-19.) Based on known pharmacology, iloprost is a prostacyclin analogue that activates IP receptors, producing vasodilation and inhibiting platelet aggregation and vascular smooth muscle proliferation.
 
 **Top-ranked prediction (hypotrichosis simplex of the scalp):** The link is only speculative. A possible route is improved perifollicular blood flow, but hypotrichosis simplex is a genetic disorder not expected to respond to vasodilation. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature support it.
 
@@ -141,6 +141,19 @@ Package insert warnings and contraindications for the Singapore product were not
 - Detailed mechanism of action data
 - Controlled or randomised data in PAH-CHD / Eisenmenger syndrome, and confirmation of whether the Singapore licence already covers this population
 - Review of the knowledge-graph contraindications (COPD, hypotension, pulmonary oedema, liver failure) against the target patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

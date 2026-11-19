@@ -56,7 +56,7 @@ The prediction rests on the model score alone (evidence level L5), and the pharm
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that fenoterol binds beta-1, beta-2 and beta-3 adrenoceptors. It is described as a beta-2 agonist used as a bronchodilator and, in some countries, to suppress premature labour.
+ChEMBL (EMBL-EBI) records the mechanism of action of fenoterol as: Beta-2 adrenergic receptor agonist ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0; accessed 2026-11-19.) Pharmacology data show that fenoterol binds beta-1, beta-2 and beta-3 adrenoceptors. It is described as a beta-2 agonist used as a bronchodilator and, in some countries, to suppress premature labour.
 
 A plausible link would be symptomatic modulation of autonomic dysfunction. However, beta-2 agonism has no established disease-modifying role in alpha-synucleinopathy. Vasodilation could also worsen the orthostatic hypotension that is common in multiple system atrophy. The high TxGNN score therefore looks like a network-based association rather than a therapeutic rationale.
 
@@ -116,6 +116,19 @@ The prediction for multiple system atrophy is supported only by a model score, w
 - Package insert warnings and contraindications from the Health Sciences Authority (HSA), which is a blocking gap for safety screening
 - Detailed mechanism of action data
 - Any human evidence for multiple system atrophy. Without it, the prediction should not progress.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ Currently there are **no clinical trials and no publications** specific to this 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Chlorambucil is known to be a DNA alkylating agent. It cross-links DNA and induces apoptosis in malignant lymphoid cells. Its efficacy in B-cell malignancies is established, and mechanistically it may be applicable to this CLL/SLL subtype.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for chlorambucil: "Chlorambucil, an aromatic nitrogen mustard derivative, is an alkylating agent. Chlorambucil interferes with DNA replication and induces cellular apoptosis via the accumulation of cytosolic p53 and subsequent activation of Bax, an apoptosis promoter." ([DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213), label version 2025-01-08; accessed 2026-11-19.) Chlorambucil is known to be a DNA alkylating agent. It cross-links DNA and induces apoptosis in malignant lymphoid cells. Its efficacy in B-cell malignancies is established, and mechanistically it may be applicable to this CLL/SLL subtype.
 
 The predicted indication is a molecular subtype of CLL/SLL, a disease for which chlorambucil is already widely used. The link is therefore plausible, but this is subtype stratification of an existing use rather than true repurposing. The very high TxGNN score most likely reflects how close this entry sits to CLL in the disease ontology. It is not independent evidence of benefit in this subtype.
 
@@ -139,6 +139,19 @@ Other predicted indications in the same analysis have stronger support and may b
 - Mechanism of action data, for example from DrugBank
 - Comparison against current standard therapy (BTK and BCL2 inhibitors) to define any remaining niche
 - A safety monitoring plan covering myelosuppression, secondary malignancy and teratogenicity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

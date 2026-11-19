@@ -60,7 +60,7 @@ The mechanistic review in the data compiled for this report points to a likely m
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on general knowledge, posaconazole is a triazole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase) and blocks ergosterol synthesis. This is the basis of its activity against *Aspergillus*, *Candida* and other moulds and yeasts.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for posaconazole: "Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84), label version 2026-02-13; accessed 2026-11-19.) Based on general knowledge, posaconazole is a triazole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase) and blocks ergosterol synthesis. This is the basis of its activity against *Aspergillus*, *Candida* and other moulds and yeasts.
 
 Pneumocystosis is a fungal-classified lung infection, which probably explains the high model score through the general association of "antifungal" with "fungal disease". Mechanistically, however, the link is weak: *Pneumocystis jirovecii* lacks ergosterol in its cell membrane and uses cholesterol instead, so the azole target is largely absent. The standard treatment is trimethoprim-sulfamethoxazole. The high score likely reflects the drug's class association rather than a true mechanistic fit.
 
@@ -127,6 +127,19 @@ The prediction rests on a class-level association. *Pneumocystis* lacks ergoster
 - Comparative evidence against trimethoprim-sulfamethoxazole
 
 **Other predictions reviewed:** Vulvovaginal candidiasis was also rated Hold. It has a plausible mechanism but is effectively an existing candidiasis indication, with only in vitro and epidemiology literature and cheaper alternatives available.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

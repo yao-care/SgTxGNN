@@ -58,7 +58,7 @@ but there are currently **0 registered clinical trials** and only **one animal s
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Ramipril is an ACE inhibitor, a drug class that blocks the renin-angiotensin-aldosterone system (RAAS). This reduces angiotensin II, which drives blood vessel constriction and vascular remodeling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ramipril: "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59), label version 2026-11-11; accessed 2026-11-19.) Ramipril is an ACE inhibitor, a drug class that blocks the renin-angiotensin-aldosterone system (RAAS). This reduces angiotensin II, which drives blood vessel constriction and vascular remodeling.
 
 Pulmonary hypertension caused by chronic lung disease or low oxygen involves constriction and thickening of the lung's blood vessels. Blocking angiotensin II could in principle reduce both. In the one directly relevant animal study (PMID 9200213), rats kept in low-oxygen conditions for 3 weeks and given ramipril showed lower baseline lung perfusion pressure and attenuated hypoxia-induced effects on pulmonary vessels.
 
@@ -111,6 +111,19 @@ The only direct support is a single 1996 rat study, with no human data or regist
 - Mechanism of action data and a review of the package insert warnings and contraindications
 - Safety assessment in this population, including low blood pressure, kidney function, and potassium interactions
 - Confirmation of the approved indications on the Singapore licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Mefenamic acid is a long-marketed non-steroidal anti-inflammatory drug (NSAID) t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the data compiled for this report. Mefenamic acid belongs to the fenamate NSAIDs, which inhibit cyclooxygenase (COX) and so reduce prostaglandin synthesis. Prostaglandins contribute to neurogenic inflammation and pain signalling, and this is the main mechanistic link to headache.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mefenamic acid: "Mefenamic acid has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of mefenamic acid, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f), label version 2026-04-20; accessed 2026-11-19.) Mefenamic acid belongs to the fenamate NSAIDs, which inhibit cyclooxygenase (COX) and so reduce prostaglandin synthesis. Prostaglandins contribute to neurogenic inflammation and pain signalling, and this is the main mechanistic link to headache.
 
 The link is strongest for migraine, and especially menstrual migraine, which is thought to be prostaglandin-driven. The publications describe three double-blind studies:
 - Mefenamic acid versus acetaminophen for acute attacks.
@@ -143,11 +143,12 @@ The mechanism is plausible, and three small double-blind trials in migraine plus
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Mefenamic acid is marketed in Singapore, and all 11 single-ingredient licences in the local records are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f) |
 
 <!-- review:end log -->
 

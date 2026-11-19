@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **duodenal ulce
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Teriparatide is the active fragment of human parathyroid hormone. Pharmacology data show it binds the PTH1 and PTH2 receptors. Its established role is bone-anabolic: it stimulates osteoblast activity and bone formation, which is why it is used in osteoporosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for teriparatide: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), label version 2026-08-31; accessed 2026-11-19.) Teriparatide is the active fragment of human parathyroid hormone. Pharmacology data show it binds the PTH1 and PTH2 receptors. Its established role is bone-anabolic: it stimulates osteoblast activity and bone formation, which is why it is used in osteoporosis.
 
 No plausible link between this bone-building signalling and duodenal ulcer healing is established in the available data. Duodenal ulcer is a gastrointestinal mucosal disease, driven mainly by acid, *H. pylori* and mucosal defence, and it is not a bone or calcium-metabolism disorder. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No clinical or literature evidence was found to support it. This prediction should therefore be treated as a hypothesis only.
 
@@ -121,6 +121,19 @@ The duodenal ulcer prediction rests only on a model score. There are no clinical
 - A review of whether a bone-targeted, injectable, long-term-limited therapy suits a short-course GI indication
 
 **Note on other predictions:** Among the other model predictions for teriparatide, **pregnancy-associated osteoporosis** is much better supported. It has about 20 publications, including teriparatide-focused cohort studies, systematic reviews and a 2026 position statement. It is rated L3 with a "Proceed with Guardrails" recommendation. It is an extension of the existing osteoporosis use rather than a true new mechanism, and it would be the more practical candidate to evaluate first.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

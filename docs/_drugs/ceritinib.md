@@ -56,7 +56,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ceritinib is an anaplastic lymphoma kinase (ALK) inhibitor, its efficacy in ALK-rearranged NSCLC has been established, and the published literature describes it as a potent ALK inhibitor.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ceritinib: "Ceritinib is a kinase inhibitor. Targets of ceritinib inhibition identified in either biochemical or cellular assays at clinically relevant concentrations include ALK, insulin-like growth factor 1 receptor (IGF-1R), insulin receptor (InsR), and ROS1." ([DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e), label version 2026-10-28; accessed 2026-11-19.) Based on known information, ceritinib is an anaplastic lymphoma kinase (ALK) inhibitor, its efficacy in ALK-rearranged NSCLC has been established, and the published literature describes it as a potent ALK inhibitor.
 
 For gingival fibromatosis, however, no mechanistic link to ALK inhibition has been identified. The high score appears to be a TxGNN model (deep learning) artifact rather than a biological rationale. Gingival fibromatosis is a benign overgrowth of gum tissue, and no trial or publication in the data compiled for this report connects it to ceritinib or ALK signalling.
 
@@ -110,6 +110,19 @@ The prediction for gingival fibromatosis is based only on a TxGNN model (deep le
 - Package insert warnings and contraindications from the Singapore regulator
 - A benefit-risk assessment against existing treatments for benign gingival overgrowth
 - If a lung-related prediction is pursued instead (e.g. lung hilum carcinoma or pulmonary sulcus neoplasm), confirmation of ALK rearrangement status and entity-specific evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

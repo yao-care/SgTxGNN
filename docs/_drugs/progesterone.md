@@ -56,7 +56,7 @@ Support is limited: **no registered clinical trials** and **19 publications**, m
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on the literature, the proposed link is hormonal balance in breast tissue. Fibrocystic breast changes are thought to arise from excessive proliferation of breast tissue in response to the monthly estrogen and progesterone cycle. Reviews describe estrogen predominance with relative progesterone deficiency as a driver, and one comparative study examined the estradiol-to-progesterone ratio in women with the condition (PMID 31168213, PMID 3511705, PMID 6481706).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for progesterone: "Progesterone is a naturally occurring steroid that is secreted by the ovary, placenta, and adrenal gland. In the presence of adequate estrogen, progesterone transforms a proliferative endometrium into a secretory endometrium." ([DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1), label version 2026-10-05; accessed 2026-11-19.) Based on the literature, the proposed link is hormonal balance in breast tissue. Fibrocystic breast changes are thought to arise from excessive proliferation of breast tissue in response to the monthly estrogen and progesterone cycle. Reviews describe estrogen predominance with relative progesterone deficiency as a driver, and one comparative study examined the estradiol-to-progesterone ratio in women with the condition (PMID 31168213, PMID 3511705, PMID 6481706).
 
 This is a plausible mechanism, but the supporting literature is observational, review-based and often old. No study has tested progesterone as a treatment for this condition. Progesterone also has proliferative effects on breast tissue, which raises a safety question for any hormone-sensitive breast indication.
 
@@ -118,6 +118,18 @@ The hormonal-imbalance hypothesis is plausible, but support is limited to observ
 - A focused literature review for any prospective, controlled data on progestogen use in benign breast disease
 - A safety assessment of breast tissue effects, including cancer-risk implications
 - A pilot or exploratory trial design, if the safety review supports one
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

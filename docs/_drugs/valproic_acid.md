@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **trigeminal ne
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Based on known information, valproic acid is a broad-spectrum antiseizure agent whose efficacy in epilepsy is well established. A speculative rationale is that it acts as a histone deacetylase (HDAC) inhibitor, which could give it antineoplastic activity. This has not been tested for this tumour type.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for valproic acid: "Valproic acid dissociates to the valproate ion in the gastrointestinal tract. The mechanisms by which valproate exerts its antiepileptic effects have not been established. It has been suggested that its activity in epilepsy is related to increased brain concentrations of gamma-aminobutyric acid (GABA)." ([DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f), label version 2025-05-23; accessed 2026-11-19.) Based on known information, valproic acid is a broad-spectrum antiseizure agent whose efficacy in epilepsy is well established. A speculative rationale is that it acts as a histone deacetylase (HDAC) inhibitor, which could give it antineoplastic activity. This has not been tested for this tumour type.
 
 The relationship between the original and predicted indications is weak. Epilepsy is a functional neurological disorder, whereas trigeminal nerve neoplasm is a tumour of a cranial nerve. The high TxGNN score (deep learning model) most likely reflects similarities the model learned between related diseases, not tumour-specific biology. The only publication found concerns Sturge-Weber syndrome, a neurocutaneous disorder with seizures, and does not support valproic acid for this tumour.
 
@@ -133,11 +133,12 @@ The prediction has no supporting clinical trials and no relevant literature, so 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 11 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f) |
 
 <!-- review:end log -->
 

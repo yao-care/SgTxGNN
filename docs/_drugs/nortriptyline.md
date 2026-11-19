@@ -58,7 +58,7 @@ with **no registered clinical trials** but **15 publications** (including one co
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nortriptyline is a tricyclic antidepressant that mainly inhibits norepinephrine reuptake, with weaker effects on serotonin. Noradrenergic enhancement in prefrontal circuits is also the mechanism of non-stimulant ADHD drugs such as atomoxetine, which gives a plausible basis for efficacy.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nortriptyline: "The mechanism of mood elevation by tricyclic antidepressants is at present unknown. Pamelor is not a monoamine oxidase inhibitor. It inhibits the activity of such diverse agents as histamine, 5-hydroxytryptamine, and acetylcholine." ([DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb), label version 2024-12-04; accessed 2026-11-19.) Based on known pharmacology, nortriptyline is a tricyclic antidepressant that mainly inhibits norepinephrine reuptake, with weaker effects on serotonin. Noradrenergic enhancement in prefrontal circuits is also the mechanism of non-stimulant ADHD drugs such as atomoxetine, which gives a plausible basis for efficacy.
 
 The original indications (anxiety, neurotic and dysthymic disorders) and ADHD are all neuropsychiatric conditions that respond to modulation of monoamine signalling. A PET study (PMID 24345533) showed nortriptyline occupies the norepinephrine transporter in patients, supporting target engagement in the relevant system. Reviews describe the more noradrenergic secondary-amine tricyclics (desipramine and nortriptyline) as established alternative treatments for ADHD, although their narrow therapeutic index and cardiovascular toxicity have limited use.
 
@@ -121,6 +121,18 @@ Nortriptyline has a plausible noradrenergic mechanism for ADHD, a published cont
 | Predicted Indication | Score | Evidence Level | Suggested Stance |
 |------|------|------|------|
 | ADHD, inattentive type | 0.9933 | L5 | Research question; indirect support from parent ADHD evidence only |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

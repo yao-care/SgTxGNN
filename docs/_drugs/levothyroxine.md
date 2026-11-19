@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, levothyroxine is a synthetic thyroid hormone. Its known uses include hypothyroidism, myxedema, goitre, thyroid cancer and related thyroid conditions, but this list is not approved-indication text.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levothyroxine: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174), label version 2026-11-06; accessed 2026-11-19.) Based on known information, levothyroxine is a synthetic thyroid hormone. Its known uses include hypothyroidism, myxedema, goitre, thyroid cancer and related thyroid conditions, but this list is not approved-indication text.
 
 For renal hypodysplasia/aplasia, no mechanistic link is supported by the data compiled for this report. Thyroid hormone plays a role in general kidney development, but nothing connects levothyroxine replacement to treating structural kidney malformations. These are developmental defects of the organ itself and are unlikely to be reversed by hormone supplementation. The very high score (0.9967) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a therapeutic relationship.
 
@@ -123,11 +123,12 @@ The prediction has a high model score but no trials, no publications and no plau
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 15 licences are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
 
 <!-- review:end log -->
 

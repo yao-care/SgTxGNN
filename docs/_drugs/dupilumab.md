@@ -58,7 +58,7 @@ Note: The Singapore registration records compiled for this report do not include
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the data compiled for this report. Based on the literature, dupilumab binds the IL-4 receptor alpha subunit, which blocks both IL-4 and IL-13 signalling. These are two key drivers of type 2 inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dupilumab: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor." ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), label version 2026-04-22; accessed 2026-11-19.) Based on the literature, dupilumab binds the IL-4 receptor alpha subunit, which blocks both IL-4 and IL-13 signalling. These are two key drivers of type 2 inflammation.
 
 Atopic dermatitis is a type 2 inflammatory disease. Several airway diseases share this pathway, including eosinophilic asthma, COPD with a type 2 (eosinophilic) phenotype, and eosinophilic plastic bronchitis. This is the mechanistic bridge from the original indication to the prediction.
 
@@ -130,6 +130,18 @@ No trial tests dupilumab directly in bronchitis, and the only listed trial is a 
 | 3 | Acne keloid | 0.9961 | L5 | Hold | One case-level publication on keloid stabilization; no trials; no acne-specific evidence. |
 | 4 | Exanthem | 0.9957 | L5 | Research Question | One small Phase 4 study (n=10) and a systematic review in cutaneous immune-related adverse events. Evidence is mixed because dupilumab can also induce rashes. |
 | 5–10 | Neonatal dermatomyositis; acrodermatitis chronica atrophicans; amyopathic dermatomyositis; childhood connective-tissue-disease-associated ILD; familial hydroa vacciniforme; severe nonproliferative diabetic retinopathy | 99.09–0.9956 | L5 | Hold | Model prediction only, with no valid trials or literature and no plausible mechanistic link. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

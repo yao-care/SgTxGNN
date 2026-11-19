@@ -55,7 +55,7 @@ The strongest evidence in this candidate set is for the closely related, already
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, esomeprazole is a proton pump inhibitor. It blocks the gastric H+/K+ ATPase and strongly suppresses gastric acid. Its efficacy in acid-related disease is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for esomeprazole: "Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide." ([DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96), label version 2025-12-19; accessed 2026-11-19.) Based on known pharmacology, esomeprazole is a proton pump inhibitor. It blocks the gastric H+/K+ ATPase and strongly suppresses gastric acid. Its efficacy in acid-related disease is well established.
 
 Duodenogastric reflux is the backflow of duodenal contents (bile and pancreatic juice) into the stomach. Acid suppression may reduce the mucosal injury and symptoms that refluxed material causes. However, bile and pancreatic reflux is largely acid-independent, so any benefit is probably symptomatic and partial. The only supporting source is a general PPI review (PMID 18679668), which has no disease-specific data. This prediction is therefore plausible but unproven.
 
@@ -150,11 +150,12 @@ Please refer to the package insert for full warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Sixteen valid single-ingredient licences are registered, and none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **homozygous familial hyperchol
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on general knowledge, pravastatin inhibits HMG-CoA reductase, reduces cholesterol synthesis in the liver and upregulates hepatic LDL receptors, which lowers LDL cholesterol.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pravastatin: "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d), label version 2026-10-23; accessed 2026-11-19.) Based on general knowledge, pravastatin inhibits HMG-CoA reductase, reduces cholesterol synthesis in the liver and upregulates hepatic LDL receptors, which lowers LDL cholesterol.
 
 In homozygous familial hypercholesterolaemia, LDL receptor function is absent or severely reduced. Statin efficacy therefore depends on any residual receptor activity and is expected to be modest compared with PCSK9 inhibitors or other add-on agents. One of the reviews notes that statins are "not very effective" in this form of the disease. Pravastatin is already used in children with the heterozygous form, which is related but a distinct population. The prediction is biologically plausible but is unlikely to represent a strong benefit.
 
@@ -142,11 +142,12 @@ The prediction score is very high, but there is no pravastatin-specific trial in
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient , though the record lists it as single" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
 
 <!-- review:end log -->
 

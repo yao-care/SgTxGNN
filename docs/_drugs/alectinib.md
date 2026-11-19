@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, alectinib is a selective inhibitor of anaplastic lymphoma kinase (ALK), and its efficacy in ALK-positive NSCLC is well established. The published literature also describes activity against RET.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alectinib: "Alectinib is a tyrosine kinase inhibitor that targets ALK and RET. In nonclinical studies, alectinib inhibited ALK phosphorylation and ALK-mediated activation of the downstream signaling proteins STAT3 and AKT, and decreased tumor cell viability in multiple cell lines harboring ALK fusions, amplifications, or activating mutations." ([DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb), label version 2026-08-21; accessed 2026-11-19.) Based on known information, alectinib is a selective inhibitor of anaplastic lymphoma kinase (ALK), and its efficacy in ALK-positive NSCLC is well established. The published literature also describes activity against RET.
 
 For gingival fibromatosis, the plausibility is weak. No known ALK-driven mechanism links alectinib to hereditary gingival fibromatosis, and no ALK alteration has been described in this condition. The very high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Many other diseases received almost identical scores (>0.9995), including conditions with no plausible ALK link, which suggests that these scores do not discriminate well between candidates.
 
@@ -110,6 +110,19 @@ The prediction rests only on the TxGNN model score. There are no clinical trials
 - A risk-benefit assessment, since a systemic kinase inhibitor with a notable adverse-event profile would be used for a benign condition
 
 **Note on other predictions:** The other top-ranked predictions do not change the overall picture. Most (fibroma of lung, hamartoma of lung, pulmonary sulcus neoplasm, and several rare genetic disorders) have no trials or literature. The lung benign neoplasm match reflects evidence for the already-approved NSCLC indication, not benign tumours. The most biologically interesting candidate is **lung germ cell tumor** (indirect support from case reports of alectinib in ALK-rearranged neuroendocrine and other rare tumours), but its single trial (NCT04644315, Phase 2, terminated, 1 participant) is uninformative. All were assigned Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

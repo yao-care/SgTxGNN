@@ -56,7 +56,7 @@ with **44 clinical trials** and **19 publications** currently linked to this dir
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available from the drug database for this report. Based on the mechanistic analysis compiled for this prediction, lenalidomide binds cereblon (CRBN) and redirects the CRL4-CRBN E3 ubiquitin ligase to degrade IKZF1, IKZF3 and CK1alpha. The CK1alpha degradation drives the response in del(5q) MDS. Lenalidomide also activates NK and T cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lenalidomide: "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), label version 2023-03-24; accessed 2026-11-19.) Based on the mechanistic analysis compiled for this prediction, lenalidomide binds cereblon (CRBN) and redirects the CRL4-CRBN E3 ubiquitin ligase to degrade IKZF1, IKZF3 and CK1alpha. The CK1alpha degradation drives the response in del(5q) MDS. Lenalidomide also activates NK and T cells.
 
 Myeloid leukemia is closely related to MDS, which is already an established use. MDS often progresses to acute myeloid leukemia (AML), and the two share biology such as del(5q) and immune dysregulation. Preclinical work also shows that CRBN levels influence how AML cells respond to lenalidomide (PMID 39881283).
 
@@ -176,11 +176,12 @@ Many phase 1 and 2 studies, including the larger randomised azacitidine ± lenal
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Twenty registrations are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data was not available from the drug database for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
 
 <!-- review:end log -->
 

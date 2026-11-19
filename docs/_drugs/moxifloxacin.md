@@ -61,7 +61,7 @@ The Singapore registrations in the compiled data carry no approved-indication te
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Moxifloxacin is a fluoroquinolone antibacterial. Drugs in this class inhibit bacterial DNA gyrase and topoisomerase IV, and its efficacy in bacterial respiratory, intra-abdominal, eye and plague infections is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for moxifloxacin: "Moxifloxacin Tablet is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of moxifloxacin results from inhibition of the topoisomerase II (DNA gyrase) and topoisomerase IV required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5), label version 2026-11-06; accessed 2026-11-19.) Moxifloxacin is a fluoroquinolone antibacterial. Drugs in this class inhibit bacterial DNA gyrase and topoisomerase IV, and its efficacy in bacterial respiratory, intra-abdominal, eye and plague infections is established.
 
 Hyperamylasemia is a laboratory finding, an elevated serum amylase level. It is not an infectious disease. No plausible mechanism links an antibacterial to lowering amylase, so the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A high score therefore should not be read as evidence of benefit.
 
@@ -138,11 +138,12 @@ The prediction has no supporting trials or publications and no plausible mechani
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Moxifloxacin has 14 valid single-ingredient registrations in Singapore and none cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
 
 <!-- review:end log -->
 

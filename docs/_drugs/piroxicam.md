@@ -60,7 +60,7 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Piroxicam is a non-selective COX inhibitor, a class that reduces prostaglandin-mediated inflammation and pain. Its efficacy in rheumatoid arthritis and osteoarthritis is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for piroxicam: "Piroxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Piroxicam Capsules, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4), label version 2026-09-29; accessed 2026-11-19.) Piroxicam is a non-selective COX inhibitor, a class that reduces prostaglandin-mediated inflammation and pain. Its efficacy in rheumatoid arthritis and osteoarthritis is established.
 
 The predicted disease is a rare developmental malformation syndrome affecting the eyes and skeleton. COX inhibition is not expected to act on the developmental pathways behind it. No plausible mechanistic link could be identified.
 
@@ -138,11 +138,12 @@ The prediction has no trials, no literature and no plausible mechanism. It is mo
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Seven valid single-ingredient licences are held, with no cancelled ones" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Caspofungin is an echinocandin antifungal given by injection. The TxGNN model pr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, caspofungin inhibits 1,3-beta-D-glucan synthase, an enzyme in the fungal cell wall that mammalian cells do not have.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for caspofungin: "Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells." ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c), label version 2024-10-11; accessed 2026-11-19.) From general pharmacology, caspofungin inhibits 1,3-beta-D-glucan synthase, an enzyme in the fungal cell wall that mammalian cells do not have.
 
 No mechanistic link to gastrin secretion could be identified. Gastrin regulation involves gastric G cells, acid secretion and related hormonal pathways, none of which relate to the fungal target. The high score therefore appears to be a model artifact without biological support, and it should not be read as evidence of efficacy. Similarity to the original use has not yet been assessed.
 
@@ -100,6 +100,19 @@ The prediction rests only on a model score. No trials or publications address th
 - Package insert warnings and contraindications from the HSA
 - Detailed mechanism of action data
 - A literature and trial search that directly addresses gastrin secretion abnormality
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

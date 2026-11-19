@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** directly st
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, TAF is a prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. It delivers tenofovir diphosphate efficiently into lymphoid cells, where it blocks viral DNA synthesis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tenofovir alafenamide: "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2), label version 2025-07-14; accessed 2026-11-19.) Based on known pharmacology, TAF is a prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. It delivers tenofovir diphosphate efficiently into lymphoid cells, where it blocks viral DNA synthesis.
 
 Feline immunodeficiency virus (FIV) is a lentivirus that, like HIV-1, replicates through reverse transcriptase. This shared biology makes activity against FIV mechanistically plausible and likely explains the high TxGNN score.
 
@@ -106,6 +106,19 @@ The prediction is supported only by the TxGNN score, with no trials or publicati
 - Mechanism of action data for TAF
 - HSA package insert warnings and contraindications
 - If human repurposing is the goal, reprioritise toward predictions that have human clinical evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

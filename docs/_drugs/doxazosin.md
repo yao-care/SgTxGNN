@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, doxazosin is an alpha-1 adrenergic receptor antagonist. It relaxes vascular smooth muscle (lowering blood pressure) and prostatic smooth muscle (easing urinary symptoms).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxazosin: "Benign Prostatic Hyperplasia (BPH) The symptoms associated with benign prostatic hyperplasia (BPH), such as urinary frequency, nocturia, weak stream, hesitancy, and incomplete emptying are related to two components, anatomical (static) and functional (dynamic). The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Studies in normal human subjects have shown that doxazosin competitively antagonized the pressor effects of phenylephrine (an alpha 1 agonist) and the systolic pressor effect of norepinephrine." ([DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82), label version 2023-10-15; accessed 2026-11-19.) Based on known pharmacology, doxazosin is an alpha-1 adrenergic receptor antagonist. It relaxes vascular smooth muscle (lowering blood pressure) and prostatic smooth muscle (easing urinary symptoms).
 
 The link to migraine is plausible but indirect. Adrenergic signalling and vascular tone regulation have been proposed to contribute to migraine, and other agents acting on the adrenergic system (for example propranolol and clonidine) are used for prophylaxis. The very high TxGNN score is a computational prediction only and is not backed by trial data. Mechanistic similarity between the original and new indications has not yet been assessed.
 
@@ -116,6 +116,19 @@ The prediction rests mainly on a computational score and a single small, uncontr
 - A systematic literature search for alpha-1 blockers (e.g., prazosin, terazosin) in migraine prophylaxis, and a check of international trial registries
 - Assessment of tolerability, especially hypotension, in migraine patients
 - A controlled study (for example, a small randomised pilot) if the literature review supports the hypothesis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

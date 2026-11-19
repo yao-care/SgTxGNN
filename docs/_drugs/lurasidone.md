@@ -60,7 +60,7 @@ Lurasidone is an atypical antipsychotic originally used to treat bipolar disorde
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, lurasidone is an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors and also acts on 5-HT7 and 5-HT1A receptors. Atypical antipsychotics with this profile are commonly used to treat manic symptoms, so an antimanic effect is plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lurasidone: "The mechanism of action of lurasidone in the treatment of schizophrenia and bipolar depression is unclear. However, its efficacy in schizophrenia and bipolar depression could be mediated through a combination of central dopamine D 2 and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8), label version 2025-01-31; accessed 2026-11-19.) Based on known pharmacology, lurasidone is an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors and also acts on 5-HT7 and 5-HT1A receptors. Atypical antipsychotics with this profile are commonly used to treat manic symptoms, so an antimanic effect is plausible.
 
 The predicted indication overlaps heavily with the original use. Lurasidone is already used for bipolar disorder, so this is an extension within the same disease family, not a true repurposing signal. The existing literature is mostly about bipolar depression, not acute mania, so the evidence for mania is indirect.
 
@@ -123,11 +123,12 @@ The only trial directly addressing mania was withdrawn with no participants, and
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications**, mostly general reviews and guidelines, are" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
 
 <!-- review:end log -->
 

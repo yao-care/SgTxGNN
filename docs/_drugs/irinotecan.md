@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**, bu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, irinotecan is a prodrug of SN-38, which inhibits topoisomerase I and causes double-strand DNA breaks in dividing cells. Its efficacy in colorectal and pancreatic cancer is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for irinotecan: "Irinotecan is a derivative of camptothecin. Camptothecins interact specifically with the enzyme topoisomerase I, which relieves torsional strain in DNA by inducing reversible single-strand breaks. Irinotecan and its active metabolite SN-38 bind to the topoisomerase I-DNA complex and prevent religation of these single-strand breaks." ([DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056), label version 2026-05-12; accessed 2026-11-19.) Based on the published literature, irinotecan is a prodrug of SN-38, which inhibits topoisomerase I and causes double-strand DNA breaks in dividing cells. Its efficacy in colorectal and pancreatic cancer is established.
 
 The strongest mechanistic support comes from sacituzumab govitecan, a Trop-2 antibody-drug conjugate that carries SN-38 as its payload. It is approved for metastatic triple-negative breast cancer, and a Phase III study (TROPiCS-02) examined it in HR+/HER2- disease. This suggests topoisomerase I inhibition is a valid mechanism in breast cancer. However, that evidence concerns the conjugate, not irinotecan itself. Direct irinotecan evidence consists of small Phase 1 combination studies and a Phase 2 study of liposomal irinotecan in HER2-negative breast cancer with brain metastases (PHENOMENAL, 2026), whose results are not detailed in the data compiled.
 
@@ -164,6 +164,19 @@ The TxGNN score is high, and the SN-38 mechanism is validated in breast cancer t
 
 **Other predicted indications** (all pancreatic subtypes of the approved pancreatic adenocarcinoma indication, with the highest-ranked first):
 - These have no trials or only case reports, or a terminated study with one participant.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

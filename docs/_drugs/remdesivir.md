@@ -60,7 +60,7 @@ This is a model prediction only, with no identifiable mechanistic link.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. From general knowledge, remdesivir is a nucleotide analogue prodrug that inhibits viral RNA-dependent RNA polymerase, which is the basis of its antiviral activity.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for remdesivir: "Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type." ([DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca), label version 2026-07-29; accessed 2026-11-19.) From general knowledge, remdesivir is a nucleotide analogue prodrug that inhibits viral RNA-dependent RNA polymerase, which is the basis of its antiviral activity.
 
 Multiple endocrine neoplasia is a hereditary tumour syndrome (for example, MEN1 or RET mutations). Its biology has no connection to viral RNA polymerase inhibition. The high TxGNN score (0.9950) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -124,6 +124,19 @@ The prediction rests on model output alone (evidence level L5). There are no tri
 - The mechanism-of-action data for remdesivir from DrugBank
 - The HSA package insert (warnings, contraindications, approved indication), which is needed before any safety screening
 - If antiviral repurposing is of interest, reviewing better-supported directions first (for example, the HIV-related pharmacokinetic work), noting that these also lack efficacy evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

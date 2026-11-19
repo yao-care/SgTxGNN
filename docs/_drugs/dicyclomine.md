@@ -55,7 +55,7 @@ The prediction is a computational signal only.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, dicyclomine is an antimuscarinic antispasmodic that relaxes smooth muscle in the gut. Its efficacy in functional bowel disorders is established, and mechanistically it may be applicable to smooth-muscle spasm in other organs.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dicyclomine: "Dicyclomine relieves smooth muscle spasm of the gastrointestinal tract. Animal studies indicate that this action is achieved via a dual mechanism: a specific anticholinergic effect (antimuscarinic) at the acetylcholine-receptor sites with approximately 1/8 the milligram potency of atropine ( in vitro, guinea pig ileum); and a direct effect upon smooth muscle (musculotropic) as evidenced by dicyclomine’s antagonism of bradykinin- and histamine-induced spasms of the isolated guinea pig ileum." ([DailyMed: dicyclomine hydrochloride prescribing information, Slate Run Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20a1ccf-2f3a-4872-811e-d93fb56b8e83), label version 2026-11-13; accessed 2026-11-19.) Based on known information, dicyclomine is an antimuscarinic antispasmodic that relaxes smooth muscle in the gut. Its efficacy in functional bowel disorders is established, and mechanistically it may be applicable to smooth-muscle spasm in other organs.
 
 In cauda equina syndrome, the bowel and bladder dysfunction could in theory be eased by reduced detrusor overactivity and smooth muscle spasm. This is a symptom-level rationale only. Dicyclomine does not address the underlying nerve root compression, which needs surgical decompression. The very high TxGNN score is a computational prediction with no clinical trial or literature support.
 
@@ -121,6 +121,19 @@ The predicted indication of cauda equina syndrome rests on a high TxGNN score al
 - Approved indication text for the Singapore licences
 - A literature and trial search specific to dicyclomine in neurogenic bowel and bladder dysfunction
 - Mapping of the obsolete "neurogenic bladder" term to a current ontology entry
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dicyclomine hydrochloride prescribing information, Slate Run Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20a1ccf-2f3a-4872-811e-d93fb56b8e83) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

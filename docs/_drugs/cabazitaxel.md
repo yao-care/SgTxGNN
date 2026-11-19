@@ -56,7 +56,7 @@ but the data compiled for this report contain **no registered clinical trials**.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on the published literature, cabazitaxel is a taxane that stabilises microtubules and disrupts mitotic spindle function, the same class mechanism as docetaxel and paclitaxel, which are established treatments in breast cancer.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cabazitaxel: "Cabazitaxel is a microtubule inhibitor. Cabazitaxel binds to tubulin and promotes its assembly into microtubules while simultaneously inhibiting disassembly. This leads to the stabilization of microtubules, which results in the inhibition of mitotic and interphase cellular functions." ([DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa), label version 2025-10-07; accessed 2026-11-19.) Based on the published literature, cabazitaxel is a taxane that stabilises microtubules and disrupts mitotic spindle function, the same class mechanism as docetaxel and paclitaxel, which are established treatments in breast cancer.
 
 Cabazitaxel is also a weak P-glycoprotein substrate. Laboratory work suggests it is less cross-resistant than docetaxel or paclitaxel in resistant cell models, including MCF-7 breast cancer cells. This makes it mechanistically plausible in taxane-pretreated disease.
 
@@ -122,6 +122,19 @@ Randomised phase II data (GENEVIEVE and its long-term follow-up) directly study 
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications from the HSA
 - A haematological monitoring and dose-adjustment plan, including management of interacting drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

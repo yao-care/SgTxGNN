@@ -61,7 +61,7 @@ The assessment below is based on those 10.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the compiled data. From the pharmacology information, domperidone blocks dopamine D2 and D3 receptors. It does not readily cross the blood-brain barrier, so its effects are mainly peripheral. It is used as an antiemetic and an upper gastrointestinal prokinetic.
+ChEMBL (EMBL-EBI) records the mechanism of action of domperidone as: Dopamine D2 receptor antagonist ([ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916), CC BY-SA 3.0; accessed 2026-11-19.) From the pharmacology information, domperidone blocks dopamine D2 and D3 receptors. It does not readily cross the blood-brain barrier, so its effects are mainly peripheral. It is used as an antiemetic and an upper gastrointestinal prokinetic.
 
 The rank 1 prediction (nephrogenic syndrome of inappropriate antidiuresis) is caused by a gain-of-function change in the vasopressin V2 receptor. No plausible link to dopamine antagonism can be established from the available data. These remain computational predictions only.
 
@@ -137,6 +137,19 @@ Nine of the ten top predictions, including the top-ranked one, have no clinical 
 - Approved indication text for the Singapore licences
 - Controlled trial evidence for domperidone in migraine, with a cardiac safety (QT) assessment
 - Review of the full set of 20 headache publications, since only 10 were available
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

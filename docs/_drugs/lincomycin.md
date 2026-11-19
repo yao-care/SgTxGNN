@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but there 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lincomycin is generally known as a lincosamide antibiotic that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit, and its activity against Gram-positive bacterial infections is the basis of its original use.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lincomycin: "Lincomycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the bacterial ribosome. Lincomycin is predominantly bacteriostatic in vitro." ([DailyMed: Lincocin (lincomycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c01906fa-2c73-4c13-9765-2fd06628d263), label version 2025-03-10; accessed 2026-11-19.) Lincomycin is generally known as a lincosamide antibiotic that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit, and its activity against Gram-positive bacterial infections is the basis of its original use.
 
 Hyperamylasemia, however, is a laboratory finding (related to the pancreas, salivary glands or reduced renal clearance), not an infectious disease. No credible mechanistic link between a 50S ribosomal inhibitor and lowering serum amylase was identified. The high score (0.9914) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any association is more plausibly an adverse-event or confounding signal than a treatment rationale.
 
@@ -106,6 +106,19 @@ The prediction has no supporting clinical trials or publications and no plausibl
 - Mechanism of action data from DrugBank
 - Any direct clinical or preclinical study linking lincomycin to hyperamylasemia, including a check on whether the signal reflects an adverse event rather than a benefit
 - Clarification of the clinical rationale for the target condition (is a therapeutic goal meaningful for a laboratory finding?)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lincocin (lincomycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c01906fa-2c73-4c13-9765-2fd06628d263) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

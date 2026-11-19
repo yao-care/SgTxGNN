@@ -58,7 +58,7 @@ Dienogest is an oral progestin that is marketed in Singapore as 2 mg tablets (it
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on the literature, dienogest is a fourth-generation progestin with selective progesterone-receptor activity and minimal androgenic activity. It has an antiproliferative effect on the endometrium and partly suppresses ovarian oestradiol production.
+ChEMBL (EMBL-EBI) records the mechanism of action of dienogest as: Unknown ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0; accessed 2026-11-19.) Based on the literature, dienogest is a fourth-generation progestin with selective progesterone-receptor activity and minimal androgenic activity. It has an antiproliferative effect on the endometrium and partly suppresses ovarian oestradiol production.
 
 Amenorrhea is a frequent, well-documented outcome of dienogest treatment in endometriosis, where inducing amenorrhoea and a hypoestrogenic environment is a treatment aim. This is the likely source of the model's prediction. However, the link is mainly **a pharmacodynamic effect or adverse effect**, not evidence that dienogest *treats* amenorrhea. Progestins as a class are used in secondary amenorrhea (withdrawal bleeding, endometrial protection), which gives plausible but indirect support. No direct data for dienogest in treating amenorrhea were found.
 
@@ -138,11 +138,12 @@ The prediction score is very high, but there are no clinical trials and no liter
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four registrations are valid single-ingredient oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
 
 <!-- review:end log -->
 

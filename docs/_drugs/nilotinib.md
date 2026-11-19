@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **dermatofibrosarcoma protubera
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nilotinib is a kinase inhibitor that targets BCR-ABL and also inhibits PDGFR. Its efficacy in BCR-ABL1-positive chronic myelogenous leukaemia is established, and mechanistically it may be applicable to tumours driven by PDGFR signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nilotinib: "Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML." ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc), label version 2026-07-20; accessed 2026-11-19.) Based on known information, nilotinib is a kinase inhibitor that targets BCR-ABL and also inhibits PDGFR. Its efficacy in BCR-ABL1-positive chronic myelogenous leukaemia is established, and mechanistically it may be applicable to tumours driven by PDGFR signalling.
 
 DFSP is driven by the COL1A1-PDGFB fusion, which causes constitutive activation of PDGFR-beta. Because nilotinib inhibits PDGFR, there is a plausible mechanistic rationale. Imatinib is the established PDGFR-directed therapy for DFSP, so nilotinib would be a class-level extension rather than a new concept. The only supporting item is a 2018 review of PDGFR small-molecule inhibitors, and there is no direct clinical evidence for nilotinib in DFSP in the data provided.
 
@@ -152,11 +152,12 @@ The DFSP prediction has a plausible PDGFR-based mechanism, but its only support 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are valid single-ingredient oral products (manufacturers: Novartis Pharma Stein AG and Novartis Pharmaceutical Manufacturing L" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ This is a model-only prediction with no real-world evidence behind it.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, travoprost is an FP receptor agonist (a prostaglandin F2-alpha analog). It lowers eye pressure by increasing uveoscleral outflow of fluid from the eye.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for travoprost: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), label version 2026-09-28; accessed 2026-11-19.) Based on known pharmacology, travoprost is an FP receptor agonist (a prostaglandin F2-alpha analog). It lowers eye pressure by increasing uveoscleral outflow of fluid from the eye.
 
 The link between glaucoma and visceral calciphylaxis (a vascular calcification condition affecting internal organs) is weak. Travoprost is applied to the eye in tiny doses with minimal systemic exposure. No plausible mechanism connecting it to vascular calcification in visceral tissue has been established. The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical support.
 
@@ -133,6 +133,19 @@ The prediction is supported only by a model score (Evidence Level L5). There are
 - Evidence that a non-ocular route or formulation could achieve relevant systemic exposure (route compatibility is currently unassessed)
 - Package insert warnings and contraindications from the HSA, with severity classification of drug interactions
 - A review of whether any other predicted indication has a more credible mechanistic basis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

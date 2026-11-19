@@ -62,7 +62,7 @@ with **2 clinical trials** and **3 publications** currently supporting this dire
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, ropivacaine blocks voltage-gated sodium channels in nerve fibres, which produces local anaesthesia and analgesia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ropivacaine: "Ropivacaine is a member of the amino amide class of local anesthetics and is supplied as the pure S-(-)-enantiomer. Local anesthetics block the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential." ([DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792), label version 2026-07-17; accessed 2026-11-19.) Based on general pharmacology, ropivacaine blocks voltage-gated sodium channels in nerve fibres, which produces local anaesthesia and analgesia.
 
 Migraine involves trigeminovascular and autonomic pain signalling. Blocking the sphenopalatine ganglion, the stellate ganglion, or pericranial trigger points with a local anaesthetic can interrupt these pathways. This is a plausible, procedure-based mechanism. However, the studies do not isolate ropivacaine's contribution from that of other local anaesthetics, and the benefit may come from the nerve block procedure itself.
 
@@ -145,6 +145,19 @@ The migraine evidence consists of one 10-patient trial, one indirect headache st
 ## Other Predicted Indications (Brief Note)
 
 The remaining predictions (migraine with brainstem aura, nephrogenic syndrome of inappropriate antidiuresis and dysthymic disorder) have little or no direct evidence and are on **Hold**. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -62,7 +62,7 @@ The top-ranked prediction was antithrombin deficiency type 2 (0.9983). It has no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Exemestane is known to be a steroidal aromatase inhibitor. It blocks the conversion of androgens to estrogens, which lowers circulating estradiol.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for exemestane: "Breast cancer cell growth may be estrogen-dependent. Aromatase is the principal enzyme that converts androgens to estrogens both in pre- and postmenopausal women. […] Exemestane is an irreversible, steroidal aromatase inactivator, structurally related to the natural substrate androstenedione." ([DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3), label version 2025-12-24; accessed 2026-11-19.) Exemestane is known to be a steroidal aromatase inhibitor. It blocks the conversion of androgens to estrogens, which lowers circulating estradiol.
 
 Amenorrhea (absence of menstruation) can follow when estrogen is suppressed. In this sense the prediction reflects a real pharmacological effect of the drug. However, this is an expected or adverse effect, not a therapeutic benefit. Amenorrhea is a symptom of many underlying conditions, and inducing it is not a treatment goal. The prediction most likely reflects the drug's estrogen-lowering action rather than a true repurposing opportunity.
 
@@ -151,11 +151,12 @@ The amenorrhea prediction has a high model score but no clinical trials, and the
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five licences are valid single-ingredient oral products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3) |
 
 <!-- review:end log -->
 

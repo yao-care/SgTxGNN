@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **obsessive-compulsive disorder
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, desvenlafaxine is an SNRI, and its efficacy in major depressive disorder is established. Mechanistically, it may be applicable to OCD.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desvenlafaxine: "The exact mechanism of the antidepressant action of desvenlafaxine is unknown, but is thought to be related to the potentiation of serotonin and norepinephrine in the central nervous system, through inhibition of their reuptake. Non-clinical studies have shown that desvenlafaxine is a potent and selective SNRI." ([DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce), label version 2026-04-28; accessed 2026-11-19.) Based on known information, desvenlafaxine is an SNRI, and its efficacy in major depressive disorder is established. Mechanistically, it may be applicable to OCD.
 
 Serotonin reuptake inhibition is the established pharmacological basis of OCD treatment, with SSRIs and clomipramine as the standard agents. A published review of double-blind studies of serotonergic antidepressants in OCD confirms the key role of the serotonin system in OCD. This gives the prediction a plausible class-level rationale.
 
@@ -137,6 +137,18 @@ The prediction score is high (0.9991), and the serotonergic mechanism is plausib
 - Detailed mechanism of action data (MOA), including serotonin transporter occupancy relative to SSRIs
 - Package insert warnings and contraindications, to complete safety screening
 - Review of the knowledge-graph contraindications against the label text, particularly the cardiovascular and bleeding-related items
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pristiq Extended-Release (desvenlafaxine succinate) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

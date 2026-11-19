@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, levocetirizine is a selective H1-receptor antagonist (the active R-enantiomer of cetirizine). It is established for allergic and histamine-driven conditions of the nose and skin.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levocetirizine: "Levocetirizine, the active enantiomer of cetirizine, is an antihistamine; its principal effects are mediated via selective inhibition of H 1 receptors. The antihistaminic activity of levocetirizine has been documented in a variety of animal and human models." ([DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222), label version 2025-07-22; accessed 2026-11-19.) Based on known information, levocetirizine is a selective H1-receptor antagonist (the active R-enantiomer of cetirizine). It is established for allergic and histamine-driven conditions of the nose and skin.
 
 A possible link to rheumatoid arthritis is that histamine and mast cells may contribute to inflammation in synovial tissue. This idea is plausible but unvalidated. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Because the original mechanism data is missing, this link cannot be cross-checked.
 
@@ -125,11 +125,12 @@ The prediction for rheumatoid arthritis scores highly (0.9973) but has no suppor
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "A sixth licence (SIN14505P, Levozine F.C. Tablet 5mg) is also valid. All six are single-ingredient oral products and none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222) |
 
 <!-- review:end log -->
 

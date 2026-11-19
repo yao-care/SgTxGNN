@@ -60,7 +60,7 @@ Evidence is very thin: **0 clinical trials** and **1 publication** (a comment le
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available from the drug database. Based on known pharmacology, bicalutamide blocks the androgen receptor.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bicalutamide: "CASODEX is a non-steroidal androgen receptor inhibitor. It competitively inhibits the action of androgens by binding to cytosol androgen receptors in the target tissue. Prostatic carcinoma is known to be androgen sensitive and responds to treatment that counteracts the effect of androgen and/or removes the source of androgen." ([DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67), label version 2026-02-27; accessed 2026-11-19.) Based on known pharmacology, bicalutamide blocks the androgen receptor.
 
 Androgen signalling drives the conversion of fine hair follicles into terminal (thick) hair. Blocking the AR could plausibly reduce androgen-dependent hair growth, which is the basis for the link to hypertrichosis.
 
@@ -140,12 +140,13 @@ The only evidence for hypertrichosis is one comment letter on a small retrospect
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All six registrations are valid, single-ingredient oral film-coated or plain tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "A sixth registration, SIN14824P (BICAMED 50, Hetero Labs Limited, plain tablet), is not shown" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available from the drug database" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67) |
 
 <!-- review:end log -->
 

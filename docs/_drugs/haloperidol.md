@@ -60,7 +60,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Haloperidol is generally known as a dopamine D2 receptor antagonist, and its efficacy in psychosis and schizophrenia is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for haloperidol: "The mechanism of action of haloperidol decanoate for the treatment of schizophrenia in adults is unclear. However, its effect in schizophrenia could be mediated through its activity as an antagonist at central dopamine type 2 receptors." ([DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c), label version 2026-11-03; accessed 2026-11-19.) Haloperidol is generally known as a dopamine D2 receptor antagonist, and its efficacy in psychosis and schizophrenia is well established.
 
 The compiled data shows **no mechanistic link** between D2 antagonism and fucosylation or glycosylation pathways. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should be treated as a hypothesis only, and it is not recommended for further investment without supporting data.
 
@@ -122,6 +122,19 @@ All four registrations are valid single-ingredient products, available as oral t
 - An assessment of route and dosing feasibility for this rare genetic disorder
 
 It has a Phase 3 placebo- and haloperidol-controlled trial (NCT00129220, n=224) and network meta-analyses. It lies within haloperidol's existing psychiatric area, so it is better seen as an extension than as novel repurposing. It could proceed with guardrails: monitoring for extrapyramidal symptoms, QT prolongation and tardive dyskinesia, and managing the high interaction burden.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

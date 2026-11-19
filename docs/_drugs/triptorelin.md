@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hypertrichosis (disease)**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Triptorelin belongs to the GnRH agonist class, which, with continued exposure, desensitises the pituitary and lowers gonadal sex steroid production.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for triptorelin: "Triptorelin is a synthetic decapeptide agonist analog of gonadotropin releasing hormone (GnRH). Comparative in vitro studies showed that triptorelin was 100-fold more active than native GnRH in stimulating luteinizing hormone release from monolayers of dispersed rat pituitary cells in culture and 20-fold more active than native GnRH in displacing 125 I-GnRH from pituitary receptor sites." ([DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3), label version 2026-06-30; accessed 2026-11-19.) Triptorelin belongs to the GnRH agonist class, which, with continued exposure, desensitises the pituitary and lowers gonadal sex steroid production.
 
 No credible mechanistic link to hypertrichosis was identified. The only retrieved paper describes hypertrichosis in a transgender woman with psoriasis who was taking estradiol and triptorelin. The authors attributed the hypertrichosis to ciclosporin, not to the testosterone-blocking therapy. It therefore offers no support for triptorelin as a treatment. The high TxGNN score (0.9999) is a model prediction only and should not be read as evidence of efficacy.
 
@@ -102,6 +102,18 @@ The prediction rests on a model score alone. No clinical trials exist, and the s
 - Mechanism of action data and a plausible biological rationale linking GnRH agonism to hypertrichosis
 - Package insert warnings and contraindications from the HSA
 - Any preclinical or clinical study directly testing triptorelin in hypertrichosis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

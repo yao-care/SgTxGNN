@@ -54,7 +54,7 @@ Misoprostol is a prostaglandin E1 analogue, marketed in Singapore as Cytotec tab
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, misoprostol is a prostaglandin E1 analogue. It causes uterine contraction and cervical ripening, and it also protects the gastric mucosa.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diclofenac sodium and misoprostol (a combination product containing misoprostol): "Misoprostol Misoprostol is a synthetic PGE1 analog with gastric antisecretory and mucosal protective properties. Misoprostol can increase bicarbonate and mucus production, but it has been shown at doses 200 mcg and above that are also antisecretory." ([DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3), label version 2026-08-31; accessed 2026-11-19.) Based on general pharmacology, misoprostol is a prostaglandin E1 analogue. It causes uterine contraction and cervical ripening, and it also protects the gastric mucosa.
 
 The retrieved literature concerns medical abortion (mifepristone plus misoprostol), missed abortion and abnormal uterine bleeding. Amenorrhea appears in these papers mostly as a description of gestational age (for example "amenorrhea ≤35 days"), not as a condition being treated. Misoprostol acts on the uterus and may help with retained products or pregnancy-related causes of absent menses. It has no established role in treating amenorrhea itself.
 
@@ -115,6 +115,19 @@ The TxGNN score for amenorrhea is very high (0.9964), but no clinical trials exi
 
 **Other predicted indications:**
 - The remaining predictions have no clinical or literature support: atypical coarctation of aorta, aortic malformation, esophageal malformation, acne, primary hereditary glaucoma, open-angle glaucoma, congenital hypotrichosis milia, and a complex congenital heart defect. All remain at Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

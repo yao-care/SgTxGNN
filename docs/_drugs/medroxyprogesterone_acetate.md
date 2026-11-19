@@ -54,7 +54,7 @@ Medroxyprogesterone acetate is a synthetic progestin (a progesterone-like hormon
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on its drug class, medroxyprogesterone acetate acts like progesterone on progesterone receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for medroxyprogesterone acetate: "Depo-Provera CI (medroxyprogesterone acetate [MPA]) inhibits the secretion of gonadotropins which primarily prevents follicular maturation and ovulation and causes thickening of cervical mucus. These actions contribute to its contraceptive effect." ([DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049), label version 2026-08-25; accessed 2026-11-19.) Based on its drug class, medroxyprogesterone acetate acts like progesterone on progesterone receptors.
 
 Fibrocystic breast disease is thought to arise from estrogen predominance and relative progesterone deficiency, which drive overgrowth of connective tissue and then of the epithelium (Vorherr, 1986). A progestin could therefore counter estrogen-driven proliferation of breast tissue. Two small clinical reports of medroxyprogesterone acetate in this condition fit that idea: a 1983 therapeutic trial in severe disease and a 1988 report in adolescents.
 
@@ -112,6 +112,18 @@ The only direct clinical evidence is two small, older, non-randomized studies, a
 - Mechanism-of-action data for the drug
 - Package insert warnings and contraindications from the HSA
 - A well-designed randomized study, or at least a prospective study, with breast density and proliferation as safety endpoints
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

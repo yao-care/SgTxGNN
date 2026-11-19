@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **cholesterol-ester transfer pr
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Pitavastatin belongs to the statin class, which lowers cholesterol. CETP deficiency is also a lipid metabolism disorder. The score of 0.9998 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pitavastatin: "Pitavastatin is an inhibitor of 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase, the enzyme that catalyzes the conversion of HMG-CoA to mevalonate, a rate-limiting step in the biosynthetic pathway for cholesterol. As a result, the expression of LDL-receptors followed by the uptake of LDL from blood to liver is accelerated and then the plasma TC decreases." ([DailyMed: Livalo (pitavastatin calcium) prescribing information, Kowa Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2), label version 2026-03-31; accessed 2026-11-19.) Pitavastatin belongs to the statin class, which lowers cholesterol. CETP deficiency is also a lipid metabolism disorder. The score of 0.9998 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The biological rationale is weak, however. CETP deficiency is characterised by raised HDL cholesterol and is not typically a condition that needs LDL-lowering treatment. The score most likely reflects the disease's proximity to other lipid disorders in the network, not a real therapeutic need. Without mechanism data, this link cannot be assessed further, so the prediction should be treated as a computational hypothesis.
 
@@ -114,11 +114,12 @@ The TxGNN score is very high, but there are no trials or publications for CETP d
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are valid, single-ingredient oral products from Kowa Company, Ltd" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Livalo (pitavastatin calcium) prescribing information, Kowa Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2) |
 
 <!-- review:end log -->
 

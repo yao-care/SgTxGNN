@@ -60,7 +60,7 @@ Currently **0 clinical trials** and **0 publications** support this specific pre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Prilocaine is known as a sodium channel-blocking amide local anaesthetic. By blocking nerve conduction, it produces surface or local anaesthesia. Its established uses are in dermal, dental and procedural anaesthesia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prilocaine: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41), label version 2021-11-10; accessed 2026-11-19.) Prilocaine is known as a sodium channel-blocking amide local anaesthetic. By blocking nerve conduction, it produces surface or local anaesthesia. Its established uses are in dermal, dental and procedural anaesthesia.
 
 A surface anaesthetic effect on ocular discomfort is conceivable. However, papillary conjunctivitis is mainly an allergic or mechanical inflammatory condition, for example from contact lens wear or allergy. Anaesthesia would at most relieve symptoms and would not treat the underlying inflammation. The link to the original indications is therefore weak. No trial or publication supports prilocaine in this condition, and the high model score should not be read as clinical evidence.
 
@@ -141,11 +141,12 @@ Among the other predictions in the same analysis, **neuralgia** (including posth
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
 
 <!-- review:end log -->
 

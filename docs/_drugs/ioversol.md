@@ -54,7 +54,7 @@ Ioversol is an iodinated radiographic contrast agent used for diagnostic imaging
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ioversol is an iodinated contrast agent used to visualise blood vessels and tissues on X-ray based imaging. It is a diagnostic aid, and it has no recognised anti-inflammatory or cartilage-protective activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ioversol: "Intravascular injection of ioversol opacifies those vessels in the path of the flow of the contrast medium, permitting radiographic visualization of the internal structures until significant hemodilution occurs. Ioversol may be visualized in the renal parenchyma within 30 to 60 seconds following rapid intravenous injection." ([DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74), label version 2025-12-29; accessed 2026-11-19.) Ioversol is an iodinated contrast agent used to visualise blood vessels and tissues on X-ray based imaging. It is a diagnostic aid, and it has no recognised anti-inflammatory or cartilage-protective activity.
 
 The only publication linked to this prediction (PMID 38102013, the LipioJoint-1 trial) tested genicular artery embolization with an ethiodized oil (Lipiodol) based emulsion for knee osteoarthritis. Any benefit there comes from the embolization procedure, not from ioversol. A contrast agent like ioversol might be used for angiographic guidance in such a procedure, but that is a procedural association, not a pharmacological one. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should not be read as evidence of efficacy.
 
@@ -103,6 +103,19 @@ Ioversol has no known pharmacological mechanism relevant to osteoarthritis. The 
 - Any study that directly evaluates ioversol in osteoarthritis
 - The package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA)
 - Confirmation of the approved indication text for the Singapore licence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

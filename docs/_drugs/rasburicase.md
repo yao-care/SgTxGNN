@@ -56,7 +56,7 @@ The mechanism also points the wrong way: the condition already involves low uric
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, rasburicase is a recombinant urate oxidase. It converts uric acid to allantoin and lowers serum urate, which is why it is used for hyperuricemia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rasburicase: "In humans, uric acid is the final step in the catabolic pathway of purines. Rasburicase catalyzes enzymatic oxidation of poorly soluble uric acid into an inactive and more soluble metabolite (allantoin)." ([DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922), label version 2026-07-30; accessed 2026-11-19.) Based on known information, rasburicase is a recombinant urate oxidase. It converts uric acid to allantoin and lowers serum urate, which is why it is used for hyperuricemia.
 
 Renal hypouricemia is a condition in which serum urate is already low, for example from loss-of-function variants in URAT1 (SLC22A12) or GLUT9 (SLC2A9). Lowering urate further would be mechanistically counterproductive and could raise risk, for example exercise-induced acute kidney injury. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -102,6 +102,19 @@ The prediction rests on model score alone (L5). Renal hypouricemia is already a 
 - Mechanism of action data for rasburicase from DrugBank
 - Package insert warnings and contraindications from the HSA
 - If a more plausible indication (such as acute severe hyperuricemia in partial HPRT deficiency) is pursued, a comparison against standard therapy and a G6PD screening plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

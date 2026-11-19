@@ -56,7 +56,7 @@ This is a computational prediction only, and it should be treated with caution.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fosaprepitant is known to be a prodrug of aprepitant, which blocks the NK1 (substance P) receptor. Its use in nausea and vomiting is well established, but that information is not in the compiled data, so the original indication is not confirmed here.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fosaprepitant: "Fosaprepitant is a prodrug of aprepitant and accordingly, its antiemetic effects are attributable to aprepitant. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK-1) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CINV)." ([DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169), label version 2026-07-29; accessed 2026-11-19.) Fosaprepitant is known to be a prodrug of aprepitant, which blocks the NK1 (substance P) receptor. Its use in nausea and vomiting is well established, but that information is not in the compiled data, so the original indication is not confirmed here.
 
 The link to the predicted indication is weak. Nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function mutations in the vasopressin V2 receptor. NK1 antagonism is not known to act on this receptor or pathway. The high score of 0.9992 reflects a computational, network-based prediction. It is not backed by any mechanism, trial or publication in the supplied data.
 
@@ -110,6 +110,19 @@ The prediction is supported only by a model score. There are no clinical trials 
 - Any mechanistic or preclinical evidence linking NK1 antagonism to the predicted indication
 - Consideration of retinitis (L4, preclinical evidence only) as a possible research question, which would need further mechanistic and clinical investigation
 - Review of the liver failure contraindication signal and the major drug interactions before any new use is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

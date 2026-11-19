@@ -54,7 +54,7 @@ Tipiracil is a thymidine phosphorylase inhibitor that is co-formulated with trif
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, tipiracil is a thymidine phosphorylase inhibitor. It is not used on its own as a cytotoxic agent. It is combined with trifluridine, a thymidine analog that is incorporated into DNA, and tipiracil protects trifluridine from degradation so that more of it reaches tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trifluridine and tipiracil (a combination product containing tipiracil): "LONSURF consists of a thymidine-based nucleoside analog, trifluridine, and the thymidine phosphorylase inhibitor, tipiracil, at a molar ratio 1:0.5 (weight ratio, 1:0.471). Inclusion of tipiracil increases trifluridine exposure by inhibiting its metabolism by thymidine phosphorylase." ([DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85), label version 2025-11-05; accessed 2026-11-19.) Based on known information, tipiracil is a thymidine phosphorylase inhibitor. It is not used on its own as a cytotoxic agent. It is combined with trifluridine, a thymidine analog that is incorporated into DNA, and tipiracil protects trifluridine from degradation so that more of it reaches tumour cells.
 
 A villous adenoma is a benign precursor lesion located in the same part of the bowel as the cancers this combination is used for. That anatomical closeness is the main reason the model links the two. However, the link rests only on the high prediction score. Cytotoxic therapy is not an established approach for benign adenomas, which are normally managed by endoscopic resection. The mechanistic case is therefore weak.
 
@@ -123,6 +123,18 @@ The prediction has a very high model score (0.9999), but there are no clinical t
 - A clear clinical rationale for systemic cytotoxic therapy over endoscopic resection
 - Mechanism-of-action data and package insert warnings and contraindications
 - A safety plan covering myelosuppression and the interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

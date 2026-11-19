@@ -56,7 +56,7 @@ The prediction rests on model output and a plausible biological link alone.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Zinc is an essential trace element that takes part in many enzyme systems. It also plays a role in erythropoiesis (red blood cell production) and iron metabolism, so a biological link to anemia is plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zinc gluconate: "Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids." ([DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757), label version 2026-03-04; accessed 2026-11-19.) Zinc is an essential trace element that takes part in many enzyme systems. It also plays a role in erythropoiesis (red blood cell production) and iron metabolism, so a biological link to anemia is plausible.
 
 The original indications (ascorbic acid deficiency and scurvy) are nutritional deficiency states. Anemia of prematurity is also a condition in which nutritional status and trace-element balance matter. This is where the model's prediction may come from, but the link has not been tested with studies.
 
@@ -129,6 +129,18 @@ Other predictions ranked by the model had similarly limited support, and none ch
 | 8 | Disease by subcellular system affected | 0.9986 | L5 | Ontology grouping term, not an actionable indication. |
 | 9 | Iatrogenic disease | 0.9985 | L5 | Prediction only. |
 | 10 | Regional odontodysplasia | 0.9985 | L5 | Prediction only. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

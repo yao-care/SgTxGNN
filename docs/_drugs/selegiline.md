@@ -58,7 +58,7 @@ The TxGNN model predicts it may be effective for **schizophrenia** (the highest-
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known information, selegiline is an irreversible, selective MAO-B inhibitor. At oral doses of 20 mg/day or more it also inhibits MAO-A. By slowing the breakdown of dopamine, it raises dopaminergic tone, which explains its use in Parkinson's disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selegiline: "Selegiline is an irreversible inhibitor of monoamine oxidase (MAO), which regulates the metabolic degradation of catecholamines and serotonin in the central nervous system and peripheral tissues. At recommended doses, selegiline is selective for MAO type B (MAO-B), the major form in the brain." ([DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0), label version 2021-06-01; accessed 2026-11-19.) Based on known information, selegiline is an irreversible, selective MAO-B inhibitor. At oral doses of 20 mg/day or more it also inhibits MAO-A. By slowing the breakdown of dopamine, it raises dopaminergic tone, which explains its use in Parkinson's disease.
 
 Negative and cognitive symptoms of schizophrenia are linked to low dopamine activity in the prefrontal cortex. Antipsychotics treat positive symptoms well but have limited effect on negative symptoms. Adding a dopamine-enhancing drug alongside the antipsychotic is therefore mechanistically plausible. Selegiline may also have antioxidant effects, which relate to the oxidative-stress hypothesis of schizophrenia.
 
@@ -128,6 +128,19 @@ Schizophrenia is the only predicted indication with a plausible mechanism and re
 - Obtain detailed mechanism of action data
 - Resolve the psychotic-disorder contraindication flag and define an interaction-management plan for patients on antipsychotics and antidepressants
 - If the evidence supports it, design a confirmatory Phase 2/3 trial of low-dose adjunctive selegiline for negative symptoms
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

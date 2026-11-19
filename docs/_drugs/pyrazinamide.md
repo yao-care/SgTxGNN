@@ -60,7 +60,7 @@ Related evidence exists only for tuberculous middle ear disease (a few case repo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, pyrazinamide is a component of standard multi-drug anti-tuberculosis regimens, its efficacy in tuberculosis has been established, and it acts only against *Mycobacterium tuberculosis*.
+ChEMBL (EMBL-EBI) records the mechanism of action of pyrazinamide as: Fatty acid synthase inhibitor; 70S ribosome inhibitor ([ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, pyrazinamide is a component of standard multi-drug anti-tuberculosis regimens, its efficacy in tuberculosis has been established, and it acts only against *Mycobacterium tuberculosis*.
 
 The prediction is therefore only plausible for **tuberculous otitis media**, a rare extrapulmonary form of TB. Common bacterial otitis media is not covered by pyrazinamide. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -143,11 +143,12 @@ The TxGNN score is very high, but there are no trials and no literature for infe
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Approved indication text for the Singapore licence" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614) |
 
 <!-- review:end log -->
 

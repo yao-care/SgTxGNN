@@ -60,7 +60,7 @@ The direct evidence is limited to small Phase 2 studies that showed only modest 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, ustekinumab is a human monoclonal antibody that blocks the shared p40 subunit of IL-12 and IL-23. This suppresses Th1 and Th17 signalling, which is the basis of its efficacy in psoriasis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ustekinumab: "Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation." ([DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7), label version 2026-11-11; accessed 2026-11-19.) Based on known pharmacology, ustekinumab is a human monoclonal antibody that blocks the shared p40 subunit of IL-12 and IL-23. This suppresses Th1 and Th17 signalling, which is the basis of its efficacy in psoriasis.
 
 Atopic dermatitis is driven mainly by Th2 pathways (IL-4/IL-13), although Th1, Th17 and Th22 activity contributes variably. The mechanistic fit is therefore partial. Any benefit is likely limited to subsets, such as Asian or intrinsic phenotypes or chronic lesions. Phase 2 data show only modest, inconsistent benefit.
 
@@ -150,11 +150,12 @@ The evidence level is L2, based on small Phase 2 randomised trials in atopic der
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All five registrations are valid single-ingredient products from Cilag AG, and none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ The prediction therefore rests mainly on the model score and indirect antifungal
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, potassium iodide is an established treatment for certain fungal and oomycete infections (for example sporotrichosis, and in veterinary medicine rhinofacial pythiosis and zygomycosis). It is also traditionally used as an expectorant for upper respiratory secretions, and mechanistically it may be applicable to nasal cavity disease.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for potassium iodide: "Potassium iodide is thought to act as an expectorant by increasing respiratory tract secretions and thereby decreasing the viscosity of mucus." ([DailyMed: Potassium Iodide (Saturated) (potassium iodide) prescribing information, Emerald Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bdf305f-ed4a-49d1-8901-edaed8d67850), label version 2026-08-25; accessed 2026-11-19.) Based on known information, potassium iodide is an established treatment for certain fungal and oomycete infections (for example sporotrichosis, and in veterinary medicine rhinofacial pythiosis and zygomycosis). It is also traditionally used as an expectorant for upper respiratory secretions, and mechanistically it may be applicable to nasal cavity disease.
 
 The retrieved papers describe nasal or rhinofacial mycotic infections in sheep and horses, plus a single human case of nasofacial zygomycosis that responded rapidly to potassium iodide. This offers plausible, indirect support. However, it does not come from controlled human studies of nasal cavity disease in general. The very high TxGNN score is a model prediction only and is not proof of benefit.
 
@@ -134,6 +134,19 @@ The evidence is limited to a few case reports, mostly in animals, with no regist
 - Controlled human studies, or at least larger human case series, in a defined nasal condition such as fungal rhinosinusitis
 - A route and formulation assessment, since no nasal or oral product is currently registered
 - A safety plan covering thyroid function, potassium monitoring and hypersensitivity, especially with ACE inhibitors and angiotensin receptor blockers
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Potassium Iodide (Saturated) (potassium iodide) prescribing information, Emerald Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bdf305f-ed4a-49d1-8901-edaed8d67850) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

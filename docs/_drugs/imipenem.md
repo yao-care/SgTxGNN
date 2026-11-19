@@ -60,7 +60,7 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Imipenem is a carbapenem beta-lactam antibiotic. Its efficacy in bacterial infections is well established, and it acts by binding penicillin-binding proteins to disrupt bacterial cell-wall synthesis.
+ChEMBL (EMBL-EBI) records the mechanism of action of imipenem as: Bacterial penicillin-binding protein inhibitor ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; accessed 2026-11-19.) Imipenem is a carbapenem beta-lactam antibiotic. Its efficacy in bacterial infections is well established, and it acts by binding penicillin-binding proteins to disrupt bacterial cell-wall synthesis.
 
 Diffuse scleroderma is the main prediction for this drug (TxGNN score 0.9999). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -119,6 +119,19 @@ The prediction for diffuse scleroderma has no clinical trials or literature behi
 - A credible biological rationale for imipenem in diffuse scleroderma, supported by mechanism data (MOA)
 - Preclinical or clinical studies of any kind in this disease
 - Package insert warnings and contraindications for Singapore-registered products, to enable safety screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Loteprednol etabonate is a topical corticosteroid. The TxGNN model predicts it m
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Loteprednol etabonate is a topical corticosteroid. Its anti-inflammatory effect could plausibly reduce the inflammatory component of parasitic conjunctivitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for loteprednol etabonate: "Loteprednol etabonate is a corticosteroid. Corticosteroids have been shown to inhibit the inflammatory response to a variety of inciting agents. They inhibit the edema, fibrin deposition, capillary dilation, leukocyte migration, capillary proliferation, fibroblast proliferation, deposition of collagen, and scar formation associated with inflammation." ([DailyMed: Lotemax Sm (loteprednol etabonate) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f9477b5-699f-4d3b-b9a6-0cc238266237), label version 2026-03-31; accessed 2026-11-19.) Loteprednol etabonate is a topical corticosteroid. Its anti-inflammatory effect could plausibly reduce the inflammatory component of parasitic conjunctivitis.
 
 There are important limits. Parasitic conjunctivitis is an infection, so it would still need antiparasitic treatment. Corticosteroids can worsen some infections. The knowledge graph also records contraindication relations with several eye infections (see Safety Considerations). The prediction is therefore a class-level rationale, not demonstrated benefit.
 
@@ -113,6 +113,19 @@ The prediction score is high (0.9969), but no trial or publication directly stud
 - A literature and trial search specific to parasitic conjunctivitis, including its use alongside antiparasitic therapy
 - Clinical review of the benefit-risk balance of corticosteroids in infectious conjunctivitis
 - Review of the potential drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lotemax Sm (loteprednol etabonate) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f9477b5-699f-4d3b-b9a6-0cc238266237) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

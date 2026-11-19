@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm** w
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Lamotrigine is widely understood to work by blocking voltage-gated sodium channels and reducing glutamate release. This calms over-excited nerve cells, which is why it works in epilepsy.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lamotrigine: "The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity." ([DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4), label version 2026-10-12; accessed 2026-11-19.) Lamotrigine is widely understood to work by blocking voltage-gated sodium channels and reducing glutamate release. This calms over-excited nerve cells, which is why it works in epilepsy.
 
 The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as **trigeminal neuralgia**, a facial pain disorder of the same nerve, where sodium channel blockade is a plausible way to work. It is not biological evidence and does not appear to reflect any anti-tumour activity. The retrieved literature is about trigeminal neuralgia, including a case where the pain was caused by a cavernous malformation. No evidence shows that lamotrigine shrinks or controls a neoplasm, or that it relieves symptoms in patients with a trigeminal nerve tumour.
 
@@ -123,6 +123,19 @@ The high TxGNN score is not backed by any trial or by any literature on tumours.
 - Consider evaluating **trigeminal neuralgia** as a separate candidate. Slow dose titration is needed because of rash risk, and lamotrigine would be positioned as a second-line option.
 - Mechanism of action data (MOA)
 - Package insert warnings and contraindications from the HSA, which are needed before any safety screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

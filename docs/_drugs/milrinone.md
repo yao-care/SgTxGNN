@@ -58,7 +58,7 @@ Milrinone is an injectable PDE3 inhibitor used for congestive heart failure. The
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action text is not available in the data compiled for this report. Pharmacology records, however, list milrinone as acting on phosphodiesterase 3A and 3B, and also on PDE2A and PDE5A. Inhibiting PDE3 raises cAMP. In the heart this increases contractility, and in vascular smooth muscle it causes vasodilation. That profile explains its use in decompensated heart failure.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for milrinone: "Milrinone is a positive inotrope and vasodilator, with little chronotropic activity different in structure and mode of action from either the digitalis glycosides or catecholamines." ([DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964), label version 2021-08-25; accessed 2026-11-19.) Pharmacology records, however, list milrinone as acting on phosphodiesterase 3A and 3B, and also on PDE2A and PDE5A. Inhibiting PDE3 raises cAMP. In the heart this increases contractility, and in vascular smooth muscle it causes vasodilation. That profile explains its use in decompensated heart failure.
 
 The link to alopecia is speculative. One could argue that vasodilation might improve hair follicle perfusion, or that cAMP signalling might influence follicle biology. No study in the compiled data tests either idea. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Milrinone is not an established treatment for any hair disorder.
 
@@ -113,6 +113,19 @@ The alopecia prediction has a very high model score but no supporting trials, li
 - An assessment of route compatibility, since only an injectable form is registered in Singapore
 
 **Note on other predictions:** Among the other predicted indications compiled for milrinone, **congestive heart failure** and **acute pulmonary heart disease** have much stronger support (L2, Proceed with Guardrails). They are better candidates for further evaluation than alopecia. However, congestive heart failure is already milrinone's established use, so it is not a repurposing opportunity. The pulmonary heart disease support comes mainly from acute heart failure studies and one Phase 4 comparison with dobutamine.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action text is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

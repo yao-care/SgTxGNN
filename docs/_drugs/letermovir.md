@@ -56,7 +56,7 @@ The mechanistic rationale is also weak, so this top-ranked prediction is most li
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled dataset. From general pharmacology, letermovir inhibits the CMV terminase complex (pUL56/UL51/UL89), which cleaves and packages viral DNA into new virus particles. This target is specific to herpesviruses.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for letermovir: "PREVYMIS is an antiviral drug against CMV. […] Letermovir inhibits the CMV DNA terminase complex (pUL51, pUL56, and pUL89) which is required for viral DNA processing and packaging. Biochemical characterization and electron microscopy demonstrated that letermovir affects the production of proper unit length genomes and interferes with virion maturation." ([DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b), label version 2026-01-14; accessed 2026-11-19.) From general pharmacology, letermovir inhibits the CMV terminase complex (pUL56/UL51/UL89), which cleaves and packages viral DNA into new virus particles. This target is specific to herpesviruses.
 
 Vulvovaginal candidiasis is a fungal infection. Candida has no terminase complex comparable to the one in CMV, so there is no plausible mechanistic link between letermovir and this disease. The very high TxGNN score most likely reflects patterns in the knowledge network, not real biological activity. No trials or literature were found to support it.
 
@@ -119,6 +119,19 @@ The top prediction, vulvovaginal candidiasis, has no trials, no literature, and 
 - Package insert warnings and contraindications (from the HSA website), which are currently missing
 - Mechanism of action data (for example from DrugBank)
 - If any new direction is pursued, prioritize the HIV-associated inflammation hypothesis (results from NCT05362916 and the reasons for termination of NCT04840199) or in vitro activity testing against VZV, rather than antifungal indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled dataset" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

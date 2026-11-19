@@ -56,7 +56,7 @@ This is a computational prediction only (Evidence Level L5).
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, pirfenidone is an anti-fibrotic agent whose efficacy in idiopathic pulmonary fibrosis is established. It is generally understood to dampen TGF-β and TNF-α signalling and fibroblast activity, and mechanistically it may be applicable to mast-cell-driven tissue remodelling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pirfenidone: "The mechanism of action of pirfenidone in the treatment of IPF has not been established." ([DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e), label version 2025-12-05; accessed 2026-11-19.) Based on known information, pirfenidone is an anti-fibrotic agent whose efficacy in idiopathic pulmonary fibrosis is established. It is generally understood to dampen TGF-β and TNF-α signalling and fibroblast activity, and mechanistically it may be applicable to mast-cell-driven tissue remodelling.
 
 The link between the original and predicted indications is weak. Pulmonary fibrosis is a non-malignant scarring disease, while mastocytoma is a mast cell neoplasm. The only plausible connection is pirfenidone's anti-inflammatory and anti-fibrotic effect on the tissue environment around mast cells. No direct evidence supports efficacy in mast cell neoplasms. This is a hypothesis, not a demonstrated effect.
 
@@ -114,6 +114,19 @@ The high TxGNN score (0.9971) is a computational prediction only. The score come
 - Preclinical studies (e.g. mast cell lines or models) testing pirfenidone's effect on mast cell neoplasms
 - Evaluation of the tumour-related safety signals reported in case reports
 - Route compatibility and similarity-to-original-indication assessments, which are still pending
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

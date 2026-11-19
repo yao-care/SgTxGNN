@@ -56,7 +56,7 @@ The prediction is therefore supported by model output alone.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ranibizumab is generally known as an anti-VEGF antibody fragment given by injection into the eye. This description comes from general knowledge, not from the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ranibizumab: "Ranibizumab products bind to the receptor binding site of active forms of VEGF-A, including the biologically active, cleaved form of this molecule, VEGF110. VEGF-A has been shown to cause neovascularization and leakage in models of ocular angiogenesis and vascular occlusion and is thought to contribute to pathophysiology of neovascular AMD, mCNV, DR, DME and macular edema following RVO." ([DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a), label version 2026-11-05; accessed 2026-11-19.) Ranibizumab is generally known as an anti-VEGF antibody fragment given by injection into the eye. This description comes from general knowledge, not from the data compiled for this report.
 
 The score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as diabetic eye disease and diabetic cataract, not biological evidence. The cited studies deal with ranibizumab for diabetic macular edema, with cataract appearing only as a comorbidity or surgical context. No evidence shows that ranibizumab treats or prevents cataract formation, and no mechanism is evident by which VEGF blockade would clear lens opacity.
 
@@ -107,6 +107,19 @@ The prediction rests on the model score alone. No clinical trial or publication 
 - Package insert warnings and contraindications from the HSA, and the approved indication text for both Singapore licences
 - Direct clinical or preclinical studies in cataract, as opposed to diabetic macular edema
 - Expert review to decide whether other candidates on the list deserve evaluation first
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

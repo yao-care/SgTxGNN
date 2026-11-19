@@ -62,7 +62,7 @@ The highest-ranked prediction by the TxGNN model, **hypotrichosis simplex of the
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Diclofenac is, however, a well-known NSAID that inhibits COX-1 and COX-2, which reduces prostaglandin-mediated inflammation, pain and stiffness. This is consistent with its established use in rheumatoid arthritis and osteoarthritis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diclofenac: "Diclofenac has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of diclofenac, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970), label version 2026-09-24; accessed 2026-11-19.) Diclofenac is, however, a well-known NSAID that inhibits COX-1 and COX-2, which reduces prostaglandin-mediated inflammation, pain and stiffness. This is consistent with its established use in rheumatoid arthritis and osteoarthritis.
 
 **Juvenile idiopathic arthritis (JIA)** is mechanistically a close relative of the original arthritis indications. The supplied literature includes small clinical studies of diclofenac in juvenile arthritis and reviews of NSAID use in paediatric rheumatic disease. These support **symptomatic** use (pain, stiffness, inflammation), not disease modification.
 
@@ -158,11 +158,12 @@ Please also refer to the package insert for safety information, as label-based w
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Diclofenac holds 20 valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970) |
 
 <!-- review:end log -->
 

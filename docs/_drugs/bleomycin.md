@@ -56,7 +56,7 @@ Only **1 publication** (a retrospective cohort on relapsed CNS germinoma, an ind
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Bleomycin is a cytotoxic chemotherapy agent that is generally understood to cause DNA single- and double-strand breaks. This is a plausible mechanism against rapidly dividing tumour cells, and it forms part of established regimens such as BEP for germ cell tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bleomycin: "Although the exact mechanism of action of bleomycin is unknown, available evidence indicates that the main mode of action is the inhibition of DNA synthesis with some evidence of lesser inhibition of RNA and protein synthesis. Bleomycin is known to cause single, and to a lesser extent, double-stranded breaks in DNA." ([DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee), label version 2026-04-17; accessed 2026-11-19.) Bleomycin is a cytotoxic chemotherapy agent that is generally understood to cause DNA single- and double-strand breaks. This is a plausible mechanism against rapidly dividing tumour cells, and it forms part of established regimens such as BEP for germ cell tumours.
 
 For cauda equina neoplasm, the link is indirect. The only publication retrieved describes radiation therapy for relapsed CNS germinoma after a chemotherapy regimen that included bleomycin (carboplatin, etoposide, bleomycin). That paper addresses a different tumour type and a different question (radiotherapy salvage), so it does not directly study cauda equina neoplasm.
 
@@ -111,6 +111,19 @@ The score is high (0.9930), but no study directly addresses cauda equina neoplas
 - Mechanism of action data and evidence on drug penetration into the spinal compartment
 - Package insert warnings and contraindications from the HSA record
 - Pulmonary and haematological safety monitoring plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

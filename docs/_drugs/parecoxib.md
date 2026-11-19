@@ -66,7 +66,7 @@ Support is limited: **no registered clinical trials** and **1 small pilot clinic
 
 ## Why is This Prediction Reasonable?
 
-Parecoxib is a prodrug of valdecoxib, a selective COX-2 inhibitor. Detailed mechanism-of-action data was not available in the data compiled for this report, but the class mechanism is well known: blocking COX-2 reduces prostaglandin (PGE2) production, which drives inflammation and pain.
+Parecoxib is a prodrug of valdecoxib, a selective COX-2 inhibitor. ChEMBL (EMBL-EBI) records the mechanism of action of parecoxib as: Cyclooxygenase-2 inhibitor ([ChEMBL CHEMBL1206690 (parecoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1206690), CC BY-SA 3.0; accessed 2026-11-19.) The class mechanism is well known: blocking COX-2 reduces prostaglandin (PGE2) production, which drives inflammation and pain.
 
 Migraine is not a distant concept from this mechanism. Preclinical work shows that COX-2-dependent PGE2 synthesis is linked to CGRP release in rat trigeminal ganglia cells (PMID 21394197), and parecoxib affected plasma protein extravasation and c-fos expression in a rat model of trigeminovascular activation (PMID 16492237). These pathways are involved in migraine pain.
 
@@ -150,12 +150,13 @@ Migraine with brainstem aura, trigeminal autonomic cephalalgia, kyphoscoliotic h
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "with 6 valid registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-12 | Removed: "One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1206690 (parecoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1206690) |
 
 <!-- review:end log -->
 

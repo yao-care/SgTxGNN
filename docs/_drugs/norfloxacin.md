@@ -60,7 +60,7 @@ The prediction comes from the TxGNN model (deep learning) and may reflect simila
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, norfloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. This explains its efficacy against bacterial infections of the urinary and gastrointestinal tracts.
+ChEMBL (EMBL-EBI) records the mechanism of action of norfloxacin as: Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; accessed 2026-11-19.) Based on general knowledge, norfloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. This explains its efficacy against bacterial infections of the urinary and gastrointestinal tracts.
 
 No identifiable mechanistic link connects this action to hyperamylasemia. Hyperamylasemia is a laboratory finding with varied causes (pancreatic, salivary, renal), not an infection. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and no trials or literature support it.
 
@@ -120,6 +120,19 @@ The hyperamylasemia prediction has no clinical trials, no literature and no plau
 - Mechanism of action data from DrugBank
 - Any clinical or mechanistic evidence linking norfloxacin to hyperamylasemia, or norfloxacin-specific data for plague, before reconsidering
 - A review of the other predicted indications if a broader repurposing assessment is wanted
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

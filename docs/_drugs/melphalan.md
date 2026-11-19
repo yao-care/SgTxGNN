@@ -59,7 +59,7 @@ with **7 clinical trials** and **1 publication** currently listed for this direc
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, melphalan is a bifunctional alkylating agent that cross-links DNA and blocks tumour cells from dividing.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for melphalan: "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), label version 2026-09-15; accessed 2026-11-19.) Based on general pharmacology, melphalan is a bifunctional alkylating agent that cross-links DNA and blocks tumour cells from dividing.
 
 Germ cell tumours are generally sensitive to DNA-damaging chemotherapy. Melphalan is already used against ovarian cancer, and the ovary is one of the main sites where germ cell tumours arise. High-dose melphalan with autologous stem cell rescue is therefore a plausible salvage strategy for relapsed, poor-prognosis disease. The very high TxGNN score fits this reasoning.
 
@@ -163,12 +163,13 @@ One completed Phase 2 trial (n=64) tests high-dose chemotherapy that includes me
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both licences are valid single-ingredient products, covering injectable and oral routes" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "for the two Singapore licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
 
 <!-- review:end log -->
 

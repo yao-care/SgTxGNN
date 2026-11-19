@@ -56,7 +56,7 @@ Currently **0 clinical trials** and **0 publications** directly support this pre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Candesartan cilexetil belongs to the angiotensin II receptor blocker class, which blocks signalling through the renin-angiotensin system (RAS).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for candesartan cilexetil: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10), label version 2025-12-22; accessed 2026-11-19.) Candesartan cilexetil belongs to the angiotensin II receptor blocker class, which blocks signalling through the renin-angiotensin system (RAS).
 
 Blocking the RAS is biologically relevant to hypertension-related kidney injury, so a renoprotective effect is plausible. However, this reasoning is theoretical. The score is a model prediction only, and no trials or publications were found for this disease. The mechanistic link has not been confirmed in this disease setting.
 
@@ -100,6 +100,19 @@ The prediction has a high model score (0.9968), but it is supported by no clinic
 - Detailed mechanism of action data to support the mechanistic link
 - Package insert warnings and contraindications from the HSA, to allow a safety screen
 - A review of how the proposed use differs from existing approved use, to show added value
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

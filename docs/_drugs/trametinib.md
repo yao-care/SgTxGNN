@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **Choroideremia**, but **no clinical 
 
 ## Why is This Prediction Reasonable?
 
-Trametinib is a MEK1/2 inhibitor. It blocks MAP2K1 and MAP2K2, which act downstream of BRAF in the MAPK signalling pathway. Detailed mechanism-of-action text is not available beyond this target information. It is used with dabrafenib for BRAF V600-mutant melanoma and other BRAF V600E tumours.
+Trametinib is a MEK1/2 inhibitor. It blocks MAP2K1 and MAP2K2, which act downstream of BRAF in the MAPK signalling pathway. According to the Mechanism of Action section of the US FDA-approved prescribing information for trametinib: "Trametinib is a reversible inhibitor of mitogen-activated extracellular signal-regulated kinase 1 (MEK1) and MEK2 activation and of MEK1 and MEK2 kinase activity. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1), label version 2026-05-07; accessed 2026-11-19.) It is used with dabrafenib for BRAF V600-mutant melanoma and other BRAF V600E tumours.
 
 For **choroideremia**, a mechanistic link is hard to establish. It is an X-linked retinal degeneration caused by loss of the CHM (REP1) gene. No connection to MEK/MAPK inhibition is evident in the data compiled for this report. The very high score (0.9931) is therefore best read as a model artefact rather than a biologically supported hypothesis.
 
@@ -161,6 +161,19 @@ The choroideremia prediction rests on a computational score alone (evidence leve
 - Package insert warnings and contraindications (not available in the data compiled, and a blocking gap for safety screening)
 - Detailed mechanism-of-action data
 - Consideration of redirecting effort to **non-cutaneous melanoma** (rank 2, L2, Proceed with Guardrails). Its trial outcomes, the cutaneous/non-cutaneous split of enrolled patients, and BRAF/NRAS mutation status would first need to be clarified.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action text is not available beyond this target information" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

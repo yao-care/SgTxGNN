@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **gingival fibromatosis** with 
 
 ## Why is This Prediction Reasonable?
 
-Pembrolizumab is a humanized antibody that blocks the PD-1 receptor (PDCD1, CD279) on T cells. This releases the brake on tumour-specific immune responses. It is approved internationally for many cancers, including melanoma and non-small cell lung cancer. Detailed mechanism of action data were not available in the data compiled for this report, but the target is well documented.
+Pembrolizumab is a humanized antibody that blocks the PD-1 receptor (PDCD1, CD279) on T cells. This releases the brake on tumour-specific immune responses. It is approved internationally for many cancers, including melanoma and non-small cell lung cancer. According to the Mechanism of Action section of the US FDA-approved prescribing information for pembrolizumab: "Binding of the PD-1 ligands, PD-L1 and PD-L2, to the PD-1 receptor found on T cells, inhibits T cell proliferation and cytokine production. Upregulation of PD-1 ligands occurs in some tumors and signaling through this pathway can contribute to inhibition of active T-cell immune surveillance of tumors. […] Pembrolizumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response." ([DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287), label version 2026-10-16; accessed 2026-11-19.) The target is well documented.
 
 The link between the original indications and gingival fibromatosis is weak. Gingival fibromatosis is a benign, non-neoplastic fibrotic overgrowth of the gums, and there is no established rationale for PD-1 blockade in it. The high score appears to be a computational prediction only. Immune checkpoint inhibitors can also cause immune-related adverse events, so potential harm in a benign condition must be weighed carefully.
 
@@ -134,6 +134,19 @@ The top-ranked prediction, gingival fibromatosis, has no clinical trials, no lit
 - Singapore approved indication text for the two licences
 - A trial-level review of the lung germ cell tumour trial list (44 trials) for germ cell tumour eligibility, and a review of the hilum carcinoma case reports, if a lung-related candidate is to be pursued instead
 - A risk-benefit assessment for a benign condition, given immune-related adverse events
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data were not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Keytruda (pembrolizumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

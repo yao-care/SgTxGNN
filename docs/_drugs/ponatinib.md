@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **gingival fibromatosis** (fibr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, ponatinib is a multi-target tyrosine kinase inhibitor. Its efficacy in BCR-ABL1-positive leukaemia is established, and it is also known to act on FGFR, PDGFR, SRC, VEGFR and KIT.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ponatinib: "Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3." ([DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac), label version 2026-08-14; accessed 2026-11-19.) Based on known information, ponatinib is a multi-target tyrosine kinase inhibitor. Its efficacy in BCR-ABL1-positive leukaemia is established, and it is also known to act on FGFR, PDGFR, SRC, VEGFR and KIT.
 
 Gingival fibromatosis is a fibroproliferative condition. A link through PDGFR/FGFR signalling is theoretically plausible, but nothing in the data compiled for this report confirms it. The prediction currently rests on the model score alone.
 
@@ -117,6 +117,19 @@ The prediction rests only on a high model score (Level L5), with no trials or pu
 ## Other Predicted Indications (for Reference)
 
 Among the other top-ranked predictions, **liposarcoma** has the most relevant supporting evidence, though only preclinical. A 2017 kinase-profiling and drug-screening study identified druggable kinase targets in liposarcoma (PMID 29132397). This study does not name ponatinib, so the link remains unconfirmed. It is suitable as a research question rather than a development candidate. The remaining predictions have no direct supporting evidence; their literature consists mainly of general ponatinib or kinase-inhibitor papers.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

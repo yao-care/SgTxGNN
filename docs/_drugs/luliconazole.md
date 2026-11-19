@@ -58,7 +58,7 @@ Luliconazole is a topical azole antifungal marketed in Singapore as a nail solut
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Luliconazole belongs to the azole class of antifungals, which act against fungi, so a class-level link to a dermatophyte (fungal) infection of the hair is plausible.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for luliconazole: "LUZU Cream, 1% is an azole antifungal. […] Luliconazole is an antifungal that belongs to the azole class. Although the exact mechanism of action against dermatophytes is unknown, luliconazole appears to inhibit ergosterol synthesis by inhibiting the enzyme lanosterol demethylase." ([DailyMed: Luzu (luliconazole) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7016010-ce43-4c09-8d21-aeb697ffed31), label version 2020-04-01; accessed 2026-11-19.) Luliconazole belongs to the azole class of antifungals, which act against fungi, so a class-level link to a dermatophyte (fungal) infection of the hair is plausible.
 
 Endothrix infection occurs when dermatophytes grow inside the hair shaft. Luliconazole is applied to the skin or nail surface, and a topical product may not reach the hair shaft and follicle in sufficient concentration. Infections at this site are usually treated with systemic therapy, which limits how far the prediction can be trusted for a topical product. The support is purely a model prediction.
 
@@ -108,6 +108,18 @@ The prediction is supported only by the model score. There are no trials or publ
 - Mechanism-of-action data
 - Evidence that a topical product can reach the hair shaft and follicle, for example laboratory penetration studies or early clinical data in hair infections
 - Any clinical trial or publication that directly studies this disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Luzu (luliconazole) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7016010-ce43-4c09-8d21-aeb697ffed31) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

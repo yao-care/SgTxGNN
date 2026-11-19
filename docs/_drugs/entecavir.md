@@ -60,7 +60,7 @@ The evidence is indirect: **2 clinical trials** and **20 publications** were ret
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Entecavir is known to be a guanosine nucleoside analogue that inhibits the HBV polymerase. Its efficacy in chronic hepatitis B is well established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for entecavir: "Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA." ([DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20), label version 2019-11-06; accessed 2026-11-19.) Entecavir is known to be a guanosine nucleoside analogue that inhibits the HBV polymerase. Its efficacy in chronic hepatitis B is well established.
 
 The prediction looks like a network association rather than a true pharmacological link. HCV is an RNA virus with no DNA polymerase or reverse transcription step, which are the steps entecavir blocks. The model's signal most likely reflects HBV/HCV co-infection and shared hepatitis-related associations. The trials and publications retrieved are about preventing or managing HBV in patients who also have HCV, usually while they receive direct-acting antivirals (DAAs) for HCV. Any anti-HCV effect in these studies comes from the DAAs, not from entecavir.
 
@@ -148,11 +148,12 @@ Entecavir has no recognised activity against HCV. The retrieved trials and publi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Entecavir has 17 valid single-ingredient registrations in Singapore, all film-coated oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20) |
 
 <!-- review:end log -->
 

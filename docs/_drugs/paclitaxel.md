@@ -55,7 +55,7 @@ with **40 clinical trials** and **20 publications** currently supporting this di
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known pharmacology, paclitaxel stabilizes microtubules and blocks disassembly of the mitotic spindle. This causes G2/M arrest and apoptosis in rapidly dividing tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for paclitaxel: "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c), label version 2025-09-17; accessed 2026-11-19.) Based on known pharmacology, paclitaxel stabilizes microtubules and blocks disassembly of the mitotic spindle. This causes G2/M arrest and apoptosis in rapidly dividing tumour cells.
 
 This mechanism does not depend on hormone-receptor signalling. It therefore applies to ovarian cancer and to breast cancer alike, including ER-negative and triple-negative disease, where chemotherapy is a mainstay. Older reviews (1997–2002) describe paclitaxel and docetaxel as evidence-based components of therapy for advanced breast and ovarian carcinoma, and paclitaxel was licensed in the USA for adjuvant treatment of node-positive early breast cancer.
 
@@ -147,6 +147,19 @@ Paclitaxel is already a standard taxane in breast cancer. Multiple Phase 2 trial
 - Verification of the knowledge-graph contraindications against the label, especially for patients with baseline neutropenia, thrombocytopenia, anaemia, hepatic impairment or neuropathy
 - Subtype-specific guidance, since endocrine therapy plus CDK4/6 inhibition is often preferred over chemotherapy in ER-positive disease
 - A monitoring plan for myelosuppression, neuropathy and infusion hypersensitivity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

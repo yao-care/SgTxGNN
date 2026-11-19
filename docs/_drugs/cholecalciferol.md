@@ -56,7 +56,7 @@ However, there are **0 clinical trials** and **0 publications** supporting this 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general knowledge, cholecalciferol is a vitamin D precursor that the body converts into active forms. These regulate calcium and phosphate handling and bone mineralisation. This is why it is used for deficiency-related bone diseases such as rickets and osteomalacia.
+ChEMBL (EMBL-EBI) records the mechanism of action of cholecalciferol as: Vitamin D receptor agonist ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; accessed 2026-11-19.) Based on general knowledge, cholecalciferol is a vitamin D precursor that the body converts into active forms. These regulate calcium and phosphate handling and bone mineralisation. This is why it is used for deficiency-related bone diseases such as rickets and osteomalacia.
 
 The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not a validated biological mechanism. Acromesomelic dysplasia, Campailla Martinelli type, is a rare inherited disorder of skeletal development. It is not caused by vitamin D deficiency, and cholecalciferol is not expected to correct a primary genetic skeletal defect. The strength of the score should therefore not be read as clinical support.
 
@@ -113,11 +113,12 @@ The prediction has a high model score but no clinical trials or publications, an
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three licences are valid and recorded as single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
 
 <!-- review:end log -->
 

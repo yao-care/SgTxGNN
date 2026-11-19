@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Mannitol is generally known as an osmotic agent that is filtered by the kidney and draws water into the plasma and urine. This is the basis of its recorded uses in raised intracranial and intraocular pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mannitol: "Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate." ([DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc), label version 2025-08-26; accessed 2026-11-19.) Mannitol is generally known as an osmotic agent that is filtered by the kidney and draws water into the plasma and urine. This is the basis of its recorded uses in raised intracranial and intraocular pressure.
 
 NSIAD and the water-balance disorders around it are related to osmolality, so there is a loose conceptual link. However, NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), and osmotic diuresis is not an established treatment for it. Mannitol could also shift water between compartments and worsen hyponatremia. The prediction is therefore best viewed as a model-derived hypothesis with weak biological support.
 
@@ -105,6 +105,19 @@ The high TxGNN score is not backed by any trial or disease-specific publication,
 - Package insert warnings and contraindications from the HSA records
 - Disease-specific preclinical or clinical evidence for NSIAD
 - A review of whether other predicted indications (e.g. acute pulmonary heart disease, which has a small amount of indirect literature) are more plausible candidates
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ with **no registered clinical trials** but **20 publications** currently support
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for imipramine is not available in the data compiled for this report. Based on its known pharmacology, imipramine blocks the reuptake of norepinephrine and, to a lesser extent, serotonin. Boosting noradrenaline signalling in prefrontal circuits is also the principle behind atomoxetine and other non-stimulant ADHD treatments.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for imipramine: "The mechanism of action of imipramine hydrochloride, is not definitely known. However, it does not act primarily by stimulation of the central nervous system. The clinical effect is hypothesized as being due to potentiation of adrenergic synapses by blocking uptake of norepinephrine at nerve endings." ([DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919), label version 2026-11-04; accessed 2026-11-19.) Based on its known pharmacology, imipramine blocks the reuptake of norepinephrine and, to a lesser extent, serotonin. Boosting noradrenaline signalling in prefrontal circuits is also the principle behind atomoxetine and other non-stimulant ADHD treatments.
 
 Imipramine's established uses (anxiety, neurotic and dysthymic disorders, bedwetting) are all neuropsychiatric conditions that respond to monoamine modulation. ADHD, often accompanied by anxiety and enuresis, shares this neurochemical basis. Reviews in the literature describe imipramine and desipramine as non-stimulant options, mainly when stimulants fail.
 
@@ -141,6 +141,18 @@ Imipramine has a plausible noradrenergic mechanism and a dedicated body of liter
 | Obsessive-compulsive disorder | 0.9901 | L3 | Research Question | Small comparative studies suggest weaker efficacy than clomipramine and SSRIs. |
 | ADHD, inattentive type | 0.9983 | L5 | Hold | Model prediction only; no subtype-specific evidence. |
 | Specific developmental disorder | 0.9967 | L5 | Hold | Only indirect, off-target literature. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for imipramine is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

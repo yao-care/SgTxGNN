@@ -56,7 +56,7 @@ This prediction is based on the model score alone and is not supported by known 
 
 ## Why is This Prediction Reasonable?
 
-Pemigatinib is a selective inhibitor of FGFR1-3 (fibroblast growth factor receptors). Detailed mechanism of action data from DrugBank is not available for this report, and the original indication could not be confirmed from the Singapore licence records.
+Pemigatinib is a selective inhibitor of FGFR1-3 (fibroblast growth factor receptors). According to the Mechanism of Action section of the US FDA-approved prescribing information for pemigatinib: "Pemigatinib is a small molecule kinase inhibitor that targets FGFR1, 2 and 3 with IC 50 values of less than 2 nM. Pemigatinib also inhibited FGFR4 in vitro at a concentration approximately 100 times higher than those that inhibit FGFR1, 2, and 3." ([DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4), label version 2026-06-09; accessed 2026-11-19.) The original indication could not be confirmed from the Singapore licence records.
 
 The link to the predicted indication is weak. Multiple endocrine neoplasia syndromes are driven mainly by MEN1 loss-of-function and RET gain-of-function mutations, not FGFR signalling. The score (0.9971) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction is therefore not supported by known biology.
 
@@ -127,6 +127,19 @@ The prediction rests on the model score only (evidence level L5). There are no c
 - Mechanism of action data from DrugBank
 - Preclinical or mechanistic evidence linking FGFR inhibition to multiple endocrine neoplasia
 - If a repurposing direction is still wanted, a review of HER2-positive breast carcinoma, the only predicted indication with a plausible, though unvalidated, FGFR rationale
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data from DrugBank is not available for this report, and t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ This prediction currently has **0 clinical trials** and **0 publications** behin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, paroxetine is a potent and selective serotonin reuptake inhibitor. Its efficacy in depression and anxiety disorders is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for paroxetine: "The mechanism of action of PAXIL CR in the treatment of major depressive disorder (MDD), panic disorder (PD), social anxiety disorder (SAD), and premenstrual dysphoric disorder (PMDD) is unknown, but is presumed to be linked to potentiation of serotonergic activity in the central nervous system resulting from inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c), label version 2026-09-30; accessed 2026-11-19.) Based on known information, paroxetine is a potent and selective serotonin reuptake inhibitor. Its efficacy in depression and anxiety disorders is well established.
 
 For Ohdo syndrome, **no mechanistic link has been established**. Ohdo syndrome is a rare genetic disorder, typically associated with KAT6B, and has no known serotonergic pathway that would justify using paroxetine. The high score (0.9911) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -112,6 +112,19 @@ The prediction has no clinical trials, no literature and no plausible mechanisti
 - A biological rationale connecting serotonin reuptake inhibition to KAT6B-related or Ohdo-type pathology
 - Preclinical or case-level evidence of any benefit
 - Mechanism of action data and the package insert warnings and contraindications for the Singapore-registered product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

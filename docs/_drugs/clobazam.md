@@ -56,7 +56,7 @@ but there are **0 registered clinical trials** and only **2 publications** (a ca
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, clobazam is a benzodiazepine that enhances GABA-A receptor signalling. Its efficacy in Lennox-Gastaut syndrome, a severe drug-resistant epilepsy, is established, and mechanistically it may be applicable to FIRES.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clobazam: "The exact mechanism of action for clobazam, a 1,5-benzodiazepine, is not fully understood but is thought to involve potentiation of GABAergic neurotransmission resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c), label version 2026-10-16; accessed 2026-11-19.) Based on known information, clobazam is a benzodiazepine that enhances GABA-A receptor signalling. Its efficacy in Lennox-Gastaut syndrome, a severe drug-resistant epilepsy, is established, and mechanistically it may be applicable to FIRES.
 
 FIRES is a refractory epileptic encephalopathy that occurs in previously healthy children after a febrile illness. Seizures are often controlled only with GABAergic agents such as midazolam or barbiturates. This provides a class-level rationale for a GABA-A modulator like clobazam.
 
@@ -114,6 +114,18 @@ The prediction score is very high, but there are no clinical trials and only two
 | 7 | Benign occipital epilepsy | 0.9958 | L5 | A Cochrane review covers clobazam monotherapy in focal or generalized seizures, but nothing is specific to this syndrome. |
 | 3, 4, 5 | Cryptogenic late-onset epileptic spasms; atypical childhood epilepsy with centrotemporal spikes; photosensitive occipital lobe epilepsy | 0.9977 each | L5 | Indirect and weak literature only. |
 | 2, 8, 9, 10 | Perioral myoclonia with absences; GRIN2A-related epileptic encephalopathy; restless legs syndrome; polymicrogyria with optic nerve hypoplasia | 99.07–0.9979 | L5 | Prediction score only, with no trials or literature. Hold. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

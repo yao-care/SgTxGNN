@@ -56,7 +56,7 @@ The prediction rests on computational output alone, so it should be treated as a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for this drug is not available in the data compiled for this report. Cabotegravir is known as an HIV-1 integrase strand transfer inhibitor. It blocks viral DNA from integrating into the host genome, which is an antiviral mechanism.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for cabotegravir: "Cabotegravir is an HIV-1 antiretroviral drug. […] Cabotegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral deoxyribonucleic acid (DNA) integration that is essential for the HIV replication cycle. The mean 50% inhibitory concentration (IC 50 ) value of cabotegravir in a strand transfer assay using purified recombinant HIV-1 integrase was 3.0 nM." ([DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3), label version 2025-04-11; accessed 2026-11-19.) Cabotegravir is known as an HIV-1 integrase strand transfer inhibitor. It blocks viral DNA from integrating into the host genome, which is an antiviral mechanism.
 
 Rheumatoid arthritis is driven by autoimmune inflammation involving pathways such as TNF, IL-6 and JAK-STAT signalling. No plausible link between integrase inhibition and these pathways has been established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No supporting trial, publication or mechanistic study was found.
 
@@ -110,6 +110,19 @@ The prediction for rheumatoid arthritis is supported only by a computational sco
 - Preclinical or in vitro evidence (for example, effects on inflammatory signalling in relevant models)
 - A literature and trial registry search specific to cabotegravir and rheumatoid arthritis
 - Assessment of route compatibility. Long-acting injectable and oral forms are available, but the required route for rheumatoid arthritis has not been defined.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data for this drug is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

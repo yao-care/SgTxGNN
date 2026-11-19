@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known drug class information, ramucirumab is a VEGFR2-blocking antibody that inhibits tumour angiogenesis. Its efficacy in gastric, lung and liver cancers is established, and mechanistically it may be applicable to other angiogenesis-dependent adenocarcinomas.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ramucirumab: "Ramucirumab is a VEGFR2 antagonist that specifically binds VEGFR2 and blocks binding of VEGFR ligands, VEGF-A, VEGF-C, and VEGF-D. As a result, ramucirumab inhibits ligand-stimulated activation of VEGFR2, thereby inhibiting ligand-induced proliferation, and migration of human endothelial cells. Ramucirumab inhibited angiogenesis in an in vivo animal model." ([DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4), label version 2026-06-09; accessed 2026-11-19.) Based on known drug class information, ramucirumab is a VEGFR2-blocking antibody that inhibits tumour angiogenesis. Its efficacy in gastric, lung and liver cancers is established, and mechanistically it may be applicable to other angiogenesis-dependent adenocarcinomas.
 
 Adenocarcinomas of gynaecological origin are generally angiogenesis-dependent, so a VEGFR2-mediated rationale is plausible. However, this link is inferred only from the TxGNN score (0.9995) and class-level reasoning. No trial or literature data were available for this specific entity.
 
@@ -116,6 +116,19 @@ The prediction is supported only by the model score (L5), with no clinical trial
 - A literature and trial search for ramucirumab in gynaecological adenocarcinomas, particularly cervical and uterine ligament tumours
 - Assessment of whether the rare uterine ligament histologic subtypes are clinically meaningful targets, or whether a better-studied gynaecological indication should be prioritised
 - Review of bleeding risk in patients taking antithrombotic or anticoagulant agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

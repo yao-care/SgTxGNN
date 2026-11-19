@@ -56,7 +56,7 @@ Note that type 1 diabetes is already a core marketed use of this drug, so this i
 
 ## Why is This Prediction Reasonable?
 
-Insulin glulisine is a rapid-acting human insulin analogue. It binds the insulin receptor and lowers blood glucose by promoting peripheral glucose uptake and suppressing hepatic glucose production. It is used as mealtime insulin within basal-bolus or insulin-pump regimens. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on general pharmacological knowledge.
+Insulin glulisine is a rapid-acting human insulin analogue. It binds the insulin receptor and lowers blood glucose by promoting peripheral glucose uptake and suppressing hepatic glucose production. It is used as mealtime insulin within basal-bolus or insulin-pump regimens. According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin glulisine: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), label version 2025-11-25; accessed 2026-11-19.) This description relies on general pharmacological knowledge.
 
 Type 1 diabetes is a disease of absolute insulin deficiency, and mealtime insulin replacement is the standard of care. The original indication (diabetes mellitus) already covers this condition. The high TxGNN score therefore reflects a well-established use rather than a new discovery.
 
@@ -130,6 +130,19 @@ Type 1 diabetes is a core use of insulin glulisine, backed by many completed Pha
 - A safety monitoring plan covering hypoglycaemia, injection-site reactions, and pump-related risks
 
 **Other predictions (all Hold):** The other nine predicted indications have no trials or literature (evidence level L5) and should not proceed. Examples are thiamine-responsive dysfunction syndrome, stiff person syndrome and pancreatic agenesis. Several likely reflect comorbidity artifacts. The lipodystrophy-related predictions probably reflect adverse effects of injected insulin rather than a treatment benefit.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

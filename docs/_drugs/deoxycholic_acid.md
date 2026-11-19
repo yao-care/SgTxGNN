@@ -61,7 +61,7 @@ Note: the top-ranked TxGNN predictions (a COL4A1-related syndrome and brain smal
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for deoxycholic acid is not available in the data compiled for this report. Based on general knowledge, it is a secondary bile acid produced by gut bacteria. As an injectable, it destroys fat cells by disrupting their membranes.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for deoxycholic acid: "KYBELLA is a cytolytic drug, which when injected into submental fat - in patients with moderate to severe convexity or fullness associated with submental fat - physically destroys the cell membrane causing lysis." ([DailyMed: Kybella (deoxycholic acid) prescribing information, Kythera Biopharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fe431ed4-ea6f-4e99-b4bc-ec25ae7b8553), label version 2026-09-11; accessed 2026-11-19.) Based on general knowledge, it is a secondary bile acid produced by gut bacteria. As an injectable, it destroys fat cells by disrupting their membranes.
 
 The link to diabetic nephropathy is indirect. The retrieved papers show that bile acid metabolism and profiles are altered in diabetic kidney disease. One metabolomic study in patients showed step-wise changes, and animal studies showed that interventions such as relaxin or a herbal granule changed bile acid levels alongside kidney protection. Deoxycholic acid could therefore be a biomarker or mediator, possibly through FXR/TGR5 receptor signalling.
 
@@ -118,12 +118,13 @@ The supporting literature shows that bile acid metabolism changes in diabetic ki
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "marketed in Singapore as an injectable (BELKYRA) and" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "The manufacturer is Hospira, Inc. This is a single-ingredient product with valid status" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for deoxycholic acid is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kybella (deoxycholic acid) prescribing information, Kythera Biopharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fe431ed4-ea6f-4e99-b4bc-ec25ae7b8553) |
 
 <!-- review:end log -->
 

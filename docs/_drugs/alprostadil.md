@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **aortic malformation**, with **no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on the published literature, alprostadil (PGE1) relaxes the smooth muscle of the ductus arteriosus. Infusion keeps the ductus open in newborns whose circulation depends on it, which can maintain pulmonary or systemic blood flow until surgery.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alprostadil: "Alprostadil (PGE1) is a prostaglandin with a wide variety of pharmacological actions including vasodilation and inhibition of platelet aggregation. Alprostadil induces erection by relaxation of trabecular smooth muscle and by dilation of cavernosal arteries by binding to its receptors and increasing intracellular cyclic adenosine monophosphate (cAMP) levels via modulation of adenylate cyclase." ([DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98), label version 2024-05-13; accessed 2026-11-19.) Based on the published literature, alprostadil (PGE1) relaxes the smooth muscle of the ductus arteriosus. Infusion keeps the ductus open in newborns whose circulation depends on it, which can maintain pulmonary or systemic blood flow until surgery.
 
 This is the rationale for using it in some congenital aortic arch lesions, such as coarctation or interrupted aortic arch. A 1982 clinical evaluation in infants with congenital heart disease and a case report of interrupted aortic arch managed with alprostadil before single-stage repair fit this picture. Its use here would be a bridging measure before surgery, not a treatment of the malformation itself.
 
@@ -111,6 +111,19 @@ No clinical trial or publication cited directly studies aortic malformation as t
 - Mechanism-of-action data from a primary source
 - Studies that directly assess alprostadil in aortic malformation (such as coarctation or interrupted aortic arch), including outcomes and safety with prolonged infusion
 - Confirmation of the approved neonatal indication and dosing of the Singapore paediatric product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **progeria-short stature-pigmente
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Cabergoline is known to act as a dopamine D2 receptor agonist.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cabergoline: "Cabergoline is an ergot derivative and dopamine receptor agonist with a high affinity for D2 receptors. Results of in vitro studies demonstrate that cabergoline exerts a direct inhibitory effect on the secretion of prolactin by rat pituitary lactotrophs." ([DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb), label version 2026-06-30; accessed 2026-11-19.) Cabergoline is known to act as a dopamine D2 receptor agonist.
 
 No mechanistic link between this action and progeria-short stature-pigmented nevi syndrome can be identified. The compiled data show no biological pathway, preclinical study or case report connecting the drug to this rare syndrome. The recommendation therefore rests only on a high TxGNN score (0.9906), which is a model output and not evidence of efficacy. Any biological rationale would need to be built from scratch.
 
@@ -103,6 +103,19 @@ The prediction has no supporting clinical trials, no publications and no identif
 - Detailed mechanism of action data for cabergoline
 - Package insert warnings and contraindications from the Singapore regulator
 - A review of whether any treatment is practical for such a rare condition, including patient numbers and suitable outcome measures
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

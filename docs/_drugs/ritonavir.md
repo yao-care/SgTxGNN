@@ -56,7 +56,7 @@ There are **no clinical trials** and **11 publications** (all preclinical or lab
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, ritonavir is an HIV protease inhibitor and a CYP3A4 inhibitor used to boost other protease inhibitors, and its efficacy in HIV infection is established. Mechanistically, it may be applicable to SIV.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ritonavir: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), label version 2026-07-23; accessed 2026-11-19.) Based on known information, ritonavir is an HIV protease inhibitor and a CYP3A4 inhibitor used to boost other protease inhibitors, and its efficacy in HIV infection is established. Mechanistically, it may be applicable to SIV.
 
 SIV is a lentivirus closely related to HIV, and its protease is inhibited by HIV protease inhibitors, though susceptibility varies. A laboratory study found ritonavir inhibited SIVmac239 with a 50% effective concentration of about 13 nM, compared with about 25 nM for HIV-1. Macaque studies of combination antiretroviral therapy also support biological plausibility.
 
@@ -121,6 +121,19 @@ The SIV prediction rests on laboratory and macaque studies only, with no human t
 - Singapore package insert warnings and contraindications (HSA)
 - Mechanism of action data (DrugBank)
 - For any human indication of interest (e.g. hepatitis E), controlled clinical data and a DDI plan for immunosuppressed and transplant patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

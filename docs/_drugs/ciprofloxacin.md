@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and only **2 publications** that
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ciprofloxacin belongs to the fluoroquinolone class, which inhibits bacterial DNA gyrase and topoisomerase IV. This antibacterial action is well established, but it does not by itself explain an effect in scleroderma.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ciprofloxacin: "Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07), label version 2025-11-04; accessed 2026-11-19.) Ciprofloxacin belongs to the fluoroquinolone class, which inhibits bacterial DNA gyrase and topoisomerase IV. This antibacterial action is well established, but it does not by itself explain an effect in scleroderma.
 
 Two possible links appear in the literature. First, a small controlled, double-blind randomized study (PMID 20507401) examined oral ciprofloxacin as an antifibrotic agent in the skin of scleroderma patients. Scleroderma is characterised by excessive skin fibrosis, and no effective pharmacological treatment exists, so an antifibrotic effect would be meaningful if confirmed. Second, small bowel bacterial overgrowth is a common gastrointestinal complication of systemic sclerosis, and an antibacterial drug could plausibly help with it (PMID 7728404).
 
@@ -122,11 +122,12 @@ The prediction score is high (0.9987), but no registered trial studies ciproflox
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "the licence records may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
 
 <!-- review:end log -->
 

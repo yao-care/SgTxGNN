@@ -54,7 +54,7 @@ Adapalene is a topical retinoid used on the skin. The TxGNN model predicts it ma
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Adapalene is generally classified as a topical retinoid that acts on retinoic acid receptors (RAR-beta/gamma).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for adapalene: "Adapalene binds to specific retinoic acid nuclear receptors but does not bind to cytosolic receptor protein. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes." ([DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec), label version 2023-12-27; accessed 2026-11-19.) Adapalene is generally classified as a topical retinoid that acts on retinoic acid receptors (RAR-beta/gamma).
 
 No mechanistic link between this class of drug and elevated plasma zinc could be identified. The high prediction score comes from the model's pattern-based inference alone. No trial or publication supports it, and the similarity to the original use has not been assessed. The prediction should therefore be treated as a hypothesis without a rationale, not as a finding.
 
@@ -98,6 +98,19 @@ The prediction score is high (0.9951), but there are no clinical trials or publi
 - Package insert warnings and contraindications from the HSA
 - Mechanism of action data
 - Confirmation that a topical route could be relevant for a systemic condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

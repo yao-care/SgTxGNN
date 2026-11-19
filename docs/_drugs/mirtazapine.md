@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Mirtazapine is a monoaminergic antidepressant. It is generally understood to act through alpha-2 adrenergic antagonism and 5-HT2/5-HT3/H1 receptor blockade, which enhances noradrenergic and serotonergic transmission.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mirtazapine: "The mechanism of action of mirtazapine for the treatment of major depressive disorder, is unclear. However, its efficacy could be mediated through its activity as an antagonist at central presynaptic α 2 -adrenergic inhibitory autoreceptors and heteroreceptors and enhancing central noradrenergic and serotonergic activity." ([DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887), label version 2025-08-06; accessed 2026-11-19.) Mirtazapine is a monoaminergic antidepressant. It is generally understood to act through alpha-2 adrenergic antagonism and 5-HT2/5-HT3/H1 receptor blockade, which enhances noradrenergic and serotonergic transmission.
 
 Ohdo syndrome is a rare genetic neurodevelopmental disorder (KAT6B-related). Its biology has no plausible connection to this mechanism, and no mechanistic link has been established. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis without support.
 
@@ -131,6 +131,19 @@ The prediction rests only on a TxGNN model (deep learning) score. There are no t
 **Note on other candidates:** Other predictions for this drug have stronger evidence and may be better directions to pursue:
 - **Dysthymic disorder**: one completed Phase 2/3 trial and class-level meta-analysis support
 - **Melancholia and neurotic depression**: largely overlap with the existing depression indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Bromazepam is a benzodiazepine, a GABA-A positive allosteric modulator. The TxGN
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Bromazepam is a benzodiazepine that enhances GABA-A receptor signalling, producing calming and muscle-relaxing effects.
+ChEMBL (EMBL-EBI) records the mechanism of action of bromazepam as: GABA receptor alpha-2 subunit positive allosteric modulator ([ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062), CC BY-SA 3.0; accessed 2026-11-19.) Bromazepam is a benzodiazepine that enhances GABA-A receptor signalling, producing calming and muscle-relaxing effects.
 
 Any link to migraine is speculative. One possible argument is that anxiolysis or muscle relaxation might help in stress-triggered attacks. However, benzodiazepines are not an established migraine therapy. Dependence and the risk of medication-overuse headache argue against this use. The high score of 0.9906 reflects a model prediction only and is not evidence of clinical benefit.
 
@@ -85,6 +85,19 @@ The prediction rests on the model score alone. No clinical trials or publication
 - Preclinical or clinical studies directly addressing migraine disorder
 - Package insert warnings and contraindications from the Singapore regulator, for safety screening
 - A risk assessment of dependence and medication-overuse headache
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

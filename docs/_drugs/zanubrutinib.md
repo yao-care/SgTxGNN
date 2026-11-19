@@ -60,7 +60,7 @@ The high model score is therefore not yet backed by clinical data.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, zanubrutinib is a Bruton tyrosine kinase (BTK) inhibitor. Its efficacy in B-cell malignancies is well documented, and mechanistically it may be applicable to myeloid leukemia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zanubrutinib: "Zanubrutinib is a small-molecule inhibitor of Bruton's tyrosine kinase (BTK). Zanubrutinib forms a covalent bond with a cysteine residue in the BTK active site, leading to inhibition of BTK activity. BTK is a signaling molecule of the B-cell antigen receptor (BCR) and cytokine receptor pathways." ([DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902), label version 2026-09-04; accessed 2026-11-19.) Based on known information, zanubrutinib is a Bruton tyrosine kinase (BTK) inhibitor. Its efficacy in B-cell malignancies is well documented, and mechanistically it may be applicable to myeloid leukemia.
 
 BTK is a key mediator of B-cell receptor signaling in B-cell cancers. It is also expressed in myeloid-lineage cells and has been implicated in signaling in acute and chronic myeloid leukemia. This is the main biological basis for the prediction.
 
@@ -153,6 +153,19 @@ The TxGNN score is high, but no clinical study has tested zanubrutinib in myeloi
 - Package insert warnings and contraindications from the Singapore HSA
 - A review of the major drug interactions (CYP3A-related agents, antiplatelet drugs) for the target patient population
 - Confirmation of whether the NCT05665530 cohorts include any myeloid leukemia patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

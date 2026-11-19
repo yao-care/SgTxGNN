@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **cyclic hematopoiesis** (cycli
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, eculizumab is a monoclonal antibody that inhibits complement protein C5 and blocks terminal complement activation. Its efficacy in complement-driven diseases such as paroxysmal nocturnal hemoglobinuria is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eculizumab: "Eculizumab, the active ingredient in SOLIRIS, is a monoclonal antibody that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a and C5b and preventing the generation of the terminal complement complex C5b-9. SOLIRIS inhibits terminal complement-mediated intravascular hemolysis in PNH patients and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722), label version 2026-07-08; accessed 2026-11-19.) Based on known information, eculizumab is a monoclonal antibody that inhibits complement protein C5 and blocks terminal complement activation. Its efficacy in complement-driven diseases such as paroxysmal nocturnal hemoglobinuria is established.
 
 The link to cyclic hematopoiesis is weak. Cyclic neutropenia is typically driven by ELANE mutations that disrupt the regulation of neutrophil precursors, not by uncontrolled complement activity. The high score of 0.9997 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No mechanistic or clinical evidence supports it.
 
@@ -105,6 +105,19 @@ The prediction rests only on a score from the TxGNN model (deep learning), which
 - A disease-specific literature search and trial search for eculizumab in cyclic neutropenia
 - Preclinical or mechanistic evidence that complement activity contributes to cyclic hematopoiesis
 - Route and formulation compatibility assessment for the new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Soliris (eculizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ebcd67fa-b4d1-4a22-b33d-ee8bf6b9c722) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

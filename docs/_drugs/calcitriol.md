@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **obsolete vitamin D deficiency
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Calcitriol is the hormonally active metabolite of vitamin D (1,25-dihydroxyvitamin D3). It acts directly on the vitamin D receptor, without needing the kidney's activation step. A mechanistic link to vitamin D deficiency is therefore plausible.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for calcitriol: "Endogenous synthesis and catabolism of calcitriol, as well as physiological control mechanisms affecting these processes, play a critical role regulating the serum level of calcitriol. Physiological daily production is normally 0.5 to 1.0 mcg and is somewhat higher during periods of increased bone synthesis (eg, growth or pregnancy)." ([DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e), label version 2026-10-15; accessed 2026-11-19.) Calcitriol is the hormonally active metabolite of vitamin D (1,25-dihydroxyvitamin D3). It acts directly on the vitamin D receptor, without needing the kidney's activation step. A mechanistic link to vitamin D deficiency is therefore plausible.
 
 The disease term, however, is flagged as obsolete in the ontology. It is likely a duplicate of existing disease entries, so the high score may not point to a distinct new use. Calcitriol is also not a typical way to correct simple nutritional deficiency, which is normally treated with cholecalciferol or ergocalciferol. The score is a computational prediction only, not clinical evidence.
 
@@ -97,6 +97,19 @@ The prediction has no supporting trials or publications, and the disease term is
 - Search for studies that directly address this condition
 - Detailed mechanism of action data (MOA)
 - Package insert warnings and contraindications from the Health Sciences Authority (HSA)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

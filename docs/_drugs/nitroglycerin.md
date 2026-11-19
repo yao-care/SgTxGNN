@@ -60,7 +60,7 @@ The evidence is mainly small studies, hemodynamic studies and reviews, and no co
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, nitroglycerin is an NO donor. It activates soluble guanylate cyclase, which raises cGMP and relaxes vascular smooth muscle. This produces vasodilation and lowers cardiac preload.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nitroglycerin: "Nitroglycerin forms free radical nitric oxide (NO), which activates guanylate cyclase, resulting in an increase of guanosine 3',5'-monophosphate (cyclic GMP) in smooth muscle and other tissues. This eventually leads to dephosphorylation of myosin light chains, which regulates the contractile state in smooth muscle and results in vasodilatation." ([DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300), label version 2025-12-17; accessed 2026-11-19.) Based on known pharmacology, nitroglycerin is an NO donor. It activates soluble guanylate cyclase, which raises cGMP and relaxes vascular smooth muscle. This produces vasodilation and lowers cardiac preload.
 
 In pulmonary hypertension the same pathway can lower pulmonary vascular resistance and pulmonary artery pressure. The main concern with systemic delivery is non-selective vasodilation, which can cause hypotension. Inhaled or nebulized delivery may give relative pulmonary selectivity and limit systemic effects. Hemodynamic studies from the 1980s (for example, nine patients with chronic pulmonary hypertension) reported falls in pulmonary vascular resistance and pulmonary artery pressure. More recent work on nebulized nitroglycerin in children and neonates is consistent with this.
 
@@ -146,6 +146,18 @@ All five registrations are valid single-ingredient products. No inhaled or nebul
 | Transient ischemic attack | L4 | Hold | Only cerebral vasospasm reports, with no direct evidence. Possible intracranial pressure concerns |
 | Headache disorder | L4 | Hold | Nitroglycerin triggers migraine and is used as an induction model, which points against therapeutic use |
 | Kyphoscoliotic heart disease, primary hereditary glaucoma, congenital hypotrichosis milia, alopecia, hypotrichosis simplex of the scalp | L5 | Hold | Model prediction only, with no supporting trials or literature |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

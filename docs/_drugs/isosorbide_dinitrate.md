@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **alopecia**, but **0 clinical tri
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Isosorbide dinitrate is generally understood as an NO donor that relaxes blood vessels. A theoretical link to alopecia is improved blood flow to the scalp, similar in concept to minoxidil, which is a vasodilator and potassium-channel opener.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydralazine hydrochloride and isosorbide dinitrate (a combination product containing isosorbide dinitrate): "Isosorbide dinitrate is a vasodilator affecting both arteries and veins." ([DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00), label version 2025-11-30; accessed 2026-11-19.) Isosorbide dinitrate is generally understood as an NO donor that relaxes blood vessels. A theoretical link to alopecia is improved blood flow to the scalp, similar in concept to minoxidil, which is a vasodilator and potassium-channel opener.
 
 This link is speculative. No study in the compiled data tests isosorbide dinitrate in hair loss. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Because the drug acts mainly on blood vessels, it is also unclear whether it would affect hair loss that is driven by other mechanisms.
 
@@ -122,6 +122,19 @@ The prediction rests only on the model score. No clinical trials or publications
 - A safety plan for low blood pressure and nitrate tolerance
 
 **Other predictions in the model output:** Other predicted indications are also at Hold with model prediction only, except pulmonary hypertension and vascular disease. Pulmonary hypertension has small, mostly older haemodynamic studies, and vascular disease has a Phase 3 trial of isosorbide dinitrate spray in diabetic foot ulcers (NCT02789033). Both are worth a separate evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Methoxy polyethylene glycol-epoetin beta is a long-acting erythropoiesis-stimula
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, the drug is a long-acting ESA that acts on the erythropoietin receptor to stimulate red cell production.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methoxy polyethylene glycol-epoetin beta: "Mircera is an erythropoietin receptor activator with greater activity in vivo as well as increased half-life, in contrast to erythropoietin. A primary growth factor for erythroid development, erythropoietin is produced in the kidney and released into the bloodstream in response to hypoxia." ([DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88), label version 2026-08-14; accessed 2026-11-19.) Based on known information, the drug is a long-acting ESA that acts on the erythropoietin receptor to stimulate red cell production.
 
 The predicted condition is a platelet secretion defect, which arises from intrinsic abnormalities in platelet granules or signalling. Erythropoietin receptor agonism is not known to correct these abnormalities, so **no mechanistic link is established**. The high TxGNN score is a computational output only.
 
@@ -105,6 +105,19 @@ The prediction rests on a model score alone (L5), with no clinical trials or lit
 - Approved indication text for the Singapore licences
 - Any preclinical or clinical evidence for the predicted indication, found through a targeted literature and trial search
 - A thrombotic and neovascularisation risk assessment before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mircera (methoxy polyethylene glycol-epoetin beta) prescribing information, Vifor (International) Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c56f2a-f73c-60e7-e054-00144ff88e88) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

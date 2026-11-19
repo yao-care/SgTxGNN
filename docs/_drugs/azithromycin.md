@@ -55,7 +55,7 @@ The TxGNN model (deep learning) predicts it may be effective for **hyperamylasem
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial infections is well established, and no mechanistic link to hyperamylasemia can be established from the data compiled for this report.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for azithromycin: "Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit." ([DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a), label version 2026-09-09; accessed 2026-11-19.) Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial infections is well established, and no mechanistic link to hyperamylasemia can be established from the data compiled for this report.
 
 Hyperamylasemia is a laboratory finding (raised blood amylase) rather than an infection. The data provides no antibacterial or immunomodulatory rationale for treating it. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so this prediction should be treated as a hypothesis only.
 
@@ -112,6 +112,19 @@ The prediction rests only on a model score, with no trials, no literature and no
 - Singapore package insert warnings, contraindications and approved indication text
 - A QT-risk and drug interaction management plan, given the major interactions
 - Consideration of better-supported predicted indications (e.g., sickle cell-related lung complications, or myeloma-related combination research) as alternative candidates
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

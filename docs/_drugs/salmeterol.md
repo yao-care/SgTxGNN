@@ -56,7 +56,7 @@ Evidence is thin: **2 loosely related clinical trials** and a handful of publica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for salmeterol is not available in the data compiled for this report. Salmeterol belongs to the long-acting beta2-agonist class. These drugs relax airway smooth muscle and may also increase the beating frequency of airway cilia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for salmeterol: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), label version 2022-10-10; accessed 2026-11-19.) Salmeterol belongs to the long-acting beta2-agonist class. These drugs relax airway smooth muscle and may also increase the beating frequency of airway cilia.
 
 "Respiratory malformation" is a broad structural category. A bronchodilator cannot correct a structural defect. At most it could ease symptoms such as airflow limitation or poor mucus clearance in related conditions, for example cystic fibrosis or primary ciliary dyskinesia. The mechanistic link is therefore indirect and symptomatic. The high model score is a computational signal, not evidence of benefit.
 
@@ -129,11 +129,12 @@ The TxGNN score is very high, but no cited study addresses respiratory malformat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Eight licences are recorded locally and all are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for salmeterol is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
 
 <!-- review:end log -->
 

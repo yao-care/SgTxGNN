@@ -56,7 +56,7 @@ but **no clinical trials** and only **1 publication** (about a different drug, l
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for chloroquine is not available in the data compiled for this report. Based on known information, chloroquine is an antimalarial that is also used as an antirheumatic agent. Its immunomodulatory effects include raising lysosomal pH, reducing antigen processing and presentation, lowering pro-inflammatory cytokine signalling and inhibiting Toll-like receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for chloroquine: "Chloroquine, a 4-aminoquinoline, is an anti-protozoal agent. The precise mechanism by which chloroquine exhibits activity is not known. Chloroquine, may exert its effect against Plasmodium species by concentrating in the acid vesicles of the parasite and by inhibiting polymerization of heme." ([DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570), label version 2026-10-21; accessed 2026-11-19.) Based on known information, chloroquine is an antimalarial that is also used as an antirheumatic agent. Its immunomodulatory effects include raising lysosomal pH, reducing antigen processing and presentation, lowering pro-inflammatory cytokine signalling and inhibiting Toll-like receptors.
 
 Rheumatoid factor-positive polyarticular JIA resembles adult rheumatoid arthritis in its disease process. Chloroquine's proven use in adult RA therefore makes a mechanistic extrapolation plausible.
 
@@ -130,6 +130,19 @@ The prediction score is high (0.9941), and the mechanism is plausible given chlo
 - Direct clinical evidence of chloroquine in JIA, such as a systematic review of antimalarials in JIA or a controlled study
 - A paediatric safety assessment covering retinal and cardiac (QT/AV block) risk and dosing
 - A comparison against current standard JIA therapies (methotrexate, biologics) to define any unmet need
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for chloroquine is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

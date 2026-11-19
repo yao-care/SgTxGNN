@@ -60,7 +60,7 @@ Among the top 10 predictions, only **primary release disorder of platelets** has
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, desmopressin is a synthetic vasopressin analogue. It raises plasma von Willebrand factor (VWF) and factor VIII through V2 receptor-mediated release from the endothelium. Its efficacy in von Willebrand disease and mild haemophilia A is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desmopressin: "Desmopressin acetate increases plasma levels of factor VIII activity in patients with hemophilia and von Willebrand's disease Type I. The antidiuretic effects of desmopressin acetate are mediated by stimulation of vasopressin 2 (V2) receptors, thereby increasing water re-absorption in the kidney, and hence reducing urine production. Desmopressin acetate is a replacement hormone for antidiuretic hormone in the treatment of central diabetes insipidus." ([DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244), label version 2022-09-28; accessed 2026-11-19.) Based on known information, desmopressin is a synthetic vasopressin analogue. It raises plasma von Willebrand factor (VWF) and factor VIII through V2 receptor-mediated release from the endothelium. Its efficacy in von Willebrand disease and mild haemophilia A is established.
 
 For the top-ranked prediction, congenital prothrombin deficiency, the mechanistic link is weak. Desmopressin has no known direct effect on prothrombin (factor II) levels. The high TxGNN score most likely reflects network proximity to other bleeding disorders rather than a true pharmacological relationship. The only literature is a 1993 general review of congenital bleeding disorders.
 
@@ -146,6 +146,19 @@ The top-ranked prediction (congenital prothrombin deficiency) has no clinical tr
 - HSA package insert warnings, contraindications and approved indication text, which are required before any safety screening
 - Ontology verification of "flood factor deficiency" and other questionable disease terms
 - Explicit exclusion of TTP, platelet-type VWD and inherited thrombophilia from any repurposing pipeline on safety grounds
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

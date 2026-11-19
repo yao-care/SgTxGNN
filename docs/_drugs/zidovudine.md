@@ -56,7 +56,7 @@ Support is limited to **animal studies in macaques** (no registered clinical tri
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Zidovudine is known as an NRTI: it is a thymidine analogue that blocks the reverse transcriptase enzyme that retroviruses need to copy their genetic material.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for zidovudine: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), label version 2024-11-13; accessed 2026-11-19.) Zidovudine is known as an NRTI: it is a thymidine analogue that blocks the reverse transcriptase enzyme that retroviruses need to copy their genetic material.
 
 Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV and relies on the same reverse transcriptase-dependent replication cycle, so the mechanistic link is strong. Macaque studies show that immediate zidovudine treatment protected SIV-infected newborn macaques against rapid onset of AIDS, that treatment prolonged survival and lowered central nervous system viral load in rhesus macaques, and that post-exposure prophylaxis (in combination with lamivudine and indinavir) prevented vaginal SIV transmission. A zidovudine-resistant SIV mutant (Q151M) has also been described, supporting on-target activity.
 
@@ -115,6 +115,18 @@ The main prediction is an animal-model disease supported only by preclinical mac
 - Confirmation of whether any human-relevant question exists beyond the animal research setting
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications for a full safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

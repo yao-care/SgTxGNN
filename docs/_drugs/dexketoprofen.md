@@ -56,7 +56,7 @@ Note that the same model output shows much stronger evidence for **migraine** (s
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, dexketoprofen is the active S-(+) form of ketoprofen and acts as a non-selective COX-1/COX-2 inhibitor. Its efficacy in acute pain is established, and mechanistically it may be applicable to tendinitis.
+ChEMBL (EMBL-EBI) records the mechanism of action of dexketoprofen as: Cyclooxygenase inhibitor ([ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, dexketoprofen is the active S-(+) form of ketoprofen and acts as a non-selective COX-1/COX-2 inhibitor. Its efficacy in acute pain is established, and mechanistically it may be applicable to tendinitis.
 
 Prostaglandin-driven inflammation and pain are involved in tendon disorders, so an NSAID is a plausible treatment. However, the only supporting paper is an emergency department trial in non-traumatic musculoskeletal pain in general, where tendinitis is mentioned as one possible cause. The link to tendinitis is therefore indirect and unproven.
 
@@ -99,6 +99,19 @@ For tendinitis, support is limited to a model prediction plus one indirect study
 - Confirmation of route and formulation. The only registered product in Singapore is an oral tablet, while the supporting study used an intravenous form.
 
 **Note on a better-supported candidate:** Among the other predictions for this drug, **migraine** has much stronger evidence: 5 clinical trials (mostly Phase 4, in emergency department acute migraine, including a placebo-controlled trial of 224 patients), a meta-analysis of randomized trials, and several RCTs. This is rated L1 and **Proceed with Guardrails**. Headache disorder also rates L1, but its supporting trials are almost all in migraine. Evaluating migraine first is recommended. Fibromyalgia, rheumatoid arthritis, myositis fibrosa, idiopathic granulomatous myositis, exostosis and congenital hypotrichosis milia are model predictions only (L5) and should stay on Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

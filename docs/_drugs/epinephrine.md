@@ -56,7 +56,7 @@ Much of this prediction rediscovers an existing use, and the strongest evidence 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the data compiled for this report. From established pharmacology, epinephrine is a non-selective alpha/beta-adrenergic agonist. Beta-2 receptor activation relaxes bronchial smooth muscle and causes bronchodilation, while alpha-1 activation reduces mucosal oedema.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for epinephrine: "Epinephrine acts on both alpha and beta-adrenergic receptors. Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension." ([DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf), label version 2026-09-18; accessed 2026-11-19.) From established pharmacology, epinephrine is a non-selective alpha/beta-adrenergic agonist. Beta-2 receptor activation relaxes bronchial smooth muscle and causes bronchodilation, while alpha-1 activation reduces mucosal oedema.
 
 Obstructive lung disease covers asthma and chronic obstructive pulmonary disease (COPD). Asthma, emphysema and bronchitis are already among epinephrine's original indications, so this prediction is largely a rediscovery of an existing use rather than a wholly new one. The inhaled HFA metered-dose formulation (E004 / Primatene Mist) has Phase 3 efficacy and safety data in asthma. Evidence in bronchiolitis is mixed and is best treated as a separate sub-question.
 
@@ -141,11 +141,12 @@ Several completed Phase 3 trials of inhaled epinephrine in asthma, in adults and
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 15 registrations are valid single-ingredient records, and all are injectable" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->
 

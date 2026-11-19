@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **acne (disease)**, but the eviden
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this report. Miconazole belongs to the imidazole antifungal class. Based on the literature, it has in vitro activity against *Propionibacterium acnes* (the bacterium involved in acne vulgaris) and against *Malassezia* yeasts. A review of its effects on skin disorders also describes anti-inflammatory properties.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for miconazole: "Miconazole is an antifungal drug. […] Miconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane. Miconazole also affects the synthesis of triglycerides and fatty acids and inhibits oxidative and peroxidative enzymes, increasing the amount of reactive oxygen species within the cell." ([DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a), label version 2026-01-08; accessed 2026-11-19.) Miconazole belongs to the imidazole antifungal class. Based on the literature, it has in vitro activity against *Propionibacterium acnes* (the bacterium involved in acne vulgaris) and against *Malassezia* yeasts. A review of its effects on skin disorders also describes anti-inflammatory properties.
 
 Malassezia is linked to Pityrosporum folliculitis, a condition that looks like acne and is often misdiagnosed as acne vulgaris. An antifungal could therefore help in some acne-like presentations. A small split-face study in catamenial (menstrual-cycle-related) acne also hints at possible benefit.
 
@@ -135,11 +135,12 @@ The evidence level is L4. Support comes from a review of miconazole's skin effec
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "At least 20 valid single-ingredient licences are on record, and the list may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pancreatitis**, but there are
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Omidenepag isopropyl is understood to be a selective prostanoid EP2 receptor agonist applied to the eye. Its efficacy in lowering intraocular pressure is the basis of its use in ocular hypertension and glaucoma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for omidenepag isopropyl: "Omidenepag is a relatively selective EP2 receptor agonist which decreases intraocular pressure (IOP). The exact mechanism of action is unknown at this time. Elevated IOP represents a major risk factor for glaucomatous field loss." ([DailyMed: Omlonti (omidenepag isopropyl) prescribing information, Ocuvex Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4258e437-7e92-4b09-baf1-01cb158cfc05), label version 2025-04-21; accessed 2026-11-19.) Omidenepag isopropyl is understood to be a selective prostanoid EP2 receptor agonist applied to the eye. Its efficacy in lowering intraocular pressure is the basis of its use in ocular hypertension and glaucoma.
 
 No direct mechanistic link between EP2 receptor agonism and pancreatitis is established in the data compiled for this report. The high TxGNN score (0.9976) is a TxGNN model (deep learning) prediction only, and it likely reflects shared network neighbours rather than biological evidence. In addition, the eye-drop form gives minimal systemic exposure, which makes a pancreatic effect even less plausible without a different formulation or route.
 
@@ -113,6 +113,19 @@ The prediction has no clinical trials or publications behind it (Evidence Level 
 - Preclinical or mechanistic evidence linking EP2 signalling to pancreatic inflammation
 - An assessment of whether a non-ocular formulation or route would be needed to reach relevant tissue
 - A literature and trial search specific to pancreatitis, and a comparison with the other predicted indications to find any with real supporting evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Omlonti (omidenepag isopropyl) prescribing information, Ocuvex Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4258e437-7e92-4b09-baf1-01cb158cfc05) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

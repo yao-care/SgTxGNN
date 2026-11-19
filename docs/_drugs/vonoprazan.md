@@ -57,7 +57,7 @@ Currently there are **0 registered clinical trials** but **18 publications** sup
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From general pharmacological knowledge, vonoprazan reversibly inhibits gastric H+/K+-ATPase (the proton pump). Unlike proton pump inhibitors, it does not need acid activation. This gives rapid onset, durable 24-hour acid control, and less dependence on meal timing or CYP2C19 variability.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vonoprazan: "Vonoprazan suppresses basal and stimulated gastric acid secretion at the secretory surface of the gastric parietal cell through inhibition of the H +, K + -ATPase enzyme system in a potassium-competitive manner. Because this enzyme is regarded as the acid (proton) pump within the parietal cell, vonoprazan has been characterized as a type of gastric proton-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Voquezna (vonoprazan fumarate) prescribing information, Phathom Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0cc52ac5-77ec-4d66-a770-762a1a960914), label version 2026-07-16; accessed 2026-11-19.) From general pharmacological knowledge, vonoprazan reversibly inhibits gastric H+/K+-ATPase (the proton pump). Unlike proton pump inhibitors, it does not need acid activation. This gives rapid onset, durable 24-hour acid control, and less dependence on meal timing or CYP2C19 variability.
 
 Active peptic ulcer disease covers the same gastric and duodenal ulcers that vonoprazan already treats. This is therefore closer to an on-label use than true repurposing. Acid suppression also supports its role in *H. pylori* eradication regimens, and the drug is used this way in the US as part of dual and triple packs.
 
@@ -127,6 +127,18 @@ Lower-ranked predictions do not currently support further action:
 | Hemorrhagic duodenitis | 0.9974 | Indirect, from duodenal ulcer RCTs | Research question |
 | Achlorhydria | 0.9986 | No evidence; mechanistically contradictory, since the drug further suppresses acid | Hold |
 | Gastric dilatation, cascade stomach, pylorospasm, Dieulafoy lesion | 0.9985 | No supporting evidence; likely TxGNN model (deep learning) artifacts | Hold |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Voquezna (vonoprazan fumarate) prescribing information, Phathom Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0cc52ac5-77ec-4d66-a770-762a1a960914) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

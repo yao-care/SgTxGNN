@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **follicular lymphoma**, but on
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, brentuximab vedotin is an antibody-drug conjugate: the antibody part binds CD30 and releases the toxic payload MMAE inside the target cell. Neighbouring cells with low CD30 may also be affected through a bystander effect.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for brentuximab vedotin: "CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)." ([DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f), label version 2025-11-11; accessed 2026-11-19.) Based on known pharmacology, brentuximab vedotin is an antibody-drug conjugate: the antibody part binds CD30 and releases the toxic payload MMAE inside the target cell. Neighbouring cells with low CD30 may also be affected through a bystander effect.
 
 The mechanistic link to follicular lymphoma is weak. Follicular lymphoma is usually CD30-low or CD30-negative, so any activity would depend on CD30 expression in a subset of tumours or on bystander effects. No validated target-expression link exists. Combinations with rituximab and bendamustine have been explored, but the rationale remains largely hypothetical.
 
@@ -121,6 +121,19 @@ The model score is high, but the mechanistic basis is weak because follicular ly
 - Data on CD30 expression in follicular lymphoma to support a target-based rationale
 - Mechanism of action data and package insert warnings and contraindications
 - Review of the interaction findings by a clinical pharmacist
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

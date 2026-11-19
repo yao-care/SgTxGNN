@@ -54,7 +54,7 @@ Allopurinol is a xanthine oxidase inhibitor. The TxGNN model (deep learning) pre
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Allopurinol is generally known as a xanthine oxidase inhibitor that lowers uric acid production, but that is background knowledge and not drawn from the supplied records.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for allopurinol: "Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans." ([DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449), label version 2022-02-18; accessed 2026-11-19.) Allopurinol is generally known as a xanthine oxidase inhibitor that lowers uric acid production, but that is background knowledge and not drawn from the supplied records.
 
 The link to hepatic porphyria is indirect and speculative. One 2019 hypothesis paper proposes targeting 5-aminolevulinate synthase (the rate-limiting enzyme of heme biosynthesis) through tryptophan or inhibitors of heme utilisation. The second paper is a 1992 rat study of carbamazepine and haem metabolism. Neither paper studies allopurinol in porphyria, and no direct mechanism connecting xanthine oxidase inhibition to porphyria control is established in the supplied data. Neither paper directly studies allopurinol for this disease, so the prediction rests on the model score alone and is therefore rated L5.
 
@@ -119,11 +119,12 @@ The prediction has a high model score but no clinical trials, no allopurinol-spe
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Eight valid single-ingredient registrations exist in total, all oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
 
 <!-- review:end log -->
 

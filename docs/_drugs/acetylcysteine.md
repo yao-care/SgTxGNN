@@ -56,7 +56,7 @@ The data compiled for this report include **7 clinical trials** and **20 publica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on the supplied rationale, acetylcysteine is a thiol-containing reducing agent that can reduce disulfide bonds in ultra-large von Willebrand factor (VWF) multimers and so decrease their platelet-binding activity. This is a plausible mechanism for thrombotic microangiopathies such as thrombotic thrombocytopenic purpura (TTP) and transplant-associated thrombotic microangiopathy (TA-TMA).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for acetylcysteine: "Acetylcysteine has been shown to reduce the extent of liver injury following acetaminophen overdose. Acetaminophen doses of 150 mg/kg or greater have been associated with hepatotoxicity. Acetylcysteine probably protects the liver by maintaining or restoring the glutathione levels, or by acting as an alternate substrate for conjugation with, and thus detoxification of, the reactive metabolite of acetaminophen." ([DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39), label version 2025-04-30; accessed 2026-11-19.) Based on the supplied rationale, acetylcysteine is a thiol-containing reducing agent that can reduce disulfide bonds in ultra-large von Willebrand factor (VWF) multimers and so decrease their platelet-binding activity. This is a plausible mechanism for thrombotic microangiopathies such as thrombotic thrombocytopenic purpura (TTP) and transplant-associated thrombotic microangiopathy (TA-TMA).
 
 Its antioxidant activity may also reduce platelet activation and the prothrombotic phenotype seen in renal insufficiency. Preclinical mouse and baboon TTP models (PMID 28011677) support the VWF-reduction mechanism.
 
@@ -134,11 +134,12 @@ The predicted indication is supported by a completed Phase 3 trial and an active
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Acetylcysteine is marketed in Singapore as single-ingredient products (16 valid licences in the local records), including granules, powder f" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
 
 <!-- review:end log -->
 

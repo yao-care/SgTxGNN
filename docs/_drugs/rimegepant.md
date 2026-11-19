@@ -59,7 +59,7 @@ There are **no registered clinical trials** for this subtype. **15 publications*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rimegepant is a CGRP (calcitonin gene-related peptide) receptor antagonist. Its efficacy in migraine with or without aura is established, and mechanistically it may be applicable to migraine with brainstem aura.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rimegepant: "Rimegepant is a calcitonin gene-related peptide receptor antagonist." ([DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d), label version 2026-06-04; accessed 2026-11-19.) Based on known information, rimegepant is a CGRP (calcitonin gene-related peptide) receptor antagonist. Its efficacy in migraine with or without aura is established, and mechanistically it may be applicable to migraine with brainstem aura.
 
 Migraine with brainstem aura is a migraine subtype that shares the CGRP-mediated trigeminovascular pathway with common migraine, so efficacy is biologically plausible. The phase 3 evidence in general migraine populations is indirect for this subtype, and none of the compiled literature reports a subtype-specific analysis.
 
@@ -129,6 +129,19 @@ The prediction is biologically plausible, since this subtype shares the CGRP pat
 - The HSA package insert, to confirm the approved indication, warnings and contraindications
 - A vascular and cardiovascular safety assessment, given that brainstem aura patients are a population where vasoconstrictive agents have been cautioned
 - A review of the clinically significant drug interactions, particularly the Major-level ones
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

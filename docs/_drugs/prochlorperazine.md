@@ -56,7 +56,7 @@ The best-supported lead among the predicted indications is **manic bipolar affec
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on known information, prochlorperazine is a phenothiazine that blocks dopamine D2 receptors, and it also acts on histamine and muscarinic receptors. Its efficacy in schizophrenia and psychosis is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of prochlorperazine as: Dopamine D2 receptor antagonist ([ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, prochlorperazine is a phenothiazine that blocks dopamine D2 receptors, and it also acts on histamine and muscarinic receptors. Its efficacy in schizophrenia and psychosis is established.
 
 For the top-ranked prediction, retinal dystrophy with or without extraocular anomalies, no mechanistic link has been identified. The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Retinal dystrophies are inherited disorders, and a D2 antagonist has no known disease-modifying role. The other top-ranked predictions are similar: hydranencephaly, congenital glycosylation disorders, X-linked myopia subtypes, Charcot-Marie-Tooth disease type 1G, polymicrogyria and atypical glycine encephalopathy. All are rare congenital or monogenic conditions with no plausible pharmacological rationale. These scores probably reflect similarities the model learned between related diseases rather than biology.
 
@@ -123,6 +123,19 @@ The top-ranked prediction (retinal dystrophy with or without extraocular anomali
 - For manic bipolar disorder, a modern comparative evidence review against established antipsychotics.
 - For the rare-disease predictions, a biological rationale before any further investment.
 - Route compatibility assessment (injectable and oral forms are available in Singapore).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

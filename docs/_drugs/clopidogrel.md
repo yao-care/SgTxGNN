@@ -60,7 +60,7 @@ The data compiled for this report show **no registered clinical trials** for thi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for clopidogrel are not available in the data compiled for this report. The following rationale is therefore based on its known drug class. Clopidogrel blocks the P2Y12 receptor, which reduces platelet activation. Activated platelets release vasoactive and pain-promoting mediators such as serotonin. Blocking P2Y12 may also limit small paradoxical emboli passing through right-to-left shunts such as a PFO. These emboli are a proposed trigger of migraine with aura.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clopidogrel: "Clopidogrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227), label version 2025-05-30; accessed 2026-11-19.) The following rationale is therefore based on its known drug class. Clopidogrel blocks the P2Y12 receptor, which reduces platelet activation. Activated platelets release vasoactive and pain-promoting mediators such as serotonin. Blocking P2Y12 may also limit small paradoxical emboli passing through right-to-left shunts such as a PFO. These emboli are a proposed trigger of migraine with aura.
 
 Most supporting reports come from migraine with aura in people with a PFO or atrial septal defect. Examples are small cohort studies and a pilot randomised study. Brainstem aura is a subtype of migraine with aura, so a mechanistic overlap is plausible. However, the evidence is inferred from the broader migraine-with-aura literature. No study examines brainstem aura specifically, and the pilot and cohort data are small and mixed.
 
@@ -151,11 +151,12 @@ Please refer to the package insert for warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 13 single-ingredient licences are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for clopidogrel are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
 
 <!-- review:end log -->
 

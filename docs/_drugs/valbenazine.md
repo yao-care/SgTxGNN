@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **psychogenic movement disorder
 
 ## Why is This Prediction Reasonable?
 
-The Singapore registration record does not state an approved indication. The original indications above come from the source data compiled for this report, not from a prediction. Detailed mechanism-of-action data were not available in the data compiled for this report. Valbenazine is known as a selective VMAT2 inhibitor. By blocking VMAT2, it reduces presynaptic dopamine release, which counteracts the dopamine receptor hypersensitivity that develops after chronic exposure to dopamine blockers.
+The Singapore registration record does not state an approved indication. The original indications above come from the source data compiled for this report, not from a prediction. According to the Mechanism of Action section of the US FDA-approved prescribing information for valbenazine: "The mechanism of action of valbenazine for the treatment of tardive dyskinesia and chorea in patients with Huntington’s disease is unclear, but is thought to be mediated through the reversible inhibition of vesicular monoamine transporter 2 (VMAT2), a transporter that regulates monoamine uptake from the cytoplasm to the synaptic vesicle for storage and release." ([DailyMed: Ingrezza (valbenazine) prescribing information, Neurocrine Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c970164-cafb-421f-9eb5-c226ef0a3417), label version 2026-04-17; accessed 2026-11-19.) Valbenazine is known as a selective VMAT2 inhibitor. By blocking VMAT2, it reduces presynaptic dopamine release, which counteracts the dopamine receptor hypersensitivity that develops after chronic exposure to dopamine blockers.
 
 In theory, lowering dopamine release could dampen hyperkinetic movements in general, which is probably why the model links tardive dyskinesia to this new condition. However, psychogenic (functional) movement disorders are not mainly dopaminergic in origin. No trials or publications support valbenazine in this setting, so the mechanistic link is weak and speculative.
 
@@ -102,6 +102,19 @@ The prediction score is very high (0.9982), but it is the only support: no trial
 
 **Other candidates in the same prediction list:**
 - **Chronic tic disorder** has more support: indirect literature, including a clinical development review in Tourette syndrome, a 2025 case report, and a 2026 systematic review and meta-analysis. It is rated L4 and classed as a research question, so it is a better candidate to pursue first.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ingrezza (valbenazine) prescribing information, Neurocrine Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c970164-cafb-421f-9eb5-c226ef0a3417) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

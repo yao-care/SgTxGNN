@@ -56,7 +56,7 @@ The evidence is limited: **no registered clinical trials** were found for this i
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known pharmacology, phenylephrine is a selective alpha-1 adrenergic agonist. It constricts blood vessels in the mucosa, which reduces swelling and congestion.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for phenylephrine: "Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist." ([DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be), label version 2026-03-31; accessed 2026-11-19.) Based on known pharmacology, phenylephrine is a selective alpha-1 adrenergic agonist. It constricts blood vessels in the mucosa, which reduces swelling and congestion.
 
 The predicted indication is largely an extension of its existing nasal uses (rhinitis, nasopharyngitis, common cold). Nasal mucosal decongestion is also used topically in nasal surgery to reduce bleeding, so biological plausibility is high. However, "nasal cavity disease" is a broad category, and the prediction does not specify which condition would benefit.
 
@@ -125,11 +125,12 @@ The mechanism is plausible and the drug is widely marketed in Singapore, but the
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 19 valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
 
 <!-- review:end log -->
 

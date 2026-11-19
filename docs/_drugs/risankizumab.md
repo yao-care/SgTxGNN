@@ -56,7 +56,7 @@ The evidence is early-stage: the mechanistic fit is weaker than for psoriasis, a
 
 ## Why is This Prediction Reasonable?
 
-Risankizumab is a humanised IgG monoclonal antibody that targets the p19 subunit of interleukin-23 (IL-23). IL-23 supports the Th17 pathway, which drives psoriasis. Detailed mechanism-of-action data are not available in the data compiled for this report, but the published drug profile describes this IL-23 p19 mechanism, and the drug is approved for several psoriasis forms.
+Risankizumab is a humanised IgG monoclonal antibody that targets the p19 subunit of interleukin-23 (IL-23). IL-23 supports the Th17 pathway, which drives psoriasis. According to the Mechanism of Action section of the US FDA-approved prescribing information for risankizumab: "Risankizumab-rzaa is a humanized IgG1 monoclonal antibody that selectively binds to the p19 subunit of human IL-23 cytokine and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858), label version 2026-10-23; accessed 2026-11-19.) The published drug profile describes this IL-23 p19 mechanism, and the drug is approved for several psoriasis forms.
 
 Atopic dermatitis and other eczematous diseases are driven mainly by type 2 signalling (IL-4/IL-13), so IL-23 blockade is a weaker mechanistic fit than it is for psoriasis. Partial rationale comes from Th17/Th22 contributions and from the overlap between psoriasis and eczema in some patients. A Phase 2 randomized controlled trial tested risankizumab directly in moderate-to-severe atopic dermatitis. Its published report (PMID 36588137) was available only by title, so no efficacy conclusion is drawn here.
 
@@ -131,11 +131,12 @@ A completed Phase 2 randomized controlled trial in atopic dermatitis supports an
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "for the four licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
 
 <!-- review:end log -->
 

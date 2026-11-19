@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, metformin is an established oral antidiabetic agent whose efficacy in type 2 diabetes is well documented. The data compiled for this report, however, do not support a mechanistic link to focal stiff limb syndrome.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metformin: "Metformin is an antihyperglycemic agent which improves glucose tolerance in patients with type 2 diabetes mellitus, lowering both basal and postprandial plasma glucose. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization." ([DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574), label version 2026-09-21; accessed 2026-11-19.) Based on known information, metformin is an established oral antidiabetic agent whose efficacy in type 2 diabetes is well documented. The data compiled for this report, however, do not support a mechanistic link to focal stiff limb syndrome.
 
 Focal stiff limb syndrome belongs to the stiff-person spectrum, which is an autoimmune/neurological group of disorders. The related classic stiff person syndrome involves anti-GAD antibodies and impaired GABAergic signalling. No established metformin pathway to these conditions is evident. The association may partly reflect the co-occurrence of autoimmune diabetes with these disorders in the model's data, rather than a therapeutic rationale.
 
@@ -141,11 +141,12 @@ The prediction rests only on a model score. There are no clinical trials or lite
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Metformin has 20 valid single-ingredient registrations in Singapore" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
 
 <!-- review:end log -->
 

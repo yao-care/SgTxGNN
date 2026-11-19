@@ -60,7 +60,7 @@ The model score is very high, yet it appears to be a model artifact rather than 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, inclisiran is an siRNA that targets PCSK9 mRNA in hepatocytes, which increases LDL receptor availability and lowers LDL-C.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for inclisiran: "Inclisiran is a double-stranded small interfering ribonucleic acid (siRNA), conjugated on the sense strand with triantennary N-Acetylgalactosamine (GalNAc) to facilitate uptake by hepatocytes. In hepatocytes, inclisiran utilizes the RNA interference mechanism and directs catalytic breakdown of mRNA for PCSK9." ([DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44), label version 2026-08-19; accessed 2026-11-19.) Based on known information, inclisiran is an siRNA that targets PCSK9 mRNA in hepatocytes, which increases LDL receptor availability and lowers LDL-C.
 
 This mechanism has no known role in potassium homeostasis. No plausible mechanistic link between the original use and potassium deficiency disease was identified. The high TxGNN score appears to be a model artifact, and there are no trials or publications to back it.
 
@@ -125,6 +125,19 @@ For aortic malformation (rank 8), two Phase 3 pediatric inclisiran trials were m
 - Detailed mechanism of action data from DrugBank
 - The approved indication text for the Singapore licence
 - Any mechanistic or clinical rationale linking PCSK9 silencing to potassium deficiency disease, before further evaluation is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

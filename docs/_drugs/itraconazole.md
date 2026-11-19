@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Itraconazole is a triazole antifungal, a class known to inhibit fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis in the fungal cell membrane. Its efficacy against many fungal infections is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for itraconazole: "In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes." ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), label version 2026-07-13; accessed 2026-11-19.) Itraconazole is a triazole antifungal, a class known to inhibit fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis in the fungal cell membrane. Its efficacy against many fungal infections is well established.
 
 The high TxGNN score for pneumocystosis is probably driven by network proximity to other opportunistic fungal infections. Mechanistically, the prediction is hard to support. *Pneumocystis jirovecii* has no ergosterol in its cell membrane (it uses cholesterol), so azoles that target ergosterol synthesis are not expected to act on it. The retrieved literature covers prophylaxis in transplant, HIV and neutropenic patients and histoplasmosis case reports, and none of it shows itraconazole activity against Pneumocystis.
 
@@ -137,6 +137,19 @@ The pneumocystosis prediction has model-only support (L5). The mechanism does no
 - Mechanism of action data, to be added from DrugBank.
 - Package insert warnings and contraindications from the HSA, which are needed before safety screening.
 - Approved indication text for the Singapore registrations, which is missing from the data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

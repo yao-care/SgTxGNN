@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **intracranial arteriosclerosis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ticagrelor is generally known as a reversible P2Y12 receptor antagonist that blocks platelet aggregation. Its established role is in preventing clots in coronary artery disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ticagrelor: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), label version 2026-05-07; accessed 2026-11-19.) Ticagrelor is generally known as a reversible P2Y12 receptor antagonist that blocks platelet aggregation. Its established role is in preventing clots in coronary artery disease.
 
 Symptomatic intracranial atherosclerotic stenosis involves platelet-driven clotting and small clots travelling downstream from the narrowed artery. Blocking platelets is therefore a plausible approach. Ticagrelor is also being studied in related cerebrovascular settings, such as minor stroke and TIA. A large randomized trial (PMID 34708996) compared it with clopidogrel in stroke/TIA patients carrying CYP2C19 loss-of-function genes. That trial concerns stroke prevention in general, not intracranial arteriosclerosis specifically, so it supports the mechanism rather than this exact indication.
 
@@ -113,6 +113,19 @@ The only direct evidence for intracranial arteriosclerosis is two studies with n
 - Package insert warnings and contraindications from the Singapore regulator (HSA)
 - Detailed mechanism of action data
 - A bleeding-risk and patient-selection plan, including CYP2C19 status and intracranial hemorrhage history
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **acne**, but there are current
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Risdiplam is known to be an SMN2 splicing modifier that increases inclusion of exon 7 in SMN2 transcripts, and it is used in spinal muscular atrophy. No mechanistic pathway is supported that links SMN2 splicing modulation to sebaceous gland biology or *Cutibacterium acnes*.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for risdiplam: "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain." ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e), label version 2026-11-02; accessed 2026-11-19.) Risdiplam is known to be an SMN2 splicing modifier that increases inclusion of exon 7 in SMN2 transcripts, and it is used in spinal muscular atrophy. No mechanistic pathway is supported that links SMN2 splicing modulation to sebaceous gland biology or *Cutibacterium acnes*.
 
 The high TxGNN score (0.9945, rank 6885) is therefore best read as a possible TxGNN model (deep learning) artifact, for example driven by shared gene-network neighbours or off-target associations, and not as independent biological evidence. The other top-ranked predictions are also unsupported by the data:
 
@@ -104,6 +104,19 @@ The prediction rests on a model score alone. No clinical trials or publications 
 - Preclinical or mechanistic evidence connecting SMN2 splicing modulation to acne biology
 - A route compatibility assessment: risdiplam is available only as an oral solution, while acne is commonly treated topically
 - A review of whether the prediction is a TxGNN model (deep learning) artifact, for example by checking the shared neighbours that drive the score
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, doxylamine is a first-generation H1 antihistamine with anticholinergic and sedative properties. H1 receptor blockade is a standard approach for histamine-mediated skin reactions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg (a combination product containing doxylamine): "The mechanism of action of doxylamine succinate and pyridoxine hydrochloride is unknown." ([DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b), label version 2026-08-24; accessed 2026-11-19.) Based on known pharmacology, doxylamine is a first-generation H1 antihistamine with anticholinergic and sedative properties. H1 receptor blockade is a standard approach for histamine-mediated skin reactions.
 
 Urticaria and angioedema are already among doxylamine's original indications, so allergic urticaria is mechanistically consistent with its known use. The very high TxGNN score mostly reflects this overlap with an existing indication rather than a genuinely new repurposing opportunity.
 
@@ -129,11 +129,12 @@ The prediction is supported only by the model score (L5). It largely duplicates 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both products are oral, single-ingredient registrations (listed as valid) from Duchesnay Inc" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b) |
 
 <!-- review:end log -->
 

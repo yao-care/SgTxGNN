@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **staphylococcus aureus infection*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for cilastatin is not available in the data compiled for this report. From the pharmacology records, cilastatin inhibits dehydropeptidase-I in the kidney. This prevents imipenem from being broken down there and keeps its levels high.
+ChEMBL (EMBL-EBI) records the mechanism of action of cilastatin as: Renal dipeptidase inhibitor ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; accessed 2026-11-19.) From the pharmacology records, cilastatin inhibits dehydropeptidase-I in the kidney. This prevents imipenem from being broken down there and keeps its levels high.
 
 Activity against *S. aureus* comes from imipenem, not cilastatin. Imipenem works reasonably well against methicillin-susceptible strains but is generally unreliable against MRSA. The MRSA literature therefore mostly describes combination or salvage regimens, for example imipenem/cilastatin with fosfomycin, arbekacin or vancomycin. The prediction is thus plausible only for the imipenem/cilastatin combination in selected cases. It does not support cilastatin as an independent agent.
 
@@ -110,6 +110,19 @@ Published experience supports imipenem/cilastatin in selected *S. aureus* infect
 - Mechanism-of-action data for cilastatin
 - Controlled data on imipenem/cilastatin against methicillin-susceptible and methicillin-resistant *S. aureus*, in combination regimens
 - Review against antimicrobial stewardship policy, since carbapenems are generally reserved
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for cilastatin is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

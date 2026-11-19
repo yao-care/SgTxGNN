@@ -56,7 +56,7 @@ Most of this evidence concerns hidradenitis suppurativa (also called "acne inver
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, acitretin is a second-generation oral retinoid. It normalises keratinocyte differentiation and reduces follicular hyperkeratinisation. These effects give plausible biological support for a role in follicular disorders.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acitretin: "The mechanism of action of acitretin is unknown." ([DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910), label version 2026-10-20; accessed 2026-11-19.) Based on known information, acitretin is a second-generation oral retinoid. It normalises keratinocyte differentiation and reduces follicular hyperkeratinisation. These effects give plausible biological support for a role in follicular disorders.
 
 Retinoids as a class reduce sebaceous gland activity, and isotretinoin is highly effective in acne. Acitretin has weaker direct sebosuppressive effects than isotretinoin. Its main clinical success has historically been in psoriasis and inherited keratinisation disorders.
 
@@ -128,6 +128,19 @@ The only trial is a Phase 4 study in hidradenitis suppurativa, with no results a
 - A pregnancy-prevention and monitoring plan covering liver function, lipids and ocular effects
 
 **Other predicted indications:** The remaining nine predictions (ranks 2–10) have no direct evidence and should be held. These are pediatric systemic lupus erythematosus, fetal erythroblastosis, familial cutaneous telangiectasia with oropharyngeal cancer predisposition, complement component 4a deficiency, subacute bacterial endocarditis, familial acanthosis nigricans, prolapse of lacrimal gland, familial localised heat urticaria and Sjögren syndrome. Several are implausible: fetal erythroblastosis (teratogenic risk), endocarditis (no antimicrobial activity) and lacrimal gland prolapse (acitretin causes dry eye). The Sjögren syndrome literature concerns Sjögren-Larsson syndrome, a different inherited ichthyosis disorder.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

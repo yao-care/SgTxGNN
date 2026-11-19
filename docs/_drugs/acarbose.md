@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **focal stiff limb syndrome**, but th
 
 ## Why is This Prediction Reasonable?
 
-Acarbose inhibits alpha-glucosidases in the small intestine, which slows carbohydrate digestion and reduces the rise in blood glucose after meals. Detailed mechanism-of-action data was not available in the compiled data, but this is its well-known pharmacology.
+Acarbose inhibits alpha-glucosidases in the small intestine, which slows carbohydrate digestion and reduces the rise in blood glucose after meals. According to the Mechanism of Action section of the US FDA-approved prescribing information for acarbose: "In contrast to sulfonylureas, Acarbose Tablets do not enhance insulin secretion. The antihyperglycemic action of acarbose results from a competitive, reversible inhibition of pancreatic alpha-amylase and membrane-bound intestinal alpha-glucoside hydrolase enzymes." ([DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a), label version 2026-08-11; accessed 2026-11-19.) This is its well-known pharmacology.
 
 Focal stiff limb syndrome is a neurological, likely autoimmune, disorder involving impaired GABAergic and glycine signalling in the central nervous system. Acarbose acts only in the gut and has no known effect on this pathway. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (for example, the association of stiff-person-spectrum disorders with diabetes), not biological evidence. There is no plausible mechanistic reason for this prediction at present.
 
@@ -125,11 +125,12 @@ The prediction rests only on a model score. There are no registered trials or pu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three are valid single-ingredient oral tablet licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the compiled data, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a) |
 
 <!-- review:end log -->
 

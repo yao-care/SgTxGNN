@@ -60,7 +60,7 @@ Evidence for this direction is limited and shows no clear virologic benefit.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, MMF inhibits inosine monophosphate dehydrogenase (IMPDH), which depletes guanosine nucleotide pools. This reduces lymphocyte proliferation, which may limit the pool of activated CD4+ target cells for HIV. Depleted guanosine pools may also potentiate nucleoside analogue reverse transcriptase inhibitors such as abacavir and didanosine. A small study of 5 patients (PMID 12352149) reported depletion of intracellular dGTP and a decrease in plasma HIV-1 RNA when MMF was added to an abacavir-containing regimen.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mycophenolate mofetil: "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis." ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9), label version 2026-07-31; accessed 2026-11-19.) Based on known pharmacology, MMF inhibits inosine monophosphate dehydrogenase (IMPDH), which depletes guanosine nucleotide pools. This reduces lymphocyte proliferation, which may limit the pool of activated CD4+ target cells for HIV. Depleted guanosine pools may also potentiate nucleoside analogue reverse transcriptase inhibitors such as abacavir and didanosine. A small study of 5 patients (PMID 12352149) reported depletion of intracellular dGTP and a decrease in plasma HIV-1 RNA when MMF was added to an abacavir-containing regimen.
 
 The rationale is mechanistically plausible, but the clinical data are small and show no clear virologic benefit. Immunosuppression in people with HIV also raises safety concerns, so the benefit-risk balance is uncertain.
 
@@ -163,12 +163,13 @@ Immunosuppression in HIV carries safety concerns, and the Singapore licence indi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only directly relevant trial was withdrawn, and the completed Phase 2 trial focused on a different agent" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-10-31 | Removed: "The mechanistic link (IMPDH inhibition and potentiation of nucleoside analogues) is plausible, but the clinical data are small, the only dir" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 
 <!-- review:end log -->
 

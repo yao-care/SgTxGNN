@@ -56,7 +56,7 @@ but **no clinical trials and no publications** are currently available to suppor
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology records, agomelatine binds melatonin MT1 and MT2 receptors and the serotonin 5-HT2A, 5-HT2B and 5-HT2C receptors. It is known for use in major depressive disorder.
+ChEMBL (EMBL-EBI) records the mechanism of action of agomelatine as: Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; accessed 2026-11-19.) From the pharmacology records, agomelatine binds melatonin MT1 and MT2 receptors and the serotonin 5-HT2A, 5-HT2B and 5-HT2C receptors. It is known for use in major depressive disorder.
 
 Benign paroxysmal torticollis of infancy is a rare paediatric episodic disorder in the migraine spectrum. No mechanistic link between melatonergic or 5-HT2C pharmacology and this condition was identified, and agomelatine use in infants and children is not established. The very high score should therefore be treated as a model signal that may reflect network proximity, not as evidence of efficacy.
 
@@ -96,6 +96,19 @@ The prediction has no supporting trials or literature, no plausible mechanism, a
 - Mechanism of action data and a plausible biological rationale for this condition
 - Any case reports, observational data or preclinical studies directly addressing benign paroxysmal torticollis of infancy
 - A paediatric safety assessment before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

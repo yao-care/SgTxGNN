@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **coronary artery disease**, bu
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ebastine is known to be a selective H1-receptor antagonist (second generation), and its efficacy in allergic rhinitis and urticaria is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of ebastine as: Histamine H1 receptor inverse agonist ([ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660), CC BY-SA 3.0; accessed 2026-11-19.) Ebastine is known to be a selective H1-receptor antagonist (second generation), and its efficacy in allergic rhinitis and urticaria is established.
 
 Histamine and mast cell activity have been discussed in coronary vasospasm and atherosclerosis, so a theoretical pathway exists. However, this link is speculative. H1 antagonism has not been shown to benefit coronary disease, and the high score is a model prediction only. It may partly reflect network proximity to other cardiac disease nodes rather than true biological rationale.
 
@@ -109,6 +109,19 @@ All ten predictions are supported by model output alone (L5), with no clinical t
 - A systematic literature search specific to ebastine/carebastine and coronary disease or myocardial ischemia (histamine, mast cells, vasospasm)
 - A QT and cardiac safety assessment before considering any cardiovascular use
 - Preclinical or mechanistic studies to establish a biological rationale for the top-ranked prediction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

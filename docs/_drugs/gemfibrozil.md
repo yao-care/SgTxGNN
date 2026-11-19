@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but s
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, gemfibrozil is a fibrate that activates PPAR-alpha, and its efficacy in lowering triglycerides is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for gemfibrozil: "Gemfibrozil is a lipid regulating agent which decreases serum triglycerides and very low density lipoprotein (VLDL) cholesterol, and increases high density lipoprotein (HDL) cholesterol. While modest decreases in total and low density lipoprotein (LDL) cholesterol may be observed with gemfibrozil therapy, treatment of patients with elevated triglycerides due to Type IV hyperlipoproteinemia often results in a rise in LDL-cholesterol." ([DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725), label version 2026-11-10; accessed 2026-11-19.) Based on known pharmacology, gemfibrozil is a fibrate that activates PPAR-alpha, and its efficacy in lowering triglycerides is established.
 
 PPAR agonism also has anti-inflammatory and immunomodulatory effects, such as reduced pro-inflammatory cytokines and modulation of T-cell responses. Because rheumatoid arthritis is a chronic immune-driven inflammatory disease, this offers a plausible, though indirect, mechanistic link. The supporting work comes from a pan-PPAR agonist (bezafibrate) in an experimental RA model and from a rat arthritis study combining gemfibrozil with a reduced steroid dose. Neither is human clinical evidence.
 
@@ -113,6 +113,19 @@ The TxGNN score is high, but the evidence is only preclinical and indirect (L4).
 ---
 
 **Note on other predictions:** Among the other predicted indications, **HIV infectious disease** (L2) and **hypoalphalipoproteinemia** (L2) have more supporting evidence than rheumatoid arthritis. However, these are largely extensions of gemfibrozil's existing lipid-lowering use (managing protease inhibitor-associated hypertriglyceridemia, and raising low HDL cholesterol) rather than true repurposing. They may be worth considering as research questions.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

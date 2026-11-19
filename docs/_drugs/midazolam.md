@@ -60,7 +60,7 @@ Evidence Level: **L2** | Predicted Indications: **1**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled data. Midazolam is known to be a GABA-A receptor positive allosteric modulator. This produces sedation, anxiolysis and sleep induction, so the mechanism is consistent with a hypnotic effect.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for midazolam: "Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant." ([DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e), label version 2025-07-31; accessed 2026-11-19.) Midazolam is known to be a GABA-A receptor positive allosteric modulator. This produces sedation, anxiolysis and sleep induction, so the mechanism is consistent with a hypnotic effect.
 
 Anxiety and insomnia often occur together, and both respond to enhanced GABAergic inhibition. Oral midazolam was studied as a sleep medication in the 1980s–1990s. These studies included dose-finding work and a 14-day comparison with flurazepam in chronic insomnia patients. This prediction is therefore closer to an established-use signal than to novel repurposing.
 
@@ -153,11 +153,12 @@ Oral midazolam has historical evidence as a hypnotic, including a 14-day RCT in 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 6 valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->
 

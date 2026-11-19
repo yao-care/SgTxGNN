@@ -56,7 +56,7 @@ but **no clinical trials** and **no publications** currently support this predic
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Acetic acid is generally known as a topical antibacterial and acidifying agent, but this cannot be tied to a specific mechanism for the predicted condition.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acetic acid: "Acetic acid is antibacterial and antifungal; propylene glycol is hydrophilic and provides a low surface tension; benzethonium chloride is a surface active agent that promotes contact of the solution with tissues." ([DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d), label version 2026-03-18; accessed 2026-11-19.) Acetic acid is generally known as a topical antibacterial and acidifying agent, but this cannot be tied to a specific mechanism for the predicted condition.
 
 "Post-bacterial disorder" is a vague, broad category. It covers sequelae that follow a bacterial infection, many of which are immune-mediated or toxin-mediated. A locally acting antimicrobial and pH-lowering agent has no clearly established route to affect such sequelae. The high score most likely reflects the disease's position in the model's network rather than a demonstrated mechanism, so the prediction is best treated as a hypothesis only.
 
@@ -96,6 +96,19 @@ The prediction has a very high model score, but there are no clinical trials or 
 - Preclinical or clinical studies that directly address the predicted condition
 - Package insert warnings and contraindications from the Singapore regulator
 - Confirmation of a suitable route of administration, since the locally licensed products are dialysis concentrates
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

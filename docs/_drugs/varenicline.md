@@ -64,7 +64,7 @@ Varenicline is a nicotinic receptor partial agonist. The TxGNN model predicts it
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. From the pharmacology of the drug class, varenicline is a partial agonist of α4β2 nicotinic acetylcholine receptors and a full agonist of α7 receptors. It is widely known as a smoking cessation aid.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for varenicline: "Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors." ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), label version 2026-01-23; accessed 2026-11-19.) From the pharmacology of the drug class, varenicline is a partial agonist of α4β2 nicotinic acetylcholine receptors and a full agonist of α7 receptors. It is widely known as a smoking cessation aid.
 
 <!-- review:begin sg-lic-20261106-varenicline-2 -->
 
@@ -138,13 +138,14 @@ The prediction rests on a model score alone (evidence level L5). There are no cl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "marketed in Singapore as Champix" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "although the Singapore licence records do not state the indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "Both licences are valid single-ingredient products from Pfizer Italia S.r.l. and are oral formulations. No licences have been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
 
 <!-- review:end log -->
 

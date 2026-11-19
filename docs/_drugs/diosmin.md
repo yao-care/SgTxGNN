@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but **no clinic
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, diosmin is a venoactive flavonoid used to support vascular tone, venous and lymphatic function, and to reduce inflammation and oxidative stress.
+ChEMBL (EMBL-EBI) records the mechanism of action of diosmin as: Unknown ([ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, diosmin is a venoactive flavonoid used to support vascular tone, venous and lymphatic function, and to reduce inflammation and oxidative stress.
 
 Amenorrhea is a condition of the endocrine and reproductive axis. There is no evident mechanistic path from diosmin's vascular and anti-inflammatory effects to the restoration of menstruation.
 
@@ -119,11 +119,12 @@ The amenorrhea prediction has no supporting trials or literature, and no plausib
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884) |
 
 <!-- review:end log -->
 

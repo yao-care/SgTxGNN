@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **Hurler syndrome**, but there 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, taliglucerase alfa is a plant-cell-expressed recombinant glucocerebrosidase (beta-glucosidase) that targets macrophage mannose receptors. Its efficacy in Gaucher disease, a lysosomal storage disorder, has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for taliglucerase alfa: "Gaucher disease is an autosomal recessive disorder caused by mutations in the human glucocerebrosidase gene, which results in a reduced activity of the lysosomal enzyme glucocerebrosidase. Glucocerebrosidase catalyzes the conversion of the sphingolipid glucocerebroside into glucose and ceramide." ([DailyMed: Elelyso (taliglucerase alfa) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3cbd5d-677c-4b19-9032-d9182cb69a83), label version 2025-12-29; accessed 2026-11-19.) Based on known information, taliglucerase alfa is a plant-cell-expressed recombinant glucocerebrosidase (beta-glucosidase) that targets macrophage mannose receptors. Its efficacy in Gaucher disease, a lysosomal storage disorder, has been established.
 
 Hurler syndrome (MPS I) is also a lysosomal storage disease, but it is caused by a deficiency of alpha-L-iduronidase, leading to accumulation of glycosaminoglycans. The missing enzyme and the accumulated substrate both differ from those in Gaucher disease, so glucocerebrosidase replacement would not be expected to address the underlying defect.
 
@@ -116,6 +116,19 @@ The prediction is supported only by the model score. The enzyme and the substrat
 - Package insert warnings and contraindications from the HSA website
 - Preclinical or mechanistic evidence that glucocerebrosidase replacement can affect glycosaminoglycan accumulation in MPS I
 - Evaluation of whether other predicted indications have any plausible biological rationale
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elelyso (taliglucerase alfa) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3cbd5d-677c-4b19-9032-d9182cb69a83) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

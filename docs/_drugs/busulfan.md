@@ -56,7 +56,7 @@ The evidence is for busulfan as part of a transplant conditioning regimen, not a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Busulfan is a bifunctional alkylating agent that cross-links DNA. In transplant medicine it is used as a myeloablative or reduced-intensity conditioning backbone before allogeneic hematopoietic stem cell transplantation (HSCT).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for busulfan: "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203), label version 2026-07-29; accessed 2026-11-19.) Busulfan is a bifunctional alkylating agent that cross-links DNA. In transplant medicine it is used as a myeloablative or reduced-intensity conditioning backbone before allogeneic hematopoietic stem cell transplantation (HSCT).
 
 For MDS, allogeneic HSCT is the only potentially curative therapy. Busulfan's role is to eradicate the abnormal marrow clone and create space for donor cells to engraft. This is a transplant-conditioning use rather than a classic repurposing, and busulfan is not expected to act alone against MDS.
 
@@ -149,6 +149,19 @@ Busulfan-based conditioning is directly studied in MDS, including a completed Ph
 - Confirmation of the mechanism of action from DrugBank
 - A transplant-centre protocol covering dosing (including AUC-guided monitoring), myelosuppression management, and long-term and secondary malignancy follow-up
 - A review of the major and moderate drug interactions before use in conditioning regimens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

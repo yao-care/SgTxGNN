@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **stroke disorder**, but the link 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, flecainide is a Class 1C sodium channel blocker. Its efficacy in maintaining rhythm control in atrial fibrillation is established, and any benefit in stroke would be indirect.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for flecainide: "Flecainide has local anesthetic activity and belongs to the membrane stabilizing (Class 1) group of antiarrhythmic agents; it has electrophysiologic effects characteristic of the IC class of antiarrhythmics. Electrophysiology In man, flecainide produces a dose-related decrease in intracardiac conduction in all parts of the heart with the greatest effect on the His-Purkinje system (H-V conduction)." ([DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4), label version 2026-06-11; accessed 2026-11-19.) Based on known information, flecainide is a Class 1C sodium channel blocker. Its efficacy in maintaining rhythm control in atrial fibrillation is established, and any benefit in stroke would be indirect.
 
 Atrial fibrillation is a major cause of cardioembolic stroke. If flecainide helps maintain sinus rhythm, it could in theory lower stroke risk in selected patients. The one Phase 3 trial (NCT05213104) tests flecainide for preventing atrial arrhythmia after patent foramen ovale (PFO) closure in patients with prior cryptogenic stroke. Its primary endpoint is arrhythmia, not recurrent stroke.
 
@@ -116,6 +116,19 @@ The only trial (Phase 3, active, not recruiting) targets arrhythmia after PFO cl
 - The Singapore package insert (warnings, contraindications, approved indications)
 - Detailed mechanism of action data
 - A patient-selection plan excluding structural and ischaemic heart disease, with ECG monitoring and review of interacting drugs (especially dolasetron and eliglustat)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

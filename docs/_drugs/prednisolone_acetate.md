@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **conjunctival folliculosis**, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general knowledge, prednisolone acetate is a glucocorticoid applied to the eye. Corticosteroids of this type suppress inflammation on the ocular surface and inside the eye.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisolone acetate: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), label version 2025-06-03; accessed 2026-11-19.) Based on general knowledge, prednisolone acetate is a glucocorticoid applied to the eye. Corticosteroids of this type suppress inflammation on the ocular surface and inside the eye.
 
 The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are not approved indications confirmed by the Singapore licence text. Conjunctival folliculosis is a follicular change of the conjunctiva, so an anti-inflammatory drug is plausible on paper. However, folliculosis is often benign and self-limited, so the need for corticosteroid treatment is doubtful.
 
@@ -113,6 +113,19 @@ The prediction score is high, but no trial or publication studies conjunctival f
 - Mechanism of action data
 - Any trials or case series on corticosteroids in follicular conjunctival disease
 - Safety monitoring plan for intraocular pressure and infection
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

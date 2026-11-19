@@ -58,7 +58,7 @@ The evidence is mostly small studies, with no Phase 3 trial.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, duloxetine is a serotonin-norepinephrine reuptake inhibitor. Its efficacy in depression and anxiety is established, and serotonin reuptake inhibition is also the core mechanism of OCD pharmacotherapy. SSRIs and clomipramine are first-line treatments.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for duloxetine: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), label version 2026-08-20; accessed 2026-11-19.) Based on known information, duloxetine is a serotonin-norepinephrine reuptake inhibitor. Its efficacy in depression and anxiety is established, and serotonin reuptake inhibition is also the core mechanism of OCD pharmacotherapy. SSRIs and clomipramine are first-line treatments.
 
 OCD is closely related to the anxiety and mood disorders for which duloxetine is already used. Reviews of SNRIs in OCD (including venlafaxine) suggest they may be an alternative when first-line drugs fail. Duloxetine also adds noradrenergic activity, which may help some patients who do not respond to SSRIs.
 
@@ -138,12 +138,13 @@ The other predictions are weaker:
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The drug is already marketed in Singapore, which lowers the access barrier" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "Confirmation of the approved indications for the registered Singapore products, since the registration records give no indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
 
 <!-- review:end log -->
 

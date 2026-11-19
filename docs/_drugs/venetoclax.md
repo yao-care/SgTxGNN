@@ -60,7 +60,7 @@ For this specific subtype there are currently **0 clinical trials** and **0 publ
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Venetoclax is nonetheless a well-known selective BCL-2 inhibitor. BCL-2 is an anti-apoptotic protein that many B-cell malignancies depend on, and blocking it restores programmed cell death in the cancer cells. CLL/SLL cells characteristically overexpress BCL-2, so the mechanism is biologically plausible for this subtype.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for venetoclax: "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics." ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), label version 2026-05-20; accessed 2026-11-19.) Venetoclax is nonetheless a well-known selective BCL-2 inhibitor. BCL-2 is an anti-apoptotic protein that many B-cell malignancies depend on, and blocking it restores programmed cell death in the cancer cells. CLL/SLL cells characteristically overexpress BCL-2, so the mechanism is biologically plausible for this subtype.
 
 This prediction is not a true repurposing case. Venetoclax is already established in CLL generally, and IGHV-mutated CLL/SLL is a molecular subtype of that disease. The model's high score probably reflects this close relationship to indications venetoclax already has. It is not evidence of a newly discovered use.
 
@@ -132,6 +132,19 @@ The prediction is mechanistically plausible but has no trials or publications sp
 - Confirmation of the Singapore-approved indications and the full warnings and contraindications from the HSA package insert
 - Detailed mechanism-of-action data
 - A drug-interaction management plan, particularly for CYP3A inhibitors, and a tumour lysis syndrome and myelosuppression monitoring plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

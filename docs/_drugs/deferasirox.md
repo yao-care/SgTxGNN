@@ -60,7 +60,7 @@ but there are currently **0 clinical trials** and only **2 publications** (one g
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, deferasirox is an iron chelator, its use in iron overload from beta-thalassemia and other hemoglobinopathies is established, and mechanistically it may be applicable to conditions in which iron status influences disease biology.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for deferasirox: "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85), label version 2026-01-28; accessed 2026-11-19.) Based on known information, deferasirox is an iron chelator, its use in iron overload from beta-thalassemia and other hemoglobinopathies is established, and mechanistically it may be applicable to conditions in which iron status influences disease biology.
 
 The proposed link to HIV is indirect. A 2021 preclinical study (PMID 34550543) reports that iron in endolysosomes restricts Tat-mediated HIV-1 LTR transactivation by increasing Tat oligomerization and β-catenin expression. This suggests that iron chelation could modulate HIV-1 transcription. However, the direction of the effect is unresolved: depleting iron may relieve the restriction and increase Tat activity, which would work against the drug.
 
@@ -138,6 +138,19 @@ The HIV prediction rests on one indirect preclinical study whose direction of ef
 - Clarify in vitro whether iron chelation by deferasirox suppresses or enhances HIV-1 Tat activity
 - Assess the safety concerns above (kidney, liver, and blood cell counts) for people living with HIV
 - Run a targeted literature search for chelation in pyruvate kinase deficiency, the most mechanistically plausible alternative prediction, and check whether "beta-thalassemia with other manifestations" is only a variant of an existing indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

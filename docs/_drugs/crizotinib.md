@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **gingival fibromatosis (fibromato
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. From general knowledge, crizotinib is a small-molecule inhibitor of the receptor tyrosine kinases ALK, ROS1 and MET, which drive certain tumours when they are rearranged or overactive.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for crizotinib: "Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins." ([DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7), label version 2026-10-29; accessed 2026-11-19.) From general knowledge, crizotinib is a small-molecule inhibitor of the receptor tyrosine kinases ALK, ROS1 and MET, which drive certain tumours when they are rearranged or overactive.
 
 Gingival fibromatosis is a condition of excessive gum tissue growth. Nothing in the data compiled for this report links ALK, ROS1 or MET signalling to this condition. The high score (0.9981) is a computational output only, and no plausible biological pathway can be supported from the available data. The prediction should be treated as a hypothesis, not as a finding.
 
@@ -108,6 +108,19 @@ The only support is a computational score. There are no trials or publications f
 - Expert review of whether kinase inhibition is plausible in a non-malignant gum-overgrowth condition
 - Package insert warnings and contraindications (HSA), plus detailed mechanism of action data
 - A risk-benefit assessment, given the known toxicities of crizotinib (for example liver, cardiac and QT effects) against a benign condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but the supporting evidence is thin: **0 clinical trials** and **1 publication**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Mepolizumab is known to be an anti-IL-5 antibody that depletes eosinophils, which is why it fits eosinophil-driven diseases such as eosinophilic pneumonia and pulmonary eosinophilia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mepolizumab: "Mepolizumab is an IL-5 antagonist (IgG1 kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Mepolizumab binds to IL-5 with a dissociation constant of 100 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil cell surface." ([DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea), label version 2025-08-06; accessed 2026-11-19.) Mepolizumab is known to be an anti-IL-5 antibody that depletes eosinophils, which is why it fits eosinophil-driven diseases such as eosinophilic pneumonia and pulmonary eosinophilia.
 
 The link to immune thrombocytopenia is indirect. A single case report describes a patient with a steroid-resistant hypereosinophilic immune disorder and a mixed thrombotic microangiopathy who improved on mepolizumab. The benefit is plausibly due to controlling eosinophil-driven immune dysregulation, not to a direct effect on platelet autoimmunity (anti-platelet autoantibodies and Fc-gamma receptor-mediated platelet clearance). The high TxGNN score is a computational prediction and does not replace clinical evidence.
 
@@ -112,11 +112,12 @@ The top prediction rests on a single case report in a different condition (hyper
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three licences are valid single-ingredient products from Glaxo Operations UK Ltd" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ with **6 clinical trials** and **20 publications** compiled for this report, inc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on the literature, pazopanib is a multi-target tyrosine kinase inhibitor with anti-angiogenic and antitumour properties, acting on VEGFR and PDGFR signalling, which are relevant to soft tissue sarcoma tumour angiogenesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pazopanib: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), label version 2025-12-16; accessed 2026-11-19.) Based on the literature, pazopanib is a multi-target tyrosine kinase inhibitor with anti-angiogenic and antitumour properties, acting on VEGFR and PDGFR signalling, which are relevant to soft tissue sarcoma tumour angiogenesis.
 
 Liposarcoma is a soft tissue sarcoma, so a shared pathway is plausible. The evidence is mixed, however. Liposarcoma (adipocytic sarcoma) was reported to have shown a lack of benefit in the earlier Phase 2 program, and the activity seen in advanced liposarcoma is subtype-dependent. Other trials enrol mixed soft tissue sarcoma populations and are only partly specific to liposarcoma.
 
@@ -126,6 +126,18 @@ Two completed Phase 2 trials of pazopanib in advanced liposarcoma (NCT01506596, 
 - Package insert warnings and contraindications from the HSA, which are currently missing
 - Mechanism-of-action data
 - Safety monitoring plan covering blood pressure, QT interval, liver function and the major drug interactions above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

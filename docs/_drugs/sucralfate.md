@@ -58,7 +58,7 @@ Sucralfate is a non-systemic mucosal protectant, originally used to treat duoden
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on the supplied literature, sucralfate is a basic aluminium salt of sulphated sucrose. It is minimally absorbed and acts locally. It adheres to damaged or ulcerated mucosa, forming a protective barrier against acid, pepsin and bile salts. Reviews also describe stimulation of mucus, bicarbonate and prostaglandin production.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for sucralfate: "Although the mechanism of sucralfate's ability to accelerate healing of duodenal ulcers remains to be fully defined, it is known that it exerts its effect through a local, rather than systemic, action. The following observations also appear pertinent: 1." ([DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9), label version 2026-01-06; accessed 2026-11-19.) Based on the supplied literature, sucralfate is a basic aluminium salt of sulphated sucrose. It is minimally absorbed and acts locally. It adheres to damaged or ulcerated mucosa, forming a protective barrier against acid, pepsin and bile salts. Reviews also describe stimulation of mucus, bicarbonate and prostaglandin production.
 
 Duodenogastric reflux is the backflow of duodenal contents, including bile, into the stomach. Because sucralfate adsorbs bile salts and protects the mucosa, a benefit is biologically plausible. Duodenal ulcer, the original indication, and duodenogastric reflux both involve mucosal injury in the upper gastrointestinal tract. However, **the data compiled for this report contain no trial or publication that directly supports this link**.
 
@@ -141,6 +141,19 @@ The duodenogastric reflux prediction is supported only by the model score (L5), 
 - Mechanism of action data from DrugBank
 - A renal safety and aluminium exposure assessment, and a dose-separation plan for the interacting drugs, particularly dolutegravir and bictegravir
 - Confirmation of oral route and formulation suitability, which is currently pending
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

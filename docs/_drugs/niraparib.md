@@ -55,7 +55,7 @@ The TxGNN model (deep learning) predicts it may be effective for **Epiglottis Ne
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, niraparib inhibits the DNA-repair enzymes PARP1 and PARP2. It works mainly through synthetic lethality in tumours with homologous recombination deficiency (HRD), such as BRCA-mutated tumours. Its efficacy in ovarian and peritoneal serous cancers is established, and mechanistically it could apply to other tumours that share this DNA-repair weakness.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for niraparib: "Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death." ([DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d), label version 2026-07-28; accessed 2026-11-19.) Based on known information, niraparib inhibits the DNA-repair enzymes PARP1 and PARP2. It works mainly through synthetic lethality in tumours with homologous recombination deficiency (HRD), such as BRCA-mutated tumours. Its efficacy in ovarian and peritoneal serous cancers is established, and mechanistically it could apply to other tumours that share this DNA-repair weakness.
 
 For epiglottis neoplasm, however, no direct link has been established. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The data contain no HRD or BRCA information for epiglottic tumours, and no studies or case reports connect PARP inhibition to this disease. The prediction should therefore be treated as a hypothesis, not as supported evidence.
 
@@ -127,11 +127,12 @@ For context, the second-ranked prediction, cystic neoplasm, has a different evid
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four registrations are valid and oral" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
 
 <!-- review:end log -->
 

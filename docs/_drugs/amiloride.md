@@ -56,7 +56,7 @@ There are currently **no clinical trials** and **no publications** supporting th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. From general pharmacology, amiloride blocks ENaC in the distal nephron, which reduces sodium reabsorption, and this can contribute to lowering blood pressure while sparing potassium.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for amiloride: "Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies." ([DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68), label version 2026-11-11; accessed 2026-11-19.) From general pharmacology, amiloride blocks ENaC in the distal nephron, which reduces sodium reabsorption, and this can contribute to lowering blood pressure while sparing potassium.
 
 Malignant hypertensive renal disease is kidney damage driven by severely elevated blood pressure. A drug that lowers blood pressure through sodium handling is mechanistically plausible here. However, no trials or publications were retrieved for this specific condition. The high score (0.9982) most likely reflects the drug's close relationship with other hypertension-related conditions, rather than direct evidence in this disease.
 
@@ -99,6 +99,19 @@ The prediction has a high model score but no supporting clinical trials or publi
 - Obtain mechanism of action data
 - Search for studies of amiloride or ENaC blockade in malignant or severe hypertensive kidney disease
 - Assess hyperkalaemia and renal-function risk in patients with hypertensive kidney damage
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

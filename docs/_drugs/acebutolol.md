@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, acebutolol is a cardioselective beta-1 blocker with intrinsic sympathomimetic activity. Its blood-pressure-lowering effect in hypertension is recorded in the knowledge graph, and mechanistically it may be applicable to hypertension-related kidney disease. Beta-1 blockade reduces renin release and sympathetic activation, both of which contribute to hypertensive kidney injury.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acebutolol: "Acebutolol is a cardioselective, β-adrenoreceptor blocking agent, which possesses mild intrinsic sympathomimetic activity (ISA) in its therapeutically effective dose range." ([DailyMed: acebutolol hydrochloride prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa40a564-a579-15c1-e053-6294a90ad8e9), label version 2026-01-13; accessed 2026-11-19.) Based on known information, acebutolol is a cardioselective beta-1 blocker with intrinsic sympathomimetic activity. Its blood-pressure-lowering effect in hypertension is recorded in the knowledge graph, and mechanistically it may be applicable to hypertension-related kidney disease. Beta-1 blockade reduces renin release and sympathetic activation, both of which contribute to hypertensive kidney injury.
 
 Malignant hypertensive renal disease is a severe end-organ complication of uncontrolled hypertension. The link to the original indication is therefore close. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. In effect, this is an extension of the existing use to a complication, not a novel use.
 
@@ -104,6 +104,19 @@ The prediction has no supporting clinical trials or publications (L5). It is lar
 - A literature and trial search specifically on beta-blockers in malignant hypertensive nephropathy
 - Clarification of the approved indications on the Singapore licences
 - Review of the kidney-disease contraindication relation against the label and clinical practice
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acebutolol hydrochloride prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa40a564-a579-15c1-e053-6294a90ad8e9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ Currently **no registered clinical trials** are linked to this exact indication,
 
 ## Why is This Prediction Reasonable?
 
-Tolvaptan blocks the vasopressin V2 receptor in the kidney. In polycystic kidney disease, raised intracellular cAMP drives cyst-cell proliferation and fluid secretion. By blocking V2 receptors, tolvaptan lowers renal cAMP and slows cyst growth. Note that detailed mechanism-of-action data from DrugBank were not available for this report; the description above comes from the mechanistic analysis compiled for this prediction.
+Tolvaptan blocks the vasopressin V2 receptor in the kidney. In polycystic kidney disease, raised intracellular cAMP drives cyst-cell proliferation and fluid secretion. By blocking V2 receptors, tolvaptan lowers renal cAMP and slows cyst growth. According to the Mechanism of Action section of the US FDA-approved prescribing information for tolvaptan: "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor." ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), label version 2026-09-30; accessed 2026-11-19.)
 
 The original indications already include polycystic kidney disease, and PKD3 (GANAB-related) belongs to the same disease family with a shared cyst-formation pathway. This prediction is therefore a close extension of an existing indication rather than a wholly new one.
 
@@ -120,6 +120,19 @@ Tolvaptan has strong RCT and systematic-review evidence in ADPKD, and PKD3 share
 - Detailed mechanism-of-action data from DrugBank
 - Evidence or case series specific to PKD3 (GANAB) and polycystic liver disease
 - A liver function monitoring plan and patient selection criteria, taking into account the contraindicated conditions and major interactions above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Note that detailed mechanism-of-action data from DrugBank were not available for this report; the description above comes from the mechanistic analysis compiled for this prediction" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

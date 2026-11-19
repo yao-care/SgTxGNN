@@ -56,7 +56,7 @@ The evidence is early-stage and should be treated as a research question, not as
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Aminophylline is generally known as a non-selective adenosine receptor antagonist and phosphodiesterase inhibitor. Adenosine signalling is implicated in migraine, including trigeminovascular activation and cerebral vasodilation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aminophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction; smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., nonbronchodilator prophylactic effects)." ([DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d), label version 2026-05-26; accessed 2026-11-19.) Aminophylline is generally known as a non-selective adenosine receptor antagonist and phosphodiesterase inhibitor. Adenosine signalling is implicated in migraine, including trigeminovascular activation and cerebral vasodilation.
 
 Supporting this, a case report describes a hemiplegic migraine episode triggered by regadenoson, an adenosine A2A receptor agonist. Blocking adenosine could therefore plausibly reduce migraine. A 2023 narrative article proposes that migraine may involve impaired brain energy metabolism with high adenosine levels, and that aminophylline may relieve pain, particularly post-dural headache.
 
@@ -113,6 +113,19 @@ The migraine prediction has a high model score and a plausible adenosine-antagon
 - **Pulmonary hypertension (score 0.9923, L3):** One completed Phase 1 safety and interaction study with ambrisentan (NCT01530464, n=18) and several small, mostly old, haemodynamic studies. No Phase 2/3 RCT. It is the next most-supported prediction after migraine.
 - **Migraine with brainstem aura, migraine susceptibility, atrophoderma vermiculata, ulerythema ophryogenesis, sciatic neuropathy, kyphoscoliotic heart disease:** Prediction only, or irrelevant or preclinical literature. Hold.
 - **Prinzmetal angina and hyperthyroidism:** The literature suggests possible harm rather than benefit. Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

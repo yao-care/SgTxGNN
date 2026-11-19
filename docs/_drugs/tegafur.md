@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **cecum villous adenoma**, but **n
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Tegafur belongs to the fluoropyrimidine class. It is a prodrug of 5-fluorouracil (5-FU), which interferes with DNA synthesis in rapidly dividing cells.
+ChEMBL (EMBL-EBI) records the mechanism of action of tegafur as: RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; accessed 2026-11-19.) Tegafur belongs to the fluoropyrimidine class. It is a prodrug of 5-fluorouracil (5-FU), which interferes with DNA synthesis in rapidly dividing cells.
 
 The high TxGNN score most likely reflects how closely this disease sits to cancers of the large bowel in the model's network of drug and disease relationships. It does not reflect direct evidence for tegafur. A villous adenoma is a benign precursor lesion. It is normally managed by endoscopic or surgical removal, so there is no clear role for cytotoxic chemotherapy. The mechanistic rationale is therefore weak, and the prediction should be treated as a hypothesis only.
 
@@ -99,6 +99,18 @@ The prediction rests on the model score alone. There are no clinical trials or p
 - Mechanism of action data for tegafur
 - Package insert warnings and contraindications from the Singapore regulator
 - A clinical justification for drug therapy over endoscopic or surgical removal of this lesion
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

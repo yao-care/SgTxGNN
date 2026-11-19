@@ -56,7 +56,7 @@ The high prediction score is most likely a network-prediction artifact rather th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, galcanezumab is a humanized monoclonal antibody that neutralizes calcitonin gene-related peptide (CGRP), a key mediator in migraine. Its efficacy in migraine prevention is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for galcanezumab: "Galcanezumab-gnlm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0), label version 2026-06-05; accessed 2026-11-19.) Based on known information, galcanezumab is a humanized monoclonal antibody that neutralizes calcitonin gene-related peptide (CGRP), a key mediator in migraine. Its efficacy in migraine prevention is well established.
 
 Heparin cofactor 2 deficiency is a hereditary coagulation-inhibitor disorder involving impaired regulation of thrombin. There is no plausible mechanistic link between CGRP blockade and thrombin regulation. The very high score (0.9950) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or publications support the prediction.
 
@@ -99,6 +99,19 @@ The prediction has no clinical trials, no literature, and no plausible mechanist
 - Mechanism of action (MOA) data to be added to the drug record
 - Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
 - Review of other predictions for this drug. The prediction for **migraine with brainstem aura** has the strongest support, at evidence level L3. It is essentially an extension within the approved migraine indication rather than true repurposing, and it carries a glaucoma risk signal for CGRP inhibitors that warrants safety monitoring.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

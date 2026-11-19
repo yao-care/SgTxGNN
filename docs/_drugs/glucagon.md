@@ -56,7 +56,7 @@ The two linked trials and the supporting literature concern GLP-1 (glucagon-like
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for glucagon is not available in the data compiled for this report. Glucagon and GLP-1 are both derived from the proglucagon gene and act on related G-protein-coupled receptors in the gut.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for glucagon: "Glucagon increases blood glucose concentration by activating hepatic glucagon receptors, thereby stimulating glycogen breakdown and release of glucose from the liver. Hepatic stores of glycogen are necessary for glucagon to produce an antihypoglycemic effect." ([DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84), label version 2020-09-16; accessed 2026-11-19.) Glucagon and GLP-1 are both derived from the proglucagon gene and act on related G-protein-coupled receptors in the gut.
 
 Both peptides inhibit gastrointestinal motility. Glucagon is used clinically as a spasmolytic during GI imaging. This is plausibly relevant to IBS symptoms such as pain, cramping and altered transit.
 
@@ -114,6 +114,18 @@ No study tests glucagon in irritable bowel syndrome. The supporting trials and p
 - Mechanism of action data for glucagon, to test whether its spasmolytic effect matches the IBS symptom profile.
 - Safety information from the package insert, including warnings and contraindications.
 - An assessment of whether injectable dosing and short duration of action suit a chronic condition like IBS.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for glucagon is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

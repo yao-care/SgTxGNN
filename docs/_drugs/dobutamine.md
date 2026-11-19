@@ -60,7 +60,7 @@ The prediction is therefore model-only, with no credible supporting evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dobutamine is a beta-1 adrenergic agonist given intravenously to increase cardiac contractility, for example in acute heart failure or low-output states.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for dobutamine: "Dobutamine hydrochloride is a direct-acting inotropic agent whose primary activity results from stimulation of the beta-receptors of the heart while producing comparatively mild chronotropic, hypertensive, arrhythmogenic, and vasodilative effects. It does not cause the release of endogenous norepinephrine, as does dopamine." ([DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead), label version 2023-09-08; accessed 2026-11-19.) Based on general pharmacology, dobutamine is a beta-1 adrenergic agonist given intravenously to increase cardiac contractility, for example in acute heart failure or low-output states.
 
 The prediction has no credible mechanistic basis. Dobutamine has no known action on hair follicles. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only retrieved paper describes heart failure caused by minoxidil poisoning in a cat, in which dobutamine was used only to treat low blood pressure. It does not evaluate dobutamine for alopecia.
 
@@ -128,6 +128,19 @@ The prediction rests only on a model score. There are no clinical trials, no sup
 - Preclinical evidence of an effect on hair follicles or hair growth
 - Assessment of whether a topical route is feasible, since only an injectable form is registered in Singapore
 - Re-examination of whether the alopecia prediction is a minoxidil-related TxGNN model (deep learning) artefact
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

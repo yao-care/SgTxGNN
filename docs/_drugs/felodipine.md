@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** that direct
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, felodipine is a dihydropyridine L-type calcium channel blocker that relaxes vascular smooth muscle and causes vasodilation. This is how it lowers blood pressure in hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for felodipine: "Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein." ([DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115), label version 2024-08-07; accessed 2026-11-19.) From known pharmacology, felodipine is a dihydropyridine L-type calcium channel blocker that relaxes vascular smooth muscle and causes vasodilation. This is how it lowers blood pressure in hypertension.
 
 In theory, the same vasodilation could lower pulmonary vascular resistance. However, calcium channel blockers are useful only in the small subset of vasoreactive pulmonary arterial hypertension patients. That rationale does not extend to a heterogeneous, multifactorial group. The only support for this prediction is the model score; no trial or publication studies this disease directly.
 
@@ -109,6 +109,19 @@ The prediction for pulmonary hypertension with unclear multifactorial mechanism 
 - Clinical or well-designed preclinical studies in pulmonary hypertension, ideally with a defined, vasoreactive subgroup
 - A safety assessment covering gas exchange in lung disease and use in heart failure
 - Consideration of chronic pulmonary heart disease as a research question, since indirect haemodynamic data exist (e.g. the COPD study), but these are not sufficient to support a decision
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

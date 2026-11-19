@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acrodermatitis chronica atrop
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Tetracaine is known as an ester local anaesthetic that blocks sodium channels, which produces local numbness. It has no recognised antimicrobial or anti-inflammatory activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tetracaine: "Tetracaine blocks sodium ion channels required for the initiation and conduction of neuronal impulses thereby affecting local anesthesia." ([DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a), label version 2026-08-28; accessed 2026-11-19.) Tetracaine is known as an ester local anaesthetic that blocks sodium channels, which produces local numbness. It has no recognised antimicrobial or anti-inflammatory activity.
 
 Acrodermatitis chronica atrophicans is a late-stage skin manifestation of Borrelia infection and is treated with antibiotics. No mechanistic link to tetracaine could be identified. The high score most likely reflects the model's network proximity to dermatological indications rather than real biology, so the prediction should be treated as a hypothesis only.
 
@@ -128,6 +128,19 @@ The prediction rests on a model score alone, with no clinical trials or literatu
 - Approved indication text for the three Singapore licences
 - Any preclinical or clinical evidence for a disease-relevant effect, if a new indication is to be pursued
 - Review of whether the original dermatitis indication is supported
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

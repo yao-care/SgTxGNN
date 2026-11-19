@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, carvedilol blocks beta-adrenergic and alpha-1 receptors and causes vasodilation, which lowers blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carvedilol: "COREG is a racemic mixture in which nonselective β-adrenoreceptor blocking activity is present in the S(-) enantiomer and α1-adrenergic blocking activity is present in both R(+) and S(-) enantiomers at equal potency. COREG has no intrinsic sympathomimetic activity." ([DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39), label version 2026-07-31; accessed 2026-11-19.) Based on general pharmacology, carvedilol blocks beta-adrenergic and alpha-1 receptors and causes vasodilation, which lowers blood pressure.
 
 Malignant hypertensive renal disease is kidney injury driven by severely elevated blood pressure. A blood-pressure-lowering drug therefore has a plausible rationale. However, the high score most likely reflects the closeness of this condition to hypertension, which is already a use of the drug. It is an extension of an existing use, not independent repurposing evidence. No trial or publication was supplied to test whether carvedilol protects the kidney in this setting.
 
@@ -103,6 +103,19 @@ The prediction has a high model score but no supporting trials or publications f
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from the regulator
 - Review of the interaction with epinephrine and of other safety issues in severe hypertension
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

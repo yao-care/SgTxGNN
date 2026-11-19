@@ -57,7 +57,7 @@ It is covered in the supplementary section below.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the literature, perampanel is a selective, non-competitive AMPA-type glutamate receptor antagonist. It reduces glutamate-mediated excitation at postsynaptic membranes and is approved as add-on therapy for focal-onset seizures.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for perampanel: "Perampanel is a non-competitive antagonist of the ionotropic α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) glutamate receptor on post-synaptic neurons. Glutamate is the primary excitatory neurotransmitter in the central nervous system and is implicated in a number of neurological disorders caused by neuronal over excitation." ([DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122), label version 2022-12-28; accessed 2026-11-19.) From the literature, perampanel is a selective, non-competitive AMPA-type glutamate receptor antagonist. It reduces glutamate-mediated excitation at postsynaptic membranes and is approved as add-on therapy for focal-onset seizures.
 
 Visual (visually triggered) epilepsy is a reflex epilepsy and may share the glutamatergic hyperexcitability seen in focal epilepsy. This is the mechanistic basis for the prediction. However, none of the retrieved papers study visually triggered seizures. They are general epilepsy reviews, guidelines and perampanel studies, so the link is plausible but unproven.
 
@@ -141,6 +141,19 @@ Support rests on the shared AMPA-mediated mechanism and general epilepsy data (L
 - Mechanism of action data from DrugBank
 - Monitoring of psychiatric adverse effects, and a review of interactions with sedating drugs
 - Separate evaluation of **status epilepticus**, the best-supported alternative. It could move forward as a research question once results from the recruiting Phase 2 trial (NCT06401707) are available.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

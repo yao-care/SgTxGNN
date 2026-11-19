@@ -60,7 +60,7 @@ but the data compiled for this report contain **no clinical trials** and only **
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Captopril belongs to the ACE inhibitor class. These drugs reduce the production of angiotensin II, which narrows blood vessels, and also reduce aldosterone release. Mechanistically, this is plausible for severe hypertension that damages the kidneys, because the renin-angiotensin system is often strongly activated in that setting.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for captopril: "The mechanism of action of captopril tablets have not yet been fully elucidated. Its beneficial effects in hypertension and heart failure appear to result primarily from suppression of the renin-angiotensin-aldosterone system." ([DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017), label version 2026-11-11; accessed 2026-11-19.) Captopril belongs to the ACE inhibitor class. These drugs reduce the production of angiotensin II, which narrows blood vessels, and also reduce aldosterone release. Mechanistically, this is plausible for severe hypertension that damages the kidneys, because the renin-angiotensin system is often strongly activated in that setting.
 
 The only publication retrieved is a case report in which captopril renography was used as a diagnostic test. In that patient, a renal cell carcinoma, not renal artery stenosis, explained the renin-dependent hypertension, which resolved after nephrectomy. This report does not show that captopril treats malignant hypertensive renal disease. The high score (0.9928) is a model prediction only.
 
@@ -122,6 +122,19 @@ The prediction score is high (0.9928), but there are no clinical trials and the 
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from the Singapore regulator (HSA)
 - Assessment of dosing, route and renal-safety monitoring in severe hypertension with kidney involvement
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

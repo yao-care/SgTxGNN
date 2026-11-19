@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, erythromycin is a macrolide antibiotic with both antibacterial and anti-inflammatory activity. Its efficacy in bacterial infections, including conjunctivitis and staphylococcal infections, is established, and mechanistically it may be applicable to bacterial or staphylococcal-associated ocular surface disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for erythromycin: "Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis." ([DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd), label version 2018-12-04; accessed 2026-11-19.) Based on known information, erythromycin is a macrolide antibiotic with both antibacterial and anti-inflammatory activity. Its efficacy in bacterial infections, including conjunctivitis and staphylococcal infections, is established, and mechanistically it may be applicable to bacterial or staphylococcal-associated ocular surface disease.
 
 The one retrieved paper concerns chronic blepharokeratoconjunctivitis in children, a condition in which macrolides are used. This is indirect evidence. No clinical trial tests erythromycin for punctate epithelial keratoconjunctivitis specifically, and the high model score has not yet been confirmed by clinical data.
 
@@ -148,11 +148,12 @@ The prediction score is very high (0.9989), but there are no clinical trials and
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Two more valid licences are registered (7 in total): EROGRAN for Oral Suspension (SIN08042P) and ERYSON Lotion 2% (SIN10446P). All 7 are sin" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
 
 <!-- review:end log -->
 

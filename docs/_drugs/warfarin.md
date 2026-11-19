@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **heparin cofactor 2 deficiency**, bu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, warfarin inhibits vitamin K epoxide reductase and so reduces synthesis of the vitamin K-dependent clotting factors II, VII, IX and X. Its efficacy in venous thromboembolism is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for warfarin: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), label version 2026-10-28; accessed 2026-11-19.) Based on known pharmacology, warfarin inhibits vitamin K epoxide reductase and so reduces synthesis of the vitamin K-dependent clotting factors II, VII, IX and X. Its efficacy in venous thromboembolism is well established.
 
 Thrombophilia is a hypercoagulable state, either inherited (antithrombin, protein C or protein S deficiency, factor V Leiden) or acquired (such as antiphospholipid syndrome). Patients with it have recurrent thrombosis, which is the same problem warfarin already treats. The link is to the thrombotic phenotype and not to correcting the underlying defect. Reviews support its use for long-term secondary prevention, usually after initial heparin.
 
@@ -171,6 +171,19 @@ Package insert warnings and contraindications were not available in the data com
 - Direct comparative evidence for warfarin versus DOACs or LMWH in defined thrombophilia subgroups (for example antithrombin, protein C or protein S deficiency, and antiphospholipid syndrome).
 - A bleeding and INR monitoring plan, with special attention to pregnancy, protein C deficiency (skin necrosis) and the major interactions with aspirin and metronidazole.
 - Confirmation of the approved indication text on the Singapore licences.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

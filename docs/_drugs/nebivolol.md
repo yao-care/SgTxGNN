@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. From general pharmacology, nebivolol is a highly beta-1 selective blocker that also promotes vasodilation through endothelial nitric oxide release. This explains its established use in hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nebivolol: "The mechanism of action of the antihypertensive response of BYSTOLIC has not been definitively established. Possible factors that may be involved include: decreased heart rate, decreased myocardial contractility, diminution of tonic sympathetic outflow to the periphery from cerebral vasomotor centers, suppression of renin activity and vasodilation and decreased peripheral vascular resistance." ([DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8), label version 2024-08-01; accessed 2026-11-19.) From general pharmacology, nebivolol is a highly beta-1 selective blocker that also promotes vasodilation through endothelial nitric oxide release. This explains its established use in hypertension.
 
 Malignant hypertensive renal disease is a severe form of the same condition, which is why the model scores it so highly. However, malignant hypertension is a hypertensive emergency, normally managed with intravenous agents, and oral nebivolol is not a standard option. The high score most likely reflects proximity to the original indication rather than a genuine new repurposing signal.
 
@@ -140,11 +140,12 @@ The predicted indication has no clinical trials or publications (L5, model predi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four are valid single-ingredient oral tablet licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8) |
 
 <!-- review:end log -->
 

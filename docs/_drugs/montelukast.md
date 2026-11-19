@@ -56,7 +56,7 @@ Evidence Level: **L2** | Predicted Indications: **2**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. The retrieved literature describes montelukast as a selective antagonist of the cysteinyl leukotriene 1 (CysLT1) receptor. By blocking this receptor, it reduces bronchoconstriction, airway swelling and eosinophilic inflammation. This explains its established use in asthma and allergic rhinitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for montelukast: "The cysteinyl leukotrienes (LTC 4, LTD 4, LTE 4 ) are products of arachidonic acid metabolism and are released from various cells, including mast cells and eosinophils. These eicosanoids bind to cysteinyl leukotriene (CysLT) receptors. […] Montelukast is an orally active compound that binds with high affinity and selectivity to the CysLT 1 receptor (in preference to other pharmacologically important airway receptors, such as the prostanoid, cholinergic, or β-adrenergic receptor)." ([DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842), label version 2025-04-30; accessed 2026-11-19.) The retrieved literature describes montelukast as a selective antagonist of the cysteinyl leukotriene 1 (CysLT1) receptor. By blocking this receptor, it reduces bronchoconstriction, airway swelling and eosinophilic inflammation. This explains its established use in asthma and allergic rhinitis.
 
 Bronchitis and its related airway diseases share parts of this biology. Cysteinyl leukotrienes are released during RSV infection and contribute to airway inflammation. They are also implicated in eosinophilic airway disease that causes chronic cough. This gives a plausible mechanistic reason to test montelukast in bronchitis-type conditions.
 
@@ -146,11 +146,12 @@ The one completed Phase 3 RCT is in RSV bronchiolitis, not bronchitis, and the o
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Montelukast has 20 valid registrations in Singapore, all single-ingredient oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
 
 <!-- review:end log -->
 

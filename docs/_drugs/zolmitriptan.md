@@ -59,7 +59,7 @@ Support is limited: there are **0 clinical trials** and **19 publications**, all
 
 ## Why is This Prediction Reasonable?
 
-Structured mechanism-of-action data was not available for this report. The published literature describes zolmitriptan as a selective serotonin 5-HT1B/1D receptor agonist (a triptan). It acts both peripherally and centrally. It is thought to constrict cranial blood vessels and to inhibit trigeminovascular activation, and pre-clinical work supports this central and peripheral action.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zolmitriptan: "Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors." ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), label version 2026-01-29; accessed 2026-11-19.) The published literature describes zolmitriptan as a selective serotonin 5-HT1B/1D receptor agonist (a triptan). It acts both peripherally and centrally. It is thought to constrict cranial blood vessels and to inhibit trigeminovascular activation, and pre-clinical work supports this central and peripheral action.
 
 Migraine with brainstem aura is a migraine subtype that shares the same trigeminovascular pathophysiology as the approved indication. Mechanistically the link is therefore strong, and this likely explains the very high model score.
 
@@ -130,6 +130,19 @@ The mechanistic link is plausible, but evidence is at the L4 level. There are no
 - Package insert warnings and contraindications from HSA
 - Detailed mechanism of action data from DrugBank
 - A drug interaction management plan, especially for serotonergic co-medications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Structured mechanism-of-action data was not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

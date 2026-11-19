@@ -56,7 +56,7 @@ This is a model prediction with very weak support and limited relevance to human
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, efavirenz is an HIV-1 non-nucleoside reverse transcriptase inhibitor (NNRTI), a class that blocks the viral reverse transcriptase enzyme. Feline immunodeficiency virus (FIV) is also a lentivirus with its own reverse transcriptase, which is the basis for the model's link.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for efavirenz: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), label version 2024-06-28; accessed 2026-11-19.) Based on known information, efavirenz is an HIV-1 non-nucleoside reverse transcriptase inhibitor (NNRTI), a class that blocks the viral reverse transcriptase enzyme. Feline immunodeficiency virus (FIV) is also a lentivirus with its own reverse transcriptase, which is the basis for the model's link.
 
 The only publication compiled for this report (2023) compared NNRTIs, including efavirenz, nevirapine and rilpivirine, against feline and human immunodeficiency virus reverse transcriptases using biochemical and structural methods. The data available here do not show its conclusion on efavirenz activity against FIV. NNRTIs are generally known to work poorly on reverse transcriptases from lentiviruses other than HIV-1, so the very high TxGNN score should not be read as evidence of efficacy.
 
@@ -107,6 +107,19 @@ The prediction rests on a model score and a single in vitro study whose result f
 - Mechanism of action data
 - HSA package insert warnings and contraindications
 - A decision on whether the veterinary indication falls within the scope of human drug repurposing at all
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ This prediction currently has **0 clinical trials** and **0 publications** suppo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Indomethacin is a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin-driven inflammation, pain and fever, which explains its efficacy in arthritis and gout.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for indomethacin: "Indomethacin has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of INDOCIN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da), label version 2024-12-16; accessed 2026-11-19.) Indomethacin is a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin-driven inflammation, pain and fever, which explains its efficacy in arthritis and gout.
 
 The predicted condition is a congenital limb malformation. It is a developmental disorder, not an inflammatory one, so no plausible link to COX inhibition is evident in the data provided. The very high score most likely reflects the model's network proximity to indomethacin's many skeletal and joint indications, not a true biological relationship. A high score alone should not be read as evidence of benefit.
 
@@ -126,6 +126,19 @@ The prediction rests on a model score alone, with no trials, no literature and n
 - Approved indication text for the Singapore registrations
 
 **Note on other candidates:** Among the other predictions for indomethacin, juvenile idiopathic arthritis (L3) has the most supporting literature. This includes a 1978 double-blind crossover study (ketoprofen vs. indomethacin) and several pediatric NSAID reviews. It is a close extension of existing arthritis use, but the evidence is dated and symptomatic only. This would be a more sensible direction to evaluate than the brachydactyly-syndactyly prediction.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

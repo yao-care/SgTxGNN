@@ -56,7 +56,7 @@ The data compiled for this report include **14 listed clinical trials** and **20
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the compiled data. From general pharmacology, mercaptopurine is a purine antimetabolite. Its thioguanine nucleotide metabolites are incorporated into DNA and RNA and inhibit de novo purine synthesis. This is cytotoxic to rapidly dividing cells, including myeloid blasts.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mercaptopurine: "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15), label version 2026-07-22; accessed 2026-11-19.) From general pharmacology, mercaptopurine is a purine antimetabolite. Its thioguanine nucleotide metabolites are incorporated into DNA and RNA and inhibit de novo purine synthesis. This is cytotoxic to rapidly dividing cells, including myeloid blasts.
 
 The strongest support is for use as an oral maintenance component, typically daily 6-mercaptopurine with weekly methotrexate, in acute myeloid leukemia (AML). It is also used in maintenance regimens for acute promyelocytic leukemia (APL). A Korean cohort study and an Indian prospective pilot study used oral mercaptopurine-based maintenance or metronomic therapy in AML patients who could not receive more intensive treatment.
 
@@ -130,6 +130,18 @@ Mercaptopurine has a plausible cytotoxic mechanism in myeloid leukemia. Direct s
 - Evidence that isolates mercaptopurine's contribution in AML or APL maintenance, such as a randomized comparison
 - A safety plan covering TPMT/NUDT15 genotyping, blood count monitoring, and review of interacting drugs such as aminosalicylates
 - Cytotoxic drug handling procedures
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

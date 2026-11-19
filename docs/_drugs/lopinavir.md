@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** that direct
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Lopinavir is generally known as an HIV-1 protease inhibitor, a class that blocks the cleavage of viral polyproteins needed to make mature virus particles.
+ChEMBL (EMBL-EBI) records the mechanism of action of lopinavir as: Human immunodeficiency virus type 1 protease inhibitor ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; accessed 2026-11-19.) Lopinavir is generally known as an HIV-1 protease inhibitor, a class that blocks the cleavage of viral polyproteins needed to make mature virus particles.
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, so there is a theoretical basis for the prediction. However, FIV protease differs from HIV-1 protease in substrate specificity and in how sensitive it is to inhibitors, and HIV protease inhibitors have shown limited activity against FIV. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases such as HIV/AIDS, not biological evidence of benefit in cats.
 
@@ -102,6 +102,19 @@ The prediction has no supporting trials or literature, so the evidence level is 
 - Mechanism of action data and package insert warnings and contraindications, which are currently missing
 - Confirmation of whether a veterinary indication falls within the repurposing scope
 - A review of the cardiac, hepatic and metabolic safety signals and the large drug interaction burden
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

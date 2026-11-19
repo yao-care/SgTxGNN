@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, thyrotropin alfa is a recombinant TSH that acts on the TSH receptor on thyroid follicular cells. Its established use is in thyroid cancer management, as a diagnostic and adjunctive agent, rather than in neurological disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for thyrotropin alfa: "Thyrotropin (TSH) is a pituitary hormone that stimulates the thyroid gland to produce thyroid hormone. Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification, and synthesis and secretion of thyroglobulin (Tg), triiodothyronine (T3) and thyroxine (T4)." ([DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b), label version 2023-02-24; accessed 2026-11-19.) Based on known pharmacology, thyrotropin alfa is a recombinant TSH that acts on the TSH receptor on thyroid follicular cells. Its established use is in thyroid cancer management, as a diagnostic and adjunctive agent, rather than in neurological disease.
 
 No biological pathway connecting TSH receptor agonism to migraine is supported by the available data. The high score (0.9998, rank 514) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The related prediction migraine with brainstem aura (0.9998) comes from the same model and adds no independent support.
 
@@ -104,6 +104,19 @@ The migraine prediction is supported only by a TxGNN model (deep learning) score
 - Preclinical or observational evidence supporting any neurological effect
 - Confirmation of the approved indication text for SIN13164P
 - A route and dosing feasibility assessment for a chronic neurological indication, since the product is an injectable used in intermittent diagnostic and adjunctive settings
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

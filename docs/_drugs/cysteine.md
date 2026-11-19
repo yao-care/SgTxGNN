@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **dry eye syndrome**, but the data
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not currently available. Cysteine is a thiol-containing amino acid and a precursor of glutathione, a major cellular antioxidant. Its established uses (respiratory conditions, paracetamol poisoning) are consistent with antioxidant and mucus-modifying properties.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cysteine: "Endogenous cysteine is synthesized from methionine by the enzyme, cystathionase, via the trans-sulfuration pathway, and serves as a precursor substrate for both glutathione and taurine. ELCYS ® provides cysteine to the systemic circulation of patients who require PN and cannot synthesize adequate quantities of cysteine due to insufficient or deficient cystathionase activity." ([DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e), label version 2026-04-09; accessed 2026-11-19.) Cysteine is a thiol-containing amino acid and a precursor of glutathione, a major cellular antioxidant. Its established uses (respiratory conditions, paracetamol poisoning) are consistent with antioxidant and mucus-modifying properties.
 
 Excess reactive oxygen species (ROS) are thought to drive the inflammatory cycle in dry eye disease. Thiol groups also bind to mucus glycoproteins, which is why cysteine-modified materials show strong mucoadhesion. This gives a plausible rationale based on oxidative stress and ocular surface adhesion.
 
@@ -125,11 +125,12 @@ The TxGNN score is very high, but support is limited to preclinical and formulat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four registrations are valid, single-ingredient injectable amino acid products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data are not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e) |
 
 <!-- review:end log -->
 

@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **bacterial arthritis**, but th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sulbactam is an irreversible beta-lactamase inhibitor that is combined with ampicillin. It protects ampicillin from degradation and extends its coverage to beta-lactamase-producing *S. aureus*, streptococci, Enterobacteriaceae and anaerobes. Sulbactam also has intrinsic activity against *Acinetobacter*.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ampicillin and sulbactam (a combination product containing sulbactam): "A wide range of beta-lactamases found in microorganisms resistant to penicillins and cephalosporins have been shown in biochemical studies with cell free bacterial systems to be irreversibly inhibited by sulbactam. Although sulbactam alone possesses little useful antibacterial activity except against the Neisseriaceae, whole organism studies have shown that sulbactam restores ampicillin activity against beta-lactamase producing strains." ([DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398), label version 2026-11-12; accessed 2026-11-19.) Based on known information, sulbactam is an irreversible beta-lactamase inhibitor that is combined with ampicillin. It protects ampicillin from degradation and extends its coverage to beta-lactamase-producing *S. aureus*, streptococci, Enterobacteriaceae and anaerobes. Sulbactam also has intrinsic activity against *Acinetobacter*.
 
 Staphylococcal infection is already among the original indications, and *S. aureus* and streptococci are the common pathogens of septic arthritis and bone/joint infection. The mechanistic link is therefore plausible and antibacterial in nature. However, the supporting evidence is largely case reports, susceptibility data and older open-label studies.
 
@@ -124,11 +124,12 @@ The mechanistic link is plausible, but the evidence for bacterial arthritis is l
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398) |
 
 <!-- review:end log -->
 

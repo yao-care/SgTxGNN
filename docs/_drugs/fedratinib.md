@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, fedratinib is a JAK2/FLT3 inhibitor. Its efficacy in myelofibrosis, a disease driven by dysregulated JAK/STAT signalling, has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fedratinib: "Fedratinib is an oral kinase inhibitor with activity against wild type and mutationally activated Janus Associated Kinase 2 (JAK2) and FMS-like tyrosine kinase 3 (FLT3). Fedratinib is a JAK2-selective inhibitor with higher inhibitory activity for JAK2 over family members JAK1, JAK3 and TYK2." ([DailyMed: Inrebic (fedratinib hydrochloride) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0f55a2a-4e0c-4cba-8571-03e1424486d7), label version 2026-07-20; accessed 2026-11-19.) Based on known information, fedratinib is a JAK2/FLT3 inhibitor. Its efficacy in myelofibrosis, a disease driven by dysregulated JAK/STAT signalling, has been established.
 
 PEComa (perivascular epithelioid cell tumour) is typically driven by mTOR pathway activation through TSC1/TSC2 loss. A link between this biology and JAK/STAT signalling is speculative and not supported by the data compiled. The prediction (benign PEComa: 0.9984) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -116,6 +116,19 @@ The prediction is supported by model output only (L5), with no clinical trials o
 - Preclinical or mechanistic evidence linking JAK/STAT or FLT3 signalling to PEComa
 - A literature and trial search for fedratinib in PEComa and in the other predicted diseases (for example HLH)
 - A review of the major drug interactions, particularly with CYP3A4-related agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inrebic (fedratinib hydrochloride) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0f55a2a-4e0c-4cba-8571-03e1424486d7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ravulizumab is a long-acting inhibitor of complement component C5. It blocks terminal complement activity, and its efficacy in PNH, a complement-mediated hemolytic disease, is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ravulizumab: "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791), label version 2026-10-29; accessed 2026-11-19.) Based on known information, ravulizumab is a long-acting inhibitor of complement component C5. It blocks terminal complement activity, and its efficacy in PNH, a complement-mediated hemolytic disease, is established.
 
 For the predicted indication, the link is weak. G6PC3 deficiency is a disorder of neutrophil glucose metabolism and survival, and no complement-mediated mechanism is established. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There is no supporting clinical or literature evidence.
 
@@ -101,6 +101,19 @@ The prediction rests on model output alone (Evidence Level L5). There are no cli
 - A literature and trial search specific to the predicted indication
 - A safety plan for infection risk (such as meningococcal vaccination and monitoring) in neutropenic or immunodeficient patients
 - Assessment of route compatibility (ravulizumab is available only as an intravenous infusion in Singapore)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

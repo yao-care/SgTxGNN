@@ -59,7 +59,7 @@ but currently there are **0 clinical trials** and **0 publications** directly su
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rufinamide is a triazole-derivative antiseizure drug. Its efficacy in Lennox-Gastaut syndrome has been established, and it is generally thought to act by modulating sodium channels. Mechanistically, it may be applicable to FIRES, but this link is unproven.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rufinamide: "The precise mechanism(s) by which rufinamide exerts its antiepileptic effect is unknown. The results of in vitro studies suggest that the principal mechanism of action of rufinamide is modulation of the activity of sodium channels and, in particular, prolongation of the inactive state of the channel." ([DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d), label version 2022-12-15; accessed 2026-11-19.) Based on known information, rufinamide is a triazole-derivative antiseizure drug. Its efficacy in Lennox-Gastaut syndrome has been established, and it is generally thought to act by modulating sodium channels. Mechanistically, it may be applicable to FIRES, but this link is unproven.
 
 FIRES is a severe, refractory epileptic encephalopathy that develops after a febrile illness. Its course is thought to be driven largely by neuroinflammation. Lennox-Gastaut syndrome is also a drug-resistant epileptic encephalopathy, which may explain why the model places the two close together. However, rufinamide's sodium-channel activity targets seizure generation, not the inflammatory process behind FIRES. It should not be read as evidence of benefit.
 
@@ -118,6 +118,19 @@ Among the other predictions, "childhood onset epileptic encephalopathy" has far 
 - The Singapore package insert (HSA) warnings, contraindications, and approved indication text
 - A review of the interaction profile (100 records) against the medicines typically used in FIRES, such as corticosteroids and other antiseizure drugs
 - A safety assessment for hepatic impairment and leukopenia, given the knowledge-graph contraindication signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ Evidence is therefore limited, and the more actionable signals lie in other pred
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, ertapenem is a carbapenem (a beta-lactam class) that is active against many Enterobacterales, anaerobes and streptococci. Its efficacy in respiratory and other bacterial infections is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ertapenem: "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs)." ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), label version 2026-02-04; accessed 2026-11-19.) Based on known information, ertapenem is a carbapenem (a beta-lactam class) that is active against many Enterobacterales, anaerobes and streptococci. Its efficacy in respiratory and other bacterial infections is established.
 
 These organisms are also common causes of bone and joint infections, so the biological plausibility of use in bacterial arthritis is high. The supporting reports, however, are mostly individual cases (for example *Klebsiella pneumoniae* septic wrist arthritis and *Citrobacter koseri* septic arthritis with osteomyelitis treated with ertapenem) and small cohorts. They do not amount to controlled evidence.
 
@@ -116,6 +116,19 @@ For bacterial arthritis, the biological plausibility is high, but the evidence i
 **Other predicted indications of note:**
 - **Urinary tract infection (L1, Proceed with Guardrails):** Several completed Phase 3 trials exist, including a randomised comparison with ceftriaxone in complicated UTI (NCT01014013, n=271) and a combined analysis of two double-blind ertapenem versus ceftriaxone trials (PMID 15150185). This is largely an established use rather than a novel repurposing. Guardrails should cover antimicrobial stewardship and resistance, and the label status should be verified.
 - These are likely model artifacts, and all are Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

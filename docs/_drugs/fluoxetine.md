@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **分裂型人格障礙 (schizo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general knowledge, fluoxetine is an SSRI. Serotonergic modulation may reduce affective instability, obsessional features and impulsivity, which overlap with some schizotypal traits.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluoxetine: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299), label version 2026-01-08; accessed 2026-11-19.) Based on general knowledge, fluoxetine is an SSRI. Serotonergic modulation may reduce affective instability, obsessional features and impulsivity, which overlap with some schizotypal traits.
 
 The supporting literature is limited. A 12-week, non-blind prospective study of 22 patients with borderline or schizotypal personality disorder (or both) reported significant reductions in self-injury and in Hopkins Symptom Checklist scores (PMID 1853957). Mixed samples and the lack of a control group limit what can be concluded for schizotypal personality disorder specifically. A cluster A pharmacotherapy review (PMID 29955451) and a psychopharmacology review (PMID 9448667) note that there is no agent of choice for this disorder. No effect on core psychotic-like or negative symptoms has been established.
 
@@ -121,11 +121,12 @@ The TxGNN score is very high, but the evidence is at level L3. It rests on a sin
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All 7 registrations are single-ingredient products and currently valid; the five above are a selection" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
 
 <!-- review:end log -->
 

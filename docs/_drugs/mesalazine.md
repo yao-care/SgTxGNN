@@ -56,7 +56,7 @@ Among the top 10 predictions, only **rheumatoid arthritis** (indirect literature
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, mesalazine is a 5-aminosalicylic acid anti-inflammatory agent. Its efficacy in ulcerative colitis is well established. Its proposed actions include PPAR-gamma activation, COX/lipoxygenase inhibition and NF-kB modulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mesalazine: "The mechanism of action of mesalamine is not fully understood, but it appears to have a topical anti-inflammatory effect on the colonic epithelial cells. Mucosal production of arachidonic acid metabolites, both through the cyclooxygenase and lipoxygenase pathways, is increased in patients with ulcerative colitis, and it is possible that mesalamine diminishes inflammation by blocking cyclooxygenase and inhibiting prostaglandin production in the colon." ([DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7), label version 2026-10-26; accessed 2026-11-19.) Based on known information, mesalazine is a 5-aminosalicylic acid anti-inflammatory agent. Its efficacy in ulcerative colitis is well established. Its proposed actions include PPAR-gamma activation, COX/lipoxygenase inhibition and NF-kB modulation.
 
 For the top-ranked prediction, **no plausible mechanistic link was identified**. Congenital hypotrichosis with juvenile macular dystrophy is a rare genetic disorder of hair and retinal development caused by CDH3 (cadherin) mutations. Mesalazine's anti-inflammatory action does not address this defect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -125,6 +125,19 @@ The top-ranked prediction has no trials, no literature and no plausible mechanis
 - Re-prioritisation of the predictions, with focus on indications that have a plausible inflammatory mechanism
 - Direct preclinical or clinical evidence of mesalazine efficacy in any chosen new indication
 - A safety plan covering renal and haematological monitoring and the identified drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

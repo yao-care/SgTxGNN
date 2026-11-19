@@ -54,7 +54,7 @@ Citric acid is an organic acid used in oral solutions, powders and effervescent 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Citric acid is a weak organic acid. It can change the pH of fluids it contacts and takes part in normal cellular metabolism (the citric acid cycle). A link to stomach conditions is therefore conceivable, through effects on gastric pH and mucosal physiology.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sodium picosulfate, magnesium oxide, and anhydrous citric acid (a combination product containing citric acid): "Magnesium oxide and citric acid react to create magnesium citrate in solution, which is an osmotic agent that causes water to be retained within the gastrointestinal tract." ([DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5), label version 2026-04-15; accessed 2026-11-19.) Citric acid is a weak organic acid. It can change the pH of fluids it contacts and takes part in normal cellular metabolism (the citric acid cycle). A link to stomach conditions is therefore conceivable, through effects on gastric pH and mucosal physiology.
 
 The literature compiled for this report does not test citric acid as a treatment for stomach disease. The closest items are two diagnostic studies in which a citric acid test meal was used to improve the accuracy of the 13C-urea breath test for *Helicobacter pylori* (PMIDs 31505905 and 30970440). This is a diagnostic aid, not a therapy. The other papers are general reviews on diet and ulcer disease, *H. pylori* physiology, metabolomics, or unrelated topics. The high TxGNN score is a computational signal based on network similarity and does not by itself show clinical benefit.
 
@@ -114,6 +114,19 @@ The prediction has a high model score but no clinical trials and no literature t
 - Mechanism of action data
 - Evidence from studies that directly test citric acid for a defined stomach condition
 - A review of the major interaction with aluminium hydroxide and the moderate interactions with fluoroquinolones before any dosing plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

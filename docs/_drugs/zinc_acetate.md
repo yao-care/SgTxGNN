@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Zinc is an essential trace element that serves as a cofactor for many enzymes, including superoxide dismutase (an antioxidant enzyme), and it plays roles in immune function, wound healing and epithelial integrity. These are the likely reasons for its existing dermatologic and tissue-repair indications.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zinc acetate: "Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids." ([DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757), label version 2026-03-04; accessed 2026-11-19.) Zinc is an essential trace element that serves as a cofactor for many enzymes, including superoxide dismutase (an antioxidant enzyme), and it plays roles in immune function, wound healing and epithelial integrity. These are the likely reasons for its existing dermatologic and tissue-repair indications.
 
 A possible link to diabetic retinopathy is zinc's antioxidant and anti-inflammatory activity in diabetic microvascular disease and in retinal metabolism. This link is speculative: the data compiled for this report contain no trials or publications to support it. The related prediction for diabetic retinopathy (score 0.9992) carries the same signal and is not independent evidence.
 
@@ -115,11 +115,12 @@ The prediction score is very high (0.9997), but it is a model output only. No cl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All three are single-ingredient registrations by B. Braun Melsungen AG and are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
 
 <!-- review:end log -->
 

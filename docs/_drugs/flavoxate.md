@@ -60,7 +60,7 @@ The top-ranked prediction appears to be a TxGNN model (deep learning) artifact, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, flavoxate is a urinary tract antispasmodic with antimuscarinic, phosphodiesterase-inhibiting and local anaesthetic properties.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for flavoxate: "Flavoxate hydrochloride counteracts smooth muscle spasm of the urinary tract and exerts its effect directly on the muscle. In a single study of 11 normal male subjects, the time to onset of action was 55 minutes." ([DailyMed: flavoxate hydrochloride prescribing information, PuraCap Laboratories LLC dba Blu Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6a06eda-2480-4c0d-8d1e-9e3e89d3ee88), label version 2025-12-11; accessed 2026-11-19.) Based on general pharmacology, flavoxate is a urinary tract antispasmodic with antimuscarinic, phosphodiesterase-inhibiting and local anaesthetic properties.
 
 For the top-ranked prediction, **there is no clear mechanistic link**. ADHD pathophysiology centres on dopaminergic and noradrenergic dysregulation, which flavoxate does not target. Antimuscarinic effects on the central nervous system could even worsen attention. The high score is most likely an artifact of the TxGNN model (deep learning). The same applies to the related predictions "attention deficit-hyperactivity disorder" (a duplicate or parent concept) and "specific developmental disorder". Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -112,6 +112,19 @@ The top prediction has no supporting clinical trials or literature and no plausi
 - The approved indication text for the Singapore licences
 - If pursuing a different direction, a focused literature and trial search for **irritable bowel syndrome** (the most plausible candidate) and a mapping of the obsolete neurogenic bladder term to a current disease concept
 - A review of the anticholinergic burden and the Major potassium interactions before any new use is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: flavoxate hydrochloride prescribing information, PuraCap Laboratories LLC dba Blu Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6a06eda-2480-4c0d-8d1e-9e3e89d3ee88) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

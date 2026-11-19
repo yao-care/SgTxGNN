@@ -54,7 +54,7 @@ Ganirelix is a GnRH receptor antagonist used to prevent premature ovulation in w
 
 ## Why is This Prediction Reasonable?
 
-Ganirelix blocks the GnRH receptor (GNRHR) in the pituitary. This rapidly suppresses LH and FSH and, downstream, gonadal sex steroids. Detailed mechanism of action data is not available in the data compiled for this report, but the receptor-level pharmacology is well established.
+Ganirelix blocks the GnRH receptor (GNRHR) in the pituitary. This rapidly suppresses LH and FSH and, downstream, gonadal sex steroids. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ganirelix: "The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway." ([DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1), label version 2026-10-16; accessed 2026-11-19.) The receptor-level pharmacology is well established.
 
 The link to hypertrichosis is weak. Hypertrichosis is often androgen-independent (congenital, drug-induced, or genetic forms), so suppressing the gonadal axis would not be expected to help.
 
@@ -108,6 +108,19 @@ The prediction rests on model output alone (L5), with no trials or publications 
 - A targeted literature and trial search for GnRH antagonists in central precocious puberty, the most mechanistically coherent candidate
 - Any clinical or preclinical evidence linking GnRH antagonism to hair growth disorders, if hypertrichosis is to remain under consideration
 - Route compatibility and similarity-to-original-indication assessments, both still pending
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

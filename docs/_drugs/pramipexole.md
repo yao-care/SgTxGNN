@@ -56,7 +56,7 @@ Among the other predicted indications, **schizophrenia** has the strongest suppo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pramipexole is known as a dopamine D2/D3 receptor agonist. It is used in Parkinson disease and restless legs syndrome, where dopaminergic signalling is central.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pramipexole: "Pramipexole is a non-ergot dopamine agonist with high relative in vitro specificity and full intrinsic activity at the D 2 subfamily of dopamine receptors, binding with higher affinity to D 3 than to D 2 or D 4 receptor subtypes. Parkinson’s Disease The precise mechanism of action of pramipexole as a treatment for Parkinson's disease is unknown, although it is believed to be related to its ability to stimulate dopamine receptors in the striatum." ([DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c), label version 2026-09-09; accessed 2026-11-19.) Pramipexole is known as a dopamine D2/D3 receptor agonist. It is used in Parkinson disease and restless legs syndrome, where dopaminergic signalling is central.
 
 Dopamine dysregulation is also implicated in ADHD. Variants of the dopamine D4 receptor gene have been associated with ADHD, so a dopaminergic drug is a plausible candidate. This is a mechanistic argument only. The literature compiled includes a case report of a patient with ADHD who received pramipexole together with atomoxetine for pain, a Tourette's syndrome RCT and general restless legs syndrome reviews. None of these tests pramipexole as a treatment for ADHD itself. The very high TxGNN score is a computational prediction and does not replace clinical evidence.
 
@@ -110,6 +110,19 @@ For ADHD, the support is a computational prediction plus indirect literature. Th
 - A safety plan covering psychiatric adverse effects, impulse-control problems, sleepiness and orthostatic hypotension
 
 **Note on other predictions:** Schizophrenia (score 0.9952) is the best-supported alternative, at evidence level L2 and recommendation "Research Question". Support includes a 16-week placebo-controlled RCT of add-on pramipexole (PMID 35921506, n=200) and a Phase 3 add-on trial, [NCT01320982](https://clinicaltrials.gov/study/NCT01320982) (n=400, status unknown, no results, multiple arms). Because dopamine agonists may worsen psychosis, any move in that direction would need strict guardrails. The remaining predictions (for example faciodigitogenital syndrome, chondromyxoid fibroma and several rare congenital disorders) rest on the model score alone and should stay on hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ Evidence is at level **L5**: **no clinical trials** and only **1 publication** a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on general pharmacology, vortioxetine acts on the serotonin system: it inhibits the serotonin transporter (SERT), agonises 5-HT1A receptors and antagonises 5-HT3 and 5-HT7 receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vortioxetine: "The mechanism of the antidepressant effect of vortioxetine is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS through inhibition of the reuptake of serotonin (5-HT). It also has several other activities including 5-HT3 receptor antagonism and 5-HT1A receptor agonism." ([DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e), label version 2026-04-23; accessed 2026-11-19.) Based on general pharmacology, vortioxetine acts on the serotonin system: it inhibits the serotonin transporter (SERT), agonises 5-HT1A receptors and antagonises 5-HT3 and 5-HT7 receptors.
 
 "Neurotic disorder" is an older, broad diagnostic category that overlaps with depressive and anxiety presentations. This overlap is the only link between the drug and the prediction, and it is indirect. The single publication found is a narrative article on treating neurotic depression with antidepressants and psychotherapy. It contains no vortioxetine-specific data, so it does not test this drug in this condition.
 
@@ -106,6 +106,18 @@ No study tests vortioxetine in neurotic disorder, so the evidence level is L5. T
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from the HSA to allow safety screening
 - A clear definition of the target population, given that "neurotic disorder" is a legacy and broad category
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

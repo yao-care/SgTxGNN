@@ -54,7 +54,7 @@ Minoxidil is a potassium channel opener, with relations to hypertensive disorder
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled records. Based on the literature reviewed, minoxidil is a prodrug whose active metabolite, minoxidil sulfate, opens potassium channels. This relaxes vascular smooth muscle and lowers blood pressure. In hair follicles it is thought to prolong the anagen (growth) phase, shorten the telogen (resting) phase, and promote follicular vasodilation and proliferation.
+ChEMBL (EMBL-EBI) records the mechanism of action of minoxidil as: Sulfonylurea receptor 2, Kir6.2 opener ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; accessed 2026-11-19.) Based on the literature reviewed, minoxidil is a prodrug whose active metabolite, minoxidil sulfate, opens potassium channels. This relaxes vascular smooth muscle and lowers blood pressure. In hair follicles it is thought to prolong the anagen (growth) phase, shorten the telogen (resting) phase, and promote follicular vasodilation and proliferation.
 
 Hypotrichosis simplex of the scalp is a rare, monogenic hair disorder (reported with CDSN variants) marked by miniaturized or poorly sustained follicles. A drug that supports follicle growth could plausibly help. This also fits minoxidil's recorded links to alopecia.
 
@@ -134,11 +134,12 @@ The TxGNN score is very high, but the supporting evidence is limited to three ca
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Eight single-ingredient registrations are listed" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled records" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
 
 <!-- review:end log -->
 

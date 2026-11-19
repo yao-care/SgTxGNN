@@ -56,7 +56,7 @@ This prediction has **no registered clinical trials and no publications** suppor
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on its drug class, bisoprolol blocks beta-1 receptors. This lowers blood pressure and suppresses renin release, which could plausibly help in hypertension-related kidney damage.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for bisoprolol: "BISOPROLOL FUMARATE is a beta 1 -selective (cardioselective) adrenoceptor blocking agent without significant membrane stabilizing activity or intrinsic sympathomimetic activity in its therapeutic dosage range. Cardioselectivity is not absolute, however, and at higher doses (≥ 20 mg) bisoprolol fumarate also inhibits beta 2 -adrenoceptors, chiefly located in the bronchial and vascular musculature; to retain selectivity it is therefore important to use the lowest effective dose." ([DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e), label version 2026-11-11; accessed 2026-11-19.) Based on its drug class, bisoprolol blocks beta-1 receptors. This lowers blood pressure and suppresses renin release, which could plausibly help in hypertension-related kidney damage.
 
 This reasoning is only a plausible link, not demonstrated benefit. Malignant hypertension with renal involvement is an acute, high-risk condition, and it is usually managed with other first-line agents. No study in the compiled data tests bisoprolol in this setting.
 
@@ -124,11 +124,12 @@ The prediction score is high (0.9994), but no trial or publication directly stud
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The licence records may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e) |
 
 <!-- review:end log -->
 

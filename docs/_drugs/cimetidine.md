@@ -54,7 +54,7 @@ Cimetidine is an H2-receptor antagonist that reduces stomach acid. The TxGNN mod
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cimetidine belongs to the H2-receptor antagonist class, which lowers gastric acid secretion. Acid suppression is relevant to the ulcer disease that underlies a perforation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cimetidine: "Cimetidine tablets competitively inhibits the action of histamine at the histamine H 2 receptors of the parietal cells and thus is a histamine H 2 -receptor antagonist. Cimetidine is not an anticholinergic agent. Studies have shown that cimetidine tablets inhibit both daytime and nocturnal basal gastric acid secretion." ([DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43), label version 2026-07-15; accessed 2026-11-19.) Cimetidine belongs to the H2-receptor antagonist class, which lowers gastric acid secretion. Acid suppression is relevant to the ulcer disease that underlies a perforation.
 
 A perforation, however, is an acute surgical emergency in which the ulcer has broken through the stomach or duodenal wall. Acid suppression cannot close that hole, so cimetidine is not a rational treatment for the perforation itself.
 
@@ -121,11 +121,12 @@ No clinical trial addresses cimetidine for peptic ulcer perforation. The literat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local records show 8 valid licences, all for single-ingredient oral tablet products (film-coated and plain tablets)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43) |
 
 <!-- review:end log -->
 

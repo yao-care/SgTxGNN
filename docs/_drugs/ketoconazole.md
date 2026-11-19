@@ -60,7 +60,7 @@ Among the other predictions for this drug, **vulvovaginal candidiasis** has much
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ketoconazole is a well-known azole antifungal. Azoles inhibit fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis and disrupts the fungal cell membrane. This is the basis of its use in tinea, candidiasis and seborrhoeic dermatitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ketoconazole: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), label version 2025-11-18; accessed 2026-11-19.) Ketoconazole is a well-known azole antifungal. Azoles inhibit fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis and disrupts the fungal cell membrane. This is the basis of its use in tinea, candidiasis and seborrhoeic dermatitis.
 
 Two plausible but indirect links to acne are described:
 - **Antimicrobial and anti-lipase effects.** Malassezia (Pityrosporum) yeasts can contribute to follicular inflammation, and Pityrosporum folliculitis is often misdiagnosed as acne vulgaris. Laboratory studies also report that ketoconazole inhibits the growth and lipase activity of *Propionibacterium acnes*, which could matter given rising antibiotic resistance.
@@ -149,11 +149,12 @@ The acne prediction score is very high (0.9980), but the evidence is L4. There i
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 20 valid registrations, all single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->
 

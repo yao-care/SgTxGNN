@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **lichen planus pemphigoides**,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that fluocinolone acetonide acts on the glucocorticoid receptor (NR3C1), which is the usual route by which corticosteroids reduce inflammation and itching in the skin.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluocinolone acetonide: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action in psoriasis of the scalp is unknown." ([DailyMed: Derma-Smoothe/Fs (fluocinolone acetonide) prescribing information, Royal Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=113e167a-a9fe-440e-9446-d6d87963ef46), label version 2026-10-27; accessed 2026-11-19.) Pharmacology data show that fluocinolone acetonide acts on the glucocorticoid receptor (NR3C1), which is the usual route by which corticosteroids reduce inflammation and itching in the skin.
 
 Lichen planus pemphigoides combines features of lichen planus with subepidermal autoimmune blistering (anti-BP180 autoantibodies). A topical corticosteroid may help calm local skin inflammation, so a mechanistic link is plausible. However, the link is only partial: severe disease typically needs systemic immunosuppression, which a topical product alone would not provide. The TxGNN score is the only support for this prediction.
 
@@ -110,11 +110,12 @@ The prediction rests only on a model score (0.9934). No trial or publication dir
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four licences are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Derma-Smoothe/Fs (fluocinolone acetonide) prescribing information, Royal Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=113e167a-a9fe-440e-9446-d6d87963ef46) |
 
 <!-- review:end log -->
 

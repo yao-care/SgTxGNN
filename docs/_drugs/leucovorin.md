@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **primary hyperoxaluria**, but 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, leucovorin is a reduced folate (a folic acid derivative) that can enter folate metabolism without needing the enzyme dihydrofolate reductase. Its efficacy in folate-related megaloblastic anemia is established, and it is widely used to rescue patients from antifolate toxicity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for leucovorin: "High-Dose Methotrexate Therapy Leucovorin is a mixture of the diastereoisomers of the 5-formyl derivative of tetrahydrofolic acid (THF). The biologically active compound of the mixture is the (-)- l isomer, known as Citrovorum factor or (-)-folinic acid." ([DailyMed: Vykoura (leucovorin calcium) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d122b875-435e-4e00-b945-7a0546df95c2), label version 2026-03-12; accessed 2026-11-19.) Based on known information, leucovorin is a reduced folate (a folic acid derivative) that can enter folate metabolism without needing the enzyme dihydrofolate reductase. Its efficacy in folate-related megaloblastic anemia is established, and it is widely used to rescue patients from antifolate toxicity.
 
 The link to primary hyperoxaluria is weak. A plausible but unverified connection is that folate and one-carbon metabolism intersect with glyoxylate and oxalate pathways. However, primary hyperoxaluria is driven by enzyme defects (AGXT, GRHPR, HOGA1), and leucovorin has no established role in correcting them. The high score should be treated as a hypothesis, not as evidence of benefit.
 
@@ -142,11 +142,12 @@ The prediction for primary hyperoxaluria rests on the model score alone (L5). No
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "All four are single-ingredient products from Korea United Pharmaceutical Inc, and all are currently valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vykoura (leucovorin calcium) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d122b875-435e-4e00-b945-7a0546df95c2) |
 
 <!-- review:end log -->
 

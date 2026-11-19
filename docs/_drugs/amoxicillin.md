@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no c
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Amoxicillin is a beta-lactam antibacterial, which acts on bacterial cell wall synthesis. Its established role is treating bacterial infections.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for amoxicillin: "Amoxicillin is an antibacterial drug. […] Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77), label version 2026-11-13; accessed 2026-11-19.) Amoxicillin is a beta-lactam antibacterial, which acts on bacterial cell wall synthesis. Its established role is treating bacterial infections.
 
 Hyperamylasemia is raised blood amylase, and it is not an infection. Amoxicillin has no known effect on amylase production or clearance, so no mechanistic link can be identified. The high score is a network-based prediction only. Several other top-ranked predictions (polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant hematological disease) share the same weakness: a high score without a supporting mechanism or study.
 
@@ -132,11 +132,12 @@ The prediction has a high model score but no trials, no literature, and no plaus
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Licence records show 20 listed single-ingredient amoxicillin licences, all valid. he list may be partial, and t" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77) |
 
 <!-- review:end log -->
 

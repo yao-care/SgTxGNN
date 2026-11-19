@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Alpelisib is known to be a selective PI3K-alpha inhibitor. Its efficacy in PIK3CA-mutated advanced breast cancer was shown in the Phase 3 SOLAR-1 trial (NCT02437318).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alpelisib: "Alpelisib is an inhibitor of phosphatidylinositol-3-kinase (PI3K) with inhibitory activity predominantly against PI3Kα. Gain-of-function mutations in the gene encoding the catalytic α-subunit of PI3K (PIK3CA) lead to activation of PI3Kα and Akt-signaling, cellular transformation and the generation of tumors in in vitro and in vivo models." ([DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b), label version 2026-10-28; accessed 2026-11-19.) Alpelisib is known to be a selective PI3K-alpha inhibitor. Its efficacy in PIK3CA-mutated advanced breast cancer was shown in the Phase 3 SOLAR-1 trial (NCT02437318).
 
 PI3K/AKT signalling has been implicated in pulmonary vascular remodelling and smooth muscle proliferation. Inhibiting PI3K-alpha is therefore theoretically plausible for pulmonary hypertension.
 
@@ -117,6 +117,18 @@ The TxGNN score is high (0.9903), but there are no clinical trials in pulmonary 
 - The approved indication text for the Singapore licences
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

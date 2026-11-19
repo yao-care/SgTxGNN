@@ -60,7 +60,7 @@ Among the other top-10 predictions, psoriasis has the most literature (**16 publ
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, natalizumab blocks alpha4-integrin (VLA-4), which controls how white blood cells move from the bloodstream into tissue. This is how it reduces inflammation in Crohn's disease and multiple sclerosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for natalizumab: "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract." ([DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962), label version 2026-10-09; accessed 2026-11-19.) Based on known pharmacology, natalizumab blocks alpha4-integrin (VLA-4), which controls how white blood cells move from the bloodstream into tissue. This is how it reduces inflammation in Crohn's disease and multiple sclerosis.
 
 For bronchitis, the mechanistic link is weak. Airway inflammation is involved, but bronchitis is mostly driven by infection or irritants. Systemic immune suppression could raise infection risk rather than help. The prediction is purely computational, with no trial or literature support.
 
@@ -141,6 +141,19 @@ The top prediction, bronchitis, rests on a computational score alone, with no tr
 - Controlled studies (ideally randomized trials) in any candidate indication; psoriasis is the only one with a hint of benefit, and it would need a dedicated safety assessment given the induction reports
 - A risk-benefit analysis that accounts for PML and for the interactions with corticosteroids and immunosuppressants
 - The approved indication text for the Singapore licence SIN14408P
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

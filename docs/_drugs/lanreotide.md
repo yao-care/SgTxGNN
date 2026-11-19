@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **hypertrichosis**, but there are **0
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lanreotide is known as a somatostatin analogue that acts mainly through somatostatin receptors SSTR2 and SSTR5. It suppresses growth hormone secretion, which explains its use in acromegaly and related pituitary conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lanreotide: "Lanreotide, the active component of SOMATULINE DEPOT is an octapeptide analog of natural somatostatin. The mechanism of action of lanreotide is believed to be similar to that of natural somatostatin." ([DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d), label version 2024-10-11; accessed 2026-11-19.) Lanreotide is known as a somatostatin analogue that acts mainly through somatostatin receptors SSTR2 and SSTR5. It suppresses growth hormone secretion, which explains its use in acromegaly and related pituitary conditions.
 
 For hypertrichosis, **no mechanistic link is established**. No known pathway connects somatostatin receptor signalling to hair growth disorders. The high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The top five predictions (hypertrichosis, a dental/periodontal malformation syndrome, a Dandy-Walker malformation syndrome, a genetic hair shaft abnormality and Ambras-type hypertrichosis) all have no trials or publications and no plausible mechanism.
 
@@ -131,6 +131,19 @@ The top-ranked prediction, hypertrichosis, rests only on a score from the TxGNN 
 - Detailed mechanism of action data from DrugBank.
 - Gallstone and blood-glucose monitoring plans, and a review of interactions with glucose-lowering drugs.
 - Confirmation of the approved indications for the three Singapore licences.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -58,7 +58,7 @@ Natamycin is a polyene antifungal that acts on fungal cell membranes. The TxGNN 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Natamycin belongs to the polyene antifungals. It binds ergosterol in fungal cell membranes, which gives it activity against yeasts and moulds. Mechanistically, it could help in vulvitis only when a fungal (yeast) infection is the cause.
+ChEMBL (EMBL-EBI) records the mechanism of action of natamycin as: Ergosterol sequestering agent ([ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656), CC BY-SA 3.0; accessed 2026-11-19.) Natamycin belongs to the polyene antifungals. It binds ergosterol in fungal cell membranes, which gives it activity against yeasts and moulds. Mechanistically, it could help in vulvitis only when a fungal (yeast) infection is the cause.
 
 This reasoning is indirect. Vulvitis has many causes, including irritant, allergic, hormonal, bacterial and autoimmune ones, and natamycin would not be expected to help in non-fungal cases. No study of natamycin in a population defined by vulvitis was found. The high model score should therefore be treated as a hypothesis, not as proof of benefit.
 
@@ -124,12 +124,13 @@ No cited study directly addresses vulvitis, so the evidence level is L5 and the 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only registered product is a single-ingredient ophthalmic suspension" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "The only local product is an ophthalmic suspension, which is not suitable for vulvar use" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200656 (natamycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200656) |
 
 <!-- review:end log -->
 

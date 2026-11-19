@@ -60,7 +60,7 @@ The prediction rests on model output alone. The score comes from the TxGNN model
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Fludrocortisone is a mineralocorticoid with some glucocorticoid activity. Its efficacy in its established uses is documented in the literature compiled for this report. Whether that translates to primary cutaneous T-cell lymphoma is unproven.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for fludrocortisone: "Corticosteroids are thought to act at least in part, by controlling the rate of synthesis of proteins. Although there are a number of instances in which the synthesis of specific proteins is known to be induced by corticosteroids, the links between the initial actions of the hormones and the final metabolic effects have not been completely elucidated. […] The physiologic action of fludrocortisone acetate is similar to that of hydrocortisone." ([DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2), label version 2026-06-24; accessed 2026-11-19.) Fludrocortisone is a mineralocorticoid with some glucocorticoid activity. Its efficacy in its established uses is documented in the literature compiled for this report. Whether that translates to primary cutaneous T-cell lymphoma is unproven.
 
 Corticosteroids suppress lymphocytes, and topical steroids are used in early-stage cutaneous T-cell lymphoma. However, no specific link to fludrocortisone is documented. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a true therapeutic relationship.
 
@@ -128,6 +128,19 @@ The prediction for primary cutaneous T-cell lymphoma is model output only (L5). 
 - Approved indication text for the Singapore licence
 - For the lymphoma prediction: a mechanistic rationale and preclinical data specific to fludrocortisone
 - For the eye signal: a defined target indication (e.g., geographic atrophy), full-text review of the key papers, and a decision on whether to treat it as a separate research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **resistance to thyroid hormone
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Carbimazole is a prodrug of methimazole, which inhibits thyroid peroxidase and reduces thyroid hormone synthesis.
+ChEMBL (EMBL-EBI) records the mechanism of action of carbimazole as: Thyroid peroxidase inhibitor ([ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102), CC BY-SA 3.0; accessed 2026-11-19.) Carbimazole is a prodrug of methimazole, which inhibits thyroid peroxidase and reduces thyroid hormone synthesis.
 
 In resistance to thyroid hormone due to a thyroid hormone receptor beta mutation, the problem is reduced tissue sensitivity at the receptor, with elevated thyroid hormones and non-suppressed TSH. Lowering hormone production could further raise TSH and enlarge the goitre, so the mechanistic rationale is weak and may even be harmful.
 
@@ -97,6 +97,19 @@ No clinical trial or publication tests carbimazole in this condition. The single
 - Detailed mechanism of action data and a clear mechanistic argument for benefit in this condition
 - Package insert warnings and contraindications from the HSA
 - Controlled clinical evidence that directly studies carbimazole in this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

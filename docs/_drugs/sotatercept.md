@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acute lymphoblastic leukemia*
 
 ## Why is This Prediction Reasonable?
 
-Sotatercept is an activin receptor type IIA-Fc fusion protein. It acts as a ligand trap for activin and growth differentiation factors (GDFs), which helps rebalance BMP/activin signaling. Detailed mechanism of action data is not available in the compiled data, so this description comes from the mechanistic notes prepared for this assessment.
+Sotatercept is an activin receptor type IIA-Fc fusion protein. It acts as a ligand trap for activin and growth differentiation factors (GDFs), which helps rebalance BMP/activin signaling. According to the Mechanism of Action section of the US FDA-approved prescribing information for sotatercept: "Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation." ([DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7), label version 2026-09-21; accessed 2026-11-19.) This description comes from the mechanistic notes prepared for this assessment.
 
 No direct mechanistic link between this pathway and the biology of acute lymphoblastic leukemia was identified. The high TxGNN score (0.9978) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A role for activin signaling in blood cell development is a speculative connection at best.
 
@@ -106,6 +106,19 @@ The prediction is supported only by the TxGNN model (deep learning) score (0.997
 - Review of bone-related findings in the sotatercept programme from primary sources
 - A safety assessment of vascular effects before any retinal or oncology use
 - An analysis of route and dosage compatibility for any new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

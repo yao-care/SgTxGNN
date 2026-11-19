@@ -56,7 +56,7 @@ It is a computational prediction only, and the mechanistic rationale is weak.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tropicamide is a muscarinic receptor antagonist. Pharmacology data list activity at the M2, M3, M4 and M5 receptors, and its established clinical use is as a short-acting mydriatic for examining the lens, vitreous humour and retina.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for tropicamide: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the ciliary muscle to cholinergic stimulation, dilating the pupil (mydriasis). The stronger preparation (1%) also paralyzes accommodation." ([DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d), label version 2023-02-15; accessed 2026-11-19.) Based on known pharmacology, tropicamide is a muscarinic receptor antagonist. Pharmacology data list activity at the M2, M3, M4 and M5 receptors, and its established clinical use is as a short-acting mydriatic for examining the lens, vitreous humour and retina.
 
 In theory, blocking muscarinic receptors could affect bladder (detrusor) and bowel function, which are disrupted in cauda equina syndrome. However, cauda equina syndrome is a surgical emergency caused by compression of the nerve roots. A topical eye drop with minimal systemic exposure has no plausible role in changing the course of the disease. The high score reflects a network-based computational association, not demonstrated benefit.
 
@@ -109,6 +109,19 @@ The prediction is supported only by a model score (evidence level L5). There are
 - Evidence of a plausible disease mechanism and a suitable route of administration (route compatibility has not been assessed)
 - Any preclinical or clinical studies in the predicted indication
 - Consideration of other predictions only if a credible mechanism and systemic-exposure safety data are available
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

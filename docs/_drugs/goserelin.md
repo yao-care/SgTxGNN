@@ -54,7 +54,7 @@ Goserelin is a gonadotropin-releasing hormone (GnRH) agonist that suppresses ova
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, goserelin is a GnRH agonist. Continuous exposure desensitizes pituitary GnRH receptors, lowering LH and FSH and reducing ovarian estradiol, which produces a reversible hypoestrogenic state with amenorrhea.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for goserelin: "ZOLADEX is a synthetic decapeptide analogue of GnRH. ZOLADEX acts as an inhibitor of pituitary gonadotropin secretion when administered in the biodegradable formulation. In animal and in vitro studies, administration of goserelin resulted in the regression or inhibition of growth of the hormonally sensitive dimethylbenzanthracene (DMBA)-induced rat mammary tumor and Dunning R3327 prostate tumor." ([DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3), label version 2026-03-24; accessed 2026-11-19.) From general pharmacology, goserelin is a GnRH agonist. Continuous exposure desensitizes pituitary GnRH receptors, lowering LH and FSH and reducing ovarian estradiol, which produces a reversible hypoestrogenic state with amenorrhea.
 
 This is why the prediction should be read with care. Amenorrhea here is an expected pharmacological effect, or a side effect, of ovarian suppression rather than a separate disease that goserelin treats. It is used as a marker of ovarian suppression in premenopausal breast cancer, and it is studied as an outcome in chemotherapy-induced ovarian failure and ovarian protection. The high score reflects this association, not proof of benefit as a therapy for amenorrhea.
 
@@ -111,6 +111,18 @@ The evidence level is L5. No study tests goserelin as a treatment for amenorrhea
 - Mechanism of action data and package insert warnings and contraindications
 - Clarification of whether amenorrhea is a therapeutic target or an expected effect of treatment
 - Review of interactions, especially the major interaction with dolasetron
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

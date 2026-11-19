@@ -55,7 +55,7 @@ with **7 clinical trials** and **20 publications** currently supporting this dir
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pemetrexed is a multitargeted antifolate that inhibits thymidylate synthase, DHFR and GARFT. This disrupts folate-dependent nucleotide synthesis and slows tumour cell growth.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pemetrexed: "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), label version 2026-06-18; accessed 2026-11-19.) Based on known pharmacology, pemetrexed is a multitargeted antifolate that inhibits thymidylate synthase, DHFR and GARFT. This disrupts folate-dependent nucleotide synthesis and slows tumour cell growth.
 
 Its efficacy in malignant pleural mesothelioma is established. A Phase 3 RCT of pemetrexed plus cisplatin versus cisplatin alone showed a survival benefit and led to approval. Peritoneal mesothelioma shares the same histology and basic biology, so the mechanism is expected to carry over.
 
@@ -145,11 +145,12 @@ Pemetrexed-platinum has Phase 3 evidence in pleural mesothelioma and is already 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "There are 13 valid single-ingredient licences in total, all for injectable forms" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->
 

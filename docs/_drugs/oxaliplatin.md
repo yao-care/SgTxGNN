@@ -60,7 +60,7 @@ with **2 directly relevant Phase 2 clinical trials** and **about 20 publications
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, oxaliplatin is a third-generation platinum agent that forms DNA adducts, which inhibits DNA synthesis and repair. Its efficacy in colorectal cancer is established, and mechanistically it may be applicable to mesothelioma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxaliplatin: "Oxaliplatin undergoes nonenzymatic conversion in physiologic solutions to active derivatives via displacement of the labile oxalate ligand. Several transient reactive species are formed, including monoaquo and diaquo DACH platinum, which covalently bind with macromolecules." ([DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5), label version 2026-08-24; accessed 2026-11-19.) Based on known information, oxaliplatin is a third-generation platinum agent that forms DNA adducts, which inhibits DNA synthesis and repair. Its efficacy in colorectal cancer is established, and mechanistically it may be applicable to mesothelioma.
 
 Platinum-based chemotherapy (cisplatin or carboplatin) is already the established backbone of mesothelioma treatment. A platinum analogue with a different resistance profile is therefore biologically plausible. Phase II studies show activity when oxaliplatin is combined with gemcitabine, raltitrexed or vinorelbine.
 
@@ -158,11 +158,12 @@ The evidence for mesothelioma consists of small Phase II studies, one of which f
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "A further 7 valid licences are registered (12 in total), all single-ingredient injectable products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
 
 <!-- review:end log -->
 

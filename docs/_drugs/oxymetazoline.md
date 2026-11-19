@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that oxymetazoline binds alpha-1 (A, B, D) and alpha-2 (A, B, C) adrenoceptors, as well as the serotonin receptors 5-HT1B, 5-HT1D and 5-HT2C. It is a sympathomimetic used to relieve nasal congestion and eye irritation. An ophthalmic solution (Upneeq®) was approved by the FDA in July 2020 for acquired blepharoptosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxymetazoline: "Oxymetazoline is an alpha 1A adrenoceptor agonist. Oxymetazoline acts as a vasoconstrictor." ([DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164), label version 2026-07-13; accessed 2026-11-19.) Pharmacology data show that oxymetazoline binds alpha-1 (A, B, D) and alpha-2 (A, B, C) adrenoceptors, as well as the serotonin receptors 5-HT1B, 5-HT1D and 5-HT2C. It is a sympathomimetic used to relieve nasal congestion and eye irritation. An ophthalmic solution (Upneeq®) was approved by the FDA in July 2020 for acquired blepharoptosis.
 
 Stimulating alpha-adrenergic receptors constricts blood vessels in the nasal mucosa, reducing swelling, blood flow and congestion. This is plausible for nasal cavity conditions involving mucosal swelling or bleeding. However, the existing use for nasal congestion already largely overlaps with this predicted indication, so it is closer to an extension of the current label than a true repurposing opportunity.
 
@@ -134,6 +134,19 @@ Oxymetazoline is already marketed in Singapore as a nasal decongestant, so "nasa
 - Clarification of which specific nasal cavity conditions go beyond the current label
 - Controlled clinical evidence, such as RCTs, for any non-label indication (e.g., oxymetazoline alone in headache or migraine)
 - A safety review given the cardiovascular, endocrine and eye-related contraindication signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

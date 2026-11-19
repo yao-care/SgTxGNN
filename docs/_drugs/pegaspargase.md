@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pregerminal center chronic ly
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not currently available. Pegaspargase is an asparaginase, an enzyme that breaks down asparagine in the blood. Lymphoid leukaemia cells with low asparagine synthetase activity depend on asparagine from outside the cell. Removing it starves them. This is the recognised rationale for using asparaginase in acute lymphoblastic leukaemia, and it is why the model may link the drug to other lymphoid cancers.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pegaspargase: "L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ONCASPAR is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine." ([DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce), label version 2024-10-07; accessed 2026-11-19.) Pegaspargase is an asparaginase, an enzyme that breaks down asparagine in the blood. Lymphoid leukaemia cells with low asparagine synthetase activity depend on asparagine from outside the cell. Removing it starves them. This is the recognised rationale for using asparaginase in acute lymphoblastic leukaemia, and it is why the model may link the drug to other lymphoid cancers.
 
 CLL/SLL is also a lymphoid malignancy, so the link is biologically plausible on paper. However, CLL/SLL is not a recognised asparaginase-sensitive disease. No trials or publications support this use, and existing therapies for the condition do not rely on asparagine depletion. The prediction should be treated as a hypothesis only.
 
@@ -109,6 +109,19 @@ The prediction score is high (0.9995), but no trials or publications address CLL
 - Mechanism of action data
 - The Singapore package insert, to confirm the approved indication, warnings and contraindications
 - A safety and monitoring plan covering hypersensitivity, pancreatitis, thrombosis and liver toxicity if the drug is ever studied in this population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

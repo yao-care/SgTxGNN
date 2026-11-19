@@ -59,7 +59,7 @@ This is essentially the same disease as the original indication, so the predicti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Megestrol acetate is a synthetic progestin. Progesterone-receptor signalling is known to induce differentiation and growth inhibition in hormone-receptor-positive endometrioid tumours, which is why progestins are an established hormonal therapy for endometrial cancer.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for megestrol acetate: "Several investigators have reported on the appetite enhancing property of megestrol acetate and its possible use in cachexia. The precise mechanism by which megestrol acetate produces effects in anorexia and cachexia is unknown at the present time." ([DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651), label version 2026-04-14; accessed 2026-11-19.) Megestrol acetate is a synthetic progestin. Progesterone-receptor signalling is known to induce differentiation and growth inhibition in hormone-receptor-positive endometrioid tumours, which is why progestins are an established hormonal therapy for endometrial cancer.
 
 The model's high score is therefore expected, and it largely reflects the drug's existing use. It does not point to a new therapeutic opportunity.
 
@@ -146,6 +146,19 @@ The predicted indication duplicates the existing endometrial carcinoma indicatio
 - Obtain and review the HSA package insert for warnings and contraindications.
 - Obtain detailed mechanism-of-action data.
 - Verify the Singapore-approved indication wording, since it is not recorded in the licence data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

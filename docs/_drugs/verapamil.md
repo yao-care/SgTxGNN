@@ -66,7 +66,7 @@ Other leading predictions:
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, verapamil is an L-type calcium channel blocker. It slows atrioventricular nodal conduction and relaxes vascular smooth muscle, which explains its use in hypertension, angina and supraventricular and ventricular arrhythmias.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for verapamil: "Angina: The precise mechanism of action of verapamil hydrochloride as an antianginal agent remains to be fully determined, but includes the following two mechanisms: 1. Relaxation and prevention of coronary artery spasm: Verapamil hydrochloride dilates the main coronary arteries and coronary arterioles, both in normal and ischemic regions, and is a potent inhibitor of coronary artery spasm, whether spontaneous or ergonovine-induced." ([DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c), label version 2026-10-30; accessed 2026-11-19.) Based on known pharmacology, verapamil is an L-type calcium channel blocker. It slows atrioventricular nodal conduction and relaxes vascular smooth muscle, which explains its use in hypertension, angina and supraventricular and ventricular arrhythmias.
 
 **Rank 1, obsolete bundle branch block:** This prediction is not mechanistically convincing. Slowing conduction is not a plausible way to treat a conduction block and could be harmful.
 
@@ -130,6 +130,19 @@ All predictions rely on model scores alone or on indirect, preclinical or off-to
 - A clinical literature review focused on malignant hypertensive renal disease, the most mechanistically plausible candidate, to see whether any direct evidence exists
 - Expert review of whether the remaining predictions (pulmonary hypertension, ARVC) are clinically worth pursuing given the safety concerns
 - Confirmation of the approved indication text for the Singapore license
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

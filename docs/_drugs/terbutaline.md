@@ -54,7 +54,7 @@ Terbutaline is a beta-2 adrenergic agonist used as a bronchodilator. The TxGNN m
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Terbutaline is generally known as a beta-2 adrenergic agonist. This class relaxes airway smooth muscle and can relieve bronchospasm and airway hyperreactivity.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for terbutaline: "In vitro and in vivo pharmacologic studies have demonstrated that terbutaline exerts a preferential effect on beta 2 -adrenergic receptors. While it is recognized that beta2-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta2-receptors in the human heart, existing in a concentration between 10% to 50%." ([DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726), label version 2025-12-10; accessed 2026-11-19.) Terbutaline is generally known as a beta-2 adrenergic agonist. This class relaxes airway smooth muscle and can relieve bronchospasm and airway hyperreactivity.
 
 The high model score appears to reflect a shared respiratory phenotype rather than a causal mechanism. Beta-2 agonism may ease secondary bronchospasm in a malformed airway, but it cannot correct a structural malformation. No cited study shows a therapeutic effect in this condition, so the prediction is best treated as a hypothesis.
 
@@ -109,6 +109,18 @@ The prediction rests on model output alone. The only trial is a general pharmaco
 - Mechanism of action data
 - Evidence from studies directly addressing respiratory malformation, and a clear clinical rationale for any symptomatic benefit
 - Safety review for the cardiovascular, metabolic and potassium-related risks listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -56,7 +56,7 @@ The prediction is therefore supported by the model score alone.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Theophylline is generally known as a non-selective phosphodiesterase inhibitor and adenosine receptor antagonist. In theory, raising cAMP in platelets could reduce platelet aggregation, which is the only link to thrombosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for theophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)." ([DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410), label version 2024-07-08; accessed 2026-11-19.) Theophylline is generally known as a non-selective phosphodiesterase inhibitor and adenosine receptor antagonist. In theory, raising cAMP in platelets could reduce platelet aggregation, which is the only link to thrombosis.
 
 This link is hypothetical. The retrieved papers do not test theophylline as an antithrombotic. They cover ticlopidine pharmacokinetics, blood-sample processing, platelet biomarker assays and a theophylline sensor, and theophylline appears only as an analyte or incidental reagent. The high model score is not backed by clinical data.
 
@@ -122,6 +122,19 @@ No trials or directly relevant publications exist for thrombotic disease. The me
 
 **Other predictions reviewed (for context):**
 Among the other predictions, **nasal cavity disease** (allergic rhinitis) and **tracheal disease** have the most support, both at L3 and rated as research questions. For nasal cavity disease, a small controlled study of slow-release theophylline in allergic rhinitis (PMID 9648963) gives direct but limited human evidence. For tracheal disease, the support is preclinical, veterinary or indirect. Laryngotracheitis, pharyngitis and acute laryngopharyngitis have no supporting clinical evidence and are all on Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

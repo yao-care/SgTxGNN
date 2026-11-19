@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **elevated plasma zinc**, but *
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that trifarotene is a synthetic retinoid acting on retinoic acid receptors (RAR-α, RAR-β and RAR-γ). Other sources describe it as a selective RAR-γ agonist. It is applied as a 0.005% cream, and its high metabolic instability suggests limited systemic exposure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trifarotene: "Trifarotene is an agonist of retinoic acid receptors (RAR), with particular activity at the gamma subtype of RAR. Stimulation of RAR results in modulation of target genes which are associated with various processes, including cell differentiation and mediation of inflammation." ([DailyMed: Aklief (trifarotene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc), label version 2024-09-16; accessed 2026-11-19.) Pharmacology data show that trifarotene is a synthetic retinoid acting on retinoic acid receptors (RAR-α, RAR-β and RAR-γ). Other sources describe it as a selective RAR-γ agonist. It is applied as a 0.005% cream, and its high metabolic instability suggests limited systemic exposure.
 
 For elevated plasma zinc, no plausible mechanistic link could be identified. It is a metabolic or laboratory finding with no known retinoid-receptor pathway. A topical drug with minimal systemic exposure is also unlikely to change plasma zinc levels. The high TxGNN score appears to be a network-based artefact rather than a pharmacologically grounded signal.
 
@@ -123,6 +123,19 @@ The prediction for elevated plasma zinc has no supporting trials or literature, 
 - Identify any biological rationale linking retinoid receptor signalling to zinc homeostasis, and search for supporting literature
 - Assess route compatibility, since the drug is available only as a topical cream
 - If a repurposing direction is pursued, consider re-prioritising candidates with a skin or follicular link (e.g., demodicidosis, the acne component of PAPA syndrome). Each would still need its own evidence review.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aklief (trifarotene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

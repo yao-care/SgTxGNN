@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Perphenazine is a phenothiazine antipsychotic that is generally understood to act mainly as a dopamine D2 receptor antagonist. Its efficacy in schizophrenia is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for perphenazine: "Perphenazine has actions at all levels of the central nervous system, particularly the hypothalamus. However, the site and mechanism of action of therapeutic effect are not known." ([DailyMed: perphenazine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941), label version 2026-11-11; accessed 2026-11-19.) Perphenazine is a phenothiazine antipsychotic that is generally understood to act mainly as a dopamine D2 receptor antagonist. Its efficacy in schizophrenia is established.
 
 **No credible mechanistic link to retinal dystrophy was identified.** The only literature item is a 1964 case report of pigmentary retinopathy caused by thioridazine, a related phenothiazine. That report describes drug-induced retinal toxicity, not therapeutic benefit. If anything, it is a safety signal against using this drug class in retinal disease. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -123,6 +123,19 @@ The prediction rests only on a model score. There are no clinical trials, and th
 - Detailed mechanism of action data, and any preclinical rationale linking perphenazine to retinal pathology
 - Package insert warnings and contraindications from the Singapore regulator (HSA)
 - Review of phenothiazine-associated retinopathy risk before any ocular indication is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: perphenazine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
