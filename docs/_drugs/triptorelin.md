@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L5). In Singapore: 7 HSA registrations (7 valid)"
 ---
 
 # Triptorelin

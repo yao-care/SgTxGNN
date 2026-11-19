@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Lapatinib"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
-description: "Lapatinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lapatinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Lapatinib

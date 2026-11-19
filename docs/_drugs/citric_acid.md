@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 last_modified_at: 2026-11-12
-description: "Citric Acid: predicted new indication Stomach disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Citric Acid: predicted new indication Stomach disease (evidence level L5). In Singapore: 6 HSA registrations (6 valid)"
 ---
 
 # Citric Acid

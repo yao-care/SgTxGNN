@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Fremanezumab"
 predicted_indications: ["atrophoderma vermiculata"]
-description: "Fremanezumab: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fremanezumab: predicted new indication Atrophoderma vermiculata (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Fremanezumab

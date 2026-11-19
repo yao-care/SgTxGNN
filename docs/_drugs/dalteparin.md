@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "Dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
 last_modified_at: 2026-11-12
-description: "Dalteparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dalteparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). In Singapore: 3 HSA registrations (3 valid)"
 ---
 
 # Dalteparin

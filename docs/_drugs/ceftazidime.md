@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Ceftazidime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-description: "Ceftazidime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ceftazidime: predicted new indication Hyperamylasemia (evidence level L5). In Singapore: 6 HSA registrations (6 valid)"
 ---
 
 # Ceftazidime

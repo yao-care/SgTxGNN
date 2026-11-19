@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "Gemeprost"
 predicted_indications: ["atypical coarctation of aorta", "amenorrhea (disease)", "non-syndromic esophageal malformation", "aortic malformation", "pulmonary hypertension"]
-description: "Gemeprost: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not recorded in the local data"
+description: "Gemeprost: predicted new indication Atypical coarctation of aorta (evidence level L5). In Singapore: not in the current HSA register"
 ---
 
 # Gemeprost

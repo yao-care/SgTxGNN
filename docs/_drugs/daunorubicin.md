@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
-description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L3). Approved use: Not recorded in the local data"
+description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L3). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Daunorubicin

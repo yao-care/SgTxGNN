@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 last_modified_at: 2026-11-12
-description: "Sertaconazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sertaconazole: predicted new indication Ectothrix infectious disease (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Sertaconazole

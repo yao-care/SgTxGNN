@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 last_modified_at: 2026-11-12
-description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). In Singapore: 12 HSA registrations (12 valid)"
 ---
 
 # Cefuroxime

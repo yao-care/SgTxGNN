@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Dicyclomine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
-description: "Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Dicyclomine

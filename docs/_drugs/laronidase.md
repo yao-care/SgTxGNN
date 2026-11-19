@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Laronidase"
 predicted_indications: ["Sanfilippo syndrome"]
-description: "Laronidase: predicted new indication Sanfilippo syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Laronidase: predicted new indication Sanfilippo syndrome (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Laronidase

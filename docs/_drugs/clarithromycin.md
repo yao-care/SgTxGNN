@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
 last_modified_at: 2026-11-12
-description: "Clarithromycin: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Clarithromycin: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In Singapore: 21 HSA registrations (21 valid)"
 ---
 
 # Clarithromycin

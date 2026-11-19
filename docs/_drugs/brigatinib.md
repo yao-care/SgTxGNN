@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Brigatinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 last_modified_at: 2026-11-12
-description: "Brigatinib: predicted new indication fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
+description: "Brigatinib: predicted new indication fibromatosis, gingival (evidence level L5). In Singapore: 4 HSA registrations (4 valid)"
 ---
 
 # Brigatinib

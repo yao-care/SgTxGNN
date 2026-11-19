@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Nilotinib"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
-description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
+description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). In Singapore: 3 HSA registrations (3 valid)"
 ---
 
 # Nilotinib

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
-description: "Tipiracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Tipiracil: predicted new indication Cecum villous adenoma (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Tipiracil

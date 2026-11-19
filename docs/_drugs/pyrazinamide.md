@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Pyrazinamide"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
-description: "Pyrazinamide: predicted new indication Infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pyrazinamide: predicted new indication Infectious otitis media (evidence level L5). In Singapore: not in the current HSA register"
 ---
 
 # Pyrazinamide

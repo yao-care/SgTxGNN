@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "Hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
-description: "Hesperidin: predicted new indication Myeloproliferative neoplasm (evidence level L5). Approved use: Not recorded in the local data"
+description: "Hesperidin: predicted new indication Myeloproliferative neoplasm (evidence level L5). In Singapore: 6 HSA registrations (6 valid)"
 ---
 
 # Hesperidin

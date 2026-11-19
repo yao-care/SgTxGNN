@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
-description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). In Singapore: 14 HSA registrations (14 valid)"
 ---
 
 # Epinephrine

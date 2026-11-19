@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
-description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). In Singapore: 10 HSA registrations (10 valid)"
 ---
 
 # Vancomycin

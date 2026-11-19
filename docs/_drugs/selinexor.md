@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Selinexor"
 predicted_indications: ["drug-induced osteoporosis"]
-description: "Selinexor: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Selinexor: predicted new indication Drug-induced osteoporosis (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Selinexor

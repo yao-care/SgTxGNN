@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Caspofungin"
 predicted_indications: ["gastrin secretion abnormality"]
 last_modified_at: 2026-11-12
-description: "Caspofungin: predicted new indication gastrin secretion abnormality (evidence level L5). Approved use: Not recorded in the local data"
+description: "Caspofungin: predicted new indication gastrin secretion abnormality (evidence level L5). In Singapore: 9 HSA registrations (9 valid)"
 ---
 
 # Caspofungin

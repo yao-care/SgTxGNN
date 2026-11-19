@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
-description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). In Singapore: 26 HSA registrations (26 valid)"
 ---
 
 # Pseudoephedrine

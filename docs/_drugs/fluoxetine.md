@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
 last_modified_at: 2026-11-12
-description: "Fluoxetine: predicted new indication Schizotypal personality disorder (evidence level L3). Approved use: Not recorded in the local data"
+description: "Fluoxetine: predicted new indication Schizotypal personality disorder (evidence level L3). In Singapore: 6 HSA registrations (6 valid)"
 ---
 
 # Fluoxetine

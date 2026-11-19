@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Palivizumab"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
-description: "Palivizumab: predicted new indication Benign neoplasm of tongue (evidence level L5). Approved use: Not recorded in the local data"
+description: "Palivizumab: predicted new indication Benign neoplasm of tongue (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Palivizumab

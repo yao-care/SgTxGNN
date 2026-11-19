@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 last_modified_at: 2026-11-12
-description: "Cilastatin: predicted new indication staphylococcus aureus infection (evidence level L3). Approved use: Not recorded in the local data"
+description: "Cilastatin: predicted new indication staphylococcus aureus infection (evidence level L3). In Singapore: 4 HSA registrations (4 valid)"
 ---
 
 # Cilastatin

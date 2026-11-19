@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
-description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
+description: "Montelukast: predicted new indication Bronchitis (evidence level L2). In Singapore: 26 HSA registrations (26 valid)"
 ---
 
 # Montelukast

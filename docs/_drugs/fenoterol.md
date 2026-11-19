@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "Fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
-description: "Fenoterol: predicted new indication Multiple system atrophy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fenoterol: predicted new indication Multiple system atrophy (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Fenoterol

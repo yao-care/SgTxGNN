@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Ponatinib"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
-description: "Ponatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ponatinib: predicted new indication Fibromatosis, gingival (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Ponatinib

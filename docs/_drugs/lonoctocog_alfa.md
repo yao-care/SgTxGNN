@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "Lonoctocog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
-description: "Lonoctocog Alfa: predicted new indication Pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lonoctocog Alfa: predicted new indication Pseudo-von Willebrand disease (evidence level L5). In Singapore: 5 HSA registrations (5 valid)"
 ---
 
 # Lonoctocog Alfa

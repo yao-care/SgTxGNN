@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Sulbactam"
 predicted_indications: ["bacterial arthritis"]
-description: "Sulbactam: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sulbactam: predicted new indication Bacterial arthritis (evidence level L5). In Singapore: 3 HSA registrations (3 valid)"
 ---
 
 # Sulbactam

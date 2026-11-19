@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Avelumab"
 predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 last_modified_at: 2026-11-12
-description: "Avelumab: predicted new indication human herpesvirus 8-related tumor (evidence level L5). Approved use: Not recorded in the local data"
+description: "Avelumab: predicted new indication human herpesvirus 8-related tumor (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Avelumab

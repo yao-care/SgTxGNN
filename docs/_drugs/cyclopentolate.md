@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "Cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 last_modified_at: 2026-11-12
-description: "Cyclopentolate: predicted new indication cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cyclopentolate: predicted new indication cauda equina syndrome (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Cyclopentolate

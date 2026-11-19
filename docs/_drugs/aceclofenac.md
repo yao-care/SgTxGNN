@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Aceclofenac"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx", "Kummell disease"]
 last_modified_at: 2026-11-12
-description: "Aceclofenac: predicted new indication brachyolmia-amelogenesis imperfecta syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Aceclofenac: predicted new indication brachyolmia-amelogenesis imperfecta syndrome (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Aceclofenac

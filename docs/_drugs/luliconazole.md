@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Luliconazole"
 predicted_indications: ["endothrix infectious disease", "ectothrix infectious disease"]
-description: "Luliconazole: predicted new indication Endothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Luliconazole: predicted new indication Endothrix infectious disease (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Luliconazole

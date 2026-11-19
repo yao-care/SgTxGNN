@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Xylometazoline"
 predicted_indications: ["nasal cavity disease"]
-description: "Xylometazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Not recorded in the local data"
+description: "Xylometazoline: predicted new indication Nasal cavity disease (evidence level L3). In Singapore: 3 HSA registrations (3 valid)"
 ---
 
 # Xylometazoline

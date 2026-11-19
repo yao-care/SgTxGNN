@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Fedratinib"
 predicted_indications: ["benign PEComa", "lymphangiomyoma", "uterine corpus perivascular epithelioid cell tumor", "dermatofibrosarcoma protuberans", "rhabdoid tumor", "familial rhabdoid tumor", "autosomal recessive familial Mediterranean fever", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection", "lymphangioleiomyomatosis"]
-description: "Fedratinib: predicted new indication Benign PEComa (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fedratinib: predicted new indication Benign PEComa (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Fedratinib

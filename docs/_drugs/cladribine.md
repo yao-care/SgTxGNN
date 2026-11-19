@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Cladribine"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
 last_modified_at: 2026-11-12
-description: "Cladribine: predicted new indication parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cladribine: predicted new indication parameningeal embryonal rhabdomyosarcoma (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Cladribine

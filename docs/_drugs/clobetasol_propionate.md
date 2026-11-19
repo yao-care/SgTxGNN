@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Clobetasol propionate"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 last_modified_at: 2026-11-06
-description: "Clobetasol Propionate: predicted new indication vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Clobetasol Propionate: predicted new indication vulvar inverted follicular keratosis (evidence level L5). In Singapore: 16 HSA registrations (16 valid)"
 ---
 
 # Clobetasol Propionate

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "Docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
+description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). In Singapore: 12 HSA registrations (12 valid)"
 ---
 
 # Docetaxel

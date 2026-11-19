@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Latanoprostene bunod"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "idiopathic spontaneous coronary artery dissection", "angiodysplasia of stomach", "lymphangiectasis", "hemangioendothelioma"]
-description: "Latanoprostene Bunod: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Latanoprostene Bunod: predicted new indication Visceral calciphylaxis (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Latanoprostene Bunod

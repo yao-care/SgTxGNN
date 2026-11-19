@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
-description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
+description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). In Singapore: 3 HSA registrations (3 valid)"
 ---
 
 # Paroxetine

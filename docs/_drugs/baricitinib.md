@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Baricitinib"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 last_modified_at: 2026-11-12
-description: "Baricitinib: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Baricitinib: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Baricitinib

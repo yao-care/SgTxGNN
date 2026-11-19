@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "Benralizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
 last_modified_at: 2026-11-12
-description: "Benralizumab: predicted new indication thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
+description: "Benralizumab: predicted new indication thrombocytopenia due to immune destruction (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Benralizumab

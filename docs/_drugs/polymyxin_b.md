@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
-description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
+description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). In Singapore: 4 HSA registrations (4 valid)"
 ---
 
 # Polymyxin B

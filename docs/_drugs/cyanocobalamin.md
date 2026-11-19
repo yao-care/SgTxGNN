@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
 last_modified_at: 2026-11-12
-description: "Cyanocobalamin: predicted new indication biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cyanocobalamin: predicted new indication biotin metabolic disease (evidence level L5). In Singapore: 12 HSA registrations (12 valid)"
 ---
 
 # Cyanocobalamin

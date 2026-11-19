@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
-description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). In Singapore: 18 HSA registrations (18 valid)"
 ---
 
 # Phenylalanine

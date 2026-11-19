@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "Phentermine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
-description: "Phentermine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Phentermine: predicted new indication Hypervitaminosis (evidence level L5). In Singapore: 4 HSA registrations (4 valid)"
 ---
 
 # Phentermine

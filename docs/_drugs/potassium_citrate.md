@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Potassium citrate"
 predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency", "adult Fanconi syndrome"]
 last_modified_at: 2026-11-12
-description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). In Singapore: 3 HSA registrations (3 valid)"
 ---
 
 # Potassium Citrate

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
-description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
+description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). In Singapore: 16 HSA registrations (16 valid)"
 ---
 
 # Ephedrine

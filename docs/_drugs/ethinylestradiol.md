@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
-description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). In Singapore: 9 HSA registrations (9 valid)"
 ---
 
 # Ethinylestradiol

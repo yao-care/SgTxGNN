@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Prednisolone acetate"
 predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
 last_modified_at: 2026-11-12
-description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Prednisolone Acetate

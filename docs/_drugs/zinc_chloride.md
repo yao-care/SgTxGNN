@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Zinc chloride"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
-description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). In Singapore: 3 HSA registrations (3 valid)"
 ---
 
 # Zinc Chloride

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Dexchlorpheniramine maleate"
 predicted_indications: ["acute intermittent porphyria"]
-description: "Dexchlorpheniramine Maleate: predicted new indication Acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dexchlorpheniramine Maleate: predicted new indication Acute intermittent porphyria (evidence level L5). In Singapore: 7 HSA registrations (7 valid)"
 ---
 
 # Dexchlorpheniramine Maleate

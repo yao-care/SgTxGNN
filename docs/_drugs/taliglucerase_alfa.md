@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "Taliglucerase alfa"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
-description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Taliglucerase Alfa

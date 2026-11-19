@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "Framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
-description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Framycetin

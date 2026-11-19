@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "Hydroquinone"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
-description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Hydroquinone

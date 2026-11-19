@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Salicylamide"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
-description: "Salicylamide: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Salicylamide: predicted new indication Pharyngitis (evidence level L5). In Singapore: not in the current HSA register"
 ---
 
 # Salicylamide

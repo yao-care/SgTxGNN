@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Ranolazine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
-description: "Ranolazine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ranolazine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In Singapore: 3 HSA registrations (3 valid)"
 ---
 
 # Ranolazine

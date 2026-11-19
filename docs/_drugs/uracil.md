@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Uracil"
 predicted_indications: ["lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "cavernous hemangioma of colon", "cecal disease", "colon leiomyoma"]
 last_modified_at: 2026-11-12
-description: "Uracil: predicted new indication Lipoma of colon (evidence level L5). Approved use: Not recorded in the local data"
+description: "Uracil: predicted new indication Lipoma of colon (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Uracil

@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "Tedizolid phosphate"
 predicted_indications: ["post-infectious syndrome", "post-bacterial disorder", "postinfectious vasculitis", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "conjunctivitis"]
-description: "Tedizolid Phosphate: predicted new indication Post-infectious syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Tedizolid Phosphate: predicted new indication Post-infectious syndrome (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Tedizolid Phosphate

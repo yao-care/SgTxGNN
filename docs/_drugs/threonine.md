@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Threonine"
 predicted_indications: ["gastroparesis (disease)"]
-description: "Threonine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Threonine: predicted new indication Gastroparesis (disease) (evidence level L5). In Singapore: 18 HSA registrations (18 valid)"
 ---
 
 # Threonine

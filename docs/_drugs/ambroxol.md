@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "Ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
 last_modified_at: 2026-11-12
-description: "Ambroxol: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ambroxol: predicted new indication nasal cavity disease (evidence level L5). In Singapore: 8 HSA registrations (8 valid)"
 ---
 
 # Ambroxol

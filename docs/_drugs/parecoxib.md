@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
-description: "Parecoxib: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data"
+description: "Parecoxib: predicted new indication Migraine disorder (evidence level L3). In Singapore: 7 HSA registrations (7 valid)"
 ---
 
 # Parecoxib

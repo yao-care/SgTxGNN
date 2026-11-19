@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Dapoxetine"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
-description: "Dapoxetine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dapoxetine: predicted new indication Migraine disorder (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Dapoxetine

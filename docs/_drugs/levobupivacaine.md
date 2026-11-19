@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Levobupivacaine"
 predicted_indications: ["gastroduodenitis"]
-description: "Levobupivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Levobupivacaine: predicted new indication Gastroduodenitis (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Levobupivacaine

@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "Vonoprazan"
 predicted_indications: ["peptic ulcer perforation", "hiatus hernia (disease)", "achlorhydria", "gastric dilatation", "pylorospasm", "cascade stomach", "Dieulafoy lesion", "hemorrhagic duodenitis"]
-description: "Vonoprazan: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
+description: "Vonoprazan: predicted new indication Peptic ulcer perforation (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Vonoprazan

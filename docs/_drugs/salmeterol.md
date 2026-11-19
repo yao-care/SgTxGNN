@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
-description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
+description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). In Singapore: 10 HSA registrations (10 valid)"
 ---
 
 # Salmeterol

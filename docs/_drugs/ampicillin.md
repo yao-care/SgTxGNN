@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 last_modified_at: 2026-11-12
-description: "Ampicillin: predicted new indication laryngitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ampicillin: predicted new indication laryngitis (evidence level L5). In Singapore: 4 HSA registrations (4 valid)"
 ---
 
 # Ampicillin

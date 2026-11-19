@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Orlistat"
 predicted_indications: ["hypervitaminosis"]
-description: "Orlistat: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Orlistat: predicted new indication Hypervitaminosis (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Orlistat

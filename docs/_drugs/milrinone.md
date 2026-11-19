@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Milrinone"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
-description: "Milrinone: predicted new indication Alopecia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Milrinone: predicted new indication Alopecia (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Milrinone

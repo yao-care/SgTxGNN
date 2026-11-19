@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "Valbenazine"
 predicted_indications: ["psychogenic movement disorders", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "chronic tic disorder", "benign shuddering attacks"]
-description: "Valbenazine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
+description: "Valbenazine: predicted new indication Psychogenic movement disorders (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Valbenazine

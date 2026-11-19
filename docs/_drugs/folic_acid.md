@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
-description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L4). Approved use: Not recorded in the local data"
+description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L4). In Singapore: 4 HSA registrations (4 valid)"
 ---
 
 # Folic Acid

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
-description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). In Singapore: 7 HSA registrations (7 valid)"
 ---
 
 # Fexofenadine

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
-description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
 # Goserelin

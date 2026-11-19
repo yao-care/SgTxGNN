@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Mepivacaine"
 predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
-description: "Mepivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mepivacaine: predicted new indication Gastroduodenitis (evidence level L5). In Singapore: 4 HSA registrations (4 valid)"
 ---
 
 # Mepivacaine

@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Benzbromarone"
 predicted_indications: ["hypouricemia, renal"]
 last_modified_at: 2026-11-12
-description: "Benzbromarone: predicted new indication hypouricemia, renal (evidence level L5). Approved use: Not recorded in the local data"
+description: "Benzbromarone: predicted new indication hypouricemia, renal (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
 ---
 
 # Benzbromarone

@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "Albutrepenonacog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia"]
 last_modified_at: 2026-11-12
-description: "Albutrepenonacog Alfa: predicted new indication pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Albutrepenonacog Alfa: predicted new indication pseudo-von Willebrand disease (evidence level L5). In Singapore: 4 HSA registrations (4 valid)"
 ---
 
 # Albutrepenonacog Alfa
