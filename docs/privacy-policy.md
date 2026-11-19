@@ -87,14 +87,32 @@ The pages load the following third-party resources, which may log access in acco
 
 ---
 
-## Your Rights
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Applicable law
 
-You have the right to:
-- Access information about you
-- Request deletion of any personal data
-- Opt out of analytics
+For visitors in Singapore the relevant law is the [Personal Data Protection Act 2012 (PDPA)](https://sso.agc.gov.sg/Act/PDPA2012), administered by the [Personal Data Protection Commission (PDPC)](https://www.pdpc.gov.sg/). The only personal data involved is the usage data Google Analytics 4 collects through cookies, which Google processes outside Singapore (the PDPA's transfer limitation obligation covers such transfers).
 
-Contact us at [GitHub Issues](https://github.com/yao-care/SgTxGNN/issues) for any privacy-related requests.
+## Your rights and how to use them
+
+- Ask for access to your personal data and how it has been used (access obligation).
+- Ask for corrections (correction obligation).
+- Withdraw consent by blocking or deleting the analytics cookies.
+- Raise a complaint with the PDPC if your concern is not resolved.
+
+Requests: service@yao.care (there are no accounts, so tell us the date and pages of your visit). Analytics cookies can be blocked or deleted in your browser.
+
+## Copyright and data sources
+
+Site texts are protected under the [Copyright Act 2021](https://sso.agc.gov.sg/Act/CA2021). The site's code is published under the MIT License in the [GitHub repository](https://github.com/yao-care/SgTxGNN); report texts are © 藥提醒科技有限公司 (yao.care).
+
+Data sources used on this site and their terms:
+
+- **TxGNN** data (Harvard Dataverse): CC0 1.0; cite Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov**, **PubMed**: [ClinicalTrials.gov terms](https://clinicaltrials.gov/about-site/terms-conditions), [NCBI policies](https://www.ncbi.nlm.nih.gov/home/about/policies/).
+- **DrugBank**: [DrugBank](https://go.drugbank.com/) licence terms, non-commercial use.
+- **Local dataset** – [HSA registered therapeutic products (data.gov.sg)](https://data.gov.sg/datasets/d_767279312753558cbf19d48344577084/view): Singapore Open Data Licence version 1.0 (data.gov.sg) (https://data.gov.sg/open-data-licence).
+
+<!-- privacy-law:end -->
 
 ---
 
