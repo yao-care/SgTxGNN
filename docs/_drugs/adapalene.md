@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). In Singapore: 4 HSA registrations (4 valid)"
 ---
 

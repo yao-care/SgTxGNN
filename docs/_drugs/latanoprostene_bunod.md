@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Latanoprostene bunod"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "idiopathic spontaneous coronary artery dissection", "angiodysplasia of stomach", "lymphangiectasis", "hemangioendothelioma"]
 description: "Latanoprostene Bunod: predicted new indication Visceral calciphylaxis (evidence level L5). In Singapore: 1 HSA registration (1 valid)"

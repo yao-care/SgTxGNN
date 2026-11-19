@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Beclomethasone dipropionate"
 predicted_indications: ["atopic eczema"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Beclomethasone Dipropionate: predicted new indication atopic eczema (evidence level L5). In Singapore: 4 HSA registrations (4 valid)"
 ---
 

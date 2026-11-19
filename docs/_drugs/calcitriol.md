@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Calcitriol"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). In Singapore: 3 HSA registrations (3 valid)"
 ---
 

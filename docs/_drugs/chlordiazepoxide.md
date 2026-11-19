@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "myofascial pain syndrome"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Chlordiazepoxide: predicted new indication insomnia (disease) (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
 ---
 

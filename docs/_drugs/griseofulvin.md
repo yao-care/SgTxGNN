@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 492
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Griseofulvin"
 predicted_indications: ["myiasis", "creeping myiasis", "furuncular myiasis", "wound myiasis", "echinococcus granulosus infectious disease"]
 description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). In Singapore: 1 HSA registration (1 valid)"

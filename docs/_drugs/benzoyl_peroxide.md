@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Benzoyl peroxide"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Benzoyl Peroxide: predicted new indication vulvar inverted follicular keratosis (evidence level L5). In Singapore: 3 HSA registrations (3 valid)"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clotrimazole: predicted new indication acne (disease) (evidence level L5). In Singapore: 23 HSA registrations (23 valid)"
 ---
 

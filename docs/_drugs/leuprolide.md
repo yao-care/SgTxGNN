@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 592
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Leuprolide"
 predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
 description: "Leuprolide: predicted new indication Osteoarthritis (evidence level L5). In Singapore: 8 HSA registrations (8 valid)"

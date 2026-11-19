@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). In Singapore: 5 HSA registrations (5 valid)"

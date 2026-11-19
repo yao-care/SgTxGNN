@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Ceftazidime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
 description: "Ceftazidime: predicted new indication Hyperamylasemia (evidence level L5). In Singapore: 6 HSA registrations (6 valid)"

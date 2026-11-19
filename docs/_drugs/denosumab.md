@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Denosumab"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 description: "Denosumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). In Singapore: 9 HSA registrations (9 valid)"

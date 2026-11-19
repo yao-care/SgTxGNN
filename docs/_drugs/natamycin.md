@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 702
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Natamycin"
 predicted_indications: ["vulvitis", "trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "tinea nigra"]
 description: "Natamycin: predicted new indication Vulvitis (evidence level L5). In Singapore: not in the current HSA register"

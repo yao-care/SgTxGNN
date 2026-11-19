@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Letermovir"
 predicted_indications: ["vulvovaginal candidiasis"]
 description: "Letermovir: predicted new indication Vulvovaginal candidiasis (evidence level L5). In Singapore: 3 HSA registrations (3 valid)"

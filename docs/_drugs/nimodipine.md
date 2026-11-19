@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 714
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Nimodipine: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"

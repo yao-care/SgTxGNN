@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Adalimumab"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). In Singapore: 21 HSA registrations (21 valid)"
 ---
 

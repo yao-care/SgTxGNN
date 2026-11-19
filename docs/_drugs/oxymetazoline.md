@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 751
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
 description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). In Singapore: 10 HSA registrations (10 valid)"

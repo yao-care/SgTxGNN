@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bisoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Bisoprolol: predicted new indication malignant hypertensive renal disease (evidence level L5). In Singapore: 24 HSA registrations (24 valid)"
 ---
 

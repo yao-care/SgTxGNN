@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 70
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Alprazolam"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
 description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). In Singapore: 7 HSA registrations (7 valid)"

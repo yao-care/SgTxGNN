@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). In Singapore: 23 HSA registrations (23 valid)"
 ---
 

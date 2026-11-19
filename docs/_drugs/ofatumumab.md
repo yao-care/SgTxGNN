@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 4
 monitor_inn: "Ofatumumab"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Ofatumumab: predicted new indication Follicular lymphoma (evidence level L1). Approved use: Acute lymphoblastic/lymphocytic leukemia and Richter syndrome"
 ---
 

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 806
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). In Singapore: 4 HSA registrations (4 valid)"

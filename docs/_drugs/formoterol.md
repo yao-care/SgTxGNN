@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). In Singapore: 17 HSA registrations (17 valid)"

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 814
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Potassium Iodide"
 predicted_indications: ["nasal cavity disease"]
 description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). In Singapore: 3 HSA registrations (3 valid)"

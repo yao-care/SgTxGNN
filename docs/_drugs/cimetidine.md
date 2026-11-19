@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Cimetidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Cimetidine: predicted new indication peptic ulcer perforation (evidence level L4). In Singapore: 3 HSA registrations (3 valid)"
 ---
 

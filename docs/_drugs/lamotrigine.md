@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In Singapore: 10 HSA registrations (10 valid)"

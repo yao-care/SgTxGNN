@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
 description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"

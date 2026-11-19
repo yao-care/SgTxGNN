@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 565
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Ketamine"
 predicted_indications: ["headache disorder"]
 description: "Ketamine: predicted new indication Headache disorder (evidence level L1). In Singapore: 2 HSA registrations (2 valid)"

@@ -5,7 +5,7 @@ parent: Medium Evidence (L3-L4)
 nav_order: 307
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
 description: "Daunorubicin: predicted new indication Hodgkins lymphoma (evidence level L3). In Singapore: 1 HSA registration (1 valid)"

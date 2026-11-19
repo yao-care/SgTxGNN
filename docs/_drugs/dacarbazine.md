@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"

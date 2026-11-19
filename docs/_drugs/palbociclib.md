@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Palbociclib"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: predicted new indication Hyperthyroidism (evidence level L5). In Singapore: 6 HSA registrations (6 valid)"

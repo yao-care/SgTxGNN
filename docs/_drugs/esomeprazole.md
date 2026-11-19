@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole: predicted new indication Duodenal obstruction (evidence level L5). In Singapore: 18 HSA registrations (18 valid)"

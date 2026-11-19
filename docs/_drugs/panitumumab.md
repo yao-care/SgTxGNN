@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Panitumumab"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
 description: "Panitumumab: predicted new indication Drug-induced osteoporosis (evidence level L5). In Singapore: 1 HSA registration (1 valid)"

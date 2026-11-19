@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Digoxin"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
 description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). In Singapore: 5 HSA registrations (5 valid)"

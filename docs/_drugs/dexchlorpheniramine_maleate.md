@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Dexchlorpheniramine maleate"
 predicted_indications: ["acute intermittent porphyria"]
 description: "Dexchlorpheniramine Maleate: predicted new indication Acute intermittent porphyria (evidence level L5). In Singapore: 7 HSA registrations (7 valid)"

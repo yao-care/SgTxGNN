@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
 description: "Doxylamine: predicted new indication Nasal cavity disease (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
