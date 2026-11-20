@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **vulvar inverted follicular kerat
 
 ## Why is This Prediction Reasonable?
 
-Clobetasol propionate binds the glucocorticoid receptor (NR3C1) and suppresses local inflammation. According to the Mechanism of Action section of the US FDA-approved prescribing information for clobetasol propionate: "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear." ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), label version 2026-11-10; accessed 2026-11-19.) This description rests on the known pharmacology of the drug class.
+Clobetasol propionate binds the glucocorticoid receptor (NR3C1) and suppresses local inflammation. This description rests on the known pharmacology of the drug class. According to the Mechanism of Action section of the US FDA-approved prescribing information for clobetasol propionate: "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear." ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), label version 2026-11-10; accessed 2026-11-19.)
 
 Inverted follicular keratosis is a benign epithelial lesion that is related to seborrheic keratosis, a condition the drug has been linked to. This relationship is the likely source of the model's signal.
 
@@ -97,7 +97,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism-of-action text is not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
+| 2026-11-20 | "Detailed mechanism-of-action text is not available in the data compiled for this report, so this description rests on the known pharmacology of the drug class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
 
 <!-- review:end log -->
 

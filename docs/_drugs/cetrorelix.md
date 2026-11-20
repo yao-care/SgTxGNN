@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Cetrorelix: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Inhibition of premature LH surges in women undergoing controlled ovar…"
 monitor_inn: "Cetrorelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -56,7 +56,7 @@ The prediction rests on the model score alone (evidence level L5).
 
 ## Why is This Prediction Reasonable?
 
-Cetrorelix is a peptide antagonist of the GnRH1 receptor (gene GNRHR). By blocking this receptor it suppresses LH and FSH release and, downstream, gonadal sex-steroid production. Detailed mechanism of action data is not otherwise available.
+Cetrorelix is a peptide antagonist of the GnRH1 receptor (gene GNRHR). By blocking this receptor it suppresses LH and FSH release and, downstream, gonadal sex-steroid production. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cetrorelix: "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge." ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79), label version 2025-09-22; accessed 2026-11-20.)
 
 In theory, lowering androgen signalling could affect androgen-dependent hair growth. However, most forms of hypertrichosis (congenital, drug-induced, syndromic) are not mainly driven by gonadal androgens, so the link is speculative. The high TxGNN score is not backed by any trial or publication.
 
@@ -104,6 +104,19 @@ The prediction for hypertrichosis is supported only by a model score. There are 
 - A literature and trial search for cetrorelix in hypertrichosis
 - If pursued, a focused review of **central precocious puberty** and **familial male-limited precocious puberty**, the two most mechanistically coherent candidates, considering the short-acting formulation and existing standard therapies
 - Assessment of route and formulation compatibility (currently only an injection is available)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not otherwise available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -9716,9 +9716,9 @@
    "drug": "clindamycin",
    "file": "clindamycin.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data are not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for clindamycin: \"Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic.\" ([DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a), label version 2026-09-16; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data are not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data are not available in the data compiled for this report, so this description is based on general knowledge of the drug class.",
+   "replacement": "This description is based on general knowledge of the drug class. According to the Mechanism of Action section of the US FDA-approved prescribing information for clindamycin: \"Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic.\" ([DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a), label version 2026-09-16; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data are not available in the data compiled for this report, so this description is based on general knowledge of the drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -9732,8 +9732,36 @@
      "set_id": "df9a2a41-b132-4f43-8940-b2d773b1369a"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-clindamycin-1",
+     "drug": "clindamycin",
+     "file": "clindamycin.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data are not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for clindamycin: \"Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic.\" ([DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a), label version 2026-09-16; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data are not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a",
+       "accessed": "2026-11-19",
+       "excerpt": "Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic.",
+       "label_version": "2026-09-16",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "df9a2a41-b132-4f43-8940-b2d773b1369a"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-clioquinol-1",
@@ -9810,9 +9838,9 @@
    "drug": "clobetasol_propionate",
    "file": "clobetasol_propionate.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action text is not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for clobetasol propionate: \"Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear.\" ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), label version 2026-11-10; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action text is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action text is not available in the data compiled for this report, so this description rests on the known pharmacology of the drug class.",
+   "replacement": "This description rests on the known pharmacology of the drug class. According to the Mechanism of Action section of the US FDA-approved prescribing information for clobetasol propionate: \"Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear.\" ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), label version 2026-11-10; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action text is not available in the data compiled for this report, so this description rests on the known pharmacology of the drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -9826,8 +9854,36 @@
      "set_id": "26ccb1d8-c466-e238-e063-6394a90a0069"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-clobetasol_propionate-1",
+     "drug": "clobetasol_propionate",
+     "file": "clobetasol_propionate.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action text is not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for clobetasol propionate: \"Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear.\" ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), label version 2026-11-10; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action text is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069",
+       "accessed": "2026-11-19",
+       "excerpt": "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear.",
+       "label_version": "2026-11-10",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "26ccb1d8-c466-e238-e063-6394a90a0069"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-clomipramine-1",
@@ -11306,9 +11362,9 @@
    "drug": "dronedarone",
    "file": "dronedarone.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for dronedarone: \"The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown.\" ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), label version 2026-01-27; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description comes from the published literature.",
+   "replacement": "This description comes from the published literature. According to the Mechanism of Action section of the US FDA-approved prescribing information for dronedarone: \"The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown.\" ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), label version 2026-01-27; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description comes from the published literature\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -11322,8 +11378,36 @@
      "set_id": "3bd4006a-8bad-4909-ac6d-b6d84390155c"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-dronedarone-1",
+     "drug": "dronedarone",
+     "file": "dronedarone.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for dronedarone: \"The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown.\" ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), label version 2026-01-27; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c",
+       "accessed": "2026-11-19",
+       "excerpt": "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown.",
+       "label_version": "2026-01-27",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "3bd4006a-8bad-4909-ac6d-b6d84390155c"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-duloxetine-1",
@@ -11592,9 +11676,9 @@
    "drug": "enfortumab_vedotin",
    "file": "enfortumab_vedotin.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for enfortumab vedotin: \"Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker.\" ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), label version 2026-08-04; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so the description above is based on the drug class.",
+   "replacement": "The description above is based on the drug class. According to the Mechanism of Action section of the US FDA-approved prescribing information for enfortumab vedotin: \"Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker.\" ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), label version 2026-08-04; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so the description above is based on the drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -11608,8 +11692,36 @@
      "set_id": "b5631d3e-4604-4363-8f20-11dfc5a4a8ed"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-enfortumab_vedotin-1",
+     "drug": "enfortumab_vedotin",
+     "file": "enfortumab_vedotin.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for enfortumab vedotin: \"Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker.\" ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), label version 2026-08-04; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed",
+       "accessed": "2026-11-19",
+       "excerpt": "Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker.",
+       "label_version": "2026-08-04",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "b5631d3e-4604-4363-8f20-11dfc5a4a8ed"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-enoxaparin-1",
@@ -11808,9 +11920,9 @@
    "drug": "eribulin",
    "file": "eribulin.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for eribulin: \"Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage.\" ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), label version 2025-11-07; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description is based on the drug's known pharmacology.",
+   "replacement": "This description is based on the drug's known pharmacology. According to the Mechanism of Action section of the US FDA-approved prescribing information for eribulin: \"Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage.\" ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), label version 2025-11-07; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description is based on the drug's known pharmacology\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -11824,8 +11936,36 @@
      "set_id": "31ce4750-ded5-4a0b-95e9-f229fa6bc822"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-eribulin-1",
+     "drug": "eribulin",
+     "file": "eribulin.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for eribulin: \"Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage.\" ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), label version 2025-11-07; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822",
+       "accessed": "2026-11-19",
+       "excerpt": "Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage.",
+       "label_version": "2025-11-07",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "31ce4750-ded5-4a0b-95e9-f229fa6bc822"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-ertapenem-1",
@@ -11976,9 +12116,9 @@
    "drug": "etelcalcetide",
    "file": "etelcalcetide.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action text is not available in the data compiled for this report.",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for etelcalcetide: \"Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion.\" ([DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c), label version 2026-03-08; accessed 2026-11-19.)",
-   "summary": "\"Detailed mechanism-of-action text is not available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action text is not available in the data compiled for this report. The mechanistic rationale below comes from the evidence review.",
+   "replacement": "The mechanistic rationale below comes from the evidence review. According to the Mechanism of Action section of the US FDA-approved prescribing information for etelcalcetide: \"Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion.\" ([DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c), label version 2026-03-08; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action text is not available in the data compiled for this report. The mechanistic rationale below comes from the evidence review\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -11992,8 +12132,36 @@
      "set_id": "cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-etelcalcetide-1",
+     "drug": "etelcalcetide",
+     "file": "etelcalcetide.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action text is not available in the data compiled for this report.",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for etelcalcetide: \"Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion.\" ([DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c), label version 2026-03-08; accessed 2026-11-19.)",
+     "summary": "\"Detailed mechanism-of-action text is not available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Parsabiv (etelcalcetide) prescribing information, Amgen, Inc",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c",
+       "accessed": "2026-11-19",
+       "excerpt": "Etelcalcetide is a calcimimetic agent that allosterically modulates the calcium-sensing receptor (CaSR). Etelcalcetide binds to the CaSR and enhances activation of the receptor by extracellular calcium. Activation of the CaSR on parathyroid chief cells decreases PTH secretion.",
+       "label_version": "2026-03-08",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "cd270093-c6a8-4596-a4ab-e6aa0a2c8a0c"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-etoposide-1",
@@ -12452,9 +12620,9 @@
    "drug": "fludarabine",
    "file": "fludarabine.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data from DrugBank are not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for fludarabine: \"Fludarabine phosphate is rapidly converted to active 2-fluoro-ara-ATP, which appears to inhibit DNA synthesis through inhibition of DNA polymerase alpha, ribonucleotide reductase and DNA primase.\" ([DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951), label version 2026-09-20; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data from DrugBank are not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data from DrugBank are not available in the data compiled for this report, so this description relies on the general pharmacology summarised in the repurposing analysis.",
+   "replacement": "This description relies on the general pharmacology summarised in the repurposing analysis. According to the Mechanism of Action section of the US FDA-approved prescribing information for fludarabine: \"Fludarabine phosphate is rapidly converted to active 2-fluoro-ara-ATP, which appears to inhibit DNA synthesis through inhibition of DNA polymerase alpha, ribonucleotide reductase and DNA primase.\" ([DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951), label version 2026-09-20; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data from DrugBank are not available in the data compiled for this report, so this description relies on the general pharmacology summarised in the repurposing analysis\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -12468,8 +12636,36 @@
      "set_id": "291f6ee2-f5d2-ae6c-e063-6294a90a5951"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-fludarabine-1",
+     "drug": "fludarabine",
+     "file": "fludarabine.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data from DrugBank are not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for fludarabine: \"Fludarabine phosphate is rapidly converted to active 2-fluoro-ara-ATP, which appears to inhibit DNA synthesis through inhibition of DNA polymerase alpha, ribonucleotide reductase and DNA primase.\" ([DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951), label version 2026-09-20; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data from DrugBank are not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951",
+       "accessed": "2026-11-19",
+       "excerpt": "Fludarabine phosphate is rapidly converted to active 2-fluoro-ara-ATP, which appears to inhibit DNA synthesis through inhibition of DNA polymerase alpha, ribonucleotide reductase and DNA primase.",
+       "label_version": "2026-09-20",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "291f6ee2-f5d2-ae6c-e063-6294a90a5951"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-fludrocortisone-1",
@@ -12764,9 +12960,9 @@
    "drug": "fremanezumab",
    "file": "fremanezumab.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for fremanezumab: \"Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor.\" ([DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b), label version 2026-06-05; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on the published literature.",
+   "replacement": "This description relies on the published literature. According to the Mechanism of Action section of the US FDA-approved prescribing information for fremanezumab: \"Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor.\" ([DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b), label version 2026-06-05; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on the published literature\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -12780,8 +12976,36 @@
      "set_id": "98e344ea-5916-4947-b6f2-4a76ccc04b6b"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-fremanezumab-1",
+     "drug": "fremanezumab",
+     "file": "fremanezumab.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for fremanezumab: \"Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor.\" ([DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b), label version 2026-06-05; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b",
+       "accessed": "2026-11-19",
+       "excerpt": "Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor.",
+       "label_version": "2026-06-05",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "98e344ea-5916-4947-b6f2-4a76ccc04b6b"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-fulvestrant-1",
@@ -12812,9 +13036,9 @@
    "drug": "fusidic_acid",
    "file": "fusidic_acid.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of fusidic acid as: Elongation factor G inhibitor ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so the description above relies on general pharmacological knowledge.",
+   "replacement": "The description above relies on general pharmacological knowledge. ChEMBL (EMBL-EBI) records the mechanism of action of fusidic acid as: Elongation factor G inhibitor ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so the description above relies on general pharmacological knowledge\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -12826,8 +13050,34 @@
      "chembl_id": "CHEMBL374975"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-fusidic_acid-1",
+     "drug": "fusidic_acid",
+     "file": "fusidic_acid.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of fusidic acid as: Elongation factor G inhibitor ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL374975 (fusidic acid): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975",
+       "accessed": "2026-11-19",
+       "excerpt": "Elongation factor G inhibitor",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL374975"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-galantamine-1",
@@ -13478,9 +13728,9 @@
    "drug": "ifosfamide",
    "file": "ifosfamide.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for ifosfamide: \"Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard.\" ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a), label version 2026-10-07; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the drug's established pharmacology.",
+   "replacement": "This description reflects the drug's established pharmacology. According to the Mechanism of Action section of the US FDA-approved prescribing information for ifosfamide: \"Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard.\" ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a), label version 2026-10-07; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the drug's established pharmacology\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -13494,8 +13744,36 @@
      "set_id": "b7241707-7538-4d1a-91e7-3a25a91e0b9a"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-ifosfamide-1",
+     "drug": "ifosfamide",
+     "file": "ifosfamide.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for ifosfamide: \"Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard.\" ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a), label version 2026-10-07; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a",
+       "accessed": "2026-11-19",
+       "excerpt": "Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard.",
+       "label_version": "2026-10-07",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "b7241707-7538-4d1a-91e7-3a25a91e0b9a"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-iloprost-1",
@@ -13810,9 +14088,9 @@
    "drug": "insulin_glulisine",
    "file": "insulin_glulisine.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin glulisine: \"Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production.\" ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), label version 2025-11-25; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on general pharmacological knowledge.",
+   "replacement": "This description relies on general pharmacological knowledge. According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin glulisine: \"Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production.\" ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), label version 2025-11-25; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on general pharmacological knowledge\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -13826,8 +14104,36 @@
      "set_id": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-insulin_glulisine-1",
+     "drug": "insulin_glulisine",
+     "file": "insulin_glulisine.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin glulisine: \"Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production.\" ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), label version 2025-11-25; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+       "accessed": "2026-11-19",
+       "excerpt": "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production.",
+       "label_version": "2025-11-25",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-insulin_human-1",
@@ -16596,9 +16902,9 @@
    "drug": "ofatumumab",
    "file": "ofatumumab.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data is not available in the drug record, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for ofatumumab: \"The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis.\" ([DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3), label version 2026-04-01; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data is not available in the drug record, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data is not available in the drug record, so this description comes from the mechanistic analysis compiled for this report.",
+   "replacement": "This description comes from the mechanistic analysis compiled for this report. According to the Mechanism of Action section of the US FDA-approved prescribing information for ofatumumab: \"The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis.\" ([DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3), label version 2026-04-01; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data is not available in the drug record, so this description comes from the mechanistic analysis compiled for this report\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -16612,8 +16918,36 @@
      "set_id": "6a8a3f53-2062-48ff-9dbe-b939df133ca3"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-ofatumumab-1",
+     "drug": "ofatumumab",
+     "file": "ofatumumab.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data is not available in the drug record, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for ofatumumab: \"The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis.\" ([DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3), label version 2026-04-01; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data is not available in the drug record, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3",
+       "accessed": "2026-11-19",
+       "excerpt": "The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis.",
+       "label_version": "2026-04-01",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "6a8a3f53-2062-48ff-9dbe-b939df133ca3"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-ofloxacin-1",
@@ -16692,9 +17026,9 @@
    "drug": "omalizumab",
    "file": "omalizumab.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action text is not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for omalizumab: \"Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13.\" ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84), label version 2026-10-06; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action text is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action text is not available in the data compiled for this report, so the description above rests on the known anti-IgE pharmacology and the recorded target, immunoglobulin heavy constant epsilon (IGHE).",
+   "replacement": "The description above rests on the known anti-IgE pharmacology and the recorded target, immunoglobulin heavy constant epsilon (IGHE). According to the Mechanism of Action section of the US FDA-approved prescribing information for omalizumab: \"Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13.\" ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84), label version 2026-10-06; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action text is not available in the data compiled for this report, so the description above rests on the known anti-IgE pharmacology and the recorded target, immunoglobulin heavy constant epsilon (IGHE)\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -16708,8 +17042,36 @@
      "set_id": "dbd8709f-1636-45d9-ba94-5a3bc5f22f84"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-omalizumab-1",
+     "drug": "omalizumab",
+     "file": "omalizumab.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action text is not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for omalizumab: \"Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13.\" ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84), label version 2026-10-06; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action text is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84",
+       "accessed": "2026-11-19",
+       "excerpt": "Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13.",
+       "label_version": "2026-10-06",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "dbd8709f-1636-45d9-ba94-5a3bc5f22f84"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-omeprazole-1",
@@ -18432,9 +18794,9 @@
    "drug": "regorafenib",
    "file": "regorafenib.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available from the drug database, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for regorafenib: \"Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically.\" ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7), label version 2026-02-09; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available from the drug database, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available from the drug database, so this description comes from the published literature.",
+   "replacement": "This description comes from the published literature. According to the Mechanism of Action section of the US FDA-approved prescribing information for regorafenib: \"Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically.\" ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7), label version 2026-02-09; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available from the drug database, so this description comes from the published literature\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -18448,8 +18810,36 @@
      "set_id": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-regorafenib-1",
+     "drug": "regorafenib",
+     "file": "regorafenib.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available from the drug database, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for regorafenib: \"Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically.\" ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7), label version 2026-02-09; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available from the drug database, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+       "accessed": "2026-11-19",
+       "excerpt": "Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically.",
+       "label_version": "2026-02-09",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-remdesivir-1",
@@ -19390,9 +19780,9 @@
    "drug": "sorafenib",
    "file": "sorafenib.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data from the drug database are not available.",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for sorafenib: \"Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß).\" ([DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0), label version 2023-08-28; accessed 2026-11-19.)",
-   "summary": "\"Detailed mechanism-of-action data from the drug database are not available\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data from the drug database are not available. The mechanism above comes from the literature compiled for this report.",
+   "replacement": "The mechanism above comes from the literature compiled for this report. According to the Mechanism of Action section of the US FDA-approved prescribing information for sorafenib: \"Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß).\" ([DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0), label version 2023-08-28; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data from the drug database are not available. The mechanism above comes from the literature compiled for this report\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -19406,8 +19796,36 @@
      "set_id": "b50667e4-5ebc-4968-a646-d605058dbef0"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-sorafenib-1",
+     "drug": "sorafenib",
+     "file": "sorafenib.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data from the drug database are not available.",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for sorafenib: \"Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß).\" ([DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0), label version 2023-08-28; accessed 2026-11-19.)",
+     "summary": "\"Detailed mechanism-of-action data from the drug database are not available\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Nexavar (sorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0",
+       "accessed": "2026-11-19",
+       "excerpt": "Sorafenib is a kinase inhibitor that decreases tumor cell proliferation in vitro. Sorafenib was shown to inhibit multiple intracellular (c-CRAF, BRAF and mutant BRAF) and cell surface kinases (KIT, FLT- 3, RET, RET/PTC, VEGFR-1, VEGFR- 2, VEGFR- 3, and PDGFR-ß).",
+       "label_version": "2023-08-28",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "b50667e4-5ebc-4968-a646-d605058dbef0"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-sotalol-1",
@@ -19438,9 +19856,9 @@
    "drug": "sotatercept",
    "file": "sotatercept.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data is not available in the compiled data, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for sotatercept: \"Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation.\" ([DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7), label version 2026-09-21; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data is not available in the compiled data, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data is not available in the compiled data, so this description comes from the mechanistic notes prepared for this assessment.",
+   "replacement": "This description comes from the mechanistic notes prepared for this assessment. According to the Mechanism of Action section of the US FDA-approved prescribing information for sotatercept: \"Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation.\" ([DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7), label version 2026-09-21; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data is not available in the compiled data, so this description comes from the mechanistic notes prepared for this assessment\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -19454,8 +19872,36 @@
      "set_id": "21693ee2-cd23-4137-ac67-066bb3a4a9b7"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-sotatercept-1",
+     "drug": "sotatercept",
+     "file": "sotatercept.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data is not available in the compiled data, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for sotatercept: \"Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation.\" ([DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7), label version 2026-09-21; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data is not available in the compiled data, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7",
+       "accessed": "2026-11-19",
+       "excerpt": "Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation.",
+       "label_version": "2026-09-21",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "21693ee2-cd23-4137-ac67-066bb3a4a9b7"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-soybean_oil-1",
@@ -20222,9 +20668,9 @@
    "drug": "tobramycin",
    "file": "tobramycin.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tobramycin: \"Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death.\" ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), label version 2026-04-15; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on general pharmacological knowledge.",
+   "replacement": "This description relies on general pharmacological knowledge. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tobramycin: \"Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death.\" ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), label version 2026-04-15; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on general pharmacological knowledge\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -20238,8 +20684,36 @@
      "set_id": "c4b5bb1f-e158-4ac1-9c35-e98a416c743a"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-tobramycin-1",
+     "drug": "tobramycin",
+     "file": "tobramycin.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tobramycin: \"Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death.\" ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), label version 2026-04-15; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a",
+       "accessed": "2026-11-19",
+       "excerpt": "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death.",
+       "label_version": "2026-04-15",
+       "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "c4b5bb1f-e158-4ac1-9c35-e98a416c743a"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-tocilizumab-1",
@@ -21030,9 +21504,9 @@
    "drug": "vilanterol",
    "file": "vilanterol.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data are not available in the compiled data, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone furoate and vilanterol (a combination product containing vilanterol): \"The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP).\" ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), label version 2024-11-21; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data are not available in the compiled data, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data are not available in the compiled data, so this description is based on established pharmacology.",
+   "replacement": "This description is based on established pharmacology. According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone furoate and vilanterol (a combination product containing vilanterol): \"The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP).\" ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), label version 2024-11-21; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data are not available in the compiled data, so this description is based on established pharmacology\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -21046,8 +21520,36 @@
      "set_id": "3a761487-c300-451a-8537-3196c00c11b5"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-vilanterol-1",
+     "drug": "vilanterol",
+     "file": "vilanterol.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data are not available in the compiled data, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone furoate and vilanterol (a combination product containing vilanterol): \"The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP).\" ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), label version 2024-11-21; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data are not available in the compiled data, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5",
+       "accessed": "2026-11-19",
+       "excerpt": "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP).",
+       "label_version": "2024-11-21",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "3a761487-c300-451a-8537-3196c00c11b5"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-vildagliptin-1",
@@ -21076,9 +21578,9 @@
    "drug": "vinblastine",
    "file": "vinblastine.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: \"Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage.\" ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the known pharmacology of the drug class.",
+   "replacement": "This description reflects the known pharmacology of the drug class. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: \"Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage.\" ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the known pharmacology of the drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -21092,8 +21594,36 @@
      "set_id": "f073b58e-56d6-4c8d-a2ce-b37719402d77"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261119-vinblastine-1",
+     "drug": "vinblastine",
+     "file": "vinblastine.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: \"Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage.\" ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77",
+       "accessed": "2026-11-19",
+       "excerpt": "Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage.",
+       "label_version": "2025-04-15",
+       "section": "Clinical Pharmacology",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "f073b58e-56d6-4c8d-a2ce-b37719402d77"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "sg-moa-20261119-vincristine-1",
@@ -21403,6 +21933,252 @@
     }
    ],
    "checked": "2026-11-19",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "sg-moa-20261120-bupropion-1",
+   "drug": "bupropion",
+   "file": "bupropion.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism-of-action data was not compiled for this report.",
+   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for bupropion: \"The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin.\" ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119), label version 2026-11-11; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism-of-action data was not compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119",
+     "accessed": "2026-11-20",
+     "excerpt": "The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin.",
+     "label_version": "2026-11-11",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "dfb45438-1116-48f2-9bfe-776ebbf1e119"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "sg-moa-20261120-cetrorelix-1",
+   "drug": "cetrorelix",
+   "file": "cetrorelix.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism of action data is not otherwise available.",
+   "replacement": "According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cetrorelix: \"GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge.\" ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79), label version 2025-09-22; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism of action data is not otherwise available\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79",
+     "accessed": "2026-11-20",
+     "excerpt": "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge.",
+     "label_version": "2025-09-22",
+     "section": "Clinical Pharmacology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "aca7768e-28a7-4027-b1d8-e66247665f79"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "sg-moa-20261120-clofarabine-1",
+   "drug": "clofarabine",
+   "file": "clofarabine.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism-of-action data are not recorded in the data compiled for this report.",
+   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for clofarabine: \"Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine.\" ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), label version 2026-08-24; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism-of-action data are not recorded in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873",
+     "accessed": "2026-11-20",
+     "excerpt": "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine.",
+     "label_version": "2026-08-24",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "26b2de66-6518-49ab-820e-492454cbc873"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "sg-moa-20261120-eletriptan-1",
+   "drug": "eletriptan",
+   "file": "eletriptan.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism data were not available in the structured drug record, so this description comes from the published reviews.",
+   "replacement": "This description comes from the published reviews. According to the Mechanism of Action section of the US FDA-approved prescribing information for eletriptan: \"Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system.\" ([DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e), label version 2024-01-15; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism data were not available in the structured drug record, so this description comes from the published reviews\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e",
+     "accessed": "2026-11-20",
+     "excerpt": "Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system.",
+     "label_version": "2024-01-15",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261120-eletriptan-1",
+     "drug": "eletriptan",
+     "file": "eletriptan.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism data were not available in the structured drug record, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for eletriptan: \"Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system.\" ([DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e), label version 2024-01-15; accessed 2026-11-20.) T",
+     "summary": "\"Detailed mechanism data were not available in the structured drug record, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e",
+       "accessed": "2026-11-20",
+       "excerpt": "Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system.",
+       "label_version": "2024-01-15",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
+  },
+  {
+   "id": "sg-moa-20261120-eltrombopag-1",
+   "drug": "eltrombopag",
+   "file": "eltrombopag.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism-of-action text is also missing from the data compiled for this report.",
+   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for eltrombopag: \"Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production.\" ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), label version 2026-05-20; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism-of-action text is also missing from the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46",
+     "accessed": "2026-11-20",
+     "excerpt": "Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production.",
+     "label_version": "2026-05-20",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "4af8f855-f710-e96f-e063-6294a90abb46"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "sg-moa-20261120-isoflurane-2",
+   "drug": "isoflurane",
+   "file": "isoflurane.md",
+   "action": "mechanism",
+   "claim": "Its anaesthetic use is established, but t",
+   "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of isoflurane as: Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener ([ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256), CC BY-SA 3.0; accessed 2026-11-20.) T",
+   "summary": "\"Its anaesthetic use is established, but t\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "ChEMBL CHEMBL1256 (isoflurane): drug mechanism",
+     "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256",
+     "accessed": "2026-11-20",
+     "excerpt": "Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener",
+     "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+     "chembl_id": "CHEMBL1256"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "sg-moa-20261120-ivabradine-1",
+   "drug": "ivabradine",
+   "file": "ivabradine.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism data was not available in the data compiled for this report, so this description is based on general pharmacology.",
+   "replacement": "This description is based on general pharmacology. According to the Mechanism of Action section of the US FDA-approved prescribing information for ivabradine: \"Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation.\" ([DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d), label version 2026-11-09; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism data was not available in the data compiled for this report, so this description is based on general pharmacology\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d",
+     "accessed": "2026-11-20",
+     "excerpt": "Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation.",
+     "label_version": "2026-11-09",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "92018a65-38f6-45f7-91d4-a34921b81d0d"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "sg-moa-20261120-ivabradine-1",
+     "drug": "ivabradine",
+     "file": "ivabradine.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism data was not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for ivabradine: \"Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation.\" ([DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d), label version 2026-11-09; accessed 2026-11-20.) T",
+     "summary": "\"Detailed mechanism data was not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d",
+       "accessed": "2026-11-20",
+       "excerpt": "Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation.",
+       "label_version": "2026-11-09",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "92018a65-38f6-45f7-91d4-a34921b81d0d"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
+  },
+  {
+   "id": "sg-moa-20261120-plerixafor-1",
+   "drug": "plerixafor",
+   "file": "plerixafor.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism-of-action data are not otherwise available in the compiled data.",
+   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for plerixafor: \"Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment.\" ([DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003), label version 2025-09-22; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism-of-action data are not otherwise available in the compiled data\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Mozobil (plerixafor) prescribing information, Sanofi-Aventis U.S. LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ed08d2b-5051-46b2-aa37-1d6275bf9003",
+     "accessed": "2026-11-20",
+     "excerpt": "Plerixafor is an inhibitor of the CXCR4 chemokine receptor and blocks binding of its cognate ligand, stromal cell-derived factor-1α (SDF-1α). SDF-1α and CXCR4 are recognized to play a role in the trafficking and homing of human hematopoietic stem cells (HSCs) to the marrow compartment.",
+     "label_version": "2025-09-22",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "0ed08d2b-5051-46b2-aa37-1d6275bf9003"
+    }
+   ],
+   "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
   }
  ]

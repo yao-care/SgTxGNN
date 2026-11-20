@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Eltrombopag"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). In Singapore: 2 HSA registrations (2 valid)"
@@ -60,7 +60,7 @@ Eltrombopag acts on the thrombopoietin receptor and stimulates platelet producti
 
 Case reports describe platelet responses in refractory HIV-associated thrombocytopenia. One report describes a blood-count response in aplastic anaemia associated with HIV infection, with changes in T-cell subsets that suggest an immunomodulatory effect. A 2020 in vitro screen of approved drugs (PMID 32977702) suggests possible modulation of HIV-1 proviral transcription. That finding is preclinical and only generates hypotheses.
 
-These studies concern patients who happen to have HIV, not the treatment of HIV infection. The model's prediction is therefore best read as an HIV-associated haematological use, not an antiviral one. Detailed mechanism-of-action text is also missing from the data compiled for this report.
+These studies concern patients who happen to have HIV, not the treatment of HIV infection. The model's prediction is therefore best read as an HIV-associated haematological use, not an antiviral one. According to the Mechanism of Action section of the US FDA-approved prescribing information for eltrombopag: "Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production." ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), label version 2026-05-20; accessed 2026-11-20.)
 
 ## Clinical Trial Evidence
 
@@ -114,6 +114,18 @@ No cited study directly tests eltrombopag as a treatment for HIV infection, so t
 - Mechanism-of-action data and confirmation of the preclinical proviral-transcription finding
 - Package-insert warnings and contraindications from the Singapore regulatory source
 - A safety plan covering liver function, interactions with antiretrovirals and cation-containing products, and thrombosis risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism-of-action text is also missing from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

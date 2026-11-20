@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). In Singapore: 2 HSA registrations (2 valid)"
 ---
 
@@ -54,7 +54,7 @@ Bupropion is an antidepressant and smoking-cessation agent that inhibits the reu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not compiled for this report. Published reviews describe bupropion's main action as inhibition of norepinephrine and dopamine reuptake, without serotonergic activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bupropion: "The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin." ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119), label version 2026-11-11; accessed 2026-11-20.) Published reviews describe bupropion's main action as inhibition of norepinephrine and dopamine reuptake, without serotonergic activity.
 
 These are the same catecholaminergic pathways targeted by established ADHD treatments such as stimulants and atomoxetine. Reduced catecholamine reuptake in the brain is a plausible route to better attention and less impulsivity. The very high TxGNN score is consistent with this mechanistic overlap. Reviews of non-stimulant ADHD medications also discuss bupropion as an option, mainly for adults who do not respond to or cannot tolerate stimulants.
 
@@ -112,6 +112,19 @@ A completed Phase 3 randomised, placebo-controlled trial and a Cochrane review d
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications for the Singapore products
 - A safety plan covering seizure risk, blood pressure monitoring, drug interactions and patients with substance use or eating disorders
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism-of-action data was not compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

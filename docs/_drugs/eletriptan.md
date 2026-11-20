@@ -5,7 +5,7 @@ parent: Low Evidence (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 description: "Eletriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Singapore: 1 HSA registration (1 valid)"
@@ -54,7 +54,7 @@ Eletriptan is a triptan (5-HT1B/1D receptor agonist) originally used for the acu
 
 ## Why is This Prediction Reasonable?
 
-Eletriptan is a selective 5-HT1B/1D receptor agonist. The literature compiled for this report describes it as acting by constricting cranial blood vessels and inhibiting release of trigeminal neuropeptides. Detailed mechanism data were not available in the structured drug record, so this description comes from the published reviews.
+Eletriptan is a selective 5-HT1B/1D receptor agonist. The literature compiled for this report describes it as acting by constricting cranial blood vessels and inhibiting release of trigeminal neuropeptides. This description comes from the published reviews. According to the Mechanism of Action section of the US FDA-approved prescribing information for eletriptan: "Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e), label version 2024-01-15; accessed 2026-11-20.)
 
 Migraine with brainstem aura is a migraine subtype that shares the core biology of migraine: trigeminovascular activation and cortical spreading depression. A mechanistic link is therefore plausible.
 
@@ -117,6 +117,19 @@ The high TxGNN score is not backed by any trial or subtype-specific publication.
 - A cardiovascular and cerebrovascular risk assessment for this population
 - A CYP3A4 and serotonergic drug-interaction management plan
 - Detailed mechanism of action data from DrugBank
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism data were not available in the structured drug record, so this description comes from the published reviews" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ but there are currently **no registered clinical trials** and only **indirect li
 
 ## Why is This Prediction Reasonable?
 
-Dronedarone is a multichannel-blocking antiarrhythmic (it inhibits sodium, potassium and calcium currents) and is structurally related to amiodarone, but it is non-iodinated and has a shorter half-life. According to the Mechanism of Action section of the US FDA-approved prescribing information for dronedarone: "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), label version 2026-01-27; accessed 2026-11-19.) This description comes from the published literature.
+Dronedarone is a multichannel-blocking antiarrhythmic (it inhibits sodium, potassium and calcium currents) and is structurally related to amiodarone, but it is non-iodinated and has a shorter half-life. This description comes from the published literature. According to the Mechanism of Action section of the US FDA-approved prescribing information for dronedarone: "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), label version 2026-01-27; accessed 2026-11-19.)
 
 Stroke is a major downstream complication of AF. Any link between dronedarone and stroke is therefore indirect: controlling rhythm may lower the risk of cardioembolic stroke. A post hoc analysis of the ATHENA trial suggested a lower stroke rate with dronedarone in paroxysmal or persistent AF, and a laboratory study reported anticoagulant and antiplatelet effects independent of its antiarrhythmic action. A preclinical review also describes possible protective effects on ischaemia/reperfusion injury in heart and brain.
 
@@ -143,7 +143,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
+| 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description comes from the published literature" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
 
 <!-- review:end log -->
 

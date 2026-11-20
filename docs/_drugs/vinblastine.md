@@ -60,7 +60,7 @@ Currently there are **0 registered clinical trials** and **7 publications** (cas
 
 ## Why is This Prediction Reasonable?
 
-Vinblastine is a vinca alkaloid. It binds tubulin and disrupts microtubule assembly, which causes cells to arrest in mitosis. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: "Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.) This description reflects the known pharmacology of the drug class.
+Vinblastine is a vinca alkaloid. It binds tubulin and disrupts microtubule assembly, which causes cells to arrest in mitosis. This description reflects the known pharmacology of the drug class. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: "Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.)
 
 Rhabdomyosarcoma is a rapidly proliferating soft tissue sarcoma, so an antimitotic agent is biologically plausible. A related vinca alkaloid, vincristine, is already a standard part of rhabdomyosarcoma regimens (such as VAC). This gives class-level support, but it is not direct evidence for vinblastine itself.
 
@@ -152,7 +152,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77) |
+| 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the known pharmacology of the drug class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Clofarabine"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clofarabine: predicted new indication myeloid leukemia (evidence level L1). In Singapore: 1 HSA registration (1 valid)"
 ---
 
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **myeloid leukemia**. The data 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not recorded in the data compiled for this report. The published reviews do describe how clofarabine works. It is a second-generation purine nucleoside analog designed to combine the best qualities of fludarabine and cladribine. It inhibits ribonucleotide reductase and DNA polymerase, which depletes the nucleotides needed for DNA replication. It also is incorporated into DNA and induces apoptosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clofarabine: "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine." ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), label version 2026-08-24; accessed 2026-11-20.) The published reviews do describe how clofarabine works. It is a second-generation purine nucleoside analog designed to combine the best qualities of fludarabine and cladribine. It inhibits ribonucleotide reductase and DNA polymerase, which depletes the nucleotides needed for DNA replication. It also is incorporated into DNA and induces apoptosis.
 
 These actions target rapidly dividing blast cells. Lymphoid and myeloid leukemic blasts share this vulnerability, so activity in myeloid leukemia is mechanistically plausible.
 
@@ -153,6 +153,19 @@ Two completed Phase 3 randomized trials (n=727 and n=326) and many Phase 1/2 stu
 - Obtain recorded mechanism-of-action data
 - Define a safety monitoring plan covering myelosuppression, renal and hepatic function, and interacting co-medications (especially nephrotoxic agents)
 - Confirm dosing and patient selection (for example, older or relapsed/refractory patients) before any use outside the current label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism-of-action data are not recorded in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
