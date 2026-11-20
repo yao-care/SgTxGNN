@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**4 articles** related to arthritis.
+**5 articles** related to arthritis.
+
+---
+
+### ['We are humans too, we have feelings': Healthcare workers grapple with abuse by those they care for](https://www.todayonline.com/singapore/healthcare-workers-abuse-harassment-patients-6563431)
+
+2026-11-19
+
+Source: [TODAY](https://www.todayonline.com/singapore/healthcare-workers-abuse-harassment-patients-6563431)
 
 ---
 
