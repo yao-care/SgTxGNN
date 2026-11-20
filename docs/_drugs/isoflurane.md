@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no
 
 ## Why is This Prediction Reasonable?
 
-ChEMBL (EMBL-EBI) records the mechanism of action of isoflurane as: Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener ([ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256), CC BY-SA 3.0; accessed 2026-11-19.) Isoflurane is a volatile anaesthetic used to induce and maintain general anaesthesia. ChEMBL (EMBL-EBI) records the mechanism of action of isoflurane as: Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener ([ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256), CC BY-SA 3.0; accessed 2026-11-20.) The compiled data do not describe a mechanism.
+ChEMBL (EMBL-EBI) records the mechanism of action of isoflurane as: Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener ([ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256), CC BY-SA 3.0; accessed 2026-11-19.) Isoflurane is a volatile anaesthetic used to induce and maintain general anaesthesia. The mechanism of action is quoted above, with its source ([ChEMBL](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256)).
 
 A plausible but unverified link is the vasodilation of vascular smooth muscle that volatile anaesthetics can cause (possibly through calcium channel modulation). Prinzmetal angina is driven by coronary vasospasm, so relaxation of vascular smooth muscle is conceptually related. However, isoflurane can also cause coronary steal and haemodynamic instability. The link is therefore not a supportable therapeutic rationale at this point.
 
@@ -112,7 +112,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256) |
-| 2026-11-20 | "Its anaesthetic use is established, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256) |
+| 2026-11-20 | "Its anaesthetic use is established, but the compiled data do not describe a mechanism" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256) |
 
 <!-- review:end log -->
 
