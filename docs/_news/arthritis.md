@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
+**6 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapores
 2026-11-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/dancing-will-be-prescribed-for-parkinsons-disease-patients-at-alexandra-hospital)
+
+---
+
+### [Vaccination rates among Singapore seniors more than double over past 5 years](https://www.straitstimes.com/singapore/health/vaccination-rates-among-singapore-seniors-more-than-double-over-past-5-years)
+
+2026-11-21
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/vaccination-rates-among-singapore-seniors-more-than-double-over-past-5-years)
 
 ---
 
