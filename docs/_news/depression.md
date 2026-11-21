@@ -19,7 +19,7 @@ permalink: /news/depression/
 
 ### [New name for IMH is the first step towards fighting mental health stigma](https://www.straitstimes.com/singapore/health/new-name-for-imh-is-the-first-step-towards-fighting-mental-health-stigma)
 
-2026-11-20
+2026-11-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-name-for-imh-is-the-first-step-towards-fighting-mental-health-stigma)
 

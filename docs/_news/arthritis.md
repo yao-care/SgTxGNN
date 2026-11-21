@@ -13,13 +13,13 @@ permalink: /news/arthritis/
 
 ---
 
-**4 articles** related to arthritis.
+**5 articles** related to arthritis.
 
 ---
 
 ### [S’pore’s CDA designated a WHO collaborating centre for infection prevention and control](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
 
-2026-11-20
+2026-11-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapores
 
 ### [Dancing to be prescribed for Parkinson’s disease patients at Alexandra Hospital](https://www.straitstimes.com/singapore/health/dancing-will-be-prescribed-for-parkinsons-disease-patients-at-alexandra-hospital)
 
-2026-11-20
+2026-11-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/dancing-will-be-prescribed-for-parkinsons-disease-patients-at-alexandra-hospital)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/dancing-wi
 
 ### [Brain fog isn’t just forgetfulness: What causes it? Is it linked to dementia? When should you worry?](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
-2026-11-20
+2026-11-21
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
@@ -43,9 +43,17 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms
 
 ### [How drinking affects your dementia risk – and what studies say about moderate alcohol use](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
-2026-11-20
+2026-11-21
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
+
+---
+
+### [Can creatine supplements make your brain stronger? Experts weigh the evidence](https://www.channelnewsasia.com/wellness/creatine-supplements-brain-benefits-6543726)
+
+2026-11-21
+
+Source: [CNA](https://www.channelnewsasia.com/wellness/creatine-supplements-brain-benefits-6543726)
 
 ---
 
