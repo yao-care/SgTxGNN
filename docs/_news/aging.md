@@ -13,29 +13,21 @@ permalink: /news/aging/
 
 ---
 
-**4 articles** related to aging.
+**3 articles** related to aging.
 
 ---
 
 ### [Rethinking the three spaces for a longevity society](https://www.straitstimes.com/singapore/health/rethinking-the-three-spaces-for-a-longevity-society)
 
-2026-11-19
+2026-11-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/rethinking-the-three-spaces-for-a-longevity-society)
 
 ---
 
-### [Managing 5 or more medications for an elderly family member? Here's what caregivers should know](https://www.channelnewsasia.com/wellness/senior-multiple-medications-caregiver-safety-6364221)
-
-2026-11-19
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/senior-multiple-medications-caregiver-safety-6364221)
-
----
-
 ### [The most important longevity term you’ve probably never heard of](https://www.channelnewsasia.com/wellness/intrinsic-capacity-longevity-measure-6357926)
 
-2026-11-19
+2026-11-21
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/intrinsic-capacity-longevity-measure-6357926)
 
@@ -43,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/intrinsic-capacity-longev
 
 ### [6 things longevity experts wish people would stop saying](https://www.channelnewsasia.com/wellness/longevity-experts-advice-6472236)
 
-2026-11-19
+2026-11-21
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/longevity-experts-advice-6472236)
 
