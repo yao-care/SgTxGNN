@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [Singapore start-up taps peptide power to tackle pet infections, seeks to replace chemical preservatives](https://www.straitstimes.com/singapore/health/singapore-start-up-taps-peptide-power-to-tackle-pet-infections-seeks-to-replace-chemical)
 
-2026-11-21
+2026-11-22
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-start-up-taps-peptide-power-to-tackle-pet-infections-seeks-to-replace-chemical)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ### [S’pore’s CDA designated a WHO collaborating centre for infection prevention and control](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
 
-2026-11-21
+2026-11-22
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
 
