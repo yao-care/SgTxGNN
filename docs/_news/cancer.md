@@ -13,21 +13,13 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
-
----
-
-### [Stool tests, blood tests or colonoscopy: Which colorectal cancer screening method is right for you?](https://www.straitstimes.com/singapore/health/stool-tests-blood-tests-colonoscopy-which-colorectal-cancer-screening-method-alpine-surgical)
-
-2026-11-21
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/stool-tests-blood-tests-colonoscopy-which-colorectal-cancer-screening-method-alpine-surgical)
+**1 articles** related to cancer.
 
 ---
 
 ### [How Stage 4 lung cancer changed this former nightlife boss: From 5 litres of beer a night to Everest Base Camp](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
 
-2026-11-21
+2026-11-22
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
 
