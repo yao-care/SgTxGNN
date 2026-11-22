@@ -13,7 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**3 articles** related to multiple sclerosis.
+**4 articles** related to multiple sclerosis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/multiple-sclerosis/
 2026-11-22
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/1-in-4-mums-still-leak-urine-a-year-after-childbirth-when-to-see-doctor-wendy-womens-clinic)
+
+---
+
+### [Hotter than hot: Deep-sea vent worms hold key to studying fragile human proteins](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
+
+2026-11-22
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
 
 ---
 

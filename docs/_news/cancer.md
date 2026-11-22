@@ -13,15 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
-
----
-
-### [Stool tests, blood tests or colonoscopy: Which colorectal cancer screening method is right for you?](https://www.straitstimes.com/singapore/health/stool-tests-blood-tests-colonoscopy-which-colorectal-cancer-screening-method-alpine-surgical)
-
-2026-11-22
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/stool-tests-blood-tests-colonoscopy-which-colorectal-cancer-screening-method-alpine-surgical)
+**1 articles** related to cancer.
 
 ---
 

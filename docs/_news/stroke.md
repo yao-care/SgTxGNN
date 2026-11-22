@@ -13,7 +13,15 @@ permalink: /news/stroke/
 
 ---
 
-**2 articles** related to stroke.
+**3 articles** related to stroke.
+
+---
+
+### [More stroke incidents in ageing Singapore; cases also climbing among the young due to poor diet, lifestyle](https://www.straitstimes.com/singapore/health/more-stroke-cases-in-ageing-singapore-cases-also-climbing-among-the-young-due-to-poor-diet-lifestyle)
+
+2026-11-22
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-stroke-cases-in-ageing-singapore-cases-also-climbing-among-the-young-due-to-poor-diet-lifestyle)
 
 ---
 

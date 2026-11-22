@@ -13,15 +13,7 @@ permalink: /news/infectious-disease/
 
 ---
 
-**2 articles** related to infectious disease.
-
----
-
-### [Singapore start-up taps peptide power to tackle pet infections, seeks to replace chemical preservatives](https://www.straitstimes.com/singapore/health/singapore-start-up-taps-peptide-power-to-tackle-pet-infections-seeks-to-replace-chemical)
-
-2026-11-22
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-start-up-taps-peptide-power-to-tackle-pet-infections-seeks-to-replace-chemical)
+**1 articles** related to infectious disease.
 
 ---
 

@@ -17,11 +17,11 @@ permalink: /news/aging/
 
 ---
 
-### [Rethinking the three spaces for a longevity society](https://www.straitstimes.com/singapore/health/rethinking-the-three-spaces-for-a-longevity-society)
+### [More stroke incidents in ageing Singapore; cases also climbing among the young due to poor diet, lifestyle](https://www.straitstimes.com/singapore/health/more-stroke-cases-in-ageing-singapore-cases-also-climbing-among-the-young-due-to-poor-diet-lifestyle)
 
 2026-11-22
 
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/rethinking-the-three-spaces-for-a-longevity-society)
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-stroke-cases-in-ageing-singapore-cases-also-climbing-among-the-young-due-to-poor-diet-lifestyle)
 
 ---
 

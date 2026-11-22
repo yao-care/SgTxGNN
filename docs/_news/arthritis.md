@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/dancing-wi
 2026-11-22
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/vaccination-rates-among-singapore-seniors-more-than-double-over-past-5-years)
+
+---
+
+### [Hotter than hot: Deep-sea vent worms hold key to studying fragile human proteins](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
+
+2026-11-22
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
 
 ---
 
