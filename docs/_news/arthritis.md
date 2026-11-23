@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [S’pore’s CDA designated a WHO collaborating centre for infection prevention and control](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
 
-2026-11-22
+2026-11-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapores
 
 ### [Dancing to be prescribed for Parkinson’s disease patients at Alexandra Hospital](https://www.straitstimes.com/singapore/health/dancing-will-be-prescribed-for-parkinsons-disease-patients-at-alexandra-hospital)
 
-2026-11-22
+2026-11-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/dancing-will-be-prescribed-for-parkinsons-disease-patients-at-alexandra-hospital)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/dancing-wi
 
 ### [Vaccination rates among Singapore seniors more than double over past 5 years](https://www.straitstimes.com/singapore/health/vaccination-rates-among-singapore-seniors-more-than-double-over-past-5-years)
 
-2026-11-22
+2026-11-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/vaccination-rates-among-singapore-seniors-more-than-double-over-past-5-years)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/vaccinatio
 
 ### [Hotter than hot: Deep-sea vent worms hold key to studying fragile human proteins](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
 
-2026-11-22
+2026-11-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
 
@@ -51,7 +51,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/hotter-tha
 
 ### [Brain fog isn’t just forgetfulness: What causes it? Is it linked to dementia? When should you worry?](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
-2026-11-22
+2026-11-23
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
@@ -59,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms
 
 ### [How drinking affects your dementia risk – and what studies say about moderate alcohol use](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
-2026-11-22
+2026-11-23
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
@@ -67,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-642
 
 ### [Can creatine supplements make your brain stronger? Experts weigh the evidence](https://www.channelnewsasia.com/wellness/creatine-supplements-brain-benefits-6543726)
 
-2026-11-22
+2026-11-23
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/creatine-supplements-brain-benefits-6543726)
 

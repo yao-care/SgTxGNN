@@ -13,21 +13,13 @@ permalink: /news/aging/
 
 ---
 
-**2 articles** related to aging.
-
----
-
-### [More stroke incidents in ageing Singapore; cases also climbing among the young due to poor diet, lifestyle](https://www.straitstimes.com/singapore/health/more-stroke-cases-in-ageing-singapore-cases-also-climbing-among-the-young-due-to-poor-diet-lifestyle)
-
-2026-11-22
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-stroke-cases-in-ageing-singapore-cases-also-climbing-among-the-young-due-to-poor-diet-lifestyle)
+**1 articles** related to aging.
 
 ---
 
 ### [6 things longevity experts wish people would stop saying](https://www.channelnewsasia.com/wellness/longevity-experts-advice-6472236)
 
-2026-11-22
+2026-11-23
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/longevity-experts-advice-6472236)
 

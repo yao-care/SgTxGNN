@@ -19,7 +19,7 @@ permalink: /news/aids/
 
 ### [How today's hearing aids keep wearers connected and on the move](https://www.straitstimes.com/singapore/health/meetings-to-bicycle-rides-hearing-aids-20db-hearing)
 
-2026-11-22
+2026-11-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/meetings-to-bicycle-rides-hearing-aids-20db-hearing)
 

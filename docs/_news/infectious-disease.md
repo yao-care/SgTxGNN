@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [S’pore’s CDA designated a WHO collaborating centre for infection prevention and control](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
 
-2026-11-22
+2026-11-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapores-cda-designated-as-world-health-organizations-collaborating-centre-for-infection)
 
