@@ -1312,9 +1312,9 @@
    "file": "adalimumab.md",
    "action": "correct",
    "claim": "Adalimumab is marketed in Singapore, with 17 valid single-ingredient licences. All are injectable solutions (prefilled syringes, pens, an autoinjector and a vial) under both reference-product and biosimilar brand names.",
-   "replacement": "All are injectable solutions (prefilled syringes, pens, an autoinjector and a vial) under both reference-product and biosimilar brand names.",
-   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
-   "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 21 張（單方 21），句中「17 valid single-ingredient licences」與事實不符；句子只有許可說法，整句刪",
+   "replacement": "All are injectable solutions (prefilled syringes, pens and autoinjectors) under both reference-product and biosimilar brand names.",
+   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The dosage forms named here were also corrected to match the HSA register data for this ingredient. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "證據包 21 張：預充針、筆型、AMGEVITA 自動注射器 2 張；沒有小瓶（vial）",
    "sources": [
     {
      "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
@@ -1323,8 +1323,8 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Removed: \"Adalimumab is marketed in Singapore, with 17 valid single-ingredient licences\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+   "summary": "Corrected dosage presentations: no vial is registered",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）；2026-11-24 第二輪同 id 重發",
    "history": [
     {
      "id": "sg-lic-20261106-adalimumab-1",
@@ -1347,6 +1347,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明裡寫死的張數、舊表筆數拿掉（張數見本頁概覽表與程式許可證表），更正的事實內容不變"
+    },
+    {
+     "id": "sg-lic-20261106-adalimumab-1",
+     "drug": "adalimumab",
+     "file": "adalimumab.md",
+     "action": "correct",
+     "claim": "Adalimumab is marketed in Singapore, with 17 valid single-ingredient licences. All are injectable solutions (prefilled syringes, pens, an autoinjector and a vial) under both reference-product and biosimilar brand names.",
+     "replacement": "All are injectable solutions (prefilled syringes, pens, an autoinjector and a vial) under both reference-product and biosimilar brand names.",
+     "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+     "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 21 張（單方 21），句中「17 valid single-ingredient licences」與事實不符；句子只有許可說法，整句刪",
+     "sources": [
+      {
+       "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+       "url": "https://data.gov.sg/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"Adalimumab is marketed in Singapore, with 17 valid single-ingredient licences\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表取代舊表後，點名的號碼或品項跟程式表或事實層不符，2026-11-24 第二輪用戶決定逐句寫紀錄"
     }
    ]
   },
@@ -8361,9 +8383,9 @@
    "file": "isoleucine.md",
    "action": "correct",
    "claim": "All 19 registrations are valid single-ingredient licences. Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4).",
-   "replacement": "Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4).",
-   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
-   "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 18 張（單方 0），句中「19 registrations」；「All 19」與事實不符；句子只有許可說法，整句刪",
+   "replacement": "Dosage forms include infusion solutions, injections and emulsions.",
+   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The dosage forms named here were also corrected to match the HSA register data for this ingredient. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "證據包 18 張全為靜脈胺基酸注射液與營養乳劑，沒有 NUTRINEAL PD4／腹膜透析液",
    "sources": [
     {
      "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
@@ -8372,8 +8394,8 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Removed: \"All 19 registrations are valid single-ingredient licences\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+   "summary": "Removed: the peritoneal dialysis solution (NUTRINEAL PD4), which is not in the HSA data for this ingredient",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）；2026-11-24 第二輪同 id 重發",
    "history": [
     {
      "id": "sg-lic-20261106-isoleucine-1",
@@ -8396,6 +8418,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明裡寫死的張數、舊表筆數拿掉（張數見本頁概覽表與程式許可證表），更正的事實內容不變"
+    },
+    {
+     "id": "sg-lic-20261106-isoleucine-1",
+     "drug": "isoleucine",
+     "file": "isoleucine.md",
+     "action": "correct",
+     "claim": "All 19 registrations are valid single-ingredient licences. Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4).",
+     "replacement": "Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4).",
+     "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+     "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 18 張（單方 0），句中「19 registrations」；「All 19」與事實不符；句子只有許可說法，整句刪",
+     "sources": [
+      {
+       "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+       "url": "https://data.gov.sg/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"All 19 registrations are valid single-ingredient licences\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表取代舊表後，點名的號碼或品項跟程式表或事實層不符，2026-11-24 第二輪用戶決定逐句寫紀錄"
     }
    ]
   },
@@ -11585,9 +11629,9 @@
    "file": "piroxicam.md",
    "action": "correct",
    "claim": "Seven valid single-ingredient licences are held, with no cancelled ones. Available forms are oral (tablet, capsule), injectable and topical (gel).",
-   "replacement": "Available forms are oral (tablet, capsule), injectable and topical (gel).",
-   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
-   "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 5 張（單方 5），句中「Seven valid single-ingredient licences」與事實不符；句子只有許可說法，整句刪",
+   "replacement": "Available forms are oral (capsule), injectable and topical (gel).",
+   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The dosage forms named here were also corrected to match the HSA register data for this ingredient. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "證據包 5 張：凝膠 2、膠囊 2、注射 1；沒有錠劑",
    "sources": [
     {
      "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
@@ -11596,8 +11640,8 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Removed: \"Seven valid single-ingredient licences are held, with no cancelled ones\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+   "summary": "Removed: \"tablet\" (no tablet is registered)",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）；2026-11-24 第二輪同 id 重發",
    "history": [
     {
      "id": "sg-lic-20261106-piroxicam-1",
@@ -11620,6 +11664,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明裡寫死的張數、舊表筆數拿掉（張數見本頁概覽表與程式許可證表），更正的事實內容不變"
+    },
+    {
+     "id": "sg-lic-20261106-piroxicam-1",
+     "drug": "piroxicam",
+     "file": "piroxicam.md",
+     "action": "correct",
+     "claim": "Seven valid single-ingredient licences are held, with no cancelled ones. Available forms are oral (tablet, capsule), injectable and topical (gel).",
+     "replacement": "Available forms are oral (tablet, capsule), injectable and topical (gel).",
+     "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+     "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 5 張（單方 5），句中「Seven valid single-ingredient licences」與事實不符；句子只有許可說法，整句刪",
+     "sources": [
+      {
+       "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+       "url": "https://data.gov.sg/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"Seven valid single-ingredient licences are held, with no cancelled ones\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表取代舊表後，點名的號碼或品項跟程式表或事實層不符，2026-11-24 第二輪用戶決定逐句寫紀錄"
     }
    ]
   },
@@ -31056,6 +31122,206 @@
    ],
    "checked": "2026-11-24",
    "summary": "Corrected dosage forms: \"marketed in Singapore as transdermal patches, sublingual tablets and injections\" → \"marketed in Singapore as transdermal patches, sublingual tablets, nasal sprays and injections\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-caffeine-1",
+   "drug": "caffeine",
+   "file": "caffeine.md",
+   "action": "correct",
+   "claim": "oral capsules and tablets (plain, film-coated, sugar-coated, effervescent) and one injectable infusion solution",
+   "replacement": "oral tablets and caplets (plain, film-coated, effervescent) and an infusion solution",
+   "note": "Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 13 張：錠／caplet 12（含膜衣、發泡錠）、GENCEBOK 輸注液 1；沒有膠囊，也沒有糖衣錠",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected dosage forms: no capsules or sugar-coated tablets are registered",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-phenylephrine-1",
+   "drug": "phenylephrine",
+   "file": "phenylephrine.md",
+   "action": "correct",
+   "claim": "tablets, capsules and powder",
+   "replacement": "tablets and powder",
+   "note": "Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 16 張：眼藥 3、注射 2、噴霧 1、錠 9、粉 1；沒有膠囊",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"capsules\" (no capsule is registered)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-serine-1",
+   "drug": "serine",
+   "file": "serine.md",
+   "action": "correct",
+   "claim": "amino acid infusions, a peritoneal dialysis solution (Nutrineal) and lipid-containing",
+   "replacement": "amino acid infusions and lipid-containing",
+   "note": "Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 18 張全為靜脈胺基酸注射液與營養乳劑，沒有 Nutrineal 腹膜透析液",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: the peritoneal dialysis solution (Nutrineal), which is not in the HSA data for this ingredient",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-alanine-1",
+   "drug": "alanine",
+   "file": "alanine.md",
+   "action": "correct",
+   "claim": "include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal",
+   "replacement": "include Aminoplasmal",
+   "note": "Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 18 張；Trophamine、Vaminolact 已在程式表前 5 張，Nutrineal PD4 不在本藥資料",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed from the products not shown in the table: Trophamine, Vaminolact (already in the table) and Nutrineal PD4 (not in the HSA data for this ingredient)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-valine-1",
+   "drug": "valine",
+   "file": "valine.md",
+   "action": "correct",
+   "claim": "include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal",
+   "replacement": "include Aminoplasmal",
+   "note": "Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 18 張；Trophamine、Vaminolact 已在程式表前 5 張，Nutrineal PD4 不在本藥資料",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed from the products not shown in the table: Trophamine, Vaminolact (already in the table) and Nutrineal PD4 (not in the HSA data for this ingredient)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-sodium_carbonate-2",
+   "drug": "sodium_carbonate",
+   "file": "sodium_carbonate.md",
+   "action": "correct",
+   "claim": "Sodium carbonate appears here as a component of a single injectable product.",
+   "replacement": "Sodium carbonate appears here as a component of combination products (an injection, an oral bowel-preparation product and haemodialysis/haemofiltration solutions).",
+   "note": "Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 9 張全複方：CEFAZIME 注射、FORTRANS 口服、7 張血液透析／過濾液；「單一注射劑」不成立",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: sodium carbonate is a component of several combination products, not of a single injectable product",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-capecitabine-1",
+   "drug": "capecitabine",
+   "file": "capecitabine.md",
+   "action": "correct",
+   "claim": "The others are CAPETERO (150 mg and 500 mg), INTACAPE 150 mg, and INCITABINE (150 mg and 500 mg).",
+   "replacement": "The others are KAPETRAL 500 mg, INTACAPE (150 mg and 500 mg) and INCITABINE (150 mg and 500 mg).",
+   "note": "Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 10 張；程式表前 5 張是 XELODA 2、CAPETERO 2、KAPETRAL 150；表外是 KAPETRAL 500、INTACAPE 150／500、INCITABINE 150／500",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: the registrations not shown in the table (CAPETERO is already in the table)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-entacapone-1",
+   "drug": "entacapone",
+   "file": "entacapone.md",
+   "action": "correct",
+   "claim": "Three more valid registrations exist (Stalevo 50/12.5/200 mg, Stalevo 200/50/200 mg, Antipar 100/25/200 mg).",
+   "replacement": "Further valid registrations are Stalevo 200/50/200 mg and Antipar (100/25/200 mg and 150/37.5/200 mg).",
+   "note": "Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 8 張；Stalevo 50/12.5/200 已在程式表上，表外是 Stalevo 200/50/200、Antipar 100/25/200、Antipar 150/37.5/200",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: the registrations not shown in the table",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-imatinib-1",
+   "drug": "imatinib",
+   "file": "imatinib.md",
+   "action": "correct",
+   "claim": "Veenat (100 mg and 400 mg), Hetero Imatinib (100 mg and 400 mg), Imatiqual (100 mg and 400 mg), Neopax 400 mg and Imatinib-AFT 400 mg capsules.",
+   "replacement": "Veenat 100 mg, Hetero Imatinib (100 mg and 400 mg), Imatiqual (100 mg and 400 mg) and Neopax 400 mg.",
+   "note": "Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 16 張；Veenat 400、Imatinib-AFT 400 已在程式表前 5 張，拿掉",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed from the other products: Veenat 400 mg and Imatinib-AFT 400 mg (already in the table)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-triprolidine-1",
+   "drug": "triprolidine",
+   "file": "triprolidine.md",
+   "action": "correct",
+   "claim": "Other registrations include syrups (BEACTAFED, PEACEF, FEDAC, BEACTAFED CO) and elixir-type linctuses (FEDAC COMPOUND, COUGH-EN).",
+   "replacement": "Other registrations include syrups (ACTIHIST, PEACEF), a tablet (ACTIMIN) and an elixir-type linctus (COUGH-EN).",
+   "note": "Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 9 張；BEACTAFED CO、FEDAC 糖漿、FEDAC COMPOUND 已在程式表上，本藥資料沒有單名 BEACTAFED；表外是 ACTIMIN 錠、ACTIHIST 糖漿、PEACEF 糖漿、COUGH-EN",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: the registrations not shown in the table",
    "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
   }
  ]

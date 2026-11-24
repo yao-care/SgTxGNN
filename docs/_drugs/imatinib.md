@@ -122,7 +122,13 @@ Showing 5 of 16 HSA registrations.
 
 <!-- licenses:end -->
 
-Other registered products include Veenat (100 mg and 400 mg), Hetero Imatinib (100 mg and 400 mg), Imatiqual (100 mg and 400 mg), Neopax 400 mg and Imatinib-AFT 400 mg capsules. All are oral formulations.
+Other registered products include Veenat 100 mg, Hetero Imatinib (100 mg and 400 mg), Imatiqual (100 mg and 400 mg) and Neopax 400 mg. All are oral formulations.
+
+<!-- review:begin sg-lic-20261124b-imatinib-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Veenat (100 mg and 400 mg), Hetero Imatinib (100 mg and 400 mg), Imatiqual (100 mg and 400 mg), Neopax 400 mg and Imatinib-AFT 400 mg capsules." Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-imatinib-1 -->
 
 ---
 
@@ -172,6 +178,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "Imatinib has 13 valid single-ingredient registrations in Singapore, with no cancelled licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
+| 2026-11-24 | Removed from the other products: Veenat 400 mg and Imatinib-AFT 400 mg (already in the table) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

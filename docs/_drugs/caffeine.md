@@ -110,7 +110,13 @@ Showing 5 of 13 HSA registrations.
 
 <!-- licenses:end -->
 
-Available dosage forms include oral capsules and tablets (plain, film-coated, sugar-coated, effervescent) and one injectable infusion solution.
+Available dosage forms include oral tablets and caplets (plain, film-coated, effervescent) and an infusion solution.
+
+<!-- review:begin sg-lic-20261124b-caffeine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "oral capsules and tablets (plain, film-coated, sugar-coated, effervescent) and one injectable infusion solution" Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-caffeine-1 -->
 
 ---
 
@@ -162,6 +168,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "Twenty valid single-ingredient registrations are on record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
+| 2026-11-24 | Corrected dosage forms: no capsules or sugar-coated tablets are registered | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

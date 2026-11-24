@@ -102,7 +102,13 @@ Showing 5 of 8 HSA registrations.
 
 <!-- licenses:end -->
 
-Three more valid registrations exist (Stalevo 50/12.5/200 mg, Stalevo 200/50/200 mg, Antipar 100/25/200 mg). All 8 are oral film-coated tablets.
+Further valid registrations are Stalevo 200/50/200 mg and Antipar (100/25/200 mg and 150/37.5/200 mg). All 8 are oral film-coated tablets.
+
+<!-- review:begin sg-lic-20261124b-entacapone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Three more valid registrations exist (Stalevo 50/12.5/200 mg, Stalevo 200/50/200 mg, Antipar 100/25/200 mg)." Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-entacapone-1 -->
 
 ## Safety Considerations
 
@@ -136,11 +142,12 @@ The prediction for PLA2G6-associated neurodegeneration has a high model score bu
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+| 2026-11-24 | Corrected: the registrations not shown in the table | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

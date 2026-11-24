@@ -97,11 +97,11 @@ Showing 5 of 18 HSA registrations.
 
 <!-- licenses:end -->
 
-Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4).
+Dosage forms include infusion solutions, injections and emulsions.
 
 <!-- review:begin sg-lic-20261106-isoleucine-1 -->
 
-> **Review correction (2026-11-24)**: Originally stated: "All 19 registrations are valid single-ingredient licences. Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All 19 registrations are valid single-ingredient licences. Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The dosage forms named here were also corrected to match the HSA register data for this ingredient. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-isoleucine-1 -->
 
@@ -134,7 +134,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | Removed: "All 19 registrations are valid single-ingredient licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: the peritoneal dialysis solution (NUTRINEAL PD4), which is not in the HSA data for this ingredient | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-24 | Number of authorizations: 19 → 18 | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->

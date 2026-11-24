@@ -86,7 +86,13 @@ Showing 5 of 10 HSA registrations.
 
 <!-- licenses:end -->
 
-These are 5 of 10 valid single-ingredient registrations. The others are CAPETERO (150 mg and 500 mg), INTACAPE 150 mg, and INCITABINE (150 mg and 500 mg).
+These are 5 of 10 valid single-ingredient registrations. The others are KAPETRAL 500 mg, INTACAPE (150 mg and 500 mg) and INCITABINE (150 mg and 500 mg).
+
+<!-- review:begin sg-lic-20261124b-capecitabine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The others are CAPETERO (150 mg and 500 mg), INTACAPE 150 mg, and INCITABINE (150 mg and 500 mg)." Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-capecitabine-1 -->
 
 ## Cytotoxicity
 
@@ -126,11 +132,12 @@ The prediction score is very high, but no clinical trial or publication addresse
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+| 2026-11-24 | Corrected: the registrations not shown in the table (CAPETERO is already in the table) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

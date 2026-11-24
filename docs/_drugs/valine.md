@@ -97,7 +97,13 @@ Showing 5 of 18 HSA registrations.
 
 <!-- licenses:end -->
 
-The other registrations include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B.Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega (several variants). Dosage forms are infusion solutions, injections and emulsions.
+The other registrations include Aminoplasmal B.Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega (several variants). Dosage forms are infusion solutions, injections and emulsions.
+
+<!-- review:begin sg-lic-20261124b-valine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal" Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-valine-1 -->
 
 ## Safety Considerations
 
@@ -134,6 +140,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "All 19 registrations are valid single-ingredient licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed from the products not shown in the table: Trophamine, Vaminolact (already in the table) and Nutrineal PD4 (not in the HSA data for this ingredient) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

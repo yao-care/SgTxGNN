@@ -113,7 +113,13 @@ Showing 5 of 9 HSA registrations.
 
 <!-- licenses:end -->
 
-Other registrations include syrups (BEACTAFED, PEACEF, FEDAC, BEACTAFED CO) and elixir-type linctuses (FEDAC COMPOUND, COUGH-EN). Available forms are oral tablets, syrups and elixirs.
+Other registrations include syrups (ACTIHIST, PEACEF), a tablet (ACTIMIN) and an elixir-type linctus (COUGH-EN). Available forms are oral tablets, syrups and elixirs.
+
+<!-- review:begin sg-lic-20261124b-triprolidine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Other registrations include syrups (BEACTAFED, PEACEF, FEDAC, BEACTAFED CO) and elixir-type linctuses (FEDAC COMPOUND, COUGH-EN)." Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-triprolidine-1 -->
 
 ---
 
@@ -148,6 +154,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "Eleven valid single-ingredient registrations are on file" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Corrected: the registrations not shown in the table | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

@@ -82,11 +82,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Available forms are oral (tablet, capsule), injectable and topical (gel). The five main licences are listed below. The licence records contain no approved-indication text.
+Available forms are oral (capsule), injectable and topical (gel). The five main licences are listed below. The licence records contain no approved-indication text.
 
 <!-- review:begin sg-lic-20261106-piroxicam-1 -->
 
-> **Review correction (2026-11-24)**: Originally stated: "Seven valid single-ingredient licences are held, with no cancelled ones. Available forms are oral (tablet, capsule), injectable and topical (gel)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Seven valid single-ingredient licences are held, with no cancelled ones. Available forms are oral (tablet, capsule), injectable and topical (gel)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The dosage forms named here were also corrected to match the HSA register data for this ingredient. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-piroxicam-1 -->
 
@@ -146,7 +146,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | Removed: "Seven valid single-ingredient licences are held, with no cancelled ones" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "tablet" (no tablet is registered) | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
 | 2026-11-24 | Removed: "The remaining two licences are ROXIFEN GEL … and ROSIDEN GEL (SIN05100P)." | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 

@@ -107,7 +107,13 @@ Showing 5 of 9 HSA registrations.
 
 <!-- licenses:end -->
 
-Sodium carbonate appears here as a component of a single injectable product. In such products it typically serves as a buffer or excipient rather than as the active ingredient.
+Sodium carbonate appears here as a component of combination products (an injection, an oral bowel-preparation product and haemodialysis/haemofiltration solutions). In such products it typically serves as a buffer or excipient rather than as the active ingredient.
+
+<!-- review:begin sg-lic-20261124b-sodium_carbonate-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Sodium carbonate appears here as a component of a single injectable product." Corrected: the products or dosage forms named here did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-sodium_carbonate-2 -->
 
 ---
 
@@ -157,6 +163,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-06 | Removed: "since the sole license is for a combination injectable with no stated indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-24 | Removed the premise "the only licensed product is an injection" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Corrected: sodium carbonate is a component of several combination products, not of a single injectable product | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 
