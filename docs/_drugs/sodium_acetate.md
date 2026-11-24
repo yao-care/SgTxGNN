@@ -86,7 +86,11 @@ Showing 5 of 11 HSA registrations.
 
 <!-- licenses:end -->
 
-The remaining registrations include peritoneal dialysis solutions (Dianeal, Physioneal, Extraneal, Europersol), Lactoride 500 Infusion, and Gelaspan.
+<!-- review:begin sg-lic-20261124b-sodium_acetate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining registrations include peritoneal dialysis solutions (Dianeal, Physioneal, Extraneal, Europersol), Lactoride 500 Infusion, and Gelaspan." Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-sodium_acetate-1 -->
 
 ## Safety Considerations
 
@@ -124,6 +128,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "Singapore has 20 valid single-ingredient registrations and no cancelled ones" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "The remaining registrations include peritoneal dialysis solutions (Dianeal, …), Lactoride 500 Infusion, and Gelaspan." | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

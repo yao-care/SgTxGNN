@@ -102,7 +102,13 @@ Showing 5 of 14 HSA registrations.
 
 <!-- licenses:end -->
 
-The remaining nine licences cover Pentasa (suppositories, granules and 1 g tablets) and Salofalk (granules, enema and suppositories). Available forms include oral, rectal (suppository, enema, suspension) and granule presentations.
+The remaining licences cover Pentasa (granules, 1 g tablets and rectal suspension), Salofalk (granules), Asacol and Mezavant XL. Available forms include oral, rectal (suppository, enema, suspension) and granule presentations.
+
+<!-- review:begin sg-lic-20261124b-mesalazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining nine licences cover Pentasa (suppositories, granules and 1 g tablets) and Salofalk (granules, enema and suppositories)." Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-mesalazine-1 -->
 
 ## Safety Considerations
 
@@ -130,11 +136,12 @@ The top-ranked prediction has no trials, no literature and no plausible mechanis
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
+| 2026-11-24 | Corrected: the products listed as the remaining licences (Pentasa, Salofalk, Asacol, Mezavant XL) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

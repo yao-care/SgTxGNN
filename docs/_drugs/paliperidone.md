@@ -110,7 +110,13 @@ Showing 5 of 17 HSA registrations.
 
 <!-- licenses:end -->
 
-The remaining registrations cover other strengths of the same products (Invega tablets, Sustenna, Trinza, Hafyera and Parnido).
+The remaining registrations cover other strengths of the same products (Sustenna, Trinza, Hafyera and Parnido).
+
+<!-- review:begin sg-lic-20261124b-paliperidone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(Invega tablets, Sustenna, Trinza, Hafyera and Parnido)" Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-paliperidone-1 -->
 
 ---
 
@@ -144,11 +150,12 @@ The top prediction (retinal dystrophy) rests on a model score alone, with no tri
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
+| 2026-11-24 | Removed from the list of remaining registrations: "Invega tablets" (already in the table) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

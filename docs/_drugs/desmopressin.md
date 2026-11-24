@@ -119,7 +119,13 @@ Showing 5 of 7 HSA registrations.
 
 <!-- licenses:end -->
 
-Two further licences are valid: MINIRIN Nasal Spray 10 mcg/dose (SIN03760P, spray) and MINIRIN Injection 4 mcg/ml (SIN04482P, injection). All seven registrations are single-ingredient products. Oral, nasal and injectable routes are therefore all available in Singapore.
+All seven registrations are single-ingredient products. Oral, nasal and injectable routes are therefore all available in Singapore.
+
+<!-- review:begin sg-lic-20261124b-desmopressin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Two further licences are valid: MINIRIN Nasal Spray 10 mcg/dose (SIN03760P, spray) and MINIRIN Injection 4 mcg/ml (SIN04482P, injection)." Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-desmopressin-1 -->
 
 ---
 
@@ -151,11 +157,12 @@ The top-ranked prediction (congenital prothrombin deficiency) has no clinical tr
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244) |
+| 2026-11-24 | Removed: "Two further licences are valid: MINIRIN Nasal Spray … and MINIRIN Injection …" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

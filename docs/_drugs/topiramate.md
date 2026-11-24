@@ -97,7 +97,13 @@ Showing 5 of 10 HSA registrations.
 
 <!-- licenses:end -->
 
-The other five registrations are further strengths of Trokendi XR (50, 100 and 200 mg) and Topiron (25 and 100 mg). All forms are oral.
+The other registrations are further strengths of Trokendi XR and Topiron. All forms are oral.
+
+<!-- review:begin sg-lic-20261124b-topiramate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The other five registrations are further strengths of Trokendi XR (50, 100 and 200 mg) and Topiron (25 and 100 mg)." Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-topiramate-1 -->
 
 ---
 
@@ -131,11 +137,12 @@ Other predictions for topiramate have more support. Its evidence is a small rand
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
+| 2026-11-24 | Corrected: "The other five registrations are further strengths of Trokendi XR (50, 100 and 200 mg) and Topiron (25 and 100 mg)" → "… of Trokendi XR and Topiron" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

@@ -87,11 +87,9 @@ Showing 5 of 8 HSA registrations.
 
 <!-- licenses:end -->
 
-Licence SIN14004P (Lucrin Depot PDS 30mg) is also valid.
-
 <!-- review:begin sg-lic-20261106-leuprolide-1 -->
 
-> **Review correction (2026-11-24)**: Originally stated: "One further licence (SIN14004P, Lucrin Depot PDS 30mg) is also valid. All 6 licences are single-ingredient products and all are currently valid." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "One further licence (SIN14004P, Lucrin Depot PDS 30mg) is also valid. All 6 licences are single-ingredient products and all are currently valid." Removed: the number of licences stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06), and SIN14004P is already shown in the program-generated table above. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-leuprolide-1 -->
 
@@ -123,7 +121,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | Removed: "All 6 licences are single-ingredient products and all are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "One further licence (SIN14004P, Lucrin Depot PDS 30mg) is also valid. All 6 licences are single-ingredient products and all are currently valid." | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vabrinty (leuprolide acetate) prescribing information, URONOVA PHARMACEUTICALS, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=008776cc-83f1-4f8c-819b-6471425da15f) |
 
 <!-- review:end log -->

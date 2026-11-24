@@ -93,7 +93,13 @@ Showing 5 of 7 HSA registrations.
 
 <!-- licenses:end -->
 
-Two further single-ingredient registrations exist: Telfast Oral Suspension 6 mg/ml (SIN14199P) and Telfast D Tablet (SIN12071P). The drug is marketed, with 7 valid licences of 7 and none cancelled. Available forms are oral film-coated tablets and an oral suspension; no topical or ophthalmic formulation is registered.
+The drug is marketed, with 7 valid licences of 7 and none cancelled. Available forms are oral film-coated tablets and an oral suspension; no topical or ophthalmic formulation is registered.
+
+<!-- review:begin sg-lic-20261124b-fexofenadine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Two further single-ingredient registrations exist: Telfast Oral Suspension 6 mg/ml (SIN14199P) and Telfast D Tablet (SIN12071P)." Removed: Telfast Oral Suspension (SIN14199P) is already shown in the program-generated table above, and Telfast D is a combination product, not a single-ingredient one (HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-fexofenadine-1 -->
 
 ## Safety Considerations
 
@@ -118,6 +124,19 @@ The prediction rests on model score alone (L5). No trials or publications exist,
 - Package insert warnings and contraindications from the HSA, to complete safety screening
 - Assessment of route compatibility (oral versus topical ocular delivery)
 - Specific indication text for the Singapore registrations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Removed: "Two further single-ingredient registrations exist: Telfast Oral Suspension … and Telfast D Tablet …" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

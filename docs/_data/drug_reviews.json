@@ -4703,9 +4703,9 @@
    "file": "desloratadine.md",
    "action": "correct",
    "claim": "A sixth licence, SIN11743P (Aerius Tablet 5 mg, film-coated), is also valid. All six are single-ingredient oral products, and all are currently valid.",
-   "replacement": "Licence SIN11743P (Aerius Tablet 5 mg, film-coated) is also valid.",
-   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
-   "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 8 張（單方 7），句中「All six」與事實不符；句子只有許可說法，整句刪",
+   "replacement": "",
+   "note": "Removed: the number of licences stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06), and SIN11743P is already shown in the program-generated table above. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 8 張全有效；SIN11743P 是程式表第 1 列（第一輪重發時留下的「also valid」句），整句刪除",
    "sources": [
     {
      "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
@@ -4714,8 +4714,8 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Removed: \"All six are single-ingredient oral products, and all are currently valid\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+   "summary": "Removed: \"A sixth licence, SIN11743P … is also valid. All six are single-ingredient oral products, and all are currently valid.\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）；2026-11-24 第二輪同 id 重發",
    "history": [
     {
      "id": "sg-lic-20261106-desloratadine-1",
@@ -4738,8 +4738,31 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明裡寫死的張數、舊表筆數拿掉（張數見本頁概覽表與程式許可證表），更正的事實內容不變"
+    },
+    {
+     "id": "sg-lic-20261106-desloratadine-1",
+     "drug": "desloratadine",
+     "file": "desloratadine.md",
+     "action": "correct",
+     "claim": "A sixth licence, SIN11743P (Aerius Tablet 5 mg, film-coated), is also valid. All six are single-ingredient oral products, and all are currently valid.",
+     "replacement": "Licence SIN11743P (Aerius Tablet 5 mg, film-coated) is also valid.",
+     "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+     "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 8 張（單方 7），句中「All six」與事實不符；句子只有許可說法，整句刪",
+     "sources": [
+      {
+       "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+       "url": "https://data.gov.sg/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"All six are single-ingredient oral products, and all are currently valid\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表取代舊表後，點名的號碼或品項跟程式表或事實層不符，2026-11-24 第二輪用戶決定逐句寫紀錄"
     }
-   ]
+   ],
+   "anchor": "<!-- licenses:end -->"
   },
   {
    "id": "sg-lic-20261106-dexamethasone-1",
@@ -8824,9 +8847,9 @@
    "file": "leuprolide.md",
    "action": "correct",
    "claim": "One further licence (SIN14004P, Lucrin Depot PDS 30mg) is also valid. All 6 licences are single-ingredient products and all are currently valid.",
-   "replacement": "Licence SIN14004P (Lucrin Depot PDS 30mg) is also valid.",
-   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
-   "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 8 張（單方 8），句中「6 licences」；「All 6」與事實不符；句子只有許可說法，整句刪",
+   "replacement": "",
+   "note": "Removed: the number of licences stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06), and SIN14004P is already shown in the program-generated table above. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 8 張全有效全單方；SIN14004P 已在程式表第 3 列，整句刪除",
    "sources": [
     {
      "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
@@ -8835,8 +8858,8 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Removed: \"All 6 licences are single-ingredient products and all are currently valid\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+   "summary": "Removed: \"One further licence (SIN14004P, Lucrin Depot PDS 30mg) is also valid. All 6 licences are single-ingredient products and all are currently valid.\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）；2026-11-24 第二輪同 id 重發",
    "history": [
     {
      "id": "sg-lic-20261106-leuprolide-1",
@@ -8859,8 +8882,31 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明裡寫死的張數、舊表筆數拿掉（張數見本頁概覽表與程式許可證表），更正的事實內容不變"
+    },
+    {
+     "id": "sg-lic-20261106-leuprolide-1",
+     "drug": "leuprolide",
+     "file": "leuprolide.md",
+     "action": "correct",
+     "claim": "One further licence (SIN14004P, Lucrin Depot PDS 30mg) is also valid. All 6 licences are single-ingredient products and all are currently valid.",
+     "replacement": "Licence SIN14004P (Lucrin Depot PDS 30mg) is also valid.",
+     "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+     "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 8 張（單方 8），句中「6 licences」；「All 6」與事實不符；句子只有許可說法，整句刪",
+     "sources": [
+      {
+       "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+       "url": "https://data.gov.sg/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"All 6 licences are single-ingredient products and all are currently valid\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表取代舊表後，點名的號碼或品項跟程式表或事實層不符，2026-11-24 第二輪用戶決定逐句寫紀錄"
     }
-   ]
+   ],
+   "anchor": "<!-- licenses:end -->"
   },
   {
    "id": "sg-lic-20261106-levetiracetam-1",
@@ -9938,9 +9984,9 @@
    "file": "metronidazole.md",
    "action": "correct",
    "claim": "Eleven valid single-ingredient licences are registered in total. The others include further oral tablets, a topical gel and two vaginal suppository products.",
-   "replacement": "The others include further oral tablets, a topical gel and two vaginal suppository products.",
-   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
-   "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 9 張（單方 7），句中「Eleven valid single-ingredient licences」與事實不符；句子只有許可說法，整句刪",
+   "replacement": "The others include a further oral tablet, an infusion and vaginal suppository products.",
+   "note": "Corrected: the number of licences stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06), and the topical gel is already shown in the program-generated table above; the registrations not shown are a tablet, an infusion and vaginal suppository products. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 9 張全有效；程式表前 5 張含 ROZEX GEL（唯一外用凝膠），表外 4 張是 AXCEL 錠、Fresenius 輸注液、FLAGYSTATIN 陰道栓、NEO-PENOTRAN 陰道栓；改寫「其餘」的劑型",
    "sources": [
     {
      "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
@@ -9949,8 +9995,8 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Removed: \"Eleven valid single-ingredient licences are registered in total\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+   "summary": "Removed: \"Eleven valid single-ingredient licences are registered in total\"; the forms of the registrations not shown in the table corrected",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）；2026-11-24 第二輪同 id 重發",
    "history": [
     {
      "id": "sg-lic-20261106-metronidazole-1",
@@ -9973,6 +10019,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明裡寫死的張數、舊表筆數拿掉（張數見本頁概覽表與程式許可證表），更正的事實內容不變"
+    },
+    {
+     "id": "sg-lic-20261106-metronidazole-1",
+     "drug": "metronidazole",
+     "file": "metronidazole.md",
+     "action": "correct",
+     "claim": "Eleven valid single-ingredient licences are registered in total. The others include further oral tablets, a topical gel and two vaginal suppository products.",
+     "replacement": "The others include further oral tablets, a topical gel and two vaginal suppository products.",
+     "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+     "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 9 張（單方 7），句中「Eleven valid single-ingredient licences」與事實不符；句子只有許可說法，整句刪",
+     "sources": [
+      {
+       "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+       "url": "https://data.gov.sg/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"Eleven valid single-ingredient licences are registered in total\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表取代舊表後，點名的號碼或品項跟程式表或事實層不符，2026-11-24 第二輪用戶決定逐句寫紀錄"
     }
    ]
   },
@@ -10777,9 +10845,9 @@
    "file": "olopatadine.md",
    "action": "correct",
    "claim": "Seven valid single-ingredient licences are registered, and none are cancelled. The two others are PATANOL Sterile Ophthalmic Solution 0.1% (SIN10485P) and RYALTRIS Nasal Spray 600/25 mcg (SIN16523P).",
-   "replacement": "PATANOL Sterile Ophthalmic Solution 0.1% (SIN10485P) and RYALTRIS Nasal Spray 600/25 mcg (SIN16523P) are also registered.",
-   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
-   "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 7 張（單方 6），句中「Seven valid single-ingredient licences」與事實不符；句子只有許可說法，整句刪",
+   "replacement": "RYALTRIS Nasal Spray 600/25 mcg (SIN16523P) is also registered.",
+   "note": "Corrected: the number of licences stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06), and PATANOL (SIN10485P) is already shown in the program-generated table above. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 7 張全有效（單方 6、RYALTRIS 為複方）；PATANOL SIN10485P 已在程式表第 1 列，拿掉；RYALTRIS 不在表上，保留",
    "sources": [
     {
      "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
@@ -10788,8 +10856,8 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Removed: \"Seven valid single-ingredient licences are registered, and none are cancelled\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+   "summary": "Removed: \"Seven valid single-ingredient licences are registered, and none are cancelled\"; PATANOL (SIN10485P) is already in the table",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）；2026-11-24 第二輪同 id 重發",
    "history": [
     {
      "id": "sg-lic-20261106-olopatadine-1",
@@ -10812,6 +10880,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明裡寫死的張數、舊表筆數拿掉（張數見本頁概覽表與程式許可證表），更正的事實內容不變"
+    },
+    {
+     "id": "sg-lic-20261106-olopatadine-1",
+     "drug": "olopatadine",
+     "file": "olopatadine.md",
+     "action": "correct",
+     "claim": "Seven valid single-ingredient licences are registered, and none are cancelled. The two others are PATANOL Sterile Ophthalmic Solution 0.1% (SIN10485P) and RYALTRIS Nasal Spray 600/25 mcg (SIN16523P).",
+     "replacement": "PATANOL Sterile Ophthalmic Solution 0.1% (SIN10485P) and RYALTRIS Nasal Spray 600/25 mcg (SIN16523P) are also registered.",
+     "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+     "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 7 張（單方 6），句中「Seven valid single-ingredient licences」與事實不符；句子只有許可說法，整句刪",
+     "sources": [
+      {
+       "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+       "url": "https://data.gov.sg/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"Seven valid single-ingredient licences are registered, and none are cancelled\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表取代舊表後，點名的號碼或品項跟程式表或事實層不符，2026-11-24 第二輪用戶決定逐句寫紀錄"
     }
    ]
   },
@@ -13774,10 +13864,10 @@
    "drug": "tranexamic_acid",
    "file": "tranexamic_acid.md",
    "action": "correct",
-   "claim": "A sixth licence, Cyklokapron Tablet 500 mg (SIN02487P, film-coated tablet), is also valid. All six licences are single-ingredient products.",
-   "replacement": "Licence SIN02487P (Cyklokapron Tablet 500 mg, film-coated tablet) is also valid.",
-   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
-   "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 7 張（單方 7），句中「six licences」；「All six」與事實不符；句子只有許可說法，整句刪",
+   "claim": "A sixth licence, Cyklokapron Tablet 500 mg (SIN02487P, film-coated tablet), is also valid. All six licences are single-ingredient products. ",
+   "replacement": "",
+   "note": "Removed: the number of licences stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06), and SIN02487P is already shown in the program-generated table above. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 7 張全有效全單方（原句 6 張不符）；SIN02487P 是程式表第 1 列，整句刪除；後句「注射與口服劑型都有」成立不動",
    "sources": [
     {
      "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
@@ -13786,8 +13876,8 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Removed: \"All six licences are single-ingredient products\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+   "summary": "Removed: \"A sixth licence, Cyklokapron Tablet 500 mg (SIN02487P, film-coated tablet), is also valid. All six licences are single-ingredient products.\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）；2026-11-24 第二輪同 id 重發",
    "history": [
     {
      "id": "sg-lic-20261106-tranexamic_acid-1",
@@ -13810,8 +13900,31 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明裡寫死的張數、舊表筆數拿掉（張數見本頁概覽表與程式許可證表），更正的事實內容不變"
+    },
+    {
+     "id": "sg-lic-20261106-tranexamic_acid-1",
+     "drug": "tranexamic_acid",
+     "file": "tranexamic_acid.md",
+     "action": "correct",
+     "claim": "A sixth licence, Cyklokapron Tablet 500 mg (SIN02487P, film-coated tablet), is also valid. All six licences are single-ingredient products.",
+     "replacement": "Licence SIN02487P (Cyklokapron Tablet 500 mg, film-coated tablet) is also valid.",
+     "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+     "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 7 張（單方 7），句中「six licences」；「All six」與事實不符；句子只有許可說法，整句刪",
+     "sources": [
+      {
+       "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+       "url": "https://data.gov.sg/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"All six licences are single-ingredient products\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "程式許可證表取代舊表後，點名的號碼或品項跟程式表或事實層不符，2026-11-24 第二輪用戶決定逐句寫紀錄"
     }
-   ]
+   ],
+   "anchor": "Both injectable and oral forms are available."
   },
   {
    "id": "sg-lic-20261106-trastuzumab-1",
@@ -30273,6 +30386,272 @@
    "checked": "2026-11-24",
    "summary": "Removed: \"the Marevan 3 mg tablet (SIN08019P) is the one not shown above\"",
    "method": "2026-11-24 第二輪人工查核（待查清單：表外說明句對程式表）"
+  },
+  {
+   "id": "sg-lic-20261124b-desmopressin-1",
+   "drug": "desmopressin",
+   "file": "desmopressin.md",
+   "action": "correct",
+   "claim": "Two further licences are valid: MINIRIN Nasal Spray 10 mcg/dose (SIN03760P, spray) and MINIRIN Injection 4 mcg/ml (SIN04482P, injection). ",
+   "replacement": "",
+   "note": "Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 7 張全有效全單方；SIN03760P、SIN04482P 是程式表第 1、2 列（表外的是 NOCDURNA 25／50 mcg），刪此句；後兩句成立不動",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Two further licences are valid: MINIRIN Nasal Spray … and MINIRIN Injection …\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）",
+   "anchor": "All seven registrations are single-ingredient products."
+  },
+  {
+   "id": "sg-lic-20261124b-fexofenadine-1",
+   "drug": "fexofenadine",
+   "file": "fexofenadine.md",
+   "action": "correct",
+   "claim": "Two further single-ingredient registrations exist: Telfast Oral Suspension 6 mg/ml (SIN14199P) and Telfast D Tablet (SIN12071P). ",
+   "replacement": "",
+   "note": "Removed: Telfast Oral Suspension (SIN14199P) is already shown in the program-generated table above, and Telfast D is a combination product, not a single-ingredient one (HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 7 張全有效、單方 6；SIN14199P 已在程式表第 3 列；Telfast D（fexofenadine＋pseudoephedrine）是複方，句子說「單方」也不符；刪此句",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Two further single-ingredient registrations exist: Telfast Oral Suspension … and Telfast D Tablet …\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）",
+   "anchor": "Available forms are oral film-coated tablets and an oral suspension"
+  },
+  {
+   "id": "sg-lic-20261124b-methotrexate-1",
+   "drug": "methotrexate",
+   "file": "methotrexate.md",
+   "action": "correct",
+   "claim": "Two further licenses are valid: SIN00242P (DBL Methotrexate Injection BP 1 g/10 ml) and SIN17136P (Methotrexate Remedica film-coated tablet 2.5 mg). ",
+   "replacement": "",
+   "note": "Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 7 張全有效全單方；SIN00242P 是程式表第 1 列（表外的是 SIN16737P、SIN17136P），刪此句；後兩句成立不動",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Two further licenses are valid: SIN00242P … and SIN17136P …\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）",
+   "anchor": "Both oral and injectable routes are available."
+  },
+  {
+   "id": "sg-lic-20261124b-temozolomide-1",
+   "drug": "temozolomide",
+   "file": "temozolomide.md",
+   "action": "correct",
+   "claim": "Three further single-ingredient licences are also valid: SIN15642P and SIN15641P (Gliotem 100 mg and 20 mg) and SIN11706P (Temodal 20 mg). ",
+   "replacement": "",
+   "note": "Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 8 張全有效全單方膠囊；SIN11706P、SIN15641P 已在程式表上（表外是 SIN15642P、SIN15709P、SIN15710P），刪此句；後句成立不動",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Three further single-ingredient licences are also valid: …\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）",
+   "anchor": "All 8 licences are oral capsules."
+  },
+  {
+   "id": "sg-lic-20261124b-tryptophan-1",
+   "drug": "tryptophan",
+   "file": "tryptophan.md",
+   "action": "correct",
+   "claim": "The remaining registrations include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B. Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega products.",
+   "replacement": "The remaining registrations include Aminoplasmal B. Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega products.",
+   "note": "Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 19 張全有效；Trophamine、Vaminolact 已在程式表前 5 張；本藥 19 張裡沒有 Nutrineal PD4；拿掉這三個名字，其餘舉例都在表外，保留",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed from the list of registrations not shown: Trophamine, Vaminolact (already in the table) and Nutrineal PD4 (not in the HSA data for this ingredient)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-sodium_acetate-1",
+   "drug": "sodium_acetate",
+   "file": "sodium_acetate.md",
+   "action": "correct",
+   "claim": "The remaining registrations include peritoneal dialysis solutions (Dianeal, Physioneal, Extraneal, Europersol), Lactoride 500 Infusion, and Gelaspan.",
+   "replacement": "",
+   "note": "Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 11 張全有效（非 partial）；本藥 11 張裡沒有 Dianeal、Physioneal、Extraneal、Europersol、Lactoride，Gelaspan 已在程式表第 5 列；整句刪除",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"The remaining registrations include peritoneal dialysis solutions (Dianeal, …), Lactoride 500 Infusion, and Gelaspan.\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "sg-lic-20261124b-topiramate-1",
+   "drug": "topiramate",
+   "file": "topiramate.md",
+   "action": "correct",
+   "claim": "The other five registrations are further strengths of Trokendi XR (50, 100 and 200 mg) and Topiron (25 and 100 mg).",
+   "replacement": "The other registrations are further strengths of Trokendi XR and Topiron.",
+   "note": "Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 10 張全有效；程式表前 5 張含 Topiron 50、25 mg，表外是 Topiron 100 mg 與 Trokendi XR 25／50／100／200 mg；句中的強度組合不符，拿掉強度與張數",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The other five registrations are further strengths of Trokendi XR (50, 100 and 200 mg) and Topiron (25 and 100 mg)\" → \"… of Trokendi XR and Topiron\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-budesonide-1",
+   "drug": "budesonide",
+   "file": "budesonide.md",
+   "action": "correct",
+   "claim": "Duoresp Spiromax, Breztri Aerosphere, Budiair and Esonide)",
+   "replacement": "Duoresp Spiromax and Breztri Aerosphere)",
+   "note": "Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 19 張全有效；Esonide 已在程式表第 5 列；本藥 19 張裡沒有 Budiair；拿掉兩個名字，其餘舉例都在表外",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed from the examples of other licences: Budiair (not in the HSA data for this ingredient) and Esonide (already in the table)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-ropivacaine-1",
+   "drug": "ropivacaine",
+   "file": "ropivacaine.md",
+   "action": "correct",
+   "claim": "Two further Ropivacaine-AFT injection licences (0.75% and 1%) are also valid, giving 7 registrations in total.",
+   "replacement": "",
+   "note": "Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 7 張全有效；Ropivacaine-AFT 1%、0.75% 都已在程式表前 5 張，表外是 AFT 0.2% 輸注液與 B.Braun 2 mg/ml；整句刪除",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Two further Ropivacaine-AFT injection licences (0.75% and 1%) are also valid, giving 7 registrations in total.\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "sg-lic-20261124b-mesalazine-1",
+   "drug": "mesalazine",
+   "file": "mesalazine.md",
+   "action": "correct",
+   "claim": "The remaining nine licences cover Pentasa (suppositories, granules and 1 g tablets) and Salofalk (granules, enema and suppositories).",
+   "replacement": "The remaining licences cover Pentasa (granules, 1 g tablets and rectal suspension), Salofalk (granules), Asacol and Mezavant XL.",
+   "note": "Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 14 張全有效；程式表前 5 張是 Pentasa 栓劑、Pentasa 500 mg 錠、Salofalk 栓劑、Salofalk 錠、Salofalk 灌腸；表外 9 張是 Asacol、Salofalk 顆粒 4、Pentasa 顆粒、Pentasa 1 g 錠、Mezavant XL、Pentasa 直腸懸液；照表外品項改寫",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: the products listed as the remaining licences (Pentasa, Salofalk, Asacol, Mezavant XL)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-paliperidone-1",
+   "drug": "paliperidone",
+   "file": "paliperidone.md",
+   "action": "correct",
+   "claim": "(Invega tablets, Sustenna, Trinza, Hafyera and Parnido)",
+   "replacement": "(Sustenna, Trinza, Hafyera and Parnido)",
+   "note": "Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 17 張全有效；Invega 3 種錠劑都已在程式表前 5 張，拿掉「Invega tablets」",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed from the list of remaining registrations: \"Invega tablets\" (already in the table)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-fusidic_acid-1",
+   "drug": "fusidic_acid",
+   "file": "fusidic_acid.md",
+   "action": "correct",
+   "claim": "(e.g. Defuzin, Duzen, Balad, Disuf, Foban)",
+   "replacement": "(e.g. Defuzin, Duzen, Disuf, Foban)",
+   "note": "Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "事實層 21 張全有效；BALAD OINTMENT 是程式表第 4 列，拿掉",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed from the examples of remaining products: Balad (already in the table)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-ibuprofen-1",
+   "drug": "ibuprofen",
+   "file": "ibuprofen.md",
+   "action": "correct",
+   "claim": "(for example Nurofen for Children and Brufen)",
+   "replacement": "(for example Nurofen for Children)",
+   "note": "Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "證據包 26 張全有效；兩張 Brufen（懸液、錠）都已在程式表前 5 張，拿掉「and Brufen」",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed from the examples of other forms: Brufen (already in the table)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
   }
  ]
 }

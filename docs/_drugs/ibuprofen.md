@@ -96,7 +96,13 @@ Showing 5 of 26 HSA registrations.
 
 <!-- licenses:end -->
 
-Other registered forms include suspensions and syrups (for example Nurofen for Children and Brufen) as well as further tablets.
+Other registered forms include suspensions and syrups (for example Nurofen for Children) as well as further tablets.
+
+<!-- review:begin sg-lic-20261124b-ibuprofen-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(for example Nurofen for Children and Brufen)" Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-ibuprofen-1 -->
 
 ## Safety Considerations
 
@@ -140,6 +146,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "Ibuprofen has 20 valid single-ingredient registrations in Singapore and none cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684) |
+| 2026-11-24 | Removed from the examples of other forms: Brufen (already in the table) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

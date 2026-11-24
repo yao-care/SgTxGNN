@@ -113,7 +113,13 @@ Showing 5 of 19 HSA registrations.
 
 <!-- licenses:end -->
 
-The remaining registrations include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B. Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega products. All are injectable, emulsion or sterile-solution forms; no oral tryptophan product appears among them.
+The remaining registrations include Aminoplasmal B. Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega products. All are injectable, emulsion or sterile-solution forms; no oral tryptophan product appears among them.
+
+<!-- review:begin sg-lic-20261124b-tryptophan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining registrations include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B. Braun 10% E, Oliclinomel, SmofKabiven (several variants) and Nutriflex Omega products." Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-tryptophan-1 -->
 
 ---
 
@@ -166,6 +172,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "single-ingredient" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed from the list of registrations not shown: Trophamine, Vaminolact (already in the table) and Nutrineal PD4 (not in the HSA data for this ingredient) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

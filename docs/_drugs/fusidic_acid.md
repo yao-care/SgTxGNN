@@ -95,7 +95,13 @@ Showing 5 of 21 HSA registrations.
 
 <!-- licenses:end -->
 
-The remaining products include generic fusidic acid creams and ointments (e.g. Defuzin, Duzen, Balad, Disuf, Foban) and fusidic acid–corticosteroid combinations (e.g. Fucicort Lipid Cream, Fobancort, Defuzin-B).
+The remaining products include generic fusidic acid creams and ointments (e.g. Defuzin, Duzen, Disuf, Foban) and fusidic acid–corticosteroid combinations (e.g. Fucicort Lipid Cream, Fobancort, Defuzin-B).
+
+<!-- review:begin sg-lic-20261124b-fusidic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(e.g. Defuzin, Duzen, Balad, Disuf, Foban)" Corrected: the products named here as the registrations not shown in the table did not match the program-generated table and the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-fusidic_acid-1 -->
 
 ## Safety Considerations
 
@@ -133,6 +139,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "All 19 authorisations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so the description above relies on general pharmacological knowledge" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
+| 2026-11-24 | Removed from the examples of remaining products: Balad (already in the table) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 
