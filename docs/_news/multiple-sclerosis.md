@@ -13,7 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**4 articles** related to multiple sclerosis.
+**2 articles** related to multiple sclerosis.
 
 ---
 
@@ -30,22 +30,6 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/1-in-4-mum
 2026-11-24
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
-
----
-
-### [How ADHD symptoms change from childhood through adulthood](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-6381941)
-
-2026-11-24
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-6381941)
-
----
-
-### [5 gastrointestinal symptoms you should never ignore, according to doctors](https://www.channelnewsasia.com/wellness/gastrointestinal-symptoms-gut-health-6436716)
-
-2026-11-24
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/gastrointestinal-symptoms-gut-health-6436716)
 
 ---
 

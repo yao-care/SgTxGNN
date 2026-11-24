@@ -13,15 +13,23 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
 
 ---
 
-### [How Stage 4 lung cancer changed this former nightlife boss: From 5 litres of beer a night to Everest Base Camp](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
+### [Does ethnicity affect the type of breast cancer you develop and how easily it's detected?](https://www.channelnewsasia.com/women/breast-cancer-ethnicity-singapore-6474356)
 
 2026-11-24
 
-Source: [CNA](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
+Source: [CNA](https://www.channelnewsasia.com/women/breast-cancer-ethnicity-singapore-6474356)
+
+---
+
+### [A positive HPV test does not mean you have cervical cancer. Here's what to know](https://www.channelnewsasia.com/women/positive-hpv-test-cervical-cancer-risk-6527016)
+
+2026-11-24
+
+Source: [CNA](https://www.channelnewsasia.com/women/positive-hpv-test-cervical-cancer-risk-6527016)
 
 ---
 
