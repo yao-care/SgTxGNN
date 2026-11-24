@@ -560,3 +560,17 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   （「All three licences are valid」→「All licences are valid」、「Five main authorisations are listed below」→「The main authorizations are listed below」、「A sixth licence, SIN… is also valid」→「Licence SIN… is also valid」；單純的表格說明句若刪掉，同行後句的 them 會沒有指涉，所以改寫不刪）；更正的事實內容（哪張有效、劑型、持有人）不變，前版存 history。
   `scripts/reviews_from_edits.py` 的 figures 樣板改成不寫數字。單方／複方說法依證據包成分欄（「&&」＝複方）逐句對過，沒有跟事實相反的句子（證據包 kind 與成分欄一致）。
 - 待查清單另加 13 句：程式表依單方在前、號碼排序後，正文「A sixth licence, SIN… is also valid」「The two not shown above are …」「Three further licences …」點名的號碼已在表上，或「其餘 N 張」加表列數≠總數（acitretin、butylscopolamine、deferasirox、diosmin、doxycycline、dutasteride、hesperidin、irinotecan、isotretinoin、piroxicam、theophylline、tyrosine、warfarin）；不是張數句，要改請寫查核紀錄。
+
+## 表外說明句與劑型說法逐句寫紀錄（2026-11-24 第二輪）
+
+用戶 2026-11-24 第二輪決定：第一輪列進待查的舊錯句逐句寫查核紀錄；劑型說法對照證據包全部品項。
+- 待查清單 13 句（程式表上已有點名的號碼、或「其餘 N 張」加表列數≠總數）：12 筆 `sg-lic-20261124b-*`＋butylscopolamine 的 11-06 紀錄同 id 重發，
+  只刪點名已在表上的句子或子句（irinotecan、tyrosine、warfarin 改寫成不依表列的說法；tyrosine 另拿掉本藥資料沒有的 Nutrineal PD4／腹膜透析液），待查項目標 resolved（附 record_ids）。
+  fluconazole、etanercept 的「also registered／also valid」句（第一輪重發留下的）同 id 再重發成整句刪除。
+- 同類全量掃（市場段落「also／further／remaining／other／sixth」句點名的號碼或品牌對程式表與證據包）：另 18 頁（13 筆新、5 筆同 id 重發：desloratadine、leuprolide、tranexamic_acid、
+  olopatadine、metronidazole），以及 10 頁（alanine、valine、serine、isoleucine 的 Nutrineal、capecitabine、entacapone、imatinib、triprolidine 等）。
+- 劑型說法：全站公開頁「唯一／全部／沒有 X 劑型」「marketed as …」句 356 句＋市場段落有劑型字樣的句子 127 句，逐句對照證據包 tfda.records 的 dosage_form／route_of_administration；
+  不成立的寫紀錄（例 levofloxacin 寫「沒有眼用劑型」實有 CRAVIT 眼藥 3 句、vinorelbine 寫「有注射劑」而 HSA 現行清單只剩口服軟膠囊、polymyxin_b 寫「單方」實全為複方、
+  donepezil 漏 ADLARITY 經皮貼片、finasteride 漏 FINJUVE 外用噴霧、piroxicam 寫有錠劑、adalimumab 寫有小瓶），待辦條目只拿掉錯的前提。
+- 合計 53 筆新紀錄、13 筆同 id 重發（前版存 history）。市場段落沒有程式表、證據包有紀錄的公開頁 0 頁；atorvastatin、celecoxib、clobetasol_propionate 3 頁沒有市場段落，照各站慣例不新增段落。
+- checker 全量前後都是 0；gate exit 0；待查清單 open 剩 101 項，全是作用機轉（美國仿單與 ChEMBL 都沒有）。
