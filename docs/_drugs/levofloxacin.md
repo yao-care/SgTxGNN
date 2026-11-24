@@ -93,7 +93,13 @@ Showing 5 of 19 HSA registrations.
 
 <!-- licenses:end -->
 
-Available routes are oral (film-coated tablets) and injectable (infusion solution and injection). No ophthalmic formulation appears among the registrations.
+Available routes are oral (film-coated tablets), injectable (infusion solution and injection) and ophthalmic (eye drops).
+
+<!-- review:begin sg-lic-20261124b-levofloxacin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Available routes are oral (film-coated tablets) and injectable (infusion solution and injection). No ophthalmic formulation appears among the registrations." Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Ophthalmic solutions (CRAVIT Ophthalmic Solution and DUCRESSA eye drops) are registered. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-levofloxacin-1 -->
 
 ## Safety Considerations
 
@@ -114,13 +120,25 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5). No clinical trials exist, and the only publication concerns a non-bacterial (microsporidial) outbreak that fluoroquinolones do not target. The drug is widely marketed in Singapore, but no registered formulation is ophthalmic.
+The prediction rests on a model score alone (L5). No clinical trials exist, and the only publication concerns a non-bacterial (microsporidial) outbreak that fluoroquinolones do not target. The drug is widely marketed in Singapore, including ophthalmic solutions.
+
+<!-- review:begin sg-lic-20261124b-levofloxacin-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The drug is widely marketed in Singapore, but no registered formulation is ophthalmic." Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Ophthalmic solutions (CRAVIT Ophthalmic Solution and DUCRESSA eye drops) are registered. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-levofloxacin-2 -->
 
 **To proceed, the following is needed:**
 - Clinical or microbiological evidence that levofloxacin helps in punctate epithelial keratoconjunctivitis, including evidence on the causative pathogens.
 - Detailed mechanism of action data (MOA).
 - Package insert warnings and contraindications from the HSA, to complete safety screening.
-- An assessment of route and formulation, since an ophthalmic preparation would be needed for ocular use.
+- An assessment of route and formulation for ocular use.
+
+<!-- review:begin sg-lic-20261124b-levofloxacin-3 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "An assessment of route and formulation, since an ophthalmic preparation would be needed for ocular use." Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Ophthalmic solutions are already registered, so the premise was removed; the recommendation is unchanged. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-levofloxacin-3 -->
 
 It rests on animal-model evidence, including cure of experimental pneumonic plague in African green monkeys, and no human RCTs exist. It may be a better lead to evaluate, with guardrails such as confirming local susceptibility, monitoring for resistance and using expert infectious disease guidance.
 
@@ -134,6 +152,9 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "There are 12 valid single-ingredient registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5) |
+| 2026-11-24 | Corrected: "No ophthalmic formulation appears among the registrations" → ophthalmic eye drops are registered | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Corrected: "no registered formulation is ophthalmic" → ophthalmic solutions are registered | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed the premise that an ophthalmic preparation would be needed (ophthalmic solutions are registered) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

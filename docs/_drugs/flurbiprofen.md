@@ -91,11 +91,11 @@ Currently no related literature available.
 
 <!-- licenses:end -->
 
-The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment.
+The registered forms are a lozenge, sprays and a patch (no tablet or capsule), which is relevant to any future route-compatibility assessment.
 
 <!-- review:begin sg-lic-20261106-flurbiprofen-1 -->
 
-> **Review correction (2026-11-24)**: Originally stated: "All three licences are for single-ingredient products and are currently valid. The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All three licences are for single-ingredient products and are currently valid. The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment." Corrected: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06), and the lozenge is recorded as an oral product; the registered forms are a lozenge, sprays and a patch. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-flurbiprofen-1 -->
 
@@ -124,7 +124,13 @@ The prediction has no supporting clinical trials or publications (evidence level
 - A credible mechanistic hypothesis linking the drug to the GDF5/CDMP1-related pathology
 - Detailed mechanism-of-action data for flurbiprofen
 - Package insert warnings and contraindications from the HSA records, to allow safety screening
-- A route-of-administration assessment, since the registered Singapore forms are non-oral (lozenge, spray, patch)
+- A route-of-administration assessment, since the registered Singapore forms are a lozenge, sprays and a patch (no tablet or capsule)
+
+<!-- review:begin sg-lic-20261124b-flurbiprofen-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the registered Singapore forms are non-oral (lozenge, spray, patch)" Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The lozenge is recorded as an oral product; the recommendation is unchanged. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-flurbiprofen-1 -->
 
 <!-- review:begin log -->
 
@@ -134,8 +140,9 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | Removed: "All three licences are for single-ingredient products and are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Corrected: "The registered forms are non-oral (lozenge, spray, patch)" → a lozenge, sprays and a patch (no tablet or capsule) | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763) |
+| 2026-11-24 | Corrected: "non-oral (lozenge, spray, patch)" → a lozenge, sprays and a patch (no tablet or capsule) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

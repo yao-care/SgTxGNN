@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Palbociclib is a CDK4/6 inhibitor (Ibrance) that is marketed in Singapore as an oral film-coated tablet. Among the ten predictions, **myeloid leukemia** has the most support (**4 clinical trials**, early-phase, and **20 publications**, mostly preclinical), followed by **rheumatoid arthritis** (preclinical data and one case report).
+Palbociclib is a CDK4/6 inhibitor (Ibrance) that is marketed in Singapore as oral film-coated tablets and capsules. Among the ten predictions, **myeloid leukemia** has the most support (**4 clinical trials**, early-phase, and **20 publications**, mostly preclinical), followed by **rheumatoid arthritis** (preclinical data and one case report).
+
+<!-- review:begin sg-lic-20261124b-palbociclib-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in Singapore as an oral film-coated tablet." Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Both film-coated tablets (IBRANCE) and capsules (PALBONAT) are registered. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-palbociclib-1 -->
 
 ## Quick Overview
 
@@ -176,6 +182,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "All three licences are valid single-ingredient products from Pfizer Manufacturing Deutschland GmbH, and the only route is oral" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
+| 2026-11-24 | Corrected dosage forms: "marketed in Singapore as an oral film-coated tablet" → "marketed in Singapore as oral film-coated tablets and capsules" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

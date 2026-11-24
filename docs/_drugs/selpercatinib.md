@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Selpercatinib is a selective RET kinase inhibitor, marketed in Singapore as TANSTRIVE capsules. The TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a computational prediction only. There are **0 clinical trials** and **3 publications** compiled, and none of the publications address pulmonary hypertension.
+Selpercatinib is a selective RET kinase inhibitor, marketed in Singapore as TANSTRIVE capsules and tablets. The TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a computational prediction only. There are **0 clinical trials** and **3 publications** compiled, and none of the publications address pulmonary hypertension.
+
+<!-- review:begin sg-lic-20261124b-selpercatinib-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in Singapore as TANSTRIVE capsules." Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). TANSTRIVE is registered as both hard capsules and film-coated tablets. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-selpercatinib-1 -->
 
 ## Quick Overview
 
@@ -126,11 +132,12 @@ The prediction rests only on a model score (L5). There are no clinical trials, n
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
+| 2026-11-24 | Corrected dosage forms: "marketed in Singapore as TANSTRIVE capsules" → "marketed in Singapore as TANSTRIVE capsules and tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

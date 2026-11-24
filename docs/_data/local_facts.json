@@ -21,11 +21,11 @@
   "items_current": 5969
  },
  "reviews": {
-  "records": 983,
-  "pages": 703,
-  "public_pages_with_records": 670,
+  "records": 1001,
+  "pages": 705,
+  "public_pages_with_records": 672,
   "by_action": {
-   "correct": 364,
+   "correct": 382,
    "mechanism": 619
   }
  },
@@ -111,6 +111,15 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
+   "t": "Levofloxacin",
+   "u": "/drugs/levofloxacin/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 5,
+   "i": "punctate epithelial keratoconjunctivitis"
+  },
+  {
    "t": "Felypressin",
    "u": "/drugs/felypressin/",
    "l": "L5",
@@ -154,15 +163,6 @@
    "lv": 19,
    "r": 3,
    "i": "atopic eczema"
-  },
-  {
-   "t": "Deoxycholic Acid",
-   "u": "/drugs/deoxycholic-acid/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 0,
-   "r": 3,
-   "i": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
   }
  ],
  "example": {
@@ -182,6 +182,12 @@
    "d": "2026-11-24"
   },
   {
+   "t": "Vinorelbine",
+   "u": "/drugs/vinorelbine/",
+   "s": "Corrected: \"Both an injectable and an oral route are available\" → only oral soft capsules",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Tyrosine",
    "u": "/drugs/tyrosine/",
    "s": "Corrected: \"The remaining 10 registrations include amino acid, peritoneal dialysis, … (Nutrineal PD4, …)\" →…",
@@ -190,7 +196,7 @@
   {
    "t": "Tryptophan",
    "u": "/drugs/tryptophan/",
-   "s": "Removed from the list of registrations not shown: Trophamine, Vaminolact (already in the table) and Nutrineal…",
+   "s": "Corrected: the product types that contain tryptophan",
    "d": "2026-11-24"
   },
   {
@@ -206,9 +212,21 @@
    "d": "2026-11-24"
   },
   {
+   "t": "Tetracycline",
+   "u": "/drugs/tetracycline/",
+   "s": "Corrected: \"a topical or ophthalmic formulation is not among the registrations\" → an ophthalmic formulation…",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Temozolomide",
    "u": "/drugs/temozolomide/",
    "s": "Removed: \"Three further single-ingredient licences are also valid: …\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Sodium Carbonate",
+   "u": "/drugs/sodium-carbonate/",
+   "s": "Removed the premise \"the only licensed product is an injection\"",
    "d": "2026-11-24"
   },
   {
@@ -218,9 +236,27 @@
    "d": "2026-11-24"
   },
   {
+   "t": "Selpercatinib",
+   "u": "/drugs/selpercatinib/",
+   "s": "Corrected dosage forms: \"marketed in Singapore as TANSTRIVE capsules\" → \"marketed in Singapore as TANSTRIVE…",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Ropivacaine",
    "u": "/drugs/ropivacaine/",
    "s": "Removed: \"Two further Ropivacaine-AFT injection licences (0.75% and 1%) are also valid, giving 7…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Risdiplam",
+   "u": "/drugs/risdiplam/",
+   "s": "Corrected dosage forms: \"risdiplam is available only as an oral solution\" → \"risdiplam is available only as…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Polymyxin B",
+   "u": "/drugs/polymyxin-b/",
+   "s": "Corrected: \"single-ingredient licences\" → combination products",
    "d": "2026-11-24"
   },
   {
@@ -230,9 +266,21 @@
    "d": "2026-11-24"
   },
   {
+   "t": "Pantothenic Acid",
+   "u": "/drugs/pantothenic-acid/",
+   "s": "Corrected dosage forms: \"The Singapore product is a multivitamin injection\" → \"The Singapore products are…",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Paliperidone",
    "u": "/drugs/paliperidone/",
    "s": "Removed from the list of remaining registrations: \"Invega tablets\" (already in the table)",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Palbociclib",
+   "u": "/drugs/palbociclib/",
+   "s": "Corrected dosage forms: \"marketed in Singapore as an oral film-coated tablet\" → \"marketed in Singapore as…",
    "d": "2026-11-24"
   },
   {
@@ -242,9 +290,21 @@
    "d": "2026-11-24"
   },
   {
+   "t": "Methionine",
+   "u": "/drugs/methionine/",
+   "s": "Removed: \"(plus one sterile peritoneal dialysis solution)\"",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Mesalazine",
    "u": "/drugs/mesalazine/",
    "s": "Corrected: the products listed as the remaining licences (Pentasa, Salofalk, Asacol, Mezavant XL)",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Levofloxacin",
+   "u": "/drugs/levofloxacin/",
+   "s": "Removed the premise that an ophthalmic preparation would be needed (ophthalmic solutions are registered)",
    "d": "2026-11-24"
   },
   {
@@ -258,66 +318,6 @@
    "u": "/drugs/irinotecan/",
    "s": "Corrected: \"Six further irinotecan licences are registered (…)\" → \"All irinotecan licences …\"",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Ibuprofen",
-   "u": "/drugs/ibuprofen/",
-   "s": "Removed from the examples of other forms: Brufen (already in the table)",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Hesperidin",
-   "u": "/drugs/hesperidin/",
-   "s": "Removed: \"A sixth licence (SIN11942P, Diosper Film Coated Tablet, KLEVA S.A.) is also valid.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Fusidic Acid",
-   "u": "/drugs/fusidic-acid/",
-   "s": "Removed from the examples of remaining products: Balad (already in the table)",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Fexofenadine",
-   "u": "/drugs/fexofenadine/",
-   "s": "Removed: \"Two further single-ingredient registrations exist: Telfast Oral Suspension … and Telfast D Tablet …\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Dutasteride",
-   "u": "/drugs/dutasteride/",
-   "s": "Removed: \"Five further registrations are not listed here: …\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Doxycycline",
-   "u": "/drugs/doxycycline/",
-   "s": "Removed: \"The two not shown above are SIN08388P … and SIN10340P …\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Diosmin",
-   "u": "/drugs/diosmin/",
-   "s": "Removed: \"A sixth registration, Diosper Film Coated Tablet (SIN11942P), is also valid.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Desmopressin",
-   "u": "/drugs/desmopressin/",
-   "s": "Removed: \"Two further licences are valid: MINIRIN Nasal Spray … and MINIRIN Injection …\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Deferasirox",
-   "u": "/drugs/deferasirox/",
-   "s": "Removed: \"A sixth licence, SIN17087P (Ferasiro 360 mg), is also valid.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Budesonide",
-   "u": "/drugs/budesonide/",
-   "s": "Removed from the examples of other licences: Budiair (not in the HSA data for this ingredient) and Esonide…",
-   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
@@ -325,6 +325,12 @@
    "t": "Warfarin",
    "u": "/drugs/warfarin/",
    "s": "Removed: \"the Marevan 3 mg tablet (SIN08019P) is the one not shown above\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Vinorelbine",
+   "u": "/drugs/vinorelbine/",
+   "s": "Corrected: \"Both an injectable and an oral route are available\" → only oral soft capsules",
    "d": "2026-11-24"
   },
   {
@@ -336,7 +342,7 @@
   {
    "t": "Tryptophan",
    "u": "/drugs/tryptophan/",
-   "s": "Removed from the list of registrations not shown: Trophamine, Vaminolact (already in the table) and Nutrineal…",
+   "s": "Corrected: the product types that contain tryptophan",
    "d": "2026-11-24"
   },
   {
@@ -352,21 +358,15 @@
    "d": "2026-11-24"
   },
   {
+   "t": "Tetracycline",
+   "u": "/drugs/tetracycline/",
+   "s": "Corrected: \"a topical or ophthalmic formulation is not among the registrations\" → an ophthalmic formulation…",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Temozolomide",
    "u": "/drugs/temozolomide/",
    "s": "Removed: \"Three further single-ingredient licences are also valid: …\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sodium Acetate",
-   "u": "/drugs/sodium-acetate/",
-   "s": "Removed: \"The remaining registrations include peritoneal dialysis solutions (Dianeal, …), Lactoride 500…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Ropivacaine",
-   "u": "/drugs/ropivacaine/",
-   "s": "Removed: \"Two further Ropivacaine-AFT injection licences (0.75% and 1%) are also valid, giving 7…",
    "d": "2026-11-24"
   }
  ],

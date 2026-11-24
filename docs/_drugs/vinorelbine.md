@@ -95,7 +95,13 @@ Preclinical work also shows synergy between microtubule-interfering drugs, inclu
 
 <!-- licenses:end -->
 
-Both an injectable and an oral route are available in Singapore.
+Only the oral route (soft capsules) is available in Singapore.
+
+<!-- review:begin sg-lic-20261124b-vinorelbine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Both an injectable and an oral route are available in Singapore." Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). All current registrations are oral soft capsules; no injectable vinorelbine product is in the current register. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-vinorelbine-1 -->
 
 ## Cytotoxicity
 
@@ -149,6 +155,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "for the three licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the source database" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
+| 2026-11-24 | Corrected: "Both an injectable and an oral route are available" → only oral soft capsules | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

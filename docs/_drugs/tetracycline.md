@@ -106,19 +106,26 @@ The prediction score is high, but the only evidence is a single indirect 1992 ca
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the HSA website
 - Detailed mechanism of action data
-- Literature review specific to the ocular route (a topical or ophthalmic formulation is not among the Singapore registrations, only oral capsules and a 3% ointment)
+- Literature review specific to the ocular route (an ophthalmic formulation is not among the Singapore registrations, only oral capsules and a 3% skin ointment)
 - Comparative evidence versus current standard treatment for punctate epithelial keratoconjunctivitis
 - Clinical studies (at least a pilot) specifically on this indication
+
+<!-- review:begin sg-lic-20261124b-tetracycline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(a topical or ophthalmic formulation is not among the Singapore registrations, only oral capsules and a 3% ointment)" Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-tetracycline-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440) |
+| 2026-11-24 | Corrected: "a topical or ophthalmic formulation is not among the registrations" → an ophthalmic formulation (the 3% ointment is a topical skin product) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

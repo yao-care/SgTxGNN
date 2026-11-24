@@ -102,18 +102,25 @@ The prediction rests on a model score alone. No clinical trials or publications 
 - Mechanism of action data for risdiplam from DrugBank, to allow a proper mechanistic analysis
 - The HSA package insert, to confirm the approved indication, warnings and contraindications, and complete safety screening
 - Preclinical or mechanistic evidence connecting SMN2 splicing modulation to acne biology
-- A route compatibility assessment: risdiplam is available only as an oral solution, while acne is commonly treated topically
+- A route compatibility assessment: risdiplam is available only as oral products (powder for oral solution and film-coated tablet), while acne is commonly treated topically
 - A review of whether the prediction is a TxGNN model (deep learning) artifact, for example by checking the shared neighbours that drive the score
+
+<!-- review:begin sg-lic-20261124b-risdiplam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "risdiplam is available only as an oral solution," Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). EVRYSDI is registered as a powder for oral solution and as a film-coated tablet; the recommendation is unchanged. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-risdiplam-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
+| 2026-11-24 | Corrected dosage forms: "risdiplam is available only as an oral solution" → "risdiplam is available only as oral products (powder for oral solution and film-coated tablet)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

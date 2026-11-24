@@ -62,7 +62,13 @@ The most evidence-supported candidate is actually **insomnia**, which has a 1983
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known information, tryptophan is the metabolic precursor of serotonin (via 5-hydroxytryptophan) and of melatonin. It is an essential nutrient, supplied in Singapore only as one ingredient of multi-amino-acid infusions.
+Detailed mechanism of action data is not available for this report. Based on known information, tryptophan is the metabolic precursor of serotonin (via 5-hydroxytryptophan) and of melatonin. It is an essential nutrient, supplied in Singapore only as one ingredient of multi-component products (amino acid infusions, parenteral nutrition emulsions and an organ-preservation solution).
+
+<!-- review:begin sg-lic-20261124b-tryptophan-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "It is an essential nutrient, supplied in Singapore only as one ingredient of multi-amino-acid infusions." Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Tryptophan is one ingredient of amino acid infusions, parenteral nutrition emulsions and an organ-preservation solution (Custodiol). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-tryptophan-2 -->
 
 Restless legs syndrome (RLS) is thought to involve dopaminergic pathways and iron metabolism, with some serotonergic influence. Two small clinical reports from the 1980s examined L-tryptophan in RLS and periodic leg movements (PMIDs 3953904 and 3659737). However, pharmacovigilance data show that serotonergic antidepressants can cause or worsen movement disorders, including RLS. This suggests that boosting serotonin signalling is not clearly beneficial and may even be harmful in this condition.
 
@@ -173,6 +179,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "single-ingredient" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-24 | Removed from the list of registrations not shown: Trophamine, Vaminolact (already in the table) and Nutrineal PD4 (not in the HSA data for this ingredient) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Corrected: the product types that contain tryptophan | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

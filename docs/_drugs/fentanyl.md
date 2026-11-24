@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Fentanyl is a potent mu-opioid analgesic marketed in Singapore as transdermal patches, sublingual tablets and injections.
+Fentanyl is a potent mu-opioid analgesic marketed in Singapore as transdermal patches, sublingual tablets, nasal sprays and injections.
 The TxGNN model's top-ranked prediction is **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but this rests on computation alone, with **0 clinical trials** and **0 publications** supporting it.
+
+<!-- review:begin sg-lic-20261124b-fentanyl-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in Singapore as transdermal patches, sublingual tablets and injections." Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). PECFENT nasal spray is also registered. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-fentanyl-1 -->
 
 ---
 
@@ -153,6 +159,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "Fentanyl holds 18 valid single-ingredient registrations in Singapore" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
+| 2026-11-24 | Corrected dosage forms: "marketed in Singapore as transdermal patches, sublingual tablets and injections" → "marketed in Singapore as transdermal patches, sublingual tablets, nasal sprays and injections" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

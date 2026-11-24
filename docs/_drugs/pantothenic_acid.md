@@ -55,7 +55,13 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, pantothenic acid is a vitamin and a precursor of coenzyme A, which participates broadly in lipid and energy metabolism. It is supplied in Singapore as part of a multivitamin injection.
+Currently, detailed mechanism of action data is not available. Based on known information, pantothenic acid is a vitamin and a precursor of coenzyme A, which participates broadly in lipid and energy metabolism. It is supplied in Singapore as part of multivitamin injections and a multivitamin–iron oral tablet.
+
+<!-- review:begin sg-lic-20261124b-pantothenic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "It is supplied in Singapore as part of a multivitamin injection." Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The registrations are two multivitamin injections and one multivitamin–iron oral tablet. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-pantothenic_acid-1 -->
 
 For the top-ranked prediction, the connection is weak. Congenital prothrombin deficiency is a genetic coagulation factor disorder (F2 gene), and pantothenic acid has no known role in prothrombin synthesis or function. The high TxGNN score is a model output only and is not backed by any trial or publication. The original indications (vitamin deficiency states) are nutritional, while the predicted one is a genetic bleeding disorder, so the two do not share an obvious pathway.
 
@@ -108,13 +114,33 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, congenital prothrombin deficiency, rests on a model score alone. There are no trials or publications, and pantothenic acid has no known role in prothrombin biology. The Singapore product is a multivitamin injection, and the available safety data are incomplete.
+The top-ranked prediction, congenital prothrombin deficiency, rests on a model score alone. There are no trials or publications, and pantothenic acid has no known role in prothrombin biology. The Singapore products are multivitamin injections and a multivitamin–iron oral tablet, and the available safety data are incomplete.
+
+<!-- review:begin sg-lic-20261124b-pantothenic_acid-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The Singapore product is a multivitamin injection," Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The registrations are two multivitamin injections and one multivitamin–iron oral tablet. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-pantothenic_acid-2 -->
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications for the registered product (currently missing and blocking safety screening)
 - Mechanism of action data for pantothenic acid
 - A defined biological hypothesis linking coenzyme A metabolism to prothrombin synthesis, if this prediction is to be pursued at all
 - Consideration of folic acid deficiency anemia and uterine inflammatory disease as better-supported research questions (L4), starting with human observational data or well-designed preclinical work
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected dosage forms: "It is supplied in Singapore as part of a multivitamin injection" → "It is supplied in Singapore as part of multivitamin injections and a multivitamin–iron oral tablet" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Corrected dosage forms: "The Singapore product is a multivitamin injection" → "The Singapore products are multivitamin injections and a multivitamin–iron oral tablet" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

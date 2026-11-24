@@ -95,7 +95,13 @@ Showing 5 of 18 HSA registrations.
 
 <!-- licenses:end -->
 
-All registered forms are injectable or infusion products (plus one sterile peritoneal dialysis solution); no oral or topical methionine product is listed, so route compatibility for acne has not been assessed.
+All registered forms are injectable or infusion products; no oral or topical methionine product is listed, so route compatibility for acne has not been assessed.
+
+<!-- review:begin sg-lic-20261124b-methionine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(plus one sterile peritoneal dialysis solution)" Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). All registrations are intravenous amino acid infusions and parenteral nutrition emulsions. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-methionine-1 -->
 
 ## Safety Considerations
 
@@ -130,6 +136,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "All 19 licences are valid single-ingredient entries; the licence records contain no approved indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "(plus one sterile peritoneal dialysis solution)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

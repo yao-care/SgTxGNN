@@ -5322,9 +5322,9 @@
    "file": "donepezil.md",
    "action": "correct",
    "claim": "There are 13 valid single-ingredient registrations in total, all oral, with no cancelled licences. No topical or injectable forms are registered.",
-   "replacement": "No topical or injectable forms are registered.",
-   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
-   "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 15 張（單方 15），句中「13 valid single-ingredient registrations」與事實不符；句子只有許可說法，整句刪",
+   "replacement": "No injectable form is registered; besides the oral tablets, transdermal patches (ADLARITY) are registered.",
+   "note": "Corrected: the number of registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06), and transdermal patches (ADLARITY) are registered besides the oral tablets. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "證據包 15 張：口服錠 13 張＋ADLARITY 經皮貼片 2 張（SIN17381P、SIN17382P，route TRANSDERMAL）；「沒有外用劑型」不成立，改寫",
    "sources": [
     {
      "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
@@ -5333,8 +5333,8 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Removed: \"There are 13 valid single-ingredient registrations in total, all oral, with no cancelled licences\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+   "summary": "Corrected: \"No topical or injectable forms are registered\" → transdermal patches (ADLARITY) are registered",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）；2026-11-24 第二輪同 id 重發",
    "history": [
     {
      "id": "sg-lic-20261106-donepezil-1",
@@ -5357,6 +5357,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明裡寫死的張數、舊表筆數拿掉（張數見本頁概覽表與程式許可證表），更正的事實內容不變"
+    },
+    {
+     "id": "sg-lic-20261106-donepezil-1",
+     "drug": "donepezil",
+     "file": "donepezil.md",
+     "action": "correct",
+     "claim": "There are 13 valid single-ingredient registrations in total, all oral, with no cancelled licences. No topical or injectable forms are registered.",
+     "replacement": "No topical or injectable forms are registered.",
+     "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+     "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 15 張（單方 15），句中「13 valid single-ingredient registrations」與事實不符；句子只有許可說法，整句刪",
+     "sources": [
+      {
+       "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+       "url": "https://data.gov.sg/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"There are 13 valid single-ingredient registrations in total, all oral, with no cancelled licences\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "劑型說法依舊證據包少數品項寫的，對照證據包全部品項後不成立，2026-11-24 第二輪用戶決定"
     }
    ]
   },
@@ -6743,9 +6765,9 @@
    "file": "flurbiprofen.md",
    "action": "correct",
    "claim": "All three licences are for single-ingredient products and are currently valid. The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment.",
-   "replacement": "The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment.",
-   "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
-   "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 4 張（單方 4），句中「three licences」；「All three」與事實不符；句子只有許可說法，整句刪",
+   "replacement": "The registered forms are a lozenge, sprays and a patch (no tablet or capsule), which is relevant to any future route-compatibility assessment.",
+   "note": "Corrected: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06), and the lozenge is recorded as an oral product; the registered forms are a lozenge, sprays and a patch. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+   "finding": "證據包 4 張：含錠 1（HSA route ORAL）、噴霧 2、貼片 1；「非口服」與 HSA route 欄矛盾，改成列出劑型、沒有錠劑或膠囊",
    "sources": [
     {
      "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
@@ -6754,8 +6776,8 @@
     }
    ],
    "checked": "2026-11-24",
-   "summary": "Removed: \"All three licences are for single-ingredient products and are currently valid\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+   "summary": "Corrected: \"The registered forms are non-oral (lozenge, spray, patch)\" → a lozenge, sprays and a patch (no tablet or capsule)",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）；2026-11-24 第二輪同 id 重發",
    "history": [
     {
      "id": "sg-lic-20261106-flurbiprofen-1",
@@ -6778,6 +6800,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明裡寫死的張數、舊表筆數拿掉（張數見本頁概覽表與程式許可證表），更正的事實內容不變"
+    },
+    {
+     "id": "sg-lic-20261106-flurbiprofen-1",
+     "drug": "flurbiprofen",
+     "file": "flurbiprofen.md",
+     "action": "correct",
+     "claim": "All three licences are for single-ingredient products and are currently valid. The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment.",
+     "replacement": "The registered forms are non-oral (lozenge, spray, patch), which is relevant to any future route-compatibility assessment.",
+     "note": "Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations.",
+     "finding": "依成分重建後（HSA data.gov.sg 2026-11-06）本藥現行註冊 4 張（單方 4），句中「three licences」；「All three」與事實不符；句子只有許可說法，整句刪",
+     "sources": [
+      {
+       "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+       "url": "https://data.gov.sg/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"All three licences are for single-ingredient products and are currently valid\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c5383d8fd（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "劑型說法依舊證據包少數品項寫的，對照證據包全部品項後不成立，2026-11-24 第二輪用戶決定"
     }
    ]
   },
@@ -30651,6 +30695,367 @@
    ],
    "checked": "2026-11-24",
    "summary": "Removed from the examples of other forms: Brufen (already in the table)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-finasteride-1",
+   "drug": "finasteride",
+   "file": "finasteride.md",
+   "action": "correct",
+   "claim": "Ten single-ingredient oral licences are valid in total; none are cancelled.",
+   "replacement": "Ten single-ingredient licences are valid in total; none are cancelled.",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The registrations are oral tablets and one cutaneous spray (FINJUVE).",
+   "finding": "證據包 10 張全有效全單方：口服錠 9 張＋FINJUVE 外用噴霧（SIN17303P，route TOPICAL）1 張；「全部口服」不成立，拿掉 oral",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"oral\" (one licence is a cutaneous spray)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-levofloxacin-1",
+   "drug": "levofloxacin",
+   "file": "levofloxacin.md",
+   "action": "correct",
+   "claim": "Available routes are oral (film-coated tablets) and injectable (infusion solution and injection). No ophthalmic formulation appears among the registrations.",
+   "replacement": "Available routes are oral (film-coated tablets), injectable (infusion solution and injection) and ophthalmic (eye drops).",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Ophthalmic solutions (CRAVIT Ophthalmic Solution and DUCRESSA eye drops) are registered.",
+   "finding": "證據包 19 張：口服錠 11、注射／輸注 5、眼用溶液 3（CRAVIT 0.5%、1.5%，DUCRESSA 複方）；「沒有眼用劑型」不成立",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"No ophthalmic formulation appears among the registrations\" → ophthalmic eye drops are registered",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-levofloxacin-2",
+   "drug": "levofloxacin",
+   "file": "levofloxacin.md",
+   "action": "correct",
+   "claim": "The drug is widely marketed in Singapore, but no registered formulation is ophthalmic.",
+   "replacement": "The drug is widely marketed in Singapore, including ophthalmic solutions.",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Ophthalmic solutions (CRAVIT Ophthalmic Solution and DUCRESSA eye drops) are registered.",
+   "finding": "同上；結論段的「沒有眼用劑型」前提不成立，改成事實（決策與等級文字不動）",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"no registered formulation is ophthalmic\" → ophthalmic solutions are registered",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-levofloxacin-3",
+   "drug": "levofloxacin",
+   "file": "levofloxacin.md",
+   "action": "correct",
+   "claim": "- An assessment of route and formulation, since an ophthalmic preparation would be needed for ocular use.",
+   "replacement": "- An assessment of route and formulation for ocular use.",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Ophthalmic solutions are already registered, so the premise was removed; the recommendation is unchanged.",
+   "finding": "待辦條目的前提「需要眼用製劑（暗示沒有）」：本藥已有眼用溶液，只拿掉前提，建議內容不動",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed the premise that an ophthalmic preparation would be needed (ophthalmic solutions are registered)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-methionine-1",
+   "drug": "methionine",
+   "file": "methionine.md",
+   "action": "correct",
+   "claim": " (plus one sterile peritoneal dialysis solution)",
+   "replacement": "",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). All registrations are intravenous amino acid infusions and parenteral nutrition emulsions.",
+   "finding": "證據包 18 張全為胺基酸注射液與靜脈營養乳劑（route 全 INTRAVENOUS），沒有腹膜透析液；拿掉括號",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"(plus one sterile peritoneal dialysis solution)\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）",
+   "anchor": "no oral or topical methionine product is listed"
+  },
+  {
+   "id": "sg-lic-20261124b-polymyxin_b-1",
+   "drug": "polymyxin_b",
+   "file": "polymyxin_b.md",
+   "action": "correct",
+   "claim": "In Singapore it is registered only in single-ingredient licences for ear, eye, skin and vaginal products.",
+   "replacement": "In Singapore it is registered only in combination products for ear, eye, skin and vaginal use.",
+   "note": "Corrected: it described the products as single-ingredient, but all of them are combination products in the HSA register data (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 4 張全為複方（MAXITROL、POLYBAMYCIN、POLYDEXA、POLYGYNAX；事實層 single_total 0）；「單方」相反，改成複方",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"single-ingredient licences\" → combination products",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-vinorelbine-1",
+   "drug": "vinorelbine",
+   "file": "vinorelbine.md",
+   "action": "correct",
+   "claim": "Both an injectable and an oral route are available in Singapore.",
+   "replacement": "Only the oral route (soft capsules) is available in Singapore.",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). All current registrations are oral soft capsules; no injectable vinorelbine product is in the current register.",
+   "finding": "證據包與 HSA 現行註冊清單（data/raw/sg_hsa_registered_products.csv，2026-11-06）的 vinorelbine 只有 5 張口服軟膠囊；NAVELBINE INJECTION（SIN06778P）只出現在 2026-10 以前的舊清單，現行清單已沒有；「有注射劑」不成立",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Both an injectable and an oral route are available\" → only oral soft capsules",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-tetracycline-1",
+   "drug": "tetracycline",
+   "file": "tetracycline.md",
+   "action": "correct",
+   "claim": "(a topical or ophthalmic formulation is not among the Singapore registrations, only oral capsules and a 3% ointment)",
+   "replacement": "(an ophthalmic formulation is not among the Singapore registrations, only oral capsules and a 3% skin ointment)",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06).",
+   "finding": "證據包 3 張：口服膠囊 2、BIOTINE OINTMENT 3%（route TOPICAL）1；「沒有外用劑型」與同句的 3% 軟膏矛盾，拿掉 topical",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"a topical or ophthalmic formulation is not among the registrations\" → an ophthalmic formulation (the 3% ointment is a topical skin product)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-sodium_carbonate-1",
+   "drug": "sodium_carbonate",
+   "file": "sodium_carbonate.md",
+   "action": "correct",
+   "claim": "- Route compatibility assessment, since the only licensed product is an injection and the plausible uses are local (oral)",
+   "replacement": "- Route compatibility assessment, since the plausible uses are local (oral)",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The registrations include an injection, an oral granule product and haemodialysis/haemofiltration solutions; the recommendation is unchanged.",
+   "finding": "證據包 9 張含本成分的複方：注射 1（CEFAZIME）、口服顆粒 1（FORTRANS）、血液透析／過濾液 7；「唯一一張是注射劑」不成立，待辦只拿掉錯的前提",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed the premise \"the only licensed product is an injection\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-tryptophan-2",
+   "drug": "tryptophan",
+   "file": "tryptophan.md",
+   "action": "correct",
+   "claim": "It is an essential nutrient, supplied in Singapore only as one ingredient of multi-amino-acid infusions.",
+   "replacement": "It is an essential nutrient, supplied in Singapore only as one ingredient of multi-component products (amino acid infusions, parenteral nutrition emulsions and an organ-preservation solution).",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Tryptophan is one ingredient of amino acid infusions, parenteral nutrition emulsions and an organ-preservation solution (Custodiol).",
+   "finding": "證據包 19 張全為複方：胺基酸注射液、靜脈營養乳劑，另有 Custodiol 器官保存液（SIN17327P）；「只有胺基酸輸注液」不完全，照實補",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: the product types that contain tryptophan",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-flurbiprofen-1",
+   "drug": "flurbiprofen",
+   "file": "flurbiprofen.md",
+   "action": "correct",
+   "claim": "since the registered Singapore forms are non-oral (lozenge, spray, patch)",
+   "replacement": "since the registered Singapore forms are a lozenge, sprays and a patch (no tablet or capsule)",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The lozenge is recorded as an oral product; the recommendation is unchanged.",
+   "finding": "同上；待辦條目的前提只改劑型說法，建議內容不動",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"non-oral (lozenge, spray, patch)\" → a lozenge, sprays and a patch (no tablet or capsule)",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-palbociclib-1",
+   "drug": "palbociclib",
+   "file": "palbociclib.md",
+   "action": "correct",
+   "claim": "marketed in Singapore as an oral film-coated tablet.",
+   "replacement": "marketed in Singapore as oral film-coated tablets and capsules.",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). Both film-coated tablets (IBRANCE) and capsules (PALBONAT) are registered.",
+   "finding": "證據包 6 張：IBRANCE 膜衣錠 3、PALBONAT 膠囊 3；只寫膜衣錠不完整，補膠囊",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected dosage forms: \"marketed in Singapore as an oral film-coated tablet\" → \"marketed in Singapore as oral film-coated tablets and capsules\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-selpercatinib-1",
+   "drug": "selpercatinib",
+   "file": "selpercatinib.md",
+   "action": "correct",
+   "claim": "marketed in Singapore as TANSTRIVE capsules.",
+   "replacement": "marketed in Singapore as TANSTRIVE capsules and tablets.",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). TANSTRIVE is registered as both hard capsules and film-coated tablets.",
+   "finding": "證據包 4 張：TANSTRIVE 硬膠囊 2、膜衣錠 2；補錠劑",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected dosage forms: \"marketed in Singapore as TANSTRIVE capsules\" → \"marketed in Singapore as TANSTRIVE capsules and tablets\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-pantothenic_acid-1",
+   "drug": "pantothenic_acid",
+   "file": "pantothenic_acid.md",
+   "action": "correct",
+   "claim": "It is supplied in Singapore as part of a multivitamin injection.",
+   "replacement": "It is supplied in Singapore as part of multivitamin injections and a multivitamin–iron oral tablet.",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The registrations are two multivitamin injections and one multivitamin–iron oral tablet.",
+   "finding": "證據包 3 張全複方：SOLUVIT N、CERNEVIT 注射用粉末 2、IBERET-FOLIC-500 口服錠 1；「一種多種維生素注射劑」不完整",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected dosage forms: \"It is supplied in Singapore as part of a multivitamin injection\" → \"It is supplied in Singapore as part of multivitamin injections and a multivitamin–iron oral tablet\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-pantothenic_acid-2",
+   "drug": "pantothenic_acid",
+   "file": "pantothenic_acid.md",
+   "action": "correct",
+   "claim": "The Singapore product is a multivitamin injection,",
+   "replacement": "The Singapore products are multivitamin injections and a multivitamin–iron oral tablet,",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The registrations are two multivitamin injections and one multivitamin–iron oral tablet.",
+   "finding": "同上（結論段的事實句；決策與等級文字不動）",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected dosage forms: \"The Singapore product is a multivitamin injection\" → \"The Singapore products are multivitamin injections and a multivitamin–iron oral tablet\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-risdiplam-1",
+   "drug": "risdiplam",
+   "file": "risdiplam.md",
+   "action": "correct",
+   "claim": "risdiplam is available only as an oral solution,",
+   "replacement": "risdiplam is available only as oral products (powder for oral solution and film-coated tablet),",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). EVRYSDI is registered as a powder for oral solution and as a film-coated tablet; the recommendation is unchanged.",
+   "finding": "證據包 2 張：EVRYSDI 口服液用粉末、EVRYSDI 5 mg 膜衣錠；待辦前提只改劑型，建議內容不動",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected dosage forms: \"risdiplam is available only as an oral solution\" → \"risdiplam is available only as oral products (powder for oral solution and film-coated tablet)\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-calcipotriol-1",
+   "drug": "calcipotriol",
+   "file": "calcipotriol.md",
+   "action": "correct",
+   "claim": "marketed in Singapore as ointment and gel products",
+   "replacement": "marketed in Singapore as ointment, gel and cutaneous foam products",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). ENSTILAR cutaneous foam is also registered.",
+   "finding": "證據包 4 張：軟膏 2、凝膠 1、ENSTILAR 皮膚泡沫 1；補泡沫",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected dosage forms: \"marketed in Singapore as ointment and gel products\" → \"marketed in Singapore as ointment, gel and cutaneous foam products\"",
+   "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
+  },
+  {
+   "id": "sg-lic-20261124b-fentanyl-1",
+   "drug": "fentanyl",
+   "file": "fentanyl.md",
+   "action": "correct",
+   "claim": "marketed in Singapore as transdermal patches, sublingual tablets and injections.",
+   "replacement": "marketed in Singapore as transdermal patches, sublingual tablets, nasal sprays and injections.",
+   "note": "Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). PECFENT nasal spray is also registered.",
+   "finding": "證據包 16 張：注射 6、經皮貼片 3、舌下錠 6、PECFENT 鼻噴劑 2；補鼻噴劑",
+   "sources": [
+    {
+     "title": "HSA – Listing of registered therapeutic products (data.gov.sg)",
+     "url": "https://data.gov.sg/",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected dosage forms: \"marketed in Singapore as transdermal patches, sublingual tablets and injections\" → \"marketed in Singapore as transdermal patches, sublingual tablets, nasal sprays and injections\"",
    "method": "2026-11-24 第二輪人工查核（表外說明句、劑型說法對程式表與證據包）"
   }
  ]

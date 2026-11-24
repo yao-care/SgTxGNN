@@ -38,9 +38,15 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Polymyxin B is a polypeptide antibiotic active against Gram-negative bacteria. In Singapore it is registered only in single-ingredient licences for ear, eye, skin and vaginal products.
+Polymyxin B is a polypeptide antibiotic active against Gram-negative bacteria. In Singapore it is registered only in combination products for ear, eye, skin and vaginal use.
 The TxGNN model predicts it may be useful for **bronchitis**, but this prediction rests on **no registered clinical trials** and a small, dated body of literature, much of it experimental or about safety concerns.
 The more credible related directions are **respiratory tract infection** (5 clinical trials, one completed Phase 2) and **conjunctivitis** (several randomized comparisons of polymyxin B/trimethoprim), although conjunctivitis is already a marketed use.
+
+<!-- review:begin sg-lic-20261124b-polymyxin_b-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "In Singapore it is registered only in single-ingredient licences for ear, eye, skin and vaginal products." Corrected: it described the products as single-ingredient, but all of them are combination products in the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-polymyxin_b-1 -->
 
 ---
 
@@ -169,6 +175,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "single-ingredient registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
+| 2026-11-24 | Corrected: "single-ingredient licences" → combination products | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

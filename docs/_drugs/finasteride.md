@@ -95,7 +95,13 @@ Showing 5 of 10 HSA registrations.
 
 <!-- licenses:end -->
 
-Ten single-ingredient oral licences are valid in total; none are cancelled.
+Ten single-ingredient licences are valid in total; none are cancelled.
+
+<!-- review:begin sg-lic-20261124b-finasteride-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Ten single-ingredient oral licences are valid in total; none are cancelled." Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The registrations are oral tablets and one cutaneous spray (FINJUVE). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-finasteride-1 -->
 
 ## Safety Considerations
 
@@ -124,11 +130,12 @@ The prediction rests on model output alone (L5). There are no clinical trials or
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
+| 2026-11-24 | Removed: "oral" (one licence is a cutaneous spray) | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

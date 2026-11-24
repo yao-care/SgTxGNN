@@ -38,7 +38,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Calcipotriol is a topical vitamin D3 analogue, marketed in Singapore as ointment and gel products (including combination products with a corticosteroid). The TxGNN model predicts it may be effective for **seborrheic keratosis**, with **no registered clinical trials** but **4 publications** (small clinical studies, case reports and reviews) currently supporting this direction.
+Calcipotriol is a topical vitamin D3 analogue, marketed in Singapore as ointment, gel and cutaneous foam products (including combination products with a corticosteroid). The TxGNN model predicts it may be effective for **seborrheic keratosis**, with **no registered clinical trials** but **4 publications** (small clinical studies, case reports and reviews) currently supporting this direction.
+
+<!-- review:begin sg-lic-20261124b-calcipotriol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in Singapore as ointment and gel products" Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). ENSTILAR cutaneous foam is also registered. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-calcipotriol-1 -->
 
 ## Quick Overview
 
@@ -107,6 +113,19 @@ The mechanism is plausible and small clinical studies and case reports report le
 - Mechanism of action data from DrugBank
 - Verification of study designs and outcomes in the retrieved publications
 - A controlled trial (preferably randomised) of topical calcipotriol versus standard treatment for seborrheic keratosis, with attention to local skin irritation and facial use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected dosage forms: "marketed in Singapore as ointment and gel products" → "marketed in Singapore as ointment, gel and cutaneous foam products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

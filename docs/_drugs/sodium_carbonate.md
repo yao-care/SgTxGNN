@@ -133,13 +133,19 @@ The top predictions have no clinical trials, no supporting literature, and no pl
 - Verification of the design, population, and results of the Sjögren's syndrome oral spray study (PMID 27813150)
 - Prospective controlled studies if the Sjögren syndrome direction (symptomatic dry mouth relief) is pursued
 - Ocular safety data before any consideration of dry eye syndrome
-- Route compatibility assessment, since the only licensed product is an injection and the plausible uses are local (oral)
+- Route compatibility assessment, since the plausible uses are local (oral)
 
 <!-- review:begin sg-lic-20261106-sodium_carbonate-1 -->
 
 > **Review correction (2026-11-06)**: Originally stated: "Clarification of the original indication, since the sole license is for a combination injectable with no stated indication text" Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-sodium_carbonate-1 -->
+
+<!-- review:begin sg-lic-20261124b-sodium_carbonate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Route compatibility assessment, since the only licensed product is an injection and the plausible uses are local (oral)" Corrected: the dosage forms stated here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06). The registrations include an injection, an oral granule product and haemodialysis/haemofiltration solutions; the recommendation is unchanged. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-sodium_carbonate-1 -->
 
 <!-- review:begin log -->
 
@@ -150,6 +156,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "since the sole license is for a combination injectable with no stated indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed the premise "the only licensed product is an injection" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 
