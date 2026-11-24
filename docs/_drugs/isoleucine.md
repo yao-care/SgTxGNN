@@ -75,11 +75,11 @@ Currently no related literature available for gastroparesis.
 
 ## Singapore Market Information
 
-Approved indication text is blank in the registration records. Five of the 18 authorizations are listed:
+Approved indication text is blank in the registration records. The main authorizations are listed:
 
 <!-- review:begin sg-lic-20261112-isoleucine-1 -->
 
-> **Review correction (2026-11-12)**: Originally stated: "Five of the 19 authorizations are listed:" Corrected: the HSA register (the HSA register of therapeutic products as of 2026-11-06) lists 18 registrations for this drug, all current. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Five of the 19 authorizations are listed:" Corrected: the number of authorizations stated here did not match the HSA register (the HSA register of therapeutic products as of 2026-11-06); all registrations are current. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261112-isoleucine-1 -->
 
@@ -101,7 +101,7 @@ Dosage forms include infusion solutions, injections, emulsions and a sterile per
 
 <!-- review:begin sg-lic-20261106-isoleucine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 19 registrations are valid single-ingredient licences. Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All 19 registrations are valid single-ingredient licences. Dosage forms include infusion solutions, injections, emulsions and a sterile peritoneal dialysis solution (NUTRINEAL PD4)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-isoleucine-1 -->
 
@@ -134,8 +134,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 19 registrations are valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-12 | Number of authorizations: 19 → 18 | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "All 19 registrations are valid single-ingredient licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Number of authorizations: 19 → 18 | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

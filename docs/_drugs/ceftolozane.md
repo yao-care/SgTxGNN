@@ -77,7 +77,7 @@ For reference, the only publication retrieved across the predictions is a 2016 g
 
 <!-- review:begin sg-lic-20261106-ceftolozane-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "This is one single-ingredient licence and its status is valid." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 1 registration for this drug, 1 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "This is one single-ingredient licence and its status is valid." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-ceftolozane-1 -->
 
@@ -121,7 +121,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "This is one single-ingredient licence and its status is valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "This is one single-ingredient licence and its status is valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

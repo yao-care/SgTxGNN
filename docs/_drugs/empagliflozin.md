@@ -94,7 +94,7 @@ All are oral film-coated tablets. Some of these products are combination product
 
 <!-- review:begin sg-lic-20261106-empagliflozin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Eight valid registrations are on record in total; the table shows the first five. All are oral film-coated tablets." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 10 registrations for this drug, 10 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Eight valid registrations are on record in total; the table shows the first five. All are oral film-coated tablets." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-empagliflozin-1 -->
 
@@ -134,7 +134,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Eight valid registrations are on record in total; the table shows the first five" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Eight valid registrations are on record in total; the table shows the first five" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
 
 <!-- review:end log -->

@@ -74,11 +74,11 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-All 18 licences are valid registrations, with none cancelled. The licence records contain no approved indication text. Five main authorisations are listed below.
+All licences are valid registrations, with none cancelled. The licence records contain no approved indication text. Five main authorisations are listed below.
 
 <!-- review:begin sg-lic-20261106-guaifenesin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 18 licences are valid single-ingredient registrations, with none cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All 18 licences are valid single-ingredient registrations, with none cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-guaifenesin-1 -->
 
@@ -133,7 +133,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "single-ingredient" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
 
 <!-- review:end log -->

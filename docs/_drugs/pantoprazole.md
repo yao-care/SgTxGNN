@@ -71,7 +71,7 @@ Other pantoprazole ulcer trials were found under related predictions (for exampl
 
 <!-- review:begin sg-lic-20261106-pantoprazole-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A total of 14 valid single-ingredient licences exist, covering oral enteric-coated or delayed-release tablets (20 mg and 40 mg) and intravenous injection." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "A total of 14 valid single-ingredient licences exist, covering oral enteric-coated or delayed-release tablets (20 mg and 40 mg) and intravenous injection." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-pantoprazole-1 -->
 
@@ -120,7 +120,7 @@ Pantoprazole is already marketed in Singapore, and active peptic ulcer disease i
 
 <!-- review:begin sg-lic-20261106-pantoprazole-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Pantoprazole is already marketed in Singapore with 14 licences, and active peptic ulcer disease is essentially an on-label use." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 18 registrations for this drug, 18 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Pantoprazole is already marketed in Singapore with 14 licences, and active peptic ulcer disease is essentially an on-label use." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-pantoprazole-2 -->
 
@@ -143,8 +143,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "A total of 14 valid single-ingredient licences exist, covering oral enteric-coated or delayed-release tablets (20 mg and 40 mg) and intraven" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "with 14 licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "A total of 14 valid single-ingredient licences exist, covering oral enteric-coated or delayed-release tablets (20 mg and 40 mg) and intraven" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "with 14 licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->

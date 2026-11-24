@@ -85,11 +85,11 @@ For reference, the closest-ranked laryngeal prediction (laryngitis, rank 7) retu
 
 <!-- licenses:end -->
 
-All four registrations are valid licences. The available forms are a dental liquid and injectable or infusion concentrates. Epiglottitis is an acute airway infection, and none of these forms is an established route for treating it.
+All registrations are valid licences. The available forms are a dental liquid and injectable or infusion concentrates. Epiglottitis is an acute airway infection, and none of these forms is an established route for treating it.
 
 <!-- review:begin sg-lic-20261106-sodium_fluoride-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All four registrations are valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All four registrations are valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-sodium_fluoride-1 -->
 
@@ -121,7 +121,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "single-ingredient" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580) |
 
 <!-- review:end log -->

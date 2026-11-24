@@ -106,11 +106,11 @@ The mechanistic link is therefore biologically plausible, but renal outcomes in 
 
 <!-- licenses:end -->
 
-All three licences are valid products (manufacturer: Biocon Pharma Limited), and none has been cancelled.
+All licences are valid products (manufacturer: Biocon Pharma Limited), and none has been cancelled.
 
 <!-- review:begin sg-lic-20261106-sacubitril-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient products (manufacturer: Biocon Pharma Limited), and none has been cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All three licences are valid single-ingredient products (manufacturer: Biocon Pharma Limited), and none has been cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-sacubitril-1 -->
 
@@ -146,7 +146,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "single-ingredient" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
 
 <!-- review:end log -->

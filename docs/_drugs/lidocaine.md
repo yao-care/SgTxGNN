@@ -73,11 +73,11 @@ For context, other predicted ocular and related conditions have some literature,
 
 ## Singapore Market Information
 
-At least 20 single-ingredient licences are listed, all valid. The licence records contain no approved-indication text, so no indications are shown here.
+All single-ingredient licences are valid. The licence records contain no approved-indication text, so no indications are shown here.
 
 <!-- review:begin sg-lic-20261106-lidocaine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "At least 20 single-ingredient licences are listed, all valid. The list may be partial." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 40 registrations for this drug, 40 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "At least 20 single-ingredient licences are listed, all valid. The list may be partial." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-lidocaine-1 -->
 
@@ -126,7 +126,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The list may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "The list may be partial" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
 
 <!-- review:end log -->

@@ -44,7 +44,7 @@ Among the other predicted diseases, the strongest signals are indirect preclinic
 
 <!-- review:begin sg-lic-20261106-alpha-tocopherol_acetate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Alpha-tocopherol acetate is a form of vitamin E, and in Singapore it is registered as a component of an injectable multivitamin product (the licence record carries no indication text)." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Alpha-tocopherol acetate is a form of vitamin E, and in Singapore it is registered as a component of an injectable multivitamin product (the licence record carries no indication text)." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-alpha-tocopherol_acetate-1 -->
 
@@ -88,7 +88,7 @@ For context, the following publications were found for other predicted diseases.
 
 <!-- review:begin sg-lic-20261106-alpha-tocopherol_acetate-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Note that this is a multivitamin injection and only the injectable form is registered. The licence record does not list an approved indication, so none is claimed here." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Note that this is a multivitamin injection and only the injectable form is registered. The licence record does not list an approved indication, so none is claimed here." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-alpha-tocopherol_acetate-2 -->
 
@@ -132,7 +132,7 @@ No clinical trial or publication addresses drug-induced osteoporosis, so the pre
 
 <!-- review:begin sg-lic-20261106-alpha-tocopherol_acetate-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Confirmation of the approved indication and the route of administration, since only an injectable multivitamin is registered in Singapore" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the approved indication and the route of administration, since only an injectable multivitamin is registered in Singapore" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-alpha-tocopherol_acetate-3 -->
 
@@ -144,9 +144,9 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "and in Singapore it is registered as a component of an injectable multivitamin product (the licence record carries no indication text)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "Note that this is a multivitamin injection and only the injectable form is registered. The licence record does not list an approved indicati" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "since only an injectable multivitamin is registered in Singapore" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "and in Singapore it is registered as a component of an injectable multivitamin product (the licence record carries no indication text)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Note that this is a multivitamin injection and only the injectable form is registered. The licence record does not list an approved indicati" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "since only an injectable multivitamin is registered in Singapore" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

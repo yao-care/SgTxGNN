@@ -44,7 +44,7 @@ Support is limited: **no registered clinical trials** and **1 small pilot clinic
 
 <!-- review:begin sg-lic-20261106-parecoxib-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Parecoxib is an injectable COX-2 inhibitor (a prodrug of valdecoxib), marketed in Singapore with 6 valid registrations." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Parecoxib is an injectable COX-2 inhibitor (a prodrug of valdecoxib), marketed in Singapore with 6 valid registrations." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-parecoxib-1 -->
 
@@ -110,7 +110,7 @@ All are single-ingredient injectable products.
 
 <!-- review:begin sg-lic-20261112-parecoxib-1 -->
 
-> **Review correction (2026-11-12)**: Originally stated: "One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current, and SIN16666P is already in the table above; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06); SIN16666P is already in the table above. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261112-parecoxib-1 -->
 
@@ -154,8 +154,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "with 6 valid registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-12 | Removed: "One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "with 6 valid registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1206690 (parecoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1206690) |
 
 <!-- review:end log -->

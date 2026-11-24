@@ -98,11 +98,11 @@ The literature is mostly reviews and guidelines, and none of the retrieved paper
 
 ## Singapore Market Information
 
-The five main ones are listed below. The registration records do not contain approved-indication text.
+The main ones are listed below. The registration records do not contain approved-indication text.
 
 <!-- review:begin sg-lic-20261106-montelukast-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Montelukast has 20 valid registrations in Singapore, all single-ingredient oral tablets. The five main ones are listed below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 26 registrations for this drug, 26 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Montelukast has 20 valid registrations in Singapore, all single-ingredient oral tablets. The five main ones are listed below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-montelukast-1 -->
 
@@ -150,7 +150,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Montelukast has 20 valid registrations in Singapore, all single-ingredient oral tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Montelukast has 20 valid registrations in Singapore, all single-ingredient oral tablets" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
 
 <!-- review:end log -->

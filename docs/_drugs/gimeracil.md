@@ -96,11 +96,11 @@ No randomised trials or systematic reviews were identified. The available litera
 
 <!-- licenses:end -->
 
-Both licences are valid registrations held by Taiho Pharmaceutical Co., Ltd. (Tokushima Plant), for oral use.
+All licences are valid registrations held by Taiho Pharmaceutical Co., Ltd. (Tokushima Plant), for oral use.
 
 <!-- review:begin sg-lic-20261106-gimeracil-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient registrations held by Taiho Pharmaceutical Co., Ltd." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Both licences are valid single-ingredient registrations held by Taiho Pharmaceutical Co., Ltd." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-gimeracil-1 -->
 
@@ -142,7 +142,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "single-ingredient" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

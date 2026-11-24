@@ -42,7 +42,7 @@ Varenicline is a nicotinic receptor partial agonist. The TxGNN model predicts it
 
 <!-- review:begin sg-lic-20261106-varenicline-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Varenicline is a nicotinic receptor partial agonist, marketed in Singapore as Champix." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Varenicline is a nicotinic receptor partial agonist, marketed in Singapore as Champix." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-varenicline-1 -->
 
@@ -68,7 +68,7 @@ According to the Mechanism of Action section of the US FDA-approved prescribing 
 
 <!-- review:begin sg-lic-20261106-varenicline-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "It is widely known as a smoking cessation aid, although the Singapore licence records do not state the indication text." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "It is widely known as a smoking cessation aid, although the Singapore licence records do not state the indication text." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-varenicline-2 -->
 
@@ -94,7 +94,7 @@ This is the only publication retrieved for migraine disorder. It describes an ad
 
 <!-- review:begin sg-lic-20261106-varenicline-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid single-ingredient products from Pfizer Italia S.r.l. and are oral formulations. No licences have been cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Both licences are valid single-ingredient products from Pfizer Italia S.r.l. and are oral formulations. No licences have been cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-varenicline-3 -->
 
@@ -142,9 +142,9 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "marketed in Singapore as Champix" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "although the Singapore licence records do not state the indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "Both licences are valid single-ingredient products from Pfizer Italia S.r.l. and are oral formulations. No licences have been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "marketed in Singapore as Champix" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "although the Singapore licence records do not state the indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Both licences are valid single-ingredient products from Pfizer Italia S.r.l. and are oral formulations. No licences have been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
 
 <!-- review:end log -->

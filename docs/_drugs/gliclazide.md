@@ -52,7 +52,7 @@ Approved indication text is not recorded in the licence data. The main authoriza
 
 <!-- review:begin sg-lic-20261106-gliclazide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Gliclazide holds 17 valid single-ingredient licences in Singapore, with no cancelled licences. Approved indication text is not recorded in the licence data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 15 registrations for this drug, 15 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Gliclazide holds 17 valid single-ingredient licences in Singapore, with no cancelled licences. Approved indication text is not recorded in the licence data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-gliclazide-1 -->
 
@@ -84,7 +84,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Gliclazide holds 17 valid single-ingredient licences in Singapore, with no cancelled licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Gliclazide holds 17 valid single-ingredient licences in Singapore, with no cancelled licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

@@ -114,11 +114,11 @@ Publications most relevant to the top prediction (bronchitis), plus the key conj
 
 <!-- licenses:end -->
 
-All four licences are valid. The registered products are for ear, eye, skin and vaginal use, and none is an inhaled or injectable respiratory product.
+All licences are valid. The registered products are for ear, eye, skin and vaginal use, and none is an inhaled or injectable respiratory product.
 
 <!-- review:begin sg-lic-20261106-polymyxin_b-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid, single-ingredient registrations." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All four licences are valid, single-ingredient registrations." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-polymyxin_b-1 -->
 
@@ -167,7 +167,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "single-ingredient registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
 
 <!-- review:end log -->

@@ -42,7 +42,7 @@ Lurasidone is an atypical antipsychotic originally used to treat bipolar disorde
 
 <!-- review:begin sg-lic-20261031-lurasidone-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Lurasidone is an atypical antipsychotic originally used to treat bipolar disorder (bipolar depression) and schizophrenia. but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications**, mostly general reviews and guidelines, are currently linked to this direction." Removed: it said the product registrations were cancelled, discontinued, or not current, which did not match the HSA register data (the HSA register of therapeutic products as of 2026-10-31). The HSA register lists 5 registrations for this drug, 5 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Lurasidone is an atypical antipsychotic originally used to treat bipolar disorder (bipolar depression) and schizophrenia. but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications**, mostly general reviews and guidelines, are currently linked to this direction." Removed: it said the product registrations were cancelled, discontinued, or not current, which did not match the HSA register data (the HSA register of therapeutic products as of 2026-10-31). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261031-lurasidone-1 -->
 
@@ -127,7 +127,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications**, mostly general reviews and guidelines, are" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "but only **1 clinical trial** (withdrawn, with no participants enrolled) and **20 publications**, mostly general reviews and guidelines, are" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
 
 <!-- review:end log -->

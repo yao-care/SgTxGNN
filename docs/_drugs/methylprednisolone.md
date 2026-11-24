@@ -79,7 +79,7 @@ No topical formulation is registered locally, which matters because alopecia muc
 
 <!-- review:begin sg-lic-20261106-methylprednisolone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both licences are currently valid, and both are for injectable formulations. No topical formulation is registered locally, which matters because alopecia mucinosa is a skin and hair-follicle condition." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Both licences are currently valid, and both are for injectable formulations. No topical formulation is registered locally, which matters because alopecia mucinosa is a skin and hair-follicle condition." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-methylprednisolone-1 -->
 
@@ -115,7 +115,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Both licences are currently valid, and both are for injectable formulations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Both licences are currently valid, and both are for injectable formulations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
 
 <!-- review:end log -->

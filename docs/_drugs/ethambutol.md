@@ -43,7 +43,7 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 
 <!-- review:begin sg-lic-20261106-ethambutol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "*Note: The registered Singapore product labels in the data compiled for this report have no approved-indication text. The original indication is therefore given as pulmonary tuberculosis.*" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "*Note: The registered Singapore product labels in the data compiled for this report have no approved-indication text. The original indication is therefore given as pulmonary tuberculosis.*" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-ethambutol-1 -->
 
@@ -73,7 +73,7 @@ Currently no related clinical trials registered.
 
 <!-- review:begin sg-lic-20261106-ethambutol-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both products are single-ingredient, currently valid, oral tablets made by Sunward Pharmaceutical Private Limited." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Both products are single-ingredient, currently valid, oral tablets made by Sunward Pharmaceutical Private Limited." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-ethambutol-2 -->
 
@@ -119,8 +119,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "*Note: The registered Singapore product labels in the data compiled for this report have no approved-indication text. The original indicatio" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "Both products are single-ingredient, currently valid, oral tablets made by Sunward Pharmaceutical Private Limited" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "*Note: The registered Singapore product labels in the data compiled for this report have no approved-indication text. The original indicatio" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Both products are single-ingredient, currently valid, oral tablets made by Sunward Pharmaceutical Private Limited" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

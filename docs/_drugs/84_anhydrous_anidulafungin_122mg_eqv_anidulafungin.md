@@ -78,7 +78,7 @@ Currently no related literature is available for a predicted indication.
 
 <!-- review:begin sg-lic-20261106-84_anhydrous_anidulafungin_122mg_eqv_anidulafungin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Anidulafungin holds no product registrations in Singapore at the time of this report." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Anidulafungin holds no product registrations in Singapore at the time of this report." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-84_anhydrous_anidulafungin_122mg_eqv_anidulafungin-1 -->
 
@@ -126,7 +126,7 @@ The TxGNN pipeline returned zero predicted indications, most likely because the 
 
 <!-- review:begin sg-lic-20261106-84_anhydrous_anidulafungin_122mg_eqv_anidulafungin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "**Re-run the full evidence pipeline** — Once a valid predicted indication is available, re-collect ClinicalTrials.gov and PubMed evidence for that indication pair. / **Confirm Singapore registration intent** — Since anidulafungin is currently unregistered in Singapore, confirm whether the repurposing study requires a new NDA or is intended for compassionate / named-patient use." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 3 registrations for this drug, 3 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "**Re-run the full evidence pipeline** — Once a valid predicted indication is available, re-collect ClinicalTrials.gov and PubMed evidence for that indication pair. / **Confirm Singapore registration intent** — Since anidulafungin is currently unregistered in Singapore, confirm whether the repurposing study requires a new NDA or is intended for compassionate / named-patient use." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-84_anhydrous_anidulafungin_122mg_eqv_anidulafungin-2 -->
 
@@ -138,8 +138,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Anidulafungin holds no product registrations in Singapore at the time of this report" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "5. **Confirm Singapore registration intent** — Since anidulafungin is currently unregistered in Singapore, confirm whether the repurposing s" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Anidulafungin holds no product registrations in Singapore at the time of this report" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "5. **Confirm Singapore registration intent** — Since anidulafungin is currently unregistered in Singapore, confirm whether the repurposing s" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

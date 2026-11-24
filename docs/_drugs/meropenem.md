@@ -115,7 +115,7 @@ Approved indication text is not listed in the registration data. The main author
 
 <!-- review:begin sg-lic-20261106-meropenem-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Meropenem has 17 valid single-ingredient registrations, all injectable powders for solution. Approved indication text is not listed in the registration data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 19 registrations for this drug, 19 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Meropenem has 17 valid single-ingredient registrations, all injectable powders for solution. Approved indication text is not listed in the registration data." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-meropenem-1 -->
 
@@ -163,7 +163,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Meropenem has 17 valid single-ingredient registrations, all injectable powders for solution" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Meropenem has 17 valid single-ingredient registrations, all injectable powders for solution" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
 
 <!-- review:end log -->

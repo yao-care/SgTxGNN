@@ -84,7 +84,7 @@ They are parenteral nutrition emulsions for infusion, not oral or topical zinc a
 
 <!-- review:begin sg-lic-20261106-zinc_acetate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three are single-ingredient registrations by B. Braun Melsungen AG and are valid. They are parenteral nutrition emulsions for infusion, not oral or topical zinc acetate products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 1 registration for this drug, 1 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All three are single-ingredient registrations by B. Braun Melsungen AG and are valid. They are parenteral nutrition emulsions for infusion, not oral or topical zinc acetate products." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-zinc_acetate-1 -->
 
@@ -119,7 +119,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All three are single-ingredient registrations by B. Braun Melsungen AG and are valid" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "All three are single-ingredient registrations by B. Braun Melsungen AG and are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
 
 <!-- review:end log -->

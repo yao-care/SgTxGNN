@@ -69,7 +69,7 @@ Other predictions for this drug follow the same pattern:
 
 <!-- review:begin sg-lic-20261031-dexlansoprazole-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "**Gastrojejunal ulcer** (marginal ulcer after gastric bypass) is a research question. The only trial was withdrawn with no participants." Removed: it said the product registrations were cancelled, discontinued, or not current, which did not match the HSA register data (the HSA register of therapeutic products as of 2026-10-31). The HSA register lists 2 registrations for this drug, 2 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "**Gastrojejunal ulcer** (marginal ulcer after gastric bypass) is a research question. The only trial was withdrawn with no participants." Removed: it said the product registrations were cancelled, discontinued, or not current, which did not match the HSA register data (the HSA register of therapeutic products as of 2026-10-31). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261031-dexlansoprazole-1 -->
 
@@ -129,7 +129,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only trial was withdrawn with no participants" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "The only trial was withdrawn with no participants" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dexlansoprazole Delayed Release (dexlansoprazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55c550b4-eb8b-4e69-9c09-fa5125a52e65) |
 
 <!-- review:end log -->

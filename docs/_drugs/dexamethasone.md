@@ -86,7 +86,7 @@ Dexamethasone is currently marketed in Singapore. The licence records carry no a
 
 <!-- review:begin sg-lic-20261106-dexamethasone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Dexamethasone is currently marketed in Singapore. The data compiled for this report list 20 valid single-ingredient licences and no cancelled ones. The records may be partial." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 21 registrations for this drug, 21 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Dexamethasone is currently marketed in Singapore. The data compiled for this report list 20 valid single-ingredient licences and no cancelled ones. The records may be partial." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-dexamethasone-1 -->
 
@@ -156,7 +156,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The data compiled for this report list 20 valid single-ingredient licences and no cancelled ones. The records may be partial" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "The data compiled for this report list 20 valid single-ingredient licences and no cancelled ones. The records may be partial" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not currently available for dexamethasone" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
 
 <!-- review:end log -->

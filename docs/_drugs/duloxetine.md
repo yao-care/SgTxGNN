@@ -114,7 +114,7 @@ OCD has the strongest support among the predictions. It has one double-blind con
 
 <!-- review:begin sg-lic-20261106-duloxetine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Sample sizes are small and there is no Phase 3 RCT, so this is best treated as a research question rather than a ready-to-use indication. The drug is already marketed in Singapore, which lowers the access barrier." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Sample sizes are small and there is no Phase 3 RCT, so this is best treated as a research question rather than a ready-to-use indication. The drug is already marketed in Singapore, which lowers the access barrier." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-duloxetine-1 -->
 
@@ -130,7 +130,7 @@ The other predictions are weaker:
 
 <!-- review:begin sg-lic-20261106-duloxetine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications (not yet in the compiled data), plus a safety monitoring plan covering serotonin syndrome risk, blood pressure, liver function, and the major drug interactions above / Confirmation of the approved indications for the registered Singapore products, since the registration records give no indication text" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Package insert warnings and contraindications (not yet in the compiled data), plus a safety monitoring plan covering serotonin syndrome risk, blood pressure, liver function, and the major drug interactions above / Confirmation of the approved indications for the registered Singapore products, since the registration records give no indication text" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-duloxetine-2 -->
 
@@ -142,8 +142,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The drug is already marketed in Singapore, which lowers the access barrier" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "Confirmation of the approved indications for the registered Singapore products, since the registration records give no indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "The drug is already marketed in Singapore, which lowers the access barrier" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Confirmation of the approved indications for the registered Singapore products, since the registration records give no indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
 
 <!-- review:end log -->

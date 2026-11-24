@@ -91,11 +91,11 @@ The most relevant publications for bacterial arthritis (clinical studies priorit
 
 <!-- licenses:end -->
 
-All three are valid licences, manufactured by Haupt Pharma Latina S.r.L. The only registered route is injectable.
+All are valid licences, manufactured by Haupt Pharma Latina S.r.L. The only registered route is injectable.
 
 <!-- review:begin sg-lic-20261106-sulbactam-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three are valid single-ingredient licences, manufactured by Haupt Pharma Latina S.r.L." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All three are valid single-ingredient licences, manufactured by Haupt Pharma Latina S.r.L." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-sulbactam-1 -->
 
@@ -128,7 +128,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "single-ingredient" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398) |
 
 <!-- review:end log -->

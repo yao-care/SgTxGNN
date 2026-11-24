@@ -41,7 +41,7 @@ Deoxycholic acid is a secondary bile acid, known for its cell-membrane-disruptin
 
 <!-- review:begin sg-lic-20261106-deoxycholic_acid-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Deoxycholic acid is a secondary bile acid, marketed in Singapore as an injectable (BELKYRA) and known for its cell-membrane-disrupting (cytolytic) action in fat reduction." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Deoxycholic acid is a secondary bile acid, marketed in Singapore as an injectable (BELKYRA) and known for its cell-membrane-disrupting (cytolytic) action in fat reduction." Removed: its description of the Singapore products did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-deoxycholic_acid-1 -->
 
@@ -122,7 +122,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "marketed in Singapore as an injectable (BELKYRA) and" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "marketed in Singapore as an injectable (BELKYRA) and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "The manufacturer is Hospira, Inc. This is a single-ingredient product with valid status" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism-of-action data for deoxycholic acid is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kybella (deoxycholic acid) prescribing information, Kythera Biopharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fe431ed4-ea6f-4e99-b4bc-ec25ae7b8553) |
 

@@ -98,11 +98,11 @@ Showing 5 of 10 HSA registrations.
 
 <!-- licenses:end -->
 
-A sixth licence, SIN07433P (HYOSUN SYRUP 5mg/5 ml), is also valid.
+Licence SIN07433P (HYOSUN SYRUP 5mg/5 ml) is also valid.
 
 <!-- review:begin sg-lic-20261106-scopolamine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A sixth licence, SIN07433P (HYOSUN SYRUP 5mg/5 ml), is also valid. All six are single-ingredient products and none is cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 10 registrations for this drug, 10 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "A sixth licence, SIN07433P (HYOSUN SYRUP 5mg/5 ml), is also valid. All six are single-ingredient products and none is cancelled." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-scopolamine-1 -->
 
@@ -146,7 +146,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All six are single-ingredient products and none is cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "All six are single-ingredient products and none is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Transderm Scop (scopolamine) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b877a694-a1d0-4280-937a-a06820b12a88) |
 
 <!-- review:end log -->

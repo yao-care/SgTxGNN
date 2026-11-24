@@ -106,11 +106,11 @@ Most of these publications concern other drugs or the heterozygous form; none is
 
 <!-- licenses:end -->
 
-All three are valid registrations (Pravafen is a pravastatin/fenofibrate product by its strengths).
+All are valid registrations (Pravafen is a pravastatin/fenofibrate product by its strengths).
 
 <!-- review:begin sg-lic-20261106-pravastatin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All three are valid single-ingredient registrations (Pravafen is a pravastatin/fenofibrate product by its strengths, though the record lists it as single)." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All three are valid single-ingredient registrations (Pravafen is a pravastatin/fenofibrate product by its strengths, though the record lists it as single)." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-pravastatin-1 -->
 
@@ -146,7 +146,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient , though the record lists it as single" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "single-ingredient , though the record lists it as single" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
 
 <!-- review:end log -->

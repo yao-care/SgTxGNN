@@ -90,11 +90,11 @@ Showing 5 of 9 HSA registrations.
 
 <!-- licenses:end -->
 
-Two further registrations are also valid: SIN13451P (Exelon Patch 10, 9.5 mg/24 hr) and SIN14500P (Exelon Patch 15, 13.3 mg/24 hr). Only oral capsule and transdermal patch forms are registered, with no ophthalmic formulation.
+Registrations SIN13451P (Exelon Patch 10, 9.5 mg/24 hr) and SIN14500P (Exelon Patch 15, 13.3 mg/24 hr) are also valid. Only oral capsule and transdermal patch forms are registered, with no ophthalmic formulation.
 
 <!-- review:begin sg-lic-20261106-rivastigmine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Two further registrations are also valid: SIN13451P (Exelon Patch 10, 9.5 mg/24 hr) and SIN14500P (Exelon Patch 15, 13.3 mg/24 hr). All 7 registrations are valid single-ingredient products, with no cancelled licences." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 9 registrations for this drug, 9 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Two further registrations are also valid: SIN13451P (Exelon Patch 10, 9.5 mg/24 hr) and SIN14500P (Exelon Patch 15, 13.3 mg/24 hr). All 7 registrations are valid single-ingredient products, with no cancelled licences." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-rivastigmine-1 -->
 
@@ -132,7 +132,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 7 registrations are valid single-ingredient products, with no cancelled licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "All 7 registrations are valid single-ingredient products, with no cancelled licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->

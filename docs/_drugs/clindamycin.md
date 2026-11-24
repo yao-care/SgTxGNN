@@ -72,11 +72,11 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## Singapore Market Information
 
-The five main ones are shown below. Approved indication text is not recorded for any of them.
+The main ones are shown below. Approved indication text is not recorded for any of them.
 
 <!-- review:begin sg-lic-20261106-clindamycin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Seventeen valid single-ingredient licences are listed. The five main ones are shown below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 17 registrations for this drug, 17 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Seventeen valid single-ingredient licences are listed. The five main ones are shown below." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-clindamycin-1 -->
 
@@ -128,7 +128,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Seventeen valid single-ingredient licences are listed" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Seventeen valid single-ingredient licences are listed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-20 | "Detailed mechanism-of-action data are not available in the data compiled for this report, so this description is based on general knowledge of the drug class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a) |
 
 <!-- review:end log -->

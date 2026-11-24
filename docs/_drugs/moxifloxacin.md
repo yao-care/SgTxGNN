@@ -85,7 +85,7 @@ They cover oral tablets, intravenous infusions and ophthalmic solutions. The fiv
 
 <!-- review:begin sg-lic-20261106-moxifloxacin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Moxifloxacin has 14 valid single-ingredient registrations in Singapore and none cancelled. They cover oral tablets, intravenous infusions and ophthalmic solutions." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 15 registrations for this drug, 15 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Moxifloxacin has 14 valid single-ingredient registrations in Singapore and none cancelled. They cover oral tablets, intravenous infusions and ophthalmic solutions." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-moxifloxacin-1 -->
 
@@ -142,7 +142,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Moxifloxacin has 14 valid single-ingredient registrations in Singapore and none cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Moxifloxacin has 14 valid single-ingredient registrations in Singapore and none cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
 
 <!-- review:end log -->

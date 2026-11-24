@@ -52,7 +52,7 @@ Approved indication text was not available for any of them. The main authorizati
 
 <!-- review:begin sg-lic-20261106-sitagliptin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Sitagliptin has 20 valid single-ingredient registrations in Singapore, including the original JANUVIA brand, generics, and combinations with metformin. Approved indication text was not available for any of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 39 registrations for this drug, 39 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Sitagliptin has 20 valid single-ingredient registrations in Singapore, including the original JANUVIA brand, generics, and combinations with metformin. Approved indication text was not available for any of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-sitagliptin-1 -->
 
@@ -85,7 +85,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Sitagliptin has 20 valid single-ingredient registrations in Singapore, including the original JANUVIA brand, generics, and combinations with" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Sitagliptin has 20 valid single-ingredient registrations in Singapore, including the original JANUVIA brand, generics, and combinations with" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

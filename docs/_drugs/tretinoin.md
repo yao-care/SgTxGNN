@@ -88,11 +88,11 @@ Showing 5 of 6 HSA registrations.
 
 <!-- licenses:end -->
 
-A sixth licence, Tri-Luma Cream (SIN12607P), is also valid. All 6 registrations are valid. Five are topical creams and one is an oral capsule (Vesanoid).
+A sixth licence, Tri-Luma Cream (SIN12607P), is also valid. All registrations are valid. Five are topical creams and one is an oral capsule (Vesanoid).
 
 <!-- review:begin sg-lic-20261106-tretinoin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 6 registrations are single-ingredient and valid." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All 6 registrations are single-ingredient and valid." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-tretinoin-1 -->
 
@@ -152,7 +152,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient and" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "single-ingredient and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9) |
 
 <!-- review:end log -->

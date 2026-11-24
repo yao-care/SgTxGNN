@@ -85,11 +85,11 @@ The retrieved literature consists of case reports, cohort studies and reviews. N
 
 ## Singapore Market Information
 
-The following are five main ones, covering the different dosage forms. The data compiled for this report contain no approved indication text for any of them.
+The following are the main ones, covering the different dosage forms. The data compiled for this report contain no approved indication text for any of them.
 
 <!-- review:begin sg-lic-20261106-potassium_chloride-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are 20 valid single-ingredient licences. The following are five main ones, covering the different dosage forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 44 registrations for this drug, 44 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "There are 20 valid single-ingredient licences. The following are five main ones, covering the different dosage forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-potassium_chloride-1 -->
 
@@ -148,7 +148,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "There are 20 valid single-ingredient licences" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "There are 20 valid single-ingredient licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

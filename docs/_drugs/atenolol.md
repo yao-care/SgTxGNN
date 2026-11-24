@@ -72,11 +72,11 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## Singapore Market Information
 
-The table lists the first five.
+The table lists the main ones.
 
 <!-- review:begin sg-lic-20261106-atenolol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 17 licences are single-ingredient, valid products, and none includes approved-indication text. The table lists the first five." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 14 registrations for this drug, 14 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All 17 licences are single-ingredient, valid products, and none includes approved-indication text. The table lists the first five." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-atenolol-1 -->
 
@@ -123,7 +123,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 17 licences are single-ingredient, valid products, and none includes approved-indication text" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "All 17 licences are single-ingredient, valid products, and none includes approved-indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a) |
 
 <!-- review:end log -->

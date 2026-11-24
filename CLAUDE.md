@@ -547,3 +547,16 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 例：aceclofenac「Approved use: Not recorded in the local data」→「In Singapore: 1 HSA registration (1 valid)」；2026-11-19 改了 459 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site SgTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 正文 HSA 註冊張數由程式改寫（2026-11-24）
+
+用戶 2026-11-24 決定（各站同日；本站只做 B，程式許可證表 A 是 2026-11-06 起就有的 `scripts/sync_license_tables.py`）：每週許可證排程只改程式管得到的格子，AI 正文寫死的張數會跟著 HSA 清單過期，改成程式依快照事實層自動改寫。
+- `scripts/rewrite_license_counts.py`＋`src/sgtxgnn/regulatory/count_prose.py`（照 KrTxGNN／MyTxGNN 做法，英文句型照 PhTxGNN／CaTxGNN 同名檔改成 HSA 口徑；本站事實層 total＝valid、cancelled＝0）：只改句型明確的阿拉伯數字張數（「N HSA registrations」「N of M licences are valid」「all N licences … valid」）；
+  有保留、講證據包或查詢、相對數（other／further／remaining）、劑型／廠商／持有人（held by、from <廠商>）／單方複方子集、講表格顯示筆數、partial 頁不動；文字數詞（three、Eight…，word-number）、0／1 跨越與 both（grammar）、單方張數（single）、「all … single-ingredient／valid」跟事實不符（premise）、
+  同一行另有子集張數（「Four are oral capsules …」「Two further licences …」，subset-line）都不改、列進待查（`--uncertain`）。查核紀錄 replacement／anchor 所在的句子不改；不寫查核框（同 Tw／Kr／My）。
+- 誰會跑：`scripts/apply_drug_reviews.py`（非 --check）結尾；`scripts/build_license_snapshot.py` 結尾先跑 `sync_license_tables.py`（要有 data/bundles，沒有就跳過並印出）再跑改寫，不給 `--ws` 時不重建快照、只跑這兩支（母目錄排程 3a' 在 checker 前會跑），`--no-rewrite` 不跑（`license_rebuild_run.py` 轉紀錄前用）。gate 第 24 項擋「再跑一次會變」。
+- 2026-11-24 第一次套用：改寫 0 句（現行正文的阿拉伯數字張數句 75 句都跟快照一致；另 75 句是劑型／廠商子集、6 句是表格說明句且跟程式表列數一致）。以總數 ±1 模擬資料變動：會改 2 頁（imipenem「4 of 4」、ranitidine「all 5」），其餘列進待查。
+- 用戶追加決定（同日）：查核紀錄說明（note）寫死的「The HSA register lists N registrations for this drug, N current」298 筆同 id 重發成「… show the current number of HSA registrations」（不寫數字）；更正文字（replacement）寫死張數或舊表筆數的 59 筆同 id 重發成不寫數字的寫法
+  （「All three licences are valid」→「All licences are valid」、「Five main authorisations are listed below」→「The main authorizations are listed below」、「A sixth licence, SIN… is also valid」→「Licence SIN… is also valid」；單純的表格說明句若刪掉，同行後句的 them 會沒有指涉，所以改寫不刪）；更正的事實內容（哪張有效、劑型、持有人）不變，前版存 history。
+  `scripts/reviews_from_edits.py` 的 figures 樣板改成不寫數字。單方／複方說法依證據包成分欄（「&&」＝複方）逐句對過，沒有跟事實相反的句子（證據包 kind 與成分欄一致）。
+- 待查清單另加 13 句：程式表依單方在前、號碼排序後，正文「A sixth licence, SIN… is also valid」「The two not shown above are …」「Three further licences …」點名的號碼已在表上，或「其餘 N 張」加表列數≠總數（acitretin、butylscopolamine、deferasirox、diosmin、doxycycline、dutasteride、hesperidin、irinotecan、isotretinoin、piroxicam、theophylline、tyrosine、warfarin）；不是張數句，要改請寫查核紀錄。

@@ -94,7 +94,7 @@ The compiled data contain no approved-indication text for them. The first five a
 
 <!-- review:begin sg-lic-20261106-trimethoprim-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 12 licences are valid single-ingredient registrations. The compiled data contain no approved-indication text for them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 10 registrations for this drug, 10 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All 12 licences are valid single-ingredient registrations. The compiled data contain no approved-indication text for them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-trimethoprim-1 -->
 
@@ -131,12 +131,12 @@ The top prediction, punctate epithelial keratoconjunctivitis, rests only on a mo
 **To proceed, the following is needed:**
 - Evidence that punctate epithelial keratoconjunctivitis cases with a bacterial component respond to trimethoprim, or a clear mechanistic rationale
 - Mechanism of action data and the package insert warnings and contraindications from the HSA website
-- Confirmation of whether a topical ophthalmic formulation can be supplied in Singapore, since none of the 10 registrations is an eye product
+- Confirmation of whether a topical ophthalmic formulation can be supplied in Singapore, since none of the registrations is an eye product
 - A review of the safety associations above (blood disorders, kidney and liver disease, G6PD deficiency) and of the potassium-related interactions
 
 <!-- review:begin sg-lic-20261112-trimethoprim-1 -->
 
-> **Review correction (2026-11-12)**: Originally stated: "none of the 12 registrations is an eye product" Corrected: the HSA register (the HSA register of therapeutic products as of 2026-11-06) lists 10 registrations for this drug, all current; none of them is an eye product (tablets, suspensions and one injection). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "none of the 12 registrations is an eye product" Corrected: the number of registrations stated here did not match the HSA register (the HSA register of therapeutic products as of 2026-11-06); all registrations are current and none of them is an eye product (tablets, suspensions and one injection). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261112-trimethoprim-1 -->
 
@@ -148,8 +148,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 12 licences are valid single-ingredient registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-12 | Number of registrations: 12 → 10 | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "All 12 licences are valid single-ingredient registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Number of registrations: 12 → 10 | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->

@@ -103,7 +103,7 @@ No ophthalmic formulation is listed among the Singapore products, which matters 
 
 <!-- review:begin sg-lic-20261106-erythromycin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Two more valid licences are registered (7 in total): EROGRAN for Oral Suspension (SIN08042P) and ERYSON Lotion 2% (SIN10446P). All 7 are single-ingredient products, and none is cancelled. No ophthalmic formulation is listed among the Singapore products, which matters for an ocular indication." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 6 registrations for this drug, 6 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Two more valid licences are registered (7 in total): EROGRAN for Oral Suspension (SIN08042P) and ERYSON Lotion 2% (SIN10446P). All 7 are single-ingredient products, and none is cancelled. No ophthalmic formulation is listed among the Singapore products, which matters for an ocular indication." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-erythromycin-1 -->
 
@@ -152,7 +152,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Two more valid licences are registered (7 in total): EROGRAN for Oral Suspension (SIN08042P) and ERYSON Lotion 2% (SIN10446P). All 7 are sin" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Two more valid licences are registered (7 in total): EROGRAN for Oral Suspension (SIN08042P) and ERYSON Lotion 2% (SIN10446P). All 7 are sin" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
 
 <!-- review:end log -->

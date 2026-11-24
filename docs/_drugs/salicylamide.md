@@ -110,7 +110,7 @@ No registration was found in the HSA listing of registered therapeutic products 
 
 <!-- review:begin sg-lic-20261106-salicylamide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All four are valid single-ingredient licences held by Sunward Pharmaceutical Private Limited, with oral dosage forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All four are valid single-ingredient licences held by Sunward Pharmaceutical Private Limited, with oral dosage forms." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-salicylamide-1 -->
 
@@ -133,13 +133,13 @@ The high TxGNN score is not backed by modern evidence. The only pharyngitis publ
 
 <!-- review:begin sg-lic-20261106-salicylamide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications for the Singapore products (currently missing and blocking safety screening)" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Package insert warnings and contraindications for the Singapore products (currently missing and blocking safety screening)" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-salicylamide-2 -->
 
 <!-- review:begin sg-lic-20261106-salicylamide-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Mechanism of action data / Approved indication text for the four Singapore licences, to confirm whether sore throat is already covered" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data / Approved indication text for the four Singapore licences, to confirm whether sore throat is already covered" Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-salicylamide-3 -->
 
@@ -151,9 +151,9 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All four are valid single-ingredient licences held by Sunward Pharmaceutical Private Limited, with oral dosage forms" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "s for the Singapore product" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "Approved indication text for the four Singapore licences, to confirm whether sore throat is already covered" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "All four are valid single-ingredient licences held by Sunward Pharmaceutical Private Limited, with oral dosage forms" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "s for the Singapore product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Approved indication text for the four Singapore licences, to confirm whether sore throat is already covered" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

@@ -43,7 +43,7 @@ In this Evidence Pack, **the TxGNN model generated no novel indication predictio
 
 <!-- review:begin sg-lic-20261106-alpha-tocopherol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "In this Evidence Pack, **the TxGNN model generated no novel indication predictions**, and there are no registration data in the Singapore market or safety data." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 1 registration for this drug, 1 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "In this Evidence Pack, **the TxGNN model generated no novel indication predictions**, and there are no registration data in the Singapore market or safety data." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-alpha-tocopherol-1 -->
 
@@ -71,7 +71,7 @@ However, this Evidence Pack has fundamental gaps:
 
 <!-- review:begin sg-lic-20261106-alpha-tocopherol-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "However, this Evidence Pack has three fundamental gaps:" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 1 registration for this drug, 1 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "However, this Evidence Pack has three fundamental gaps:" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-alpha-tocopherol-2 -->
 
@@ -80,7 +80,7 @@ However, this Evidence Pack has fundamental gaps:
 
 <!-- review:begin sg-lic-20261106-alpha-tocopherol-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "**No TxGNN prediction results**: the `predicted_indications` array is empty, the core input for drug repurposing assessment does not exist, and subsequent mechanism-of-action correlation analysis, clinical trial matching, and literature evidence cannot be conducted. / **No Singapore market registration**: `total_licenses = 0`, unable to confirm approved indications or current therapeutic positioning, Quick Overview table has no original indications to populate." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 1 registration for this drug, 1 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "**No TxGNN prediction results**: the `predicted_indications` array is empty, the core input for drug repurposing assessment does not exist, and subsequent mechanism-of-action correlation analysis, clinical trial matching, and literature evidence cannot be conducted. / **No Singapore market registration**: `total_licenses = 0`, unable to confirm approved indications or current therapeutic positioning, Quick Overview table has no original indications to populate." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-alpha-tocopherol-3 -->
 
@@ -102,7 +102,7 @@ TxGNN generated no predicted candidate indications, and the safety data gap has 
 
 <!-- review:begin sg-lic-20261106-alpha-tocopherol-4 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "**Re-run TxGNN prediction**: using the correct DrugBank ID, re-execute the prediction workflow to generate `predicted_indications` data / **Obtain Singapore HSA registration data**: Query the HSA drug database ([https://eservice.hsa.gov.sg/](https://eservice.hsa.gov.sg/)) to confirm whether there are products registered under the ingredient names "tocopherol" or "vitamin E"" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 1 registration for this drug, 1 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "**Re-run TxGNN prediction**: using the correct DrugBank ID, re-execute the prediction workflow to generate `predicted_indications` data / **Obtain Singapore HSA registration data**: Query the HSA drug database ([https://eservice.hsa.gov.sg/](https://eservice.hsa.gov.sg/)) to confirm whether there are products registered under the ingredient names "tocopherol" or "vitamin E"" Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-alpha-tocopherol-4 -->
 
@@ -114,10 +114,10 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "and there are no registration data in the Singapore market or safety data" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "three" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "2. **No Singapore market registration**: `total_licenses = 0`, unable to confirm approved indications or current therapeutic positioning, Qu" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "**Obtain Singapore HSA registration data**: Query the HSA drug database ([https://eservice.hsa.gov.sg/](https://eservice.hsa.gov.sg/)) to co" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "and there are no registration data in the Singapore market or safety data" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "three" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "2. **No Singapore market registration**: `total_licenses = 0`, unable to confirm approved indications or current therapeutic positioning, Qu" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "**Obtain Singapore HSA registration data**: Query the HSA drug database ([https://eservice.hsa.gov.sg/](https://eservice.hsa.gov.sg/)) to co" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

@@ -70,7 +70,7 @@ To unlock TxGNN predictions, the canonical DrugBank entry for acetaminophen (DB0
 
 <!-- review:begin sg-lic-20261106-acetaminophen_micronized-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "This drug is currently **not registered** in Singapore under the Health Sciences Authority (HSA). No license records are available." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 101 registrations for this drug, 101 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "This drug is currently **not registered** in Singapore under the Health Sciences Authority (HSA). No license records are available." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-acetaminophen_micronized-1 -->
 
@@ -117,7 +117,7 @@ The absence of TxGNN predictions, a missing DrugBank ID linkage mean there is no
 
 <!-- review:begin sg-lic-20261106-acetaminophen_micronized-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The absence of TxGNN predictions, a missing DrugBank ID linkage, and zero Singapore regulatory registrations mean there is no actionable repurposing signal to evaluate at this time." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 101 registrations for this drug, 101 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "The absence of TxGNN predictions, a missing DrugBank ID linkage, and zero Singapore regulatory registrations mean there is no actionable repurposing signal to evaluate at this time." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-acetaminophen_micronized-3 -->
 
@@ -142,9 +142,9 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "This drug is currently **not registered** in Singapore under the Health Sciences Authority (HSA). No license records are available" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "This drug is currently **not registered** in Singapore under the Health Sciences Authority (HSA). No license records are available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "**Note for reviewers:** The TFDA package insert (仿單) was flagged as a blocking data gap (DG001)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "and zero Singapore regulatory registrations" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "and zero Singapore regulatory registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-06 | Removed: "2. **Retrieve TFDA package insert** — Download and parse the TFDA 仿單 PDF to populate key warnings, contraindications, and MOA fields (Data G" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->

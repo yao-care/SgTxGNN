@@ -91,13 +91,13 @@ Approved indication text is not recorded for any of them. The table lists five m
 
 <!-- review:begin sg-lic-20261106-dexchlorpheniramine_maleate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All 10 licences are valid single-ingredient products. Approved indication text is not recorded for any of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All 10 licences are valid single-ingredient products. Approved indication text is not recorded for any of them." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-dexchlorpheniramine_maleate-1 -->
 
 <!-- review:begin sg-lic-20261106-dexchlorpheniramine_maleate-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The remaining five licences are POLARAX TABLET (SIN09125P), POLARINE TABLET (SIN07612P), POLARINE SYRUP (SIN03182P), MENDICOF SYRUP (SIN11516P) and PAEDICOF SYRUP (SIN11515P)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 7 registrations for this drug, 7 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "The remaining five licences are POLARAX TABLET (SIN09125P), POLARINE TABLET (SIN07612P), POLARINE SYRUP (SIN03182P), MENDICOF SYRUP (SIN11516P) and PAEDICOF SYRUP (SIN11515P)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-dexchlorpheniramine_maleate-2 -->
 
@@ -146,8 +146,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All 10 licences are valid single-ingredient products" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "The remaining five licences are POLARAX TABLET (SIN09125P), POLARINE TABLET (SIN07612P), POLARINE SYRUP (SIN03182P), MENDICOF SYRUP (SIN1151" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "All 10 licences are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "The remaining five licences are POLARAX TABLET (SIN09125P), POLARINE TABLET (SIN07612P), POLARINE SYRUP (SIN03182P), MENDICOF SYRUP (SIN1151" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Corphena (dexchlorpheniramine maleate) prescribing information, BluCrest Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4694616b-4ef4-28a4-e063-6394a90ac5f6) |
 
 <!-- review:end log -->

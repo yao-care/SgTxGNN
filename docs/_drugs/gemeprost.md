@@ -44,7 +44,7 @@ The top-ranked prediction is a network-based score only, and the evidence points
 
 <!-- review:begin sg-lic-20261106-gemeprost-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Gemeprost is a prostaglandin E1 (PGE1) analogue, supplied in Singapore as a vaginal pessary for obstetric use." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Gemeprost is a prostaglandin E1 (PGE1) analogue, supplied in Singapore as a vaginal pessary for obstetric use." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-gemeprost-1 -->
 
@@ -92,7 +92,7 @@ These studies concern pregnancy termination or cardiovascular adverse events. Th
 
 <!-- review:begin sg-lic-20261106-gemeprost-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Manufacturer: Ono Pharmaceutical Co Ltd." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 0 registrations for this drug, 0 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Manufacturer: Ono Pharmaceutical Co Ltd." Removed: it conflicted with the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-gemeprost-2 -->
 
@@ -134,8 +134,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "in Singapore" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "Manufacturer: Ono Pharmaceutical Co Ltd" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "in Singapore" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Manufacturer: Ono Pharmaceutical Co Ltd" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

@@ -52,7 +52,7 @@ All are injectable powders for solution (3.5 mg/vial). Approved indication text 
 
 <!-- review:begin sg-lic-20261106-bortezomib-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Twelve single-ingredient registrations are valid, and none has been cancelled. All are injectable powders for solution (3.5 mg/vial)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 13 registrations for this drug, 13 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Twelve single-ingredient registrations are valid, and none has been cancelled. All are injectable powders for solution (3.5 mg/vial)." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-bortezomib-1 -->
 
@@ -104,7 +104,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Twelve single-ingredient registrations are valid, and none has been cancelled" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Twelve single-ingredient registrations are valid, and none has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

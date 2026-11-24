@@ -88,13 +88,13 @@ Approved-indication text was not available in the data compiled for this report.
 
 <!-- review:begin sg-lic-20261106-bicalutamide-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "All six registrations are valid, single-ingredient oral film-coated or plain tablets. Approved-indication text was not available in the data compiled for this report." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "All six registrations are valid, single-ingredient oral film-coated or plain tablets. Approved-indication text was not available in the data compiled for this report." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-bicalutamide-1 -->
 
 <!-- review:begin sg-lic-20261106-bicalutamide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A sixth registration, SIN14824P (BICAMED 50, Hetero Labs Limited, plain tablet), is not shown." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The HSA register lists 4 registrations for this drug, 4 current; the Quick Overview and the table under Singapore Market Information show the current figures. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "A sixth registration, SIN14824P (BICAMED 50, Hetero Labs Limited, plain tablet), is not shown." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-bicalutamide-2 -->
 
@@ -144,8 +144,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "All six registrations are valid, single-ingredient oral film-coated or plain tablets" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
-| 2026-11-06 | Removed: "A sixth registration, SIN14824P (BICAMED 50, Hetero Labs Limited, plain tablet), is not shown" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "All six registrations are valid, single-ingredient oral film-coated or plain tablets" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "A sixth registration, SIN14824P (BICAMED 50, Hetero Labs Limited, plain tablet), is not shown" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available from the drug database" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67) |
 
 <!-- review:end log -->
