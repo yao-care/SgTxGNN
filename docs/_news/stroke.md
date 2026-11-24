@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [At 17, she had a stroke. Singapore is seeing more cases, especially among young adults](https://www.straitstimes.com/singapore/health/more-stroke-cases-in-ageing-singapore-cases-also-climbing-among-the-young-due-to-poor-diet-lifestyle)
 
-2026-11-23
+2026-11-24
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-stroke-cases-in-ageing-singapore-cases-also-climbing-among-the-young-due-to-poor-diet-lifestyle)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-strok
 
 ### [Brain fog isn’t just forgetfulness: What causes it? Is it linked to dementia? When should you worry?](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
-2026-11-23
+2026-11-24
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
@@ -35,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms
 
 ### [How drinking affects your dementia risk – and what studies say about moderate alcohol use](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
-2026-11-23
+2026-11-24
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
