@@ -98,11 +98,9 @@ Showing 5 of 6 HSA registrations.
 
 <!-- licenses:end -->
 
-SIN16531P (Nepexto 25 mg/0.5 ml pre-filled syringe) and SIN11854P (Enbrel for Injection 25 mg/vial) are also valid licences.
-
 <!-- review:begin sg-lic-20261106-etanercept-1 -->
 
-> **Review correction (2026-11-24)**: Originally stated: "Two further licences are also valid: SIN16531P (Nepexto 25 mg/0.5 ml pre-filled syringe) and SIN11854P (Enbrel for Injection 25 mg/vial). All 7 are single-ingredient products with valid status." Removed: the number or status of product registrations stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+> **Review correction (2026-11-24)**: Originally stated: "Two further licences are also valid: SIN16531P (Nepexto 25 mg/0.5 ml pre-filled syringe) and SIN11854P (Enbrel for Injection 25 mg/vial). All 7 are single-ingredient products with valid status." Removed: the number of licences stated here did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06), and both licences named as additional are already shown in the program-generated table above. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-etanercept-1 -->
 
@@ -139,7 +137,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | Removed: "All 7 are single-ingredient products with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Removed: "Two further licences are also valid: … All 7 are single-ingredient products with valid status." | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
 
 <!-- review:end log -->

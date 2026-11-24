@@ -90,13 +90,19 @@ Showing 5 of 6 HSA registrations.
 
 <!-- licenses:end -->
 
-A sixth registration, Diosper Film Coated Tablet (SIN11942P), is also valid. All six are oral products.
+All six are oral products.
 
 <!-- review:begin sg-lic-20261106-diosmin-1 -->
 
 > **Review correction (2026-11-06)**: Originally stated: "All six are single-ingredient oral products." Removed: it described the products as single-ingredient or combination products in a way that did not match the HSA register data (the HSA register of therapeutic products as of 2026-11-06). Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
 
 <!-- review:end sg-lic-20261106-diosmin-1 -->
+
+<!-- review:begin sg-lic-20261124b-diosmin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "A sixth registration, Diosper Film Coated Tablet (SIN11942P), is also valid." Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-diosmin-1 -->
 
 ## Safety Considerations
 
@@ -125,6 +131,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884) |
+| 2026-11-24 | Removed: "A sixth registration, Diosper Film Coated Tablet (SIN11942P), is also valid." | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

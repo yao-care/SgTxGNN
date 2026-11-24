@@ -125,7 +125,13 @@ Showing 5 of 17 HSA registrations.
 
 <!-- licenses:end -->
 
-The remaining 10 registrations include amino acid, peritoneal dialysis, and multi-chamber parenteral nutrition products (for example Nutrineal PD4, Vaminolact, Aminoplasmal B.Braun 10% E, Oliclinomel, and SmofKabiven variants).
+The registrations include amino acid and multi-chamber parenteral nutrition products (for example Vaminolact, Aminoplasmal B.Braun 10% E, Oliclinomel, and SmofKabiven variants).
+
+<!-- review:begin sg-lic-20261124b-tyrosine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining 10 registrations include amino acid, peritoneal dialysis, and multi-chamber parenteral nutrition products (for example Nutrineal PD4, Vaminolact, Aminoplasmal B.Braun 10% E, Oliclinomel, and SmofKabiven variants)." Corrected: the number of registrations outside the table and the peritoneal dialysis product (Nutrineal PD4) named here did not match the HSA register data for this ingredient (the HSA register of therapeutic products as of 2026-11-06); the registrations are amino acid infusions and multi-chamber parenteral nutrition emulsions. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-tyrosine-1 -->
 
 ---
 
@@ -161,6 +167,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "All 15 registrations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
+| 2026-11-24 | Corrected: "The remaining 10 registrations include amino acid, peritoneal dialysis, … (Nutrineal PD4, …)" → "The registrations include amino acid and multi-chamber parenteral nutrition products (…)" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

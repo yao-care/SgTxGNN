@@ -118,7 +118,13 @@ Showing 5 of 11 HSA registrations.
 
 <!-- licenses:end -->
 
-Six further irinotecan licences are registered (SIN15734P, SIN14373P, SIN15735P, SIN13367P, SIN16266P, SIN15701P); all are injectable or infusion concentrates.
+All irinotecan licences are injectable or infusion concentrates.
+
+<!-- review:begin sg-lic-20261124b-irinotecan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Six further irinotecan licences are registered (SIN15734P, SIN14373P, SIN15735P, SIN13367P, SIN16266P, SIN15701P); all are injectable or infusion concentrates." Corrected: the licences listed here as additional to the table do not match the program-generated table above (two of them are already shown in it; HSA register of therapeutic products as of 2026-11-06); all irinotecan registrations are injectable or infusion concentrate products. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-irinotecan-1 -->
 
 ---
 
@@ -169,11 +175,12 @@ The TxGNN score is high, and the SN-38 mechanism is validated in breast cancer t
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
+| 2026-11-24 | Corrected: "Six further irinotecan licences are registered (…)" → "All irinotecan licences …" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

@@ -97,7 +97,11 @@ Showing 5 of 9 HSA registrations.
 
 <!-- licenses:end -->
 
-Three further licences are held: APO-THEO LA 300 mg, THEOLIN SR 250 mg (film-coated tablet) and NUELIN syrup 80 mg/15 ml.
+<!-- review:begin sg-lic-20261124b-theophylline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Three further licences are held: APO-THEO LA 300 mg, THEOLIN SR 250 mg (film-coated tablet) and NUELIN syrup 80 mg/15 ml." Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-theophylline-1 -->
 
 ## Safety Considerations
 
@@ -127,11 +131,12 @@ Among the other predictions, **nasal cavity disease** (allergic rhinitis) and **
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
+| 2026-11-24 | Removed: "Three further licences are held: …" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

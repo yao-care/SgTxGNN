@@ -93,7 +93,13 @@ Showing 5 of 8 HSA registrations.
 
 <!-- licenses:end -->
 
-Eight licences are valid in total (all single-ingredient oral capsules). The remaining three are ROACCUTANE 20 mg (SIN04921P), ROACCUTANE 10 mg (SIN04920P) and NIMEGEN SOFT CAP. 10 mg (SIN10767P).
+Eight licences are valid in total (all single-ingredient oral capsules).
+
+<!-- review:begin sg-lic-20261124b-isotretinoin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining three are ROACCUTANE 20 mg (SIN04921P), ROACCUTANE 10 mg (SIN04920P) and NIMEGEN SOFT CAP. 10 mg (SIN10767P)." Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-isotretinoin-1 -->
 
 ## Safety Considerations
 
@@ -127,11 +133,12 @@ The stated original indication of hypertension is doubtful, no mechanism of acti
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
+| 2026-11-24 | Removed: "The remaining three are ROACCUTANE 20 mg … and NIMEGEN SOFT CAP. 10 mg (SIN10767P)." | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

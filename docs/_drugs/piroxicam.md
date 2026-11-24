@@ -102,7 +102,11 @@ Available forms are oral (tablet, capsule), injectable and topical (gel). The fi
 
 <!-- licenses:end -->
 
-The remaining two licences are ROXIFEN GEL 500 mg/100 g (SIN10968P) and ROSIDEN GEL (SIN05100P).
+<!-- review:begin sg-lic-20261124b-piroxicam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining two licences are ROXIFEN GEL 500 mg/100 g (SIN10968P) and ROSIDEN GEL (SIN05100P)." Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-piroxicam-1 -->
 
 ---
 
@@ -144,6 +148,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "Seven valid single-ingredient licences are held, with no cancelled ones" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
+| 2026-11-24 | Removed: "The remaining two licences are ROXIFEN GEL … and ROSIDEN GEL (SIN05100P)." | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

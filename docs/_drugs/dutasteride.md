@@ -100,7 +100,11 @@ Showing 5 of 11 HSA registrations.
 
 <!-- licenses:end -->
 
-Five further registrations are not listed here: Intasteride, Aripsa, Dutasvitae, Lotuflo-D, and Duoflow.
+<!-- review:begin sg-lic-20261124b-dutasteride-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Five further registrations are not listed here: Intasteride, Aripsa, Dutasvitae, Lotuflo-D, and Duoflow." Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-dutasteride-1 -->
 
 ## Safety Considerations
 
@@ -134,6 +138,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-24 | Removed: "All 10 licences are valid single-ingredient registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
+| 2026-11-24 | Removed: "Five further registrations are not listed here: …" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 

@@ -141,7 +141,13 @@ Showing 5 of 6 HSA registrations.
 
 <!-- licenses:end -->
 
-Six single-ingredient oral tablet licences are valid in total; the Marevan 3 mg tablet (SIN08019P) is the one not shown above.
+Six single-ingredient oral tablet licences are valid in total.
+
+<!-- review:begin sg-lic-20261124b-warfarin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Six single-ingredient oral tablet licences are valid in total; the Marevan 3 mg tablet (SIN08019P) is the one not shown above." Removed: the licence(s) named here as additional to the table are already shown in the program-generated table above (HSA register of therapeutic products as of 2026-11-06), so the sentence no longer matches the table. The Quick Overview and the table under Singapore Market Information show the current number of HSA registrations. Source: [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/).
+
+<!-- review:end sg-lic-20261124b-warfarin-1 -->
 
 ---
 
@@ -176,11 +182,12 @@ Package insert warnings and contraindications were not available in the data com
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Sciences Authority data (the register of therapeutic products). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
+| 2026-11-24 | Removed: "the Marevan 3 mg tablet (SIN08019P) is the one not shown above" | Corrected | [HSA – Listing of registered therapeutic products (data.gov.sg)](https://data.gov.sg/) |
 
 <!-- review:end log -->
 
