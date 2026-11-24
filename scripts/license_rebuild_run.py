@@ -109,7 +109,8 @@ def main(argv):
     today_rec = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
     # 2026-11-12：轉紀錄前先用新事實重建快照（reviews_from_edits 的紀錄說明讀快照的張數；舊順序會寫進舊張數）。
     # 套完紀錄後下面還會再建一次，確保最後的快照跟頁面一致。
-    r = run([PY, "scripts/build_license_snapshot.py", "--ws", str(ws)], check=False)
+    # 2026-11-24：轉紀錄前不跑正文張數改寫（--no-rewrite），免得程式改寫的張數被 reviews_from_edits 當成刪改轉成紀錄；套完紀錄後再建一次時才改寫。
+    r = run([PY, "scripts/build_license_snapshot.py", "--ws", str(ws), "--no-rewrite"], check=False)
     if r.returncode != 0:
         stop(4, "許可證快照重建失敗（轉紀錄前）：" + (r.stdout + r.stderr)[-300:])
     r = run([PY, "scripts/reviews_from_edits.py", "--dirs", str(before), str(ROOT / "docs/_drugs"),
