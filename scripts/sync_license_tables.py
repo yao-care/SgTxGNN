@@ -10,6 +10,8 @@
 - 段落裡沒有表的頁（矛盾句刪完只剩標題，例 ganirelix、palivizumab；或舊頁只有文字）：在標題下補程式產生的表（min(5, 總數) 列，
   總數較多時加「Showing N of M HSA registrations.」）；沒有任何註冊時補「No registration was found …」句（已有就不重複）。
   比照 Uk、NZ、Ph 的同名程式（2026-11-06 用戶決定）。表以外的文字不動（跟新事實矛盾的句子由 tools/txgnn/.claude/delete_license_sentences.py 處理）。
+- 整頁沒有市場段落、證據包有紀錄的公開頁：在 Safety Considerations／Conclusion and Next Steps／Disclaimer 之前補段落與程式表
+  （add_section，2026-11-24 第三輪，用戶決定，比照 JpTxGNN 第二輪）；noindex 頁不補。
 程式區塊標記（2026-11-12 起，本站查核機制，比照 UsTxGNN）：程式產生的表格（連同表下的 SHOW 句，或 NONE_LINE）前後各一行
 「<!-- licenses:begin -->」「<!-- licenses:end -->」（前後空行），讓查核紀錄、刪句工具與 gate 分得出哪些字是程式寫的；
 區塊內容由 block_for 決定（重排、補標記、快照共用；列數依原表列數，所以快照存全部可列的列、gate 比前 N 列）；
@@ -132,7 +134,8 @@ def carry_block(old_text, new_text):
 def process(text, recs, partial=False):
     lines = strip_marks(text.split("\n"))
     if SEC not in lines:
-        return None
+        t2 = add_section("\n".join(lines), recs)
+        return t2 if t2 and t2 != text else None
     a = lines.index(SEC) + 1
     b = next((k for k in range(a, len(lines)) if lines[k].startswith("## ")), len(lines))
     tb = [k for k in range(a, b) if lines[k].startswith("|")]
@@ -155,6 +158,25 @@ def process(text, recs, partial=False):
         out.insert(x, "")
     t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(out))
     return t2 if t2 != text else None
+
+
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁沒有「## Singapore Market Information」段落、但證據包有 HSA 註冊紀錄的，
+# 補一個段落放程式表。位置：「## Safety Considerations」之前（預測頁的固定順序）；沒有就「## Conclusion and Next Steps」之前；
+# 再沒有（已知用途頁）就「## Disclaimer」之前。noindex 頁與證據包沒有紀錄的頁不補。
+ADD_BEFORE = ("Safety Considerations", "Conclusion and Next Steps", "Disclaimer")
+
+
+def add_section(text, recs):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    if re.search(r"^noindex:\s*true", fm, re.M) or not table_rows(recs):
+        return None
+    lines = text.split("\n")
+    heads = {m.group(1): i for i, l in enumerate(lines) for m in [re.match(r"^## (.+?)\s*$", l)] if m}
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return None
+    sec = [SEC, ""] + wrap(block_for(recs)) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
 
 def main(argv):

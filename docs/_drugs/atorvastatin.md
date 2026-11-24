@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). In Singapore: 58 HSA registrations (58 valid)"
 ---
 
@@ -93,6 +93,22 @@ Evidence for a direct antiviral or immune benefit is small and mixed. The most c
 | [22770622](https://pubmed.ncbi.nlm.nih.gov/22770622/) | 2012 | Review | Expert Opin Pharmacother | Safety and effectiveness of statins for HIV-associated dyslipidaemia. |
 | [36549898](https://pubmed.ncbi.nlm.nih.gov/36549898/) | 2023 | Pharmacokinetic analysis | HIV Med | Atorvastatin exposure with boosted protease inhibitors, and vitamin D levels, compared with lipid outcomes. |
 | [41774493](https://pubmed.ncbi.nlm.nih.gov/41774493/) | 2026 | Preclinical | JCI Insight | In mouse models, atorvastatin suppressed HIV/antiretroviral-induced cardiac fibrosis by blocking platelet TGF-β1 signalling. |
+
+## Singapore Market Information
+
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN09550P | LIPITOR TABLET 20 mg | TABLET, FILM COATED | Valid |
+| SIN09551P | LIPITOR TABLET 40 mg | TABLET, FILM COATED | Valid |
+| SIN09552P | LIPITOR TABLET 10 mg | TABLET, FILM COATED | Valid |
+| SIN13298P | Eturion Tablet 10mg | TABLET, FILM COATED | Valid |
+| SIN13299P | Eturion Tablet 20mg | TABLET, FILM COATED | Valid |
+
+Showing 5 of 58 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Celecoxib"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Celecoxib: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In Singapore: 14 HSA registrations (14 valid)"
 ---
 
@@ -59,6 +59,22 @@ but **no clinical trials and no publications** currently support this prediction
 According to the Mechanism of Action section of the US FDA-approved prescribing information for celecoxib: "Celecoxib has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of celecoxib is believed to be due to inhibition of prostaglandin synthesis, primarily via inhibition of COX-2. Celecoxib is a potent inhibitor of prostaglandin synthesis in vitro." ([DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d), label version 2025-07-31; accessed 2026-11-19.) Celecoxib is generally known as a COX-2 inhibitor that reduces inflammation and pain.
 
 Acromesomelic dysplasia, Hunter-Thompson type is a rare skeletal dysplasia caused by a genetic defect in the CDMP1/GDF5 pathway. No clear mechanistic link to COX-2 inhibition is known, because the condition arises from a developmental defect rather than inflammation. The high model score is a computational prediction only. No trial or publication supports it, and the biological rationale is weak.
+
+## Singapore Market Information
+
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN11240P | CELEBREX CAPSULES 100 mg | CAPSULE | Valid |
+| SIN11241P | CELEBREX CAPSULES 200 mg | CAPSULE | Valid |
+| SIN13653P | CELEBREX CAPSULE 400MG | CAPSULE | Valid |
+| SIN14560P | Celecoxib Sandoz Capsule 200mg | CAPSULE | Valid |
+| SIN15754P | HOVID-CELECOXIB CAPSULE 200MG | CAPSULE | Valid |
+
+Showing 5 of 14 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

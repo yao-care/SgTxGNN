@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Clobetasol propionate"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clobetasol Propionate: predicted new indication vulvar inverted follicular keratosis (evidence level L5). In Singapore: 16 HSA registrations (16 valid)"
 ---
 
@@ -68,6 +68,22 @@ Currently no related clinical trials registered for vulvar inverted follicular k
 ## Literature Evidence
 
 Currently no related literature available for vulvar inverted follicular keratosis.
+
+## Singapore Market Information
+
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| SIN04499P | DERMOVATE SCALP APPLICATION 0.05% w/w | LOTION | Valid |
+| SIN04933P | DERMOVATE OINTMENT 0.05% w/w | OINTMENT | Valid |
+| SIN04934P | DERMOVATE CREAM 0.05% w/w | CREAM | Valid |
+| SIN06530P | MEDODERMONE OINTMENT 0.05% | OINTMENT | Valid |
+| SIN06586P | MEDODERMONE CREAM 0.05% | CREAM | Valid |
+
+Showing 5 of 16 HSA registrations.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

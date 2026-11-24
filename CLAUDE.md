@@ -574,3 +574,11 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   donepezil 漏 ADLARITY 經皮貼片、finasteride 漏 FINJUVE 外用噴霧、piroxicam 寫有錠劑、adalimumab 寫有小瓶），待辦條目只拿掉錯的前提。
 - 合計 53 筆新紀錄、13 筆同 id 重發（前版存 history）。市場段落沒有程式表、證據包有紀錄的公開頁 0 頁；atorvastatin、celecoxib、clobetasol_propionate 3 頁沒有市場段落，照各站慣例不新增段落。
 - checker 全量前後都是 0；gate exit 0；待查清單 open 剩 101 項，全是作用機轉（美國仿單與 ChEMBL 都沒有）。
+
+## 整頁沒有市場段落的公開頁補程式表（2026-11-24 第三輪）
+
+用戶 2026-11-24 第三輪決定（比照 JpTxGNN 第二輪的 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有「## Singapore Market Information」、但證據包有 HSA 註冊紀錄的，補段落與程式表。
+- `scripts/sync_license_tables.py` 的 `add_section`：放在「## Safety Considerations」之前（沒有就 Conclusion and Next Steps、再沒有就 Disclaimer）；表照 block_for（min(5, 總數) 列＋「Showing N of M HSA registrations.」）；noindex 頁、沒有紀錄的頁不補。
+  `build_license_snapshot.py` 結尾會跑 sync_license_tables，所以每週排程之後也照同一規則補（排程 3a' 放行它改到的行；本站 adapter 沒有 sync_tables／PAGE_NOTE）。
+- gate 第 20 項（`src/sgtxgnn/regulatory/licenses.py` 第 5 條）：公開頁快照有程式表列、卻整頁沒有市場段落就擋。
+- 2026-11-24 全量量測 3 頁、補 3 頁：atorvastatin（58 張）、celecoxib（14 張）、clobetasol_propionate（16 張）；三頁正文的市場說法（「multiple single-ingredient licences」、「oral capsules」）對照證據包成立，沒有新紀錄。checker 全量前後都是 0；gate exit 0。
