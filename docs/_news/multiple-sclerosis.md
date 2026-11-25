@@ -13,15 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**2 articles** related to multiple sclerosis.
-
----
-
-### [About 1 in 4 mums still leak urine a year after childbirth. When should they see a doctor?](https://www.straitstimes.com/singapore/health/1-in-4-mums-still-leak-urine-a-year-after-childbirth-when-to-see-doctor-wendy-womens-clinic)
-
-2026-11-25
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/1-in-4-mums-still-leak-urine-a-year-after-childbirth-when-to-see-doctor-wendy-womens-clinic)
+**1 articles** related to multiple sclerosis.
 
 ---
 
