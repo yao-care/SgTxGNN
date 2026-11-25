@@ -178,13 +178,9 @@ def load_hsa(download):
     return rows
 
 
-def main(argv):
-    dry = "--dry-run" in argv
-    rep = argv[argv.index("--report") + 1] if "--report" in argv else None
-    only = [a for a in argv if not a.startswith("--") and a != rep]
-    rows = load_hsa("--skip-download" not in argv)
-    prods = {}
-    by_base = {}
+def index(rows):
+    """HSA 現行清單 → (prods {licence: {r, ings}}, by_base {去鹽鍵: {(licence, 鹽類字集合)}})（重建與每週補收共用）"""
+    prods, by_base = {}, {}
     for r in rows:
         lid = (r.get("LicenceNo") or "").strip()
         ings = [i.strip() for i in (r.get("Activeingredients") or "").split("&&") if i.strip()]
@@ -194,6 +190,43 @@ def main(argv):
         for i in ings:
             for b_, sw in product_keys(i):
                 by_base.setdefault(b_, set()).add((lid, sw))
+    return prods, by_base
+
+
+def match(b, page, by_base):
+    """證據包 → (比對方式, 鍵集合, 比對到的 licence 集合)"""
+    inn = (b.get("drug") or {}).get("inn") or page.replace("_", " ")
+    mode, terms = page_terms(inn)
+    hit = set()
+    for t in terms:
+        if mode == "salt":
+            hit |= {lid for lid, sw in by_base.get(t[0], set()) if t[1] <= sw}
+        else:
+            hit |= {lid for lid, _ in by_base.get(t, set())}
+            # 「-ic acid」＝「-ate」只認鹽（sodium valproate、mycophenolate sodium），不認酯類前驅藥（fenofibrate、mycophenolate mofetil）
+            for v in acid_ate(t) - {t}:
+                hit |= {lid for lid, sw in by_base.get(v, set()) if sw}
+    return mode, terms, hit
+
+
+def record(prods, lid):
+    r = prods[lid]["r"]
+    return {"license_id": lid, "brand_name_zh": r.get("Productname") or "", "brand_name_en": r.get("Productname") or "",
+            "ingredients": "&&".join(prods[lid]["ings"]), "indication": "", "dosage_form": r.get("Dosageform") or "",
+            "manufacturer": r.get("Manufacturer") or "", "license_holder": r.get("Licenseholder") or "",
+            "approval_date": r.get("Approvaldate") or "", "expiry_date": "", "status": "",
+            "forensic_classification": r.get("Forensicclassification") or "", "atc_code": r.get("ATCCode") or "",
+            "route_of_administration": r.get("RouteofAdministration") or "", "strength": r.get("Strength") or "",
+            "kind": "single" if len(prods[lid]["ings"]) == 1 else "combo",
+            "source": "HSA registered therapeutic products (data.gov.sg)"}
+
+
+def main(argv):
+    dry = "--dry-run" in argv
+    rep = argv[argv.index("--report") + 1] if "--report" in argv else None
+    only = [a for a in argv if not a.startswith("--") and a != rep]
+    rows = load_hsa("--skip-download" not in argv)
+    prods, by_base = index(rows)
     current = set(prods)
     out, held, n_changed, n_found, n_empty = [], [], 0, 0, 0
     for f in sorted(BUNDLES.glob("*/drug_bundle.json")):
@@ -202,17 +235,7 @@ def main(argv):
             continue
         b = json.loads(f.read_text(encoding="utf-8"))
         reg = b.get("tfda") or {}
-        inn = (b.get("drug") or {}).get("inn") or page.replace("_", " ")
-        mode, terms = page_terms(inn)
-        hit = set()
-        for t in terms:
-            if mode == "salt":
-                hit |= {lid for lid, sw in by_base.get(t[0], set()) if t[1] <= sw}
-            else:
-                hit |= {lid for lid, _ in by_base.get(t, set())}
-                # 「-ic acid」＝「-ate」只認鹽（sodium valproate、mycophenolate sodium），不認酯類前驅藥（fenofibrate、mycophenolate mofetil）
-                for v in acid_ate(t) - {t}:
-                    hit |= {lid for lid, sw in by_base.get(v, set()) if sw}
+        mode, terms, hit = match(b, page, by_base)
         terms = {" ".join(sorted(t[1])) + ":" + t[0] if isinstance(t, tuple) else t for t in terms}
         old_ids = sorted({str(r.get("license_id") or "").strip() for r in reg.get("records") or []} - {""})
         old_cur = sorted(set(old_ids) & current)
@@ -220,17 +243,7 @@ def main(argv):
             held.append(page)
             out.append(f"{page}\t{mode}:{'|'.join(sorted(terms))}\t{reg.get('total_matches')}\t{len(old_ids)}\t-\tHELD\t{';'.join(old_cur[:10])}\t")
             continue
-        recs = []
-        for lid in sorted(hit, key=lambda k: (len(prods[k]["ings"]), k)):
-            r = prods[lid]["r"]
-            recs.append({"license_id": lid, "brand_name_zh": r.get("Productname") or "", "brand_name_en": r.get("Productname") or "",
-                         "ingredients": "&&".join(prods[lid]["ings"]), "indication": "", "dosage_form": r.get("Dosageform") or "",
-                         "manufacturer": r.get("Manufacturer") or "", "license_holder": r.get("Licenseholder") or "",
-                         "approval_date": r.get("Approvaldate") or "", "expiry_date": "", "status": "",
-                         "forensic_classification": r.get("Forensicclassification") or "", "atc_code": r.get("ATCCode") or "",
-                         "route_of_administration": r.get("RouteofAdministration") or "", "strength": r.get("Strength") or "",
-                         "kind": "single" if len(prods[lid]["ings"]) == 1 else "combo",
-                         "source": "HSA registered therapeutic products (data.gov.sg)"})
+        recs = [record(prods, lid) for lid in sorted(hit, key=lambda k: (len(prods[k]["ings"]), k))]
         new = dict(reg, found=bool(recs), records=recs, total_matches=len(recs),
                    rebuilt="2026-11-06 by ingredient (HSA registered therapeutic products, data.gov.sg)")
         new_ids = [r["license_id"] for r in recs]

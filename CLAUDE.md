@@ -582,3 +582,14 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   `build_license_snapshot.py` 結尾會跑 sync_license_tables，所以每週排程之後也照同一規則補（排程 3a' 放行它改到的行；本站 adapter 沒有 sync_tables／PAGE_NOTE）。
 - gate 第 20 項（`src/sgtxgnn/regulatory/licenses.py` 第 5 條）：公開頁快照有程式表列、卻整頁沒有市場段落就擋。
 - 2026-11-24 全量量測 3 頁、補 3 頁：atorvastatin（58 張）、celecoxib（14 張）、clobetasol_propionate（16 張）；三頁正文的市場說法（「multiple single-ingredient licences」、「oral capsules」）對照證據包成立，沒有新紀錄。checker 全量前後都是 0；gate exit 0。
+
+## 每週補收 HSA 現行清單的新許可證（2026-11-25 第五輪）
+
+用戶 2026-11-25 決定（30 站「新許可補收接進每週排程」）：證據包是 2026-11-06 依成分重建的（`scripts/rebuild_licenses_by_ingredient.py`，不截斷），之後每週排程的 adapter 只確認號碼仍在列、不收新註冊，11-06 之後核准的本藥許可證進不了證據包。
+- `scripts/add_current_registrations.py [--skip-download] [--dry-run] [--report out.tsv]`：下載 HSA 現行清單（data.gov.sg，存 data/raw/sg_hsa_registered_products.csv，Release 帶著，含成分、品名、劑型），用重建的同一套規則（rebuild 的 `index`／`match`／`record`，這次抽成函式、重建行為不變，以 11-06 清單 dry-run 0 個證據包有變）重算每個證據包對到的現行許可證，
+  證據包還沒有的補一筆（欄位同重建，`source` 寫清單下載日與「same rule as the 2026-11-06 rebuild」、`added`＝補收日），total_matches 加補收筆數；只加不刪、可重複執行；records 不截斷，沒有筆數上限。
+  `.github/workflows/license-refresh.yml` 在 license_refresh 前跑（step `addreg`），有補收就照常發新 Release。
+- 2026-11-25 第一次跑：data.gov.sg 現行清單跟 11-06 那份逐位元組相同（5,511 張），補收 0 個證據包 0 筆；第二次跑 0 筆。以拿掉 hydrocortisone 證據包的 SIN17237P 試跑：補回 1 筆（附 source／added）、total_matches 還原、再跑 0 筆；之後還原原檔。
+- 跨站量測（measure-r4）列的 20 個證據包 21 筆（公開頁 hydrocortisone_succinate、hydrocortisone_acetate）逐筆看過，都是量測的比對比重建規則寬，不是漏收：不同鹽或酯（diclofenac_potassium←DICLOFENAC SODIUM、betamethasone_dipropionate←valerate、leuprorelin_acetate←mesilate）、
+  鹽類頁不收無鹽成分（hydrocortisone_succinate／acetate／sodium_succinate←「Hydrocortisone」ENCORT，已在 hydrocortisone 證據包；lidocaine_hcl 系列、prilocaine_hcl←Lidocaine&&Prilocaine 鹼基）、成分沒有本藥（l-cysteine、l-aspartic_acid、l-glutamic_acid←SIN17327P 心肌保護液）、
+  cetirizine_hcl←Cetirizine Dihydrochloride（已在 cetirizine、cetirizine_dihydrochloride 證據包）、劑量字串頁 rosuvastatin_calcium_20_8000mg…（頁名含 free acid、noindex）。頁面、證據包、快照都沒有變；checker 0、gate exit 0。
