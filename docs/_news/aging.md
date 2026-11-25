@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [6 things longevity experts wish people would stop saying](https://www.channelnewsasia.com/wellness/longevity-experts-advice-6472236)
 
-2026-11-24
+2026-11-25
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/longevity-experts-advice-6472236)
 
