@@ -19,7 +19,7 @@ permalink: /news/allergy/
 
 ### [When eczema disrupts daily life: What better symptom control means for patients](https://www.straitstimes.com/singapore/health/when-eczema-disrupts-daily-life-what-better-symptom-control-means-for-patients-pfizer)
 
-2026-11-24
+2026-11-25
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-eczema-disrupts-daily-life-what-better-symptom-control-means-for-patients-pfizer)
 
