@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [Active ageing programme, grocery distribution at Hindu temple draw seniors from minority groups](https://www.straitstimes.com/singapore/health/tailored-active-ageing-programme-grocery-distribution-at-hindu-temple-draw-minority-seniors)
 
-2026-11-25
+2026-11-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/tailored-active-ageing-programme-grocery-distribution-at-hindu-temple-draw-minority-seniors)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/tailored-a
 
 ### [6 things longevity experts wish people would stop saying](https://www.channelnewsasia.com/wellness/longevity-experts-advice-6472236)
 
-2026-11-25
+2026-11-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/longevity-experts-advice-6472236)
 

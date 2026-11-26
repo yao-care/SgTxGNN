@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Dancing to be prescribed for Parkinson’s disease patients at Alexandra Hospital](https://www.straitstimes.com/singapore/health/dancing-will-be-prescribed-for-parkinsons-disease-patients-at-alexandra-hospital)
 
-2026-11-25
+2026-11-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/dancing-will-be-prescribed-for-parkinsons-disease-patients-at-alexandra-hospital)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/dancing-wi
 
 ### [Vaccination rates among Singapore seniors more than double over past 5 years](https://www.straitstimes.com/singapore/health/vaccination-rates-among-singapore-seniors-more-than-double-over-past-5-years)
 
-2026-11-25
+2026-11-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/vaccination-rates-among-singapore-seniors-more-than-double-over-past-5-years)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/vaccinatio
 
 ### [Hotter than hot: Deep-sea vent worms hold key to studying fragile human proteins](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
 
-2026-11-25
+2026-11-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/hotter-tha
 
 ### [Active ageing programme, grocery distribution at Hindu temple draw seniors from minority groups](https://www.straitstimes.com/singapore/health/tailored-active-ageing-programme-grocery-distribution-at-hindu-temple-draw-minority-seniors)
 
-2026-11-25
+2026-11-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/tailored-active-ageing-programme-grocery-distribution-at-hindu-temple-draw-minority-seniors)
 
@@ -51,7 +51,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/tailored-a
 
 ### [Can creatine supplements make your brain stronger? Experts weigh the evidence](https://www.channelnewsasia.com/wellness/creatine-supplements-brain-benefits-6543726)
 
-2026-11-25
+2026-11-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/creatine-supplements-brain-benefits-6543726)
 

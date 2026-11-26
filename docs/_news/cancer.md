@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Does ethnicity affect the type of breast cancer you develop and how easily it's detected?](https://www.channelnewsasia.com/women/breast-cancer-ethnicity-singapore-6474356)
 
-2026-11-25
+2026-11-26
 
 Source: [CNA](https://www.channelnewsasia.com/women/breast-cancer-ethnicity-singapore-6474356)
 
@@ -27,7 +27,7 @@ Source: [CNA](https://www.channelnewsasia.com/women/breast-cancer-ethnicity-sing
 
 ### [A positive HPV test does not mean you have cervical cancer. Here's what to know](https://www.channelnewsasia.com/women/positive-hpv-test-cervical-cancer-risk-6527016)
 
-2026-11-25
+2026-11-26
 
 Source: [CNA](https://www.channelnewsasia.com/women/positive-hpv-test-cervical-cancer-risk-6527016)
 

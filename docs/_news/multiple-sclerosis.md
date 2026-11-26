@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Hotter than hot: Deep-sea vent worms hold key to studying fragile human proteins](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
 
-2026-11-25
+2026-11-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/hotter-than-hot-deep-sea-vent-worms-hold-key-to-studying-fragile-human-molecules)
 
