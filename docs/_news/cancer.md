@@ -13,7 +13,15 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
+**3 articles** related to cancer.
+
+---
+
+### [Tapping local anaesthetic method before prostate cancer treatment at TTSH cuts costs, recovery time](https://www.straitstimes.com/singapore/health/switching-to-local-anaesthetic-before-prostate-cancer-treatment-cuts-costs-and-recovery-time-for)
+
+2026-11-26
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/switching-to-local-anaesthetic-before-prostate-cancer-treatment-cuts-costs-and-recovery-time-for)
 
 ---
 
