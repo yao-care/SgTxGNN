@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [At 17, she had a stroke. Singapore is seeing more cases, especially among young adults](https://www.straitstimes.com/singapore/health/more-stroke-cases-in-ageing-singapore-cases-also-climbing-among-the-young-due-to-poor-diet-lifestyle)
 
-2026-11-27
+2026-11-28
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-stroke-cases-in-ageing-singapore-cases-also-climbing-among-the-young-due-to-poor-diet-lifestyle)
 
